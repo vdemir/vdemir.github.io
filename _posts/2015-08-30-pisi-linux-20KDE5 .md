@@ -11,8 +11,6 @@ category:   Dist
 
 ```8 Ağustos 2015 - Türkiye
 ``
-><br>
->8 Ağustos 2015 - Türkiye<br>
 
 
 
