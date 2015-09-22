@@ -3,14 +3,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Tom Preston-Werner</title>
+ <title>Vedat Demir</title>
  <link href="http://vdemir.github.io/atom.xml" rel="self"/>
  <link href="http://vdemir.github.io/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://vdemir.github.io/</id>
  <author>
-   <name>Tom Preston-Werner</name>
-   <email>tom@mojombo.com</email>
+   <name>Vedat Demir</name>
+   <email>vedat@pisilinux.org</email>
  </author>
 
  {% for post in site.posts %}
