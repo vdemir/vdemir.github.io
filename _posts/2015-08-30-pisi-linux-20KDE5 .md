@@ -8,8 +8,8 @@ category:   Dist
 ---
 
 **Pisi Linux 2.0 Deneme Sürümü Yayınlandı**
+8 Ağustos 2015 - Türkiye
 
-p(meta). 8 Ağustos 2015 - Türkiye
 
 
 
@@ -17,7 +17,9 @@ p(meta). 8 Ağustos 2015 - Türkiye
 
 Pisi Linux ekibinin çıkardığı ve geliştiricilerin test etmesi için yayınlanan KaraKedi kod adlı Alfa5 deneme sürümü yayınlandı. Bu deneme sürümünde öncekine göre birçok iyileştirme ve hata düzeltmeleri yapıldı. Bir önceki deneme sürümünden halihazırda yükseltmek için kullanabileceğiniz komut satırı şu şekildedir.
 
-'''sudo pisi up -dvsy'''
+```sudo pisi up -dvsy
+```
+
 
 ** Snapshots **
 
