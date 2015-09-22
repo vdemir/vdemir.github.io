@@ -1,13 +1,13 @@
 ---
 layout:     post
 image:      (/assets/7329803.png)
-title:      "Pisi Linux 2.0 Deneme Sürümü Yayınlandı."
+title:      "Pisi Linux 2.0Alfa5 Deneme Sürümü Yayınlandı."
 date:       2015-09-30 12:00:00
 tags:       distribution pisilinux 2.0 KaraKedi iso
 category:   Dist
 ---
 
-**Pisi Linux 2.0 Deneme Sürümü Yayınlandı**
+**Pisi Linux 2.0Alfa5 Deneme Sürümü Yayınlandı**
 
 ```8 Ağustos 2015 - Türkiye
 ```
