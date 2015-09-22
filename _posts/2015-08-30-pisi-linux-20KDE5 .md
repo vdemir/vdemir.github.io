@@ -32,7 +32,7 @@ Pisi Linux dağıtımını kararlı sürümleri:
 
 |      Sürüm         | Takma Adı    | Çıkış Tarihi | İndirme Bağlantısı                                   |
 |--------------------|--------------|--------------|------------------------------------------------------|
-| Pisi Linux 1.0     |  Kararlı     | 14.08.2014   | http://sourceforge.net/projects/pisilinux/files/1.0/ |
-| Pisi Linux 1.1     |  Kararlı     | 04.11.2014   | http://sourceforge.net/projects/pisilinux/files/1.1/ |
-| Pisi Linux 1.2     |  Kararlı     | 10.07.2015   | http://sourceforge.net/projects/pisilinux/files/1.2/ |
+| Pisi Linux 1.0    |  Kararlı    | 14.08.2014   | http://sourceforge.net/projects/pisilinux/files/1.0/ |
+| Pisi Linux 1.1    |  Kararlı     | 04.11.2014   | http://sourceforge.net/projects/pisilinux/files/1.1/ |
+| Pisi Linux 1.2    |  Kararlı     | 10.07.2015   | http://sourceforge.net/projects/pisilinux/files/1.2/ |
 
