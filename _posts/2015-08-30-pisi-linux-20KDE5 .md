@@ -10,7 +10,7 @@ category:   Dist
 **Pisi Linux 2.0 Deneme Sürümü Yayınlandı**
 
 ```8 Ağustos 2015 - Türkiye
-``
+```
 
 
 
