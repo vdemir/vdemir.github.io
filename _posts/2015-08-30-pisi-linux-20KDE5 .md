@@ -40,6 +40,3 @@ Pisi Linux dağıtımını kararlı sürümleri:
 | Pisi Linux 1.2 Xfce    |- 21.09.2015   |- [Pisi Linux 1.2](http://sourceforge.net/projects/pisilinux/files/1.2/)|
 
 ---
-
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/us/80x15.png" /></a>
