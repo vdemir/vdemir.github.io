@@ -15,7 +15,7 @@ category:   Dist
 
 
 
-**Pisi Linux 2.0Alfa5**
+***Pisi Linux 2.0Alfa5***
 
 Pisi Linux ekibinin çıkardığı ve geliştiricilerin test etmesi için yayınlanan KaraKedi kod adlı Alfa5 deneme sürümü yayınlandı. Bu deneme sürümünde öncekine göre birçok iyileştirme ve hata düzeltmeleri yapıldı. Bir önceki deneme sürümünden halihazırda yükseltmek için kullanabileceğiniz komut satırı şu şekildedir.
 
@@ -23,11 +23,11 @@ Pisi Linux ekibinin çıkardığı ve geliştiricilerin test etmesi için yayın
 ```
 
 
-** Snapshots **
+*** Snapshots ***
 
 ![_config.yml]({{ site.baseurl }}/images/snapshot1.png)
 
-** Distributed **
+*** Distributed ***
 
 Pisi Linux dağıtımını kararlı sürümleri:
 
