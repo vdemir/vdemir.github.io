@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pisi Linux 1.2 XFCE masaüstü kalıbı yayınlandı
+title: Pisi Linux 1.2 XFCE Masaüstü Kalıbı Yayınlandı
 ---
 
 **Pisi Linux 1.2 XFCE masaüstü kalıbı yayınlandı**
