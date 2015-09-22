@@ -27,89 +27,30 @@ h2. Branches
 
 ...
 ....
-
-Since the release, you've created 10 new snapshots. This new work must not be included in the 1.0.1 bug fix version you now need to create. To solve this, you copy <code>snapshot-99</code> to <code>working</code> so that your working directory is at exactly the point where Version 1.0 was released. A few swift lines of code and the bug is fixed in the working directory.
-
-It is here that a problem becomes apparent. The VCS deals very well with linear development, but for the first time ever, you need to create a new snapshot that is not a direct descendent of the preceding snapshot. If you create a <code>snapshot-110</code> (remember that you created 10 snapshots since the release), then you'll be interrupting the linear flow and will have no way of determining the ancestry of any given snapshot. Clearly, you need something more powerful than a linear system.
-...
-..! It turns out that what they say about nature and creativity are true.
-
-By looking at your code history as a tree, solving the problem of ancestry becomes trivial. All you need to do is include the name of the parent snapshot in the <code>message</code> file you write for each snapshot. Adding just a single upstream pointer will enable you to easily and accurately trace the history of any given snapshot all the way back to the root.
+ <code>snapshot-99</code> to <code>working</code> so t
 
 h2. Branch Names
 
-Your code history is now a tree. Instead of having a single latest snapshot, you have two: one for each branch. With a linear system, your sequential numbering system let you easily identify the latest snapshot. Now, that ability is lost.
-
-Creating new development branches has become so simple that you'll want to take advantage of it all the time. You'll be creating branches for fixes to old releases, for experiments that may not pan out; indeed it becomes possible to create a new branch for every feature you begin!
-
-But like everything good in life, there is a price to be paid. Each time you create a new snapshot, you must remember that the new snapshot becomes the latest on its branch. Without this information, switching to a new branch would become a laborious process indeed.
-
-Every time you create a new branch you probably give it a name in your head. "This will be the Version 1.0 Maintenance Branch," you might say. Perhaps you refer to the former linear branch as the "master" branch.
-
-Think about this a little further, though. From the perspective of a tree, what does it mean to name a branch? Naming every snapshot that appears in the history of a branch would do the trick, but requires the storage of a potentially large amount of data. Additionally, it still wouldn't help you efficiently locate the latest snapshot on a branch.
-
-The least amount of information necessary to identify a branch is the location of the latest snapshot on that branch. If you need to know the list of snapshots that are part of the branch you can easily trace the parentage.
-
-Storing the branch names is trivial. In a file named <code>branches</code>, stored outside of any specific snapshot, you simply list the name/snapshot pairs that represent the tips of branches. To switch to a named branch you need only look up the snapshot for the corresponding name from this file.
-
-Because you're only storing the latest snapshot on each branch, creating a new snapshot now contains an additional step. If the new snapshot is being created as part of a branch, the <code>branches</code> file must be updated so that the name of the branch becomes associated with the new snapshot. A small price to pay for the benefit.
 
 h2. Tags
 
-After using branches for a while you notice that they can serve two purposes. First, they can act as movable pointers to snapshots so that you can keep track of the branch tips. Second, they can be pointed at a single snapshot and never move.
-
-The first use case allows you to keep track of ongoing development, things like "Release Maintenance". The second case is useful for labeling points of interest, like "Version 1.0" and "Version 1.0.1".
-
-Mixing both of these uses into a single file feels messy. Both types are pointers to snapshots, but one moves and one doesn't. For the sake of clarity and elegance, you decide to create another file called <code>tags</code> to contain pointers of the second type.
-
-Keeping these two inherently different pointers in separate files will help you from accidentally treating a branch as a tag or vice versa.
 
 h2. Distributed
 
-Working on your own gets pretty lonely. Wouldn't it be nice if you could invite a friend to work on your project with you? Well, you're in luck. Your friend Zoe has a computer setup just like yours and wants to help with the project. Because you've created such a great version control system, you tell her all about it and send her a copy of all your snapshots, branches, and tags so she can enjoy the same benefits of the code history.
-
-It's great to have Zoe on the team but she has a habit of taking long trips to far away places without internet access. As soon as she has the source code, she catches a flight to Patagonia and you don't hear from her for a week. In the meantime you both code up a storm. When she finally gets back, you discover a critical flaw in your VCS. Because you've both been using the same numbering system, you each have directories named 'snapshot-114', 'snapshot-115', and so on, but with different contents!
-
-To make matters worse, you don't even know who authored the changes in those new snapshots. Together, you devise a plan for dealing with these problems. First, snapshot messages will henceforth contain author name and email. Second, snapshots will no longer be named with simple numbers. Instead, you'll use the contents of the message file to produce a hash. This hash will be guaranteed to be unique to the snapshot since no two messages will ever have the same date, message, parent, and author. To make sure everything goes smoothly, you both agree to use the SHA1 hash algorithm that takes the contents of a file and produces a 40 character hexadecimal string. You both update your histories with the new technique and instead of clashing 'snapshot-114' directories, you now have distinct directories named '8ba3441b6b89cad23387ee875f2ae55069291f4b' and 'db9ecb5b5a6294a8733503ab57577db96ff2249e'.
-
-With the updated naming scheme, it becomes trivial for you to fetch all the new snapshots from Zoe's computer and place them next to your existing snapshots. Because every snapshot specifies its parent, and identical messages (and therefor identical snapshots) have identical names no matter where they are created, the history of the codebase can still be drawn as a tree. Only now, the tree is comprised of snapshots authored by both Zoe and you.
-
-This point is important enough to warrant repeating. A snapshot is identified by a SHA1 that uniquely identifies it (and its parent). These snapshots can be created and moved around between computers without losing their identity or where they belong in the history tree of a project. What's more, snapshots can be shared or kept private as you see fit. If you have some experimental snapshots that you want to keep to yourself, you can do so quite easily. Just don't make them available to Zoe!
 
 h2. Offline
 
-Zoe's travel habits cause her to spend countless hours on airplanes and boats. Most of the places she visits have no readily available internet access. At the end of the day, she spends more time offline than online.
-
-It's no surprise, then, that Zoe raves about your VCS. All of the day to day operations that she needs to do can be done locally. The only time she needs a network connection is when she's ready to share her snapshots with you.
-
 h2. Merges
 
-Before Zoe left on her trip, you had asked her to start working off of the branch named 'math' and to implement a function that generated prime numbers. Meanwhile, you were also developing off of the 'math' branch, only you were writing a function to generate magic numbers. Now that Zoe has returned, you are faced with the task of merging these two separate branches of development into a single snapshot. Since you both worked on separate tasks, the merge is simple. While constructing the snapshot message for the merge, you realize that this snapshot is special. Instead of just a single parent, this merge snapshot has two parents! The first parent is your latest on the 'math' branch and the second parent is Zoe's latest on her 'math' branch. The merge snapshot doesn't contain any changes beyond those necessary to merge the two disparate parents into a single codebase.
-
-Once you complete the merge, Zoe fetches all the snapshots that you have that she does not, which include your development on the 'math' branch and your merge snapshot. Once she does this, both of your histories match exactly!
 
 h2. Rewriting History
 ..
-
-Let's say the branch on which you did your drunken development is called 'drunk' and you made three snapshots after you got home from the bar. If the name 'drunk' points at the latest snapshot on that branch, then you can use a useful notation to refer to the parent of that snapshot. The notation 'drunk^' means the parent of the snapshot pointed to by the branch name 'drunk'. Similarly 'drunk^^' means the grandparent of the 'drunk' snapshot. So the three snapshots in chronological order are 'drunk^^', 'drunk^', and 'drunk'.
-
-You'd really like those three lousy snapshots to be two clean snapshots. One that changes an existing function, and one that adds a new file. To accomplish this revision of history you copy 'drunk' to 'working' and delete the file that is new in the series. Now 'working' represents the correct modifications to the existing function. You create a new snapshot from 'working' and write the message to be appropriate to the changes. For the parent you specify the SHA1 of the 'drunk^^^' snapshot, essentially creating a new branch off of the same snapshot as last night. Now you can copy 'drunk' to 'working' and roll a snapshot with the new file addition. As the parent you specify that snapshot you created just before this one.
-
-As the last step, you change the branch name 'drunk' to point to the last snapshot you just made.
-
-The history of the 'drunk' branch now represents a nicer version of what you did last night. The other snapshots that you've replaced are no longer needed so you can delete them or just leave them around for posterity. No branch names are currently pointing at them so it will be hard to find them later on, but if you don't delete them, they'll stick around.
+....
 
 h2. Staging Area
 
-As much as you try to keep your new modifications related to a single feature or logical chunk, you sometimes get sidetracked and start hacking on something totally unrelated. Only half-way into this do you realize that your working directory now contains what should really be separated as two discrete snapshots.
+<code>README</code>.  <code>staging</code>.  <code>README</code>. 
 
-To help you with this annoying situation, the concept of a staging directory is useful. This area acts as an intermediate step between your working directory and a final snapshot. Each time you finish a snapshot, you also copy that to a <code>staging</code> directory. Now, every time you finish an edit to a new file, create a new file, or remove a file, you can decide whether that change should be part of your next snapshot. If it belongs, you mimic the change inside <code>staging</code>. If it doesn't, you can leave it in <code>working</code> and make it part of a later snapshot. From now on, snapshots are created directly from the staging directory.
-
-This separation of coding and preparing the stage makes it easy to specify what is and is not included in the next snapshot. You no longer have to worry too much about making an accidental, unrelated change in your working directory.
-
-You have to be a bit careful, though. Consider a file named <code>README</code>. You make an edit to this file and then mimic that in <code>staging</code>. You go on about your business, editing other files. After a bit, you make another change to <code>README</code>. Now you have made two changes to that file, but only one is in the staging area! Were you to create a snapshot now, your second change would be absent.
-
-The lesson is this: every new edit must be added to the staging area if it is to be part of the next snapshot.
 
 h2. Diffs
 ...
@@ -120,15 +61,7 @@ h2. Eliminating Duplication
 
 h2. Compressing Blobs
 
-Eliminating blob and tree duplication significantly reduces the total storage size of your project history, but that's not the only thing you can do to save space. Source code is just text. Text can be very efficiently compressed using something like the LZW or DEFLATE compression algorithms. If you compress every blob before computing its SHA1 and saving it to disk you can reduce the total storage size of the project history by another very admirable quantity.
-
 h2. The True Git
-
-The VCS you have constructed is now a reasonable facsimile of Git. The main difference is that Git gives you very nice command lines tools to handle such things as creating new snapshots and switching to old ones (Git uses the term "commit" instead of "snapshot"), tracing history, keeping branch tips up-to-date, fetching changes from other people, merging and diffing branches, and hundreds of other common (and not-so-common tasks).
-
-As you continue to learn Git, keep this parable in mind. Git is really very simple underneath, and it is this simplicity that makes it so flexible and powerful. One last thing before you run off to learn all the Git commands: remember that it is almost impossible to lose work that has been committed. Even when you delete a branch, all that's really happened is that the pointer to that commit has been removed. All of the snapshots are still in the objects directory, you just need to dig up the commit SHA. In these cases, look up <code>git reflog</code>. It contains a history of what each branch pointed to and in times of crisis, it will save the day.
-
-Here are some resources that you should follow as your next step. Now, go, and become a Git master!
 
 * "Learn Git":http://learn.github.com/
 * "Git Community Book":http://book.git-scm.com/
