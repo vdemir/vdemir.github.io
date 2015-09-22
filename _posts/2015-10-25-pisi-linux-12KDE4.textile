@@ -13,7 +13,7 @@ Pisi Linux 1.2 XFCE masaüstü kalıbı yayınlandı.
 h2. Snapshots
 
 
-![_config.yml]({{ site.baseurl }}/images/Pisi-Linux-Xfce_1.jpg)
+![PisiLinux-XFCE]({{ site.baseurl }}/images/Pisi-Linux-Xfce_1.jpg)
 
 
 --
