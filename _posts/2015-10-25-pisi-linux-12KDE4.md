@@ -16,6 +16,16 @@ Pisi Linux 1.2 serisinin için mevcut olan XFCE paketleri ile kurulabilen bir ka
 
 ![_config.yml]({{ site.baseurl }}/images/Pisi-Linux-Xfce_1.jpg)
 
+*** Distributed ***
+
+Pisi Linux dağıtımını kararlı sürümleri:
+
+| Sürüm                  |- Çıkış Tarihi |- İndirme Bağlantısı |
+|------------------------|---------------|---------------------|
+| Pisi Linux 1.0         |- 14.08.2014   |- [Pisi Linux 1.0](http://sourceforge.net/projects/pisilinux/files/1.0/)|
+| Pisi Linux 1.1         |- 04.11.2014   |- [Pisi Linux 1.1](http://sourceforge.net/projects/pisilinux/files/1.1/)|
+| Pisi Linux 1.2         |- 10.07.2015   |- [Pisi Linux 1.2](http://sourceforge.net/projects/pisilinux/files/1.2/)|
+| Pisi Linux 2.0Alfa5    |- 30.08.2015   |- [Pisi Linux 2.0Alfa5](https://openload.co/f/vuimrNgPjSE/Pisi-Linux-2.0-Alfa5-KDE5-KaraKedi-x86_64.iso)|
 
 ---
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/us/80x15.png" /></a>
