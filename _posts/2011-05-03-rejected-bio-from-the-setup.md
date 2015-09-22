@@ -9,7 +9,7 @@ title: Rejected Bio from The Setup
 <p class="meta">03 May 2011 - San Francisco</p>
 
 Yesterday, [the autobiographical post I wrote for The
-Setup](http://tom.preston-werner.usesthis.com/) went live. I wrote that post
+Setup](http://vdemir.github.io/) went live. I wrote that post
 over a year ago and then entered into an epic battle with
 [@waferbaby](http://twitter.com/#!/waferbaby) about the length of my "Who are
 you, and what do you do?" section. He said it was too long. I said it could
@@ -22,7 +22,7 @@ For your pleasure, here is the original bio in its full, unabridged glory.
 
 <hr />
 
-My name is Tom Preston-Werner. I find that the hyphenated last name
+My name is Vedat Demir. I find that the hyphenated last name
 makes me sound distinguished and worth listening to. I grew up three
 decades ago in a small city in Iowa along the Mississippi, which means
 I shucked a lot of corn and know exactly how many mosquitos will land
@@ -102,7 +102,7 @@ employee with a big retention bonus and give up GitHub or turn down
 the Microsoft money and quit Powerset to work on GitHub full-time. You
 can read more about this saga in my blog post entitled [How I Turned
 Down $300,000 from Microsoft to go Full-Time on
-GitHub](http://tom.preston-werner.com/2008/10/18/how-i-turned-down-300k.html).
+GitHub](http://vdemir.github.io).
 I think I made the right decision.
 
 Today GitHub has twenty-nine employees and more than 730,000 users with over

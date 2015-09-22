@@ -46,7 +46,7 @@ future.
 
 Since the early days of GitHub, I've wanted to create a different kind of
 business. One that was [Optimized for
-Happiness](http://tom.preston-werner.com/2010/10/18/optimize-for-happiness.html)
+Happiness](vdemir.github.io)
 and built atop a [Framework of
 Happiness](https://www.youtube.com/watch?v=i0FzgvYxdvk). One where great people
 could work on hard problems together to create unbelievably good products. I
