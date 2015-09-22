@@ -5,7 +5,7 @@ title: Pisi Linux 2.0 Deneme Sürümü Yayınlandı.
 
 h1. {{ page.title }}
 
-p(meta). 8 Ağustos 2015 - Türkiye
+p(meta). 8 Agustos 2015 - Türkiye
 
 Pisi Linux 2.0 Deneme Sürümü Yayınlandı.
 
