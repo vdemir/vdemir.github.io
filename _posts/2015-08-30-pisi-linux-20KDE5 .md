@@ -18,5 +18,4 @@ Pisi Linux ekibinin çıkardığı ve geliştiricilerin test etmesi için yayın
 
 h2. Snapshots
 
-
 ![My helpful screenshot](/assets/snapshot1.png)
