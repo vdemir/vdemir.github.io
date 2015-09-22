@@ -7,9 +7,6 @@ h1. {{ page.title }}
 
 p(meta). 8 Ağustos 2015 - Türkiye
 
-Pisi Linux 2.0 Deneme Sürümü Yayınlandı.
-
-...
 h2. Pisi Linux 2.0
 
 Pisi Linux ekibinin çıkardığı ve geliştiricilerin test etmesi için yayınlanan KaraKedi kod adlı Alfa5 deneme sürümü yayınlandı. Bu deneme sürümünde öncekine göre birçok iyileştirme ve hata düzeltmeleri yapıldı. Bir önceki deneme sürümüne halihazırda yükseltmek için kullanabileceğiz komut satırı şu şekildedir.
@@ -17,8 +14,3 @@ Pisi Linux ekibinin çıkardığı ve geliştiricilerin test etmesi için yayın
 <code>sudo pisi up -dvsy</code>
 
 h2. Snapshots
-
-...
-
-..
-.<code>snapshot-1</code>,...
