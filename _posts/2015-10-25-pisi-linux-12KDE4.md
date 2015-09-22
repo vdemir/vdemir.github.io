@@ -14,7 +14,7 @@ Pisi Linux 1.2 serisinin için mevcut olan XFCE paketleri ile kurulabilen bir ka
 ***Snapshots***
 
 
-![_config.yml]({{ site.baseurl }}/images/Pisi-Linux-Xfce_1.jpg)
+![_config.yml]({{ site.baseurl }}/images/Pisi-Linux-Xfce_1.png)
 
 *** Distributed ***
 
