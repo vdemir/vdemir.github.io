@@ -7,7 +7,7 @@ tags:       distribution pisilinux 2.0 KaraKedi iso
 category:   Dist
 ---
 
-** {{ page.title }} **
+**Pisi Linux 2.0 Deneme Sürümü Yayınlandı**
 
 p(meta). 8 Ağustos 2015 - Türkiye
 
