@@ -1,5 +1,6 @@
 ---
 layout: post
+image: /assets/7329803.png
 title: Pisi Linux 2.0 Deneme Sürümü Yayınlandı.
 ---
 
