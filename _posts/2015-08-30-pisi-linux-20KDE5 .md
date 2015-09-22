@@ -18,4 +18,6 @@ Pisi Linux ekibinin çıkardığı ve geliştiricilerin test etmesi için yayın
 
 h2. Snapshots
 
-![My helpful screenshot](/assets/scraping-1.png)
+
+
+![_config.yml]({{ site.baseurl }}/images/scraping-1.png)
