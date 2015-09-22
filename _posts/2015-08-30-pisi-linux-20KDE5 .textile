@@ -16,3 +16,5 @@ Pisi Linux ekibinin çıkardığı ve geliştiricilerin test etmesi için yayın
 <code>sudo pisi up -dvsy</code>
 
 h2. Snapshots
+
+[My helpful screenshot]({{ site.url }}/assets/snapshot1.png)
