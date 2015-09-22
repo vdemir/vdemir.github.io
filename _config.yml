@@ -4,5 +4,5 @@ avatar: https://avatars1.githubusercontent.com/u/7329803?v=3&s=460
 footer-links:
     email: vedat@pisilinux.org
     github: vdemir
-#markdown: rdiscount
+markdown: rdiscount
 highlighter: pygments
