@@ -26,7 +26,7 @@ Pisi Linux ekibinin çıkardığı ve geliştiricilerin test etmesi için yayın
 
 ![_config.yml]({{ site.baseurl }}/images/snapshot1.png)
 
-## Distributed
+** Distributed **
 
 Pisi Linux dağıtımını kararlı sürümleri:
 
