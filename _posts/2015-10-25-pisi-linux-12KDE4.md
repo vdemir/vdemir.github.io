@@ -3,14 +3,15 @@ layout: post
 title: Pisi Linux 1.2 XFCE masaüstü kalıbı yayınlandı
 ---
 
-h1. {{ page.title }}
+**Pisi Linux 1.2 XFCE masaüstü kalıbı yayınlandı**
 
-p(meta). 25 Eylül 2015 - Türkiye
+'''25 Eylül 2015 - Türkiye
+'''
 
 Pisi Linux 1.2 XFCE masaüstü kalıbı yayınlandı.
 
 
-h2. Snapshots
+***Snapshots***
 
 
 ![PisiLinux-XFCE]({{ site.baseurl }}/images/Pisi-Linux-Xfce_1.jpg)
