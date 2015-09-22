@@ -7,7 +7,6 @@ h1. {{ page.title }}
 
 p(meta). 8 Agustos 2015 - Türkiye
 
-Pisi Linux 2.0 Deneme Sürümü Yayınlandı.
 
 
 h2. Pisi Linux 2.0
@@ -17,8 +16,3 @@ Pisi Linux ekibinin çıkardığı ve geliştiricilerin test etmesi için yayın
 <code>sudo pisi up -dvsy</code>
 
 h2. Snapshots
-
-...
-
-..
-.<code>snapshot-1</code>,...
