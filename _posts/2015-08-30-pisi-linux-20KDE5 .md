@@ -1,13 +1,13 @@
 ---
 layout:     post
 image:      (/assets/7329803.png)
-title:      "Pisi Linux 2.0Alfa5 Deneme Sürümü Yayınlandı"
+title:      "Pisi Linux 2.0Alfa5 KDE Deneme Sürümü Yayınlandı"
 date:       2015-09-30 12:00:00
 tags:       distribution pisilinux 2.0 KaraKedi iso
 category:   Dist
 ---
 
-**Pisi Linux 2.0Alfa5 Deneme Sürümü Yayınlandı**
+**Pisi Linux 2.0Alfa5 KDE Deneme Sürümü Yayınlandı**
 
 ```8 Ağustos 2015 - Türkiye
 ```
@@ -37,7 +37,7 @@ Pisi Linux dağıtımını kararlı sürümleri:
 | Pisi Linux 1.1         |- 04.11.2014   |- [Pisi Linux 1.1](http://sourceforge.net/projects/pisilinux/files/1.1/)|
 | Pisi Linux 1.2 KDE     |- 10.07.2015   |- [Pisi Linux 1.2](http://sourceforge.net/projects/pisilinux/files/1.2/)|
 | Pisi Linux 2.0Alfa5    |- 30.08.2015   |- [Pisi Linux 2.0Alfa5](https://openload.co/f/vuimrNgPjSE/Pisi-Linux-2.0-Alfa5-KDE5-KaraKedi-x86_64.iso)|
-| Pisi Linux 1.2 XFCE    |- 21.09.2015   |- [Pisi Linux 1.2](http://sourceforge.net/projects/pisilinux/files/1.2/)|
+| Pisi Linux 1.2 Xfce    |- 21.09.2015   |- [Pisi Linux 1.2](http://sourceforge.net/projects/pisilinux/files/1.2/)|
 
 ---
 

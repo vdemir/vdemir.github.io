@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Pisi Linux 1.2 XFCE Masaüstü Kalıbı Yayınlandı
+title: Pisi Linux 1.2 Xfce Masaüstü Kalıbı Yayınlandı
 ---
 
-**Pisi Linux 1.2 XFCE masaüstü kalıbı yayınlandı**
+**Pisi Linux 1.2 Xfce masaüstü kalıbı yayınlandı**
 
 ```25 Eylül 2015 - Türkiye
 ```
@@ -24,8 +24,10 @@ Pisi Linux dağıtımını kararlı sürümleri:
 |------------------------|---------------|---------------------|
 | Pisi Linux 1.0         |- 14.08.2014   |- [Pisi Linux 1.0](http://sourceforge.net/projects/pisilinux/files/1.0/)|
 | Pisi Linux 1.1         |- 04.11.2014   |- [Pisi Linux 1.1](http://sourceforge.net/projects/pisilinux/files/1.1/)|
-| Pisi Linux 1.2         |- 10.07.2015   |- [Pisi Linux 1.2](http://sourceforge.net/projects/pisilinux/files/1.2/)|
+| Pisi Linux 1.2 KDE     |- 10.07.2015   |- [Pisi Linux 1.2](http://sourceforge.net/projects/pisilinux/files/1.2/)|
 | Pisi Linux 2.0Alfa5    |- 30.08.2015   |- [Pisi Linux 2.0Alfa5](https://openload.co/f/vuimrNgPjSE/Pisi-Linux-2.0-Alfa5-KDE5-KaraKedi-x86_64.iso)|
+| Pisi Linux 1.2 Xfce    |- 21.09.2015   |- [Pisi Linux 1.2](http://sourceforge.net/projects/pisilinux/files/1.2/)|
+
 
 ---
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/us/80x15.png" /></a>
