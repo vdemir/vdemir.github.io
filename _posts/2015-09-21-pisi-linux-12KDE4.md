@@ -5,7 +5,7 @@ title: Pisi Linux 1.2 Xfce Masaüstü Kalıbı Yayınlandı
 
 **Pisi Linux 1.2 Xfce masaüstü kalıbı yayınlandı**
 
-```25 Eylül 2015 - Türkiye
+```21 Eylül 2015 - Türkiye
 ```
 
 Pisi Linux 1.2 serisinin için mevcut olan XFCE paketleri ile kurulabilen bir kalıp hazırlandı ve yayınlandı. Diğer masaüstüler içinde -örneğin LxQT, gnome, openbox için- önümüzdeki günlerde kalıpların yayınlanmasını bekliyoruz.
