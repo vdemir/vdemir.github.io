@@ -29,7 +29,7 @@ Pisi Linux ekibinin çıkardığı ve geliştiricilerin test etmesi için yayın
 
 *** Distributed ***
 
-Pisi Linux dağıtımını kararlı sürümleri:
+Pisi Linux dağıtımının kararlı sürümleri:
 
 | Sürüm                  |- Çıkış Tarihi |- İndirme Bağlantısı |
 |------------------------|---------------|---------------------|

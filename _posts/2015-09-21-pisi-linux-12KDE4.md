@@ -18,7 +18,7 @@ Pisi Linux 1.2 serisinin için mevcut olan XFCE paketleri ile kurulabilen bir ka
 
 *** Distributed ***
 
-Pisi Linux dağıtımını kararlı sürümleri:
+Pisi Linux dağıtımının kararlı sürümleri:
 
 | Sürüm                  |- Çıkış Tarihi |- İndirme Bağlantısı |
 |------------------------|---------------|---------------------|

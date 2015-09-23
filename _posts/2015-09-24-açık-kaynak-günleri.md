@@ -20,7 +20,7 @@ Bu sene Pisi Linux ekibininde katılacağı etkinlik 11 Ekim Pazar günü Ankara
 
 *** Distributed ***
 
-Pisi Linux dağıtımını kararlı sürümleri:
+Pisi Linux dağıtımının kararlı sürümleri:
 
 | Sürüm                  |- Çıkış Tarihi |- İndirme Bağlantısı |
 |------------------------|---------------|---------------------|

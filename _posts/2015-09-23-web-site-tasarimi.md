@@ -20,7 +20,7 @@ Pisi Linux web sitesi statik öğelerin olduğu yeni içeriğiyle tasarlanmaya b
 
 *** Distributed ***
 
-Pisi Linux dağıtımını kararlı sürümleri:
+Pisi Linux dağıtımının kararlı sürümleri:
 
 | Sürüm                  |- Çıkış Tarihi |- İndirme Bağlantısı |
 |------------------------|---------------|---------------------|
