@@ -11,7 +11,7 @@ category:   Web
 ```24 Eylül 2015 - Türkiye
 ```
 
-Bu sene Pisi Linux ekibininde katılacağı etkinlik 11 Ekim Pazar günü Ankara'da düzenleniyor. Pisi Linux dağıtımı ve projelerinin de tanıtılacağı etkinlikte birde atölye çalışması yapılacak. Katılımın yüksek olacağını düşünerek arkadaşlarımıza kolaylıklar diliyorum. Her ne kadar katılamasakta etkinliğin çok güzel faaliyetlerde geçeceğini aklımızın ve gönlümüzün onlarla olacağını söyleyebilirim.
+Bu sene Pisi Linux ekibininde katılacağı etkinlik 11 Ekim Pazar günü Ankara'da düzenleniyor. Pisi Linux dağıtımı ve projelerinin de tanıtılacağı etkinlikte birde atölye çalışması yapılacak. Katılımın yüksek olacağını düşünerek arkadaşlarımıza kolaylıklar diliyorum. Her ne kadar katılamasakta etkinliğin çok güzel geçeceğini tahmin ediyorum.
 
 
 ***Snapshots***
