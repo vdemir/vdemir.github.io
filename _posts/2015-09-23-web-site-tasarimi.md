@@ -16,6 +16,7 @@ Pisi Linux web sitesi statik öğelerin olduğu yeni içeriğiyle tasarlanmaya b
 
 ***Snapshots***
 
+{% youtube oHg5SJYRHA0 %}
 
 ![_config.yml]({{ site.baseurl }}/images/web-site.png)
 
