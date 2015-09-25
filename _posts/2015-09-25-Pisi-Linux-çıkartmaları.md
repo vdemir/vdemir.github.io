@@ -16,6 +16,7 @@ Pisi Linux tanıtımı için tasarlanan çıkartma örneklerinden bazılarını 
 ***Snapshots***
 
 ![_config.yml]({{ site.baseurl }}/assets/Pisi-Linux-600x600-1.png)
+![_config.yml]({{ site.baseurl }}/assets/Pisi-Linux-600x600-2.png)
 
 *** Distributed ***
 
