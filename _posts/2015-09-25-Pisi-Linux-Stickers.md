@@ -11,7 +11,7 @@ category:   Web
 ```25 Eylül 2015 - Türkiye
 ```
 
-Pisi Linux tanıtımı için tasarlanan çıkartma örnekleri GİMP kuulanılarak hazırlandı. 
+Pisi Linux tanıtımı için tasarlanan çıkartma örnekleri GİMP kullanılarak hazırlandı. 
 
 ***Snapshots***
 
