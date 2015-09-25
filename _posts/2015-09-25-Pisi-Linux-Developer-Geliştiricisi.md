@@ -17,7 +17,7 @@ Geliştirici olmak isteyen, yazılım konusuna ilgi duyan, tasarım kabiliyeti o
 
 ***Snapshots***
 
-![_config.yml]({{ site.baseurl }}/assets/snapshot10.bmp)
+![_config.yml]({{ site.baseurl }}/images/snapshot10.bmp)
 
 *** Distributed ***
 
