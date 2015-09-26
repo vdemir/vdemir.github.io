@@ -12,7 +12,7 @@ tags:   Pisi Linux Renkli Stickers Çıkartma
 
 Pisi Linux tanıtımı için tasarlanan renkli çıkartma örnekleri GIMP kullanılarak hazırlandı. 
 
-[Siyah-Beyaz Çıkartmalar](https://vdemir.github.io/2015/09/25/Pisi-Linux-Cikartmalari-Hazir.html)
+***[Siyah-Beyaz Çıkartmalar](https://vdemir.github.io/2015/09/25/Pisi-Linux-Cikartmalari-Hazir.html)***
 
 ***Snapshots***
 
