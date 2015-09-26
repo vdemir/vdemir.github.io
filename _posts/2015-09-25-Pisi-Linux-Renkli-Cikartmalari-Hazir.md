@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Pisi Linux Renkli Stickers Çıkartmaları Hazır
+title:  Pisi Linux Renkli Çıkartmalar Hazır
 date:   2015-09-26 08:00:00
 tags:   Pisi Linux Renkli Stickers Çıkartma
 ---
