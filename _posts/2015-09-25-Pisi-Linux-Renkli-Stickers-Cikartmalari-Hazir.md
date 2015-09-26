@@ -8,7 +8,7 @@ tags:   Pisi Linux Renkli Stickers Çıkartma
 {{ page.title }}
 ================
 
-<p class="meta">30 Ağustos 2015 - Türkiye</p>
+<p class="meta">26 Eylül 2015 - Türkiye</p>
 
 Pisi Linux tanıtımı için tasarlanan renkli çıkartma örnekleri GIMP kullanılarak hazırlandı. 
 
