@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Pisi Linux Çıkartmaları Hazır
+title:  Pisi Linux Siyah-Beyaz Çıkartmalar Hazır
 date:   2015-09-25 15:00:00
 tags:   Pisi Linux Stickers Çıkartma
 ---
@@ -10,7 +10,7 @@ tags:   Pisi Linux Stickers Çıkartma
 
 <p class="meta">25 Eylül 2015 - Türkiye</p>
 
-Pisi Linux tanıtımı için tasarlanan çıkartma örnekleri GIMP kullanılarak hazırlandı. 
+Pisi Linux tanıtımı için tasarlanan siyah-beyaz çıkartma örnekleri GIMP kullanılarak hazırlandı. 
 
 
 **[Renkli Çıkartmalar](https://vdemir.github.io/2015/09/26/Pisi-Linux-Renkli-Cikartmalari-Hazir.html)**
