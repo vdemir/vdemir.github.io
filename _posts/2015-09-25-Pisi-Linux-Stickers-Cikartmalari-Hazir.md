@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Pisi Linux Stickers / Çıkartmaları Hazır
+title:  Pisi Linux Stickers Çıkartmaları Hazır
 date:   2015-09-25 15:00:00
 tags:   Pisi Linux Stickers Çıkartma
 ---
