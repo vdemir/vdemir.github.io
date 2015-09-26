@@ -1,15 +1,14 @@
 ---
-layout:     post
-title:      "Workrave ve RSIBreak Yazılımları RSI Sorunlarına Çare Olabilir"
-date:       2015-09-25 12:00:00
-tags:       pisilinux RSIBreak Workrave
-category:   Web
+layout: post
+title:  Workrave ve RSIBreak Yazılımları RSI Sorunlarına Çare Olabilir
+date:   2015-09-25 12:00:00
+tags:   pisilinux RSIBreak Workrave
 ---
 
-**Workrave ve RSIBreak Yazılımları RSI Sorunlarına Çare Olabilir**
+{{ page.title }}
+================
 
-```25 Eylül 2015 - Türkiye
-```
+<p class="meta">25 Eylül 2015 - Türkiye</p>
 
 RSI başka sebeplerle bağlantılı da olsa genellikle bilgisayar ve klavye kullanmayla ilgili mesleğe dayalı bir rahatsızlıktır.
 
