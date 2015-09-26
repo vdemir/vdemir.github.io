@@ -1,15 +1,14 @@
 ---
-layout:     post
-title:      "Pisi Linux Stickers/Çıkartmaları Hazır"
-date:       2015-09-25 15:00:00
-tags:       Pisi Linux Stickers Çıkartma
-category:   Web
+layout: post
+title:  Pisi Linux Stickers/Çıkartmaları Hazır
+date:   2015-09-25 15:00:00
+tags:   Pisi Linux Stickers Çıkartma
 ---
 
-**Pisi Linux Stickers/Çıkartmaları Hazır**
+{{ page.title }}
+================
 
-```25 Eylül 2015 - Türkiye
-```
+<p class="meta">30 Ağustos 2015 - Türkiye</p>
 
 Pisi Linux tanıtımı için tasarlanan çıkartma örnekleri GIMP kullanılarak hazırlandı. 
 
