@@ -1,15 +1,14 @@
 ---
-layout:     post
-title:      "Pisi Linux Web Sitesi Yenileniyor"
+layout: post
+title:      Pisi Linux Web Sitesi Yenileniyor
 date:       2015-09-23 12:00:00
 tags:       pisilinux 2.0 web site
-category:   Web
 ---
 
-**Pisi Linux Web Sitesi Yenileniyor**
+{{ page.title }}
+================
 
-```23 Eylül 2015 - Türkiye
-```
+<p class="meta">23 Eylül 2015 - Türkiye</p>
 
 Pisi Linux web sitesi statik öğelerin olduğu yeni içeriğiyle tasarlanmaya başlandı. Ayrıca forum alanı yeniden düzenlenecek, farklı bir işlev ile tekrar yazılacak. Pisi Linux 2.0 için çalışmaların devam ettiğ bu aşamada yeni bir site ile karşınızda olmayı umuyoruz. Pisi Linux takımı topluluktan aldığı destekle ile yine çok iyi işler çıkarıyor.
 
