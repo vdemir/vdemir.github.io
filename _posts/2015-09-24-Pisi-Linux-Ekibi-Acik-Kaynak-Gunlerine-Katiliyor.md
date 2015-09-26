@@ -1,15 +1,14 @@
 ---
-layout:     post
-title:      "Pisi Linux Ekibi Açık Kaynak Günlerine Katılıyor"
+layout: post
+title:      Pisi Linux Ekibi Açık Kaynak Günlerine Katılıyor
 date:       2015-09-24 12:00:00
 tags:       pisilinux açık kaynak günleri
-category:   Web
 ---
 
-**Pisi Linux Ekibi Açık Kaynak Günlerine Katılıyor**
+{{ page.title }}
+================
 
-```24 Eylül 2015 - Türkiye
-```
+<p class="meta">24 Eylül 2015 - Türkiye</p>
 
 Bu sene Pisi Linux ekibininde katılacağı etkinlik 11 Ekim Pazar günü Ankara'da düzenleniyor. Pisi Linux dağıtımı ve projelerinin de tanıtılacağı etkinlikte birde atölye çalışması yapılacak. Katılımın yüksek olacağını düşünerek arkadaşlarımıza kolaylıklar diliyorum. Her ne kadar katılamasakta etkinliğin çok güzel geçeceğini tahmin ediyorum.
 
