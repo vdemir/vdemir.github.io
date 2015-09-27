@@ -2,7 +2,6 @@
 layout: post
 title:  Workrave ve RSIBreak Yazılımları RSI Sorunlarına Çare Olabilir
 date:   2015-09-25 12:00:00
-tags:   pisilinux RSIBreak Workrave
 ---
 
 {{ page.title }}
