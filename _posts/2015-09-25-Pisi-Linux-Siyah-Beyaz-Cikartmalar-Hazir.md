@@ -2,7 +2,7 @@
 layout: post
 title:  Pisi Linux Siyah-Beyaz Çıkartmalar Hazır
 date:   2015-09-25 15:00:00
-tags:   Pisi Linux Siyah-Beyaz-Çıkartma
+tags:   Pisi linux Siyah-Beyaz-Çıkartma
 ---
 
 {{ page.title }}
