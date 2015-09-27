@@ -25,10 +25,6 @@ Son komutumuz ise
 
 ```sudo jekyll serve```
 
-*Server address: http://127.0.0.1:4000/*
-
-*Server running... press ctrl-c to stop.*
-
 Sonuçta; statik sitemizi yada bloğumuzu web tarayıcı adres çubuğuna ```http://localhost:4000/``` yazarak görüntüleyebiliriz.
 
 Bloğunuzda kullanabileceğiniz resimleri düzenlemek için ```Gimp``` ve siteyi host eden GitHub sitesine commit yapmak için ```git``` paketlerine de ihtiyacınız olacaktır.
