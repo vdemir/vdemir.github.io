@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Jeykll Kurulumu ve Blog Sitesi Yapımı
+title:  Jekyll Kurulumu ve Blog Sitesi Yapımı
 date:   2015-09-26 12:00:00
-tags:   Jeykll Kurulum Blog
+tags:   Jekyll Kurulum Blog
 ---
 
 {{ page.title }}
@@ -10,9 +10,9 @@ tags:   Jeykll Kurulum Blog
 
 <p class="meta">26 Eylül 2015 - Türkiye</p>
 
-Pis Linux dağıtımında Jeykll ile blog nasıl yapılır. Öncelikle Jeykll'in tanımını yaparak başlayalım. Jeykll, düz metinlerinizi statik blog ve web sitesi formuna  dönüştürmenizi sağlayan site üretecidir.
+Pis Linux dağıtımında Jekyll ile blog nasıl yapılır. Öncelikle Jekyll'in tanımını yaparak başlayalım. Jekyll, düz metinlerinizi statik blog ve web sitesi formuna  dönüştürmenizi sağlayan site üretecidir.
 
-Kuruluma başlamadan önce hazırlık aşamasını tamamlamalıyız. Jeykll kurulumu için ```rubygems``` ve ```ruby-devel``` paketlerine ihtiyaç var. Önce paketlerin kurulumunu gerçekleştiriyoruz. Daha önce kurulumlarını gerçekleştirdiğim için history komutu ile komut geçmişine bakıyorum. 
+Kuruluma başlamadan önce hazırlık aşamasını tamamlamalıyız. Jekyll kurulumu için ```rubygems``` ve ```ruby-devel``` paketlerine ihtiyaç var. Önce paketlerin kurulumunu gerçekleştiriyoruz. Daha önce kurulumlarını gerçekleştirdiğim için history komutu ile komut geçmişine bakıyorum. 
 
 vedat@pisi_linux2 ~ $ ```history | grep ruby &&  history | grep gem```
 
