@@ -12,6 +12,8 @@ tags:   Jeykll-Kurulumu Blog-Sitesi-Yapımı
 
 Pis Linux dağıtımında Jeykll ile blog nasıl yapılır. Öncelikle Jeykll'in tanımını yaparak başlayalım. Jeykll, düz metinlerinizi statik blog ve web sitesi formuna  dönüştürmenizi sağlayan site üretecidir.
 
+Pis Linux dağıtımında Jeykll ile blog nasıl yapılır. Öncelikle Jeykll'in tanımını yaparak başlayalım. Jeykll, düz metinlerinizi static blog ve web sitelerine formuna  dönüştürmenizi sağlayan site üretecidir.
+
 Kuruluma başlamadan önce hazırlık aşamasını tamamlamalıyız. Jeykll kurulumu için ```rubygems``` ve ```ruby-devel``` paketlerine ihtiyaç var. Önce paketlerin kurulumunu gerçekleştiriyoruz. Daha önce kurulumlarını gerçekleştirdiğim için history komutu ile komut geçmişine bakıyorum. 
 
 vedat@pisi_linux2 ~ $ ```history | grep ruby &&  history | grep gem```
