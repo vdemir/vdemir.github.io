@@ -130,8 +130,7 @@ pageTracker._trackPageview();
 {% if page.previous.url %}
   <link rel="prev" href="{{ page.previous.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" title="{{ page.previous.title }}">
 {% endif %}
-
 <!--Optimizing for search engine end-->
-
+{% include disqus.html %}
 </body>
 </html>
