@@ -4,10 +4,10 @@
 <feed xmlns="https://www.w3.org/2005/Atom">
 
  <title>Vedat Demir</title>
- <link href="https://vdemir.github.io/atom.xml" rel="self"/>
- <link href="https://vdemir.github.io/"/>
+ <link href="http://vdemir.github.io/atom.xml" rel="self"/>
+ <link href="http://vdemir.github.io/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>https://vdemir.github.io/</id>
+ <id>http://vdemir.github.io/</id>
  <author>
    <name>Vedat Demir</name>
    <email>vedat@pisilinux.org</email>
