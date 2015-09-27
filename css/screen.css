@@ -92,6 +92,11 @@ ul.posts {
   margin-bottom: 2em;
 }
 
+.site-tag a {
+    display: inline-block;
+    margin-right: 12px;
+}
+
   .site .title a {
     color: #a00;
     text-decoration: none;
