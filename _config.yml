@@ -2,7 +2,5 @@ markdown: rdiscount
 highlighter: pygments
 
 tags:
-- jekyll
-- code
 - KDE
 - kde
