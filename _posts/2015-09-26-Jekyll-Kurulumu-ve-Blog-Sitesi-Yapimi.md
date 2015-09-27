@@ -21,9 +21,7 @@ Paket kurulumunu tamamladıktan sonra sıra geldi web sayfamız için gereken do
 
 Dizin içerisine önceden hazırlanan dosyalarıda atabiliriz.
 
-Son komutumuz ise
-
-```sudo jekyll serve```
+Son komutumuz ise  ```sudo jekyll serve```
 
 Sonuçta; statik sitemizi yada bloğumuzu web tarayıcı adres çubuğuna ```http://localhost:4000/``` yazarak görüntüleyebiliriz.
 
