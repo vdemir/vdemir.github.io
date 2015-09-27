@@ -31,6 +31,8 @@ Son komutumuz ise
 
 Sonuçta; statik sitemizi yada bloğumuzu web tarayıcı adres çubuğuna ```http://localhost:4000/``` yazarak görüntüleyebiliriz.
 
+Bloğunuzda kullanabileceğiniz resimleri düzenlemek için Gimp ve siteyi host eden GitHub sitesine commit yapmak için git paketlerine de ihtiyacınız olacaktır.
+
 ***Snapshots***
 
 ![_config.yml]({{ site.baseurl }}/images/snapshot12.bmp)
