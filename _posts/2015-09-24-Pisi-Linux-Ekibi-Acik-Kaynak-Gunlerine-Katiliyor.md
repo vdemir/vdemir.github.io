@@ -2,7 +2,7 @@
 layout: post
 title:      Pisi Linux Ekibi Açık Kaynak Günlerine Katılıyor
 date:       2015-09-24 12:00:00
-tags:       pisilinux açık kaynak günleri
+tags:       Pisi Linux Ekibi Açık Kaynak Günleri
 ---
 
 {{ page.title }}

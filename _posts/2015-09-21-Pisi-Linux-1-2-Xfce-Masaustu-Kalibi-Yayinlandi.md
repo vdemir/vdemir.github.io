@@ -2,7 +2,7 @@
 layout: post
 title:  Pisi Linux 1.2 Xfce Masaüstü Kalıbı Yayınlandı
 date:   2015-09-23 12:00:00
-tags:   pisilinux 2.0 web site
+tags:   Pisi Linux 1.2 Xfce
 ---
 
 {{ page.title }}
