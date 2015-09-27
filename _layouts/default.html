@@ -114,7 +114,7 @@ pageTracker._trackPageview();
 </script>
 <!-- Google Analytics end -->
 
-<!--Optimizing for search engine-->
+<!--Optimizing for search engine
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
 {% if page.robots %}
@@ -129,7 +129,7 @@ pageTracker._trackPageview();
 
 {% if page.previous.url %}
   <link rel="prev" href="{{ page.previous.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" title="{{ page.previous.title }}">
-{% endif %}
+{% endif %}-->
 <!--Optimizing for search engine end-->
 
 </body>
