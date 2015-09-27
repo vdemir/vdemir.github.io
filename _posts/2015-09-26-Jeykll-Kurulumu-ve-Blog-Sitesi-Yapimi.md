@@ -2,7 +2,7 @@
 layout: post
 title:  Jeykll Kurulumu ve Blog Sitesi Yapımı
 date:   2015-09-26 12:00:00
-tags:   Jeykll-Kurulumu Blog-Sitesi-Yapımı
+tags:   Jeykll Kurulum Blog
 ---
 
 {{ page.title }}
@@ -36,7 +36,7 @@ Son komutumuz ise
 
 *Server running... press ctrl-c to stop.*
 
-Sonuçta; statik sitemizi yada bloğumuzu web tarayıcı adress çubuğuna ```http://localhost:4000/``` yazarak görüntüleyebiliriz.
+Sonuçta; statik sitemizi yada bloğumuzu web tarayıcı adres çubuğuna ```http://localhost:4000/``` yazarak görüntüleyebiliriz.
 
 ***Snapshots***
 
