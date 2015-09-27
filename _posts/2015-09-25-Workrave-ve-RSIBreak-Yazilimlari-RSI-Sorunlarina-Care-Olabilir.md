@@ -2,7 +2,7 @@
 layout: post
 title:  Workrave ve RSIBreak Yazılımları RSI Sorunlarına Çare Olabilir
 date:   2015-09-25 12:00:00
-tags:   Workrave RSIBreak RSI Sorunları
+tags:   Workrave RSIBreak RSI
 ---
 
 {{ page.title }}
