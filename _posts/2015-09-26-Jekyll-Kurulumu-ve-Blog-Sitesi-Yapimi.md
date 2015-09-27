@@ -12,7 +12,7 @@ tags:   Jekyll Kurulum Blog
 
 Pis Linux dağıtımında Jekyll ile blog nasıl yapılır. Öncelikle Jekyll'in tanımını yaparak başlayalım. Jekyll, düz metinlerinizi statik blog ve web sitesi formuna  dönüştürmenizi sağlayan site üretecidir.
 
-Kuruluma başlamadan önce hazırlık aşamasını tamamlamalıyız. Jekyll kurulumu için ```rubygems``` ve ```ruby-devel``` paketlerine ihtiyaç var. Önce paketlerin kurulumunu sağlıyoruz. Ayrıca gem install komutu ile ```therubyracer``` ve ```rdiscount```
+Kuruluma başlamadan önce hazırlık aşamasını tamamlamalıyız. Jekyll kurulumu için ```rubygems``` ve ```ruby-devel``` paketlerine ihtiyaç var. Önce paketlerin kurulumunu sağlıyoruz. Ayrıca ```gem install``` komutu ile ```therubyracer``` ve ```rdiscount```
 gem dosyalarının kurulumunu gerçekleştiriyoruz.
 
 Paket kurulumunu tamamladıktan sonra sıra geldi web sayfamız için gereken dosyaların oluşacağı dizini hazırlamaya bunun için bir komut işletiyoruz.
