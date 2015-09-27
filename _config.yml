@@ -3,7 +3,7 @@ locale:         tr_TR
 name:           "vdemir.github.io"
 description:    "Pisi Linux Blogger"
 icon:           /assets/icon.png
-
+comments: True
 
 
 
