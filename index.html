@@ -29,4 +29,16 @@ title: Vedat Demir
     <li><a href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books-tr.md">Free Programming Books:</a> Freely available programming books lists (on github).</li>
     <li><a href="https://github.com/linuxtraining/lt">Linux Training:</a> The Linux Training Book (on github).</li>
   </ul>
+  <h1>Tag Cloud</h1>
+  <ul class="site-tag">
+    {% assign tags = site.tags | sort %}
+    {% for tag in tags %}
+    <span class="site-tag">
+        <a href="/tag/{{ tag | first | slugify }}/"
+            style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
+                {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+        </a>
+    </span>
+    {% endfor %}
+  </ul>
 </div>
