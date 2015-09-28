@@ -19,10 +19,6 @@
    <!-- Homepage CSS -->
    <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
 
-   <!--favicon -->
-   <link rel="shortcut icon" type="image/x-icon" href="assets/favico.ico">
-   <!--favicon end  -->
-   
    <!-- Typekit -->
    <script type="text/javascript" src="https://use.typekit.com/jpd0pfm.js"></script>
    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -118,7 +114,7 @@ pageTracker._trackPageview();
 </script>
 <!-- Google Analytics end -->
 
-<!--SEOptimizing for search engine-->
+<!--SEOptimizing for search engine
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
 {% if page.robots %}
@@ -133,7 +129,7 @@ pageTracker._trackPageview();
 
 {% if page.previous.url %}
   <link rel="prev" href="{{ page.previous.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" title="{{ page.previous.title }}">
-{% endif %}
+{% endif %}-->
 <!--SEOptimizing for search engine end-->
 
 </body>
