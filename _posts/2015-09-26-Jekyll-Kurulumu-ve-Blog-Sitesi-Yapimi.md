@@ -22,6 +22,7 @@ Dizin içerisine önceden hazırladığımız dosyalarıda atabiliriz. Son komut
 sudo jekyll new my-awesome-site
 sudo jekyll serve
 {% endhighlight %}
+
 Sonuçta; statik sitemizi yada bloğumuzu web tarayıcı adres çubuğuna ```http://localhost:4000/``` yazarak görüntüleyebiliyoruz.
 
 Bloğunuzda kullanabileceğiniz resimleri düzenlemek için ```Gimp``` ve siteyi host eden GitHub sitesine commit yapmak için ```git``` paketlerine de ihtiyacınız olacaktır.
