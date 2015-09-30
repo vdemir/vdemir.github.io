@@ -30,7 +30,7 @@ if __name__ == '__main__':
     app.run()
 ```
 
-İkinci olarak tanıtacağımız dil QML , Qt yarı-nesnel Dil, JavaScript sözdizimine benzerlikleri ile bir programlama dilidir. Esneklik ve basitlik ile tasarlanmış modern dil modelini ve sözdizilimini evrensel web teknolojileri ```JavaScript``` ve ```CSS``` den miras almıştır. Özünde yatan Qt kütüphaneleri ile birleştiğinde QML, dokunmatik özellikli UI ve hafif animasyon uygulamaları oluşturmak için üst düzey bir UI teknolojisidir. C ve Python gibi geleneksel dillerden farklıdır, yani, UI öğeleri ve bunların etkileşimini tanımlamak için kullanılır. Bu nedenle, geleneksel karmaşık görsel hareket geçişlerini uygulamak son derece kolaydır. [Örnek](https://qmlbook.github.io/) uygulama bir metin editöründe yazıldıktan sonra ```hello.qml``` olarak kaydedilir ve ```/usr/lib/qt5/bin/qmlscene hello.qml``` yazılarak çalıştırılır.
+İkinci olarak tanıtacağımız dil QML , Qt yarı-nesnel, JavaScript sözdizimine benzerlikleri ile bir programlama dilidir. Esneklik ve basitlik ile tasarlanmış modern dil modelini ve sözdizilimini evrensel web teknolojileri ```JavaScript``` ve ```CSS``` den ödünç almıştır. Özünde yatan Qt kütüphaneleri ile birleştiğinde QML, dokunmatik özellikli UI ve hafif animasyon uygulamaları oluşturmak için üst düzey bir UI teknolojisidir. C ve Python gibi geleneksel dillerden farklıdır, yani, UI öğeleri ve bunların etkileşimini tanımlamak için kullanılır. Bu nedenle, geleneksel karmaşık görsel hareket geçişlerini uygulamak son derece kolaydır. [Örnek](https://qmlbook.github.io/) uygulama bir metin editöründe yazıldıktan sonra ```hello.qml``` olarak kaydedilir ve ```/usr/lib/qt5/bin/qmlscene hello.qml``` yazılarak çalıştırılır.
 
 ```
 // HelloWorld.qml
