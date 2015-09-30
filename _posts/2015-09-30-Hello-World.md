@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Hello World
+title:  Hello World!
 date:   2015-09-30 12:00:00
 tags:   Flask Qml Programlama
 comments: True
@@ -14,8 +14,7 @@ comments: True
 Programlama dilleri hakkında kısa bilgi vereceğimiz bu yazıda çokça örnek verilen ```Hello World``` programlarını yazacağız.
 
 İlk örnek vereceğimiz yapı bir web uygulama çatısı olan flask ki python temellidir. 
-Flask, Django dan daha Pythonic olduğu düşünülür çünkü flask ile yazılan web uygulama kodu çoğu durumda daha açıktır. Bir acemi olarak Flask ile kodlamaya başlamak kolaydır çünkü basit bit uygulama yazıp çalıştırmak için çok az miktarda aslı bozulmaksızın yeni uygulamalarda kullanılabilen metni vardır. [Örnek](http://www.fullstackpython.com/flask.html) olarak Flask ile yazılmış bir web uygulaması örneği ```Hello World```.
-
+Flask, Django dan daha Pythonic olduğu düşünülür çünkü flask ile yazılan web uygulama kodu çoğu durumda daha açıktır. Bir acemi olarak Flask ile kodlamaya başlamak kolaydır çünkü basit bit uygulama yazıp çalıştırmak için çok az miktarda aslı bozulmaksızın yeni uygulamalarda kullanılabilen metni vardır. [Örnek](http://www.fullstackpython.com/flask.html) olarak Flask ile yazılmış bir web uygulaması örneği ```Hello World``` app.py dosyasına kaydedilir ve ```python app.py``` komutuyla çalıştırılır. Sonu. web tarayıcı çubuğuna ```localhost:5000``` yazılarak okunabilir.
 
 ```
 from flask import Flask
@@ -29,9 +28,39 @@ if __name__ == '__main__':
     app.run()
 ```
 
+İkinci olarak tanıtacağımız dil QML olarak bilinen
+
+
+QML, the Qt Meta-Object Language, is a programming language with similarities in syntax to JavaScript. Being a modern language designed with simplicity and extensibility in mind it has borrowed syntax and paradigms from ubiquitous web technologies, such as CSS and JavaScript. It is built upon and constitutes a core component of the cross-platform Qt framework. In essence, QML coupled with the underlying Qt libraries is a high-level UI technology that enables developers to create animated, touch-enabled UIs and light-weight applications. It differs from traditional procedural languages such as C or Python in the sense that it is declarative at its core, that is, it is used to describe UI elements and their interaction. As such, traditionally complex visual motion transitions become a natural part of QML and are extremely easy to implement.
+
+
+QML, Qt yarı-nesnel Dili, JavaScript sözdizimine benzerlikleri ile bir programlama dilidir. Esneklik ve basitlik ile tasarlanmış modern dil modelini ve sözdizilimini evrensel web teknolojileri JavaScript ve CSS den ödünç almıştır. Özünde yatan Qt kütüphaneleri ile birleştiğinde QML, dokunmatik özellikli UI ve hafif animasyon uygulamaları oluşturmak için üst düzey bir UI teknolojisidir. C ve Python gibi geleneksel dillerden farklıdır, yani, UI öğeleri ve bunların etkileşimini tanımlamak için kullanılır. Bu nedenle, geleneksel karmaşık görsel hareket geçişlerini uygulamak son derece kolaydır.
+
+```
+// HelloWorld.qml
+​
+import QtQuick 2.0
+​
+Rectangle {
+    width: 360
+    height: 360
+    Text {
+        anchors.centerIn: parent
+        text: "Greetings from Qt 5"
+    }
+    MouseArea {
+        anchors.fill: parent
+        onClicked: {
+            Qt.quit();
+        }
+    }
+}
+```
+Çalıştırmak için ;  ```/usr/lib/qt5/bin/qmlscene hello.qml```
+
 ***Snapshots***
 
-![_config.yml]({{ site.baseurl }}/images/snapshot12.bmp)
+![_config.yml]({{ site.baseurl }}/images/snapshot13.bmp)
 
 *** Distributed ***
 
