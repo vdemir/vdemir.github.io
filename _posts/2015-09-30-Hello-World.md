@@ -28,13 +28,7 @@ if __name__ == '__main__':
     app.run()
 ```
 
-İkinci olarak tanıtacağımız dil QML olarak bilinen
-
-
-QML, the Qt Meta-Object Language, is a programming language with similarities in syntax to JavaScript. Being a modern language designed with simplicity and extensibility in mind it has borrowed syntax and paradigms from ubiquitous web technologies, such as CSS and JavaScript. It is built upon and constitutes a core component of the cross-platform Qt framework. In essence, QML coupled with the underlying Qt libraries is a high-level UI technology that enables developers to create animated, touch-enabled UIs and light-weight applications. It differs from traditional procedural languages such as C or Python in the sense that it is declarative at its core, that is, it is used to describe UI elements and their interaction. As such, traditionally complex visual motion transitions become a natural part of QML and are extremely easy to implement.
-
-
-QML, Qt yarı-nesnel Dili, JavaScript sözdizimine benzerlikleri ile bir programlama dilidir. Esneklik ve basitlik ile tasarlanmış modern dil modelini ve sözdizilimini evrensel web teknolojileri JavaScript ve CSS den ödünç almıştır. Özünde yatan Qt kütüphaneleri ile birleştiğinde QML, dokunmatik özellikli UI ve hafif animasyon uygulamaları oluşturmak için üst düzey bir UI teknolojisidir. C ve Python gibi geleneksel dillerden farklıdır, yani, UI öğeleri ve bunların etkileşimini tanımlamak için kullanılır. Bu nedenle, geleneksel karmaşık görsel hareket geçişlerini uygulamak son derece kolaydır.
+İkinci olarak tanıtacağımız dil QML, Qt yarı-nesnel Dili, JavaScript sözdizimine benzerlikleri ile bir programlama dilidir. Esneklik ve basitlik ile tasarlanmış modern dil modelini ve sözdizilimini evrensel web teknolojileri JavaScript ve CSS den ödünç almıştır. Özünde yatan Qt kütüphaneleri ile birleştiğinde QML, dokunmatik özellikli UI ve hafif animasyon uygulamaları oluşturmak için üst düzey bir UI teknolojisidir. C ve Python gibi geleneksel dillerden farklıdır, yani, UI öğeleri ve bunların etkileşimini tanımlamak için kullanılır. Bu nedenle, geleneksel karmaşık görsel hareket geçişlerini uygulamak son derece kolaydır.
 
 ```
 // HelloWorld.qml
