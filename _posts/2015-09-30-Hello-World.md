@@ -40,7 +40,7 @@ Rectangle {
     height: 360
     Text {
         anchors.centerIn: parent
-        text: "Greetings from Qt 5"
+        text: "Merhaba! Qt 5 ten Selamlar"
     }
     MouseArea {
         anchors.fill: parent
