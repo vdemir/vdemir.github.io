@@ -54,7 +54,7 @@ Rectangle {
 
 ***Snapshots***
 
-![_config.yml]({{ site.baseurl }}/images/snapshot13.bmp)
+![_config.yml]({{ site.baseurl }}/images/snapshot14.bmp)
 
 *** Distributed ***
 
