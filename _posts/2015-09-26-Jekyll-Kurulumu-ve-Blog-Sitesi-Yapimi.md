@@ -16,7 +16,7 @@ Pis Linux dağıtımında Jekyll ile blog nasıl yapılır. Öncelikle Jekyll'in
 Kuruluma başlamadan önce hazırlık aşamasını tamamlamalıyız. Jekyll kurulumu için ```rubygems``` ve ```ruby-devel``` paketlerine ihtiyaç var. Önce bu paketlerin kurulumunu tamamlıyoruz. Ayrıca ```gem install``` komutu ile ```jekyll``` , ```therubyracer``` ve ```rdiscount```
 gem dosyalarının kurulumunu gerçekleştiriyoruz. Paket kurulumunu tamamladıktan sonra sıra geldi web sayfamız için gereken dosyaların oluşacağı dizini hazırlamaya bunun için de bir komut işletiyoruz. ```sudo jekyll new my-awesome-site```
 
-Dizin içerisine önceden hazırladığımız dosyalarıda atabiliriz. Son komutumuz ise  ```sudo jekyll serve```
+Dizin içerisine önceden hazırladığımız dosyalarıda atabiliriz. Dizin içerisinde iken son komutumuz ise  ```sudo jekyll serve```
 
 {% highlight bash %}
 sudo jekyll rubygems
