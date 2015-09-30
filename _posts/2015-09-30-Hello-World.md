@@ -11,10 +11,10 @@ comments: True
 
 <p class="meta">30 Eylül 2015 - Türkiye</p>
 
-Programlama dilleri hakkında kısa bilgi vereceğimiz bu yazıda çokça örnek verilen ```Hello World``` programlarını yazacağız.
+Programlama dilleri hakkında kısa bilgi vereceğimiz bu yazıda çokça yer verilen örnek programlardan ```Hello World``` yazacağız.
 
-İlk örnek vereceğimiz yapı ```Flask```, python temelli bir web uygulama çatısıdır. 
-Flask, Django dan daha Pythonic olduğu düşünülür çünkü Flask ile yazılan web uygulama kodu çoğu durumda daha açıktır. Bir acemi olarak Flask ile kodlamaya başlamak kolaydır çünkü basit bir uygulama yazıp çalıştırmak için çok az miktarda yeni uygulamalarda kullanılabilen yapı vardır. [Örnek](http://www.fullstackpython.com/flask.html) olarak Flask ile yazılmış bir web uygulaması olan ```Hello World``` program parçası app.py dosyasına kaydedilir ve ```python app.py``` komutuyla çalıştırılır. Web tarayıcı çubuğuna ```localhost:5000``` yazılarak okunabilir.
+Flask, ilk örnek vereceğimiz python temelli bir web uygulama çatısıdır. 
+Django dan daha Pythonic olduğu düşünülür çünkü Flask ile yazılan web uygulamaları çoğu durumda daha açıktır. Flask ile kodlamaya başlamak kolaydır çünkü basit bir uygulama yazıp çalıştırmak için çok az miktarda kalıplaşmış yapı vardır. [Örnek](http://www.fullstackpython.com/flask.html) olarak Flask ile yazılmış bir web uygulaması olan ```Hello World``` programı app.py dosyasına kaydedilir ve ```python app.py``` komutuyla çalıştırılır. Web tarayıcı çubuğuna ```localhost:5000``` yazılarak okunabilir.
 
 ```
 ## app.py
