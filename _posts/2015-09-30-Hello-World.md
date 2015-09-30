@@ -13,8 +13,8 @@ comments: True
 
 Programlama dilleri hakkında kısa bilgi vereceğimiz bu yazıda çokça örnek verilen ```Hello World``` programlarını yazacağız.
 
-İlk örnek vereceğimiz yapı bir web uygulama çatısı olan Flask ki python temellidir. 
-Flask, Django dan daha Pythonic olduğu düşünülür çünkü Flask ile yazılan web uygulama kodu çoğu durumda daha açıktır. Bir acemi olarak Flask ile kodlamaya başlamak kolaydır çünkü basit bit uygulama yazıp çalıştırmak için çok az miktarda aslı bozulmaksızın yeni uygulamalarda kullanılabilen metni vardır. [Örnek](http://www.fullstackpython.com/flask.html) olarak Flask ile yazılmış bir web uygulaması örneği ```Hello World``` app.py dosyasına kaydedilir ve ```python app.py``` komutuyla çalıştırılır. Sonu. web tarayıcı çubuğuna ```localhost:5000``` yazılarak okunabilir.
+İlk örnek vereceğimiz yapı Flask python temelli bir web uygulama çatısıdır. 
+Flask, Django dan daha Pythonic olduğu düşünülür çünkü Flask ile yazılan web uygulama kodu çoğu durumda daha açıktır. Bir acemi olarak Flask ile kodlamaya başlamak kolaydır çünkü basit bir uygulama yazıp çalıştırmak için çok az miktarda aslı bozulmaksızın yeni uygulamalarda kullanılabilen komut vardır. [Örnek](http://www.fullstackpython.com/flask.html) olarak Flask ile yazılmış bir web uygulaması olan ```Hello World``` program parçası app.py dosyasına kaydedilir ve ```python app.py``` komutuyla çalıştırılır. Web tarayıcı çubuğuna ```localhost:5000``` yazılarak okunabilir.
 
 ```
 from flask import Flask
@@ -28,7 +28,7 @@ if __name__ == '__main__':
     app.run()
 ```
 
-İkinci olarak tanıtacağımız dil ```QML` , Qt yarı-nesnel Dili, JavaScript sözdizimine benzerlikleri ile bir programlama dilidir. Esneklik ve basitlik ile tasarlanmış modern dil modelini ve sözdizilimini evrensel web teknolojileri JavaScript ve CSS den ödünç almıştır. Özünde yatan Qt kütüphaneleri ile birleştiğinde QML, dokunmatik özellikli UI ve hafif animasyon uygulamaları oluşturmak için üst düzey bir UI teknolojisidir. C ve Python gibi geleneksel dillerden farklıdır, yani, UI öğeleri ve bunların etkileşimini tanımlamak için kullanılır. Bu nedenle, geleneksel karmaşık görsel hareket geçişlerini uygulamak son derece kolaydır. [Örnek](https://qmlbook.github.io/) uygulama bir metin editöründe yazıldıktan sonra hello.qml olarak kaydedilir ve ```/usr/lib/qt5/bin/qmlscene hello.qml``` yazılarak çalıştırılır.
+İkinci olarak tanıtacağımız dil QML , Qt yarı-nesnel Dil, JavaScript sözdizimine benzerlikleri ile bir programlama dilidir. Esneklik ve basitlik ile tasarlanmış modern dil modelini ve sözdizilimini evrensel web teknolojileri JavaScript ve CSS den miras almıştır. Özünde yatan Qt kütüphaneleri ile birleştiğinde QML, dokunmatik özellikli UI ve hafif animasyon uygulamaları oluşturmak için üst düzey bir UI teknolojisidir. C ve Python gibi geleneksel dillerden farklıdır, yani, UI öğeleri ve bunların etkileşimini tanımlamak için kullanılır. Bu nedenle, geleneksel karmaşık görsel hareket geçişlerini uygulamak son derece kolaydır. [Örnek](https://qmlbook.github.io/) uygulama bir metin editöründe yazıldıktan sonra hello.qml olarak kaydedilir ve ```/usr/lib/qt5/bin/qmlscene hello.qml``` yazılarak çalıştırılır.
 
 ```
 // HelloWorld.qml
