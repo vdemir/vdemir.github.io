@@ -14,7 +14,7 @@ comments: True
 Programlama dilleri hakkında kısa bilgi vereceğimiz bu yazımızda örneğine çokça yer verilen ```Hello World``` programlarını farklı dillerde yazacağız.
 
 İlk örnek vereceğimiz dil ```Flask``` python temelli bir web uygulama çatısıdır. 
-Django dan daha Pythonic olduğu düşünülür çünkü Flask ile yazılan web uygulamaları çoğu durumda daha açıktır. ```Flask``` ile kodlamaya başlamak kolaydır çünkü basit bir uygulama yazıp çalıştırmak için çok az miktarda kalıplaşmış yapıdan faydalanılır. Örneğin Flask ile yazılmış bir web uygulaması [Hello World](http://www.fullstackpython.com/flask.html)  bir app.py dosyasına kaydedilir ve ```python app.py``` komutuyla çalıştırılır. Web tarayıcı adres çubuğuna ```localhost:5000``` yazılarak görüntülenir.
+Django dan daha Pythonic olduğu düşünülür çünkü Flask ile yazılan web uygulamaları çoğu durumda daha açıktır. ```Flask``` ile kodlamaya başlamak kolaydır çünkü basit bir uygulama yazıp çalıştırmak için çok az miktarda kalıplaşmış yapıdan faydalanılır. Örneğin Flask ile yazılmış bir web uygulaması bir [app.py](http://www.fullstackpython.com/flask.html) dosyasına kaydedilir ve ```python app.py``` komutuyla çalıştırılır. Web tarayıcı adres çubuğuna ```localhost:5000``` yazılarak görüntülenir.
 
 ```
 ## app.py
@@ -30,7 +30,7 @@ if __name__ == '__main__':
     app.run()
 ```
 
-İkinci olarak tanıtacağımız dil QML, JavaScript sözdizimine benzeyen bir programlama dilidir. Esneklik ve basitlik ile tasarlanmış modern dil modelini ve sözdizilimini evrensel web teknolojileri ```JavaScript``` ve ```CSS``` den ödünç almıştır. Qt kütüphaneleri ile birleştiğinde QML, dokunmatik özellikli UI ve hafif animasyon uygulamaları oluşturmak için üst düzey bir UI teknolojisidir. C ve Python gibi geleneksel dillerden farklıdır, UI öğeleri ve bunların etkileşimini tanımlamak için kullanılır. Bu nedenle, geleneksel karmaşık görsel hareket geçişlerini uygulamak son derece kolaydır. Örnek uygulama bir metin editöründe yazıldıktan sonra [hello.qml](https://qmlbook.github.io/)  olarak kaydedilir ve ```/usr/lib/qt5/bin/qmlscene hello.qml``` yazılarak çalıştırılır.
+İkinci olarak tanıyacağımız dil QML, JavaScript sözdizimine benzeyen bir programlama dilidir. Esneklik ve basitlik ile tasarlanmıştır. Modern dil modelini ve sözdizilimini evrensel web teknolojileri ```JavaScript``` ve ```CSS``` den ödünç almıştır. Qt kütüphaneleri ile birleştiğinde dokunmatik özellikli UI ve hafif animasyon uygulamaları oluşturmak için üst düzey bir UI teknolojisidir. C ve Python gibi geleneksel dillerden farklıdır, UI öğeleri ve bunların etkileşimini tanımlamak için kullanılır. Bu nedenle, geleneksel karmaşık görsel hareket geçişlerini uygulamak son derece kolaydır. Örnek uygulama bir metin editöründe yazıldıktan sonra [hello.qml](https://qmlbook.github.io/)  olarak kaydedilir ve ```/usr/lib/qt5/bin/qmlscene hello.qml``` yazılarak çalıştırılır.
 
 ```
 // HelloWorld.qml
