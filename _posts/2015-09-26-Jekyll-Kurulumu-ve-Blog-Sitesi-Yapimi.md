@@ -19,8 +19,8 @@ gem dosyalarının kurulumunu gerçekleştiriyoruz. Paket kurulumunu tamamladık
 Dizin içerisine önceden hazırladığımız dosyalarıda atabiliriz. Dizin içerisinde iken son komutumuz ise  ```sudo jekyll serve```
 
 {% highlight bash %}
-sudo jekyll rubygems
-sudo jekyll ruby-devel
+sudo pisi it rubygems
+sudo pisi it ruby-devel
 sudo gem install jekyll
 sudo gem install therubyracer
 sudo gem install rdiscount
