@@ -19,6 +19,7 @@ gem dosyalarının kurulumunu gerçekleştiriyoruz. Paket kurulumunu tamamladık
 Dizin içerisine önceden hazırladığımız dosyalarıda atabiliriz. Dizin içerisinde iken son komutumuz ise  ```sudo jekyll serve```
 
 {% highlight bash %}
+sudo pisi it -c system.devel
 sudo pisi it rubygems
 sudo pisi it ruby-devel
 sudo gem install jekyll
