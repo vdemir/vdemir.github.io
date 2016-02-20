@@ -19,7 +19,7 @@ Belgelendir çalışmasının başlangıç aşaması [gitbook](https://vdemir.gi
 
 ***Snapshots***
 
-![_config.yml]({{ site.baseurl }}/images/snapshot13.bmp)
+![_config.yml]({{ site.baseurl }}/images/pisido-en-1.png)
 
 *** Distributed ***
 
