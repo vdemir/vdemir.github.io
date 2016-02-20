@@ -25,6 +25,7 @@ sudo pisi it ruby-devel
 sudo gem install jekyll
 sudo gem install therubyracer
 sudo gem install rdiscount
+sudo gem install pygments.rb
 sudo jekyll new my-awesome-site
 sudo jekyll serve
 {% endhighlight %}
