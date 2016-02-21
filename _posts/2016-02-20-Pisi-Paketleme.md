@@ -11,7 +11,7 @@ comments: True
 
 <p class="meta">20 Şubat 2016 - Türkiye</p>
 
-Pisi Linux Dağıtımında kullandığımız pisi paket yöneticisi python dilinde yazılmış paket yapımı ve kurulumu gibi araçları bulunan bir uygulamadır. 
+Pisi Linux Dağıtımında kullandığımız pisi paket sistemi python dilinde yazılmış paket yapımı ve kurulumu gibi araçları içeren bir uygulamadır. 
 
 Belgelendirme çalışmamızın başlangıç aşaması [gitbook](https://vdemir.gitbooks.io/pisi-paket-yapimi/content/) sitesinde barındırılmaktadır.
 
