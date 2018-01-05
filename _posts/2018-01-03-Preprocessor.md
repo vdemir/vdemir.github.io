@@ -72,7 +72,7 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#undef</b></td>
-         <td class="myStripedTableItems text-left" width="75%">Undefines a preprocessor macro.</td>
+         <td class="myStripedTableItems text-left" width="75%">Tanımsız bir önişlemci makrosu.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#ifdef</b></td>
