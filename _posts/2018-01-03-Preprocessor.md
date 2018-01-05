@@ -128,14 +128,14 @@ It is simple substitution macro. It substitute all occurrences of the constant a
 <li><b>value</b> : This is the value to be substituted for identifier.</li><br/>
 </ul>
 <i>For Example</i><br/>
-<pre>
+<pre><code class="language-c">
 #define PIE 3.141
 #define ZERO 0
-</pre>
+</code></pre>
 <hr/>
 <strong>C Program to show use of #define Preprocessor Directives</strong>
 <!-- SyntaxHighllighter HTML Starts here --> 
-<pre class="brush: cpp;toolbar: false; gutter: true;">
+<pre class="brush: cpp;toolbar: false; gutter: true;"><code class="language-c">
 #include &lt;stdio.h&gt;
 #include &lt;conio.h&gt;
 
@@ -154,7 +154,7 @@ int main(){
     getch();
     return 0;
 }
-</pre>
+</code></pre>
 <!-- SyntaxHighllighter HTML Ends here --> 
 <!-- Program Output Starts -->
 <br/>
