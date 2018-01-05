@@ -56,7 +56,7 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#if</b></td>
-         <td class="myStripedTableItems text-left" width="75%">Koşullu ifadenin sonucunda buna bağlı olarak bir kod bloğu içerir.</td>
+         <td class="myStripedTableItems text-left" width="75%">Koşullu ifadenin sonucunda buna bağlı bir kod bloğu içerir.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#else</b></td>
