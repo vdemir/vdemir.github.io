@@ -28,7 +28,7 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
   <li>Önişlemci yönergeleri noktalı virgülle bitmez.</li>
 </em></ul>
 </em>
-<!-- UnOrdered Items Html Ends -->
+----------------------------
 </div>
 <br/>
 <div class="alert alert-success">
