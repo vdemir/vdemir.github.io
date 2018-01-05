@@ -64,7 +64,7 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#elif</b></td>
-         <td class="myStripedTableItems text-left" width="75%">#else and #if in one statement. It is similar to else if ladder.</td>
+         <td class="myStripedTableItems text-left" width="75%">#else ve #if ile  benzerdir.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#endif</b></td>
