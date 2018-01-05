@@ -126,13 +126,13 @@ Bu basit ikame makrosudur. Sabitin tüm tekrarlamalarını yerlerine koyar ve bi
 <li><b>identifier</b> : Programda kullanılan ve değeri ile değiştirilecek bir tanımlayıcıdır. </li><br/>
 <li><b>value</b> : Tanımlayıcı için değiştirilecek değerdir.</li><br/>
 </ul>
-<i>For Example</i><br/>
+<i>Örneğin</i><br/>
 ~~~
 #define PIE 3.141
 #define ZERO 0
 ~~~
 <hr/>
-<strong>C Program to show use of #define Preprocessor Directives</strong>
+<strong>#define Ön İşlemci Bildirimlerinin kullanımını göstermek için C programı .</strong>
 <!-- SyntaxHighllighter HTML Starts here --> 
 ~~~
 #include &lt;stdio.h&gt;
