@@ -94,6 +94,7 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
 </table>
 <!-- Striped Table HTML Ends here -->
 <hr/>
+<br/>
 <h2 id="myH2">#include önişlemci bildirimleri</h2>
 <!-- Paragraph HTML Starts Here -->
 <p class="myParagraph">
