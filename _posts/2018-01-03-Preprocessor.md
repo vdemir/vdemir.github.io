@@ -80,7 +80,7 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#ifndef</b></td>
-         <td class="myStripedTableItems text-left" width="75%">Eğer sabit daha önce #define ile tanımlanmamışsa true döndürür.</td>
+         <td class="myStripedTableItems text-left" width="75%">Sabit daha önce #define ile tanımlanmamışsa true döndürür.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#pragma</b></td>
@@ -98,7 +98,7 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
 <h2 id="myH2">#include önişlemci bildirimleri</h2>
 <!-- Paragraph HTML Starts Here -->
 <p class="myParagraph">
-#inclide Preprocessor Directives is used to include header file inside C Program. It checks for header file in current directory, If path is not mentioned. To include user defined header file we use double quote instead of using triangular bracket.
+#include Önişlemci Bildirimleri, C Programında üstbilgi(*.h) dosyasını eklemek için kullanılır. Yol belirtilmemişse, geçerli dizindeki üstbilgi(*.h) dosyasını denetler. Kullanıcı tanımlı üstbilgi(*.h) dosyasını eklemek için açılı parantez<> yerine çift tırnak"" işareti kullanıyoruz.
 </p>
 <!-- Paragraph HTML Ends Here -->
 <i>For Example</i><br/>
