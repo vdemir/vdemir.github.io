@@ -108,8 +108,8 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
 ~~~
 <!-- Paragraph HTML Starts Here -->
 <p class="myParagraph">
-First line tells the preprocessor to replace this line with content of string.h header file.<br/>
-Second line tells the preprocessor to get myHeaderFile.h from the current directory and add the content of myHeaderFile.h file.
+İlk satır Önişlemciye bu satırı string.h başlık dosyasının içeriğiyle değiştirmesini söyler.<br/>
+İkinci satır önişlemciye myHeaderFile.h dosyasını geçerli dizinden almasını ve myHeaderFile.h dosyasının içeriğini eklemesini söyler.
 </p>
 <!-- Paragraph HTML Ends Here -->
 <hr/>
