@@ -28,6 +28,7 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
 </em></ul>
 </div>
 <br/>
+<hr/>
 <div class="alert alert-success">
 <strong>Önişlemci Yönerge Türleri</strong>
 <ul><em>
