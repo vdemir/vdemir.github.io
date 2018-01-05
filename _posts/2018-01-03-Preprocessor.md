@@ -102,10 +102,10 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
 </p>
 <!-- Paragraph HTML Ends Here -->
 <i>Örneğin</i><br/>
-~~~
+<pre>
 #include <string.h>          // Standard ÜstBilgi Dosyası
 #include "myHeaderFile.h"    // Kullanıcı Tanımlı ÜstBilgi Dosyası
-~~~
+</pre>
 <!-- Paragraph HTML Starts Here -->
 <p class="myParagraph">
 İlk satır Önişlemciye bu satırı string.h başlık dosyasının içeriğiyle değiştirmesini söyler.<br/>
