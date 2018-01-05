@@ -20,12 +20,12 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
 <!-- Points to remember HTML Starts here -->
 <div class="alert alert-info">
 <!-- UnOrdered Items Html Starts -->
-<strong>Points to Remember about Preprocessor Directives</strong>
+<strong>Önişlemci Yönergeleri Hakkında Önemli Noktalar</strong>
 <em>
 <ul><em>
-  <li>Preprocessor directives are processed before compilation of source code.</li>
-  <li>All preprocessor directives begin with a # symbol.</li>
-  <li>Preprocessor directives do not ends with semicolon.</li>
+  <li>Önişlemci yönergeleri, kaynak kodunun derlenmesinden önce işlenir.</li>
+  <li>Tüm önişlemci yönergeleri bir # simgesi ile başlar.</li>
+  <li>Önişlemci yönergeleri noktalı virgülle bitmez.</li>
 </em></ul>
 </em>
 <!-- UnOrdered Items Html Ends -->
