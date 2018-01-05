@@ -134,7 +134,7 @@ Bu basit ikame makrosudur. Sabitin tüm tekrarlamalarını yerlerine koyar ve bi
 <hr/>
 <strong>C Program to show use of #define Preprocessor Directives</strong>
 <!-- SyntaxHighllighter HTML Starts here --> 
-<pre class="brush: cpp;toolbar: false; gutter: true;">
+~~~
 #include &lt;stdio.h&gt;
 #include &lt;conio.h&gt;
 
@@ -153,9 +153,7 @@ int main(){
     getch();
     return 0;
 }
-</pre>
-<!-- SyntaxHighllighter HTML Ends here --> 
-<!-- Program Output Starts -->
+~~~
 <br/>
 Output
 <pre>
