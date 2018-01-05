@@ -123,9 +123,9 @@ Bu basit ikame makrosudur. Sabitin tüm tekrarlamalarını yerlerine koyar ve bi
 #define tanımlayıcı değer
 </div>
 <ul>
-<li><b>#define</b> : It is preprocessor directive used for text substitution.</li><br/>
-<li><b>identifier</b> : It is an identifier used in program which will be replaced by value.</li><br/>
-<li><b>value</b> : This is the value to be substituted for identifier.</li><br/>
+<li><b>#define</b> : Metin değiştirme için kullanılan önişlemci bildirimidir. </li><br/>
+<li><b>identifier</b> : Programda kullanılan ve değeri ile değiştirilecek bir tanımlayıcıdır. </li><br/>
+<li><b>value</b> : Tanımlayıcı için değiştirilecek değerdir.</li><br/>
 </ul>
 <i>For Example</i><br/>
 <pre>
