@@ -36,19 +36,19 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
 <li>Dosya İçeriği</li>
 </em></ul>
 </div>
-Below is the list of Preprocessor Directives
+Önişlemci Yönergelerinin listesi aşağıdadır
 <!-- Striped Table HTML Starts here -->
 <table class="table table-bordered table-striped">
    <thead>
       <tr>
-         <th class="text-center">Directive</th>
-         <th class="text-center">Description</th>
+         <th class="text-center">Yönerge</th>
+         <th class="text-center">Tanımı</th>
       </tr>
    </thead>
    <tbody>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#include</b></td>
-         <td class="myStripedTableItems text-left" width="75%">It includes header file inside a C Program.</td>
+         <td class="myStripedTableItems text-left" width="75%">Bir C Programında üsbilgiyi içerir.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#define</b></td>
