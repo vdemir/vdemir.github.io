@@ -118,9 +118,9 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
 <p class="myParagraph">
 Bu basit ikame makrosudur. Sabitin tüm tekrarlamalarını yerlerine koyar ve bir ifadeyle değiştirir. 
 </p>
-~~~
+<pre>
 #define identifier value
-~~~
+</pre>
 <ul>
 <li><b>#define</b> : Metin değiştirme için kullanılan önişlemci bildirimidir. </li><br/>
 <li><b>identifier</b> : Programda kullanılan ve değeri ile değiştirilecek bir tanımlayıcıdır. </li><br/>
