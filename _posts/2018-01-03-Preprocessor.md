@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  C Programlamada Önişlemci Yönergeleri
+title:  C Programlamada Önişlemci Bildirimleri
 date:   2018-01-03 12:52:00
 tags:   C Programlama
 comments: False
@@ -14,35 +14,35 @@ comments: False
 <!-- Paragraph HTML Starts Here -->
 <p class="myParagraph">
 C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak C programlama dilinin gücünü genişletir. Tüm önişlemci yönergeleri bir # simgesi ile başlar.<br/><br/>
-Önişlem adımı kaynak kodunun derlenmesinden önce gelir ve gerçek derleme öncesi gereken ön-işlemleri yapmasını derleyiciye bildirir.
+Önişlem adımı kaynak kodunun derlenmesinden önce gelir ve derleyiciye gerçek derleme öncesi gereken ön-işlemleri yapmasını bildirir.
 </p><a name='more'></a>
 <!-- Paragraph HTML Ends Here -->
 <!-- Points to remember HTML Starts here -->
 <div class="alert alert-info">
 <!-- UnOrdered Items Html Starts -->
-<strong>Önişlemci Yönergeleri Hakkında Önemli Noktalar</strong>
+<strong>Önişlemci Bildirimleri Hakkında Önemli Noktalar</strong>
 <ul><em>
-  <li>Önişlemci yönergeleri, kaynak kodunun derlenmesinden önce işlenir.</li>
-  <li>Tüm önişlemci yönergeleri bir # simgesi ile başlar.</li>
-  <li>Önişlemci yönergeleri noktalı virgülle bitmez.</li>
+  <li>Önişlemci bildirimleri, kaynak kodunun derlenmesinden önce işlenir.</li>
+  <li>Tüm önişlemci bildirimleri bir # simgesi ile başlar.</li>
+  <li>Önişlemci bildirimleri noktalı virgülle bitmez.</li>
 </em></ul>
 </div>
 <br/>
 <hr/>
 <div class="alert alert-success">
-<strong>Önişlemci Yönerge Türleri</strong>
+<strong>Önişlemci Bildirim Türleri</strong>
 <ul><em>
 <li>Makro İkame</li>
 <li>Şartlı Derleme</li>
 <li>Dosya İçeriği</li>
 </em></ul>
 </div>
-Önişlemci Yönergelerinin listesi aşağıdadır
+Önişlemci Bildirimlerinin listesi aşağıdadır
 <!-- Striped Table HTML Starts here -->
 <table class="table table-bordered table-striped">
    <thead>
       <tr>
-         <th class="text-center">Yönerge</th>
+         <th class="text-center">Bildirim</th>
          <th class="text-center">Tanımı</th>
       </tr>
    </thead>
@@ -77,25 +77,25 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#ifdef</b></td>
-         <td class="myStripedTableItems text-left" width="75%">Returns true If constant is defined earlier using #define.</td>
+         <td class="myStripedTableItems text-left" width="75%">Eğer sabit daha önce #define kullanılarak tanımlanmışsa true döndürür.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#ifndef</b></td>
-         <td class="myStripedTableItems text-left" width="75%">Returns true If constant is not defined earlier using #define.</td>
+         <td class="myStripedTableItems text-left" width="75%">Eğer sabit daha önce #define kullanılarak tanımlanmamışsa true döndürür.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#pragma</b></td>
-         <td class="myStripedTableItems text-left" width="75%">Issues special commands to the compiler.</td>
+         <td class="myStripedTableItems text-left" width="75%">Derleyici için özel komutlar gönderir.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#error</b></td>
-         <td class="myStripedTableItems text-left" width="75%">Prints error message on stderr.</td>
+         <td class="myStripedTableItems text-left" width="75%">Hata mesajını stderr'da yazdırır.</td>
       </tr>
    </tbody>
 </table>
 <!-- Striped Table HTML Ends here -->
 <hr/>
-<h2 id="myH2">#include Preprocessor Directives</h2>
+<h2 id="myH2">#include önişlemci bildirimleri</h2>
 <!-- Paragraph HTML Starts Here -->
 <p class="myParagraph">
 #inclide Preprocessor Directives is used to include header file inside C Program. It checks for header file in current directory, If path is not mentioned. To include user defined header file we use double quote instead of using triangular bracket.
