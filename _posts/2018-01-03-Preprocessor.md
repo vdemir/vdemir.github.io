@@ -102,11 +102,10 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
 </p>
 <!-- Paragraph HTML Ends Here -->
 <i>Örneğin</i><br/>
-<pre>
+~~~
 #include <string.h>          // Standard ÜstBilgi Dosyası
 #include "myHeaderFile.h"    // Kullanıcı Tanımlı ÜstBilgi Dosyası
-</pre>
-<hr/>
+~~~
 <!-- Paragraph HTML Starts Here -->
 <p class="myParagraph">
 İlk satır Önişlemciye bu satırı string.h başlık dosyasının içeriğiyle değiştirmesini söyler.<br/>
@@ -119,19 +118,19 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
 <p class="myParagraph">
 Bu basit ikame makrosudur. Sabitin tüm tekrarlamalarını yerlerine koyar ve bir ifadeyle değiştirir. 
 </p>
-<pre>
+~~~
 #define identifier value
-</pre>
+~~~
 <ul>
 <li><b>#define</b> : Metin değiştirme için kullanılan önişlemci bildirimidir. </li><br/>
 <li><b>identifier</b> : Programda kullanılan ve değeri ile değiştirilecek bir tanımlayıcıdır. </li><br/>
 <li><b>value</b> : Tanımlayıcı için değiştirilecek değerdir.</li><br/>
 </ul>
 <i>For Example</i><br/>
-<pre>
+~~~
 #define PIE 3.141
 #define ZERO 0
-</pre>
+~~~
 <hr/>
 <strong>C Program to show use of #define Preprocessor Directives</strong>
 <!-- SyntaxHighllighter HTML Starts here --> 
