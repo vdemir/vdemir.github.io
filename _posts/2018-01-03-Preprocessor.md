@@ -76,11 +76,11 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#ifdef</b></td>
-         <td class="myStripedTableItems text-left" width="75%">Eğer sabit daha önce #define kullanılarak tanımlanmışsa true döndürür.</td>
+         <td class="myStripedTableItems text-left" width="75%">Eğer sabit daha önce #define ile tanımlanmışsa true döndürür.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#ifndef</b></td>
-         <td class="myStripedTableItems text-left" width="75%">Eğer sabit daha önce #define kullanılarak tanımlanmamışsa true döndürür.</td>
+         <td class="myStripedTableItems text-left" width="75%">Eğer sabit daha önce #define ile tanımlanmamışsa true döndürür.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#pragma</b></td>
