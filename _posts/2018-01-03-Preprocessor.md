@@ -21,20 +21,17 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
 <div class="alert alert-info">
 <!-- UnOrdered Items Html Starts -->
 <strong>Önişlemci Yönergeleri Hakkında Önemli Noktalar</strong>
-<em>
 <ul><em>
   <li>Önişlemci yönergeleri, kaynak kodunun derlenmesinden önce işlenir.</li>
   <li>Tüm önişlemci yönergeleri bir # simgesi ile başlar.</li>
   <li>Önişlemci yönergeleri noktalı virgülle bitmez.</li>
 </em></ul>
-</em>
-----------------------------
 </div>
 <br/>
 <div class="alert alert-success">
 <strong>Önişlemci Yönerge Türleri</strong>
 <ul><em>
-<li>Makro Değiştirme</li>
+<li>Makro Yerleştirme</li>
 <li>Şartlı Derleme</li>
 <li>Dosya İçeriği</li>
 </em></ul>
