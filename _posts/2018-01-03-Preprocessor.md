@@ -27,7 +27,7 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
   <li>Önişlemci bildirimleri noktalı virgülle bitmez.</li>
 </em></ul>
 </div>
-<hr/>
+<br/>
 <div class="alert alert-success">
 <strong>Önişlemci Bildirim Türleri</strong>
 <ul><em>
