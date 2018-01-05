@@ -117,8 +117,7 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
 <!-- Paragraph HTML Starts Here -->
 <p class="myParagraph">
 Bu basit ikame makrosudur. Sabitin tüm tekrarlamalarını yerlerine koyar ve bir ifadeyle değiştirir. 
-</p><br/>
-<!-- Paragraph HTML Ends Here -->
+</p>
 ~~~
 #define identifier value
 ~~~
