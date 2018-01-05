@@ -113,10 +113,10 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
 </p>
 <!-- Paragraph HTML Ends Here -->
 <hr/>
-<h2 id="myH2">#define Preprocessor Directives</h2>
+<h2 id="myH2">#define önişlemci bildirimleri</h2>
 <!-- Paragraph HTML Starts Here -->
 <p class="myParagraph">
-It is simple substitution macro. It substitute all occurrences of the constant and replace them with a expression.
+Bu basit ikame makrosudur. Sabitin tüm tekrarlamalarını yerlerine koyar ve bir ifadeyle değiştirir. 
 </p>
 <!-- Paragraph HTML Ends Here -->
 <div class="alert alert-info">
