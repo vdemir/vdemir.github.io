@@ -31,7 +31,7 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
 <div class="alert alert-success">
 <strong>Önişlemci Yönerge Türleri</strong>
 <ul><em>
-<li>Makro Yerleştirme</li>
+<li>Makro İkame</li>
 <li>Şartlı Derleme</li>
 <li>Dosya İçeriği</li>
 </em></ul>
@@ -48,15 +48,15 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
    <tbody>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#include</b></td>
-         <td class="myStripedTableItems text-left" width="75%">Bir C Programında üsbilgiyi içerir.</td>
+         <td class="myStripedTableItems text-left" width="75%">Bir C Programında üsbilgi dosyasını içerir.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#define</b></td>
-         <td class="myStripedTableItems text-left" width="75%">It is substitution macro. It substitute a constant with an expression.</td>
+         <td class="myStripedTableItems text-left" width="75%">İkame makrosudur. Sabit bir ifadeyle değiştirir.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#if</b></td>
-         <td class="myStripedTableItems text-left" width="75%">It include a block of code depending upon the result of conditional expression.</td>
+         <td class="myStripedTableItems text-left" width="75%">Koşullu ifadenin sonucuna bağlı olarak bir kod bloğu içerir.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#else</b></td>
