@@ -101,11 +101,11 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
 #include Önişlemci Bildirimleri, C Programında üstbilgi(*.h) dosyasını eklemek için kullanılır. Yol belirtilmemişse, geçerli dizindeki üstbilgi(*.h) dosyasını denetler. Kullanıcı tanımlı üstbilgi(*.h) dosyasını eklemek için açılı parantez<> yerine çift tırnak"" işareti kullanıyoruz.
 </p>
 <!-- Paragraph HTML Ends Here -->
-<i>For Example</i><br/>
-<pre>
-#include <string.h>          // Standard Header File
-#include "myHeaderFile.h"    // User Defined Header File
-</pre>
+<i>Örneğin</i><br/>
+~~~
+#include <string.h>          // Standard ÜstBilgi Dosyası
+#include "myHeaderFile.h"    // Kullanıcı Tanımlı ÜstBilgi Dosyası
+~~~
 <!-- Paragraph HTML Starts Here -->
 <p class="myParagraph">
 First line tells the preprocessor to replace this line with content of string.h header file.<br/>
