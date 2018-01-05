@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  C Programlamada Önişlemci Yönergeleri
-date:   2016-02-20 12:52:00
+date:   2018-01-03 12:52:00
 tags:   C Programlama
 comments: False
 ---
@@ -13,8 +13,8 @@ comments: False
 
 <!-- Paragraph HTML Starts Here -->
 <p class="myParagraph">
-The C Preprocessor is not part of the compiler but it extends the power of C programming language. All preprocessor directives begin with a # symbol.<br/><br/>
-The preprocessor step comes before compilation of source code and it instruct the compiler to do required pre-processing before actual compilation.
+C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak C programlama dilinin gücünü genişletir. Tüm önişlemci yönergeleri bir # simgesi ile başlar.<br/><br/>
+Önişlemci adımı kaynak kodunun derlenmesinden önce gelir ve gerçek derleme öncesi gereken ön-işlemleri yapmasını derleyiciye bildirir.
 </p><a name='more'></a>
 <!-- Paragraph HTML Ends Here -->
 <!-- Points to remember HTML Starts here -->
@@ -348,5 +348,3 @@ Line : 12
 </pre>
 <!-- Program Output Ends -->
 <br/>
-
----
