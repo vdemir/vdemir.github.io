@@ -56,7 +56,7 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#if</b></td>
-         <td class="myStripedTableItems text-left" width="75%">Koşullu ifadenin sonucunda buna bağlı olarak bir kod bloğu dahil eder.</td>
+         <td class="myStripedTableItems text-left" width="75%">Koşullu ifadenin sonucunda buna bağlı olarak bir kod bloğu içerir.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#else</b></td>
@@ -68,7 +68,7 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#endif</b></td>
-         <td class="myStripedTableItems text-left" width="75%">It flags the end of conditional directives like #if, #elif etc.</td>
+         <td class="myStripedTableItems text-left" width="75%">Bu, #if, #elif gibi koşullu yönergelerin sonunu işaretler.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#undef</b></td>
