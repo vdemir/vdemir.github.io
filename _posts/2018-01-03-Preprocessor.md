@@ -135,8 +135,8 @@ Bu basit ikame makrosudur. Sabitin tüm tekrarlamalarını yerlerine koyar ve bi
 <strong>#define Ön İşlemci Bildirimlerinin kullanımını göstermek için C programı .</strong>
 <!-- SyntaxHighllighter HTML Starts here --> 
 ~~~
-#include &lt;stdio.h&gt;
-#include &lt;conio.h&gt;
+#include <stdio.h>
+#include <conio.h>
 
 #define PI 3.141
 
