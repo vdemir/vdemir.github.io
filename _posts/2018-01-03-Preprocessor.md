@@ -95,7 +95,7 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
 <!-- Striped Table HTML Ends here -->
 <hr/>
 <br/>
-<h2 id="myH2">#include önişlemci bildirimleri</h2>
+<h1 id="myH2">#include önişlemci bildirimleri</h2>
 <!-- Paragraph HTML Starts Here -->
 <p class="myParagraph">
 #include Önişlemci Bildirimleri, C Programında üstbilgi(*.h) dosyasını eklemek için kullanılır. Yol belirtilmemişse, geçerli dizindeki üstbilgi(*.h) dosyasını denetler. Kullanıcı tanımlı üstbilgi(*.h) dosyasını eklemek için açılı parantez<> yerine çift tırnak"" işareti kullanıyoruz.
@@ -113,7 +113,7 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
 </p>
 <!-- Paragraph HTML Ends Here -->
 <hr/>
-<h2 id="myH2">#define önişlemci bildirimleri</h2>
+<h1 id="myH2">#define önişlemci bildirimleri</h2>
 <!-- Paragraph HTML Starts Here -->
 <p class="myParagraph">
 Bu basit ikame makrosudur. Sabitin tüm tekrarlamalarını yerlerine koyar ve bir ifadeyle değiştirir. 
