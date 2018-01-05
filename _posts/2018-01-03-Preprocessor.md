@@ -14,7 +14,7 @@ comments: False
 <!-- Paragraph HTML Starts Here -->
 <p class="myParagraph">
 C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak C programlama dilinin gücünü genişletir. Tüm önişlemci yönergeleri bir # simgesi ile başlar.<br/><br/>
-Önişlemci adımı kaynak kodunun derlenmesinden önce gelir ve gerçek derleme öncesi gereken ön-işlemleri yapmasını derleyiciye bildirir.
+Önişlem adımı kaynak kodunun derlenmesinden önce gelir ve gerçek derleme öncesi gereken ön-işlemleri yapmasını derleyiciye bildirir.
 </p><a name='more'></a>
 <!-- Paragraph HTML Ends Here -->
 <!-- Points to remember HTML Starts here -->
@@ -30,8 +30,6 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
 </em>
 <!-- UnOrdered Items Html Ends -->
 </div>
-<!-- Points to remember HTML Ends here -->
-<img alt="C Preprocessor Directives Workflow" class="img-responsive" src="http://2.bp.blogspot.com/-Fndowi7q_94/VXblSqQSvfI/AAAAAAAAALg/AI2fGetoSeA/s1600/C-PreProcessor.jpg">
 <br/>
 <div class="alert alert-success">
 <strong>Types of Preprocessor Directives</strong>
