@@ -143,12 +143,12 @@ Bu basit ikame makrosudur. Sabitin tüm tekrarlamalarını yerlerine koyar ve bi
 int main(){
     int radius;
     float circumference;
-    printf(&quot;Enter the radius of circle\n&quot;);
-    scanf(&quot;%d&quot;, &amp;radius);
+    printf("Enter the radius of circle\n");
+    scanf("%d", &radius);
     
     circumference = 2*PI*radius;
     
-    printf(&quot;Circumference of Circle = %f&quot;, circumference);
+    printf("Circumference of Circle = %f", circumference);
     
     getch();
     return 0;
