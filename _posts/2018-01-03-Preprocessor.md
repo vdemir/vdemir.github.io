@@ -120,7 +120,9 @@ Bu basit ikame makrosudur. Sabitin tüm tekrarlamalarını yerlerine koyar ve bi
 </p><br/>
 <!-- Paragraph HTML Ends Here -->
 <div class="alert alert-info">
-#define tanımlayıcı değer
+~~~
+#define identifier value
+~~~
 </div>
 <ul>
 <li><b>#define</b> : Metin değiştirme için kullanılan önişlemci bildirimidir. </li><br/>
