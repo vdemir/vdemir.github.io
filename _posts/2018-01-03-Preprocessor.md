@@ -32,11 +32,11 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
 </div>
 <br/>
 <div class="alert alert-success">
-<strong>Types of Preprocessor Directives</strong>
+<strong>Önişlemci Yönerge Türleri</strong>
 <ul><em>
-<li>Macro Substitution</li>
-<li>Conditional Compilation</li>
-<li>File Inclusive</li>
+<li>Makro Değiştirme</li>
+<li>Şartlı Derleme</li>
+<li>Dosya İçeriği</li>
 </em></ul>
 </div>
 Below is the list of Preprocessor Directives
