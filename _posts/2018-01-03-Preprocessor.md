@@ -52,7 +52,7 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#define</b></td>
-         <td class="myStripedTableItems text-left" width="75%">İkame makrosudur. Sabit bir ifadeyle değiştirir.</td>
+         <td class="myStripedTableItems text-left" width="75%">İkame makrosudur. Sabit bir değeri bir ifadeyle değiştirir.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#if</b></td>
