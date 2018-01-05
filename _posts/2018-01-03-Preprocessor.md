@@ -60,7 +60,7 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#else</b></td>
-         <td class="myStripedTableItems text-left" width="75%">It is complement of #if</td>
+         <td class="myStripedTableItems text-left" width="75%">#if'in tamamlayıcısıdır.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#elif</b></td>
