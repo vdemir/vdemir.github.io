@@ -102,10 +102,10 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
 </p>
 <!-- Paragraph HTML Ends Here -->
 <i>Örneğin</i><br/>
-<pre><code class="language-c">
+~~~
 #include <string.h>          // Standard ÜstBilgi Dosyası
 #include "myHeaderFile.h"    // Kullanıcı Tanımlı ÜstBilgi Dosyası
-</code></pre>
+~~~
 <!-- Paragraph HTML Starts Here -->
 <p class="myParagraph">
 First line tells the preprocessor to replace this line with content of string.h header file.<br/>
@@ -128,14 +128,14 @@ It is simple substitution macro. It substitute all occurrences of the constant a
 <li><b>value</b> : This is the value to be substituted for identifier.</li><br/>
 </ul>
 <i>For Example</i><br/>
-<pre><code class="language-c">
+<pre>
 #define PIE 3.141
 #define ZERO 0
-</code></pre>
+</pre>
 <hr/>
 <strong>C Program to show use of #define Preprocessor Directives</strong>
 <!-- SyntaxHighllighter HTML Starts here --> 
-<pre class="brush: cpp;toolbar: false; gutter: true;"><code class="language-c">
+<pre class="brush: cpp;toolbar: false; gutter: true;">
 #include &lt;stdio.h&gt;
 #include &lt;conio.h&gt;
 
@@ -154,7 +154,7 @@ int main(){
     getch();
     return 0;
 }
-</code></pre>
+</pre>
 <!-- SyntaxHighllighter HTML Ends here --> 
 <!-- Program Output Starts -->
 <br/>
