@@ -122,7 +122,7 @@ Bu basit ikame makrosudur. Sabitin tüm tekrarlamalarını yerlerine koyar ve bi
 #define identifier value
 ~~~
 <ul>
-<li><b>#define</b> : Metin değiştirme için kullanılan önişlemci bildirimidir. </li><br/>
+<li><b>#define</b> : Metin[text] ikame için kullanılan önişlemci bildirimidir. </li><br/>
 <li><b>identifier</b> : Programda kullanılan ve değeri ile değiştirilecek bir tanımlayıcıdır. </li><br/>
 <li><b>value</b> : Tanımlayıcı için değiştirilecek değerdir.</li><br/>
 </ul>
@@ -155,15 +155,14 @@ int main(){
 }
 ~~~
 <br/>
-Output
-<pre>
+Program çıktısı
+~~~
 Enter the radius of circle
 5
 Circumference of Circle = 31.410000
-</pre>
-<!-- Program Output Ends -->
-<h3 id="myH3">#define macro substitution with arguments</h3>
-<!-- Paragraph HTML Starts Here -->
+~~~
+## #define makro ikame argümanları ile
+
 <p class="myParagraph">
 #define Preprocessing directive can be used to write macro definitions with parameters.
 </p>
