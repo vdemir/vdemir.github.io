@@ -209,7 +209,8 @@ Enter the radius of circle
 5
 Circumference of Circle = 31.410000
 ~~~
-<strong>#if, #else and #endif Koşullu Derleme Önişlemci Bildirimleri</strong>
+<br/>
+<strong>#if, #else ve #endif Koşullu Derleme Önişlemci Bildirimleri</strong>
 
 <p class="myParagraph">
 Koşullu Derleme Bildirimleri, koşullu ifadenin sonucuna dayalı bir kod bloğu eklememizi sağlar. 
@@ -217,7 +218,7 @@ Koşullu Derleme Bildirimleri, koşullu ifadenin sonucuna dayalı bir kod bloğu
 ~~~
 #if Condition_Expression
     statements;
-#else <br/>
+#else
     statements;
 #endif
 ~~~
