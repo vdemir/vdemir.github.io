@@ -183,8 +183,8 @@ Circumference of Circle = 31.410000
 <h2 id="myH2small">Değişkenlerle Makro ikameyi Gösteren C Programı</h2>
 <!-- SyntaxHighllighter HTML Starts here --> 
 ~~~
-#include &lt;stdio.h&gt;
-#include &lt;conio.h&gt;
+#include <stdio.h>
+#include <conio.h>
 
 #define circumference(r) (2*3.141*(r))
 
