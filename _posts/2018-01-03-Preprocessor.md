@@ -221,7 +221,9 @@ Koşullu Derleme Bildirimleri, koşullu ifadenin sonucuna dayalı bir kod bloğu
     statements;
 #endif
 ~~~
-It is similar to if else condition but before compilation.<br/>Condition_Expression must be only constant expression.
+<br/>
+If else durumuna benzer ancak derlemeden önce. 
+<br/>Condition_Expression must be only constant expression.
 <h2 id="myH2small">C program to show Conditional Compilation using #if, #else and #endif</h2>
 <!-- SyntaxHighllighter HTML Starts here --> 
 <pre class="brush: cpp;toolbar: false; gutter: true;">
