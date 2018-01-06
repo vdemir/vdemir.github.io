@@ -167,12 +167,12 @@ Circumference of Circle = 31.410000
 <p class="myParagraph">
 #define Önişleme bildirimi, parametrelerle makro tanımları yazmak için kullanılabilir.
 </p>
-<!-- Paragraph HTML Ends Here -->
+
 <div class="alert alert-info">
 <ul>
-    <li>Whenever a macro identifier is encountered, the arguments are substituted by the actual arguments from the c program.</li>
-    <li>No data type defined for macro arguments. You can pass any numeric like int, float etc.</li>
-    <li>Argument macro is not case sensitive.</li>
+    <li>Bir makro tanımlayıcısı[identifier] ile karşılaşıldığında, argümanlar c programındaki gerçek bağımsız değişkenlerle değiştirilir.</li>
+    <li>Makro bağımsız değişkenleri için tanımlanmış veri türü yok. Int, float vb. gibi sayısal değerleri geçirebilirsiniz.</li>
+    <li>Bağımsız değişken makrosu, büyük/küçük harf duyarlı değildir.</li>
 </ul>
 </div>
 <i>For Example</i><br/>
