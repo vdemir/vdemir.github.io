@@ -209,21 +209,18 @@ Enter the radius of circle
 5
 Circumference of Circle = 31.410000
 ~~~
-<strong>#if, #else and #endif Conditional Compilation Preprocessor Directives</strong>
-<!-- Paragraph HTML Starts Here -->
+<strong>#if, #else and #endif Koşullu Derleme Önişlemci Bildirimleri</strong>
+
 <p class="myParagraph">
-The Conditional Compilation Directives allow us to include a block of code based on the result of conditional expression.
+Koşullu Derleme Bildirimleri, koşullu ifadenin sonucuna dayalı bir kod bloğu eklememizi sağlar. 
 </p>
-<!-- Paragraph HTML Ends Here -->
-<div class="text-left alert alert-info">
-<strong><em>
-#if&nbsp;Condition_Expression<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;statements;<br/>
-#else<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;statements;<br/>
-#endif<br/>
-</em></strong>
-</div>
+~~~
+#if Condition_Expression
+    statements;
+#else <br/>
+    statements;
+#endif
+~~~
 It is similar to if else condition but before compilation.<br/>Condition_Expression must be only constant expression.
 <h2 id="myH2small">C program to show Conditional Compilation using #if, #else and #endif</h2>
 <!-- SyntaxHighllighter HTML Starts here --> 
