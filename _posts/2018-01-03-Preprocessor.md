@@ -202,16 +202,13 @@ int main(){
     return 0;
 }
 ~~~
-<!-- SyntaxHighllighter HTML Ends here --> 
-<!-- Program Output Starts -->
 <br/>
-Output
-<pre>
+Program Çıktısı
+~~~
 Enter the radius of circle
 5
 Circumference of Circle = 31.410000
-</pre>
-<!-- Program Output Ends -->
+~~~
 <strong>#if, #else and #endif Conditional Compilation Preprocessor Directives</strong>
 <!-- Paragraph HTML Starts Here -->
 <p class="myParagraph">
