@@ -171,14 +171,14 @@ Circumference of Circle = 31.410000
 <div class="alert alert-info">
 <ul>
     <li>Bir makro tanımlayıcısı[identifier] ile karşılaşıldığında, argümanlar c programındaki gerçek bağımsız değişkenlerle değiştirilir.</li>
-    <li>Makro bağımsız değişkenleri için tanımlanmış veri türü yok. Int, float vb. gibi sayısal değerleri geçirebilirsiniz.</li>
+    <li>Makro bağımsız değişkenleri için tanımlanmış veri türü yoktur. Int, float vb. gibi sayısal değerleri geçirebilirsiniz.</li>
     <li>Bağımsız değişken makrosu, büyük/küçük harf duyarlı değildir.</li>
 </ul>
 </div>
-<i>For Example</i><br/>
-<pre>
+<i>Örneğin</i><br/>
+~~~
 #define circumference(r) (2*3.141*(r))
-</pre>
+~~~
 <hr/>
 <h2 id="myH2small">C Program to show Macro Substitution with Arguments</h2>
 <!-- SyntaxHighllighter HTML Starts here --> 
