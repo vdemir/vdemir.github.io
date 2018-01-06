@@ -161,11 +161,11 @@ Enter the radius of circle
 5
 Circumference of Circle = 31.410000
 ~~~
-
-### #define makro ikame argümanları ile
+<br/>
+# #define makro ikame argümanları ile
 
 <p class="myParagraph">
-#define Preprocessing directive can be used to write macro definitions with parameters.
+#define Önişleme bildirimi, parametrelerle makro tanımları yazmak için kullanılabilir.
 </p>
 <!-- Paragraph HTML Ends Here -->
 <div class="alert alert-info">
