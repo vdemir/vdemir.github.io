@@ -170,7 +170,7 @@ Circumference of Circle = 31.410000
 
 <div class="alert alert-info">
 <ul>
-    <li>Bir makro tanımlayıcısı[identifier] ile karşılaşıldığında, argümanlar c programındaki gerçek bağımsız değişkenlerle değiştirilir.</li>
+    <li>Bir makro tanımlayıcısı[identifier] ile karşılaşıldığında, değişkenler c programındaki gerçek bağımsız değişkenlerle değiştirilir.</li>
     <li>Makro bağımsız değişkenleri için tanımlanmış veri türü yoktur. Int, float vb. gibi sayısal değerleri geçirebilirsiniz.</li>
     <li>Bağımsız değişken makrosu, büyük/küçük harf duyarlı değildir.</li>
 </ul>
@@ -180,9 +180,9 @@ Circumference of Circle = 31.410000
 #define circumference(r) (2*3.141*(r))
 ~~~
 <hr/>
-<h2 id="myH2small">C Program to show Macro Substitution with Arguments</h2>
+<h2 id="myH2small">Değişkenlerle Makro ikameyi Gösteren C Programı</h2>
 <!-- SyntaxHighllighter HTML Starts here --> 
-<pre class="brush: cpp;toolbar: false; gutter: true;">
+~~~
 #include &lt;stdio.h&gt;
 #include &lt;conio.h&gt;
 
@@ -191,17 +191,17 @@ Circumference of Circle = 31.410000
 int main(){
     int radius;
     float c;
-    printf(&quot;Enter the radius of circle\n&quot;);
-    scanf(&quot;%d&quot;, &amp;radius);
+    printf("Enter the radius of circle\n");
+    scanf("%d", &radius);
     
     c = circumference(radius);
     
-    printf(&quot;Circumference of Circle = %f&quot;, c);
+    printf("Circumference of Circle = %f", c);
     
     getch();
     return 0;
 }
-</pre>
+~~~
 <!-- SyntaxHighllighter HTML Ends here --> 
 <!-- Program Output Starts -->
 <br/>
