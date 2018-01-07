@@ -247,7 +247,7 @@ Sayi Tektir
 ~~~
 <br/>
 <h2>Başka Bir Örnekte #if ve #else Kullanımı</h2>
-~~~
+~~~C
 #include <stdio.h>
 #include <stdlib.h>
  
