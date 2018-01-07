@@ -2,7 +2,7 @@
 layout: post
 title:  C Programlamada Önişlemci Bildirimleri
 date:   2018-01-03 12:52:00
-tags:   C Programlama
+tags:   C11 Programlama
 comments: False
 ---
 
@@ -28,7 +28,7 @@ C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası de
 <div class="alert alert-success">
 <strong>Önişlemci Bildirim Türleri</strong>
 <ul><em>
-<li>Makro İkame</li>
+<li>Büyük Ölçekte Geçerli Yerleştirme</li>
 <li>Şartlı Derleme</li>
 <li>Dosya İçeriği</li>
 </em></ul>
@@ -329,9 +329,10 @@ C Programlama dili, bir dizi büyük ölçekte geçerli yerleştirmeler tanımla
       </tr>
    </tbody>
 </table>
-<!-- Striped Table HTML Ends here -->
+
+<br/>
 <h2 id="myH2small">C Program to print value of Predefined Macros</h2>
-<!-- SyntaxHighllighter HTML Starts here --> 
+
 <pre class="brush: cpp;toolbar: false; gutter: true;">
 #include &lt;stdio.h&gt;
 #include &lt;stdlib.h&gt;
