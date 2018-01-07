@@ -258,8 +258,8 @@ int main(void)
           printf("%c", ch);
  
     /* EOF'ye ulaşma nedenini test et. */
-    if (feof(stdin)) /* eğer dosya-sonu durumundan kaynaklanan bir arıza varsa */
-       puts("End of file reached");
+    if (feof(stdin)) /* eğer dosya sonu durumundan kaynaklanan bir arıza varsa */
+       puts("Dosya sonuna ulaşıldı");
     else if (ferror(stdin)) /* eğer başarısızlık başka bir hatadan kaynaklanırsa */
         {
           perror("getchar()");
@@ -303,31 +303,31 @@ C Programlama dili, bir dizi büyük ölçekte geçerli yerleştirmeler tanımla
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>EXIT_SUCCESS</b></td>
-         <td class="myStripedTableItems text-left" width="75%">Value for the exit function to return in case of successful completion of program.</td>
+         <td class="myStripedTableItems text-left" width="75%">Programın başarıyla tamamlanması durumunda çıkış fonksiyonunun geri dönüş değeri.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>EXIT_FAILURE</b></td>
-         <td class="myStripedTableItems text-left" width="75%">Value for the exit function to return in case of program termination due to failure.</td>
+         <td class="myStripedTableItems text-left" width="75%">Başarısızlık nedeniyle programın sonlandırılması durumunda geri döndürülecek çıkış fonksiyonu değeri. </td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>RAND_MAX</b></td>
-         <td class="myStripedTableItems text-left" width="75%">Maximum value returned by the rand function.</td>
+         <td class="myStripedTableItems text-left" width="75%">Rand işlevi tarafından döndürülen maksimum değer.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>__FILE__</b></td>
-         <td class="myStripedTableItems text-left" width="75%">Contains the current filename as a string.</td>
+         <td class="myStripedTableItems text-left" width="75%">Geçerli dosya adını bir dize olarak içerir.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>__LINE__</b></td>
-         <td class="myStripedTableItems text-left" width="75%">Contains the current line number as a integer constant.</td>
+         <td class="myStripedTableItems text-left" width="75%">Geçerli satır sayısını bir tam sayı sabiti olarak içerir.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>__DATE__</b></td>
-         <td class="myStripedTableItems text-left" width="75%">Contains current date in "MMM DD YYYY" format.</td>
+         <td class="myStripedTableItems text-left" width="75%">MMM DD YYYY" biçiminde geçerli tarih içerir.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>__TIME__</b></td>
-         <td class="myStripedTableItems text-left" width="75%">Contains current time in "HH:MM:SS" format.</td>
+         <td class="myStripedTableItems text-left" width="75%">HH: MM: SS" biçimindeki geçerli saati içerir.</td>
       </tr>
    </tbody>
 </table>
