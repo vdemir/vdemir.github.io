@@ -95,7 +95,7 @@ C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası de
 #include Önişlemci Bildirimleri, C Programında üstbilgi(*.h) dosyasını eklemek için kullanılır. Yol belirtilmemişse, geçerli dizindeki üstbilgi(*.h) dosyasını denetler. Kullanıcı tanımlı üstbilgi(*.h) dosyasını eklemek için açılı parantez<> yerine çift tırnak"" işareti kullanıyoruz.
 </p>
 <i>Örneğin</i><br/>
-~~~
+~~~c
 #include <string.h>          // Standard ÜstBilgi Dosyası
 #include "myHeaderFile.h"    // Kullanıcı Tanımlı ÜstBilgi Dosyası
 ~~~
@@ -126,7 +126,7 @@ Bu basit bir büyük ölçekte geçerli yerleştirmedir. Sabitin tüm tekrarlama
 <hr/>
 <br/>
 <strong>#define Ön işlemci bildirimlerinin kullanımını göstermek için C programı .</strong>
-~~~
+~~~c
 #include <stdio.h>
 
 #define PI 3.141
@@ -175,7 +175,7 @@ Dairenin yarıçapını girin:?77
 <hr/>
 <br/>
 <h2 id="myH2small">Değişkenleri büyük ölçekte geçerli yerleştirmeyi Gösteren C Programı</h2>
-~~~
+~~~c
 #include <stdio.h>
 #include <locale.h>
 
@@ -214,7 +214,7 @@ Para birimi sembolü: ₺
 <p class="myParagraph">
 Koşullu Derleme Bildirimleri, koşullu ifadenin sonucuna dayalı bir kod bloğu eklememizi sağlar. 
 </p>
-~~~C
+~~~
 #if Condition_Expression
     statements;
 #else
@@ -334,7 +334,7 @@ C Programlama dili, bir dizi büyük ölçekte geçerli yerleştirmeler tanımla
 
 <br/>
 <h2 id="myH2small">Önceden tanımlanmış büyük ölçekte geçerli yerleştirmelerin değerini basan C programı</h2>
-~~~
+~~~c
 #include <stdio.h>
 #include <stdlib.h>
 
