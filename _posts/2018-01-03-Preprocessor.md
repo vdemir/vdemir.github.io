@@ -214,7 +214,7 @@ Para birimi sembolü: ₺
 <p class="myParagraph">
 Koşullu Derleme Bildirimleri, koşullu ifadenin sonucuna dayalı bir kod bloğu eklememizi sağlar. 
 </p>
-~~~
+~~~C
 #if Condition_Expression
     statements;
 #else
@@ -226,7 +226,7 @@ Koşullu Derleme Bildirimleri, koşullu ifadenin sonucuna dayalı bir kod bloğu
 <br/>
 <h2 id="myH2small">#if, #else ve #endif kullanarak Koşullu Derlemeyi gösteren C programı.
 </h2>
-~~~
+~~~C
 #include<stdio.h>
 #define NUM 11
 
