@@ -15,6 +15,7 @@ comments: False
 C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası değildir ancak C programlama dilinin gücünü genişletir. Tüm önişlemci bildirimleri bir # simgesi ile başlar.<br/><br/>
 Önişlem adımı kaynak kodunun derlenmesinden önce gelir ve derleyiciye gerçek derleme öncesi gereken ön-işlemleri yapmasını bildirir.
 </p><a name='more'></a>
+![_config.yml]({{ site.baseurl }}/images/IncludeLibrary.png)
 <div class="alert alert-info">
 <strong>Önişlemci Bildirimleri Hakkında Önemli Noktalar</strong>
 <ul><em>
