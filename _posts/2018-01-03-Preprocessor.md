@@ -156,7 +156,7 @@ Circumference of Circle = 31.410000
 
 <hr/>
 <br/>
-# #define makro ikame argümanları ile
+## argümanları ile #define makro ikame
 
 <p class="myParagraph">
 #define Önişleme bildirimi, parametrelerle makro tanımları yazmak için kullanılabilir.
