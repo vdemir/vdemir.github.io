@@ -331,26 +331,23 @@ C Programlama dili, bir dizi büyük ölçekte geçerli yerleştirmeler tanımla
 </table>
 
 <br/>
-<h2 id="myH2small">C Program to print value of Predefined Macros</h2>
-
-<pre class="brush: cpp;toolbar: false; gutter: true;">
-#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
-#include &lt;conio.h&gt;
+<h2 id="myH2small">Önceden tanımlanmış büyük ölçekte geçerli yerleştirmelerin değerini basan C programı</h2>
+~~~
+#include <stdio.h>
+#include <stdlib.h>
 
 int main(){
-   printf(&quot;NULL : %d\n&quot;, NULL );
-   printf(&quot;EXIT_SUCCESS : %d\n&quot;, EXIT_SUCCESS );
-   printf(&quot;EXIT_FAILURE : %d\n&quot;, EXIT_FAILURE );
-   printf(&quot;RAND_MAX : %d\n&quot;, RAND_MAX );
-   printf(&quot;File Name : %s\n&quot;, __FILE__ );
-   printf(&quot;DATE : %s\n&quot;, __DATE__ );
-   printf(&quot;Line : %d\n&quot;, __LINE__ );
+   printf("NULL : %d\n", NULL );
+   printf("EXIT_SUCCESS : %d\n", EXIT_SUCCESS );
+   printf("EXIT_FAILURE : %d\n", EXIT_FAILURE );
+   printf("RAND_MAX : %d\n", RAND_MAX );
+   printf("File Name : %s\n", __FILE__ );
+   printf("DATE : %s\n", __DATE__ );
+   printf("Line : %d\n", __LINE__ );
 
-   getch();
    return 0;
 }
-</pre>
+~~~
 <!-- SyntaxHighllighter HTML Ends here --> 
 <!-- Program Output Starts -->
 <br/>
