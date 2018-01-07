@@ -254,18 +254,18 @@ Başka Bir Örnekte #if ve #else Kullanımı
 int main(void)
 { 
     int ch;
-    while ((ch=getchar()) != EOF)   /* stdin(klavyeden) "abcde" oku/yaz */
+    while ((ch=getchar()) != EOF) /* stdin(klavyeden) "abcde" oku/yaz */
           printf("%c", ch);
  
-    /* Test reason for reaching EOF. */
-    if (feof(stdin))          /* eğer dosya-sonu durumundan kaynaklanan bir arıza varsa */
+    /* EOF'ye ulaşma nedenini test et. */
+    if (feof(stdin)) /* eğer dosya-sonu durumundan kaynaklanan bir arıza varsa */
        puts("End of file reached");
-    else if (ferror(stdin))   /* eğer başarısızlık başka bir hatadan kaynaklanırsa      */
-         {
-            perror("getchar()");
-            fprintf(stderr,"getchar() failed in file %s at line # %d\n", __FILE__,__LINE__-9);
-            exit(EXIT_FAILURE);
-         }
+    else if (ferror(stdin))   /* eğer başarısızlık başka bir hatadan kaynaklanırsa */
+        {
+          perror("getchar()");
+          fprintf(stderr,"getchar()  dosya %s satır da başarısız oldu # %d\n", __FILE__,__LINE__-9);
+          exit(EXIT_FAILURE);
+        }
  
     return EXIT_SUCCESS;
 }
