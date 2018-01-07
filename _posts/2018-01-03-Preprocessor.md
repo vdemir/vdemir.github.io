@@ -122,6 +122,7 @@ Bu basit ikame makrosudur. Sabitin tüm tekrarlamalarını yerlerine koyar ve bi
 #define ZERO 0
 ~~~
 <hr/>
+<br/>
 <strong>#define Ön İşlemci Bildirimlerinin kullanımını göstermek için C programı .</strong>
 ~~~
 #include <stdio.h>
