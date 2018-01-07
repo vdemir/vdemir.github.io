@@ -107,13 +107,13 @@ C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası de
 <br/>
 <h2 id="myH2">#define önişlemci bildirimleri</h2>
 <p class="myParagraph">
-Bu basit ikame makrosudur. Sabitin tüm tekrarlamalarını yerlerine koyar ve bir ifadeyle değiştirir. 
+Bu basit bir büyük ölçekte yerleştirmedir. Sabitin tüm tekrarlamalarını yerlerine koyar ve bir ifadeyle değiştirir. 
 </p>
 ~~~
 #define identifier value
 ~~~
 <ul>
-<li><b>#define</b> : Metin[text] ikame için kullanılan önişlemci bildirimidir. </li><br/>
+<li><b>#define</b> : Metin[text] yerleştirme için kullanılan önişlemci bildirimidir. </li><br/>
 <li><b>identifier</b> : Programda kullanılan ve değeri ile değiştirilecek bir tanımlayıcıdır. </li><br/>
 <li><b>value</b> : Tanımlayıcı için değiştirilecek değerdir.</li><br/>
 </ul>
@@ -156,10 +156,10 @@ Circumference of Circle = 31.410000
 
 <hr/>
 <br/>
-## argümanları ile #define makro ikame
+#  İlgili #define argümanlar ile büyük ölçekte yerleştirme
 
 <p class="myParagraph">
-#define Önişleme bildirimi, parametrelerle makro tanımları yazmak için kullanılabilir.
+#define Önişleme bildirimi, parametrelerle büyük ölçekte tanımları yazmak için kullanılabilir.
 </p>
 
 <div class="alert alert-info">
@@ -176,7 +176,7 @@ Circumference of Circle = 31.410000
 
 <hr/>
 <br/>
-<h2 id="myH2small">Değişkenlerle Makro ikameyi Gösteren C Programı</h2>
+<h2 id="myH2small">Değişkenlerle Makro yerleştirmeyi Gösteren C Programı</h2>
 ~~~
 #include <stdio.h>
 #include <conio.h>
