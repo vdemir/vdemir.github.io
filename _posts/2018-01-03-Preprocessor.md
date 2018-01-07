@@ -176,7 +176,7 @@ Circumference of Circle = 31.410000
 
 <hr/>
 <br/>
-<h2 id="myH2small">Değişkenlerle Makro yerleştirmeyi Gösteren C Programı</h2>
+<h2 id="myH2small">Değişkenlerle Büyük Ölçekte yerleştirmeyi Gösteren C Programı</h2>
 ~~~
 #include <stdio.h>
 #include <conio.h>
