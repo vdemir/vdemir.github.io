@@ -240,6 +240,7 @@ gcc -o my_app *.c
 Sayi Tektir
 ~~~
 
+Başka Bir Örnekte #if ve #else Kullanımı
 ~~~
 #include <stdio.h>
 #include <stdlib.h>
