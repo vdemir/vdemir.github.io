@@ -11,15 +11,11 @@ comments: False
 
 <p class="meta">3 Ocak 2018 - Türkiye</p>
 
-<!-- Paragraph HTML Starts Here -->
 <p class="myParagraph">
-C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak C programlama dilinin gücünü genişletir. Tüm önişlemci yönergeleri bir # simgesi ile başlar.<br/><br/>
+C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası değildir ancak C programlama dilinin gücünü genişletir. Tüm önişlemci bildirimleri bir # simgesi ile başlar.<br/><br/>
 Önişlem adımı kaynak kodunun derlenmesinden önce gelir ve derleyiciye gerçek derleme öncesi gereken ön-işlemleri yapmasını bildirir.
 </p><a name='more'></a>
-<!-- Paragraph HTML Ends Here -->
-<!-- Points to remember HTML Starts here -->
 <div class="alert alert-info">
-<!-- UnOrdered Items Html Starts -->
 <strong>Önişlemci Bildirimleri Hakkında Önemli Noktalar</strong>
 <ul><em>
   <li>Önişlemci bildirimleri, kaynak kodunun derlenmesinden önce işlenir.</li>
@@ -37,7 +33,6 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
 </em></ul>
 </div>
 Önişlemci Bildirimlerinin listesi aşağıdadır
-<!-- Striped Table HTML Starts here -->
 <table class="table table-bordered table-striped">
    <thead>
       <tr>
@@ -92,29 +87,23 @@ C Önişlemci[Preprocessor] derleyicinin[compiler] bir parçası değildir ancak
       </tr>
    </tbody>
 </table>
-<!-- Striped Table HTML Ends here -->
 <hr/>
 <br/>
 <h2 id="myH2">#include önişlemci bildirimleri</h2>
-<!-- Paragraph HTML Starts Here -->
 <p class="myParagraph">
 #include Önişlemci Bildirimleri, C Programında üstbilgi(*.h) dosyasını eklemek için kullanılır. Yol belirtilmemişse, geçerli dizindeki üstbilgi(*.h) dosyasını denetler. Kullanıcı tanımlı üstbilgi(*.h) dosyasını eklemek için açılı parantez<> yerine çift tırnak"" işareti kullanıyoruz.
 </p>
-<!-- Paragraph HTML Ends Here -->
 <i>Örneğin</i><br/>
 ~~~
 #include <string.h>          // Standard ÜstBilgi Dosyası
 #include "myHeaderFile.h"    // Kullanıcı Tanımlı ÜstBilgi Dosyası
 ~~~
-<!-- Paragraph HTML Starts Here -->
 <p class="myParagraph">
 İlk satır Önişlemciye bu satırı string.h başlık dosyasının içeriğiyle değiştirmesini söyler.<br/>
 İkinci satır önişlemciye myHeaderFile.h dosyasını geçerli dizinden almasını ve myHeaderFile.h dosyasının içeriğini eklemesini söyler.
 </p>
-<!-- Paragraph HTML Ends Here -->
 <hr/>
 <h2 id="myH2">#define önişlemci bildirimleri</h2>
-<!-- Paragraph HTML Starts Here -->
 <p class="myParagraph">
 Bu basit ikame makrosudur. Sabitin tüm tekrarlamalarını yerlerine koyar ve bir ifadeyle değiştirir. 
 </p>
@@ -133,7 +122,6 @@ Bu basit ikame makrosudur. Sabitin tüm tekrarlamalarını yerlerine koyar ve bi
 ~~~
 <hr/>
 <strong>#define Ön İşlemci Bildirimlerinin kullanımını göstermek için C programı .</strong>
-<!-- SyntaxHighllighter HTML Starts here --> 
 ~~~
 #include <stdio.h>
 #include <conio.h>
@@ -181,7 +169,6 @@ Circumference of Circle = 31.410000
 ~~~
 <hr/>
 <h2 id="myH2small">Değişkenlerle Makro ikameyi Gösteren C Programı</h2>
-<!-- SyntaxHighllighter HTML Starts here --> 
 ~~~
 #include <stdio.h>
 #include <conio.h>
@@ -224,37 +211,29 @@ Koşullu Derleme Bildirimleri, koşullu ifadenin sonucuna dayalı bir kod bloğu
 ~~~
 <br/>
 If else durumuna benzer ancak derlemeden önce. 
-<br/>Condition_Expression must be only constant expression.
-<h2 id="myH2small">C program to show Conditional Compilation using #if, #else and #endif</h2>
-<!-- SyntaxHighllighter HTML Starts here --> 
-<pre class="brush: cpp;toolbar: false; gutter: true;">
-#include &lt;stdio.h&gt;
-#include &lt;conio.h&gt;
+<br/>Condition_Expression yalnızca sabit bir ifade olmalıdır.
+<h2 id="myH2small">#if, #else ve #endif kullanarak Koşullu Derlemeyi gösteren C programı.
+</h2>
+~~~
+#include<stdio.h>
+#define NUM 11
 
-#define COUNT 5
-
-void main(){
-   #if(COUNT &gt; 1)
-       printf(&quot;Enter %d numbers\n&quot;, COUNT);
-   #else
-       printf(&quot;Enter a number\n&quot;);
-   #endif
-
-   getch();
-   return 0;
+void main()
+{
+#if((NUM%2)==0)
+      printf("Sayi Cifttir\n");
+#else
+      printf("Sayi Tektir\n");
+#endif
 }
-</pre>
-<!-- SyntaxHighllighter HTML Ends here --> 
-<!-- Program Output Starts -->
+~~~
 <br/>
-Output
-<pre>
-Enter 5 numbers
-</pre>
-<!-- Program Output Ends -->
+Program Çıktısı
+~~~
+Sayi Tektir
+~~~
 <hr/>
 <h2 id="myH2">Predefined Macros in C Language</h2>
-<!-- Paragraph HTML Starts Here -->
 <p class="myParagraph">
 C Programming language defines a number of macros. Below is the list of some commonly used macros.
 </p>
