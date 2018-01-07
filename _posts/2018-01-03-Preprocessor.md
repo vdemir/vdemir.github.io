@@ -230,6 +230,7 @@ void main()
 <br/>
 Program Çıktısı
 ~~~
+gcc -o my_app *.c
 Sayi Tektir
 ~~~
 <hr/>
