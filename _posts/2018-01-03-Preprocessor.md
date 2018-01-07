@@ -245,8 +245,8 @@ Program Çıktısı
 gcc -o my_app *.c
 Sayi Tektir
 ~~~
-
-Başka Bir Örnekte #if ve #else Kullanımı
+<br/>
+<h2>Başka Bir Örnekte #if ve #else Kullanımı</h2>
 ~~~
 #include <stdio.h>
 #include <stdlib.h>
