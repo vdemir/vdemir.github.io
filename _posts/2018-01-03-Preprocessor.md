@@ -222,8 +222,8 @@ Koşullu Derleme Bildirimleri, koşullu ifadenin sonucuna dayalı bir kod bloğu
 #endif
 ~~~
 <br/>
-#If, #else durumuna benzer ancak derlemeden önce, 
-<br/>(Condition_Expression) yalnızca sabit bir ifade olmalıdır.
+#If, #else durumuna benzer ancak derlemeden önce, (Condition_Expression) yalnızca sabit bir ifade olmalıdır.
+<br/>
 <h2 id="myH2small">#if, #else ve #endif kullanarak Koşullu Derlemeyi gösteren C programı.
 </h2>
 ~~~
@@ -323,7 +323,7 @@ C Programlama dili, bir dizi büyük ölçekte geçerli yerleştirmeler tanımla
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>__DATE__</b></td>
-         <td class="myStripedTableItems text-left" width="75%">MMM DD YYYY" biçiminde geçerli tarih içerir.</td>
+         <td class="myStripedTableItems text-left" width="75%">MM DD YYYY" biçiminde geçerli tarih içerir.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>__TIME__</b></td>
