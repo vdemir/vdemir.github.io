@@ -211,8 +211,8 @@ Koşullu Derleme Bildirimleri, koşullu ifadenin sonucuna dayalı bir kod bloğu
 #endif
 ~~~
 <br/>
-If else durumuna benzer ancak derlemeden önce. 
-<br/>Condition_Expression yalnızca sabit bir ifade olmalıdır.
+#If, #else durumuna benzer ancak derlemeden önce, 
+<br/>(Condition_Expression) yalnızca sabit bir ifade olmalıdır.
 <h2 id="myH2small">#if, #else ve #endif kullanarak Koşullu Derlemeyi gösteren C programı.
 </h2>
 ~~~
