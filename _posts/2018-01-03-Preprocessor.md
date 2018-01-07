@@ -258,6 +258,18 @@ int main(void)
     return EXIT_SUCCESS;
 }
 ~~~
+<br/>
+Program Çıktısı
+~~~
+gcc -o my_app *.c
+rty45h546543dfdezü
+rty45h546543dfdezü
+""""""""""""""
+""""""""""""""
+431368/+*+
+431368/+*+
+
+~~~
 <hr/>
 <h2 id="myH2">Predefined Macros in C Language</h2>
 <p class="myParagraph">
