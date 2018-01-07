@@ -156,7 +156,7 @@ Circumference of Circle = 31.410000
 
 <hr/>
 <br/>
-#  İlgili #define argümanlar ile büyük ölçekte yerleştirme
+#  İlgili #define seçenekleri ile büyük ölçekte yerleştirme
 
 <p class="myParagraph">
 #define Önişleme bildirimi, parametrelerle büyük ölçekte tanımları yazmak için kullanılabilir.
