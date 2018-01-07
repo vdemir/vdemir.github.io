@@ -104,6 +104,7 @@ C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası de
 İkinci satır önişlemciye myHeaderFile.h dosyasını geçerli dizinden almasını ve myHeaderFile.h dosyasının içeriğini eklemesini söyler.
 </p>
 <hr/>
+<br/>
 <h2 id="myH2">#define önişlemci bildirimleri</h2>
 <p class="myParagraph">
 Bu basit ikame makrosudur. Sabitin tüm tekrarlamalarını yerlerine koyar ve bir ifadeyle değiştirir. 
