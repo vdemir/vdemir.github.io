@@ -107,7 +107,7 @@ C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası de
 <br/>
 <h2 id="myH2">#define önişlemci bildirimleri</h2>
 <p class="myParagraph">
-Bu basit bir büyük ölçekte yerleştirmedir. Sabitin tüm tekrarlamalarını yerlerine koyar ve bir ifadeyle değiştirir. 
+Bu basit bir büyük ölçekte geçerli yerleştirmedir. Sabitin tüm tekrarlamalarını yerlerine koyar ve bir ifadeyle değiştirir. 
 </p>
 ~~~
 #define identifier value
@@ -125,7 +125,7 @@ Bu basit bir büyük ölçekte yerleştirmedir. Sabitin tüm tekrarlamalarını 
 
 <hr/>
 <br/>
-<strong>#define Ön İşlemci Bildirimlerinin kullanımını göstermek için C programı .</strong>
+<strong>#define Ön işlemci bildirimlerinin kullanımını göstermek için C programı .</strong>
 ~~~
 #include <stdio.h>
 #include <conio.h>
@@ -164,9 +164,9 @@ Circumference of Circle = 31.410000
 
 <div class="alert alert-info">
 <ul>
-    <li>Büyük ölçekte bir program boyunca tanımlayıcı[identifier] ile karşılaşıldığında, değişkenler C programındaki gerçek bağımsız değişkenlerle değiştirilir.</li>
-    <li>Büyük ölçekte[program boyunca] bağımsız değişkenler için tanımlanmış veri türü yoktur. Int, float vb. gibi sayısal değerleri geçirebilirsiniz.</li>
-    <li>Büyük ölçekte [prgram boyunca] bağımsız değişkenler, büyük/küçük harf duyarlı değildir.</li>
+    <li>Büyük ölçekte geçerli bir tanımlayıcı[identifier] ile karşılaşıldığında, değişkenler C programındaki gerçek bağımsız değişkenlerle değiştirilir.</li>
+    <li>Büyük ölçekte geçerli bağımsız değişkenler için tanımlanmış veri türü yoktur. Int, float vb. gibi sayısal değerleri geçirebilirsiniz.</li>
+    <li>Büyük ölçekte geçerli bağımsız değişkenler, büyük/küçük harf duyarlı değildir.</li>
 </ul>
 </div>
 <i>Örneğin</i><br/>
@@ -176,7 +176,7 @@ Circumference of Circle = 31.410000
 
 <hr/>
 <br/>
-<h2 id="myH2small">Değişkenlerle Büyük Ölçekte yerleştirmeyi Gösteren C Programı</h2>
+<h2 id="myH2small">Değişkenleri büyük ölçekte geçerli yerleştirmeyi Gösteren C Programı</h2>
 ~~~
 #include <stdio.h>
 #include <conio.h>
