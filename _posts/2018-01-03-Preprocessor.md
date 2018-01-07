@@ -260,10 +260,10 @@ int main(void)
     /* EOF'ye ulaşma nedenini test et. */
     if (feof(stdin)) /* eğer dosya-sonu durumundan kaynaklanan bir arıza varsa */
        puts("End of file reached");
-    else if (ferror(stdin))   /* eğer başarısızlık başka bir hatadan kaynaklanırsa */
+    else if (ferror(stdin)) /* eğer başarısızlık başka bir hatadan kaynaklanırsa */
         {
           perror("getchar()");
-          fprintf(stderr,"getchar()  dosya %s satır da başarısız oldu # %d\n", __FILE__,__LINE__-9);
+          fprintf(stderr,"getchar() dosya %s satırda başarısız oldu # %d\n", __FILE__,__LINE__-9);
           exit(EXIT_FAILURE);
         }
  
