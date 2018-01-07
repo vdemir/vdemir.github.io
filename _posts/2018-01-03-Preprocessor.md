@@ -351,15 +351,14 @@ int main(){
 <!-- SyntaxHighllighter HTML Ends here --> 
 <!-- Program Output Starts -->
 <br/>
-Output
-<pre>
+Program Çıktısı
+~~~
 NULL : 0
 EXIT_SUCCESS : 0
 EXIT_FAILURE : 1
-RAND_MAX : 32767
+RAND_MAX : 2147483647
 File Name : PreProcessorMacro.c
-DATE : Jan 27 2015
-Line : 12
-</pre>
-<!-- Program Output Ends -->
+DATE : Jan  7 2018
+Line : 11
+~~~
 <br/>
