@@ -354,7 +354,7 @@ int main(){
 <!-- Program Output Starts -->
 <br/>
 Program Çıktısı
-~~~
+~~~bash
 NULL : 0
 EXIT_SUCCESS : 0
 EXIT_FAILURE : 1
