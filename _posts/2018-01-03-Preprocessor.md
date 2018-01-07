@@ -152,6 +152,7 @@ Enter the radius of circle
 5
 Circumference of Circle = 31.410000
 ~~~
+<hr/>
 <br/>
 # #define makro ikame argümanları ile
 
@@ -200,6 +201,7 @@ Enter the radius of circle
 5
 Circumference of Circle = 31.410000
 ~~~
+<hr/>
 <br/>
 <strong>#if, #else ve #endif Koşullu Derleme Önişlemci Bildirimleri</strong>
 
