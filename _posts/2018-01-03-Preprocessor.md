@@ -285,7 +285,7 @@ rty45h546543dfdezü
 <br/>
 <h2 id="myH2">C Dilinde Önceden Tanımlanmış Büyük Ölçekte Yerleştirmeler</h2>
 <p class="myParagraph">
-C Programming language defines a number of macros. Below is the list of some commonly used macros.
+C Programlama dili, bir dizi büyük ölçekte geçerli yerşeltirmeler tanımlar. Aşağıda, yaygın olarak kullanılan bazı büyük ölçekte yerleştirmelerin listesi bulunmaktadır.
 </p>
 <table class="table table-bordered table-striped">
    <thead>
