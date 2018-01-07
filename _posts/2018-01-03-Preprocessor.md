@@ -128,30 +128,28 @@ Bu basit bir büyük ölçekte geçerli yerleştirmedir. Sabitin tüm tekrarlama
 <strong>#define Ön işlemci bildirimlerinin kullanımını göstermek için C programı .</strong>
 ~~~
 #include <stdio.h>
-#include <conio.h>
 
 #define PI 3.141
 
 int main(){
     int radius;
     float circumference;
-    printf("Enter the radius of circle\n");
+    printf("Dairenin yarıçapını girin:?");
     scanf("%d", &radius);
     
     circumference = 2*PI*radius;
     
-    printf("Circumference of Circle = %f", circumference);
-    
-    getch();
+    printf("Çemberin Çevresi = %f\n", circumference);
+
     return 0;
 }
 ~~~
 <br/>
 Program çıktısı
 ~~~
-Enter the radius of circle
-5
-Circumference of Circle = 31.410000
+./my_app
+Dairenin yarıçapını girin:?77
+Çemberin Çevresi = 483.713989
 ~~~
 
 <hr/>
