@@ -276,6 +276,7 @@ rty45h546543dfdezü
 
 ~~~
 <hr/>
+<br/>
 <h2 id="myH2">Predefined Macros in C Language</h2>
 <p class="myParagraph">
 C Programming language defines a number of macros. Below is the list of some commonly used macros.
