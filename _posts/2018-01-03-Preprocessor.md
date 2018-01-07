@@ -226,7 +226,7 @@ Koşullu Derleme Bildirimleri, koşullu ifadenin sonucuna dayalı bir kod bloğu
 <br/>
 <h2 id="myH2small">#if, #else ve #endif kullanarak Koşullu Derlemeyi gösteren C programı.
 </h2>
-~~~C
+~~~c
 #include<stdio.h>
 #define NUM 11
 
@@ -247,7 +247,7 @@ Sayi Tektir
 ~~~
 <br/>
 <h2>Başka Bir Örnekte #if ve #else Kullanımı</h2>
-~~~C
+~~~c
 #include <stdio.h>
 #include <stdlib.h>
  
