@@ -122,6 +122,7 @@ Bu basit ikame makrosudur. Sabitin tüm tekrarlamalarını yerlerine koyar ve bi
 #define PIE 3.141
 #define ZERO 0
 ~~~
+
 <hr/>
 <br/>
 <strong>#define Ön İşlemci Bildirimlerinin kullanımını göstermek için C programı .</strong>
@@ -152,6 +153,7 @@ Enter the radius of circle
 5
 Circumference of Circle = 31.410000
 ~~~
+
 <hr/>
 <br/>
 # #define makro ikame argümanları ile
@@ -171,6 +173,7 @@ Circumference of Circle = 31.410000
 ~~~
 #define circumference(r) (2*3.141*(r))
 ~~~
+
 <hr/>
 <br/>
 <h2 id="myH2small">Değişkenlerle Makro ikameyi Gösteren C Programı</h2>
@@ -201,6 +204,7 @@ Enter the radius of circle
 5
 Circumference of Circle = 31.410000
 ~~~
+
 <hr/>
 <br/>
 <strong>#if, #else ve #endif Koşullu Derleme Önişlemci Bildirimleri</strong>
@@ -276,6 +280,7 @@ rty45h546543dfdezü
 431368/+*+
 
 ~~~
+
 <hr/>
 <br/>
 <h2 id="myH2">Predefined Macros in C Language</h2>
