@@ -234,6 +234,30 @@ Program Çıktısı
 gcc -o my_app *.c
 Sayi Tektir
 ~~~
+
+~~~
+#include <stdio.h>
+#include <stdlib.h>
+ 
+int main(void)
+{ 
+    int ch;
+    while ((ch=getchar()) != EOF)   /* stdin(klavyeden) "abcde" oku/yaz */
+          printf("%c", ch);
+ 
+    /* Test reason for reaching EOF. */
+    if (feof(stdin))          /* eğer dosya-sonu durumundan kaynaklanan bir arıza varsa */
+       puts("End of file reached");
+    else if (ferror(stdin))   /* eğer başarısızlık başka bir hatadan kaynaklanırsa      */
+         {
+            perror("getchar()");
+            fprintf(stderr,"getchar() failed in file %s at line # %d\n", __FILE__,__LINE__-9);
+            exit(EXIT_FAILURE);
+         }
+ 
+    return EXIT_SUCCESS;
+}
+~~~
 <hr/>
 <h2 id="myH2">Predefined Macros in C Language</h2>
 <p class="myParagraph">
