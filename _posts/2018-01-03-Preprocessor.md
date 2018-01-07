@@ -146,7 +146,7 @@ int main(){
 ~~~
 <br/>
 Program çıktısı
-~~~
+~~~bash
 ./my_app
 Dairenin yarıçapını girin:?77
 Çemberin Çevresi = 483.713989
@@ -201,7 +201,7 @@ int main(){
 ~~~
 <br/>
 Program Çıktısı
-~~~
+~~~bash
 Dairenin yarıçapını girin:?77
 Çemberin Çevresi = 483,713989
 Para birimi sembolü: ₺
@@ -241,7 +241,7 @@ void main()
 ~~~
 <br/>
 Program Çıktısı
-~~~
+~~~bash
 gcc -o my_app *.c
 Sayi Tektir
 ~~~
@@ -272,7 +272,7 @@ int main(void)
 ~~~
 <br/>
 Program Çıktısı
-~~~
+~~~bash
 gcc -o my_app *.c
 rty45h546543dfdezü
 rty45h546543dfdezü
