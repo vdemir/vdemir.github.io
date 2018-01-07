@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  C Programlamada Önişlemci Bildirimleri
+title:  Derleyicinin[compiler] parçaları nelerdir?
 date:   2018-01-03 12:52:00
 tags:   C Programlama
 comments: False
