@@ -164,9 +164,9 @@ Circumference of Circle = 31.410000
 
 <div class="alert alert-info">
 <ul>
-    <li>Bir makro tanımlayıcısı[identifier] ile karşılaşıldığında, değişkenler c programındaki gerçek bağımsız değişkenlerle değiştirilir.</li>
-    <li>Makro bağımsız değişkenleri için tanımlanmış veri türü yoktur. Int, float vb. gibi sayısal değerleri geçirebilirsiniz.</li>
-    <li>Bağımsız değişken makrosu, büyük/küçük harf duyarlı değildir.</li>
+    <li>Büyük ölçekte bir program boyunca tanımlayıcı[identifier] ile karşılaşıldığında, değişkenler C programındaki gerçek bağımsız değişkenlerle değiştirilir.</li>
+    <li>Büyük ölçekte[program boyunca] bağımsız değişkenler için tanımlanmış veri türü yoktur. Int, float vb. gibi sayısal değerleri geçirebilirsiniz.</li>
+    <li>Büyük ölçekte [prgram boyunca] bağımsız değişkenler, büyük/küçük harf duyarlı değildir.</li>
 </ul>
 </div>
 <i>Örneğin</i><br/>
