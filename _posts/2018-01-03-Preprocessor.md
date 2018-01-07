@@ -285,19 +285,19 @@ rty45h546543dfdezü
 <br/>
 <h2 id="myH2">C Dilinde Önceden Tanımlanmış Büyük Ölçekte Yerleştirmeler</h2>
 <p class="myParagraph">
-C Programlama dili, bir dizi büyük ölçekte geçerli yerşeltirmeler tanımlar. Aşağıda, yaygın olarak kullanılan bazı büyük ölçekte yerleştirmelerin listesi bulunmaktadır.
+C Programlama dili, bir dizi büyük ölçekte geçerli yerleştirmeler tanımlar. Aşağıda, yaygın olarak kullanılan bazı büyük ölçekte yerleştirmelerin listesi bulunmaktadır.
 </p>
 <table class="table table-bordered table-striped">
    <thead>
       <tr>
-         <th class="text-center">Macro</th>
-         <th class="text-center">Description</th>
+         <th class="text-center">Büyük Ölçekte Geçerli Yerleştirme</th>
+         <th class="text-center">Tanımı</th>
       </tr>
    </thead>
    <tbody>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>NULL</b></td>
-         <td class="myStripedTableItems text-left" width="75%">Value of a null pointer constant.</td>
+         <td class="myStripedTableItems text-left" width="75%">Bir boş[NULL] gösterici sabitinin değeri.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>EXIT_SUCCESS</b></td>
