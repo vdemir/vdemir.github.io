@@ -179,30 +179,34 @@ Circumference of Circle = 31.410000
 <h2 id="myH2small">Değişkenleri büyük ölçekte geçerli yerleştirmeyi Gösteren C Programı</h2>
 ~~~
 #include <stdio.h>
-#include <conio.h>
+#include <locale.h>
 
 #define circumference(r) (2*3.141*(r))
 
 int main(){
     int radius;
     float c;
-    printf("Enter the radius of circle\n");
+    struct lconv *loc;
+
+    setlocale (LC_ALL, "tr_TR.UTF-8");
+    loc = localeconv();
+
+    printf("Dairenin yarıçapını girin:?");
     scanf("%d", &radius);
     
-    c = circumference(radius);
-    
-    printf("Circumference of Circle = %f", c);
-    
-    getch();
+    c = circumference(radius); 
+
+    printf("Çemberin Çevresi = %f\n", c);
+    printf("Para birimi sembolü: %s\n", loc->currency_symbol);
     return 0;
 }
 ~~~
 <br/>
 Program Çıktısı
 ~~~
-Enter the radius of circle
-5
-Circumference of Circle = 31.410000
+Dairenin yarıçapını girin:?77
+Çemberin Çevresi = 483,713989
+Para birimi sembolü: ₺
 ~~~
 
 <hr/>
