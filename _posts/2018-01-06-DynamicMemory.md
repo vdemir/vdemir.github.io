@@ -11,7 +11,6 @@ comments: False
 
 <p class="meta">8 Ocak 2018 - Türkiye</p>
 
-<h1 id="topic" itemprop="name">Dynamic memory</h1><hr>
 <div id="content">
 <p itemprop="articleSection">Suppose you want to put a toy in a box, but you only have an approximate idea of its size. For that, you would require a box whose size is equal to the approximate size of the toy.</p>
 <p>We face a similar situation in C also when we want to input a sentence as an array of characters but are not sure about the number of characters in the array.</p>
