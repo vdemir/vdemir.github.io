@@ -28,9 +28,9 @@ C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası de
 <div class="alert alert-success">
 <strong>Önişlemci Bildirim Türleri</strong>
 <ul><em>
-<li>Büyük Ölçekte Geçerli Yerleştirme</li>
-<li>Şartlı Derleme</li>
-<li>Dosya İçeriği</li>
+<li>Büyük Ölçekte Geçerli Yerleştirme[Macro] Bildirimleri</li>
+<li>Şartlı Derleme Bildirimleri</li>
+<li>Dosya İçeriği Bildirimleri</li>
 </em></ul>
 </div>
 Önişlemci Bildirimlerinin listesi aşağıdadır
