@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  stdlib.h Standart C kitaplığı
+title:  stdlib.h Standart C Kitaplığı
 date:   2018-01-04 13:52:00
 tags:   C Programlama
 comments: False
@@ -12,7 +12,7 @@ comments: False
 <p class="meta">7 Ocak 2018 - Türkiye</p>
 
 <p class="myParagraph">
-The <strong>stdlib.h header file</strong> includes several general purpose utility functions, including string conversion, dynamic memory management, Integer arithmetic, system commands, random number generation, searching and sorting etc. 
+The <strong>stdlib.h üstbilgi dosyası</strong>, dizi dönüştürme, dinamik bellek yönetimi, tamsayı aritmetiği, sistem komutları, rasgele sayı üretme, arama ve sıralama vb. de dahil olmak üzere genel amaçlı faydalı fonksiyonları içerir. 
 </p>
 <hr/>
 <!-- Striped Table HTML Starts here -->
