@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  C STANDARD LIBRARY[Kitaplık]
+title:  C STANDARD LIBRARY[stdlib.h kitaplık]
 date:   2018-01-04 13:52:00
 tags:   C Programlama
 comments: False
