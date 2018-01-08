@@ -333,7 +333,7 @@ C Programlama dili, bir dizi büyük ölçekte geçerli yerleştirmeler tanımla
 </table>
 
 <br/>
-<h2 id="myH2small">Önceden tanımlanmış büyük ölçekte geçerli yerleştirmelerin değerini basan C programı</h2>
+<h1 id="myH2small">Önceden tanımlanmış büyük ölçekte geçerli yerleştirmelerin değerini basan C programı</h1>
 ~~~c
 #include <stdio.h>
 #include <stdlib.h>
