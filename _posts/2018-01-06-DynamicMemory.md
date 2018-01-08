@@ -409,11 +409,4 @@ Elements of array are<br/>
 </div>
 </div>
 <p>So here by writing <strong>free(p)</strong>, we released the memory which was dynamically allocated using malloc.</p>
-<div>
-<a href="/c-enjoy-with-files/"><span class="glyphicon glyphicon-chevron-left" style="float:left;font-size:20px;color:black;">Prev</span></a>
-<a href="/c-enum/"><span style="float:right;font-size:20px;color:black;">Next<span class="glyphicon glyphicon-chevron-right"></span></span></a>
-</div>
-</hr></hr></hr></hr></div>
-</hr>
-
 
