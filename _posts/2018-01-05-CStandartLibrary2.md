@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  stdio.h kitaplık
+title:  stdio.h Standart C Kitaplığı
 date:   2018-01-04 13:52:00
 tags:   C Programlama
 comments: False

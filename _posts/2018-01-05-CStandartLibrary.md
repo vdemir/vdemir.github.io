@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  stdlib.h kitaplık
+title:  stdlib.h Standart C kitaplığı
 date:   2018-01-04 13:52:00
 tags:   C Programlama
 comments: False
