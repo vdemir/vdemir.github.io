@@ -13,7 +13,7 @@ comments: False
 
 
 <p class="myParagraph">
-The <strong>stdio.h header file</strong> includes C standard library functions to perform input and output operation. It contains functions performing input and output operations on  stdin, stdout and stderr as well as on file. It contains functions defined specifically for a particular data type like getchar and generic functions like printf and scanf.
+Bir <strong>stdio.h üstbilgi dosyası</strong>, giriş ve çıkış işlemlerini gerçekleştirmek için C standart kütüphane işlevleri içerir. Stdin, stdout ve stderr'de ve dosya üzerinde giriş ve çıkış işlemleri gerçekleştiren fonksiyonları içerir. Getchar gibi özel bir veri türü için özel olarak tanımlanan işlevleri ve printf ve scanf gibi genel işlevleri içerir.
 </p>
 <hr/>
 <!-- Striped Table HTML Starts here -->
