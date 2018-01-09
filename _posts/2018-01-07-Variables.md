@@ -490,10 +490,6 @@ Error Reporting
 
 So far our error reporting doesn't work so well. We can report when an error occurs, and give a vague notion of what the problem was, but we don't give the user much information about what exactly has gone wrong. For example if there is an unbound symbol we should be able to report exactly which symbol was unbound. This can help the user track down errors, typos, and other trivial problems.
 
-![eclipses](/static/img/eclipses.png)
-
-Eclipses • Like ellipsis.
-
 Wouldn't it be great if we could write a function that can report errors in a similar way to how `printf` works. It would be ideal if we could pass in strings, integers, and other data to make our error messages richer.
 
 The `printf` function is a special function in C because it takes a variable number of arguments. We can create our own _variable argument_ functions, which is what we're going to do to make our error reporting better.
