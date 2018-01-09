@@ -589,7 +589,7 @@ Reference
 * * *
 
 #### [variables.c](#collapseOne)
-
+~~~C
     #include "mpc.h"
     
     #ifdef _WIN32
@@ -1196,7 +1196,7 @@ Reference
       
       return 0;
     }
-
+~~~
 Bonus Marks
 -----------
 
