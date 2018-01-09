@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Build Your Own Lisp - Functions
-date:   2018-01-08 16:57:00
+date:   2018-01-08 16:58:00
 tags:   C Programlama
 comments: False
 ---
