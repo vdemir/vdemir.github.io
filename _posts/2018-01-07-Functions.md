@@ -11,7 +11,7 @@ comments: False
 
 <p class="meta">8 Ocak 2018 - Türkiye</p>
 
-Functions • Chapter 9
+Functions • Chapter 10
 ======================
 
 What is a Function?
