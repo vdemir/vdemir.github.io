@@ -589,6 +589,7 @@ Reference
 * * *
 
 #### [variables.c](#collapseOne)
+
 ~~~C
     #include "mpc.h"
     
@@ -757,20 +758,20 @@ Reference
       return v;
     }
     
-    lval* lval_join(lval* x, lval* y) {  
+    lval* lval_join(lval* x, lval* y) {
       for (int i = 0; i < y->count; i++) {
         x = lval_add(x, y->cell[i]);
       }
       free(y->cell);
-      free(y);  
+      free(y);
       return x;
     }
     
     lval* lval_pop(lval* v, int i) {
-      lval* x = v->cell[i];  
+      lval* x = v->cell[i];
       memmove(&v->cell[i], &v->cell[i+1],
         sizeof(lval*) * (v->count-i-1));  
-      v->count--;  
+      v->count--;
       v->cell = realloc(v->cell, sizeof(lval*) * v->count);
       return x;
     }
@@ -924,7 +925,7 @@ Reference
       LASSERT_TYPE("head", a, 0, LVAL_QEXPR);
       LASSERT_NOT_EMPTY("head", a, 0);
       
-      lval* v = lval_take(a, 0);  
+      lval* v = lval_take(a, 0);
       while (v->count > 1) { lval_del(lval_pop(v, 1)); }
       return v;
     }
@@ -934,7 +935,7 @@ Reference
       LASSERT_TYPE("tail", a, 0, LVAL_QEXPR);
       LASSERT_NOT_EMPTY("tail", a, 0);
     
-      lval* v = lval_take(a, 0);  
+      lval* v = lval_take(a, 0);
       lval_del(lval_pop(v, 0));
       return v;
     }
@@ -977,7 +978,7 @@ Reference
         x->num = -x->num;
       }
       
-      while (a->count > 0) {  
+      while (a->count > 0) {
         lval* y = lval_pop(a, 0);
         
         if (strcmp(op, "+") == 0) { x->num += y->num; }
@@ -1082,7 +1083,7 @@ Reference
         if (v->cell[i]->type == LVAL_ERR) { return lval_take(v, i); }
       }
       
-      if (v->count == 0) { return v; }  
+      if (v->count == 0) { return v; }
       if (v->count == 1) { return lval_take(v, 0); }
       
       /* Ensure first element is a function after evaluation */
@@ -1197,6 +1198,7 @@ Reference
       return 0;
     }
 ~~~
+
 Bonus Marks
 -----------
 
