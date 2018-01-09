@@ -152,8 +152,8 @@ Because there is no special method of evaluating Q-Expressions, we don't need to
     {1 2 3 4}
     lispy> {1 2 (+ 5 6) 4}
     {1 2 (+ 5 6) 4}
-    lispy> {{2 3 4} {1}}
-    {{2 3 4} {1}}
+    lispy> {(2 3 4) (1)}
+    {(2 3 4) (1)}
     lispy>
     
 
