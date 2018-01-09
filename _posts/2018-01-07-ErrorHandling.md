@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Build Your Own Lisp - Error Handling
+title:  Kendi Lisp'nizi Oluşturun - Error Handling
 date:   2018-01-08 16:50:00
 tags:   C Programlama
 comments: False

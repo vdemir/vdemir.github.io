@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Build Your Own Lisp - Functions
+title:  Kendi Lisp'nizi Oluşturun - Functions
 date:   2018-01-08 16:58:00
 tags:   C Programlama
 comments: False

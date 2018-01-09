@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Build Your Own Lisp - Standard Library
+title:  Kendi Lisp'nizi Oluşturun - Standard Library
 date:   2018-01-08 17:02:00
 tags:   C Programlama
 comments: False

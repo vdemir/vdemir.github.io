@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Build Your Own Lisp - Variables
+title:  Kendi Lisp'nizi Oluşturun - Variables
 date:   2018-01-08 16:57:00
 tags:   C Programlama
 comments: False

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Build Your Own Lisp - Conditionals
+title:  Kendi Lisp'nizi Oluşturun - Conditionals
 date:   2018-01-08 16:59:00
 tags:   C Programlama
 comments: False

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Build Your Own Lisp - Q-Expressions
+title:  Kendi Lisp'nizi Oluşturun - Q-Expressions
 date:   2018-01-08 16:55:00
 tags:   C Programlama
 comments: False

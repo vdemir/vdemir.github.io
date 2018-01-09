@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Build Your Own Lisp - Bonus Projects
+title:  Kendi Lisp'nizi Oluşturun - Bonus Projects
 date:   2018-01-08 17:03:00
 tags:   C Programlama
 comments: False

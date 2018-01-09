@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Build Your Own Lisp - Evaluation
+title:  Kendi Lisp'nizi Oluşturun - Evaluation
 date:   2018-01-08 16:49:00
 tags:   C Programlama
 comments: False
