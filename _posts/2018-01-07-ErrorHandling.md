@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Build Your Own Lisp - Error Handling
-date:   2018-01-04 16:52:00
+date:   2018-01-08 16:50:00
 tags:   C Programlama
 comments: False
 ---
