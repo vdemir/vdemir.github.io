@@ -590,7 +590,7 @@ Reference
 
 #### [variables.c](#collapseOne)
 
-~~~C
+~~~c
     #include "mpc.h"
     
     #ifdef _WIN32
