@@ -140,10 +140,10 @@ Using these simple changes we can update our reading function `lval_read` to be 
 
 We also need to update `lval_read` to recognize the curly bracket characters when they appear.
 
-    if (strcmp(t->children[i]->contents, "(") == 0) { continue; }
     if (strcmp(t->children[i]->contents, ")") == 0) { continue; }
-    if (strcmp(t->children[i]->contents, "}") == 0) { continue; }
-    if (strcmp(t->children[i]->contents, "{") == 0) { continue; }
+    if (strcmp(t->children[i]->contents, ")") == 0) { continue; }
+    if (strcmp(t->children[i]->contents, ")") == 0) { continue; }
+    if (strcmp(t->children[i]->contents, ")") == 0) { continue; }
     
 
 Because there is no special method of evaluating Q-Expressions, we don't need to edit any of the evaluation functions. Our Q-Expressions should be ready to try. Compile and run the program. Try using them as a new data type and ensure they are not evaluated.
