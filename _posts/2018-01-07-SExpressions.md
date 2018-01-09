@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Build Your Own Lisp - Expressions
+title:  Build Your Own Lisp - S-Expressions
 date:   2018-01-08 16:52:00
 tags:   C Programlama
 comments: False
