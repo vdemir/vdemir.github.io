@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://vdemir.github.io/</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2018/01/08/Bonus-Projects.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2018/01/08/StandardLibrary.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2018/01/08/Strings.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2018/01/08/Conditionals.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2018/01/08/Functions.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2018/01/08/Variables.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2018/01/08/QExpressions.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2018/01/08/SExpressions.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2018/01/08/ErrorHandling.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2018/01/08/Evaluation.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2018/01/04/Parsing.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2018/01/04/Languages.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2018/01/04/InteractivePrompt.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2018/01/04/CBasics.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2018/01/04/DynamicMemory.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2018/01/04/CStandartLibrary2.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2018/01/04/CStandartLibrary.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2018/01/04/void.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2018/01/03/PartofCompiler.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2018/01/03/Preprocessor.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2016/02/20/Pisi-Paketleme.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2015/09/30/Hello-World.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2015/09/26/Jekyll-Kurulumu-ve-Blog-Sitesi-Yapimi.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2015/09/26/Pisi-Linux-Renkli-Cikartmalari-Hazir.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2015/09/26/Pisi-Linux-Gelistiricisi-olmak-ister-misiniz.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2015/09/25/Pisi-Linux-Siyah-Beyaz-Cikartmalar-Hazir.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2015/09/25/Workrave-ve-RSIBreak-Yazilimlari-RSI-Sorunlarina-Care-Olabilir.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2015/09/24/Pisi-Linux-Ekibi-Acik-Kaynak-Gunlerine-Katiliyor.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2015/09/23/Pisi-Linux-Web-Sitesi-Yenileniyor.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2015/09/23/Pisi-Linux-1-2-Xfce-Masaustu-Kalibi-Yayinlandi.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://vdemir.github.io/2015/08/30/Pisi-Linux-2.0Alfa5-KDE.html</loc>
+  <lastmod>2018-01-10T16:51:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
