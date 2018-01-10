@@ -1,2 +1,20 @@
 markdown: kramdown
 highlighter: rouge
+
+# Site wide configuration
+
+description       : Blog
+title             : Günlük Yazılar
+keywords          : Blog, Günce, Yazılar
+logo              : 
+search            : false
+baseurl           : ""
+url               : https://vdemir.github.io
+author:
+  name            : "Günce"
+  url             : https://vdemir.github.io
+  email           : jeruselam@yandex.com
+  bio             : "Just another tattooed, time traveling designer."
+  picture         : ""
+
+
