@@ -40,15 +40,7 @@ title: Vedat Demir
     </span>
     {% endfor %}
   
-{% for tag in site.tag %}
-    <li style="font-size: {{ category | last | size | times: 100 | divided_by: site.tag.size }}%">
-        <a href="/{{ tag | first | slugize }}/">
-            {{ tag | first }}
-        </a>
-    </li>
-{% endfor %}
 
-<div class="tag-cloud">
    {% for tag in site.tags %}
       <a href="#posts-tag" id="{{ forloop.index }}" class="__tag" style="margin: 5px">{{ tag[0] }}</a>
       <ul id="list_{{ forloop.index }}" style="display:none;">
@@ -57,9 +49,6 @@ title: Vedat Demir
          {% endfor %}
       </ul>
    {% endfor %}
-</div>
-
-<div id ="posts-tags" class="post-list" style="margin: 50px;"></div>
 
 <script type="text/javascript">
    $(function() {
