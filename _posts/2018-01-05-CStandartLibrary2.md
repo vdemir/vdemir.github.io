@@ -418,7 +418,6 @@ Explanation of Program :
 In the above program we have used typedef to create alias name to data type. We have created alias name to ‘int’ data type. We have given new name to integer data type i.e ‘Number’.
 
 * * *
-
 Syntax to Use Typedef With Structures :
 ---------------------------------------
 * * *
@@ -427,10 +426,10 @@ typedef int XYZ;
    XYZ age;
    XYZ roll;
 ~~~
-
+* * *
 Different Ways of Declaring Structure using Typedef :
 -----------------------------------------------------
-
+* * * 
 
 ~~~c
 typedef struct
