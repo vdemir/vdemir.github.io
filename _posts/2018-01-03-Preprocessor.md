@@ -125,13 +125,6 @@ Burada, komutun stdout kısmı stderr'a gönderilir
 
 Aşağıdaki akış işaretçileri standart akışlara erişmek için kullanılabilir: 
 
-|İşaretçi |Akış
-----------|-----------
-|stdin	  |Standard giriş
-|stdout	  |Standard çıkış
-|stderr	  |Standard hata
-
-
 ~~~c
 #include <stdio.h>
 int getc(FILE *stream);
