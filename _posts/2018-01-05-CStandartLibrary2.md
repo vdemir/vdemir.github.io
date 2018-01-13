@@ -447,7 +447,7 @@ typedef struct
 }employee;
 ~~~
 
-Or
+Veya
 
 ~~~c
 typedef struct Record
