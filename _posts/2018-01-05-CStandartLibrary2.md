@@ -386,7 +386,7 @@ Typedef Nasıl Kullanılıyor
 -----------------------------
 * * * 
 1.  Başka yollarla ilan edilmiş olabilecek veri türleri için eşdeğerlerini tanıtmamızı sağlar.
-2.  Yapıya yeni ad vermek için kullanılır.
+2.  Yapıya yeni bir isim vermek için kullanılır.
 3.  Örnekler oluşturmak, değerleri işleve aktarmak, bildirimde kullanmak için yeni isimler kullanılır.
 * * * 
 
@@ -491,7 +491,7 @@ int main()
 
 ~~~
 
-Komut: 
+Komut : 
 --------
 ~~~bash
 cc -std=c11 -Wall -g my_app.c -o my_app
