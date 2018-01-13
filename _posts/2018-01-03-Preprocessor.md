@@ -137,9 +137,11 @@ Aşağıdaki akış işaretçileri standart akışlara erişmek için kullanıla
 int getc(FILE *stream);
 int getchar(void);
 FILE *freopen(const char *pathname, const char *mode, FILE *stream);
+int printf(const char *format, ...);
 ~~~
 
 > getchar() eşdeğeri getc(stdin) dir.
+>printf () işlevleri çıktıyı stdout'a yazar.
 
 Bu işaretçiler, işlevler için argüman olarak kullanılabilir. getchar ve putchar gibi bazı işlevler otomatik olarak stdin ve stdout kullanır.
 
