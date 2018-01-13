@@ -225,8 +225,6 @@ Click on function names below to see detailed description of functions.
 
 * * *
 
-stdio.h
-============
 
 The stdio header provides functions for performing input and output.
 
