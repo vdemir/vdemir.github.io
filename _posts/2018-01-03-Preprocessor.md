@@ -17,13 +17,14 @@ C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası de
 </p><a name='more'></a>
 ![_config.yml]({{ site.baseurl }}/images/IncludeLibrary.png)
 <div class="alert alert-info">
-<strong>Önişlemci Bildirimleri Hakkında Önemli Noktalar</strong>
+<strong>Önişlemci Bildirimleri Hakkında Önemli Hususlar</strong>
 <ul><em>
-  <li>Önişlemci bildirimleri, kaynak kodunun derlenmesinden önce işlenir.</li>
-  <li>Tüm önişlemci bildirimleri bir # simgesi ile başlar.</li>
-  <li>Önişlemci bildirimleri noktalı virgülle bitmez.</li>
+  <li>Önişlemci talimatları, kaynak kodunun derlenmesinden önce uygulanır.</li>
+  <li>Tüm önişlemci talimatları bir # simgesi ile başlar.</li>
+  <li>Önişlemci talimatları noktalı virgülle bitmez.</li>
 </em></ul>
 </div>
+![_config.yml]({{ site.baseurl }}/images/C-PreProcessor.jpg)
 <br/>
 <div class="alert alert-success">
 <strong>Önişlemci Bildirim Türleri</strong>
