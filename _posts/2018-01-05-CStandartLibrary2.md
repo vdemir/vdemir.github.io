@@ -308,14 +308,23 @@ Variables:
  **fpos_t** is a type suitable for storing any position in a file.
  
  **NULL** is the value of a null pointer constant.
+
  **_IOFBF**, **_IOLBF**, and **_IONBF** are used in the setvbuf function.
+
  **BUFSIZ** is an integer which represents the size of the buffer used by the setbuf function.
+
  **EOF** is a negative integer which indicates an end-of-file has been reached.
+
  **FOPEN_MAX** is an integer which represents the maximum number of files that the system can guarantee that can be opened simultaneously.
+
  **FILENAME_MAX** is an integer which represents the longest length of a char array suitable for holding the longest possible filename. If the implementation imposes no limit, then this value should be the recommended maximum value.
+
  **L_tmpnam** is an integer which represents the longest length of a char array suitable for holding the longest possible temporary filename created by the tmpnam function.
+
  **SEEK_CUR**, **SEEK_END**, and **SEEK_SET** are used in the fseek function.
+
  **TMP_MAX** is the maximum number of unique filenames that the function tmpnam can generate.
+
  **stderr**, **stdin**, and **stdout** are pointers to **FILE** types which correspond to the standard error, standard input, and standard output streams.
 
 [stdio.h](https://www-s.acm.illinois.edu/webmonkeys/book/c_guide/2.12.html)
