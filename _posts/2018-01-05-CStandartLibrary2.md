@@ -408,7 +408,9 @@ return(0);
 
 ### Output :
 
+~~~bash
 Answer : 60
+~~~
 
 Explanation of Program :
 ------------------------
@@ -420,9 +422,11 @@ In the above program we have used typedef to create alias name to data type. We 
 Syntax to Use Typedef With Structures :
 ---------------------------------------
 
+~~~c
 typedef int XYZ;  
    XYZ age;
    XYZ roll;
+~~~
 
 Different Ways of Declaring Structure using Typedef :
 -----------------------------------------------------
@@ -480,8 +484,10 @@ int main()
 Output :
 --------
 
+~~~bash
 Name of Book  : Let Us C
 SSN  of Book  : 1000
 Pages in Book : 90
+~~~
 
 * * *
