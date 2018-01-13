@@ -94,54 +94,6 @@ C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası de
 
 [![SUNMI(선미) _ Gashina(가시나)](http://img.youtube.com/vi/ur0hCdne2-s/0.jpg)](https://www.youtube.com/watch?v=ur0hCdne2-s)
 
-[stdio - standart giriş / çıkış kitaplığı işlevleri](http://man7.org/linux/man-pages/man3/stdio.3.html)
-
-> [stdin, stdout, stderr - standart G/Ç akışları](http://icecube.wisc.edu/~dglo/c_class/stdio.html)
-
->
-
-~~~c 
-#include <stdio.h>
-
-FILE *stdin;
-FILE *stdout;
-FILE *stderr;
-~~~
-
-3 dosya tanımlayıcı, stdin, stdout ve stderr (std = standart) vardır.
-Bunlar giriş, çıkış ve hata çıkışı için standart akışlardır.
-Varsayılan olarak, standart girdi klavyeden okunurken, standart çıktı ve standart hata ekrana yazdırılır.
->
-
-
-~~~c
-#include <stdio.h>
-int getc(FILE *stream);
-int getchar(void);
-FILE *freopen(const char *pathname, const char *mode, FILE *stream);
-int printf(const char *format, ...);
-~~~
-
-printf() işlevleri çıktıyı stdout'a yazar. getchar() eşdeğeri getc(stdin) dir.
-getchar() akımdaki bir sonraki karakteri okur ve onu bir int veya dosya sonundaki EOF'ye atanan bir işaretsiz char olarak döndürür.
-
-Bu işaretçiler, işlevler için argüman olarak kullanılabilir. getchar ve putchar gibi bazı işlevler otomatik olarak stdin ve stdout kullanır.
-
-Bu işaretçiler sabittir ve yeni değerler atanamaz. freopen işlevi, akışları disk dosyalarına veya diğer aygıtlara yönlendirmek için kullanılabilir. İşletim sistemi, bir programın standart giriş ve çıkışını komut düzeyinde yönlendirmenizi sağlar.
->
-[UNIX/Linux ve Windows Sistemlerinde stdin, stdout ve stderr Dosyaları](http://www.kaanaslan.com/resource/article/display_article.php?id=82)
-
-## Yönlendirmeler
-1 stdout and 2 stderr yi temsil eder.
-
-~~~bash
-
-         grep * 1> & 2
-        
-~~~
-Bu, bir programın stderr çıkışının stdout'tan daha önce aynı dosyalayıcıya yazılmasına neden olacaktır.
-
-Burada, komutun stdout kısmı stderr'a gönderilir.
 
 <br/>
 <h2 id="myH2">#include önişlemci bildirimleri</h2>
