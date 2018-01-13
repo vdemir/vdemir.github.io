@@ -94,9 +94,9 @@ C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası de
 
 [![SUNMI(선미) _ Gashina(가시나)](http://img.youtube.com/vi/ur0hCdne2-s/0.jpg)](https://www.youtube.com/watch?v=ur0hCdne2-s)
 
-1- [stdio - standart giriş / çıkış kitaplığı işlevleri](http://man7.org/linux/man-pages/man3/stdio.3.html)
+[stdio - standart giriş / çıkış kitaplığı işlevleri](http://man7.org/linux/man-pages/man3/stdio.3.html)
 
-2- [stdin, stdout, stderr - standart G / Ç akışları](http://icecube.wisc.edu/~dglo/c_class/stdio.html)
+> [stdin, stdout, stderr - standart G / Ç akışları](http://icecube.wisc.edu/~dglo/c_class/stdio.html)
 
 >
 
