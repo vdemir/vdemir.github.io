@@ -114,6 +114,7 @@ stderr	|Standard hata
 Bu işaretçiler, işlevler için argüman olarak kullanılabilir. Getchar ve putchar gibi bazı işlevler otomatik olarak stdin ve stdout kullanır.
 
 Bu işaretçiler sabittir ve yeni değerler atanamaz. Freopen işlevi, akışları disk dosyalarına veya diğer aygıtlara yönlendirmek için kullanılabilir. İşletim sistemi, bir programın standart giriş ve çıkışını komut düzeyinde yönlendirmenizi sağlar.
+
 '''
 
 
