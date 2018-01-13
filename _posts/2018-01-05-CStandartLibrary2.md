@@ -427,21 +427,25 @@ typedef int XYZ;
 Different Ways of Declaring Structure using Typedef :
 -----------------------------------------------------
 
+~~~c
 typedef struct
 {
    char ename\[30\];
    int ssn;
    int deptno;
 }employee;
+~~~
 
 Or
 
+~~~c
 typedef struct Record
  {
      char ename\[30\];
      int ssn;
      int deptno;
  }employee;
+~~~
 
 In the second example, **Record** is **tag-name**. **’employee’** is nothing but **New Data Type**. We can now create the variables of type **’employee’** Tag name is optional.
 
