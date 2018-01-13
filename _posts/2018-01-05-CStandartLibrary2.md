@@ -222,13 +222,10 @@ Click on function names below to see detailed description of functions.
       </tr>
    </tbody>
 </table>
-<!-- Striped Table HTML Ends here -->
-
-C Guide--2.12 stdio.h
 
 * * *
 
-2.12 stdio.h
+stdio.h
 ============
 
 The stdio header provides functions for performing input and output.
