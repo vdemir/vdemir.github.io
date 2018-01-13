@@ -113,19 +113,6 @@ Bunlar giriş, çıkış ve hata çıkışı için standart akışlardır.
 Varsayılan olarak, standart girdi klavyeden okunurken, standart çıktı ve standart hata ekrana yazdırılır.
 >
 
-## Yönlendirmeler
-1 stdout and 2 stderr yi temsil eder.
-
-~~~bash
-
-         grep * 1> & 2
-        
-~~~
-Bu, bir programın stderr çıkışının stdout'tan daha önce aynı dosyalayıcıya yazılmasına neden olacaktır.
-
-Burada, komutun stdout kısmı stderr'a gönderilir
-
-Aşağıdaki akış işaretçileri standart akışlara erişmek için kullanılabilir: 
 
 ~~~c
 #include <stdio.h>
@@ -144,6 +131,17 @@ Bu işaretçiler sabittir ve yeni değerler atanamaz. freopen işlevi, akışlar
 >
 [UNIX/Linux ve Windows Sistemlerinde stdin, stdout ve stderr Dosyaları](http://www.kaanaslan.com/resource/article/display_article.php?id=82)
 
+## Yönlendirmeler
+1 stdout and 2 stderr yi temsil eder.
+
+~~~bash
+
+         grep * 1> & 2
+        
+~~~
+Bu, bir programın stderr çıkışının stdout'tan daha önce aynı dosyalayıcıya yazılmasına neden olacaktır.
+
+Burada, komutun stdout kısmı stderr'a gönderilir.
 
 <br/>
 <h2 id="myH2">#include önişlemci bildirimleri</h2>
