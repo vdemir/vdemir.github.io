@@ -27,13 +27,14 @@ C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası de
 ![_config.yml]({{ site.baseurl }}/images/C-PreProcessor.jpg)
 <br/>
 <div class="alert alert-success">
-<strong>Önişlemci Bildirim Türleri</strong>
+<strong>Önişlemci Talimat Tipleri</strong>
 <ul><em>
-<li>Büyük Ölçekte Geçerli Yerleştirme[Macro] Bildirimleri</li>
-<li>Şartlı Derleme Bildirimleri</li>
-<li>Dosya İçeriği Bildirimleri</li>
+<li> Macro Talimatları</li>
+<li>Şartlı Derleme Talimatları</li>
+<li>Dosya Dahil Etme Talimatları</li>
 </em></ul>
 </div>
+*Büyük Ölçekte Geçerli Yerleştirme[Macro]
 Önişlemci Bildirimlerinin listesi aşağıdadır
 <table class="table table-bordered table-striped">
    <thead>
