@@ -390,7 +390,7 @@ Typedef Nasıl Kullanılıyor
 3.  Örnekler oluşturmak, değerleri işleve aktarmak, bildirimde kullanmak için yeni bir isim kullanılır.
 * * * 
 
-Live Example : Typedef Sample Program
+Canlı Örnek : Typedef Örnek Program
 -------------------------------------
 * * * 
 
