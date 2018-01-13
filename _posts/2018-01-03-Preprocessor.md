@@ -94,7 +94,7 @@ C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası de
 
 '''
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/J7gOqqbBW6w/0.jpg)](https://www.youtube.com/watch?v=J7gOqqbBW6w)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/ur0hCdne2-s/0.jpg)](https://www.youtube.com/watch?v=ur0hCdne2-s)
   
 FILE *stdin;
 FILE *stdout;
