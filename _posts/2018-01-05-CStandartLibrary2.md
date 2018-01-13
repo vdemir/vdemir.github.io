@@ -305,14 +305,14 @@ Variables:
 2.12.1 Variables and Definitions
 --------------------------------
 
-> **size_t** is the unsigned integer result of the sizeof keyword.  
-> **FILE** is a type suitable for storing information for a file stream.  
-> **fpos_t** is a type suitable for storing any position in a file.  
+> **size_t** is the unsigned integer result of the sizeof keyword.
+> **FILE** is a type suitable for storing information for a file stream.
+> **fpos_t** is a type suitable for storing any position in a file.
 > 
 > **NULL** is the value of a null pointer constant.
-> **_IOFBF**, **_IOLBF**, and **_IONBF** are used in the setvbuf function.  
-> **BUFSIZ** is an integer which represents the size of the buffer used by the setbuf function.  
-> **EOF** is a negative integer which indicates an end-of-file has been reached.  
+> **_IOFBF**, **_IOLBF**, and **_IONBF** are used in the setvbuf function.
+> **BUFSIZ** is an integer which represents the size of the buffer used by the setbuf function.
+> **EOF** is a negative integer which indicates an end-of-file has been reached.
 > **FOPEN_MAX** is an integer which represents the maximum number of files that the system can guarantee that can be opened simultaneously.
 > **FILENAME_MAX** is an integer which represents the longest length of a char array suitable for holding the longest possible filename. If the implementation imposes no limit, then this value should be the recommended maximum value.
 > **L_tmpnam** is an integer which represents the longest length of a char array suitable for holding the longest possible temporary filename created by the tmpnam function.
