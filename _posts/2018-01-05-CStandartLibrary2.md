@@ -457,8 +457,10 @@ In the second example, **Record** is **tag-name**. **’employee’** is nothing
 
 employee e1,e2;
 
+* * * 
 Live Example : Using Typedef For Declaring Structure
 ----------------------------------------------------
+* * * 
 
 ~~~c
 #include<stdio.h>
