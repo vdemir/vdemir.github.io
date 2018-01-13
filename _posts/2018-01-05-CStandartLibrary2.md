@@ -380,16 +380,19 @@ Bu işaretçiler sabittir ve yeni değerler atanamaz. freopen işlevi, akışlar
 Bu, bir programın stderr çıkışının stdout'tan daha önce aynı dosyalayıcıya yazılmasına neden olacaktır.
 
 Burada, komutun stdout kısmı stderr'a gönderilir.
+* * * 
 
 Using Typedef With Structures
 -----------------------------
-
+* * * 
 1.  It allows us to introduce synonyms for data types which could have been declared some other way.
 2.  It is used to give New name to the Structure.
 3.  New name is used for Creating instances, Passing values to function,declaration etc…
+* * * 
 
 Live Example : Typedef Sample Program
 -------------------------------------
+* * * 
 
 ~~~c
 #include<stdio.h>
@@ -411,13 +414,16 @@ return(0);
 ~~~bash
 Answer : 60
 ~~~
+* * * 
 
 Explanation of Program :
 ------------------------
+* * * 
 
 In the above program we have used typedef to create alias name to data type. We have created alias name to ‘int’ data type. We have given new name to integer data type i.e ‘Number’.
 
 * * *
+
 Syntax to Use Typedef With Structures :
 ---------------------------------------
 * * *
@@ -427,6 +433,7 @@ typedef int XYZ;
    XYZ roll;
 ~~~
 * * *
+
 Different Ways of Declaring Structure using Typedef :
 -----------------------------------------------------
 * * * 
