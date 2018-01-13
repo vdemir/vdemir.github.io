@@ -424,7 +424,7 @@ Yukarıdaki programda, veri türüne takma ad oluşturmak için typedef kulland�
 
 * * *
 
-Syntax to Use Typedef With Structures :
+Yapılarla'Structures' Typedef Kullanmak için Sözdizimi  :
 ---------------------------------------
 * * *
 ~~~c
