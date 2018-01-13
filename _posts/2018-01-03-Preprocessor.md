@@ -91,6 +91,32 @@ C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası de
    </tbody>
 </table>
 <hr/>
+
+'''
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+  
+FILE *stdin;
+FILE *stdout;
+FILE *stderr;
+#include <stdio.h>  
+
+Bunlar giriş, çıkış ve hata çıkışı için standart akışlardır.
+Varsayılan olarak, standart girdi klavyeden okunurken, standart çıktı ve standart hata ekrana yazdırılır.
+
+Aşağıdaki akış işaretçileri standart akışlara erişmek için kullanılabilir: 
+
+İşaretçi|Akış
+stdin	|Standard giriş
+stdout	|Standard çıkış
+stderr	|Standard hata
+
+Bu işaretçiler, işlevler için argüman olarak kullanılabilir. Getchar ve putchar gibi bazı işlevler otomatik olarak stdin ve stdout kullanır.
+
+Bu işaretçiler sabittir ve yeni değerler atanamaz. Freopen işlevi, akışları disk dosyalarına veya diğer aygıtlara yönlendirmek için kullanılabilir. İşletim sistemi, bir programın standart giriş ve çıkışını komut düzeyinde yönlendirmenizi sağlar.
+'''
+
+
 <br/>
 <h2 id="myH2">#include önişlemci bildirimleri</h2>
 <p class="myParagraph">
