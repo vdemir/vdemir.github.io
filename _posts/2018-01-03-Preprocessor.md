@@ -92,14 +92,14 @@ C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası de
 </table>
 <hr/>
 
-'''
-
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/ur0hCdne2-s/0.jpg)](https://www.youtube.com/watch?v=ur0hCdne2-s)
-  
+
+~~~ 
 FILE *stdin;
 FILE *stdout;
 FILE *stderr;
 #include <stdio.h>  
+~~~
 
 Bunlar giriş, çıkış ve hata çıkışı için standart akışlardır.
 Varsayılan olarak, standart girdi klavyeden okunurken, standart çıktı ve standart hata ekrana yazdırılır.
@@ -115,7 +115,6 @@ Bu işaretçiler, işlevler için argüman olarak kullanılabilir. Getchar ve pu
 
 Bu işaretçiler sabittir ve yeni değerler atanamaz. Freopen işlevi, akışları disk dosyalarına veya diğer aygıtlara yönlendirmek için kullanılabilir. İşletim sistemi, bir programın standart giriş ve çıkışını komut düzeyinde yönlendirmenizi sağlar.
 
-'''
 
 
 <br/>
