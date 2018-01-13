@@ -96,7 +96,7 @@ C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası de
 
 [stdio - standart giriş / çıkış kitaplığı işlevleri](http://man7.org/linux/man-pages/man3/stdio.3.html)
 
-> [stdin, stdout, stderr - standart G / Ç akışları](http://icecube.wisc.edu/~dglo/c_class/stdio.html)
+> [stdin, stdout, stderr - standart G/Ç akışları](http://icecube.wisc.edu/~dglo/c_class/stdio.html)
 
 >
 
@@ -122,8 +122,8 @@ FILE *freopen(const char *pathname, const char *mode, FILE *stream);
 int printf(const char *format, ...);
 ~~~
 
-printf () işlevleri çıktıyı stdout'a yazar. getchar() eşdeğeri getc(stdin) dir.
-getchar () akımdaki bir sonraki karakteri okur ve onu bir int veya dosya sonundaki EOF'ye atanan bir işaretsiz char olarak döndürür.
+printf() işlevleri çıktıyı stdout'a yazar. getchar() eşdeğeri getc(stdin) dir.
+getchar() akımdaki bir sonraki karakteri okur ve onu bir int veya dosya sonundaki EOF'ye atanan bir işaretsiz char olarak döndürür.
 
 Bu işaretçiler, işlevler için argüman olarak kullanılabilir. getchar ve putchar gibi bazı işlevler otomatik olarak stdin ve stdout kullanır.
 
