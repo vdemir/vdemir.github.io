@@ -125,7 +125,7 @@ Aşağıdaki akış işaretçileri standart akışlara erişmek için kullanıla
 Bu işaretçiler, işlevler için argüman olarak kullanılabilir. Getchar ve putchar gibi bazı işlevler otomatik olarak stdin ve stdout kullanır.
 
 Bu işaretçiler sabittir ve yeni değerler atanamaz. freopen işlevi, akışları disk dosyalarına veya diğer aygıtlara yönlendirmek için kullanılabilir. İşletim sistemi, bir programın standart giriş ve çıkışını komut düzeyinde yönlendirmenizi sağlar.
-
+[UNIX/Linux ve Windows Sistemlerinde stdin, stdout ve stderr Dosyaları](http://www.kaanaslan.com/resource/article/display_article.php?id=82)
 
 
 <br/>
