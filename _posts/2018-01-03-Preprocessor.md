@@ -141,7 +141,8 @@ int printf(const char *format, ...);
 ~~~
 
 > getchar() eşdeğeri getc(stdin) dir.
->printf () işlevleri çıktıyı stdout'a yazar.
+> printf () işlevleri çıktıyı stdout'a yazar.
+> getchar () akımdaki bir sonraki karakteri okur ve onu bir int veya dosya sonundaki EOF'ye atanan bir işaretsiz char olarak döndürür.
 
 Bu işaretçiler, işlevler için argüman olarak kullanılabilir. getchar ve putchar gibi bazı işlevler otomatik olarak stdin ve stdout kullanır.
 
