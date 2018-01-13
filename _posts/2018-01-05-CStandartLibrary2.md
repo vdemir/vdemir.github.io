@@ -401,10 +401,10 @@ int main()
 {
 typedef int Number;
 Number num1 = 40,num2 = 20;
-Number answer;
+Number cevap;
 
-answer = num1 + num2;
-printf("Answer : %d",answer);
+cevap = num1 + num2;
+printf("Cevap : %d",cevap);
 return(0);
 }
 ~~~
@@ -412,7 +412,7 @@ return(0);
 ### Output :
 
 ~~~bash
-Answer : 60
+Cevap : 60
 ~~~
 * * * 
 
