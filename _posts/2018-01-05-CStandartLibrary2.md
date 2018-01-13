@@ -428,7 +428,7 @@ Yapılarla'Structures' Typedef Kullanmak için Sözdizimi  :
 ---------------------------------------
 * * *
 ~~~c
-typedef int XYZ;  
+typedef int XYZ; 
    XYZ age;
    XYZ roll;
 ~~~
@@ -458,7 +458,7 @@ typedef struct Record
  }employee;
 ~~~
 
-In the second example, **Record** is **tag-name**. **’employee’** is nothing but **New Data Type**. We can now create the variables of type **’employee’** Tag name is optional.
+İkinci Örnekte, **Record** **tag-name** dir. **’employee’** hiçbirşeydir fakat **New Data Type** dir. Artık **'employee'**  türündeki değişkenleri oluşturabiliriz. Tag name isteğe bağlıdır.
 
 ### Declaring Variable :
 
@@ -466,7 +466,7 @@ employee e1,e2;
 
 * * * 
 
-Live Example : Using Typedef For Declaring Structure
+Canlı Örnek : Yapı'Structure' Bildirmek için Typedef'i Kullanma 
 ----------------------------------------------------
 * * * 
 
