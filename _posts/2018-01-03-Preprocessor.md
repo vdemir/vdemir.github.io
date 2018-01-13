@@ -32,9 +32,9 @@ C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası de
 <li> Macro Talimatları</li>
 <li>Şartlı Derleme Talimatları</li>
 <li>Dosya Dahil Etme Talimatları</li>
-</em></ul>
+</em></ul>*[Macro]Büyük Ölçekte Geçerli Değer Yerleştirme
 </div>
-*Büyük Ölçekte Geçerli Yerleştirme[Macro]
+
 Önişlemci Bildirimlerinin listesi aşağıdadır
 <table class="table table-bordered table-striped">
    <thead>
