@@ -132,6 +132,7 @@ Aşağıdaki akış işaretçileri standart akışlara erişmek için kullanıla
 |stderr	  |Standard hata
 
 ##
+
 ~~~c
 #include <stdio.h>
 int getc(FILE *stream);
@@ -140,9 +141,9 @@ FILE *freopen(const char *pathname, const char *mode, FILE *stream);
 int printf(const char *format, ...);
 ~~~
 
-> getchar() eşdeğeri getc(stdin) dir.
-> printf () işlevleri çıktıyı stdout'a yazar.
-> getchar () akımdaki bir sonraki karakteri okur ve onu bir int veya dosya sonundaki EOF'ye atanan bir işaretsiz char olarak döndürür.
+getchar() eşdeğeri getc(stdin) dir.
+printf () işlevleri çıktıyı stdout'a yazar.
+getchar () akımdaki bir sonraki karakteri okur ve onu bir int veya dosya sonundaki EOF'ye atanan bir işaretsiz char olarak döndürür.
 
 Bu işaretçiler, işlevler için argüman olarak kullanılabilir. getchar ve putchar gibi bazı işlevler otomatik olarak stdin ve stdout kullanır.
 
