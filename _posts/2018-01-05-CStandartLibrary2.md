@@ -322,3 +322,5 @@ Variables:
 > `**SEEK_CUR**`, `**SEEK_END**`, and `**SEEK_SET**` are used in the fseek function.  
 > `**TMP_MAX**` is the maximum number of unique filenames that the function tmpnam can generate.  
 > `**stderr**`, `**stdin**`, and `**stdout**` are pointers to `**FILE**` types which correspond to the standard error, standard input, and standard output streams.  
+
+[stdio.h](https://www-s.acm.illinois.edu/webmonkeys/book/c_guide/2.12.html)
