@@ -233,25 +233,7 @@ C Guide--2.12 stdio.h
 </head>
 <body text="#000000" bgcolor="#FFFFFF">
 
-<center>
-<table border=0 width=100%>
-<tr>
-<td align=left width=20% valign=top>
-<a href="2.11.html">
-<img src="left.gif" border=0>
-Previous Section<br>
-2.11 stddef.h</a></td>
-<td align=center width=60% valign=top>
-| <a href="index.html">Table of Contents</a> | 
-<a href="index2.html">Index</a> |</td>
-<td align=right width=20% valign=top>
-<a href="2.13.html">
-Next Section
-<img src="right.gif" border=0><br>
-2.13 stdlib.h</a></td>
-</tr>
-</table>
-</center>
+
 <hr>
 
 
@@ -1175,25 +1157,6 @@ Declaration:
 colon then a space.  Then an error message based on the current setting of the variable <code><b>errno</b></code> is
 printed.
 <hr>
-<center>
-<table border=0 width=100%>
-<tr>
-<td align=left width=20% valign=top>
-<a href="2.11.html">
-<img src="left.gif" border=0>
-Previous Section<br>
-2.11 stddef.h</a></td>
-<td align=center width=60% valign=top>
-| <a href="index.html">Table of Contents</a> | 
-<a href="index2.html">Index</a> |</td>
-<td align=right width=20% valign=top>
-<a href="2.13.html">
-Next Section
-<img src="right.gif" border=0><br>
-2.13 stdlib.h</a></td>
-</tr>
-</table>
-</center>
 
 </body>
 </html>
