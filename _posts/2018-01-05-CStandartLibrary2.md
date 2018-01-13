@@ -458,7 +458,7 @@ typedef struct Record
  }employee;
 ~~~
 
-İkinci örnekte, **'Record'**, **tag-name** dir. **’employee’** hiçbir şeydir fakat **New Data Type** dir. Artık **'employee'**  türündeki değişkenleri oluşturabiliriz. Tag name isteğe bağlıdır.
+İkinci örnekte, **'Record'**, **etiket-isim** dir. **’employee’** hiçbir şeydir fakat **Yeni Veri Tipi** dir. Artık **'employee'**  türündeki değişkenleri oluşturabiliriz. Tag name isteğe bağlıdır.
 
 ### Değişken Bildirmek :
 
