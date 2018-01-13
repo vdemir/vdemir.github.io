@@ -322,22 +322,3 @@ Variables:
 > `**SEEK_CUR**`, `**SEEK_END**`, and `**SEEK_SET**` are used in the fseek function.  
 > `**TMP_MAX**` is the maximum number of unique filenames that the function tmpnam can generate.  
 > `**stderr**`, `**stdin**`, and `**stdout**` are pointers to `**FILE**` types which correspond to the standard error, standard input, and standard output streams.  
-
-2.12.2 Streams and Files
-------------------------
-
-Streams facilitate a way to create a level of abstraction between the program and an input/output device. This allows a common method of sending and receiving data amongst the various types of devices available. There are two types of streams: text and binary.
-
-Text streams are composed of lines. Each line has zero or more characters and are terminated by a new-line character which is the last character in a line. Conversions may occur on text streams during input and output. Text streams consist of only printable characters, the tab character, and the new-line character. Spaces cannot appear before a newline character, although it is implementation-defined whether or not reading a text stream removes these spaces. An implementation must support lines of up to at least 254 characters including the new-line character.
-
-Binary streams input and output data in an exactly 1:1 ratio. No conversion exists and all characters may be transferred.
-
-When a program begins, there are already three available streams: standard input, standard output, and standard error.
-
-Files are associated with streams and must be opened to be used. The point of I/O within a file is determined by the file position. When a file is opened, the file position points to the beginning of the file unless the file is opened for an append operation in which case the position points to the end of the file. The file position follows read and write operations to indicate where the next operation will occur.
-
-When a file is closed, no more actions can be taken on it until it is opened again. Exiting from the main function causes all open files to be closed.
-
-2.12.3 File Functions
----------------------
-
