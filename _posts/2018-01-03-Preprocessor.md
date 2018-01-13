@@ -131,7 +131,7 @@ Aşağıdaki akış işaretçileri standart akışlara erişmek için kullanıla
 |stdout	  |Standard çıkış
 |stderr	  |Standard hata
 
->
+##
 ~~~c
 #include <stdio.h>
 int getc(FILE *stream);
