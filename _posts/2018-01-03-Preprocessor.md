@@ -54,7 +54,7 @@ C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası de
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#if</b></td>
-         <td class="myStripedTableItems text-left" width="75%">Koşullu ifadenin sonucunda buna bağlı bir kod bloğu içerir.</td>
+         <td class="myStripedTableItems text-left" width="75%">Koşullu ifadenin sonucuna bağlı bir kod bloğu içerir.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#else</b></td>
@@ -74,15 +74,15 @@ C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası de
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#ifdef</b></td>
-         <td class="myStripedTableItems text-left" width="75%">Eğer sabit daha önce #define ile tanımlanmışsa true döndürür.</td>
+         <td class="myStripedTableItems text-left" width="75%">Eğer bir sabit değer daha önce #define ile tanımlanmışsa true döndürür.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#ifndef</b></td>
-         <td class="myStripedTableItems text-left" width="75%">Sabit daha önce #define ile tanımlanmamışsa true döndürür.</td>
+         <td class="myStripedTableItems text-left" width="75%">Eğer sabit değer daha önce #define ile tanımlanmamışsa true döndürür.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#pragma</b></td>
-         <td class="myStripedTableItems text-left" width="75%">Derleyici için özel komutlar gönderir.</td>
+         <td class="myStripedTableItems text-left" width="75%">Derleyiciye özel komutlar verir.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#error</b></td>
