@@ -131,6 +131,14 @@ Aşağıdaki akış işaretçileri standart akışlara erişmek için kullanıla
 |stdout	  |Standard çıkış
 |stderr	  |Standard hata
 
+~~~c
+#include <stdio.h>
+
+int getchar(void);
+~~~
+
+> getchar() eşdeğeri getc(stdin).
+
 Bu işaretçiler, işlevler için argüman olarak kullanılabilir. getchar ve putchar gibi bazı işlevler otomatik olarak stdin ve stdout kullanır.
 
 Bu işaretçiler sabittir ve yeni değerler atanamaz. freopen işlevi, akışları disk dosyalarına veya diğer aygıtlara yönlendirmek için kullanılabilir. İşletim sistemi, bir programın standart giriş ve çıkışını komut düzeyinde yönlendirmenizi sağlar.
