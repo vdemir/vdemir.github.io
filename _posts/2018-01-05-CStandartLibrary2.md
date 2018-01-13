@@ -420,7 +420,7 @@ Program Açıklamaları :
 ------------------------
 * * * 
 
-Yukarıdaki programda, veri türüne takma ad oluşturmak için typedef kullandık. 'Int' veri türüne takma ad oluşturduk. Tamsayı veri türüne (ör. Number'Sayı') yeni bir isim verdik.
+Yukarıdaki programda, veri türüne takma ad oluşturmak için typedef kullandık. 'Int' veri türüne takma ad oluşturduk. Tamsayı veri türüne (ör. Number) yeni bir isim verdik.
 
 * * *
 
