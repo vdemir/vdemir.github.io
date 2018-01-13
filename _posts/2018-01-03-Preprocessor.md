@@ -107,7 +107,7 @@ Varsayılan olarak, standart girdi klavyeden okunurken, standart çıktı ve sta
 1 stdout and 2 stderr yi temsil eder.
 
 ~~~
-grep da * 1>&2 
+grep * 1>&2 
 ~~~
 
 Aşağıdaki akış işaretçileri standart akışlara erişmek için kullanılabilir: 
