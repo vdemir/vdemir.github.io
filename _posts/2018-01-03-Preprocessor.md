@@ -100,7 +100,7 @@ FILE *stdout;
 FILE *stderr;
 #include <stdio.h>  
 ~~~
-
+3 dosya tanımlayıcı, stdin, stdout ve stderr (std = standart) vardır.
 Bunlar giriş, çıkış ve hata çıkışı için standart akışlardır.
 Varsayılan olarak, standart girdi klavyeden okunurken, standart çıktı ve standart hata ekrana yazdırılır.
 
