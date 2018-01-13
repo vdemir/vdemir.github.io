@@ -430,7 +430,8 @@ typedef int XYZ;
 
 Different Ways of Declaring Structure using Typedef :
 -----------------------------------------------------
-===========
+
+
 ~~~c
 typedef struct
 {
