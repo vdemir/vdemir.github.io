@@ -441,7 +441,7 @@ Typedef'i kullanarak Yapıyı'Structure' Beyan Etmenin Farklı Yolları :
 ~~~c
 typedef struct
 {
-   char ename\[30\];
+   char ename[30];
    int ssn;
    int deptno;
 }employee;
@@ -452,7 +452,7 @@ Or
 ~~~c
 typedef struct Record
  {
-     char ename\[30\];
+     char ename[30];
      int ssn;
      int deptno;
  }employee;
