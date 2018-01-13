@@ -421,7 +421,7 @@ In the above program we have used typedef to create alias name to data type. We 
 
 Syntax to Use Typedef With Structures :
 ---------------------------------------
-
+* * *
 ~~~c
 typedef int XYZ;  
    XYZ age;
