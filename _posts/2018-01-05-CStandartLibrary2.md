@@ -381,3 +381,98 @@ Bu, bir programın stderr çıkışının stdout'tan daha önce aynı dosyalayı
 
 Burada, komutun stdout kısmı stderr'a gönderilir.
 
+Using Typedef With Structures
+-----------------------------
+
+1.  It allows us to introduce synonyms for data types which could have been declared some other way.
+2.  It is used to give New name to the Structure.
+3.  New name is used for Creating instances, Passing values to function,declaration etc…
+
+Live Example : Typedef Sample Program
+-------------------------------------
+
+#include<stdio.h>
+
+int main() 
+{
+typedef int Number;
+Number num1 = 40,num2 = 20;
+Number answer;
+
+answer = num1 + num2;
+printf("Answer : %d",answer);
+return(0);
+}
+
+### Output :
+
+Answer : 60
+
+Explanation of Program :
+------------------------
+
+In the above program we have used typedef to create alias name to data type. We have created alias name to ‘int’ data type. We have given new name to integer data type i.e ‘Number’.
+
+* * *
+
+Syntax to Use Typedef With Structures :
+---------------------------------------
+
+typedef int XYZ;  
+   XYZ age;
+   XYZ roll;
+
+Different Ways of Declaring Structure using Typedef :
+-----------------------------------------------------
+
+typedef struct
+{
+   char ename\[30\];
+   int ssn;
+   int deptno;
+}employee;
+
+Or
+
+typedef struct Record
+ {
+     char ename\[30\];
+     int ssn;
+     int deptno;
+ }employee;
+
+In the second example, **Record** is **tag-name**. **’employee’** is nothing but **New Data Type**. We can now create the variables of type **’employee’** Tag name is optional.
+
+### Declaring Variable :
+
+employee e1,e2;
+
+Live Example : Using Typedef For Declaring Structure
+----------------------------------------------------
+
+#include<stdio.h>
+
+typedef struct b1 {
+   char bname\[30\];
+   int ssn;
+   int pages;
+}book;
+
+book b1 = {"Let Us C",1000,90};
+
+int main() 
+{
+    printf("\\nName of Book : %s",b1.bname);
+    printf("\\nSSN of Book : %d",b1.ssn);
+    printf("\\nPages in Book : %d",b1.pages);
+    return(0);
+}
+
+Output :
+--------
+
+Name of Book  : Let Us C
+SSN  of Book  : 1000
+Pages in Book : 90
+
+* * *
