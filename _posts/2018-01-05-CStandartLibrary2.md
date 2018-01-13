@@ -391,6 +391,7 @@ Using Typedef With Structures
 Live Example : Typedef Sample Program
 -------------------------------------
 
+~~~c
 #include<stdio.h>
 
 int main() 
@@ -403,6 +404,7 @@ answer = num1 + num2;
 printf("Answer : %d",answer);
 return(0);
 }
+~~~
 
 ### Output :
 
