@@ -420,7 +420,7 @@ Program Açıklamaları :
 ------------------------
 * * * 
 
-In the above program we have used typedef to create alias name to data type. We have created alias name to ‘int’ data type. We have given new name to integer data type i.e ‘Number’.
+Yukarıdaki programda, veri türüne takma ad oluşturmak için typedef kullandık. 'Int' veri türüne takma ad oluşturduk. Tamsayı veri türüne (ör. Number'Sayı') yeni bir isim verdik.
 
 * * *
 
