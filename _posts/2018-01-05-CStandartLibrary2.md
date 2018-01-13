@@ -296,8 +296,11 @@ Functions:
 Variables:
 
 > **`typedef size_t  
+
 > typedef FILE  
+
 > typedef fpos_t  
+
 > `**
 
 2.12.1 Variables and Definitions
