@@ -107,8 +107,13 @@ Varsayılan olarak, standart girdi klavyeden okunurken, standart çıktı ve sta
 1 stdout and 2 stderr yi temsil eder.
 
 ~~~
-grep * 1>&2 
+
+         grep da * 1> & 2
+        
 ~~~
+Bu, bir programın stderr çıkışının stdout'tan daha önce aynı dosyalayıcıya yazılmasına neden olacaktır.
+
+Burada, komutun stdout kısmı stderr'a gönderilir
 
 Aşağıdaki akış işaretçileri standart akışlara erişmek için kullanılabilir: 
 
@@ -119,7 +124,7 @@ Aşağıdaki akış işaretçileri standart akışlara erişmek için kullanıla
 
 Bu işaretçiler, işlevler için argüman olarak kullanılabilir. Getchar ve putchar gibi bazı işlevler otomatik olarak stdin ve stdout kullanır.
 
-Bu işaretçiler sabittir ve yeni değerler atanamaz. Freopen işlevi, akışları disk dosyalarına veya diğer aygıtlara yönlendirmek için kullanılabilir. İşletim sistemi, bir programın standart giriş ve çıkışını komut düzeyinde yönlendirmenizi sağlar.
+Bu işaretçiler sabittir ve yeni değerler atanamaz. freopen işlevi, akışları disk dosyalarına veya diğer aygıtlara yönlendirmek için kullanılabilir. İşletim sistemi, bir programın standart giriş ve çıkışını komut düzeyinde yönlendirmenizi sağlar.
 
 
 
