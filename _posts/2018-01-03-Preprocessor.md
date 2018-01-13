@@ -98,6 +98,7 @@ C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası de
 
 ## stdin, stdout, stderr - standart G / Ç akışları
 >
+
 ~~~c 
 #include <stdio.h>
 
