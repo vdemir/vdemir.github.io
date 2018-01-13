@@ -106,10 +106,10 @@ Varsayılan olarak, standart girdi klavyeden okunurken, standart çıktı ve sta
 
 Aşağıdaki akış işaretçileri standart akışlara erişmek için kullanılabilir: 
 
-İşaretçi|Akış
-stdin	|Standard giriş
-stdout	|Standard çıkış
-stderr	|Standard hata
+|İşaretçi|Akış
+|stdin	 |Standard giriş
+|stdout	 |Standard çıkış
+|stderr	 |Standard hata
 
 Bu işaretçiler, işlevler için argüman olarak kullanılabilir. Getchar ve putchar gibi bazı işlevler otomatik olarak stdin ve stdout kullanır.
 
