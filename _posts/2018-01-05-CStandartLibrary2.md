@@ -491,8 +491,11 @@ int main()
 
 ~~~
 
-Komut: cc -std=c11 -Wall -g con.c -o my_app
+Komut: 
 --------
+~~~bash
+cc -std=c11 -Wall -g my_app.c -o my_app
+~~~
 
 Program Çıktısı :
 --------
