@@ -305,7 +305,9 @@ Variables:
 --------------------------------
 
  **size_t** is the unsigned integer result of the sizeof keyword.
+
  **FILE** is a type suitable for storing information for a file stream.
+
  **fpos_t** is a type suitable for storing any position in a file.
  
  **NULL** is the value of a null pointer constant.
