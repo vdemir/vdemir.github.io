@@ -106,7 +106,7 @@ Bunlar giriş, çıkış ve hata çıkışı için standart akışlardır.
 Varsayılan olarak, standart girdi klavyeden okunurken, standart çıktı ve standart hata ekrana yazdırılır.
 1 stdout and 2 stderr yi temsil eder.
 
-~~~
+~~~bash
 
          grep da * 1> & 2
         
