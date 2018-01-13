@@ -382,12 +382,12 @@ Bu, bir programın stderr çıkışının stdout'tan daha önce aynı dosyalayı
 Burada, komutun stdout kısmı stderr'a gönderilir.
 * * * 
 
-Using Typedef With Structures
+Typedef Nasıl Kullanılıyor
 -----------------------------
 * * * 
-1.  It allows us to introduce synonyms for data types which could have been declared some other way.
-2.  It is used to give New name to the Structure.
-3.  New name is used for Creating instances, Passing values to function,declaration etc…
+1.  Başka yollarla ilan edilmiş olabilecek veri türleri için eşanlamlıları tanıtmamızı sağlar.
+2.  Yapıya yeni ad vermek için kullanılır.
+3.  Örnekler oluşturmak, değerleri işleve aktarmak, bildirimde kullanmak için yeni bir isim kullanılır.
 * * * 
 
 Live Example : Typedef Sample Program
