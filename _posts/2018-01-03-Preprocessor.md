@@ -46,11 +46,11 @@ C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası de
    <tbody>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#include</b></td>
-         <td class="myStripedTableItems text-left" width="75%">Bir C Programında üsbilgi dosyasını içerir.</td>
+         <td class="myStripedTableItems text-left" width="75%">Bir C Programına üsbilgi dosyasını[header file] dahil eder.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#define</b></td>
-         <td class="myStripedTableItems text-left" width="75%">İkame makrosudur. Sabit bir değeri bir ifadeyle değiştirir.</td>
+         <td class="myStripedTableItems text-left" width="75%">İkame makrosudur. Bir ifade vasıtası ile sabit bir değeri programa yerleştirir.</td>
       </tr>
       <tr>
          <td class="myStripedTableItems text-center" width="25%"><b>#if</b></td>
