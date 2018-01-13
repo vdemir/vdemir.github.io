@@ -385,9 +385,9 @@ Burada, komutun stdout kısmı stderr'a gönderilir.
 Typedef Nasıl Kullanılıyor
 -----------------------------
 * * * 
-1.  Başka yollarla ilan edilmiş olabilecek veri türleri için eşanlamlıları tanıtmamızı sağlar.
+1.  Başka yollarla ilan edilmiş olabilecek veri türleri için eşdeğerlerini tanıtmamızı sağlar.
 2.  Yapıya yeni ad vermek için kullanılır.
-3.  Örnekler oluşturmak, değerleri işleve aktarmak, bildirimde kullanmak için yeni bir isim kullanılır.
+3.  Örnekler oluşturmak, değerleri işleve aktarmak, bildirimde kullanmak için yeni isimler kullanılır.
 * * * 
 
 Canlı Örnek : Typedef Örnek Program
@@ -458,7 +458,7 @@ typedef struct Record
  }employee;
 ~~~
 
-İkinci örnekte, **'Record'**, **etiket-isim** dir. **’employee’** hiçbir şeydir fakat **Yeni Veri Tipi** dir. Artık **'employee'**  türündeki değişkenleri oluşturabiliriz. Tag name isteğe bağlıdır.
+İkinci örnekte, **'Record'**, **etiket-isim** dir. **’employee’** hiçbir şeydir fakat **Yeni Veri Tipi** dir. Artık **'employee'**  türündeki değişkenleri oluşturabiliriz. Etiket isim isteğe bağlıdır.
 
 ### Değişken Bildirmek :
 
