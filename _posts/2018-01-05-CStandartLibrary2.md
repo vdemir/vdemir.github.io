@@ -409,14 +409,14 @@ return(0);
 }
 ~~~
 
-### Output :
+### Program Çıktısı :
 
 ~~~bash
 Cevap : 60
 ~~~
 * * * 
 
-Explanation of Program :
+Program Açıklamaları :
 ------------------------
 * * * 
 
