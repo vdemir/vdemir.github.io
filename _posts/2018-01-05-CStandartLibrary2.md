@@ -434,7 +434,7 @@ typedef int XYZ;
 ~~~
 * * *
 
-Different Ways of Declaring Structure using Typedef :
+Typedef'i kullanarak Yapıyı'Structure' Beyan Etmenin Farklı Yolları :
 -----------------------------------------------------
 * * * 
 
