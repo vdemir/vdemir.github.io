@@ -308,11 +308,11 @@ Variables:
 2.12.1 Variables and Definitions
 --------------------------------
 
-> `**size_t**` is the unsigned integer result of the sizeof keyword.  
-> `**FILE**` is a type suitable for storing information for a file stream.  
-> `**fpos_t**` is a type suitable for storing any position in a file.  
+> **size_t** is the unsigned integer result of the sizeof keyword.  
+> **FILE** is a type suitable for storing information for a file stream.  
+> **fpos_t** is a type suitable for storing any position in a file.  
 >   
-> `**NULL**` is the value of a null pointer constant.  
+> **NULL** is the value of a null pointer constant.  
 > `**_IOFBF**`, `**_IOLBF**`, and `**_IONBF**` are used in the setvbuf function.  
 > `**BUFSIZ**` is an integer which represents the size of the buffer used by the setbuf function.  
 > `**EOF**` is a negative integer which indicates an end-of-file has been reached.  
