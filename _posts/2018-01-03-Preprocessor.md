@@ -35,11 +35,11 @@ C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası de
 </em></ul>*[Macro]Büyük Ölçekte Geçerli Değer Yerleştirme
 </div>
 
-Önişlemci Bildirimlerinin listesi aşağıdadır
+Önişlemci talimatlarının bir listesi aşağıdadır
 <table class="table table-bordered table-striped">
    <thead>
       <tr>
-         <th class="text-center">Bildirim</th>
+         <th class="text-center">Talimat</th>
          <th class="text-center">Tanımı</th>
       </tr>
    </thead>
