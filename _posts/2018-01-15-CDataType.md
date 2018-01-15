@@ -96,10 +96,10 @@ Belli bir data tipinin veya değişkenin tam boyutunu elde etmek için ```sizeof
 
 int main() {
 
-   printf("Storage size for int : %d \n", sizeof(int));
+   printf("Storage size for int : %ld \n", sizeof(int));
    
    return 0;
 }
 ~~~
-
+cc -std=c11 -Wall -g my_app.c -o my_app
 Storage size for int : 4 
