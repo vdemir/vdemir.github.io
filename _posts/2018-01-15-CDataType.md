@@ -14,11 +14,11 @@ comments: False
 
 C'deki data tipleri, değişkenlerin veya farklı türdeki fonksiyonları bildirilmesi için kullanılan geniş bir sistemi ifade eder. Bir değişkenin depolamada ne kadar yer kapladığını ve saklanan bit düzeninin nasıl yorumlandığını tipi belirler.
 
-C'deki türler aşağıdaki gibi sınıflandırılabilir:
+C'deki tipler aşağıdaki gibi sınıflandırılabilir:
 
 1. Temel tipler
 
-Bunlar aritmetik tiplerdir ve ayrıca: (a) tamsayı türleri ve (b) kayan noktalı türler olarak sınıflandırılırlar.
+Bunlar aritmetik tiplerdir ve ayrıca: (a) integer tipleri ve (b) kayan noktalı tipler olarak sınıflandırılırlar.
 
 2. Numaralandırılmış tipler
 
