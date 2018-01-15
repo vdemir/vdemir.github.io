@@ -179,19 +179,19 @@ void tip, kullanılabilir bir değer olmadığını belirtir. Üç çeşit durum
 <tr>
 <td class="ts">1</td>
 <td><p><b>Function returns as void</b></p>
-<p>C'de herhangi bir değer döndürmeyen çeşitli işlevler vardır ya da işlevsiz olduklarını söyleyebilirsiniz. Dönüş değeri olmayan bir işlevin dönüş tipi void'dur. For example, <b>void exit (int status);</b></p>
+<p>C'de herhangi bir değer döndürmeyen çeşitli işlevler vardır ya da işlevsiz olduklarını söyleyebilirsiniz. Dönüş değeri olmayan bir işlevin dönüş tipi void'dur. Örneğin, <b>void exit (int status);</b></p>
 </td>
 </tr>
 <tr>
 <td class="ts">2</td>
 <td><p><b>Function arguments as void</b></p>
-<p>C'de herhangi bir parametre kabul etmeyen çeşitli fonksiyonlar vardır. Parametre içermeyen bir fonksiyon boşluğu kabul edebilir. For example, <b>int rand(void);</b></p>
+<p>C'de herhangi bir parametre kabul etmeyen çeşitli fonksiyonlar vardır. Parametre içermeyen bir fonksiyon boşluğu kabul edebilir. Örneğin, <b>int rand(void);</b></p>
 </td>
 </tr>
 <tr>
 <td class="ts">3</td>
 <td><p><b>Pointers to void</b></p>
-<p>void * tipinde bir işaretçi, bir nesnenin adresini temsil eder, ancak tipini belirtmez. For example, a memory allocation function <b>void *malloc( size_t size );</b> herhangi bir veri türüne aktarılabilen void işaretçisini döndürür.</p>
+<p>void * tipinde bir işaretçi, bir nesnenin adresini temsil eder, ancak tipini belirtmez. Örneğin, a memory allocation function <b>void *malloc( size_t size );</b> herhangi bir veri türüne aktarılabilen void işaretçisini döndürür.</p>
 </td>
 </tr>
 </table>
