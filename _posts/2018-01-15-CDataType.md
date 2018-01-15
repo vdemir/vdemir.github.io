@@ -28,8 +28,8 @@ void tipi
 
 |void belirleyici tip, kullanılabilir bir değer olmadığını gösterir.
 
-Türemiş tipler
+- Türemiş tipler
 
 |(A) Pointer tipler, (b) Array tipler, (c) Structure tipler, (d) Union tipler ve (e) Fonksiyon tipler.
 
-Array tipleri ve structure tipleri ortaklaşa toplanmış tipler olarak adlandırılır. Bir fonksiyon tipi, fonksiyon dönüş değerinin tipini belirtir. Gelecek bölümlerde başka tiplerin de ele alınacağı aşağıdaki bölümde temel tipleri göreceğiz.
+- Array tipleri ve structure tipleri ortaklaşa toplanmış tipler olarak adlandırılır. Bir fonksiyon tipi, fonksiyon dönüş değerinin tipini belirtir. Gelecek bölümlerde başka tiplerin de ele alınacağı aşağıdaki bölümde temel tipleri göreceğiz.
