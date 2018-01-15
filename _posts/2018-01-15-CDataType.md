@@ -18,7 +18,7 @@ C'deki tipler aşağıdaki gibi sınıflandırılabilir:
 
 1. Temel tipler
 
-Bunlar aritmetik tiplerdir ve ayrıca: (a) integer tipleri ve (b) kayan noktalı tipler olarak sınıflandırılırlar.
+Bunlar aritmetik tiplerdir ve ayrıca: (a) integer tipler ve (b) kayan noktalı tipler olarak sınıflandırılırlar.
 
 2. Numaralandırılmış tipler
 
@@ -30,6 +30,6 @@ Bunlar tekrar aritmetik türleridir ve program boyunca yalnızca belirli kesikli
 
 4. Türemiş tipler
 
-(A) Pointer tipler, (b) Array tipler, (c) Structure tipler, (d) Union tipler ve (e) Fonksiyon tipler.
+|(A) Pointer tipler, (b) Array tipler, (c) Structure tipler, (d) Union tipler ve (e) Fonksiyon tipler.
 
-Array tipleri ve structure tipleri ortaklaşa toplanmış türler olarak adlandırılır. Bir fonksiyon tipi, fonksiyon dönüş değerinin tipini belirtir. Gelecek bölümlerde başka tiplerin de ele alınacağı aşağıdaki bölümde temel tipleri göreceğiz.
+Array tipleri ve structure tipleri ortaklaşa toplanmış tipler olarak adlandırılır. Bir fonksiyon tipi, fonksiyon dönüş değerinin tipini belirtir. Gelecek bölümlerde başka tiplerin de ele alınacağı aşağıdaki bölümde temel tipleri göreceğiz.
