@@ -16,11 +16,20 @@ C'deki data tipleri, değişkenlerin veya farklı türdeki fonksiyonları bildir
 
 C'deki türler aşağıdaki gibi sınıflandırılabilir:
 
+1. Temel tipler
 
+Bunlar aritmetik tiplerdir ve ayrıca: (a) tamsayı türleri ve (b) kayan noktalı türler olarak sınıflandırılırlar.
 
+2. Temel tipler
 
+Bunlar aritmetik tiplerdir ve ayrıca: (a) tamsayı türleri ve (b) kayan noktalı türler olarak sınıflandırılırlar.
 
+3. void tipi
 
+ void tip belirleyici, kullanılabilir bir değer olmadığını gösterir.
 
+4. Türemiş türleri
+
+(A) Pointer tipler, (b) Array tipler, (c) Structure tipler, (d) Union tipler ve (e) Fonksiyon tipler.
 
 
