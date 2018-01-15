@@ -32,4 +32,4 @@ Bunlar tekrar aritmetik türleridir ve program boyunca yalnızca belirli kesikli
 
 (A) Pointer tipler, (b) Array tipler, (c) Structure tipler, (d) Union tipler ve (e) Fonksiyon tipler.
 
-
+Array tipleri ve structure tipleri ortaklaşa toplanmış türler olarak adlandırılır. Bir fonksiyon tipi, fonksiyon dönüş değerinin tipini belirtir. Gelecek bölümlerde başka tiplerin de ele alınacağı aşağıdaki bölümde temel türleri göreceğiz.
