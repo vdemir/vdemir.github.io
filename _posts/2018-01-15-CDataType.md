@@ -26,10 +26,10 @@ Bunlar tekrar aritmetik türleridir ve program boyunca yalnızca belirli kesikli
 
 3. void tipi
 
- void tip belirleyici, kullanılabilir bir değer olmadığını gösterir.
+ void belirleyici tip, kullanılabilir bir değer olmadığını gösterir.
 
-4. Türemiş türleri
+4. Türemiş tipler
 
 (A) Pointer tipler, (b) Array tipler, (c) Structure tipler, (d) Union tipler ve (e) Fonksiyon tipler.
 
-Array tipleri ve structure tipleri ortaklaşa toplanmış türler olarak adlandırılır. Bir fonksiyon tipi, fonksiyon dönüş değerinin tipini belirtir. Gelecek bölümlerde başka tiplerin de ele alınacağı aşağıdaki bölümde temel türleri göreceğiz.
+Array tipleri ve structure tipleri ortaklaşa toplanmış türler olarak adlandırılır. Bir fonksiyon tipi, fonksiyon dönüş değerinin tipini belirtir. Gelecek bölümlerde başka tiplerin de ele alınacağı aşağıdaki bölümde temel tipleri göreceğiz.
