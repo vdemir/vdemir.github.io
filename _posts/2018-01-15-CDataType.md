@@ -141,7 +141,7 @@ Aşağıdaki tabloda, standart kayan nokta tiplerinin ayrıntıları, depolama b
 </tr>
 </table>
 
-float.h üst başlık dosyası, bu değerleri ve programlarınızdaki gerçek sayıların ikili gösterimi hakkında diğer ayrıntıları kullanmanıza izin veren makroları tanımlar. Aşağıdaki örnek, bir float türü ve onun değer aralığı tarafından alınan saklama alanını yazdırır.
+float.h üst başlık dosyası, bu değerleri ve programlarınızdaki gerçek sayıların ikili gösterimi hakkında diğer ayrıntıları kullanmanıza izin veren makroları tanımlar. Aşağıdaki örnek, bir float tipini ve onun değer aralığı tarafından alınan saklama alanını yazdırır.
 
 ~~~c
 #include <stdio.h>
