@@ -35,6 +35,7 @@ C'deki tipler aşağıdaki gibi sınıflandırılabilir:
 Array tipleri ve structure tipleri ortaklaşa toplanmış tipler olarak adlandırılır. Bir fonksiyon tipi, fonksiyon dönüş değerinin tipini belirtir. Gelecek bölümlerde başka tiplerin de ele alınacağı aşağıdaki bölümde temel tipleri göreceğiz.
 
 
+<table style="text-align:center;" class="table table-bordered">
 <tr>
 <th style="width:23%;text-align:center;">Type</th>
 <th style="width:20%;text-align:center;">Storage size</th>
@@ -85,4 +86,5 @@ Array tipleri ve structure tipleri ortaklaşa toplanmış tipler olarak adlandı
 <td>4 bytes</td>
 <td>0 to 4,294,967,295</td>
 </tr>
+</table>
 
