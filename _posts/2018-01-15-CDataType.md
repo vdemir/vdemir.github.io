@@ -110,6 +110,38 @@ cc -std=c11 -Wall -g my_app.c -o my_app
 Storage size for int : 4
 ~~~
 
+## Kayan Noktalı Tipler
+
+Aşağıdaki tabloda, standart kayan nokta tiplerinin ayrıntıları, depolama boyutları ve değer aralıkları ve bunların hassaslığı ile birlikte verilmektedir.
+
+<table style="text-align:center;" class="table table-bordered">
+<tr>
+<th style="text-align:center;">Type</th>
+<th style="text-align:center;">Storage size</th>
+<th style="text-align:center;">Value range</th>
+<th style="text-align:center;">Precision</th>
+</tr>
+<tr>
+<td>float</td>
+<td>4 byte</td>
+<td>1.2E-38 to 3.4E+38</td>
+<td>6 decimal places</td>
+</tr>
+<tr>
+<td>double</td>
+<td>8 byte</td>
+<td>2.3E-308 to 1.7E+308</td>
+<td>15 decimal places</td>
+</tr>
+<tr>
+<td>long double</td>
+<td>10 byte</td>
+<td>3.4E-4932 to 1.1E+4932</td>
+<td>19 decimal places</td>
+</tr>
+</table>
+
+
 
 
 * * *
