@@ -88,3 +88,17 @@ Array tipleri ve structure tipleri ortaklaşa toplanmış tipler olarak adlandı
 </tr>
 </table>
 
+Belli bir data tipinin veya değişkenin tam boyutunu elde etmek için sizeof operatörünü kullanabilirsiniz. sizeof(type) ifadeleri, nesnenin veya yazının bayt cinsinden depolama boyutu sağlar. Aşağıda verilen, herhangi bir makinedeki int türünün boyutunu elde etmek için bir örnektir.
+
+~~~c
+#include <stdio.h>
+#include <limits.h>
+
+int main() {
+
+   printf("Storage size for int : %d \n", sizeof(int));
+   
+   return 0;
+}
+~~~
+
