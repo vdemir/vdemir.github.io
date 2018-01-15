@@ -16,15 +16,15 @@ C'deki data tipleri, değişkenlerin veya farklı türdeki fonksiyonları bildir
 
 C'deki tipler aşağıdaki gibi sınıflandırılabilir:
 
-Temel tipler
+- Temel tipler
 
 |Bunlar aritmetik tiplerdir ve ayrıca: (a) integer tipler ve (b) kayan noktalı tipler olarak sınıflandırılırlar.
 
-Numaralandırılmış tipler
+- Numaralandırılmış tipler
 
 |Bunlar tekrar aritmetik türleridir ve program boyunca yalnızca belirli kesikli tamsayı değerlerini atayabilen değişkenleri tanımlamak için kullanılırlar.
 
-void tipi
+- void tipi
 
 |void belirleyici tip, kullanılabilir bir değer olmadığını gösterir.
 
@@ -32,4 +32,4 @@ void tipi
 
 |(A) Pointer tipler, (b) Array tipler, (c) Structure tipler, (d) Union tipler ve (e) Fonksiyon tipler.
 
-- Array tipleri ve structure tipleri ortaklaşa toplanmış tipler olarak adlandırılır. Bir fonksiyon tipi, fonksiyon dönüş değerinin tipini belirtir. Gelecek bölümlerde başka tiplerin de ele alınacağı aşağıdaki bölümde temel tipleri göreceğiz.
+Array tipleri ve structure tipleri ortaklaşa toplanmış tipler olarak adlandırılır. Bir fonksiyon tipi, fonksiyon dönüş değerinin tipini belirtir. Gelecek bölümlerde başka tiplerin de ele alınacağı aşağıdaki bölümde temel tipleri göreceğiz.
