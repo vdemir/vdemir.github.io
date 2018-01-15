@@ -178,7 +178,7 @@ void tip, kullanılabilir bir değer olmadığını belirtir. Üç çeşit durum
 </tr>
 <tr>
 <td class="ts">1</td>
-<td><p><b>Function void olarak döner</b></p>
+<td><p><b>Function dönüşü olarak void</b></p>
 <p>C'de herhangi bir değer döndürmeyen çeşitli foksiyonlar vardır ya da void döndürdüklerini söyleyebilirsiniz. Dönüş değeri olmayan bir foksiyonun void dönüş tipi vardır. Örneğin, <b>void exit (int status);</b></p>
 </td>
 </tr>
