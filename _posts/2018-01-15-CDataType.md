@@ -183,14 +183,15 @@ void tip, kullanılabilir bir değer olmadığını belirtir. Üç çeşit durum
 </td>
 </tr>
 <tr>
-<td class="ts">2</td>
-<td><p><b>Function arguments as void</b></p>
+<td class="ts">2</td> 
+
+<td><p><b>Fonksiyon parametresi olarak void</b></p>
 <p>C'de herhangi bir parametre kabul etmeyen çeşitli fonksiyonlar vardır. Parametre içermeyen bir fonksiyon boşluğu kabul edebilir. Örneğin, <b>int rand(void);</b></p>
 </td>
 </tr>
 <tr>
 <td class="ts">3</td>
-<td><p><b>Pointers to void</b></p>
+<td><p><b>Pointers olarak void</b></p>
 <p>void * tipinde bir işaretçi, bir nesnenin adresini temsil eder, ancak tipini belirtmez. Örneğin bir bellek ayırma fonksiyonu, a memory allocation function <b>void *malloc( size_t size );</b> herhangi bir veri türüne aktarılabilen void bir işaretçi döndürür.</p>
 </td>
 </tr>
