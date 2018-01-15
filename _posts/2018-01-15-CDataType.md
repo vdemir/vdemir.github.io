@@ -167,7 +167,8 @@ Precision value: 6
 ~~~
 
 
-void tip
+## void tip
+
 void tip, kullanılabilir bir değer olmadığını belirtir. Üç çeşit durumlarda kullanılır.
 
 <table class="table table-bordered">
@@ -190,7 +191,7 @@ void tip, kullanılabilir bir değer olmadığını belirtir. Üç çeşit durum
 <tr>
 <td class="ts">3</td>
 <td><p><b>Pointers to void</b></p>
-<p>void * tipinde bir işaretçi, bir nesnenin adresini temsil eder, ancak tipini belirtmez. For example, a memory allocation function <b>void *malloc( size_t size );</b> returns a pointer to void which can be casted to any data type.</p>
+<p>void * tipinde bir işaretçi, bir nesnenin adresini temsil eder, ancak tipini belirtmez. For example, a memory allocation function <b>void *malloc( size_t size );</b> herhangi bir veri türüne aktarılabilen void işaretçisini döndürür.</p>
 </td>
 </tr>
 </table>
