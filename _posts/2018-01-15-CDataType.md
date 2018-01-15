@@ -109,3 +109,7 @@ int main() {
 cc -std=c11 -Wall -g my_app.c -o my_app
 Storage size for int : 4
 ~~~
+
+
+
+* * *
