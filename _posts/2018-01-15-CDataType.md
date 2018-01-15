@@ -34,6 +34,9 @@ C'deki tipler aşağıdaki gibi sınıflandırılabilir:
 
 Array tipleri ve structure tipleri ortaklaşa toplanmış tipler olarak adlandırılır. Bir fonksiyon tipi, fonksiyon dönüş değerinin tipini belirtir. Gelecek bölümlerde başka tiplerin de ele alınacağı aşağıdaki bölümde temel tipleri göreceğiz.
 
+## Integer Tipler
+
+Aşağıdaki tabloda, standart integer tiplerinin ayrıntıları, depolama alanı boyutlarıyla ve değer aralıklarıyla birlikte verilmektedir.
 
 <table style="text-align:center;" class="table table-bordered">
 <tr>
@@ -101,6 +104,7 @@ int main() {
    return 0;
 }
 ~~~
+
 ~~~bash
 cc -std=c11 -Wall -g my_app.c -o my_app
 Storage size for int : 4
