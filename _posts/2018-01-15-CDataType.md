@@ -166,4 +166,35 @@ Maximum float positive value: 3.402823E+38
 Precision value: 6
 ~~~
 
+
+void tip
+void tip, kullanılabilir bir değer olmadığını belirtir. Üç çeşit durumlarda kullanılır.
+
+<table class="table table-bordered">
+<tr>
+<th style="text-align:center;">Sr.No.</th>
+<th style="text-align:center;">Types &amp; Description</th>
+</tr>
+<tr>
+<td class="ts">1</td>
+<td><p><b>Function returns as void</b></p>
+<p>C'de herhangi bir değer döndürmeyen çeşitli işlevler vardır ya da geçersiz olduklarını söyleyebilirsiniz. Dönüş değeri olmayan bir işlevin dönüş türü void'dur. For example, <b>void exit (int status);</b></p>
+</td>
+</tr>
+<tr>
+<td class="ts">2</td>
+<td><p><b>Function arguments as void</b></p>
+<p>There are various functions in C which do not accept any parameter. A function with no parameter can accept a void. For example, <b>int rand(void);</b></p>
+</td>
+</tr>
+<tr>
+<td class="ts">3</td>
+<td><p><b>Pointers to void</b></p>
+<p>A pointer of type void * represents the address of an object, but not its type. For example, a memory allocation function <b>void *malloc( size_t size );</b> returns a pointer to void which can be casted to any data type.</p>
+</td>
+</tr>
+</table>
+
+
+
 * * *
