@@ -20,9 +20,9 @@ C'deki türler aşağıdaki gibi sınıflandırılabilir:
 
 Bunlar aritmetik tiplerdir ve ayrıca: (a) tamsayı türleri ve (b) kayan noktalı türler olarak sınıflandırılırlar.
 
-2. Temel tipler
+2. Numaralandırılmış tipler
 
-Bunlar aritmetik tiplerdir ve ayrıca: (a) tamsayı türleri ve (b) kayan noktalı türler olarak sınıflandırılırlar.
+Bunlar tekrar aritmetik türleridir ve program boyunca yalnızca belirli kesikli tamsayı değerlerini atayabilen değişkenleri tanımlamak için kullanılırlar.
 
 3. void tipi
 
