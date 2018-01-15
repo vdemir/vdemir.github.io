@@ -14,4 +14,13 @@ comments: False
 
 C'deki data tipleri, değişkenlerin veya farklı türdeki fonksiyonları bildirilmesi için kullanılan geniş bir sistemi ifade eder. Bir değişkenin depolamada ne kadar yer kapladığını ve saklanan bit düzeninin nasıl yorumlandığını tipi belirler.
 
+C'deki türler aşağıdaki gibi sınıflandırılabilir:
+
+
+
+
+
+
+
+
 
