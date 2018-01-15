@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  C Data Type
+title:  C'de Data Tipleri
 date:   2018-01-15 13:53:00
 tags:   Data Type
 comments: False
