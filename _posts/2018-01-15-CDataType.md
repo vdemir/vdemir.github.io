@@ -102,6 +102,4 @@ int main() {
 }
 ~~~
 
-$gcc -o main *.c
-$main
 Storage size for int : 4 
