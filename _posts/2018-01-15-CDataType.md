@@ -12,6 +12,6 @@ comments: False
 <p class="meta">15 Ocak 2018 - Türkiye</p>
 ## Data Tipleri
 
-C'deki data tipleri, değişkenlerin veya farklı türdeki fonksiyonları bildirilmesi için kullanılan geniş bir sistemi ifade eder. Bir değişkenin tipi, depolamada ne kadar yer kapladığını ve saklanan bit düzeninin nasıl yorumlandığını belirler.
+C'deki data tipleri, değişkenlerin veya farklı türdeki fonksiyonları bildirilmesi için kullanılan geniş bir sistemi ifade eder. Bir değişkenin depolamada ne kadar yer kapladığını ve saklanan bit düzeninin nasıl yorumlandığını tipi belirler.
 
 
