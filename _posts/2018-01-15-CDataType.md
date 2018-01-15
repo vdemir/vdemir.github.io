@@ -141,14 +141,14 @@ Aşağıdaki tabloda, standart kayan nokta tiplerinin ayrıntıları, depolama b
 </tr>
 </table>
 
-Float.h üst başlık dosyası, bu değerleri ve programlarınızdaki gerçek sayıların ikili gösterimi hakkında diğer ayrıntıları kullanmanıza izin veren makroları tanımlar. Aşağıdaki örnek, bir float türü ve onun değer aralığı tarafından alınan saklama alanını yazdırır.
+float.h üst başlık dosyası, bu değerleri ve programlarınızdaki gerçek sayıların ikili gösterimi hakkında diğer ayrıntıları kullanmanıza izin veren makroları tanımlar. Aşağıdaki örnek, bir float türü ve onun değer aralığı tarafından alınan saklama alanını yazdırır.
 
 ~~~c
 #include <stdio.h>
 #include <float.h>
 
 int main() {
-   printf("Storage size for float : %d \n", sizeof(float));
+   printf("Storage size for float : %ld\n", sizeof(float));
    printf("Minimum float positive value: %E\n", FLT_MIN );
    printf("Maximum float positive value: %E\n", FLT_MAX );
    printf("Precision value: %d\n", FLT_DIG );
@@ -157,5 +157,13 @@ int main() {
 }
 ~~~
 
+Yukarıdaki programı derlediğinizde ve çalıştırdığınızda, Linux'ta aşağıdaki sonucu verir:
+
+~~~bash
+Storage size for float : 4
+Minimum float positive value: 1.175494E-38
+Maximum float positive value: 3.402823E+38
+Precision value: 6
+~~~
 
 * * *
