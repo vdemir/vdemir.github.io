@@ -185,7 +185,7 @@ void tip, kullanılabilir bir değer olmadığını belirtir. Üç çeşit durum
 <tr>
 <td class="ts">2</td>
 <td><p><b>Function arguments as void</b></p>
-<p>TC'de herhangi bir parametre kabul etmeyen çeşitli fonksiyonlar vardır. Parametre içermeyen bir fonksiyon boşluğu kabul edebilir. For example, <b>int rand(void);</b></p>
+<p>C'de herhangi bir parametre kabul etmeyen çeşitli fonksiyonlar vardır. Parametre içermeyen bir fonksiyon boşluğu kabul edebilir. For example, <b>int rand(void);</b></p>
 </td>
 </tr>
 <tr>
