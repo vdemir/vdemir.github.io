@@ -101,5 +101,7 @@ int main() {
    return 0;
 }
 ~~~
+~~~bash
 cc -std=c11 -Wall -g my_app.c -o my_app
-Storage size for int : 4 
+Storage size for int : 4
+~~~
