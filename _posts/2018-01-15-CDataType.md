@@ -33,3 +33,56 @@ C'deki tipler aşağıdaki gibi sınıflandırılabilir:
 |(A) Pointer tipler, (b) Array tipler, (c) Structure tipler, (d) Union tipler ve (e) Fonksiyon tipler.
 
 Array tipleri ve structure tipleri ortaklaşa toplanmış tipler olarak adlandırılır. Bir fonksiyon tipi, fonksiyon dönüş değerinin tipini belirtir. Gelecek bölümlerde başka tiplerin de ele alınacağı aşağıdaki bölümde temel tipleri göreceğiz.
+
+
+<tr>
+<th style="width:23%;text-align:center;">Type</th>
+<th style="width:20%;text-align:center;">Storage size</th>
+<th style="text-align:center;">Value range</th>
+</tr>
+<tr>
+<td>char</td>
+<td>1 byte</td>
+<td>-128 to 127 or 0 to 255</td>
+</tr>
+<tr>
+<td>unsigned char</td>
+<td>1 byte</td>
+<td>0 to 255</td>
+</tr>
+<tr>
+<td>signed char</td>
+<td>1 byte</td>
+<td>-128 to 127</td>
+</tr>
+<tr>
+<td style="vertical-align:middle;">int</td>
+<td style="vertical-align:middle;">2 or 4 bytes</td>
+<td>-32,768 to 32,767 or -2,147,483,648 to 2,147,483,647</td>
+</tr>
+<tr>
+<td>unsigned int</td>
+<td>2 or 4 bytes</td>
+<td>0 to 65,535 or 0 to 4,294,967,295</td>
+</tr>
+<tr>
+<td>short</td>
+<td>2 bytes</td>
+<td>-32,768 to 32,767</td>
+</tr>
+<tr>
+<td>unsigned short</td>
+<td>2 bytes</td>
+<td>0 to 65,535</td>
+</tr>
+<tr>
+<td>long</td>
+<td>4 bytes</td>
+<td>-2,147,483,648 to 2,147,483,647</td>
+</tr>
+<tr>
+<td>unsigned long</td>
+<td>4 bytes</td>
+<td>0 to 4,294,967,295</td>
+</tr>
+
