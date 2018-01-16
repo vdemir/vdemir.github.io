@@ -129,31 +129,3 @@ window.addEventListener('message', function(event) {
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
   <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
-
-
-<pre>
-<code>#include
-struct student
-{
-    char name[50];
-    int roll;
-};
-
-void display(struct student stu);
-// function prototype should be below to the structure declaration otherwise compiler shows error
-
-int main()
-{
-    struct student stud;
-    printf(&quot;Enter student&#39;s name: &quot;);
-    scanf(&quot;%s&quot;, &amp;stud.name);
-    printf(&quot;Enter roll number:&quot;);
-    scanf(&quot;%d&quot;, &amp;stud.roll);
-    display(stud);   // passing structure variable stud as argument
-    return 0;
-}
-void display(struct student stu){
-  printf(&quot;Output\nName: %s&quot;,stu.name);
-  printf(&quot;\nRoll: %d&quot;,stu.roll);
-}</code>
-</pre>
