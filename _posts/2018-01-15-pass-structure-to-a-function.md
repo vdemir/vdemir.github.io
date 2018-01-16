@@ -49,6 +49,7 @@ function init(){
 		 code.push(sourceCode);
                  prettyCode.push(prettySourceCode);
 		 var iframe = document.createElement("iframe");
+		 iframe.setAttribute("src", "https://play.programiz.com/c.html?embed=true");
 		 iframe.setAttribute("class","playground");
 		
 		// iframe.style.height = "0";
