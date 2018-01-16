@@ -122,3 +122,5 @@ Böylece çıktıda, ```salary``` doğru bir şekilde yazdırılır, ancak ```na
 
 ```Union```, C programlamasındaki foksiyonlara ```struct``` yapılarla benzer şekilde geçirilebilir.
 
+***
+
