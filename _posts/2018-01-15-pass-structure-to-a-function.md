@@ -44,8 +44,8 @@ struct student
 
 void display(struct student stu);
 
-// function işlev prototipi struct yapı bildiriminde aşağıda olmalıdır 
-// aksi takdirde derleyici hata gösterir
+// fonksiyon işlev prototipi struct yapi bildiriminde asagida olmalidir 
+// aksi takdirde derleyici hata gosterir
 
 int main()
 {
@@ -54,12 +54,12 @@ int main()
     scanf("%s", &stud.name);
     printf("Enter roll number:");
     scanf("%d", &stud.roll);
-    display(stud);   //  yapısal değişkene göre argüman atamak
+    display(stud);   //  yapisal degiskene gore arguman atamak
     return 0;
 }
 void display(struct student stu){
   printf("Output\nName: %s",stu.name);
-  printf("\nRoll: %d",stu.roll);
+  printf("\nRoll: %d\n",stu.roll);
 }
 ~~~
 
