@@ -126,15 +126,10 @@ window.addEventListener('message', function(event) {
   </script>
 
  
-  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
-<script type="text/javascript" src="//cdn.programiz.com/sites/tutorial2program/files/js/js_3TykeRWpejhD4-J3vdlaNXdULg9xhOZhbsppK0o2bUs.js"></script>
-<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
 
-<script type="text/javascript" src="//cdn.programiz.com/sites/tutorial2program/files/js/js_Xdog1yvbsHUl33-wo9ctRnQMgE_3uBBG15y3yJm_2eY.js"></script>
-<script type="text/javascript" src="//cdn.programiz.com/sites/tutorial2program/files/js/js_6mtNsXgWzNZac4UBJK9kpj3XdXTz7NcBgjY5eMSdK94.js"></script>
-
-<script type="text/javascript" src="//cdn.programiz.com/sites/tutorial2program/files/js/js_1idk1Z3VP3hlw_7ergGcv0EkKW5OmiHkq_oP2y09WAM.js"></script>
 
 <pre>
 <code>#include
