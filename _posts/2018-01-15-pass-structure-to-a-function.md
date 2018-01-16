@@ -200,52 +200,7 @@ Roll: 149
 </div>
 <script type="text/javascript" src="//static.mailerlite.com/js/w/webforms.js?v25"></script>  </div>
 </div>
-<div id="block-block-144" class="block block-block">
 
-    
-  <div class="content">
-    <style>
-#programiz_300x600_300x250_left_2 { display: none; }
-@media(min-width: 900px) { #programiz_300x600_300x250_left_2 { display: block; width: 300px; height: 600px; }} 
-</style>
-<!-- programiz_300x600_300x250_left_2 -->
-<div align="center" id="programiz_300x600_300x250_left_2">
-<script data-cfasync="false" type="text/javascript">
-    freestar.queue.push(function () { googletag.display('programiz_300x600_300x250_left_2'); });
-</script>
-</div>  </div>
-</div>
-  </div>
-</aside>
-</div>
-</div>
-<div id="back-to-top"></div>
-<footer id="footer">
-<div class="clearfix footer-wrapper">
-<div class="footer-left">
-  <div class="region region-footer-left">
-    <div id="block-block-86" class="block block-block">
-
-    
-  <div class="content">
-    <div class="subscribe ml-subscribe-form ml-subscribe-form-5357625" id="mlb2-5357625">
-	<p>Get Latest Updates on Programiz</p>
-
-	<div class="ml-vertical-align-center">
-		<div class="subscribe-form ml-block-success" style="display:none">
-			<div class="form-section">
-				<p>You have successfully subscribed to our newsletter.</p>
-			</div>
-		</div>
-
-		<form action="//app.mailerlite.com/webforms/submit/z7v3o3" class="ml-block-form" data-code="z7v3o3" method="POST" target="_blank"><input name="fields[email]" placeholder="Enter Your Email" type="text" value="" /> <input name="ml-submit" type="hidden" value="1" /><button class="primary" type="submit">Subscribe</button><button class="loading" disabled="disabled" style="display: none;" type="submit"><img height="20" src="//static.mailerlite.com/images/rolling.gif" style="width: 20px; height: 20px;" width="20" /></button></form>
-		<script>
-            function ml_webform_success_1805321() {
-                jQuery('.ml-subscribe-form-1805321 .ml-block-success').show();
-                jQuery('.ml-subscribe-form-1805321 .ml-block-form').hide();
-            };
-        </script></div>
-</div>
 <script type="text/javascript" src="//static.mailerlite.com/js/w/webforms.js?v25"></script>  </div>
 </div>
   </div>
