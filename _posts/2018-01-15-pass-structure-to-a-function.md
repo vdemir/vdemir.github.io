@@ -16,5 +16,12 @@ Bu yazıda, ```struct``` yapıları bir fonksiyon işlevine argüman olarak geç
 
 ![Alternative text](/images/c-structure-functions.jpg "C'de struct ve fonksiyon işlevi")
 
+C'de, ```struct``` iki yöntemle fonksiyon işlevlere geçirilebilir:
+
+1. Değerle geçme (gerçek değeri argüman olarak geçirme)
+2. Referansa göre geçmek (bir argümanın adresini iletmek)
+
+
+
 ***
 
