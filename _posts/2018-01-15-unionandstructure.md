@@ -56,5 +56,5 @@ Yukarıdaki örnekte görüldüğü gibi, ```union``` ve ```struct``` yapı aras
 
 ```struct``` değişkenini depolamak için gereken bellek miktarı, tüm üyelerin bellek boyutunun toplamıdır.
 
-
+![Alternative text](/images/C-structure-memory-allocation.jpg "Optional title")
 
