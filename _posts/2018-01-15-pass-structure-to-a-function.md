@@ -138,7 +138,7 @@ window.addEventListener('message', function(event) {
 <code></code>
 </pre>
 
-
+```
 #include <stdio.h>
 struct student
 {
@@ -163,3 +163,4 @@ void display(struct student stu){
   printf("Output\nName: %s",stu.name);
   printf("\nRoll: %d",stu.roll);
 }
+```
