@@ -50,7 +50,7 @@ size of structure = 40
 
 ***
 
-<>
+
 
 ## struct yapılara union yapıdan daha fazla bellek tahsis edilir
 
