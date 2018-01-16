@@ -119,5 +119,5 @@ Böylece çıktıda, ```salary``` doğru bir şekilde yazdırılır, ancak ```na
 
 ## Union Yapıyı Bir Fonksiyona Geçirme
 
-```Union```, C programlamasındaki ```struct``` yapılarla benzer şekilde geçirilebilir.
+```Union```, C programlamasındaki foksiyonlara ```struct``` yapılarla benzer şekilde geçirilebilir.
 
