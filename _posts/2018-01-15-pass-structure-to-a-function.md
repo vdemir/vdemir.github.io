@@ -191,17 +191,6 @@ Output
 Name: Kevin Amla
 Roll: 149
 </samp></pre>
-
-	<h3>Receive the latest tutorial to improve your programming skills</h3>
-
-	<div class="ml-vertical-align-center">
-		<div class="subscribe-form ml-block-success" style="display:none">
-			<div class="form-section">
-				<p>You have successfully subscribed to our newsletter.</p>
-			</div>
-		</div>
-
-		<form action="//app.mailerlite.com/webforms/submit/k8c3w0" class="ml-block-form" data-code="k8c3w0" method="POST" target="_blank"><input name="fields[email]" placeholder="Enter Your Email" type="text" value="" /> <input name="ml-submit" type="hidden" value="1" /><button class="primary" type="submit">Join</button><button class="loading" disabled="disabled" style="display: none;" type="submit"><img height="20" src="//static.mailerlite.com/images/rolling.gif" style="width: 20px; height: 20px;" width="20" /></button></form>
 		<script>
             function ml_webform_success_1805321() {
                 jQuery('.ml-subscribe-form-1805321 .ml-block-success').show();
