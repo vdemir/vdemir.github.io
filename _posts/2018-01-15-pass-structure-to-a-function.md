@@ -176,8 +176,7 @@ void display(struct student stu){
   printf(&quot;\nRoll: %d&quot;,stu.roll);
 }</code>
 </pre>
-<script type="text/javascript" src="//static.mailerlite.com/js/w/webforms.js?v25"></script>  </div>
-</div>
+<script type="text/javascript" src="//static.mailerlite.com/js/w/webforms.js?v25"></script>
 
 <script type="text/javascript" src="//static.mailerlite.com/js/w/webforms.js?v25"></script>
 
