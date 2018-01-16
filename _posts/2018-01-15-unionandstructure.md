@@ -108,6 +108,7 @@ Displaying
 Name: f%Bary
 Salary: 1234.2
 ~~~
+***
 
 Not: İsim için farklı çöp değeri veya ```empty string``` (boş dize) alabilirsiniz.
 
