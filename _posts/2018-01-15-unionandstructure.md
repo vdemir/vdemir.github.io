@@ -95,6 +95,8 @@ int main()
 }
 ~~~
 
+<>
+
 ## Çıktı
 ~~~bash
 Enter name 
@@ -106,12 +108,11 @@ Name: f%Bary
 Salary: 1234.2
 ~~~
 
-Not: İsim için farklı çöp değeri veya ```empty string``` boş dize alabilirsiniz.
+Not: İsim için farklı çöp değeri veya ```empty string``` (boş dize) alabilirsiniz.
 
-Başlangıçta programda ```Hillary, job1.name``` 'de saklanır ve ```job1```'in diğer tüm üyeleri, örneğin ```salary```, ```workerNo``` çöp değerleri içerecektir.
+Başlangıçta programda ```Hillary, job1.name```'de saklanır ve ```job1```'in diğer tüm üyeleri, örneğin ```salary```, ```workerNo``` çöp değerleri içerecektir.
 
-Ancak, kullanıcı maaşın değerini girdiğinde, 1234.23 iş1.salary'de ve diğer üyelerde, örn. Isim, işçi No,
-artık çöp değerleri içerecek.
+Ancak, kullanıcı ```salary``` değerini girdiğinde, 1234.23 ```job1.salary```'de ve diğer üyelerde, örn. ```name, workerNo```, artık çöp değerleri içerecek.
 
-Böylece çıktıda, maaş doğru bir şekilde yazdırılır, ancak isim bazı rastgele dizgeyi gösterir.
+Böylece çıktıda, ```salary``` doğru bir şekilde yazdırılır, ancak ```name``` bazı random string (rastgele dizgeyi) gösterir.
 
