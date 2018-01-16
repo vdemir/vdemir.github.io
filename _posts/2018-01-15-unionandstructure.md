@@ -12,7 +12,7 @@ comments: False
 <p class="meta">16 Ocak 2018 - Türkiye</p>
 ## union ve struct arasındaki kullanım farkı
 
-union pek çok açıdan struct yapıya benzer olsa da, aralarındaki farkı anlamak çok önemlidir.
+union pek çok açıdan ~~~struct~~~ yapıya benzer olsa da, aralarındaki farkı anlamak çok önemlidir.
 
 Birincil fark, bu örnekle gösterilebilir:
 
