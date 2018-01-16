@@ -18,10 +18,16 @@ Bu yazıda, ```struct``` yapıları bir fonksiyon işlevine argüman olarak geç
 
 C'de, ```struct``` iki yöntemle fonksiyon işlevlere geçirilebilir:
 
-1. Değerle geçme (gerçek değeri argüman olarak geçirme)
+1. Değerle geçme (aktüel değeri argüman olarak geçirme)
 2. Referansa göre geçmek (bir argümanın adresini iletmek)
 
+## struct yapıyı değerine göre geçirme
 
+Bir yapı değişkeni, normal bir değişken gibi argüman olarak işleve geçirilebilir.
 
+Yapı değerle geçirilirse, işlev tanımındaki yapı değişkeni üzerinde yapılan değişiklikler orijinal olarak geçirilen yapı değişkeninde yansımaz.
+
+C programı oluşturmak için bir yapı oluşturan öğrenci, ismi içeren ve rulo ve bilgileri görüntüler.
 ***
+
 
