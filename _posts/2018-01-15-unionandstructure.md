@@ -116,9 +116,9 @@ Başlangıçta programda ```Hillary, job1.name```'de saklanır ve ```job1```'in 
 
 Ancak, kullanıcı ```salary``` değerini girdiğinde, 1234.23 ```job1.salary```'de ve diğer üyelerde, örn. ```name, workerNo```, artık çöp değerleri içerecek.
 
-Böylece çıktıda, ```salary``` doğru bir şekilde yazdırılır, ancak ```name``` bazı random string (rastgele dizgeyi) gösterir.
+Böylece çıktıda, ```salary``` doğru bir şekilde yazdırılır, ancak ```name``` bazı ```random string``` (rastgele dizgeyi) gösterir.
 
 ## Union Yapıyı Bir Fonksiyona Geçirme
 
-```Union```, C programlamasındaki ```struct``` yapılarla benzer şekilde geçilebilir.
+```Union```, C programlamasındaki ```struct``` yapılarla benzer şekilde geçirilebilir.
 
