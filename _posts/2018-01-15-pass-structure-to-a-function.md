@@ -50,15 +50,15 @@ void display(struct student stu);
 int main()
 {
     struct student stud;
-    printf("Enter student's name: ");
+    printf("Öğrencinin adını giriniz: ");
     scanf("%s", &stud.name);
-    printf("Enter roll number:");
+    printf("Öğrencinin numarasını giriniz:");
     scanf("%d", &stud.roll);
     display(stud);   // yapısal değişkene göre argüman atamak
     return 0;
 }
 void display(struct student stu){
-  printf("Output\nName: %s",stu.name);
+  printf("Çıktı\nName: %s",stu.name);
   printf("\nRoll: %d",stu.roll);
 }
 ~~~
