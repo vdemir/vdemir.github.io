@@ -61,3 +61,14 @@ Yukarıdaki örnekte görüldüğü gibi, ```union``` ve ```struct``` yapı aras
 ![Alternative text](/images/C-structure-memory-allocation.jpg "struct değişkeni belleği")
 
 Ancak, bir **union** değişkenini depolamak için gereken bellek, **union** yapının en büyük öğesi için gereken bellektir.
+
+
+![Alternative text](/images/memory-allocation-union.jpg "union değişkeni belleği")
+
+## Aynı anda yalnızca bir union üyesine erişilebilir
+
+**struct** durumunda, üyelerinin tümüne her an erişilebilir.
+
+Ancak, **union** durumunda, bir kerede yalnızca üyelerinden birine erişilebilir ve diğer tüm üyeler çöp değerleri içerir.
+
+
