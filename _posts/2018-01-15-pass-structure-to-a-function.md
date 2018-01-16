@@ -58,8 +58,8 @@ int main()
     return 0;
 }
 void display(struct student stu){
-  printf("Output\nName: %s",stu.name);
-  printf("\nRoll: %d\n",stu.roll);
+  printf("Cevap\nIsim: %s",stu.name);
+  printf("\nNumara: %d\n",stu.roll);
 }
 ~~~
 
