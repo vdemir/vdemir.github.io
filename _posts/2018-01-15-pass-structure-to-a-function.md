@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  C'de struct yapıyı bir fonksiyona geçirmek
+title:  C'de Struct Yapıyı bir Fonksiyona Geçirmek
 date:   2018-01-16 13:52:00
 tags:   Struct
 comments: False
