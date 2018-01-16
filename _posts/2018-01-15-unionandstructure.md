@@ -12,7 +12,7 @@ comments: False
 <p class="meta">16 Ocak 2018 - Türkiye</p>
 ## union ve struct arasındaki kullanım farkı
 
-union pek çok açıdan ~~struct~~ yapıya benzer olsa da, aralarındaki farkı anlamak çok önemlidir.
+```union``` pek çok açıdan ```struct``` yapıya benzer olsa da, aralarındaki farkı anlamak çok önemlidir.
 
 Birincil fark, bu örnekle gösterilebilir:
 
@@ -50,7 +50,7 @@ size of structure = 40
 
 ***
 
-##
+## 
 
 ## struct yapılara union yapıdan daha fazla bellek tahsis edilir
 
@@ -71,4 +71,37 @@ Ancak, bir ```union``` değişkenini depolamak için gereken bellek, ```union```
 
 Ancak, ```union``` durumunda, bir kerede yalnızca üyelerinden birine erişilebilir ve diğer tüm üyeler çöp değerleri içerir.
 
+~~~c
+#include <stdio.h>
+union job
+{
+   char name[32];
+   float salary;
+   int workerNo;
+} job1;
 
+int main()
+{
+   printf("Enter name:\n");
+   scanf("%s", &job1.name);
+
+   printf("Enter salary: \n");
+   scanf("%f", &job1.salary);
+
+   printf("Displaying\nName :%s\n", job1.name);
+   printf("Salary: %.1f", job1.salary);
+
+   return 0;
+}
+~~~
+
+## Çıktı
+~~~bash
+Enter name 
+Hillary
+Enter salary
+1234.23
+Displaying
+Name: f%Bary   
+Salary: 1234.2
+~~~
