@@ -49,7 +49,6 @@ size of structure = 40
 ~~~
 
 ***
-</hr>
 
 ## struct yapılara union yapıdan daha fazla bellek tahsis edilir
 
@@ -57,5 +56,6 @@ Yukarıdaki örnekte görüldüğü gibi, ```union``` ve ```struct``` yapı aras
 
 ```struct``` değişkenini depolamak için gereken bellek miktarı, tüm üyelerin bellek boyutunun toplamıdır.
 
-![Alternative text](/images/C-structure-memory-allocation.jpg "Optional title")
+![Alternative text](/images/C-structure-memory-allocation.jpg "struct değişkeni belleği")
 
+Ancak, bir **union** değişkenini depolamak için gereken bellek, **union** yapının en büyük öğesi için gereken bellektir.
