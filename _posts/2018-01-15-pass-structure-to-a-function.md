@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  C'de union ve struct yapıları
+title:  union ve struct yapıları
 date:   2018-01-16 13:52:00
 tags:   Typedef
 comments: False
