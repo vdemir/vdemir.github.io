@@ -181,23 +181,6 @@ void display(struct student stu){
   printf(&quot;\nRoll: %d&quot;,stu.roll);
 }</code>
 </pre>
-
-<p><strong>Output</strong></p>
-
-<pre>
-<samp>Enter student&#39;s name: Kevin Amla
-Enter roll number: 149
-Output
-Name: Kevin Amla
-Roll: 149
-</samp></pre>
-		<script>
-            function ml_webform_success_1805321() {
-                jQuery('.ml-subscribe-form-1805321 .ml-block-success').show();
-                jQuery('.ml-subscribe-form-1805321 .ml-block-form').hide();
-            };
-        </script></div>
-</div>
 <script type="text/javascript" src="//static.mailerlite.com/js/w/webforms.js?v25"></script>  </div>
 </div>
 
