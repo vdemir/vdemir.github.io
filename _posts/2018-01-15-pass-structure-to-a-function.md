@@ -23,11 +23,11 @@ C'de, ```struct``` iki yöntemle fonksiyon işlevlere geçirilebilir:
 
 ## struct yapıyı değerine göre geçirme
 
-Bir yapı değişkeni, normal bir değişken gibi argüman olarak işleve geçirilebilir.
+Bir ```struct``` değişkeni, normal bir değişken gibi argüman olarak fonksiyon işlevine geçirilebilir.
 
-Yapı değerle geçirilirse, işlev tanımındaki yapı değişkeni üzerinde yapılan değişiklikler orijinal olarak geçirilen yapı değişkeninde yansımaz.
+```struct``` yapı değerle geçirilirse, fonksiyon işlevi tanımındaki ```struct``` yapı değişkeni üzerinde yapılan değişiklikler orijinal olarak geçirilen ```struct``` yapı değişkeninde yansımaz.
 
-C programı oluşturmak için bir yapı oluşturan öğrenci, ismi içeren ve rulo ve bilgileri görüntüler.
+Bir öğrenci ```struct``` yapı oluşturan, ```name``` ile ```roll``` içeren ve bilgileri görüntüleyen C programı.
 ***
 
 
