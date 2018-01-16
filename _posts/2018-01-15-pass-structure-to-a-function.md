@@ -30,6 +30,181 @@ Bir ```struct``` değişkeni, normal bir değişken gibi argüman olarak fonksiy
 Bir öğrenci ```struct``` yapı oluşturan, ```name``` ile ```roll``` içeren ve bilgileri görüntüleyen C programı.
 ***
 
+<!Doctype html>
+<html class="no-js" lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<link rel="dns-prefetch" href="//cdn.programiz.com" />
+<!--[if IE 9]>
+<link rel="prefetch" href="//cdn.programiz.com" />
+<![endif]-->
+<link rel="shortcut icon" href="//cdn.programiz.com/sites/tutorial2program/files/c-favicons.png" type="image/png" />
+<meta name="description" content="In this article, you&#039;ll find relevant examples to pass structures as an argument to a function, and use them in your program." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.programiz.com/c-programming/c-structure-function" />
+<link rel="shortlink" href="https://www.programiz.com/node/151" />
+<meta name="google-site-verification" content="17JZPeRuYVi-HGRJIG06Wx4uVrQSGPSGk7RLbZ7LaTA" />
+<meta name="msvalidate.01" content="AC4EA77B0980B7169F9EEC142ADCC15B" />
+<script>
+window.onload = init;
+var code = [];
+var prettyCode = [];
+
+var iFrameTimeoutIDs = [];
+
+var codeDivs;
+
+function init(){ 
+	jQuery("pre code").parent("pre").wrap("<div class='code-wrapper' style='position:relative;'></div>");
+	codeDivs = document.querySelectorAll('pre code');
+	for(var i=0; i<codeDivs.length; i++) {
+		 var sourceCode = codeDivs[i].textContent;
+                 var prettySourceCode = codeDivs[i].innerHTML;
+		 code.push(sourceCode);
+                 prettyCode.push(prettySourceCode);
+		 var iframe = document.createElement("iframe");
+		 iframe.setAttribute("src", "https://play.programiz.com/c.html?embed=true");
+		 iframe.setAttribute("class","playground");
+		
+		// iframe.style.height = "0";
+		 iframe.style.width = "0";
+		 iframe.style.border = "none";
+		 iframe.setAttribute("scrolling", "no");
+		 iframe.setAttribute("onload", "onloadhandler(this," + i + ");");
+		 iframe.setAttribute("onerror", "onerrorhandler(this," + i + ");");
+		// iframe.style.position = "absolute";
+		// iframe.style.top = "0";
+		// iframe.style.left = "0";
+
+		 iFrameTimeoutIDs[i] = removeIFrameBecauseOfTimeout(iframe, i);
+
+		 jQuery(codeDivs[i]).parent('pre').after(jQuery(iframe));
+
+		// jQuery(codeDivs[i]).parent('pre').replaceWith(jQuery(iframe));
+
+	}
+}
+
+
+function removeIFrameBecauseOfTimeout(iframe, i) {
+	return setTimeout(function(){
+		 	jQuery(iframe).remove();
+		 }, 3000);
+}
+
+function iFrameLoadError(iframe, i){
+    jQuery(iframe).hide();
+    jQuery(codeDivs[i]).parent('pre').show();
+}
+
+var timeoutIDs = [];
+
+function hideIFrameBecauseHandshakeFailed(iframe, i) {
+	return setTimeout(function(){
+            jQuery(iframe).hide();
+            jQuery(codeDivs[i]).parent('pre').show();
+        }, 200);
+}
+
+function onloadhandler(iframe, i){
+	   clearTimeout(iFrameTimeoutIDs[i]);
+
+       var sourceCode = code[i];
+       var prettySourceCode = prettyCode[i];
+       iframe.contentWindow.postMessage(sourceCode, "*"); 
+
+       jQuery(codeDivs[i]).parent('pre').hide();
+       setTimeout(function(){
+       	 iframe.style.width = "100%";
+       	 iframe.style.minHeight = "500px";
+       	jQuery(iframe).show();
+       }, 100);
+     
+       timeoutIDs[i] = hideIFrameBecauseHandshakeFailed(iframe, i);
+ }
+
+window.addEventListener('message', function(event) { 
+    // IMPORTANT: Check the origin of the data! 
+    if (~event.origin.indexOf('https://play.programiz.com')) { 
+        // The data has been sent from your site 
+        for(var i=0; i < timeoutIDs.length; i++) {
+        	clearTimeout(timeoutIDs[i]);
+        }
+    } else { 
+    	// console.log(event);
+        // The data hasn't been sent from your site! 
+        // Be careful! Do not use it. 
+        return; 
+    } 
+}); 
+	</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TKXT7MH');</script>
+<!-- End Google Tag Manager -->
+<script data-cfasync="false" type="text/javascript">
+  var freestar = freestar || {};
+  freestar.hitTime = Date.now();
+  freestar.queue = freestar.queue || [];
+  freestar.config = freestar.config || {};
+  freestar.debug = window.location.search.indexOf('fsdebug') === -1 ? false : true;
+
+  // Tag IDs set here, must match Tags served in the Body for proper setup
+  freestar.config.enabled_slots = [
+    "programiz_300x600_300x250_left",
+    "programiz_728x90_300x250_320x50_320x100_ATF",
+    "programiz_300x600_300x250_left_2",
+    "programiz_300x250_320x100_320x50_incontent",
+    "programiz_728x90_300x250_320x50_320x100_BTF",
+  ];
+
+!function(a,b){var c=b.getElementsByTagName("script")[0],d=b.createElement("script"),e="https://a.pub.network/Programiz-com";e+=freestar.debug?"/qa/pubfig.min.js":"/pubfig.min.js",d.async=!0,d.src=e,c.parentNode.insertBefore(d,c)}(window,document);
+</script>
+  <title>How to pass structure to a function in C programming?</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="//cdn.programiz.com/sites/tutorial2program/files/cdn/css/https/css_WSgzCiaLFuERen0TMp4LzgnjcxS3tn-QyZRD85wZ2cs.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//cdn.programiz.com/sites/tutorial2program/files/cdn/css/https/css_3I03pJits2CKnSomFtyZgUmNkiDHMl2HjyoOrdsGu_8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//cdn.programiz.com/sites/tutorial2program/files/cdn/css/https/css_VWGhZkkR4B4tMJA7PC_wov8dAxaI-MS03BCM3K8jjJA.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="//cdn.programiz.com/sites/tutorial2program/files/cdn/css/https/css_36JbTIbHkX9TeP0yu3dTHrOHbHF-6-_qVnhNK0wAa7k.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//cdn.programiz.com/sites/tutorial2program/files/cdn/css/https/css_iGec9D4XeQWc1VlhKtvst2A9wnKBYj3mMXxOhH2ZqhY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//cdn.programiz.com/sites/tutorial2program/files/cdn/css/https/css_5w9zKWmFIox1ed4zWL2tzX8XT5Tvs85mCVB9CUkEnVQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="//cdn.programiz.com/sites/tutorial2program/files/cdn/css/https/css_5aQvY9eDN5XIiayMtb_05FejVu1px73z0dS0wFjNJKo.css" media="all" />
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="//cdn.programiz.com/sites/tutorial2program/files/js/js_3TykeRWpejhD4-J3vdlaNXdULg9xhOZhbsppK0o2bUs.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery.ui || document.write("<script src='/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery-ui.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="//cdn.programiz.com/sites/tutorial2program/files/js/js_Xdog1yvbsHUl33-wo9ctRnQMgE_3uBBG15y3yJm_2eY.js"></script>
+<script type="text/javascript" src="//cdn.programiz.com/sites/tutorial2program/files/js/js_6mtNsXgWzNZac4UBJK9kpj3XdXTz7NcBgjY5eMSdK94.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-36675496-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="//cdn.programiz.com/sites/tutorial2program/files/js/js_1idk1Z3VP3hlw_7ergGcv0EkKW5OmiHkq_oP2y09WAM.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"c","theme_token":"MwqMThx03ZlKea15yJRNpzZFHAX_lRqcAFK4mtudB80","js":{"sites\/all\/libraries\/prettify\/prettify.js":1,"sites\/all\/modules\/prettify\/prettify.loader.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.10.2\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jqueryui\/1.10.2\/jquery-ui.min.js":1,"1":1,"sites\/all\/modules\/codefilter\/codefilter.js":1,"sites\/all\/modules\/search_autocomplete\/js\/jquery.autocomplete.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"2":1,"sites\/all\/themes\/Ultimate\/sidr-package-1.2.1\/jquery.sidr.min.js":1,"sites\/all\/themes\/Ultimate\/js\/plugins.js":1,"sites\/all\/themes\/Ultimate\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.menu.css":1,"misc\/ui\/jquery.ui.autocomplete.css":1,"sites\/all\/modules\/codefilter\/codefilter.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/quiz\/quiz.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/search_autocomplete\/css\/themes\/basic-blue.css":1,"sites\/all\/themes\/Ultimate\/css\/normalize.css":1,"sites\/all\/themes\/Ultimate\/css\/main.css":1,"sites\/all\/themes\/Ultimate\/sidr-package-1.2.1\/stylesheets\/jquery.sidr.dark.css":1,"sites\/all\/themes\/c\/c.css":1,"sites\/all\/modules\/prettify\/styles\/stackoverflow.css":1}},"prettify":{"linenums":false,"match":"","nocode":"nocode","custom":[],"markup":{"precode":true,"code":false,"pre":false}},"search_autocomplete":{"form6":{"selector":"#search-api-page-search-form[action=\u0022\/searchh\u0022] #edit-keys-2","minChars":"3","max_sug":"10","type":"internal","datas":"https:\/\/www.programiz.com\/search_autocomplete\/autocomplete\/6\/","fid":"6","theme":"basic-blue","auto_submit":"1","auto_redirect":"1"},"form7":{"selector":"#search-api-page-search-form-simplest-programming-tutorials-f #edit-keys-2","minChars":"3","max_sug":"10","type":"internal","datas":"https:\/\/www.programiz.com\/search_autocomplete\/autocomplete\/7\/","fid":"7","theme":"basic-blue","auto_submit":"1","auto_redirect":"1"}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/c-programming\/c-structure-function":true}});
+//--><!]]>
+</script>
+</head>
 <body>
           <div class="region region-after-body">
     <div id="block-block-129" class="block block-block">
@@ -92,7 +267,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
  <input placeholder="Example: Python list" type="text" id="edit-keys-2" name="keys_2" value="" size="15" maxlength="128" class="form-text" />
 </div>
 <input type="hidden" name="id" value="2" />
-<input type="submit" id="edit-submit-2" name="op" value="Go" class="form-submit" /><input type="hidden" name="form_build_id" value="form-ZKdeuySOxf2fFUt0So-QNFjf4cirLS5KvPxpBQ45Pys" />
+<input type="submit" id="edit-submit-2" name="op" value="Go" class="form-submit" /><input type="hidden" name="form_build_id" value="form-6oYAvVu8C31GC8sT30Ed1E_0hYPFwx2Nw_yn87TxLLs" />
 <input type="hidden" name="form_id" value="search_api_page_search_form_simplest_programming_tutorials_f" />
 </div></form>  </div>
 </div>
@@ -290,7 +465,7 @@ Sum of distances = 18&#39;-2.3&quot;
 
     
   <div class="content">
-    <div class="view view-c-programming-related-examples view-id-c_programming_related_examples view-display-id-block view-dom-id-cc84d06972227d175022387a79219282">
+    <div class="view view-c-programming-related-examples view-id-c_programming_related_examples view-display-id-block view-dom-id-eb9b836d2c85bda544e1e852f5c51f65">
             <div class="view-header">
       <p>Check out these examples to learn more:</p>    </div>
   
@@ -726,3 +901,4 @@ Copyright © by Programiz | All rights reserved | <a href="/privacy-policy">Priv
   <script type="text/javascript" src="//cdn.programiz.com/sites/tutorial2program/files/js/js_wMq06n34El81cPtKvKVuAehyOEwepE71d1W2gGcEjDE.js"></script>
 <script type="text/javascript" src="//cdn.programiz.com/sites/tutorial2program/files/js/js_ZPMVUwauT3CzfUSIYk-Kc3nwhp80i90VcKjYuHm5owQ.js"></script>
 </body>
+</html>
