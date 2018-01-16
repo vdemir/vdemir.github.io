@@ -50,9 +50,9 @@ void display(struct student stu);
 int main()
 {
     struct student stud;
-    printf("Enter student's name: ");
+    printf("Ogrencinin ismini giriniz: ");
     scanf("%s", &stud.name);
-    printf("Enter roll number:");
+    printf("Ogrencinin numarasini giriniz:");
     scanf("%d", &stud.roll);
     display(stud);   //  yapisal degiskene gore arguman atamak
     return 0;
