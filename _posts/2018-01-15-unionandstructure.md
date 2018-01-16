@@ -16,7 +16,7 @@ comments: False
 
 Birincil fark, bu örnekle gösterilebilir:
 
-<>
+
 ~~~c
 #include <stdio.h>
 union unionJob
