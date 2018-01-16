@@ -51,6 +51,7 @@ size of structure = 40
 ***
 
 > 
+
 ## struct yapılara union yapıdan daha fazla bellek tahsis edilir
 
 Yukarıdaki örnekte görüldüğü gibi, ```union``` ve ```struct``` yapı arasında bellek ayırmada bir fark vardır.
