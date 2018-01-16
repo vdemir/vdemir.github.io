@@ -144,7 +144,7 @@ void display(struct student stu);
 int main()
 {
     struct student stud;
-    printf(&quot;Enter student&#39;s name: &quot;);
+    printf("Enter student";s name: ");
     scanf(&quot;%s&quot;, &amp;stud.name);
     printf(&quot;Enter roll number:&quot;);
     scanf(&quot;%d&quot;, &amp;stud.roll);
