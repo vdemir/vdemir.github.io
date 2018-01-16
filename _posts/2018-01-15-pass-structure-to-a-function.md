@@ -30,26 +30,7 @@ Bir ```struct``` değişkeni, normal bir değişken gibi argüman olarak fonksiy
 Bir öğrenci ```struct``` yapı oluşturan, ```name``` ile ```roll``` içeren ve bilgileri görüntüleyen C programı.
 ***
 
-<!Doctype html>
-<html class="no-js" lang="en-US">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="x-dns-prefetch-control" content="on" />
-<link rel="dns-prefetch" href="//cdn.programiz.com" />
-<!--[if IE 9]>
-<link rel="prefetch" href="//cdn.programiz.com" />
-<![endif]-->
-<link rel="shortcut icon" href="//cdn.programiz.com/sites/tutorial2program/files/c-favicons.png" type="image/png" />
-<meta name="description" content="In this article, you&#039;ll find relevant examples to pass structures as an argument to a function, and use them in your program." />
-<meta name="generator" content="Drupal 7 (http://drupal.org)" />
-<link rel="canonical" href="https://www.programiz.com/c-programming/c-structure-function" />
-<link rel="shortlink" href="https://www.programiz.com/node/151" />
-<meta name="google-site-verification" content="17JZPeRuYVi-HGRJIG06Wx4uVrQSGPSGk7RLbZ7LaTA" />
-<meta name="msvalidate.01" content="AC4EA77B0980B7169F9EEC142ADCC15B" />
 <script>
 window.onload = init;
 var code = [];
@@ -143,41 +124,8 @@ window.addEventListener('message', function(event) {
     } 
 }); 
 	</script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TKXT7MH');</script>
-<!-- End Google Tag Manager -->
-<script data-cfasync="false" type="text/javascript">
-  var freestar = freestar || {};
-  freestar.hitTime = Date.now();
-  freestar.queue = freestar.queue || [];
-  freestar.config = freestar.config || {};
-  freestar.debug = window.location.search.indexOf('fsdebug') === -1 ? false : true;
 
-  // Tag IDs set here, must match Tags served in the Body for proper setup
-  freestar.config.enabled_slots = [
-    "programiz_300x600_300x250_left",
-    "programiz_728x90_300x250_320x50_320x100_ATF",
-    "programiz_300x600_300x250_left_2",
-    "programiz_300x250_320x100_320x50_incontent",
-    "programiz_728x90_300x250_320x50_320x100_BTF",
-  ];
-
-!function(a,b){var c=b.getElementsByTagName("script")[0],d=b.createElement("script"),e="https://a.pub.network/Programiz-com";e+=freestar.debug?"/qa/pubfig.min.js":"/pubfig.min.js",d.async=!0,d.src=e,c.parentNode.insertBefore(d,c)}(window,document);
-</script>
-  <title>How to pass structure to a function in C programming?</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="//cdn.programiz.com/sites/tutorial2program/files/cdn/css/https/css_WSgzCiaLFuERen0TMp4LzgnjcxS3tn-QyZRD85wZ2cs.css" media="all" />
-<link type="text/css" rel="stylesheet" href="//cdn.programiz.com/sites/tutorial2program/files/cdn/css/https/css_3I03pJits2CKnSomFtyZgUmNkiDHMl2HjyoOrdsGu_8.css" media="all" />
-<link type="text/css" rel="stylesheet" href="//cdn.programiz.com/sites/tutorial2program/files/cdn/css/https/css_VWGhZkkR4B4tMJA7PC_wov8dAxaI-MS03BCM3K8jjJA.css" media="screen" />
-<link type="text/css" rel="stylesheet" href="//cdn.programiz.com/sites/tutorial2program/files/cdn/css/https/css_36JbTIbHkX9TeP0yu3dTHrOHbHF-6-_qVnhNK0wAa7k.css" media="all" />
-<link type="text/css" rel="stylesheet" href="//cdn.programiz.com/sites/tutorial2program/files/cdn/css/https/css_iGec9D4XeQWc1VlhKtvst2A9wnKBYj3mMXxOhH2ZqhY.css" media="all" />
-<link type="text/css" rel="stylesheet" href="//cdn.programiz.com/sites/tutorial2program/files/cdn/css/https/css_5w9zKWmFIox1ed4zWL2tzX8XT5Tvs85mCVB9CUkEnVQ.css" media="all" />
-<link type="text/css" rel="stylesheet" href="//cdn.programiz.com/sites/tutorial2program/files/cdn/css/https/css_5aQvY9eDN5XIiayMtb_05FejVu1px73z0dS0wFjNJKo.css" media="all" />
+ 
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
@@ -204,127 +152,6 @@ window.jQuery.ui || document.write("<script src='/sites/all/modules/jquery_updat
 jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"c","theme_token":"MwqMThx03ZlKea15yJRNpzZFHAX_lRqcAFK4mtudB80","js":{"sites\/all\/libraries\/prettify\/prettify.js":1,"sites\/all\/modules\/prettify\/prettify.loader.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.10.2\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jqueryui\/1.10.2\/jquery-ui.min.js":1,"1":1,"sites\/all\/modules\/codefilter\/codefilter.js":1,"sites\/all\/modules\/search_autocomplete\/js\/jquery.autocomplete.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"2":1,"sites\/all\/themes\/Ultimate\/sidr-package-1.2.1\/jquery.sidr.min.js":1,"sites\/all\/themes\/Ultimate\/js\/plugins.js":1,"sites\/all\/themes\/Ultimate\/js\/main.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.menu.css":1,"misc\/ui\/jquery.ui.autocomplete.css":1,"sites\/all\/modules\/codefilter\/codefilter.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/quiz\/quiz.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/search_autocomplete\/css\/themes\/basic-blue.css":1,"sites\/all\/themes\/Ultimate\/css\/normalize.css":1,"sites\/all\/themes\/Ultimate\/css\/main.css":1,"sites\/all\/themes\/Ultimate\/sidr-package-1.2.1\/stylesheets\/jquery.sidr.dark.css":1,"sites\/all\/themes\/c\/c.css":1,"sites\/all\/modules\/prettify\/styles\/stackoverflow.css":1}},"prettify":{"linenums":false,"match":"","nocode":"nocode","custom":[],"markup":{"precode":true,"code":false,"pre":false}},"search_autocomplete":{"form6":{"selector":"#search-api-page-search-form[action=\u0022\/searchh\u0022] #edit-keys-2","minChars":"3","max_sug":"10","type":"internal","datas":"https:\/\/www.programiz.com\/search_autocomplete\/autocomplete\/6\/","fid":"6","theme":"basic-blue","auto_submit":"1","auto_redirect":"1"},"form7":{"selector":"#search-api-page-search-form-simplest-programming-tutorials-f #edit-keys-2","minChars":"3","max_sug":"10","type":"internal","datas":"https:\/\/www.programiz.com\/search_autocomplete\/autocomplete\/7\/","fid":"7","theme":"basic-blue","auto_submit":"1","auto_redirect":"1"}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"urlIsAjaxTrusted":{"\/c-programming\/c-structure-function":true}});
 //--><!]]>
 </script>
-</head>
-<body>
-          <div class="region region-after-body">
-    <div id="block-block-129" class="block block-block">
-
-    
-  <div class="content">
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKXT7MH"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->  </div>
-</div>
-  </div>
-
-<div id="programiz-header" class="nav-down clearfix">
-<header class="header-wrapper">
-<div class="logo-header-wrapper clearfix">
-
-	
-<div class="logo">
-<a href="/c-programming" title="C Programming">C Programming Logo</a>
-</div>
-
-<div class="secondary-nav">
-    <ul>
-        <li><a href="/cpp-programming" title="C++">C++</a></li>
-        <li><a href="/python-programming" title="Python Tutorial">Python</a></li>
-        <li><a href="/r-programming" title="R Tutorial">R Tutorial</a></li>
-        <li><a href="/java-programming" title="Java Tutorial">Java</a></li>
-        <li><a href="/kotlin-programming" title="Kotlin Tutorial">Kotlin</a></li>
-    </ul>
-</div>
-
-</div>
-<div class="main-nav-wrapper clearfix">
-<div>
-    <nav class="main-nav">
-        <h2>MENU</h2>
-        <ul>
-            <li class="desktop-only"><a class="material-icons" title= "Programiz Home" href="/" >home</a></li>
-            <li><a class="c-programming" title="C Tutorial" href="/c-programming">Tutorial</a></li>
-            <li><a title="C Examples" class="c-programming" href="/c-programming/examples">Examples</a></li>
-            <li class="desktop-only"><a class="c-programming" title="C Library Functions" href="/c-programming/library-function">Library Functions</a></li>
-        </ul>
-    </nav>
-<a href="" class="material-icons search-icon">search</a>
-</div>
-</div>
-</header>
-</div>
-<div id="search-area" class="clearfix">
-<span class="material-icons">close</span>
-  <div class="region region-search">
-    <div id="block-search-api-page-simplest-programming-tutorials-f" class="block block-search-api-page">
-
-    <h2>Simplest programming tutorials for beginners</h2>
-  
-  <div class="content">
-    <form action="/c-programming/c-structure-function" method="post" id="search-api-page-search-form-simplest-programming-tutorials-f" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-keys-2">
-  <label class="element-invisible" for="edit-keys-2">What do you want to learn today? </label>
- <input placeholder="Example: Python list" type="text" id="edit-keys-2" name="keys_2" value="" size="15" maxlength="128" class="form-text" />
-</div>
-<input type="hidden" name="id" value="2" />
-<input type="submit" id="edit-submit-2" name="op" value="Go" class="form-submit" /><input type="hidden" name="form_build_id" value="form-6oYAvVu8C31GC8sT30Ed1E_0hYPFwx2Nw_yn87TxLLs" />
-<input type="hidden" name="form_id" value="search_api_page_search_form_simplest_programming_tutorials_f" />
-</div></form>  </div>
-</div>
-  </div>
-</div>
-<div id="main-wrapper-two-column" class="clearfix">
-<div class="clearfix">
-<div id="programiz-main-content">
-<section class="main-content">
-<h1>How to pass structure to a function in C programming?</h1>
- 
-<div class="page-short-description">
-In this article, you'll find relevant examples to pass structures as an argument to a function, and use them in your program.</div>
-<div class="inside-content">
-  <div class="region region-content-inside">
-    <div id="block-block-141" class="block block-block">
-
-    
-  <div class="content">
-    <style>
-#programiz_728x90_300x250_320x50_320x100_ATF { display: block; width: 300px; height: 250px; margin: 15px auto; }
-@media(min-width: 1200px) { #programiz_728x90_300x250_320x50_320x100_ATF { margin: 15px auto 12px; width: 728px; height: 90px; margin-left: 0; } }
-</style>
-
-<!-- programiz_728x90_300x250_320x50_320x100_ATF -->
-<div id="programiz_728x90_300x250_320x50_320x100_ATF">
-<script data-cfasync="false" type="text/javascript">
-    freestar.queue.push(function () { googletag.display('programiz_728x90_300x250_320x50_320x100_ATF'); });
-</script>
-</div>  </div>
-</div>
-  </div>
-</div>
-  
-<img src="//cdn.programiz.com/sites/tutorial2program/files/c-structure-functions.jpg" alt="C Programming Structure and Function" title="C Programming Structure and Function" >
-<div class="clearfix">
-
-
-  <div class="region region-content">
-    <div id="block-system-main" class="block block-system">
-
-    
-  <div class="content">
-    <div id="node-151" class="node node-c-tutorial clearfix" about="/c-programming/c-structure-function" typeof="sioc:Item foaf:Document">
-<span property="dc:title" content="How to pass structure to a function in C programming?" class="rdf-meta element-hidden"></span><div class="content clearfix">
-<div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>In C, <a href="/c-programming/c-structures" title="C structures">structure</a> can be passed to <a href="/c-programming/c-functions" title="C Functions">functions</a> by two methods:</p>
-
-<ol>
-	<li><a href="/c-programming/c-user-defined-functions">Passing by value (passing actual value as argument)</a></li>
-	<li><a href="/c-programming/c-pointer-functions">Passing by reference (passing address of an&nbsp;argument)</a></li>
-</ol>
-
-<h3>Passing structure by value</h3>
-
-<p>A structure variable can be passed to the function as an argument as a normal variable.</p>
-
-<p>If structure is passed by value, changes made to the structure variable inside the function definition does not reflect in the originally passed structure variable.</p>
 
 <p><strong>C program to create a structure student, containing name and roll and display the information.</strong></p>
 
