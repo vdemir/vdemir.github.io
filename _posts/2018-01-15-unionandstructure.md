@@ -118,3 +118,7 @@ Ancak, kullanıcı ```salary``` değerini girdiğinde, 1234.23 ```job1.salary```
 
 Böylece çıktıda, ```salary``` doğru bir şekilde yazdırılır, ancak ```name``` bazı random string (rastgele dizgeyi) gösterir.
 
+## Union Yapıyı Bir Fonksiyona Geçirme
+
+```Union```, C programlamasındaki ```struct``` yapılarla benzer şekilde geçilebilir.
+
