@@ -133,16 +133,10 @@ window.addEventListener('message', function(event) {
 <script type="text/javascript" src="//cdn.programiz.com/sites/tutorial2program/files/js/js_3TykeRWpejhD4-J3vdlaNXdULg9xhOZhbsppK0o2bUs.js"></script>
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
 <script type="text/javascript">
-<!--//--><![CDATA[//><!--
-window.jQuery.ui || document.write("<script src='/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery-ui.min.js'>\x3C/script>")
-//--><!]]>
 </script>
 <script type="text/javascript" src="//cdn.programiz.com/sites/tutorial2program/files/js/js_Xdog1yvbsHUl33-wo9ctRnQMgE_3uBBG15y3yJm_2eY.js"></script>
 <script type="text/javascript" src="//cdn.programiz.com/sites/tutorial2program/files/js/js_6mtNsXgWzNZac4UBJK9kpj3XdXTz7NcBgjY5eMSdK94.js"></script>
 <script type="text/javascript">
-<!--//--><![CDATA[//><!--
-(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-36675496-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
-//--><!]]>
 </script>
 <script type="text/javascript" src="//cdn.programiz.com/sites/tutorial2program/files/js/js_1idk1Z3VP3hlw_7ergGcv0EkKW5OmiHkq_oP2y09WAM.js"></script>
 
