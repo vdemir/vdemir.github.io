@@ -43,7 +43,9 @@ struct student
 };
 
 void display(struct student stu);
-// function prototype should be below to the structure declaration otherwise compiler shows error
+
+// function işlev prototipi struct yapı bildiriminde aşağıda olmalıdır 
+// aksi takdirde derleyici hata gösterir
 
 int main()
 {
@@ -52,7 +54,7 @@ int main()
     scanf("%s", &stud.name);
     printf("Enter roll number:");
     scanf("%d", &stud.roll);
-    display(stud);   // passing structure variable stud as argument
+    display(stud);   // yapısal değişkene göre argüman atamak
     return 0;
 }
 void display(struct student stu){
