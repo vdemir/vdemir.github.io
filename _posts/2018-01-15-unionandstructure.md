@@ -70,7 +70,8 @@ Ancak, bir ```union``` değişkenini depolamak için gereken bellek, ```union```
 ```struct``` durumunda, üyelerinin tümüne her an erişilebilir.
 
 Ancak, ```union``` durumunda, bir kerede yalnızca üyelerinden birine erişilebilir ve diğer tüm üyeler çöp değerleri içerir.
-<>
+
+
 ~~~c
 #include <stdio.h>
 union job
