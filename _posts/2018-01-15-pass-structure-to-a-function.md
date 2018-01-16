@@ -154,6 +154,6 @@ int main()
 }
 void display(struct student stu){
   printf(&quot;Output\nName: %s&quot;,stu.name);
-  printf(&quot;\nRoll: %d&quot;,stu.roll);
+  printf(&quot;\nRoll: %d\n",stu.roll);
 }</code>
 </pre>
