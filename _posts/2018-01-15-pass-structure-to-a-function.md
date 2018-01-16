@@ -44,7 +44,7 @@ struct student
 
 void display(struct student stu);
 
-// fonksiyon islevi prototipi, struct yapi bildiriminde asagida olmalidir 
+// Fonksiyon islevi prototipi, struct yapi bildiriminde asagida olmalidir 
 // aksi takdirde derleyici hata gosterir
 
 int main()
@@ -54,7 +54,7 @@ int main()
     scanf("%s", &stud.name);
     printf("Ogrencinin numarasini giriniz:");
     scanf("%d", &stud.roll);
-    display(stud);   //  yapisal degiskene gore arguman atamak
+    display(stud);   //  Yapisal degiskene ait sapmayi arguman olarak kabul etmek
     return 0;
 }
 void display(struct student stu){
