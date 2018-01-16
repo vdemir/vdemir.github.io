@@ -137,7 +137,7 @@ window.addEventListener('message', function(event) {
 <script type="text/javascript" src="//cdn.programiz.com/sites/tutorial2program/files/js/js_1idk1Z3VP3hlw_7ergGcv0EkKW5OmiHkq_oP2y09WAM.js"></script>
 
 <pre>
-<code>#include &lt;stdio.h&gt;
+<code>#include
 struct student
 {
     char name[50];
