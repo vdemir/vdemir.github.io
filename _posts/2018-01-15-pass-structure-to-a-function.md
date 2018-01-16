@@ -32,7 +32,9 @@ Bir öğrenci ```struct``` yapı oluşturan, ```name``` ile ```roll``` içeren v
 
 
 ***
-```
+
+~~~c
+
 #include <stdio.h>
 struct student
 {
@@ -57,104 +59,5 @@ void display(struct student stu){
   printf("Output\nName: %s",stu.name);
   printf("\nRoll: %d",stu.roll);
 }
-```
-
-<script>
-window.onload = init;
-var code = [];
-var prettyCode = [];
-
-var iFrameTimeoutIDs = [];
-
-var codeDivs;
-
-function init(){ 
-	jQuery("pre code").parent("pre").wrap("<div class='code-wrapper' style='position:relative;'></div>");
-	codeDivs = document.querySelectorAll('pre code');
-	for(var i=0; i<codeDivs.length; i++) {
-		 var sourceCode = codeDivs[i].textContent;
-                 var prettySourceCode = codeDivs[i].innerHTML;
-		 code.push(sourceCode);
-                 prettyCode.push(prettySourceCode);
-		 var iframe = document.createElement("iframe");
-		 iframe.setAttribute("src", "https://play.programiz.com/c.html?embed=true");
-		 iframe.setAttribute("class","playground");
-		
-		// iframe.style.height = "0";
-		 iframe.style.width = "0";
-		 iframe.style.border = "none";
-		 iframe.setAttribute("scrolling", "no");
-		 iframe.setAttribute("onload", "onloadhandler(this," + i + ");");
-		 iframe.setAttribute("onerror", "onerrorhandler(this," + i + ");");
-		// iframe.style.position = "absolute";
-		// iframe.style.top = "0";
-		// iframe.style.left = "0";
-
-		 iFrameTimeoutIDs[i] = removeIFrameBecauseOfTimeout(iframe, i);
-
-		 jQuery(codeDivs[i]).parent('pre').after(jQuery(iframe));
-
-		// jQuery(codeDivs[i]).parent('pre').replaceWith(jQuery(iframe));
-
-	}
-}
-
-
-function removeIFrameBecauseOfTimeout(iframe, i) {
-	return setTimeout(function(){
-		 	jQuery(iframe).remove();
-		 }, 3000);
-}
-
-function iFrameLoadError(iframe, i){
-    jQuery(iframe).hide();
-    jQuery(codeDivs[i]).parent('pre').show();
-}
-
-var timeoutIDs = [];
-
-function hideIFrameBecauseHandshakeFailed(iframe, i) {
-	return setTimeout(function(){
-            jQuery(iframe).hide();
-            jQuery(codeDivs[i]).parent('pre').show();
-        }, 200);
-}
-
-function onloadhandler(iframe, i){
-	   clearTimeout(iFrameTimeoutIDs[i]);
-
-       var sourceCode = code[i];
-       var prettySourceCode = prettyCode[i];
-       iframe.contentWindow.postMessage(sourceCode, "*"); 
-
-       jQuery(codeDivs[i]).parent('pre').hide();
-       setTimeout(function(){
-       	 iframe.style.width = "100%";
-       	 iframe.style.minHeight = "500px";
-       	jQuery(iframe).show();
-       }, 100);
-     
-       timeoutIDs[i] = hideIFrameBecauseHandshakeFailed(iframe, i);
- }
-
-window.addEventListener('message', function(event) { 
-    // IMPORTANT: Check the origin of the data! 
-    if (~event.origin.indexOf('https://play.programiz.com')) { 
-        // The data has been sent from your site 
-        for(var i=0; i < timeoutIDs.length; i++) {
-        	clearTimeout(timeoutIDs[i]);
-        }
-    } else { 
-    	// console.log(event);
-        // The data hasn't been sent from your site! 
-        // Be careful! Do not use it. 
-        return; 
-    } 
-}); 
-  </script>
-
- 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+~~~
 
