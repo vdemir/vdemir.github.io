@@ -44,7 +44,7 @@ struct student
 
 void display(struct student stu);
 
-// fonksiyon işlev prototipi struct yapi bildiriminde asagida olmalidir 
+// fonksiyon islevi prototipi struct yapi bildiriminde asagida olmalidir 
 // aksi takdirde derleyici hata gosterir
 
 int main()
