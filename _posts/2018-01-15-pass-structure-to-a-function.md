@@ -146,14 +146,14 @@ int main()
 {
     struct student stud;
     printf("Enter student's name: ");
-    scanf(&quot;%s&quot;, &amp;stud.name);
-    printf(&quot;Enter roll number:&quot;);
-    scanf(&quot;%d&quot;, &amp;stud.roll);
+    scanf("%s", &stud.name);
+    printf("Enter roll number:");
+    scanf("%d", &stud.roll);
     display(stud);   // passing structure variable stud as argument
     return 0;
 }
 void display(struct student stu){
-  printf(&quot;Output\nName: %s&quot;,stu.name);
-  printf(&quot;\nRoll: %d\n",stu.roll);
+  printf("Output\nName: %s",stu.name);
+  printf("\nRoll: %d\n",stu.roll);
 }</code>
 </pre>
