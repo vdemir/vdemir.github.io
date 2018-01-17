@@ -28,17 +28,6 @@ comments: False
     margin: 1em 0;
 }
 </style>
-<style>/* style-md-lists */
-
-            /* This is a weird hack for me not yet following the commonmark spec
-               regarding paragraph and lists. */
-            [data-md] > :first-child {
-                margin-top: 0;
-            }
-            [data-md] > :last-child {
-                margin-bottom: 0;
-            }</style>
-<style>/* style-selflinks */
 
             .heading, .issue, .note, .example, li, dt {
                 position: relative;
