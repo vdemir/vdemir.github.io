@@ -22,10 +22,6 @@ comments: False
 [data-algorithm]:not(.heading) {
   padding: .5em;
   border: thin solid #ddd; border-radius: .5em;
-  margin: .5em calc(-0.5em - 1px);
-}
-[data-algorithm] [data-algorithm] {
-    margin: 1em 0;
 }
 </style>
 
