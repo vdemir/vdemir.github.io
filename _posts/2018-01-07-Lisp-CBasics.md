@@ -46,7 +46,7 @@ Değişkenler
 
 * * *
 
-C'deki işlevler, _variables_[değişkenler] üzerinde değişiklik yapmaktan ibarettir. Bunlar, bir isim verdiğimiz veri parçalarıdır.
+C'deki fonksiyon işlevleri, değişken _variables_ değerler üzerinde değişiklik yapmaktan ibarettir. Bunlar, birer isim verdiğimiz veri parçalarıdır.
 
 C'deki her değişken belirgin bir _type_ sahiptir. Bu tipler[type] kendi tarafımızdan bildirilir veya dile dahildirler. Yeni bir değişken ismini takiben onun tipini yazarak tanımlayabiliriz ve isteğe bağlı olarak onu `=` kullanarak bazı değerlere ayarlayabiliriz. Bu bildirim[declaration] bir _statement_'dır ve C'deki tüm _statements_'leri noktalı virgül ';' ile sonlandırırız.
 
