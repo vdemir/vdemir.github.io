@@ -37,7 +37,7 @@ C'deki bir program yalnızca _function_ tanımları ve _structure_ tanımları'n
 
 Dolayısıyla, bir kaynak kod dosyası sadece _functions_ ve _types_'in bir listesidir. Bu fonksiyon işlevleri birbirlerini veya kendi kendilerini arayabilir ve deklare edilen veya dile yerleştirilmiş olan herhangi bir _data type_ kullanabilir.
 
-Diğer _header_ kitaplıklarındaki fonksiyon işlevlerini çağırmak veya onların _data type_ türlerini kullanmak mümkündür. Bu, C programlamasında karmaşıklığın katmanlarının nasıl biriktirildiği ile ilgili bir durumu göstermektedir.
+Diğer _header_ kitaplıklarındaki fonksiyon işlevlerini çağırmak veya onların _data type_ türlerini kullanmak mümkündür. Bu, karmaşıklığın katmanlarının C programlamasında nasıl biriktirildiği ile ilgili bir durumu göstermektedir.
 
 Önceki bölümde gördüğümüz gibi, bir C programının yürütülmesi daima `main` olarak adlandırılan fonksiyon işlevi ile başlar. Buradan itibaren, programın gerektirdiği tüm eylemleri gerçekleştirmek için giderek daha fazla işlev çağırır.
 
@@ -46,7 +46,7 @@ Değişkenler
 
 * * *
 
-C'deki fonksiyon işlevleri, değişken _variables_ değerler üzerinde değişiklik yapmaktan ibarettir. Bunlar, birer isim verdiğimiz veri parçalarıdır.
+C'deki fonksiyon işlevleri, değişken _variable_ değerler üzerinde değişiklik yapmaktan ibarettir. Bunlar, birer isim verdiğimiz veri parçalarıdır.
 
 C'deki her değişken belirgin bir _data type_ türüne sahiptir. _data type_ türleri tarafımızdan bildirilir veya dile kendiliğinden dahildirler. Yeni bir değişkeni ismini takiben tipini yazarak tanımlayabiliriz ve isteğe bağlı olarak onu `=` kullanarak bazı değerlere ayarlayabiliriz. Bu deklare edilen bildirim bir _statement_ ifadesidir ve C'deki tüm _statements_ ifadeleri noktalı virgül ';' ile sonlandırırız.
 
@@ -58,7 +58,7 @@ veya onu bildirmek ve değerini ayarlamak için ...
 
     int count = 10;
 
-Aşağıda bazı dile ait yerleşik _data type_ türlerinin örnekleri ve tanımları verilmiştir.
+Aşağıda bazı dile ait yerleşik _data type_ türü örnekleri ve tanımları verilmiştir.
 
 |  Tip    |  Tanım
 |---------|-------------------------------------------------------
