@@ -39,7 +39,7 @@ Dolayısıyla, bir kaynak kod dosyası sadece _functions_ ve _types_'in bir list
 
 Diğer _header_ kitaplıklarındaki fonksiyon işlevlerini çağırmak veya onların _data type_ türlerini kullanmak mümkündür. Bu, C programlamasında karmaşıklığın katmanlarının nasıl biriktirildiği ile ilgili bir durumu göstermektedir.
 
-Önceki bölümde gördüğümüz gibi, bir C programının yürütülmesi daima `main` olarak adlandırılan işlevle başlar. Buradan, gerektirdiği tüm eylemleri gerçekleştirmek için giderek daha fazla işlev çağırır.
+Önceki bölümde gördüğümüz gibi, bir C programının yürütülmesi daima `main` olarak adlandırılan fonksiyon işlevi ile başlar. Buradan itibaren, programın gerektirdiği tüm eylemleri gerçekleştirmek için giderek daha fazla işlev çağırır.
 
 Değişkenler
 ---------
