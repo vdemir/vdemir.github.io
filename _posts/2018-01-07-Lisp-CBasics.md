@@ -50,7 +50,7 @@ C'deki fonksiyon işlevleri, değişken _variables_ değerler üzerinde değişi
 
 C'deki her değişken belirgin bir _data type_ türüne sahiptir. _data type_ türleri tarafımızdan bildirilir veya dile kendiliğinden dahildirler. Yeni bir değişkeni ismini takiben tipini yazarak tanımlayabiliriz ve isteğe bağlı olarak onu `=` kullanarak bazı değerlere ayarlayabiliriz. Bu deklare edilen bildirim bir _statement_ ifadesidir ve C'deki tüm _statements_ ifadeleri noktalı virgül ';' ile sonlandırırız.
 
-`count` adında yeni bir `int` oluşturmak için aşağıdakileri yazabiliriz ...
+`count` adında yeni bir `int` _data type_ oluşturmak için aşağıdakileri yazabiliriz ...
 
     int count;
 
@@ -58,7 +58,7 @@ veya onu bildirmek ve değerini ayarlamak için ...
 
     int count = 10;
 
-Aşağıda bazı yerleşik[dile ait] tiplerin örnekleri ve tanımları verilmiştir.
+Aşağıda bazı dile ait yerleşik _data type_ türlerinin örnekleri ve tanımları verilmiştir.
 
 |  Tip    |  Tanım
 |---------|-------------------------------------------------------
