@@ -198,7 +198,7 @@ comments: False
 pre.idl.highlight { color: #708090; }
 .highlight:not(.idl) { background: hsl(24, 20%, 95%); }
 code.highlight { padding: .1em; border-radius: .3em; }
-pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em 0; overflow: auto; border-radius: 0; }
+pre.highlight, pre > code.highlight { display: block; padding: 1em; overflow: auto; border-radius: 0; }
 .highlight .c { color: #708090 } /* Comment */
 .highlight .k { color: #990055 } /* Keyword */
 .highlight .l { color: #000000 } /* Literal */
