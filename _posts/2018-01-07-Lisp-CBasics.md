@@ -24,7 +24,7 @@ Genel Bakış
   <p><small>Fosil &bull; At Nalı Yengeci.</small></p>
 </div>
 
-Bu bölümde, C'nin temel özelliklerine hızlı bir genel bakış hazırladım. C'de çok az _features_ var ve _syntax_ nispeten basittir. Ancak bu kolay anlamına gelmez. Tüm derinlik yüzeyin altına gizlenir. Bu nedenle _features_ ve _syntax_'ı şimdi oldukça hızlı bir şekilde ele alacağız ve devam edersek bunları daha derinlemesine göreceğiz.
+Bu bölümde, C'nin temel özelliklerine hızlı bir genel bakış hazırladım. C'de çok az _features_ vardır ve _syntax_ nispeten basittir. Ancak bu kolay anlamına gelmez. Tüm derinlik yüzeyin altına gizlenir. Bu nedenle _features_ ve _syntax_'ı şimdi oldukça hızlı bir şekilde ele alacağız ve devam edersek bunları daha derinlemesine göreceğiz.
 
 Bu bölümün amacı, herkesin aynı sayfada olmasıdır. Dolayısıyla, mevcut tecrübeye sahip olanlar, atlamayı ve gerekirse daha sonra geri dönmeyi daha kolay bulabilirken, C'ye tamamen yabancı olan insanlar biraz zaman ayırmalıdır.
 
@@ -48,7 +48,7 @@ Değişkenler
 
 C'deki fonksiyon işlevleri, değişken _variable_ değerler üzerinde değişiklik yapmaktan ibarettir. Bunlar, birer isim verdiğimiz veri parçalarıdır.
 
-C'deki her değişken belirgin bir _data type_ türüne sahiptir. _data type_ türleri tarafımızdan bildirilir veya dile kendiliğinden dahildirler. Yeni bir değişkeni tipini takiben ismini yazarak tanımlayabiliriz ve isteğe bağlı olarak onu `=` kullanarak bazı değerlere ayarlayabiliriz. Bu deklare edilen bildirim bir _statement_ ifadesidir ve C'deki tüm _statements_ ifadeleri noktalı virgül ';' ile sonlandırırız.
+C'deki her değişken belirgin bir _data type_ türüne sahiptir. _data type_ türleri tarafımızdan bildirilir veya dile kendiliğinden dahildirler. Yeni bir değişkeni tipini takiben ismini yazarak tanımlayabiliriz ve isteğe bağlı olarak onu `=` kullanarak bazı değerlere ayarlayabiliriz. Bu deklare edilen bildirim bir _statement_ ifadesidir ve C'deki tüm _statement_ ifadeleri noktalı virgül ';' ile sonlandırırız.
 
 `count` adında yeni bir `int` _data type_ oluşturmak için aşağıdakileri yazabiliriz ...
 
