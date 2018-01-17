@@ -318,9 +318,6 @@ size of union = 32
 size of structure = 40
 ~~~
 
-***
-
-## .
 
 ## struct yapılara union yapıdan daha fazla bellek tahsis edilir
 
@@ -366,7 +363,6 @@ int main()
 }
 ~~~
 
-## .
 
 ## Çıktı
 ~~~bash
