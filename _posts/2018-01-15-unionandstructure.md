@@ -281,7 +281,6 @@ pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em
 
 <p class="meta">16 Ocak 2018 - Türkiye</p>
 ## union ve struct arasındaki kullanım farkı
-
 ```union``` pek çok açıdan ```struct``` yapıya benzer olsa da, aralarındaki farkı anlamak çok önemlidir.
 
 Birincil fark, bu örnekle gösterilebilir:
