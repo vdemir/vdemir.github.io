@@ -33,11 +33,11 @@ Programlar
 
 * * *
 
-C'deki bir program yalnızca _function tanımları_ ve _structure tanımları_'ndan oluşur.
+C'deki bir program yalnızca _function_ tanımları ve _structure_ tanımları'ndan oluşur.
 
-Dolayısıyla, bir kaynak dosya sadece _functions_ ve _types_'in bir listesidir. Bu işlevler[functions] birbirlerini veya kendilerini arayabilir ve bildirilen[declared] veya dile yerleştirilmiş olan herhangi bir veri türünü[data types] kullanabilir.
+Dolayısıyla, bir kaynak kod dosyası sadece _functions_ ve _types_'in bir listesidir. Bu fonksiyon işlevleri birbirlerini veya kendi kendilerini arayabilir ve deklare edilen veya dile yerleştirilmiş olan herhangi bir _data type_ kullanabilir.
 
-Diğer kitaplıklardaki[libraries] işlevleri[functions] çağırmak veya onların veri türlerini[data types] kullanmak mümkündür. Bu, karmaşıklığın katmanlarının C programlamasında nasıl biriktirildiğidir.
+Diğer _header_ kitaplıklarındaki fonksiyon işlevlerini çağırmak veya onların _data type_ türlerini kullanmak mümkündür. Bu, C programlamasında karmaşıklığın katmanlarının nasıl biriktirildiği ile ilgili bir durumu göstermektedir.
 
 Önceki bölümde gördüğümüz gibi, bir C programının yürütülmesi daima `main` olarak adlandırılan işlevle başlar. Buradan, gerektirdiği tüm eylemleri gerçekleştirmek için giderek daha fazla işlev çağırır.
 
