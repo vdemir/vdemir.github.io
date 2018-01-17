@@ -71,7 +71,7 @@ Aşağıda bazı dile ait yerleşik _data type_ tür örnekleri ve tanımları v
 
 <br/>
 
-İşlev Bildirimleri[Function Declarations]
+Fonksiyon ile Deklare Edilen İşlev Bildirimleri
 ---------------------
 
 * * *
