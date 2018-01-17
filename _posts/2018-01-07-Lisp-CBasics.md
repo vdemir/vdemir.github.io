@@ -48,7 +48,7 @@ Değişkenler
 
 C'deki fonksiyon işlevleri, değişken _variables_ değerler üzerinde değişiklik yapmaktan ibarettir. Bunlar, birer isim verdiğimiz veri parçalarıdır.
 
-C'deki her değişken belirgin bir _type_ sahiptir. Bu tipler[type] kendi tarafımızdan bildirilir veya dile dahildirler. Yeni bir değişken ismini takiben onun tipini yazarak tanımlayabiliriz ve isteğe bağlı olarak onu `=` kullanarak bazı değerlere ayarlayabiliriz. Bu bildirim[declaration] bir _statement_'dır ve C'deki tüm _statements_'leri noktalı virgül ';' ile sonlandırırız.
+C'deki her değişken belirgin bir _data type_ türüne sahiptir. _data type_ türleri tarafımızdan bildirilir veya dile kendiliğinden dahildirler. Yeni bir değişkeni ismini takiben tipini yazarak tanımlayabiliriz ve isteğe bağlı olarak onu `=` kullanarak bazı değerlere ayarlayabiliriz. Bu deklare edilen bildirim bir _statement_ ifadesidir ve C'deki tüm _statements_ ifadeleri noktalı virgül ';' ile sonlandırırız.
 
 `count` adında yeni bir `int` oluşturmak için aşağıdakileri yazabiliriz ...
 
