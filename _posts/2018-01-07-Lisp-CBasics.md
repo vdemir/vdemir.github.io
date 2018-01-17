@@ -58,7 +58,7 @@ veya onu bildirmek ve değerini ayarlamak için ...
 
     int count = 10;
 
-Aşağıda bazı dile ait yerleşik _data type_ türü örnekleri ve tanımları verilmiştir.
+Aşağıda bazı dile ait yerleşik _data type_ tür örnekleri ve tanımları verilmiştir.
 
 |  Tip    |  Tanım
 |---------|-------------------------------------------------------
