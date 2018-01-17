@@ -286,7 +286,6 @@ pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em
 
 Birincil fark, bu örnekle gösterilebilir:
 
-
 ~~~c
 #include <stdio.h>
 union unionJob
@@ -318,7 +317,6 @@ size of union = 32
 size of structure = 40
 ~~~
 
-
 ## struct yapılara union yapıdan daha fazla bellek tahsis edilir
 
 Yukarıdaki örnekte görüldüğü gibi, ```union``` ve ```struct``` yapı arasında bellek ayırmada bir fark vardır.
@@ -337,7 +335,6 @@ Ancak, bir ```union``` değişkenini depolamak için gereken bellek, ```union```
 ```struct``` durumunda, üyelerinin tümüne her an erişilebilir.
 
 Ancak, ```union``` durumunda, bir kerede yalnızca üyelerinden birine erişilebilir ve diğer tüm üyeler çöp değerleri içerir.
-
 
 ~~~c
 #include <stdio.h>
@@ -362,7 +359,6 @@ int main()
    return 0;
 }
 ~~~
-
 
 ## Çıktı
 ~~~bash
@@ -389,4 +385,3 @@ Böylece çıktıda, ```salary``` doğru bir şekilde yazdırılır, ancak ```na
 ```Union```, C programlamasındaki foksiyonlara ```struct``` yapılarla benzer şekilde geçirilebilir.
 
 ***
-
