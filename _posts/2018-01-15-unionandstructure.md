@@ -24,12 +24,6 @@ comments: False
   border: thin solid #ddd; border-radius: .5em;
   margin: .5em calc(-0.5em - 1px);
 }
-[data-algorithm]:not(.heading) > :first-child {
-  margin-top: 0;
-}
-[data-algorithm]:not(.heading) > :last-child {
-  margin-bottom: 0;
-}
 [data-algorithm] [data-algorithm] {
     margin: 1em 0;
 }
