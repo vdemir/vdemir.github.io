@@ -156,17 +156,17 @@ Dairenin yarıçapını girin:?77
 Çemberin Çevresi = 483.713989
 ~~~
 
-## define seçenekleri ile büyük ölçekte geçerli yerleştirme
+## define seçenekleri ile Macro yerleştirme
 
 <p class="myParagraph">
-#define ön-işlem bildirimi, parametrelerle büyük ölçekte geçerli tanımları yazmak için kullanılabilir.
+#define ön-işlem bildirimi, parametrelerle Macro tanımları yazmak için kullanılabilir.
 </p>
 
 <div class="alert alert-info">
 <ul>
-    <li>Büyük ölçekte geçerli bir tanımlayıcı[identifier] ile karşılaşıldığında, değişkenler C programındaki gerçek bağımsız değişkenlerle değiştirilir.</li>
-    <li>Büyük ölçekte geçerli bağımsız değişkenler için tanımlanmış veri türü yoktur. Int, float vb. gibi sayısal değerleri geçirebilirsiniz.</li>
-    <li>Büyük ölçekte geçerli bağımsız değişkenler, büyük/küçük harf duyarlı değildir.</li>
+    <li>Büyük ölçekte geçerli bir Macro [identifier] tanımlayıcı ile karşılaşıldığında, değişkenler C programındaki gerçek bağımsız değişkenlerle değiştirilir.</li>
+    <li>Büyük ölçekte geçerli bağımsız Macro değişkenler için tanımlanmış veri türü yoktur. Int, float vb. gibi sayısal değerleri geçirebilirsiniz.</li>
+    <li>Büyük ölçekte geçerli bağımsız Macro değişkenler, büyük/küçük harf duyarlı değildir.</li>
 </ul>
 </div>
 <i>Örneğin</i><br/>
