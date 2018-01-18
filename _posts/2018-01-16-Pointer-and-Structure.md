@@ -12,8 +12,7 @@ comments: False
 
 <p class="meta">16 Ocak 2018 - Türkiye</p>
 
-C Programming Structure and Pointer
-===================================
+## C Programming Structure and Pointer
 
 In this article, you'll find relevant examples that will help you to work with pointers to access data within a structure.
 
