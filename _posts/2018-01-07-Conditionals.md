@@ -8,7 +8,7 @@ comments: False
 
 {{ page.title }}
 ================
-
+{% include CSS.html %}
 <p class="meta">8 Ocak 2018 - Türkiye</p>
 
 Conditionals • Chapter 11
