@@ -156,7 +156,7 @@ Dairenin yarıçapını girin:?77
 Çemberin Çevresi = 483.713989
 ~~~
 
-## define seçenekleri ile Macro yerleştirme
+## #define seçenekleri ile Macro yerleştirme
 
 <p class="myParagraph">
 #define ön-işlem bildirimi, parametrelerle Macro tanımları yazmak için kullanılabilir.
