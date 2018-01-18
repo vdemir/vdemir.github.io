@@ -18,7 +18,7 @@ C Preprocessor Önişlemci bildirimleri compiler derleyicinin bir parçası değ
 </p><a name='more'></a>
 ![_config.yml]({{ site.baseurl }}/images/IncludeLibrary.png)
 <div class="alert alert-info">
-<strong>Önişlemci Bildirimleri Hakkında Önemli Hususlar</strong>
+## Önişlemci Bildirimleri Hakkında Önemli Hususlar
 <ul><em>
   <li>Önişlemci talimatları, kaynak kodunun derlenmesinden önce uygulanır.</li>
   <li>Tüm önişlemci talimatları bir # simgesi ile başlar.</li>
@@ -28,7 +28,7 @@ C Preprocessor Önişlemci bildirimleri compiler derleyicinin bir parçası değ
 ![_config.yml]({{ site.baseurl }}/images/C-PreProcessor.jpg)
 
 <div class="alert alert-success">
-<strong>Önişlemci Talimat Tipleri</strong>
+## Önişlemci Talimat Tipleri
 <ul><em>
 <li> Macro Talimatları</li>
 <li>Şartlı Derleme Talimatları</li>
