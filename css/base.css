@@ -367,7 +367,7 @@
 
 	:not(.head) > :not(.head) + hr {
 		font-size: 1.5em;
-		text-align: center;
+		text-align: left;
 		margin: 1em auto;
 		height: auto;
 		border: transparent solid 0;
@@ -436,7 +436,7 @@
 	 padding: 0 0.5em 0 0;
 	 display: inline-block;
 	 width: 1em;
-	 text-align: right;
+	 text-align: left;
 	 line-height: 0.5em;
 	}
 
@@ -555,7 +555,7 @@
 
 	figure, .figure, .sidefigure {
 		page-break-inside: avoid;
-		text-align: center;
+		text-align: left;
 		margin: 2.5em 0;
 	}
 	.figure img,    .sidefigure img,    figure img,
@@ -878,7 +878,7 @@
 	table.complex.data th,
 	table.complex.data td {
 		border: 1px solid silver;
-		text-align: center;
+		text-align: left;
 	}
 
 	table.data.longlastcol td:last-child,
@@ -902,12 +902,12 @@ Alternate table alignment rules
 
 	table.data  thead th[scope="row"],
 	table.index thead th[scope="row"] {
-		text-align: right;
+		text-align: left;
 	}
 
 	table.data  tbody th:first-child,
 	table.index tbody th:first-child  {
-		text-align: right;
+		text-align: left;
 	}
 
 Possible extra rowspan handling
