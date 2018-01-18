@@ -9,6 +9,7 @@ comments: False
 {{ page.title }}
 ================
 
+{% include CSS.html %}
 <p class="meta">8 Ocak 2018 - Türkiye</p>
 
 Temel Bilgiler • Bölüm 1

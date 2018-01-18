@@ -9,6 +9,7 @@ comments: False
 {{ page.title }}
 ================
 
+{% include CSS.html %}
 <p class="meta">3 Ocak 2018 - Türkiye</p>
 
 <p class="myParagraph">
