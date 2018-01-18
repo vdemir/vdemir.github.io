@@ -74,7 +74,7 @@
 		/* Layout */
 		max-width: 50em;               /* limit line length to 50em for readability   */
 		margin: 0 auto;                /* center text within page                     */
-		padding: 1.6em 1.5em 2em 15px; /* assume 16px font size for downlevel clients */
+		padding: 1.6em 1.5em 2em 50px; /* assume 16px font size for downlevel clients */
 		padding: 1.6em 1.5em 2em calc(26px + 1.5em); /* leave space for status flag     */
 
 		/* Typography */
@@ -241,8 +241,8 @@
 			max-width: calc(100% - 2em - 26px);
 			overflow: auto;
 			padding: 0 1em;
-			padding-left:  2px;
-			padding-left: calc(1em + 6px);
+			padding-left: 42px;
+			padding-left: calc(1em + 26px);
 			background: inherit;
 			background-color: #f7f8f9;
 			z-index: 1;
@@ -281,8 +281,8 @@
 			width: 23.5em;
 			overflow: auto;
 			padding: 0 1em;
-			padding-left: 2px;
-			padding-left: calc(1em + 6px);
+			padding-left: 42px;
+			padding-left: calc(1em + 26px);
 			background: inherit;
 			background-color: #f7f8f9;
 			z-index: 1;
@@ -367,8 +367,8 @@
 
 	:not(.head) > :not(.head) + hr {
 		font-size: 1.5em;
-		text-align: left;
-		margin: 1em left;
+		text-align: center;
+		margin: 1em auto;
 		height: auto;
 		border: transparent solid 0;
 		background: transparent;
@@ -436,7 +436,7 @@
 	 padding: 0 0.5em 0 0;
 	 display: inline-block;
 	 width: 1em;
-	 text-align: left;
+	 text-align: right;
 	 line-height: 0.5em;
 	}
 
@@ -555,7 +555,7 @@
 
 	figure, .figure, .sidefigure {
 		page-break-inside: avoid;
-		text-align: left;
+		text-align: center;
 		margin: 2.5em 0;
 	}
 	.figure img,    .sidefigure img,    figure img,
@@ -699,7 +699,7 @@
 	}
 	strong.advisement {
 		display: block;
-		text-align: left;
+		text-align: center;
 	}
 	.advisement > .marker {
 		color: #B35F00;
@@ -741,7 +741,7 @@
 }
 
 	details.annoying-warning:not([open]) > summary {
-		text-align: left;
+		text-align: center;
 	}
 
 /** Entity Definition Boxes ***************************************************/
@@ -835,7 +835,7 @@
 	table.data caption,
 	table.index caption {
 		max-width: 50em;
-		margin: 0 left 1em;
+		margin: 0 auto 1em;
 	}
 
 	table.data td,  table.data th,
@@ -872,13 +872,13 @@
 
 	table.data th[colspan],
 	table.data td[colspan] {
-		text-align: left;
+		text-align: center;
 	}
 
 	table.complex.data th,
 	table.complex.data td {
 		border: 1px solid silver;
-		text-align: left;
+		text-align: center;
 	}
 
 	table.data.longlastcol td:last-child,
@@ -902,12 +902,12 @@ Alternate table alignment rules
 
 	table.data  thead th[scope="row"],
 	table.index thead th[scope="row"] {
-		text-align: left;
+		text-align: right;
 	}
 
 	table.data  tbody th:first-child,
 	table.index tbody th:first-child  {
-		text-align: left;
+		text-align: right;
 	}
 
 Possible extra rowspan handling
@@ -1026,8 +1026,8 @@ Possible extra rowspan handling
 	ul.index li    { margin-left: 0; list-style: none; break-inside: avoid; }
 	ul.index li li { margin-left: 1em; }
 	ul.index dl    { margin-top: 0; }
-	ul.index dt    { margin: .2em 0 .2em 10px;}
-	ul.index dd    { margin: .2em 0 .2em 20px;}
+	ul.index dt    { margin: .2em 0 .2em 20px;}
+	ul.index dd    { margin: .2em 0 .2em 40px;}
 	/* Index Lists: Typography */
 	ul.index ul,
 	ul.index dl { font-size: smaller; }
@@ -1094,7 +1094,7 @@ a#outdated-note:hover {
 	border-radius: 1em;
 	box-shadow: 0 0 1em red;
 	padding: 2em;
-	text-align: left;
+	text-align: center;
 	z-index: 2;
 }
 
@@ -1108,7 +1108,7 @@ a#outdated-note:hover {
 	background: transparent;
 	color: black;
 	font:1em sans-serif;
-	text-align:left;
+	text-align:center;
 }
 
 .outdated-warning span {
