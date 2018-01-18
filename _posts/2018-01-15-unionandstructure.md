@@ -22,8 +22,29 @@ comments: False
 [data-algorithm]:not(.heading) {
   padding: .5em;
   border: thin solid #ddd; border-radius: .5em;
+  margin: .5em calc(-0.5em - 1px);
+}
+[data-algorithm]:not(.heading) > :first-child {
+  margin-top: 0;
+}
+[data-algorithm]:not(.heading) > :last-child {
+  margin-bottom: 0;
+}
+[data-algorithm] [data-algorithm] {
+    margin: 1em 0;
 }
 </style>
+<style>/* style-md-lists */
+
+            /* This is a weird hack for me not yet following the commonmark spec
+               regarding paragraph and lists. */
+            [data-md] > :first-child {
+                margin-top: 0;
+            }
+            [data-md] > :last-child {
+                margin-bottom: 0;
+            }</style>
+<style>/* style-selflinks */
 
             .heading, .issue, .note, .example, li, dt {
                 position: relative;
@@ -178,9 +199,11 @@ comments: False
             border: outset 0.2em;
         }
         .dfn-panel:not(.on) { display: none; }
+        .dfn-panel * { margin: 0; padding: 0; text-indent: 0; }
         .dfn-panel > b { display: block; }
         .dfn-panel a { color: black; }
         .dfn-panel a:not(:hover) { text-decoration: none !important; border-bottom: none !important; }
+        .dfn-panel > b + b { margin-top: 0.25em; }
         .dfn-panel ul { padding: 0; }
         .dfn-panel li { list-style: inside; }
         .dfn-panel.activated {
@@ -188,6 +211,7 @@ comments: False
             position: fixed;
             left: .5em;
             bottom: 2em;
+            margin: 0 auto;
             max-width: calc(100vw - 1.5em - .4em - .5em);
             max-height: 30vh;
         }
@@ -198,7 +222,7 @@ comments: False
 pre.idl.highlight { color: #708090; }
 .highlight:not(.idl) { background: hsl(24, 20%, 95%); }
 code.highlight { padding: .1em; border-radius: .3em; }
-pre.highlight, pre > code.highlight { display: block; padding: 1em; overflow: auto; border-radius: 0; }
+pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em 0; overflow: auto; border-radius: 0; }
 .highlight .c { color: #708090 } /* Comment */
 .highlight .k { color: #990055 } /* Keyword */
 .highlight .l { color: #000000 } /* Literal */
