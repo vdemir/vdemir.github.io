@@ -17,8 +17,8 @@ C Preprocessor Önişlemci bildirimleri compiler derleyicinin bir parçası değ
 Önişleme adımı, programın kaynak kodunun derlenmesinden önce başlar ve asıl derleme öncesi gerekli ön-işlemlerin yapılmasını derleyiciye bildirir.
 </p><a name='more'></a>
 ![_config.yml]({{ site.baseurl }}/images/IncludeLibrary.png)
-<div class="alert alert-info">
 ## Önişlemci Bildirimleri Hakkında Önemli Hususlar
+<div class="alert alert-info">
 <ul><em>
   <li>Önişlemci talimatları, kaynak kodunun derlenmesinden önce uygulanır.</li>
   <li>Tüm önişlemci talimatları bir # simgesi ile başlar.</li>
