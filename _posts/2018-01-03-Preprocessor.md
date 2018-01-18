@@ -207,7 +207,7 @@ Dairenin yarıçapını girin:?77
 Para birimi sembolü: ₺
 ~~~
 
-<strong>#if, #else ve #endif Koşullu Derleme Önişlemci Bildirimleri</strong>
+ ## #if, #else ve #endif Koşullu Derleme Önişlemci Bildirimleri
 
 <p class="myParagraph">
 Koşullu Derleme Bildirimleri, koşullu ifadenin sonucuna dayalı bir kod bloğu eklememizi sağlar. 
