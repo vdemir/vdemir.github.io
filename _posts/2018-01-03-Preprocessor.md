@@ -36,7 +36,7 @@ C Preprocessor Önişlemci bildirimleri compiler derleyicinin bir parçası değ
 </em></ul>*[Macro]Büyük Ölçekte Geçerli Değer Yerleştirme
 </div>
 
-Önişlemci talimatlarının bir listesi aşağıdadır
+## Önişlemci talimatlarının bir listesi aşağıdadır
 <table class="table table-bordered table-striped">
    <thead>
       <tr>
