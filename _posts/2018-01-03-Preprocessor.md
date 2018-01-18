@@ -174,7 +174,7 @@ Dairenin yarıçapını girin:?77
 #define circumference(r) (2*3.141*(r))
 ~~~
 
-<h2 id="myH2small">Değişkenleri büyük ölçekte geçerli yerleştirmeyi Gösteren C Programı</h2>
+<h2 id="myH2small">Macro değişkenleri yerleştirmeyi Gösteren C Programı</h2>
 ~~~c
 #include <stdio.h>
 #include <locale.h>
