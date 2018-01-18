@@ -287,11 +287,8 @@ rty45h546543dfdezü
 """"""""""""""
 431368/+*+
 431368/+*+
-
 ~~~
 
-<hr/>
-<br/>
 <h2 id="myH2">C Dilinde Önceden Tanımlanmış Büyük Ölçekte Yerleştirmeler</h2>
 <p class="myParagraph">
 C Programlama dili, bir dizi büyük ölçekte geçerli yerleştirmeler tanımlar. Aşağıda, yaygın olarak kullanılan bazı büyük ölçekte yerleştirmelerin[Macro] listesi bulunmaktadır.
