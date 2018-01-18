@@ -241,7 +241,7 @@
 			max-width: calc(100% - 2em - 26px);
 			overflow: auto;
 			padding: 0 1em;
-			padding-left: 12px;
+			padding-left:  2px;
 			padding-left: calc(1em + 6px);
 			background: inherit;
 			background-color: #f7f8f9;
@@ -281,7 +281,7 @@
 			width: 23.5em;
 			overflow: auto;
 			padding: 0 1em;
-			padding-left: 12px;
+			padding-left: 2px;
 			padding-left: calc(1em + 6px);
 			background: inherit;
 			background-color: #f7f8f9;
