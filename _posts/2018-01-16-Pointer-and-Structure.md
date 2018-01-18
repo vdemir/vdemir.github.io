@@ -18,8 +18,9 @@ Bu makalede, structure yapı içindeki verilere erişmek için pointer işaretç
 
 ![C Programming Structure and Pointer](//cdn.programiz.com/sites/tutorial2program/files/c-structure-pointer.jpg "C Programming Structure and Pointer")
 
-[Structures](/c-programming/c-structures "C structures") can be created and accessed using [pointers](/c-programming/c-pointers "C Pointers"). A pointer variable of a structure can be created as below:
+[Structures] Yapılar oluşturulabilir ve [pointers] işaretçiler kullanılarak erişilebilir. Bir struct yapının pointer işaretçi değişkeni aşağıdaki gibi oluşturulabilir:
 
+~~~c
 struct name {
     member1;
     member2;
@@ -31,6 +32,7 @@ int main()
 {
     struct name *ptr;
 }
+~~~
 
 Here, the pointer variable of type `**struct name**` is created.
 
