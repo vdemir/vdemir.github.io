@@ -327,7 +327,7 @@ C Programlama dili, bir dizi büyük ölçekte geçerli yerleştirmeler tanımla
 </table>
 
 <br/>
-# Önceden tanımlanmış büyük ölçekte geçerli yerleştirmelerin değerini basan C programı
+# Macro bildirim değerini basan C programı
 
 ~~~c
 #include <stdio.h>
