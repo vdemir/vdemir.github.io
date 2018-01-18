@@ -279,7 +279,7 @@ rty45h546543dfdezü
 431368/+*+
 ~~~
 
-<h2 id="myH2">C Dilinde Önceden Tanımlanmış Büyük Ölçekte Yerleştirmeler</h2>
+<h2 id="myH2">C Dilinde Önceden Tanımlanmış Macro bildirimlerinin değeri</h2>
 <p class="myParagraph">
 C Programlama dili, bir dizi büyük ölçekte geçerli yerleştirmeler tanımlar. Aşağıda, yaygın olarak kullanılan bazı büyük ölçekte yerleştirmelerin[Macro] listesi bulunmaktadır.
 </p>
@@ -327,7 +327,7 @@ C Programlama dili, bir dizi büyük ölçekte geçerli yerleştirmeler tanımla
 </table>
 
 <br/>
-# Macro bildirim değerini basan C programı
+# Macro bildirimlerinin değerini basan C programı
 
 ~~~c
 #include <stdio.h>
