@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  C'de Union ve Struct Yapıları
+title:  C'de Pointer ve Struct Yapıları
 date:   2018-01-16 13:52:00
 tags:   Union Struct
 comments: False
@@ -16,10 +16,6 @@ C Programming Structure and Pointer
 ===================================
 
 In this article, you'll find relevant examples that will help you to work with pointers to access data within a structure.
-
-#programiz\_728x90\_300x250\_320x50\_320x100\_ATF { display: block; width: 300px; height: 250px; margin: 15px auto; } @media(min-width: 1200px) { #programiz\_728x90\_300x250\_320x50\_320x100\_ATF { margin: 15px auto 12px; width: 728px; height: 90px; margin-left: 0; } }
-
-freestar.queue.push(function () { googletag.display('programiz\_728x90\_300x250\_320x50\_320x100_ATF'); });
 
 ![C Programming Structure and Pointer](//cdn.programiz.com/sites/tutorial2program/files/c-structure-pointer.jpg "C Programming Structure and Pointer")
 
@@ -50,7 +46,7 @@ A structure's member can be accesssed through pointer in two ways:
 ### 1\. Referencing pointer to another address to access the memory
 
 Consider an example to access structure's member through pointer.
-
+~~~c
     #include <stdio.h>
     typedef struct person
     {
@@ -74,10 +70,7 @@ Consider an example to access structure's member through pointer.
     
         return 0;
     }
-
-#programiz\_300x250\_320x100\_320x50\_incontent { width: 300px; height: 250px; }
-
-freestar.queue.push(function () { googletag.display('programiz\_300x250\_320x100\_320x50\_incontent'); });
+~~~
 
 In this example, the pointer variable of type **`struct person`** is referenced to the address of person1. Then, only the structure member through pointer can can accessed.
 
