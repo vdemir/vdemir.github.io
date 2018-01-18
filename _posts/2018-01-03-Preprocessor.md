@@ -96,7 +96,6 @@ C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası de
 [![SUNMI(선미) _ Gashina(가시나)](http://img.youtube.com/vi/ur0hCdne2-s/0.jpg)](https://www.youtube.com/watch?v=ur0hCdne2-s)
 
 
-<br/>
 <h2 id="myH2">#include önişlemci bildirimleri</h2>
 <p class="myParagraph">
 #include Önişlemci Bildirimleri, C Programında üstbilgi(*.h) dosyasını eklemek için kullanılır. Yol belirtilmemişse, geçerli dizindeki üstbilgi(*.h) dosyasını denetler. Kullanıcı tanımlı üstbilgi(*.h) dosyasını eklemek için açılı parantez<> yerine çift tırnak"" işareti kullanıyoruz.
@@ -110,8 +109,7 @@ C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası de
 İlk satır Önişlemciye bu satırı string.h başlık dosyasının içeriğiyle değiştirmesini söyler.<br/>
 İkinci satır önişlemciye myHeaderFile.h dosyasını geçerli dizinden almasını ve myHeaderFile.h dosyasının içeriğini eklemesini söyler.
 </p>
-<hr/>
-<br/>
+
 <h2 id="myH2">#define önişlemci bildirimleri</h2>
 <p class="myParagraph">
 Bu basit bir büyük ölçekte geçerli yerleştirmedir. Sabitin tüm tekrarlamalarını yerlerine koyar ve bir ifadeyle değiştirir. 
@@ -130,8 +128,6 @@ Bu basit bir büyük ölçekte geçerli yerleştirmedir. Sabitin tüm tekrarlama
 #define ZERO 0
 ~~~
 
-<hr/>
-<br/>
 <strong>#define Ön işlemci bildirimlerinin kullanımını göstermek için C programı .</strong>
 ~~~c
 #include <stdio.h>
@@ -151,7 +147,7 @@ int main(){
     return 0;
 }
 ~~~
-<br/>
+
 Program çıktısı
 ~~~
 ./my_app
@@ -159,8 +155,6 @@ Dairenin yarıçapını girin:?77
 Çemberin Çevresi = 483.713989
 ~~~
 
-<hr/>
-<br/>
 #  #define seçenekleri ile büyük ölçekte geçerli yerleştirme
 
 <p class="myParagraph">
@@ -179,8 +173,6 @@ Dairenin yarıçapını girin:?77
 #define circumference(r) (2*3.141*(r))
 ~~~
 
-<hr/>
-<br/>
 <h2 id="myH2small">Değişkenleri büyük ölçekte geçerli yerleştirmeyi Gösteren C Programı</h2>
 ~~~c
 #include <stdio.h>
@@ -206,7 +198,7 @@ int main(){
     return 0;
 }
 ~~~
-<br/>
+
 Program Çıktısı
 ~~~
 Dairenin yarıçapını girin:?77
