@@ -97,7 +97,7 @@ C Preprocessor Önişlemci bildirimleri compiler derleyicinin bir parçası değ
 [![SUNMI(선미) _ Gashina(가시나)](http://img.youtube.com/vi/ur0hCdne2-s/0.jpg)](https://www.youtube.com/watch?v=ur0hCdne2-s)
 
 
-<h2 id="myH2">#include önişlemci bildirimleri</h2>
+## #include önişlemci bildirimleri
 <p class="myParagraph">
 #include Önişlemci Bildirimleri, C Programında üstbilgi(*.h) dosyasını eklemek için kullanılır. Yol belirtilmemişse, geçerli dizindeki üstbilgi(*.h) dosyasını denetler. Kullanıcı tanımlı üstbilgi(*.h) dosyasını eklemek için açılı parantez<> yerine çift tırnak"" işareti kullanıyoruz.
 </p>
@@ -111,7 +111,7 @@ C Preprocessor Önişlemci bildirimleri compiler derleyicinin bir parçası değ
 İkinci satır önişlemciye myHeaderFile.h dosyasını geçerli dizinden almasını ve myHeaderFile.h dosyasının içeriğini eklemesini söyler.
 </p>
 
-<h2 id="myH2">#define önişlemci bildirimleri</h2>
+## #define önişlemci bildirimleri
 <p class="myParagraph">
 Bu basit bir büyük ölçekte geçerli yerleştirmedir. Sabitin tüm tekrarlamalarını yerlerine koyar ve bir ifadeyle değiştirir. 
 </p>
