@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  C Programlamada Önişlemci Bildirimleri
+title:  C Preprocessor Bildirimleri
 date:   2018-01-03 12:52:00
-tags:   C11 Programlama
+tags:   C Preprocessor
 comments: False
 ---
 
@@ -13,7 +13,7 @@ comments: False
 <p class="meta">3 Ocak 2018 - Türkiye</p>
 
 <p class="myParagraph">
-C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası değildir ancak C programlama dilinin gücünü genişletir. Tüm önişlemci bildirimleri[direktifleri] bir # simgesi[sembolü] ile başlar.<br/><br/>
+C Preprocessor Önişlemci bildirimleri compiler derleyicinin bir parçası değildir ancak C programlama dilinin gücünü genişletir. Tüm önişlemci direktifleri bir # sembolü ile başlar.
 Önişleme adımı, programın kaynak kodunun derlenmesinden önce başlar ve asıl derleme öncesi gerekli ön-işlemlerin yapılmasını derleyiciye bildirir.
 </p><a name='more'></a>
 ![_config.yml]({{ site.baseurl }}/images/IncludeLibrary.png)
