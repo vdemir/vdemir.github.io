@@ -123,6 +123,7 @@ ptr = (cast-type*) malloc(byte-size)
 
 **Output**
 
+~~~bash
 Enter number of persons: 2
 Enter name, age and weight of the person respectively:
 Adam
@@ -135,3 +136,5 @@ Eve
 Displaying Information:
 Adam	2	3.20
 Eve	6	2.30
+~~~
+
