@@ -326,7 +326,7 @@ C Programlama dili, bir dizi Macro yerleştirmeler tanımlar. Aşağıda, yaygı
    </tbody>
 </table>
 
-***
+<h2></h2>
 
 ## Macro bildirimlerinin değerini basan C programı
 ~~~c
