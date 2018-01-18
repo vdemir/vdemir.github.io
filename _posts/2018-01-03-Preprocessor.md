@@ -129,7 +129,7 @@ Bu basit bir büyük ölçekte geçerli yerleştirmedir. Sabitin tüm tekrarlama
 #define ZERO 0
 ~~~
 
-## #define Ön işlemci bildirimlerinin kullanımını göstermek için C programı
+### #define Ön işlemci bildirimlerinin kullanımını göstermek için C programı
 ~~~c
 #include <stdio.h>
 
@@ -149,7 +149,7 @@ int main(){
 }
 ~~~
 
-## Çıktısı
+### Çıktısı
 ~~~
 ./my_app
 Dairenin yarıçapını girin:?77
@@ -174,7 +174,7 @@ Dairenin yarıçapını girin:?77
 #define circumference(r) (2*3.141*(r))
 ~~~
 
-## Macro değişkenleri yerleştirmeyi Gösteren C Programı
+### Macro değişkenleri yerleştirmeyi Gösteren C Programı
 ~~~c
 #include <stdio.h>
 #include <locale.h>
@@ -200,7 +200,7 @@ int main(){
 }
 ~~~
 
-## Çıktısı
+### Çıktısı
 ~~~
 Dairenin yarıçapını girin:?77
 Çemberin Çevresi = 483,713989
@@ -236,7 +236,7 @@ void main()
 #endif
 }
 ~~~
-## Çıktısı
+### Çıktısı
 ~~~
 gcc -o my_app *.c
 Sayi Tektir
@@ -267,7 +267,7 @@ int main(void)
 }
 ~~~
 
-## Çıktısı
+### Çıktısı
 ~~~
 gcc -o my_app *.c
 rty45h546543dfdezü
@@ -346,7 +346,7 @@ int main(){
 <!-- Program Output Starts -->
 
 
-## Çıktısı
+### Çıktısı
 ~~~
 NULL : 0
 EXIT_SUCCESS : 0
