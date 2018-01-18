@@ -78,9 +78,6 @@ In this example, the pointer variable of type **`struct person`** is referenced 
 
 Structure pointer member can also be accessed using `->` operator.
 
-(*personPtr).age is same as personPtr->age
-(*personPtr).weight is same as personPtr->weight
-
 ### 2\. Accessing structure member through pointer using dynamic memory allocation
 
 To access structure member using pointers, memory can be allocated dynamically using [malloc() function](/c-programming/c-dynamic-memory-allocation "Dynamic memory allocation using malloc()") defined under `"stdlib.h"` header file.
@@ -90,7 +87,7 @@ To access structure member using pointers, memory can be allocated dynamically u
 ptr = (cast-type*) malloc(byte-size)
 
 **Example to use structure's member through pointer using malloc() function.**
-
+~~~c
     #include <stdio.h>
     #include <stdlib.h>
     struct person {
@@ -122,7 +119,7 @@ ptr = (cast-type*) malloc(byte-size)
     
        return 0;
     }
-    
+~~~
 
 **Output**
 
