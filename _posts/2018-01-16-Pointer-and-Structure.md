@@ -44,7 +44,7 @@ A structure's member can be accesssed through pointer in two ways:
 1.  Referencing pointer to another address to access memory
 2.  Using dynamic memory allocation
 
-### 1\. Referencing pointer to another address to access the memory
+### 1. Referencing pointer to another address to access the memory
 
 Consider an example to access structure's member through pointer.
 ~~~c
@@ -79,7 +79,7 @@ In this example, the pointer variable of type **`struct person`** is referenced 
 
 Structure pointer member can also be accessed using `->` operator.
 
-### 2\. Accessing structure member through pointer using dynamic memory allocation
+### 2. Accessing structure member through pointer using dynamic memory allocation
 
 To access structure member using pointers, memory can be allocated dynamically using [malloc() function](/c-programming/c-dynamic-memory-allocation "Dynamic memory allocation using malloc()") defined under `"stdlib.h"` header file.
 
