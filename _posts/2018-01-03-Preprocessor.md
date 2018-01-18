@@ -281,7 +281,7 @@ rty45h546543dfdezü
 
 <h2 id="myH2">C Dilinde Önceden Tanımlanmış Macro bildirimleri</h2>
 <p class="myParagraph">
-C Programlama dili, bir dizi büyük ölçekte geçerli yerleştirmeler tanımlar. Aşağıda, yaygın olarak kullanılan bazı büyük ölçekte yerleştirmelerin[Macro] listesi bulunmaktadır.
+C Programlama dili, bir dizi Macro yerleştirmeler tanımlar. Aşağıda, yaygın olarak kullanılan bazı Macro yerleştirmelerin listesi bulunmaktadır.
 </p>
 <table class="table table-bordered table-striped">
    <thead>
