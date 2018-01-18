@@ -242,7 +242,7 @@
 			overflow: auto;
 			padding: 0 1em;
 			padding-left: 12px;
-			padding-left: calc(1em + 26px);
+			padding-left: calc(1em + 6px);
 			background: inherit;
 			background-color: #f7f8f9;
 			z-index: 1;
