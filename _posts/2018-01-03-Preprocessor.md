@@ -148,7 +148,7 @@ int main(){
 }
 ~~~
 
-Program çıktısı
+## Çıktısı
 ~~~
 ./my_app
 Dairenin yarıçapını girin:?77
@@ -199,7 +199,7 @@ int main(){
 }
 ~~~
 
-Program Çıktısı
+## Çıktısı
 ~~~
 Dairenin yarıçapını girin:?77
 Çemberin Çevresi = 483,713989
@@ -267,8 +267,8 @@ int main(void)
     return EXIT_SUCCESS;
 }
 ~~~
-<br/>
-Program Çıktısı
+
+## Çıktısı
 ~~~
 gcc -o my_app *.c
 rty45h546543dfdezü
@@ -347,8 +347,9 @@ int main(){
 ~~~
 <!-- SyntaxHighllighter HTML Ends here --> 
 <!-- Program Output Starts -->
-<br/>
-Program Çıktısı
+
+
+## Çıktısı
 ~~~
 NULL : 0
 EXIT_SUCCESS : 0
@@ -358,6 +359,4 @@ File Name : PreProcessorMacro.c
 DATE : Jan  7 2018
 Line : 11
 ~~~
-<br/>
-
 
