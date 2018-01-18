@@ -156,7 +156,7 @@ Dairenin yarıçapını girin:?77
 Çemberin Çevresi = 483.713989
 ~~~
 
-#  #define seçenekleri ile büyük ölçekte geçerli yerleştirme
+## define seçenekleri ile büyük ölçekte geçerli yerleştirme
 
 <p class="myParagraph">
 #define ön-işlem bildirimi, parametrelerle büyük ölçekte geçerli tanımları yazmak için kullanılabilir.
