@@ -222,8 +222,7 @@ Koşullu Derleme Bildirimleri, koşullu ifadenin sonucuna dayalı bir kod bloğu
 
 #If, #else durumuna benzer ancak derlemeden önce, (Condition_Expression) yalnızca sabit bir ifade olmalıdır.
 
-<h2 id="myH2small">#if, #else ve #endif kullanarak Koşullu Derlemeyi gösteren C programı.
-</h2>
+## #if, #else ve #endif kullanarak Koşullu Derlemeyi gösteren C programı.
 ~~~c
 #include<stdio.h>
 #define NUM 11
@@ -243,7 +242,7 @@ gcc -o my_app *.c
 Sayi Tektir
 ~~~
 
-<h2>Başka Bir Örnekte #if ve #else Kullanımı</h2>
+## Başka Bir Örnekte #if ve #else Kullanımı
 ~~~c
 #include <stdio.h>
 #include <stdlib.h>
@@ -279,7 +278,7 @@ rty45h546543dfdezü
 431368/+*+
 ~~~
 
-<h2 id="myH2">C Dilinde Önceden Tanımlanmış Macro bildirimleri</h2>
+## C Dilinde Önceden Tanımlanmış Macro bildirimleri
 <p class="myParagraph">
 C Programlama dili, bir dizi Macro yerleştirmeler tanımlar. Aşağıda, yaygın olarak kullanılan bazı Macro yerleştirmelerin listesi bulunmaktadır.
 </p>
@@ -326,7 +325,7 @@ C Programlama dili, bir dizi Macro yerleştirmeler tanımlar. Aşağıda, yaygı
    </tbody>
 </table>
 
-<h2>Macro bildirimlerinin değerini basan C programı</h2>
+## Macro bildirimlerinin değerini basan C programı
 ~~~c
 #include <stdio.h>
 #include <stdlib.h>
