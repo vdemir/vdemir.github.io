@@ -9,6 +9,7 @@ comments: False
 {{ page.title }}
 ================
 
+ 
  <head>
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
   <title>CSS Typed OM Level 1</title>
@@ -276,7 +277,6 @@ pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em
 .highlight .vi { color: #0077aa } /* Name.Variable.Instance */
 .highlight .il { color: #000000 } /* Literal.Number.Integer.Long */
 </style>
-
 <link href="/css/base.css" rel="stylesheet" type="text/css">
 </head>
 
