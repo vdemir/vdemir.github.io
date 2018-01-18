@@ -368,7 +368,7 @@
 	:not(.head) > :not(.head) + hr {
 		font-size: 1.5em;
 		text-align: left;
-		margin: 1em auto;
+		margin: 1em left;
 		height: auto;
 		border: transparent solid 0;
 		background: transparent;
@@ -699,7 +699,7 @@
 	}
 	strong.advisement {
 		display: block;
-		text-align: center;
+		text-align: left;
 	}
 	.advisement > .marker {
 		color: #B35F00;
@@ -741,7 +741,7 @@
 }
 
 	details.annoying-warning:not([open]) > summary {
-		text-align: center;
+		text-align: left;
 	}
 
 /** Entity Definition Boxes ***************************************************/
@@ -835,7 +835,7 @@
 	table.data caption,
 	table.index caption {
 		max-width: 50em;
-		margin: 0 auto 1em;
+		margin: 0 left 1em;
 	}
 
 	table.data td,  table.data th,
@@ -872,7 +872,7 @@
 
 	table.data th[colspan],
 	table.data td[colspan] {
-		text-align: center;
+		text-align: left;
 	}
 
 	table.complex.data th,
