@@ -17,33 +17,7 @@ comments: False
   <link href="default.css" rel="stylesheet" type="text/css">
   <meta content="Bikeshed version 214e5510b850ac6c32ab4be02484a8388cfe3eff" name="generator">
   <link href="https://www.w3.org/TR/css-typed-om-1/" rel="canonical">
-<style>
-/* Put nice boxes around each algorithm. */
-[data-algorithm]:not(.heading) {
-  padding: .5em;
-  border: thin solid #ddd; border-radius: .5em;
-  margin: .5em calc(-0.5em - 1px);
-}
-[data-algorithm]:not(.heading) > :first-child {
-  margin-top: 0;
-}
-[data-algorithm]:not(.heading) > :last-child {
-  margin-bottom: 0;
-}
-[data-algorithm] [data-algorithm] {
-    margin: 1em 0;
-}
-</style>
-<style>/* style-md-lists */
 
-            /* This is a weird hack for me not yet following the commonmark spec
-               regarding paragraph and lists. */
-            [data-md] > :first-child {
-                margin-top: 0;
-            }
-            [data-md] > :last-child {
-                margin-bottom: 0;
-            }</style>
 <style>/* style-selflinks */
 
             .heading, .issue, .note, .example, li, dt {
