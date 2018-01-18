@@ -129,7 +129,7 @@ Bu basit bir büyük ölçekte geçerli yerleştirmedir. Sabitin tüm tekrarlama
 #define ZERO 0
 ~~~
 
-<strong>#define Ön işlemci bildirimlerinin kullanımını göstermek için C programı .</strong>
+## #define Ön işlemci bildirimlerinin kullanımını göstermek için C programı
 ~~~c
 #include <stdio.h>
 
@@ -174,7 +174,7 @@ Dairenin yarıçapını girin:?77
 #define circumference(r) (2*3.141*(r))
 ~~~
 
-<h2 id="myH2small">Macro değişkenleri yerleştirmeyi Gösteren C Programı</h2>
+## Macro değişkenleri yerleştirmeyi Gösteren C Programı
 ~~~c
 #include <stdio.h>
 #include <locale.h>
