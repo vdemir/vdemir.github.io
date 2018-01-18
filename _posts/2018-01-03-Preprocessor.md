@@ -26,7 +26,7 @@ C Önişlemci[Preprocessor] bildirimleri derleyicinin[compiler] bir parçası de
 </em></ul>
 </div>
 ![_config.yml]({{ site.baseurl }}/images/C-PreProcessor.jpg)
-<br/>
+
 <div class="alert alert-success">
 <strong>Önişlemci Talimat Tipleri</strong>
 <ul><em>
@@ -218,9 +218,9 @@ Koşullu Derleme Bildirimleri, koşullu ifadenin sonucuna dayalı bir kod bloğu
     statements;
 #endif
 ~~~
-<br/>
+
 #If, #else durumuna benzer ancak derlemeden önce, (Condition_Expression) yalnızca sabit bir ifade olmalıdır.
-<br/>
+
 <h2 id="myH2small">#if, #else ve #endif kullanarak Koşullu Derlemeyi gösteren C programı.
 </h2>
 ~~~c
@@ -236,13 +236,12 @@ void main()
 #endif
 }
 ~~~
-<br/>
-Program Çıktısı
+## Çıktısı
 ~~~
 gcc -o my_app *.c
 Sayi Tektir
 ~~~
-<br/>
+
 <h2>Başka Bir Örnekte #if ve #else Kullanımı</h2>
 ~~~c
 #include <stdio.h>
@@ -279,7 +278,7 @@ rty45h546543dfdezü
 431368/+*+
 ~~~
 
-<h2 id="myH2">C Dilinde Önceden Tanımlanmış Macro bildirimlerinin değeri</h2>
+<h2 id="myH2">C Dilinde Önceden Tanımlanmış Macro bildirimleri</h2>
 <p class="myParagraph">
 C Programlama dili, bir dizi büyük ölçekte geçerli yerleştirmeler tanımlar. Aşağıda, yaygın olarak kullanılan bazı büyük ölçekte yerleştirmelerin[Macro] listesi bulunmaktadır.
 </p>
