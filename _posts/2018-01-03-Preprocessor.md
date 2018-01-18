@@ -27,8 +27,8 @@ C Preprocessor Önişlemci bildirimleri compiler derleyicinin bir parçası değ
 </div>
 ![_config.yml]({{ site.baseurl }}/images/C-PreProcessor.jpg)
 
-<div class="alert alert-success">
 ## Önişlemci Talimat Tipleri
+<div class="alert alert-success">
 <ul><em>
 <li> Macro Talimatları</li>
 <li>Şartlı Derleme Talimatları</li>
