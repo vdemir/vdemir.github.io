@@ -214,8 +214,6 @@ Dairenin yarıçapını girin:?77
 Para birimi sembolü: ₺
 ~~~
 
-<hr/>
-<br/>
 <strong>#if, #else ve #endif Koşullu Derleme Önişlemci Bildirimleri</strong>
 
 <p class="myParagraph">
