@@ -14,7 +14,7 @@ comments: False
 
 ## C Programlama Yapısı ve İşaretçi
 
-Bu makalede, **structure** yapı içindeki verilere erişmek için pointer işaretçilerle çalışmanıza yardımcı olacak alakalı örnekler bulacaksınız.
+Bu makalede, ```structure``` yapı içindeki verilere erişmek için ```pointer``` işaretçilerle çalışmanıza yardımcı olacak alakalı örnekler bulacaksınız.
 
 ![C Programming Structure and Pointer](//cdn.programiz.com/sites/tutorial2program/files/c-structure-pointer.jpg "C Programming Structure and Pointer")
 
