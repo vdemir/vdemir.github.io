@@ -1026,8 +1026,8 @@ Possible extra rowspan handling
 	ul.index li    { margin-left: 0; list-style: none; break-inside: avoid; }
 	ul.index li li { margin-left: 1em; }
 	ul.index dl    { margin-top: 0; }
-	ul.index dt    { margin: .2em 0 .2em 20px;}
-	ul.index dd    { margin: .2em 0 .2em 40px;}
+	ul.index dt    { margin: .2em 0 .2em 10px;}
+	ul.index dd    { margin: .2em 0 .2em 20px;}
 	/* Index Lists: Typography */
 	ul.index ul,
 	ul.index dl { font-size: smaller; }
@@ -1094,7 +1094,7 @@ a#outdated-note:hover {
 	border-radius: 1em;
 	box-shadow: 0 0 1em red;
 	padding: 2em;
-	text-align: center;
+	text-align: left;
 	z-index: 2;
 }
 
@@ -1108,7 +1108,7 @@ a#outdated-note:hover {
 	background: transparent;
 	color: black;
 	font:1em sans-serif;
-	text-align:center;
+	text-align:left;
 }
 
 .outdated-warning span {
