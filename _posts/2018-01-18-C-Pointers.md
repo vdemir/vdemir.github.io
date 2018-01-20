@@ -131,8 +131,8 @@ Value of c: 2
 pc ve c her ikisi de başlatılmadığından, pointer işaretçi pc hiçbir adresi işaret etmez ya da rastgele bir adrese işaret eder. Benzer şekilde, c değişkene bir adres atanır ancak rasgele/çöp değer içerir.
 2.  `c=22;` tamsayı değeri 22'yi c değişkenine atar; diğer bir deyişle,  tamsayı değeri 22, c değişkeninin bellek yereline saklanır.
 Bunu not et `&c` (c adresini) yazdırırken, biz %d yerine %u kullanırız, çünkü adres genelde unsigned, işaretsiz bir tam sayı olarak ifade edilir (her zaman pozitiftir).
-3.  `pc=&c;` assigns the address of variable to c to the pointer pc.  
-    When printing, you see value of pc is the same as the address of c and the content of pc (*pc) is 22 as well.
+3.  `pc=&c;` c'ye değişkenin adresini pointer işaretçi "pc" ye atar.
+Yazdırırken, pc değeri c'nin adresi ile aynı ve pc (*pc) içeriğinin de 22 olduğunu görürsünüz.
 4.  `c=11;` assigns 11 to variable c.  
     We assign a new value to c to see its effect on pointer pc.
 5.  Since, pointer pc points to the same address as c, value pointed by pointer pc is 11 as well.  
