@@ -39,7 +39,7 @@ Fonksiyonda, var'ın bellek adresine kullanıcının girilen değerini kaydetmek
 ~~~c
 scanf("%d", &var);
 
-    /* Example to demonstrate use of reference operator in C programming. */
+    /* C programlamada referans operatörünün kullanımını gösteren örnek. */
     #include <stdio.h>
     int main()
     {
@@ -57,9 +57,9 @@ Value: 5
 Address: 2686778
 ~~~
 
-**Note:** You may obtain different value of address while using this code.
+**Not:** Bu kodu kullanırken farklı adres değeri elde edebilirsiniz.
 
-In above source code, value 5 is stored in the memory location 2686778. var is just the name given to that location.
+Yukarıdaki kaynak kodunda, 5 değeri bellek yeri 2686778'de saklanır. var, sadece o yere verilen isimdir.
 
 Pointer variables
 -----------------
