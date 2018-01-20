@@ -136,7 +136,7 @@ Value of c:2
 
 ~~~
 
-![Working of pointers in C programming](/images/pointers-in-c-programming.jpg "C pointers")
+![Working of pointers in C programming](/images/pointers.jpg "C pointers")
 
 **Program ve şekil açıklaması**
 
