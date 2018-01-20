@@ -66,12 +66,13 @@ Pointer İşaretçi Değişkenler
 
 C'de sadece başka bir değişkenin adresini saklamanızı sağlayan özel bir değişken vardır. Pointer değişkeni veya basitçe pointer işaretçi olarak adlandırılır.
 
-Declaration of Pointer
+Pointer İşaretçinin Beyanı
 ~~~
 data\_type* pointer\_variable_name;
 int* p;
 ~~~
-Above statement defines, p as pointer variable of type `int`.
+
+Yukarıdaki deyim, p'yi, `int` data tipinde bir pointer işaretçi değişkeni olarak tanımlar.
 
 ### Reference operator (&) and Dereference operator (*)
 
