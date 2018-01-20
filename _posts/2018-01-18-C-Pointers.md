@@ -31,12 +31,10 @@ Address in C
 
 İşaretçileri kavramına girmeden önce, ilkin C'deki adresle aşina olalım.
 
-Programınızda bir değişkene sahipseniz, & var, size adresini bellekte verir, burada & başvuru operatörü olarak adlandırılır.
+Programınızda bir değişkene sahipseniz, `&var`, bellekte size adresini verir, burada `&` reference operatörü olarak adlandırılır.
 
 Scanf () işlevini kullanırken bu gösterimi görmüş olmalısınız.
 Fonksiyonda, kullanıcının girilen değerini var'ın adresine kaydetmek için kullanılmıştır.
-
-If you have a variable var in your program, `&var` will give you its address in the memory, where `&` is commonly called the reference operator.
 
 You must have seen this notation while using scanf() function. It was used in the function to store the user inputted value in the address of var.
 
