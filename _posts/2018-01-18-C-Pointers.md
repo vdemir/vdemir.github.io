@@ -129,7 +129,7 @@ Value of c: 2
 
 1. `int* pc;` bir pointer işaretçi pc ve int c oluşturur; normal bir c değişken oluşturur.
 pc ve c her ikisi de başlatılmadığından, pointer işaretçi pc hiçbir adresi işaret etmez ya da rastgele bir adrese işaret eder. Benzer şekilde, c değişkene bir adres atanır ancak rasgele/çöp değer içerir.
-2.  `c=22;` 22 tamsayı değerini c değişkenine atar; diğer bir deyişle, 22, c değişkeninin bellek yereline depolanır.
+2.  `c=22;` tamsayı değeri 22'yi c değişkenine atar; diğer bir deyişle,  tamsayı değeri 22, c değişkeninin bellek yereline saklanır.
 Bunu not et `&c` (c adresini) yazdırırken, biz %d yerine %u kullanırız, çünkü adres genelde unsigned, işaretsiz bir tam sayı olarak ifade edilir (her zaman pozitiftir).
 3.  `pc=&c;` assigns the address of variable to c to the pointer pc.  
     When printing, you see value of pc is the same as the address of c and the content of pc (*pc) is 22 as well.
