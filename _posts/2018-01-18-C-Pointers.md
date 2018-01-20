@@ -82,7 +82,9 @@ Aynı şekilde, size adresten değer alan başka bir operatör vardır, buna bir
 
 Aşağıdaki örnek, pointer işaretçiler, referans operatörü (&) ve referans kaldırma operatörünün (*) kullanımını açıkça göstermektedir.
 
-**Note:** The * sign when declaring a pointer is not a dereference operator. It is just a similar notation that creates a pointer.
+**Not:** Pointer işaretçi bildirirken * işareti, referans kaldırmayla ilgili bir operatör değildir. Bir pointer işaretçi oluşturan sadece benzer bir gösterimdir.
+
+Note: The * sign when declaring a pointer is not a dereference operator. It is just a similar notation that creates a pointer.
 
 ### Example To Demonstrate Working of Pointers
 ~~~c
