@@ -23,6 +23,9 @@ Pointers işaretçileri, Java ve Python gibi diğer popüler programlama dilleri
 
 Pointers işaretçiler, C programında belleğe erişmek ve adresi işletmek için kullanılır.
 
+
+![C programming pointers](/images/PointersF.png "C programming pointers")
+
 Address in C
 ------------
 
