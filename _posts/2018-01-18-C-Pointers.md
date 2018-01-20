@@ -13,7 +13,7 @@ comments: False
 <p class="meta">16 Ocak 2018 - Türkiye</p>
 
 C Programlamada Pointers İşaretçiler
-======================
+-------------
 
 Bu yazıda işaretçiler hakkında bilgi edineceksiniz; onlar nedir, onları nasıl kullanırsınız ve onlarla çalışırken karşılaşabileceğiniz yaygın hatalar.
 
