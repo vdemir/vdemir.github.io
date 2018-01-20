@@ -68,19 +68,19 @@ C'de sadece başka bir değişkenin adresini saklamanızı sağlayan özel bir d
 
 Pointer İşaretçinin Beyanı
 ~~~
-data\_type* pointer\_variable_name;
+data_type* pointer_variable_name;
 int* p;
 ~~~
 
 Yukarıdaki deyim, p'yi, `int` data tipinde bir pointer işaretçi değişkeni olarak tanımlar.
 
-### Reference operator (&) and Dereference operator (*)
+### Referans işleci (&) ve Referans kaldırma işleci (*)
 
-As discussed, & is called reference operator. It gives you the address of a variable.
+Tartışıldığı üzere &, referans operatörü olarak adlandırılır. Bir değişkenin bellekteki adresini verir.
 
-Likewise, there is another operator that gets you the value from the address, it is called a dereference operator (*).
+Aynı şekilde, size adresten değer alan başka bir operatör vardır, buna bir referans kaldırma operatörü (*) denir.
 
-Below example clearly demonstrates the use of pointers, reference operator and dereference operator.
+Aşağıdaki örnek, pointer işaretçiler, referans operatörü (&) ve referans kaldırma operatörünün (*) kullanımını açıkça göstermektedir.
 
 **Note:** The * sign when declaring a pointer is not a dereference operator. It is just a similar notation that creates a pointer.
 
