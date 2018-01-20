@@ -86,7 +86,8 @@ Aşağıdaki örnek, pointer işaretçiler, referans operatörü (&) ve referans
 
 Note: The * sign when declaring a pointer is not a dereference operator. It is just a similar notation that creates a pointer.
 
-### Example To Demonstrate Working of Pointers
+### Pointer İşaretçilerin Çalışmasını Gösteren Örnek
+
 ~~~c
     /* Source code to demonstrate, handling of pointers in C program */
     #include <stdio.h>
@@ -124,7 +125,7 @@ Address of c: 2686784
 Value of c: 2
 ~~~
 
-![Working of pointers in C programming](//cdn.programiz.com/sites/tutorial2program/files/pointers-in-c-programming.jpg "C pointers")
+![Working of pointers in C programming](/image/pointers-in-c-programming.jpg "C pointers")
 
 **Explanation of program and figure**
 
