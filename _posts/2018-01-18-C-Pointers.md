@@ -84,8 +84,6 @@ Aşağıdaki örnek, pointer işaretçiler, referans operatörü (&) ve referans
 
 **Not:** Pointer işaretçi bildirirken * işareti, referans kaldırmayla ilgili bir operatör değildir. Bir pointer işaretçi oluşturan sadece benzer bir gösterimdir.
 
-Note: The * sign when declaring a pointer is not a dereference operator. It is just a similar notation that creates a pointer.
-
 ### Pointer İşaretçilerin Çalışmasını Gösteren Örnek
 
 ~~~c
