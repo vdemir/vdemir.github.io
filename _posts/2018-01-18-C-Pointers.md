@@ -127,8 +127,8 @@ Value of c: 2
 
 **Program ve şekil açıklaması**
 
-1.  `int* pc;` creates a pointer pc and `int c;` creates a normal variable c.  
-    Since pc and c are both not initialized, pointer pc points to either no address or a random address. Likewise, variable c is assigned an address but contains a random/garbage value.
+1. `int* pc;`; bir pointer işaretçi pc ve int c oluşturur; normal bir c değişken oluşturur.
+Pc ve c her ikisi de başlatılmadığından, pointer işaretçi pc hiçbir adrese ya da rastgele bir adrese işaret eder. Benzer şekilde, c değişkene bir adres atanır ancak rasgele/çöp değer içerir.
 2.  `c=22;` assigns 22 to the variable c, i.e.,22 is stored in the memory location of variable c.  
     Note that, when printing `&c` (address of c), we use %u rather than %d since address is usually expressed as an unsigned integer (always positive).
 3.  `pc=&c;` assigns the address of variable to c to the pointer pc.  
