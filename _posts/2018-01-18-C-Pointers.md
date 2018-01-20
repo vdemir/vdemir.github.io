@@ -87,7 +87,7 @@ Aşağıdaki örnek, pointer işaretçiler, referans operatörü (&) ve referans
 ### Pointer İşaretçilerin Çalışmasını Gösteren Örnek
 
 ~~~c
-/* Source code to demonstrate, handling of pointers in C program */
+/* C programında pointer işaretçilerin kullanımını gösteren kaynak kod */
 #include <stdio.h>
 int main(){
   int* pc;
