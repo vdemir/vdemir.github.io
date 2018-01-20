@@ -26,7 +26,7 @@ Pointers işaretçiler, C programında belleğe erişmek ve adresi işletmek iç
 
 ![C programming pointers](/images/PointersF.png "C programming pointers")
 
-Address in C
+C'de Bellek Adresi
 ------------
 
 İşaretçileri kavramına girmeden önce, ilkin C'deki adresle aşina olalım.
@@ -59,9 +59,9 @@ Address: 2686778
 
 **Not:** Bu kodu kullanırken farklı adres değeri elde edebilirsiniz.
 
-Yukarıdaki kaynak kodunda, 5 değeri bellek yeri 2686778'de saklanır. var, sadece o yere verilen isimdir.
+Yukarıdaki kaynak kodunda, `5` değeri bellek yeri `2686778`'de saklanır. `var`, sadece o yere verilen isimdir.
 
-Pointer variables
+Pointer İşaretçi Değişkenler
 -----------------
 
 In C, there is a special variable that stores just the address of another variable. It is called Pointer variable or, simply, a pointer.
