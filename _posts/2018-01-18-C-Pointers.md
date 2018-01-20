@@ -38,6 +38,7 @@ Fonksiyonda, var'ın adresine kullanıcının girilen değerini kaydetmek için 
 
 You must have seen this notation while using scanf() function. It was used in the function to store the user inputted value in the address of var.
 
+~~~c
 scanf("%d", &var);
 
     /* Example to demonstrate use of reference operator in C programming. */
@@ -49,12 +50,14 @@ scanf("%d", &var);
       printf("Address: %u", &var);  //Notice, the ampersand(&) before var.
       return 0;
     }
-    
+~~~
 
+~~~bash
 **Output**
 
 Value: 5 
 Address: 2686778
+~~~
 
 **Note:** You may obtain different value of address while using this code.
 
@@ -83,7 +86,7 @@ Below example clearly demonstrates the use of pointers, reference operator and d
 **Note:** The * sign when declaring a pointer is not a dereference operator. It is just a similar notation that creates a pointer.
 
 ### Example To Demonstrate Working of Pointers
-
+~~~c
     /* Source code to demonstrate, handling of pointers in C program */
     #include <stdio.h>
     int main(){
@@ -103,7 +106,8 @@ Below example clearly demonstrates the use of pointers, reference operator and d
        printf("Value of c:%d\n\n",c);
        return 0;
     }
-
+~~~
+~~~bash
 **Output**
 
 Address of c: 2686784
@@ -117,6 +121,7 @@ Content of pointer pc: 11
 
 Address of c: 2686784
 Value of c: 2
+~~~
 
 ![Working of pointers in C programming](//cdn.programiz.com/sites/tutorial2program/files/pointers-in-c-programming.jpg "C pointers")
 
