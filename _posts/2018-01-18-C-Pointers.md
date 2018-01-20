@@ -19,9 +19,9 @@ Bu yazıda işaretçiler hakkında bilgi edineceksiniz; onlar nedir, onları nas
 
 ![C programming pointers](//cdn.programiz.com/sites/tutorial2program/files/c-pointers.jpg "C programming pointers")
 
-Pointers are powerful features of C and (C++) programming that differentiates it from other popular programming languages like: Java and Python.
+Pointers işaretçileri, Java ve Python gibi diğer popüler programlama dillerinden farklı olarak C ve (C ++) programlamanın güçlü özelliklerindendir. 
 
-Pointers are used in C program to access the memory and manipulate the address.
+Pointers işaretçiler, C programında belleğe erişmek ve adresi işletmek için kullanılır.
 
 Address in C
 ------------
