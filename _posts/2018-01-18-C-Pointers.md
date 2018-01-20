@@ -17,7 +17,7 @@ C Programming Pointers
 
 Bu yazıda işaretçiler hakkında bilgi edineceksiniz; onlar nedir, onları nasıl kullanırsınız ve onlarla çalışırken karşılaşabileceğiniz yaygın hatalar.
 
-![C programming pointers](//cdn.programiz.com/sites/tutorial2program/files/c-pointers.jpg "C programming pointers")
+![C programming pointers](/images/c-pointers.jpg "C programming pointers")
 
 Pointers işaretçileri, Java ve Python gibi diğer popüler programlama dillerinden farklı olarak C ve (C ++) programlamanın güçlü özelliklerindendir. 
 
