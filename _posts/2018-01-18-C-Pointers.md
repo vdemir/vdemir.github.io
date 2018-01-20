@@ -12,7 +12,7 @@ comments: False
 
 <p class="meta">16 Ocak 2018 - Türkiye</p>
 
-C Programming Pointers
+C Programlamada Pointers İşaretçiler
 ======================
 
 Bu yazıda işaretçiler hakkında bilgi edineceksiniz; onlar nedir, onları nasıl kullanırsınız ve onlarla çalışırken karşılaşabileceğiniz yaygın hatalar.
@@ -33,8 +33,8 @@ Address in C
 
 Programınızda bir değişkene sahipseniz, `&var`, bellekte size adresini verir, burada `&` reference operatörü olarak adlandırılır.
 
-Scanf () işlevini kullanırken bu gösterimi görmüş olmalısınız.
-Fonksiyonda, kullanıcının girilen değerini var'ın adresine kaydetmek için kullanılmıştır.
+scanf() fonksiyon işlevini kullanırken bu gösterimi görmüş olmalısınız.
+Fonksiyonda, var'ın adresine kullanıcının girilen değerini kaydetmek için kullanılmıştır.
 
 You must have seen this notation while using scanf() function. It was used in the function to store the user inputted value in the address of var.
 
