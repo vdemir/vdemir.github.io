@@ -123,9 +123,9 @@ Address of c: 2686784
 Value of c: 2
 ~~~
 
-![Working of pointers in C programming](/image/pointers-in-c-programming.jpg "C pointers")
+![Working of pointers in C programming](/images/pointers-in-c-programming.jpg "C pointers")
 
-**Explanation of program and figure**
+**Program ve şekil açıklaması**
 
 1.  `int* pc;` creates a pointer pc and `int c;` creates a normal variable c.  
     Since pc and c are both not initialized, pointer pc points to either no address or a random address. Likewise, variable c is assigned an address but contains a random/garbage value.
