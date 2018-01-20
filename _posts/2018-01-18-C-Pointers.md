@@ -31,7 +31,7 @@ C'de Bellek Adresi
 
 İşaretçileri kavramına girmeden önce, ilkin C'deki adresle aşina olalım.
 
-Programınızda bir değişkene sahipseniz, `&var`, size bellekteki adresini verir, burada `&` reference operatörü olarak adlandırılır.
+Programınızda bir `var` değişkene sahipseniz, `&var`, size bellekteki adresini verir, burada `&` reference operatörü olarak adlandırılır.
 
 scanf() fonksiyon işlevini kullanırken bu gösterimi görmüş olmalısınız.
 Fonksiyonda, var'ın bellek adresine kullanıcının girilen değerini kaydetmek için kullanılmıştır.
@@ -90,18 +90,22 @@ Aşağıdaki örnek, pointer işaretçiler, referans operatörü (&) ve referans
 /* C programında pointer işaretçilerin kullanımını gösteren kaynak kod */
 #include <stdio.h>
 int main(){
-   int* pc;
+   int *pc;
    int c;
    c=22;
    printf("Address of c:%u\n",&c);
    printf("Value of c:%d\n\n",c);
    pc=&c;
-   printf("Address of pointer pc:%u\n",pc);
-   printf("Content of pointer pc:%d\n\n",*pc);
+   printf("Address of pointer pc:%u\n",&pc);
+   printf("Content of pointer pc:%d\n\n",pc);
+   printf("Content of pointer *pc:%d\n\n",*pc);
    c=11;
-   printf("Address of pointer pc:%u\n",pc);
-   printf("Content of pointer pc:%d\n\n",*pc);
+   printf("Value of c:%d\n\n",c);
+   printf("Address of pointer pc:%u\n",&pc);
+   printf("Content of pointer pc:%d\n\n",pc);
+   printf("Content of pointer *pc:%d\n\n",*pc);
    *pc=2;
+   printf("Value of *pc:%d\n\n",*pc);
    printf("Address of c:%u\n",&c);
    printf("Value of c:%d\n\n",c);
    return 0;
