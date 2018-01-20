@@ -98,12 +98,12 @@ int main(){
    pc=&c;
    printf("Address of pointer pc:%u\n",&pc);
    printf("Content of pointer pc:%d\n\n",pc);
-   printf("Content of pointer *pc:%d\n\n",*pc);
+   printf("Value of pointer *pc:%d\n\n",*pc);
    c=11;
    printf("Value of c:%d\n\n",c);
    printf("Address of pointer pc:%u\n",&pc);
    printf("Content of pointer pc:%d\n\n",pc);
-   printf("Content of pointer *pc:%d\n\n",*pc);
+   printf("Value of pointer *pc:%d\n\n",*pc);
    *pc=2;
    printf("Value of *pc:%d\n\n",*pc);
    printf("Address of c:%u\n",&c);
@@ -120,14 +120,14 @@ Value of c:22
 Address of pointer pc:207282376
 Content of pointer pc:207282372
 
-Content of pointer *pc:22
+Value of pointer *pc:22
 
 Value of c:11
 
 Address of pointer pc:207282376
 Content of pointer pc:207282372
 
-Content of pointer *pc:11
+Value of pointer *pc:11
 
 Value of *pc:2
 
