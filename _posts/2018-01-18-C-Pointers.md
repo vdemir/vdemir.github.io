@@ -15,7 +15,7 @@ comments: False
 C Programming Pointers
 ======================
 
-In this article, you'll learn about pointers; what are they, how do you use them and the common mistakes you might face when working with them.
+Bu yazıda işaretçiler hakkında bilgi edineceksiniz; onlar nedir, onları nasıl kullanırsınız ve onlarla çalışırken karşılaşabileceğiniz yaygın hatalar.
 
 ![C programming pointers](//cdn.programiz.com/sites/tutorial2program/files/c-pointers.jpg "C programming pointers")
 
