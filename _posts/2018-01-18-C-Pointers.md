@@ -128,7 +128,7 @@ Value of c: 2
 **Program ve şekil açıklaması**
 
 1. `int* pc;` bir pointer işaretçi pc ve int c oluşturur; normal bir c değişken oluşturur.
-pc ve c her ikisi de başlatılmadığından, pc pointer işaretçi hiçbir adresi işaret etmez ya da rastgele bir adrese işaret eder. Benzer şekilde, c değişkene bir adres atanır ancak rasgele/çöp değer içerir.
+pc ve c her ikisi de başlatılmadığından, pointer işaretçi pc hiçbir adresi işaret etmez ya da rastgele bir adrese işaret eder. Benzer şekilde, c değişkene bir adres atanır ancak rasgele/çöp değer içerir.
 2.  `c=22;` assigns 22 to the variable c, i.e.,22 is stored in the memory location of variable c.  
     Note that, when printing `&c` (address of c), we use %u rather than %d since address is usually expressed as an unsigned integer (always positive).
 3.  `pc=&c;` assigns the address of variable to c to the pointer pc.  
