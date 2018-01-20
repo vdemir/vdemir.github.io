@@ -29,7 +29,12 @@ Pointers işaretçiler, C programında belleğe erişmek ve adresi işletmek iç
 Address in C
 ------------
 
-Before you get into the concept of pointers, let's first get familiar with address in C.
+İşaretçileri kavramına girmeden önce, ilkin C'deki adresle aşina olalım.
+
+Programınızda bir değişkene sahipseniz, & var, size adresini bellekte verir, burada & başvuru operatörü olarak adlandırılır.
+
+Scanf () işlevini kullanırken bu gösterimi görmüş olmalısınız.
+Fonksiyonda, kullanıcının girilen değerini var'ın adresine kaydetmek için kullanılmıştır.
 
 If you have a variable var in your program, `&var` will give you its address in the memory, where `&` is commonly called the reference operator.
 
