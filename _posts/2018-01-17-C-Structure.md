@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  C'de Pointer ve Struct Yapıları
+title:  C'de Struct Yapıları
 date:   2018-01-16 13:52:00
-tags:   Union Struct
+tags:   Struct
 comments: False
 ---
 
