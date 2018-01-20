@@ -64,13 +64,13 @@ Yukarıdaki kaynak kodunda, `5` değeri bellek yeri `2686778`'de saklanır. `var
 Pointer İşaretçi Değişkenler
 -----------------
 
-In C, there is a special variable that stores just the address of another variable. It is called Pointer variable or, simply, a pointer.
+C'de sadece başka bir değişkenin adresini saklamanızı sağlayan özel bir değişken vardır. Pointer değişkeni veya basitçe pointer işaretçi olarak adlandırılır.
 
 Declaration of Pointer
-
+~~~
 data\_type* pointer\_variable_name;
 int* p;
-
+~~~
 Above statement defines, p as pointer variable of type `int`.
 
 ### Reference operator (&) and Dereference operator (*)
