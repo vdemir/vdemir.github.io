@@ -153,7 +153,7 @@ Value of c:2
 Bunu not et ki **`&c`** (**c** bellek adresini) yazdırırken, biz **%d** yerine **%u** kullanırız, çünkü bellek adresi genelde unsigned, işaretsiz bir tam sayı olarak ifade edilir (her zaman pozitiftir).
 3.  **`pc=&c;`** **c** değişkenin bellek adresini pointer işaretçi **pc** ye atar.
 Çıktı yazdırılırken, **pc** değeri **c**'nin bellek adresi ile aynı ve **(*pc)** değerinin de 22 olduğunu görürsünüz.
-4.  **`c=11;`** değişken c'ye 11 atar.
+4.  **`c=11;`** değişken **c**'ye 11 atar.
 Pointer işaretçi **pc** üzerindeki etkisini görmek için **c**'ye yeni bir değer atadık.
 5.  **`pc`** pointer işaretçi, **`c`** ile aynı bellek adrese işaret ettiğinden, **pc** pointer işaretçisinin işaret ettiği değer de 11'dir.
 **pc**'nin bellek adresini ve içeriğini basarak; değeri güncellenmiş içeriği, 11 olarak gösterir.
