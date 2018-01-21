@@ -152,6 +152,7 @@ pc'nin bellek adresini ve içeriğini basarak; değeri güncellenmiş içeriği,
 6.  `*pc=2;` pointer işaretçisi pc'nin gösterdiği bellek konumunun içeriğini 2 olarak değiştirir.
 pc pointer işaretçisinin adresi c'nin adresi ile aynı olduğu için c'nin değeri de 2 olarak değişir.
 
+
 ### Pointer işaretçilerle çalışırken genel hatalar
 
 Diyelim ki, pointer işaretçi pc'nin c bellek adresini işaret etmesini istiyorsunuz. Sonra,
