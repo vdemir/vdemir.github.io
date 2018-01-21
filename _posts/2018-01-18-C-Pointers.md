@@ -145,8 +145,8 @@ Value of c:2
 
 **Not:** Bu kodu kullanırken farklı adres değeri elde edebilirsiniz.
 
-<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="/images/pointers.jpg" alt="programs" class="img-responsive" width="470px" height="313px"/>
+<div class='pull-right alert alert-warning' style="margin: 0 px; text-align: center;">
+  <img src="/images/pointers.jpg" alt="programs" class="img-responsive" width="450px" height="355px"/>
   <p><small>Pointers &bull; C programlamada işaretçilerin işlenmesi.</small></p>
 </div>
 
