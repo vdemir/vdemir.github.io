@@ -19,7 +19,7 @@ Bu yazıda, C programlamasındaki yapılar hakkında bilgi edineceksiniz; Nedir,
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="/images/1737096_orig.jpg" alt="programs" class="img-responsive" width="349px" height="362px"/>
-  <p><small>Structure &bull; Vitamin C.</small></p>
+  <p><small>Yapı &bull; Vitamin C.</small></p>
 </div>
 
 Structure is a collection of variables of different types under a single name.
