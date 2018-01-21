@@ -92,7 +92,7 @@ Aşağıdaki örnek, pointer işaretçiler, referans operatörü (&) ve referans
 int main(){
    int *pc;
    int c;
-   c=22;
+   c=5;
    printf("Address of c:%u\n",&c);
    printf("Value of c:%d\n\n",c);
    pc=&c;
