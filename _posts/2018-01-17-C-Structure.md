@@ -23,7 +23,7 @@ Bu yazıda, C programlamasındaki struct yapılar hakkında bilgi edineceksiniz;
 
 Struct Yapı, tek bir isim altında farklı data tipinden değişkenlerin bir koleksiyonudur.
 
-**For example:** You want to store some information about a person: his/her name, citizenship number and salary. You can easily create different variables name, citNo, salary to store these information separately.
+**Örneğin:** Bir kişi hakkında bazı bilgileri saklamak isterseniz: adı, vatandaşlık numarası ve maaşı gibi. Bu bilgileri ayrı ayrı depolamak için name, citNo, salary gibi farklı değişkenleri kolayca oluşturabilirsiniz.
 
 However, in the future, you would want to store information about multiple persons. Now, you'd need to create different variables for each information per person: name1, citNo1, salary1, name2, citNo2, salary2
 
