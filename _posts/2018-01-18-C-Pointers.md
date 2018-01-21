@@ -47,7 +47,7 @@ scanf("%d", &var);
     {
       int var = 5;
       printf("Value: %d\n", var);
-      printf("Address: %u", &var);  // Dikkat, önce ve sonra (&) var.
+      printf("Address: %u", &var);  // Dikkat, önce (&) var.
       return 0;
     }
 ~~~
@@ -90,7 +90,7 @@ Aşağıdaki örnek, pointer işaretçiler, referans operatörü (&) ve referans
 
 ~~~c
 /* C programında pointer işaretçilerin kullanımını /
-   gösteren kaynak kod                            */ 
+   gösteren kaynak kod */ 
 
 #include <stdio.h>
 int main(){
