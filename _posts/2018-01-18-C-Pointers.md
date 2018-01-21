@@ -140,7 +140,8 @@ Value of *pc:2
 Address of c:2686760
 Value of c:2
 ~~~
-Not: Bu kodu kullanırken farklı adres değeri elde edebilirsiniz.
+
+**Not:** Bu kodu kullanırken farklı adres değeri elde edebilirsiniz.
 
 ![Working of pointers in C programming](/images/pointers.jpg "C pointers")
 
