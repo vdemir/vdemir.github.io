@@ -87,7 +87,9 @@ Aşağıdaki örnek, pointer işaretçiler, referans operatörü (&) ve referans
 ### Pointer İşaretçilerin Çalışmasını Gösteren Örnek
 
 ~~~c
-/* C programında pointer işaretçilerin kullanımını gösteren kaynak kod */
+/* C programında pointer işaretçilerin kullanımını /
+   gösteren kaynak kod                            */ 
+
 #include <stdio.h>
 int main(){
      int* pc;
@@ -161,7 +163,7 @@ Diyelim ki, pointer işaretçi pc'nin, c değişkeninin bellek adresini işaret 
     // Hatalı! pc içeriği bir adrestir oysa c bir adresi değildir.
     pc = c;
     
-    // Hatalı! *pc adresin işaret ettiği bir değerken &c bir adrestir.
+    // Hatalı! *pc adresin işaret ettiği bir değerken, &c bir adrestir.
     *pc = &c; 
     
     // // Doğru! pc bir adres, ve &c de bir adres.
