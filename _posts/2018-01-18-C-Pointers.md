@@ -19,7 +19,7 @@ Bu yazıda işaretçiler hakkında bilgi edineceksiniz; onlar nedir, onları nas
 
 ![C programming pointers](/images/c-pointers.jpg "C programming pointers")
 
-Pointers işaretçileri, Java ve Python gibi diğer popüler programlama dillerinden farklı olarak C ve (C ++) programlamanın güçlü özelliklerindendir. 
+Pointer işaretçiler, Java ve Python gibi diğer popüler programlama dillerinden farklı olarak C ve (C ++) programlamanın güçlü özelliklerindendir. 
 
 Pointers işaretçiler, C programında belleğe erişmek ve adresi işletmek için kullanılır.
 
@@ -29,9 +29,9 @@ Pointers işaretçiler, C programında belleğe erişmek ve adresi işletmek iç
 C'de Bellek Adresi
 ------------
 
-İşaretçileri kavramına girmeden önce, ilkin C'deki adresle aşina olalım.
+Pointer işaretçiler kavramına girmeden önce, ilkin C'deki adres ifadesiyle aşina olalım.
 
-Programınızda bir `var` değişkene sahipseniz, `&var`, size bellekteki adresini verir, burada `&` reference operatörü olarak adlandırılır.
+Programınızda bir `var` değişkene sahipseniz, `&var`, size bellekteki değişkenin adresini verir, burada `&` reference operatörü olarak adlandırılır.
 
 `scanf()` fonksiyon işlevini kullanırken bu gösterimi görmüş olmalısınız.
 Fonksiyonda, var'ın bellek adresine kullanıcının girilen değerini kaydetmek için kullanılmıştır.
