@@ -158,7 +158,7 @@ Diyelim ki, pointer işaretçi pc'nin, c değişkeninin bellek adresini işaret 
     
     int c, *pc;
     
-    // Hatalı! pc içeriği bir bellek adresidir oysa c bir bellek adresi değildir.
+    // Hatalı! pc içeriği bir bellek adresidir oysa c bir adresi değildir.
     pc = c;
     
     // Hatalı! *pc, adresin işaret ettiği bir değerken, &c bir bellek adrestir.
