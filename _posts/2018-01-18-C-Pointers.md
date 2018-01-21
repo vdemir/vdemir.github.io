@@ -27,7 +27,7 @@ Pointer işaretçiler, Java ve Python gibi diğer popüler programlama dillerind
 Pointer işaretçiler, C programında belleğe erişmek ve adresi işletmek için kullanılır.
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="/images/PointersF.png" alt="programs" class="img-responsive" width="470px" height="313px"/>
+  <img src="/images/PointersF.png" alt="programs" class="img-responsive" width="569px" height="325px"/>
   <p><small>Pointers &bull; İşaretçi ile belleğe erişmek.</small></p>
 </div>
 
