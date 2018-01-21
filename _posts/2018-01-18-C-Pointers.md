@@ -153,14 +153,14 @@ pc'nin bellek adresini ve içeriğini basarak; değeri güncellenmiş içeriği,
 pc pointer işaretçisinin adresi c'nin adresi ile aynı olduğu için c'nin değeri de 2 olarak değişir.
 
 
-### Pointer işaretçilerle çalışırken genel hatalar
+### Pointer işaretçilerle çalışırken karşılaşılan genel hatalar
 
-Diyelim ki, pointer işaretçi pc'nin c bellek adresini işaret etmesini istiyorsunuz. Sonra,
+Diyelim ki, pointer işaretçi pc'nin, c bellek adresini işaret etmesini istiyorsunuz. Sonra,
     
     int c, *pc;
     
-    // Wrong! pc is address whereas, c is not an address.
-    pc = c;  
+    // Hatalı! pc içeriği bir bellek adresidir oysa c bir bellek adresi değildir.
+    pc = c;
     
     // Wrong! *pc is the value pointed by address whereas, %amp;c is an address.
     *pc = &c; 
