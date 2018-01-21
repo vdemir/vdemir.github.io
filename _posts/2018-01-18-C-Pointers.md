@@ -64,7 +64,7 @@ Address: 2686778
 
 **Not:** Bu kodu kullanırken farklı adres değeri elde edebilirsiniz.
 
-Yukarıdaki kaynak kodda, değer `5` bellek yereli `2686778`'de saklanır. `var`, sadece o yere verilen isimdir.
+Yukarıdaki kaynak kodda, değer: `5` bellek yereli: `2686778`'de saklanır. `var`, sadece o yere verilen isimdir.
 
 Pointer İşaretçi Değişkenler
 -----------------
