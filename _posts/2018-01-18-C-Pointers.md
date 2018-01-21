@@ -151,7 +151,9 @@ Pointer işaretçi pc üzerindeki etkisini görmek için c'ye yeni bir değer at
 pc'nin bellek adresini ve içeriğini basarak; değeri güncellenmiş içeriği, 11 olarak gösterir.
 6.  `*pc=2;` pointer işaretçisi pc'nin gösterdiği bellek konumunun içeriğini 2 olarak değiştirir.
 pc pointer işaretçisinin adresi c'nin adresi ile aynı olduğu için c'nin değeri de 2 olarak değişir.
+
 #### Pointer İşaretçilerle çalışırken genel hatalar
+
 Diyelim ki, pointer işaretçi pc'nin c bellek adresini işaret etmesini istiyorsunuz. Sonra,
     
     int c, *pc;
