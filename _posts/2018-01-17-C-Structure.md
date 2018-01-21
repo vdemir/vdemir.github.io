@@ -15,7 +15,7 @@ comments: False
 C Programming Structure
 =======================
 
-Bu yazıda, C programlamasındaki yapılar hakkında bilgi edineceksiniz; Nedir, nasıl tanımlayacağınızı ve programınızda nasıl kullanacağınızı.
+Bu yazıda, C programlamasındaki yapılar hakkında bilgi edineceksiniz; Nedir, nasıl tanımlanır ve programınızda nasıl kullanılır.
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="/images/1737096_orig.jpg" alt="programs" class="img-responsive" width="349px" height="362px"/>
