@@ -147,8 +147,8 @@ Bunu not et ki `&c` (c bellek adresini) yazdırırken, biz %d yerine %u kullanı
 Çıktı yazdırılırken, pc değeri c'nin bellek adresi ile aynı ve (*pc) değerinin de 22 olduğunu görürsünüz.
 4.  `c=11;`; değişken c'ye 11 atar.
 Pointer işaretçi pc üzerindeki etkisini görmek için c'ye yeni bir değer atadık.
-5.  Since, pointer pc points to the same address as c, value pointed by pointer pc is 11 as well.  
-    Printing the address and content of pc shows the updated content as 11.
+5.  Pointer işaretçi `pc, c` ile aynı bellek adrese işaret ettiğinden, pc pointer işaretçisinin işaret ettiği de 11'dir.
+pc'nin adresini ve içeriğini basarak güncellenmiş içeriği 11 olarak gösterir.
 6.  `*pc=2;` changes the contents of the memory location pointed by pointer pc to 2.  
     Since the address of pointer pc is same as address of c, value of c also changes to 2.
 
