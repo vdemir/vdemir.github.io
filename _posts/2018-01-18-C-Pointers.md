@@ -17,7 +17,10 @@ C Programlamada Pointers İşaretçiler
 
 Bu yazıda işaretçiler hakkında bilgi edineceksiniz; onlar nedir, onları nasıl kullanırsınız ve onlarla çalışırken karşılaşabileceğiniz yaygın hatalar.
 
-![C programming pointers](/images/pointer-treinamento.jpg "C programming pointers")
+<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="/images/pointer-treinamento.jpg" alt="programs" class="img-responsive" width="425px" height="313px"/>
+  <p><small>Pointers &bull; İşaretçi Av Köpeği Yavrusu.</small></p>
+</div>
 
 Pointer işaretçiler, Java ve Python gibi diğer popüler programlama dillerinden farklı olarak C ve (C ++) programlamanın güçlü özelliklerindendir. 
 
