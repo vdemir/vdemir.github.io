@@ -114,26 +114,25 @@ int main(){
 ~~~bash
 **Output**
 
-Address of c:207282372
-Value of c:22
+Address of c:2686760
+Value of c:5
 
-Address of pointer pc:207282376
-Content of pointer pc:207282372
+Address of pointer pc:2686764
+Content of pointer pc:2686760
 
-Value of pointer *pc:22
+Value of pointer *pc:5
 
 Value of c:11
 
-Address of pointer pc:207282376
-Content of pointer pc:207282372
+Address of pointer pc:2686764
+Content of pointer pc:2686760
 
 Value of pointer *pc:11
 
 Value of *pc:2
 
-Address of c:207282372
+Address of c:2686760
 Value of c:2
-
 ~~~
 
 ![Working of pointers in C programming](/images/pointers.jpg "C pointers")
