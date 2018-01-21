@@ -37,7 +37,7 @@ Pointer işaretçiler kavramına girmeden önce, ilkin C'deki adres ifadesiyle t
 Programınızda bir `var` değişkene sahipseniz, `&var`, size bellekteki değişkenin adresini verir, burada `& simgesi` reference operatörü olarak adlandırılır.
 
 `scanf()` fonksiyon işlevini kullanırken bu gösterimi görmüş olmalısınız.
-Fonksiyonda, var'ın bellek adresine kullanıcının girilen değerini kaydetmek için kullanılmıştır.
+Fonksiyon işlevinde, var değişkeninin bellek adresine kullanıcının girilen değerini kaydetmek için kullanılmıştır.
 
 ~~~c
 scanf("%d", &var);
