@@ -90,7 +90,7 @@ Aşağıdaki örnek, pointer işaretçiler, referans operatörü (&) ve referans
 /* C programında pointer işaretçilerin kullanımını gösteren kaynak kod */
 #include <stdio.h>
 int main(){
-   int *pc;
+   int* pc;
    int c;
    c=5;
    printf("Address of c:%u\n",&c);
