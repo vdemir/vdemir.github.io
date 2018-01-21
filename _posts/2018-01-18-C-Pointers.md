@@ -155,7 +155,7 @@ Bunu not et ki `&c` (**c** bellek adresini) yazdırırken, biz %d yerine %u kull
 Çıktı yazdırılırken, **pc** değeri **c**'nin bellek adresi ile aynı ve **(*pc)** değerinin de 22 olduğunu görürsünüz.
 4.  **`c=11;`** değişken c'ye 11 atar.
 Pointer işaretçi **pc** üzerindeki etkisini görmek için **c**'ye yeni bir değer atadık.
-5.  Pointer işaretçi `pc, c` ile aynı bellek adrese işaret ettiğinden, **pc** pointer işaretçisinin işaret ettiği değer de 11'dir.
+5.  **`pc`** pointer işaretçi, **`c`** ile aynı bellek adrese işaret ettiğinden, **pc** pointer işaretçisinin işaret ettiği değer de 11'dir.
 **pc**'nin bellek adresini ve içeriğini basarak; değeri güncellenmiş içeriği, 11 olarak gösterir.
 6.  **`*pc=2;`** **pc** pointer işaretçisinin gösterdiği bellek konumunun içerdiği değeri 2 olarak değiştirir.
 **pc** pointer işaretçisinin adresi **c** değişkeninin adresi ile aynı olduğu için **c**'nin değeri de 2 olarak değişir.
