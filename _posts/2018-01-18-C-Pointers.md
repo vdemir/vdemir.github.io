@@ -43,8 +43,7 @@ Fonksiyon işlevinde, var değişkeninin bellek adresine kullanıcının girilen
 scanf("%d", &var);
 ~~~
 ~~~c
-    /* C programlamada referans operatörünün, */
-    /* kullanımını gösteren örnek. */
+/* C referans operatörünün kullanımını gösteren örnek */
 
     #include <stdio.h>
     int main()
@@ -93,8 +92,7 @@ Aşağıdaki örnek, pointer işaretçiler, referans operatörü (&) ve referans
 ### Pointer İşaretçilerin Çalışmasını Gösteren Örnek
 
 ~~~c
-/* C programında pointer işaretçilerin kullanımını /
-   gösteren kaynak kod */ 
+/* C pointer işaretçilerin kullanımını gösteren örnek */ 
 
 #include <stdio.h>
 int main(){
