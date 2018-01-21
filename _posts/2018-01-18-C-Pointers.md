@@ -178,4 +178,4 @@ Diyelim ki, pointer işaretçi pc'nin, c değişkeninin bellek adresini işaret 
     // Doğru! *pc adresin gösterdiği değerdir ve c de bir değerdir.
     *pc = c;
 
-Her iki durumda da, pointer işaretçi `pc`, `c` bellek adresini işaret etmez, içerdiği değeri işaret eder.
+**Her iki durumda da, pointer işaretçi `pc`, `c` bellek adresini işaret etmez, içerdiği değeri işaret eder.**
