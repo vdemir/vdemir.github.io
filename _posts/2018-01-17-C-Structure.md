@@ -18,7 +18,7 @@ C Programming Structure
 Bu yazıda, C programlamasındaki struct yapılar hakkında bilgi edineceksiniz; Nedir, nasıl tanımlanır ve programınızda nasıl kullanılır gibi.
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="/images/1737096_orig.jpg" alt="programs" class="img-responsive" width="349px" height="362px"/>
+  <img src="/images/1737096_orig.jpg" alt="programs" class="img-responsive" width="217px" height="240px"/>
   <p><small>Yapı &bull; Vitamin C.</small></p>
 </div>
 
