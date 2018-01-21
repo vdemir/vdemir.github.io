@@ -152,7 +152,7 @@ Value of c:2
 2.  **`c=22;`** tamsayı değeri 22'yi **c** değişkenine atar; diğer bir deyişle,  tamsayı değeri 22, **c** değişkeninin bellek yereline saklanır.
 Bunu not et ki `&c` (**c** bellek adresini) yazdırırken, biz %d yerine %u kullanırız, çünkü bellek adresi genelde unsigned, işaretsiz bir tam sayı olarak ifade edilir (her zaman pozitiftir).
 3.  **`pc=&c;`** **c** değişkenin bellek adresini pointer işaretçi **pc** ye atar.
-Çıktı yazdırılırken, **pc** değeri **c**'nin bellek adresi ile aynı ve (*pc) değerinin de 22 olduğunu görürsünüz.
+Çıktı yazdırılırken, **pc** değeri **c**'nin bellek adresi ile aynı ve **(*pc)** değerinin de 22 olduğunu görürsünüz.
 4.  **`c=11;`** değişken c'ye 11 atar.
 Pointer işaretçi **pc** üzerindeki etkisini görmek için **c**'ye yeni bir değer atadık.
 5.  Pointer işaretçi `pc, c` ile aynı bellek adrese işaret ettiğinden, **pc** pointer işaretçisinin işaret ettiği değer de 11'dir.
