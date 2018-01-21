@@ -164,10 +164,10 @@ Diyelim ki, pointer işaretçi pc'nin, c değişkeninin bellek adresini işaret 
     // Hatalı! *pc, adresin işaret ettiği bir değerken, &c bir bellek adrestir.
     *pc = &c; 
     
-    // Correct! pc is an address and, %amp;pc is also an address.
+    // // Doğru! pc bir adres, ve &c de bir adres.
     pc = &c; 
     
-    // Correct! *pc is the value pointed by address and, c is also a value.
+    // Doğru! *pc adresin gösterdiği değerdir ve c de bir değerdir.
     *pc = c;
 
-In both cases, pointer pc is not pointing to the address of c.
+Her iki durumda da, pointer işaretçi pc, c adresini işaret etmez.
