@@ -145,8 +145,8 @@ pc ve c her ikisi de başlatılmadığından, pointer işaretçi pc hiçbir adre
 Bunu not et ki `&c` (c bellek adresini) yazdırırken, biz %d yerine %u kullanırız, çünkü bellek adresi genelde unsigned, işaretsiz bir tam sayı olarak ifade edilir (her zaman pozitiftir).
 3.  `pc=&c;` c değişkenin bellek adresini pointer işaretçi "pc" ye atar.
 Çıktı yazdırılırken, pc değeri c'nin bellek adresi ile aynı ve (*pc) değerinin de 22 olduğunu görürsünüz.
-4.  `c=11;` assigns 11 to variable c.  
-    We assign a new value to c to see its effect on pointer pc.
+4.  `c=11;`; değişken c'ye 11 atar.
+pointer işaretçi pc üzerindeki etkisini görmek için c'ye yeni bir değer atadık.
 5.  Since, pointer pc points to the same address as c, value pointed by pointer pc is 11 as well.  
     Printing the address and content of pc shows the updated content as 11.
 6.  `*pc=2;` changes the contents of the memory location pointed by pointer pc to 2.  
