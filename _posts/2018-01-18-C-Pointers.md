@@ -90,25 +90,25 @@ Aşağıdaki örnek, pointer işaretçiler, referans operatörü (&) ve referans
 /* C programında pointer işaretçilerin kullanımını gösteren kaynak kod */
 #include <stdio.h>
 int main(){
-   int* pc;
-   int c;
-   c=5;
-   printf("Address of c:%u\n",&c);
-   printf("Value of c:%d\n\n",c);
-   pc=&c;
-   printf("Address of pointer pc:%u\n",&pc);
-   printf("Content of pointer pc:%d\n\n",pc);
-   printf("Value of pointer *pc:%d\n\n",*pc);
-   c=11;
-   printf("Value of c:%d\n\n",c);
-   printf("Address of pointer pc:%u\n",&pc);
-   printf("Content of pointer pc:%d\n\n",pc);
-   printf("Value of pointer *pc:%d\n\n",*pc);
-   *pc=2;
-   printf("Value of *pc:%d\n\n",*pc);
-   printf("Address of c:%u\n",&c);
-   printf("Value of c:%d\n\n",c);
-   return 0;
+     int* pc;
+     int c;
+     c=5;
+     printf("Address of c:%u\n",&c);
+     printf("Value of c:%d\n\n",c);
+     pc=&c;
+     printf("Address of pointer pc:%u\n",&pc);
+     printf("Content of pointer pc:%d\n\n",pc);
+     printf("Value of pointer *pc:%d\n\n",*pc);
+     c=11;
+     printf("Value of c:%d\n\n",c);
+     printf("Address of pointer pc:%u\n",&pc);
+     printf("Content of pointer pc:%d\n\n",pc);
+     printf("Value of pointer *pc:%d\n\n",*pc);
+     *pc=2;
+     printf("Value of *pc:%d\n\n",*pc);
+     printf("Address of c:%u\n",&c);
+     printf("Value of c:%d\n\n",c);
+     return 0;
  }
 ~~~
 ~~~bash
