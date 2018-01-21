@@ -145,7 +145,10 @@ Value of c:2
 
 **Not:** Bu kodu kullanırken farklı adres değeri elde edebilirsiniz.
 
-![Working of pointers in C programming](/images/pointers.jpg "C pointers")
+<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="/images/pointers.jpg" alt="programs" class="img-responsive" width="470px" height="313px"/>
+  <p><small>Pointers &bull; C programlamada işaretçilerin işlenmesi.</small></p>
+</div>
 
 **Program ve şekil açıklaması**
 
