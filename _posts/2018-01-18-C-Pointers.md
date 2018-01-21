@@ -39,8 +39,9 @@ Programınızda bir `var` değişkene sahipseniz, `&var`, size bellekteki deği�
 `scanf()` fonksiyon işlevini kullanırken bu gösterimi görmüş olmalısınız.
 Fonksiyon işlevinde, var değişkeninin bellek adresine kullanıcının girilen değerini kaydetmek için kullanılmıştır.
 
-
+~~~c
 scanf("%d", &var);
+~~~
 ~~~c
     /* C programlamada referans operatörünün, */
     /* kullanımını gösteren örnek. */
