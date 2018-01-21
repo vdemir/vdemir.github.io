@@ -158,10 +158,10 @@ Diyelim ki, pointer işaretçi pc'nin, c değişkeninin bellek adresini işaret 
     
     int c, *pc;
     
-    // Hatalı! pc içeriği bir bellek adresidir oysa c bir adresi değildir.
+    // Hatalı! pc içeriği bir adrestir oysa c bir adresi değildir.
     pc = c;
     
-    // Hatalı! *pc, adresin işaret ettiği bir değerken, &c bir adrestir.
+    // Hatalı! *pc adresin işaret ettiği bir değerken &c bir adrestir.
     *pc = &c; 
     
     // // Doğru! pc bir adres, ve &c de bir adres.
