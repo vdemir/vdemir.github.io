@@ -33,7 +33,7 @@ C'de Bellek Adresi
 
 Programınızda bir `var` değişkene sahipseniz, `&var`, size bellekteki adresini verir, burada `&` reference operatörü olarak adlandırılır.
 
-scanf() fonksiyon işlevini kullanırken bu gösterimi görmüş olmalısınız.
+`scanf()` fonksiyon işlevini kullanırken bu gösterimi görmüş olmalısınız.
 Fonksiyonda, var'ın bellek adresine kullanıcının girilen değerini kaydetmek için kullanılmıştır.
 
 ~~~c
@@ -59,7 +59,7 @@ Address: 2686778
 
 **Not:** Bu kodu kullanırken farklı adres değeri elde edebilirsiniz.
 
-Yukarıdaki kaynak kodunda, `5` değeri bellek yeri `2686778`'de saklanır. `var`, sadece o yere verilen isimdir.
+Yukarıdaki kaynak kodunda, değer `5` bellek yereli `2686778`'de saklanır. `var`, sadece o yere verilen isimdir.
 
 Pointer İşaretçi Değişkenler
 -----------------
