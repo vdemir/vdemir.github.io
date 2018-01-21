@@ -148,7 +148,7 @@ Value of c:2
 **Program ve şekil açıklaması**
 
 1. **`int* pc;`** bir **pc** pointer işaretçi ve **int c** oluşturur; normal bir **c** değişken oluşturur.
-**pc** ve **c** her ikisi de başlatılmadığından, pointer işaretçi pc hiçbir adresi işaret etmez ya da rastgele bir adrese işaret eder. Benzer şekilde, **c** değişkene bir adres atanır ancak rasgele/çöp değer içerir.
+**pc** ve **c** her ikisi de başlatılmadığından, pointer işaretçi **pc** hiçbir adresi işaret etmez ya da rastgele bir adrese işaret eder. Benzer şekilde, **c** değişkene bir adres atanır ancak rasgele/çöp değer içerir.
 2.  **`c=22;`** tamsayı değeri 22'yi **c** değişkenine atar; diğer bir deyişle,  tamsayı değeri 22, **c** değişkeninin bellek yereline saklanır.
 Bunu not et ki **`&c`** (**c** bellek adresini) yazdırırken, biz **%d** yerine **%u** kullanırız, çünkü bellek adresi genelde unsigned, işaretsiz bir tam sayı olarak ifade edilir (her zaman pozitiftir).
 3.  **`pc=&c;`** **c** değişkenin bellek adresini pointer işaretçi **pc** ye atar.
@@ -163,7 +163,7 @@ Pointer işaretçi **pc** üzerindeki etkisini görmek için **c**'ye yeni bir d
 **Pointer işaretçilerle çalışırken karşılaşılan genel hatalar**
 
 Diyelim ki, pointer işaretçi pc'nin, c değişkeninin bellek adresini işaret etmesini istiyorsunuz. Sonra,
- ~~~ 
+~~~ 
     int c, *pc;
 ~~~ 
     // Hatalı! pc içeriği bir adrestir oysa c bir adresi değildir.
