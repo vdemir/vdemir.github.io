@@ -163,9 +163,9 @@ Pointer işaretçi **pc** üzerindeki etkisini görmek için **c**'ye yeni bir d
 **Pointer işaretçilerle çalışırken karşılaşılan genel hatalar**
 
 Diyelim ki, pointer işaretçi pc'nin, c değişkeninin bellek adresini işaret etmesini istiyorsunuz. Sonra,
-    
+ ~~~ 
     int c, *pc;
-    
+~~~ 
     // Hatalı! pc içeriği bir adrestir oysa c bir adresi değildir.
     pc = c;
     
