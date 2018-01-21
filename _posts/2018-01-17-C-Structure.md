@@ -112,7 +112,7 @@ person2.salary
 ### Example of structure
 
 **Write a C program to add two distances entered by user. Measurement of distance should be in inch and feet. (Note: 12 inches = 1 foot)**
-
+~~~c
     #include <stdio.h>
     struct Distance
     {
@@ -156,8 +156,8 @@ person2.salary
         printf("Sum of distances = %d\'-%.1f\"", sum.feet, sum.inch);
         return 0;
     }
-    
-
+~~~ 
+~~~bash
 **Output**
 
 1st distance
@@ -167,6 +167,7 @@ Enter inch: 7.9
 Enter feet: 2
 Enter inch: 9.8
 Sum of distances = 15'-5.7"
+~~~
 
 ### Keyword typedef while using structure
 
