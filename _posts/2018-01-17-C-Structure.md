@@ -17,7 +17,10 @@ C Programming Structure
 
 In this article, you'll learn about structures in C programming; what is it, how to define it and use it in your program.
 
-![C structures](//cdn.programiz.com/sites/tutorial2program/files/c-structures_1.jpg "Structures in C")
+<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="/images/1737096_orig.jpg" alt="programs" class="img-responsive" width="349px" height="362px"/>
+  <p><small>Structure &bull; Vitamin C.</small></p>
+</div>
 
 Structure is a collection of variables of different types under a single name.
 
