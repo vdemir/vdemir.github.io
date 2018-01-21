@@ -21,7 +21,7 @@ Bu yazıda, C programlamasındaki struct yapılar hakkında bilgi edineceksiniz;
   <p><small>Yapı &bull; Vitamin C.</small></p>
 </div>
 
-Structure is a collection of variables of different types under a single name.
+Struct Yapı, tek bir isim altında farklı data tipinden değişkenlerin bir koleksiyonudur.
 
 **For example:** You want to store some information about a person: his/her name, citizenship number and salary. You can easily create different variables name, citNo, salary to store these information separately.
 
