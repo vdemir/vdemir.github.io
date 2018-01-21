@@ -39,13 +39,15 @@ Fonksiyonda, var'ın bellek adresine kullanıcının girilen değerini kaydetmek
 ~~~c
 scanf("%d", &var);
 
-    /* C programlamada referans operatörünün kullanımını gösteren örnek. */
+    /* C programlamada referans operatörünün, */
+    /* kullanımını gösteren örnek. */
+
     #include <stdio.h>
     int main()
     {
       int var = 5;
       printf("Value: %d\n", var);
-      printf("Address: %u", &var);  //Notice, the ampersand(&) before var.
+      printf("Address: %u", &var);  // Dikkat, önce ve sonra (&) var.
       return 0;
     }
 ~~~
