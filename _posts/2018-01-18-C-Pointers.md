@@ -155,7 +155,7 @@ pc pointer işaretçisinin adresi c'nin adresi ile aynı olduğu için c'nin de�
 
 ### Pointer işaretçilerle çalışırken karşılaşılan genel hatalar
 
-Diyelim ki, pointer işaretçi pc'nin, c bellek adresini işaret etmesini istiyorsunuz. Sonra,
+Diyelim ki, pointer işaretçi pc'nin, c değişkeninin bellek adresini işaret etmesini istiyorsunuz. Sonra,
     
     int c, *pc;
     
