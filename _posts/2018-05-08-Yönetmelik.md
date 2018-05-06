@@ -12,9 +12,11 @@ comments: False
 
 <p class="meta">08 Mayıs 2018 - Türkiye</p>
 
-Mevzuat Bilgi Sistemi - http://mevzuat.basbakanlik.gov.tr
+Mevzuat Bilgi Sistemi - http://mevzuat.basbakanlik.gov.tr - http://www.tedas.gov.tr/#!tedas_mevzuatlar
 -------------
 
+
+[KABLO BACASI VE ENERJİ ODASININ ÖLÇÜ VE DETAYLARI İLE UYGULAMA ALANLARINA İLİŞKİN ESASLAR - NİSAN  2006  (REVİZE)](/assets/doc/KABLO  BACASI  VE  ENERJİ  ODASI.doc)
 
 [YAPI DENETİMİ UYGULAMA YÖNETMELİĞİ - ŞUBAT 2008](/assets/pdf/YAPI DENETİMİ UYGULAMA YÖNETMELİĞİ.pdf)
 
