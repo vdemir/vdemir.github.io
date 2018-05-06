@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Yönetmelik
+title:  Mevzuat
 date:   2018-05-08 13:52:00
 tags:   Denetim
 comments: False
