@@ -16,7 +16,9 @@ Mevzuat Bilgi Sistemi - http://mevzuat.basbakanlik.gov.tr - http://www.tedas.gov
 -------------
 
 
-[KABLO BACASI VE ENERJİ ODASININ ÖLÇÜ VE DETAYLARI İLE UYGULAMA ALANLARINA İLİŞKİN ESASLAR - NİSAN  2006  (REVİZE)](/assets/doc/KABLO  BACASI  VE  ENERJİ  ODASI.doc)
+[Dagitim Sebekeleri Enerji Kablolari Montaj (Uygulama) Usul ve Esasları - KASIM 2017](/assets/pdf/Dagitim Sebekeleri Enerji Kablolari Montaj (Uygulama) Usul ve Esasları.pdf)
+
+[KABLO BACASI VE ENERJİ ODASININ ÖLÇÜ VE DETAYLARI İLE UYGULAMA ALANLARINA İLİŞKİN ESASLAR - NİSAN 2006 (REVİZE)](/assets/pdf/Kablo Bacası ve Enerji Odasının Ölçü ve Detayları ile Uygulama Esasları.pdf)
 
 [YAPI DENETİMİ UYGULAMA YÖNETMELİĞİ - ŞUBAT 2008](/assets/pdf/YAPI DENETİMİ UYGULAMA YÖNETMELİĞİ.pdf)
 
