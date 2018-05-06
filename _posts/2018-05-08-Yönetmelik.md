@@ -15,9 +15,11 @@ comments: False
 Yönetmelik ve Şartnameler
 -------------
 
+[ELEKTRİK TESİSLERİ GENEL TEKNİK ŞARTNAMESİ ve UYGULAMA ESASLARI - EMO Ankara 2012](/assets/pdf/ELEKTRİK TESİSLERİ GENEL TEKNİK ŞARTNAMESİ ve UYGULAMA ESASLARI.pdf)
 
 [BİNA İÇİ ELEKTRONİK HABERLEŞME TESİSATI TEKNİK ŞARTNAMESİ - ARALIK 2013](/assets/pdf/BİNA İÇİ ELEKTRONİK HABERLEŞME TESİSATI TEKNİK ŞARTNAMESİ.pdf)
 
+[ELEKTRİK İÇ TESİSLERİ YÖNETMELİĞİ - ARALIK 2013](/assets/doc/ELEKTRİK İÇ TESİSLERİ YÖNETMELİĞİ.doc)
 
 Bu yazıda işaretçiler hakkında bilgi edineceksiniz; onlar nedir, onları nasıl kullanırsınız ve onlarla çalışırken karşılaşabileceğiniz yaygın hatalar nelerdir.
 
