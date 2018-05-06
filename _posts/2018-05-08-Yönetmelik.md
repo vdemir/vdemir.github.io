@@ -12,11 +12,11 @@ comments: False
 
 <p class="meta">08 Mayıs 2018 - Türkiye</p>
 
-C Programlamada Pointers İşaretçiler
+Yönetmelik ve Şartnameler
 -------------
 
 
-[BİNA İÇİ ELEKTRONİK HABERLEŞME TESİSATI TEKNİK ŞARTNAMESİ](/assets/pdf/BİNA İÇİ ELEKTRONİK HABERLEŞME TESİSATI TEKNİK ŞARTNAMESİ.pdf)
+[BİNA İÇİ ELEKTRONİK HABERLEŞME TESİSATI TEKNİK ŞARTNAMESİ - ARALIK 2013](/assets/pdf/BİNA İÇİ ELEKTRONİK HABERLEŞME TESİSATI TEKNİK ŞARTNAMESİ.pdf)
 
 
 Bu yazıda işaretçiler hakkında bilgi edineceksiniz; onlar nedir, onları nasıl kullanırsınız ve onlarla çalışırken karşılaşabileceğiniz yaygın hatalar nelerdir.
