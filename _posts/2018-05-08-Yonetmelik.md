@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Yönetmelik
-date:   2018-01-16 13:52:00
+date:   2018-05-08 13:52:00
 tags:   Denetim
 comments: False
 ---
