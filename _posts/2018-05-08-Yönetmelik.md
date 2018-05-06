@@ -16,9 +16,14 @@ Mevzuat Bilgi Sistemi : http://mevzuat.basbakanlik.gov.tr - http://www.tedas.gov
 -------------
 
 
-[DAĞITIM ŞEBEKELERİ ENERJİ KABLOLARI MONTAJ UYGULAMA USUL ve ESASLARI - KASIM 2017](/assets/pdf/Dagitim Sebekeleri Enerji Kablolari Montaj (Uygulama) Usul ve Esasları.pdf)
+[ELEKTRİK KUVVETLİ AKIM TESİSLERİ YÖNETMELİĞİ - KASIM 2000](/assets/pdf/ELEKTRİK KUVVETLİ AKIM TESİSLERİ YÖNETMELİĞİ.pdf)
 
-[KABLO BACASI VE ENERJİ ODASININ ÖLÇÜ VE DETAYLARI İLE UYGULAMA ALANLARINA İLİŞKİN ESASLAR - NİSAN 2006 (REVİZE)](/assets/pdf/Kablo Bacası ve Enerji Odasının Ölçü ve Detayları ile Uygulama Esasları.pdf)
+
+[BİNALARIN YANGINDAN KORUNMASI HAKKINDA YÖNETMELİK - ARALIK 2007](/assets/pdf/BİNALARIN YANGINDAN KORUNMASI HAKKINDA YÖNETMELİK.pdf)
+
+[DAĞITIM ŞEBEKELERİ ENERJİ KABLOLARI MONTAJ UYGULAMA USUL ve ESASLARI - TEDAŞ KASIM 2017](/assets/pdf/Dagitim Sebekeleri Enerji Kablolari Montaj (Uygulama) Usul ve Esasları.pdf)
+
+[KABLO BACASI VE ENERJİ ODASININ ÖLÇÜ VE DETAYLARI İLE UYGULAMA ALANLARINA İLİŞKİN ESASLAR - TEDAŞ NİSAN 2006 (REVİZE)](/assets/pdf/Kablo Bacası ve Enerji Odasının Ölçü ve Detayları ile Uygulama Esasları.pdf)
 
 [YAPI DENETİMİ UYGULAMA YÖNETMELİĞİ - ŞUBAT 2008](/assets/pdf/YAPI DENETİMİ UYGULAMA YÖNETMELİĞİ.pdf)
 
@@ -33,4 +38,6 @@ Mevzuat Bilgi Sistemi : http://mevzuat.basbakanlik.gov.tr - http://www.tedas.gov
 [BİNA İÇİ ELEKTRONİK HABERLEŞME TESİSATI TEKNİK ŞARTNAMESİ - ARALIK 2013](/assets/pdf/BİNA İÇİ ELEKTRONİK HABERLEŞME TESİSATI TEKNİK ŞARTNAMESİ.pdf)
 
 [ELEKTRİK İÇ TESİSLERİ YÖNETMELİĞİ - KASIM 1984](/assets/doc/ELEKTRİK İÇ TESİSLERİ YÖNETMELİĞİ.doc)
+
+[NOT-İLETKENLERİN BOYUTLANDIRILMASI - EMO E-KİTAP ANKARA 2011](/assets/pdf/İletkenlerin Boyutlandırılması.pdf)
 
