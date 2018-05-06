@@ -22,7 +22,7 @@ Mevzuat Bilgi Sistemi : http://mevzuat.basbakanlik.gov.tr - http://www.tedas.gov
 
 [YAPI DENETİMİ UYGULAMA YÖNETMELİĞİ - ŞUBAT 2008](/assets/pdf/YAPI DENETİMİ UYGULAMA YÖNETMELİĞİ.pdf)
 
-[YAPI DENETİMİ UYGULAMA YÖNETMELİĞİ EK - ŞUBAT 2008](/assets/pdf/YAPI DENETİMİ UYGULAMA YÖNETMELİĞİ-EK.doc)
+[YAPI DENETİMİ UYGULAMA YÖNETMELİĞİ EK - ŞUBAT 2008](/assets/doc/YAPI DENETİMİ UYGULAMA YÖNETMELİĞİ-EK.doc)
 
 [ELEKTRİK TESİSLERİNDE TOPRAKLAMALAR YÖNETMELİĞİ - AĞUSTOS 2001](/assets/pdf/ELEKTRİK TESİSLERİNDE TOPRAKLAMALAR YÖNETMELİĞİ.pdf)
 
