@@ -15,6 +15,11 @@ comments: False
 Mevzuat Bilgi Sistemi - http://mevzuat.basbakanlik.gov.tr
 -------------
 
+
+[YAPI DENETİMİ UYGULAMA YÖNETMELİĞİ - ŞUBAT 2008](/assets/pdf/YAPI DENETİMİ UYGULAMA YÖNETMELİĞİ.pdf)
+
+[YAPI DENETİMİ UYGULAMA YÖNETMELİĞİ EK - ŞUBAT 2008](/assets/pdf/YAPI DENETİMİ UYGULAMA YÖNETMELİĞİ-EK.doc)
+
 [ELEKTRİK TESİSLERİNDE TOPRAKLAMALAR YÖNETMELİĞİ - AĞUSTOS 2001](/assets/pdf/ELEKTRİK TESİSLERİNDE TOPRAKLAMALAR YÖNETMELİĞİ.pdf)
 
 [ELEKTRİK İÇ TESİSLERİ PROJE HAZIRLAMA YÖNETMELİĞİ - ARALIK 2003](/assets/pdf/ELEKTRİK İÇ TESİSLERİ PROJE HAZIRLAMA YÖNETMELİĞİ.pdf)
