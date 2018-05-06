@@ -6,7 +6,7 @@ tags:   C Programlama
 comments: False
 ---
 
-{{ page.title }}
+{ page.title }
 ================
 {% include CSS.html %}
 <p class="meta">8 Ocak 2018 - Türkiye</p>
@@ -241,7 +241,7 @@ Here is another function for reversing a list. As before it checks for the empty
 
     (fun {reverse l} {
       if (== l {})
-        {{}}
+        {()}
         {join (reverse (tail l)) (head l)}
     })
 
