@@ -12,8 +12,7 @@ comments: False
 
 <p class="meta">08 Mayıs 2018 - Türkiye</p>
 
-Mevzuat Bilgi Sistemi 
-http://mevzuat.basbakanlik.gov.tr - http://www.tedas.gov.tr/#!tedas_mevzuatlar
+Mevzuat Bilgi Sistemi : http://mevzuat.basbakanlik.gov.tr - http://www.tedas.gov.tr/#!tedas_mevzuatlar
 -------------
 
 
