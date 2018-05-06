@@ -12,11 +12,12 @@ comments: False
 
 <p class="meta">08 Mayıs 2018 - Türkiye</p>
 
-Mevzuat Bilgi Sistemi - http://mevzuat.basbakanlik.gov.tr - http://www.tedas.gov.tr/#!tedas_mevzuatlar
+Mevzuat Bilgi Sistemi 
+http://mevzuat.basbakanlik.gov.tr - http://www.tedas.gov.tr/#!tedas_mevzuatlar
 -------------
 
 
-[Dagitim Sebekeleri Enerji Kablolari Montaj (Uygulama) Usul ve Esasları - KASIM 2017](/assets/pdf/Dagitim Sebekeleri Enerji Kablolari Montaj (Uygulama) Usul ve Esasları.pdf)
+[DAĞITIM ŞEBEKELERİ ENERJİ KABLOLARI MONTAJ UYGULAMA USUL ve ESASLARI - KASIM 2017](/assets/pdf/Dagitim Sebekeleri Enerji Kablolari Montaj (Uygulama) Usul ve Esasları.pdf)
 
 [KABLO BACASI VE ENERJİ ODASININ ÖLÇÜ VE DETAYLARI İLE UYGULAMA ALANLARINA İLİŞKİN ESASLAR - NİSAN 2006 (REVİZE)](/assets/pdf/Kablo Bacası ve Enerji Odasının Ölçü ve Detayları ile Uygulama Esasları.pdf)
 
