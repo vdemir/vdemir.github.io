@@ -18,7 +18,6 @@ Mevzuat Bilgi Sistemi : http://mevzuat.basbakanlik.gov.tr - http://www.tedas.gov
 
 [ELEKTRİK KUVVETLİ AKIM TESİSLERİ YÖNETMELİĞİ - KASIM 2000](/assets/pdf/ELEKTRİK KUVVETLİ AKIM TESİSLERİ YÖNETMELİĞİ.pdf)
 
-
 [BİNALARIN YANGINDAN KORUNMASI HAKKINDA YÖNETMELİK - ARALIK 2007](/assets/pdf/BİNALARIN YANGINDAN KORUNMASI HAKKINDA YÖNETMELİK.pdf)
 
 [DAĞITIM ŞEBEKELERİ ENERJİ KABLOLARI MONTAJ UYGULAMA USUL ve ESASLARI - TEDAŞ KASIM 2017](/assets/pdf/Dagitim Sebekeleri Enerji Kablolari Montaj (Uygulama) Usul ve Esasları.pdf)
@@ -33,11 +32,17 @@ Mevzuat Bilgi Sistemi : http://mevzuat.basbakanlik.gov.tr - http://www.tedas.gov
 
 [ELEKTRİK İÇ TESİSLERİ PROJE HAZIRLAMA YÖNETMELİĞİ - ARALIK 2003](/assets/pdf/ELEKTRİK İÇ TESİSLERİ PROJE HAZIRLAMA YÖNETMELİĞİ.pdf)
 
-[ELEKTRİK TESİSLERİ GENEL TEKNİK ŞARTNAMESİ ve UYGULAMA ESASLARI - EMO Ankara 2012](/assets/pdf/ELEKTRİK TESİSLERİ GENEL TEKNİK ŞARTNAMESİ ve UYGULAMA ESASLARI.pdf)
-
 [BİNA İÇİ ELEKTRONİK HABERLEŞME TESİSATI TEKNİK ŞARTNAMESİ - ARALIK 2013](/assets/pdf/BİNA İÇİ ELEKTRONİK HABERLEŞME TESİSATI TEKNİK ŞARTNAMESİ.pdf)
 
 [ELEKTRİK İÇ TESİSLERİ YÖNETMELİĞİ - KASIM 1984](/assets/doc/ELEKTRİK İÇ TESİSLERİ YÖNETMELİĞİ.doc)
 
+[ASANSÖR YÖNETMELİĞİ - HAZİRAN 2016](/assets/pdf/ASANSÖR YÖNETMELİĞİ.pdf)
+
+[ASANSÖR YÖNETMELİĞİ EK - HAZİRAN 2016](/assets/doc/ASANSÖR YÖNETMELİĞİ-Ek.docx)
+
+[ELEKTRİK TESİSLERİ GENEL TEKNİK ŞARTNAMESİ ve UYGULAMA ESASLARI - EMO Ankara 2012](/assets/pdf/ELEKTRİK TESİSLERİ GENEL TEKNİK ŞARTNAMESİ ve UYGULAMA ESASLARI.pdf)
+
 [NOT-İLETKENLERİN BOYUTLANDIRILMASI - EMO E-KİTAP ANKARA 2011](/assets/pdf/İletkenlerin Boyutlandırılması.pdf)
+
+
 
