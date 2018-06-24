@@ -34,7 +34,7 @@ comments: False
 | complaint     |   |   |   | yakınma                  |   |
 | debate        |   |   |   | münazara                 |   |
 | familiar         |   |   |   | alışıldık                |   |
-| hum(mırıldanmak) |   |   |   | hemfikir olmak           |   |
+| hum(along) |   |   |   | mırıldanmak           |   |
 | please           |   |   |   | hoşnut etmek             |   |
 | give             |   |   |   | bahşetmek                |   |
 | involve          |   |   |   | yol açmak                |   |
