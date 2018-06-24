@@ -19,14 +19,18 @@ comments: False
 |---------------|---|---|---|---------------------|---|
 | comprehend    |   |   |   | bir konuyu kavramak |   |
 | trick         |   |   |   | hile, aldatmaca     |   |
-|               |   |   |   |                     |   |
-
-| English Words |   |   |   | Turkish Meanings    | 
-|---------------|---|---|---|---------------------| 
-| comprehend    |   |   |   | bir konuyu kavramak | 
-| stroll        |   |   |   | gezinti             | 
-| trick         |   |   |   | hile, aldatmaca     | 
-
+| stroll        |   |   |   | gezinti             |   |
+| agree         |   |   |   | hemfikir olmak      |   |
+| absence       |   |   |   | yitiklik            |   |
+| afraid        |   |   |   | -den ürkmek         |   |
+| angry         |   |   |   | kızgın              |   |
+| arrive        |   |   |   | varmak              |   |
+| attack        |   |   |   | hücum               |   |
+| bottom        |   |   |   | taban               |   |
+| clever        |   |   |   | becerikli           |   |
+| cruel         |   |   |   | insafsız            |   |
+| finally       |   |   |   | nihayet             |   |
+| hide          |   |   |   | gizlemek            |   |
 
 ~~~
 ~~~
