@@ -21,11 +21,11 @@ comments: False
 | trick         |   |   |   | hile, aldatmaca     |   |
 |               |   |   |   |                     |   |
 
-| English Words | a | b | c | Turkish Meanings    | 
+| English Words |   |   |   | Turkish Meanings    | 
 |---------------|---|---|---|---------------------| 
-| comprehend    | a | b | c | bir konuyu kavramak | 
-| stroll        | a | B | S | gezinti             | 
-| trick         | C | V | B | hile, aldatmaca     | 
+| comprehend    |   |   |   | bir konuyu kavramak | 
+| stroll        |   |   |   | gezinti             | 
+| trick         |   |   |   | hile, aldatmaca     | 
 
 
 ~~~
