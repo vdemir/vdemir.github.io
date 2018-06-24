@@ -12,8 +12,7 @@ comments: False
 
 <p class="meta">27 Haziran 2018 - Türkiye</p>
 
-Virus scanning with ClamAV
--------------
+### Vocabulary
 
 | English Words | Turkish Meanings    | 
 |---------------|---------------------| 
