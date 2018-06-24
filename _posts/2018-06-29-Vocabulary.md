@@ -46,6 +46,7 @@ comments: False
 | finally       |   |   |   | nihayet                  |   |
 | hide          |   |   |   | gizlemek                 |   |
 
+
 | English Words |   |   |   | Turkish Meanings    |   |   |   |   |   |   |   | English Words |   |   |   | Turkish Meanings |
 |---------------|---|---|---|---------------------|---|---|---|---|---|---|---|---------------|---|---|---|------------------|
 | comprehend    |   |   |   | bir konuyu kavramak |   |   |   |   |   |   |   | trick         |   |   |   | hile, aldatmaca  |
@@ -62,5 +63,7 @@ comments: False
 |               |   |   |   |                     |   |   |   |   |   |   |   |               |   |   |   |                  |
 |               |   |   |   |                     |   |   |   |   |   |   |   |               |   |   |   |                  |
 |               |   |   |   |                     |   |   |   |   |   |   |   |               |   |   |   |                  |
+
+
 ~~~
 ~~~
