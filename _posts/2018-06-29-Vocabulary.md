@@ -33,11 +33,11 @@ comments: False
 |---------------|---|---|---|--------------------------|---|
 | complaint     |   |   |   | yakınma                  |   |
 | debate        |   |   |   | münazara                 |   |
-| familiar         |   |   |   | alışıldık                |   |
-| hum(along) |   |   |   | mırıldanmak           |   |
-| please           |   |   |   | hoşnut etmek             |   |
-| give             |   |   |   | bahşetmek                |   |
-| involve          |   |   |   | yol açmak                |   |
+| familiar      |   |   |   | alışıldık                |   |
+| hum(along)    |   |   |   | mırıldanmak              |   |
+| please        |   |   |   | hoşnut etmek               |   |
+| give          |   |   |   | bahşetmek                |   |
+| involve       |   |   |   | yol açmak                |   |
 | common           |   |   |   | müşterek umumi           |   |
 | free             |   |   |   | muaf                     |   |
 | appealing        |   |   |   | sempatik                 |   |
@@ -51,7 +51,7 @@ comments: False
 | comprehend    |   |   |   | bir konuyu kavramak | 
 | stroll        |   |   |   | gezinti             | 
 | trick         |   |   |   | hile, aldatmaca     | 
-| trick         |   |   |   | hile, aldatmaca     | 
+| agree         |   |   |   | hemfikir olmak      | 
 | trick         |   |   |   | hile, aldatmaca     | 
 | trick         |   |   |   | hile, aldatmaca     | 
 | trick         |   |   |   | hile, aldatmaca     | 
