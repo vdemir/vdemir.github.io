@@ -20,7 +20,11 @@ comments: False
 | stroll        | gezinti             | 
 | trick         | hile, aldatmaca     | 
 
-
+| English Words |   | Turkish Meanings    |   |   |
+|---------------|---|---------------------|---|---|
+| comprehend    |   | bir konuyu kavramak |   |   |
+|               |   |                     |   |   |
+|               |   |                     |   |   |
 
 ~~~
 ~~~
