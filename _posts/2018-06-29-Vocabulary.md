@@ -12,8 +12,6 @@ comments: False
 
 <p class="meta">27 Haziran 2018 - Türkiye</p>
 
-### Vocabulary
-
 
 | English Words |   |   |   | Turkish Meanings    |   |
 |---------------|---|---|---|---------------------|---|
@@ -31,6 +29,21 @@ comments: False
 | cruel         |   |   |   | insafsız            |   |
 | finally       |   |   |   | nihayet             |   |
 | hide          |   |   |   | gizlemek            |   |
-
+| disappoint       |   |   |   | hayal kırıklığı yaşatmak |   |
+|------------------|---|---|---|--------------------------|---|
+| complaint        |   |   |   | yakınma                  |   |
+| debate           |   |   |   | münazara                 |   |
+| familiar         |   |   |   | alışıldık                |   |
+| hum(mırıldanmak) |   |   |   | hemfikir olmak           |   |
+| please           |   |   |   | hoşnut etmek             |   |
+| give             |   |   |   | bahşetmek                |   |
+| involve          |   |   |   | yol açmak                |   |
+| common           |   |   |   | müşterek umumi           |   |
+| free             |   |   |   | muaf                     |   |
+| appealing        |   |   |   | sempatik                 |   |
+| clever           |   |   |   | becerikli                |   |
+| cruel            |   |   |   | insafsız                 |   |
+| finally          |   |   |   | nihayet                  |   |
+| hide             |   |   |   | gizlemek                 |   |
 ~~~
 ~~~
