@@ -46,13 +46,22 @@ comments: False
 | finally       |   |   |   | nihayet                  |   |
 | hide          |   |   |   | gizlemek                 |   |
 
-
 | English Words |   |   |   | Turkish Meanings    |   |   |   | English Words |   |   |   | Turkish Meanings |
 |---------------|---|---|---|---------------------|---|---|---|---------------|---|---|---|------------------|
-| comprehend    |   |   |   | bir konuyu kavramak |   |   |   | complaint     |   |   |   | yakınma          |
+| comprehend    |   |   |   | bir konuyu kavramak |   |   |   | trick         |   |   |   | hile, aldatmaca  |
+| stroll        |   |   |   | gezinti             |   |   |   | agree         |   |   |   | hemfikir olmak   |
 |               |   |   |   |                     |   |   |   |               |   |   |   |                  |
 |               |   |   |   |                     |   |   |   |               |   |   |   |                  |
-
+|               |   |   |   |                     |   |   |   |               |   |   |   |                  |
+|               |   |   |   |                     |   |   |   |               |   |   |   |                  |
+|               |   |   |   |                     |   |   |   |               |   |   |   |                  |
+|               |   |   |   |                     |   |   |   |               |   |   |   |                  |
+|               |   |   |   |                     |   |   |   |               |   |   |   |                  |
+|               |   |   |   |                     |   |   |   |               |   |   |   |                  |
+|               |   |   |   |                     |   |   |   |               |   |   |   |                  |
+|               |   |   |   |                     |   |   |   |               |   |   |   |                  |
+|               |   |   |   |                     |   |   |   |               |   |   |   |                  |
+|               |   |   |   |                     |   |   |   |               |   |   |   |                  |
 
 ~~~
 ~~~
