@@ -29,10 +29,10 @@ comments: False
 | cruel         |   |   |   | insafsız            |   |
 | finally       |   |   |   | nihayet             |   |
 | hide          |   |   |   | gizlemek            |   |
-| disappoint       |   |   |   | hayal kırıklığı yaşatmak |   |
-|------------------|---|---|---|--------------------------|---|
-| complaint        |   |   |   | yakınma                  |   |
-| debate           |   |   |   | münazara                 |   |
+| disappoint    |   |   |   | hayal kırıklığı yaşatmak |   |
+|---------------|---|---|---|--------------------------|---|
+| complaint     |   |   |   | yakınma                  |   |
+| debate        |   |   |   | münazara                 |   |
 | familiar         |   |   |   | alışıldık                |   |
 | hum(mırıldanmak) |   |   |   | hemfikir olmak           |   |
 | please           |   |   |   | hoşnut etmek             |   |
