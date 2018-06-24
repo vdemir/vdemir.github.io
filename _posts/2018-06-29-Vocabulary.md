@@ -14,26 +14,19 @@ comments: False
 
 ### Vocabulary
 
-| English Words | Turkish Meanings    | 
-|---------------|---------------------| 
-| comprehend    | bir konuyu kavramak | 
-| stroll        | gezinti             | 
-| trick         | hile, aldatmaca     | 
-
-
-| English Words |   |   | Turkish Meanings    |   |
-|---------------|---|---|---------------------|---|
-| comprehend    |   |   | bir konuyu kavramak |   |
-| trick         |   |   | hile, aldatmaca     |   |
-|               |   |   |                     |   |
-
-
 
 | English Words |   |   |   | Turkish Meanings    |   |
 |---------------|---|---|---|---------------------|---|
 | comprehend    |   |   |   | bir konuyu kavramak |   |
 | trick         |   |   |   | hile, aldatmaca     |   |
 |               |   |   |   |                     |   |
+
+| English Words | a | b | c | Turkish Meanings    | 
+|---------------|---|---|---|---------------------| 
+| comprehend    | a | b | c | bir konuyu kavramak | 
+| stroll        | a | B | S | gezinti             | 
+| trick         | C | V | B | hile, aldatmaca     | 
+
 
 ~~~
 ~~~
