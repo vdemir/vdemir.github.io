@@ -15,11 +15,13 @@ comments: False
 Virus scanning with ClamAV
 -------------
 
-| Words          | Turkish Meaning                   | 
-|------------|---------------------| 
-| comprehend | bir konuyu kavramak | 
-| stroll     | gezinti             | 
-| trick      | hile, aldatmaca     | 
+| English Words | Turkish Meanings    | 
+|---------------|---------------------| 
+| comprehend    | bir konuyu kavramak | 
+| stroll        | gezinti             | 
+| trick         | hile, aldatmaca     | 
+
+
 
 ~~~
 ~~~
