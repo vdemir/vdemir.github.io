@@ -47,13 +47,11 @@ comments: False
 | hide          |   |   |   | gizlemek                 |   |
 
 
-| English Words |   |   |   | Turkish Meanings    |   |   | English Words |   |   |   | Turkish Meanings |
-|---------------|---|---|---|---------------------|---|---|---------------|---|---|---|------------------|
-| comprehend    |   |   |   | bir konuyu kavramak |   |   | complaint     |   |   |   | yakınma          |
-|               |   |   |   |                     |   |   |               |   |   |   |                  |
-|               |   |   |   |                     |   |   |               |   |   |   |                  |
-|               |   |   |   |                     |   |   |               |   |   |   |                  |
-|               |   |   |   |                     |   |   |               |   |   |   |                  |
+| English Words |   |   |   | Turkish Meanings    |   |   |   | English Words |   |   |   | Turkish Meanings |
+|---------------|---|---|---|---------------------|---|---|---|---------------|---|---|---|------------------|
+| comprehend    |   |   |   | bir konuyu kavramak |   |   |   | complaint     |   |   |   | yakınma          |
+|               |   |   |   |                     |   |   |   |               |   |   |   |                  |
+|               |   |   |   |                     |   |   |   |               |   |   |   |                  |
 
 
 ~~~
