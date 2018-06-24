@@ -38,5 +38,11 @@ comments: False
 |               |  |  |                     |  |
 +---------------+--+--+---------------------+--+
 
+| English Words |   |   |   | Turkish Meanings    |   |
+|---------------|---|---|---|---------------------|---|
+| comprehend    |   |   |   | bir konuyu kavramak |   |
+| trick         |   |   |   | hile, aldatmaca     |   |
+|               |   |   |   |                     |   |
+
 ~~~
 ~~~
