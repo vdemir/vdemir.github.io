@@ -41,7 +41,7 @@ comments: False
 | probably      |   |   |   | herhalde                 |   | get along     |   |   |   | uyuşmak                                 |
 | process       |   |   |   | ameliye                  |   | assume        |   |   |   | yakıştırmak                             |
 | sense         |   |   |   | sezmek                   |   | fit           |   |   |   | çelişmemek                              |
-| tantalizing   |   |   |   | baştan çıkarıcı          |   | charge        |   |   |   | geçirmek bir masrafı birinin hesabına   |
+| tantalizing   |   |   |   | baştan çıkarıcı          |   | charge        |   |   |   | geçirmek masrafı birinin hesabına       |
 | tempting      |   |   |   | çok cazip                |   | aware         |   |   |   | bilinçli                                |
 | thorough      |   |   |   | dikkatli, kapsamlı       |   |               |   |   |   |                                         |
 
