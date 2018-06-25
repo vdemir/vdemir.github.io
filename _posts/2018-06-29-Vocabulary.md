@@ -46,9 +46,8 @@ comments: False
 | thorough      |   |   |  |   | dikkatli, kapsamlı        |   |  |  |  |  |               |   |   |  |   |                                                   | 
 
 
-## Çizelge1
 | English Words |   |   |   | Turkish Meanings         |   | English Words |   |   |   | Turkish Meanings                        |
-|:--------------|:--|:--|:--|:-------------------------|:--|:--------------|:--|:--|:--|:----------------------------------------|
+|---------------|---|---|---|:-------------------------|---|---------------|---|---|---|-----------------------------------------|
 | comprehend    |   |   |   | bir konuyu kavramak      |   | disappoint    |   |   |   | hayal kırıklığı yaşatmak                |
 | trick         |   |   |   | hile, aldatmaca          |   | complaint     |   |   |   | yakınma                                 |
 | stroll        |   |   |   | gezinti                  |   | debate        |   |   |   | münazara                                |
