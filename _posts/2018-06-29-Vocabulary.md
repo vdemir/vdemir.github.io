@@ -9,9 +9,9 @@ comments: False
 {{ page.title }}
 ================
 {% include CSS.html %}
-{% include paging.html %}
-<link rel="import" href="_includes/output_file.md">
 <p class="meta">27 Haziran 2018 - Türkiye</p>
+
+{% include paging.html %}
 
 | English Words |   | Turkish Meanings    |    |    | English Words |   | Turkish Meanings                  |
 |:--------------|:--|:--------------------|:---|:---|:--------------|:--|:----------------------------------|
