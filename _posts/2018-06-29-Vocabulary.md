@@ -14,12 +14,12 @@ comments: False
 
 | English Words |   | Turkish Meanings    |    |    | English Words |   | Turkish Meanings                  |
 |:--------------|:--|:--------------------|:---|:---|:--------------|:--|:----------------------------------|
-| comprehend    |   | bir konuyu kavramak | 1  | 30 | disappoint    |   | hayal kırıklığı yaşatmak          |
-| trick         |   | hile, aldatmaca     | 2  | 31 | complaint     |   | yakınma                           |
-| stroll        |   | gezinti             | 3  | 32 | debate        |   | münazara                          |
-| agree         |   | hemfikir olmak      | 4  | 33 | familiar      |   | alışıldık                         |
-| absence       |   | yitiklik            | 5  | 34 | hum(along)    |   | mırıldanmak                       |
-| afraid        |   | -den ürkmek         | 6  | 35 | please        |   | hoşnut etmek                      |
+| comprehend    |   | bir konuyu kavramak |    |    | disappoint    |   | hayal kırıklığı yaşatmak          |
+| trick         |   | hile, aldatmaca     |    |    | complaint     |   | yakınma                           |
+| stroll        |   | gezinti             |    |    | debate        |   | münazara                          |
+| agree         |   | hemfikir olmak      |    |    | familiar      |   | alışıldık                         |
+| absence       |   | yitiklik            |    |    | hum(along)    |   | mırıldanmak                       |
+| afraid        |   | -den ürkmek         |    |    | please        |   | hoşnut etmek                      |
 | angry         |   | kızgın              | 7  | 36 | give          |   | bahşetmek                         |
 | arrive        |   | varmak              | 8  | 37 | involve       |   | yol açmak                         |
 | attack        |   | hücum               | 9  | 38 | common        |   | müşterek umumi                    |
