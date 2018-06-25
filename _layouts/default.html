@@ -8,6 +8,11 @@
    <meta name="author" content="Vedat Demir" />
    <meta name="readability-verification" content="e3fb0316180ffe5e0e35411b93161b5083c1b0e7"/>
 
+   {% if site.google.verify %}<!-- Webmaster Tools verfication -->
+   <meta name="google-site-verification" content="{{ site.google.verify }}" />{% endif %}
+   {% if site.bing-verify %}<meta name="msvalidate.01" content="{{ site.bing-verify }}">{% endif %}
+   {% if site.yandex-verify %}<meta name="yandex_site_verification" content="{{ site.yandex-verify }}">{% endif %}
+   
    <!-- syntax highlighting CSS -->
    <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
 
@@ -17,8 +22,6 @@
    <!-- Typekit -->
    <script src="https://use.typekit.com/jpd0pfm.js"></script>
    <script>try{Typekit.load();}catch(e){}</script>
-   <meta name="yandex-verification" content="b642748cb18cbd1c" />
-   <meta name="google-site-verification" content="zFuwF6tlf7YemTRN-ZOvl5lG1rjuI9qEomPbr_5vAu8" />
    <!-- Paging --> 
    <script src="/scripts/paging.js"></script>
    <!-- Cookie --> 
