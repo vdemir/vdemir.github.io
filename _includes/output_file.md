@@ -1,4 +1,3 @@
-
 | English Words |   | Turkish Meanings    |    |    | English Words |   | Turkish Meanings                  |
 |:--------------|:--|:--------------------|:---|:---|:--------------|:--|:----------------------------------|
 | comprehend    |   | bir konuyu kavramak |    |    | disappoint    |   | hayal kırıklığı yaşatmak          |
