@@ -31,7 +31,7 @@ comments: False
 | hide          |   |   |   | gizlemek                 |   | assess        |   |   |   | kıymet takdir etmek                     |
 | appealing     |   |   |   | sempatik                 |   | price         |   |   |   | bedel, eder                             |
 | attract       |   |   |   | cezbetmek                |   | cost          |   |   |   | mal olmak                               |
-| audit         |   |   |   | incelemek, kontrol etmek |   | store         |   |   |   | saklama                                 |
+| audit         |   |   |   | incelemek, kontrol       |   | store         |   |   |   | saklama                                 |
 | capture       |   |   |   | tutmak, zapt etmek       |   | harm          |   |   |   | zararı dokunmak                         |
 | chore         |   |   |   | zevksiz iş               |   | call          |   |   |   | haykırmak                               |
 | guess         |   |   |   | varsayım                 |   | fare          |   |   |   | tarife                                  |
@@ -41,7 +41,7 @@ comments: False
 | probably      |   |   |   | herhalde                 |   | get along     |   |   |   | uyuşmak                                 |
 | process       |   |   |   | ameliye                  |   | assume        |   |   |   | yakıştırmak                             |
 | sense         |   |   |   | sezmek                   |   | fit           |   |   |   | çelişmemek                              |
-| tantalizing   |   |   |   | baştan çıkarıcı          |   | charge        |   |   |   | geçirmek (bir masrafı birinin hesabına) |
+| tantalizing   |   |   |   | baştan çıkarıcı          |   | charge        |   |   |   | geçirmek bir masrafı birinin hesabına   |
 | tempting      |   |   |   | çok cazip                |   | aware         |   |   |   | bilinçli                                |
 | thorough      |   |   |   | dikkatli, kapsamlı       |   |               |   |   |   |                                         |
 
