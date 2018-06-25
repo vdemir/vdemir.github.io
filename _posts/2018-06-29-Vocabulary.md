@@ -34,7 +34,6 @@ comments: False
 | audit         |   |   |  |   | incelemek, kontrol etmek |   |  |  |  |  | store         |   |   |  |   | saklama                                 |
 | capture       |   |   |  |   | tutmak, zapt etmek       |   |  |  |  |  | harm          |   |   |  |   | zararı dokunmak                         |
 | chore         |   |   |  |   | zevksiz iş               |   |  |  |  |  | call          |   |   |  |   | haykırmak                               |
-|---------------|---|---|--|---|--------------------------|---|--|--|--|--|---------------|---|---|--|---|-----------------------------------------| 
 | guess         |   |   |  |   | varsayım                 |   |  |  |  |  | fare          |   |   |  |   | tarife                                  | 
 | humor         |   |   |  |   | nüktedanlık              |   |  |  |  |  | get           |   |   |  |   | çekip almak                             | 
 | intuitively   |   |   |  |   | öngörüyle                |   |  |  |  |  | take          |   |   |  |   | eline almak                             | 
