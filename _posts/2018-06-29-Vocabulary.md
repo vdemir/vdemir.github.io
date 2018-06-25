@@ -64,15 +64,13 @@ comments: False
 | hide          |   |   |   | gizlemek                 |   | assess        |   |   |   | kıymet takdir etmek                     |
 | appealing     |   |   |   | sempatik                 |   | price         |   |   |   | bedel, eder                             |
 | attract       |   |   |   | cezbetmek                |   | cost          |   |   |   | mal olmak                               |
-| audit         |   |   |   | incelemek,
-kontrol etmek |   | store         |   |   |   | saklama                                 |
+| audit         |   |   |   | incelemek, kontrol etmek |   | store         |   |   |   | saklama                                 |
 | capture       |   |   |   | tutmak, zapt etmek       |   | harm          |   |   |   | zararı dokunmak                         |
 | chore         |   |   |   | zevksiz iş               |   | call          |   |   |   | haykırmak                               |
 | guess         |   |   |   | varsayım                 |   | fare          |   |   |   | tarife                                  |
 | humor         |   |   |   | nüktedanlık              |   | get           |   |   |   | çekip almak                             |
 | intuitively   |   |   |   | öngörüyle                |   | take          |   |   |   | eline almak                             |
-| painstaking   |   |   |   | özenli
-İtinalı           |   | consume       |   |   |   | yiyip bitirmek                          |
+| painstaking   |   |   |   | özenli İtinalı           |   | consume       |   |   |   | yiyip bitirmek                          |
 | probably      |   |   |   | herhalde                 |   | get along     |   |   |   | uyuşmak                                 |
 | process       |   |   |   | ameliye                  |   | assume        |   |   |   | yakıştırmak                             |
 | sense         |   |   |   | sezmek                   |   | fit           |   |   |   | çelişmemek                              |
