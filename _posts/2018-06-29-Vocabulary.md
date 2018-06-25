@@ -9,6 +9,7 @@ comments: False
 {{ page.title }}
 ================
 {% include CSS.html %}
+{% include paging.html %}
 
 <p class="meta">27 Haziran 2018 - Türkiye</p>
 
