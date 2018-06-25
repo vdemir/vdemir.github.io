@@ -20,30 +20,29 @@ comments: False
 | agree         |   | hemfikir olmak      |    |    | familiar      |   | alışıldık                         |
 | absence       |   | yitiklik            |    |    | hum(along)    |   | mırıldanmak                       |
 | afraid        |   | -den ürkmek         |    |    | please        |   | hoşnut etmek                      |
-| angry         |   | kızgın              | 7  | 36 | give          |   | bahşetmek                         |
-| arrive        |   | varmak              | 8  | 37 | involve       |   | yol açmak                         |
-| attack        |   | hücum               | 9  | 38 | common        |   | müşterek umumi                    |
-| bottom        |   | taban               | 10 | 39 | free          |   | muaf                              |
-| clever        |   | becerikli           | 11 | 40 | appealing     |   | sempatik                          |
-| cruel         |   | insafsız            | 12 | 41 | waste         |   | heba etmek, atık                  |
-| finally       |   | nihayet             | 13 | 42 | easy          |   | doğal                             |
-| hide          |   | gizlemek            | 14 | 43 | assess        |   | kıymet takdir etmek               |
-| appealing     |   | sempatik            | 15 | 44 | price         |   | bedel, eder                       |
-| attract       |   | cezbetmek           | 16 | 45 | cost          |   | mal olmak                         |
-| audit         |   | incelemek,kontrol   | 17 | 46 | store         |   | saklama                           |
-| capture       |   | tutmak, zapt etmek  | 18 | 47 | harm          |   | zararı dokunmak                   |
-| chore         |   | zevksiz iş          | 19 | 48 | call          |   | haykırmak                         |
-| guess         |   | varsayım            | 20 | 49 | fare          |   | tarife                            |
-| humor         |   | nüktedanlık         | 21 | 50 | get           |   | çekip almak                       |
-| intuitively   |   | öngörüyle           | 22 | 51 | take          |   | eline almak                       |
-| painstaking   |   | özenli,itinalı      | 23 | 52 | consume       |   | yiyip bitirmek                    |
-| probably      |   | herhalde            | 24 | 53 | get along     |   | uyuşmak                           |
-| process       |   | ameliye             | 25 | 54 | assume        |   | yakıştırmak                       |
-| sense         |   | sezmek              | 26 | 55 | fit           |   | çelişmemek                        |
-| tantalizing   |   | baştan çıkarıcı     | 27 | 56 | charge        |   | geçirmek masrafı birinin hesabına |
-| tempting      |   | çok cazip           | 28 | 57 | aware         |   | bilinçli                          |
-| thorough      |   | dikkatli, kapsamlı  | 29 |    |               |   |                                   |
-
+| angry         |   | kızgın              |    |    | give          |   | bahşetmek                         |
+| arrive        |   | varmak              |    |    | involve       |   | yol açmak                         |
+| attack        |   | hücum               |    |    | common        |   | müşterek umumi                    |
+| bottom        |   | taban               |    |    | free          |   | muaf                              |
+| clever        |   | becerikli           |    |    | appealing     |   | sempatik                          |
+| cruel         |   | insafsız            |    |    | waste         |   | heba etmek, atık                  |
+| finally       |   | nihayet             |    |    | easy          |   | doğal                             |
+| hide          |   | gizlemek            |    |    | assess        |   | kıymet takdir etmek               |
+| appealing     |   | sempatik            |    |    | price         |   | bedel, eder                       |
+| attract       |   | cezbetmek           |    |    | cost          |   | mal olmak                         |
+| audit         |   | incelemek,kontrol   |    |    | store         |   | saklama                           |
+| capture       |   | tutmak, zapt etmek  |    |    | harm          |   | zararı dokunmak                   |
+| chore         |   | zevksiz iş          |    |    | call          |   | haykırmak                         |
+| guess         |   | varsayım            |    |    | fare          |   | tarife                            |
+| humor         |   | nüktedanlık         |    |    | get           |   | çekip almak                       |
+| intuitively   |   | öngörüyle           |    |    | take          |   | eline almak                       |
+| painstaking   |   | özenli,itinalı      |    |    | consume       |   | yiyip bitirmek                    |
+| probably      |   | herhalde            |    |    | get along     |   | uyuşmak                           |
+| process       |   | ameliye             |    |    | assume        |   | yakıştırmak                       |
+| sense         |   | sezmek              |    |    | fit           |   | çelişmemek                        |
+| tantalizing   |   | baştan çıkarıcı     |    |    | charge        |   | geçirmek masrafı birinin hesabına |
+| tempting      |   | çok cazip           |    |    | aware         |   | bilinçli                          |
+| thorough      |   | dikkatli, kapsamlı  |    |    |               |   |                                   |
 
 ~~~
 ~~~
