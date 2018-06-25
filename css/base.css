@@ -464,7 +464,6 @@
 /** Change Marking ************************************************************/
 
 	del { color: red;  text-decoration: line-through; }
-	ins { color: #080; text-decoration: underline;    }
 
 /** Miscellaneous improvements to inline formatting ***************************/
 
