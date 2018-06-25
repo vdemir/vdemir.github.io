@@ -12,5 +12,6 @@ comments: False
 <p class="meta">27 Haziran 2018 - Türkiye</p>
 
 {% include paging.html %}
+
 ~~~
 ~~~
