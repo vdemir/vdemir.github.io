@@ -1,91 +1,246 @@
-
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>Editable table in HTML5</title>
-    <meta charset="utf-8"> 
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" >
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-    <style type="text/css">
-    #mytable {
-        margin: 0 auto;
-        width: 60%;
-        position: relative;
-    }
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.7.2.custom.min.js"></script>
+<script type="text/javascript" src="js/jquery.chromatable.js"></script>
 
-    .glyphicon {
-        font-size: 20px;
-    }
-
-    .add-row {
-        color: #32CD32;
-    }
-
-    .add-row:hover {
-        color: #228B22;
-    }
-
-    .delete-row {
-        color: #FF0000;
-    }
-
-    .delete-row:hover {
-        color: #B22222;
-    }
-    </style>
-</head>
-<body>
-<div id="mytable">
-    <table class="table table-bordered">
-        <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Position</th>
-            <th><span class="add-row glyphicon glyphicon-plus"></span></th>
-        </tr>
-        <tr>
-            <td contenteditable="true">Kim</td>
-            <td contenteditable="true">Bell</td>
-            <td contenteditable="true">Senior Analyst</td>
-            <td><span class="delete-row glyphicon glyphicon-remove"></span></td>
-        </tr>
-        <tr>
-            <td contenteditable="true">Laurence</td>
-            <td contenteditable="true">Peter</td>
-            <td contenteditable="true">Technical Assistant</td>
-            <td><span class="delete-row glyphicon glyphicon-remove"></span></td>
-        </tr>
-        <tr>
-            <td contenteditable="true">Joe</td>
-            <td contenteditable="true">Franklin</td>
-            <td contenteditable="true">Accountant</td>
-            <td><span class="delete-row glyphicon glyphicon-remove"></span></td>
-        </tr>
-        <!-- hidden row -->
-        <tr class="hidden">
-            <td contenteditable="true">NIL</td>
-            <td contenteditable="true">NIL</td>
-            <td contenteditable="true">NIL</td>
-            <td><span class="delete-row glyphicon glyphicon-remove"></span></td>
-        </tr>
-    </table>
-</div>
-<script
-  src="https://code.jquery.com/jquery-1.10.2.min.js"
-  integrity="sha256-C6CB9UYIS9UJeqinPHWTHVqh/E1uhG5Twh+Y5qFQmYg="
-  crossorigin="anonymous"></script>
 <script>
-$(document).ready(function() {
-    // function to add row
-    $('.add-row').click(function () {
-        var $row = $('#mytable').find('tr.hidden').clone(true).removeClass('hidden');
-        $('#mytable').find('table').append($row);
-    });
 
-    // function to remove row
-    $('.delete-row').click(function () {
-        $(this).parents('tr').detach();
-    });
-});
+	$(document).ready(function(){
+	
+		$("#yourTableID").chromatable({
+		
+				width: "100%", // specify 100%, auto, or a fixed pixel amount
+				height: "400px",
+				scrolling: "no" // must have the jquery-1.3.2.min.js script installed to use
+				
+			});
+			
+		$("#yourTableID2").chromatable({
+		
+				width: "900px",
+				height: "400px",
+				scrolling: "yes"
+				
+			});	
+			
+		
+	});
+	
 </script>
-</body>
+</head>
+
+<body>
+
+
+<table id="yourTableID" width="100%" border="0" cellspacing="0" cellpadding="0">
+<thead>
+	<tr>
+		<th>Check out this header</th>
+		<th>Look here's another one</th>
+		<th>Wow, look at me!</th>
+	</tr>
+</thead>
+<tbody>	
+	<tr>
+		<td>Some content goes in here</td>
+		<td>Praesent vitae ligula nec orci pretium vestibulum</td>
+		<td>Maecenas tempus dictum libero</td>
+	</tr>
+	<tr>
+		<td>Quisque in wisi quis orci tincidunt fermentum</td>
+		<td>Mauris aliquet mattis metus</td>
+		<td>Etiam eu ante non leo egestas nonummy</td>
+	</tr>
+	<tr>
+		<td>Some content goes in here</td>
+		<td>Praesent vitae ligula nec orci pretium vestibulum</td>
+		<td>Maecenas tempus dictum libero</td>
+	</tr>
+	<tr>
+		<td>Quisque in wisi quis orci tincidunt fermentum</td>
+		<td>Mauris aliquet mattis metus</td>
+		<td>Etiam eu ante non leo egestas nonummy</td>
+	</tr>
+	<tr>
+		<td>Some content goes in here</td>
+		<td>Praesent vitae ligula nec orci pretium vestibulum</td>
+		<td>Maecenas tempus dictum libero</td>
+	</tr>
+	<tr>
+		<td>Quisque in wisi quis orci tincidunt fermentum</td>
+		<td>Mauris aliquet mattis metus</td>
+		<td>Etiam eu ante non leo egestas nonummy</td>
+	</tr>
+	<tr>
+		<td>Some content goes in here</td>
+		<td>Praesent vitae ligula nec orci pretium vestibulum</td>
+		<td>Maecenas tempus dictum libero</td>
+	</tr>
+	<tr>
+		<td>Quisque in wisi quis orci tincidunt fermentum</td>
+		<td>Mauris aliquet mattis metus</td>
+		<td>Etiam eu ante non leo egestas nonummy</td>
+	</tr>
+	<tr>
+		<td>Some content goes in here</td>
+		<td>Praesent vitae ligula nec orci pretium vestibulum</td>
+		<td>Maecenas tempus dictum libero</td>
+	</tr>
+	<tr>
+		<td>Quisque in wisi quis orci tincidunt fermentum</td>
+		<td>Mauris aliquet mattis metus</td>
+		<td>Etiam eu ante non leo egestas nonummy</td>
+	</tr>
+	<tr>
+		<td>Some content goes in here</td>
+		<td>Praesent vitae ligula nec orci pretium vestibulum</td>
+		<td>Maecenas tempus dictum libero</td>
+	</tr>
+	<tr>
+		<td>Quisque in wisi quis orci tincidunt fermentum</td>
+		<td>Mauris aliquet mattis metus</td>
+		<td>Etiam eu ante non leo egestas nonummy</td>
+	</tr>
+	<tr>
+		<td>Some content goes in here</td>
+		<td>Praesent vitae ligula nec orci pretium vestibulum</td>
+		<td>Maecenas tempus dictum libero</td>
+	</tr>
+	<tr>
+		<td>Quisque in wisi quis orci tincidunt fermentum</td>
+		<td>Mauris aliquet mattis metus</td>
+		<td>Etiam eu ante non leo egestas nonummy</td>
+	</tr>
+	<tr>
+		<td>Some content goes in here</td>
+		<td>Praesent vitae ligula nec orci pretium vestibulum</td>
+		<td>Maecenas tempus dictum libero</td>
+	</tr>
+	<tr>
+		<td>Quisque in wisi quis orci tincidunt fermentum</td>
+		<td>Mauris aliquet mattis metus</td>
+		<td>Etiam eu ante non leo egestas nonummy</td>
+	</tr>
+	<tr>
+		<td>Some content goes in here</td>
+		<td>Praesent vitae ligula nec orci pretium vestibulum</td>
+		<td>Maecenas tempus dictum libero</td>
+	</tr>
+	<tr>
+		<td>Quisque in wisi quis orci tincidunt fermentum</td>
+		<td>Mauris aliquet mattis metus</td>
+		<td>Etiam eu ante non leo egestas nonummy</td>
+	</tr>
+</tbody>	
+</table><br /><br />
+
+<table id="yourTableID2" width="100%" border="0" cellspacing="0" cellpadding="0">
+<thead>
+	<tr>
+		<th>Check out this header</th>
+		<th>Look here's another one</th>
+		<th>Wow, look at me!</th>
+	</tr>
+</thead>
+<tbody>	
+	<tr>
+		<td>Some content goes in here</td>
+		<td>Praesent vitae ligula nec orci pretium vestibulum</td>
+		<td>Maecenas tempus dictum libero</td>
+	</tr>
+	<tr>
+		<td>Quisque in wisi quis orci tincidunt fermentum</td>
+		<td>Mauris aliquet mattis metus</td>
+		<td>Etiam eu ante non leo egestas nonummy</td>
+	</tr>
+	<tr>
+		<td>Some content goes in here</td>
+		<td>Praesent vitae ligula nec orci pretium vestibulum</td>
+		<td>Maecenas tempus dictum libero</td>
+	</tr>
+	<tr>
+		<td>Quisque in wisi quis orci tincidunt fermentum</td>
+		<td>Mauris aliquet mattis metus</td>
+		<td>Etiam eu ante non leo egestas nonummy</td>
+	</tr>
+	<tr>
+		<td>Some content goes in here</td>
+		<td>Praesent vitae ligula nec orci pretium vestibulum</td>
+		<td>Maecenas tempus dictum libero</td>
+	</tr>
+	<tr>
+		<td>Quisque in wisi quis orci tincidunt fermentum</td>
+		<td>Mauris aliquet mattis metus</td>
+		<td>Etiam eu ante non leo egestas nonummy</td>
+	</tr>
+	<tr>
+		<td>Some content goes in here</td>
+		<td>Praesent vitae ligula nec orci pretium vestibulum</td>
+		<td>Maecenas tempus dictum libero</td>
+	</tr>
+	<tr>
+		<td>Quisque in wisi quis orci tincidunt fermentum</td>
+		<td>Mauris aliquet mattis metus</td>
+		<td>Etiam eu ante non leo egestas nonummy</td>
+	</tr>
+	<tr>
+		<td>Some content goes in here</td>
+		<td>Praesent vitae ligula nec orci pretium vestibulum</td>
+		<td>Maecenas tempus dictum libero</td>
+	</tr>
+	<tr>
+		<td>Quisque in wisi quis orci tincidunt fermentum</td>
+		<td>Mauris aliquet mattis metus</td>
+		<td>Etiam eu ante non leo egestas nonummy</td>
+	</tr>
+	<tr>
+		<td>Some content goes in here</td>
+		<td>Praesent vitae ligula nec orci pretium vestibulum</td>
+		<td>Maecenas tempus dictum libero</td>
+	</tr>
+	<tr>
+		<td>Quisque in wisi quis orci tincidunt fermentum</td>
+		<td>Mauris aliquet mattis metus</td>
+		<td>Etiam eu ante non leo egestas nonummy</td>
+	</tr>
+	<tr>
+		<td>Some content goes in here</td>
+		<td>Praesent vitae ligula nec orci pretium vestibulum</td>
+		<td>Maecenas tempus dictum libero</td>
+	</tr>
+	<tr>
+		<td>Quisque in wisi quis orci tincidunt fermentum</td>
+		<td>Mauris aliquet mattis metus</td>
+		<td>Etiam eu ante non leo egestas nonummy</td>
+	</tr>
+	<tr>
+		<td>Some content goes in here</td>
+		<td>Praesent vitae ligula nec orci pretium vestibulum</td>
+		<td>Maecenas tempus dictum libero</td>
+	</tr>
+	<tr>
+		<td>Quisque in wisi quis orci tincidunt fermentum</td>
+		<td>Mauris aliquet mattis metus</td>
+		<td>Etiam eu ante non leo egestas nonummy</td>
+	</tr>
+	<tr>
+		<td>Some content goes in here</td>
+		<td>Praesent vitae ligula nec orci pretium vestibulum</td>
+		<td>Maecenas tempus dictum libero</td>
+	</tr>
+	<tr>
+		<td>Quisque in wisi quis orci tincidunt fermentum</td>
+		<td>Mauris aliquet mattis metus</td>
+		<td>Etiam eu ante non leo egestas nonummy</td>
+	</tr>
+</tbody>	
+</table>
+More script and css style
+: <a href="http://www.htmldrive.net/" title="HTML DRIVE - Free DHMTL Scripts,Jquery 
+
+plugins,Javascript,CSS,CSS3,Html5 Library">www.htmldrive.net </a></body>
 </html>
