@@ -1,144 +1,91 @@
 
+<html>
+<head>
+    <title>Editable table in HTML5</title>
+    <meta charset="utf-8"> 
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" >
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <style type="text/css">
+    #mytable {
+        margin: 0 auto;
+        width: 60%;
+        position: relative;
+    }
 
-<style type="text/css">
-.wrap{
-width:700px;
-margin:0 auto;
-background:#eee;
-padding:20px;
-}
-.text-center{
-text-align:center;
-}
-.table-editable {
-position: relative;
-}
-.table-editable .glyphicon {
-font-size: 20px;
-}
+    .glyphicon {
+        font-size: 20px;
+    }
 
-.table-remove {
-color: #700;
-cursor: pointer;
-}
-.table-remove:hover {
-color: #f00;
-}
+    .add-row {
+        color: #32CD32;
+    }
 
-.table-up, .table-down {
-color: #007;
-cursor: pointer;
-}
-.table-up:hover, .table-down:hover {
-color: #00f;
-}
+    .add-row:hover {
+        color: #228B22;
+    }
 
-.table-add {
-color: #070;
-cursor: pointer;
-position: absolute;
-top: 8px;
-right: 0;
-}
-.table-add:hover {
-color: #0b0;
-}
+    .delete-row {
+        color: #FF0000;
+    }
+
+    .delete-row:hover {
+        color: #B22222;
+    }
     </style>
-<div class="wrap">
-<h1 class="text-center">HTML5 Editable Table</h1>
-<p>Create and edit an HTML5 table without the use of a library. Uses HTML5’s contenteditable and minimal JavaScript. hrough the powers of contenteditable and some simple jQuery you can easily create a custom editable table. No need for a robust JavaScript library anymore these days</p>
-<div id="table" class="table-editable">
-<span class="table-add glyphicon glyphicon-plus"></span>
-<table class="table">
-<tr>
-<th>Name</th>
-<th>Value</th>
-<th></th>
-<th></th>
-</tr>
-<tr>
-<td contenteditable="true">Stir Fry</td>
-<td contenteditable="true">stir-fry</td>
-<td>
-<span class="table-remove glyphicon glyphicon-remove"></span>
-</td>
-<td>
-<span class="table-up glyphicon glyphicon-arrow-up"></span>
-<span class="table-down glyphicon glyphicon-arrow-down"></span>
-</td>
-</tr>
-<!-- This is our clonable table line -->
-<tr class="hide">
-<td contenteditable="true">Untitled</td>
-<td contenteditable="true">undefined</td>
-<td>
-<span class="table-remove glyphicon glyphicon-remove"></span>
-</td>
-<td>
-<span class="table-up glyphicon glyphicon-arrow-up"></span>
-<span class="table-down glyphicon glyphicon-arrow-down"></span>
-</td>
-</tr>
-</table>
+</head>
+<body>
+<div id="mytable">
+    <table class="table table-bordered">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Position</th>
+            <th><span class="add-row glyphicon glyphicon-plus"></span></th>
+        </tr>
+        <tr>
+            <td contenteditable="true">Kim</td>
+            <td contenteditable="true">Bell</td>
+            <td contenteditable="true">Senior Analyst</td>
+            <td><span class="delete-row glyphicon glyphicon-remove"></span></td>
+        </tr>
+        <tr>
+            <td contenteditable="true">Laurence</td>
+            <td contenteditable="true">Peter</td>
+            <td contenteditable="true">Technical Assistant</td>
+            <td><span class="delete-row glyphicon glyphicon-remove"></span></td>
+        </tr>
+        <tr>
+            <td contenteditable="true">Joe</td>
+            <td contenteditable="true">Franklin</td>
+            <td contenteditable="true">Accountant</td>
+            <td><span class="delete-row glyphicon glyphicon-remove"></span></td>
+        </tr>
+        <!-- hidden row -->
+        <tr class="hidden">
+            <td contenteditable="true">NIL</td>
+            <td contenteditable="true">NIL</td>
+            <td contenteditable="true">NIL</td>
+            <td><span class="delete-row glyphicon glyphicon-remove"></span></td>
+        </tr>
+    </table>
 </div>
+<script
+  src="https://code.jquery.com/jquery-1.10.2.js"
+  integrity="sha256-it5nQKHTz+34HijZJQkpNBIHsjpV8b6QzMJs9tmOBSo="
+  crossorigin="anonymous"></script>
+<script>
+$(document).ready(function() {
+    // function to add row
+    $('.add-row').click(function () {
+        var $row = $('#mytable').find('tr.hidden').clone(true).removeClass('hidden');
+        $('#mytable').find('table').append($row);
+    });
 
-<button id="export-btn" class="btn btn-primary">Export Data</button>
-<p id="export"></p>
-</div>
-<script src="js/jquery-1.11.3.js"></script>
-<script type="text/javascript">
-var $TABLE = $('#table');
-var $BTN = $('#export-btn');
-var $EXPORT = $('#export');
-
-$('.table-add').click(function () {
-var $clone = $TABLE.find('tr.hide').clone(true).removeClass('hide table-line');
-$TABLE.find('table').append($clone);
-});
-
-$('.table-remove').click(function () {
-$(this).parents('tr').detach();
-});
-
-$('.table-up').click(function () {
-var $row = $(this).parents('tr');
-if ($row.index() === 1) return; // Don't go above the header
-$row.prev().before($row.get(0));
-});
-
-$('.table-down').click(function () {
-var $row = $(this).parents('tr');
-$row.next().after($row.get(0));
-});
-
-// A few jQuery helpers for exporting only
-jQuery.fn.pop = [].pop;
-jQuery.fn.shift = [].shift;
-
-$BTN.click(function () {
-var $rows = $TABLE.find('tr:not(:hidden)');
-var headers = [];
-var data = [];
-
-// Get the headers (add special header logic here)
-$($rows.shift()).find('th:not(:empty)').each(function () {
-headers.push($(this).text().toLowerCase());
-});
-
-// Turn all existing rows into a loopable array
-$rows.each(function () {
-var $td = $(this).find('td');
-var h = {};
-
-// Use the headers from earlier to name our hash keys
-headers.forEach(function (header, i) {
-h[header] = $td.eq(i).text();
-});
-
-data.push(h);
-});
-
-// Output the result
-$EXPORT.text(JSON.stringify(data));
+    // function to remove row
+    $('.delete-row').click(function () {
+        $(this).parents('tr').detach();
+    });
 });
 </script>
+</body>
+</html>
