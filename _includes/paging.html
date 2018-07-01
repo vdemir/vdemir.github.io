@@ -1,6 +1,26 @@
 
 <link rel="stylesheet" href="/css/paginate.css">
+<style>
+span {
+    color:blue;
+    cursor:pointer;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
 
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
 <p>Show page <span onclick="show('Page1');">1</span>, <span onclick="show('Page2');">2</span>, <span onclick="show('Page3');">\3/</span>, <span onclick="show('Page4');">\Toefl Words 1/</span>, <span onclick="show('Page5');">\Idioms/</span>, <span onclick="show('Page6');">\Toefl Words 2/</span>.
 </p>
 
