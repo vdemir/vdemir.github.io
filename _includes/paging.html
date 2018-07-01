@@ -1,4 +1,5 @@
 
+<link rel="stylesheet" href="/css/paginate.css">
 <style>
 span {
     color:blue;
@@ -20,8 +21,27 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 </style>
-<p>Show page <span onclick="show('Page1');">\1/</span>, <span onclick="show('Page2');">\2/</span>, <span onclick="show('Page3');">\3/</span>, <span onclick="show('Page4');">\Toefl Words 1/</span>, <span onclick="show('Page5');">\Idioms/</span>, <span onclick="show('Page6');">\Toefl Words 2/</span>.
+<p>Show page <span onclick="show('Page1');">1</span>, <span onclick="show('Page2');">2</span>, <span onclick="show('Page3');">\3/</span>, <span onclick="show('Page4');">\Toefl Words 1/</span>, <span onclick="show('Page5');">\Idioms/</span>, <span onclick="show('Page6');">\Toefl Words 2/</span>.
 </p>
+
+<div class="light">
+    <div class="paginate wrapper"><!-- The "wrapper" is just a comestic addition. You don't need this for the pagination to work. -->
+        <ul>
+            <li><a href="">&lang;</a></li>
+            <li><a href="/Words/content_page4.html">1</a></li>
+            <li><a href="/Words/content_page6.html" class="inactive">2</a></li>
+            <li><a href="">3</a></li>
+            <li><a href="" class="active">4</a></li>
+            <li><a href="">5</a></li>
+            <li><a href="" class="more">&hellip;</a></li>
+            <li><a href="">98</a></li>
+            <li><a href="">99</a></li>
+            <li><a href="">100</a></li>
+            <li><a href="">&rang;</a></li>
+        </ul>
+    </div>
+
+</div>
 
 <div id="Page1" class="page" style="display:none">
 	{% include content.html %}
