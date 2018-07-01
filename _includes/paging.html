@@ -21,23 +21,8 @@ tr:nth-child(even) {
 }
 </style>
 
-<link rel="stylesheet" href="/css/paginate.css">
-
-<div class="light">   
-    <div class="paginate wrapper">
-        <ul>
-            <li><a><span onclick="show('Page1');">50</span></a></li>
-            <li><a><span onclick="show('Page2');">100</span></a></li>
-            <li><a>150</a></li>
-            <li><a>200</a></li>
-            <li><a>250</a></li>
-            <li><a>300</a></li>
-            <li><a>350</a></li>
-            <li><a>400</a></li>
-        </ul>
-    </div>
-
-</div>
+<p>Show page <span onclick="show('Page1');">\1/</span>, <span onclick="show('Page2');">\2/</span>, <span onclick="show('Page3');">\3/</span>, <span onclick="show('Page4');">\4/</span>, <span onclick="show('Page5');">\5/</span>, <span onclick="show('Page6');">\6/</span>.
+</p>
 
 <div id="Page1" class="page" style="display:none">
 	{% include content_page1.html %}
