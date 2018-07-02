@@ -57,7 +57,6 @@ hr {
     width: 40%;
 }
 </style>
-<body>
 
 <div class="bgimg">
   <div class="topleft">
@@ -103,8 +102,6 @@ var countdownfunction = setInterval(function() {
     }
 }, 1000);
 </script>
-
-</body>
 
 ~~~
 ~~~
