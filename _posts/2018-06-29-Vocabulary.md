@@ -26,7 +26,7 @@ comments: False
     </div>
     <div class="row">
       <div class="col s6"> 
-          <input type="" id="rate" value="10" />
+          <input type="Hidden" id="rate" value="10" />
         
      
       
