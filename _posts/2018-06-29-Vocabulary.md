@@ -10,8 +10,12 @@ comments: False
 ================
 
 <p class="meta">27 Haziran 2018 - Türkiye</p>
+
+{% include paging.html %}
+{% include CSS.html %}
+
 <style>
-body, html {
+html {
     height: 100%;
     margin: 0;
 }
@@ -52,7 +56,6 @@ hr {
     width: 40%;
 }
 </style>
-<body>
 
 <div class="bgimg">
   <div class="topleft">
@@ -99,9 +102,6 @@ var countdownfunction = setInterval(function() {
 }, 1000);
 </script>
 
-</body>
-{% include paging.html %}
-{% include CSS.html %}
 
 ~~~
 ~~~
