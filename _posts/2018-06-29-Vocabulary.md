@@ -14,14 +14,15 @@ comments: False
 {% include paging.html %}
 {% include CSS.html %}
 
+
 <style>
-html {
+body, html {
     height: 100%;
     margin: 0;
 }
 
 .bgimg {
-    background-image: url('/images/forest-bridge.jpg');
+    background-image: url('/w3images/forestbridge.jpg');
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -56,6 +57,7 @@ hr {
     width: 40%;
 }
 </style>
+<body>
 
 <div class="bgimg">
   <div class="topleft">
@@ -102,6 +104,7 @@ var countdownfunction = setInterval(function() {
 }, 1000);
 </script>
 
+</body>
 
 ~~~
 ~~~
