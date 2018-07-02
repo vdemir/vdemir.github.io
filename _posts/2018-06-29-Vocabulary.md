@@ -99,7 +99,4 @@ $(function(){
 
 {% include CSS.html %}
 
-~~~
-~~~
-
 
