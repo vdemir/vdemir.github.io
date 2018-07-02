@@ -19,7 +19,6 @@ comments: False
 
 <div class="container">
   
-  <form class="col s8 offset-s2">
     <div class="row">
       <label>Choose voice</label>
       <select id="voices"></select>
@@ -30,7 +29,7 @@ comments: False
         
      
       
-          <input type="" id="pitch" value="1" />
+          <input type="Hidden" id="pitch" value="1" />
    
       
     </div>
@@ -41,7 +40,6 @@ comments: False
       </div>
     </div>
     <a href="#" id="speak" class="waves-effect waves-light btn">Speak</a>
-  </form>
 </div>
 
 <div id="modal1" class="modal">
