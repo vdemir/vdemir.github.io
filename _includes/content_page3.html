@@ -1,3 +1,36 @@
+
+
+<code>
+<head>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"> </script>
+    <script>
+        $(document).ready(function () {
+            $("#startBtn").on('click', function (e) {
+                debugger;
+                var u1 = new SpeechSynthesisUtterance('Hello Word..');
+                u1.lang = 'en-US';
+                u1.pitch = 1;
+                u1.rate = 1;
+                //u1.voice = voices[10];
+                u1.voiceURI = 'native';
+                u1.volume = 1;
+                speechSynthesis.speak(u1);
+
+            });
+        });
+    </script>
+    <title> </title>
+</head>
+<body>
+    <input type="button" id="startBtn" value="Hello Word.." />
+</body>
+</html>
+
+</code>
+
+
+
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;border-color:#aaa;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaa;color:#333;background-color:#fff;}
