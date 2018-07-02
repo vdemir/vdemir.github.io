@@ -12,7 +12,7 @@ comments: False
 <p class="meta">27 Haziran 2018 - Türkiye</p>
 <hr>
 {% include paging.html %}
-
+<hr>
 
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.1/css/materialize.min.css">
 
