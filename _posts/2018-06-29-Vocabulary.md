@@ -18,13 +18,7 @@ comments: False
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.1/css/materialize.min.css">
 
 <div class="container">
-  <div class="row">
-    <nav>
-      <div class="nav-wrapper">
-        
-      </div>
-    </nav>
-  </div>
+  
   <form class="col s8 offset-s2">
     <div class="row">
       <label>Choose voice</label>
