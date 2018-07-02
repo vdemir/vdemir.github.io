@@ -21,9 +21,7 @@ comments: False
   <div class="row">
     <nav>
       <div class="nav-wrapper">
-        <div class="col s12">
-          <a href="#" class="brand-logo">Text to speech example</a>
-        </div>
+        
       </div>
     </nav>
   </div>
