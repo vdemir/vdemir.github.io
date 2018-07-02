@@ -60,7 +60,7 @@ $(function(){
       var $voicelist = $('#voices');
 
       if($voicelist.find('option').length == 0) {
-        speechSynthesis.getVoice("Google US English", synth).forEach(function(voice, index) {
+        speechSynthesis.getVoice("Google GB English", synth).forEach(function(voice, index) {
           console.log(voice);
           var $option = $('<option>')
           .val(index)
