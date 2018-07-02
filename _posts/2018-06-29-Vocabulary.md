@@ -21,7 +21,7 @@ html {
 }
 
 .bgimg {
-    background-image: url('/w3images/forestbridge.jpg');
+    background-image: url('/images/forest-bridge.jpg');
     height: 100%;
     background-position: center;
     background-size: cover;
