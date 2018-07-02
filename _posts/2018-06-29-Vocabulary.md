@@ -49,7 +49,7 @@ comments: False
       </div>
     </div>
     <a href="#" id="speak" class="waves-effect waves-light btn">Speak</a>
-  </form>
+  </form>  
 </div>
 
 <div id="modal1" class="modal">
