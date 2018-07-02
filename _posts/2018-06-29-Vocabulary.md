@@ -64,7 +64,7 @@ $(function(){
           console.log(voice);
           var $option = $('<option>')
           .val(index)
-          .html(voice.name + (voice.default ? ' (default)' :''));
+          .html(voice.name + (voice.default ? ' (default)' :'en-GB'));
 
           $voicelist.append($option);
         });
