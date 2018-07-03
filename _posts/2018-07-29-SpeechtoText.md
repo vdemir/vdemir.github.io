@@ -13,6 +13,5 @@ comments: False
 <hr>
 {% include SpeechtoText.html %}
 
-{% include CSS.html %}
 
 
