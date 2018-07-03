@@ -140,7 +140,6 @@ var langs =
  ['Español',         ['es-AR', 'Argentina'],
                      ['es-BO', 'Bolivia'],
                      ['es-VE', 'Venezuela']],
- ['Română',          ['ro-RO']],
  ['Suomi',           ['fi-FI']],
  ['Svenska',         ['sv-SE']],
  ['Türkçe',          ['tr-TR']]];
@@ -148,9 +147,9 @@ var langs =
 for (var i = 0; i < langs.length; i++) {
   select_language.options[i] = new Option(langs[i][0], i);
 }
-select_language.selectedIndex = 5;
+select_language.selectedIndex = 4;
 updateCountry();
-select_dialect.selectedIndex = 5;
+select_dialect.selectedIndex = 4;
 showInfo('info_start');
 
 function updateCountry() {
