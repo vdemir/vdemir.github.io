@@ -44,12 +44,10 @@ $(function(){
 
       if($voicelist.find('option').length == 0) {
         speechSynthesis.getVoices().forEach(function(voice, index) {
-          speech.default = false;
           console.log(voice);
           var $option = $('<option>')
           .val(index)
-          .html(voice.name == 'Google UK English Male';)
-          speech.lang = 'en-GB';
+          .html(voice.name + (voice.default ? ' (default)' :''));
 
           $voicelist.append($option);
         });
@@ -57,11 +55,13 @@ $(function(){
         $voicelist.material_select();
       }
     }
-       
+
     $('#speak').click(function(){
       var text = $('#message').val();
       var msg = new SpeechSynthesisUtterance();
       var voices = window.speechSynthesis.getVoices();
+      voice.name == 'Google UK English Male';
+      speech.lang = 'en-GB';
       msg.voice = voices[$('#voices').val()];
       msg.rate = $('#rate').val() / 10;
       msg.pitch = $('#pitch').val();
