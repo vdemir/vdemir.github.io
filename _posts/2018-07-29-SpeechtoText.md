@@ -18,7 +18,7 @@ comments: False
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shoelace-css/1.0.0-beta16/shoelace.css">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="css/styles.css">
 
     </head>
     <body>
@@ -52,7 +52,7 @@ comments: False
         </div>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="script.js"></script>
+        <script src="scripts/script.js"></script>
 
         <!-- Only used for the demos ads. Please ignore and remove. --> 
         <script src="https://cdn.tutorialzine.com/misc/enhance/v3.js" async></script>
