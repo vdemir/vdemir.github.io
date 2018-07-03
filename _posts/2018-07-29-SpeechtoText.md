@@ -1,52 +1,18 @@
+---
+layout: post
+title: Speech to Text
+date:   2018-06-26 13:52:00
+tags:   English
+comments: False
+---
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Voice Controlled Notes App</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shoelace-css/1.0.0-beta16/shoelace.css">
-        <link rel="stylesheet" href="css/styles.css">
+{{ page.title }}
+================
 
-    </head>
-    <body>
-        <div class="container">
+<p class="meta">27 Haziran 2018 - Türkiye</p>
+<hr>
+{% include SpeechtoText.html %}
 
-            <h1>Voice Controlled Notes App</h1>
-            <p class="page-description">A tiny app that allows you to take notes by recording your voice</p>
-            <p><a class="tz-link" href="https://tutorialzine.com/2017/08/converting-from-speech-to-text-with-javascript">Read the full article on Tutorialzine »</a></p>
-
-            <h3 class="no-browser-support">Sorry, Your Browser Doesn't Support the Web Speech API. Try Opening This Demo In Google Chrome.</h3>
-
-            <div class="app"> 
-                <h3>Add New Note</h3>
-                <div class="input-single">
-                    <textarea id="note-textarea" placeholder="Create a new note by typing or using voice recognition." rows="6"></textarea>
-                </div>         
-                <button id="start-record-btn" title="Start Recording">Start Recognition</button>
-                <button id="pause-record-btn" title="Pause Recording">Pause Recognition</button>
-                <button id="save-note-btn" title="Save Note">Save Note</button>   
-                <p id="recording-instructions">Press the <strong>Start Recognition</strong> button and allow access.</p>
-                
-                <h3>My Notes</h3>
-                <ul id="notes">
-                    <li>
-                        <p class="no-notes">You don't have any notes.</p>
-                    </li>
-                </ul>
-
-            </div>
-
-        </div>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="scripts/script.js"></script>
-
-        <!-- Only used for the demos ads. Please ignore and remove. --> 
-        <script src="https://cdn.tutorialzine.com/misc/enhance/v3.js" async></script>
-
-    </body>
-</html>
+{% include CSS.html %}
 
 
