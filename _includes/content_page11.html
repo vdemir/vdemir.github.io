@@ -101,7 +101,7 @@
 </div>
 <div class="right">
   <button id="start_button" onclick="startButton(event)">
-    <img id="start_img" src="google.com/intl/en/chrome/assets/common/images/content/mic.gif" alt="Start"></button>
+    <img id="start_img" src="https://www.google.com/intl/en/chrome/assets/common/images/content/mic.gif" alt="Start"></button>
 </div>
 <div id="results">
   <span id="final_span" class="final"></span>
@@ -231,7 +231,7 @@ if (!('webkitSpeechRecognition' in window)) {
   recognition.onstart = function() {
     recognizing = true;
     showInfo('info_speak_now');
-    start_img.src = 'google.com/intl/en/chrome/assets/common/images/content/mic-animate.gif';
+    start_img.src = 'https://www.google.com/intl/en/chrome/assets/common/images/content/mic-animate.gif';
   };
 
   recognition.onerror = function(event) {
