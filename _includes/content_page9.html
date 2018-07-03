@@ -60,8 +60,6 @@ $(function(){
       var text = $('#message').val();
       var msg = new SpeechSynthesisUtterance();
       var voices = window.speechSynthesis.getVoices();
-      voice.name == 'Google UK English Male';
-      speech.lang = 'en-GB';
       msg.voice = voices[$('#voices').val()];
       msg.rate = $('#rate').val() / 10;
       msg.pitch = $('#pitch').val();
