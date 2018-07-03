@@ -135,16 +135,14 @@
 var langs =
 [['English',         ['en-GB', 'United Kingdom'],
                      ['en-US', 'United States']],
- ['Suomi',           ['fi-FI']],
- ['Svenska',         ['sv-SE']],
  ['Türkçe',          ['tr-TR']]];
 
 for (var i = 0; i < langs.length; i++) {
   select_language.options[i] = new Option(langs[i][0], i);
 }
-select_language.selectedIndex = 3;
+select_language.selectedIndex = 2;
 updateCountry();
-select_dialect.selectedIndex = 3;
+select_dialect.selectedIndex = 2;
 showInfo('info_start');
 
 function updateCountry() {
