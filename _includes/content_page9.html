@@ -47,7 +47,8 @@ $(function(){
           console.log(voice);
           var $option = $('<option>')
           .val(index)
-          .html(voice.name + (voice.default ? ' (default)' :''));
+          .html(voice.name == 'Google UK English Male' + (voice.default ? ' (default)' :''));
+          speech.lang = 'en-GB';
 
           $voicelist.append($option);
         });
@@ -55,7 +56,7 @@ $(function(){
         $voicelist.material_select();
       }
     }
-
+       
     $('#speak').click(function(){
       var text = $('#message').val();
       var msg = new SpeechSynthesisUtterance();
