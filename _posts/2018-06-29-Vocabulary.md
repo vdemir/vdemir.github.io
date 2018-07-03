@@ -12,6 +12,8 @@ comments: False
 <p class="meta">27 Haziran 2018 - Türkiye</p>
 <hr>
 {% include paging.html %}
+{% include CSS.html %}
 {% include content_page10.html %}
+
 
 
