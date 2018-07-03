@@ -47,7 +47,7 @@ $(function(){
           console.log(voice);
           var $option = $('<option>')
           .val(index)
-          .html('Google UK English Male'; + (voice.default ? ' (default)' :''));
+          .html(voice.name + (voice.default ? ' (default)' :''));
 
           $voicelist.append($option);
         });
