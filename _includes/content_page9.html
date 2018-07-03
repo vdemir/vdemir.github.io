@@ -44,6 +44,7 @@ $(function(){
 
       if($voicelist.find('option').length == 0) {
         speechSynthesis.getVoices().forEach(function(voice, index) {
+          speech.default = false;
           console.log(voice);
           var $option = $('<option>')
           .val(index)
