@@ -135,9 +135,6 @@
 var langs =
 [['English',         ['en-GB', 'United Kingdom'],
                      ['en-US', 'United States']],
- ['Español',         ['es-AR', 'Argentina'],
-                     ['es-BO', 'Bolivia'],
-                     ['es-VE', 'Venezuela']],
  ['Suomi',           ['fi-FI']],
  ['Svenska',         ['sv-SE']],
  ['Türkçe',          ['tr-TR']]];
@@ -145,9 +142,9 @@ var langs =
 for (var i = 0; i < langs.length; i++) {
   select_language.options[i] = new Option(langs[i][0], i);
 }
-select_language.selectedIndex = 4;
+select_language.selectedIndex = 3;
 updateCountry();
-select_dialect.selectedIndex = 4;
+select_dialect.selectedIndex = 3;
 showInfo('info_start');
 
 function updateCountry() {
