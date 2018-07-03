@@ -14,6 +14,4 @@ comments: False
 {% include paging.html %}
 {% include content_page10.html %}
 
-{% include CSS.html %}
-
 
