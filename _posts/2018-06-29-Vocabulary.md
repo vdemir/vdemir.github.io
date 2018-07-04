@@ -12,7 +12,7 @@ comments: False
 <p class="meta">27 Haziran 2018 - Türkiye</p>
 <hr>
 {% include paging.html %}
-{% include content_page11.html %}
+{% include speech-to-webtext.html %}
 {% include CSS.html %}
 
 
