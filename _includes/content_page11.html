@@ -79,6 +79,8 @@
     padding: 0;
   }
 </style>
+
+
 <h2 class="center" id="headline">
   <a href="http://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html">
     </a>Web Speech API Demonstration</h2>
@@ -134,9 +136,9 @@
   <div></div>
 <script>
 var langs =
-[['English',         ['en-GB', 'United Kingdom'],
-                     ['en-US', 'United States']],
- ['Türkçe',          ['tr-TR']]];
+[['Türkçe',         ['tr-TR']],
+ ['English',        ['en-GB', 'United Kingdom'],
+                    ['en-US', 'United States']]];
 
 for (var i = 0; i < langs.length; i++) {
   select_language.options[i] = new Option(langs[i][0], i);
