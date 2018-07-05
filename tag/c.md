@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: C Programlama"
-tag: C Programlama
+title: "Tag: C"
+tag: C
 robots: noindex
 ---
