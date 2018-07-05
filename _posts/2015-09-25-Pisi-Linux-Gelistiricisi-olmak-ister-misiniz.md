@@ -14,7 +14,10 @@ Geliştirici olmak isteyen ve yazılım konusuna ilgi duyan, tasarım kabiliyeti
 
 ***Snapshots***
 
-![_config.yml]({{ site.baseurl }}/images/snapshot10.bmp)
+<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="{{ site.baseurl }}/images/snapshot10.bmp" alt="programs" class="img-responsive" width="625px" height="400px"/>
+  <p><small>Workrave &bull; RSIBreak.</small></p>
+</div>
 
 *** Distributed ***
 
