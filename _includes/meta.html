@@ -23,5 +23,8 @@
 
   {% seo %}
 
+{% if site.tags != "" %}
+  {% include collecttags.html %}
+{% endif %}
 
   {% if page.robots %} <meta name="robots" content="{{page.robots}}" />{% endif %}
