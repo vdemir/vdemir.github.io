@@ -40,8 +40,6 @@ Bloğunuzda kullanabileceğiniz resimleri düzenlemek için ```Gimp``` ve siteyi
 </div> 
 
 <picture>
-  <source srcset="{{ site.baseurl }}/images/snapshot12.bmp" media="(max-width: 400px)">
-  <source srcset="{{ site.baseurl }}/images/snapshot12.bmp">
   <img src="{{ site.baseurl }}/images/snapshot12.bmp" alt="Flowers" style="width:auto;">
 </picture>
  
