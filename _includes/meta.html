@@ -1,4 +1,4 @@
-    <meta charset="utf-8" />
+
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
@@ -16,6 +16,15 @@
     <meta property="twitter:title" content="{{ page.title }}" />
     {% endif %}
 
-{% if site.tags != "" %}
-  {% include collecttags.html %}
-{% endif %}
+<!-- Google analytics -->
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
+
+  {% seo %}
+
+  {% if site.tags == "" %}
+    {% include collecttags.html %}
+  {% endif %}
+
+  {% if page.robots %} <meta name="robots" content="{{page.robots}}" />{% endif %}
