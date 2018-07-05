@@ -6,8 +6,6 @@ tags:   Data Type
 comments: False
 ---
 
-{{ page.title }}
-================
 
 {% include CSS.html %}
 <p class="meta">15 Ocak 2018 - Türkiye</p>

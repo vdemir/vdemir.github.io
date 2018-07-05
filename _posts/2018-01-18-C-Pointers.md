@@ -6,8 +6,6 @@ tags:   Pointer
 comments: False
 ---
 
-{{ page.title }}
-================
 {% include CSS.html %}
 
 <p class="meta">16 Ocak 2018 - Türkiye</p>

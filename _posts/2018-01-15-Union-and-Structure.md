@@ -6,9 +6,6 @@ tags:   Union Struct
 comments: False
 ---
 
-{{ page.title }}
-================
-
 
 {% include CSS.html %}
 

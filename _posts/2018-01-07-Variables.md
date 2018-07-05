@@ -6,8 +6,6 @@ tags:   C Programlama
 comments: False
 ---
 
-{{ page.title }}
-================
 
 <p class="meta">8 Ocak 2018 - Türkiye</p>
 

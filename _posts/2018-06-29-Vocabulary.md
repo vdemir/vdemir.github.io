@@ -7,8 +7,6 @@ comments: False
 published: true
 ---
 
-{{ page.title }}
-================
 
 <p class="meta">27 Haziran 2018 - Türkiye</p>
 <hr>
