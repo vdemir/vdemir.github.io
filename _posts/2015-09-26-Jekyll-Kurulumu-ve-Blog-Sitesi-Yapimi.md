@@ -39,6 +39,17 @@ Bloğunuzda kullanabileceğiniz resimleri düzenlemek için ```Gimp``` ve siteyi
   <p><small>Jekyll &bull; Linux.</small></p>
 </div> 
 
+
+<style>
+div {
+    width: 100%;
+    height: 400px;
+    background-image: url('{{ site.baseurl }}/images/snapshot12.bmp');
+    background-size: 100% 100%;
+    border: 1px solid red;
+}
+</style>
+
 *** Distributed ***
 
 Pisi Linux dağıtımının kararlı sürümleri:
