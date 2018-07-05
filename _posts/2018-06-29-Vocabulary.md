@@ -12,6 +12,7 @@ comments: False
 <p class="meta">27 Haziran 2018 - Türkiye</p>
 <hr>
 {% include paging.html %}
+<div class="teaser clearfix"></div>
 {% include speech-to-webtext.html %}
 {% include CSS.html %}
 
