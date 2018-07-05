@@ -1,9 +1,6 @@
 <!DOCTYPE html>
-
 <html lang="tr">
-
 <head>
-
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
    <title>Günlük Blog Yazıları - Teknik Çeviriler, Programlama Dilleri ile ilgili yazılar</title>
    <meta name="Kisisel_Gunce" CONTENT="Programlama Dilleri ile ilgili Yazi Cevirileri">
@@ -42,11 +39,12 @@ var WRInitTime=(new Date()).getTime();
 
 <div class="site">
   <div class="title">
-    <a href="/">Günce</a> 
-    <a href="/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://avatars1.githubusercontent.com/u/7329803?v=3&s=99" alt=""></a>
+    <a href="{{ site.baseurl }}/">Günce</a> 
+    <a href="{{ site.baseurl }}/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://avatars1.githubusercontent.com/u/7329803?v=3&s=99" alt=""></a>
   </div>
   {{ content }}
   
+<div class="teaser clearfix"></div>
   <div class="footer">
     <div class="contact">
       <p>
