@@ -6,9 +6,6 @@ tags:   C
 comments: False
 ---
 
-{{ page.title }}
-================
-
 <p class="meta">7 Ocak 2018 - Türkiye</p>
 
 <p class="myParagraph">
