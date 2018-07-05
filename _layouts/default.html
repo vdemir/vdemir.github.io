@@ -11,13 +11,16 @@
    <meta name="author" content="Vedat Demir" >
    <meta name="readability-verification" content="e3fb0316180ffe5e0e35411b93161b5083c1b0e7">
 
-{% include CSS.html %}
-
    {% if site.google.verify %}<!-- Webmaster Tools verfication -->
    <meta name="google-site-verification" content="{{ site.google.verify }}" >{% endif %}
    {% if site.bing-verify %}<meta name="msvalidate.01" content="{{ site.bing-verify }}">{% endif %}
    {% if site.yandex-verify %}<meta name="yandex_site_verification" content="{{ site.yandex-verify }}">{% endif %}
- 
+   
+   
+{% include CSS.html %}
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css" type="text/css" media="screen" >
+
    <!-- Typekit -->
    <script src="https://use.typekit.com/jpd0pfm.js"></script>
    <script>try{Typekit.load();}catch(e){}</script>
