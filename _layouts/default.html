@@ -16,8 +16,9 @@
    {% if site.bing-verify %}<meta name="msvalidate.01" content="{{ site.bing-verify }}">{% endif %}
    {% if site.yandex-verify %}<meta name="yandex_site_verification" content="{{ site.yandex-verify }}">{% endif %}
    
-   
-{% include CSS.html %}
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css" type="text/css" >
+
    <!-- Homepage CSS -->
    <link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css" type="text/css" media="screen" >
 
