@@ -5,9 +5,7 @@ date:   2015-09-30 12:00:00
 tags:   Flask QML Programlama Pisi Linux
 comments: True
 ---
-
-{{ page.title }}
-================
+ 
 
 <p class="meta">30 Eylül 2015 - Türkiye</p>
 

@@ -5,9 +5,7 @@ date:   2015-09-26 12:00:00
 tags:   Jekyll Kurulum Blog
 comments: True
 ---
-
-{{ page.title }}
-================
+ 
 
 <p class="meta">26 Eylül 2015 - Türkiye</p>
 

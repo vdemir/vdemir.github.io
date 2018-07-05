@@ -5,9 +5,7 @@ date:   2018-01-04 14:52:00
 tags:   C Programlama Lisp
 comments: False
 ---
-
-{{ page.title }}
-================
+ 
 
 {% include CSS.html %}
 <p class="meta">8 Ocak 2018 - Türkiye</p>

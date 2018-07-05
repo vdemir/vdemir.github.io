@@ -5,9 +5,7 @@ date:   2016-02-20 12:52:00
 tags:   Pisi Paketlemek
 comments: True
 ---
-
-{{ page.title }}
-================
+ 
 
 <p class="meta">20 Şubat 2016 - Türkiye</p>
 

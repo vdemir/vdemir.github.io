@@ -5,10 +5,7 @@ date:   2018-01-04 14:52:00
 tags:   C Programlama
 comments: False
 ---
-
-{{ page.title }}
-================
-
+ 
 <p class="meta">8 Ocak 2018 - Türkiye</p>
 
 <div id="content">

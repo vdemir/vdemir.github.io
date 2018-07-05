@@ -5,9 +5,7 @@ date:   2018-01-03 12:52:00
 tags:   C Preprocessor
 comments: False
 ---
-
-{{ page.title }}
-================
+ 
 
 {% include CSS.html %}
 <p class="meta">3 Ocak 2018 - Türkiye</p>
