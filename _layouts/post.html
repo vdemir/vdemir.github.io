@@ -2,6 +2,10 @@
 layout: default
 ---
 
+  {% if site.tags == "" %}
+    {% include collecttags.html %}
+  {% endif %}
+
 {{ content }}
 
 
