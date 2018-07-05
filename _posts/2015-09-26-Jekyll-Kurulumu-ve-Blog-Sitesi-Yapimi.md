@@ -39,16 +39,12 @@ Bloğunuzda kullanabileceğiniz resimleri düzenlemek için ```Gimp``` ve siteyi
   <p><small>Jekyll &bull; Linux.</small></p>
 </div> 
 
-
-<style>
-div {
-    width: 100%;
-    height: 400px;
-    background-image: url('{{ site.baseurl }}/images/snapshot12.bmp');
-    background-size: 100% 100%;
-    border: 1px solid red;
-}
-</style>
+<picture>
+  <source srcset="{{ site.baseurl }}/images/snapshot12.bmp" media="(max-width: 400px)">
+  <source srcset="{{ site.baseurl }}/images/snapshot12.bmp">
+  <img src="{{ site.baseurl }}/images/snapshot12.bmp" alt="Flowers" style="width:auto;">
+</picture>
+ 
 
 *** Distributed ***
 
