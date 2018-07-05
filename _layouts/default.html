@@ -56,8 +56,10 @@ var WRInitTime=(new Date()).getTime();
         vedat@pisilinux.org
       </p>
     </div>
-    <div class="contact"> 
 
+
+{% include post-tags.html %}
+    <div class="contact"> 
        <a href="{{ site.baseurl }}/" title="Home" target=""><i class=" fas fa-home fa-4x " aria-hidden="true"></i></a>
        
       <a href="#raptors" title="Up" target=""><i class="fas fa-arrow-circle-up fa-4x" aria-hidden="true"></i></a>
@@ -75,7 +77,6 @@ var WRInitTime=(new Date()).getTime();
     </div>
     </div>
 </div>
-{% include post-tags.html %}
 <script>
 <!-- Begin
 document.write("You are here for <b>" + amt() + " times.")
