@@ -19,7 +19,11 @@ Pisi Linux ve diğer linux dağıtımlarında kullanabileceğiniz birkaç yazıl
 
 ***Snapshots***
 
-![_config.yml]({{ site.baseurl }}/images/snapshot9.bmp)
+<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="{{ site.baseurl }}/images/snapshot9.bmp" alt="programs" class="img-responsive" width="470px" height="313px"/>
+  <p><small>Browsers &bull; Dnsmasq.</small></p>
+</div>
+
 
 *** Distributed ***
 
