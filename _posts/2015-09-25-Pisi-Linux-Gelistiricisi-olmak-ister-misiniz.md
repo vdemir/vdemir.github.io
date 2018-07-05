@@ -5,8 +5,6 @@ date:   2015-09-26 02:17:00
 tags:   Pisi Linux Geliştirici
 ---
 
-{{ page.title }}
-================
 
 <p class="meta">26 Eylül 2015 - Türkiye</p>
 
