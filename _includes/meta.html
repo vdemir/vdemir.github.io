@@ -15,3 +15,6 @@
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="twitter:title" content="{{ page.title }}" />
     {% endif %}
+{% if site.tags != "" %}
+  {% include collecttags.html %}
+{% endif %}
