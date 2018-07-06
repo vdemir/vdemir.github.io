@@ -2,7 +2,7 @@
 layout: post
 title:  C'de Data Type
 date:   2018-01-15 13:53:00
-tags:   C Data Type
+tags:   C
 comments: False
 ---
 
