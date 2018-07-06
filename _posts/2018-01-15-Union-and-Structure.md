@@ -2,7 +2,7 @@
 layout: post
 title:  C'de Union ve Struct Yapıları
 date:   2018-01-16 13:52:00
-tags:   Union Struct
+tags:   C Union Struct
 comments: False
 ---
 
