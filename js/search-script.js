@@ -3,4 +3,425 @@
   * Copyright 2015-2018, Christian Fei
   * Licensed under the MIT License.
   */
-!function(){"use strict";var s={load:function(e,t){var n=window.XMLHttpRequest?new window.XMLHttpRequest:new ActiveXObject("Microsoft.XMLHTTP");n.open("GET",e,!0),n.onreadystatechange=(r=n,i=t,function(){if(4===r.readyState&&200===r.status)try{i(null,JSON.parse(r.responseText))}catch(e){i(e,null)}}),n.send();var r,i}};var n=function(e,t){var n=t.length,r=e.length;if(n<r)return!1;if(r===n)return e===t;e:for(var i=0,o=0;i<r;i++){for(var a=e.charCodeAt(i);o<n;)if(t.charCodeAt(o++)===a)continue e;return!1}return!0},t=new function(){this.matches=function(e,t){return n(t.toLowerCase(),e.toLowerCase())}};var r=new function(){this.matches=function(e,t){return"string"==typeof e&&0<=(e=e.trim()).toLowerCase().indexOf(t.toLowerCase())}};var f={put:function(e){if(l(e))return c(e);if(t=e,Boolean(t)&&"[object Array]"===Object.prototype.toString.call(t))return function(e){var t=[];u();for(var n=0,r=e.length;n<r;n++)l(e[n])&&t.push(c(e[n]));return t}(e);var t;return undefined},clear:u,search:function(e){if(!e)return[];return function(e,t,n,r){for(var i=[],o=0;o<e.length&&i.length<r.limit;o++){var a=p(e[o],t,n,r);a&&i.push(a)}return i}(o,e,a.searchStrategy,a).sort(a.sort)},setOptions:function(e){(a=e||{}).fuzzy=e.fuzzy||!1,a.limit=e.limit||10,a.searchStrategy=e.fuzzy?t:r,a.sort=e.sort||i}};function i(){return 0}var o=[],a={};function u(){return o.length=0,o}function l(e){return Boolean(e)&&"[object Object]"===Object.prototype.toString.call(e)}function c(e){return o.push(e),o}function p(e,t,n,r){for(var i in e)if(!d(e[i],r.exclude)&&n.matches(e[i],t))return e}function d(e,t){for(var n=!1,r=0,i=(t=t||[]).length;r<i;r++){var o=t[r];!n&&new RegExp(e).test(o)&&(n=!0)}return n}a.fuzzy=!1,a.limit=10,a.searchStrategy=a.fuzzy?t:r,a.sort=i;var h={compile:function(r){return m.template.replace(m.pattern,function(e,t){var n=m.middleware(t,r[t],m.template);return void 0!==n?n:r[t]||e})},setOptions:function(e){m.pattern=e.pattern||m.pattern,m.template=e.template||m.template,"function"==typeof e.middleware&&(m.middleware=e.middleware)}},m={};m.pattern=/\{(.*?)\}/g,m.template="",m.middleware=function(){};var y={merge:function(e,t){var n={};for(var r in e)Object.prototype.hasOwnProperty.call(e,r)&&(n[r]=e[r],"undefined"!=typeof t[r]&&(n[r]=t[r]));return n},isJSON:function(e){try{return!!(e instanceof Object&&JSON.parse(JSON.stringify(e)))}catch(t){return!1}}};!function(t){var r={searchInput:null,resultsContainer:null,json:[],success:Function.prototype,searchResultTemplate:'<li><a href="{url}" title="{desc}">{title}</a></li>',templateMiddleware:Function.prototype,sortMiddleware:function(){return 0},noResultsText:"No results found",limit:10,fuzzy:!1,exclude:[]},i=["searchInput","resultsContainer","json"],o=function e(t){if(n=t,!(n&&"undefined"!=typeof n.required&&n.required instanceof Array))throw new Error("-- OptionsValidator: required options missing");var n;if(!(this instanceof e))return new e(t);var r=t.required;this.getRequiredOptions=function(){return r},this.validate=function(t){var n=[];return r.forEach(function(e){"undefined"==typeof t[e]&&n.push(e)}),n}}({required:i});function a(e){r.success(e),f.put(e),r.searchInput.addEventListener("keyup",function(e){var t;t=e.which,-1===[13,16,20,37,38,39,40,91].indexOf(t)&&(n(),l(e.target.value))})}function n(){r.resultsContainer.innerHTML=""}function u(e){r.resultsContainer.innerHTML+=e}function l(e){var t;(t=e)&&0<t.length&&(n(),function(e){var t=e.length;if(0===t)return u(r.noResultsText);for(var n=0;n<t;n++)u(h.compile(e[n]))}(f.search(e)))}function c(e){throw new Error("SimpleJekyllSearch --- "+e)}t.SimpleJekyllSearch=function(e){var n;return 0<o.validate(e).length&&c("You must specify the following required options: "+i),r=y.merge(r,e),h.setOptions({template:r.searchResultTemplate,middleware:r.templateMiddleware}),f.setOptions({fuzzy:r.fuzzy,limit:r.limit,sort:r.sortMiddleware}),y.isJSON(r.json)?a(r.json):(n=r.json,s.load(n,function(e,t){e&&c("failed to get JSON ("+n+")"),a(t)})),{search:l}},t.SimpleJekyllSearch.init=t.SimpleJekyllSearch,"function"==typeof t.SimpleJekyllSearchInit&&t.SimpleJekyllSearchInit.call(this,t.SimpleJekyllSearch)}(window)}();
+
+(function(){
+/* globals ActiveXObject:false */
+
+'use strict'
+
+var _$JSONLoader_2 = {
+  load: load
+}
+
+function load (location, callback) {
+  var xhr = getXHR()
+  xhr.open('GET', location, true)
+  xhr.onreadystatechange = createStateChangeListener(xhr, callback)
+  xhr.send()
+}
+
+function createStateChangeListener (xhr, callback) {
+  return function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+      try {
+        callback(null, JSON.parse(xhr.responseText))
+      } catch (err) {
+        callback(err, null)
+      }
+    }
+  }
+}
+
+function getXHR () {
+  return window.XMLHttpRequest ? new window.XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP')
+}
+
+'use strict'
+
+var _$OptionsValidator_3 = function OptionsValidator (params) {
+  if (!validateParams(params)) {
+    throw new Error('-- OptionsValidator: required options missing')
+  }
+
+  if (!(this instanceof OptionsValidator)) {
+    return new OptionsValidator(params)
+  }
+
+  var requiredOptions = params.required
+
+  this.getRequiredOptions = function () {
+    return requiredOptions
+  }
+
+  this.validate = function (parameters) {
+    var errors = []
+    requiredOptions.forEach(function (requiredOptionName) {
+      if (typeof parameters[requiredOptionName] === 'undefined') {
+        errors.push(requiredOptionName)
+      }
+    })
+    return errors
+  }
+
+  function validateParams (params) {
+    if (!params) {
+      return false
+    }
+    return typeof params.required !== 'undefined' && params.required instanceof Array
+  }
+}
+
+'use strict';
+
+function fuzzysearch (needle, haystack) {
+  var tlen = haystack.length;
+  var qlen = needle.length;
+  if (qlen > tlen) {
+    return false;
+  }
+  if (qlen === tlen) {
+    return needle === haystack;
+  }
+  outer: for (var i = 0, j = 0; i < qlen; i++) {
+    var nch = needle.charCodeAt(i);
+    while (j < tlen) {
+      if (haystack.charCodeAt(j++) === nch) {
+        continue outer;
+      }
+    }
+    return false;
+  }
+  return true;
+}
+
+var _$fuzzysearch_1 = fuzzysearch;
+
+'use strict'
+
+/* removed: var _$fuzzysearch_1 = require('fuzzysearch') */;
+
+var _$FuzzySearchStrategy_5 = new FuzzySearchStrategy()
+
+function FuzzySearchStrategy () {
+  this.matches = function (string, crit) {
+    return _$fuzzysearch_1(crit.toLowerCase(), string.toLowerCase())
+  }
+}
+
+'use strict'
+
+var _$LiteralSearchStrategy_6 = new LiteralSearchStrategy()
+
+function LiteralSearchStrategy () {
+  this.matches = function (str, crit) {
+    if (typeof str !== 'string') {
+      return false
+    }
+    str = str.trim()
+    return str.toLowerCase().indexOf(crit.toLowerCase()) >= 0
+  }
+}
+
+'use strict'
+
+var _$Repository_4 = {
+  put: put,
+  clear: clear,
+  search: search,
+  setOptions: setOptions
+}
+
+/* removed: var _$FuzzySearchStrategy_5 = require('./SearchStrategies/FuzzySearchStrategy') */;
+/* removed: var _$LiteralSearchStrategy_6 = require('./SearchStrategies/LiteralSearchStrategy') */;
+
+function NoSort () {
+  return 0
+}
+
+var data = []
+var opt = {}
+
+opt.fuzzy = false
+opt.limit = 10
+opt.searchStrategy = opt.fuzzy ? _$FuzzySearchStrategy_5 : _$LiteralSearchStrategy_6
+opt.sort = NoSort
+
+function put (data) {
+  if (isObject(data)) {
+    return addObject(data)
+  }
+  if (isArray(data)) {
+    return addArray(data)
+  }
+  return undefined
+}
+function clear () {
+  data.length = 0
+  return data
+}
+
+function isObject (obj) {
+  return Boolean(obj) && Object.prototype.toString.call(obj) === '[object Object]'
+}
+
+function isArray (obj) {
+  return Boolean(obj) && Object.prototype.toString.call(obj) === '[object Array]'
+}
+
+function addObject (_data) {
+  data.push(_data)
+  return data
+}
+
+function addArray (_data) {
+  var added = []
+  clear()
+  for (var i = 0, len = _data.length; i < len; i++) {
+    if (isObject(_data[i])) {
+      added.push(addObject(_data[i]))
+    }
+  }
+  return added
+}
+
+function search (crit) {
+  if (!crit) {
+    return []
+  }
+  return findMatches(data, crit, opt.searchStrategy, opt).sort(opt.sort)
+}
+
+function setOptions (_opt) {
+  opt = _opt || {}
+
+  opt.fuzzy = _opt.fuzzy || false
+  opt.limit = _opt.limit || 10
+  opt.searchStrategy = _opt.fuzzy ? _$FuzzySearchStrategy_5 : _$LiteralSearchStrategy_6
+  opt.sort = _opt.sort || NoSort
+}
+
+function findMatches (data, crit, strategy, opt) {
+  var matches = []
+  for (var i = 0; i < data.length && matches.length < opt.limit; i++) {
+    var match = findMatchesInObject(data[i], crit, strategy, opt)
+    if (match) {
+      matches.push(match)
+    }
+  }
+  return matches
+}
+
+function findMatchesInObject (obj, crit, strategy, opt) {
+  for (var key in obj) {
+    if (!isExcluded(obj[key], opt.exclude) && strategy.matches(obj[key], crit)) {
+      return obj
+    }
+  }
+}
+
+function isExcluded (term, excludedTerms) {
+  var excluded = false
+  excludedTerms = excludedTerms || []
+  for (var i = 0, len = excludedTerms.length; i < len; i++) {
+    var excludedTerm = excludedTerms[i]
+    if (!excluded && new RegExp(term).test(excludedTerm)) {
+      excluded = true
+    }
+  }
+  return excluded
+}
+
+'use strict'
+
+var _$Templater_7 = {
+  compile: compile,
+  setOptions: __setOptions_7
+}
+
+var options = {}
+options.pattern = /\{(.*?)\}/g
+options.template = ''
+options.middleware = function () {}
+
+function __setOptions_7 (_options) {
+  options.pattern = _options.pattern || options.pattern
+  options.template = _options.template || options.template
+  if (typeof _options.middleware === 'function') {
+    options.middleware = _options.middleware
+  }
+}
+
+function compile (data) {
+  return options.template.replace(options.pattern, function (match, prop) {
+    var value = options.middleware(prop, data[prop], options.template)
+    if (typeof value !== 'undefined') {
+      return value
+    }
+    return data[prop] || match
+  })
+}
+
+'use strict'
+
+var _$utils_9 = {
+  merge: merge,
+  isJSON: isJSON
+}
+
+function merge (defaultParams, mergeParams) {
+  var mergedOptions = {}
+  for (var option in defaultParams) {
+    if (Object.prototype.hasOwnProperty.call(defaultParams, option)) {
+      mergedOptions[option] = defaultParams[option]
+      if (typeof mergeParams[option] !== 'undefined') {
+        mergedOptions[option] = mergeParams[option]
+      }
+    }
+  }
+  return mergedOptions
+}
+
+function isJSON (json) {
+  try {
+    if (json instanceof Object && JSON.parse(JSON.stringify(json))) {
+      return true
+    }
+    return false
+  } catch (err) {
+    return false
+  }
+}
+
+var _$src_8 = {};
+(function (window) {
+  'use strict'
+
+  var options = {
+    searchInput: null,
+    resultsContainer: null,
+    json: [],
+    success: Function.prototype,
+    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+    templateMiddleware: Function.prototype,
+    sortMiddleware: function () {
+      return 0
+    },
+    noResultsText: 'No results found',
+    limit: 10,
+    fuzzy: false,
+    exclude: []
+  }
+
+  var requiredOptions = ['searchInput', 'resultsContainer', 'json']
+
+  /* removed: var _$Templater_7 = require('./Templater') */;
+  /* removed: var _$Repository_4 = require('./Repository') */;
+  /* removed: var _$JSONLoader_2 = require('./JSONLoader') */;
+  var optionsValidator = _$OptionsValidator_3({
+    required: requiredOptions
+  })
+  /* removed: var _$utils_9 = require('./utils') */;
+
+  /*
+    Public API
+  */
+  window.SimpleJekyllSearch = function (_options) {
+    var errors = optionsValidator.validate(_options)
+    if (errors.length > 0) {
+      throwError('You must specify the following required options: ' + requiredOptions)
+    }
+
+    options = _$utils_9.merge(options, _options)
+
+    _$Templater_7.setOptions({
+      template: options.searchResultTemplate,
+      middleware: options.templateMiddleware
+    })
+
+    _$Repository_4.setOptions({
+      fuzzy: options.fuzzy,
+      limit: options.limit,
+      sort: options.sortMiddleware
+    })
+
+    if (_$utils_9.isJSON(options.json)) {
+      initWithJSON(options.json)
+    } else {
+      initWithURL(options.json)
+    }
+
+    return {
+      search: search
+    }
+  }
+
+  // For backwards compatibility
+  window.SimpleJekyllSearch.init = window.SimpleJekyllSearch
+
+  if (typeof window.SimpleJekyllSearchInit === 'function') {
+    window.SimpleJekyllSearchInit.call(this, window.SimpleJekyllSearch)
+  }
+
+  function initWithJSON (json) {
+    options.success(json)
+    _$Repository_4.put(json)
+    registerInput()
+  }
+
+  function initWithURL (url) {
+    _$JSONLoader_2.load(url, function (err, json) {
+      if (err) {
+        throwError('failed to get JSON (' + url + ')')
+      }
+      initWithJSON(json)
+    })
+  }
+
+  function emptyResultsContainer () {
+    options.resultsContainer.innerHTML = ''
+  }
+
+  function appendToResultsContainer (text) {
+    options.resultsContainer.innerHTML += text
+  }
+
+  function registerInput () {
+    options.searchInput.addEventListener('keyup', function (e) {
+      if (isWhitelistedKey(e.which)) {
+        emptyResultsContainer()
+        search(e.target.value)
+      }
+    })
+  }
+
+  function search (query) {
+    if (isValidQuery(query)) {
+      emptyResultsContainer()
+      render(_$Repository_4.search(query))
+    }
+  }
+
+  function render (results) {
+    var len = results.length
+    if (len === 0) {
+      return appendToResultsContainer(options.noResultsText)
+    }
+    for (var i = 0; i < len; i++) {
+      appendToResultsContainer(_$Templater_7.compile(results[i]))
+    }
+  }
+
+  function isValidQuery (query) {
+    return query && query.length > 0
+  }
+
+  function isWhitelistedKey (key) {
+    return [13, 16, 20, 37, 38, 39, 40, 91].indexOf(key) === -1
+  }
+
+  function throwError (message) {
+    throw new Error('SimpleJekyllSearch --- ' + message)
+  }
+})(window)
+
+}());
