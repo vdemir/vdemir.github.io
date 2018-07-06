@@ -11,9 +11,9 @@ Pisi Linux tanıtımı için tasarlanan siyah-beyaz çıkartma örnekleri GIMP k
 
 ***Snapshots***
 
-![_config.yml]({{ site.baseurl }}/assets/Pisi-Linux-600x600-1.png)
-![_config.yml]({{ site.baseurl }}/assets/Pisi-Linux-600x600-2.png)
-![_config.yml]({{ site.baseurl }}/assets/Pisi-Linux-600x600-3.png)
+![ ]({{ site.baseurl }}/assets/Pisi-Linux-600x600-1.png)
+![ ]({{ site.baseurl }}/assets/Pisi-Linux-600x600-2.png)
+![ ]({{ site.baseurl }}/assets/Pisi-Linux-600x600-3.png)
 
 *** Distributed ***
 
