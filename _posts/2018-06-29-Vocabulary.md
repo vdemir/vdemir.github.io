@@ -11,7 +11,7 @@ published: true
 <p class="meta">27 Haziran 2018 - Türkiye</p>
 <hr>
 
-
+{{ content}}
 <div class="container">
   <h2><a href="http://johannburkard.de/blog/programming/javascript/highlight-javascript-text-higlighting-jquery-plugin.html" target="_blank">highlight</a> demo</h2>
   <div class="panel panel-default">
@@ -24,11 +24,11 @@ published: true
         <button type="button" class="btn btn-default btn-sm" name="perform">Perform</button>
       </form>
     </div>
+</div>
+
 {% include paging.html %}
 <div class="teaser clearfix"></div>
 {% include speech-to-webtext.html %}
-</div>
-
 {% include CSS.html %}
 <script>
 $(function() {
