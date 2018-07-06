@@ -26,6 +26,48 @@ published: true
     </div>
 </div>
 
+<div class="container">
+  <h2><a href="https://markjs.io/" target="_blank">mark.js</a> demo</h2>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <form class="row">
+        <div class="col-xs-6">
+          <div class="form-group">
+            <label for="keyword">Search term:</label>
+            <input type="text" class="form-control input-sm" value="Lorem" name="keyword" id="keyword">
+          </div>
+        <button type="button" class="btn btn-default btn-sm" name="perform">Perform</button>
+        </div>
+        <div class="col-xs-6">
+          <div class="form-group">
+            <label for="accuracy">Accuracy:</label>
+            <select class="form-control input-sm" name="accuracy" id="accuracy">
+              <option value="exactly">exactly</option>
+              <option value="partially" selected>partially</option>
+              <option value="complementary">complementary</option>
+             </select>
+          </div>
+           <div class="form-group">
+            <label for="element" class="noTransform">Element</label>
+            <input type="text" class="form-control input-sm" value="mark" name="element" id="element">
+          </div>
+          <div class="form-group">
+            <label for="className" class="noTransform">Class name</label>
+            <input type="text" class="form-control input-sm" value="highlight" name="className" id="className">
+          </div>
+          <div class="form-group">
+            <label for="diacritics" class="noTransform"><input type="checkbox" value="true" name="diacritics" id="diacritics" checked> diacritics</label>
+          </div>
+          <div class="form-group">
+            <label for="separateWordSearch" class="noTransform"><input type="checkbox" value="true" name="separateWordSearch" id="separateWordSearch" checked> separate word search</label>
+          </div>
+        </div>
+      </form>
+      <strong>For a full list of methods and options visit the <a href="https://markjs.io/configurator.html" target="_blank">configurator</a></strong>
+    </div>
+    {{ content}}
+  </div>
+</div>
 {% include paging.html %}
 <div class="teaser clearfix"></div>
 {% include speech-to-webtext.html %}
