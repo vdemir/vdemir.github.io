@@ -47,6 +47,15 @@ Bloğunuzda kullanabileceğiniz resimleri düzenlemek için ```Gimp``` ve siteyi
        style='max-width: 700px'/>
 </div>
 
+
+<a href="#">
+    <img src="{{ site.baseurl }}/images/snapshot12.bmp" />
+</a>
+
+a {display:inline-block;width:80%; height:auto}
+
+img {width:100%}
+
 *** Distributed ***
 
 Pisi Linux dağıtımının kararlı sürümleri:
