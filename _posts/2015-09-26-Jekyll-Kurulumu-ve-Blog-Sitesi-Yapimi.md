@@ -41,8 +41,8 @@ Bloğunuzda kullanabileceğiniz resimleri düzenlemek için ```Gimp``` ve siteyi
   
 <style>
 img.resize {
-  max-width:50%;
-  max-height:50%;
+  max-width:75%;
+  max-height:75%;
 }
 </style>
 
