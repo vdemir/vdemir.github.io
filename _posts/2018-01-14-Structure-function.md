@@ -2,7 +2,7 @@
 layout: post
 title:  C'de Struct Yapı ve Fonksiyon
 date:   2018-01-16 13:52:00
-tags:   C Struct
+tags:   C
 comments: False
 ---
 

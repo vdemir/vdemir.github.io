@@ -2,7 +2,7 @@
 layout: post
 title:  C'de Pointer İşaretçiler
 date:   2018-01-16 13:52:00
-tags:   C Pointer
+tags:   C
 comments: False
 ---
 
