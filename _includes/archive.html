@@ -1,11 +1,7 @@
 <h2>Archive</h2>
 {% capture temptags %}
   {% for tag in site.tags %}
-    <span class="site-tag">
-        <a style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
-                {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
-        </a>
-    </span>
+    {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
   {% endfor %}
 {% endcapture %}
 {% assign sortedtemptags = temptags | split:' ' | sort | reverse %}
