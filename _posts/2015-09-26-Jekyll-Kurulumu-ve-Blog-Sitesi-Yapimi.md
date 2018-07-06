@@ -35,26 +35,12 @@ Bloğunuzda kullanabileceğiniz resimleri düzenlemek için ```Gimp``` ve siteyi
 ***Snapshots***
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/snapshot12.bmp" alt="programs" class="img-responsive" width="600px" height="400px"/>
+  <img src="{{ site.baseurl }}/images/snapshot12.bmp" alt="programs" class="img-responsive" width="600px" height="400px" style="max-width: 500px"/>
   <p><small>Jekyll &bull; Linux.</small></p>
 </div> 
  
+
  
-<div class='illustration'>
-  <img src='/images/snapshot12.bmp'
-       srcset='/images/snapshot12.bmp 1x,
-               /images/snapshot12.bmp 2x'
-       style='max-width: 700px'/>
-</div>
-
-
-<a href="#">
-    <img src="{{ site.baseurl }}/images/snapshot12.bmp" />
-</a>
-
-a {display:inline-block;width:80%; height:auto}
-
-img {width:100%}
 
 *** Distributed ***
 
