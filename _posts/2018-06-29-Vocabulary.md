@@ -11,20 +11,7 @@ published: true
 <p class="meta">27 Haziran 2018 - Türkiye</p>
 <hr>
 
-{{ content}}
-<div class="container">
-  <h2><a href="http://johannburkard.de/blog/programming/javascript/highlight-javascript-text-higlighting-jquery-plugin.html" target="_blank">highlight</a> demo</h2>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <form>
-        <div class="form-group">
-          <label for="keyword">Search term:</label>
-          <input type="text" class="form-control input-sm" value="Lorem" name="keyword" id="keyword">
-        </div>
-        <button type="button" class="btn btn-default btn-sm" name="perform">Perform</button>
-      </form>
-    </div>
-</div>
+
 
 <div class="container">
   <h2><a href="https://markjs.io/" target="_blank">mark.js</a> demo</h2>
@@ -72,7 +59,6 @@ published: true
 <div class="teaser clearfix"></div>
 {% include speech-to-webtext.html %}
 {% include CSS.html %}
-{% include scripts.html %}
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/mark.js/7.0.0/jquery.mark.min.js"></script>
 
