@@ -17,7 +17,7 @@ Pisi Linux ve diğer linux dağıtımlarında kullanabileceğiniz birkaç yazıl
 
 ***Snapshots***
 
-<div class="resize" alert alert-warning' style="margin: 15px; text-align: center;">
+<div class="resize" style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/snapshot9.bmp" alt="programs" class="img-responsive" width="625px" height="400px"/>
   <p><small>Workrave &bull; RSIBreak.</small></p>
 </div>
