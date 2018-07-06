@@ -34,14 +34,15 @@ Bloğunuzda kullanabileceğiniz resimleri düzenlemek için ```Gimp``` ve siteyi
 
 ***Snapshots***
 
-<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+<div class="resize" style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/snapshot12.bmp" alt="programs" class="img-responsive" width="600px" height="400px"/>
   <p><small>Jekyll &bull; Linux.</small></p>
 </div> 
  <style>
-img {
-max-width:100%;}
-
+img.resize {
+  max-width:50%;
+  max-height:50%;
+}
  </style>
  
 
