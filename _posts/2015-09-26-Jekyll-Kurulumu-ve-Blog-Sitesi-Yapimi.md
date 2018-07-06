@@ -38,16 +38,13 @@ Bloğunuzda kullanabileceğiniz resimleri düzenlemek için ```Gimp``` ve siteyi
   <img src="{{ site.baseurl }}/images/snapshot12.bmp" alt="programs" class="img-responsive" width="600px" height="400px"/>
   <p><small>Jekyll &bull; Linux.</small></p>
 </div> 
-
-<picture>
-  <img src="{{ site.baseurl }}/images/snapshot12.bmp" alt="Flowers" style="width:auto;">
-</picture>
+ 
  
 <div class='illustration'>
   <img src='/images/snapshot12.bmp'
        srcset='/images/snapshot12.bmp 1x,
                /images/snapshot12.bmp 2x'
-       style='max-width: 500px'/>
+       style='max-width: 700px'/>
 </div>
 
 *** Distributed ***
