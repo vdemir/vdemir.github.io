@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: Qml"
-tag: Qml
+title: "Tag: QML"
+tag: QML
 robots: noindex
 ---
