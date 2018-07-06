@@ -2,7 +2,7 @@
 layout: post
 title:  Kendi Lisp'nizi Oluşturun - S-Expressions
 date:   2018-01-08 16:52:00
-tags:   C Programlama
+tags:   C Programlama Lisp
 comments: False
 ---
  
