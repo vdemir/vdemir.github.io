@@ -35,7 +35,7 @@ Bloğunuzda kullanabileceğiniz resimleri düzenlemek için ```Gimp``` ve siteyi
 ***Snapshots***
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/snapshot12.bmp" alt="programs" class="resize" width="600px" height="400px"/>
+  <img src="{{ site.baseurl }}/images/snapshot12.bmp" alt="programs" class="resize" />
   <p><small>Jekyll &bull; Linux.</small></p>
 </div> 
   
