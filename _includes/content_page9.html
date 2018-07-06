@@ -323,9 +323,9 @@ function myFunction() {
     input = document.getElementById("mySearch");
     filter = input.value.toUpperCase();
     table = document.getElementById("myMenu");
-    tr = ul.getElementsByTagName("tr");
+    tr = table.getElementsByTagName("tr");
     for (i = 0; i < tr.length; i++) {
-        a = tr[i].getElementsByTagName("a")[0];
+        a = tr[i].getElementsByTagName("td")[0];
         if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
             tr[i].style.display = "";
         } else {
