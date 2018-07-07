@@ -80,4 +80,4 @@ img.resize {
             }            
         </style>
  </html> 
- <br></br> 
+ <br>
