@@ -14,11 +14,18 @@ layout: default
 
 {{ content }}
 
+
+  <h2>İlgili İçerikler</h2>
+  <ul class="posts">
+    {% for post in site.related_posts limit:3 %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 <div class="relatedPosts">
 
   <h2>İlgili İçerikler</h2>
 
-{% assign maxRelated = 4 %}
+{% assign maxRelated = 3 %}
 {% assign minCommonTags =  2 %}
 {% assign maxRelatedCounter = 0 %}
 
