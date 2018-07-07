@@ -23,7 +23,7 @@ layout: default
   </ul>
 <div class="relatedPosts">
 
-  <h2>İlgili İçerikler</h2>
+
 
 {% assign maxRelated = 4 %}
 {% assign minCommonTags =  2 %}
@@ -41,18 +41,19 @@ layout: default
           {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
           {% assign commonTags = commonTags | append: tagmarkup %}
         {% endif %}
-        {% elsif sameTagCount == 0 %}
- <ul class="posts">
-    {% for post in site.related_posts limit:3 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
       {% endif %}
     {% endfor %}
 
   <ul class="posts">
+        {% if sameTagCount == 0 %}
+ <ul class="posts">  <h2>Yeni İçerikler</h2>
+    {% for post in site.related_posts limit:3 %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
     {% if sameTagCount >= minCommonTags %}
-      <div>
+      <div>  <h2>İlgili İçerikler</h2>
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}, {{ commonTags }}</a></li>
       </div>
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
