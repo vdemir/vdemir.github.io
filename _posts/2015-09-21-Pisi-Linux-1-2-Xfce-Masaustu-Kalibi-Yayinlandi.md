@@ -33,7 +33,7 @@ img.resize {
 |---------------------|--------------|----------------------------------------------------------------------------------------------------------------|
 | Pisi Linux 1.0      | 14.08.2014   | [Pisi Linux 1.0](https://sourceforge.net/projects/pisilinux/files/1.0/ "Pisi Linux 1.0")                       |
 | Pisi Linux 1.1      | 04.11.2014   | [Pisi Linux 1.1](https://sourceforge.net/projects/pisilinux/files/1.1/ "Pisi Linux 1.1")                       |
-| Pisi Linux 1.2 KDE  | 10.07.2015   | [Pisi Linux 1.2](https://sourceforge.net/projects/pisilinux/files/1.2/ "Pisi Linux 1.2")                       |
+| Pisi Linux 1.2 KDE  |    | [Pisi Linux 1.2](https://sourceforge.net/projects/pisilinux/files/1.2/ "Pisi Linux 1.2")                       |
 | Pisi Linux 2.0Alfa5 | 30.08.2015   |  |
 |  |    |                        |
 
@@ -45,7 +45,7 @@ img.resize {
 |          |-    |- |
 |      |-    |- |
 |     |-    |- [Pisi Linux 2.0Alfa5](https://openload.co/f/vuimrNgPjSE/Pisi-Linux-2.0-Alfa5-KDE5-KaraKedi-x86_64.iso) (Test)
-| Pisi Linux 1.2 Xfce    |- 21.09.2015   |- [Pisi Linux 1.2](https://openload.co/f/R6JeYpGW3BM/Pisi-Linux-1.2-XFCE-x86_64.iso)|
+|     |- 21.09.2015   |- [Pisi Linux 1.2](https://openload.co/f/R6JeYpGW3BM/Pisi-Linux-1.2-XFCE-x86_64.iso)|
 <html>
         <title>Table Example</title>
         <style>
@@ -79,22 +79,17 @@ img.resize {
             <tr>
                 <td>Pisi Linux 1.1</td>
                 <td>04.11.2014</td>
-                <td>[Pisi Linux 1.1](https://sourceforge.net/projects/pisilinux/files/1.1/)</td>
+                <td><a href="https://sourceforge.net/projects/pisilinux/files/1.1/">Pisi Linux 1.1</a></td>
             </tr>
             <tr>
                 <td>Pisi Linux 1.2 KDE</td>
                 <td>10.07.2015</td>
-                <td>[Pisi Linux 1.2](https://sourceforge.net/projects/pisilinux/files/1.2/)</td>
-            </tr>
-            <tr>
-                <td>Pisi Linux 2.0Alfa5</td>
-                <td>30.08.2015</td>
-                <td>[Pisi Linux 2.0Alfa5(Test)](https://sourceforge.net/projects/pisilinux/files/1.2/ "Pisi Linux 2.0Alfa5(Test)")</td>
+                <td><a href="https://sourceforge.net/projects/pisilinux/files/1.2/">Pisi Linux 1.2 KDE</a></td>
             </tr>
             <tr>
                 <td>Pisi Linux 1.2 Xfce</td>
                 <td>21.09.2015</td>
-                <td>[Pisi Linux 1.2](https://sourceforge.net/projects/pisilinux/files/1.2/ "Pisi Linux 1.2")</td>
+                <td><a href="https://openload.co/f/R6JeYpGW3BM/Pisi-Linux-1.2-XFCE-x86_64.iso">Pisi Linux 1.2 Xfce</a></td>
             </tr>
         </table>
  </html>
