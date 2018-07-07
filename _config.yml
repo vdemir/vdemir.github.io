@@ -17,5 +17,9 @@ author:
   bio             : "Just another tattooed, time traveling designer."
   picture         : ""
 
+plugins:
+  - jekyll/tagging
+  - jekyll-tagging-related_posts
+
 yandex-verify     : "b642748cb18cbd1c"
 google-verify     : "zFuwF6tlf7YemTRN-ZOvl5lG1rjuI9qEomPbr_5vAu8"
