@@ -12,7 +12,17 @@ Bu sene Pisi Linux ekibininde katılacağı etkinlik 11 Ekim Pazar günü Ankara
 
 ***Snapshots***
 
-![_config.yml]({{ site.baseurl }}/images/snapshot5.png)
+<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="{{ site.baseurl }}/images/snapshot5.png" alt="programs" class="resize" />
+  <p><small>Açık Kaynak Günleri &bull; Pisi Linux.</small></p>
+</div> 
+  
+<style>
+img.resize {
+  max-width:100%;
+  max-height:100%;
+}
+</style> 
 
 *** Distributed ***
 
