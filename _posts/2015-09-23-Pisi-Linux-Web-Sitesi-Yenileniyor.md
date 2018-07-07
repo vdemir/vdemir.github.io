@@ -56,5 +56,4 @@ Pisi Linux dağıtımının kararlı sürümleri:
                 background-color: #fff;
             }            
         </style>
- </html> 
----
+ </html>
