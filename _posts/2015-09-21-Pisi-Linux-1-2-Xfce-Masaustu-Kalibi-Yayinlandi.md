@@ -41,7 +41,7 @@ img.resize {
 
 | Sürüm                  |- Çıkış Tarihi |- İndirme Bağlantısı |
 |------------------------|---------------|---------------------|
-| Pisi Linux 1.0         |- 14.08.2014   |- [Pisi Linux 1.0](https://sourceforge.net/projects/pisilinux/files/1.0/)|
+| Pisi Linux 1.0         |-    |- |
 | Pisi Linux 1.1         |- 04.11.2014   |- [Pisi Linux 1.1](https://sourceforge.net/projects/pisilinux/files/1.1/)|
 | Pisi Linux 1.2 KDE     |- 10.07.2015   |- [Pisi Linux 1.2](https://sourceforge.net/projects/pisilinux/files/1.2/)|
 | Pisi Linux 2.0Alfa5    |- 30.08.2015   |- [Pisi Linux 2.0Alfa5](https://openload.co/f/vuimrNgPjSE/Pisi-Linux-2.0-Alfa5-KDE5-KaraKedi-x86_64.iso) (Test)
@@ -72,22 +72,27 @@ img.resize {
                 <th>İndirme Bağlantısı</th>
             </tr>
             <tr>
+                <td>Pisi Linux 1.0</td>
+                <td>14.08.2014</td>
+                <td>[Pisi Linux 1.0](https://sourceforge.net/projects/pisilinux/files/1.0/)</td>
+            </tr>
+            <tr>
+                <td>Table cell</td>
                 <td>Table cell</td>
                 <td>Table cell</td>
             </tr>
             <tr>
                 <td>Table cell</td>
                 <td>Table cell</td>
-            </tr>
-            <tr>
-                <td>Table cell</td>
                 <td>Table cell</td>
             </tr>
             <tr>
                 <td>Table cell</td>
                 <td>Table cell</td>
+                <td>Table cell</td>
             </tr>
             <tr>
+                <td>Table cell</td>
                 <td>Table cell</td>
                 <td>Table cell</td>
             </tr>
