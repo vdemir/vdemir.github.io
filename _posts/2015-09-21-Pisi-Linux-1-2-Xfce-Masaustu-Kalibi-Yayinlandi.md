@@ -29,15 +29,6 @@ img.resize {
 
 ### Pisi Linux dağıtımının kararlı sürümleri:
 
-| Sürüm               | Çıkış Tarihi | İndirme Bağlantısı                                                                                             |
-|---------------------|--------------|----------------------------------------------------------------------------------------------------------------|
-| Pisi Linux 1.0      | 14.08.2014   | [Pisi Linux 1.0](https://sourceforge.net/projects/pisilinux/files/1.0/ "Pisi Linux 1.0")                       |
-| Pisi Linux 1.1      | 04.11.2014   | [Pisi Linux 1.1](https://sourceforge.net/projects/pisilinux/files/1.1/ "Pisi Linux 1.1")                       |
-| Pisi Linux 1.2 KDE  | 10.07.2015   | [Pisi Linux 1.2](https://sourceforge.net/projects/pisilinux/files/1.2/ "Pisi Linux 1.2")                       |
-| Pisi Linux 2.0Alfa5 | 30.08.2015   | [Pisi Linux 2.0Alfa5(Test)](https://sourceforge.net/projects/pisilinux/files/1.2/ "Pisi Linux 2.0Alfa5(Test)") |
-| Pisi Linux 1.2 Xfce | 21.09.2015   | [Pisi Linux 1.2](https://sourceforge.net/projects/pisilinux/files/1.2/ "Pisi Linux 1.2")                       |
-
-
 
 | Sürüm                  |- Çıkış Tarihi |- İndirme Bağlantısı |
 |------------------------|---------------|---------------------|
@@ -66,34 +57,5 @@ img.resize {
                 background-color: #fff;
             }            
         </style>
-
-        <table class="alt">
-            <tr>
-                <th>Sürüm</th>
-                <th>Çıkış Tarihi</th>
-                <th>İndirme Bağlantısı</th>
-            </tr>
-            <tr>
-                <td>Pisi Linux 1.0</td>
-                <td>14.08.2014</td>
-                <td><a href="https://sourceforge.net/projects/pisilinux/files/1.0/">Pisi Linux 1.0</a></td>
-            </tr>
-            <tr>
-                <td>Pisi Linux 1.1</td>
-                <td>04.11.2014</td>
-                <td><a href="https://sourceforge.net/projects/pisilinux/files/1.1/">Pisi Linux 1.1</a></td>
-            </tr>
-            <tr>
-                <td>Pisi Linux 1.2 KDE</td>
-                <td>10.07.2015</td>
-                <td><a href="https://sourceforge.net/projects/pisilinux/files/1.2/">Pisi Linux 1.2 KDE</a></td>
-            </tr>
-            <tr>
-                <td>Pisi Linux 1.2 Xfce</td>
-                <td>21.09.2015</td>
-                <td><a href="https://openload.co/f/R6JeYpGW3BM/Pisi-Linux-1.2-XFCE-x86_64.iso">Pisi Linux 1.2 Xfce</a></td>
-            </tr>
-        </table>
- </html>
-<hr>
+ </html> 
 <hr>
