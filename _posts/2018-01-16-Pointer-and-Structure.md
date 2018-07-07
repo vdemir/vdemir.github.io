@@ -14,7 +14,17 @@ comments: False
 
 Bu makalede, ```structure``` yapı içindeki verilere erişmek için ```pointer``` işaretçilerle çalışmanıza yardımcı olacak alakalı örnekler bulacaksınız.
 
-![C Programming Structure and Pointer](//cdn.programiz.com/sites/tutorial2program/files/c-structure-pointer.jpg "C Programming Structure and Pointer")
+<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="{{ site.baseurl }}/images/c-structure-pointer.jpg" alt="programs" class="resize" />
+  <p><small>structure &bull; pointer.</small></p>
+</div> 
+  
+<style>
+img.resize {
+  max-width:100%;
+  max-height:100%;
+}
+</style>
 
 ```Struct``` yapılar oluşturulabilir ve ```pointer``` işaretçiler kullanılarak erişilebilir. Bir ```struct``` yapının ```pointer``` işaretçi değişkeni aşağıdaki gibi oluşturulabilir:
 
