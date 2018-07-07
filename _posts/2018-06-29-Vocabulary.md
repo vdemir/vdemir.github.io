@@ -11,6 +11,7 @@ published: true
 <p class="meta">27 Haziran 2018 - Türkiye</p>
 <hr>
 <!-- begin dictionary box -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 <script type="text/javascript" src="https://dictionarybox.com/dic_box.js"></script>
 <div id="pl-dbox"><a class="pl-dbox-title" href="javascript:void(0);dboxCursorLoc();"><span id="pl-dbox-title-text">Lugat</span></a>
 <div id="pl-dbox-content"><div id="pl-dboxFlags"><ul><li><img src="https://dictionarybox.com/flags/English.png" alt="english" /></li>
@@ -18,6 +19,8 @@ published: true
 <p class="info">Double click on any word on the page or type a word:</p><p><input type="text" name="pl-dbox-search-field" style="width:97%;" id="pl-dbox-search-field" onKeyPress="return dbxChkKy(event);" autocomplete=off /></p>
 <p id="pl-dbox-search-button"><input type="button" value=" Search! " OnClick="getdboxResults();"/></p></div><input id="pl-dbox-glossary" type="hidden" value="EnglishToTurkish,TurkishToEnglish"/></div></div>
 <!-- end dictionary box -->
+
+
 <input type="text" id="search" placeholder="Type to search">
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 {% include paging.html %}
