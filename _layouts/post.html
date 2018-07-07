@@ -41,12 +41,6 @@ layout: default
           {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
           {% assign commonTags = commonTags | append: tagmarkup %}
         {% endif %}
-          {% elsif commonTags == '' %}
- <ul class="posts">
-    {% for post in site.related_posts limit:3 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
       {% endif %}
     {% endfor %}
 
@@ -59,6 +53,12 @@ layout: default
       {% if maxRelatedCounter >= maxRelated %}
         {% break %}
       {% endif %}
+        {% elsif commonTags == '' %}
+ <ul class="posts">
+    {% for post in site.related_posts limit:3 %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
     {% endif %}
 
   {% endfor %}
