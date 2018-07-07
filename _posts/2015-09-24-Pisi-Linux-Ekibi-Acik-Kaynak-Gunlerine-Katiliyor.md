@@ -24,9 +24,10 @@ img.resize {
 }
 </style> 
 
-*** Distributed ***
 
-Pisi Linux dağıtımının kararlı sürümleri:
+### Pisi Linux dağıtımının kararlı sürümleri:
+
+
 
 | Sürüm                  |- Çıkış Tarihi |- İndirme Bağlantısı |
 |------------------------|---------------|---------------------|
@@ -37,4 +38,23 @@ Pisi Linux dağıtımının kararlı sürümleri:
 | Pisi Linux 1.2 Xfce    |- 21.09.2015   |- [Pisi Linux 1.2](https://openload.co/f/R6JeYpGW3BM/Pisi-Linux-1.2-XFCE-x86_64.iso)|
 
 
----
+<html>
+        <title>Table Example</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th, td {
+                border: 1px solid #ccc;
+                padding: 10px;
+            }
+            table.alt tr:nth-child(even) {
+                background-color: #eee;
+            }
+            table.alt tr:nth-child(odd) {
+                background-color: #fff;
+            }            
+        </style>
+ </html> 
+
