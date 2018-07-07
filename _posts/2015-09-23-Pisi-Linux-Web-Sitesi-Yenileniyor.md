@@ -25,7 +25,10 @@ img.resize {
 }
 </style>
 
+
 ### Pisi Linux dağıtımının kararlı sürümleri:
+
+
 
 | Sürüm                  |- Çıkış Tarihi |- İndirme Bağlantısı |
 |------------------------|---------------|---------------------|
@@ -54,4 +57,5 @@ img.resize {
                 background-color: #fff;
             }            
         </style>
- </html>
+ </html> 
+
