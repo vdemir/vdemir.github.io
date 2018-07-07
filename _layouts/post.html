@@ -43,14 +43,14 @@ layout: default
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}, {{ commonTags }}</a></li>
       </div>
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
-      {% if maxRelatedCounter >= maxRelated %}<a>Bulunamadı...</a>
+      {% if maxRelatedCounter >= maxRelated %}
         {% break %}
       {% endif %}
     {% endif %}
 
   {% endfor %}
   </ul>
-{% if maxRelatedCounter == 0 %}
+{% if maxRelatedCounter == 0 %}<a>Bulunamadı...</a>
   <h2>Yeni İçerikler</h2>
   <ul class="posts">
     {% for post in site.related_posts limit:3 %}
