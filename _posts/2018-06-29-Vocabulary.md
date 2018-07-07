@@ -35,6 +35,5 @@ $('#search').keyup(function() {
 <div id="pl-dbox-content"><div id="pl-dboxFlags"><ul><li><img src="https://dictionarybox.com/flags/English.png" alt="english" /></li>
 <li><img src="https://dictionarybox.com/flags/Turkish.png" alt="Turkish" /></li><li><h3></h3></li></ul></div><div id="pl-dbox-ajax-content">
 <p class="info">Double click on any word on the page or type a word:</p><p><input type="text" name="pl-dbox-search-field" style="width:97%;" id="pl-dbox-search-field" onKeyPress="return dbxChkKy(event);" autocomplete=off /></p>
-<p id="pl-dbox-search-button"><input type="button" value=" Search! " OnClick="getdboxResults();"/></p></div><input id="pl-dbox-glossary" type="hidden" value="EnglishToTurkish,TurkishToEnglish"/>
-<div id="pl-dbox-credit">Powered by dictionarist.com</div></div></div>
+<p id="pl-dbox-search-button"><input type="button" value=" Search! " OnClick="getdboxResults();"/></p></div><input id="pl-dbox-glossary" type="hidden" value="EnglishToTurkish,TurkishToEnglish"/></div></div>
 <!-- end dictionary box -->
