@@ -35,27 +35,6 @@
 </head>
 <body>
    <script src="{{ site.baseurl }}/scripts/scroll.js"></script>
-<pre>
-// ------------------- USE EXAMPLE ---------------------
-// *Set options
-var options = {
-  'showButtonAfter': 200, // show button after scroling down this amount of px
-  'animate': "normal", // [false|normal|linear] - for false no aditional settings are needed
-  
-  'normal': { // applys only if [animate: normal] - set scroll loop distanceLeft/steps|ms
-    'steps': 20, // the more steps the slower animation gets
-    'ms': 20 // the less ms the quicker your animation gets
-  }, 
-  'linear': { // applys only if [animate: linear] - set scroll px|ms
-    'px': 55, // the more px the quicker your animation gets
-    'ms': 10 // the less ms the quicker your animation gets
-  }, 
-};
-
-// *Create new Scroller and run it.
-var scroll = new Scroller(options);
-scroll.init();
-</pre>
 <p id="raptors"></p>
 <script>
 var WRInitTime=(new Date()).getTime();
