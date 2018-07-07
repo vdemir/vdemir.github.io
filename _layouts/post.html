@@ -16,7 +16,7 @@ layout: default
 
 <div class="relatedPosts">
 
- 
+  <h2>İlgili İçerikler</h2>
 
 {% assign maxRelated = 3 %}
 {% assign minCommonTags =  2 %}
@@ -37,28 +37,18 @@ layout: default
       {% endif %}
     {% endfor %}
 
-     {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
-      {% if maxRelatedCounter >= maxRelated %}
-        {% break %}
-      {% endif %}
-
-  {% endfor %} 
-
-<h2>İlgili İçerikler</h2> 
   <ul class="posts">
     {% if sameTagCount >= minCommonTags %}
       <div>
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}, {{ commonTags }}</a></li>
       </div>
-    {% endif %}  </ul>
+      {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+      {% if maxRelatedCounter >= maxRelated %}
+        {% break %}
+      {% endif %}
+    {% endif %}
 
-{% if maxRelatedCounter == 0 %}
-  <h2>Yeni İçerikler</h2>
-  <ul class="posts">
-    {% for post in site.related_posts limit:3 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
+  {% endfor %}
   </ul>
-{% endif %}
 </div>
 
