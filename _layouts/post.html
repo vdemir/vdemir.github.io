@@ -50,7 +50,7 @@ layout: default
 
   {% endfor %}
   </ul>
-{% if maxRelatedCounter == 0 %}<a>Bulunamadı...</a>
+{% if maxRelatedCounter == 0 %}<a>Bulunamadı...</a></hr>
   <h2>Yeni İçerikler</h2>
   <ul class="posts">
     {% for post in site.related_posts limit:3 %}
