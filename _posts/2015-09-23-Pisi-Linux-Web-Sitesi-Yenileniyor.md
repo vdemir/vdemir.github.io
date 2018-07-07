@@ -25,9 +25,7 @@ img.resize {
 }
 </style>
 
-*** Distributed ***
-
-Pisi Linux dağıtımının kararlı sürümleri:
+### Pisi Linux dağıtımının kararlı sürümleri:
 
 | Sürüm                  |- Çıkış Tarihi |- İndirme Bağlantısı |
 |------------------------|---------------|---------------------|
