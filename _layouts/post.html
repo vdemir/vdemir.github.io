@@ -35,8 +35,10 @@ layout: default
         {% endif %}
       {% endif %}
     {% endfor %}
-
+{% if maxRelatedCounter != 0 %}
   <h2>İlgili İçerikler</h2>
+{% endif %}
+
   <ul class="posts">
     {% if sameTagCount >= minCommonTags %}
       <div>
