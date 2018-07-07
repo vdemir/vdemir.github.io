@@ -16,7 +16,6 @@ layout: default
 
 <div class="relatedPosts">
 
-  <h2>İlgili İçerikler</h2>
 
 {% assign maxRelated = 3 %}
 {% assign minCommonTags =  2 %}
@@ -37,6 +36,7 @@ layout: default
       {% endif %}
     {% endfor %}
 
+  <h2>İlgili İçerikler</h2>
   <ul class="posts">
     {% if sameTagCount >= minCommonTags %}
       <div>
