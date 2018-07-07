@@ -74,7 +74,7 @@ img.resize {
             <tr>
                 <td>Pisi Linux 1.0</td>
                 <td>14.08.2014</td>
-                <td>[Pisi Linux 1.0](https://sourceforge.net/projects/pisilinux/files/1.0/)</td>
+                <td><a href="https://sourceforge.net/projects/pisilinux/files/1.0/">Pisi Linux 1.0</a></td>
             </tr>
             <tr>
                 <td>Pisi Linux 1.1</td>
