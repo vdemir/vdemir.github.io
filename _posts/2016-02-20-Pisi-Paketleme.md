@@ -29,7 +29,6 @@ img.resize {
 }
 </style> 
 
-![_config.yml]({{ site.baseurl }}/images/pisido-en-1.png)
 
 *** Distributed ***
 
