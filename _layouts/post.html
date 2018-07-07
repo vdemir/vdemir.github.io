@@ -25,8 +25,8 @@ layout: default
 
   <h2>İlgili İçerikler</h2>
 
-{% assign maxRelated = 3 %}
-{% assign minCommonTags =  1 %}
+{% assign maxRelated = 4 %}
+{% assign minCommonTags =  2 %}
 {% assign maxRelatedCounter = 0 %}
 
   {% for post in site.posts %}
@@ -49,9 +49,6 @@ layout: default
       <div>
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}, {{ commonTags }}</a></li>
       </div>
-    {% elsif sameTagCount <= minCommonTags %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-  
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
         {% break %}
