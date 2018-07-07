@@ -44,9 +44,10 @@ layout: default
       {% endif %}
     {% endfor %}
 
+  <ul class="posts">
     {% if sameTagCount >= minCommonTags %}
       <div>
-      <span>{{ post.date | date_to_string }}</span>🌍<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}, {{ commonTags }}</a>
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}, {{ commonTags }}</a></li>
       </div>
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
@@ -55,6 +56,6 @@ layout: default
     {% endif %}
 
   {% endfor %}
-
+  </ul>
 </div>
 
