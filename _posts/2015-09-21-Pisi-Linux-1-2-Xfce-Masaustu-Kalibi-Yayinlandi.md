@@ -24,10 +24,10 @@ img.resize {
   max-height:100%;
 }
 </style>
-
-## Distributed
+ 
 
 ### Pisi Linux dağıtımının kararlı sürümleri:
+
 
 
 | Sürüm                  |- Çıkış Tarihi |- İndirme Bağlantısı |
@@ -58,4 +58,5 @@ img.resize {
             }            
         </style>
  </html> 
+
 <hr>
