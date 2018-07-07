@@ -53,7 +53,7 @@ layout: default
       {% if maxRelatedCounter >= maxRelated %}
         {% break %}
       {% endif %}
-        {% elsif commonTags == '' %}
+        {% elsif sameTagCount == 0 %}
  <ul class="posts">
     {% for post in site.related_posts limit:3 %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
