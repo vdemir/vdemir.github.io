@@ -11,6 +11,11 @@
   background-color: red;
   color: white;
   cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
   padding: 15px;
   border-radius: 4px;
 }
