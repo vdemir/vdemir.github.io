@@ -21,6 +21,9 @@ layout: default
 {% assign minCommonTags =  2 %}
 {% assign maxRelatedCounter = 0 %}
 
+{% if maxRelatedCounter != 0 %}
+  <h2>İlgili İçerikler</h2>
+{% endif %}
   {% for post in site.posts %}
 
     {% assign sameTagCount = 0 %}
@@ -35,9 +38,6 @@ layout: default
         {% endif %}
       {% endif %}
     {% endfor %}
-{% if maxRelatedCounter != 0 %}
-  <h2>İlgili İçerikler</h2>
-{% endif %}
 
   <ul class="posts">
     {% if sameTagCount >= minCommonTags %}
