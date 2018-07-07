@@ -34,17 +34,17 @@ img.resize {
 | Pisi Linux 1.0      | 14.08.2014   | [Pisi Linux 1.0](https://sourceforge.net/projects/pisilinux/files/1.0/ "Pisi Linux 1.0")                       |
 | Pisi Linux 1.1      | 04.11.2014   | [Pisi Linux 1.1](https://sourceforge.net/projects/pisilinux/files/1.1/ "Pisi Linux 1.1")                       |
 | Pisi Linux 1.2 KDE  | 10.07.2015   | [Pisi Linux 1.2](https://sourceforge.net/projects/pisilinux/files/1.2/ "Pisi Linux 1.2")                       |
-| Pisi Linux 2.0Alfa5 | 30.08.2015   | [Pisi Linux 2.0Alfa5(Test)](https://sourceforge.net/projects/pisilinux/files/1.2/ "Pisi Linux 2.0Alfa5(Test)") |
-| Pisi Linux 1.2 Xfce | 21.09.2015   | [Pisi Linux 1.2](https://sourceforge.net/projects/pisilinux/files/1.2/ "Pisi Linux 1.2")                       |
+| Pisi Linux 2.0Alfa5 | 30.08.2015   |  |
+|  |    |                        |
 
 
 
 | Sürüm                  |- Çıkış Tarihi |- İndirme Bağlantısı |
 |------------------------|---------------|---------------------|
 | Pisi Linux 1.0         |-    |- |
-| Pisi Linux 1.1         |- 04.11.2014   |- [Pisi Linux 1.1](https://sourceforge.net/projects/pisilinux/files/1.1/)|
-| Pisi Linux 1.2 KDE     |- 10.07.2015   |- [Pisi Linux 1.2](https://sourceforge.net/projects/pisilinux/files/1.2/)|
-| Pisi Linux 2.0Alfa5    |- 30.08.2015   |- [Pisi Linux 2.0Alfa5](https://openload.co/f/vuimrNgPjSE/Pisi-Linux-2.0-Alfa5-KDE5-KaraKedi-x86_64.iso) (Test)
+|          |-    |- |
+|      |-    |- |
+|     |-    |- [Pisi Linux 2.0Alfa5](https://openload.co/f/vuimrNgPjSE/Pisi-Linux-2.0-Alfa5-KDE5-KaraKedi-x86_64.iso) (Test)
 | Pisi Linux 1.2 Xfce    |- 21.09.2015   |- [Pisi Linux 1.2](https://openload.co/f/R6JeYpGW3BM/Pisi-Linux-1.2-XFCE-x86_64.iso)|
 <html>
         <title>Table Example</title>
@@ -77,24 +77,24 @@ img.resize {
                 <td>[Pisi Linux 1.0](https://sourceforge.net/projects/pisilinux/files/1.0/)</td>
             </tr>
             <tr>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
+                <td>Pisi Linux 1.1</td>
+                <td>04.11.2014</td>
+                <td>[Pisi Linux 1.1](https://sourceforge.net/projects/pisilinux/files/1.1/)</td>
             </tr>
             <tr>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
+                <td>Pisi Linux 1.2 KDE</td>
+                <td>10.07.2015</td>
+                <td>[Pisi Linux 1.2](https://sourceforge.net/projects/pisilinux/files/1.2/)</td>
             </tr>
             <tr>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
+                <td>Pisi Linux 2.0Alfa5</td>
+                <td>30.08.2015</td>
+                <td>[Pisi Linux 2.0Alfa5(Test)](https://sourceforge.net/projects/pisilinux/files/1.2/ "Pisi Linux 2.0Alfa5(Test)")</td>
             </tr>
             <tr>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
+                <td>Pisi Linux 1.2 Xfce</td>
+                <td>21.09.2015</td>
+                <td>[Pisi Linux 1.2](https://sourceforge.net/projects/pisilinux/files/1.2/ "Pisi Linux 1.2")</td>
             </tr>
         </table>
  </html>
