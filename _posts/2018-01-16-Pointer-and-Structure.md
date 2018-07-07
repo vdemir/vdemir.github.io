@@ -15,7 +15,7 @@ comments: False
 Bu makalede, ```structure``` yapı içindeki verilere erişmek için ```pointer``` işaretçilerle çalışmanıza yardımcı olacak alakalı örnekler bulacaksınız.
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/c-structure-pointer.jpg" alt="programs" class="resize" />
+  <img src="{{ site.baseurl }}/images/c-structure-functions.jpg" alt="programs" class="resize" />
   <p><small>structure &bull; pointer.</small></p>
 </div> 
   
