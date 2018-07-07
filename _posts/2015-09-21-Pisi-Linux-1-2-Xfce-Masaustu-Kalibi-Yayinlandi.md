@@ -59,4 +59,3 @@ img.resize {
         </style>
  </html> 
 
-<hr>
