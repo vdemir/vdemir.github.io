@@ -17,6 +17,8 @@ layout: default
 
 <div class="relatedPosts">
 
+  <h2>İlgili İçerikler</h2>
+
 {% assign maxRelated = 3 %}
 {% assign minCommonTags =  2 %}
 {% assign maxRelatedCounter = 0 %}
@@ -44,7 +46,7 @@ layout: default
 
   <ul class="posts">
     {% if sameTagCount >= minCommonTags %}
-      <div><h2>İlgili İçerikler</h2>
+      <div>
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}, {{ commonTags }}</a></li>
       </div>
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
