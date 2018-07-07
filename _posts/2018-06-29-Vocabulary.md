@@ -11,8 +11,6 @@ published: true
 <p class="meta">27 Haziran 2018 - Türkiye</p>
 <hr>
 <!-- begin dictionary box -->
-<link rel="stylesheet" type="text/css" media="all" href="https://dictionarybox.com/dic_box_v3.css" />
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
 <script type="text/javascript" src="https://dictionarybox.com/dic_box.js"></script>
 <div id="pl-dbox"><a class="pl-dbox-title" href="javascript:void(0);dboxCursorLoc();"><span id="pl-dbox-title-text">Lugat</span></a>
 <div id="pl-dbox-content"><div id="pl-dboxFlags"><ul><li><img src="https://dictionarybox.com/flags/English.png" alt="english" /></li>
