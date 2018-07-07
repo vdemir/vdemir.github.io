@@ -34,28 +34,31 @@
    <script src="{{ site.baseurl }}/scripts/cookie.js"></script>
 </head>
 <body>
- <button onclick="topFunction()" id="myBtn" title="Go to top">><i class="fab fa-css3-alt fa-4x " aria-hidden="true"></i>Top</button>
+   <script src="{{ site.baseurl }}/scripts/scroll.js"></script>
+<pre>
+// ------------------- USE EXAMPLE ---------------------
+// *Set options
+var options = {
+  'showButtonAfter': 200, // show button after scroling down this amount of px
+  'animate': "normal", // [false|normal|linear] - for false no aditional settings are needed
+  
+  'normal': { // applys only if [animate: normal] - set scroll loop distanceLeft/steps|ms
+    'steps': 20, // the more steps the slower animation gets
+    'ms': 20 // the less ms the quicker your animation gets
+  }, 
+  'linear': { // applys only if [animate: linear] - set scroll px|ms
+    'px': 55, // the more px the quicker your animation gets
+    'ms': 10 // the less ms the quicker your animation gets
+  }, 
+};
+
+// *Create new Scroller and run it.
+var scroll = new Scroller(options);
+scroll.init();
+</pre>
 <p id="raptors"></p>
 <script>
 var WRInitTime=(new Date()).getTime();
-</script>
-<script>
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-    } else {
-        document.getElementById("myBtn").style.display = "none";
-    }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
 </script>
 <div class="site">
   <div class="title">
