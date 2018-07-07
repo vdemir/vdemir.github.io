@@ -67,8 +67,9 @@ img.resize {
 
         <table class="alt">
             <tr>
-                <th>Table Header</th>
-                <th>Table Header</th>
+                <th>Sürüm</th>
+                <th>Çıkış Tarihi</th>
+                <th>İndirme Bağlantısı</th>
             </tr>
             <tr>
                 <td>Table cell</td>
