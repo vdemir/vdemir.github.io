@@ -62,18 +62,18 @@
     <div class="contact">
 {% if page.title != 'Günce' %}
        <a href="{{ site.baseurl }}/" title="Home" target=""><i class=" fas fa-home fa-4x " aria-hidden="true"></i></a>
-{% endif %} 
+{% endif %}
        
       <a href="https://github.com/vdemir" title="Github" target="_blank"><i class="fab fa-github fa-4x " aria-hidden="true"></i></a>
 
       <a href="https://www.youtube.com/channel/UCghWuRqdO-HXsxRxBn4dHHQ/videos" title="YouTube" target="_blank"><i class="fab fa-youtube fa-4x " aria-hidden="true"></i></a>
 
       <a href="https://feeds.feedburner.com/github/hxLf" title="RSS" target="_blank"><i class="fas fa-rss fa-4x " aria-hidden="true"></i></a>
-
+{% if page.title == 'Günce' %}
       <a href="https://jigsaw.w3.org/css-validator/validator?uri=vdemir.github.io" title="Valid CSS!" target="_blank"><i class="fab fa-css3-alt fa-4x " aria-hidden="true"></i></a>
 
       <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.tr" title="Creative Commons License" target="_blank"><i class="fas fa-closed-captioning fa-4x " aria-hidden="true"></i></a>
-
+{% endif %} 
     </div>
     </div>
 </div>
