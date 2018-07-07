@@ -12,7 +12,10 @@
    <meta name="google-site-verification" content="{{ site.google.verify }}" >{% endif %}
    {% if site.bing-verify %}<meta name="msvalidate.01" content="{{ site.bing-verify }}">{% endif %}
    {% if site.yandex-verify %}<meta name="yandex_site_verification" content="{{ site.yandex-verify }}">{% endif %}
-   
+
+   <!-- scroll CSS -->
+   <link rel="stylesheet" href="{{ site.baseurl }}/css/scroll.css" type="text/css" >
+
    <!-- syntax highlighting CSS -->
    <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css" type="text/css" >
 
@@ -36,7 +39,24 @@
 <script>
 var WRInitTime=(new Date()).getTime();
 </script>
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
 
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
 <div class="site">
   <div class="title">
     <a href="{{ site.baseurl }}/">Günce</a> 
