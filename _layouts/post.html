@@ -39,19 +39,23 @@ layout: default
       {% endif %}
     {% endfor %}
 
-  <ul class="posts">
-    {% if sameTagCount >= minCommonTags %}
-      <div>
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}, {{ commonTags }}</a></li>
-      </div>
-      {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+    {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
         {% break %}
       {% endif %}
     {% endif %}
 
   {% endfor %}
+
+{% if maxRelatedCounter != 0 %}
+  <ul class="posts">
+    {% if sameTagCount >= minCommonTags %}
+      <div>
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}, {{ commonTags }}</a></li>
+      </div>
   </ul>
+{% endif %}
+
 {% if maxRelatedCounter == 0 %}
   <h2>Yeni İçerikler</h2>
   <ul class="posts">
