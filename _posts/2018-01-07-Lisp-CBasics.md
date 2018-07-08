@@ -6,9 +6,8 @@ tags:   C Programlama Lisp
 comments: False
 ---
  
-
-{% include CSS.html %}
 <p class="meta">8 Ocak 2018 - Türkiye</p>
+{% include CSS.html %}
 
 Temel Bilgiler • Bölüm 1
 ==================

@@ -7,6 +7,7 @@ comments: False
 ---
  
 <p class="meta">8 Ocak 2018 - Türkiye</p>
+{% include CSS.html %}
 
 Languages • Chapter 3
 =====================
