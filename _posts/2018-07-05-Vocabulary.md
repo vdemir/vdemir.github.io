@@ -16,7 +16,6 @@ lang: en
 {% include paging.html %}
 <div class="teaser clearfix"></div>
 {% include speech-to-webtext.html %}
-{% include CSS.html %}
 <script charset="utf-8">var $rows = $('#tg-nBN6M tr');
 $('#search').keyup(function() {
     var val = $.trim($(this).val()).replace(/ +/g, ' ').toLowerCase();
