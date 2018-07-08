@@ -10,7 +10,7 @@ lang: en
 
 
 <p class="meta">27 Haziran 2018 - Türkiye</p>
-<hr>
+<br>
 <input type="text" id="search" placeholder="Type to search">
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 {% include paging.html %}
