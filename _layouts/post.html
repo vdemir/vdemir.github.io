@@ -29,8 +29,8 @@ layout: default
   </li>
 {% endfor %}
 </ul>
-<br>{% assign langs=site.lang | default: "tr"  %}
-{% if post.lang != langs %}
+<br>
+{% if post.lang == 'en' %}
   <h3>Latest Posts</h3>{% else %}<h3>Yeniler</h3>{% endif %}
   <ul class="posts">
     {% for post in site.related_posts limit:3 %}
