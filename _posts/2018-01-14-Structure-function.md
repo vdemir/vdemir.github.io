@@ -9,7 +9,7 @@ comments: False
 {% include CSS.html %}
 
 <p class="meta">16 Ocak 2018 - Türkiye</p>
-## C programlamada struct yapıyı bir fonksiyona nasıl geçiririm?
+### C programlamada struct yapıyı bir fonksiyona nasıl geçiririm?
 
 Bu yazıda, ```struct``` yapıları bir fonksiyon işlevine argüman olarak geçirmek için alakalı örnekler bulacaksınız ve bunları programınızda kullanabilirsiniz.
 
@@ -20,7 +20,7 @@ C'de, ```struct``` iki yöntemle fonksiyon işlevlere geçirilebilir:
 1. Değerle geçme (aktüel değeri argüman olarak geçirme)
 2. Referansa göre geçmek (bir argümanın adresini iletmek)
 
-## struct yapıyı değerine göre geçirme
+### struct yapıyı değerine göre geçirme
 
 Bir ```struct``` değişkeni, normal bir değişken gibi argüman olarak fonksiyon işlevine geçirilebilir.
 
@@ -61,8 +61,3 @@ void display(struct student stu){
   printf("\nNumara: %d\n",stu.roll);
 }
 ~~~
-
-[C code playground: Dene](https://play.programiz.com/c.html "C code playground")
-
-
-***
