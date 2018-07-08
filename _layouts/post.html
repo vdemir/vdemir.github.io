@@ -17,7 +17,6 @@ layout: default
 <hr>
 <br>
 
-{% assign maxCounter = 0 %}
 {% if page.lang == 'en' %}
   <h3>Latest Posts</h3><ul class="posts">
     {% for post in site.posts limit:5 %}{% if post.lang == 'en' %}
@@ -29,10 +28,8 @@ layout: default
 
 <h3>Yeniler</h3>
 <ul class="posts">
-    {% for post in site.posts %}{% if post.lang != 'en' %}{% assign maxCounter = maxCounter | plus: 1 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% if maxCounter >= 3 %}
-        {% break %}{% endif %}
+    {% for post in site.posts limit:5 %}{% if post.lang != 'en' %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>{% endif %}
     {% endfor %}
 </ul>{% endif %}
 
