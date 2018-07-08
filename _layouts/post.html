@@ -25,8 +25,8 @@ layout: default
   <ul class="posts">
     {% for post in site.posts limit:5 %}{% if post.lang == 'en' %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-{% else %}
-	{% if post.lang == 'tr' %}
+
+	{% ifels post.lang == 'tr' %}
 	<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>{% endif %}{% endif %}
     {% endfor %}
   </ul>
