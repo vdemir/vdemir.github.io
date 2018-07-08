@@ -51,7 +51,7 @@ layout: default
 {% assign maxRelatedCounter = 0 %}
 
   {% for post in site.posts %}
-
+{% if post.lang != 'en' %}
     {% assign sameTagCount = 0 %}
     {% assign commonTags = '' %}
 
@@ -62,7 +62,7 @@ layout: default
           {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
           {% assign commonTags = commonTags | append: tagmarkup %}
         {% endif %}
-      {% endif %}
+      {% endif %}{% endif %}
     {% endfor %}
 
   <ul class="posts">
