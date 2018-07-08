@@ -22,13 +22,13 @@ layout: default
 {% endfor %}
 </ul>
 <hr><ul>
-
-{% assign pages=site.pages | sort: 'lang' %}
-{% for page in pages %}
+{% assign posts=site.posts | sort: 'lang' %}
+{% for post in posts %}
   <li>
-    <a href="{{ page.url }}" class="{{ page.lang }}">{{ post.title }}</a>
+    <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.title }}</a>
   </li>
 {% endfor %}
+
 </ul>
 <br>
 {% if page.lang == 'en' %}
