@@ -16,7 +16,8 @@ layout: default
 <br>
 <hr>
 <br>
-  <h3>Latest Posts</h3>
+{% if post.lang contains en %}
+  <h3>Latest Posts</h3>{% elsif post.lang contains tr %}<h3>Latest Posts</h3>{% endif %}
   <ul class="posts">
     {% for post in site.related_posts limit:3 %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
