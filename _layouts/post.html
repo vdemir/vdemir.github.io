@@ -22,7 +22,6 @@ layout: default
 {% if page.lang == 'en' %}
   <h3>Latest Posts</h3>{% else %}<h3>Yeniler</h3>{% endif %}</div>
  
-{% if page.lang == 'en' %}
   <ul class="posts">
     {% for post in site.posts limit:5 %}{% if post.lang == 'en' %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>{% endif %}
