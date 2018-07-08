@@ -2,7 +2,7 @@
 layout: post
 title:  C'de Pointer ve Struct Yapıları
 date:   2018-01-16 13:52:00
-tags:   C
+tags:   C Programlama
 comments: False
 ---
 

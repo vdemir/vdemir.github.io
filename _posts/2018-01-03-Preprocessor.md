@@ -2,7 +2,7 @@
 layout: post
 title:  C Preprocessor Bildirimleri
 date:   2018-01-03 12:52:00
-tags:   C
+tags:   C Programlama
 comments: False
 ---
  
