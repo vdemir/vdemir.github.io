@@ -24,9 +24,9 @@ layout: default
 <hr><ul>
 {% assign posts=site.posts | sort: 'lang' %}
 {% for post in posts %}
-  <li>
+ {% if post.lang == 'en' %} <li>
     <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.title }}</a>
-  </li>
+  </li>{% endif %}
 {% endfor %}
 
 </ul>
