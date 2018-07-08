@@ -2,7 +2,7 @@
 layout: post
 title:  C'de Struct Yapıları
 date:   2018-01-16 13:52:00
-tags:   C Programlama
+tags:   C Programlama Linux
 comments: False
 ---
 
