@@ -88,7 +88,7 @@ Aşağıdaki örnek, pointer işaretçiler, referans operatörü (&) ve referans
 **Not:** Pointer işaretçi bildirirken * işareti, referans kaldırmayla ilgili bir operatör değildir. Bir pointer işaretçi oluşturan sadece benzer bir gösterimdir.
 
 ### Pointer İşaretçilerin Çalışmasını Gösteren Örnek
-
+<br>
 ~~~c
 /* C pointer işaretçilerin kullanımını gösteren örnek */ 
 
@@ -115,6 +115,7 @@ int main(){
      return 0;
  }
 ~~~
+<br>
 ~~~bash
 **Output**
 
@@ -138,7 +139,7 @@ Value of *pc:2
 Address of c:2686760
 Value of c:2
 ~~~
-
+<br>
 **Not:** Bu kodu kullanırken farklı adres değeri elde edebilirsiniz.
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
