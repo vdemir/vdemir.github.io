@@ -8,6 +8,7 @@ comments: False
 
 
 <p class="meta">8 Ocak 2018 - Türkiye</p>
+{% include CSS.html %}
 
 Variables • Chapter 9
 ======================

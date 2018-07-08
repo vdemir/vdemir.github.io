@@ -8,7 +8,7 @@ comments: False
 
 
 <p class="meta">16 Ocak 2018 - Türkiye</p>
-
+{% include CSS.html %}
 ## C Programlama Yapısı ve İşaretçi
 
 Bu makalede, ```structure``` yapı içindeki verilere erişmek için ```pointer``` işaretçilerle çalışmanıza yardımcı olacak alakalı örnekler bulacaksınız.

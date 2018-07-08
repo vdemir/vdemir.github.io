@@ -7,6 +7,9 @@ comments: False
 ---
 
 <p class="meta">16 Ocak 2018 - Türkiye</p>
+
+{% include CSS.html %}
+
 ### C programlamada struct yapıyı bir fonksiyona nasıl geçiririm?
 
 Bu yazıda, ```struct``` yapıları bir fonksiyon işlevine argüman olarak geçirmek için alakalı örnekler bulacaksınız ve bunları programınızda kullanabilirsiniz.

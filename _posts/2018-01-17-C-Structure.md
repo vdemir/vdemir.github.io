@@ -7,7 +7,7 @@ comments: False
 ---
 
 <p class="meta">16 Ocak 2018 - Türkiye</p>
-
+{% include CSS.html %}
 ## C Programlamada Struct Yapılar
 
 Bu yazıda, C programlamasındaki struct yapılar hakkında bilgi edineceksiniz; Nedir, nasıl tanımlanır ve programınızda nasıl kullanılır gibi.

@@ -7,6 +7,9 @@ comments: False
 ---
 
 <p class="meta">16 Ocak 2018 - Türkiye</p>
+
+{% include CSS.html %}
+
 ## union ve struct arasındaki kullanım farkı
 ```union``` pek çok açıdan ```struct``` yapıya benzer olsa da, aralarındaki farkı anlamak çok önemlidir.
 
