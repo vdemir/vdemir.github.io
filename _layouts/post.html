@@ -22,14 +22,14 @@ layout: default
 {% endfor %}
 </ul>
 <hr><ul>
-{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+{% assign posts=site.posts | sort: 'lang' %}
 {% for post in posts %}
   <li>
     <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
   </li>
 {% endfor %}
 
-{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+{% assign pages=site.pages | sort: 'lang' %}
 {% for page in pages %}
   <li>
     <a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
