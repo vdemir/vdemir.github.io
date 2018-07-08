@@ -16,7 +16,7 @@ layout: default
 <br>
 <hr>
  <br>
-  <h2>Yeni İçerikler</h2>
+  <h3>Yeni İçerikler</h3>
   <ul class="posts">
     {% for post in site.related_posts limit:3 %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -24,7 +24,7 @@ layout: default
   </ul>
 <div class="relatedPosts">
 
-  <h2>İlgili İçerikler</h2>
+  <h3>İlgili İçerikler</h3>
 
 {% assign maxRelated = 5 %}
 {% assign minCommonTags =  3 %}
