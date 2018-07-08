@@ -47,8 +47,12 @@ layout: default
     {% endfor %}
 </ul>{% endif %}
 
+  
+<div class="relatedPosts">
 
-<div class="relatedPosts">  
+{% if page.lang == 'en' %}
+  <h3>Related Posts</h3>{% else %}<h3>İlgili İçerikler</h3>{% endif %}
+  
 
 {% assign maxRelated = 5 %}
 {% assign minCommonTags =  3 %}
