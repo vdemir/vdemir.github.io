@@ -6,8 +6,6 @@ tags:   C Programlama Linux
 comments: False
 ---
 
-{% include CSS.html %}
-
 <p class="meta">16 Ocak 2018 - Türkiye</p>
 
 ## C Programlamada Struct Yapılar

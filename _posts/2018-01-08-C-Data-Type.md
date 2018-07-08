@@ -6,8 +6,6 @@ tags:   C Programlama Linux
 comments: False
 ---
 
-
-{% include CSS.html %}
 <p class="meta">15 Ocak 2018 - Türkiye</p>
 ## Data Tipleri
 
