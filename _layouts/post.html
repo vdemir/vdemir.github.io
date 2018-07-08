@@ -17,19 +17,22 @@ layout: default
 <hr>
 <br>
 
-<div class="LatestPosts">
-
 {% if page.lang == 'en' %}
-  <h3>Latest Posts</h3>{% else %}<h3>Yeniler</h3>{% endif %}</div>
- 
-  <ul class="posts">
-    {% for post in site.posts limit:5 %}{% if post.lang == 'en' %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-
-	{% ifels post.lang == 'tr' %}
-	<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>{% endif %}{% endif %}
+  <h3>Latest Posts</h3><ul class="posts">
+    {% for post in site.posts limit:4 %}{% if post.lang == 'en' %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>{% endif %}
     {% endfor %}
   </ul>
+
+{% else %}
+
+<h3>Yeniler</h3>
+<ul class="posts">
+    {% for post in site.posts limit:4 %}{% if post.lang != 'en' %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>{% endif %}
+    {% endfor %}
+</ul>{% endif %}
+
   
 <div class="relatedPosts">
 
@@ -58,7 +61,7 @@ layout: default
   <ul class="posts">
     {% if sameTagCount >= minCommonTags %}
       <div>
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}" style="text-decoration:none">{{ post.title }}, {{ commonTags }}</a></li>
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}, {{ commonTags }}</a></li>
       </div>
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
