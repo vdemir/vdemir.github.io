@@ -1,0 +1,11 @@
+_site
+.DS_Store
+.jekyll
+.bundle
+.sass-cache
+Gemfile
+Gemfile.lock
+node_modules
+package.json
+RewriteCond %{HTTP_HOST} !^www.vdemir.github.io$ [NC]
+RewriteRule ^(.*)$ https://www.vdemir.github.io/$1 [L,R=301]
