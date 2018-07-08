@@ -201,3 +201,8 @@ ul.posts {
     margin-bottom: 1em;
   }
 
+@media screen and (min-width: 480px) and (max-width: 960px) {
+    #header {
+        display: none;
+    }
+}
