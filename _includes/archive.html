@@ -12,6 +12,25 @@
   <a href="{{ site.baseurl }}/tag/{{ tagname }}" style="text-decoration: none"><code class="highligher-rouge"><nobr>{{ tagname }}</nobr></code></a>
 {% endfor %}
 
+<style>
+/* tag cloud */
+.tag-cloud-0 { font-size: 1em; }
+.tag-cloud-1 { font-size: 1.5em; }
+.tag-cloud-2 { font-size: 1.5em; font-weight: bold; }
+.tag-cloud-3 { font-size: 2em; }
+.tag-cloud-4 { font-size: 2em; font-weight: bold; }
+.tag-cloud-5 { font-size: 2.5em; }
+.tag-cloud-6 { font-size: 2.5em; font-weight: bold; }
+.tag-cloud-7 { font-size: 2.75em; }
+.tag-cloud-8 { font-size: 2.75em; font-weight: bold; }
+.tag-cloud-9 { font-size: 2.75em;
+    font-weight: bold;
+    font-style: italic;
+}
+.tag-cloud-10 { font-size: 3em; }
+/* end tag cloud */
+
+</style>
     {% for tag in site.tags %}
       <span class=“tag-cloud-{{ tag | last | size | times: 10 | divided_by: site.tags.size }}”>
         <a href=“{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag | first | slugize] }}-ref”>{{ tag | first }}</a>
