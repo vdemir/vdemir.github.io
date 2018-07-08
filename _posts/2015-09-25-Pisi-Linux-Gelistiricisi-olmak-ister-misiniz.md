@@ -2,7 +2,7 @@
 layout: post
 title:  Pisi Linux Geliştiricisi olmak ister misiniz?
 date:   2015-09-26 02:17:00
-tags:   Pisi Linux
+tags:   Pisi Linux Distro
 ---
 
 
