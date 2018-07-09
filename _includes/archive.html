@@ -18,7 +18,7 @@
   <span style="font-size: {{ tag | last | size | times: 70 | divided_by: site.tags.size | plus: 100  }}%">
     <a href="/tag/{{ tag | first | slugize }}" style="text-decoration: none">
       {{ tag | first }}
-    </a> &nbsp;&nbsp;
+    </a> &nbsp;
   </span>
 {% endfor %}
 </ul>
