@@ -58,7 +58,9 @@
   
 <div class="teaser clearfix"></div>
   <div class="footer">
-    <div class="contact">
+    <div class="contact">{% if page.title != 'Günce' %}
+       <a href="{{ site.baseurl }}/" title="Home" target=""><i class=" fas fa-home fa-4x " aria-hidden="true"></i></a>
+{% endif %}
 	<div itemscope itemtype="http://schema.org/Person">
       <p>
         <span itemprop="name">Vedat Demir</span>
@@ -72,9 +74,7 @@
     </div>
 
     <div class="contact">
-{% if page.title != 'Günce' %}
-       <a href="{{ site.baseurl }}/" title="Home" target=""><i class=" fas fa-home fa-4x " aria-hidden="true"></i></a>
-{% endif %}
+
 {% if page.title == 'Günce' %}      
       <a href="https://github.com/vdemir" title="Github" target="_blank"><i class="fab fa-github fa-4x " aria-hidden="true"></i></a>
 
