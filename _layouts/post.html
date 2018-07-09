@@ -18,7 +18,7 @@ layout: default
 
 {% if page.lang == 'en' %}
   <h3>Latest Posts</h3><ul class="posts">
-    {% for post in site.posts limit:4 %}{% if post.lang == 'en' %}
+    {% for post in site.posts limit:3 %}{% if post.lang == 'en' %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>{% endif %}
     {% endfor %}
   </ul>
@@ -27,7 +27,7 @@ layout: default
 
 <h3>Yeniler</h3>
 <ul class="posts">
-    {% for post in site.posts limit:4 %}{% if post.lang == 'tr' %}
+    {% for post in site.posts limit:3 %}{% if post.lang == 'tr' %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>{% endif %}
     {% endfor %}
 </ul>{% endif %}
@@ -39,7 +39,7 @@ layout: default
   <h3>Related Posts</h3>{% else %}<h3>İlgili İçerikler</h3>{% endif %}
   
 
-{% assign maxRelated = 5 %}
+{% assign maxRelated = 3 %}
 {% assign minCommonTags =  3 %}
 {% assign maxRelatedCounter = 0 %}
 
