@@ -3,7 +3,9 @@ layout: post
 title:  stdlib.h Standart C Kitaplığı
 date:   2018-01-04 13:52:00
 tags:   C Programlama Linux GCC
-comments: False
+comments: true
+published: true
+lang: tr
 ---
 
 <p class="meta">7 Ocak 2018 - Türkiye</p>

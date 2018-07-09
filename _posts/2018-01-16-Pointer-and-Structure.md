@@ -3,7 +3,9 @@ layout: post
 title:  C'de Pointer ve Struct Yapıları
 date:   2018-01-16 13:52:00
 tags:   C Programlama Linux
-comments: False
+comments: true
+published: true
+lang: tr
 ---
 
 

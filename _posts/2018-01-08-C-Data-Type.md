@@ -3,7 +3,9 @@ layout: post
 title:  C'de Data Type
 date:   2018-01-15 13:53:00
 tags:   C Programlama Linux
-comments: False
+comments: true
+published: true
+lang: tr
 ---
 
 <p class="meta">15 Ocak 2018 - Türkiye</p>

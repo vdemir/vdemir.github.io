@@ -3,9 +3,9 @@ layout: post
 title: Vocabulary
 date:   2018-06-26 13:52:00
 tags:   English
-comments: False
+comments: true
 published: true
-lang: en
+lang: tr
 ---
 
 

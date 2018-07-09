@@ -3,7 +3,9 @@ layout: post
 title:  Kendi Lisp'nizi Oluşturun - Bonus Projects
 date:   2018-01-08 17:03:00
 tags:   C Programlama Lisp
-comments: False
+comments: true
+published: true
+lang: tr
 ---
  
 

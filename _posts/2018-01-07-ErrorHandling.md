@@ -3,7 +3,9 @@ layout: post
 title:  Kendi Lisp'nizi Oluşturun - Error Handling
 date:   2018-01-08 16:50:00
 tags:   C Programlama Lisp
-comments: False
+comments: true
+published: true
+lang: tr
 ---
  
 

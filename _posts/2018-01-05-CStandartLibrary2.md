@@ -3,7 +3,9 @@ layout: post
 title:  stdio.h Standart C Kitaplığı
 date:   2018-01-04 13:52:00
 tags:   C Programlama Linux GCC
-comments: False
+comments: true
+published: true
+lang: tr
 ---
  
 
