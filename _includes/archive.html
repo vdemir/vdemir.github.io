@@ -9,7 +9,8 @@
 {% for temptag in sortedtemptags %}
   {% assign tagitems = temptag | split: '#' %}
   {% capture tagname %}{{ tagitems[1] }}{% endcapture %}
-  <a href="{{ site.baseurl }}/tag/{{ tagname }}" style="text-decoration: none"><code class="highligher-rouge"><nobr>{{ tagname }}</nobr></code></a> &nbsp;
+  <span style="font-size: {{ tag | last | size | times: 70 | divided_by: site.tags.size | plus: 100  }}%">
+  <a href="{{ site.baseurl }}/tag/{{ tagname }}" style="text-decoration: none"><code class="highligher-rouge"><nobr>{{ tagname }}</nobr></code></a> &nbsp;</span>
 {% endfor %}
 
 <ul class="tag-cloud">
