@@ -25,3 +25,20 @@ comments:
   provider: "disqus"
   disqus:
     shortname: "vdemir-github-io"
+
+social:
+  type:  # Person or Organization (defaults to Person)
+  name:  # If the user or organization name differs from the site's name
+  links:
+    - "https://twitter.com/zekid800"
+    - "https://facebook.com/zekid800"
+    - "https://instagram.com/zekid800"
+    - "https://www.linkedin.com/in/zekid800"
+    - "https://plus.google.com/zekid800"
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-1234567-8"
+    anonymize_ip: false # default
+
+
