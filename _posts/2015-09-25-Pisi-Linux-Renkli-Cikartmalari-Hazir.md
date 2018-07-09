@@ -3,6 +3,9 @@ layout: post
 title:  Pisi Linux Renkli Çıkartmalar Hazır
 date:   2015-09-26 08:00:00
 tags:   Pisi Linux Sticker
+comments: true
+published: true
+lang: tr
 ---
  
 

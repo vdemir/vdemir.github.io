@@ -4,6 +4,9 @@ title:      Pisi Linux Web Sitesi Yenileniyor
 date:       2015-09-23 12:00:00
 tags:       pisilinux 2.0 web site
 tags:       Pisi Linux Distro Web
+comments: true
+published: true
+lang: tr
 ---
  
 <p class="meta">23 Eylül 2015 - Türkiye</p>
