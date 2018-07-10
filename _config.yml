@@ -4,8 +4,8 @@ highlighter: rouge
 # Site wide configuration
 
 description       : Blog
-title             : Günlük Yazılar
-keywords          : Blog, Günce, Yazılar
+title             : Programlama Dilleri ile ilgili Yazilar
+keywords          : C,Language,Programming
 logo              : siteicon.png
 search            : false
 baseurl           : ""
