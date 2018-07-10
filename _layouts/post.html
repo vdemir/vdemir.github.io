@@ -34,9 +34,6 @@ layout: default
 
   
 <div class="relatedPosts">
-
-{% if page.lang == 'en' %}{% if sameTagCount >= 1 %}
-  <h3>Related Posts</h3>{% endif %}{% else %}<h3>İlgili İçerikler</h3>{% endif %}
   
 
 {% assign maxRelated = 3 %}
@@ -70,6 +67,9 @@ layout: default
 
   {% endfor %}
   </ul>
+
+{% if page.lang == 'en' %}{% if sameTagCount >= 1 %}
+  <h3>Related Posts</h3>{% endif %}{% else %}<h3>İlgili İçerikler</h3>{% endif %}
 </div>
 <hr>
 <br>
