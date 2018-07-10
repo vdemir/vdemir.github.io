@@ -47,12 +47,13 @@ layout: default
           {% assign sameTagCount = sameTagCount | plus: 1 %}
         {% endif %}
       {% endif %}
-{% if sameTagCount >= 3 %}
-{% if page.lang == 'en' %}
-  <h3>Related Posts</h3>{% elsif page.lang == 'tr' %}<h3>İlgili İçerikler</h3>
-{% endif %}{% break %}{% endif %}
     {% endfor %}
 {% endfor %}
+      {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+      {% if maxRelatedCounter >= maxRelated %}{% if page.lang == 'en' %}
+  <h3>Related Posts</h3>{% else page.lang == 'tr' %}<h3>İlgili İçerikler</h3>
+      {% endif %}
+
   
 
 {% assign maxRelated = 3 %}
