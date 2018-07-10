@@ -35,10 +35,10 @@ layout: default
   
 <div class="relatedPosts">
 
-{% if page.tags contains tag | size 3 %}
 {% if page.lang == 'en' %}
-  <h3>Related Posts</h3>{% elsif page.lang == 'tr' %}<h3>İlgili İçerikler</h3>{% endif %}{% endif %}
+  <h3>Related Posts</h3>{% elsif page.lang == 'tr' %}<h3>İlgili İçerikler</h3>{% endif %}
   
+
 {% assign maxRelated = 3 %}
 {% assign minCommonTags =  3 %}
 {% assign maxRelatedCounter = 0 %}
