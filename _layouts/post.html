@@ -51,7 +51,7 @@ layout: default
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
 {% endfor %}
       {% if maxRelatedCounter >= maxRelated %}{% if page.lang == 'en' %}
-  <h3>Related Posts</h3>{% else page.lang == 'tr' %}<h3>İlgili İçerikler</h3>
+  <h3>Related Posts</h3>{% elsif page.lang == 'tr' %}<h3>İlgili İçerikler</h3>
       {% endif %}
 
   
