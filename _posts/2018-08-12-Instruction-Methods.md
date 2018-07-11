@@ -51,97 +51,14 @@ Direkt Metot, Dilbilgisi Tercüme Metodu'ndan bir geçiştir. Olumlu noktaların
 - Konuşmaya yapılan vurgu, hedef dilde gerçek iletişim ihtiyacı duyanlar için daha çekici hale getirdi. 
 - Bu kelime dağarcığını realia aracılığıyla öğretmek için ilk yöntemlerden biriydi.
 
-### Schwa Hecelerle Yazılışı
+### Eleştiri
 ***
 
-<div class="article-container clearfix">
-  <img src="{{ site.baseurl }}/images/vowels.gif" alt="Sound" class="wrap align-left">
+Başarılarına rağmen, doğrudan yöntem eğitim sistemlerinin ihtiyaçlarını karşılamaya yetmedi. Başlıca eksikliklerinden biri, devlet okullarının onu entegre etmesinin zor olmasıdır. Brown'ın (1994: 56) belirttiği gibi, Direkt Metot 
 
-<br>
+”, kamu eğitiminde bütçe, sınıf büyüklüğü, zaman ve öğretmen altyapısının kısıtlamalarının kullanılmasının zor olduğu bir yöntemdir.” 20. yüzyılın başındaki kısa popülerlik, kısa sürede bu kısıtlamalardan dolayı cazibesini kaybetmeye başladı. Daha sonra Sesli Dil Yöntemi'ne giden yolu açtı.
 
-<h3>Ünlü-ünsüz-e spelling  örnekleri</h3>
-<br>
-'a' spelling:
-<br>
-<p style="margin-left:40px"><strong>a</strong>gain:&nbsp;<strong>/ə 'g<span style="font-size:medium">ɛn/</span></strong>, vit<strong>a</strong>min:&nbsp;<strong>/'v<span style="font-size:medium">ɑɪ</span><span style="font-size:medium">&nbsp;t̬</span>ə m<span style="font-size:medium">ɪn/</span></strong></p>
-
-<audio controls style="width: 200px;">
-  <source src="{{ site.baseurl }}/audio/again.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-<br>
-<audio controls style="width: 200px;">
-  <source src="{{ site.baseurl }}/audio/vitamin.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-</div>
-<br>
-
-<div class="article-container clearfix">
-
-'e' spelling
-<br>
-<p>p<strong>e</strong>tition:&nbsp;<strong><span style="font-size:15.84px">/</span><span style="font-size:15.84px">pə ˈtɪʃ&nbsp;</span>ə<span style="font-size:15.84px">n</span><span style="font-size:15.84px">/,</span></strong> cel<strong>e</strong>brate:&nbsp;<strong>/<span style="font-size:15.84px">ˈs</span>ɛ<span style="font-size:15.84px">l ə&nbsp;breɪt/</span></strong></p>
-
-<audio controls style="width: 200px;">
-  <source src="{{ site.baseurl }}/audio/petition.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-<audio controls style="width: 200px;">
-  <source src="{{ site.baseurl }}/audio/celebrate.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-</div>
-
-
-<div class="article-container clearfix">
-'i' spelling
-<br>
-<p style="margin-left:40px">pres<strong>i</strong>dent:&nbsp;<strong><span style="font-size:15.84px">/</span><span style="font-size:15.84px">ˈpr</span>ɛ<span style="font-size:15.84px">z ə&nbsp;d</span>ɛ<span style="font-size:15.84px">nt/</span></strong>, exper<strong>i</strong>ment:&nbsp;<strong><span style="font-size:15.84px">/</span><span style="font-size:15.84px">ɪk 'sp</span></strong><strong>ɛ<span style="font-size:15.84px">r ə&nbsp;mənt/</span></strong></p>
-
-<audio controls style="width: 200px;">
-  <source src="{{ site.baseurl }}/audio/president.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-<audio controls style="width: 200px;">
-  <source src="{{ site.baseurl }}/audio/experiment.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-</div>
-
-<div class="article-container clearfix">
-'o' spelling
-<br>
-<p style="margin-left:40px">occur:&nbsp;<strong>/</strong><strong><span style="font-size:15.84px">ə 'k</span></strong><span style="font-size:medium">ɚ</span><strong>/,</strong>&nbsp;condition:&nbsp;<strong>/k<span style="font-size:15.84px">ən ˈdɪʃ&nbsp;ən/</span></strong></p>
-
-<audio controls style="width: 200px;">
-  <source src="{{ site.baseurl }}/audio/occur.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-<audio controls style="width: 200px;">
-  <source src="{{ site.baseurl }}/audio/condition.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-</div>
-
-<div class="article-container clearfix">
-'u' spelling
-<br>
-<p style="margin-left:40px">campus:&nbsp;<strong>/ˈkæm pəs/</strong>,&nbsp;support:&nbsp;<strong>/sə ˈpɔrt/</strong></p>
-
-<audio controls style="width: 200px;">
-  <source src="{{ site.baseurl }}/audio/campus.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-<audio controls style="width: 200px;">
-  <source src="{{ site.baseurl }}/audio/support.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-</div>
-
-<br>
-
-### Sözlükler ve Schwa
+### Grammar Translation Method
 ***
 
 Vurgulu heceler için bile, bazı sözlükler **schwa** **/ə/**  ve **'short u'** **/ʌ/** için ayrı bir sembol kullanmazlar. Schwa, kullanılan tek sembol olduğunda, kelimenin /ʌ/ ile telaffuz edildiği varsayılabilir.
