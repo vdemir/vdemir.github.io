@@ -15,7 +15,7 @@ lang: tr
 
 _By Vedat Demir*_
 
-### List of Nobel Prize Laureates
+### List of Nobel Prize In Economic Science
 <br>
 
 <h1>All Prizes in Economic Sciences</h1>
