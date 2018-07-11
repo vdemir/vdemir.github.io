@@ -85,11 +85,7 @@ Dilbilgisi Tercüme Yönteminin 20. yüzyılın son onyıllarında bazı sınıf
 - Çeviri, kelime ve deyimlerin anlamını açıklamanın en kolay ve en kısa yoludur. 
 - Öğrencilerin, anadilde gerçekleştirildiği gibi dersi anlamada herhangi bir zorlukları yoktur. 
 - Öğretmen anadilindeki her şeyi gerçekleştirirken emek tasarrufu sağlayan bir yöntemdir.
-<br>
-<article class="function_words">
-  <h3>Criticism</h3>
-<article class="function_words1">
-  <p>
+
 - Yöntemin iyi olduğu şey, “dili öğretmek” değil, “dili öğrenmek” dir. 
 - Konuşma veya herhangi bir spontane yaratıcı çıkış müfredattan eksikti. 
 - Öğrenciler sınıfta aktif bir rol oynamadı. 
@@ -98,56 +94,7 @@ Dilbilgisi Tercüme Yönteminin 20. yüzyılın son onyıllarında bazı sınıf
 - Çeviri bazen yanıltıcıdır. 
 
 Bütün bu dezavantajlar nedeniyle, eğitmenler dilbilgisi çeviri yönteminin tuzaklarını düzeltmek için daha iyi yollar bulmaya çalıştılar. Direkt Metod cevaptı.
-</p>
-</article>
-</article>
+
 
 * * You may be followed at {{ site.url }} .
 
-<style>
-img {
- display: block;
-}
-
-img.wrap {
- max-width: 50%;
- margin: 30px 0px;
-}
-
-img.align-left {
- float: left;
- margin-right: 30px;
-}
-
-img.align-right {
- float: right;
- margin-left: 30px;
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-.function_words {
-    margin: 0;
-    padding: .3rem;
-    font: 1rem 'Fira Sans', sans-serif;
-    display: block;
-}
-
-.function_words1 > p {
-    margin: .5rem;
-    padding: .3rem;
-    font-size: 0.9rem;
-}
-.function_words2 > p {
-    margin: 0;
-    padding: .3rem;
-    font-size: 0.9rem;text-align: left
-    float: left;
-    margin-right: 30px;
-}
-</style>
