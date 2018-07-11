@@ -32,17 +32,17 @@ _By Vedat Demir*_
 <div style="clear:both"></div>
 
 <div class="by_year">
-		<h3><a href="/nobel_prizes/economics/laureates/2018/">The Prize in Economic Sciences Nobel 2018</a></h3>
+		<h3><a>The Prize in Economic Sciences Nobel 2018</a></h3>
 <p>The 2018 Prize in Economic Sciences has not been awarded yet. It will be announced on Monday 8 October, 11:45 a.m. at the earliest.</p>
 </div>
 <div class="by_year">
-		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a href="/nobel_prizes/economic-sciences/laureates/2017/">The Prize in Economic Sciences Nobel 2017</a></h3>
+		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a>The Prize in Economic Sciences Nobel 2017</a></h3>
 <h6 style="margin: 0 0 5px 0; padding: 0;"><a href="/nobel_prizes/economic-sciences/laureates/2017/thaler-facts.html">Richard H. Thaler</a></h6>
 <p>"for his contributions to behavioural economics"</p>
 </div>
 <div class="by_year">
-		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a href="/nobel_prizes/economic-sciences/laureates/2016/">The Prize in Economic Science Nobel 2016</a></h3>
-<h6 style="margin: 0 0 5px 0; padding: 0;"><a href="/nobel_prizes/economic-sciences/laureates/2016/hart-facts.html">Oliver Hart</a> <span style='font-weight: normal;'>and</span> <a href="/nobel_prizes/economic-sciences/laureates/2016/holmstrom-facts.html">Bengt Holmstr&ouml;m</a></h6>
+		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a>The Prize in Economic Science Nobel 2016</a></h3>
+<h6 style="margin: 0 0 5px 0; padding: 0;"><a>Bengt Holmstr&ouml;m</a></h6>
 <p>"for their contributions to contract theory"</p>
 </div>
 <div class="by_year">
