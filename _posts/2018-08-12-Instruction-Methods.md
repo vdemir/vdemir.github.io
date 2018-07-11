@@ -116,5 +116,10 @@ Dil öğretimi için **Audiolingual Yaklaşım**, **Direct Metot** ile bir çok 
 
  Dilin yapısal görünümü, audio-lingual yönteminin arkasındaki görüştür. Bu yaklaşım, günümüzde dil öğelerinin birbirleriyle nasıl ilişkili olduğunu, yani ‘artzamanlı olarak‘ yerine “eşzamanlı olarak” olduğunu incelemeye odaklanmıştır. Ayrıca, dilbilimsel işaretlerin iki bölümden, bir işaretçinin (bir sözcüğün ses örüntüsü) ve bir işaretin (sözcüğün kavramı ya da anlamından) oluştuğu ileri sürülmüştür. Dil çalışması, “kişisel sözün” gözlemlenen dilin tek gözlemlenebilir kısmı olduğu şeklindeki performansını açıklamayı amaçlamaktadır. 
 
+<br>
+### Davranışçılık
+***
+Davranışçılık Davranışçılık, psikolojinin felsefesi olup, organizmanın yaptığı her şeyin - oyunculuk, düşünme ve hissetme gibi -davranışlar olarak kabul edilebildiği ve önerilmesi gerektiğine dayanan bir felsefedir. Öğrenmenin dernekler, alışkanlık oluşumu ve pekiştirme yoluyla gerçekleştiğini iddia eder. Öğrenci istenen davranışı oluşturduğunda ve olumlu bir şekilde güçlendirildiğinde, davranışların yeniden ortaya çıkması muhtemeldir.
+
 * * You may be followed at {{ site.url }} .
 
