@@ -33,6 +33,7 @@ _By Vedat Demir*_
 - Vurgu doğru telaffuz ve dilbilgisi üzerine konur. 
 - Modelleme ve uygulama yoluyla öğretme.
 <br>
+
 Öğretim teknikleri çoğunlukla,
 
 - yüksek sesle okuma, 
@@ -43,6 +44,7 @@ _By Vedat Demir*_
 - yazı dikte etme
 - ve paragraf yazımında kullanılır.
 <br>
+
 ### Avantajlar
 ***
 
