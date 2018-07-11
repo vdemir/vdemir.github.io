@@ -19,7 +19,7 @@ _By Vedat Demir*_
 
 <br>
 	<i class="fas fa-paragraph fa-2x"></i>  Doğal Yöntem olarak da adlandırılan Doğrudan Yöntem, Almanya ve Fransa'da 1900 civarında kurulmuştur. Dilbilgisi Tercüme Metodunun eksikliklerine bir cevap olarak ortaya çıkmıştır. Hedef dili kullanan yabancı dilleri öğretmek, sınıfta anadili herhangi bir şekilde kullanmamak için kullanılan bir yöntemdir. Öğretmenler, öğrencilerin sözlü iletişim kuramamalarından dolayı hayal kırıklığına uğradıkça, yeni teknikler denemeye başladılar. Fikir, yabancı dil öğretiminin, insanların anadillerini öğrendikleri şekilde yapılması gerektiğiydi.
-
+<br>
 ### The method
 ***
 
@@ -41,7 +41,7 @@ _By Vedat Demir*_
 - yazı dikte etme
 - ve paragraf yazımında kullanılır.
 
-
+<br>
 ### Avantajlar
 ***
 
@@ -50,7 +50,7 @@ Direkt Metot, Dilbilgisi Tercüme Metodu'ndan bir geçiştir. Olumlu noktaların
 - Dil, ana dil edinildiği gibi öğreten doğal bir yöntemdir. Sadece hedef dil kullanılır ve öğrenme bağlamsallaştırılır. 
 - Konuşmaya yapılan vurgu, hedef dilde gerçek iletişim ihtiyacı duyanlar için daha çekici hale getirdi. 
 - Bu kelime dağarcığını realia aracılığıyla öğretmek için ilk yöntemlerden biriydi.
-
+<br>
 ### Eleştiri
 ***
 
@@ -59,14 +59,13 @@ Başarılarına rağmen, doğrudan yöntem eğitim sistemlerinin ihtiyaçların�
 ”kamu eğitiminde bütçe, sınıf büyüklüğü, zaman ve öğretmen altyapısının kısıtlamalarının kullanılmasının zor olduğu bir yöntemdir.”
 
  20. yüzyılın başındaki kısa popülerlik, kısa sürede bu kısıtlamalardan dolayı cazibesini kaybetmeye başladı. Daha sonra Sesli Dil Yöntemi'ne giden yolu açtı.
-
+<br>
 
 ### Grammar Translation Method
 ***
 
 Dilbilgisi Tercüme Metodu, asıl olarak, sözlü formun pahasına, esas olarak yazılı forma odaklandığını açıklayan ölü dilleri öğretmek için kullanılan eski bir yöntemdir. 18. ve 19. yüzyıllarda çok popüler olan öğretim psikolojisi yaklaşımına göre tasarlandı. “Zihinsel güçlerin zihnin güçlerini güçlendirmek için gerekli olduğunu” öne sürdü. Bunu yapmanın yolu Yunanlıların ve Romalıların klasik edebiyatını öğrenmek oldu.
-
-
+<br>
 ### Method
 ***
 
