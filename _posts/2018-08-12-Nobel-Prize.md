@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nobel Prize - List of Nobel Prize Laureates
+title: Nobel Prize - In Economic Science
 date:   2018-08-12 15:52:00
 tags:   English Nobel
 comments: true
