@@ -60,7 +60,6 @@ Başarılarına rağmen, doğrudan yöntem eğitim sistemlerinin ihtiyaçların�
 
  20. yüzyılın başındaki kısa popülerlik, kısa sürede bu kısıtlamalardan dolayı cazibesini kaybetmeye başladı. Daha sonra Sesli Dil Yöntemi'ne giden yolu açtı.
 <br>
-
 ### Grammar Translation Method
 ***
 
@@ -78,15 +77,12 @@ Dilbilgisi Tercüme Metodu, asıl olarak, sözlü formun pahasına, esas olarak 
 
 Dilbilgisi Tercüme Yönteminin 20. yüzyılın son onyıllarında bazı sınıflarda halen kullanıldığını görmek şaşırtıcıdır. Olabilir, çünkü bazı avantajları vardır.
 <br>
-
-
 ### Advantages
 ***
 - Çeviri, kelime ve deyimlerin anlamını açıklamanın en kolay ve en kısa yoludur. 
 - Öğrencilerin, anadilde gerçekleştirildiği gibi dersi anlamada herhangi bir zorlukları yoktur. 
 - Öğretmen anadilindeki her şeyi gerçekleştirirken emek tasarrufu sağlayan bir yöntemdir.
 <br>
-
 ### Criticism
 ***
 
