@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nobel Prize - In Economic Science
+title: Nobel Prizes - In Economic Science
 date:   2018-08-12 15:52:00
 tags:   English Nobel
 comments: true
@@ -16,7 +16,7 @@ lang: tr
 _By Vedat Demir*_
 
 ### List of Nobel Prize In Economic Science
-
+<br>
 <div style="clear:both"></div>
 
 <style>
