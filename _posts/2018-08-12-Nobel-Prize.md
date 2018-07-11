@@ -15,7 +15,7 @@ lang: tr
 
 _By Vedat Demir*_
 
-### The unstressed central vowel represented by the symbol ə in the International Phonetic Alphabet.
+### List of Nobel Prize Laureates
 <br>
 <html>
 <table border="1" cellspacing="6" id="sortable_table_id_0">
