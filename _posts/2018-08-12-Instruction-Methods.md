@@ -106,7 +106,7 @@ Bütün bu dezavantajlar nedeniyle, eğitmenler dilbilgisi çeviri yönteminin t
 ### 3. The Audiolingual Method
 ***
 
-Ses-Lingual öğretim yönteminin kökenleri, İkinci Dünya Savaşı sırasında Ordu Yöntemi olarak bilinir hale geldiğinde ortaya çıktı. Ayrıca Aural sözlü yaklaşım denir. Dilin yapısal görünümü ve dil öğrenmenin davranışçı teorisine dayanır. 
+<i class="fas fa-paragraph fa-2x"></i>  Audio-Lingual öğretim yönteminin kökenleri, İkinci Dünya Savaşı sırasında Ordu Yöntemi olarak bilinir hale geldiğinde ortaya çıktı. Ayrıca Aural sözlü yaklaşım denir. Dilin yapısal görünümü ve dil öğrenmenin davranışçı teorisine dayanır. 
 
 Dil öğretimi için **Audiolingual Yaklaşım**, **Direct Metot** ile bir çok benzerliğe sahiptir. Her ikisi de Dilbilgisi Tercümesi yönteminin eksikliklerine karşı bir tepki olarak görülmüş, hem ana dilin kullanımını reddetmiş hem de okuma ve yazma yeterliliklerinden önce konuşma ve dinleme yeterliliğinin ön planda olduğu gerçeği. Fakat bazı farklılıklar da var. Dilbilgisi yaklaşımı, dilbilgisi talimlerine odaklanırken doğrudan yöntem, kelime öğretiminin altını çizdi.
 
