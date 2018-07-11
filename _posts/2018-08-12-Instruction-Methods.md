@@ -53,6 +53,7 @@ Direkt Metot, Dilbilgisi Tercüme Metodu'ndan bir geçiştir. Olumlu noktaların
 - Dil, ana dil edinildiği gibi öğreten doğal bir yöntemdir. Sadece hedef dil kullanılır ve öğrenme bağlamsallaştırılır. 
 - Konuşmaya yapılan vurgu, hedef dilde gerçek iletişim ihtiyacı duyanlar için daha çekici hale getirdi. 
 - Bu kelime dağarcığını realia aracılığıyla öğretmek için ilk yöntemlerden biriydi.
+
 <br>
 ### Eleştiri
 ***
