@@ -79,34 +79,25 @@ Dilbilgisi Tercüme Metodu, asıl olarak, sözlü formun pahasına, esas olarak 
 Dilbilgisi Tercüme Yönteminin 20. yüzyılın son onyıllarında bazı sınıflarda halen kullanıldığını görmek şaşırtıcıdır. Olabilir, çünkü bazı avantajları vardır.
 <br>
 
-<article class="function_words">
-  <h3>Fonksiyonel Kelimeler</h3>
-<article class="function_words1">
-  <p>
- İçerik kelimelerinin aksine, fonksiyon sözcükleri (dilbilgisel sözcükler olarak da adlandırılır), küçük sözcüksel anlamları olan veya belirsiz bir anlama sahip olan kelimelerdir, bunun yerine bir cümlede diğer sözcüklerle dilbilgisel ilişkileri ifade etmeye hizmet ederler. İşlev kelimeleri kapalı sınıf kelimelerdir. Diller bu sete kolayca yeni kelimeler eklemez. Her zaman nispeten az ve değişime karşı dayanıklıdırlar. Bunlar sözcük olarak verimsizdir ve genellikle formda değişmezdir.
-</p>
-</article>
 
-<article class="function_words1">
-<p>Örnekler </p>
-Prepositions: 
-of, at, in, without, between<br>
-Pronouns: 
-he, they, anybody, it, one<br>
-Determiners: 
-the, a, that, my, more, much, either,
-neither<br>
-Conjunctions: 
-and, that, when, while, although, or<br>
-Auxiliary: 
-verbs be (is, am, are), have, got, do<br>
-Particles: 
-no, not, nor, as
-</article>
-</article>
-
-
+### Advantages
+***
+- Çeviri, kelime ve deyimlerin anlamını açıklamanın en kolay ve en kısa yoludur. 
+- Öğrencilerin, anadilde gerçekleştirildiği gibi dersi anlamada herhangi bir zorlukları yoktur. 
+- Öğretmen anadilindeki her şeyi gerçekleştirirken emek tasarrufu sağlayan bir yöntemdir.
 <br>
+
+### Criticism
+***
+
+- Yöntemin iyi olduğu şey, “dili öğretmek” değil, “dili öğrenmek” dir. 
+- Konuşma veya herhangi bir spontane yaratıcı çıkış müfredattan eksikti. 
+- Öğrenciler sınıfta aktif bir rol oynamadı. 
+- Haberleşmeye çok az dikkat edilir. 
+- İçeriğe çok az dikkat edilir. 
+- Çeviri bazen yanıltıcıdır. 
+
+Bütün bu dezavantajlar nedeniyle, eğitmenler dilbilgisi çeviri yönteminin tuzaklarını düzeltmek için daha iyi yollar bulmaya çalıştılar. Direkt Metod cevaptı.
 
 * * You may be followed at {{ site.url }} .
 
