@@ -58,6 +58,7 @@ Başarılarına rağmen, doğrudan yöntem eğitim sistemlerinin ihtiyaçların�
 ”kamu eğitiminde bütçe, sınıf büyüklüğü, zaman ve öğretmen altyapısının kısıtlamalarının kullanılmasının zor olduğu bir yöntemdir.”
 
  20ci yüzyılın başındaki kısa popülerlik, kısa sürede bu kısıtlamalardan dolayı cazibesini kaybetmeye başladı. Daha sonra Sesli Dil Yöntemi'ne giden yolu açtı.
+<br>
 <hr>
 <br>
 ### Grammar Translation Method
