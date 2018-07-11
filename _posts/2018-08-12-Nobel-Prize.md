@@ -29,62 +29,6 @@ _By Vedat Demir*_
 }
 </style>
 
-<script>
-	
-$(document).ready(function() {
-	
-	var list_current_year = $('#choose-year-input').val();
-	var choose_year_current_url = document.URL;
-	
-	pattern = /year=/
-	
-	if(!choose_year_current_url.match(pattern)) {
-		
-		choose_year_current_url = 'http://www.nobelprize.org/nobel_prizes/lists/year/?year=2018&images=yes';
-	}
-	
-	$('#choose-year-up').click(function() {
-		
-		if(parseInt(list_current_year) < 2018) {
-			
-			var list_new_year = parseInt(list_current_year)+1;
-			var choose_year_new_url = choose_year_current_url.replace(list_current_year, list_new_year);
-			
-			document.location = choose_year_new_url;
-		}
-	});
-	
-	//# Tap down
-	$('#choose-year-down').click(function() {
-		
-		if(parseInt(list_current_year) > 1901) {
-			
-			var list_new_year = parseInt(list_current_year)-1;
-			var choose_year_new_url = choose_year_current_url.replace(list_current_year, list_new_year);
-			
-			document.location = choose_year_new_url;
-		}
-	});
-	
-	//# Year input
-	$('#choose-year-input').keyup(function() {
-		
-		if($(this).val().length == 4) {
-			
-			var list_new_year = $(this).val();
-			
-			if(parseInt(list_new_year) < 2019 && parseInt(list_new_year) > 1900) {
-				
-				choose_year_new_url = choose_year_current_url.replace(list_current_year, list_new_year);
-				
-				document.location = choose_year_new_url;
-			}
-		}
-	});
-});
-
-</script>
-
 <div style="clear:both"></div>
 
 <div class="by_year">
