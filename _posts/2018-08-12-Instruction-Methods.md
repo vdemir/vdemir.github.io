@@ -20,9 +20,9 @@ _By Vedat Demir*_
 <br>
 	<i class="fas fa-paragraph fa-2x"></i>  Doğal Yöntem olarak da adlandırılan Doğrudan Yöntem, Almanya ve Fransa'da 1900 civarında kurulmuştur. Dilbilgisi Tercüme Metodunun eksikliklerine bir cevap olarak ortaya çıkmıştır. Hedef dili kullanan yabancı dilleri öğretmek, sınıfta anadili herhangi bir şekilde kullanmamak için kullanılan bir yöntemdir. Öğretmenler, öğrencilerin sözlü iletişim kuramamalarından dolayı hayal kırıklığına uğradıkça, yeni teknikler denemeye başladılar. Fikir, yabancı dil öğretiminin, insanların anadillerini öğrendikleri şekilde yapılması gerektiğiydi.
 
+<br>	
 ### The method
 ***
-<br>	
 - Çeviri herhangi bir sınıf etkinliğinden tamamen atılır. Sınıf etkinlikleri SADECE hedef dilde yürütülmektedir. 
 - Sözlü anlatım, başka türlü okuma ve yazma etkinliklerinden önce gelir. 
 - Sözlü yorumlarla birlikte verilen zincir etkinliklerin kullanımı: Kapıya çıkıyorum. Kapıyı açarım. Kapıyı kapatırım. Evime geri dönüyorum. Oturuyorum. (Gouin serisi denir) 
@@ -45,7 +45,6 @@ _By Vedat Demir*_
 
 ### Avantajlar
 ***
-<br>
 Direkt Metot, Dilbilgisi Tercüme Metodu'ndan bir geçiştir. Olumlu noktalarından biri de dil hakkındaki malumatı değil dili öğretmeyi vaat etmektir. Daha fazla avantaj aşağıdaki gibi sıralanabilir: 
 
 - Dil, ana dil edinildiği gibi öğreten doğal bir yöntemdir. Sadece hedef dil kullanılır ve öğrenme bağlamsallaştırılır. 
