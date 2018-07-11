@@ -30,7 +30,7 @@ _By Vedat Demir*_
 - Somut sözcükleri öğretmek için realia kullanımı. Fikirler ile derleme yoluyla soyut kelime öğretilir. 
 - Vurgu doğru telaffuz ve dilbilgisi üzerine konur. 
 - Modelleme ve uygulama yoluyla öğretme.
-
+<br>
 Öğretim teknikleri çoğunlukla,
 
 - yüksek sesle okuma, 
