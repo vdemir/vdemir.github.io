@@ -68,7 +68,7 @@ Başarılarına rağmen, doğrudan yöntem eğitim sistemlerinin ihtiyaçların�
 ### 2. Grammar Translation Method
 ***
 
-Dilbilgisi Tercüme Metodu, asıl olarak, sözlü formun pahasına, esas olarak yazılı forma odaklandığını açıklayan ölü dilleri öğretmek için kullanılan eski bir yöntemdir. 18. ve 19. yüzyıllarda çok popüler olan öğretim psikolojisi yaklaşımına göre tasarlandı. “Zihinsel güçlerin zihnin güçlerini güçlendirmek için gerekli olduğunu” öne sürdü. Bunu yapmanın yolu Yunanlıların ve Romalıların klasik edebiyatını öğrenmek oldu.
+<i class="fas fa-paragraph fa-2x"></i> Dilbilgisi Tercüme Metodu, asıl olarak, sözlü formun pahasına, esas olarak yazılı forma odaklandığını açıklayan ölü dilleri öğretmek için kullanılan eski bir yöntemdir. 18. ve 19. yüzyıllarda çok popüler olan öğretim psikolojisi yaklaşımına göre tasarlandı. “Zihinsel güçlerin zihnin güçlerini güçlendirmek için gerekli olduğunu” öne sürdü. Bunu yapmanın yolu Yunanlıların ve Romalıların klasik edebiyatını öğrenmek oldu.
 <br>
 ### Metod
 ***
