@@ -17,6 +17,10 @@ _By Vedat Demir*_
 
 ### List of Nobel Prize Laureates
 <br>
+
+ <http://www.nobelprize.org/nobel_prizes/economic-sciences/laureates/2017/>
+
+
 <html>
 <table border="1" cellspacing="6" id="sortable_table_id_0">
 <tbody>
