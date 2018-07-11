@@ -136,9 +136,6 @@ img.align-right {
     padding: .3rem;
     font: 1rem 'Fira Sans', sans-serif;
     display: block;
-    text-align: left
-    float: left;
-    margin-right: 30px;
 }
 
 .function_words1 > p {
