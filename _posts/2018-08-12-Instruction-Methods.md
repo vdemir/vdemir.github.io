@@ -84,9 +84,10 @@ Dilbilgisi Tercüme Yönteminin 20. yüzyılın son onyıllarında bazı sınıf
 - Öğrencilerin, anadilde gerçekleştirildiği gibi dersi anlamada herhangi bir zorlukları yoktur. 
 - Öğretmen anadilindeki her şeyi gerçekleştirirken emek tasarrufu sağlayan bir yöntemdir.
 <br>
-### Criticism
-***
-
+<article class="function_words">
+  <h3>Criticism</h3>
+<article class="function_words1">
+  <p>
 - Yöntemin iyi olduğu şey, “dili öğretmek” değil, “dili öğrenmek” dir. 
 - Konuşma veya herhangi bir spontane yaratıcı çıkış müfredattan eksikti. 
 - Öğrenciler sınıfta aktif bir rol oynamadı. 
@@ -95,6 +96,9 @@ Dilbilgisi Tercüme Yönteminin 20. yüzyılın son onyıllarında bazı sınıf
 - Çeviri bazen yanıltıcıdır. 
 
 Bütün bu dezavantajlar nedeniyle, eğitmenler dilbilgisi çeviri yönteminin tuzaklarını düzeltmek için daha iyi yollar bulmaya çalıştılar. Direkt Metod cevaptı.
+</p>
+</article>
+</article>
 
 * * You may be followed at {{ site.url }} .
 
@@ -128,10 +132,8 @@ img.align-right {
 .function_words {
     margin: 0;
     padding: .3rem;
-    background-color: #eee;
     font: 1rem 'Fira Sans', sans-serif;
     display: block;
-    color: #00aacd;
     text-align: left
     float: left;
     margin-right: 30px;
