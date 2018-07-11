@@ -75,7 +75,7 @@ _By Vedat Demir*_
 <div class="by_year">
 		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a>The Prize in Economic Sciences Nobel 2009</a></h3>
 <h6><a>Elinor Ostrom</a></h6>
-<p>"for her analysis of economic governance, especially the commons"</p><p>Bütün rasyonel bireyler, bu gezegendeki doğanın ortak mirasını sonsuza dek yaşamak isterler. Temiz hava ve okyanuslardan balık stoklarına, bozulmamış ormanlara ve el değmemiş ormanlara kadar, doğanın armağanları hayat, güzellik ve sığınak sunuyor. Bu hazineler olmadan, gezegenimiz tanınmayacaktı. 
+<p>"for her analysis of economic governance, especially the commons"</p><p><i class="fas fa-paragraph fa-1x"></i> Bütün rasyonel bireyler, bu gezegendeki doğanın ortak mirasını sonsuza dek yaşamak isterler. Temiz hava ve okyanuslardan balık stoklarına, bozulmamış ormanlara ve el değmemiş ormanlara kadar, doğanın armağanları hayat, güzellik ve sığınak sunuyor. Bu hazineler olmadan, gezegenimiz tanınmayacaktı. 
 
 Bu bölüm, politik devlet olmadan faaliyet gösteren özgür bir toplumun, bugün için verimli kullanım ve yarının korunması için ortak havuz kaynaklarını nasıl başarılı bir şekilde yönetebileceğine dair çeşitli açıklamalar yaptı. İncelenen vakalar kapsamlı değildir; Her potansiyeli kapsayamayız. Amacımız, devletin müdahalesi olmadan en değerli ortak kaynaklarımızı korumak için insanların nasıl işbirliği yapabileceğini ve yapıları nasıl yenileyebileceğini örnekleyen örnekler vermektir; ve aynı zamanda, ulusal ya da uluslar üstü devlet düzenlemelerinin, müşterek yönetimleri yönetmek için gerekli olmadığını ve aslında, paylaştığımız doğal kaynaklarımıza iyi olmaktan daha fazla zarar verebileceğini göstermek.</p>
 <div class="by_year_clear"></div>
