@@ -23,6 +23,7 @@ _By Vedat Demir*_
 <br>	
 ### The method
 ***
+
 - Çeviri herhangi bir sınıf etkinliğinden tamamen atılır. Sınıf etkinlikleri SADECE hedef dilde yürütülmektedir. 
 - Sözlü anlatım, başka türlü okuma ve yazma etkinliklerinden önce gelir. 
 - Sözlü yorumlarla birlikte verilen zincir etkinliklerin kullanımı: Kapıya çıkıyorum. Kapıyı açarım. Kapıyı kapatırım. Evime geri dönüyorum. Oturuyorum. (Gouin serisi denir) 
@@ -45,6 +46,7 @@ _By Vedat Demir*_
 
 ### Avantajlar
 ***
+
 Direkt Metot, Dilbilgisi Tercüme Metodu'ndan bir geçiştir. Olumlu noktalarından biri de dil hakkındaki malumatı değil dili öğretmeyi vaat etmektir. Daha fazla avantaj aşağıdaki gibi sıralanabilir: 
 
 - Dil, ana dil edinildiği gibi öğreten doğal bir yöntemdir. Sadece hedef dil kullanılır ve öğrenme bağlamsallaştırılır. 
