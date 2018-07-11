@@ -119,7 +119,18 @@ Dil öğretimi için **Audiolingual Yaklaşım**, **Direct Metot** ile bir çok 
 <br>
 ### Davranışçılık
 ***
-Davranışçılık Davranışçılık, psikolojinin felsefesi olup, organizmanın yaptığı her şeyin - oyunculuk, düşünme ve hissetme gibi -davranışlar olarak kabul edilebildiği ve önerilmesi gerektiğine dayanan bir felsefedir. Öğrenmenin dernekler, alışkanlık oluşumu ve pekiştirme yoluyla gerçekleştiğini iddia eder. Öğrenci istenen davranışı oluşturduğunda ve olumlu bir şekilde güçlendirildiğinde, davranışların yeniden ortaya çıkması muhtemeldir.
+Sesli dil bilgisinin amacı doğru telaffuz ve dilbilgisi, konuşma durumlarında hızlı ve doğru bir şekilde yanıt verme yeteneği ve dilbilgisi kalıpları ile kullanılacak yeterli kelime bilgisine sahip olmasıdır. Dilin yapı taşlarına hakim olmak ve bunları birleştirmek için kuralları öğrenmek üzerine özel bir vurgu yapıldı. Öğrenmenin yapısının ya da dilbilgisinin başlangıç ​​noktası olduğu düşünülmüştür. İşte yöntemin bazı özellikleri:
 
+ - dil öğrenimi alışkanlıktır, 
+- hatalar kötüdür ve kötü alışkanlıklar olarak kabul edildiğinden kaçınılmalıdır, 
+- dil becerileri ilk önce sözlü olarak sunulduğunda daha etkili olarak öğrenilir, daha sonra yazılı olarak, 
+- benzetimi dil için daha iyi bir temeldir Analizden daha iyi öğrenme, 
+- kelimelerin anlamları sadece dilsel ve kültürel bir bağlamda öğrenilebilir.
+
+Ana faaliyetler arasında yüksek sesli diyaloglar, model cümlelerin tekrarı ve talim sayılabilir. Diyaloğun sağladığı anahtar yapılar, farklı türdeki model talimlerin temeli olarak hizmet eder. Sınıftaki dersler, öğretmenin öğrenciler tarafından doğru taklit edilmesine odaklanır. Öğrencilerin sadece doğru çıktıyı üretmeleri değil, aynı zamanda telaffuzların düzeltilmesine de dikkat edilir. Kullanımda doğru dilbilgisi bekleniyor olsa da, açık bir dilbilgisel komut verilmemektedir. Tümevarımsal olarak öğretilir. Ayrıca, hedef dil, sınıfta kullanılacak tek dildir.
+<br>
+### Dinlemek Sesli konuşma yöntemi
+
+***
 * * You may be followed at {{ site.url }} .
 
