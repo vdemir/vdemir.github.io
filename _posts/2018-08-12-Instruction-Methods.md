@@ -17,6 +17,7 @@ _By Vedat Demir*_
 
 ### 1. The Direct Method
 ### 2. Grammar Translation Method
+### 3. The Audiolingual Method
 <br>
 ### 1. The Direct Method
 
@@ -100,7 +101,14 @@ Dilbilgisi Tercüme Yönteminin 20. yüzyılın son onyıllarında bazı sınıf
 - Çeviri bazen yanıltıcıdır. 
 
 Bütün bu dezavantajlar nedeniyle, eğitmenler dilbilgisi çeviri yönteminin tuzaklarını düzeltmek için daha iyi yollar bulmaya çalıştılar. Direkt Metod cevaptı.
+<hr>
+<br>
+### The Audiolingual Method
+***
 
+Ses-Lingual öğretim yönteminin kökenleri, İkinci Dünya Savaşı sırasında Ordu Yöntemi olarak bilinir hale geldiğinde ortaya çıktı. Ayrıca Aural sözlü yaklaşım denir. Dilin yapısal görünümü ve dil öğrenmenin davranışçı teorisine dayanır. 
+
+Dil öğretimi için Sesle Dilbilimsel Yaklaşım, Direkt Metot ile bir çok benzerliğe sahiptir. Her ikisi de Dilbilgisi Tercümesi yönteminin eksikliklerine karşı bir tepki olarak görülmüş, hem ana dilin kullanımını reddetmiş hem de okuma ve yazma yeterliliklerinden önce konuşma ve dinleme yeterliliğinin ön planda olduğu gerçeği. Fakat bazı farklılıklar da var. Dilbilgisi yaklaşımı, dilbilgisi matkaplarına odaklanırken doğrudan yöntem, kelime öğretiminin altını çizdi.
 
 * * You may be followed at {{ site.url }} .
 
