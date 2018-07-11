@@ -56,41 +56,27 @@ Direkt Metot, Dilbilgisi Tercüme Metodu'ndan bir geçiştir. Olumlu noktaların
 
 Başarılarına rağmen, doğrudan yöntem eğitim sistemlerinin ihtiyaçlarını karşılamaya yetmedi. Başlıca eksikliklerinden biri, devlet okullarının onu entegre etmesinin zor olmasıdır. Brown'ın (1994: 56) belirttiği gibi, Direkt Metot 
 
-”, kamu eğitiminde bütçe, sınıf büyüklüğü, zaman ve öğretmen altyapısının kısıtlamalarının kullanılmasının zor olduğu bir yöntemdir.” 20. yüzyılın başındaki kısa popülerlik, kısa sürede bu kısıtlamalardan dolayı cazibesini kaybetmeye başladı. Daha sonra Sesli Dil Yöntemi'ne giden yolu açtı.
+”kamu eğitiminde bütçe, sınıf büyüklüğü, zaman ve öğretmen altyapısının kısıtlamalarının kullanılmasının zor olduğu bir yöntemdir.”
+
+ 20. yüzyılın başındaki kısa popülerlik, kısa sürede bu kısıtlamalardan dolayı cazibesini kaybetmeye başladı. Daha sonra Sesli Dil Yöntemi'ne giden yolu açtı.
 
 ### Grammar Translation Method
 ***
 
-Vurgulu heceler için bile, bazı sözlükler **schwa** **/ə/**  ve **'short u'** **/ʌ/** için ayrı bir sembol kullanmazlar. Schwa, kullanılan tek sembol olduğunda, kelimenin /ʌ/ ile telaffuz edildiği varsayılabilir.
+Dilbilgisi Tercüme Metodu, asıl olarak, sözlü formun pahasına, esas olarak yazılı forma odaklandığını açıklayan ölü dilleri öğretmek için kullanılan eski bir yöntemdir. 18. ve 19. yüzyıllarda çok popüler olan öğretim psikolojisi yaklaşımına göre tasarlandı. “Zihinsel güçlerin zihnin güçlerini güçlendirmek için gerekli olduğunu” öne sürdü. Bunu yapmanın yolu Yunanlıların ve Romalıların klasik edebiyatını öğrenmek oldu.
 
 
-### Fonksiyonel Kelimelerle Schwa
+### Method
 ***
 
-Schwa'nın uygun kullanımı, konuşmacıların İngilizce cümle vurgu kalıplarını benimsemesine ve sürdürmesine yardımcı olur. **Fonksiyonel** kelimeler olarak adlandırılan belirli dilbilgisel kelimeler, sözlü İngilizce'de iki farklı telaffuz içerebilir: bir **alıntı**  biçimi ve **daraltılmış** bir biçim.
+- Ana dilin kullanımı. 
+- Kelime öğeleri kelime listeleri şeklinde öğretilir. 
+- Dilbilgisinin ayrıntılı açıklamaları. 
+- Morfoloji ve sözdizimine odaklanın. 
+- Dinlemek Derste zor metinlerin okunması. 
+- Practice, cümle veya metinleri ana dilden hedef dile çeviren alıştırmalara odaklanır ve bunun tersi de geçerlidir. 
 
-<div class="article-container clearfix">
-
-<p style="margin-left:40px">1. <strong>can</strong> (*citation form):&nbsp;<strong>/kæn/</strong>, (*reduced form):&nbsp;<strong>/kən/</strong></p>
-
-<audio controls style="width: 200px;">
-  <source src="{{ site.baseurl }}/audio/can.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-<audio controls style="width: 200px;">
-  <source src="{{ site.baseurl }}/audio/can_reduced.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-</div>
-
-**Daraltılmış** telaffuzların amacı, sözcüklerin konuşma arka planına girmesine yardımcı olmaktır, sözcüklerin anlamı ise önem kazanmaktadır.
-
-Tamamen tek başına telaffuz edilen kelimeler, sözlüklerde gösterildiği gibi **'alıntı'** ya da **'sözcüksel'** biçimlerini alırlar, ancak en yaygın kullanılan İngilizce sözcüklerin çoğu, **daraltılmış** söyleyişlere maruz kaldıkça sıklıkla biçim değiştirir (ve/veya ses değiştirir). Bu daraltmalar, esas olarak konuşmacının birleşik dilbilgisel varlıklar olarak iletmek istediği sözcük gruplarını ritmik olarak bütünleştirme süreci tarafından uygulanan baskıların sonuçlarıdır.
-
-***citation form :** Sözlü olarak ifade edilen bir sözcük, normal konuşma akışında üretildiği zaman, biçimden ayırt edildiği gibi, gösterim amacıyla alıntılandığı zaman, izole edilmiş halde üretilir.
-
-***reduced form :** En sık karşılaştığımız konuşma türü, gündelik konuşmadır, ifadeye özel bir önem verilmediğinde gayri resmi durumlarda kullanılan gündelik konuşmadır.
-
+Dilbilgisi Tercüme Yönteminin 20. yüzyılın son onyıllarında bazı sınıflarda halen kullanıldığını görmek şaşırtıcıdır. Olabilir, çünkü bazı avantajları vardır.
 <br>
 
 <article class="function_words">
