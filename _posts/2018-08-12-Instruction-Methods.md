@@ -22,7 +22,7 @@ _By Vedat Demir*_
 
 <i class="fas fa-paragraph fa-2x"></i>  Doğal Yöntem olarak da adlandırılan Doğrudan Yöntem, Almanya ve Fransa'da 1900 civarında kurulmuştur. Dilbilgisi Tercüme Metodunun eksikliklerine bir cevap olarak ortaya çıkmıştır. Hedef dili kullanan yabancı dilleri öğretmek, sınıfta anadili herhangi bir şekilde kullanmamak için kullanılan bir yöntemdir. Öğretmenler, öğrencilerin sözlü iletişim kuramamalarından dolayı hayal kırıklığına uğradıkça, yeni teknikler denemeye başladılar. Fikir, yabancı dil öğretiminin, insanların anadillerini öğrendikleri şekilde yapılması gerektiğiydi.
 <br>
-### The method
+### Metod
 ***
 
 - Çeviri herhangi bir sınıf etkinliğinden tamamen atılır. Sınıf etkinlikleri SADECE hedef dilde yürütülmektedir. 
@@ -70,7 +70,7 @@ Başarılarına rağmen, doğrudan yöntem eğitim sistemlerinin ihtiyaçların�
 
 Dilbilgisi Tercüme Metodu, asıl olarak, sözlü formun pahasına, esas olarak yazılı forma odaklandığını açıklayan ölü dilleri öğretmek için kullanılan eski bir yöntemdir. 18. ve 19. yüzyıllarda çok popüler olan öğretim psikolojisi yaklaşımına göre tasarlandı. “Zihinsel güçlerin zihnin güçlerini güçlendirmek için gerekli olduğunu” öne sürdü. Bunu yapmanın yolu Yunanlıların ve Romalıların klasik edebiyatını öğrenmek oldu.
 <br>
-### Method
+### Metod
 ***
 
 - Ana dilin kullanımı. 
@@ -82,12 +82,15 @@ Dilbilgisi Tercüme Metodu, asıl olarak, sözlü formun pahasına, esas olarak 
 
 Dilbilgisi Tercüme Yönteminin 20. yüzyılın son onyıllarında bazı sınıflarda halen kullanıldığını görmek şaşırtıcıdır. Olabilir, çünkü bazı avantajları vardır.
 <br>
-### Advantages
+### Avantajlar
 ***
 - Çeviri, kelime ve deyimlerin anlamını açıklamanın en kolay ve en kısa yoludur. 
 - Öğrencilerin, anadilde gerçekleştirildiği gibi dersi anlamada herhangi bir zorlukları yoktur. 
 - Öğretmen anadilindeki her şeyi gerçekleştirirken emek tasarrufu sağlayan bir yöntemdir.
 
+<br>
+### Eleştiri
+***
 - Yöntemin iyi olduğu şey, “dili öğretmek” değil, “dili öğrenmek” dir. 
 - Konuşma veya herhangi bir spontane yaratıcı çıkış müfredattan eksikti. 
 - Öğrenciler sınıfta aktif bir rol oynamadı. 
