@@ -15,6 +15,7 @@ lang: tr
 
 _By Vedat Demir*_
 
+<article class="function_words">
 ### The Direct Method
 
 <br>
@@ -60,6 +61,7 @@ Başarılarına rağmen, doğrudan yöntem eğitim sistemlerinin ihtiyaçların�
 
  20. yüzyılın başındaki kısa popülerlik, kısa sürede bu kısıtlamalardan dolayı cazibesini kaybetmeye başladı. Daha sonra Sesli Dil Yöntemi'ne giden yolu açtı.
 <br>
+<article">
 ### Grammar Translation Method
 ***
 
