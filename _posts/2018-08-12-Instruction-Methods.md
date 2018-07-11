@@ -16,8 +16,10 @@ lang: tr
 _By Vedat Demir*_
 
 ### 1. The Direct Method
-
+### 2. Grammar Translation Method
 <br>
+### 1. The Direct Method
+
 	<i class="fas fa-paragraph fa-2x"></i>  Doğal Yöntem olarak da adlandırılan Doğrudan Yöntem, Almanya ve Fransa'da 1900 civarında kurulmuştur. Dilbilgisi Tercüme Metodunun eksikliklerine bir cevap olarak ortaya çıkmıştır. Hedef dili kullanan yabancı dilleri öğretmek, sınıfta anadili herhangi bir şekilde kullanmamak için kullanılan bir yöntemdir. Öğretmenler, öğrencilerin sözlü iletişim kuramamalarından dolayı hayal kırıklığına uğradıkça, yeni teknikler denemeye başladılar. Fikir, yabancı dil öğretiminin, insanların anadillerini öğrendikleri şekilde yapılması gerektiğiydi.
 <br>
 ### The method
@@ -61,7 +63,7 @@ Başarılarına rağmen, doğrudan yöntem eğitim sistemlerinin ihtiyaçların�
 <br>
 <hr>
 <br>
-### Grammar Translation Method
+### 2. Grammar Translation Method
 ***
 
 Dilbilgisi Tercüme Metodu, asıl olarak, sözlü formun pahasına, esas olarak yazılı forma odaklandığını açıklayan ölü dilleri öğretmek için kullanılan eski bir yöntemdir. 18. ve 19. yüzyıllarda çok popüler olan öğretim psikolojisi yaklaşımına göre tasarlandı. “Zihinsel güçlerin zihnin güçlerini güçlendirmek için gerekli olduğunu” öne sürdü. Bunu yapmanın yolu Yunanlıların ve Romalıların klasik edebiyatını öğrenmek oldu.
