@@ -16,12 +16,8 @@ lang: tr
 _By Vedat Demir*_
 
 ### List of Nobel Prize In Economic Science
-<br>
-
-<h1>All Prizes in Economic Sciences</h1>
 
 <div style="clear:both"></div>
-
 
 <style>
 #choose-year-down:hover, #choose-year-up:hover {
