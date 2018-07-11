@@ -110,5 +110,11 @@ Ses-Lingual öğretim yönteminin kökenleri, İkinci Dünya Savaşı sırasınd
 
 Dil öğretimi için **Audiolingual Yaklaşım**, **Direct Metot** ile bir çok benzerliğe sahiptir. Her ikisi de Dilbilgisi Tercümesi yönteminin eksikliklerine karşı bir tepki olarak görülmüş, hem ana dilin kullanımını reddetmiş hem de okuma ve yazma yeterliliklerinden önce konuşma ve dinleme yeterliliğinin ön planda olduğu gerçeği. Fakat bazı farklılıklar da var. Dilbilgisi yaklaşımı, dilbilgisi talimlerine odaklanırken doğrudan yöntem, kelime öğretiminin altını çizdi.
 
+<br>
+### Structuralism
+***
+
+ Dilin yapısal görünümü, audio-lingual yönteminin arkasındaki görüştür. Bu yaklaşım, günümüzde dil öğelerinin birbirleriyle nasıl ilişkili olduğunu, yani ‘artzamanlı olarak‘ yerine “eşzamanlı olarak” olduğunu incelemeye odaklanmıştır. Ayrıca, dilbilimsel işaretlerin iki bölümden, bir işaretçinin (bir sözcüğün ses örüntüsü) ve bir işaretin (sözcüğün kavramı ya da anlamından) oluştuğu ileri sürülmüştür. Dil çalışması, “kişisel sözün” gözlemlenen dilin tek gözlemlenebilir kısmı olduğu şeklindeki performansını açıklamayı amaçlamaktadır. 
+
 * * You may be followed at {{ site.url }} .
 
