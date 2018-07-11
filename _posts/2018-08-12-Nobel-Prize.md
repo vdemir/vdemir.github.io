@@ -51,7 +51,7 @@ _By Vedat Demir*_
 <p>"for his analysis of consumption, poverty, and welfare"</p>
 </div>
 <div class="by_year">
-		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a href="/nobel_prizes/economic-sciences/laureates/2014/">The Prize in Economic Sciences in Memory of Alfred Nobel 2014</a></h3>
+		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a href="/nobel_prizes/economic-sciences/laureates/2014/">The Prize in Economic Sciences Nobel 2014</a></h3>
 <h6 style="margin: 0 0 5px 0; padding: 0;"><a href="/nobel_prizes/economic-sciences/laureates/2014/tirole-facts.html">Jean Tirole</a></h6>
 <p>"for his analysis of market power and regulation"</p>
 </div>
