@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Grammar Instruction Methods
+title: Language Teaching Methods
 date:   2018-08-12 13:52:00
 tags:   English Grammar Method
 comments: true
