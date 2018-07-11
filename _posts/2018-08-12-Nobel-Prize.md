@@ -2,7 +2,7 @@
 layout: post
 title: Nobel Prizes - In Economic Science
 date:   2018-08-12 15:52:00
-tags:   English Nobel
+tags:   English Nobel Economics Science
 comments: true
 published: true
 lang: tr
