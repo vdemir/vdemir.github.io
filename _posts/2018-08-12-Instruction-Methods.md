@@ -132,7 +132,7 @@ img.align-right {
     background-color: #eee;
     font: 1rem 'Fira Sans', sans-serif;
     display: block;
-    color: #00aacd;
+    color: ##FCFDEF;
     text-align: left
     float: left;
     margin-right: 30px;
