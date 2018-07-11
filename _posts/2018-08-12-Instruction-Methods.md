@@ -129,8 +129,18 @@ Sesli dil bilgisinin amacı doğru telaffuz ve dilbilgisi, konuşma durumlarınd
 
 Ana faaliyetler arasında yüksek sesli diyaloglar, model cümlelerin tekrarı ve talim sayılabilir. Diyaloğun sağladığı anahtar yapılar, farklı türdeki model talimlerin temeli olarak hizmet eder. Sınıftaki dersler, öğretmenin öğrenciler tarafından doğru taklit edilmesine odaklanır. Öğrencilerin sadece doğru çıktıyı üretmeleri değil, aynı zamanda telaffuzların düzeltilmesine de dikkat edilir. Kullanımda doğru dilbilgisi bekleniyor olsa da, açık bir dilbilgisel komut verilmemektedir. Tümevarımsal olarak öğretilir. Ayrıca, hedef dil, sınıfta kullanılacak tek dildir.
 <br>
-### Dinlemek Sesli konuşma yöntemi
-
+### Avantajları
 ***
+- Dilbilgisi çeviri yönteminden bir adım uzakta olan dinleme ve konuşma becerilerini geliştirmeyi amaçlamaktadır. 
+- Görsel yardımcıların kullanımı kelime öğretimi alanında etkinliğini kanıtlamıştır.
+
+<br>
+### Dezavantajları
+***
+
+Yöntem, dil ile ilgili yanlış varsayımlara dayanmaktadır. Dil çalışması, gözlemlenebilir veriler olan “kişisel söz” ü incelemeye gerek duymaz. Bir lisana hakim olmak, dil performansının altında yatan kuralları edinmeye dayanır. Yani, dilsel, sosyo-dilbilimsel ve söylem yetenekleri. 
+Öğrenmeye yönelik davranışçı yaklaşım artık gözden düşüyor. Pek çok akademisyen zayıflığını kanıtladı. Noam Chomsky (“Chomsky, Noam” (1959). “B. F. Skinner'ın Sözlü Davranışı'nın Gözden Geçirilmesi”), teorinin prensiplerine güçlü bir eleştiri yazmıştır.
+
+
 * * You may be followed at {{ site.url }} .
 
