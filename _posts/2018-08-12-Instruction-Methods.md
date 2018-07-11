@@ -40,7 +40,6 @@ _By Vedat Demir*_
 - boşta doldurma alıştırması, 
 - yazı dikte etme
 - ve paragraf yazımında kullanılır.
-
 <br>
 ### Avantajlar
 ***
