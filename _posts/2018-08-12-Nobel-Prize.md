@@ -46,7 +46,7 @@ _By Vedat Demir*_
 <p>"for their contributions to contract theory"</p>
 </div>
 <div class="by_year">
-		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a href="/nobel_prizes/economic-sciences/laureates/2015/">The Prize in Economic Sciences Nobel 2015</a></h3>
+		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a>The Prize in Economic Sciences Nobel 2015</a></h3>
 <h6 style="margin: 0 0 5px 0; padding: 0;"><a>Angus Deaton</a></h6>
 <p>"for his analysis of consumption, poverty, and welfare"</p>
 </div>
