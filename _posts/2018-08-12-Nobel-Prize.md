@@ -16,7 +16,9 @@ lang: tr
 _By Vedat Demir*_
 
 ### The unstressed central vowel represented by the symbol ə in the International Phonetic Alphabet.
-<br><table border="1" cellspacing="6" id="sortable_table_id_0">
+<br>
+<html>
+<table border="1" cellspacing="6" id="sortable_table_id_0">
 <tbody>
 <tr>
 <th bgcolor="#999999"><strong>Year&nbsp;&nbsp;</strong></th>
@@ -1312,3 +1314,4 @@ or Medicine</th>
 </tr>
 </tbody>
 </table>
+</html>
