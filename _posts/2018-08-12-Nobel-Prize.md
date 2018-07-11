@@ -19,9 +19,6 @@ _By Vedat Demir*_
 <br>
 
 <h1>All Prizes in Economic Sciences</h1>
-     
-     <p class="ingress">The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel has been awarded 49 times to 79 Laureates between 1969 and 2017. Click on the links to get more information.</p> 
- </div>
 
 <div style="clear:both"></div>
 
@@ -97,7 +94,7 @@ $(document).ready(function() {
 <div style="clear:both"></div>
 
 <div class="by_year">
-		<h3><a href="/nobel_prizes/economics/laureates/2018/">The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2018</a></h3>
+		<h3><a href="/nobel_prizes/economics/laureates/2018/">The Prize in Economic Sciences Nobel 2018</a></h3>
 <p>The 2018 Prize in Economic Sciences has not been awarded yet. It will be announced on Monday 8 October, 11:45 a.m. at the earliest.</p>
 </div>
 <div class="by_year">
