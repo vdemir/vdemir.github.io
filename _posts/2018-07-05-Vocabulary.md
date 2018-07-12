@@ -31,3 +31,9 @@ $('#search').keyup(function() {
   <p><small>45 &bull; Sounds.</small></p>
 </div>
 
+<style>
+img.resize {
+  max-width:70%;
+  max-height:70%;
+}
+</style>
