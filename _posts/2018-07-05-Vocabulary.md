@@ -26,4 +26,8 @@ $('#search').keyup(function() {
     }).hide();
 });</script>
 
+<div class="resize" style="margin: 15px; text-align: center;">
+  <img src="{{ site.baseurl }}/images/45-sounds.png" alt="Sound" class="resize"  />
+  <p><small>45 &bull; Sounds.</small></p>
+</div>
 
