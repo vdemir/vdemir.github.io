@@ -34,7 +34,7 @@ $('#search').keyup(function() {
 
 <style>
 img.resize {
-  max-width:70%;
-  max-height:70%;
+  max-width:80%;
+  max-height:80%;
 }
 </style>
