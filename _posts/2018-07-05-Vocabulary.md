@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Vocabulary
+title: Vocabulary - Lügatçe
 date:   2018-06-26 13:52:00
 tags:   English Kelime Dictionary
-comments: true
+comments: false
 published: true
 lang: tr
 ---
