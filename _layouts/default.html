@@ -42,7 +42,8 @@
    <script src="{{ site.baseurl }}/scripts/cookie.js"></script>
 </head>
 <body>
-<script id="dsq-count-scr" src="//vdemir-github-io.disqus.com/count.js" async></script>
+{% if page.comments != false %}
+<script id="dsq-count-scr" src="//vdemir-github-io.disqus.com/count.js" async></script>{% endif %}
    <!-- scrolling --> 
    <script src="{{ site.baseurl }}/scripts/scroll.js"></script>
    <!-- timer --> 
