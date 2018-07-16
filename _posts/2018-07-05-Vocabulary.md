@@ -2,6 +2,7 @@
 layout: post
 title: Vocabulary - Lügatçe
 date:   2018-06-26 13:52:00
+excerpt: "Vocabulary, Pronunciation, English Words, Turkish Meaning"
 tags:   English Kelime Dictionary
 lang: tr
 ---
