@@ -32,7 +32,8 @@ excerpt: Günlük Blog Yazıları
     <li><a target="_blank" href="https://code.sololearn.com/#c">Playground:</a> C code playground.</li>
   </ul>
 
+{% if page.comments != false %}
 <a href="{{ post.url }}index.html#disqus_thread" data-disqus-identifier="{{post.url}}"></a>
-
+{% endif %}
 {% include archive.html %}
 
