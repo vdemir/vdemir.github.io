@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nobel Prizes - In Economic Science
+title: Nobel Ödülleri - İktisat Bilimi
 date:   2018-08-12 15:52:00
 tags:   English Nobel Economics Science
 comments: true
