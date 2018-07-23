@@ -44,7 +44,9 @@ _By Vedat Demir*_
 
 Üst düzey yöneticiler için performansa dayalı ücret, sigortada indirimler ve prim ödeme ve kamu sektörü faaliyetlerinin özelleştirilmesi gibi, sözleşmeli tasarımda birçok farklı konuyu analiz etmek için kapsamlı bir çerçeve.
 
- Bir işverenin perspektifinden sözleşmelerin en uygun şekilde tasarlanması ve bir işçi ile yapılan düzenlemeler üzerine geliştirilmiş araştırma. Bu, işverenin asıl olduğu “ana ajan problemi” alanında çalışmadır. Burada, en iyi sözleşmenin tasarlanmasında potansiyel olarak bir sorun vardır, çünkü hala işbirliği yapmak isteyecek olsalar bile, ana ve temsilci için rekabet eden teşvikler vardır.</p>
+ Bir işverenin perspektifinden sözleşmelerin en uygun şekilde tasarlanması ve bir işçi ile yapılan düzenlemeler üzerine geliştirilmiş araştırma. Bu, işverenin asıl olduğu “ana ajan problemi” alanında çalışmadır. Burada, en iyi sözleşmenin tasarlanmasında potansiyel olarak bir sorun vardır, çünkü hala işbirliği yapmak isteyecek olsalar bile, ana ve temsilci için rekabet eden teşvikler vardır.
+
+Risk paylaşımı bu ilişkinin önemli bir parçasıdır, çünkü işçiler tüm belirsizlikleri değişken gelir ve kârlarla sağlam bir şekilde deneyimlemek zorunda kalmazlar. Firmalar, maliyetlerinin gelirle uyumlu olması için, bu risklerin bir kısmını işçilere geçmesini ister. Holmström, en iyi ücretin performansla nasıl bağlantılı olması gerektiğini belirterek, bilişim ilkesini geliştirdi.</p>
 </div>
 <div class="by_year">
 		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a>The Prize in Economic Sciences Nobel 2015</a></h3>
