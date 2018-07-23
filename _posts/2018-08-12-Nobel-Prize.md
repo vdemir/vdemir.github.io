@@ -40,7 +40,9 @@ _By Vedat Demir*_
 <div class="by_year">
 		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a>The Prize in Economic Science Nobel 2016</a></h3>
 <h6 style="margin: 0 0 5px 0; padding: 0;"><a>Bengt Holmstr&ouml;m</a></h6>
-<p>"for their contributions to contract theory"</p><p><i class="fas fa-quote-left fa-2x"></i> Onların katkıları, sözleşmelerde, bireyler arasında, işverenler ve işçileri arasında, hükümetler arası işbirliğini mümkün kılan ve hayatımızın tümünü etkileyen, sıklıkla çelişen dürtü anlamamıza yardımcı oldu.</p>
+<p>"for their contributions to contract theory"</p><p><i class="fas fa-quote-left fa-2x"></i> Onların katkıları, sözleşmelerde, bireyler arasında, işverenler ve işçileri arasında, hükümetler arası işbirliğini mümkün kılan ve hayatımızın tümünü etkileyen, sıklıkla çelişen dürtüleri anlamamıza yardımcı oldu.
+
+Üst düzey yöneticiler için performansa dayalı ücret, sigortada indirimler ve prim ödeme ve kamu sektörü faaliyetlerinin özelleştirilmesi gibi, sözleşmeli tasarımda birçok farklı konuyu analiz etmek için kapsamlı bir çerçeve.</p>
 </div>
 <div class="by_year">
 		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a>The Prize in Economic Sciences Nobel 2015</a></h3>
