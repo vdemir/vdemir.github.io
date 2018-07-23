@@ -42,7 +42,9 @@ _By Vedat Demir*_
 <h6 style="margin: 0 0 5px 0; padding: 0;"><a>Bengt Holmstr&ouml;m</a></h6>
 <p>"for their contributions to contract theory"</p><p><i class="fas fa-quote-left fa-2x"></i> Onların katkıları, sözleşmelerde, bireyler arasında, işverenler ve işçileri arasında, hükümetler arası işbirliğini mümkün kılan ve hayatımızın tümünü etkileyen, sıklıkla çelişen dürtüleri anlamamıza yardımcı oldu.
 
-Üst düzey yöneticiler için performansa dayalı ücret, sigortada indirimler ve prim ödeme ve kamu sektörü faaliyetlerinin özelleştirilmesi gibi, sözleşmeli tasarımda birçok farklı konuyu analiz etmek için kapsamlı bir çerçeve.</p>
+Üst düzey yöneticiler için performansa dayalı ücret, sigortada indirimler ve prim ödeme ve kamu sektörü faaliyetlerinin özelleştirilmesi gibi, sözleşmeli tasarımda birçok farklı konuyu analiz etmek için kapsamlı bir çerçeve.
+
+ Bir işverenin perspektifinden sözleşmelerin en uygun şekilde tasarlanması ve bir işçi ile yapılan düzenlemeler üzerine geliştirilmiş araştırma. Bu, işverenin asıl olduğu “ana ajan problemi” alanında çalışmadır. Burada, en iyi sözleşmenin tasarlanmasında potansiyel olarak bir sorun vardır, çünkü hala işbirliği yapmak isteyecek olsalar bile, ana ve temsilci için rekabet eden teşvikler vardır.</p>
 </div>
 <div class="by_year">
 		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a>The Prize in Economic Sciences Nobel 2015</a></h3>
