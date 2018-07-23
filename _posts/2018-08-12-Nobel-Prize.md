@@ -40,10 +40,10 @@ _By Vedat Demir*_
 <div class="by_year">
 		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a>The Prize in Economic Science Nobel 2016</a></h3>
 <h6 style="margin: 0 0 5px 0; padding: 0;"><a>Bengt Holmstr&ouml;m</a></h6>
-<p>"for their contributions to contract theory"</p><p><i class="fas fa-quote-left fa-2x"></i> Onların katkıları, sözleşmelerde, bireyler arasında, işverenler ve işçileri arasında, hükümetler arası işbirliğini mümkün kılan ve hayatımızın tümünü etkileyen, sıklıkla çelişen dürtüleri anlamamıza yardımcı oldu.
-
-Üst düzey yöneticiler için performansa dayalı ücret, sigortada indirimler ve prim ödeme ve kamu sektörü faaliyetlerinin özelleştirilmesi gibi, sözleşmeli tasarımda birçok farklı konuyu analiz etmek için kapsamlı bir çerçeve.
-
+<p>"for their contributions to contract theory"</p><p><i class="fas fa-quote-left fa-2x"></i> Onların katkıları, sözleşmelerde, bireyler arasında, işverenler ve işçileri arasında, hükümetler arası işbirliğini mümkün kılan ve hayatımızın tümünü etkileyen, sıklıkla çelişen dürtüleri anlamamıza yardımcı oldu.</p>
+<p>
+Üst düzey yöneticiler için performansa dayalı ücret, sigortada indirimler ve prim ödeme ve kamu sektörü faaliyetlerinin özelleştirilmesi gibi, sözleşmeli tasarımda birçok farklı konuyu analiz etmek için kapsamlı bir çerçeve.</p>
+<p>
  Bir işverenin perspektifinden sözleşmelerin en uygun şekilde tasarlanması ve bir işçi ile yapılan düzenlemeler üzerine geliştirilmiş araştırma. Bu, işverenin asıl olduğu “ana ajan problemi” alanında çalışmadır. Burada, en iyi sözleşmenin tasarlanmasında potansiyel olarak bir sorun vardır, çünkü hala işbirliği yapmak isteyecek olsalar bile, ana ve temsilci için rekabet eden teşvikler vardır.</p>
 <p>
 Risk paylaşımı bu ilişkinin önemli bir parçasıdır, çünkü işçiler tüm belirsizlikleri değişken gelir ve kârlarla sağlam bir şekilde deneyimlemek zorunda kalmazlar. Firmalar, maliyetlerinin gelirle uyumlu olması için, bu risklerin bir kısmını işçilere geçmesini ister. Holmström, en iyi ücretin performansla nasıl bağlantılı olması gerektiğini belirterek, bilişim ilkesini geliştirdi.</p>
