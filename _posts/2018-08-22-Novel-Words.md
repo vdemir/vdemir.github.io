@@ -59,6 +59,6 @@ _By Vedat Demir*_
 <div class="by_year">
 		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a>Try to see what no one else has seen, try to think what no one else has thought then you will be what no one else has been.</a></h3>
 <h6 style="margin: 0 0 5px 0; padding: 0;"><a>Hiç kimsenin göremediğini görmeye çalış Kimsenin düşünmediğini düşünmeye çalış O zaman başka kimsenin olamadığı kişi olursun.</a></h6>
-<p><i class="fas fa-award fa-2x" style="color:#fff;"></i></p>
+<p><i class="fas fa-award fa-2x" style="color:red;"></i></p>
 </div>
 
