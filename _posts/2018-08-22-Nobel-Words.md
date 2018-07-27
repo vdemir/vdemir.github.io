@@ -2,7 +2,7 @@
 layout: post
 title: The new words learned. 
 date:   2018-08-12 15:52:00
-tags:   English Nobel Economics Science
+tags:   English Word
 comments: true
 published: true
 lang: tr
