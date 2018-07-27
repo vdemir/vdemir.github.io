@@ -38,4 +38,9 @@ _By Vedat Demir*_
 <h6 style="margin: 0 0 5px 0; padding: 0;"><a>Yaşamlarımız çevremiz tarafından belirlenir.</a></h6>
 <p>"https://tr.dictionarist.com/ingilizce-turkce/determine"</p>
 </div>
+<div class="by_year">
+		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a>Many forms of life are disappearing.</a></h3>
+<h6 style="margin: 0 0 5px 0; padding: 0;"><a>Küçük aile çiftlikleri yok oluyorlardı.</a></h6>
+<p></p>
+</div>
 
