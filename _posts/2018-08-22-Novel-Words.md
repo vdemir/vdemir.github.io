@@ -41,12 +41,12 @@ _By Vedat Demir*_
 <div class="by_year">
 		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a>Many forms of life are disappearing.</a></h3>
 <h6 style="margin: 0 0 5px 0; padding: 0;"><a>Birçok hayat formu kayboluyor.</a></h6>
-<p></p>
+<p><i class="fas fa-award fa-1x"></i></p>
 </div>
 <div class="by_year">
 		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a>The biggest challenge in life is to be yourself in a world that is trying to make you like everyone else! Good day.</a></h3>
 <h6 style="margin: 0 0 5px 0; padding: 0;"><a>Bu hayatta en zor şey seni diğer herkese benzetmek isteyen bir dünyada kendin olmaktır. İyi günler</a></h6>
-<p></p>
+<p><i class="fas fa-award fa-1x"></i></p>
 <div class="by_year">
 		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a>Always be a first-rate version of your self instead of a second-rate version of somebody else.</a></h3>
 <h6 style="margin: 0 0 5px 0; padding: 0;"><a>Başka birinin ikinci versiyonu olacağınıza daima kendinizin birinci versiyonu olun.</a></h6>
