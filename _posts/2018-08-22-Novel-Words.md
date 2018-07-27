@@ -36,7 +36,7 @@ _By Vedat Demir*_
 <div class="by_year">
 		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a>Our lives are determined by our environment.</a></h3>
 <h6 style="margin: 0 0 5px 0; padding: 0;"><a>Yaşamlarımız çevremiz tarafından belirlenir.</a></h6>
-<p><i class="fas fa-award fa-2x"></i></p>
+<p><i class="fas fa-award fa-2x" style="color:gray;"></i></p>
 </div>
 <div class="by_year">
 		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a>Many forms of life are disappearing.</a></h3>
