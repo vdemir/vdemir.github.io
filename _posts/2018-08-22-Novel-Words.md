@@ -62,3 +62,8 @@ _By Vedat Demir*_
 <p><i class="fas fa-award fa-1x" style="color:gray;"></i></p>
 </div>
 
+<div class="by_year">
+		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a>Most people hold onto the past, look forward to the future, and do not embrace the present. Only those who can appreciate what they have now live fully.</a></h3>
+<h6 style="margin: 0 0 5px 0; padding: 0;"><a>Birçok insan geçmişe bağlanır, geleceği bekler ve şu anı kucaklamaz.Sadece şu an sahip olduklarını taktir edebilenler dolu dolu yaşarlar.</a></h6>
+<p><i class="fas fa-award fa-1x" style="color:gray;"></i></p>
+</div>
