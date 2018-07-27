@@ -31,7 +31,7 @@ _By Vedat Demir*_
 <div class="by_year">
 		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a>One's lifestyle is largely determined by money.</a></h3>
 <h6 style="margin: 0 0 5px 0; padding: 0;"><a>Kişinin yaşam tarzı büyük ölçüde para ile belirlenir.</a></h6>
-<p></p>
+<p><i class="fas fa-braille fa-2x"></i></p>
 </div>
 <div class="by_year">
 		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a>Our lives are determined by our environment.</a></h3>
