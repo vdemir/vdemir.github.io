@@ -73,3 +73,9 @@ _By Vedat Demir*_
 <h6 style="margin: 0 0 5px 0; padding: 0;"><a>Boş zaman yoktur boşa geçen zaman vardır.</a></h6>
 <p><i class="fas fa-award fa-1x" style="color:gray;"></i></p>
 </div>
+
+<div class="by_year">
+		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a>Success depends mostly on effort.</a></h3>
+<h6 style="margin: 0 0 5px 0; padding: 0;"><a>Başarı çoğunlukla çabaya bağlıdır.</a></h6>
+<p><i class="fas fa-award fa-1x" style="color:gray;"></i></p>
+</div>
