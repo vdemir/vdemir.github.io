@@ -67,3 +67,9 @@ _By Vedat Demir*_
 <h6 style="margin: 0 0 5px 0; padding: 0;"><a>Birçok insan geçmişe bağlanır, geleceği bekler ve şu anı kucaklamaz.Sadece şu an sahip olduklarını taktir edebilenler dolu dolu yaşarlar.</a></h6>
 <p><i class="fas fa-award fa-1x" style="color:gray;"></i></p>
 </div>
+
+<div class="by_year">
+		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a>There is no spare time, there is just the time wasting.</a></h3>
+<h6 style="margin: 0 0 5px 0; padding: 0;"><a>Boş zaman yoktur boşa geçen zaman vardır.</a></h6>
+<p><i class="fas fa-award fa-1x" style="color:gray;"></i></p>
+</div>
