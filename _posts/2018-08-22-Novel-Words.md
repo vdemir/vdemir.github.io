@@ -79,3 +79,9 @@ _By Vedat Demir*_
 <h6 style="margin: 0 0 5px 0; padding: 0;"><a>Başarı çoğunlukla çabaya bağlıdır.</a></h6>
 <p><i class="fas fa-award fa-1x" style="color:gray;"></i></p>
 </div>
+
+<div class="by_year">
+		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a>Reflect on your own motives when making a decision.</a></h3>
+<h6 style="margin: 0 0 5px 0; padding: 0;"><a>Karar verirken kendi motivasyonunu yansıt.</a></h6>
+<p><i class="fas fa-award fa-1x" style="color:gray;"></i></p>
+</div>
