@@ -15,7 +15,7 @@ lang: tr
 
 _By Vedat Demir*_
 
-### the List of Words
+### Sözler - The List of Words
 ***
 <br>
 <div style="clear:both"></div>
