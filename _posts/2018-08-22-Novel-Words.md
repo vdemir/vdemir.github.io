@@ -1,8 +1,8 @@
 ---
 layout: post
-title: The new words learned. 
+title: Anlamlı Sözler 
 date:   2018-08-12 15:52:00
-tags:   English Word
+tags:   English Word Turkish
 comments: true
 published: true
 lang: tr
