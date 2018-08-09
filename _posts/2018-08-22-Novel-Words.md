@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Anlamlı Sözler 
+title: Sözler 
 date:   2018-08-12 15:52:00
 tags:   English Word Turkish
 comments: true
