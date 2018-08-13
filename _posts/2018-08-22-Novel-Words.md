@@ -3,7 +3,7 @@ layout: post
 title: Sözler 
 date:   2018-08-12 15:52:00
 tags:   English Word Turkish
-comments: true
+comments: false
 published: true
 lang: tr
 ---
