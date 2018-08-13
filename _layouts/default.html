@@ -55,11 +55,14 @@
   </div>
   {{ content }}
 <div class="teaser clearfix"></div>
-
-  <div  align="center" class="footer">
+  <div class="footer">
 <br>  
+    <div class="contact">{% if page.title != 'Günce' %}
+       <a href="{{ site.baseurl }}/" title="Home" target=""><i class=" fas fa-home fa-4x " aria-hidden="true"></i></a>
+{% endif %}
+    </div>
 
-    <div  align="center" class="contact">
+    <div class="contact">
 
 {% if page.title == 'Günce' %}      
       <a href="https://github.com/vdemir" title="Github" target="_blank"><i class="fab fa-github fa-4x " aria-hidden="true"></i></a>
