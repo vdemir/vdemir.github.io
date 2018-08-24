@@ -11,4 +11,3 @@ lang: en
 
 
 <p class="meta">6 Mayıs 2018 - Türkiye</p>
-{% include programming.html %}
