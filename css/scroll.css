@@ -24,7 +24,7 @@
   visibility: visible;
   filter: alpha(opacity=50);
   filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=50);
-  opacity: 0.5;
+  opacity: 0;
   cursor: pointer;
   transition: all 1.2s;
   -webkit-transition: all 1.2s;
@@ -38,9 +38,9 @@
   opacity: 1;
 }
 .scroll-button--hidden {
-  filter: alpha(opacity=0.5);
-  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0.5);
-  opacity: 0.5;
+  filter: alpha(opacity=0);
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
   visibility: hidden;
 }
 
