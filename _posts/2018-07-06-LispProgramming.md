@@ -64,6 +64,7 @@ tr:nth-child(even) {
 <span onclick="show('Page7');"><a  class="waves-effect waves-light btn">7</a></span>
 <span onclick="show('Page8');"><a  class="waves-effect waves-light btn">8</a></span>
 <span onclick="show('Page9');"><a  class="waves-effect waves-light btn">9</a></span>
+<span onclick="show('Page10');"><a  class="waves-effect waves-light btn">10</a></span>
 </p>
 </div>
 <div class="teaser clearfix"></div>
@@ -109,4 +110,9 @@ tr:nth-child(even) {
 <div class="teaser clearfix"></div>
 <div id="Page9" class="page" style="display:none">
     	{% include lisp_page9.html %}
+</div>
+ 
+<div class="teaser clearfix"></div>
+<div id="Page10" class="page" style="display:none">
+    	{% include lisp_page10.html %}
 </div>
