@@ -37,36 +37,22 @@ tr:nth-child(even) {
 <h1>Contents <small>&bull; Build Your Own Lisp</small></h1>
 
 <h3><span onclick="show('Page1');"><a>Chapter 1 &bull; Introduction</a></span></h3>
-<h3><a>Chapter 2 &bull; Installation</a></h3>
-<h3><a>Chapter 3 &bull; Basics</a></h3>
-<h3><a>Chapter 4 &bull; An Interactive Prompt</a></h3>
-<h3><a>Chapter 5 &bull; Languages</a></h3>
-<h3><a>Chapter 6 &bull; Parsing</a></h3>
-<h3><a>Chapter 7 &bull; Evaluation</a></h3>
-<h3><a>Chapter 8 &bull; Error Handling</a></h3>
-<h3><a>Chapter 9 &bull; S-Expressions</a></h3>
-<h3><a>Chapter 10 &bull; Q-Expressions</a></h3>
-<h3><a>Chapter 11 &bull; Variables</a></h3>
-<h3><a>Chapter 12 &bull; Functions</a></h3>
-<h3><a>Chapter 13 &bull; Conditionals</a></h3>
-<h3><a>Chapter 14 &bull; Strings</a></h3>
-<h3><a>Chapter 15 &bull; Standard Library</a></h3>
-<h3><a>Chapter 16 &bull; Bonus Projects</a></h3>
+<h3><span onclick="show('Page2');"><a>Chapter 2 &bull; Installation</a></span></h3>
+<h3><span onclick="show('Page3');"><a>Chapter 3 &bull; Basics</a></span></h3>
+<h3><span onclick="show('Page4');"><a>Chapter 4 &bull; An Interactive Prompt</a></span></h3>
+<h3><span onclick="show('Page5');"><a>Chapter 5 &bull; Languages</a></span></h3>
+<h3><span onclick="show('Page6');"><a>Chapter 6 &bull; Parsing</a></span></h3>
+<h3><span onclick="show('Page7');"><a>Chapter 7 &bull; Evaluation</a></span></h3>
+<h3><span onclick="show('Page8');"><a>Chapter 8 &bull; Error Handling</a></span></h3>
+<h3><span onclick="show('Page9');"><a>Chapter 9 &bull; S-Expressions</a></span></h3>
+<h3><span onclick="show('Page10');"><a>Chapter 10 &bull; Q-Expressions</a></span></h3>
+<h3><span onclick="show('Page11');"><a>Chapter 11 &bull; Variables</a></span></h3>
+<h3><span onclick="show('Page12');"><a>Chapter 12 &bull; Functions</a></span></h3>
+<h3><span onclick="show('Page13');"><a>Chapter 13 &bull; Conditionals</a></span></h3>
+<h3><span onclick="show('Page14');"><a>Chapter 14 &bull; Strings</a></span></h3>
+<h3><span onclick="show('Page15');"><a>Chapter 15 &bull; Standard Library</a></span></h3>
+<h3><span onclick="show('Page16');"><a>Chapter 16 &bull; Bonus Projects</a></span></h3>
 
-<div> 
-<p>
-<span onclick="show('Page1');"><a  class="waves-effect waves-light btn">1</a></span>
-<span onclick="show('Page2');"><a  class="waves-effect waves-light btn">2</a></span>
-<span onclick="show('Page3');"><a  class="waves-effect waves-light btn">3</a></span>
-<span onclick="show('Page4');"><a  class="waves-effect waves-light btn">4</a></span>
-<span onclick="show('Page5');"><a  class="waves-effect waves-light btn">5</a></span>
-<span onclick="show('Page6');"><a  class="waves-effect waves-light btn">6</a></span>
-<span onclick="show('Page7');"><a  class="waves-effect waves-light btn">7</a></span>
-<span onclick="show('Page8');"><a  class="waves-effect waves-light btn">8</a></span>
-<span onclick="show('Page9');"><a  class="waves-effect waves-light btn">9</a></span>
-<span onclick="show('Page11');"><a  class="waves-effect waves-light btn">Chapter 11 &bull; Q-Expressions</a></span>
-</p>
-</div>
 <div class="teaser clearfix"></div>
 <div id="Page1" class="page" style="display:none">
 	{% include lisp_page1.html %}
