@@ -52,7 +52,7 @@ tr:nth-child(even) {
 <h3><span onclick="show('Page14');"><a>Chapter 14 &bull; Strings</a></span></h3>
 <h3><span onclick="show('Page15');"><a>Chapter 15 &bull; Standard Library</a></span></h3>
 <h3><span onclick="show('Page16');"><a>Chapter 16 &bull; Bonus Projects</a></span></h3>
-
+</br>
 <div class="teaser clearfix"></div>
 <div id="Page1" class="page" style="display:none">
 	{% include lisp_page1.html %}
@@ -97,7 +97,12 @@ tr:nth-child(even) {
 <div id="Page9" class="page" style="display:none">
     	{% include lisp_page9.html %}
 </div>
- 
+
+<div class="teaser clearfix"></div>
+<div id="Page10" class="page" style="display:none">
+    	{% include lisp_page10.html %}
+</div>
+
 <div class="teaser clearfix"></div>
 <div id="Page11" class="page" style="display:none">
     	{% include lisp_page11.html %}
