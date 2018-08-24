@@ -70,40 +70,25 @@ tr:nth-child(even) {
 
 <h1>Contents <small>&bull; Build Your Own Lisp</small></h1>
 
-<div style="margin-top:50px"></div>
-
-
 <h3><a>Chapter 1 &bull; Introduction</a></h3>
-<hr/>
-<ul>
-  <li><a>About</a></li>
-  <li><a>Who this is for</a></li>
-  <li><a>Why learn C</a></li>
-  <li><a>How to learn C</a></li>
-  <li><a>Why build a Lisp</a></li>
-  <li><a>Your own Lisp</a></li>
-</ul>
+<h3><a>Chapter 2 &bull; Installation</a></h3>
 
-<div style="margin-top:50px"></div>
+<h3><a>Chapter 3 &bull; Basics</a></h3>
+<h3><a>Chapter 4 &bull; An Interactive Prompt</a></h3>
+<h3><a>Chapter 5 &bull; Languages</a></h3>
+<h3><a>Chapter 6 &bull; Parsing</a></h3>
 
-<h3><a href="chapter2_installation">Chapter 2 &bull; Installation</a></h3>
+<h3><a>Chapter 7 &bull; Evaluation</a></h3>
+<h3><a>Chapter 8 &bull; Error Handling</a></h3>
 
-<h3><a href="chapter3_basics">Chapter 3 &bull; Basics</a></h3>
-<h3><a href="chapter4_interactive_prompt">Chapter 4 &bull; An Interactive Prompt</a></h3>
-<h3><a href="chapter5_languages">Chapter 5 &bull; Languages</a></h3>
-<h3><a href="chapter6_parsing">Chapter 6 &bull; Parsing</a></h3>
+<h3><a>Chapter 9 &bull; S-Expressions</a></h3>
 
-<h3><a href="chapter7_evaluation">Chapter 7 &bull; Evaluation</a></h3>
-<h3><a href="chapter8_error_handling">Chapter 8 &bull; Error Handling</a></h3>
+<h3><a>Chapter 10 &bull; Q-Expressions</a></h3>
+<h3><a>Chapter 11 &bull; Variables</a></h3>
+<h3><a>Chapter 12 &bull; Functions</a></h3>
+<h3><a>Chapter 13 &bull; Conditionals</a></h3>
 
-<h3><a href="chapter9_s_expressions">Chapter 9 &bull; S-Expressions</a></h3>
+<h3><a>Chapter 14 &bull; Strings</a></h3>
 
-<h3><a href="chapter10_q_expressions">Chapter 10 &bull; Q-Expressions</a></h3>
-<h3><a href="chapter11_variables">Chapter 11 &bull; Variables</a></h3>
-<h3><a href="chapter12_functions">Chapter 12 &bull; Functions</a></h3>
-<h3><a href="chapter13_conditionals">Chapter 13 &bull; Conditionals</a></h3>
-
-<h3><a href="chapter14_strings">Chapter 14 &bull; Strings</a></h3>
-
-<h3><a href="chapter15_standard_library">Chapter 15 &bull; Standard Library</a></h3>
-<h3><a href="chapter16_bonus_projects">Chapter 16 &bull; Bonus Projects</a></h3>
+<h3><a>Chapter 15 &bull; Standard Library</a></h3>
+<h3><a>Chapter 16 &bull; Bonus Projects</a></h3>
