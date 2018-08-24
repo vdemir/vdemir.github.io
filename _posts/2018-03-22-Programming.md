@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Lisp 
-date:   2018-03-12 15:52:00
+title: Lisp Programming Language
+date:   2018-03-22 15:52:00
 tags:   English Lisp Programlama C
 comments: false
 published: true
