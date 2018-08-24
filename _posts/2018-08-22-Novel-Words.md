@@ -29,7 +29,7 @@ _By Vedat Demir*_
 <div style="clear:both"></div>
 
 <div class="by_year">
-		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a>One's lifestyle is largely determined by money.</a></h3>
+		<h3 style="margin: 5px 0 5px 0; padding: 0;"><i class="fas fa-award fa-1x" style="color:gray;"></i><a>One's lifestyle is largely determined by money.</a></h3>
 <h6 style="margin: 0 0 5px 0; padding: 0;"><a>Kişinin yaşam tarzı büyük ölçüde para ile belirlenir.</a></h6>
 </div>
 <div class="by_year">
