@@ -99,11 +99,6 @@ tr:nth-child(even) {
 </div>
 
 <div class="teaser clearfix"></div>
-<div id="Page17" class="page" style="display:none">
-    	{% include lisp_page17.html %}
-</div>
-
-<div class="teaser clearfix"></div>
 <div id="Page11" class="page" style="display:none">
     	{% include lisp_page11.html %}
 </div>
