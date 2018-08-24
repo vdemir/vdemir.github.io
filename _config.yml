@@ -4,7 +4,7 @@ highlighter: rouge
 # Site wide configuration
 
 description       : Günlük Blog Yazıları
-title             : Günlük Blog Yazıları
+title             : Günlük Blog Yazıları - Teknik Ceviriler, Programlama
 keywords          : C,Language,Programming
 logo              : siteicon.png
 search            : false
