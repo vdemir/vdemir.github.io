@@ -22,7 +22,6 @@
   right: 20px;
   bottom: 20px;
   visibility: visible;
-  filter: alpha(opacity=50);
   filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
   cursor: pointer;
@@ -38,7 +37,6 @@
   opacity: 1;
 }
 .scroll-button--hidden {
-  filter: alpha(opacity=0.5);
   filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0.5);
   opacity: 0.5;
   visibility: hidden;
