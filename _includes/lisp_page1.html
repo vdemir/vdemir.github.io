@@ -1,142 +1,94 @@
+<h1>Introduction <small>&bull; Chapter 1</small></h1>
+
+
+<h2 id='about'>About</h2> <hr/>
+
+<p>In this book you'll learn the C programming language and at the same time learn how to build <em>your very own programming language</em>, a minimal Lisp, in under 1000 lines of code! We'll be using a library to do some of the initial work, so I'm cheating a bit on the line count, but the rest of the code will be completely original, and you really will create a powerful little Lisp by the end.</p>
+
+<p>This book is inspired by other tutorials which go through the steps of building a programming language from scratch. I wrote this book to show that this kind of fun and creative project is a great way to learn a language, and not limited to abstract high-level languages, or experienced programmers.</p>
+
+<p>Many people are keen to learn C, but have nowhere to start. Now there is no excuse. If you follow this book I can promise that, in the worst case, you'll get a cool new programming language to play with, and hopefully you'll become an experienced C programmer too!</p>
+
+
+<h2 id='who_this_is_for'>Who this is for</h2> <hr/>
+
+<p>This book is for anyone wanting to learn C, or who has once wondered how to build their own programming language. This book is not suitable as a first programming language book, but anyone with some minimal programming experience, in any language, should find something new and interesting inside. </p>
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="/images/YA2_142_143_at_nali_yengeci.jpg" alt="programs" class="img-responsive" width="425px" height="325px"/>
-  <p><small>Fosil &bull; At Nalı Yengeci.</small></p>
+  <img src="/static/img/ada.png" alt="ada" class="img-responsive" width="217px" height="302px"/>
+  <p><small>Ada Lovelace &bull; Your typical <!--<a href="http://areyouabrogrammer.com/">-->brogrammer<!--</a>-->.</small></p>
 </div>
 
-<p>Bu bölümde, C&#39;nin temel özelliklerine hızlı bir genel bakış hazırladım. C&#39;de çok az <em>features</em> vardır ve <em>syntax</em> nispeten basittir. Ancak bu kolay anlamına gelmez. Tüm derinlik yüzeyin altına gizlenir. Bu nedenle <em>features</em> ve <em>syntax</em>&#39;ı şimdi oldukça hızlı bir şekilde ele alacağız ve devam edersek bunları daha derinlemesine göreceğiz.</p>
-<p>Bu bölümün amacı, herkesin aynı sayfada olmasıdır. Dolayısıyla, mevcut tecrübeye sahip olanlar, atlamayı ve gerekirse daha sonra geri dönmeyi daha kolay bulabilirken, C&#39;ye tamamen yabancı olan insanlar biraz zaman ayırmalıdır.</p>
-<h2 id="programlar">Programlar</h2>
-<hr>
-<p>C&#39;deki bir program yalnızca <em>function</em> tanımları ve <em>structure</em> tanımları&#39;ndan oluşur.</p>
-<p>Dolayısıyla, bir kaynak kod dosyası sadece <em>functions</em> ve <em>types</em>&#39;in bir listesidir. Bu fonksiyon işlevleri birbirlerini veya kendi kendilerini arayabilir ve deklare edilen veya dile yerleştirilmiş olan herhangi bir <em>data type</em> kullanabilir.</p>
-<p>Diğer <em>header</em> kitaplıklarındaki fonksiyon işlevlerini çağırmak veya onların <em>data type</em> türlerini kullanmak mümkündür. Bu, karmaşıklığın katmanlarının C programlamasında nasıl biriktirildiği ile ilgili bir durumu göstermektedir.</p>
-<p>Önceki bölümde gördüğümüz gibi, bir C programının yürütülmesi daima <code>main</code> olarak adlandırılan fonksiyon işlevi ile başlar. Buradan itibaren, programın gerektirdiği tüm eylemleri gerçekleştirmek için giderek daha fazla işlev çağrılır.</p>
-<h2 id="de-i-kenler">Değişkenler</h2>
-<hr>
-<p>C&#39;deki fonksiyon işlevleri, değişken <em>variable</em> değerler üzerinde değişiklik yapmaktan ibarettir. Bunlar, birer isim verdiğimiz veri parçalarıdır.</p>
-<p>C&#39;deki her değişken belirgin bir <em>data type</em> türüne sahiptir. <em>data type</em> türleri tarafımızdan bildirilir veya dile kendiliğinden dahildirler. Yeni bir <em>variable</em> değişkenini <em>data type</em> türünü takiben ismini yazarak tanımlayabiliriz ve isteğe bağlı olarak onu <code>=</code> kullanarak bazı değerlere ayarlayabiliriz. Bu deklare edilen bildirim bir <em>statement</em> ifadesidir ve C&#39;deki tüm <em>statement</em> ifadeleri noktalı virgül &#39;;&#39; ile sonlandırırız.</p>
-<p><code>count</code> adında yeni bir <code>int</code> <em>data type</em> türü oluşturmak için aşağıdakileri yazabiliriz ...</p>
-<pre><code><span class="hljs-keyword">int</span> <span class="hljs-keyword">count</span>;
-</code></pre><p>veya onu bildirmek ve değerini ayarlamak için ...</p>
-<pre><code><span class="hljs-keyword">int</span> <span class="hljs-keyword">count</span> = <span class="hljs-number">10</span>;
-</code></pre><p>Aşağıda bazı dile ait yerleşik <em>data type</em> tür örnekleri ve tanımları verilmiştir.</p>
-<table>
-<thead>
-<tr>
-<th>Tip</th>
-<th>Tanım</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>void</code></td>
-<td>Boş, içeriksiz, önemsiz Tip</td>
-</tr>
-<tr>
-<td><code>char</code></td>
-<td>Tek Karakter/Byte</td>
-<td><code>char son_baş_harf = &#39;H&#39;;</code></td>
-</tr>
-<tr>
-<td><code>int</code></td>
-<td>Tamsayı</td>
-<td><code>int yaş = 23;</code></td>
-</tr>
-<tr>
-<td><code>long</code></td>
-<td>Büyük değerler tutabilen tamsayı</td>
-<td><code>long evrenin_yaşı = 13798000000;</code></td>
-</tr>
-<tr>
-<td><code>float</code></td>
-<td>Ondalık Sayı</td>
-<td><code>float litre_başına_bardak = 0.568;</code></td>
-</tr>
-<tr>
-<td><code>double</code></td>
-<td>Daha kesin olan ondalık sayı</td>
-<td><code>double kırlangıç_hızı = 0.01072896;</code>    </td>
-</tr>
-</tbody>
+<p>I've tried to make this book as friendly as possible to beginners. I welcome beginners the most because they have so much to discover! But beginners may also find this book challenging. We will be covering many new concepts, and essentially learning two new programming languages at once.</p>
+
+<p>If you look for help you may find people are not patient with you. You may find that, rather than help, they take the time to express how much <em>they</em> know about the subject. Experienced programmers might tell you that you are wrong. The subtext to their tone might be that you should stop now, rather than inflict your bad code on the world.</p>
+
+<p>After a couple of engagements like this you may decide that you are <em>not a programmer</em>, or <em>don't really like programming</em>, or that you just <em>don't get it</em>. You may have thought that you <em>once enjoyed</em> the idea of building your own programming language, but now you have realised that it is too abstract and you <em>don't care any more</em>. You are now concerned with your other passions, and any insight that may have been playful, joyful or interesting will now have become an obstacle.</p>
+
+<p>For this I can only apologise. Programmers can be hostile, macho, arrogant, insecure, and aggressive. There is no excuse for this behaviour. Know that I am on your side. No one <em>gets it</em> at first. Everyone struggles and doubts their abilities. Please don't give up or let the joy be sucked out of the creative experience. Be proud of what you create no matter what it is. People like me don't want you to stop programming. We want to hear your voice, and what you have to say.</p>
+
+
+<h2 id='why_learn_c'>Why learn C</h2> <hr/>
+
+<p>C is one of the most popular and influential programming languages in the world. It is the language of choice for development on Linux, and has been used extensively in the creation of OS X and to some extent Microsoft Windows. It is used on micro-computers too. Your fridge and car probably run on it. In modern software development, the use of C may be escapable, but its legacy is not. Anyone wanting to make a career out of software development would be smart to learn C.</p>
+
+<div class='pull-left alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="/static/img/fridge.png" alt="fridge" class="img-responsive" width="242px" height="264px"/>
+  <p><small>A fridge &bull; Your typical C user</small></p>
+</div>
+
+<p>But C is not about software development and careers. C is about <strong>freedom</strong>. It rose to fame on the back of technologies of collaboration and freedom - Unix, Linux, and The Libre Software Movement. It personifies the idea of personal liberty within computing. It wills you to take control of the technology affecting your life.</p>
+
+<p>In this day and age, when technology is more powerful than ever, this could not be more important.</p>
+
+<p>The ideology of freedom is reflected in the nature of C itself. There is little C hides from you, including its warts and flaws. There is little C stops you from doing, including breaking your programs in horrible ways. When programming in C you do not stand on a path, but a plane of decision, and C dares you to decide what to do.</p>
+
+<p>C is also the language of fun and learning. Before the mainstream media got hold of it we had a word for this. <em>Hacking</em>. The philosophy that glorifies what is fun and clever. Nothing to do with the illegal unauthorised access of other peoples' computers. Hacking is the philosophy of exploration, personal expression, pushing boundaries, and breaking the rules. It stands against hierarchy and bureaucracy. It celebrates the individual. Hacking baits you with fun, learning, and glory. Hacking is the promise that with a computer and access to the internet, you have the agency to change the world.</p>
+
+<p>To want to master C is to care about what is powerful, clever, and free. To become a programmer with all the vast powers of technology at his or her fingertips and the responsibility to do something to benefit the world.</p>
+
+<h2 id='how_to_learn_c'>How to learn C</h2> <hr/>
+
+<p>There is no way around the fact that C is a difficult language. It has many concepts that are unfamiliar, and it makes no attempts to help a new user. In this book I am <em>not</em> going to cover in detail things like the syntax of the language, or how to write loops and conditional statements.</p>
+
+<p>I will, on the other hand, show you how to build a <em>real world</em> program in C. This approach is always more difficult for the reader, but hopefully will teach you many implicit things a traditional approach cannot. I can't guarantee that this book will make you a confident user of C. What I can promise, is that those 1000 lines of code are going to be packed with content - and you will learn <em>something</em> worthwhile.</p>
+
+<p>This book consists of 16 short chapters. How you complete these is up to you. It may well be possible to blast through this book over a weekend, or to take it more slowly and do a chapter or two each evening over a week. It shouldn't take very long to complete, and will hopefully leave you with a taste for developing your language further.</p>
+
+
+<h2 id='why_build_a_lisp'>Why build a Lisp</h2> <hr/>
+
+<p>The language we are going to be building in this book is a Lisp. This is a family of programming languages characterised by the fact that all their computation is represented by <em>lists</em>. This may sound scarier than it is. Lisps are actually very easy, distinctive, and powerful languages.</p>
+
+<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="/static/img/mike.png" alt="mike" class="img-responsive" width="188px" height="281px"/>
+  <p><small>Mike Tyson &bull; Your typical Lisp user</small></p>
+</div>
+
+<p>Building a Lisp is a great project for so many reasons. It puts you in the shoes of language designers, and gives you an appreciation for the whole process of programming, from language all the way down to machine. It teaches you about functional programming, and novel ways to view computation. The final product you are rewarded with provides a template for future thoughts and developments, giving you a starting ground for trying new things. It simply isn't possible to comprehend the creativity and cleverness that goes into programming and computer science until you explore languages themselves.</p>
+
+<p>The type of Lisp we'll be building is one I've invented for the purposes of this book. I've designed it for minimalism, simplicity and clarity, and I've become quite fond of it along the way. I hope you come to like it too. Conceptually, syntactically, and in implementation, this Lisp has a number of differences to other major brands of Lisp. So much so that I'm sure I will be getting e-mails from Lisp programmers telling me it <em>isn't a Lisp</em> because it <em>doesn't do/have/look-like this or that</em>.</p>
+
+<p>I've not made this Lisp different to confuse beginners. I've made it different because different is good.</p>
+
+<p>If you are looking to learn about the semantics and behaviours of conventional Lisps, and how to program them, this book may not be for you. What this book offers instead is new and unique concepts, self expression, creativity, and fun. Whatever your motivation, heed this disclaimer now. Not everything I say will be objectively correct or true! You will have to decide that for yourselves.</p>
+
+
+<h2 id='your_own_lisp'>Your own Lisp</h2> <hr/>
+
+<p>The best way to follow this book is to, as the title says, write <em>your own</em> Lisp. If you are feeling confident enough I want you to add your own features, modifications and changes. Your Lisp should suit you and your own philosophy. Throughout the book I'll be giving description and insight, but with it I'll be providing <em>a lot</em> of code. This will make it easy to follow along by copy and pasting each section into your program without really understanding. <em>Please do not do this!</em>.</p>
+
+<p>Type out each piece of sample code yourself. This is called <em>The Hard Way</em>. Not because it is hard technically, but because it requires discipline. By doing things <em>The Hard Way</em> you will come to understand the reasoning behind what you are typing. Ideally things will click as you follow it along character by character. When reading you may have an intuition as to why it <em>looks</em> right, or what <em>may</em> be going on, but this will not always translate to a real understanding unless you do the writing yourself!</p>
+
+<p>In a perfect world you would use my code as a reference - an instruction booklet and guide to building the programming language you always dreamed of. In reality this isn't practical or viable. But the base philosophy remains. If you want to change something, do it.</p>
+
+
+<h2>Navigation</h2>
+
+<table class="table" style='table-layout: fixed;'>
+  <tr>
+    <td class="text-left"></td>
+    <td class="text-center"><a href="contents"><h4>&bull; Contents &bull;</h4></a></td>
+    <td class="text-right"><a href="chapter2_installation"><h4>Installation &rsaquo;</h4></a></td>
+  </tr>
 </table>
-<p><br/></p>
-<h2 id="fonksiyon-ile-deklare-edilen-i-lev-bildirimleri">Fonksiyon ile Deklare Edilen İşlev Bildirimleri</h2>
-<hr>
-<p>Bir işlev[function], değişkenleri[variables] işleyen ve isteğe bağlı olarak programın durumunu değiştiren bir hesaplamadır. Giriş olarak bazı değişkenler alır ve çıktı olarak tek bir değişkeni döndürür.</p>
-<p>Bir işlevi tanımlamak için, döndürdüğü değişkenin türünü[<em>int</em>], işlevin adını[<em>add together</em>] ve ardından parantez içinde virgülle ayrılmış girdi olarak alınan değişkenlerin[<em>x</em>,<em>y</em>] bir listesini yazarız. İşlevin içeriği kaşlı ayraç {} içine konur ve işlevi yürütülen ve noktalı virgüllerle sonlandırılan tüm ifadeler listelenir. Bir <code>return</code> deyimi, işlevin bitmesini ve bir değişken çıktılamasını sağlamak için kullanılır.</p>
-<p>Örneğin, <code>x</code> ve <code>y</code> olarak adlandırılan iki <code>int</code> değişkeni alan ve onları bir araya getiren bir işlev şöyle görünebilir.</p>
-<pre><code><span class="hljs-built_in">int</span> add_together(<span class="hljs-built_in">int</span> x, <span class="hljs-built_in">int</span> y) {
-  <span class="hljs-built_in">int</span> <span class="hljs-literal">result</span> = x + y;
-  <span class="hljs-keyword">return</span> <span class="hljs-literal">result</span>;
-}
-</code></pre><p>İşlevleri isimlerini yazarak ve argümanları parantez içinde virgülle ayırarak çağırırız. Örneğin, yukarıdaki fonksiyonu çağırmak ve sonucu <code>added</code> değişkeninde saklamak için aşağıdakileri yazacağız.</p>
-<pre><code>int <span class="hljs-keyword">added </span>= <span class="hljs-keyword">add_together(10, </span><span class="hljs-number">18</span>)<span class="hljs-comment">;</span>
-</code></pre><p><br/></p>
-<h2 id="structure-declarations">Structure Declarations</h2>
-<hr>
-<p>Structures are used to declare new <em>types</em>. Structures are several variables bundled together into a single package.</p>
-<p>We can use structure to represent more complex data types. For example to represent a point in 2D space we could create a structure called <code>point</code> that packs together two <code>float</code> (decimal) values called <code>x</code> and <code>y</code>. To declare structures we can use the <code>struct</code> keyword in conjunction with the <code>typedef</code> keyword. Our declaration would look like this.</p>
-<pre><code><span class="hljs-keyword">typedef</span> <span class="hljs-keyword">struct</span> {
-  <span class="hljs-keyword">float</span> x;
-  <span class="hljs-keyword">float</span> y;
-} <span class="hljs-built_in">point</span>;
-</code></pre><p>We should place this definition above any functions that wish to use it. This type is no different to the built in types, and we can use it in all the same ways. To access an individual field we use a dot <code>.</code>, followed by the name of the field, such as <code>x</code>.</p>
-<pre><code>point p<span class="hljs-comment">;</span>
-p.x = <span class="hljs-number">0</span>.<span class="hljs-number">1</span><span class="hljs-comment">;</span>
-p.y = <span class="hljs-number">10</span>.<span class="hljs-number">0</span><span class="hljs-comment">;</span>
-
-float length = sqrt(p.x * p.x + p.y * p.y)<span class="hljs-comment">;</span>
-</code></pre><div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="/images/dog_and_girl.jpg" alt="programs" class="img-responsive" width="280px" height="210px"/>
-  <p><small>Dostluk &bull; Köpek ve Kız.</small></p>
-</div>
-
-<h2 id="pointers">Pointers</h2>
-<hr>
-<p>A pointer is a variation on a normal type where the type name is suffixed with an asterisk. For example we could declare a <em>pointer to an integer</em> by writing <code>int*</code>. We already saw a pointer type <code>char** argv</code>. This is a <em>pointer to pointers to characters</em>, and is used as input to <code>main</code> function.</p>
-<p>Pointers are used for a whole number of different things such as for strings or lists. These are a difficult part of C and will be explained in much greater detail in later chapters. We won&#39;t make use of them for a while, so for now it is good to simply know they exist, and how to spot them. Don&#39;t let them scare you off!</p>
-<h2 id="strings">Strings</h2>
-<hr>
-<p>In C strings are represented by the pointer type <code>char*</code>. Under the hood they are stored as a list of characters, where the final character is a special character called the <em>null terminator</em>. Strings are a complicated and important part of C, which we&#39;ll learn to use effectively in the next few chapters.</p>
-<p>Strings can also be declared literally by putting text between quotation marks. We used this in the previous chapter with our string <code>&quot;Hello, World!&quot;</code>. For now, remember that if you see <code>char*</code>, you can read it as a <em>string</em>.</p>
-<h2 id="conditionals">Conditionals</h2>
-<hr>
-<p>Conditional statements let the program perform some code only if certain conditions are met.</p>
-<p>To perform code under some condition we use the <code>if</code> statement. This is written as <code>if</code> followed by some condition in parentheses, followed by the code to execute in curly brackets. An <code>if</code> statement can be followed by an optional <code>else</code> statement, followed by other statements in curly brackets. The code in these brackets will be performed in the case the conditional is false.</p>
-<p>We can test for multiple conditions using the logical operators <code>||</code> for <em>or</em>, and <code>&amp;&amp;</code> for <em>and</em>.</p>
-<p>Inside a conditional statement&#39;s parentheses any value that is not <code>0</code> will evaluate to true. This is important to remember as many conditions use this to check things implicitly.</p>
-<p>If we wished to check if an <code>int</code> called <code>x</code> was greater than <code>10</code> and less than <code>100</code>, we would write the following.</p>
-<pre><code><span class="hljs-keyword">if</span> (x &gt; <span class="hljs-number">10</span> &amp;&amp; x &lt; <span class="hljs-number">100</span>) {
-  <span class="hljs-built_in">puts</span>(<span class="hljs-string">"x is greater than 10 and less than 100!"</span>);
-} <span class="hljs-keyword">else</span> {
-  <span class="hljs-built_in">puts</span>(<span class="hljs-string">"x is less than 11 or greater than 99!"</span>);
-}
-</code></pre><h2 id="loops">Loops</h2>
-<hr>
-<p>Loops allow for some code to be repeated until some condition becomes false, or some counter elapses.</p>
-<p>There are two main loops in C. The first is a <code>while</code> loop. This loop repeatedly executes a block of code until some condition becomes false. It is written as <code>while</code> followed by some condition in parentheses, followed by the code to execute in curly brackets. For example a loop that counts downward from <code>10</code> to <code>1</code> could be written as follows.</p>
-<pre><code>int i = <span class="hljs-number">10</span><span class="hljs-comment">;</span>
-while (i &gt; <span class="hljs-number">0</span>) {
-  puts(<span class="hljs-string">"Loop Iteration"</span>)<span class="hljs-comment">;</span>
-  i = i - <span class="hljs-number">1</span><span class="hljs-comment">;</span>
-}
-</code></pre><p>The second kind of loop is a <code>for</code> loop. Rather than a condition, this loop requires three expressions separated by semicolons <code>;</code>. These are an <em>initialiser</em>, a <em>condition</em> and an <em>incrementer</em>. The <em>initialiser</em> is performed before the loop starts. The <em>condition</em> is checked before each iteration of the loop. If it is false, the loop is exited. The <em>incrementer</em> is performed at the end of each iteration of the loop. These loops are often used for counting as they are more compact than the <code>while</code> loop.</p>
-<p>For example to write a loop that counts up from <code>0</code> to <code>9</code> we might write the following. In this case the <code>++</code> operator increments the variable <code>i</code>.</p>
-<pre><code><span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">10</span>; i++) {
-  <span class="hljs-built_in">puts</span>(<span class="hljs-string">"Loop Iteration"</span>);
-}
-</code></pre><h2 id="bonus-marks">Bonus Marks</h2>
-<hr>
-<ul>
-<li>› Use a <code>for</code> loop to print out <code>Hello World!</code> five times.</li>
-<li>› Use a <code>while</code> loop to print out <code>Hello World!</code> five times.</li>
-<li>› Declare a function that outputs <code>Hello World!</code> <code>n</code> number of times. Call this from <code>main</code>.</li>
-<li>› What built in types are there other than the ones listed?</li>
-<li>› What other conditional operators are there other than <em>greater than</em> <code>&gt;</code>, and <em>less than</em> <code>&lt;</code>?</li>
-<li>› What other mathematical operators are there other than <em>add</em> <code>+</code>, and <em>subtract</em> <code>-</code>?</li>
-<li>› What is the <code>+=</code> operator, and how does it work?</li>
-<li>› What is the <code>do</code> loop, and how does it work?</li>
-<li>› What is the <code>switch</code> statement and how does it work?</li>
-<li>› What is the <code>break</code> keyword and what does it do?</li>
-</ul>
