@@ -35,11 +35,12 @@ tr:nth-child(even) {
 </style>
 <div> 
 <p>
-<span onclick="show('Page1');"><a  class="waves-effect waves-light btn">1</a></span> 
-<span onclick="show('Page2');"><a  class="waves-effect waves-light btn">2</a></span> 
-<span onclick="show('Page3');"><a  class="waves-effect waves-light btn">3</a></span> 
-<span onclick="show('Page4');"><a  class="waves-effect waves-light btn">4</a></span> 
-<span onclick="show('Page5');"><a  class="waves-effect waves-light btn">5</a></span> 
+<span onclick="show('Page1');"><a  class="waves-effect waves-light btn">1</a></span>
+<span onclick="show('Page2');"><a  class="waves-effect waves-light btn">2</a></span>
+<span onclick="show('Page3');"><a  class="waves-effect waves-light btn">3</a></span>
+<span onclick="show('Page4');"><a  class="waves-effect waves-light btn">4</a></span>
+<span onclick="show('Page5');"><a  class="waves-effect waves-light btn">5</a></span>
+<span onclick="show('Page5');"><a  class="waves-effect waves-light btn">6</a></span>
 </p>
 </div>
 <div class="teaser clearfix"></div>
@@ -65,6 +66,11 @@ tr:nth-child(even) {
 <div class="teaser clearfix"></div>
 <div id="Page5" class="page" style="display:none">
     	{% include lisp_page5.html %}
+</div>
+ 
+<div class="teaser clearfix"></div>
+<div id="Page6" class="page" style="display:none">
+    	{% include lisp_page6.html %}
 </div>
 
 
