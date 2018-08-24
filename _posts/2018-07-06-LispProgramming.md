@@ -65,9 +65,6 @@ tr:nth-child(even) {
 <span onclick="show('Page5');"><a  class="waves-effect waves-light btn">8</a></span>
 <span onclick="show('Page5');"><a  class="waves-effect waves-light btn">9</a></span>
 <span onclick="show('Page5');"><a  class="waves-effect waves-light btn">10</a></span>
-<span onclick="show('Page5');"><a  class="waves-effect waves-light btn">11</a></span>
-<span onclick="show('Page5');"><a  class="waves-effect waves-light btn">12</a></span>
-<span onclick="show('Page5');"><a  class="waves-effect waves-light btn">13</a></span>
 </p>
 </div>
 <div class="teaser clearfix"></div>
