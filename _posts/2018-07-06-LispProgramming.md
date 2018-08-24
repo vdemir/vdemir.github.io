@@ -36,7 +36,7 @@ tr:nth-child(even) {
 
 <h1>Contents <small>&bull; Build Your Own Lisp</small></h1>
 
-<h3><a>Chapter 1 &bull; Introduction</a></h3>
+<h3><span onclick="show('Page1');"><a>Chapter 1 &bull; Introduction</a></span></h3>
 <h3><a>Chapter 2 &bull; Installation</a></h3>
 <h3><a>Chapter 3 &bull; Basics</a></h3>
 <h3><a>Chapter 4 &bull; An Interactive Prompt</a></h3>
