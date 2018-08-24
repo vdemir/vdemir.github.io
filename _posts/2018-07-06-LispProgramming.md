@@ -45,7 +45,7 @@ tr:nth-child(even) {
 <h3><span onclick="show('Page7');"><a>Chapter 7 &bull; Evaluation</a></span></h3>
 <h3><span onclick="show('Page8');"><a>Chapter 8 &bull; Error Handling</a></span></h3>
 <h3><span onclick="show('Page9');"><a>Chapter 9 &bull; S-Expressions</a></span></h3>
-<h3><span onclick="show('Page17');"><a>Chapter 10 &bull; Q-Expressions</a></span></h3>
+<h3><span onclick="show('Page10');"><a>Chapter 10 &bull; Q-Expressions</a></span></h3>
 <h3><span onclick="show('Page11');"><a>Chapter 11 &bull; Variables</a></span></h3>
 <h3><span onclick="show('Page12');"><a>Chapter 12 &bull; Functions</a></span></h3>
 <h3><span onclick="show('Page13');"><a>Chapter 13 &bull; Conditionals</a></span></h3>
