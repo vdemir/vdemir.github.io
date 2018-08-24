@@ -25,10 +25,6 @@
   opacity: 0.5;
   cursor: pointer;
   transition: all 1.2s;
-  -webkit-transition: all 1.2s;
-  -moz-transition: all 1.2s;
-  -ms-transition: all 1.2s;
-  -o-transition: all 1.2s;
 }
 .scroll-button:hover {
   filter: alpha(opacity=100);
