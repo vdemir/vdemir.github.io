@@ -3,8 +3,8 @@ highlighter: rouge
 
 # Site wide configuration
 
-description       : Blog
-title             : Programlama Dilleri ile ilgili Yazilar
+description       : Günlük Blog Yazıları
+title             : Günlük Blog Yazıları
 keywords          : C,Language,Programming
 logo              : siteicon.png
 search            : false
