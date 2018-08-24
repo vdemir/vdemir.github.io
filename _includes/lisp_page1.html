@@ -1,0 +1,142 @@
+
+<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="/images/YA2_142_143_at_nali_yengeci.jpg" alt="programs" class="img-responsive" width="425px" height="325px"/>
+  <p><small>Fosil &bull; At Nalı Yengeci.</small></p>
+</div>
+
+<p>Bu bölümde, C&#39;nin temel özelliklerine hızlı bir genel bakış hazırladım. C&#39;de çok az <em>features</em> vardır ve <em>syntax</em> nispeten basittir. Ancak bu kolay anlamına gelmez. Tüm derinlik yüzeyin altına gizlenir. Bu nedenle <em>features</em> ve <em>syntax</em>&#39;ı şimdi oldukça hızlı bir şekilde ele alacağız ve devam edersek bunları daha derinlemesine göreceğiz.</p>
+<p>Bu bölümün amacı, herkesin aynı sayfada olmasıdır. Dolayısıyla, mevcut tecrübeye sahip olanlar, atlamayı ve gerekirse daha sonra geri dönmeyi daha kolay bulabilirken, C&#39;ye tamamen yabancı olan insanlar biraz zaman ayırmalıdır.</p>
+<h2 id="programlar">Programlar</h2>
+<hr>
+<p>C&#39;deki bir program yalnızca <em>function</em> tanımları ve <em>structure</em> tanımları&#39;ndan oluşur.</p>
+<p>Dolayısıyla, bir kaynak kod dosyası sadece <em>functions</em> ve <em>types</em>&#39;in bir listesidir. Bu fonksiyon işlevleri birbirlerini veya kendi kendilerini arayabilir ve deklare edilen veya dile yerleştirilmiş olan herhangi bir <em>data type</em> kullanabilir.</p>
+<p>Diğer <em>header</em> kitaplıklarındaki fonksiyon işlevlerini çağırmak veya onların <em>data type</em> türlerini kullanmak mümkündür. Bu, karmaşıklığın katmanlarının C programlamasında nasıl biriktirildiği ile ilgili bir durumu göstermektedir.</p>
+<p>Önceki bölümde gördüğümüz gibi, bir C programının yürütülmesi daima <code>main</code> olarak adlandırılan fonksiyon işlevi ile başlar. Buradan itibaren, programın gerektirdiği tüm eylemleri gerçekleştirmek için giderek daha fazla işlev çağrılır.</p>
+<h2 id="de-i-kenler">Değişkenler</h2>
+<hr>
+<p>C&#39;deki fonksiyon işlevleri, değişken <em>variable</em> değerler üzerinde değişiklik yapmaktan ibarettir. Bunlar, birer isim verdiğimiz veri parçalarıdır.</p>
+<p>C&#39;deki her değişken belirgin bir <em>data type</em> türüne sahiptir. <em>data type</em> türleri tarafımızdan bildirilir veya dile kendiliğinden dahildirler. Yeni bir <em>variable</em> değişkenini <em>data type</em> türünü takiben ismini yazarak tanımlayabiliriz ve isteğe bağlı olarak onu <code>=</code> kullanarak bazı değerlere ayarlayabiliriz. Bu deklare edilen bildirim bir <em>statement</em> ifadesidir ve C&#39;deki tüm <em>statement</em> ifadeleri noktalı virgül &#39;;&#39; ile sonlandırırız.</p>
+<p><code>count</code> adında yeni bir <code>int</code> <em>data type</em> türü oluşturmak için aşağıdakileri yazabiliriz ...</p>
+<pre><code><span class="hljs-keyword">int</span> <span class="hljs-keyword">count</span>;
+</code></pre><p>veya onu bildirmek ve değerini ayarlamak için ...</p>
+<pre><code><span class="hljs-keyword">int</span> <span class="hljs-keyword">count</span> = <span class="hljs-number">10</span>;
+</code></pre><p>Aşağıda bazı dile ait yerleşik <em>data type</em> tür örnekleri ve tanımları verilmiştir.</p>
+<table>
+<thead>
+<tr>
+<th>Tip</th>
+<th>Tanım</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>void</code></td>
+<td>Boş, içeriksiz, önemsiz Tip</td>
+</tr>
+<tr>
+<td><code>char</code></td>
+<td>Tek Karakter/Byte</td>
+<td><code>char son_baş_harf = &#39;H&#39;;</code></td>
+</tr>
+<tr>
+<td><code>int</code></td>
+<td>Tamsayı</td>
+<td><code>int yaş = 23;</code></td>
+</tr>
+<tr>
+<td><code>long</code></td>
+<td>Büyük değerler tutabilen tamsayı</td>
+<td><code>long evrenin_yaşı = 13798000000;</code></td>
+</tr>
+<tr>
+<td><code>float</code></td>
+<td>Ondalık Sayı</td>
+<td><code>float litre_başına_bardak = 0.568;</code></td>
+</tr>
+<tr>
+<td><code>double</code></td>
+<td>Daha kesin olan ondalık sayı</td>
+<td><code>double kırlangıç_hızı = 0.01072896;</code>    </td>
+</tr>
+</tbody>
+</table>
+<p><br/></p>
+<h2 id="fonksiyon-ile-deklare-edilen-i-lev-bildirimleri">Fonksiyon ile Deklare Edilen İşlev Bildirimleri</h2>
+<hr>
+<p>Bir işlev[function], değişkenleri[variables] işleyen ve isteğe bağlı olarak programın durumunu değiştiren bir hesaplamadır. Giriş olarak bazı değişkenler alır ve çıktı olarak tek bir değişkeni döndürür.</p>
+<p>Bir işlevi tanımlamak için, döndürdüğü değişkenin türünü[<em>int</em>], işlevin adını[<em>add together</em>] ve ardından parantez içinde virgülle ayrılmış girdi olarak alınan değişkenlerin[<em>x</em>,<em>y</em>] bir listesini yazarız. İşlevin içeriği kaşlı ayraç {} içine konur ve işlevi yürütülen ve noktalı virgüllerle sonlandırılan tüm ifadeler listelenir. Bir <code>return</code> deyimi, işlevin bitmesini ve bir değişken çıktılamasını sağlamak için kullanılır.</p>
+<p>Örneğin, <code>x</code> ve <code>y</code> olarak adlandırılan iki <code>int</code> değişkeni alan ve onları bir araya getiren bir işlev şöyle görünebilir.</p>
+<pre><code><span class="hljs-built_in">int</span> add_together(<span class="hljs-built_in">int</span> x, <span class="hljs-built_in">int</span> y) {
+  <span class="hljs-built_in">int</span> <span class="hljs-literal">result</span> = x + y;
+  <span class="hljs-keyword">return</span> <span class="hljs-literal">result</span>;
+}
+</code></pre><p>İşlevleri isimlerini yazarak ve argümanları parantez içinde virgülle ayırarak çağırırız. Örneğin, yukarıdaki fonksiyonu çağırmak ve sonucu <code>added</code> değişkeninde saklamak için aşağıdakileri yazacağız.</p>
+<pre><code>int <span class="hljs-keyword">added </span>= <span class="hljs-keyword">add_together(10, </span><span class="hljs-number">18</span>)<span class="hljs-comment">;</span>
+</code></pre><p><br/></p>
+<h2 id="structure-declarations">Structure Declarations</h2>
+<hr>
+<p>Structures are used to declare new <em>types</em>. Structures are several variables bundled together into a single package.</p>
+<p>We can use structure to represent more complex data types. For example to represent a point in 2D space we could create a structure called <code>point</code> that packs together two <code>float</code> (decimal) values called <code>x</code> and <code>y</code>. To declare structures we can use the <code>struct</code> keyword in conjunction with the <code>typedef</code> keyword. Our declaration would look like this.</p>
+<pre><code><span class="hljs-keyword">typedef</span> <span class="hljs-keyword">struct</span> {
+  <span class="hljs-keyword">float</span> x;
+  <span class="hljs-keyword">float</span> y;
+} <span class="hljs-built_in">point</span>;
+</code></pre><p>We should place this definition above any functions that wish to use it. This type is no different to the built in types, and we can use it in all the same ways. To access an individual field we use a dot <code>.</code>, followed by the name of the field, such as <code>x</code>.</p>
+<pre><code>point p<span class="hljs-comment">;</span>
+p.x = <span class="hljs-number">0</span>.<span class="hljs-number">1</span><span class="hljs-comment">;</span>
+p.y = <span class="hljs-number">10</span>.<span class="hljs-number">0</span><span class="hljs-comment">;</span>
+
+float length = sqrt(p.x * p.x + p.y * p.y)<span class="hljs-comment">;</span>
+</code></pre><div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="/images/dog_and_girl.jpg" alt="programs" class="img-responsive" width="280px" height="210px"/>
+  <p><small>Dostluk &bull; Köpek ve Kız.</small></p>
+</div>
+
+<h2 id="pointers">Pointers</h2>
+<hr>
+<p>A pointer is a variation on a normal type where the type name is suffixed with an asterisk. For example we could declare a <em>pointer to an integer</em> by writing <code>int*</code>. We already saw a pointer type <code>char** argv</code>. This is a <em>pointer to pointers to characters</em>, and is used as input to <code>main</code> function.</p>
+<p>Pointers are used for a whole number of different things such as for strings or lists. These are a difficult part of C and will be explained in much greater detail in later chapters. We won&#39;t make use of them for a while, so for now it is good to simply know they exist, and how to spot them. Don&#39;t let them scare you off!</p>
+<h2 id="strings">Strings</h2>
+<hr>
+<p>In C strings are represented by the pointer type <code>char*</code>. Under the hood they are stored as a list of characters, where the final character is a special character called the <em>null terminator</em>. Strings are a complicated and important part of C, which we&#39;ll learn to use effectively in the next few chapters.</p>
+<p>Strings can also be declared literally by putting text between quotation marks. We used this in the previous chapter with our string <code>&quot;Hello, World!&quot;</code>. For now, remember that if you see <code>char*</code>, you can read it as a <em>string</em>.</p>
+<h2 id="conditionals">Conditionals</h2>
+<hr>
+<p>Conditional statements let the program perform some code only if certain conditions are met.</p>
+<p>To perform code under some condition we use the <code>if</code> statement. This is written as <code>if</code> followed by some condition in parentheses, followed by the code to execute in curly brackets. An <code>if</code> statement can be followed by an optional <code>else</code> statement, followed by other statements in curly brackets. The code in these brackets will be performed in the case the conditional is false.</p>
+<p>We can test for multiple conditions using the logical operators <code>||</code> for <em>or</em>, and <code>&amp;&amp;</code> for <em>and</em>.</p>
+<p>Inside a conditional statement&#39;s parentheses any value that is not <code>0</code> will evaluate to true. This is important to remember as many conditions use this to check things implicitly.</p>
+<p>If we wished to check if an <code>int</code> called <code>x</code> was greater than <code>10</code> and less than <code>100</code>, we would write the following.</p>
+<pre><code><span class="hljs-keyword">if</span> (x &gt; <span class="hljs-number">10</span> &amp;&amp; x &lt; <span class="hljs-number">100</span>) {
+  <span class="hljs-built_in">puts</span>(<span class="hljs-string">"x is greater than 10 and less than 100!"</span>);
+} <span class="hljs-keyword">else</span> {
+  <span class="hljs-built_in">puts</span>(<span class="hljs-string">"x is less than 11 or greater than 99!"</span>);
+}
+</code></pre><h2 id="loops">Loops</h2>
+<hr>
+<p>Loops allow for some code to be repeated until some condition becomes false, or some counter elapses.</p>
+<p>There are two main loops in C. The first is a <code>while</code> loop. This loop repeatedly executes a block of code until some condition becomes false. It is written as <code>while</code> followed by some condition in parentheses, followed by the code to execute in curly brackets. For example a loop that counts downward from <code>10</code> to <code>1</code> could be written as follows.</p>
+<pre><code>int i = <span class="hljs-number">10</span><span class="hljs-comment">;</span>
+while (i &gt; <span class="hljs-number">0</span>) {
+  puts(<span class="hljs-string">"Loop Iteration"</span>)<span class="hljs-comment">;</span>
+  i = i - <span class="hljs-number">1</span><span class="hljs-comment">;</span>
+}
+</code></pre><p>The second kind of loop is a <code>for</code> loop. Rather than a condition, this loop requires three expressions separated by semicolons <code>;</code>. These are an <em>initialiser</em>, a <em>condition</em> and an <em>incrementer</em>. The <em>initialiser</em> is performed before the loop starts. The <em>condition</em> is checked before each iteration of the loop. If it is false, the loop is exited. The <em>incrementer</em> is performed at the end of each iteration of the loop. These loops are often used for counting as they are more compact than the <code>while</code> loop.</p>
+<p>For example to write a loop that counts up from <code>0</code> to <code>9</code> we might write the following. In this case the <code>++</code> operator increments the variable <code>i</code>.</p>
+<pre><code><span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">10</span>; i++) {
+  <span class="hljs-built_in">puts</span>(<span class="hljs-string">"Loop Iteration"</span>);
+}
+</code></pre><h2 id="bonus-marks">Bonus Marks</h2>
+<hr>
+<ul>
+<li>› Use a <code>for</code> loop to print out <code>Hello World!</code> five times.</li>
+<li>› Use a <code>while</code> loop to print out <code>Hello World!</code> five times.</li>
+<li>› Declare a function that outputs <code>Hello World!</code> <code>n</code> number of times. Call this from <code>main</code>.</li>
+<li>› What built in types are there other than the ones listed?</li>
+<li>› What other conditional operators are there other than <em>greater than</em> <code>&gt;</code>, and <em>less than</em> <code>&lt;</code>?</li>
+<li>› What other mathematical operators are there other than <em>add</em> <code>+</code>, and <em>subtract</em> <code>-</code>?</li>
+<li>› What is the <code>+=</code> operator, and how does it work?</li>
+<li>› What is the <code>do</code> loop, and how does it work?</li>
+<li>› What is the <code>switch</code> statement and how does it work?</li>
+<li>› What is the <code>break</code> keyword and what does it do?</li>
+</ul>
