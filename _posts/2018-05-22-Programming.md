@@ -11,7 +11,6 @@ lang: en
 
 <p class="meta">{{ page.date | date_to_long_string }} - Türkiye</p>
 <br>
-<input type="text" id="search" placeholder="Type to search">
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 {% include lisp_programming.html %}
 <div class="teaser clearfix"></div>
