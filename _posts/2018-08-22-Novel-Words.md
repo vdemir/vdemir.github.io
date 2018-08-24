@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sözler 
+title: Etkili Sözler 
 date:   2018-08-12 15:52:00
 tags:   English Word Turkish
 comments: false
