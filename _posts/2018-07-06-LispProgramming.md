@@ -3,7 +3,7 @@ layout: post
 title: Lisp Programming Language
 date:   2018-05-06 13:52:00
 excerpt: "Lisp, Programlama"
-tags:   Lisp Programlama C Linux
+tags:   Lisp Programlama C Linux English
 comments: false
 published: true
 lang: en
