@@ -22,7 +22,7 @@
   right: 20px;
   bottom: 20px;
   visibility: visible;
-  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=50);
+  filter: DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
   cursor: pointer;
   transition: all 1.2s;
@@ -33,11 +33,11 @@
 }
 .scroll-button:hover {
   filter: alpha(opacity=100);
-  filter: progid; DXImageTransform.Microsoft.Alpha(Opacity=100);
+  filter: DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
 .scroll-button--hidden {
-  filter: progid; DXImageTransform.Microsoft.Alpha(Opacity=0.5);
+  filter: DXImageTransform.Microsoft.Alpha(Opacity=0.5);
   opacity: 0.5;
   visibility: hidden;
 }
