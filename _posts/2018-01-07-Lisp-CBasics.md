@@ -19,183 +19,97 @@ Genel Bakış
 
 * * *
 
-<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="/images/YA2_142_143_at_nali_yengeci.jpg" alt="programs" class="img-responsive" width="425px" height="325px"/>
-  <p><small>Fosil &bull; At Nalı Yengeci.</small></p>
-</div>
-
-Bu bölümde, C'nin temel özelliklerine hızlı bir genel bakış hazırladım. C'de çok az _features_ vardır ve _syntax_ nispeten basittir. Ancak bu kolay anlamına gelmez. Tüm derinlik yüzeyin altına gizlenir. Bu nedenle _features_ ve _syntax_'ı şimdi oldukça hızlı bir şekilde ele alacağız ve devam edersek bunları daha derinlemesine göreceğiz.
-
-Bu bölümün amacı, herkesin aynı sayfada olmasıdır. Dolayısıyla, mevcut tecrübeye sahip olanlar, atlamayı ve gerekirse daha sonra geri dönmeyi daha kolay bulabilirken, C'ye tamamen yabancı olan insanlar biraz zaman ayırmalıdır.
-
-Programlar
---------
-
-* * *
-
-C'deki bir program yalnızca _function_ tanımları ve _structure_ tanımları'ndan oluşur.
-
-Dolayısıyla, bir kaynak kod dosyası sadece _functions_ ve _types_'in bir listesidir. Bu fonksiyon işlevleri birbirlerini veya kendi kendilerini arayabilir ve deklare edilen veya dile yerleştirilmiş olan herhangi bir _data type_ kullanabilir.
-
-Diğer _header_ kitaplıklarındaki fonksiyon işlevlerini çağırmak veya onların _data type_ türlerini kullanmak mümkündür. Bu, karmaşıklığın katmanlarının C programlamasında nasıl biriktirildiği ile ilgili bir durumu göstermektedir.
-
-Önceki bölümde gördüğümüz gibi, bir C programının yürütülmesi daima `main` olarak adlandırılan fonksiyon işlevi ile başlar. Buradan itibaren, programın gerektirdiği tüm eylemleri gerçekleştirmek için giderek daha fazla işlev çağrılır.
-
-Değişkenler
----------
-
-* * *
-
-C'deki fonksiyon işlevleri, değişken _variable_ değerler üzerinde değişiklik yapmaktan ibarettir. Bunlar, birer isim verdiğimiz veri parçalarıdır.
-
-C'deki her değişken belirgin bir _data type_ türüne sahiptir. _data type_ türleri tarafımızdan bildirilir veya dile kendiliğinden dahildirler. Yeni bir _variable_ değişkenini _data type_ türünü takiben ismini yazarak tanımlayabiliriz ve isteğe bağlı olarak onu `=` kullanarak bazı değerlere ayarlayabiliriz. Bu deklare edilen bildirim bir _statement_ ifadesidir ve C'deki tüm _statement_ ifadeleri noktalı virgül ';' ile sonlandırırız.
-
-`count` adında yeni bir `int` _data type_ türü oluşturmak için aşağıdakileri yazabiliriz ...
-
-    int count;
-
-veya onu bildirmek ve değerini ayarlamak için ...
-
-    int count = 10;
-
-Aşağıda bazı dile ait yerleşik _data type_ tür örnekleri ve tanımları verilmiştir.
-
-|  Tip    |  Tanım
-|---------|-------------------------------------------------------
-| `void`  |  Boş, içeriksiz, önemsiz Tip
-| `char`  |  Tek Karakter/Byte	                    | `char son_baş_harf = 'H';`
-| `int`	  |  Tamsayı			            | `int yaş = 23;`
-| `long`  |  Büyük değerler tutabilen tamsayı       | `long evrenin_yaşı = 13798000000;`
-| `float` |  Ondalık Sayı		            | `float litre_başına_bardak = 0.568;`
-| `double`|  Daha kesin olan ondalık sayı           | `double kırlangıç_hızı = 0.01072896;`	
-
-<br/>
-
-Fonksiyon ile Deklare Edilen İşlev Bildirimleri
----------------------
-
-* * *
-
-Bir işlev[function], değişkenleri[variables] işleyen ve isteğe bağlı olarak programın durumunu değiştiren bir hesaplamadır. Giriş olarak bazı değişkenler alır ve çıktı olarak tek bir değişkeni döndürür.
-
-Bir işlevi tanımlamak için, döndürdüğü değişkenin türünü[_int_], işlevin adını[_add together_] ve ardından parantez içinde virgülle ayrılmış girdi olarak alınan değişkenlerin[_x_,_y_] bir listesini yazarız. İşlevin içeriği kaşlı ayraç {} içine konur ve işlevi yürütülen ve noktalı virgüllerle sonlandırılan tüm ifadeler listelenir. Bir `return` deyimi, işlevin bitmesini ve bir değişken çıktılamasını sağlamak için kullanılır.
-
-Örneğin, `x` ve `y` olarak adlandırılan iki `int` değişkeni alan ve onları bir araya getiren bir işlev şöyle görünebilir.
-
-    int add_together(int x, int y) {
-      int result = x + y;
-      return result;
-    }
-
-İşlevleri isimlerini yazarak ve argümanları parantez içinde virgülle ayırarak çağırırız. Örneğin, yukarıdaki fonksiyonu çağırmak ve sonucu `added` değişkeninde saklamak için aşağıdakileri yazacağız.
+<h1>Introduction <small>&bull; Chapter 1</small></h1>
 
 
-    int added = add_together(10, 18);
+<h2 id='about'>About</h2> <hr/>
 
-<br/>
+<p>In this book you'll learn the C programming language and at the same time learn how to build <em>your very own programming language</em>, a minimal Lisp, in under 1000 lines of code! We'll be using a library to do some of the initial work, so I'm cheating a bit on the line count, but the rest of the code will be completely original, and you really will create a powerful little Lisp by the end.</p>
 
-Structure Declarations
-----------------------
+<p>This book is inspired by other tutorials which go through the steps of building a programming language from scratch. I wrote this book to show that this kind of fun and creative project is a great way to learn a language, and not limited to abstract high-level languages, or experienced programmers.</p>
 
-* * *
+<p>Many people are keen to learn C, but have nowhere to start. Now there is no excuse. If you follow this book I can promise that, in the worst case, you'll get a cool new programming language to play with, and hopefully you'll become an experienced C programmer too!</p>
 
-Structures are used to declare new _types_. Structures are several variables bundled together into a single package.
 
-We can use structure to represent more complex data types. For example to represent a point in 2D space we could create a structure called `point` that packs together two `float` (decimal) values called `x` and `y`. To declare structures we can use the `struct` keyword in conjunction with the `typedef` keyword. Our declaration would look like this.
+<h2 id='who_this_is_for'>Who this is for</h2> <hr/>
 
-    typedef struct {
-      float x;
-      float y;
-    } point;
-
-We should place this definition above any functions that wish to use it. This type is no different to the built in types, and we can use it in all the same ways. To access an individual field we use a dot `.`, followed by the name of the field, such as `x`.
-
-    point p;
-    p.x = 0.1;
-    p.y = 10.0;
-    
-    float length = sqrt(p.x * p.x + p.y * p.y);
-    
+<p>This book is for anyone wanting to learn C, or who has once wondered how to build their own programming language. This book is not suitable as a first programming language book, but anyone with some minimal programming experience, in any language, should find something new and interesting inside. </p>
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="/images/dog_and_girl.jpg" alt="programs" class="img-responsive" width="280px" height="210px"/>
-  <p><small>Dostluk &bull; Köpek ve Kız.</small></p>
+  <img src="/static/img/ada.png" alt="ada" class="img-responsive" width="217px" height="302px"/>
+  <p><small>Ada Lovelace &bull; Your typical <!--<a href="http://areyouabrogrammer.com/">-->brogrammer<!--</a>-->.</small></p>
 </div>
 
-Pointers
---------
+<p>I've tried to make this book as friendly as possible to beginners. I welcome beginners the most because they have so much to discover! But beginners may also find this book challenging. We will be covering many new concepts, and essentially learning two new programming languages at once.</p>
 
-* * *
+<p>If you look for help you may find people are not patient with you. You may find that, rather than help, they take the time to express how much <em>they</em> know about the subject. Experienced programmers might tell you that you are wrong. The subtext to their tone might be that you should stop now, rather than inflict your bad code on the world.</p>
 
-A pointer is a variation on a normal type where the type name is suffixed with an asterisk. For example we could declare a _pointer to an integer_ by writing `int*`. We already saw a pointer type `char** argv`. This is a _pointer to pointers to characters_, and is used as input to `main` function.
+<p>After a couple of engagements like this you may decide that you are <em>not a programmer</em>, or <em>don't really like programming</em>, or that you just <em>don't get it</em>. You may have thought that you <em>once enjoyed</em> the idea of building your own programming language, but now you have realised that it is too abstract and you <em>don't care any more</em>. You are now concerned with your other passions, and any insight that may have been playful, joyful or interesting will now have become an obstacle.</p>
 
-Pointers are used for a whole number of different things such as for strings or lists. These are a difficult part of C and will be explained in much greater detail in later chapters. We won't make use of them for a while, so for now it is good to simply know they exist, and how to spot them. Don't let them scare you off!
+<p>For this I can only apologise. Programmers can be hostile, macho, arrogant, insecure, and aggressive. There is no excuse for this behaviour. Know that I am on your side. No one <em>gets it</em> at first. Everyone struggles and doubts their abilities. Please don't give up or let the joy be sucked out of the creative experience. Be proud of what you create no matter what it is. People like me don't want you to stop programming. We want to hear your voice, and what you have to say.</p>
 
-Strings
--------
 
-* * *
+<h2 id='why_learn_c'>Why learn C</h2> <hr/>
 
-In C strings are represented by the pointer type `char*`. Under the hood they are stored as a list of characters, where the final character is a special character called the _null terminator_. Strings are a complicated and important part of C, which we'll learn to use effectively in the next few chapters.
+<p>C is one of the most popular and influential programming languages in the world. It is the language of choice for development on Linux, and has been used extensively in the creation of OS X and to some extent Microsoft Windows. It is used on micro-computers too. Your fridge and car probably run on it. In modern software development, the use of C may be escapable, but its legacy is not. Anyone wanting to make a career out of software development would be smart to learn C.</p>
 
-Strings can also be declared literally by putting text between quotation marks. We used this in the previous chapter with our string `"Hello, World!"`. For now, remember that if you see `char*`, you can read it as a _string_.
+<div class='pull-left alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="/static/img/fridge.png" alt="fridge" class="img-responsive" width="242px" height="264px"/>
+  <p><small>A fridge &bull; Your typical C user</small></p>
+</div>
 
-Conditionals
-------------
+<p>But C is not about software development and careers. C is about <strong>freedom</strong>. It rose to fame on the back of technologies of collaboration and freedom - Unix, Linux, and The Libre Software Movement. It personifies the idea of personal liberty within computing. It wills you to take control of the technology affecting your life.</p>
 
-* * *
+<p>In this day and age, when technology is more powerful than ever, this could not be more important.</p>
 
-Conditional statements let the program perform some code only if certain conditions are met.
+<p>The ideology of freedom is reflected in the nature of C itself. There is little C hides from you, including its warts and flaws. There is little C stops you from doing, including breaking your programs in horrible ways. When programming in C you do not stand on a path, but a plane of decision, and C dares you to decide what to do.</p>
 
-To perform code under some condition we use the `if` statement. This is written as `if` followed by some condition in parentheses, followed by the code to execute in curly brackets. An `if` statement can be followed by an optional `else` statement, followed by other statements in curly brackets. The code in these brackets will be performed in the case the conditional is false.
+<p>C is also the language of fun and learning. Before the mainstream media got hold of it we had a word for this. <em>Hacking</em>. The philosophy that glorifies what is fun and clever. Nothing to do with the illegal unauthorised access of other peoples' computers. Hacking is the philosophy of exploration, personal expression, pushing boundaries, and breaking the rules. It stands against hierarchy and bureaucracy. It celebrates the individual. Hacking baits you with fun, learning, and glory. Hacking is the promise that with a computer and access to the internet, you have the agency to change the world.</p>
 
-We can test for multiple conditions using the logical operators `||` for _or_, and `&&` for _and_.
+<p>To want to master C is to care about what is powerful, clever, and free. To become a programmer with all the vast powers of technology at his or her fingertips and the responsibility to do something to benefit the world.</p>
 
-Inside a conditional statement's parentheses any value that is not `0` will evaluate to true. This is important to remember as many conditions use this to check things implicitly.
+<h2 id='how_to_learn_c'>How to learn C</h2> <hr/>
 
-If we wished to check if an `int` called `x` was greater than `10` and less than `100`, we would write the following.
+<p>There is no way around the fact that C is a difficult language. It has many concepts that are unfamiliar, and it makes no attempts to help a new user. In this book I am <em>not</em> going to cover in detail things like the syntax of the language, or how to write loops and conditional statements.</p>
 
-    if (x > 10 && x < 100) {
-      puts("x is greater than 10 and less than 100!");
-    } else {
-      puts("x is less than 11 or greater than 99!");
-    }
+<p>I will, on the other hand, show you how to build a <em>real world</em> program in C. This approach is always more difficult for the reader, but hopefully will teach you many implicit things a traditional approach cannot. I can't guarantee that this book will make you a confident user of C. What I can promise, is that those 1000 lines of code are going to be packed with content - and you will learn <em>something</em> worthwhile.</p>
 
-Loops
------
+<p>This book consists of 16 short chapters. How you complete these is up to you. It may well be possible to blast through this book over a weekend, or to take it more slowly and do a chapter or two each evening over a week. It shouldn't take very long to complete, and will hopefully leave you with a taste for developing your language further.</p>
 
-* * *
 
-Loops allow for some code to be repeated until some condition becomes false, or some counter elapses.
+<h2 id='why_build_a_lisp'>Why build a Lisp</h2> <hr/>
 
-There are two main loops in C. The first is a `while` loop. This loop repeatedly executes a block of code until some condition becomes false. It is written as `while` followed by some condition in parentheses, followed by the code to execute in curly brackets. For example a loop that counts downward from `10` to `1` could be written as follows.
+<p>The language we are going to be building in this book is a Lisp. This is a family of programming languages characterised by the fact that all their computation is represented by <em>lists</em>. This may sound scarier than it is. Lisps are actually very easy, distinctive, and powerful languages.</p>
 
-    int i = 10;
-    while (i > 0) {
-      puts("Loop Iteration");
-      i = i - 1;
-    }
+<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="/static/img/mike.png" alt="mike" class="img-responsive" width="188px" height="281px"/>
+  <p><small>Mike Tyson &bull; Your typical Lisp user</small></p>
+</div>
 
-The second kind of loop is a `for` loop. Rather than a condition, this loop requires three expressions separated by semicolons `;`. These are an _initialiser_, a _condition_ and an _incrementer_. The _initialiser_ is performed before the loop starts. The _condition_ is checked before each iteration of the loop. If it is false, the loop is exited. The _incrementer_ is performed at the end of each iteration of the loop. These loops are often used for counting as they are more compact than the `while` loop.
+<p>Building a Lisp is a great project for so many reasons. It puts you in the shoes of language designers, and gives you an appreciation for the whole process of programming, from language all the way down to machine. It teaches you about functional programming, and novel ways to view computation. The final product you are rewarded with provides a template for future thoughts and developments, giving you a starting ground for trying new things. It simply isn't possible to comprehend the creativity and cleverness that goes into programming and computer science until you explore languages themselves.</p>
 
-For example to write a loop that counts up from `0` to `9` we might write the following. In this case the `++` operator increments the variable `i`.
+<p>The type of Lisp we'll be building is one I've invented for the purposes of this book. I've designed it for minimalism, simplicity and clarity, and I've become quite fond of it along the way. I hope you come to like it too. Conceptually, syntactically, and in implementation, this Lisp has a number of differences to other major brands of Lisp. So much so that I'm sure I will be getting e-mails from Lisp programmers telling me it <em>isn't a Lisp</em> because it <em>doesn't do/have/look-like this or that</em>.</p>
 
-    for (int i = 0; i < 10; i++) {
-      puts("Loop Iteration");
-    }
+<p>I've not made this Lisp different to confuse beginners. I've made it different because different is good.</p>
 
-Bonus Marks
------------
+<p>If you are looking to learn about the semantics and behaviours of conventional Lisps, and how to program them, this book may not be for you. What this book offers instead is new and unique concepts, self expression, creativity, and fun. Whatever your motivation, heed this disclaimer now. Not everything I say will be objectively correct or true! You will have to decide that for yourselves.</p>
 
-* * *
 
-*   › Use a `for` loop to print out `Hello World!` five times.
-*   › Use a `while` loop to print out `Hello World!` five times.
-*   › Declare a function that outputs `Hello World!` `n` number of times. Call this from `main`.
-*   › What built in types are there other than the ones listed?
-*   › What other conditional operators are there other than _greater than_ `>`, and _less than_ `<`?
-*   › What other mathematical operators are there other than _add_ `+`, and _subtract_ `-`?
-*   › What is the `+=` operator, and how does it work?
-*   › What is the `do` loop, and how does it work?
-*   › What is the `switch` statement and how does it work?
-*   › What is the `break` keyword and what does it do?
+<h2 id='your_own_lisp'>Your own Lisp</h2> <hr/>
+
+<p>The best way to follow this book is to, as the title says, write <em>your own</em> Lisp. If you are feeling confident enough I want you to add your own features, modifications and changes. Your Lisp should suit you and your own philosophy. Throughout the book I'll be giving description and insight, but with it I'll be providing <em>a lot</em> of code. This will make it easy to follow along by copy and pasting each section into your program without really understanding. <em>Please do not do this!</em>.</p>
+
+<p>Type out each piece of sample code yourself. This is called <em>The Hard Way</em>. Not because it is hard technically, but because it requires discipline. By doing things <em>The Hard Way</em> you will come to understand the reasoning behind what you are typing. Ideally things will click as you follow it along character by character. When reading you may have an intuition as to why it <em>looks</em> right, or what <em>may</em> be going on, but this will not always translate to a real understanding unless you do the writing yourself!</p>
+
+<p>In a perfect world you would use my code as a reference - an instruction booklet and guide to building the programming language you always dreamed of. In reality this isn't practical or viable. But the base philosophy remains. If you want to change something, do it.</p>
+
+
+<h2>Navigation</h2>
+
+<table class="table" style='table-layout: fixed;'>
+  <tr>
+    <td class="text-left"></td>
+    <td class="text-center"><a href="contents"><h4>&bull; Contents &bull;</h4></a></td>
+    <td class="text-right"><a href="chapter2_installation"><h4>Installation &rsaquo;</h4></a></td>
+  </tr>
+</table>
