@@ -7,7 +7,7 @@ excerpt: Günlük Blog Yazıları
   <h1> <i class="fab fa-blogger-b fa-1x"></i> Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> <i class="fab fa-dyalog fa-1x"></i> <a href="{{ post.url }}" style="text-decoration: none" >{{ post.title }}</a></li>
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" style="text-decoration: none" >{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 
