@@ -5,7 +5,7 @@
 	<title></title>
 	<meta name="generator" content="LibreOffice 6.1.0.3 (Linux)"/>
 	<meta name="created" content="2018-08-25T17:05:13.149856541"/>
-	<meta name="changed" content="2018-08-25T20:20:26.501714768"/>
+	<meta name="changed" content="2018-08-25T20:22:12.203768566"/>
 	<style type="text/css">
 		@page { margin: 2cm }
 		p { margin-bottom: 0.25cm; line-height: 115% }
@@ -1210,6 +1210,81 @@ adını bulun ve buna güncelleyin:</font></font></font></p>
 			<p align="left">        <font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt"><b>&lt;/div&gt;</b></font></font></p>
 			<p align="left">    <font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt"><b>&lt;/article&gt;</b></font></font></p>
 			<p align="left"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt"><b>&lt;/div&gt;</b></font></font></p>
+		</td>
+	</tr>
+</table>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt">Değiştirilen
+tüm değişkenler ile, şimdi şehrimiz için mevcut hava durumunu
+görmeliyiz.</font></font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt">Harika!
+Şimdi bir şehrin hava durumunu görebiliriz, ama şehri kodlamak
+zorunda kaldık. Şimdi yapmak istediğimiz, veritabanından çekip
+veritabanımızdaki şehirleri gösteriyor. </font></font></font>
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt">Bunu
+yapmak için, hava durumunu bilmek istediğimiz şehirleri tutmak
+için veritabanımızda bir tablo oluşturacağız. Bunun için bir
+model oluşturacağız. </font></font></font>
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt">Hava
+durumu uygulamanızdaki models.py adresine gidin ve aşağıdakileri
+ekleyin:</font></font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<table width="100%" cellpadding="4" cellspacing="0">
+	<col width="256*"/>
+
+	<tr>
+		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
+			<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt"><b>#the_weather/weather/models.py</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt"><b>from
+			django.db import models</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt"><b>class
+			City(models.Model):</b></font></font></p>
+			<p align="left">    <font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt"><b>name
+			= models.CharField(max_length=25)</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left">    <font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt"><b>def
+			__str__(self): #show the actual city name on the dashboard</b></font></font></p>
+			<p align="left">        <font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt"><b>return
+			self.name</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left">    <font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt"><b>class
+			Meta: #show the plural of city as cities instead of citys</b></font></font></p>
+			<p align="left">        <font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt"><b>verbose_name_plural
+			= 'cities'</b></font></font></p>
 		</td>
 	</tr>
 </table>
