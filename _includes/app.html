@@ -5,7 +5,7 @@
 	<title></title>
 	<meta name="generator" content="LibreOffice 6.1.0.3 (Linux)"/>
 	<meta name="created" content="2018-08-25T17:05:13.149856541"/>
-	<meta name="changed" content="2018-08-25T20:56:50.515425051"/>
+	<meta name="changed" content="2018-08-25T21:18:00.695861098"/>
 	<style type="text/css">
 		@page { margin: 2cm }
 		p { margin-bottom: 0.25cm; line-height: 115% }
@@ -1248,8 +1248,580 @@ ekleyin:</font></font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 13pt">Bu,
+veritabanımızda isim olarak adlandırılan ve şehrin adı olan bir
+sütuna sahip bir tablo oluşturacaktır. Bu şehir sadece bir ip
+olan bir charfield olacak. </font></font></font>
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
 </p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 13pt">Veritabanındaki
+bu değişiklikleri almak için, veritabanını güncellemek ve bu
+değişiklikleri uygulamak için geçiş yapmak üzere kod üretmek
+için makemigrations komutunu çalıştırmamız gerekir. Şimdi bunu
+yapalım.</font></font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<table width="100%" cellpadding="4" cellspacing="0">
+	<col width="256*"/>
+
+	<tr>
+		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
+			<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>python
+			manage.py makemigrations</b></font></font></p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>python
+			manage.py migrate</b></font></font></p>
+		</td>
+	</tr>
+</table>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 13pt">Bu
+modeli yönetici kontrol panelimizde görebileceğimiz yere yapmamız
+gerekiyor. Bunu yapmak için, onu admin.py dosyasına kaydetmeliyiz.</font></font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<table width="100%" cellpadding="4" cellspacing="0">
+	<col width="256*"/>
+
+	<tr>
+		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
+			<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>#the_weather/weather/admin.py</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>from
+			django.contrib import admin</b></font></font></p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>from
+			.models import City</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>admin.site.register(City)</b></font></font></p>
+		</td>
+	</tr>
+</table>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 13pt">Kenti
+yönetici kontrol panelinde bir seçenek olarak görürsünüz.</font></font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 13pt">Daha
+sonra yönetici kontrol paneline gidip bazı şehirleri
+ekleyebiliriz. Üç ile başlayacağım: Londra, Tokyo ve Las Vegas.</font></font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 13pt">Veritabanındaki
+girişlerle, bu girdileri bizim görüşümüzle sorgulamamız
+gerekir. Şehir modelini içe aktararak ve ardından bu modeli tüm
+nesneler için sorgulayarak başlayın.</font></font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<table width="100%" cellpadding="4" cellspacing="0">
+	<col width="256*"/>
+
+	<tr>
+		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
+			<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>#the_weather/weather/views.py</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>from
+			django.shortcuts import render</b></font></font></p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>import
+			requests</b></font></font></p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>from
+			.models import City</b></font></font></p>
+		</td>
+	</tr>
+</table>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<table width="100%" cellpadding="4" cellspacing="0">
+	<col width="256*"/>
+
+	<tr>
+		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
+			<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><i>#the_weather/weather/views.py</i></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><i>def
+			index(request):</i></font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><i>url
+			=
+			'http://api.openweathermap.org/data/2.5/weather?q={}&amp;units=imperial&amp;appid=YOUR_APP_KEY'</i></font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><i>cities
+			= City.objects.all() #return all the cities in the database</i></font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><i>...</i></font></font></p>
+		</td>
+	</tr>
+</table>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 13pt">Şehirlerin
+listesi olduğundan, bunların üstesinden gelmek ve her biri için
+hava durumunu almak ve sonunda şablona geçirilecek bir listeye
+eklemek istiyoruz. </font></font></font>
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 13pt">Bu,
+ilk durumda yaptığımızın bir varyasyonudur. Diğer fark ise, her
+sözlüğü bir listeye ekliyor ve ekliyoruz. Orijinal şehir
+değişkenini döngüdeki bir şehir değişkenine göre kaldırırız.</font></font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<table width="100%" cellpadding="4" cellspacing="0">
+	<col width="256*"/>
+
+	<tr>
+		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
+			<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>#the_weather/weather/views.py</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>def
+			index(request):</b></font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>...</b></font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>weather_data
+			= []</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>for
+			city in cities:</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>city_weather
+			= requests.get(url.format(city)).json() #request the API data and
+			convert the JSON to Python data types</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>weather
+			= {</b></font></font></p>
+			<p align="left">            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>'city'
+			: city,</b></font></font></p>
+			<p align="left">            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>'temperature'
+			: city_weather['main']['temp'],</b></font></font></p>
+			<p align="left">            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>'description'
+			: city_weather['weather'][0]['description'],</b></font></font></p>
+			<p align="left">            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>'icon'
+			: city_weather['weather'][0]['icon']</b></font></font></p>
+			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>}</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>weather_data.append(weather)
+			#add the data for the current city into our list</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>context
+			= {'weather_data' : weather_data}</b></font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>...</b></font></font></p>
+		</td>
+	</tr>
+</table>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 13pt">Cool,
+bu yüzden verilere sahibiz. Şimdi, tek bir sözlük yerine bu
+listeyi geçmek için içeriği güncelleyelim.</font></font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<table width="100%" cellpadding="4" cellspacing="0">
+	<col width="256*"/>
+
+	<tr>
+		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
+			<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>#the_weather/weather/views.py</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>...</b></font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>context
+			= {'weather_data' : weather_data}</b></font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>...</b></font></font></p>
+		</td>
+	</tr>
+</table>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 13pt">Ardından,
+şablonun içinde, bu listeye geçip listedeki her şehir için
+HTML'yi oluşturmamız gerekiyor. Bunu yapmak için, şehir için tek
+bir kutu oluşturan HTML'nin etrafında bir döngü oluşturabiliriz.</font></font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<table width="100%" cellpadding="4" cellspacing="0">
+	<col width="256*"/>
+
+	<tr>
+		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
+			<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;!--
+			the_weather/weather/index.html --&gt;</b></font></font></p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;div
+			class=&quot;column is-offset-4 is-4&quot;&gt;</b></font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>{%
+			for weather in weather_data %}</b></font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;div
+			class=&quot;box&quot;&gt;</b></font></font></p>
+			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;article
+			class=&quot;media&quot;&gt;</b></font></font></p>
+			<p align="left">            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;div
+			class=&quot;media-left&quot;&gt;</b></font></font></p>
+			<p align="left">                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;figure
+			class=&quot;image is-50x50&quot;&gt;</b></font></font></p>
+			<p align="left">                    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;img
+			src=&quot;http://openweathermap.org/img/w/{{ weather.icon }}.png&quot;
+			alt=&quot;Image&quot;&gt;</b></font></font></p>
+			<p align="left">                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;/figure&gt;</b></font></font></p>
+			<p align="left">            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;/div&gt;</b></font></font></p>
+			<p align="left">            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;div
+			class=&quot;media-content&quot;&gt;</b></font></font></p>
+			<p align="left">                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;div
+			class=&quot;content&quot;&gt;</b></font></font></p>
+			<p align="left">                    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;p&gt;</b></font></font></p>
+			<p align="left">                        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;span
+			class=&quot;title&quot;&gt;{{ weather.city }}&lt;/span&gt;</b></font></font></p>
+			<p align="left">                        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;br&gt;</b></font></font></p>
+			<p align="left">                        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;span
+			class=&quot;subtitle&quot;&gt;{{ weather.temperature }}° F&lt;/span&gt;</b></font></font></p>
+			<p align="left">                        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;br&gt;
+			{{ weather.description }}</b></font></font></p>
+			<p align="left">                    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;/p&gt;</b></font></font></p>
+			<p align="left">                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;/div&gt;</b></font></font></p>
+			<p align="left">            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;/div&gt;</b></font></font></p>
+			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;/article&gt;</b></font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;/div&gt;</b></font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>{%
+			endfor %}</b></font></font></p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;/div&gt;</b></font></font></p>
+		</td>
+	</tr>
+</table>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 13pt">Korku
+veren! Şimdi veritabanında sahip olduğumuz tüm şehirlerin
+verilerini görebiliyoruz.</font></font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="DejaVu Sans Mono, monospace"><font size="3" style="font-size: 12pt"><b>Formu
+Oluşturmak</b></font></font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Yapmak
+istediğimiz son şey, kullanıcının doğrudan formda bir kullanıcı
+eklemesine izin vermektir. </font></font></font>
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bunu
+yapmak için bir form oluşturmamız gerekiyor. Formu doğrudan
+oluşturabiliriz, ancak formumuz modelimizle tam olarak aynı alana
+sahip olacağından, bir ModelForm kullanabiliriz. </font></font></font>
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Forms.py
+adlı yeni bir dosya oluşturun.</font></font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<table width="100%" cellpadding="4" cellspacing="0">
+	<col width="256*"/>
+
+	<tr>
+		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
+			<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">#the_weather/weather/forms.py</font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">from
+			django.forms import ModelForm, TextInput</font></font></p>
+			<p align="left"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">from
+			.models import City</font></font></p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>class
+			CityForm(ModelForm):</b></font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>class
+			Meta:</b></font></font></p>
+			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>model
+			= City</b></font></font></p>
+			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>fields
+			= ['name']</b></font></font></p>
+			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>widgets
+			= {</b></font></font></p>
+			<p align="left">            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>'name':
+			TextInput(attrs={'class' : 'input', 'placeholder' : 'City Name'}),</b></font></font></p>
+			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>}
+			#updates the input class to have the correct Bulma class and
+			placeholder</b></font></font></p>
+		</td>
+	</tr>
+</table>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Formu
+görmek için, bunu kendi görünümünde oluşturmalı ve şablona
+aktarmalıyız. </font></font></font>
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bunu
+yapmak için, formu oluşturmak için dizin videosunu güncelleyelim.
+Artık ihtiyacımız olmadığından eski şehir değişkenini aynı
+anda değiştireceğiz. Ayrıca, formun şablona geçirilmesi için
+içeriği güncellememiz gerekir.</font></font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<table width="100%" cellpadding="4" cellspacing="0">
+	<col width="256*"/>
+
+	<tr>
+		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
+			<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>#the_weather/weather/views.py</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>def
+			index(request):</b></font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>...</b></font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>form
+			= CityForm()</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>weather_data
+			= []</b></font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>...</b></font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>context
+			= {'weather_data' : weather_data, 'form' : form}</b></font></font></p>
+		</td>
+	</tr>
+</table>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Şimdi
+şablonda, görünümünden formu kullanmak için form bölümünü
+ve Django'daki POST istekleri için gerekli olan bir csrf_token'i
+güncelleyelim.</font></font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<table width="100%" cellpadding="4" cellspacing="0">
+	<col width="256*"/>
+
+	<tr>
+		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
+			<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;form
+			method=&quot;POST&quot;&gt;</b></font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>{%
+			csrf_token %}</b></font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;div
+			class=&quot;field has-addons&quot;&gt;</b></font></font></p>
+			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;div
+			class=&quot;control is-expanded&quot;&gt;</b></font></font></p>
+			<p align="left">            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>{{
+			form.name }}</b></font></font></p>
+			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;/div&gt;</b></font></font></p>
+			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;div
+			class=&quot;control&quot;&gt;</b></font></font></p>
+			<p align="left">            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;button
+			class=&quot;button is-info&quot;&gt;</b></font></font></p>
+			<p align="left">                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>Add
+			City</b></font></font></p>
+			<p align="left">            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;/button&gt;</b></font></font></p>
+			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;/div&gt;</b></font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;/div&gt;</b></font></font></p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>&lt;/form&gt;</b></font></font></p>
+		</td>
+	</tr>
+</table>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">HTML
+çalışmamızdaki form ile birlikte, form verilerini geldiğinde ele
+almamız gerekiyor. Bunun için, bir POST isteğini kontrol eden bir
+blok oluşturuyoruz. Hava durumu verilerini yakalamaya başlamadan
+önce, istek türüne ilişkin kontrolleri eklememiz gerekiyor.
+Böylece, eklediğimiz şehir için verileri hemen alıyoruz.</font></font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<table width="100%" cellpadding="4" cellspacing="0">
+	<col width="256*"/>
+
+	<tr>
+		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
+			<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>#the_weather/weather/views.py</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>def
+			index(request):</b></font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>cities
+			= City.objects.all() #return all the cities in the database</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>url
+			=
+			'http://api.openweathermap.org/data/2.5/weather?q={}&amp;units=imperial&amp;appid=YOUR_APP_KEY'</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>if
+			request.method == 'POST': # only true if form is submitted</b></font></font></p>
+			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>form
+			= CityForm(request.POST) # add actual request data to form for
+			processing</b></font></font></p>
+			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>form.save()
+			# will validate and save if validate</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>form
+			= CityForm()</b></font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>...</b></font></font></p>
+		</td>
+	</tr>
+</table>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Request.POST
+ileterek, form verilerini doğrulayabileceğiz. </font></font></font>
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Artık
+bir şehrin adını yazabilmeniz, eklemeyi tıklayabileceğinizi ve
+görebildiğinizi görebilmeniz gerekir. Miami'yi bir sonraki şehir
+olarak ekleyeceğim.</font></font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Eğer
+bloktan çıkarsak, form yeniden oluşturulur, böylece seçersek
+başka bir şehir ekleyebiliriz. Kodun geri kalanı aynı şekilde
+davranacaktır.</font></font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="DejaVu Sans Mono, monospace"><font size="3" style="font-size: 13pt"><b>Sonuç</b></font></font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Ve
+bu kadar! Uygulamamızdaki birden çok şehir için hava durumunu
+takip etmenin bir yolunu şimdi sunuyoruz. </font></font></font>
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bu
+yazıda, bu çalışmayı elde etmek için çeşitli Django
+parçalarıyla çalışmak zorunda kaldık: görüşler, modeller,
+formlar ve şablonlar. Ayrıca gerçek hava durumu verilerini almak
+için Python kitaplık isteklerini kullanmak zorunda kaldık. Bu
+nedenle, uygulama basit olsa da, uygulamalarda aynı kavramların
+çoğunu daha karmaşık bir şekilde kullanacaksınız. </font></font></font>
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Django,
+modellerinin tartışmasız en önemli parçası hakkında daha fazla
+bilgi edinmek isterseniz, Django Database Essentials adlı ücretsiz
+kursuma katılabilirsiniz.</font></font></font></p>
 </body>
 </html>
