@@ -1,5 +1,21 @@
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Bu
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 6.1.0.3 (Linux)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="2018-08-25T21:46:37.944925143"/>
+	<style type="text/css">
+		@page { size: 21.59cm 27.94cm; margin-left: 2cm; margin-right: 1cm; margin-top: 1cm; margin-bottom: 1cm }
+		p { margin-bottom: 0.25cm; line-height: 115%; background: transparent }
+		td p { background: transparent }
+		a:link { color: #000080; so-language: zxx; text-decoration: underline }
+		a:visited { color: #800000; so-language: zxx; text-decoration: underline }
+	</style>
+</head>
+<body lang="tr-TR" link="#000080" vlink="#800000" dir="ltr"><p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bu
 makalede, çeşitli şehirler için mevcut hava durumunu görüntüleyen
 basit bir Django uygulaması oluşturacağız. Mevcut hava durumu
 verilerini almak için Açık Hava Durumu Haritası API'sini
@@ -22,16 +38,16 @@ göreceksiniz.</font></font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">İşte
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">İşte
 işimiz bittiğinde neye benzeyeceğimiz.</font></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="DejaVu Sans Mono, monospace"><font size="3" style="font-size: 12pt"><b>Kurulum</b></font></font></font></p>
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="4" style="font-size: 14pt"><b>Kurulum</b></font></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><br/>
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><br/>
 <span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Django
 kurulumu, başka herhangi bir Python kütüphanesi kurmak gibidir:
 sanal bir ortam başlatabilir ve Django’yu kurmak için pip
@@ -47,7 +63,7 @@ yöntem de işe yarar, fakat bu yazı için pipenv kullanacağım.</span></span>
 
 	<tr>
 		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: none; padding: 0cm"><p align="left" style="font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2">
-			<font color="#000000"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt">pipenv
+			<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">pipenv
 			install django</font></font></font></p>
 		</td>
 	</tr>
@@ -57,7 +73,7 @@ yöntem de işe yarar, fakat bu yazı için pipenv kullanacağım.</span></span>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Bu
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bu
 sizin için en son Django sürümünü yükleyecektir. Bu yazıyı
 yazarken, Django 2.0.4 sürümündedir. </font></font></font>
 </p>
@@ -66,7 +82,7 @@ yazarken, Django 2.0.4 sürümündedir. </font></font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Django
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Django
 yüklendikten sonra, henüz oluşturmadıysanız, bu proje için bir
 dizin oluşturun ve bu dizine gidin. Bir kez orada, Django'nun
 projeyi oluşturmanıza verdiği startproject komutunu
@@ -80,7 +96,7 @@ projeyi oluşturmanıza verdiği startproject komutunu
 
 	<tr>
 		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: none; padding: 0cm"><p align="left" style="font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2">
-			<font color="#000000"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt">django-admin
+			<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">django-admin
 			startproject the_weather</font></font></font></p>
 		</td>
 	</tr>
@@ -90,7 +106,7 @@ projeyi oluşturmanıza verdiği startproject komutunu
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Django
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Django
 dizininizde birkaç yeni dosya oluşturmuş olmalı. </font></font></font>
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
@@ -98,7 +114,7 @@ dizininizde birkaç yeni dosya oluşturmuş olmalı. </font></font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Geliştirme
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Geliştirme
 sunucumuzu başlatmayı deneyelim. Bunu yapmak için, yeni dizine
 gidin ve terminalinizde runserver komutunu çalıştırmak için
 manage.py komutunu kullanın:</font></font></font></p>
@@ -111,10 +127,10 @@ manage.py komutunu kullanın:</font></font></font></p>
 
 	<tr>
 		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: none; padding: 0cm"><p align="left" style="font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2">
-			<font color="#000000"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt">cd
+			<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">cd
 			the_weather</font></font></font></p>
 			<p align="left" style="font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2">
-			<font color="#000000"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt">python
+			<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">python
 			manage.py runserver</font></font></font></p>
 		</td>
 	</tr>
@@ -124,7 +140,7 @@ manage.py komutunu kullanın:</font></font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Terminalinize
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Terminalinize
 bakarsanız, uygulamanızın URL'sini görmelisiniz. Varsayılan
 olarak 127.0.0.1:8000 olmalıdır.</font></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
@@ -132,14 +148,14 @@ olarak 127.0.0.1:8000 olmalıdır.</font></font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Tarayıcınızı
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Tarayıcınızı
 açın ve bu URL'ye gidin.</font></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Bunu
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bunu
 görürseniz, Django'yu doğru şekilde kurduğunuzu biliyorsunuzdur.
 Bunu kesinlikle görmelisiniz çünkü henüz kodu değiştirmeyi
 denemedik bile.</font></font></font></p>
@@ -148,10 +164,14 @@ denemedik bile.</font></font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>Yönetici
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="4" style="font-size: 14pt"><b>Yönetici
 Kontrol Paneli</b></font></font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Ardından
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Ardından
 Django'nun bize verdiği yönetim panosuna bir göz atmak istiyoruz.
 Bunu yapmak için öncelikle veritabanımızı taşımalıyız, bu da
 Django'nun varsayılan uygulamalar için gerekli olan önceden
@@ -167,7 +187,7 @@ yapmak için, yalnızca geçiş komutunu çalıştırırsınız. CTRL
 
 	<tr>
 		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: none; padding: 0cm"><p align="left" style="font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2">
-			<font color="#000000"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt">python
+			<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">python
 			manage.py migrate</font></font></font></p>
 		</td>
 	</tr>
@@ -177,7 +197,7 @@ yapmak için, yalnızca geçiş komutunu çalıştırırsınız. CTRL
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Bu
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bu
 komutu çalıştırarak, Django sizin için bir SQLite veritabanı
 oluşturdu, ayarlardaki varsayılan veritabanı ve bu veritabanına
 birkaç tablo ekledi. Proje dizininizde yeni bir db.sqlite3 dosyası
@@ -202,7 +222,7 @@ createuperuser komutunu çalıştırırız.</font></font></font></p>
 
 	<tr>
 		<td width="100%" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: none; padding: 0cm"><p align="left" style="font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2">
-			<font color="#000000"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt">python
+			<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">python
 			manage.py createsuperuser</font></font></font></p>
 		</td>
 	</tr>
@@ -212,7 +232,7 @@ createuperuser komutunu çalıştırırız.</font></font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Yönetici
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Yönetici
 kullanıcınız için bir kullanıcı adı, e-posta adresi ve bir
 şifre vererek talimatları izleyin. Bunu yaptıktan sonra, sunucuyu
 yeniden başlatmanız ve yönetici kontrol paneline gitmeniz gerekir.</font></font></font></p>
@@ -225,7 +245,7 @@ yeniden başlatmanız ve yönetici kontrol paneline gitmeniz gerekir.</font></fo
 
 	<tr>
 		<td width="100%" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: none; padding: 0cm"><p align="left" style="font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2">
-			<font color="#000000"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt">python
+			<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">python
 			manage.py runserver</font></font></font></p>
 		</td>
 	</tr>
@@ -235,7 +255,7 @@ yeniden başlatmanız ve yönetici kontrol paneline gitmeniz gerekir.</font></fo
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Ardından
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Ardından
 127.0.0.1:8000/admin adresine gidin. </font></font></font>
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
@@ -243,7 +263,7 @@ yeniden başlatmanız ve yönetici kontrol paneline gitmeniz gerekir.</font></fo
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Bu
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bu
 sayfaya gidebilmemizin sebebi, yöneticinin urls.py adresinde
 ayarlandığından (çünkü, tebrikler sayfasını görebilmemizin
 nedeni, kendi URL'lerinizi ekleyene kadar Django'nun size vermesidir)
@@ -254,7 +274,7 @@ sebebidir. </font></font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Az
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Az
 önce oluşturduğunuz kullanıcı adı ve şifre ile giriş
 yaparsanız, bu sayfayı görmelisiniz.</font></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
@@ -262,7 +282,7 @@ yaparsanız, bu sayfayı görmelisiniz.</font></font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Gruplar
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Gruplar
 ve kullanıcılar, Django'ya erişim sağlayan iki modeli temsil
 ediyor. Modeller bir veritabanındaki tabloların sadece kod
 gösterimleridir. Django daha fazla tablo oluştursa da, geri
@@ -274,7 +294,7 @@ model oluşturulmamıştır. </font></font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">'Kullanıcı'
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">'Kullanıcı'
 seçeneğini tıklarsanız, kullanıcı tablosu hakkında daha fazla
 ayrıntı görmelisiniz ve oluşturduğunuz kullanıcıyı
 görmelisiniz. Orada ne olduğunu görmek için panodaki farklı
@@ -287,7 +307,7 @@ tekrar çalıştırmanız gerekir. </font></font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Şu
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Şu
 an için yönetici kontrol panelinden çıkıp kodlara gidelim. Hava
 durumu uygulamamız için projemizin içinde bir uygulama
 oluşturmamız gerekiyor.</font></font></font></p>
@@ -296,10 +316,14 @@ oluşturmamız gerekiyor.</font></font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>Uygulamayı
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="4" style="font-size: 14pt"><b>Uygulamayı
 Oluşturmak</b></font></font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Django'da,
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Django'da,
 uygulamaları kullanarak projenizdeki işlevleri ayırabilirsiniz.
 Uygulamanın kafa karıştırıcı bir ad olduğunu düşünüyorum
 çünkü genellikle bir uygulamanın tamamını tüm proje olarak
@@ -313,7 +337,7 @@ görürsünüz. </font></font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Yüklü
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Yüklü
 uygulamaların ilki olan django.contrib.admin, yeni kullandığımız
 şeydir. Tüm yönetici işlevlerini ve başka hiçbir şeyi ele
 almıyor. Varsayılan olarak projemizdeki başka bir uygulama,
@@ -325,7 +349,7 @@ doğrulama gibi şeylerdir. </font></font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Bizim
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bizim
 durumumuzda, hava durumunu göstermekle ilgili her şeyi ele almak
 için yeni bir uygulama oluşturmamız gerekiyor. Bu uygulamayı
 oluşturmak için, sunucuyu CTRL + C ile durdurun ve çalıştırın:</font></font></font></p>
@@ -338,7 +362,7 @@ oluşturmak için, sunucuyu CTRL + C ile durdurun ve çalıştırın:</font></fo
 
 	<tr>
 		<td width="100%" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: none; padding: 0cm"><p align="justify" style="font-weight: normal">
-			<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt">python
+			<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">python
 			manage.py startapp weather</font></font></p>
 		</td>
 	</tr>
@@ -348,7 +372,7 @@ oluşturmak için, sunucuyu CTRL + C ile durdurun ve çalıştırın:</font></fo
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Startapp
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Startapp
 çalıştırarak, Django, projemize yeni bir dizin ve daha fazla
 dosya ekledi. </font></font>
 </p>
@@ -357,7 +381,7 @@ dosya ekledi. </font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">En
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><font color="#000000">En
 son oluşturulan dosyalar ile, uygulama dizinimizde urls.py adlı
 yeni bir dosya oluşturalım.</font></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
@@ -365,11 +389,7 @@ yeni bir dosya oluşturalım.</font></font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<br/>
-
-</p>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Bu
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bu
 dosya, the_weather dizinindeki urls.py'ye benzer. Fark, bu urls.py
 dosyasının uygulamanın kendisi ile ilgili olan tüm URL'leri
 içermesidir. </font></font>
@@ -379,7 +399,7 @@ içermesidir. </font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Henüz
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Henüz
 bir URL belirtmiyoruz, ancak projemizi uygulamamız ve uygulamanıza
 özel tüm URL'leri uygulama urls.py dosyasına yönlendirecek
 şekilde projeyi ayarlayabiliriz. </font></font>
@@ -389,7 +409,7 @@ bir URL belirtmiyoruz, ancak projemizi uygulamamız ve uygulamanıza
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Önce,
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Önce,
 INSTALLED_APPS listesine gidin ve bu uygulamayı listeye ekleyin.</font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
@@ -400,7 +420,7 @@ INSTALLED_APPS listesine gidin ve bu uygulamayı listeye ekleyin.</font></font><
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Bu,
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bu,
 Django’yu hava durumu uygulamasını projemizde kullanmak
 istediğimizi bilmesini sağlar. Bunu yaparak, Django, geçişleri ve
 URL'leri nerede arayacağını bilir. </font></font>
@@ -410,7 +430,7 @@ URL'leri nerede arayacağını bilir. </font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Sonraki,
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Sonraki,
 urls.py dosyamızın uygulamasına işaret etmek için orijinal
 urls.py dosyasını değiştirmemiz gerekiyor. Bunu yapmak için
 yönetici kontrol paneli için mevcut yolun altına bir çizgi
@@ -420,12 +440,8 @@ ekliyoruz. Ayrıca, 'url.py' uygulamamıza işaret edebilmek için
 <br/>
 
 </p>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<br/>
-
-</p>
 <p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Boş
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Boş
 dize, uygulamamızın giriş noktası için bir bitiş noktası
 kullanmayacağımız anlamına gelir. Bunun yerine, uygulamanın
 belirli bir son noktayla ilgilenmesine izin vereceğiz. Hava durumu
@@ -438,14 +454,14 @@ projemiz basit olduğundan, burada yapmayacağız.</font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>Template
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><b>Template
 and View Ekleme</b></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Şimdi
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Şimdi
 yapacağımız ilk ilginç şey için. Şablonu projemize eklememiz
 gerekiyor.</span></span></span></font></span><b><br/>
 <br/>
@@ -469,11 +485,11 @@ dosyayı koymak için bir şablon dizini oluşturacağız.</span></span></span><
 
 	<tr>
 		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: none; padding: 0cm"><p align="left" style="margin-bottom: 0.5cm">
-			<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt">cd
+			<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">cd
 			weather</font></font></p>
-			<p align="left" style="margin-bottom: 0.5cm"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt">mkdir
+			<p align="left" style="margin-bottom: 0.5cm"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">mkdir
 			templates &amp;&amp; cd templates</font></font></p>
-			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt">mkdir
+			<p align="left"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">mkdir
 			weather</font></font></p>
 		</td>
 	</tr>
@@ -483,7 +499,7 @@ dosyayı koymak için bir şablon dizini oluşturacağız.</span></span></span><
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Ayrıca,
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Ayrıca,
 uygulamamızla aynı ada sahip başka bir dizin oluşturduk. Bunu
 yaptık çünkü Django, sahip olduğumuz çeşitli uygulamalardan
 tüm şablon dizinlerini birleştiriyor. Dosya isimlerinin
@@ -494,21 +510,17 @@ uygulamamızın adını kullanabiliriz. </font></font></font>
 <br/>
 
 </p>
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Hava
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Hava
 dizininin içinde index.html adlı yeni bir dosya oluşturun. Bu
 bizim ana şablonumuz olacak. İşte şablon için kullanacağımız
-HTML.</font></font></font></p>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<br/>
-
-</p>
+HTML.</span></span></span></font></span></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Şimdi
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Şimdi
 şablonumuzu oluşturduğumuza göre, bunu bir görünüm ve URL
 kombinasyonu oluşturalım. </font></font>
 </p>
@@ -516,21 +528,17 @@ kombinasyonu oluşturalım. </font></font>
 <br/>
 
 </p>
-<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Django'daki
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">Django'daki
 Görünümler, işlevler veya sınıflardır. Durumumuzda basit bir
 görünüm oluşturduğumuzdan, bir işlev oluşturacağız. Bu
-işlevi görünümlerinize ekleyin:</font></font></p>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<br/>
-
-</p>
+işlevi görünümlerinize ekleyin:</span></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Kök
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Kök
 URL olan uygulamamızın dizininde olacağından, görünümümüzü
 'index' olarak adlandırıyoruz. Şablonun oluşturulmasını
 sağlamak için, render işlevi için gerekli olan isteği ve render
@@ -541,20 +549,16 @@ index.html. </font></font>
 <br/>
 
 </p>
-<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Bu
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">Bu
 görüşe isteği gönderecek olan URL'yi ekleyelim. Uygulamaya ait
-urls.py dosyasında, urlpatterns listesini güncelleyin.</font></font></p>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<br/>
-
-</p>
+urls.py dosyasında, urlpatterns listesini güncelleyin.</span></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Bu,
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bu,
 yeni oluşturduğumuz görünümü referans almamıza izin veriyor. </font></font>
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
@@ -562,7 +566,7 @@ yeni oluşturduğumuz görünümü referans almamıza izin veriyor. </font></fon
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Django,
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Django,
 herhangi bir URL'yi bir bitiş noktası olmadan eşleştirecek ve
 oluşturduğumuz görüntüleme işlevine yönlendirecektir. </font></font>
 </p>
@@ -571,7 +575,7 @@ oluşturduğumuz görüntüleme işlevine yönlendirecektir. </font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Proje
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Proje
 köküne geri dönün, sunucuyu başlatın ve tekrar 127.0.0.1:8000
 adresine gidin.</font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
@@ -583,7 +587,7 @@ adresine gidin.</font></font></p>
 
 	<tr>
 		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: none; padding: 0cm"><p align="left">
-			<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt">python
+			<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">python
 			manage.py runserver</font></font></p>
 		</td>
 	</tr>
@@ -593,7 +597,7 @@ adresine gidin.</font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Şimdi
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Şimdi
 gördüğümüz sadece index.html dosyasında bulduğunuz HTML'nin
 sonucudur. Bir şehir ve Las Vegas'ın hava durumunu eklemek için
 bir giriş göreceksiniz. Ancak, form çalışmıyor ve hava durumu
@@ -604,10 +608,10 @@ uygulama için bunları oluşturacağız.</font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="DejaVu Sans Mono, monospace"><font size="3" style="font-size: 12pt"><b>Weather
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><b>Weather
 API Kullanımı</b></font></font></p>
 <p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Şimdi
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Şimdi
 yapmak istediğimiz Açık Hava Haritası API'sına kaydolmak. Bu,
 uygulamamıza eklediğimiz herhangi bir şehir için gerçek hava
 durumunu almamıza izin verecektir. </font></font>
@@ -617,7 +621,7 @@ durumunu almamıza izin verecektir. </font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Siteye
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Siteye
 gidin, bir hesap oluşturun ve ardından kontrol panelindeki API
 tuşlarına gidin. Bir isim girin ve yeni bir API anahtarı
 oluşturun. Bu anahtar hava durumunu almak için API'yı kullanmamıza
@@ -627,7 +631,7 @@ izin verecektir.</font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Kullanacağımız
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Kullanacağımız
 tek uç nokta aşağıdadır. Bu nedenle, API anahtarınızla
 aşağıdaki URL'yi değiştirerek ve tarayıcınızdaki URL’ye
 giderek döndürülen gerçek verileri görebilirsiniz. API
@@ -642,7 +646,7 @@ ilk başta çalışmazsa birkaç dakika sonra tekrar deneyin.</font></font></p>
 
 	<tr>
 		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: none; padding: 0cm"><p align="left">
-			<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt"><b>http://api.openweathermap.org/data/2.5/weather?q=las%20vegas&amp;units=metric&amp;appid=YOUR_APP_KEY</b></font></font></p>
+			<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><b>http://api.openweathermap.org/data/2.5/weather?q=las%20vegas&amp;units=metric&amp;appid=YOUR_APP_KEY</b></font></font></p>
 		</td>
 	</tr>
 </table>
@@ -651,7 +655,7 @@ ilk başta çalışmazsa birkaç dakika sonra tekrar deneyin.</font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">Bununla,
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">Bununla,
 verileri uygulamamıza eklemek için bir istek ekleyelim.</span></span></font></span><br/>
 <br/>
 <span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">Önce,
@@ -666,7 +670,7 @@ yüklememiz gerekecek.</span></span></font></span></font></font></p>
 
 	<tr>
 		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: none; padding: 0cm"><p align="left">
-			<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>pip
+			<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><b>pip
 			install requests</b></font></font></p>
 		</td>
 	</tr>
@@ -676,19 +680,15 @@ yüklememiz gerekecek.</span></span></font></span></font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt">Sahip
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Sahip
 olduğumuz URL'ye bir istek göndermek için dizin görünümümüzü
 güncelleyelim.</font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
 </p>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<br/>
-
-</p>
 <p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Bu
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bu
 üç satırda, istek gönderecek URL’yi ekliyoruz. Kullanıcıların
 kendi şehirlerini ekleyebilmelerine izin verdiğimiz zaman, şehir
 için bir yer tutucuyuz. </font></font>
@@ -698,7 +698,7 @@ için bir yer tutucuyuz. </font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Şimdilik
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Şimdilik
 şehri Las Vegas olarak ayarlayacağız, ancak daha sonra bu veri
 tabanından şehirlere ayarlanacak. </font></font>
 </p>
@@ -707,7 +707,7 @@ tabanından şehirlere ayarlanacak. </font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Son
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Son
 olarak, isteği kullanarak şehri kullanarak URL'ye göndeririz ve o
 şehrin JSON temsilini alırız. Bunu konsola yazdırırsak, URL'yi
 adres çubuğumuza koyduğumuzda gördüğümüz verilerin aynısını
@@ -718,7 +718,7 @@ görebiliriz. </font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Sunucunuzu
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Sunucunuzu
 yeniden başlatırsanız ve sayfayı yeniden yüklerseniz, verilerin
 konsolunuza yazdırıldığını görürsünüz.</font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
@@ -726,14 +726,14 @@ konsolunuza yazdırıldığını görürsünüz.</font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>Şablondaki
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><b>Şablondaki
 Verileri Görüntüleme</b></font></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Ardından,
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Ardından,
 verileri kullanıcıya göstermesi için kullanıcıya vermemiz
 gerekiyor. </font></font></font>
 </p>
@@ -742,7 +742,7 @@ gerekiyor. </font></font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">İhtiyacımız
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">İhtiyacımız
 olan tüm verileri saklamak için bir sözlük oluşturalım. Bize
 gönderilen verilerin temp, açıklama ve ikonuna ihtiyacımız var.</font></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
@@ -750,25 +750,17 @@ gönderilen verilerin temp, açıklama ve ikonuna ihtiyacımız var.</font></fon
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<br/>
-
-</p>
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Şimdi
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Şimdi
 istediğimiz tüm bilgiler, bunu şablona aktarabiliriz. Şablona
 aktarmak için içerik denen bir değişken oluşturacağız. Bu,
 değerlerini şablonun içinde kullanmamıza izin veren bir sözlük
-olacaktır.</font></font></font></p>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<br/>
-
-</p>
+olacaktır.</span></span></span></font></span></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Ve
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Ve
 sonra render olarak, içeriği üçüncü argüman olarak
 ekleyeceğiz. </font></font></font>
 </p>
@@ -777,7 +769,7 @@ ekleyeceğiz. </font></font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Bağlam
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bağlam
 içinde eklenen hava durumu verileriyle, verileri eklemek için
 şablona gidelim. </font></font></font>
 </p>
@@ -786,7 +778,7 @@ içinde eklenen hava durumu verileriyle, verileri eklemek için
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Şablonun
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Şablonun
 içinde, tek yapmamız gereken, girdiğim değerler yerine
 değişkenleri kullanmak için HTML'yi değiştirmektir. Değişkenler
 {{}} etiketlerini kullanacak ve içerik sözlüğünüzün içindeki
@@ -797,7 +789,7 @@ herhangi bir şeye referans göstereceklerdir. </font></font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Django'nun
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Django'nun
 sözlük tuşlarını dönüştürdüğünü unutmayın, böylece
 sadece nokta notasyonu kullanarak bunlara erişebilirsiniz. Örneğin,
 weather.city bize şehir adını verecektir. Python'da yaptığımız
@@ -807,19 +799,15 @@ gibi hava ['şehir'] kullanmıyoruz. </font></font></font>
 <br/>
 
 </p>
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Kutunun
-adını bulun ve buna güncelleyin:</font></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<br/>
-
-</p>
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Kutunun
+adını bulun ve buna güncelleyin:</span></span></span></font></span></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Değiştirilen
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Değiştirilen
 tüm değişkenler ile, şimdi şehrimiz için mevcut hava durumunu
 görmeliyiz.</font></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
@@ -827,7 +815,7 @@ görmeliyiz.</font></font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Harika!
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Harika!
 Şimdi bir şehrin hava durumunu görebiliriz, ama şehri kodlamak
 zorunda kaldık. Şimdi yapmak istediğimiz, veritabanından çekip
 veritabanımızdaki şehirleri gösteriyor. </font></font></font>
@@ -837,7 +825,7 @@ veritabanımızdaki şehirleri gösteriyor. </font></font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Bunu
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bunu
 yapmak için, hava durumunu bilmek istediğimiz şehirleri tutmak
 için veritabanımızda bir tablo oluşturacağız. Bunun için bir
 model oluşturacağız. </font></font></font>
@@ -847,19 +835,15 @@ model oluşturacağız. </font></font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt">Hava
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Hava
 durumu uygulamanızdaki models.py adresine gidin ve aşağıdakileri
 ekleyin:</font></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
 </p>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<br/>
-
-</p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 13pt">Bu,
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bu,
 veritabanımızda isim olarak adlandırılan ve şehrin adı olan bir
 sütuna sahip bir tablo oluşturacaktır. Bu şehir sadece bir ip
 olan bir charfield olacak. </font></font></font>
@@ -869,7 +853,7 @@ olan bir charfield olacak. </font></font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 13pt">Veritabanındaki
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Veritabanındaki
 bu değişiklikleri almak için, veritabanını güncellemek ve bu
 değişiklikleri uygulamak için geçiş yapmak üzere kod üretmek
 için makemigrations komutunu çalıştırmamız gerekir. Şimdi bunu
@@ -883,9 +867,9 @@ yapalım.</font></font></font></p>
 
 	<tr>
 		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left" style="margin-bottom: 0.5cm">
-			<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>python
+			<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><b>python
 			manage.py makemigrations</b></font></font></p>
-			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>python
+			<p align="left"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><b>python
 			manage.py migrate</b></font></font></p>
 		</td>
 	</tr>
@@ -895,51 +879,39 @@ yapalım.</font></font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 13pt">Bu
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bu
 modeli yönetici kontrol panelimizde görebileceğimiz yere yapmamız
 gerekiyor. Bunu yapmak için, onu admin.py dosyasına kaydetmeliyiz.</font></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
 </p>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<br/>
-
-</p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 13pt">Kenti
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Kenti
 yönetici kontrol panelinde bir seçenek olarak görürsünüz.</font></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 13pt">Daha
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Daha
 sonra yönetici kontrol paneline gidip bazı şehirleri
 ekleyebiliriz. Üç ile başlayacağım: Londra, Tokyo ve Las Vegas.</font></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
 </p>
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 13pt">Veritabanındaki
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Veritabanındaki
 girişlerle, bu girdileri bizim görüşümüzle sorgulamamız
 gerekir. Şehir modelini içe aktararak ve ardından bu modeli tüm
-nesneler için sorgulayarak başlayın.</font></font></font></p>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<br/>
-
-</p>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<br/>
-
-</p>
+nesneler için sorgulayarak başlayın.</span></span></span></font></span></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 13pt">Şehirlerin
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Şehirlerin
 listesi olduğundan, bunların üstesinden gelmek ve her biri için
 hava durumunu almak ve sonunda şablona geçirilecek bir listeye
 eklemek istiyoruz. </font></font></font>
@@ -949,7 +921,7 @@ eklemek istiyoruz. </font></font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 13pt">Bu,
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bu,
 ilk durumda yaptığımızın bir varyasyonudur. Diğer fark ise, her
 sözlüğü bir listeye ekliyor ve ekliyoruz. Orijinal şehir
 değişkenini döngüdeki bir şehir değişkenine göre kaldırırız.</font></font></font></p>
@@ -957,33 +929,25 @@ değişkenini döngüdeki bir şehir değişkenine göre kaldırırız.</font></
 <br/>
 
 </p>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<br/>
-
-</p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 13pt">Cool,
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Cool,
 bu yüzden verilere sahibiz. Şimdi, tek bir sözlük yerine bu
 listeyi geçmek için içeriği güncelleyelim.</font></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
 </p>
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 13pt">Ardından,
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Ardından,
 şablonun içinde, bu listeye geçip listedeki her şehir için
 HTML'yi oluşturmamız gerekiyor. Bunu yapmak için, şehir için tek
-bir kutu oluşturan HTML'nin etrafında bir döngü oluşturabiliriz.</font></font></font></p>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<br/>
-
-</p>
+bir kutu oluşturan HTML'nin etrafında bir döngü oluşturabiliriz.</span></span></span></font></span></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 13pt">Korku
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Korku
 veren! Şimdi veritabanında sahip olduğumuz tüm şehirlerin
 verilerini görebiliyoruz.</font></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
@@ -991,7 +955,7 @@ verilerini görebiliyoruz.</font></font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="DejaVu Sans Mono, monospace"><font size="3" style="font-size: 12pt"><b>Formu
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><b>Formu
 Oluşturmak</b></font></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
@@ -1023,10 +987,6 @@ adlı yeni bir dosya oluşturun.</font></font></font></p>
 <br/>
 
 </p>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<br/>
-
-</p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
 <font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Formu
 görmek için, bunu kendi görünümünde oluşturmalı ve şablona
@@ -1036,48 +996,32 @@ aktarmalıyız. </font></font></font>
 <br/>
 
 </p>
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bunu
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Bunu
 yapmak için, formu oluşturmak için dizin videosunu güncelleyelim.
 Artık ihtiyacımız olmadığından eski şehir değişkenini aynı
 anda değiştireceğiz. Ayrıca, formun şablona geçirilmesi için
-içeriği güncellememiz gerekir.</font></font></font></p>
+içeriği güncellememiz gerekir.</span></span></span></font></span></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<br/>
-
-</p>
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Şimdi
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Şimdi
 şablonda, görünümünden formu kullanmak için form bölümünü
 ve Django'daki POST istekleri için gerekli olan bir csrf_token'i
-güncelleyelim.</font></font></font></p>
+güncelleyelim.</span></span></span></font></span></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<br/>
-
-</p>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<br/>
-
-</p>
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">HTML
+<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">HTML
 çalışmamızdaki form ile birlikte, form verilerini geldiğinde ele
 almamız gerekiyor. Bunun için, bir POST isteğini kontrol eden bir
 blok oluşturuyoruz. Hava durumu verilerini yakalamaya başlamadan
 önce, istek türüne ilişkin kontrolleri eklememiz gerekiyor.
-Böylece, eklediğimiz şehir için verileri hemen alıyoruz.</font></font></font></p>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<br/>
-
-</p>
+Böylece, eklediğimiz şehir için verileri hemen alıyoruz.</span></span></span></font></span></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
@@ -1109,7 +1053,7 @@ davranacaktır.</font></font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="DejaVu Sans Mono, monospace"><font size="3" style="font-size: 13pt"><b>Sonuç</b></font></font></font></p>
+<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><b>Sonuç</b></font></font></font></p>
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
 <font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Ve
 bu kadar! Uygulamamızdaki birden çok şehir için hava durumunu
@@ -1137,4 +1081,5 @@ nedenle, uygulama basit olsa da, uygulamalarda aynı kavramların
 modellerinin tartışmasız en önemli parçası hakkında daha fazla
 bilgi edinmek isterseniz, Django Database Essentials adlı ücretsiz
 kursuma katılabilirsiniz.</font></font></font></p>
-
+</body>
+</html>
