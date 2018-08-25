@@ -5,7 +5,7 @@
 	<title></title>
 	<meta name="generator" content="LibreOffice 6.1.0.3 (Linux)"/>
 	<meta name="created" content="2018-08-25T17:05:13.149856541"/>
-	<meta name="changed" content="2018-08-25T19:01:51.169782442"/>
+	<meta name="changed" content="2018-08-25T19:30:20.644515059"/>
 	<style type="text/css">
 		@page { margin: 2cm }
 		p { margin-bottom: 0.25cm; line-height: 115% }
@@ -14,7 +14,7 @@
 	</style>
 </head>
 <body lang="tr-TR" dir="ltr"><p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Bu
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Bu
 makalede, çeşitli şehirler için mevcut hava durumunu görüntüleyen
 basit bir Django uygulaması oluşturacağız. Mevcut hava durumu
 verilerini almak için Açık Hava Durumu Haritası API'sini
@@ -37,14 +37,14 @@ göreceksiniz.</span></span></span></font></span></font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">İşte
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">İşte
 işimiz bittiğinde neye benzeyeceğimiz.</span></span></span></font></span></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><b>Kurulum</b></span></span></font></span><br/>
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><b>Kurulum</b></span></span></font></span><br/>
 <span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Django
 kurulumu, başka herhangi bir Python kütüphanesi kurmak gibidir:
 sanal bir ortam başlatabilir ve Django’yu kurmak için pip
@@ -60,7 +60,7 @@ yöntem de işe yarar, fakat bu yazı için pipenv kullanacağım.</span></span>
 
 	<tr>
 		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left" style="orphans: 2; widows: 2">
-			<font face="Amiri"><font size="3" style="font-size: 13pt"><b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">pipenv
+			<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">pipenv
 			install django</span></span></font></span></b></font></font></p>
 		</td>
 	</tr>
@@ -70,7 +70,7 @@ yöntem de işe yarar, fakat bu yazı için pipenv kullanacağım.</span></span>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Bu
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Bu
 sizin için en son Django sürümünü yükleyecektir. Bu yazıyı
 yazarken, Django 2.0.4 sürümündedir. </span></span></span></font></span></font></font>
 </p>
@@ -79,7 +79,7 @@ yazarken, Django 2.0.4 sürümündedir. </span></span></span></font></span></fon
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Django
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Django
 yüklendikten sonra, henüz oluşturmadıysanız, bu proje için bir
 dizin oluşturun ve bu dizine gidin. Bir kez orada, Django'nun
 projeyi oluşturmanıza verdiği startproject komutunu
@@ -93,7 +93,7 @@ projeyi oluşturmanıza verdiği startproject komutunu
 
 	<tr>
 		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left" style="orphans: 2; widows: 2">
-			<font face="Amiri"><font size="3" style="font-size: 13pt"><b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">django-admin
+			<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">django-admin
 			startproject the_weather</span></span></font></span></b></font></font></p>
 		</td>
 	</tr>
@@ -103,7 +103,7 @@ projeyi oluşturmanıza verdiği startproject komutunu
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Django
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Django
 dizininizde birkaç yeni dosya oluşturmuş olmalı. </span></span></span></font></span></font></font>
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
@@ -111,7 +111,7 @@ dizininizde birkaç yeni dosya oluşturmuş olmalı. </span></span></span></font
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Geliştirme
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Geliştirme
 sunucumuzu başlatmayı deneyelim. Bunu yapmak için, yeni dizine
 gidin ve terminalinizde runserver komutunu çalıştırmak için
 manage.py komutunu kullanın:</span></span></span></font></span></font></font></p>
@@ -124,9 +124,9 @@ manage.py komutunu kullanın:</span></span></span></font></span></font></font></
 
 	<tr>
 		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left" style="margin-bottom: 0cm; orphans: 2; widows: 2">
-			<font face="Amiri"><font size="3" style="font-size: 13pt"><b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">cd
+			<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">cd
 			the_weather</span></span></font></span></b></font></font></p>
-			<p align="left" style="orphans: 2; widows: 2"><font face="Amiri"><font size="3" style="font-size: 13pt"><b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">python
+			<p align="left" style="orphans: 2; widows: 2"><font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">python
 			manage.py runserver</span></span></font></span></b></font></font></p>
 		</td>
 	</tr>
@@ -136,7 +136,7 @@ manage.py komutunu kullanın:</span></span></span></font></span></font></font></
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Terminalinize
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Terminalinize
 bakarsanız, uygulamanızın URL'sini görmelisiniz. Varsayılan
 olarak 127.0.0.1:8000 olmalıdır.</span></span></span></font></span></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
@@ -144,7 +144,7 @@ olarak 127.0.0.1:8000 olmalıdır.</span></span></span></font></span></font></fo
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Tarayıcınızı
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Tarayıcınızı
 açın ve bu URL'ye gidin.</span></span></span></font></span></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
@@ -152,7 +152,7 @@ açın ve bu URL'ye gidin.</span></span></span></font></span></font></font></p>
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal">
-<font face="Amiri"><font size="3" style="font-size: 13pt"><span style="font-style: normal"><span style="font-weight: normal">Bunu
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><span style="font-style: normal"><span style="font-weight: normal">Bunu
 görürseniz, Django'yu doğru şekilde kurduğunuzu biliyorsunuzdur.
 Bunu kesinlikle görmelisiniz çünkü henüz kodu değiştirmeyi
 denemedik bile.</span></span></span></font></span></font></font></p>
@@ -161,10 +161,10 @@ denemedik bile.</span></span></span></font></span></font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><b>Yönetici
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><b>Yönetici
 Kontrol Paneli</b></span></span></font></span></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Ardından
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Ardından
 Django'nun bize verdiği yönetim panosuna bir göz atmak istiyoruz.
 Bunu yapmak için öncelikle veritabanımızı taşımalıyız, bu da
 Django'nun varsayılan uygulamalar için gerekli olan önceden
@@ -180,7 +180,7 @@ yapmak için, yalnızca geçiş komutunu çalıştırırsınız. CTRL
 
 	<tr>
 		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left" style="orphans: 2; widows: 2">
-			<font face="Amiri"><font size="3" style="font-size: 13pt"><b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">python
+			<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">python
 			manage.py migrate</span></span></font></span></b></font></font></p>
 		</td>
 	</tr>
@@ -190,7 +190,7 @@ yapmak için, yalnızca geçiş komutunu çalıştırırsınız. CTRL
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Bu
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Bu
 komutu çalıştırarak, Django sizin için bir SQLite veritabanı
 oluşturdu, ayarlardaki varsayılan veritabanı ve bu veritabanına
 birkaç tablo ekledi. Proje dizininizde yeni bir db.sqlite3 dosyası
@@ -215,7 +215,7 @@ oluşturmak için, createuperuser komutunu çalıştırırız.</span></span></sp
 
 	<tr>
 		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left" style="orphans: 2; widows: 2">
-			<font face="Amiri"><font size="3" style="font-size: 13pt"><b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">python
+			<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">python
 			manage.py createsuperuser</span></span></font></span></b></font></font></p>
 		</td>
 	</tr>
@@ -225,7 +225,7 @@ oluşturmak için, createuperuser komutunu çalıştırırız.</span></span></sp
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Yönetici
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Yönetici
 kullanıcınız için bir kullanıcı adı, e-posta adresi ve bir
 şifre vererek talimatları izleyin. Bunu yaptıktan sonra, sunucuyu
 yeniden başlatmanız ve yönetici kontrol paneline gitmeniz gerekir.</span></span></span></font></span></font></font></p>
@@ -238,7 +238,7 @@ yeniden başlatmanız ve yönetici kontrol paneline gitmeniz gerekir.</span></sp
 
 	<tr>
 		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left" style="orphans: 2; widows: 2">
-			<font face="Amiri"><font size="3" style="font-size: 13pt"><b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">python
+			<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">python
 			manage.py runserver</span></span></font></span></b></font></font></p>
 		</td>
 	</tr>
@@ -248,7 +248,7 @@ yeniden başlatmanız ve yönetici kontrol paneline gitmeniz gerekir.</span></sp
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Ardından
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Ardından
 127.0.0.1:8000/admin adresine gidin. </span></span></span></font></span></font></font>
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
@@ -256,7 +256,7 @@ yeniden başlatmanız ve yönetici kontrol paneline gitmeniz gerekir.</span></sp
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Bu
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Bu
 sayfaya gidebilmemizin sebebi, yöneticinin urls.py adresinde
 ayarlandığından (çünkü, tebrikler sayfasını görebilmemizin
 nedeni, kendi URL'lerinizi ekleyene kadar Django'nun size vermesidir)
@@ -267,7 +267,7 @@ sebebidir. </span></span></span></font></span></font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Az
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Az
 önce oluşturduğunuz kullanıcı adı ve şifre ile giriş
 yaparsanız, bu sayfayı görmelisiniz.</span></span></span></font></span></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
@@ -275,7 +275,7 @@ yaparsanız, bu sayfayı görmelisiniz.</span></span></span></font></span></font
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Gruplar
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Gruplar
 ve kullanıcılar, Django'ya erişim sağlayan iki modeli temsil
 ediyor. Modeller bir veritabanındaki tabloların sadece kod
 gösterimleridir. Django daha fazla tablo oluştursa da, geri
@@ -287,7 +287,7 @@ model oluşturulmamıştır. </span></span></span></font></span></font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">'Kullanıcı'
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">'Kullanıcı'
 seçeneğini tıklarsanız, kullanıcı tablosu hakkında daha fazla
 ayrıntı görmelisiniz ve oluşturduğunuz kullanıcıyı
 görmelisiniz. Orada ne olduğunu görmek için panodaki farklı
@@ -300,7 +300,7 @@ tekrar çalıştırmanız gerekir. </span></span></span></font></span></font></f
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Şu
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Şu
 an için yönetici kontrol panelinden çıkıp kodlara gidelim. Hava
 durumu uygulamamız için projemizin içinde bir uygulama
 oluşturmamız gerekiyor.</span></span></span></font></span></font></font></p>
@@ -309,10 +309,10 @@ oluşturmamız gerekiyor.</span></span></span></font></span></font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt"><b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">Uygulamayı
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">Uygulamayı
 Oluşturmak</span></span></font></span></b></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Django'da,
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Django'da,
 uygulamaları kullanarak projenizdeki işlevleri ayırabilirsiniz.
 Uygulamanın kafa karıştırıcı bir ad olduğunu düşünüyorum
 çünkü genellikle bir uygulamanın tamamını tüm proje olarak
@@ -326,7 +326,7 @@ görürsünüz. </span></span></span></font></span></font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Yüklü
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Yüklü
 uygulamaların ilki olan django.contrib.admin, yeni kullandığımız
 şeydir. Tüm yönetici işlevlerini ve başka hiçbir şeyi ele
 almıyor. Varsayılan olarak projemizdeki başka bir uygulama,
@@ -338,7 +338,7 @@ doğrulama gibi şeylerdir. </span></span></span></font></span></font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Bizim
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Bizim
 durumumuzda, hava durumunu göstermekle ilgili her şeyi ele almak
 için yeni bir uygulama oluşturmamız gerekiyor. Bu uygulamayı
 oluşturmak için, sunucuyu CTRL + C ile durdurun ve çalıştırın:</span></span></span></font></span></font></font></p>
@@ -351,7 +351,7 @@ oluşturmak için, sunucuyu CTRL + C ile durdurun ve çalıştırın:</span></sp
 
 	<tr>
 		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="justify">
-			<font face="Amiri"><font size="3" style="font-size: 13pt"><b>python
+			<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b>python
 			manage.py startapp weather</b></font></font></p>
 		</td>
 	</tr>
@@ -361,7 +361,7 @@ oluşturmak için, sunucuyu CTRL + C ile durdurun ve çalıştırın:</span></sp
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt">Startapp
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt">Startapp
 çalıştırarak, Django, projemize yeni bir dizin ve daha fazla
 dosya ekledi. </font></font>
 </p>
@@ -370,7 +370,7 @@ dosya ekledi. </font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Amiri"><font size="3" style="font-size: 13pt">En
+<font color="#000000"><font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt">En
 son oluşturulan dosyalar ile, uygulama dizinimizde urls.py adlı
 yeni bir dosya oluşturalım.</font></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
@@ -382,18 +382,18 @@ yeni bir dosya oluşturalım.</font></font></font></p>
 
 	<tr>
 		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
-			<font face="Amiri"><font size="3" style="font-size: 13pt"><b>#the_weather/weather/urls.py</b></font></font></p>
+			<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b>#the_weather/weather/urls.py</b></font></font></p>
 			<p align="left"><br/>
 
 			</p>
-			<p align="left"><font face="Amiri"><font size="3" style="font-size: 13pt"><b>from
+			<p align="left"><font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b>from
 			django.urls import path</b></font></font></p>
 			<p align="left"><br/>
 
 			</p>
-			<p align="left"><font face="Amiri"><font size="3" style="font-size: 13pt"><b>urlpatterns
+			<p align="left"><font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b>urlpatterns
 			= [</b></font></font></p>
-			<p align="left"><font face="Amiri"><font size="3" style="font-size: 13pt"><b>]</b></font></font></p>
+			<p align="left"><font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b>]</b></font></font></p>
 		</td>
 	</tr>
 </table>
@@ -402,8 +402,8 @@ yeni bir dosya oluşturalım.</font></font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt">Bu dosya,
-the_weather dizinindeki urls.py'ye benzer. Fark, bu urls.py
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt">Bu
+dosya, the_weather dizinindeki urls.py'ye benzer. Fark, bu urls.py
 dosyasının uygulamanın kendisi ile ilgili olan tüm URL'leri
 içermesidir. </font></font>
 </p>
@@ -412,17 +412,17 @@ içermesidir. </font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt">Henüz bir
-URL belirtmiyoruz, ancak projemizi uygulamamız ve uygulamanıza özel
-tüm URL'leri uygulama urls.py dosyasına yönlendirecek şekilde
-projeyi ayarlayabiliriz. </font></font>
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt">Henüz
+bir URL belirtmiyoruz, ancak projemizi uygulamamız ve uygulamanıza
+özel tüm URL'leri uygulama urls.py dosyasına yönlendirecek
+şekilde projeyi ayarlayabiliriz. </font></font>
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt">Önce,
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt">Önce,
 INSTALLED_APPS listesine gidin ve bu uygulamayı listeye ekleyin.</font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
@@ -433,25 +433,25 @@ INSTALLED_APPS listesine gidin ve bu uygulamayı listeye ekleyin.</font></font><
 
 	<tr>
 		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
-			<font face="Amiri"><font size="3" style="font-size: 13pt"><b>#the_weather/the_weather/settings.py</b></font></font></p>
-			<p align="left"><font face="Amiri"><font size="3" style="font-size: 13pt"><b>...</b></font></font></p>
+			<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b>#the_weather/the_weather/settings.py</b></font></font></p>
+			<p align="left"><font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b>...</b></font></font></p>
 			<p align="left"><br/>
 
 			</p>
-			<p align="left"><font face="Amiri"><font size="3" style="font-size: 13pt"><b>INSTALLED_APPS
+			<p align="left"><font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b>INSTALLED_APPS
 			= [</b></font></font></p>
-			<p align="left">    <font face="Amiri"><font size="3" style="font-size: 13pt"><b>'django.contrib.admin',</b></font></font></p>
-			<p align="left">    <font face="Amiri"><font size="3" style="font-size: 13pt"><b>'django.contrib.auth',</b></font></font></p>
-			<p align="left">    <font face="Amiri"><font size="3" style="font-size: 13pt"><b>'django.contrib.contenttypes',</b></font></font></p>
-			<p align="left">    <font face="Amiri"><font size="3" style="font-size: 13pt"><b>'django.contrib.sessions',</b></font></font></p>
-			<p align="left">    <font face="Amiri"><font size="3" style="font-size: 13pt"><b>'django.contrib.messages',</b></font></font></p>
-			<p align="left">    <font face="Amiri"><font size="3" style="font-size: 13pt"><b>'django.contrib.staticfiles',</b></font></font></p>
-			<p align="left">    <font face="Amiri"><font size="3" style="font-size: 13pt"><b>'weather',</b></font></font></p>
-			<p align="left"><font face="Amiri"><font size="3" style="font-size: 13pt"><b>]</b></font></font></p>
+			<p align="left">    <font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b>'django.contrib.admin',</b></font></font></p>
+			<p align="left">    <font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b>'django.contrib.auth',</b></font></font></p>
+			<p align="left">    <font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b>'django.contrib.contenttypes',</b></font></font></p>
+			<p align="left">    <font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b>'django.contrib.sessions',</b></font></font></p>
+			<p align="left">    <font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b>'django.contrib.messages',</b></font></font></p>
+			<p align="left">    <font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b>'django.contrib.staticfiles',</b></font></font></p>
+			<p align="left">    <font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b>'weather',</b></font></font></p>
+			<p align="left"><font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b>]</b></font></font></p>
 			<p align="left"><br/>
 
 			</p>
-			<p align="left"><font face="Amiri"><font size="3" style="font-size: 13pt"><b>...</b></font></font></p>
+			<p align="left"><font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b>...</b></font></font></p>
 		</td>
 	</tr>
 </table>
@@ -460,7 +460,7 @@ INSTALLED_APPS listesine gidin ve bu uygulamayı listeye ekleyin.</font></font><
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt">Bu,
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt">Bu,
 Django’yu hava durumu uygulamasını projemizde kullanmak
 istediğimizi bilmesini sağlar. Bunu yaparak, Django, geçişleri ve
 URL'leri nerede arayacağını bilir. </font></font>
@@ -470,11 +470,45 @@ URL'leri nerede arayacağını bilir. </font></font>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Amiri"><font size="3" style="font-size: 13pt">Sonraki,
+<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt">Sonraki,
 urls.py dosyamızın uygulamasına işaret etmek için orijinal
 urls.py dosyasını değiştirmemiz gerekiyor. Bunu yapmak için
 yönetici kontrol paneli için mevcut yolun altına bir çizgi
 ekliyoruz. Ayrıca, 'url.py' uygulamamıza işaret edebilmek için
 'dahil et' i de içe aktarmamız gerekiyor.</font></font></p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<table width="100%" cellpadding="4" cellspacing="0">
+	<col width="256*"/>
+
+	<tr>
+		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
+			<font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b>#the_weather/the_weather/urls.py</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left"><font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b>from
+			django.contrib import admin</b></font></font></p>
+			<p align="left"><font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b>from
+			django.urls import path, include</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left"><font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b>urlpatterns
+			= [</b></font></font></p>
+			<p align="left">    <font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b>path('admin/',
+			admin.site.urls),</b></font></font></p>
+			<p align="left">    <font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b>path('',
+			include('weather.urls')),</b></font></font></p>
+			<p align="left"><font face="DejaVu Serif, serif"><font size="2" style="font-size: 11pt"><b>]</b></font></font></p>
+		</td>
+	</tr>
+</table>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
 </body>
 </html>
