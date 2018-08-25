@@ -19,15 +19,15 @@ gem dosyalarının kurulumunu gerçekleştiriyoruz. Paket kurulumunu tamamladık
 Dizin içerisine önceden hazırladığımız dosyalarıda atabiliriz. Dizin içerisinde iken son komutumuz ise  ```sudo jekyll serve```
 
 {% highlight bash %}
-sudo pisi it -c system.devel
+sudo pisi it -c system.devel		/*devel paket bileşenlerinin kurulumu*/
 sudo pisi it rubygems
 sudo pisi it ruby-devel
-sudo gem install jekyll
-sudo gem install therubyracer
-sudo gem install rdiscount
-sudo gem install pygments.rb
-sudo jekyll new my-awesome-site
-sudo jekyll serve
+sudo gem install jekyll			/*jekyll kurulumu*/
+sudo gem install bundler
+sudo bundle install
+sudo jekyll new my-awesome-site		/*yeni sitenin oluşturulması*/
+bundle exec jekyll build		/*sitenin hatasız derlemesi*/
+sudo jekyll serve			/*local server üzerinde denenmesi*/
 {% endhighlight %}
 
 Sonuçta; statik sitemizi yada bloğumuzu web tarayıcı adres çubuğuna ```http://localhost:4000/``` yazarak görüntüleyebiliyoruz.
