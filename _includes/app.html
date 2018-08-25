@@ -5,7 +5,7 @@
 	<title></title>
 	<meta name="generator" content="LibreOffice 6.1.0.3 (Linux)"/>
 	<meta name="created" content="2018-08-25T17:05:13.149856541"/>
-	<meta name="changed" content="2018-08-25T19:57:54.546336978"/>
+	<meta name="changed" content="2018-08-25T20:08:00.845695332"/>
 	<style type="text/css">
 		@page { margin: 2cm }
 		p { margin-bottom: 0.25cm; line-height: 115% }
@@ -582,7 +582,7 @@ dosyayı koymak için bir şablon dizini oluşturacağız.</span></span></span><
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Ayrıca,
+<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Ayrıca,
 uygulamamızla aynı ada sahip başka bir dizin oluşturduk. Bunu
 yaptık çünkü Django, sahip olduğumuz çeşitli uygulamalardan
 tüm şablon dizinlerini birleştiriyor. Dosya isimlerinin
@@ -594,9 +594,278 @@ uygulamamızın adını kullanabiliriz. </span></span></span></font></span></fon
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Hava
+<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Hava
 dizininin içinde index.html adlı yeni bir dosya oluşturun. Bu
 bizim ana şablonumuz olacak. İşte şablon için kullanacağımız
 HTML.</span></span></span></font></span></font></font></p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<table width="100%" cellpadding="4" cellspacing="0">
+	<col width="256*"/>
+
+	<tr>
+		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
+			<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;!--
+			the_weather/weather/templates/weather/index.html --&gt;</font></font></p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;!DOCTYPE
+			html&gt;</font></font></p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;html
+			lang=&quot;en&quot;&gt;</font></font></p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;head&gt;</font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;meta
+			charset=&quot;UTF-8&quot;&gt;</font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;meta
+			name=&quot;viewport&quot; content=&quot;width=device-width,
+			initial-scale=1.0&quot;&gt;</font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;meta
+			http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;</font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;title&gt;What's
+			the weather like?&lt;/title&gt;</font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;link
+			rel=&quot;stylesheet&quot;
+			href=&quot;https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css&quot;
+			/&gt;</font></font></p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/head&gt;</font></font></p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;body&gt;</font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;section
+			class=&quot;hero is-primary&quot;&gt;</font></font></p>
+			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;div
+			class=&quot;hero-body&quot;&gt;</font></font></p>
+			<p align="left">            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;div
+			class=&quot;container&quot;&gt;</font></font></p>
+			<p align="left">                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;h1
+			class=&quot;title&quot;&gt;</font></font></p>
+			<p align="left">                    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">What's
+			the weather like?</font></font></p>
+			<p align="left">                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/h1&gt;</font></font></p>
+			<p align="left">            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/div&gt;</font></font></p>
+			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/div&gt;</font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/section&gt;</font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;section
+			class=&quot;section&quot;&gt;</font></font></p>
+			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;div
+			class=&quot;container&quot;&gt;</font></font></p>
+			<p align="left">            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;div
+			class=&quot;columns&quot;&gt;</font></font></p>
+			<p align="left">                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;div
+			class=&quot;column is-offset-4 is-4&quot;&gt;</font></font></p>
+			<p align="left">                    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;form
+			method=&quot;POST&quot;&gt;</font></font></p>
+			<p align="left">                        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;div
+			class=&quot;field has-addons&quot;&gt;</font></font></p>
+			<p align="left">                            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;div
+			class=&quot;control is-expanded&quot;&gt;</font></font></p>
+			<p align="left">                                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;input
+			class=&quot;input&quot; type=&quot;text&quot; placeholder=&quot;City
+			Name&quot;&gt;</font></font></p>
+			<p align="left">                            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/div&gt;</font></font></p>
+			<p align="left">                            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;div
+			class=&quot;control&quot;&gt;</font></font></p>
+			<p align="left">                                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;button
+			class=&quot;button is-info&quot;&gt;</font></font></p>
+			<p align="left">                                    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">Add
+			City</font></font></p>
+			<p align="left">                                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/button&gt;</font></font></p>
+			<p align="left">                            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/div&gt;</font></font></p>
+			<p align="left">                        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/div&gt;</font></font></p>
+			<p align="left">                    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/form&gt;</font></font></p>
+			<p align="left">                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/div&gt;</font></font></p>
+			<p align="left">            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/div&gt;</font></font></p>
+			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/div&gt;</font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/section&gt;</font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;section
+			class=&quot;section&quot;&gt;</font></font></p>
+			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;div
+			class=&quot;container&quot;&gt;</font></font></p>
+			<p align="left">            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;div
+			class=&quot;columns&quot;&gt;</font></font></p>
+			<p align="left">                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;div
+			class=&quot;column is-offset-4 is-4&quot;&gt;</font></font></p>
+			<p align="left">                    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;div
+			class=&quot;box&quot;&gt;</font></font></p>
+			<p align="left">                        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;article
+			class=&quot;media&quot;&gt;</font></font></p>
+			<p align="left">                            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;div
+			class=&quot;media-left&quot;&gt;</font></font></p>
+			<p align="left">                                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;figure
+			class=&quot;image is-50x50&quot;&gt;</font></font></p>
+			<p align="left">                                    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;img
+			src=&quot;http://openweathermap.org/img/w/10d.png&quot;
+			alt=&quot;Image&quot;&gt;</font></font></p>
+			<p align="left">                                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/figure&gt;</font></font></p>
+			<p align="left">                            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/div&gt;</font></font></p>
+			<p align="left">                            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;div
+			class=&quot;media-content&quot;&gt;</font></font></p>
+			<p align="left">                                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;div
+			class=&quot;content&quot;&gt;</font></font></p>
+			<p align="left">                                    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;p&gt;</font></font></p>
+			<p align="left">                                        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;span
+			class=&quot;title&quot;&gt;Las Vegas&lt;/span&gt;</font></font></p>
+			<p align="left">                                        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;br&gt;</font></font></p>
+			<p align="left">                                        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;span
+			class=&quot;subtitle&quot;&gt;29° F&lt;/span&gt;</font></font></p>
+			<p align="left">                                        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;br&gt;
+			thunderstorm with heavy rain</font></font></p>
+			<p align="left">                                    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/p&gt;</font></font></p>
+			<p align="left">                                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/div&gt;</font></font></p>
+			<p align="left">                            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/div&gt;</font></font></p>
+			<p align="left">                        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/article&gt;</font></font></p>
+			<p align="left">                    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/div&gt;</font></font></p>
+			<p align="left">                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/div&gt;</font></font></p>
+			<p align="left">            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/div&gt;</font></font></p>
+			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/div&gt;</font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/section&gt;</font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;footer
+			class=&quot;footer&quot;&gt;</font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/footer&gt;</font></font></p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/body&gt;</font></font></p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 9pt">&lt;/html&gt;</font></font></p>
+		</td>
+	</tr>
+</table>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt">Şimdi
+şablonumuzu oluşturduğumuza göre, bunu bir görünüm ve URL
+kombinasyonu oluşturalım. </font></font>
+</p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt">Django'daki
+Görünümler, işlevler veya sınıflardır. Durumumuzda basit bir
+görünüm oluşturduğumuzdan, bir işlev oluşturacağız. Bu
+işlevi görünümlerinize ekleyin:</font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<table width="100%" cellpadding="4" cellspacing="0">
+	<col width="256*"/>
+
+	<tr>
+		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
+			<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt">#the_weather/weather/views.py</font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt">from
+			django.shortcuts import render</font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt">def
+			index(request):</font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt">return
+			render(request, 'weather/index.html') #returns the index.html
+			template</font></font></p>
+		</td>
+	</tr>
+</table>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt">Kök
+URL olan uygulamamızın dizininde olacağından, görünümümüzü
+'index' olarak adlandırıyoruz. Şablonun oluşturulmasını
+sağlamak için, render işlevi için gerekli olan isteği ve render
+etmek istediğimiz şablon dosyasının adını, bu durumda weather /
+index.html. </font></font>
+</p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt">Bu
+görüşe isteği gönderecek olan URL'yi ekleyelim. Uygulamaya ait
+urls.py dosyasında, urlpatterns listesini güncelleyin.</font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<table width="100%" cellpadding="4" cellspacing="0">
+	<col width="256*"/>
+
+	<tr>
+		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
+			<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt">#the_weather/weather/urls.py</font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt">from
+			django.urls import path</font></font></p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt">from
+			. import views</font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt">urlpatterns
+			= [</font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt">path('',
+			views.index),  #the path for our index view</font></font></p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt">]</font></font></p>
+		</td>
+	</tr>
+</table>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt">Bu,
+yeni oluşturduğumuz görünümü referans almamıza izin veriyor. </font></font>
+</p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt">Django,
+herhangi bir URL'yi bir bitiş noktası olmadan eşleştirecek ve
+oluşturduğumuz görüntüleme işlevine yönlendirecektir. </font></font>
+</p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt">Proje
+köküne geri dönün, sunucuyu başlatın ve tekrar 127.0.0.1:8000
+adresine gidin.</font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<table width="100%" cellpadding="4" cellspacing="0">
+	<col width="256*"/>
+
+	<tr>
+		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
+			<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt">python
+			manage.py runserver</font></font></p>
+		</td>
+	</tr>
+</table>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt">Şimdi
+gördüğümüz sadece index.html dosyasında bulduğunuz HTML'nin
+sonucudur. Bir şehir ve Las Vegas'ın hava durumunu eklemek için
+bir giriş göreceksiniz. Ancak, form çalışmıyor ve hava durumu
+yalnızca bir yer tutucudur, ancak endişelenmeyin, çünkü bu
+uygulama için bunları oluşturacağız.</font></font></p>
 </body>
 </html>
