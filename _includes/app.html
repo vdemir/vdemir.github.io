@@ -5,7 +5,7 @@
 	<title></title>
 	<meta name="generator" content="LibreOffice 6.1.0.3 (Linux)"/>
 	<meta name="created" content="2018-08-25T17:05:13.149856541"/>
-	<meta name="changed" content="2018-08-25T20:27:23.202849999"/>
+	<meta name="changed" content="2018-08-25T20:54:47.334027937"/>
 	<style type="text/css">
 		@page { margin: 2cm }
 		p { margin-bottom: 0.25cm; line-height: 115% }
@@ -546,21 +546,21 @@ and View Ekleme</b></font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><font size="2" style="font-size: 10pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Şimdi
+<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Şimdi
 yapacağımız ilk ilginç şey için. Şablonu projemize eklememiz
-gerekiyor.</span></span></span></font></font></span><b><br/>
+gerekiyor.</span></span></span></font></span><b><br/>
 <br/>
-</b><span style="font-variant: normal"><font color="#000000"><font size="2" style="font-size: 10pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Django'daki
+</b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Django'daki
 bir şablon, şablonu dinamik yapan ekstra sözdizimine izin veren
 bir HTML dosyasıdır. Diğer şeylerin yanı sıra değişkenler,
-ifadeler ve döngüler eklemek gibi şeyleri yapabileceğiz.</span></span></span></font></font></span><b><br/>
+ifadeler ve döngüler eklemek gibi şeyleri yapabileceğiz.</span></span></span></font></span><b><br/>
 <br/>
-</b><span style="font-variant: normal"><font color="#000000"><font size="2" style="font-size: 10pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Başlamak
+</b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Başlamak
 için, herhangi bir şablon sözdizimi içermeyen bir HTML dosyasına
-sahibim, ancak bu bizim başlamamız için yeterli olacaktır.</span></span></span></font></font></span><b><br/>
+sahibim, ancak bu bizim başlamamız için yeterli olacaktır.</span></span></span></font></span><b><br/>
 <br/>
-</b><span style="font-variant: normal"><font color="#000000"><font size="2" style="font-size: 10pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Bu
-dosyayı koymak için bir şablon dizini oluşturacağız.</span></span></span></font></font></span></font></font></p>
+</b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Bu
+dosyayı koymak için bir şablon dizini oluşturacağız.</span></span></span></font></span></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
@@ -584,7 +584,7 @@ dosyayı koymak için bir şablon dizini oluşturacağız.</span></span></span><
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Ayrıca,
+<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Ayrıca,
 uygulamamızla aynı ada sahip başka bir dizin oluşturduk. Bunu
 yaptık çünkü Django, sahip olduğumuz çeşitli uygulamalardan
 tüm şablon dizinlerini birleştiriyor. Dosya isimlerinin
@@ -596,7 +596,7 @@ uygulamamızın adını kullanabiliriz. </span></span></span></font></span></fon
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Hava
+<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Hava
 dizininin içinde index.html adlı yeni bir dosya oluşturun. Bu
 bizim ana şablonumuz olacak. İşte şablon için kullanacağımız
 HTML.</span></span></span></font></span></font></font></p>
@@ -608,122 +608,79 @@ HTML.</span></span></span></font></span></font></font></p>
 	<col width="256*"/>
 
 	<tr>
-		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
-			<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;!--
-			the_weather/weather/templates/weather/index.html --&gt;</b></font></font></p>
-			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;!DOCTYPE
-			html&gt;</b></font></font></p>
-			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;html
-			lang=&quot;en&quot;&gt;</b></font></font></p>
-			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;head&gt;</b></font></font></p>
-			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;meta
-			charset=&quot;UTF-8&quot;&gt;</b></font></font></p>
-			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;meta
-			name=&quot;viewport&quot; content=&quot;width=device-width,
-			initial-scale=1.0&quot;&gt;</b></font></font></p>
-			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;meta
-			http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;</b></font></font></p>
-			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;title&gt;What's
-			the weather like?&lt;/title&gt;</b></font></font></p>
-			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;link
-			rel=&quot;stylesheet&quot;
-			href=&quot;https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css&quot;
-			/&gt;</b></font></font></p>
-			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/head&gt;</b></font></font></p>
-			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;body&gt;</b></font></font></p>
-			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;section
-			class=&quot;hero is-primary&quot;&gt;</b></font></font></p>
-			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;div
-			class=&quot;hero-body&quot;&gt;</b></font></font></p>
-			<p align="left">            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;div
-			class=&quot;container&quot;&gt;</b></font></font></p>
-			<p align="left">                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;h1
-			class=&quot;title&quot;&gt;</b></font></font></p>
-			<p align="left">                    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>What's
-			the weather like?</b></font></font></p>
-			<p align="left">                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/h1&gt;</b></font></font></p>
-			<p align="left">            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/div&gt;</b></font></font></p>
-			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/div&gt;</b></font></font></p>
-			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/section&gt;</b></font></font></p>
-			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;section
-			class=&quot;section&quot;&gt;</b></font></font></p>
-			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;div
-			class=&quot;container&quot;&gt;</b></font></font></p>
-			<p align="left">            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;div
-			class=&quot;columns&quot;&gt;</b></font></font></p>
-			<p align="left">                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;div
-			class=&quot;column is-offset-4 is-4&quot;&gt;</b></font></font></p>
-			<p align="left">                    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;form
-			method=&quot;POST&quot;&gt;</b></font></font></p>
-			<p align="left">                        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;div
-			class=&quot;field has-addons&quot;&gt;</b></font></font></p>
-			<p align="left">                            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;div
-			class=&quot;control is-expanded&quot;&gt;</b></font></font></p>
-			<p align="left">                                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;input
-			class=&quot;input&quot; type=&quot;text&quot; placeholder=&quot;City
-			Name&quot;&gt;</b></font></font></p>
-			<p align="left">                            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/div&gt;</b></font></font></p>
-			<p align="left">                            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;div
-			class=&quot;control&quot;&gt;</b></font></font></p>
-			<p align="left">                                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;button
-			class=&quot;button is-info&quot;&gt;</b></font></font></p>
-			<p align="left">                                    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>Add
-			City</b></font></font></p>
-			<p align="left">                                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/button&gt;</b></font></font></p>
-			<p align="left">                            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/div&gt;</b></font></font></p>
-			<p align="left">                        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/div&gt;</b></font></font></p>
-			<p align="left">                    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/form&gt;</b></font></font></p>
-			<p align="left">                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/div&gt;</b></font></font></p>
-			<p align="left">            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/div&gt;</b></font></font></p>
-			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/div&gt;</b></font></font></p>
-			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/section&gt;</b></font></font></p>
-			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;section
-			class=&quot;section&quot;&gt;</b></font></font></p>
-			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;div
-			class=&quot;container&quot;&gt;</b></font></font></p>
-			<p align="left">            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;div
-			class=&quot;columns&quot;&gt;</b></font></font></p>
-			<p align="left">                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;div
-			class=&quot;column is-offset-4 is-4&quot;&gt;</b></font></font></p>
-			<p align="left">                    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;div
-			class=&quot;box&quot;&gt;</b></font></font></p>
-			<p align="left">                        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;article
-			class=&quot;media&quot;&gt;</b></font></font></p>
-			<p align="left">                            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;div
-			class=&quot;media-left&quot;&gt;</b></font></font></p>
-			<p align="left">                                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;figure
-			class=&quot;image is-50x50&quot;&gt;</b></font></font></p>
-			<p align="left">                                    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;img
-			src=&quot;http://openweathermap.org/img/w/10d.png&quot;
-			alt=&quot;Image&quot;&gt;</b></font></font></p>
-			<p align="left">                                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/figure&gt;</b></font></font></p>
-			<p align="left">                            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/div&gt;</b></font></font></p>
-			<p align="left">                            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;div
-			class=&quot;media-content&quot;&gt;</b></font></font></p>
-			<p align="left">                                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;div
-			class=&quot;content&quot;&gt;</b></font></font></p>
-			<p align="left">                                    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;p&gt;</b></font></font></p>
-			<p align="left">                                        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;span
-			class=&quot;title&quot;&gt;Las Vegas&lt;/span&gt;</b></font></font></p>
-			<p align="left">                                        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;br&gt;</b></font></font></p>
-			<p align="left">                                        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;span
-			class=&quot;subtitle&quot;&gt;29° F&lt;/span&gt;</b></font></font></p>
-			<p align="left">                                        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;br&gt;
-			thunderstorm with heavy rain</b></font></font></p>
-			<p align="left">                                    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/p&gt;</b></font></font></p>
-			<p align="left">                                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/div&gt;</b></font></font></p>
-			<p align="left">                            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/div&gt;</b></font></font></p>
-			<p align="left">                        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/article&gt;</b></font></font></p>
-			<p align="left">                    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/div&gt;</b></font></font></p>
-			<p align="left">                <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/div&gt;</b></font></font></p>
-			<p align="left">            <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/div&gt;</b></font></font></p>
-			<p align="left">        <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/div&gt;</b></font></font></p>
-			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/section&gt;</b></font></font></p>
-			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;footer
-			class=&quot;footer&quot;&gt;</b></font></font></p>
-			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/footer&gt;</b></font></font></p>
-			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/body&gt;</b></font></font></p>
-			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>&lt;/html&gt;</b></font></font></p>
+		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: 1px solid #000000; padding: 0.1cm"><pre style="font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; text-align: left"><font color="#000000"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt">&lt;!DOCTYPE html&gt;</font></font></font>
+<font color="#000000">&lt;html lang=&quot;en&quot;&gt;</font>
+<font color="#000000">&lt;head&gt;</font>
+<font color="#000000">    <span style="font-style: normal"><span style="font-weight: normal">&lt;meta charset=&quot;UTF-8&quot;&gt;</span></span></font>
+<font color="#000000">    <span style="font-style: normal"><span style="font-weight: normal">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</span></span></font>
+<font color="#000000">    <span style="font-style: normal"><span style="font-weight: normal">&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;</span></span></font>
+<font color="#000000">    <span style="font-style: normal"><span style="font-weight: normal">&lt;title&gt;What's the weather like?&lt;/title&gt;</span></span></font>
+<font color="#000000">    <span style="font-style: normal"><span style="font-weight: normal">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css&quot; /&gt;</span></span></font>
+<font color="#000000">&lt;/head&gt;</font>
+<font color="#000000">&lt;body&gt;</font>
+<font color="#000000">    <span style="font-style: normal"><span style="font-weight: normal">&lt;section class=&quot;hero is-primary&quot;&gt;</span></span></font>
+<font color="#000000">        <span style="font-style: normal"><span style="font-weight: normal">&lt;div class=&quot;hero-body&quot;&gt;</span></span></font>
+<font color="#000000">            <span style="font-style: normal"><span style="font-weight: normal">&lt;div class=&quot;container&quot;&gt;</span></span></font>
+<font color="#000000">                <span style="font-style: normal"><span style="font-weight: normal">&lt;h1 class=&quot;title&quot;&gt;</span></span></font>
+<font color="#000000">                    <span style="font-style: normal"><span style="font-weight: normal">What's the weather like?</span></span></font>
+<font color="#000000">                <span style="font-style: normal"><span style="font-weight: normal">&lt;/h1&gt;</span></span></font>
+<font color="#000000">            <span style="font-style: normal"><span style="font-weight: normal">&lt;/div&gt;</span></span></font>
+<font color="#000000">        <span style="font-style: normal"><span style="font-weight: normal">&lt;/div&gt;</span></span></font>
+<font color="#000000">    <span style="font-style: normal"><span style="font-weight: normal">&lt;/section&gt;</span></span></font>
+<font color="#000000">    <span style="font-style: normal"><span style="font-weight: normal">&lt;section class=&quot;section&quot;&gt;</span></span></font>
+<font color="#000000">        <span style="font-style: normal"><span style="font-weight: normal">&lt;div class=&quot;container&quot;&gt;</span></span></font>
+<font color="#000000">            <span style="font-style: normal"><span style="font-weight: normal">&lt;div class=&quot;columns&quot;&gt;</span></span></font>
+<font color="#000000">                <span style="font-style: normal"><span style="font-weight: normal">&lt;div class=&quot;column is-offset-4 is-4&quot;&gt;</span></span></font>
+<font color="#000000">                    <span style="font-style: normal"><span style="font-weight: normal">&lt;form method=&quot;POST&quot;&gt;</span></span></font>
+<font color="#000000">                        <span style="font-style: normal"><span style="font-weight: normal">{% csrf_token %}</span></span></font>
+<font color="#000000">                        <span style="font-style: normal"><span style="font-weight: normal">&lt;div class=&quot;field has-addons&quot;&gt;</span></span></font>
+<font color="#000000">                            <span style="font-style: normal"><span style="font-weight: normal">&lt;div class=&quot;control is-expanded&quot;&gt;</span></span></font>
+<font color="#000000">                                <span style="font-style: normal"><span style="font-weight: normal">{{ form.name }}</span></span></font>
+<font color="#000000">                            <span style="font-style: normal"><span style="font-weight: normal">&lt;/div&gt;</span></span></font>
+<font color="#000000">                            <span style="font-style: normal"><span style="font-weight: normal">&lt;div class=&quot;control&quot;&gt;</span></span></font>
+<font color="#000000">                                <span style="font-style: normal"><span style="font-weight: normal">&lt;button class=&quot;button is-info&quot;&gt;</span></span></font>
+<font color="#000000">                                    <span style="font-style: normal"><span style="font-weight: normal">Add City</span></span></font>
+<font color="#000000">                                <span style="font-style: normal"><span style="font-weight: normal">&lt;/button&gt;</span></span></font>
+<font color="#000000">                            <span style="font-style: normal"><span style="font-weight: normal">&lt;/div&gt;</span></span></font>
+<font color="#000000">                        <span style="font-style: normal"><span style="font-weight: normal">&lt;/div&gt;</span></span></font>
+<font color="#000000">                    <span style="font-style: normal"><span style="font-weight: normal">&lt;/form&gt;</span></span></font>
+<font color="#000000">                <span style="font-style: normal"><span style="font-weight: normal">&lt;/div&gt;</span></span></font>
+<font color="#000000">            <span style="font-style: normal"><span style="font-weight: normal">&lt;/div&gt;</span></span></font>
+<font color="#000000">        <span style="font-style: normal"><span style="font-weight: normal">&lt;/div&gt;</span></span></font>
+<font color="#000000">    <span style="font-style: normal"><span style="font-weight: normal">&lt;/section&gt;</span></span></font>
+<font color="#000000">    <span style="font-style: normal"><span style="font-weight: normal">&lt;section class=&quot;section&quot;&gt;</span></span></font>
+<font color="#000000">        <span style="font-style: normal"><span style="font-weight: normal">&lt;div class=&quot;container&quot;&gt;</span></span></font>
+<font color="#000000">            <span style="font-style: normal"><span style="font-weight: normal">&lt;div class=&quot;columns&quot;&gt;</span></span></font>
+<font color="#000000">                <span style="font-style: normal"><span style="font-weight: normal">&lt;div class=&quot;column is-offset-4 is-4&quot;&gt;</span></span></font>
+<font color="#000000">                    <span style="font-style: normal"><span style="font-weight: normal">{% for weather in weather_data %}</span></span></font>
+<font color="#000000">                    <span style="font-style: normal"><span style="font-weight: normal">&lt;div class=&quot;box&quot;&gt;</span></span></font>
+<font color="#000000">                        <span style="font-style: normal"><span style="font-weight: normal">&lt;article class=&quot;media&quot;&gt;</span></span></font>
+<font color="#000000">                            <span style="font-style: normal"><span style="font-weight: normal">&lt;div class=&quot;media-left&quot;&gt;</span></span></font>
+<font color="#000000">                                <span style="font-style: normal"><span style="font-weight: normal">&lt;figure class=&quot;image is-50x50&quot;&gt;</span></span></font>
+<font color="#000000">                                    <span style="font-style: normal"><span style="font-weight: normal">&lt;img src=&quot;http://openweathermap.org/img/w/{{ weather.icon }}.png&quot; alt=&quot;Image&quot;&gt;</span></span></font>
+<font color="#000000">                                <span style="font-style: normal"><span style="font-weight: normal">&lt;/figure&gt;</span></span></font>
+<font color="#000000">                            <span style="font-style: normal"><span style="font-weight: normal">&lt;/div&gt;</span></span></font>
+<font color="#000000">                            <span style="font-style: normal"><span style="font-weight: normal">&lt;div class=&quot;media-content&quot;&gt;</span></span></font>
+<font color="#000000">                                <span style="font-style: normal"><span style="font-weight: normal">&lt;div class=&quot;content&quot;&gt;</span></span></font>
+<font color="#000000">                                    <span style="font-style: normal"><span style="font-weight: normal">&lt;p&gt;</span></span></font>
+<font color="#000000">                                        <span style="font-style: normal"><span style="font-weight: normal">&lt;span class=&quot;title&quot;&gt;{{ weather.city }}&lt;/span&gt;</span></span></font>
+<font color="#000000">                                        <span style="font-style: normal"><span style="font-weight: normal">&lt;br&gt;</span></span></font>
+<font color="#000000">                                        <span style="font-style: normal"><span style="font-weight: normal">&lt;span class=&quot;subtitle&quot;&gt;{{ weather.temperature }}° F&lt;/span&gt;</span></span></font>
+<font color="#000000">                                        <span style="font-style: normal"><span style="font-weight: normal">&lt;br&gt; {{ weather.description }}</span></span></font>
+<font color="#000000">                                    <span style="font-style: normal"><span style="font-weight: normal">&lt;/p&gt;</span></span></font>
+<font color="#000000">                                <span style="font-style: normal"><span style="font-weight: normal">&lt;/div&gt;</span></span></font>
+<font color="#000000">                            <span style="font-style: normal"><span style="font-weight: normal">&lt;/div&gt;</span></span></font>
+<font color="#000000">                        <span style="font-style: normal"><span style="font-weight: normal">&lt;/article&gt;</span></span></font>
+<font color="#000000">                    <span style="font-style: normal"><span style="font-weight: normal">&lt;/div&gt;</span></span></font>
+<font color="#000000">                    <span style="font-style: normal"><span style="font-weight: normal">{% endfor %}</span></span></font>
+<font color="#000000">                <span style="font-style: normal"><span style="font-weight: normal">&lt;/div&gt;</span></span></font>
+<font color="#000000">            <span style="font-style: normal"><span style="font-weight: normal">&lt;/div&gt;</span></span></font>
+<font color="#000000">        <span style="font-style: normal"><span style="font-weight: normal">&lt;/div&gt;</span></span></font>
+<font color="#000000">    <span style="font-style: normal"><span style="font-weight: normal">&lt;/section&gt;</span></span></font>
+<font color="#000000">    <span style="font-style: normal"><span style="font-weight: normal">&lt;footer class=&quot;footer&quot;&gt;</span></span></font>
+<font color="#000000">    <span style="font-style: normal"><span style="font-weight: normal">&lt;/footer&gt;</span></span></font>
+<font color="#000000">&lt;/body&gt;</font>
+<span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">&lt;/html&gt;</span></span></font></span></pre>
 		</td>
 	</tr>
 </table>
