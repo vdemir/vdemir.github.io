@@ -5,7 +5,7 @@
 	<title></title>
 	<meta name="generator" content="LibreOffice 6.1.0.3 (Linux)"/>
 	<meta name="created" content="2018-08-25T17:05:13.149856541"/>
-	<meta name="changed" content="2018-08-25T20:08:00.845695332"/>
+	<meta name="changed" content="2018-08-25T20:13:09.231288957"/>
 	<style type="text/css">
 		@page { margin: 2cm }
 		p { margin-bottom: 0.25cm; line-height: 115% }
@@ -867,5 +867,132 @@ sonucudur. Bir şehir ve Las Vegas'ın hava durumunu eklemek için
 bir giriş göreceksiniz. Ancak, form çalışmıyor ve hava durumu
 yalnızca bir yer tutucudur, ancak endişelenmeyin, çünkü bu
 uygulama için bunları oluşturacağız.</font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>Weather
+API Kullanımı</b></font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt">Şimdi
+yapmak istediğimiz Açık Hava Haritası API'sına kaydolmak. Bu,
+uygulamamıza eklediğimiz herhangi bir şehir için gerçek hava
+durumunu almamıza izin verecektir. </font></font>
+</p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt">Siteye
+gidin, bir hesap oluşturun ve ardından kontrol panelindeki API
+tuşlarına gidin. Bir isim girin ve yeni bir API anahtarı
+oluşturun. Bu anahtar hava durumunu almak için API'yı kullanmamıza
+izin verecektir.</font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt">Kullanacağımız
+tek uç nokta aşağıdadır. Bu nedenle, API anahtarınızla
+aşağıdaki URL'yi değiştirerek ve tarayıcınızdaki URL’ye
+giderek döndürülen gerçek verileri görebilirsiniz. API
+anahtarınızın aktif olması birkaç dakika sürebilir, bu nedenle
+ilk başta çalışmazsa birkaç dakika sonra tekrar deneyin.</font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<table width="100%" cellpadding="4" cellspacing="0">
+	<col width="256*"/>
+
+	<tr>
+		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
+			<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt"><b>http://api.openweathermap.org/data/2.5/weather?q=las%20vegas&amp;units=metric&amp;appid=YOUR_APP_KEY</b></font></font></p>
+		</td>
+	</tr>
+</table>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt">With
+that, let's add in a request to get the data into our app.</font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt">First,
+we'll need to install requests so we can call the API from inside our
+app.</font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<table width="100%" cellpadding="4" cellspacing="0">
+	<col width="256*"/>
+
+	<tr>
+		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
+			<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>pip
+			install requests</b></font></font></p>
+		</td>
+	</tr>
+</table>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 10pt">Sahip
+olduğumuz URL'ye bir istek göndermek için dizin görünümümüzü
+güncelleyelim.</font></font></p>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<table width="100%" cellpadding="4" cellspacing="0">
+	<col width="256*"/>
+
+	<tr>
+		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
+			<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>#the_weather/weather/views.py</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>from
+			django.shortcuts import render</b></font></font></p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>import
+			requests</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>def
+			index(request):</b></font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>url
+			=
+			'http://api.openweathermap.org/data/2.5/weather?q={}&amp;units=imperial&amp;appid=YOUR_APP_KEY'</b></font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>city
+			= 'Las Vegas'</b></font></font></p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>city_weather
+			= requests.get(url.format(city)).json() #request the API data and
+			convert the JSON to Python data types</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 10pt"><b>return
+			render(request, 'weather/index.html') #returns the index.html
+			template</b></font></font></p>
+		</td>
+	</tr>
+</table>
+<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
 </body>
 </html>
