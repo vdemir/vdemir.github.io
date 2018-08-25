@@ -5,7 +5,7 @@
 	<title></title>
 	<meta name="generator" content="LibreOffice 6.1.0.3 (Linux)"/>
 	<meta name="created" content="2018-08-25T17:05:13.149856541"/>
-	<meta name="changed" content="2018-08-25T18:53:21.872688364"/>
+	<meta name="changed" content="2018-08-25T18:55:30.247714007"/>
 	<style type="text/css">
 		@page { margin: 2cm }
 		p { margin-bottom: 0.25cm; line-height: 115% }
@@ -360,6 +360,101 @@ oluşturmak için, sunucuyu CTRL + C ile durdurun ve çalıştırın:</span></sp
 <br/>
 
 </p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Light, sans-serif"><font size="2" style="font-size: 11pt">Startapp
+çalıştırarak, Django, projemize yeni bir dizin ve daha fazla
+dosya ekledi. </font></font>
+</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Light, sans-serif"><font size="2" style="font-size: 11pt">En
+son oluşturulan dosyalar ile, uygulama dizinimizde urls.py adlı
+yeni bir dosya oluşturalım.</font></font></p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<table width="100%" cellpadding="4" cellspacing="0">
+	<col width="256*"/>
+
+	<tr>
+		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
+			<font face="Clear Sans Light, sans-serif"><font size="2" style="font-size: 11pt">#the_weather/weather/urls.py</font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left"><font face="Clear Sans Light, sans-serif"><font size="2" style="font-size: 11pt">from
+			django.urls import path</font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left"><font face="Clear Sans Light, sans-serif"><font size="2" style="font-size: 11pt">urlpatterns
+			= [</font></font></p>
+			<p align="left"><font face="Clear Sans Light, sans-serif"><font size="2" style="font-size: 11pt">]</font></font></p>
+		</td>
+	</tr>
+</table>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Light, sans-serif"><font size="2" style="font-size: 11pt">Bu
+dosya, the_weather dizinindeki urls.py'ye benzer. Fark, bu urls.py
+dosyasının uygulamanın kendisi ile ilgili olan tüm URL'leri
+içermesidir. </font></font>
+</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Light, sans-serif"><font size="2" style="font-size: 11pt">Henüz
+bir URL belirtmiyoruz, ancak projemizi uygulamamız ve uygulamanıza
+özel tüm URL'leri uygulama urls.py dosyasına yönlendirecek
+şekilde projeyi ayarlayabiliriz. </font></font>
+</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Light, sans-serif"><font size="2" style="font-size: 11pt">Önce,
+INSTALLED_APPS listesine gidin ve bu uygulamayı listeye ekleyin.</font></font></p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<table width="100%" cellpadding="4" cellspacing="0">
+	<col width="256*"/>
+
+	<tr>
+		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
+			<font face="Clear Sans Light, sans-serif"><font size="2" style="font-size: 11pt"><b>#the_weather/the_weather/settings.py</b></font></font></p>
+			<p align="left"><font face="Clear Sans Light, sans-serif"><font size="2" style="font-size: 11pt"><b>...</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left"><font face="Clear Sans Light, sans-serif"><font size="2" style="font-size: 11pt"><b>INSTALLED_APPS
+			= [</b></font></font></p>
+			<p align="left">    <font face="Clear Sans Light, sans-serif"><font size="2" style="font-size: 11pt"><b>'django.contrib.admin',</b></font></font></p>
+			<p align="left">    <font face="Clear Sans Light, sans-serif"><font size="2" style="font-size: 11pt"><b>'django.contrib.auth',</b></font></font></p>
+			<p align="left">    <font face="Clear Sans Light, sans-serif"><font size="2" style="font-size: 11pt"><b>'django.contrib.contenttypes',</b></font></font></p>
+			<p align="left">    <font face="Clear Sans Light, sans-serif"><font size="2" style="font-size: 11pt"><b>'django.contrib.sessions',</b></font></font></p>
+			<p align="left">    <font face="Clear Sans Light, sans-serif"><font size="2" style="font-size: 11pt"><b>'django.contrib.messages',</b></font></font></p>
+			<p align="left">    <font face="Clear Sans Light, sans-serif"><font size="2" style="font-size: 11pt"><b>'django.contrib.staticfiles',</b></font></font></p>
+			<p align="left">    <font face="Clear Sans Light, sans-serif"><font size="2" style="font-size: 11pt"><b>'weather',</b></font></font></p>
+			<p align="left"><font face="Clear Sans Light, sans-serif"><font size="2" style="font-size: 11pt"><b>]</b></font></font></p>
+			<p align="left"><br/>
+
+			</p>
+			<p align="left"><font face="Clear Sans Light, sans-serif"><font size="2" style="font-size: 11pt"><b>...</b></font></font></p>
+		</td>
+	</tr>
+</table>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
