@@ -5,7 +5,7 @@
 	<title></title>
 	<meta name="generator" content="LibreOffice 6.1.0.3 (Linux)"/>
 	<meta name="created" content="2018-08-25T17:05:13.149856541"/>
-	<meta name="changed" content="2018-08-25T19:54:06.386520475"/>
+	<meta name="changed" content="2018-08-25T19:57:54.546336978"/>
 	<style type="text/css">
 		@page { margin: 2cm }
 		p { margin-bottom: 0.25cm; line-height: 115% }
@@ -310,7 +310,7 @@ oluşturmamız gerekiyor.</span></span></span></font></span></font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">Uygulamayı
+<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">Uygulamayı
 Oluşturmak</span></span></font></span></b></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Django'da,
@@ -537,27 +537,66 @@ projemiz basit olduğundan, burada yapmayacağız.</font></font></p>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><b>Template
+<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>Template
 and View Ekleme</b></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
 </p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><font face="Arial, Tahoma, Helvetica, sans-serif"><font size="2" style="font-size: 10pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Şimdi
+<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><font size="2" style="font-size: 10pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Şimdi
 yapacağımız ilk ilginç şey için. Şablonu projemize eklememiz
-gerekiyor.</span></span></span></font></font></font></span><b><br/>
+gerekiyor.</span></span></span></font></font></span><b><br/>
 <br/>
-</b><span style="font-variant: normal"><font color="#000000"><font face="Arial, Tahoma, Helvetica, sans-serif"><font size="2" style="font-size: 10pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Django'daki
+</b><span style="font-variant: normal"><font color="#000000"><font size="2" style="font-size: 10pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Django'daki
 bir şablon, şablonu dinamik yapan ekstra sözdizimine izin veren
 bir HTML dosyasıdır. Diğer şeylerin yanı sıra değişkenler,
-ifadeler ve döngüler eklemek gibi şeyleri yapabileceğiz.</span></span></span></font></font></font></span><b><br/>
+ifadeler ve döngüler eklemek gibi şeyleri yapabileceğiz.</span></span></span></font></font></span><b><br/>
 <br/>
-</b><span style="font-variant: normal"><font color="#000000"><font face="Arial, Tahoma, Helvetica, sans-serif"><font size="2" style="font-size: 10pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Başlamak
+</b><span style="font-variant: normal"><font color="#000000"><font size="2" style="font-size: 10pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Başlamak
 için, herhangi bir şablon sözdizimi içermeyen bir HTML dosyasına
-sahibim, ancak bu bizim başlamamız için yeterli olacaktır.</span></span></span></font></font></font></span><b><br/>
+sahibim, ancak bu bizim başlamamız için yeterli olacaktır.</span></span></span></font></font></span><b><br/>
 <br/>
-</b><span style="font-variant: normal"><font color="#000000"><font face="Arial, Tahoma, Helvetica, sans-serif"><font size="2" style="font-size: 10pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Bu
-dosyayı koymak için bir şablon dizini oluşturacağız.</span></span></span></font></font></font></span></font></font></p>
+</b><span style="font-variant: normal"><font color="#000000"><font size="2" style="font-size: 10pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Bu
+dosyayı koymak için bir şablon dizini oluşturacağız.</span></span></span></font></font></span></font></font></p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<table width="100%" cellpadding="4" cellspacing="0">
+	<col width="256*"/>
+
+	<tr>
+		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
+			<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt">cd
+			weather</font></font></p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt">mkdir
+			templates &amp;&amp; cd templates</font></font></p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt">mkdir
+			weather</font></font></p>
+		</td>
+	</tr>
+</table>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Ayrıca,
+uygulamamızla aynı ada sahip başka bir dizin oluşturduk. Bunu
+yaptık çünkü Django, sahip olduğumuz çeşitli uygulamalardan
+tüm şablon dizinlerini birleştiriyor. Dosya isimlerinin
+çoğaltılmasını önlemek için, kopyaları önlemek amacıyla
+uygulamamızın adını kullanabiliriz. </span></span></span></font></span></font></font>
+</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<br/>
+
+</p>
+<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Hava
+dizininin içinde index.html adlı yeni bir dosya oluşturun. Bu
+bizim ana şablonumuz olacak. İşte şablon için kullanacağımız
+HTML.</span></span></span></font></span></font></font></p>
 </body>
 </html>
