@@ -5,7 +5,7 @@
 	<title></title>
 	<meta name="generator" content="LibreOffice 6.1.0.3 (Linux)"/>
 	<meta name="created" content="2018-08-25T17:05:13.149856541"/>
-	<meta name="changed" content="2018-08-25T19:31:06.851601888"/>
+	<meta name="changed" content="2018-08-25T19:35:44.431203117"/>
 	<style type="text/css">
 		@page { margin: 2cm }
 		p { margin-bottom: 0.25cm; line-height: 115% }
@@ -18,17 +18,17 @@
 makalede, çeşitli şehirler için mevcut hava durumunu görüntüleyen
 basit bir Django uygulaması oluşturacağız. Mevcut hava durumu
 verilerini almak için Açık Hava Durumu Haritası API'sini
-kullanacağız.&nbsp;<br/>
+kullanacağız.<br/>
 <br/>
-Uygulamanın basit olmasına rağmen,
-bir veritabanı ile çalışacağız ve bir form oluşturacağız,
+Uygulamanın basit olmasına rağmen, bir
+veritabanı ile çalışacağız ve bir form oluşturacağız,
 böylece burada kullanılan kavramlar daha karmaşık projelere
-uygulanabilir.&nbsp;<br/>
+uygulanabilir.<br/>
 <br/>
-Bu makaledeki kod Python 3 ve Django
-2.0 ile yazılmıştır, bu nedenle bu eğiticiyi takip etmek için
-her ikisine de biraz aşina olmalısınız. Her ikisine de giriş
-yapmak isterseniz, İlk Python'u Oluştur ve Django Uygulaması adlı
+Bu makaledeki kod Python 3 ve Django 2.0
+ile yazılmıştır, bu nedenle bu eğiticiyi takip etmek için her
+ikisine de biraz aşina olmalısınız. Her ikisine de giriş yapmak
+isterseniz, İlk Python'u Oluştur ve Django Uygulaması adlı
 makalemize göz atın. Bu makale Django 1.X kullanıyor, ancak tek
 farkın URL'lerin nasıl tanımlandığıyla ilgili olduğunu
 göreceksiniz.</span></span></span></font></span></font></font></p>
@@ -55,11 +55,11 @@ yöntem de işe yarar, fakat bu yazı için pipenv kullanacağım.</span></span>
 <br/>
 
 </p>
-<table width="100%" cellpadding="4" cellspacing="0">
-	<col width="256*"/>
+<table width="336" cellpadding="4" cellspacing="0">
+	<col width="326"/>
 
 	<tr>
-		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left" style="orphans: 2; widows: 2">
+		<td width="326" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left" style="orphans: 2; widows: 2">
 			<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">pipenv
 			install django</span></span></font></span></b></font></font></p>
 		</td>
@@ -88,11 +88,11 @@ projeyi oluşturmanıza verdiği startproject komutunu
 <br/>
 
 </p>
-<table width="100%" cellpadding="4" cellspacing="0">
-	<col width="256*"/>
+<table width="336" cellpadding="4" cellspacing="0">
+	<col width="326"/>
 
 	<tr>
-		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left" style="orphans: 2; widows: 2">
+		<td width="326" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left" style="orphans: 2; widows: 2">
 			<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">django-admin
 			startproject the_weather</span></span></font></span></b></font></font></p>
 		</td>
@@ -119,11 +119,11 @@ manage.py komutunu kullanın:</span></span></span></font></span></font></font></
 <br/>
 
 </p>
-<table width="100%" cellpadding="4" cellspacing="0">
-	<col width="256*"/>
+<table width="336" cellpadding="4" cellspacing="0">
+	<col width="326"/>
 
 	<tr>
-		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left" style="margin-bottom: 0cm; orphans: 2; widows: 2">
+		<td width="326" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left" style="margin-bottom: 0cm; orphans: 2; widows: 2">
 			<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">cd
 			the_weather</span></span></font></span></b></font></font></p>
 			<p align="left" style="orphans: 2; widows: 2"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">python
@@ -195,17 +195,17 @@ komutu çalıştırarak, Django sizin için bir SQLite veritabanı
 oluşturdu, ayarlardaki varsayılan veritabanı ve bu veritabanına
 birkaç tablo ekledi. Proje dizininizde yeni bir db.sqlite3 dosyası
 görüyorsanız, veritabanının oluşturulup oluşturulmadığını
-bileceksiniz.&nbsp;<br/>
+bileceksiniz.<br/>
 <br/>
-Django tablolarından biri,
-uygulamamızdaki herhangi bir kullanıcıyı saklamak için
-kullanacağımız bir kullanıcı masasıdır. İnşa ettiğimiz
-uygulama herhangi bir kullanıcıya ihtiyaç duymuyor, ancak yönetici
-kullanıcısına sahip olmak, yönetici kontrol paneline erişmemize
-izin verecek.&nbsp;<br/>
+Django tablolarından biri, uygulamamızdaki
+herhangi bir kullanıcıyı saklamak için kullanacağımız bir
+kullanıcı masasıdır. İnşa ettiğimiz uygulama herhangi bir
+kullanıcıya ihtiyaç duymuyor, ancak yönetici kullanıcısına
+sahip olmak, yönetici kontrol paneline erişmemize izin
+verecek.<br/>
 <br/>
-Bir yönetici kullanıcısı
-oluşturmak için, createuperuser komutunu çalıştırırız.</span></span></span></font></span></font></font></p>
+Bir yönetici kullanıcısı oluşturmak için,
+createuperuser komutunu çalıştırırız.</span></span></span></font></span></font></font></p>
 <p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
 <br/>
 
@@ -485,24 +485,24 @@ ekliyoruz. Ayrıca, 'url.py' uygulamamıza işaret edebilmek için
 
 	<tr>
 		<td width="100%" valign="top" style="border: 1px solid #000000; padding: 0.1cm"><p align="left">
-			<font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><b>#the_weather/the_weather/urls.py</b></font></font></p>
+			<font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>#the_weather/the_weather/urls.py</b></font></font></p>
 			<p align="left"><br/>
 
 			</p>
-			<p align="left"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><b>from
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>from
 			django.contrib import admin</b></font></font></p>
-			<p align="left"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><b>from
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>from
 			django.urls import path, include</b></font></font></p>
 			<p align="left"><br/>
 
 			</p>
-			<p align="left"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><b>urlpatterns
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>urlpatterns
 			= [</b></font></font></p>
-			<p align="left">    <font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><b>path('admin/',
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>path('admin/',
 			admin.site.urls),</b></font></font></p>
-			<p align="left">    <font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><b>path('',
+			<p align="left">    <font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>path('',
 			include('weather.urls')),</b></font></font></p>
-			<p align="left"><font face="Clear Sans Thin, sans-serif"><font size="2" style="font-size: 11pt"><b>]</b></font></font></p>
+			<p align="left"><font face="DejaVu Sans Mono, monospace"><font size="2" style="font-size: 11pt"><b>]</b></font></font></p>
 		</td>
 	</tr>
 </table>
