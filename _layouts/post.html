@@ -13,20 +13,23 @@ layout: default
 
 {{ content }}
 
-{% assign Counter_en = 0 %}
-{% for post in site.posts limit:3 %}{% if post.lang == 'en' %}
-{% assign Counter_en = Counter_en | plus: 1 %}
-      {% endif %}
-    {% endfor %}
-{% assign Counter_tr = 0 %}
-{% for post in site.posts limit:3 %}{% if post.lang == 'en' %}
-{% assign Counter_tr = Counter_tr | plus: 1 %}
-      {% endif %}
-    {% endfor %}
 <br>
 <hr>
 <br>
 <br>
+
+{% assign Counter_tr = 0 %}
+{% assign Counter_en = 0 %}
+{% if page.lang == 'en' %}{% for post in site.posts limit:3 %}{% if post.lang == 'en' %}
+{% assign Counter_en = Counter_en | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+{% elsif page.lang == 'tr' %}{% for post in site.posts limit:3 %}{% if post.lang == 'tr' %}
+{% assign Counter_tr = Counter_tr | plus: 1 %}
+      {% endif %}
+    {% endfor %}{% endif %}
+
+
 {% if page.lang == 'en' %}{% if Counter_en != 0 %}
   <h3>Latest Posts</h3><ul class="posts">
     {% for post in site.posts limit:3 %}{% if post.lang == 'en' %}
