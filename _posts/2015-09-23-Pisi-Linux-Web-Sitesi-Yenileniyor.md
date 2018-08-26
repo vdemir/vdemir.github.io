@@ -9,12 +9,16 @@ published: true
 lang: tr
 ---
 
+{% if page.lang == 'tr' %}
 {% assign months = "Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık" | split: "|" %}
 {% assign m = page.date | date: "%-m" | minus: 1 %}
 {% assign day = page.date | date: "%d" %}
 {% assign month = months[m] %}
 {% assign year = page.date | date: "%Y" %}
 <p class="meta">{{ day }} {{ month }} {{ year }} - Türkiye</p>
+{% elsif page.lang == 'en' %}
+<p class="meta">{{ page.date | date_to_string }} - Türkiye</p>
+{% endif %}
 
 Pisi Linux web sitesi statik öğelerin olduğu yeni içeriğiyle tasarlanmaya başlandı. Ayrıca forum alanı yeniden düzenlenecek, farklı bir işlev ile tekrar yazılacak. Pisi Linux 2.0 için çalışmaların devam ettiğ bu aşamada yeni bir site ile karşınızda olmayı umuyoruz. Pisi Linux takımı topluluktan aldığı destekle ile yine çok iyi işler çıkarıyor.
 

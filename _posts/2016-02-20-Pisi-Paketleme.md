@@ -8,12 +8,16 @@ published: true
 lang: tr
 ---
 
+{% if page.lang == 'tr' %}
 {% assign months = "Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık" | split: "|" %}
 {% assign m = page.date | date: "%-m" | minus: 1 %}
 {% assign day = page.date | date: "%d" %}
 {% assign month = months[m] %}
 {% assign year = page.date | date: "%Y" %}
 <p class="meta">{{ day }} {{ month }} {{ year }} - Türkiye</p>
+{% elsif page.lang == 'en' %}
+<p class="meta">{{ page.date | date_to_string }} - Türkiye</p>
+{% endif %}
 
 Pisi Linux Dağıtımında kullandığımız pisi paket sistemi python dilinde yazılmış paket yapımı ve kurulumu gibi araçları içeren bir uygulamadır. 
 
