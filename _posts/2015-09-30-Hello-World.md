@@ -16,7 +16,7 @@ lang: tr
 {% assign year = page.date | date: "%Y" %}
 <p class="meta">{{ day }} {{ month }} {{ year }} - Türkiye</p>
 {% elsif page.lang == 'en' %}
-<p class="meta">{{ page.date | date_to_string }} - Türkiye</p>
+<p class="meta">{{ page.date | date_to_string }} - Turkey</p>
 {% endif %}
 
 Programlama dilleri hakkında kısa bilgi vereceğimiz bu yazımızda örneğine çokça yer verilen ```Hello World``` programlarını farklı dillerde yazacağız.

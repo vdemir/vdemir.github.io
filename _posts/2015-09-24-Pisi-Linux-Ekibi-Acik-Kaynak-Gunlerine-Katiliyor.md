@@ -16,7 +16,7 @@ lang: tr
 {% assign year = page.date | date: "%Y" %}
 <p class="meta">{{ day }} {{ month }} {{ year }} - Türkiye</p>
 {% elsif page.lang == 'en' %}
-<p class="meta">{{ page.date | date_to_string }} - Türkiye</p>
+<p class="meta">{{ page.date | date_to_string }} - Turkey</p>
 {% endif %}
 
 Bu sene Pisi Linux ekibininde katılacağı etkinlik 11 Ekim Pazar günü Ankara'da düzenleniyor. Pisi Linux dağıtımı ve projelerinin de tanıtılacağı etkinlikte birde atölye çalışması yapılacak. Katılımın yüksek olacağını düşünerek arkadaşlarımıza kolaylıklar diliyorum. Her ne kadar katılamasakta etkinliğin çok güzel geçeceğini tahmin ediyorum.

@@ -17,7 +17,7 @@ lang: tr
 {% assign year = page.date | date: "%Y" %}
 <p class="meta">{{ day }} {{ month }} {{ year }} - Türkiye</p>
 {% elsif page.lang == 'en' %}
-<p class="meta">{{ page.date | date_to_string }} - Türkiye</p>
+<p class="meta">{{ page.date | date_to_string }} - Turkey</p>
 {% endif %}
 
 Pisi Linux dağıtımında ve benzer şekilde diğer linux dağıtımlarında Jekyll ile blog yapımı nasıldır? Öncelikle Jekyll'in tanımını yaparak başlayalım. Jekyll, düz metinlerinizi statik blog ve web sitesi formuna  dönüştürmenizi sağlayan site üretecidir.

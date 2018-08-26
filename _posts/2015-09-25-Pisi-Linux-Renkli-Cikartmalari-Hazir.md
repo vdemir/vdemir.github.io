@@ -16,7 +16,7 @@ lang: tr
 {% assign year = page.date | date: "%Y" %}
 <p class="meta">{{ day }} {{ month }} {{ year }} - Türkiye</p>
 {% elsif page.lang == 'en' %}
-<p class="meta">{{ page.date | date_to_string }} - Türkiye</p>
+<p class="meta">{{ page.date | date_to_string }} - Turkey</p>
 {% endif %}
 
 Pisi Linux tanıtımı için tasarlanan renkli çıkartma örnekleri GIMP kullanılarak hazırlandı. 

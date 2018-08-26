@@ -16,7 +16,7 @@ lang: tr
 {% assign year = page.date | date: "%Y" %}
 <p class="meta">{{ day }} {{ month }} {{ year }} - Türkiye</p>
 {% elsif page.lang == 'en' %}
-<p class="meta">{{ page.date | date_to_string }} - Türkiye</p>
+<p class="meta">{{ page.date | date_to_string }} - Turkey</p>
 {% endif %}
 
 RSI başka sebeplerle bağlantılı da olsa genellikle bilgisayar ve klavye kullanmayla ilgili mesleğe dayalı bir rahatsızlıktır.
