@@ -53,7 +53,6 @@ latest post
 relatedPosts
 -->  
 <div class="relatedPosts">
-{% assign mCTags =  3 %}
 {% assign mRelated = 3 %}
 {% assign mRCounter = 0 %}
     {% assign sTagCount = 0 %}
@@ -72,7 +71,7 @@ relatedPosts
       {% endif %}
   {% endfor %}
 
-{% if sTagCount == mCTags %}
+{% if sTagCount = 3 %}
 {% if page.lang == 'en' %}
   <h3>Related Posts</h3>{% elsif page.lang == 'tr' %}<h3>İlgili İçerikler</h3>{% endif %}
     {% endif %}
