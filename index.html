@@ -37,26 +37,27 @@ excerpt: Günlük Blog Yazıları
 {% endif %}
 {% include archive.html %}
 
+
 <!-- CSS Code -->
 <style type="text/css" scoped>
 table.GeneratedTable {
 width:100%;
 background-color:#FFFFFF;
 border-collapse:collapse;border-width:1px;
-border-color:#66FFFF;
+border-color:#FFFFFF;
 border-style:solid;
-color:#009900;
+color:#6699CC;
 }
 
 table.GeneratedTable td, table.GeneratedTable th {
 border-width:1px;
-border-color:#66FFFF;
+border-color:#FFFFFF;
 border-style:solid;
 padding:3px;
 }
 
 table.GeneratedTable thead {
-background-color:#CCFF99;
+background-color:#FFFFFF;
 }
 </style>
 
@@ -65,21 +66,23 @@ background-color:#CCFF99;
 <thead>
 <tr>
 <th>Şehir</th>
-<th>Header Cell 2</th>
-<th>Header Cell 3</th>
-<th>Header Cell 4</th>
-<th>Header Cell 5</th>
-<th>Header Cell 6</th>
+<th>Sıcaklık</th>
+<th>Hava</th>
+<th>Nem</th>
+<th>Rüzgar Hızı</th>
+<th>Gün Doğumu</th>
+<th>Gün Batımı</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><span class="weather-place"></span></td>
-<td>Row 1, Cell 2</td>
-<td>Row 1, Cell 3</td>
-<td>Row 1, Cell 4</td>
-<td>Row 1, Cell 5</td>
-<td>Row 1, Cell 6</td>
+<td><span class="weather-temperature"></span></td>
+<td><span class="weather-description capitalize"></span></td>
+<td><span class="weather-humidity"></span></td>
+<td><span class="weather-wind-speed"></span></td>
+<td><span class="weather-sunrise"></span></td>
+<td><span class="weather-sunset"></span></td>
 </tr>
 </tbody>
 </table>
