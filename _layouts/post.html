@@ -73,7 +73,7 @@ relatedPosts
       {% endif %}
     {% endfor %}
 
-    {% if sameTagCount >= minCommonTags %}
+    {% if sTagCount >= mCommonTags %}
       {% assign mRelatedCounter = mRelatedCounter | plus: 1 %}
       {% if mRelatedCounter >= mRelated %}
         {% break %}
