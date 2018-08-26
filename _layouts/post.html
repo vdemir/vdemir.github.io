@@ -54,9 +54,6 @@ relatedPosts
 -->  
 <div class="relatedPosts">
 
-{% if page.lang == 'en' %}{% if Counter_en != 0 %}
-  <h3>Related Posts</h3>{% endif %}{% elsif page.lang == 'tr' %}{% if Counter_tr != 0 %}<h3>İlgili İçerikler</h3>{% endif %}{% endif %}
-  
 
 {% assign maxRelated = 3 %}
 {% assign minCommonTags =  3 %}
@@ -78,6 +75,9 @@ relatedPosts
 
   <ul class="posts">
     {% if sameTagCount >= minCommonTags %}
+{% if page.lang == 'en' %}
+  <h3>Related Posts</h3>{% elsif page.lang == 'tr' %}<h3>İlgili İçerikler</h3>{% endif %}
+  
       <div>
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}" style="text-decoration: none; color:#3E2723; cursor:pointer">{{ post.title }}, {{ commonTags }}</a></li>
       </div>
@@ -90,6 +90,11 @@ relatedPosts
   {% endfor %}
   </ul>
 </div>
+
+
+<!---
+comments
+-->  
 {% if page.comments != false %}
 <div id="disqus_thread"></div>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
