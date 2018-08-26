@@ -71,78 +71,7 @@
       <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.tr" title="Creative Commons License" target="_blank"><i class="fas fa-closed-captioning fa-4x " aria-hidden="true"></i></a>
 {% endif %} 
     </div>
-<a><span class="weather-place"></span>
-<span class="weather-temperature"></span><a/>
     </div>
 </div>
-
-<!-- CSS Code -->
-<style type="text/css" scoped>
-table.GeneratedTable {
-width:100%;
-background-color:#FFFFFF;
-border-collapse:collapse;border-width:1px;
-border-color:#FFFFFF;
-border-style:solid;
-color:#6699CC;
-}
-
-table.GeneratedTable td, table.GeneratedTable th {
-border-width:1px;
-border-color:#FFFFFF;
-border-style:solid;
-padding:3px;
-}
-
-table.GeneratedTable thead {
-background-color:#FFFFFF;
-}
-</style>
-
-
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
-	<script>
-		if (typeof jQuery == 'undefined') {
-			document.write(unescape("%3Cscript src='/scripts/jquery.1.9.1.min.js' type='text/javascript'%3E%3C/script%3E"));
-		}
-	</script>
-
-	<script src="/scripts/openweather.min.js"></script>
-
-	<script>
-
-		$(function() {
-
-			$('.weather-temperature').openWeather({
-				lang: 'tr',
-				key: '21ff7887fe67c2f13557f973192685c1',
-				city: 'Seferihisar',
-				descriptionTarget: '.weather-description',
-				windSpeedTarget: '.weather-wind-speed',
-				minTemperatureTarget: '.weather-min-temperature',
-				maxTemperatureTarget: '.weather-max-temperature',
-				humidityTarget: '.weather-humidity',
-				sunriseTarget: '.weather-sunrise',
-				sunsetTarget: '.weather-sunset',
-				placeTarget: '.weather-place',
-				iconTarget: '.weather-icon',
-				customIcons: '/images/icons/weather/',
-				success: function(data) {
-					// show weather
-					$('.weather-wrapper').show();
-					console.log(data);
-				},
-				error: function(data) {
-					console.log(data.error);
-					$('.weather-wrapper').remove();
-				}
-			});
-
-		});
-
-	</script>
-
 </body>
 </html>
