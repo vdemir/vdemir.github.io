@@ -54,6 +54,8 @@ relatedPosts
 -->  
 <div class="relatedPosts">
 {% assign mCTags =  3 %}
+{% assign mRelated = 3 %}
+{% assign mRCounter = 0 %}
 {% for post in site.posts %}
     {% assign sTagCount = 0 %}
     {% assign cTags = '' %}
@@ -67,6 +69,10 @@ relatedPosts
         {% endif %}
       {% endif %}
     {% endfor %}
+      {% assign mRCounter = mRCounter | plus: 1 %}
+      {% if mRCounter >= mRelated %}
+        {% break %}
+      {% endif %}
   {% endfor %}
     {% if sTagCount >= mCTags %}
 
