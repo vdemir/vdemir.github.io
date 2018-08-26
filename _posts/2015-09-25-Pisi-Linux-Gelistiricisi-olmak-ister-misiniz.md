@@ -8,8 +8,12 @@ published: true
 lang: tr
 ---
 
-
-<p class="meta">26 Eylül 2015 - Türkiye</p>
+{% assign months = "Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık" | split: "|" %}
+{% assign m = page.date | date: "%-m" | minus: 1 %}
+{% assign day = page.date | date: "%d" %}
+{% assign month = months[m] %}
+{% assign year = page.date | date: "%Y" %}
+<p class="meta">{{ day }} {{ month }} {{ year }} - Türkiye</p>
 
 Pisi Linux geliştiricisi olmak gerçekten çok kolaydır çünkü herkesin mutlaka yeteneğine göre yapabileceği bir iş var. Pisi Linux tarafında da işler bundan pek farklı işlemiyor. Her ne kadar gönüllülük esas olsada herkes mutlaka ilgi alanına giren bir işte katkı sağlayabilir. Pisi Linux devinim içinde olan ve yazılım güncellemeleri konusuna azami özen gösteren bir dağıtımdır. Devam edecek ...
 

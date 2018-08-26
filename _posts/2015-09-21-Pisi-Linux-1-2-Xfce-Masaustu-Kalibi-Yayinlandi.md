@@ -8,8 +8,12 @@ published: true
 lang: tr
 ---
  
-
-<p class="meta">23 Eylül 2015 - Türkiye</p>
+{% assign months = "Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık" | split: "|" %}
+{% assign m = page.date | date: "%-m" | minus: 1 %}
+{% assign day = page.date | date: "%d" %}
+{% assign month = months[m] %}
+{% assign year = page.date | date: "%Y" %}
+<p class="meta">{{ day }} {{ month }} {{ year }} - Türkiye</p>
 
 Pisi Linux 1.2 serisinin için mevcut olan Xfce paketleri ile kurulabilen bir kalıp hazırlandı ve yayınlandı. Diğer masaüstüler içinde -örneğin LXQT, GNOME, Openbox için- önümüzdeki günlerde kalıpların yayınlanmasını bekliyoruz.
 

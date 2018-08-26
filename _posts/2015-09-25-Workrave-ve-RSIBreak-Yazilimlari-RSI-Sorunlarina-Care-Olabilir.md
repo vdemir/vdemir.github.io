@@ -7,9 +7,13 @@ comments: true
 published: true
 lang: tr
 ---
- 
 
-<p class="meta">25 Eylül 2015 - Türkiye</p>
+{% assign months = "Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık" | split: "|" %}
+{% assign m = page.date | date: "%-m" | minus: 1 %}
+{% assign day = page.date | date: "%d" %}
+{% assign month = months[m] %}
+{% assign year = page.date | date: "%Y" %}
+<p class="meta">{{ day }} {{ month }} {{ year }} - Türkiye</p>
 
 RSI başka sebeplerle bağlantılı da olsa genellikle bilgisayar ve klavye kullanmayla ilgili mesleğe dayalı bir rahatsızlıktır.
 

@@ -7,8 +7,13 @@ comments: true
 published: true
 lang: tr
 ---
- 
-<p class="meta">24 Eylül 2015 - Türkiye</p>
+
+{% assign months = "Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık" | split: "|" %}
+{% assign m = page.date | date: "%-m" | minus: 1 %}
+{% assign day = page.date | date: "%d" %}
+{% assign month = months[m] %}
+{% assign year = page.date | date: "%Y" %}
+<p class="meta">{{ day }} {{ month }} {{ year }} - Türkiye</p>
 
 Bu sene Pisi Linux ekibininde katılacağı etkinlik 11 Ekim Pazar günü Ankara'da düzenleniyor. Pisi Linux dağıtımı ve projelerinin de tanıtılacağı etkinlikte birde atölye çalışması yapılacak. Katılımın yüksek olacağını düşünerek arkadaşlarımıza kolaylıklar diliyorum. Her ne kadar katılamasakta etkinliğin çok güzel geçeceğini tahmin ediyorum.
 
