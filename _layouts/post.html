@@ -56,9 +56,8 @@ relatedPosts
 {% assign mCTags =  3 %}
 {% assign mRelated = 3 %}
 {% assign mRCounter = 0 %}
-{% for post in site.posts %}
     {% assign sTagCount = 0 %}
-    {% assign cTags = '' %}
+{% for post in site.posts %}
 
     {% for tag in post.tags %}
       {% if post.url != page.url %}
