@@ -64,8 +64,6 @@ relatedPosts
       {% if post.url != page.url %}
         {% if page.tags contains tag %}
           {% assign sTagCount = sTagCount | plus: 1 %}
-          {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
-          {% assign cTags = cTags | append: tagmarkup %}
         {% endif %}
       {% endif %}
     {% endfor %}
@@ -74,8 +72,8 @@ relatedPosts
         {% break %}
       {% endif %}
   {% endfor %}
-    {% if sTagCount >= mCTags %}
 
+{% if sTagCount >= mCTags %}
 {% if page.lang == 'en' %}
   <h3>Related Posts</h3>{% elsif page.lang == 'tr' %}<h3>İlgili İçerikler</h3>{% endif %}
     {% endif %}
