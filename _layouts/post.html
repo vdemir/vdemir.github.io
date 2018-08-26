@@ -4,12 +4,12 @@ layout: default
 
 
 <h1>{{ page.title }}</h1>
-<span>[
+<span>
   {% for tag in page.tags %}
     {% capture tag_name %}{{ tag }}{% endcapture %}
     <a href="{{ site.baseurl }}/tag/{{ tag_name }}" style="text-decoration: none; color:#3E2723; cursor:pointer"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
   {% endfor %}
-]</span>
+</span>
 
 {{ content }}
 
