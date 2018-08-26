@@ -13,24 +13,34 @@ layout: default
 
 {{ content }}
 
+{% assign Counter_en = 0 %}
+{% for post in site.posts limit:3 %}{% if post.lang == 'en' %}
+{% assign Counter_en = Counter_en | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+{% assign Counter_tr = 0 %}
+{% for post in site.posts limit:3 %}{% if post.lang == 'en' %}
+{% assign Counter_tr = Counter_tr | plus: 1 %}
+      {% endif %}
+    {% endfor %}
 <br>
 <hr>
 <br>
 <br>
-{% if page.lang == 'en' %}
+{% if page.lang == 'en' %}{% if Counter_en != 0 %}
   <h3>Latest Posts</h3><ul class="posts">
     {% for post in site.posts limit:3 %}{% if post.lang == 'en' %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" style="text-decoration: none; color:#3E2723; cursor:pointer">{{ post.title }}</a></li>{% endif %}
-    {% endfor %}
+    {% endfor %}{% endif %}
   </ul>
 
-{% elsif page.lang == 'tr' %}
+{% elsif page.lang == 'tr' %}{% if Counter_tr != 0 %}
 
 <h3>En Yeni İçerikler</h3>
 <ul class="posts">
     {% for post in site.posts limit:3 %}{% if post.lang == 'tr' %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" style="text-decoration: none; color:#3E2723; cursor:pointer">{{ post.title }}</a></li>{% endif %}
-    {% endfor %}
+    {% endfor %}{% endif %}
 </ul>{% endif %}
 
   
