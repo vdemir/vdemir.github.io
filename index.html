@@ -6,7 +6,6 @@ excerpt: Günlük Blog Yazıları
 
   <h1> <i class="fab fa-blogger-b fa-1x"></i>  Blog Posts</h1>
 
-{% include search.html %}
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" style="text-decoration: none; color:#1A237E; cursor:pointer" >{{ post.title }}</a></li>
