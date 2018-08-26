@@ -17,7 +17,9 @@ layout: default
 <hr>
 <br>
 <br>
-
+<!---
+latest post
+-->
 {% assign Counter_tr = 0 %}
 {% assign Counter_en = 0 %}
 {% if page.lang == 'en' %}{% for post in site.posts limit:3 %}{% if post.lang == 'en' %}
@@ -46,11 +48,14 @@ layout: default
     {% endfor %}{% endif %}
 </ul>{% endif %}
 
-  
+
+<!---
+relatedPosts
+-->  
 <div class="relatedPosts">
 
-{% if page.lang == 'en' %}
-  <h3>Related Posts</h3>{% elsif page.lang == 'tr' %}<h3>İlgili İçerikler</h3>{% endif %}
+{% if page.lang == 'en' %}{% if Counter_en != 0 %}
+  <h3>Related Posts</h3>{% endif %}{% elsif page.lang == 'tr' %}{% if Counter_tr != 0 %}<h3>İlgili İçerikler</h3>{% endif %}{% endif %}
   
 
 {% assign maxRelated = 3 %}
