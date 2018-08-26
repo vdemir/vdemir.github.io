@@ -5,7 +5,7 @@
 </div>
 
 <!-- Script pointing to search-script.js -->
-<script src="{{ site.baseurl }}/scripts/search-script.js" type="text/javascript"></script>
+<script src="{{ site.baseurl }}/scripts/search-script.min.js" type="text/javascript"></script>
 
 <!-- Configuration -->
 <script>
