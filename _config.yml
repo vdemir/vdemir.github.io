@@ -26,4 +26,5 @@ comments:
   disqus:
     shortname: "vdemir-github-io"
 
-
+plugins_dir:
+  - jekyll-lunr-js-search
