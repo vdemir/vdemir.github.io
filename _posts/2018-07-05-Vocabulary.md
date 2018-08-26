@@ -3,7 +3,7 @@ layout: post
 title: Lügatçe
 date:   2018-06-26 13:52:00
 excerpt: "Vocabulary, Pronunciation, English Words, Turkish Meaning"
-tags:   English Kelime Dictionary Turkish
+tags:   English Kelime Dictionary Turkish Word
 comments: false
 published: true
 lang: tr
