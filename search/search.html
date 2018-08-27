@@ -71,8 +71,9 @@ function lunr_search(term) {
     .lunrsearchresult a:hover .title {text-decoration: underline;}
 </style>
 
-<script src="{{ site.baseurl }}/scripts/js/lunr.min.js"></script>
+<script src="{{ site.baseurl }}/scripts/js/lunr.js"></script>
 
+<script src="{{ site.baseurl }}/scripts/js/search.js"></script>
 <form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
     <p><input type="text" class="form-control" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Search via Lunr.js" /></p>
 </form>
