@@ -15,13 +15,10 @@ layout: default
 {% assign day = page.date | date: "%d" %}
 {% assign month = months[m] %}
 {% assign year = page.date | date: "%Y" %}
-({{ day }} {{ month }} {{ year }})
+<p class="meta">{{ day }} {{ month }} {{ year }} - Türkiye</p>
 
 {% elsif page.lang == 'en' %}
-({{ post.date | date_to_string }})
-{% endif %}
-
-<br>
+({{ post.date | date_to_string }}){% endif %}<br>
     {{ post.description }}
   </li>
 {% endfor %}
