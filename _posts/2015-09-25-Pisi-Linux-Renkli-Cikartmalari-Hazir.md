@@ -22,8 +22,5 @@ Pisi Linux tanıtımı için tasarlanan renkli çıkartma örnekleri GIMP kullan
 
 
 {% include dist.html %}
-
-
-<br>
-{% include last_day.html %}
+ 
 

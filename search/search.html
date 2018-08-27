@@ -39,7 +39,7 @@ sitemap: false
 <script src="{{ site.baseurl }}/scripts/js/search.js"></script>
 
 
-
+{% include last_day.html %}
 {% for post in site.posts %}
     {% if post.lang == 'tr' and post.categories contains 'programming' %}
         {{ post.title }}

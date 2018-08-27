@@ -21,8 +21,4 @@ Pisi Linux tanıtımı için tasarlanan siyah-beyaz çıkartma örnekleri GIMP k
 
 
 {% include dist.html %}
-
-
-<br>
-{% include last_day.html %}
-
+ 
