@@ -2,7 +2,7 @@
 layout: post
 title:  Hello World!
 date:   2015-09-30 12:00:00
-tags:   Flask QML Programlama Pisi Linux
+tags:   Flask UygÇatı QML Programlama
 comments: true
 published: true
 lang: tr
