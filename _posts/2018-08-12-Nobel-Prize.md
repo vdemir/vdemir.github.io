@@ -14,7 +14,6 @@ lang: tr
 
 _By Vedat Demir*_
 
-<br>
 <div style="clear:both"></div>
 
 <style>
