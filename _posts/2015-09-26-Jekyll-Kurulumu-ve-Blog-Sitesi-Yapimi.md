@@ -8,7 +8,7 @@ published: true
 lang: tr
 ---
 Last modified at: {{ site.time }}
-<!-- Proudly Hosted on GitHub | Generated {{ site.time }} | Revision {{ site.github.build_revision }} -->
+Proudly Hosted on GitHub | Generated {{ site.time }} | Revision {{ site.github.build_revision }}
 {% if page.lang == 'tr' %}
 {% assign months = "Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık" | split: "|" %}
 {% assign m = page.date | date: "%-m" | minus: 1 %}
