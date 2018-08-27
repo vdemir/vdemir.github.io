@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Etkili Sözler 
+title: Etkileyici Sözler 
 date:   2018-08-12 15:52:00
 tags:   Kelime
 comments: false
@@ -14,8 +14,7 @@ lang: tr
 
 _By Vedat Demir*_
 
-### Sözler - The List of Words
-***
+
 <br>
 <div style="clear:both"></div>
 
