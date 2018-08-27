@@ -39,9 +39,12 @@ sitemap: false
 <script src="{{ site.baseurl }}/scripts/js/search.js"></script>
 
 
-<ul>
-{% assign posts = site.posts | sort: 'last_modified_at' %}
-{% for post in posts %}
-  <li>{{ post.title }} (original post date: {{ post.date }})</li>
+<ul>{% for page in site.pages %}
+{{ page.title}} | {{ page.last_modified_at | date: '%s' }}
 {% endfor %}
 </ul>
+
+
+
+
+
