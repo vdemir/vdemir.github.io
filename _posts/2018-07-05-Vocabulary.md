@@ -39,3 +39,8 @@ img.resize {
   max-height:90%;
 }
 </style>
+
+
+
+<br>
+{% include last_day.html %}
