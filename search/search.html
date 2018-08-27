@@ -8,6 +8,8 @@ search_omit: false
 sitemap: false
 ---
 
+{% include last_day.html %}
+
 <form action="{{ site.baseurl }}/search/" method="get">
 	<input type="search" name="q" placeholder="Ne bilmek istiyorsun?" data-search-input id="goog-wm-qt" autofocus><input type="submit" value="Ara" id="goog-wm-sb" />
 </form>
@@ -40,6 +42,7 @@ sitemap: false
 
 
 {% include last_day.html %}
+
 {% for post in site.posts %}
     {% if page.lang == 'tr' and post.categories contains 'programming' %}
         {{ post.title }}
