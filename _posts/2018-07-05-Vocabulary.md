@@ -3,7 +3,7 @@ layout: post
 title: Lügatçe
 date:   2018-06-26 13:52:00
 excerpt: "Kelime Hazinesi, Telâffuz"
-tags:   Kelime Sözlük
+tags:   Kelime Sözlük Telâffuz
 comments: false
 published: true
 lang: tr
