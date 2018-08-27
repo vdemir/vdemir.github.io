@@ -11,10 +11,10 @@ layout: default
 
 {% if post.lang == 'tr' %}
 {% assign months = "Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık" | split: "|" %}
-{% assign m = page.date | date: "%-m" | minus: 1 %}
-{% assign day = page.date | date: "%d" %}
+{% assign m = post.date | date: "%-m" | minus: 1 %}
+{% assign day = post.date | date: "%d" %}
 {% assign month = months[m] %}
-{% assign year = page.date | date: "%Y" %}
+{% assign year = post.date | date: "%Y" %}
 ({{ day }} {{ month }} {{ year }})
 
 {% elsif post.lang == 'en' %}
