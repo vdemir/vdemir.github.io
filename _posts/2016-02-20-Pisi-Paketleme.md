@@ -31,7 +31,7 @@ img.resize {
 </style> 
 
 
-**Distributed**
+***Distributed***
 
 ### Pisi Linux dağıtımının kararlı sürümleri:
 
