@@ -35,23 +35,6 @@ img.resize {
 
 {% include dist.html %}
 
-<html>
-        <title>Table Example</title>
-        <style>
-            table {
-                border-collapse: collapse;
-                width: 100%;
-            }
-            th, td {
-                border: 1px solid #ccc;
-                padding: 10px;
-            }
-            table.alt tr:nth-child(even) {
-                background-color: #eee;
-            }
-            table.alt tr:nth-child(odd) {
-                background-color: #fff;
-            }            
-        </style>
- </html> 
 
+<br>
+{% include last_day.html %}
