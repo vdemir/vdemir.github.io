@@ -7,7 +7,7 @@ comments: true
 published: true
 lang: tr
 ---
-<!-- Last modified at: {{ site.time }} -->
+Last modified at: {{ site.time }}
 <!-- Proudly Hosted on GitHub | Generated {{ site.time }} | Revision {{ site.github.build_revision }} -->
 {% if page.lang == 'tr' %}
 {% assign months = "Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık" | split: "|" %}
