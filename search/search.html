@@ -39,8 +39,8 @@ sitemap: false
 <script src="{{ site.baseurl }}/scripts/js/search.js"></script>
 
 
-<ul>{% for page in site.pages %}
-{{ page.title}} | {{ page.last_modified_at | date: '%s' }}
+<ul>{% for post in site.posts %}
+{{ ppost.title}} | {{ post.last_modified_at | date: '%s' }}
 {% endfor %}
 </ul>
 
