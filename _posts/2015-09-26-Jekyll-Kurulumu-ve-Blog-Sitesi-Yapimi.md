@@ -9,7 +9,7 @@ lang: tr
 ---
 
 {{ post.last_modified_at | date: '%Y:%B:%A:%d:%S:%R' }} 
-{% last_modified_at %}
+
 
 {% if page.lang == 'tr' %}
 {% assign months = "Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık" | split: "|" %}
