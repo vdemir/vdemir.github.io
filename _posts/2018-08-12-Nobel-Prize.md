@@ -142,4 +142,3 @@ Bu bölüm, politik devlet olmadan faaliyet gösteren özgür bir toplumun, bug�
 <p>"for his development of theory and methods for analyzing discrete choice"</p>
 <div class="by_year_clear"></div>
 		</div>
-{% include last_day.html %}
