@@ -14,10 +14,8 @@ lang: tr
 {% assign day = page.date | date: "%d" %}
 {% assign month = months[m] %}
 {% assign year = page.date | date: "%Y" %}
-Son değişim: {{ site.time }} | Revision {{ site.github.build_revision }}
 <p class="meta">{{ day }} {{ month }} {{ year }} - Türkiye</p>
 {% elsif page.lang == 'en' %}
-Last modified at: {{ site.time }}
 <p class="meta">{{ page.date | date_to_string }} - Turkey</p>
 {% endif %}
 
@@ -95,3 +93,7 @@ img.resize {
         </style>
  </html> 
  <br>
+
+Last modified at: {{ site.time }}
+Proudly Hosted on GitHub |  {{ site.time }} | Revision {{ site.github.build_revision }}
+
