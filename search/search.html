@@ -1,4 +1,3 @@
- 
 ---
 layout: post
 tags: Search
@@ -9,29 +8,37 @@ search_omit: false
 sitemap: false
 ---
 
-<div class="search-page">
-	
-<form class="form-inline my-5" action="{{ site.baseurl }}/search.html" method="get">
-		<i class="fas fa-search mr-3" aria-hidden="true"></i>
-		<input class="form-control" type="text" id="search-box" placeholder="Search" name="query">
-		<input class="btn btn-green btn-sm" type="submit" value="SEARCH">
-	</form>
-	<ul id="search-results"></ul>
-</div>
+<form action="{{ site.baseurl }}/search/" method="get">
+	<input type="search" name="q" placeholder="Ne bilmek istiyorsun?" data-search-input id="goog-wm-qt" autofocus><input type="submit" value="Ara" id="goog-wm-sb" />
+</form>
+
+<span id="search-query-container" style="display: none;">"<strong id="search-query"></strong>"</span></p>
+<ul id="search-results"></ul>
+
 <script>
-	window.store = {
+	window.data = {
 		{% for post in site.posts %}
-		"{{ post.url | slugify }}": {
-			"title": "{{ post.title | xml_escape }}",
-			"author": "{{ post.author | xml_escape }}",
-			"category": "{{ post.category | xml_escape }}",
-			"content": {{ post.content | strip_html | strip_newlines | jsonify }},
-			"url": "{{ post.url | xml_escape }}"
-		}
-		{% unless forloop.last %},{% endunless %}
+			{% if post.title %}
+				{% unless post.excluded_in_search %}
+					{% if added %},{% endif %}
+					{% assign added = false %}
+					"{{ post.url | slugify }}": {
+						"id": "{{ post.url | slugify }}",
+						"title": "{{ post.title | xml_escape }}",
+						"categories": "{{ post.categories | join: ", " | xml_escape }}",
+						"url": " {{ post.url | xml_escape }}",
+						"content": {{ post.content | strip_html | replace_regex: "[\s/\n]+"," " | strip | jsonify }}
+					}
+					{% assign added = true %}
+				{% endunless %}
+			{% endif %}
 		{% endfor %}
 	};
 </script>
+<script src="//unpkg.com/lunr@1.0.0/lunr.js"></script>
+<script src="{{ site.baseurl }}/scripts/js/search.js"></script>
+
 
 <script src="{{ site.baseurl }}/assets/js/tools/lunr.js"></script>
 <script src="{{ site.baseurl }}/assets/js/search.js"></script>
+
