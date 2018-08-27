@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: Search
+tags: Search in Blog Post
 permalink: /search/
 comments: false
 published: true
@@ -37,12 +37,6 @@ sitemap: false
 </script>
 <script src="//unpkg.com/lunr@1.0.0/lunr.js"></script>
 <script src="{{ site.baseurl }}/scripts/js/search.js"></script>
-
-
-<ul>{% for post in site.posts %}
-{{ ppost.title}} | {{ post.last_modified_at | date: '%s' }}
-{% endfor %}
-</ul>
 
 
 
