@@ -70,8 +70,10 @@
       <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.tr" title="Creative Commons License" target="_blank"><i class="fas fa-closed-captioning fa-4x " aria-hidden="true"></i></a>
 {% endif %} 
     </div>
+<form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+    <p><input type="text" class="form-control" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Search via Lunr.js" /></p>
+</form>
     </div>
 </div>
 </body>
-{% include search-lunr.html %}
 </html>
