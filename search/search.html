@@ -41,7 +41,7 @@ sitemap: false
 
 {% include last_day.html %}
 {% for post in site.posts %}
-    {% if post.lang == 'tr' and post.categories contains 'programming' %}
+    {% if page.lang == 'tr' and post.categories contains 'programming' %}
         {{ post.title }}
     {% endif %}
 {% endfor %}
