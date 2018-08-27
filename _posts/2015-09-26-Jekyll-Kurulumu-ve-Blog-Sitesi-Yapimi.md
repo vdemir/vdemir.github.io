@@ -85,15 +85,3 @@ img.resize {
  </html> 
  <br>
 
-{% if page.lang == 'tr' %}
-
-<p class="meta">
-Değişim: {{ site.time }}</p>
-Rev. {{ site.github.build_revision }}
-
-{% elsif page.lang == 'en' %}
-
-<p class="meta">Last modified at: {{ site.time }} | Rev. {{ site.github.build_revision }}</p>
-
-{% endif %}
-

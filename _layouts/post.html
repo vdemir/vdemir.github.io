@@ -39,6 +39,17 @@ table.GeneratedTable thead {
 background-color:#CCFF99;
 }
 </style>
+{% if page.lang == 'tr' %}
+<!-- HTML Code -->
+<table class="GeneratedTable">
+<tbody>
+<tr>
+<td>Değişti {{ site.time }}</td>
+<td>Rev. {{ site.github.build_revision }}</td>
+</tr>
+</tbody>
+</table>
+{% elsif page.lang == 'en' %}
 
 <!-- HTML Code -->
 <table class="GeneratedTable">
@@ -49,8 +60,7 @@ background-color:#CCFF99;
 </tr>
 </tbody>
 </table>
-
-
+{% endif %}
 <hr>
 <br>
 <br>
