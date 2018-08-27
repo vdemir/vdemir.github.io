@@ -9,7 +9,7 @@ layout: default
 {% for post in site.tags[page.tag] %}
   <li><a href="{{ post.url }}" style="text-decoration: none; color:#388E3C; cursor:pointer">{{ post.title }}</a> 
 
-{% if page.lang == 'tr' %}
+{% if post.lang == 'tr' %}
 {% assign months = "Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık" | split: "|" %}
 {% assign m = page.date | date: "%-m" | minus: 1 %}
 {% assign day = page.date | date: "%d" %}
@@ -17,7 +17,7 @@ layout: default
 {% assign year = page.date | date: "%Y" %}
 ({{ day }} {{ month }} {{ year }})
 
-{% elsif page.lang == 'en' %}
+{% elsif post.lang == 'en' %}
 ({{ post.date | date_to_string }}){% endif %}<br>
     {{ post.description }}
   </li>
