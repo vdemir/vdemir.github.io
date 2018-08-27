@@ -93,7 +93,13 @@ img.resize {
         </style>
  </html> 
  <br>
+{% if page.lang == 'tr' %}
 
-Last modified at: {{ site.time }}
-Proudly Hosted on GitHub |  {{ site.time }} | Revision {{ site.github.build_revision }}
+Son Değişiklik: {{ site.time }} | Revision {{ site.github.build_revision }}
+
+{% elsif page.lang == 'en' %}
+
+Last modified at: {{ site.time }} | Revision {{ site.github.build_revision }}
+
+{% endif %}
 
