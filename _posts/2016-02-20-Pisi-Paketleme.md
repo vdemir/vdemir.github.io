@@ -31,7 +31,5 @@ img.resize {
 </style> 
 
 {% include dist.html %}
-
-
 <br>
 {% include last_day.html %}
