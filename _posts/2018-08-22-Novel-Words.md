@@ -78,5 +78,3 @@ lang: tr
 		<h3 style="margin: 5px 0 5px 0; padding: 0;"><i class="fas fa-award fa-1x" style="color:gray;"></i> <a>Honesty is not always the best policy.</a></h3>
 <h6 style="margin: 0 0 5px 0; padding: 0;"><a>Dürüstlük her zaman en iyi politika değildir.</a></h6>
 </div>
-
-{% include last_day.html %}
