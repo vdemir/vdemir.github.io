@@ -40,7 +40,3 @@ img.resize {
 }
 </style>
 
-
-
-<br>
-{% include last_day.html %}
