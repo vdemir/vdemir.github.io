@@ -84,9 +84,10 @@ img.resize {
         </style>
  </html> 
  <br>
+
 {% if page.lang == 'tr' %}
 
-Son Değişiklik: {{ site.time }} | Revision {{ site.github.build_revision }}
+Son Değişim Tarihi: {{ site.time }} | Revision {{ site.github.build_revision }}
 
 {% elsif page.lang == 'en' %}
 
