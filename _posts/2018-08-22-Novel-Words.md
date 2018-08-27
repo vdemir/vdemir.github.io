@@ -11,7 +11,7 @@ lang: tr
 {% include tr_ay.html %}
 
 {% include CSS.html %}
-<b>
+<br>
 <div style="clear:both"></div>
 
 <style>
