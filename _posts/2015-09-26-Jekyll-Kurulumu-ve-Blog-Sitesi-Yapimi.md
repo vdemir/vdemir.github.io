@@ -87,7 +87,7 @@ img.resize {
 
 {% if page.lang == 'tr' %}
 
-<p class="meta">Son Değişim Tarihi: {{ site.time }} | Revision {{ site.github.build_revision }}</p>
+<p class="meta">Değişim: {{ site.time }} | Revision {{ site.github.build_revision }}</p>
 
 {% elsif page.lang == 'en' %}
 
