@@ -11,9 +11,7 @@ lang: tr
 {% include tr_ay.html %}
 
 {% include CSS.html %}
-
-_By Vedat Demir*_
-
+<br>
 <div style="clear:both"></div>
 
 <style>
