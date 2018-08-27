@@ -8,16 +8,7 @@ published: true
 lang: tr
 ---
 
-{% if page.lang == 'tr' %}
-{% assign months = "Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık" | split: "|" %}
-{% assign m = page.date | date: "%-m" | minus: 1 %}
-{% assign day = page.date | date: "%d" %}
-{% assign month = months[m] %}
-{% assign year = page.date | date: "%Y" %}
-<p class="meta">{{ day }} {{ month }} {{ year }} - Türkiye</p>
-{% elsif page.lang == 'en' %}
-<p class="meta">{{ page.date | date_to_string }} - Turkey</p>
-{% endif %}
+{% include tr_ay.html %}
 
 Pisi Linux dağıtımında ve benzer şekilde diğer linux dağıtımlarında Jekyll ile blog yapımı nasıldır? Öncelikle Jekyll'in tanımını yaparak başlayalım. Jekyll, düz metinlerinizi statik blog ve web sitesi formuna  dönüştürmenizi sağlayan site üretecidir.
 
