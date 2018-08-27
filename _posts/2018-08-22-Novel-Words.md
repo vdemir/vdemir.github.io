@@ -12,8 +12,6 @@ lang: tr
 
 {% include CSS.html %}
 
-_By Vedat Demir*_
-
 <div style="clear:both"></div>
 
 <style>
