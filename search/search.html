@@ -40,5 +40,10 @@ sitemap: false
 
 
 
+{% for post in site.posts %}
+    {% if post.lang == 'tr' and post.categories contains 'programming' %}
+        {{ post.title }}
+    {% endif %}
+{% endfor %}
 
 
