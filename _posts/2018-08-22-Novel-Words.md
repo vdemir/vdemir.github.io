@@ -2,7 +2,7 @@
 layout: post
 title: Etkili Sözler 
 date:   2018-08-12 15:52:00
-tags:   English Word Turkish
+tags:   Kelime
 comments: false
 published: true
 lang: tr
