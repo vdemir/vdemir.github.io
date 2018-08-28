@@ -79,6 +79,8 @@ sitemap: false
 </script>
 <script src="/scripts/openweather.min.js"></script>
 
+
+<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 {{ page.last_modified_at }}
 {{ page.path | file_date | date_to_string }}
 <ul>
