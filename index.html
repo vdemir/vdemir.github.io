@@ -5,18 +5,25 @@ excerpt: Günlük Blog Yazıları
 ---
 
   <h1> <i class="fab fa-blogger-b fa-1x"></i>  Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>{% if page.lang == 'tr' %}
+
+{% if page.lang == 'tr' %}
 {% assign months = "Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık" | split: "|" %}
 {% assign m = page.date | date: "%-m" | minus: 1 %}
 {% assign day = page.date | date: "%d" %}
 {% assign month = months[m] %}
 {% assign year = page.date | date: "%Y" %}
-<span>{{ day }} {{ month }} {{ year }}</span>
+{% assign tr_date = {{ day }} {{ month }} {{ year }}
 {% elsif page.lang == 'en' %}
-<span>{{ page.date | date_to_string }}</span>
-{% endif %} &raquo; <a href="{{ post.url }}" style="text-decoration: none; color:#1A237E; cursor:pointer" >{{ post.title }}</a></li>
+{% assign en_date = {{ page.date | date_to_string }}
+{% endif %}
+
+
+
+  <ul class="posts">
+    {% for post in site.posts %}
+{% if page.lang == 'tr' %}
+      <li><span>tr_date</span> {% elsif page.lang == 'en' %}<span>en_date</span>{% endif %}
+&raquo; <a href="{{ post.url }}" style="text-decoration: none; color:#1A237E; cursor:pointer" >{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 
