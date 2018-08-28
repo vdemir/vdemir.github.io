@@ -476,330 +476,257 @@ giderek döndürülen gerçek verileri görebilirsiniz. API
 anahtarınızın aktif olması birkaç dakika sürebilir, bu nedenle
 ilk başta çalışmazsa birkaç dakika sonra tekrar deneyin.</p>
 
-<table width="100%" cellpadding="4" cellspacing="0">
-	<col width="256*"/>
 
-	<tr>
-		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: none; padding: 0cm">
-			<p align="left" style="font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2">
-			<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">http://api.openweathermap.org/data/2.5/weather?q=las%20vegas&amp;units=metric&amp;appid=YOUR_APP_KEY</font></font></font></p>
-		</td>
-	</tr>
-</table>
+<div style="background-color:#F5F5F5;color:#DD2C00;padding:20px;">
+<span style="font-size: medium;">http://api.openweathermap.org/data/2.5/weather?q=las%20vegas&amp;units=metric&amp;appid=YOUR_APP_KEY</span>
+</div>
 
-<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">Bununla,
-verileri uygulamamıza eklemek için bir istek ekleyelim.</span></span></font></span><br/>
-<br/>
-<span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal">Önce,
+<p>Bununla,
+verileri uygulamamıza eklemek için bir istek ekleyelim.</p>
+<p>Önce,
 uygulamanızı içinden API’yi çağırabilmek için istekleri
-yüklememiz gerekecek.</span></span></font></span></font></font></p>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-
-</p><table width="100%" cellpadding="4" cellspacing="0">
-	<col width="256*"/>
-
-	<tr>
-		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: none; padding: 0cm">
-			<p align="left" style="font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2">
-			<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">pip
-			install requests</font></font></font></p>
-		</td>
-	</tr>
-</table>
+yüklememiz gerekecek.</p>
 
 
-<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Sahip
+<div style="background-color:#F5F5F5;color:#DD2C00;padding:20px;">
+<span style="font-size: medium;">pip install requests</span>
+</div>
+
+
+<p>Sahip
 olduğumuz URL'ye bir istek göndermek için dizin görünümümüzü
-güncelleyelim.</font></font></p>
+güncelleyelim.</p>
 
-<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bu
+<p>Bu
 üç satırda, istek gönderecek URL’yi ekliyoruz. Kullanıcıların
 kendi şehirlerini ekleyebilmelerine izin verdiğimiz zaman, şehir
-için bir yer tutucuyuz. </font></font>
+için bir yer tutucuyuz.
 </p>
 
-<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Şimdilik
+<p>Şimdilik
 şehri Las Vegas olarak ayarlayacağız, ancak daha sonra bu veri
-tabanından şehirlere ayarlanacak. </font></font>
+tabanından şehirlere ayarlanacak.
 </p>
 
-<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Son
+<p>Son
 olarak, isteği kullanarak şehri kullanarak URL'ye göndeririz ve o
 şehrin JSON temsilini alırız. Bunu konsola yazdırırsak, URL'yi
 adres çubuğumuza koyduğumuzda gördüğümüz verilerin aynısını
-görebiliriz. </font></font>
+görebiliriz.
 </p>
 
-<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Sunucunuzu
+<p>Sunucunuzu
 yeniden başlatırsanız ve sayfayı yeniden yüklerseniz, verilerin
-konsolunuza yazdırıldığını görürsünüz.</font></font></p>
-<br/>
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="4" style="font-size: 14pt"><b>6. Şablondaki
-Verileri Görüntüleme</b></font></font></font></p><hr/>
+konsolunuza yazdırıldığını görürsünüz.</p>
 
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Ardından,
+
+<h2 id="horizontal-menu" class="subheader">6. Şablondaki Verileri Görüntüleme</h2><hr/>
+
+<p>Ardından,
 verileri kullanıcıya göstermesi için kullanıcıya vermemiz
-gerekiyor. </font></font></font>
+gerekiyor.
 </p>
 
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">İhtiyacımız
+<p>İhtiyacımız
 olan tüm verileri saklamak için bir sözlük oluşturalım. Bize
-gönderilen verilerin temp, açıklama ve ikonuna ihtiyacımız var.</font></font></font></p>
+gönderilen verilerin temp, açıklama ve ikonuna ihtiyacımız var.</p>
 
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Şimdi
+<p>Şimdi
 istediğimiz tüm bilgiler, bunu şablona aktarabiliriz. Şablona
 aktarmak için içerik denen bir değişken oluşturacağız. Bu,
 değerlerini şablonun içinde kullanmamıza izin veren bir sözlük
-olacaktır.</span></span></span></font></span></font></font></p>
+olacaktır.</p>
 
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Ve
+<p>Ve
 sonra render olarak, içeriği üçüncü argüman olarak
-ekleyeceğiz. </font></font></font>
+ekleyeceğiz.
 </p>
 
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bağlam
+<p>Bağlam
 içinde eklenen hava durumu verileriyle, verileri eklemek için
-şablona gidelim. </font></font></font>
+şablona gidelim.
 </p>
 
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Şablonun
+<p>Şablonun
 içinde, tek yapmamız gereken, girdiğim değerler yerine
 değişkenleri kullanmak için HTML'yi değiştirmektir. Değişkenler
 {{}} etiketlerini kullanacak ve içerik sözlüğünüzün içindeki
-herhangi bir şeye referans göstereceklerdir. </font></font></font>
+herhangi bir şeye referans göstereceklerdir.
 </p>
 
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Django'nun
+<p>Django'nun
 sözlük tuşlarını dönüştürdüğünü unutmayın, böylece
 sadece nokta notasyonu kullanarak bunlara erişebilirsiniz. Örneğin,
 weather.city bize şehir adını verecektir. Python'da yaptığımız
-gibi hava ['şehir'] kullanmıyoruz. </font></font></font>
+gibi hava ['şehir'] kullanmıyoruz.
 </p>
 
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Kutunun
-adını bulun ve buna güncelleyin:</span></span></span></font></span></font></font></p>
+<p>Kutunun
+adını bulun ve buna güncelleyin:</p>
 
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Değiştirilen
+<p>Değiştirilen
 tüm değişkenler ile, şimdi şehrimiz için mevcut hava durumunu
-görmeliyiz.</font></font></font></p>
+görmeliyiz.</p>
  
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Harika!
+<p>Harika!
 Şimdi bir şehrin hava durumunu görebiliriz, ama şehri kodlamak
 zorunda kaldık. Şimdi yapmak istediğimiz, veritabanından çekip
-veritabanımızdaki şehirleri gösteriyor. </font></font></font>
+veritabanımızdaki şehirleri gösteriyor.
 </p>
  
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bunu
+<p>Bunu
 yapmak için, hava durumunu bilmek istediğimiz şehirleri tutmak
 için veritabanımızda bir tablo oluşturacağız. Bunun için bir
-model oluşturacağız. </font></font></font>
+model oluşturacağız.
 </p>
  
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Hava
+<p>Hava
 durumu uygulamanızdaki models.py adresine gidin ve aşağıdakileri
-ekleyin:</font></font></font></p>
+ekleyin:</p>
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/d10.png" alt="programs" class="resize" />
   <p><small>Weather &bull; models.py</small></p>
 </div>
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bu,
+<p>Bu,
 veritabanımızda isim olarak adlandırılan ve şehrin adı olan bir
 sütuna sahip bir tablo oluşturacaktır. Bu şehir sadece bir ip
-olan bir charfield olacak. </font></font></font>
+olan bir charfield olacak.
 </p>
  
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Veritabanındaki
+<p>Veritabanındaki
 bu değişiklikleri almak için, veritabanını güncellemek ve bu
 değişiklikleri uygulamak için geçiş yapmak üzere kod üretmek
 için makemigrations komutunu çalıştırmamız gerekir. Şimdi bunu
-yapalım.</font></font></font></p>
+yapalım.</p>
  
-<table width="100%" cellpadding="4" cellspacing="0">
-	<col width="256*"/>
 
-	<tr>
-		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: none; padding: 0cm"><p align="left" style="font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2">
-			<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">python
-manage.py makemigrations</font></font></font></p>
-		</td>
-	</tr>
-</table>
-<table width="100%" cellpadding="4" cellspacing="0">
-	<col width="256*"/>
+<div style="background-color:#F5F5F5;color:#DD2C00;padding:20px;">
+<span style="font-size: medium;">python manage.py makemigrations</span>
+<span style="font-size: medium;">python manage.py migrate</span>
+</div>
 
-	<tr>
-		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: none; padding: 0cm"><p align="left" style="font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2">
-			<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">python
-manage.py migrate</font></font></font></p>
-		</td>
-	</tr>
-</table>
-
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bu
+<p>Bu
 modeli yönetici kontrol panelimizde görebileceğimiz yere yapmamız
-gerekiyor. Bunu yapmak için, onu admin.py dosyasına kaydetmeliyiz.</font></font></font></p>
+gerekiyor. Bunu yapmak için, onu admin.py dosyasına kaydetmeliyiz.</p>
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/d11.png" alt="programs" class="resize" />
   <p><small>Weather &bull; admin.py</small></p>
 </div>
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Kenti
-yönetici kontrol panelinde bir seçenek olarak görürsünüz.</font></font></font></p>
+
+<p>Kenti
+yönetici kontrol panelinde bir seçenek olarak görürsünüz.</p>
  
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Daha
+<p>Daha
 sonra yönetici kontrol paneline gidip bazı şehirleri
-ekleyebiliriz. Üç ile başlayacağım: Londra, Tokyo ve Las Vegas.</font></font></font></p>
+ekleyebiliriz. Üç ile başlayacağım: Londra, Tokyo ve Las Vegas.</p>
  
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Veritabanındaki
+<p>Veritabanındaki
 girişlerle, bu girdileri bizim görüşümüzle sorgulamamız
 gerekir. Şehir modelini içe aktararak ve ardından bu modeli tüm
-nesneler için sorgulayarak başlayın.</span></span></span></font></span></font></font></p>
+nesneler için sorgulayarak başlayın.</p>
 
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Şehirlerin
+<p>Şehirlerin
 listesi olduğundan, bunların üstesinden gelmek ve her biri için
 hava durumunu almak ve sonunda şablona geçirilecek bir listeye
-eklemek istiyoruz. </font></font></font>
-</p>
+eklemek istiyoruz.</p>
  
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bu,
+<p>Bu,
 ilk durumda yaptığımızın bir varyasyonudur. Diğer fark ise, her
 sözlüğü bir listeye ekliyor ve ekliyoruz. Orijinal şehir
-değişkenini döngüdeki bir şehir değişkenine göre kaldırırız.</font></font></font></p>
+değişkenini döngüdeki bir şehir değişkenine göre kaldırırız.</p>
  
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Cool,
+<p>Cool,
 bu yüzden verilere sahibiz. Şimdi, tek bir sözlük yerine bu
-listeyi geçmek için içeriği güncelleyelim.</font></font></font></p>
+listeyi geçmek için içeriği güncelleyelim.</p>
  
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Ardından,
+<p>Ardından,
 şablonun içinde, bu listeye geçip listedeki her şehir için
 HTML'yi oluşturmamız gerekiyor. Bunu yapmak için, şehir için tek
-bir kutu oluşturan HTML'nin etrafında bir döngü oluşturabiliriz.</span></span></span></font></span></font></font></p>
+bir kutu oluşturan HTML'nin etrafında bir döngü oluşturabiliriz.</p>
  
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Korku
+<p>Korku
 veren! Şimdi veritabanında sahip olduğumuz tüm şehirlerin
-verilerini görebiliyoruz.</font></font></font></p>
-<br/> 
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="4" style="font-size: 14pt"><b>7. Formu
-Oluşturmak</b></font></font></font></p><hr/>
+verilerini görebiliyoruz.</p>
+
+<h2 id="horizontal-menu" class="subheader">7. Formu Oluşturmak</h2><hr/>
+
  
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Yapmak
+<p>Yapmak
 istediğimiz son şey, kullanıcının doğrudan formda bir kullanıcı
-eklemesine izin vermektir. </font></font></font>
+eklemesine izin vermektir.
 </p>
  
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bunu
+<p>Bunu
 yapmak için bir form oluşturmamız gerekiyor. Formu doğrudan
 oluşturabiliriz, ancak formumuz modelimizle tam olarak aynı alana
-sahip olacağından, bir ModelForm kullanabiliriz. </font></font></font>
+sahip olacağından, bir ModelForm kullanabiliriz.
 </p>
  
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Forms.py
-adlı yeni bir dosya oluşturun.</font></font></font></p>
+<p>Forms.py
+adlı yeni bir dosya oluşturun.</p>
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/d13.png" alt="programs" class="resize" />
   <p><small>Weather &bull; forms.py</small></p>
 </div>
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Formu
+
+<p>Formu
 görmek için, bunu kendi görünümünde oluşturmalı ve şablona
-aktarmalıyız. </font></font></font>
+aktarmalıyız.
 </p>
  
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Bunu
+<p>Bunu
 yapmak için, formu oluşturmak için dizin videosunu güncelleyelim.
 Artık ihtiyacımız olmadığından eski şehir değişkenini aynı
 anda değiştireceğiz. Ayrıca, formun şablona geçirilmesi için
-içeriği güncellememiz gerekir.</span></span></span></font></span></font></font></p>
+içeriği güncellememiz gerekir.</p>
  
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Şimdi
+<p>Şimdi
 şablonda, görünümünden formu kullanmak için form bölümünü
 ve Django'daki POST istekleri için gerekli olan bir csrf_token'i
-güncelleyelim.</span></span></span></font></span></font></font></p>
+güncelleyelim.</p>
  
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">HTML
+<p>HTML
 çalışmamızdaki form ile birlikte, form verilerini geldiğinde ele
 almamız gerekiyor. Bunun için, bir POST isteğini kontrol eden bir
 blok oluşturuyoruz. Hava durumu verilerini yakalamaya başlamadan
 önce, istek türüne ilişkin kontrolleri eklememiz gerekiyor.
-Böylece, eklediğimiz şehir için verileri hemen alıyoruz.</span></span></span></font></span></font></font></p>
+Böylece, eklediğimiz şehir için verileri hemen alıyoruz.</p>
  
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Request.POST
-ileterek, form verilerini doğrulayabileceğiz. </font></font></font>
+<p>Request.POST
+ileterek, form verilerini doğrulayabileceğiz.
 </p>
  
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Artık
+<p>Artık
 bir şehrin adını yazabilmeniz, eklemeyi tıklayabileceğinizi ve
 görebildiğinizi görebilmeniz gerekir. Miami'yi bir sonraki şehir
-olarak ekleyeceğim.</font></font></font></p>
+olarak ekleyeceğim.</p>
  
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Eğer
+<p>Eğer
 bloktan çıkarsak, form yeniden oluşturulur, böylece seçersek
 başka bir şehir ekleyebiliriz. Kodun geri kalanı aynı şekilde
-davranacaktır.</font></font></font></p>
-<br/> 
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="4" style="font-size: 14pt"><b>Sonuç</b></font></font></font></p><hr/>
- 
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Ve
+davranacaktır.</p>
+
+
+<h2 id="horizontal-menu" class="subheader">Sonuç</h2><hr/>
+
+<p>Ve
 bu kadar! Uygulamamızdaki birden çok şehir için hava durumunu
-takip etmenin bir yolunu şimdi sunuyoruz. </font></font></font>
+takip etmenin bir yolunu şimdi sunuyoruz.
 </p>
  
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bu
+<p>Bu
 yazıda, bu çalışmayı elde etmek için çeşitli Django
 parçalarıyla çalışmak zorunda kaldık: görüşler, modeller,
 formlar ve şablonlar. Ayrıca gerçek hava durumu verilerini almak
 için Python kitaplık isteklerini kullanmak zorunda kaldık. Bu
 nedenle, uygulama basit olsa da, uygulamalarda aynı kavramların
-çoğunu daha karmaşık bir şekilde kullanacaksınız. </font></font></font>
+çoğunu daha karmaşık bir şekilde kullanacaksınız.</font>
 </p>
  
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Django,
+<p>Django,
 modellerinin tartışmasız en önemli parçası hakkında daha fazla
 bilgi edinmek isterseniz, Django Database Essentials adlı ücretsiz
-kursuma katılabilirsiniz.</font></font></font></p>
+kursuma katılabilirsiniz.</p>
