@@ -7,7 +7,16 @@ excerpt: Günlük Blog Yazıları
   <h1> <i class="fab fa-blogger-b fa-1x"></i>  Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{% include tr_ay.html %}</span> &raquo; <a href="{{ post.url }}" style="text-decoration: none; color:#1A237E; cursor:pointer" >{{ post.title }}</a></li>
+      <li><span>{% if page.lang == 'tr' %}
+{% assign months = "Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık" | split: "|" %}
+{% assign m = page.date | date: "%-m" | minus: 1 %}
+{% assign day = page.date | date: "%d" %}
+{% assign month = months[m] %}
+{% assign year = page.date | date: "%Y" %}
+<p class="meta">{{ day }} {{ month }} {{ year }}</p>
+{% elsif page.lang == 'en' %}
+<p class="meta">{{ page.date | date_to_string }}</p>
+{% endif %}</span> &raquo; <a href="{{ post.url }}" style="text-decoration: none; color:#1A237E; cursor:pointer" >{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 
