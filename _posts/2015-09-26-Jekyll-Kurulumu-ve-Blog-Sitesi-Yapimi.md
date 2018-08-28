@@ -3,6 +3,7 @@ layout: post
 title:  Jekyll Kurulumu ve Blog Sitesi Yapımı
 date:   2015-09-26 12:00:00
 tags:   Jekyll Linux Web Uyg
+categories: Uyg.
 comments: true
 published: true
 lang: tr
