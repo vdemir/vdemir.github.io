@@ -39,8 +39,6 @@ sitemap: false
 <script src="{{ site.baseurl }}/scripts/js/search.js"></script>
 
 
-{% include last_day.html %}
-
 {% for post in site.posts %}
     {% if page.lang == 'tr' and post.categories contains 'programming' %}
         {{ post.title }}
@@ -68,4 +66,5 @@ sitemap: false
 
 <link rel="stylesheet" href="{{ site.baseurl }}/css/hava.css" type="text/css" >
 <script src="{{ site.baseurl }}/scripts/hava.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 {% include hava.html %}
