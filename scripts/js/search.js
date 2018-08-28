@@ -53,7 +53,7 @@ layout: null
 			preview = preview.replace(new RegExp("(" + parts.join("|") + ")", "gi"), "<strong>$1</strong>");
 		} else {
 			// Use start of content if no match found
-			preview = content.substring(0, previewLength).trim() + (content.length > previewLength ? "..." : "");
+			preview = content.substring(0, previewLength).trim() + (content.length > previewLength ? "..." : "g");
 		}
 
 		return preview;
