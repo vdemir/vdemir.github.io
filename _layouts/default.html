@@ -75,7 +75,7 @@
 {% if page.title != 'Günce' %}   
 <a href="{{ site.baseurl }}/" title="Home"><i class="fas fa-home fa-3x " aria-hidden="true"></i></a>{% endif %} 
 
-{% if page.url != "/search.html" %}
+{% if page.url == "{{ site.baseurl }}/" %}
 
 <form action="{{ site.baseurl }}/search/" method="get">
 	<input type="search" name="q" placeholder="Ne bilmek istiyorsun?" data-search-input id="goog-wm-qt" ><input type="submit" value="Ara" id="goog-wm-sb" />
