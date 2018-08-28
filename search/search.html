@@ -79,18 +79,4 @@ sitemap: false
 </script>
 <script src="/scripts/openweather.min.js"></script>
 
-    {% for post in site.posts %}
-    <url>
-        <loc>http://foo.com{{ post.url | remove: 'index.html' }}</loc>
-    </url>
-    {% endfor %}
 
-    {% for page in site.pages %}
-    {% if page.layout != nil %}
-    {% if page.layout != 'feed' %}
-    <url>
-        <loc>http://foo.com{{ page.url | remove: 'index.html' }}</loc>
-    </url>
-    {% endif %}
-    {% endif %}
-    {% endfor %}
