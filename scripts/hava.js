@@ -1,5 +1,4 @@
 
-
 		$(function() {
 
 			$('.weather-temperature').openWeather({
