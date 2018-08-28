@@ -4,6 +4,7 @@ title: Lügatçe
 date:   2018-06-26 13:52:00
 excerpt: "Kelime Hazinesi, Telâffuz"
 tags:   Kelime Sözlük Telâffuz
+categories: Dil
 comments: false
 published: true
 lang: tr
