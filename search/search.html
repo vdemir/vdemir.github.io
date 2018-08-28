@@ -79,18 +79,4 @@ sitemap: false
 </script>
 <script src="/scripts/openweather.min.js"></script>
 
-<span class="post-meta">
-  <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-  {% if post.last_modified_at %}
-  (Updated: <time datetime="{{ post.last_modified_at | date_to_xmlschema }}">{{ post.last_modified_at | date: "%b %-d, %Y" }}</time>)
-  {% endif %}
-</span>
-<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-{{ page.last_modified_at }}
-{{ page.path | file_date | date_to_string }}
-<ul>
-{% assign posts = site.posts | sort: 'last_modified_at' %}
-{% for post in posts %}
-  <li>{{ post.title }} (original post date: {{ post.date }})</li>
-{% endfor %}
-</ul>
+{{ post.last_modified_at | date: "%b %-d, %Y" }}
