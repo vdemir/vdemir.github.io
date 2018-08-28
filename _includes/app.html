@@ -372,121 +372,90 @@ projemiz basit olduğundan, burada yapmayacağız.</p>
 yapacağımız ilk ilginç şey için. Şablonu projemize eklememiz
 gerekiyor.</p>
 
-</b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Django'daki
+<p>Django'daki
 bir şablon, şablonu dinamik yapan ekstra sözdizimine izin veren
 bir HTML dosyasıdır. Diğer şeylerin yanı sıra değişkenler,
-ifadeler ve döngüler eklemek gibi şeyleri yapabileceğiz.</span></span></span></font></span><b><br/>
-<br/>
-</b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Başlamak
+ifadeler ve döngüler eklemek gibi şeyleri yapabileceğiz.</p>
+
+<p>Başlamak
 için, herhangi bir şablon sözdizimi içermeyen bir HTML dosyasına
-sahibim, ancak bu bizim başlamamız için yeterli olacaktır.</span></span></span></font></span><b><br/>
-<br/>
-</b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Bu
-dosyayı koymak için bir şablon dizini oluşturacağız.</span></span></span></font></span></font></font></p>
+sahibim, ancak bu bizim başlamamız için yeterli olacaktır.</p>
+<p>Bu
+dosyayı koymak için bir şablon dizini oluşturacağız.</p>
+<div style="background-color:#F5F5F5;color:#DD2C00;padding:20px;">
+<span style="font-size: medium;">cd weather</span>
+<br><span style="font-size: medium;">mkdir templates</span>
+<br><span style="font-size: medium;">cd templates</span>
+<br><span style="font-size: medium;">mkdir weather</span>
+</div> 
 
-<table width="100%" cellpadding="4" cellspacing="0">
-	<col width="256*"/>
-
-	<tr>
-		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: none; padding: 0cm"><p align="left" style="margin-bottom: 0.5cm">
-			<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">cd
-			weather</font></font></p>
-			<p align="left" style="margin-bottom: 0.5cm"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">mkdir
-			templates &amp;&amp; cd templates</font></font></p>
-			<p align="left"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">mkdir
-			weather</font></font></p>
-		</td>
-	</tr>
-</table>
-
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Ayrıca,
+<p>Ayrıca,
 uygulamamızla aynı ada sahip başka bir dizin oluşturduk. Bunu
 yaptık çünkü Django, sahip olduğumuz çeşitli uygulamalardan
 tüm şablon dizinlerini birleştiriyor. Dosya isimlerinin
 çoğaltılmasını önlemek için, kopyaları önlemek amacıyla
-uygulamamızın adını kullanabiliriz. </font></font></font>
+uygulamamızın adını kullanabiliriz.
 </p>
 
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Hava
+<p>Hava
 dizininin içinde index.html adlı yeni bir dosya oluşturun. Bu
 bizim ana şablonumuz olacak. İşte şablon için kullanacağımız
-HTML.</span></span></span></font></span></font></font></p>
+HTML.</p>
 
-<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Şimdi
+<p>Şimdi
 şablonumuzu oluşturduğumuza göre, bunu bir görünüm ve URL
-kombinasyonu oluşturalım. </font></font>
+kombinasyonu oluşturalım.
 </p>
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/d12.png" alt="programs" class="resize" />
   <p><small>Weather &bull; views.py</small></p>
 </div> 
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">Django'daki
+<p>Django'daki
 Görünümler, işlevler veya sınıflardır. Durumumuzda basit bir
 görünüm oluşturduğumuzdan, bir işlev oluşturacağız. Bu
-işlevi görünümlerinize ekleyin:</span></font></font></p>
+işlevi görünümlerinize ekleyin:</p>
 
-<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Kök
+<p>Kök
 URL olan uygulamamızın dizininde olacağından, görünümümüzü
 'index' olarak adlandırıyoruz. Şablonun oluşturulmasını
 sağlamak için, render işlevi için gerekli olan isteği ve render
 etmek istediğimiz şablon dosyasının adını, bu durumda weather /
-index.html. </font></font>
+index.html. 
 </p>
 
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-weight: normal">Bu
+<p>Bu
 görüşe isteği gönderecek olan URL'yi ekleyelim. Uygulamaya ait
-urls.py dosyasında, urlpatterns listesini güncelleyin.</span></font></font></p>
+urls.py dosyasında, urlpatterns listesini güncelleyin.</p>
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/d5.png" alt="programs" class="resize" />
   <p><small>Weather &bull; urls.py</small></p>
 </div>
-<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bu,
-yeni oluşturduğumuz görünümü referans almamıza izin veriyor. </font></font>
+<p>Bu,
+yeni oluşturduğumuz görünümü referans almamıza izin veriyor.
 </p>
 
-<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Django,
+<p>Django,
 herhangi bir URL'yi bir bitiş noktası olmadan eşleştirecek ve
-oluşturduğumuz görüntüleme işlevine yönlendirecektir. </font></font>
+oluşturduğumuz görüntüleme işlevine yönlendirecektir.
 </p>
 
-<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Proje
+<p>Proje
 köküne geri dönün, sunucuyu başlatın ve tekrar 127.0.0.1:8000
-adresine gidin.</font></font></p>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+adresine gidin.</p>
 
-</p>
-<table width="100%" cellpadding="4" cellspacing="0">
-	<col width="256*"/>
+<div style="background-color:#F5F5F5;color:#DD2C00;padding:20px;">
+<span style="font-size: medium;">python manage.py runserver</span>
+</div> 
 
-	<tr>
-		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: none; padding: 0cm"><p align="left">
-			<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">python
-			manage.py runserver</font></font></p>
-		</td>
-	</tr>
-</table>
-
-<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Şimdi
+<p>Şimdi
 gördüğümüz sadece index.html dosyasında bulduğunuz HTML'nin
 sonucudur. Bir şehir ve Las Vegas'ın hava durumunu eklemek için
 bir giriş göreceksiniz. Ancak, form çalışmıyor ve hava durumu
 yalnızca bir yer tutucudur, ancak endişelenmeyin, çünkü bu
-uygulama için bunları oluşturacağız.</font></font></p>
-<br/>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="4" style="font-size: 14pt"><b>5. Weather
-API Kullanımı</b></font></font></p><hr/>
+uygulama için bunları oluşturacağız.</p>
+
+<h2 id="horizontal-menu" class="subheader">5. Weather API Kullanımı</h2><hr/>
 
 <p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
 <font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Şimdi
