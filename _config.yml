@@ -20,8 +20,6 @@ author:
 yandex-verify     : "b642748cb18cbd1c"
 google-verify     : "zFuwF6tlf7YemTRN-ZOvl5lG1rjuI9qEomPbr_5vAu8"
 
-plugins:
-  - hook-add-last-modified-date
 
 timezone: Europe/Istanbul # add your own locale timezone
 comments:
