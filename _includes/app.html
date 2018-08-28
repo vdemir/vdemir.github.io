@@ -152,34 +152,20 @@ projeyi oluşturmanız için verdiği startproject komutunu
 dizininizde birkaç yeni dosya oluşturmuş olmalı.
 </p>
 
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Geliştirme
+<p>Geliştirme
 sunucumuzu başlatmayı deneyelim. Bunu yapmak için, yeni dizine
 gidin ve terminalinizde runserver komutunu çalıştırmak için
-manage.py kullanın:</font></font></font></p>
+manage.py kullanın:</p>
 <br>
-<table width="100%" cellpadding="4" cellspacing="0">
-	<col width="256*"/>
+<pre>
+<code class="language-python">cd the_weather</code></pre>
+<code class="language-python">python manage.py runserver</code></pre>
 
-	<tr>
-		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: none; padding: 0cm"><p align="left" style="font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2">
-			<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">cd
-			the_weather</font></font></font></p>
-			<p align="left" style="font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2">
-			<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">python
-			manage.py runserver</font></font></font></p>
-		</td>
-	</tr>
-</table>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-
-</p>
 <p>Terminalinize
 bakarsanız, uygulamanızın URL'sini görmelisiniz. Varsayılan
-olarak 127.0.0.1:8000 olmalıdır.</font></font></font></p>
+olarak 127.0.0.1:8000 olmalıdır.</p>
 
-<p>Tarayıcınızı
-açın ve bu URL'ye gidin.</font></font></font></p>
+<p>Tarayıcınızı açın ve bu URL'ye gidin.</p>
 
 <p>Bunu
 görürseniz, Django'yu doğru şekilde kurduğunuzu biliyorsunuzdur.
@@ -188,25 +174,15 @@ denemedik bile.
 <p><span style="font-size: medium;"><strong>2. Yönetici Kontrol Paneli</strong></span></p> 2. Yönetici
 Kontrol Paneli</p><hr/>
 
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Ardından
+<p>Ardından
 Django'nun bize verdiği yönetici kontrol paneline bir göz atmak istiyoruz.
 Bunu yapmak için öncelikle veritabanımızı taşımalıyız, bu da
 Django'nun varsayılan uygulamalar için gerekli olan önceden
 tanımlanmış tabloları oluşturacağı anlamına gelir. Bunu
 yapmak için, yalnızca migrate komutunu çalıştırırsınız. CTRL
-+ C kullanarak sunucuyu durdurun ve sonra çalıştırın:</font></font></font></p>
++ C kullanarak sunucuyu durdurun ve sonra çalıştırın:</p>
 
-<table width="100%" cellpadding="4" cellspacing="0">
-	<col width="256*"/>
-
-	<tr>
-		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: none; padding: 0cm"><p align="left" style="font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2">
-			<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">python
-			manage.py migrate</font></font></font></p>
-		</td>
-	</tr>
-</table>
+<p><span style="font-size: medium;"><strong>2. Yönetici Kontrol Paneli</strong></span></p>python manage.py migrate</p><hr/>
 
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
 <font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bu
