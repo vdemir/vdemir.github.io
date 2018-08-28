@@ -13,9 +13,9 @@ excerpt: Günlük Blog Yazıları
 {% assign day = page.date | date: "%d" %}
 {% assign month = months[m] %}
 {% assign year = page.date | date: "%Y" %}
-<p class="meta">{{ day }} {{ month }} {{ year }}</p>
+{{ day }} {{ month }} {{ year }}
 {% elsif page.lang == 'en' %}
-<p class="meta">{{ page.date | date_to_string }}</p>
+{{ page.date | date_to_string }}
 {% endif %}</span> &raquo; <a href="{{ post.url }}" style="text-decoration: none; color:#1A237E; cursor:pointer" >{{ post.title }}</a></li>
     {% endfor %}
   </ul>
