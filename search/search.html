@@ -79,7 +79,6 @@ sitemap: false
 </script>
 <script src="/scripts/openweather.min.js"></script>
 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {% for post in site.posts %}
     <url>
         <loc>http://foo.com{{ post.url | remove: 'index.html' }}</loc>
@@ -95,4 +94,3 @@ sitemap: false
     {% endif %}
     {% endif %}
     {% endfor %}
-</urlset>
