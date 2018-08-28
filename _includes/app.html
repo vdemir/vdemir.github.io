@@ -38,31 +38,6 @@ background-color:#CCFFFF;
 </ol></p>
 <br>
 
-<!-- HTML Code -->
-<table class="GeneratedTable">
-<thead>
-<tr>
-<th>Şehir</th>
-<th>Sıcaklık</th>
-<th>Hava</th>
-<th>Nem</th>
-<th>Rüzgar Hızı</th>
-<th>Gün Doğumu</th>
-<th>Gün Batımı</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span class="weather-place"></span></td>
-<td><span class="weather-temperature"></span></td>
-<td><span class="weather-description capitalize"></span></td>
-<td><span class="weather-humidity"></span></td>
-<td><span class="weather-wind-speed"></span></td>
-<td><span class="weather-sunrise"></span></td>
-<td><span class="weather-sunset"></span></td>
-</tr>
-</tbody>
-</table>
 
 <script src="{{ site.baseurl }}/scripts/hava.js"></script>
 
@@ -88,11 +63,12 @@ göreceksiniz.</p>
 
 <p>İşte
 işimiz bittiğinde uygulamamızın benzeyeceği şey buradadır.</p>
+
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/bursa.png" alt="programs" class="resize" />
   <p><small>Weather &bull; Bursa</small></p>
 </div>
-
+{% include hava.html %}
 
 <h2 id="accordion-menu" class="subheader">1. Kurulum</h2><hr/>
 <p>Django
