@@ -182,25 +182,23 @@ tanımlanmış tabloları oluşturacağı anlamına gelir. Bunu
 yapmak için, yalnızca migrate komutunu çalıştırırsınız. CTRL
 + C kullanarak sunucuyu durdurun ve sonra çalıştırın:</p>
 
-<p><span style="font-size: medium;"><strong>2. Yönetici Kontrol Paneli</strong></span></p>python manage.py migrate</p><hr/>
-
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bu
+<p><span style="font-size: medium;"><strong>2. Yönetici Kontrol Paneli</strong></span></p><hr/>
+<code class="language-python">python manage.py migrate</code></pre>
+<p>Bu
 komutu çalıştırarak, Django sizin için bir SQLite veritabanı
 oluşturdu, ayarlardaki varsayılan veritabanı ve bu veritabanına
 birkaç tablo ekledi. Proje dizininizde yeni bir db.sqlite3 dosyası
 görüyorsanız, veritabanının oluşturulup oluşturulmadığını
-bileceksiniz.<br/>
-<br/>
-Django tablolarından biri, uygulamamızdaki
+bileceksiniz.</p>
+
+<p>Django tablolarından biri, uygulamamızdaki
 herhangi bir kullanıcıyı saklamak için kullanacağımız bir
 kullanıcı tablosudur. İnşa ettiğimiz uygulama herhangi bir
 kullanıcıya ihtiyaç duymuyor, ancak yönetici kullanıcısına
 sahip olmak, yönetici kontrol paneline erişmemize izin
-verecek.<br/>
-<br/>
-Bir yönetici kullanıcısı oluşturmak için,
-createuperuser komutunu çalıştırırız.</font></font></font></p>
+verecek.</p>
+<p>Bir yönetici kullanıcısı oluşturmak için,
+createuperuser komutunu çalıştırırız.</p>
 
 <table width="100%" cellpadding="4" cellspacing="0">
 	<col width="256*"/>
