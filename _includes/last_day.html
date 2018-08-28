@@ -1,45 +1,12 @@
 
-<!-- Codes by HTML.am -->
 
-<!-- CSS Code -->
-<style type="text/css" scoped>
-table.GeneratedTable {
-width:100%;
-background-color:#FFFFFF;
-border-collapse:collapse;border-width:1px;
-border-color:#FFCCCC;
-border-style:solid;
-color:#66CC66;
-}
-
-table.GeneratedTable td, table.GeneratedTable th {
-border-width:1px;
-border-color:#FFCCCC;
-border-style:solid;
-padding:3px;
-}
-
-table.GeneratedTable thead {
-background-color:#CCFF99;
-}
-</style>
 {% if page.lang == 'tr' %}
-<!-- HTML Code -->
-<table class="GeneratedTable">
-<tbody>
-<tr>
-<td>Değiştirildi			: {{ site.time }}</td>
-</tr>
-</tbody>
-</table>
+
+<p>Değiştirildi			: {{ site.time }}</p>
+
 {% elsif page.lang == 'en' %}
 
-<!-- HTML Code -->
-<table class="GeneratedTable">
-<tbody>
-<tr>
-<td>Generated 				: {{ site.time }}</td>
-</tr>
-</tbody>
-</table>
+
+<p>Generated 				: {{ site.time }}<p>
+
 {% endif %}
