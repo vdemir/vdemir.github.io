@@ -97,10 +97,7 @@ background-color:#CCFFFF;
 	</script>
 <br/>
 <h1>Docker görüntüsü olmadan pipenv kullanımı<small>&bull; Bölüm 1 </small></h1>
-<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/bursa.png" alt="programs" class="resize" />
-  <p><small>Weather &bull; Bursa</small></p>
-</div>
+
 <p>Bu
 makalede, çeşitli şehirler için mevcut hava durumunu görüntüleyen
 basit bir Django uygulaması oluşturacağız. Mevcut hava durumu
@@ -122,33 +119,24 @@ göreceksiniz.</p>
 
 <p>İşte
 işimiz bittiğinde uygulamamızın benzeyeceği şey buradadır.</p>
+<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="{{ site.baseurl }}/images/bursa.png" alt="programs" class="resize" />
+  <p><small>Weather &bull; Bursa</small></p>
+</div>
 
-
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="4" style="font-size: 14pt"><b>1. Kurulum</b></font></font></font></p><hr/>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><br/>
-<span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Django
+<p>Django
 kurulumu, başka herhangi bir Python kütüphanesi kurmak gibidir:
 sanal bir ortam başlatabilir ve Django’yu kurmak için pip
 çalıştırabilir ya da bir proje dizini oluşturabilir, pipenv
 çalıştırabilir ve pipenv kabuğunu aktive edebilirsiniz. Her iki
-yöntem de işe yarar, fakat bu yazı için pipenv kullanacağım.</span></span></span></font></span></font></font></p>
-<br>
-<table width="100%" cellpadding="4" cellspacing="0">
-	<col width="256*"/>
+yöntem de işe yarar, fakat bu yazı için pipenv kullanacağım.</p>
+<pre>
+<code class="language-bash">pipenv install django</code></pre>
 
-	<tr>
-		<td width="100%" valign="top" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: none; padding: 0cm"><p align="left" style="font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2">
-			<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">pipenv
-			install django</font></font></font></p>
-		</td>
-	</tr>
-</table>
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bu
+<p>&nbsp;</p>
+<p>Bu
 sizin için en son Django sürümünü yükleyecektir. Bu yazıyı
-yazarken, Django 2.1 sürümündedir. </font></font></font>
+yazarken, Django 2.1 sürümündedir.
 </p>
 
 <p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
