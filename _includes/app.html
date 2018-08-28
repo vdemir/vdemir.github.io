@@ -172,7 +172,7 @@ olarak 127.0.0.1:8000 olmalıdır.</p>
 görürseniz, Django'yu doğru şekilde kurduğunuzu biliyorsunuzdur.
 Bunu kesinlikle görmelisiniz çünkü henüz kodu değiştirmeyi
 denemedik bile.<br>
-<p><span style="font-size: medium;"><strong>2. Yönetici Kontrol Paneli</strong></span></p><hr/>
+<p><span style="font-size: medium;"><strong>2. Yönetici Kontrol Paneli</strong></span></p><hr/><hr/>
 
 <p>Ardından
 Django'nun bize verdiği yönetici kontrol paneline bir göz atmak istiyoruz.
@@ -256,70 +256,57 @@ settings.py dosyasına bakarsanız, INSTALLED_APPS listesini
 göreceksiniz.
 </p>
 
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Yüklü
+<p>Yüklü
 uygulamaların ilki olan django.contrib.admin, yeni kullandığımız
 şeydir. Tüm yönetici işlevlerini ve başka hiçbir şeyi ele
 almıyor. Varsayılan olarak projemizdeki başka bir uygulama,
 yönetici kontrol panelimize giriş yapmamızı sağlayan kimlik
-doğrulama gibi şeylerdir. </font></font></font>
+doğrulama gibi şeylerdir.
 </p>
 
-<p align="left" style="margin-bottom: 0cm; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font color="#000000"><font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bizim
+<p>Bizim
 durumumuzda, hava durumunu göstermekle ilgili her şeyi ele almak
 için yeni bir uygulama oluşturmamız gerekiyor. Bu uygulamayı
-oluşturmak için, sunucuyu CTRL + C ile durdurun ve çalıştırın:</font></font></font></p>
+oluşturmak için, sunucuyu CTRL + C ile durdurun ve çalıştırın:</p>
 
-<table width="100%" cellpadding="4" cellspacing="0">
-	<col width="256*"/>
 
-	<tr>
-		<td width="100%" bgcolor="#f6f9d4" style="background: #f6f9d4" style="border: none; padding: 0cm"><p align="justify" style="font-weight: normal">
-			<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">python
-			manage.py startapp weather</font></font></p>
-		</td>
-	</tr>
-</table>
+<div style="background-color:#F5F5F5;color:#0D47A1;padding:20px;">
+<span style="font-size: medium;">python manage.py startapp weather</span>
+</div> 
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/d15.png" alt="programs" class="resize" />
   <p><small>Treee &bull; Django App</small></p>
 </div>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Startapp
+
+
+<p>Startapp
 çalıştırarak, Django, projemize yeni bir dizin ve daha fazla
-dosya ekledi. </font></font>
+dosya ekledi.
 </p>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><font color="#000000">En
+<p>En
 son oluşturulan dosyalar ile, uygulama dizinimizde urls.py adlı
-yeni bir dosya oluşturalım.</font></font></font></p>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
+yeni bir dosya oluşturalım.</p>
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/d1.png" alt="programs" class="resize" />
   <p><small>Weather &bull; urls.py</small></p>
 </div>
 
-</p>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bu
+<p>Bu
 dosya, the_weather dizinindeki urls.py'ye benzer. Fark, bu urls.py
 dosyasının uygulamanın kendisi ile ilgili olan tüm URL'leri
-içermesidir. </font></font>
+içermesidir.
 </p>
 
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Henüz
+<p>Henüz
 bir URL belirtmiyoruz, ancak projemizi uygulamamız ve uygulamanıza
 özel tüm URL'leri uygulama urls.py dosyasına yönlendirecek
-şekilde projeyi ayarlayabiliriz. </font></font>
+şekilde projeyi ayarlayabiliriz.
 </p>
 
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Önce,
-INSTALLED_APPS listesine gidin ve bu uygulamayı listeye ekleyin.</font></font></p>
+<p>Önce,
+INSTALLED_APPS listesine gidin ve bu uygulamayı listeye ekleyin.</p>
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/d2.png" alt="programs" class="resize" />
@@ -332,45 +319,39 @@ img.resize {
   max-height:100%;
 }
 </style>
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Bu,
+<p>Bu,
 Django’yu hava durumu uygulamasını projemizde kullanmak
 istediğimizi bilmesini sağlar. Bunu yaparak, Django, geçişleri ve
-URL'leri nerede arayacağını bilir. </font></font>
+URL'leri nerede arayacağını bilir.
 </p>
 
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Sonraki,
+<p>Sonraki,
 urls.py dosyamızın uygulamasına işaret etmek için orijinal
 urls.py dosyasını değiştirmemiz gerekiyor. Bunu yapmak için
 yönetici kontrol paneli için mevcut yolun altına bir çizgi
 ekliyoruz. Ayrıca, 'url.py' uygulamamıza işaret edebilmek için
-'include' i de içe aktarmamız gerekiyor.</font></font></p>
+'include' i de içe aktarmamız gerekiyor.</p>
+
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/d3.png" alt="programs" class="resize" />
   <p><small>Weather &bull; urls.py</small></p>
 </div> 
-<p align="left" style="margin-bottom: 0cm; font-weight: normal; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt">Boş
+<p>Boş
 dize, uygulamamızın giriş noktası için bir bitiş noktası
 kullanmayacağımız anlamına gelir. Bunun yerine, uygulamanın
 belirli bir son noktayla ilgilenmesine izin vereceğiz. Hava durumu
 uygulamamızla ilgili herhangi bir şey elde etmek için
 127.0.0.1:8000/weather/ yazmamız gerektiği anlamına gelen bir yol
 ('hava durumu /', ...) gibi kolayca bir şey koyabilirdik. Fakat
-projemiz basit olduğundan, burada yapmayacağız.</font></font></p>
+projemiz basit olduğundan, burada yapmayacağız.</p>
 <br/>
 
+<p><span style="font-size: medium;"><strong>4. Template and View Ekleme</strong></span></p><hr/><hr/>
 
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="4" style="font-size: 14pt"><b>4. Template
-and View Ekleme</b></font></font></p><hr/>
-
-<p align="left" style="margin-bottom: 0cm; line-height: 100%; orphans: 2; widows: 2">
-<font face="Clear Sans Thin, sans-serif"><font size="3" style="font-size: 12pt"><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Şimdi
+<p>Şimdi
 yapacağımız ilk ilginç şey için. Şablonu projemize eklememiz
-gerekiyor.</span></span></span></font></span><b><br/>
-<br/>
+gerekiyor.</p>
+
 </b><span style="font-variant: normal"><font color="#000000"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">Django'daki
 bir şablon, şablonu dinamik yapan ekstra sözdizimine izin veren
 bir HTML dosyasıdır. Diğer şeylerin yanı sıra değişkenler,
