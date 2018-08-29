@@ -26,4 +26,4 @@ comments:
   provider: "disqus"
   disqus:
     shortname: "vdemir-github-io"
-
+auto: true
