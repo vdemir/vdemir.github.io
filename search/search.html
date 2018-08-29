@@ -63,6 +63,21 @@ sitemap: false
 {% include update.html %}
 <br>
 {% include hava.html %}<br>
+
+
+
+<div class="tags">
+{% if page.tags != null %}
+<b>Tags: </b>
+{% assign projectTags = site.data.tags.allowed-tags %}
+{% for tag in page.tags %}
+{% if projectTags contains tag %}
+<a href="{{ "tag_" | append: tag | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
+{% endif %}
+{% endfor %}
+{% endif %}
+</div>
+
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <link rel="stylesheet" href="{{ site.baseurl }}/css/hava.css" type="text/css" >
 <script src="/scripts/hava.js"></script>
