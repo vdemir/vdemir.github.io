@@ -223,6 +223,14 @@ yeniden başlatmanız ve yönetici kontrol paneline gitmeniz gerekir.</p>
 
 BU SUNUCUYU ÜRETİM AYARINDA KULLANMAYIN. Güvenlik denetimleri veya performans testleri ile geçmemiştir. (Ve işte böyle kalıyor. Web sunucularını değil, Web altyapıları yapmak için çalışıyoruz, bu nedenle bir üretim ortamını idare edebilmek için bu sunucuyu geliştirmek Django'nun kapsamı dışındadır.)</p>
 </div>
+
+<div class="info">
+  <p><strong>Bilgi! </strong>Geliştirme sunucusu, gerektiğinde her istek için Python kodunu otomatik olarak yeniden yükler. Kod değişikliklerinin etkili olması için sunucuyu yeniden başlatmanız gerekmez. Ancak, dosya ekleme gibi bazı eylemler yeniden başlatmayı tetiklemez, bu nedenle bu durumlarda sunucuyu yeniden başlatmanız gerekir. </p>
+</div>
+
+<div class="note">
+  <p><strong>Bilgi! </strong>Linux kullanıyorsanız ve pyinotify'ı kurarsanız, sunucuyu otomatik olarak yüklemek için çekirdek sinyalleri kullanılır (her saniye dosya değiştirme zaman damgası yoklamak yerine). Bu, büyük projelere daha iyi ölçeklendirme, kod değiştirmeye yanıt süresini azaltma, daha güçlü değişiklik algılama ve pil kullanımı azaltma sunar. </p>
+</div>
 <p>Ardından
 127.0.0.1:8000/admin adresine gidin.
 </p>
