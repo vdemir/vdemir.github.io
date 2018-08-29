@@ -7,9 +7,11 @@ description       : Günlük Blog Yazıları
 title             : Günlük Blog Yazıları - Teknik Ceviriler, Programlama
 keywords          : C,Language,Programming
 logo              : siteicon.png
-search            : false
+search            : true
 baseurl           : ""
 url               : https://vdemir.github.io
+permalink	  : prettyen
+coding		  : utf-8
 author:
   name            : "Günce"
   url             : https://vdemir.github.io
