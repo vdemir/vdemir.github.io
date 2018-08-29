@@ -212,6 +212,17 @@ yeniden başlatmanız ve yönetici kontrol paneline gitmeniz gerekir.</p>
 <div style="background-color:#F5F5F5;color:#DD2C00;padding:20px;"><span style="font-size: medium;">python manage.py runserver</span>
 </div>
 
+<div class="note">
+<div class="info">
+  <div style="color:#DD2C00;"><span style="font-size: medium;">python manage.py runserver</span>
+</div>
+</div>
+</div>
+<div class="warning">
+  <p><strong>Uyarı! </strong>Bu sunucu, WSGI_APPLICATION ayarı tarafından belirtilen WSGI uygulama nesnesini kullanır. 
+
+BU SUNUCUYU ÜRETİM AYARINDA KULLANMAYIN. Güvenlik denetimleri veya performans testleri ile geçmemiştir. (Ve işte böyle kalıyor. Web sunucularını değil, Web altyapıları yapmak için çalışıyoruz, bu nedenle bir üretim ortamını idare edebilmek için bu sunucuyu geliştirmek Django'nun kapsamı dışındadır.)</p>
+</div>
 <p>Ardından
 127.0.0.1:8000/admin adresine gidin.
 </p>
