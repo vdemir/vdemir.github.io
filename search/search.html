@@ -66,7 +66,6 @@ sitemap: false
 
 
 
-<div class="tags">
 {% if page.tags != null %}
 <b>Tags: </b>
 {% assign projectTags = site.data.tags.allowed-tags %}
@@ -76,13 +75,6 @@ sitemap: false
 {% endif %}
 {% endfor %}
 {% endif %}
-</div>
-{% for post in site.posts %}
-  <a href="{{ post.url }}">
-    <h2>{{ post.title }}</h2>
-    <p>{{ post.date | date_to_string }}</p>
-  </a>
-{% endfor %}
 
 
 
