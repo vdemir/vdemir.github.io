@@ -67,16 +67,25 @@ sitemap: false
 
 
 <div class="tags">
-{% if post.tags != null %}
+{% if page.tags != null %}
 <b>Tags: </b>
 {% assign projectTags = site.data.tags.allowed-tags %}
-{% for tag in post.tags %}
+{% for tag in page.tags %}
 {% if projectTags contains tag %}
-<a href="{{ "tag_" | append: tag | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{post.tagName}}{{tag}}</a>
+<a href="{{ "tag_" | append: tag | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
 {% endif %}
 {% endfor %}
 {% endif %}
 </div>
+{% for post in site.posts %}
+  <a href="{{ post.url }}">
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.date | date_to_string }}</p>
+  </a>
+{% endfor %}
+
+
+
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <link rel="stylesheet" href="{{ site.baseurl }}/css/hava.css" type="text/css" >

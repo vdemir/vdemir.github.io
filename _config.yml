@@ -27,3 +27,9 @@ comments:
   disqus:
     shortname: "vdemir-github-io"
 auto: true
+source: .
+destination: _site
+exclude:
+- Gemfile
+- Gemfile.lock
+include: ['.htaccess']
