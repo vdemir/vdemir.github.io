@@ -10,8 +10,6 @@ logo              : siteicon.png
 search            : true
 baseurl           : ""
 url               : https://vdemir.github.io
-permalink	  : pretty
-coding		  : utf-8
 author:
   name            : "Günce"
   url             : https://vdemir.github.io
