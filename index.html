@@ -21,8 +21,8 @@ excerpt: Günlük Blog Yazıları
 
   <ul class="posts">
     {% for post in site.posts %}
-{% if page.lang == 'tr' %}
-      <li><span>tr_date</span> {% elsif page.lang == 'en' %}<span>en_date</span>{% endif %}
+{% if post.lang == 'tr' %}
+      <li><span>tr_date</span> {% elsif post.lang == 'en' %}<span>en_date</span>{% endif %}
 &raquo; <a href="{{ post.url }}" style="text-decoration: none; color:#1A237E; cursor:pointer" >{{ post.title }}</a></li>
     {% endfor %}
   </ul>
