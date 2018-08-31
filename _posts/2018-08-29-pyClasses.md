@@ -134,7 +134,7 @@ Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnek
 <br>
 sonra **MyClass.i** ve **MyClass.f**, sırasıyla bir tamsayı ve fonksiyon nesnesini döndüren geçerli öznitelik referanslarıdır. Sınıf öznitelikleri de atanabilir, böylece **MyClass.i**'nin değerini atama yoluyla değiştirebilirsiniz. **__doc__** ayrıca geçerli bir özniteliktir ve **'Basit bir örnek sınıf'** sınıfa ait olan docstring döndürür.
 
-Sınıf örnekleme fonksiyon gösterimini kullanır. Sadece sınıf nesnesi, sınıfın yeni bir örneğini döndüren parametresiz bir fonksiyon olduğunu varsayalım. Örneğin (yukarıdaki sınıfı varsayarak):
+Sınıf örnekleme fonksiyon notasyonu kullanır. Sınıf nesnesinin,  sadece sınıfın yeni bir örneğini döndüren parametresiz bir fonksiyon olduğunu varsayalım. Örneğin (yukarıdaki sınıfı varsayarak):
 
 **x = MyClass ()**, sınıfın yeni bir örneklem oluşturur ve bu nesneyi **x** yerel değişkenine atar.
 
