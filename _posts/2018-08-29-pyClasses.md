@@ -137,6 +137,11 @@ Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnek
 sonra **MyClass.i** ve **MyClass.f**, sırasıyla bir tamsayı ve fonksiyon nesnesini döndüren geçerli öznitelik referanslarıdır. Sınıf öznitelikleri de atanabilir, böylece **MyClass.i**'nin değerini atama yoluyla değiştirebilirsiniz. **__doc__** ayrıca geçerli bir özniteliktir ve **'Basit bir örnek sınıf'** sınıfa ait olan docstring döndürür.
 
 <br>
+
+Sınıf örnekleme işlev gösterimini kullanır. Sadece sınıf nesnesinin, sınıfın yeni bir örneğini döndüren parametresiz bir işlev olduğunu varsayalım. Örneğin (yukarıdaki sınıfı varsayarak):
+
+x = MyClass (), sınıfın yeni bir örneğini oluşturur ve bu nesneyi x yerel değişkenine atar.
+
 <br>
 <h3><code class="w3-codespan">__new__()</code> yordamı </h3><hr>
  <code class="w3-codespan">__new__()</code> örnekleme ile oluşturan ve döndüren python özel yordamıdır.
@@ -354,13 +359,12 @@ print(p1)
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
       <li><a href="#C4" style="text-decoration: none; color:#388E3C; cursor:pointer">Python Class: Python Sınıfı</a></li>
-      <li>Attributes of class instance: Sınıf örneklemin öznitelikleri</li>
-      <li>Methods of class instance: Sınıf örneklem yordamları</li>
-      <li>Class instance: Sınıf örneklemi</li>
-      <li>Instantiation of class objects: Sınıf nesnelerinin örneklemi</li>
+      <li>Class Attributes: Sınıf öznitelikleri</li>
+      <li>Class Methods: Sınıf yordamları</li>
+      <li>Class instantiation: Sınıf örneklemi</li>
+      <li>Objects Instantiation: Sınıf nesnelerinin örneklemi</li>
       <li>Python class constructor: Python sınıf kurucu</li>
       <li>Class Objects: Sınıf nesneleri</li>
-      <li>Instance creation: Örneklem başlatıcı</li>
     </ul>
     </p>
   </div>
