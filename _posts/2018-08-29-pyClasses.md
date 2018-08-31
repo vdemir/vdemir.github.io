@@ -162,12 +162,7 @@ Elbette **__init__()** yordamı daha fazla esneklik için argümanlara sahip ola
 
 <div class="teaser clearfix"></div>
 <div class="highlight-python3 notranslate"><div class="highlight"><pre>
-class MyClass:
-    "Basit bir örnek sınıf"
-    i = 42
-    def f(x):
-        return 'hello world!'
-x = MyClass
+
 class Complex:
      def __init__(self, realpart, imagpart):
           self.r = realpart
@@ -185,6 +180,10 @@ data öznitelikleri, Smalltalk'daki “örneklem değişkenleri” ve C++'daki �
 <div class="highlight-python3 notranslate">
 <div class="highlight">
 <pre>
+class MyClass:
+    "Basit bir örnek sınıf"
+    i = 42
+x = MyClass
 x.counter = 1
 while x.counter < 10:
     x.counter = x.counter * 2
