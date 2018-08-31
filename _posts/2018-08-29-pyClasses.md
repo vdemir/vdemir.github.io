@@ -326,7 +326,7 @@ print(p1)
       <li>Instantiation of class objects: Sınıf nesnelerinin örneklemi</li>
       <li>Python class constructor: Python sınıf kurucu</li>
       <li>Class Objects: Sınıf nesneleri</li>
-      <li>New instance creation: Yeni örneklem başlatıcı</li>
+      <li>Instance creation: Örneklem başlatıcı</li>
     </ul>
     </p>
   </div>
