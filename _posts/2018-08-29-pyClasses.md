@@ -16,7 +16,7 @@ lang: tr
 <link rel="stylesheet" href="/css/w3mobile.css">
 <br>
 Python bir nesne yönelimli programlama dilidir.
-Python'daki hemen hemen her şey, özellikleri ve yöntemleri ile bir [Object]nesnedir. 
+Python'daki hemen hemen her şey, özellikleri ve yöntemleri ile bir nesnedir. 
 <br><br>
 
 
@@ -319,9 +319,9 @@ print(p1)
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:70%">
-      <li>Class: Sınıf &nbsp;  Object: Nesne</li>
+      <li>Class: Sınıf &nbsp;&nbsp;&nbsp; Object: Nesne</li>
       <li>attributes: öznitelik  &nbsp; Constructor: Kurucu</li>
-      <li>Method: Yordam  &nbsp; Create: Örneklem</li>
+      <li>Method: Yordam  &nbsp; &nbsp; Create: Örneklem</li>
       <li>initialize: Başlatıcı  &nbsp; Create: Örneklem</li>
     </ul>
     </p>
