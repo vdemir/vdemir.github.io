@@ -314,4 +314,15 @@ print(p1)
 <div class="w3-container w3-content">
    <p> Python 3 paket listesine bakınız: <br>documents.datacamp.com/default_python_packages.txt</p>
  </div>
-
+<div class="w3-panel w3-card w3-light-grey">
+  <h3>Sözlük</h3>
+  <div class="w3-container w3-white">
+    <p>
+    <ul class="w3-ul w3-card-4" style="width:70%">
+      <li>Class: Sınıf &nbsp;  Object: Nesne</li>
+      <li>attributes: öznitelik  &nbsp; Constructor: Kurucu</li>
+      <li>Method: Yordam  &nbsp; Create: Örneklem</li>
+    </ul>
+    </p>
+  </div>
+</div>
