@@ -117,6 +117,15 @@ Artık nesneleri oluşturmak için myClass adlı sınıfı kullanabiliriz:
 
 <div class="w3-code notranslate pythonHigh">
   class MyClass:<br>&nbsp; x = 5<br>p1 = MyClass()<br>print(p1.x)<br>print(MyClass.x)</div>
+
+<div class="highlight-python3 notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">MyClass</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;A simple example class&quot;&quot;&quot;</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="mi">12345</span>
+
+    <span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s1">&#39;hello world&#39;</span>
+</pre></div>
+</div>
 <br>
 <br>
 <h3><code class="w3-codespan">__new__()</code> yordamı </h3><hr>
@@ -131,7 +140,7 @@ Artık nesneleri oluşturmak için myClass adlı sınıfı kullanabiliriz:
   <p><strong>Not:</strong> Örneklem ile oluşturulduktan sonra <code class="w3-codespan">__init__()</code> yordamı çağrılır. Gerçek oluşturma işlemini kontrol etmek istiyorsanız, <code class="w3-codespan">__new__()</code> yordamını kullanın.</p>
 </div> 
 
-<div class="w3-panel w3-note">
+<div class="w3-note">
   <p><strong>Not:</strong> <code class="w3-codespan">__new__()</code>, bir cls yordamı döndürürse, argümanların geri kalanıyla <code class="w3-codespan">__init__()</code> çağrılır (...), aksi halde <code class="w3-codespan">__init__()</code> çağrılmaz.</p>
 </div>
 
