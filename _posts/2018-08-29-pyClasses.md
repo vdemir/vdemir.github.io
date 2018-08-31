@@ -127,8 +127,7 @@ Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnek
     <span class="sd">&quot;&quot;&quot;Basit bir örnek sınıf&quot;&quot;&quot;</span>
     <span class="n">i</span> <span class="o">=</span> <span class="mi">12345</span>
 
-    <span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="bp">self</span>
-<span class="p">):</span>
+    <span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">return</span> <span class="s1">&#39;hello world&#39;</span>
 
 x = MyClass()
