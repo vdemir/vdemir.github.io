@@ -192,7 +192,7 @@ Diğer örnek niteliği başvurusu bir yöntemdir. Bir yöntem, bir nesneye “a
 
 Örnek nesnesinin geçerli yöntem adları, sınıfına bağlıdır. Tanım olarak, işlev nesneleri olan bir sınıfın tüm öznitelikleri, örneklerinin karşılık gelen yöntemlerini tanımlar. Yani bizim örneğimizde, x.f geçerli bir yöntem referansıdır, çünkü MyClass.f bir işlevdir, fakat x.i değil, MyClass.i olmadığı için. Ama x.f, MyClass.f ile aynı şey değildir - bir işlev nesnesi değil, bir işlev nesnesidir.
 	
-<h3>Yordam Nesneleri </h3><hr>
+<h3 id="C7">Yordam Nesneleri </h3><hr>
 Genellikle, bağlı olduktan hemen sonra bir yöntem çağrılır: 
 
 x.f () 
@@ -419,9 +419,9 @@ print(p1)
       <li>Class Methods: Sınıf yordamları</li>
       <li>Class instantiation: Sınıf örneklemi</li>
       <li>Python class constructor: Python sınıf kurucu</li>
-      <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer">Class Objects: Sınıf nesneleri</a></li>
-      <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer">Instance Objects: Örneklenen nesneleri</a></li>
-      <li>Method Objects: Yordam Nesneleri</li>
+      <li><a href="#C5" style="text-decoration: none; color:#388E3C; cursor:pointer">Class Objects: Sınıf nesneleri</a></li>
+      <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer">Instance Objects: Örneklem nesneleri</a></li>
+      <li><a href="#C7" style="text-decoration: none; color:#388E3C; cursor:pointer">Method Objects: Yordam Nesneleri</a></li>
     </ul>
     </p>
   </div>
