@@ -203,7 +203,7 @@ xf = x.f
 while True:
     &nbsp;&nbsp;print(xf() </div>
 
-merhaba dünyasını zamanın sonuna kadar basmaya devam edecek. 
+**merhaba dünya** zamanın sonuna kadar basmaya devam edecek. 
 
 Bir yöntem çağrıldığında tam olarak ne olur? F () işlevinin bir argüman belirtmiş olmasına rağmen, x.f () öğesinin bir argüman olmadan çağrıldığını fark etmiş olabilirsiniz. Tartışmaya ne oldu? Kesinlikle Python argüman gerektiren bir işlev çağrılmadan çağrılır - argüman aslında kullanılmasa bile…
 <br><br>
