@@ -92,7 +92,7 @@ x adlı bir özniteliğe sahip MyClass adlı bir sınıf oluşturun:
 
 <div class="teaser clearfix"></div>
 <h3>Nesnenin Özniteliklerine Erişim</h3><hr>
-Nokta (.) operatörünü nesne ile kullanarak erişebilirsiniz. Sınıf adı kullanarak da sınıf değişkenine erişilebilir:
+Nokta (.) operatörünü nesne ile kullanarak erişebilirsiniz. Sınıf adı kullanarak da sınıf özniteliklerine erişilebilir:
 <div class="w3-code notranslate pythonHigh">
   print(p1.x)<br>print(MyClass.x)</div><br><br>
 
