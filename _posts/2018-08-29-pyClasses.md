@@ -108,8 +108,7 @@ Nokta (.) operatörünü nesne ile kullanarak erişebilirsiniz. Sınıf adı kul
     </p>
   </div>
 </div>
-
-
+<br>
 <div class="teaser clearfix"></div>
 <h3>Bir Python Nesnesi Oluşturma</h3><hr>
 Artık nesneleri oluşturmak için myClass adlı sınıfı kullanabiliriz:
