@@ -114,13 +114,13 @@ Nokta (.) operatörünü nesne ile kullanarak erişebilirsiniz. Sınıf adı kul
 <div class="teaser clearfix"></div>
 <h3>Bir Python Nesnesi Oluşturma</h3><hr>
 Artık nesneleri oluşturmak için myClass adlı sınıfı kullanabiliriz:
-
-<div class="w3-code notranslate pythonHigh">
-<div class="highlight-python3 notranslate"><div class="highlight"><pre><span>
-  class MyClass:<br>&nbsp; x = 5<br>p1 = MyClass()<br>print(p1.x)<br>print(MyClass.x)</div>
+ 
+<div class="highlight-python3 notranslate">
+<div class="highlight"><pre><span>
+class MyClass:<br>&nbsp; x = 5<br>p1 = MyClass()<br>print(p1.x)<br>print(MyClass.x)</div>
 </span>
-</pre></div>
-</div>
+</pre>
+</div> 
 
 Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnekleme. 
 
