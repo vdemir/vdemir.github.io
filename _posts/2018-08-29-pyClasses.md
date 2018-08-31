@@ -170,8 +170,8 @@ class MyClass:
 x = MyClass
 class Complex:
      def __init__(self, realpart, imagpart):
-         <span class="bp">self.r = realpart</span>
-         <span class="bp">self.i = imagpart</span>
+          self.r = realpart
+          self.i = imagpart
 x = Complex(3.0, -4.5)
 x.r, x.i
 </pre></div></div>
