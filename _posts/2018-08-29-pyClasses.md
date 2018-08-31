@@ -86,7 +86,7 @@ x adlı bir özniteliğe sahip MyClass adlı bir sınıf oluşturun:
 <br>
 <div class="teaser clearfix"></div>
 <h3>Örneklem ile Nesne Oluşturma</h3><hr>
- Bir sınıfın bir örneklemini oluşturmak için, sadece sınıf adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">__init__()</code> işlevinin kabul ettiği argümanları iletirsiniz:
+ Bir sınıfın bir örneklemini oluşturmak için, sadece sınıf adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">__init__()</code> yordamının kabul ettiği argümanları iletirsiniz:
 <div class="w3-code notranslate pythonHigh">
   p1 = Person("John", 36)</div><br><br>
 
@@ -169,9 +169,9 @@ str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturm
 <h3><code class="w3-codespan">__init__()</code> yordamı</h3><hr>
 Yukarıdaki örnekler, en basit biçimde sınıflar ve nesnelerdir ve gerçek yaşam uygulamalarında gerçekten yararlı değildir. 
 
-Sınıfların manâsını anlamak için, yerleşik <code class="w3-codespan">__init__()</code> işlevini anlamamız gerekir. 
+Sınıfların manâsını anlamak için, yerleşik <code class="w3-codespan">__init__()</code> yordamını anlamamız gerekir. 
 
-Tüm sınıflar, sınıf başlatıldığında her zaman çalıştırılan <code class="w3-codespan">__init__()</code> adında bir işleve sahiptir. 
+Tüm sınıflar, sınıf başlatıldığında her zaman çalıştırılan <code class="w3-codespan">__init__()</code> adında bir yordama sahiptir. 
 
 Nesne özniteliklerine veya nesne oluşturulduğunda yapılması gereken diğer işlemlere değer atamak için <code class="w3-codespan">__init__()</code> yordamını kullanın:
 
@@ -187,7 +187,7 @@ Nesne özniteliklerine veya nesne oluşturulduğunda yapılması gereken diğer 
 
 
 <div class="w3-note">
-  <p><strong>Not:</strong> <code class="w3-codespan">__init__()</code> bir sınıfın kurucusudur aslında başlatıcıdır. <code class="w3-codespan"> __init__()</code> işlevi, nesnenin belleğinin tahsis edildiği anda çağrılır.</p>
+  <p><strong>Not:</strong> <code class="w3-codespan">__init__()</code> bir sınıfın kurucusudur aslında başlatıcıdır. <code class="w3-codespan"> __init__()</code> yordamı, nesnenin belleğinin tahsis edildiği anda çağrılır.</p>
 </div>
 
 <div class="teaser clearfix"></div>
@@ -322,6 +322,7 @@ print(p1)
       <li>Class: Sınıf &nbsp;  Object: Nesne</li>
       <li>attributes: öznitelik  &nbsp; Constructor: Kurucu</li>
       <li>Method: Yordam  &nbsp; Create: Örneklem</li>
+      <li>initialize: Başlatıcı  &nbsp; Create: Örneklem</li>
     </ul>
     </p>
   </div>
