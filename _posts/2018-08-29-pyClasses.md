@@ -141,24 +141,24 @@ str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturm
 <div class="w3-container">
   <table class="w3-table">
     <tr>
-      <td>a class constructor</td>
+      <td>a sınıf yapıcı</td>
       <td>x = MyClass()</td>
       <td>x.__new__()</td>
     </tr>
     <tr>
-      <td>to initialize an instance</td>
+      <td>bir örneklem başlatıcı</td>
       <td>x = MyClass()</td>
       <td>x.__init__()</td>
     </tr>
     <tr>
-      <td>a class destructor</td>
+      <td>bir sınıf yıkıcı</td>
       <td>del x</td>
       <td>x.__del__()</td>
     </tr>
     <tr>
-      <th>You Want…</th>
-      <th>So You Write…</th>
-      <th>And Python Calls…</th>
+      <th>... istiyorsunuz.</th>
+      <th>... yazıyorsunuz.</th>
+      <th>... ve Python çağırıyor.</th>
     </tr>
   </table>
 </div>
