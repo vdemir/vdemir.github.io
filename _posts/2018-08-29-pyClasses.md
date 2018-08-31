@@ -94,13 +94,13 @@ x adlı bir özniteliğe sahip MyClass adlı bir sınıf oluşturun:
 <h3>Nesnenin Özniteliklerine Erişim</h3><hr>
 Nokta (.) operatörünü nesne ile kullanarak erişebilirsiniz. Sınıf adı kullanarak da sınıf özniteliklerine erişilebilir:
 <div class="w3-code notranslate pythonHigh">
-  print(p1.x)<br>print(MyClass.x)</div><br>
+  print(p1.x)<br>print(MyClass.x)</div>
 
 <div class="w3-panel w3-card w3-light-grey">
   <h3>Özniteliklerin tanımı</h3>
   <div class="w3-container w3-white">
     <p>
-    <ul class="w3-ul w3-card-4" style="width:70%">
+    <ul class="w3-ul w3-card-4" style="width:85%">
       <li>z.real ifadesinde, real, z nesnesinin bir özniteliğidir. Kesin olarak, modüllerdeki isimlere yapılan atıflar öznitelik referanslarıdır: modname.funcname ifadesinde modname bir modül nesnesidir ve funcname bunun bir özniteliğidir. Bu durumda, modülün öznitelikleri ile modülde tanımlanan genel isimler arasında doğrudan bir eşleme olur: aynı ad alanını paylaşırlar!</li>
     </ul>
     </p>
