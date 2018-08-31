@@ -175,7 +175,7 @@ x.r, x.i
 
 data nitelikleri, Smalltalk'daki “örnek değişkenleri” ve C ++'daki “veri üyeleri” ne karşılık gelir. Veri özelliklerinin beyan edilmesine gerek yoktur; Yerel değişkenler gibi, ilk atandıklarında var olurlar. Örneğin, x yukarıda oluşturulan MyClass örneğiyse, aşağıdaki kod parçası bir iz bırakmadan değeri 16 yazdıracaktır:
 
-<br>
+<br><br>
 
 <div class="highlight-python3 notranslate"><div class="highlight"><pre><span></span><span class="n">x</span><span class="o">.</span><span class="n">counter</span> <span class="o">=</span> <span class="mi">1</span>
 <span class="k">while</span> <span class="n">x</span><span class="o">.</span><span class="n">counter</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">:</span>
