@@ -114,8 +114,11 @@ Artık nesneleri oluşturmak için myClass adlı sınıfı kullanabiliriz:
 <div class="w3-note">
   <p><strong>Not:</strong> Örnekleme ile oluşturulduktan sonra <code class="w3-codespan">__init__()</code> yordamı çağrılır. Gerçek oluşturma işlemini kontrol etmek istiyorsanız, <code class="w3-codespan">__new__()</code> yordamını kullanın.</p>
 </div> 
-<div class="w3-note">
-  <p><strong>Not:</strong> Ne yaptığınızı biliyorsanız, sınıfların nasıl karşılaştırıldığı, özniteliklerin nasıl tanımlandığı ve sınıfınızın alt sınıfları olarak kabul edilen sınıflar hakkında neredeyse tam kontrol sahibi olabilirsiniz.</p>
+
+<div class="w3-container w3-content">
+ <div class="w3-panel w3-white w3-card w3-display-container">
+   <p> Ne yaptığınızı biliyorsanız, sınıfların nasıl karşılaştırıldığı, özniteliklerin nasıl tanımlandığı ve sınıfınızın alt sınıfları olarak kabul edilen sınıflar hakkında neredeyse tam kontrol sahibi olabilirsiniz.</p>
+ </div>
 </div> 
 <div class="w3-note">
   <p><strong>Not:</strong> <code class="w3-codespan">__new__()</code>, bir cls yordamı döndürürse, argümanların geri kalanıyla <code class="w3-codespan">__init__()</code> çağrılır (...), aksi halde <code class="w3-codespan">__init__()</code> çağrılmaz.</p>
@@ -287,11 +290,6 @@ del p1
 print(p1)
 </textarea>
 </div>
-<div class="w3-container w3-content">
- <div class="w3-panel w3-white w3-card w3-display-container">
-   <p> Ne yaptığınızı biliyorsanız, sınıfların nasıl karşılaştırıldığı, özniteliklerin nasıl tanımlandığı ve sınıfınızın alt sınıfları olarak kabul edilen sınıflar hakkında neredeyse tam kontrol sahibi olabilirsiniz.</p>
- </div>
-</div> 
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
  
  
