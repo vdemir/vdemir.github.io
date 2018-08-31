@@ -29,7 +29,14 @@ Python sınıfları, Nesne Yönelimli Programlamanın tüm standart özellikleri
 
 Burada, (class docstring) class_name._doc_ üzerinden erişilebilen bir belge dizesidir ve class_suite, temel olarak sınıf elemanlarını, veri özniteliklerini ve yordamları tanımlayan tüm bileşen ifadelerinden oluşur.
 <ul>
-  <li>A</li>
+  <li><textarea autocomplete="off" id="textareaCode" wrap="logical" rows="7" cols="35" spellcheck="false">
+class ClassName:
+    'class docstring'
+    # python sınıf değişkenleri listesi
+    # python sınıf kurucu
+    # python sınıf yordam tanımları
+
+</textarea></li>
   <li>B</li>
 </ul>
 
