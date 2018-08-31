@@ -16,7 +16,7 @@ lang: tr
 <link rel="stylesheet" href="/css/w3mobile.css">
 <br>
 Python bir nesne yönelimli programlama dilidir.
-Python'daki hemen hemen her şey, özellikleri ve yöntemleri ile bir nesnedir. 
+Python'daki hemen hemen her şey, öznitelikleri ve yordamları ile bir nesnedir. 
 <br><br>
 
 
