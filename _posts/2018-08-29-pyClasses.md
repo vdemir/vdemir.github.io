@@ -20,24 +20,24 @@ Python'daki hemen hemen her şey, öznitelikleri ve yordamları ile bir nesnedir
 
 Python sınıfları, Nesne Yönelimli Programlamanın tüm standart özelliklerini sağlar: sınıf örneklem mekanizması, birden fazla temel sınıfa izin verir, türetilmiş bir sınıf, temel sınıfının veya sınıflarının herhangi bir yordamını geçersiz kılabilir ve bir yordam, aynı ada sahip bir taban sınıfının yordamını çağırabilir . Nesneler, rastgele miktarları ve veri türlerini içerebilir. Modüller için doğru olduğu gibi, sınıflar Python'un dinamik doğasını paylaşırlar: çalışma zamanında oluşturulurlar ve oluşturulduktan sonra daha fazla değiştirilebilirler. 
 
-
 <br>
-
 
 <div class="w3-code notranslate pythonHigh">
   class ClassName:<br> &nbsp; 'class docstring'<br> &nbsp; class_suite</div>
 
 Burada, (class docstring) class_name._doc_ üzerinden erişilebilen bir belge dizesidir ve class_suite, temel olarak sınıf elemanlarını, veri özniteliklerini ve yordamları tanımlayan tüm bileşen ifadelerinden oluşur.
 
+<div class='pull-right alert alert-warning' style="margin: 25px; text-align: right;">
 <div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="7" cols="35" spellcheck="false">
+        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="7" cols="33" spellcheck="false">
 class ClassName:
     'class docstring'
     # python sınıf değişkenleri listesi
     # python sınıf kurucu
     # python sınıf yordam tanımları
 
-</textarea></div>
+</textarea></div></div>
+
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/class1.png" alt="programs" class="resize" />
   <p><small>Python &bull; Sınıflar.</small></p>
