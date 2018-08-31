@@ -198,7 +198,10 @@ Genellikle, bağlantıdan hemen sonra bir yordam çağrılır:
 x.f() </div>
 
 MyClass örneğinde, 'merhaba dünya' dizesini döndürür. Ancak, bir yordamı hemen çağırmak gerekli değildir: x.f bir yordam nesnesidir ve daha sonra depolanabilir ve daha sonra çağrılabilir. Örneğin:
-
+<div class="w3-code notranslate pythonHigh">
+xf = x.f
+while True:
+    &nbsp;&nbsp;print(xf() </div>
 <br><br>
 
 <h3><code class="w3-codespan">__new__()</code> yordamı </h3><hr>
