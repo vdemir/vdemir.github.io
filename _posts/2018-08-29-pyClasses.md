@@ -127,7 +127,7 @@ Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnek
 Öznitelik referansları, Python: obj.name'deki tüm öznitelik referansları için kullanılan standart sözdizimini kullanır. Geçerli nesne adları, sınıf nesnesi oluşturulduğunda sınıfın ad alanındaki tüm adlardır. Yani, sınıf tanımı böyle görünüyorsa:
 
 <div class="highlight-python3 notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">MyClass</span><span class="p">:</span>
-    <span class="sd">&quot;&quot;&quot;A simple example class&quot;&quot;&quot;</span>
+    <span class="sd">&quot;&quot;&quot;Basit bir örnek sınıf&quot;&quot;&quot;</span>
     <span class="n">i</span> <span class="o">=</span> <span class="mi">12345</span>
 
     <span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
@@ -135,7 +135,7 @@ Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnek
 </pre></div>
 </div>
 
-sonra MyClass.i ve MyClass.f, sırasıyla bir tamsayı ve işlev nesnesini döndüren geçerli öznitelik referanslarıdır. Sınıf özellikleri de atanabilir, böylece MyClass.i'nin değerini atama yoluyla değiştirebilirsiniz. ____doc____ ayrıca geçerli bir özelliktir ve 'Basit bir örnek sınıfı' olan sınıfa ait olan dokumanı döndürür.
+sonra MyClass.i ve MyClass.f, sırasıyla bir tamsayı ve işlev nesnesini döndüren geçerli öznitelik referanslarıdır. Sınıf öznitelikleri de atanabilir, böylece MyClass.i'nin değerini atama yoluyla değiştirebilirsiniz. ____doc____ ayrıca geçerli bir özniteliktir ve 'Basit bir örnek sınıf' sınıfa ait olan docstring döndürür.
 
 <br>
 <br>
