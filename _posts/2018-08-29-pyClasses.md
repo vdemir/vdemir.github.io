@@ -136,7 +136,7 @@ Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnek
 </pre></div>
 </div>
 <br>
-sonra **MyClass.i** ve **MyClass.f**, sırasıyla bir tamsayı ve işlev nesnesini döndüren geçerli öznitelik referanslarıdır. Sınıf öznitelikleri de atanabilir, böylece MyClass.i'nin değerini atama yoluyla değiştirebilirsiniz. ____doc____ ayrıca geçerli bir özniteliktir ve 'Basit bir örnek sınıf' sınıfa ait olan docstring döndürür.
+sonra **MyClass.i** ve **MyClass.f**, sırasıyla bir tamsayı ve işlev nesnesini döndüren geçerli öznitelik referanslarıdır. Sınıf öznitelikleri de atanabilir, böylece **MyClass.i**'nin değerini atama yoluyla değiştirebilirsiniz. **__doc__** ayrıca geçerli bir özniteliktir ve **'Basit bir örnek sınıf'** sınıfa ait olan docstring döndürür.
 
 <br>
 <br>
