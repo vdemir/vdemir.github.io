@@ -82,7 +82,7 @@ person2.showName()
 </textarea></div>
 
 <br><br>
-<h3>Bir Python Sınıfı Oluşturma</h3><hr>
+<h3 id="C4">Bir Python Sınıfı Oluşturma</h3><hr>
 x adlı bir özniteliğe sahip MyClass adlı bir sınıf oluşturun:
 <div class="w3-code notranslate pythonHigh">
   class MyClass:<br> &nbsp; 'Python Temel Sınıf'<br> &nbsp; x = 5<br>print(MyClass)</div>
@@ -334,7 +334,7 @@ print(p1)
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
-      <li>Python Class: Python Sınıfı</li>
+      <li><a href="#C4">Python Class: Python Sınıfı</a></li>
       <li>Attributes of class instance: Sınıf örneklemin öznitelikleri</li>
       <li>Methods of class instance: Sınıf örneklem yordamları</li>
       <li>Class instance: Sınıf örneklemi</li>
