@@ -319,10 +319,13 @@ print(p1)
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:70%">
-      <li>Class: Sınıf &nbsp;&nbsp;&nbsp; Object: Nesne</li>
-      <li>attributes: öznitelik  &nbsp; Constructor: Kurucu</li>
-      <li>Method: Yordam  &nbsp; &nbsp; Create: Örneklem</li>
-      <li>initialize: Başlatıcı  &nbsp; Create: Örneklem</li>
+      <li>Python Classes: Python Sınıfları &nbsp; &nbsp; &nbsp; Object: Nesne</li>
+      <li>Attributes of class instance: Sınıf örneklem öznitelikleri</li>
+      <li>Constructor: Kurucu</li>
+      <li>Methods of class instances: Sınıf örneklem yordamı</li>
+      <li>Class instance: Sınıf örneklemi</li>
+      <li>initialize: Başlatıcı</li>
+      <li>Class Objects: Sınıf nesneleri</li>
     </ul>
     </p>
   </div>
