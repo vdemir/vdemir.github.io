@@ -172,16 +172,16 @@ x.r, x.i
 </pre></div></div>
 <br>
 <h3 id="C6">Örneklenen Nesneler </h3><hr>
-Şimdi örneklenen nesnelerle ne yapabiliriz? Örnek nesneler tarafından anlaşılan tek işlemler, öznitelik referanslarıdır. İki tür geçerli öznitelik adı, data özniteliği ve yordamı vardır. 
+Şimdi örneklenen nesnelerle ne yapabiliriz? Örnek nesneler tarafından anlaşılan tek işlemler, öznitelik referanslarıdır. İki tür geçerli öznitelik adı; data özniteliği ve yordamı vardır. 
 
-data öznitelikleri, Smalltalk'daki “örneklem değişkenleri” ve C++'daki “data elemanlarına” karşılık gelir. data özniteliklerinin beyan edilmesine gerek yoktur; Yerel değişkenler gibi, ilk atandıklarında var olurlar. Örneğin, x yukarıda oluşturulan MyClass özniteliğiyse, aşağıdaki kod parçası bir iz bırakmadan değeri 16 yazdıracaktır:
+Data öznitelikleri, Smalltalk'daki “örneklem değişkenleri” ve C++'daki “data elemanlarına” karşılık gelir. Data özniteliklerinin beyan edilmesine gerek yoktur; yerel değişkenler gibi, ilk atandıklarında var olurlar. Örneğin, x yukarıda oluşturulan MyClass özniteliğiyse, aşağıdaki kod parçası bir iz bırakmadan değeri 16 yazdıracaktır:
 
 <div class="teaser clearfix"></div>
 <div class="highlight-python3 notranslate">
 <div class="highlight">
 <pre>
 class MyClass:
-    "Basit bir örnek sınıf"
+    "Basit bir sınıf"
     i = 42
 x = MyClass
 x.counter = 1
