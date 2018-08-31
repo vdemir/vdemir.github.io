@@ -162,6 +162,12 @@ Elbette **__init__()** yordamı daha fazla esneklik için argümanlara sahip ola
 
 <div class="teaser clearfix"></div>
 <div class="highlight-python3 notranslate"><div class="highlight"><pre>
+class MyClass:
+    "Basit bir örnek sınıf"
+    i = 42
+    def f(x):
+        return 'hello world!'
+x = MyClass
 class Complex:
      def __init__(self, realpart, imagpart):
          <span class="bp">self.r = realpart</span>
