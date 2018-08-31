@@ -42,7 +42,7 @@ class ClassName:
 
 <div class="info">Resize this panel to see grids respond</div>
 <style>
-body {
+#main_menu body {
   padding: 20px;
   font-family: Helvetica;
 }
@@ -59,7 +59,7 @@ body {
   font-size: 14px;
 }
 
-.info {
+#main_menu .info {
   text-align: center;
   font-size: 13px;
   padding-top: 20px;
