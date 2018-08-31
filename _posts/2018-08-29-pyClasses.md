@@ -291,8 +291,8 @@ print(p1)
 <div class="w3-container w3-content">
  <p class="w3-opacity"><b>Today</b></p> 
  <div class="w3-panel w3-white w3-card w3-display-container">
-   <p class="w3-text-blue"><b>email.zip</b></p>
-   <p>Not: Python sınıf kurucusunun iki adımı vardır: Örnekleme ile oluşturmak için __new__() çağırma ve başlatmak için __init__() çağırma. __init__() isteğe bağlı bir adım değildir, __init__() başarısız olursa örneklem oluşturma da başarısız olur.</p>
+   <p class="w3-text-blue"><b>Not</b></p>
+   <p> Python sınıf kurucusunun iki adımı vardır: Örnekleme ile oluşturmak için __new__() çağırma ve başlatmak için __init__() çağırma. __init__() isteğe bağlı bir adım değildir, __init__() başarısız olursa örneklem oluşturma da başarısız olur.</p>
    <p class="w3-text-blue">Show in folder</p>
  </div>
 <br>
