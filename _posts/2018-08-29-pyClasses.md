@@ -147,6 +147,28 @@ Sınıf örnekleme, fonksiyon notasyonu kullanır. Sınıf nesnesinin,  sadece s
 
 **x = MyClass()**, sınıfın yeni bir örneklemini oluşturur ve bu nesneyi **x** yerel değişkenine atar.
 
+
+sınıfın yeni bir örneğini oluşturur ve bu nesneyi x yerel değişkenine atar. 
+
+Sunum işlemi (bir sınıf nesnesini çağırmak) boş bir nesne oluşturur. Birçok sınıf, belirli bir başlangıç ​​durumuna göre özelleştirilmiş örneklerle nesneler oluşturmayı sever. Bu nedenle, bir sınıf, __init __ () adında özel bir yöntem tanımlayabilir, bunun gibi: 
+
+def __init __ (self): 
+self.data = [] 
+Bir sınıf bir __init __ () yöntemini tanımlarsa, sınıf örneği otomatik olarak __init __ () dosyasını çağırır. yeni oluşturulmuş sınıf örneği. Bu örnekte, yeni, başlatılmış bir örnek şu şekilde elde edilebilir: 
+
+x = MyClass () 
+Elbette __init __ () yöntemi daha fazla esneklik için argümanlara sahip olabilir. Bu durumda, sınıflandırma işlecine verilen argümanlar __init __ () öğesine iletilir. Örneğin,
+
+<div class="teaser clearfix"></div>
+<div class="highlight-python3 notranslate"><div class="highlight"><pre>
+class Complex:
+     def __init__(self, realpart, imagpart):
+         self.r = realpart
+         self.i = imagpart
+x = Complex(3.0, -4.5)
+x.r, x.i
+
+</pre></div>
 <br>
 <h3><code class="w3-codespan">__new__()</code> yordamı </h3><hr>
  <code class="w3-codespan">__new__()</code> örnekleme ile oluşturan ve döndüren python özel yordamıdır.
