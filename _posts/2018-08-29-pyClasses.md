@@ -118,8 +118,6 @@ Artık nesneleri oluşturmak için myClass adlı sınıfı kullanabiliriz:
 <div class="w3-code notranslate pythonHigh">
   class MyClass:<br>&nbsp; x = 5<br>p1 = MyClass()<br>print(p1.x)<br>print(MyClass.x)</div>
 
-
-
 Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnekleme. 
 
 Öznitelik referansları, Python: obj.name'deki tüm öznitelik referansları için kullanılan standart sözdizimini kullanır. Geçerli nesne adları, sınıf nesnesi oluşturulduğunda sınıfın ad alanındaki tüm adlardır. Yani, sınıf tanımı böyle görünüyorsa:
@@ -136,11 +134,9 @@ Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnek
 <br>
 sonra **MyClass.i** ve **MyClass.f**, sırasıyla bir tamsayı ve fonksiyon nesnesini döndüren geçerli öznitelik referanslarıdır. Sınıf öznitelikleri de atanabilir, böylece **MyClass.i**'nin değerini atama yoluyla değiştirebilirsiniz. **__doc__** ayrıca geçerli bir özniteliktir ve **'Basit bir örnek sınıf'** sınıfa ait olan docstring döndürür.
 
-<br>
+Sınıf örnekleme fonksiyon gösterimini kullanır. Sadece sınıf nesnesi, sınıfın yeni bir örneğini döndüren parametresiz bir fonksiyon olduğunu varsayalım. Örneğin (yukarıdaki sınıfı varsayarak):
 
-Sınıf örnekleme işlev gösterimini kullanır. Sadece sınıf nesnesinin, sınıfın yeni bir örneğini döndüren parametresiz bir işlev olduğunu varsayalım. Örneğin (yukarıdaki sınıfı varsayarak):
-
-x = MyClass (), sınıfın yeni bir örneğini oluşturur ve bu nesneyi x yerel değişkenine atar.
+**x = MyClass ()**, sınıfın yeni bir örneklem oluşturur ve bu nesneyi x yerel değişkenine atar.
 
 <br>
 <h3><code class="w3-codespan">__new__()</code> yordamı </h3><hr>
