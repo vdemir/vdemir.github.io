@@ -289,7 +289,6 @@ print(p1)
 </div>
 <div class="w3-container w3-content">
  <div class="w3-panel w3-white w3-card w3-display-container">
-   <p class="w3-text-blue"></p>
    <p> Ne yaptığınızı biliyorsanız, sınıfların nasıl karşılaştırıldığı, özniteliklerin nasıl tanımlandığı ve sınıfınızın alt sınıfları olarak kabul edilen sınıflar hakkında neredeyse tam kontrol sahibi olabilirsiniz.</p>
  </div>
 </div> 
