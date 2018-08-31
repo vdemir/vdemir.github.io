@@ -194,7 +194,7 @@ Nesne özniteliklerine veya nesne oluşturulduğunda yapılması gereken diğer 
 <h3><code class="w3-codespan">self</code> Parametresi</h3><hr>
 <p> <code class="w3-codespan">self</code> sınıfın kendisine bir referanstır ve sınıfa ait değişkenlere erişmek için kullanılır. 
 
-<code class="w3-codespan">self</code> diye isimlendirilmek zorunda değil, ne ile  istersen öyle çağırabilirsin, ama sınıftaki herhangi bir işlevin ilk parametresi olmalı:</p>
+<code class="w3-codespan">self</code> diye isimlendirilmek zorunda değildir, ne ile  istersen öyle çağırabilirsin, ama sınıftaki herhangi bir yordamın ilk parametresi olmalı:</p>
 
 <div class="w3-code notranslate pythonHigh">
   class Person:<br>&nbsp; def __init__(mysillyobject, name, age):<br>&nbsp;&nbsp;&nbsp; 
