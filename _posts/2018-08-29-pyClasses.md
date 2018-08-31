@@ -201,11 +201,11 @@ MyClass örneğinde, 'merhaba dünya' dizesini döndürür. Ancak, bir yordamı 
 <div class="w3-code notranslate pythonHigh">
 xf = x.f<br>
 while True:<br>
-    &nbsp;&nbsp;print(xf() </div>
+   &nbsp; &nbsp;&nbsp;print(xf() </div>
 
 **merhaba dünya** zamanın sonuna kadar basmaya devam edecek. 
 
-Bir yöntem çağrıldığında tam olarak ne olur? F () işlevinin bir argüman belirtmiş olmasına rağmen, x.f () öğesinin bir argüman olmadan çağrıldığını fark etmiş olabilirsiniz. Tartışmaya ne oldu? Kesinlikle Python argüman gerektiren bir işlev çağrılmadan çağrılır - argüman aslında kullanılmasa bile…
+Bir yöntem çağrıldığında tam olarak ne olur? **f()** fonksiyon tanımı bir argüman belirtmiş olsa bile, **x.f()** öğesinin bir argüman olmadan çağrıldığını fark etmiş olabilirsiniz. Argümana ne oldu? Kesinlikle Python argüman gerektiren bir fonksiyon çağrılmadan çağrılır - argüman aslında kullanılmasa bile…
 <br><br>
 
 <h3><code class="w3-codespan">__new__()</code> yordamı </h3><hr>
