@@ -193,9 +193,10 @@ Diğer örnek niteliği başvurusu bir yöntemdir. Bir yöntem, bir nesneye “a
 Örnek nesnesinin geçerli yöntem adları, sınıfına bağlıdır. Tanım olarak, işlev nesneleri olan bir sınıfın tüm öznitelikleri, örneklerinin karşılık gelen yöntemlerini tanımlar. Yani bizim örneğimizde, x.f geçerli bir yöntem referansıdır, çünkü MyClass.f bir işlevdir, fakat x.i değil, MyClass.i olmadığı için. Ama x.f, MyClass.f ile aynı şey değildir - bir işlev nesnesi değil, bir işlev nesnesidir.
 <br>	<br>
 <h3 id="C7">Yordam Nesneleri </h3><hr>
-Genellikle, bağlı olduktan hemen sonra bir yöntem çağrılır: 
+Genellikle, bağlantıdan hemen sonra bir yordam çağrılır: 
+<div class="w3-code notranslate pythonHigh">
+x.f() </div>
 
-x.f () 
 MyClass örneğinde, bu 'merhaba dünya' dizesini döndürür. Ancak, bir yöntemi hemen çağırmak gerekli değildir: x.f bir metod nesnesidir ve daha sonra depolanabilir ve daha sonra çağrılabilir. Örneğin:
 
 <br><br>
