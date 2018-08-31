@@ -118,7 +118,7 @@ Artık nesneleri oluşturmak için myClass adlı sınıfı kullanabiliriz:
 <div class="w3-code notranslate pythonHigh">
   class MyClass:<br>&nbsp; x = 5<br>p1 = MyClass()<br>print(p1.x)<br>print(MyClass.x)</div>
 <br>
-<h3>Sınıf Nesneleri </h3><hr>
+<h3>Sınıf/Öbek Nesneleri </h3><hr>
 Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnekleme. 
 
 Öznitelik referansları, Python: obj.name'deki tüm öznitelik referansları için kullanılan standart sözdizimini kullanır. Geçerli nesne adları, sınıf nesnesi oluşturulduğunda sınıfın ad alanındaki tüm adlardır. Yani, sınıf tanımı böyle görünüyorsa:
