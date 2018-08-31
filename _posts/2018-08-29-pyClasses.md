@@ -135,7 +135,7 @@ Tezatında, <code class="w3-codespan">__init__()</code> hiçbir şey döndürmez
 Genel olarak, 
 str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturmuyorsanız <code class="w3-codespan">__new__()</code>'yi geçersiz kılmanız gerekmez. </p></div> 
 
-<div class="w3-panel w3-gray">
+<div class="w3-panel w3-light-blue">
     <h3>Bilgi!</h3>
     <p> <code class="w3-codespan">__init__()</code> bazen nesnenin yapıcısı olarak adlandırılır, çünkü kurucuların diğer dillerde kullanıldığı gibi kullanılır, ancak bu teknik olarak doğru değildir - onu başlatıcı olarak adlandırmak daha iyidir. Bir yapıcıya daha benzer olan <code class="w3-codespan">__new__()</code> adlı farklı bir yöntem var, ancak neredeyse hiç kullanılmıyor.</p>
   </div>
