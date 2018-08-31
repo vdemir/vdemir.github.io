@@ -29,8 +29,8 @@ Burada, (class docstring) class_name._doc_ üzerinden erişilebilen bir belge di
 class ClassName:
     'class docstring'
     # python sınıf değişkenleri listesi
-    # python class constructor
-    # python class method definitions
+    # python sınıf kurucu
+    # python sınıf yordam tanımları
 
 </textarea></div>
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
