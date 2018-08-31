@@ -184,18 +184,18 @@ data nitelikleri, Smalltalk'daki “örnek değişkenleri” ve C ++'daki “ver
   print ("Creating instance of Sample")<br>&nbsp;&nbsp;&nbsp; return super(Sample, cls).__new__(cls)<br><br>&nbsp; def __init__(self):<br>&nbsp;&nbsp;&nbsp; 
   print ("Initiating instance of Sample")<br>s=Sample()</div><br>
 <div class="teaser clearfix"></div>
-<div class="w3-note">
+
   <p><strong>Not:</strong> Örneklem ile oluşturulduktan sonra **__init__()** yordamı çağrılır. Gerçek oluşturma işlemini kontrol etmek istiyorsanız, **__new__** yordamını kullanın.</p>
-</div> 
 
-<div class="w3-note">
+
+
   <p><strong>Not:</strong> **__new__**, bir cls yordamı döndürürse, argümanların geri kalanıyla **__init__()** çağrılır (...), aksi halde **__init__()** çağrılmaz.</p>
-</div>
 
-<div class="w3-note">
-  <p><strong>Not:</strong> Python sınıf kurucusunun iki adımı vardır: Örneklem ile oluşturmak için **__new__** çağırma ve başlatmak için **__init__()** çağırma. **__init__()** isteğe bağlı bir adım değildir, **__init__()** başarısız olursa örneklem oluşturma da başarısız olur. </p></div> 
 
-<div class="w3-note">
+
+  <p><strong>Not:</strong> Python sınıf kurucusunun iki adımı vardır: Örneklem ile oluşturmak için **__new__** çağırma ve başlatmak için **__init__()** çağırma. **__init__()** isteğe bağlı bir adım değildir, **__init__()** başarısız olursa örneklem oluşturma da başarısız olur. </p> 
+
+
   <p><strong>Not:</strong> Yeni bir örneklemin oluşturulmasını kontrol etmeniz gerektiğinde **__new__** kullanın. 
 Yeni bir örneklemin başlatılmasını kontrol etmeniz gerektiğinde **__init__()** kullanın. 
 
