@@ -96,6 +96,20 @@ Nokta (.) operatörünü nesne ile kullanarak erişebilirsiniz. Sınıf adı kul
 <div class="w3-code notranslate pythonHigh">
   print(p1.x)<br>print(MyClass.x)</div><br><br>
 
+
+
+<div class="w3-panel w3-card w3-light-grey">
+  <h3>Sözlük</h3>
+  <div class="w3-container w3-white">
+    <p>
+    <ul class="w3-ul w3-card-4" style="width:70%">
+      <li>z.real ifadesinde, real, z nesnesinin bir özniteliğidir. Kesin olarak, modüllerdeki isimlere yapılan atıflar öznitelik referanslarıdır: modname.funcname ifadesinde modname bir modül nesnesidir ve funcname bunun bir özniteliğidir. Bu durumda, modülün öznitelikleri ile modülde tanımlanan genel isimler arasında doğrudan bir eşleme olur: aynı ad alanını paylaşırlar!</li>
+    </ul>
+    </p>
+  </div>
+</div>
+
+
 <div class="teaser clearfix"></div>
 <h3>Bir Python Nesnesi Oluşturma</h3><hr>
 Artık nesneleri oluşturmak için myClass adlı sınıfı kullanabiliriz:
