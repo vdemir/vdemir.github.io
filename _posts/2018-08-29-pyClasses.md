@@ -400,7 +400,7 @@ print(p1)
 
 <script src="{{ sitebase.url }}/scripts/dcl-react.js.gz"></script>
 <a class="w3-btn w3-margin-bottom">Just python 3 'Run'.</a>
-<div data-datacamp-exercise data-lang="python3" data-height="auto">
+<div data-datacamp-exercise data-lang="python 3" data-height="auto">
       <code data-type="pre-exercise-code"></code>
       <code data-type="sample-code">
       </code>
