@@ -82,7 +82,7 @@ person2.showName()
 </textarea></div>
 
 <br><br>
-<h3 id="C4">Bir Python Sınıfı Oluşturma</h3><hr>
+<h3 id="C1">Bir Python Sınıfı Oluşturma</h3><hr>
 x adlı bir özniteliğe sahip MyClass adlı bir sınıf oluşturun:
 <div class="w3-code notranslate pythonHigh">
   class MyClass:<br> &nbsp; 'Python Temel Sınıf'<br> &nbsp; x = 5<br>print(MyClass)</div>
@@ -170,7 +170,7 @@ x = Complex(3.0, -4.5)
 x.r, x.i
 </pre></div>
 <br>
-<h3>Örneklenen Nesneler </h3><hr>
+<h3 id="C6">Örneklenen Nesneler </h3><hr>
 Şimdi örnek nesnelerle ne yapabiliriz? Örnek nesneler tarafından anlaşılan tek işlemler, özellik referanslarıdır. İki tür geçerli özellik adı, veri niteliği ve yöntemi vardır. 
 
 data nitelikleri, Smalltalk'daki “örnek değişkenleri” ve C ++'daki “veri üyeleri” ne karşılık gelir. Veri özelliklerinin beyan edilmesine gerek yoktur; Yerel değişkenler gibi, ilk atandıklarında var olurlar. Örneğin, x yukarıda oluşturulan MyClass örneğiyse, aşağıdaki kod parçası bir iz bırakmadan değeri 16 yazdıracaktır:
@@ -400,13 +400,13 @@ print(p1)
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
-      <li><a href="#C4" style="text-decoration: none; color:#388E3C; cursor:pointer">Python Class: Python Sınıfı</a></li>
+      <li><a href="#C1" style="text-decoration: none; color:#388E3C; cursor:pointer">Python Class: Python Sınıfı</a></li>
       <li>Class Attributes: Sınıf öznitelikleri</li>
       <li>Class Methods: Sınıf yordamları</li>
       <li>Class instantiation: Sınıf örneklemi</li>
       <li>Python class constructor: Python sınıf kurucu</li>
       <li>Class Objects: Sınıf nesneleri</li>
-      <li>Instance Objects: Örneklem nesneleri</li>
+      <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer">Instance Objects: Örneklenen nesneleri</a></li>
       <li>Method Objects: Yordam Nesneleri</li>
     </ul>
     </p>
