@@ -37,7 +37,36 @@ class ClassName:
     # python sınıf yordam tanımları
 
 </textarea></li>
-  <li>B</li>
+  <li><textarea autocomplete="off" id="textareaCode" wrap="logical" rows="30" cols="35" spellcheck="false">
+
+# sınıfın tanımı burada başlar  
+class Person:
+    # değişkenleri başlatma yordamı
+    name = ""
+    age = 0
+      
+    #sınıf kurucusu tanımlama
+    def __init__(self, personName, personAge):
+        self.name = personName  
+        self.age = personAge  
+  
+    #sınıf yordamlarını tanımlar
+    def showName(self):
+        print(self.name)  
+  
+    def showAge(self):
+        print(self.age)  
+          
+    #sınıf tanımının sonu
+  
+#Sınıfın bir nesnesini oluşturur 
+person1 = Person("Richard", 23)
+#Aynı sınıfın diğer bir nesnesini oluşturur   
+person2 = Person("Anne", 30)
+#Nesnelerin yordamlarının elemanını çağırır  
+person1.showAge()
+person2.showName() 
+</textarea></li>
 </ul>
 
 <div class="info">Resize this panel to see grids respond</div>
