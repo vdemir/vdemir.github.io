@@ -120,7 +120,7 @@ Artık nesneleri oluşturmak için myClass adlı sınıfı kullanabiliriz:
 </div>
 
 <div class="w3-note">
-  <p><strong>Not:</strong> Python sınıf kurucusunun iki adımı vardır: Örnekleme ile oluşturmak için <code class="w3-codespan">__new__()</code> çağırma ve başlatmak için <code class="w3-codespan">__init__()</code> çağırma. <code class="w3-codespan">__init__()</code> isteğe bağlı bir adım değildir, <code class="w3-codespan">__init__()</code> başarısız olursa örneklem oluşturma da başarısız olur. </p></div> 
+  <p><strong>Not:</strong> Python sınıf kurucusunun iki adımı vardır: Örneklem ile oluşturmak için <code class="w3-codespan">__new__()</code> çağırma ve başlatmak için <code class="w3-codespan">__init__()</code> çağırma. <code class="w3-codespan">__init__()</code> isteğe bağlı bir adım değildir, <code class="w3-codespan">__init__()</code> başarısız olursa örneklem oluşturma da başarısız olur. </p></div> 
 
 <div class="w3-note">
   <p><strong>Not:</strong> Yeni bir örneklemin oluşturulmasını kontrol etmeniz gerektiğinde <code class="w3-codespan">__new__()</code> kullanın. 
