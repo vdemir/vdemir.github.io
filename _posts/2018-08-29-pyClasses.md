@@ -299,7 +299,7 @@ print(p1)
 <!--iframe src="https://trinket.io/embed/python/0bdde66575" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe-->
 
 <!-- python interpreter -->
-<br>
+ 
 <script src="/scripts/dcl-react.js.gz"></script>
 
 <a class="w3-btn w3-margin-bottom">Just python 3 'Run'.</a>
