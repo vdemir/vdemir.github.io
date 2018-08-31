@@ -236,7 +236,7 @@ print(p1.age)
 <div class="teaser clearfix"></div>
 <h3> Nesne Özniteliklerini Sil </h3><hr>
 Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz:
-<p>age özelliğini p1 nesnesinden silin:</p>
+<p>age özniteliğini p1 nesnesinden silin:</p>
 <div class="w3-code notranslate pythonHigh">
  del p1.age</div>
 
