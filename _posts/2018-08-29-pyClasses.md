@@ -311,5 +311,7 @@ print(p1)
       <code data-type="solution"></code>
       <code data-type="sct"></code>
 </div>
+<div class="w3-container w3-content">
+   <p> Python 3 paket listesine bakınız: <br>documents.datacamp.com/default_python_packages.txt</p>
+ </div>
 
-<a>Python 3 paket listesine bakınız: <br>documents.datacamp.com/default_python_packages.txt</a>
