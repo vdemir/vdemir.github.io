@@ -177,7 +177,7 @@ data nitelikleri, Smalltalk'daki “örnek değişkenleri” ve C ++'daki “ver
 <br><br>
 
 <h3><code class="w3-codespan">__new__()</code> yordamı </h3><hr>
- <code class="w3-codespan">__new__()</code> örnekleme ile oluşturan ve döndüren python özel yordamıdır.
+ **__new__** örnekleme ile oluşturan ve döndüren python özel yordamıdır.
 
 <div class="w3-code notranslate pythonHigh">
   class Sample(object):<br>&nbsp; def __new__(cls, *args, **kargs):<br>&nbsp;&nbsp;&nbsp; 
@@ -185,30 +185,30 @@ data nitelikleri, Smalltalk'daki “örnek değişkenleri” ve C ++'daki “ver
   print ("Initiating instance of Sample")<br>s=Sample()</div><br>
 <div class="teaser clearfix"></div>
 <div class="w3-note">
-  <p><strong>Not:</strong> Örneklem ile oluşturulduktan sonra <code class="w3-codespan">__init__()</code> yordamı çağrılır. Gerçek oluşturma işlemini kontrol etmek istiyorsanız, <code class="w3-codespan">__new__()</code> yordamını kullanın.</p>
+  <p><strong>Not:</strong> Örneklem ile oluşturulduktan sonra **__init__()** yordamı çağrılır. Gerçek oluşturma işlemini kontrol etmek istiyorsanız, **__new__** yordamını kullanın.</p>
 </div> 
 
 <div class="w3-note">
-  <p><strong>Not:</strong> <code class="w3-codespan">__new__()</code>, bir cls yordamı döndürürse, argümanların geri kalanıyla <code class="w3-codespan">__init__()</code> çağrılır (...), aksi halde <code class="w3-codespan">__init__()</code> çağrılmaz.</p>
+  <p><strong>Not:</strong> **__new__**, bir cls yordamı döndürürse, argümanların geri kalanıyla **__init__()** çağrılır (...), aksi halde **__init__()** çağrılmaz.</p>
 </div>
 
 <div class="w3-note">
-  <p><strong>Not:</strong> Python sınıf kurucusunun iki adımı vardır: Örneklem ile oluşturmak için <code class="w3-codespan">__new__()</code> çağırma ve başlatmak için <code class="w3-codespan">__init__()</code> çağırma. <code class="w3-codespan">__init__()</code> isteğe bağlı bir adım değildir, <code class="w3-codespan">__init__()</code> başarısız olursa örneklem oluşturma da başarısız olur. </p></div> 
+  <p><strong>Not:</strong> Python sınıf kurucusunun iki adımı vardır: Örneklem ile oluşturmak için **__new__** çağırma ve başlatmak için **__init__()** çağırma. **__init__()** isteğe bağlı bir adım değildir, **__init__()** başarısız olursa örneklem oluşturma da başarısız olur. </p></div> 
 
 <div class="w3-note">
-  <p><strong>Not:</strong> Yeni bir örneklemin oluşturulmasını kontrol etmeniz gerektiğinde <code class="w3-codespan">__new__()</code> kullanın. 
-Yeni bir örneklemin başlatılmasını kontrol etmeniz gerektiğinde <code class="w3-codespan">__init__()</code> kullanın. 
+  <p><strong>Not:</strong> Yeni bir örneklemin oluşturulmasını kontrol etmeniz gerektiğinde **__new__** kullanın. 
+Yeni bir örneklemin başlatılmasını kontrol etmeniz gerektiğinde **__init__()** kullanın. 
 
-<code class="w3-codespan">__new__()</code>, örneklem oluşturmanın ilk adımıdır. İlk olarak adlandırılır, 
+**__new__**, örneklem oluşturmanın ilk adımıdır. İlk olarak adlandırılır, 
 ve sınıfınızın yeni bir örneklemi döndürmekten sorumludur. 
-Tezatında, <code class="w3-codespan">__init__()</code> hiçbir şey döndürmez; yalnızca, oluşturulduktan sonra örneklemin başlatmasından sorumludur. 
+Tezatında, **__init__()** hiçbir şey döndürmez; yalnızca, oluşturulduktan sonra örneklemin başlatmasından sorumludur. 
 
 Genel olarak, 
-str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturmuyorsanız <code class="w3-codespan">__new__()</code>'yi geçersiz kılmanız gerekmez. </p></div> 
+str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturmuyorsanız **__new__**'yi geçersiz kılmanız gerekmez. </p></div> 
 
 <div class="w3-panel w3-yellow">
     <h3>Bilgi!</h3>
-    <p> <code class="w3-codespan">__init__()</code> bazen nesnenin kurucusu olarak adlandırılır, çünkü kurucuların diğer dillerde kullanıldığı gibi kullanılır, ancak bu teknik olarak doğru değildir - onu başlatıcı olarak adlandırmak daha iyidir. Bir kurucuya daha benzer olan <code class="w3-codespan">__new__()</code> adlı farklı bir yordam var, ancak neredeyse hiç kullanılmıyor.</p>
+    <p> **__init__()** bazen nesnenin kurucusu olarak adlandırılır, çünkü kurucuların diğer dillerde kullanıldığı gibi kullanılır, ancak bu teknik olarak doğru değildir - onu başlatıcı olarak adlandırmak daha iyidir. Bir kurucuya daha benzer olan **__new__** adlı farklı bir yordam var, ancak neredeyse hiç kullanılmıyor.</p>
   </div>
 
 <div class="w3-container">
@@ -241,11 +241,11 @@ str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturm
 <h3><code class="w3-codespan">__init__()</code> yordamı</h3><hr>
 Yukarıdaki örnekler, en basit biçimde sınıflar ve nesnelerdir ve gerçek yaşam uygulamalarında gerçekten yararlı değildir. 
 
-Sınıfların manâsını anlamak için, yerleşik <code class="w3-codespan">__init__()</code> yordamını anlamamız gerekir. 
+Sınıfların manâsını anlamak için, yerleşik **__init__()** yordamını anlamamız gerekir. 
 
-Tüm sınıflar, sınıf başlatıldığında her zaman çalıştırılan <code class="w3-codespan">__init__()</code> adında bir yordama sahiptir. 
+Tüm sınıflar, sınıf başlatıldığında her zaman çalıştırılan **__init__()** adında bir yordama sahiptir. 
 
-Nesne özniteliklerine veya nesne oluşturulduğunda yapılması gereken diğer işlemlere değer atamak için <code class="w3-codespan">__init__()</code> yordamını kullanın:
+Nesne özniteliklerine veya nesne oluşturulduğunda yapılması gereken diğer işlemlere değer atamak için **__init__()** yordamını kullanın:
 
  
 <div class="teaser clearfix"></div>
