@@ -86,7 +86,7 @@ x adlı bir özniteliğe sahip MyClass adlı bir sınıf oluşturun:
 <br>
 <div class="teaser clearfix"></div>
 <h3>Örneklem ile Nesne Oluşturma</h3><hr>
- Bir sınıfın bir örneğini oluşturmak için, sadece sınıf adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">__init__()</code> işlevinin kabul ettiği argümanları iletirsiniz:
+ Bir sınıfın bir örneklemini oluşturmak için, sadece sınıf adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">__init__()</code> işlevinin kabul ettiği argümanları iletirsiniz:
 <div class="w3-code notranslate pythonHigh">
   p1 = Person("John", 36)</div><br><br>
 
@@ -113,7 +113,7 @@ Artık nesneleri oluşturmak için myClass adlı sınıfı kullanabiliriz:
   print ("Initiating instance of Sample")<br>s=Sample()</div><br>
 <div class="teaser clearfix"></div>
 <div class="w3-note">
-  <p><strong>Not:</strong> Örnekleme ile oluşturulduktan sonra <code class="w3-codespan">__init__()</code> yordamı çağrılır. Gerçek oluşturma işlemini kontrol etmek istiyorsanız, <code class="w3-codespan">__new__()</code> yordamını kullanın.</p>
+  <p><strong>Not:</strong> Örneklem ile oluşturulduktan sonra <code class="w3-codespan">__init__()</code> yordamı çağrılır. Gerçek oluşturma işlemini kontrol etmek istiyorsanız, <code class="w3-codespan">__new__()</code> yordamını kullanın.</p>
 </div> 
 
 <div class="w3-note">
@@ -125,7 +125,7 @@ Artık nesneleri oluşturmak için myClass adlı sınıfı kullanabiliriz:
 
 <div class="w3-note">
   <p><strong>Not:</strong> Yeni bir örneklemin oluşturulmasını kontrol etmeniz gerektiğinde <code class="w3-codespan">__new__()</code> kullanın. 
-Yeni bir örneklemenin başlatılmasını kontrol etmeniz gerektiğinde <code class="w3-codespan">__init__()</code> kullanın. 
+Yeni bir örneklemin başlatılmasını kontrol etmeniz gerektiğinde <code class="w3-codespan">__init__()</code> kullanın. 
 
 <code class="w3-codespan">__new__()</code>, örneklem oluşturmanın ilk adımıdır. İlk olarak adlandırılır, 
 ve sınıfınızın yeni bir örneklemi döndürmekten sorumludur. 
