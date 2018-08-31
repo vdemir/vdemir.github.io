@@ -208,7 +208,7 @@ str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturm
 
 <div class="w3-panel w3-yellow">
     <h3>Bilgi!</h3>
-    <p> **__init__()** bazen nesnenin kurucusu olarak adlandırılır, çünkü kurucuların diğer dillerde kullanıldığı gibi kullanılır, ancak bu teknik olarak doğru değildir - onu başlatıcı olarak adlandırmak daha iyidir. Bir kurucuya daha benzer olan **__new__** adlı farklı bir yordam var, ancak neredeyse hiç kullanılmıyor.</p>
+    <p> <code class="w3-codespan">__init__()</code> bazen nesnenin kurucusu olarak adlandırılır, çünkü kurucuların diğer dillerde kullanıldığı gibi kullanılır, ancak bu teknik olarak doğru değildir - onu başlatıcı olarak adlandırmak daha iyidir. Bir kurucuya daha benzer olan **__new__** adlı farklı bir yordam var, ancak neredeyse hiç kullanılmıyor.</p>
   </div>
 
 <div class="w3-container">
