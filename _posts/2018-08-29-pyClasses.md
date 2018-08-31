@@ -28,6 +28,40 @@ Python sınıfları, Nesne Yönelimli Programlamanın tüm standart özellikleri
   class ClassName:<br> &nbsp; 'class docstring'<br> &nbsp; class_suite</div>
 
 Burada, (class docstring) class_name._doc_ üzerinden erişilebilen bir belge dizesidir ve class_suite, temel olarak sınıf elemanlarını, veri özniteliklerini ve yordamları tanımlayan tüm bileşen ifadelerinden oluşur.
+<ul>
+  <li>A</li>
+  <li>B</li>
+</ul>
+
+<div class="info">Resize this panel to see grids respond</div>
+<style>
+body {
+  padding: 20px;
+  font-family: Helvetica;
+  background-color: #20262e;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-gap: 10px;
+}
+
+li {
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.info {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 20px;
+  color: #fff;
+}
+</style>
+
 
 <div id="container">
         <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="7" cols="35" spellcheck="false">
