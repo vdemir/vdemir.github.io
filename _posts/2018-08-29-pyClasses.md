@@ -172,7 +172,7 @@ Sınıfların manâsını anlamak için, yerleşik <code class="w3-codespan">__i
 
 Tüm sınıflar, sınıf başlatıldığında her zaman çalıştırılan <code class="w3-codespan">__init__()</code> adında bir işleve sahiptir. 
 
-Nesne özniteliklerine veya nesne oluşturulduğunda yapılması gereken diğer işlemlere değer atamak için <code class="w3-codespan">__init__()</code> işlevini kullanın:
+Nesne özniteliklerine veya nesne oluşturulduğunda yapılması gereken diğer işlemlere değer atamak için <code class="w3-codespan">__init__()</code> yordamını kullanın:
 
  
 <div class="teaser clearfix"></div>
