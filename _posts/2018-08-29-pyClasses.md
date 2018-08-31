@@ -142,7 +142,7 @@ str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturm
 <div class="w3-container">
   <table class="w3-table">
     <tr>
-      <td>bir sınıf yapıcı</td>
+      <td>bir sınıf kurucu</td>
       <td>x = MyClass()</td>
       <td>x.__new__()</td>
     </tr>
@@ -321,9 +321,9 @@ print(p1)
     <ul class="w3-ul w3-card-4" style="width:70%">
       <li>Python Class: Python Sınıfı</li>
       <li>Attributes of class instance: Sınıf örneklemin öznitelikleri</li>
-      <li>Methods of class instances: Sınıf örneklem yordamları</li>
+      <li>Methods of class instance: Sınıf örneklem yordamları</li>
       <li>Class instance: Sınıf örneklemi</li>
-      <li> instantiation of Class objects: Sınıf nesnelerinin örneklemi</li>
+      <li>Instantiation of class objects: Sınıf nesnelerinin örneklemi</li>
       <li>Python class constructor: Python sınıf kurucu</li>
       <li>Class Objects: Sınıf nesneleri</li>
       <li>New instance creation: Yeni örneklem başlatıcı</li>
