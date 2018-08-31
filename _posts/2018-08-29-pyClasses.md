@@ -176,14 +176,16 @@ x.r, x.i
 data nitelikleri, Smalltalk'daki “örnek değişkenleri” ve C ++'daki “veri üyeleri” ne karşılık gelir. Veri özelliklerinin beyan edilmesine gerek yoktur; Yerel değişkenler gibi, ilk atandıklarında var olurlar. Örneğin, x yukarıda oluşturulan MyClass örneğiyse, aşağıdaki kod parçası bir iz bırakmadan değeri 16 yazdıracaktır:
 
 <div class="teaser clearfix"></div>
-<div class="w3-code notranslate pythonHigh">
+<div class="highlight-python3 notranslate">
+<div class="highlight">
+<pre>
 x.counter = 1
 while x.counter < 10:
     x.counter = x.counter * 2
 print(x.counter)
 del x.counter
-
-</div>
+</pre>
+</div></div>
 
 <br><br>
 
