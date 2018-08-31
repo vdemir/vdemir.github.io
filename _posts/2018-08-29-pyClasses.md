@@ -94,12 +94,10 @@ x adlı bir özniteliğe sahip MyClass adlı bir sınıf oluşturun:
 <h3>Nesnenin Özniteliklerine Erişim</h3><hr>
 Nokta (.) operatörünü nesne ile kullanarak erişebilirsiniz. Sınıf adı kullanarak da sınıf özniteliklerine erişilebilir:
 <div class="w3-code notranslate pythonHigh">
-  print(p1.x)<br>print(MyClass.x)</div><br><br>
-
-
+  print(p1.x)<br>print(MyClass.x)</div><br>
 
 <div class="w3-panel w3-card w3-light-grey">
-  <h3>Sözlük</h3>
+  <h3>Özniteliklerin tanımı</h3>
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:70%">
