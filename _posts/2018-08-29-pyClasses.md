@@ -135,16 +135,11 @@ str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturm
 
 <div class="w3-panel w3-yellow">
     <h3>Bilgi!</h3>
-    <p> <code class="w3-codespan">__init__()</code> bazen nesnenin yapıcısı olarak adlandırılır, çünkü kurucuların diğer dillerde kullanıldığı gibi kullanılır, ancak bu teknik olarak doğru değildir - onu başlatıcı olarak adlandırmak daha iyidir. Bir yapıcıya daha benzer olan <code class="w3-codespan">__new__()</code> adlı farklı bir yöntem var, ancak neredeyse hiç kullanılmıyor.</p>
+    <p> <code class="w3-codespan">__init__()</code> bazen nesnenin kurucusu olarak adlandırılır, çünkü kurucuların diğer dillerde kullanıldığı gibi kullanılır, ancak bu teknik olarak doğru değildir - onu başlatıcı olarak adlandırmak daha iyidir. Bir kurucuya daha benzer olan <code class="w3-codespan">__new__()</code> adlı farklı bir yordam var, ancak neredeyse hiç kullanılmıyor.</p>
   </div>
 
 <div class="w3-container">
   <table class="w3-table">
-    <tr>
-      <th>You Want…</th>
-      <th>So You Write…</th>
-      <th>And Python Calls…</th>
-    </tr>
     <tr>
       <td>a class constructor</td>
       <td>x = MyClass()</td>
@@ -159,6 +154,11 @@ str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturm
       <td>a class destructor</td>
       <td>del x</td>
       <td>x.__del__()</td>
+    </tr>
+    <tr>
+      <th>You Want…</th>
+      <th>So You Write…</th>
+      <th>And Python Calls…</th>
     </tr>
   </table>
 </div>
