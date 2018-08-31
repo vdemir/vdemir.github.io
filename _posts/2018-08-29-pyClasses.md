@@ -175,15 +175,13 @@ x.r, x.i
 
 data nitelikleri, Smalltalk'daki “örnek değişkenleri” ve C ++'daki “veri üyeleri” ne karşılık gelir. Veri özelliklerinin beyan edilmesine gerek yoktur; Yerel değişkenler gibi, ilk atandıklarında var olurlar. Örneğin, x yukarıda oluşturulan MyClass örneğiyse, aşağıdaki kod parçası bir iz bırakmadan değeri 16 yazdıracaktır:
 
-<br><br>
+<div class="w3-code notranslate pythonHigh">
+x.counter = 1
+while x.counter < 10:
+    x.counter = x.counter * 2
+print(x.counter)
+del x.counter</div>
 
-<div class="highlight-python3 notranslate"><div class="highlight"><pre><span></span><span class="n">x</span><span class="o">.</span><span class="n">counter</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="k">while</span> <span class="n">x</span><span class="o">.</span><span class="n">counter</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">:</span>
-    <span class="n">x</span><span class="o">.</span><span class="n">counter</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span><span class="n">counter</span> <span class="o">*</span> <span class="mi">2</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">counter</span><span class="p">)</span>
-<span class="k">del</span> <span class="n">x</span><span class="o">.</span><span class="n">counter</span>
-</pre></div>
-</div>
 <br><br>
 
 <h3><code class="w3-codespan">__new__()</code> yordamı </h3><hr>
