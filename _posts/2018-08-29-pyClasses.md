@@ -292,19 +292,7 @@ print(p1)
  <p class="w3-opacity"><b>Today</b></p> 
  <div class="w3-panel w3-white w3-card w3-display-container">
    <p class="w3-text-blue"><b>email.zip</b></p>
-   <p>class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
-
-  def myfunc(self):
-    print("Hello my name is " + self.name)
-
-p1 = Person("John", 36)
-
-del p1
-
-print(p1)</p>
+   <p>Not: Python sınıf kurucusunun iki adımı vardır: Örnekleme ile oluşturmak için __new__() çağırma ve başlatmak için __init__() çağırma. __init__() isteğe bağlı bir adım değildir, __init__() başarısız olursa örneklem oluşturma da başarısız olur.</p>
    <p class="w3-text-blue">Show in folder</p>
  </div>
 <br>
