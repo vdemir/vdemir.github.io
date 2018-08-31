@@ -151,9 +151,11 @@ Sınıf örnekleme, fonksiyon notasyonu kullanır. Sınıf nesnesinin,  sadece s
   def __init__(self):<br> &nbsp; self.data = []</div>
 
 Bir sınıf/öbek bir **__init__()** yordamını tanımladığında, sınıf/öbek örneklemesi otomatik olarak yeni oluşturulmuş sınıf örneği için **__init__()** yordamını çağırır. . Bu örnekte, yeni başlatılmış bir örnekleme şu şekilde elde edilebilir: 
+<div class="w3-code notranslate pythonHigh">
+  x = MyClass() </div>
 
-x = MyClass() 
-Elbette **__init__()** yöntemi daha fazla esneklik için argümanlara sahip olabilir. Bu durumda, sınıflandırma işlecine verilen argümanlar **__init__()** öğesine iletilir. Örneğin,
+
+Elbette **__init__()** yordamı daha fazla esneklik için argümanlara sahip olabilir. Bu durumda, sınıf/öbek örnekleme işlecine verilen argümanlar **__init__()** öğesine iletilir. Örneğin,
 
 <div class="teaser clearfix"></div>
 <div class="highlight-python3 notranslate"><div class="highlight"><pre>
