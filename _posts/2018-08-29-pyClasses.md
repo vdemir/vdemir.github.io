@@ -321,10 +321,11 @@ print(p1)
     <ul class="w3-ul w3-card-4" style="width:70%">
       <li>Python Classes: Python Sınıfları &nbsp; &nbsp; &nbsp; Object: Nesne</li>
       <li>Attributes of class instance: Sınıf örneklem öznitelikleri</li>
-      <li>Constructor: Kurucu</li>
-      <li>Methods of class instances: Sınıf örneklem yordamı</li>
+      <li>Methods of class instances: Sınıf örneklem yordamları</li>
       <li>Class instance: Sınıf örneklemi</li>
-      <li>initialize: Başlatıcı</li>
+      <li>Class objects support instantiation: Sınıf nesneleri örneklemi estekler</li>
+      <li>Python class constructor: Python sınıf kurucu</li>
+      <li>Class Objects: Sınıf nesneleri</li>
       <li>Class Objects: Sınıf nesneleri</li>
     </ul>
     </p>
