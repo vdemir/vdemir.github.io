@@ -327,14 +327,14 @@ print(p1)
       <code data-type="sct"></code>
 </div>
 <div class="w3-container w3-content">
-<a href="{{ sitebase.url }}/assets/txt/default_python_packages.txt" >Python 3 paket listesine bakınız</a>
+<a href="{{ sitebase.url }}/assets/txt/default_python_packages.txt"  style="text-decoration: none; color:#388E3C; cursor:pointer">Python 3 paket listesine bakınız</a>
  </div>
 <div class="w3-panel w3-card w3-light-grey">
   <h3>Sözlük</h3>
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
-      <li><a href="#C4">Python Class: Python Sınıfı</a></li>
+      <li><a href="#C4" style="text-decoration: none; color:#388E3C; cursor:pointer">Python Class: Python Sınıfı</a></li>
       <li>Attributes of class instance: Sınıf örneklemin öznitelikleri</li>
       <li>Methods of class instance: Sınıf örneklem yordamları</li>
       <li>Class instance: Sınıf örneklemi</li>
