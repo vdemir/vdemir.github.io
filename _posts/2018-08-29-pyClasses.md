@@ -288,12 +288,11 @@ print(p1)
 </textarea>
 </div>
 <div class="w3-container w3-content">
- <p class="w3-opacity"><b>Not:</b></p> 
  <div class="w3-panel w3-white w3-card w3-display-container">
-   <p class="w3-text-blue"><b></b></p>
+   <p class="w3-text-blue"></p>
    <p> Ne yaptığınızı biliyorsanız, sınıfların nasıl karşılaştırıldığı, özniteliklerin nasıl tanımlandığı ve sınıfınızın alt sınıfları olarak kabul edilen sınıflar hakkında neredeyse tam kontrol sahibi olabilirsiniz.</p>
  </div>
- 
+</div> 
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
  
  
