@@ -144,7 +144,9 @@ sonra **MyClass.i** ve **MyClass.f**, sırasıyla bir tamsayı ve fonksiyon nesn
 
 Sınıf örnekleme, fonksiyon notasyonu kullanır. Sınıf nesnesinin,  sadece sınıfın yeni bir örneğini döndüren parametresiz bir fonksiyon olduğunu varsayalım. Örneğin (yukarıdaki sınıfı varsayarak):
 
-**x = MyClass()**, sınıfın yeni bir örneklemini oluşturur ve bu nesneyi **x** yerel değişkenine atar.
+<div class="w3-code notranslate pythonHigh">
+  x = MyClass() </div>
+sınıfın yeni bir örneklemini oluşturur ve bu nesneyi **x** yerel değişkenine atar.
 
 Örneklem işlemi boş bir nesne oluşturur.(bir sınıf nesnesini çağırmak) Birçok sınıf, belirli bir başlangıç ​​durumuna göre özelleştirilmiş örneklemeler ile nesneler oluşturmayı sever. Bu nedenle, bir sınıf, **__init__()** adında özel bir yordam tanımlayabilir, bunun gibi: 
 <div class="w3-code notranslate pythonHigh">
