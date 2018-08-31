@@ -298,7 +298,6 @@ print(p1)
 
 <!-- python interpreter -->
 <br>
-<br>
 <script src="/scripts/dcl-react.js.gz"></script>
 
 <a class="w3-btn w3-margin-bottom">Just python 3 'Run'.</a>
