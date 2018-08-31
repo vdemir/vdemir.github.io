@@ -14,6 +14,7 @@ lang: tr
 {% include tr_ay.html %}
 <link rel="stylesheet" href="/css/w3.css">
 <link rel="stylesheet" href="/css/w3mobile.css">
+<script src="{{ sitebase.url }}/scripts/dcl-react.js.gz"></script>
 <br>
 Python bir nesne yönelimli programlama dilidir.
 Python'daki hemen hemen her şey, öznitelikleri ve yordamları ile bir nesnedir. 
@@ -426,4 +427,3 @@ print(p1)
     </p>
   </div>
 </div>
-<script src="{{ sitebase.url }}/scripts/dcl-react.js.gz"></script>
