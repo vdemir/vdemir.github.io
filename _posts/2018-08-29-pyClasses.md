@@ -136,7 +136,7 @@ sonra **MyClass.i** ve **MyClass.f**, sırasıyla bir tamsayı ve fonksiyon nesn
 
 Sınıf örnekleme fonksiyon gösterimini kullanır. Sadece sınıf nesnesi, sınıfın yeni bir örneğini döndüren parametresiz bir fonksiyon olduğunu varsayalım. Örneğin (yukarıdaki sınıfı varsayarak):
 
-**x = MyClass ()**, sınıfın yeni bir örneklem oluşturur ve bu nesneyi x yerel değişkenine atar.
+**x = MyClass ()**, sınıfın yeni bir örneklem oluşturur ve bu nesneyi **x** yerel değişkenine atar.
 
 <br>
 <h3><code class="w3-codespan">__new__()</code> yordamı </h3><hr>
