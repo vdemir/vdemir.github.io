@@ -131,7 +131,7 @@ Artık nesneleri oluşturmak için myClass adlı sınıfı kullanabiliriz:
   <p><strong>Not:</strong> Örneklem ile oluşturulduktan sonra <code class="w3-codespan">__init__()</code> yordamı çağrılır. Gerçek oluşturma işlemini kontrol etmek istiyorsanız, <code class="w3-codespan">__new__()</code> yordamını kullanın.</p>
 </div> 
 
-<div class="w3-note">
+<div class="w3-panel w3-note">
   <p><strong>Not:</strong> <code class="w3-codespan">__new__()</code>, bir cls yordamı döndürürse, argümanların geri kalanıyla <code class="w3-codespan">__init__()</code> çağrılır (...), aksi halde <code class="w3-codespan">__init__()</code> çağrılmaz.</p>
 </div>
 
@@ -316,7 +316,7 @@ print(p1)
 
 <!-- python interpreter -->
  
-<script src="/scripts/dcl-react.js.gz"></script>
+<script src="{{ sitebase.url }}/scripts/dcl-react.js.gz"></script>
 
 <a class="w3-btn w3-margin-bottom">Just python 3 'Run'.</a>
 <div data-datacamp-exercise data-lang="python" data-height="auto">
