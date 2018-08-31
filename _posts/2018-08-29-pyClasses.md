@@ -294,12 +294,10 @@ print(p1)
    <p class="w3-text-blue"><b></b></p>
    <p class="w3-text-blue"> Ne yaptığınızı biliyorsanız, sınıfların nasıl karşılaştırıldığı, özniteliklerin nasıl tanımlandığı ve sınıfınızın alt sınıfları olarak kabul edilen sınıflar hakkında neredeyse tam kontrol sahibi olabilirsiniz.</p>
  </div>
-<br>
+ 
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
  
-
-<br>
-
+ 
 <!--python interpreter -->
 <!--iframe src="https://trinket.io/embed/python/0bdde66575" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe-->
 
