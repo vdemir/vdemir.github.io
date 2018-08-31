@@ -41,7 +41,11 @@ class ClassName:
 </ul>
 
 <div class="info">Resize this panel to see grids respond</div>
-<style> 
+<style>
+body {
+  padding: 20px;
+  font-family: Helvetica;
+}
 
 #main_menu ul {
   display: grid;
@@ -55,6 +59,11 @@ class ClassName:
   font-size: 14px;
 }
 
+.info {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 20px;
+}
 </style>
 
 
