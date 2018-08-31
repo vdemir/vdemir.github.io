@@ -29,6 +29,7 @@ Python sınıfları, Nesne Yönelimli Programlamanın tüm standart özellikleri
 
 Burada, (class docstring) class_name._doc_ üzerinden erişilebilen bir belge dizesidir ve class_suite, temel olarak sınıf elemanlarını, veri özniteliklerini ve yordamları tanımlayan tüm bileşen ifadelerinden oluşur.
 
+<div class='pull-right alert alert-warning' style="margin: 25px; text-align: right;">
 <div id="container">
         <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="7" cols="35" spellcheck="false">
 class ClassName:
@@ -37,7 +38,8 @@ class ClassName:
     # python sınıf kurucu
     # python sınıf yordam tanımları
 
-</textarea></div>
+</textarea></div></div>
+
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/class1.png" alt="programs" class="resize" />
   <p><small>Python &bull; Sınıflar.</small></p>
