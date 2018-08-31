@@ -13,6 +13,7 @@ lang: tr
 
 {% include tr_ay.html %}
 <link rel="stylesheet" href="/css/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <br>
 Python bir nesne yönelimli programlama dilidir.
 Python'daki hemen hemen her şey, özellikleri ve yöntemleri ile bir [Object]nesnedir. 
