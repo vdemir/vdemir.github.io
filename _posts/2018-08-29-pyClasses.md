@@ -197,7 +197,7 @@ Genellikle, bağlantıdan hemen sonra bir yordam çağrılır:
 <div class="w3-code notranslate pythonHigh">
 x.f() </div>
 
-MyClass örneğinde, bu 'merhaba dünya' dizesini döndürür. Ancak, bir yöntemi hemen çağırmak gerekli değildir: x.f bir metod nesnesidir ve daha sonra depolanabilir ve daha sonra çağrılabilir. Örneğin:
+MyClass örneğinde, 'merhaba dünya' dizesini döndürür. Ancak, bir yordamı hemen çağırmak gerekli değildir: x.f bir yordam nesnesidir ve daha sonra depolanabilir ve daha sonra çağrılabilir. Örneğin:
 
 <br><br>
 
