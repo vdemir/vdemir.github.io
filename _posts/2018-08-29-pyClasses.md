@@ -22,7 +22,7 @@ Python'daki hemen hemen her şey, özellikleri ve yöntemleri ile bir [Object]ne
 <div class="w3-code notranslate pythonHigh">
   class ClassName:<br> &nbsp; 'class docstring'<br> &nbsp; class_suite</div>
 
-Burada, (class docstring) class_name._doc_ üzerinden erişilebilen bir belge dizesidir ve class_suite temel olarak sınıf üyelerini, veri niteliklerini ve işlevlerini tanımlayan tüm bileşen ifadelerinden oluşur.
+Burada, (class docstring) class_name._doc_ üzerinden erişilebilen bir belge dizesidir ve class_suite, temel olarak sınıf elemanlarını, veri özniteliklerini ve yordamları tanımlayan tüm bileşen ifadelerinden oluşur.
 
 <div id="container">
         <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="7" cols="35" spellcheck="false">
