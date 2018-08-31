@@ -135,7 +135,7 @@ Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnek
 </pre></div>
 </div>
 
-sonra MyClass.i ve MyClass.f, sırasıyla bir tamsayı ve işlev nesnesini döndüren geçerli öznitelik referanslarıdır. Sınıf özellikleri de atanabilir, böylece MyClass.i'nin değerini atama yoluyla değiştirebilirsiniz. __doc__ ayrıca geçerli bir özelliktir ve 'Basit bir örnek sınıfı' olan sınıfa ait olan dokumanı döndürür.
+sonra MyClass.i ve MyClass.f, sırasıyla bir tamsayı ve işlev nesnesini döndüren geçerli öznitelik referanslarıdır. Sınıf özellikleri de atanabilir, böylece MyClass.i'nin değerini atama yoluyla değiştirebilirsiniz. ____doc____ ayrıca geçerli bir özelliktir ve 'Basit bir örnek sınıfı' olan sınıfa ait olan dokumanı döndürür.
 
 <br>
 <br>
