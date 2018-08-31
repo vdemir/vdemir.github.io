@@ -141,7 +141,7 @@ str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturm
 <div class="w3-container">
   <table class="w3-table">
     <tr>
-      <td>a sınıf yapıcı</td>
+      <td>bir sınıf yapıcı</td>
       <td>x = MyClass()</td>
       <td>x.__new__()</td>
     </tr>
@@ -186,11 +186,8 @@ Nesne özniteliklerine veya nesne oluşturulduğunda yapılması gereken diğer 
 
 
 <div class="w3-note">
-  <p><strong>Not:</strong> <code class="w3-codespan">__init__()</code> bir sınıfın kurucusudur. <code class="w3-codespan"> __init__()</code> işlevi, nesnenin belleğinin tahsis edildiği anda çağrılır.</p>
-</div> 
-<div class="w3-note">
-  <p><strong>Not:</strong> <code class="w3-codespan">self</code> parametresi, sınıfa ait bir referanstır ve sınıfa ait değişkenlere erişmek için kullanılır.</p>
-</div> 
+  <p><strong>Not:</strong> <code class="w3-codespan">__init__()</code> bir sınıfın kurucusudur aslında başlatıcıdır. <code class="w3-codespan"> __init__()</code> işlevi, nesnenin belleğinin tahsis edildiği anda çağrılır.</p>
+</div>
 
 <div class="teaser clearfix"></div>
 <br>
@@ -204,7 +201,10 @@ Nesne özniteliklerine veya nesne oluşturulduğunda yapılması gereken diğer 
   mysillyobject.name = name<br>&nbsp;&nbsp;&nbsp; mysillyobject.age = age<br><br>&nbsp; def myfunc(abc):<br>&nbsp;&nbsp;&nbsp; 
   print(&quot;Hello my name is &quot; + abc.name)<br><br>p1 = Person(&quot;John&quot;, 
   36)<br>p1.myfunc()</div>
-
+ 
+<div class="w3-note">
+  <p><strong>Not:</strong> <code class="w3-codespan">self</code> parametresi, sınıfa ait bir referanstır ve sınıfa ait değişkenlere erişmek için kullanılır.</p>
+</div> 
 
 <br>
 <div class="teaser clearfix"></div>
