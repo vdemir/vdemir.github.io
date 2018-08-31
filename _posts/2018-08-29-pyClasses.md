@@ -323,7 +323,7 @@ print(p1)
       <li>Attributes of class instance: Sınıf örneklem öznitelikleri</li>
       <li>Methods of class instances: Sınıf örneklem yordamları</li>
       <li>Class instance: Sınıf örneklemi</li>
-      <li> instantiation of Class objects instantiation: Sınıf nesnelerinin örneklemi</li>
+      <li> instantiation of Class objects: Sınıf nesnelerinin örneklemi</li>
       <li>Python class constructor: Python sınıf kurucu</li>
       <li>Class Objects: Sınıf nesneleri</li>
       <li>New instance creation: Yeni örneklem başlatıcı</li>
