@@ -130,6 +130,7 @@ Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnek
     <span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="bp">self</span>
 <span class="p">):</span>
         <span class="k">return</span> <span class="s1">&#39;hello world&#39;</span>
+
 x = MyClass()
 print(x.i) 
 
