@@ -35,7 +35,7 @@ class ClassName:
 </textarea></div>
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/class1.png" alt="programs" class="resize" />
-  <p><small>Python &bull; Classes.</small></p>
+  <p><small>Python &bull; Sınıflar.</small></p>
 </div> 
   
 <style>
@@ -58,7 +58,7 @@ class Person:
         self.name = personName  
         self.age = personAge  
   
-    #sınıf yordamlarını tanımlama
+    #sınıf yordamlarını tanımlar
     def showName(self):
         print(self.name)  
   
@@ -67,11 +67,11 @@ class Person:
           
     #sınıf tanımının sonu
   
-#Sınıfın bir nesnesini oluşturma  
+#Sınıfın bir nesnesini oluşturur 
 person1 = Person("Richard", 23)
-#Aynı sınıfın diğer bir nesnesini oluşturma   
+#Aynı sınıfın diğer bir nesnesini oluşturur   
 person2 = Person("Anne", 30)
-#Nesnelerin yordamlarının elemanını çağırma  
+#Nesnelerin yordamlarının elemanını çağırır  
 person1.showAge()
 person2.showName() 
 </textarea></div>
