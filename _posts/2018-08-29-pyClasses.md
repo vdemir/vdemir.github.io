@@ -130,6 +130,9 @@ Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnek
         <span class="k">return</span> <span class="s1">&#39;hello world&#39;</span>
 </pre></div>
 </div>
+
+sonra MyClass.i ve MyClass.f, sırasıyla bir tamsayı ve işlev nesnesini döndüren geçerli öznitelik referanslarıdır. Sınıf özellikleri de atanabilir, böylece MyClass.i'nin değerini atama yoluyla değiştirebilirsiniz. __doc__ ayrıca geçerli bir özelliktir ve 'Basit bir örnek sınıfı' olan sınıfa ait olan dokumanı döndürür.
+
 <br>
 <br>
 <h3><code class="w3-codespan">__new__()</code> yordamı </h3><hr>
