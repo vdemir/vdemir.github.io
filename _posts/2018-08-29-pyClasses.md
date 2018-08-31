@@ -289,8 +289,8 @@ print(p1)
 </div>
 
 <br>
-<!-- <a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a>
-<div class="teaser clearfix"></div>
+<!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a>
+<div class="teaser clearfix"></div-->
 
 <br>
 
