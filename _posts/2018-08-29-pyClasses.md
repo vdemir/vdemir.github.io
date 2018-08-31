@@ -116,7 +116,8 @@ Nokta (.) operatörünü nesne ile kullanarak erişebilirsiniz. Sınıf adı kul
 Artık nesneleri oluşturmak için myClass adlı sınıfı kullanabiliriz:
  
 <div class="w3-code notranslate pythonHigh">
-  class MyClass:<br>&nbsp; x = 5<br>p1 = MyClass()<br>print(p1.x)<br>print(MyClass.x)</div>
+  class MyClass:<br>&nbsp; x = 5<br>p1 = MyClass()<br>print(p1.x)<br>print(MyClass.x)<br>t=MyClass.x
+<br>print(x)<br>t=MyClass.x<br>print(x)</div>
 
 Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnekleme. 
 
@@ -127,9 +128,17 @@ Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnek
     <span class="sd">&quot;&quot;&quot;Basit bir örnek sınıf&quot;&quot;&quot;</span>
     <span class="n">i</span> <span class="o">=</span> <span class="mi">12345</span>
 
-    <span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="bp">self</span>
+<span class="p">):</span>
         <span class="k">return</span> <span class="s1">&#39;hello world&#39;</span>
-</pre></div>
+x = MyClass()
+print(x.i) 
+
+t=MyClass.i
+print(t)
+
+p=MyClass.f(1)
+print(p)</pre></div>
 </div>
 <br>
 sonra **MyClass.i** ve **MyClass.f**, sırasıyla bir tamsayı ve fonksiyon nesnesini döndüren geçerli öznitelik referanslarıdır. Sınıf öznitelikleri de atanabilir, böylece **MyClass.i**'nin değerini atama yoluyla değiştirebilirsiniz. **__doc__** ayrıca geçerli bir özniteliktir ve **'Basit bir örnek sınıf'** sınıfa ait olan docstring döndürür.
