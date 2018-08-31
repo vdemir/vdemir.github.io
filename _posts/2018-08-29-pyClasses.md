@@ -333,7 +333,7 @@ print(p1)
   <h3>Sözlük</h3>
   <div class="w3-container w3-white">
     <p>
-    <ul class="w3-ul w3-card-4" style="width:70%">
+    <ul class="w3-ul w3-card-4" style="width:85%">
       <li>Python Class: Python Sınıfı</li>
       <li>Attributes of class instance: Sınıf örneklemin öznitelikleri</li>
       <li>Methods of class instance: Sınıf örneklem yordamları</li>
