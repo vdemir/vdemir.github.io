@@ -116,8 +116,8 @@ Nokta (.) operatörünü nesne ile kullanarak erişebilirsiniz. Sınıf adı kul
 Artık nesneleri oluşturmak için myClass adlı sınıfı kullanabiliriz:
  
 <div class="highlight-python3 notranslate">
-<div class="highlight"><pre><span>
-class MyClass:<br>&nbsp; x = 5<br>p1 = MyClass()<br>print(p1.x)<br>print(MyClass.x)</div>
+<pre><span>
+class MyClass:<br>&nbsp; x = 5<br>p1 = MyClass()<br>print(p1.x)<br>print(MyClass.x)
 </span>
 </pre>
 </div> 
@@ -125,7 +125,8 @@ class MyClass:<br>&nbsp; x = 5<br>p1 = MyClass()<br>print(p1.x)<br>print(MyClass
 Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnekleme. 
 
 Öznitelik referansları, Python: obj.name'deki tüm öznitelik referansları için kullanılan standart sözdizimini kullanır. Geçerli nesne adları, sınıf nesnesi oluşturulduğunda sınıfın ad alanındaki tüm adlardır. Yani, sınıf tanımı böyle görünüyorsa:
-
+<br>
+<div class="teaser clearfix"></div>
 <div class="highlight-python3 notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">MyClass</span><span class="p">:</span>
     <span class="sd">&quot;&quot;&quot;Basit bir örnek sınıf&quot;&quot;&quot;</span>
     <span class="n">i</span> <span class="o">=</span> <span class="mi">12345</span>
@@ -134,7 +135,7 @@ Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnek
         <span class="k">return</span> <span class="s1">&#39;hello world&#39;</span>
 </pre></div>
 </div>
-
+<br>
 sonra MyClass.i ve MyClass.f, sırasıyla bir tamsayı ve işlev nesnesini döndüren geçerli öznitelik referanslarıdır. Sınıf öznitelikleri de atanabilir, böylece MyClass.i'nin değerini atama yoluyla değiştirebilirsiniz. ____doc____ ayrıca geçerli bir özniteliktir ve 'Basit bir örnek sınıf' sınıfa ait olan docstring döndürür.
 
 <br>
