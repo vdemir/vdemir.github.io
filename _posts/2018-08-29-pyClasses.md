@@ -291,7 +291,6 @@ print(p1)
 <div class="w3-container w3-content">
  <p class="w3-opacity"><b>Today</b></p> 
  <div class="w3-panel w3-white w3-card w3-display-container">
-    <span class="w3-display-topright w3-padding w3-hover-red">X</span>
    <p class="w3-text-blue"><b>email.zip</b></p>
    <p>class Person:
   def __init__(self, name, age):
