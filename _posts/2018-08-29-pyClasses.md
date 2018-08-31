@@ -38,7 +38,6 @@ Burada, (class docstring) class_name._doc_ üzerinden erişilebilen bir belge di
 body {
   padding: 20px;
   font-family: Helvetica;
-  background-color: #20262e;
 }
 
 ul {
@@ -48,7 +47,6 @@ ul {
 }
 
 li {
-  background-color: #fff;
   border-radius: 3px;
   padding: 20px;
   font-size: 14px;
@@ -58,7 +56,6 @@ li {
   text-align: center;
   font-size: 13px;
   padding-top: 20px;
-  color: #fff;
 }
 </style>
 
