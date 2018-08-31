@@ -71,9 +71,8 @@ person2.showName()
 
 <div class="info">Resize this panel to see grids respond</div>
 <style>
-#main_menu body {
+body {
   padding: 20px;
-  font-family: Helvetica;
 }
 
 #main_menu ul {
@@ -88,7 +87,7 @@ person2.showName()
   font-size: 14px;
 }
 
-#main_menu .info {
+.info {
   text-align: center;
   font-size: 13px;
   padding-top: 20px;
