@@ -151,7 +151,8 @@ Sınıf örnekleme, fonksiyon notasyonu kullanır. Sınıf nesnesinin,  sadece s
 sınıfın yeni bir örneğini oluşturur ve bu nesneyi **x** yerel değişkenine atar. 
 
 Sunum işlemi (bir sınıf nesnesini çağırmak) boş bir nesne oluşturur. Birçok sınıf, belirli bir başlangıç ​​durumuna göre özelleştirilmiş örneklerle nesneler oluşturmayı sever. Bu nedenle, bir sınıf, **__init__()** adında özel bir yöntem tanımlayabilir, bunun gibi: 
-
+<div class="w3-code notranslate pythonHigh">
+  def __init__(self):<br> &nbsp; self.data = []</div>
 **def __init__(self):**
 **self.data = []** 
 Bir sınıf bir **__init__()** yöntemini tanımlarsa, sınıf örneği otomatik olarak **__init__()** dosyasını çağırır. yeni oluşturulmuş sınıf örneği. Bu örnekte, yeni, başlatılmış bir örnek şu şekilde elde edilebilir: 
