@@ -168,19 +168,24 @@ class Complex:
          <span class="bp">self.i = imagpart</span>
 x = Complex(3.0, -4.5)
 x.r, x.i
-</pre></div>
+</pre></div></div>
 <br>
 <h3 id="C6">Örneklenen Nesneler </h3><hr>
 Şimdi örnek nesnelerle ne yapabiliriz? Örnek nesneler tarafından anlaşılan tek işlemler, özellik referanslarıdır. İki tür geçerli özellik adı, veri niteliği ve yöntemi vardır. 
 
 data nitelikleri, Smalltalk'daki “örnek değişkenleri” ve C ++'daki “veri üyeleri” ne karşılık gelir. Veri özelliklerinin beyan edilmesine gerek yoktur; Yerel değişkenler gibi, ilk atandıklarında var olurlar. Örneğin, x yukarıda oluşturulan MyClass örneğiyse, aşağıdaki kod parçası bir iz bırakmadan değeri 16 yazdıracaktır:
 
-<div class="w3-code notranslate pythonHigh">
+<div class="teaser clearfix"></div>
+<div class="highlight-python3 notranslate">
+<div class="highlight">
+<pre>
 x.counter = 1
 while x.counter < 10:
     x.counter = x.counter * 2
 print(x.counter)
-del x.counter</div>
+del x.counter
+</pre>
+</div></div>
 
 <br><br>
 
