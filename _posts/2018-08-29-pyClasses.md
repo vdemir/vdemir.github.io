@@ -146,10 +146,7 @@ Sınıf örnekleme, fonksiyon notasyonu kullanır. Sınıf nesnesinin,  sadece s
 
 **x = MyClass()**, sınıfın yeni bir örneklemini oluşturur ve bu nesneyi **x** yerel değişkenine atar.
 
-
-sınıfın yeni bir örneğini oluşturur ve bu nesneyi **x** yerel değişkenine atar. 
-
-Sunum işlemi (bir sınıf nesnesini çağırmak) boş bir nesne oluşturur. Birçok sınıf, belirli bir başlangıç ​​durumuna göre özelleştirilmiş örneklerle nesneler oluşturmayı sever. Bu nedenle, bir sınıf, **__init__()** adında özel bir yöntem tanımlayabilir, bunun gibi: 
+Örneklem işlemi boş bir nesne oluşturur.(bir sınıf nesnesini çağırmak) Birçok sınıf, belirli bir başlangıç ​​durumuna göre özelleştirilmiş örneklemeler ile nesneler oluşturmayı sever. Bu nedenle, bir sınıf, **__init__()** adında özel bir yordam tanımlayabilir, bunun gibi: 
 <div class="w3-code notranslate pythonHigh">
   def __init__(self):<br> &nbsp; self.data = []</div>
 
@@ -387,7 +384,7 @@ print(p1)
       <li>Class Attributes: Sınıf öznitelikleri</li>
       <li>Class Methods: Sınıf yordamları</li>
       <li>Class instantiation: Sınıf örneklemi</li>
-      <li>Objects Instantiation: Sınıf nesnelerinin örneklemi</li>
+      <li>Objects Instantiation: Nesnelerinin örneklemi</li>
       <li>Python class constructor: Python sınıf kurucu</li>
       <li>Class Objects: Sınıf nesneleri</li>
       <li>Instance Objects: Örneklem nesneleri</li>
