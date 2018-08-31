@@ -178,6 +178,7 @@ Tüm sınıflar, sınıf başlatıldığında her zaman çalıştırılan <code 
 Nesne özniteliklerine veya nesne oluşturulduğunda yapılması gereken diğer işlemlere değer atamak için <code class="w3-codespan">__init__()</code> işlevini kullanın:
 
  
+<div class="teaser clearfix"></div>
 <div class="w3-code notranslate pythonHigh">
   class Person:<br>&nbsp; def __init__(self, name, age):<br>&nbsp;&nbsp;&nbsp; 
   self.name = name<br>&nbsp;&nbsp;&nbsp; self.age = age<br><br>&nbsp; def myfunc(self):<br>&nbsp;&nbsp;&nbsp; 
@@ -186,7 +187,6 @@ Nesne özniteliklerine veya nesne oluşturulduğunda yapılması gereken diğer 
 
 <div class="teaser clearfix"></div>
 
-<div class="teaser clearfix"></div>
 
 <div class="w3-note">
   <p><strong>Not:</strong> <code class="w3-codespan">__init__()</code> bir sınıfın kurucusudur. <code class="w3-codespan"> __init__()</code> işlevi, nesnenin belleğinin tahsis edildiği anda çağrılır.</p>
@@ -288,10 +288,29 @@ del p1
 print(p1)
 </textarea>
 </div>
+<div class="w3-container w3-content">
+ <p class="w3-opacity"><b>Today</b></p> 
+ <div class="w3-panel w3-white w3-card w3-display-container">
+    <span class="w3-display-topright w3-padding w3-hover-red">X</span>
+   <p class="w3-text-blue"><b>email.zip</b></p>
+   <p>class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
 
+  def myfunc(self):
+    print("Hello my name is " + self.name)
+
+p1 = Person("John", 36)
+
+del p1
+
+print(p1)</p>
+   <p class="w3-text-blue">Show in folder</p>
+ </div>
 <br>
-<!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a>
-<div class="teaser clearfix"></div-->
+<!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
+ 
 
 <br>
 
