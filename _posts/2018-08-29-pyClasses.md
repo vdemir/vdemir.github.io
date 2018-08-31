@@ -180,13 +180,10 @@ Data öznitelikleri, Smalltalk'daki “örneklem değişkenleri” ve C++'daki �
 <div class="highlight-python3 notranslate">
 <div class="highlight">
 <pre>
-class MyClass:
-    "Basit bir sınıf"
-    i = 42
-x = MyClass
-x.counter = 1
-while x.counter < 10:
-    x.counter = x.counter * 2
+class MyClass(): 
+  x.counter = 1
+  while x.counter < 10:
+     x.counter = x.counter * 2
 print(x.counter)
 del x.counter
 </pre>
