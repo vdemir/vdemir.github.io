@@ -312,7 +312,7 @@ print(p1)
       <code data-type="sct"></code>
 </div>
 <div class="w3-container w3-content">
-   <p> Python 3 paket listesine bakınız: <br>documents.datacamp.com/default_python_packages.txt</p>
+<a href="{{ sitebase.url }}/assets/txt/default_python_packages.txt" >Python 3 paket listesine bakınız</a>
  </div>
 <div class="w3-panel w3-card w3-light-grey">
   <h3>Sözlük</h3>
