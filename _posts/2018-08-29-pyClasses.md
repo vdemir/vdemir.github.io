@@ -421,7 +421,7 @@ print(p1)
       <li>Class instantiation: Sınıf örneklemi</li>
       <li>Python class constructor: Python sınıf kurucu</li>
       <li><a href="#C5" style="text-decoration: none; color:#388E3C; cursor:pointer">Class Objects: Sınıf nesneleri</a></li>
-      <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer">Instance Objects: Örneklem nesneleri</a></li>
+      <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer">Instance Objects: Örneklenen nesneler</a></li>
       <li><a href="#C7" style="text-decoration: none; color:#388E3C; cursor:pointer">Method Objects: Yordam Nesneleri</a></li>
     </ul>
     </p>
