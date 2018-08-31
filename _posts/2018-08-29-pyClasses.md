@@ -292,7 +292,7 @@ print(p1)
  <p class="w3-opacity"><b>Today</b></p> 
  <div class="w3-panel w3-white w3-card w3-display-container">
    <p class="w3-text-blue"><b>Not</b></p>
-   <p> Python sınıf kurucusunun iki adımı vardır: Örnekleme ile oluşturmak için __new__() çağırma ve başlatmak için __init__() çağırma. __init__() isteğe bağlı bir adım değildir, __init__() başarısız olursa örneklem oluşturma da başarısız olur.</p>
+   <p> Ne yaptığınızı biliyorsanız, sınıfların nasıl karşılaştırıldığı, özniteliklerin nasıl tanımlandığı ve sınıfınızın alt sınıfları olarak kabul edilen sınıflar hakkında neredeyse tam kontrol sahibi olabilirsiniz.</p>
    <p class="w3-text-blue">Show in folder</p>
  </div>
 <br>
