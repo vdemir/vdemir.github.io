@@ -367,7 +367,6 @@ print(p1)
 
 <!-- python interpreter -->
  
-<script src="{{ sitebase.url }}/scripts/dcl-react.js.gz"></script>
 
 <a class="w3-btn w3-margin-bottom">Just python 3 'Run'.</a>
 <div data-datacamp-exercise data-lang="python" data-height="auto">
@@ -398,3 +397,4 @@ print(p1)
     </p>
   </div>
 </div>
+<script src="{{ sitebase.url }}/scripts/dcl-react.js.gz"></script>
