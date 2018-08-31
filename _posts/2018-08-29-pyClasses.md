@@ -127,7 +127,7 @@ Artık nesneleri oluşturmak için myClass adlı sınıfı kullanabiliriz:
 Yeni bir örneklemenin başlatılmasını kontrol etmeniz gerektiğinde <code class="w3-codespan">__init__()</code> kullanın. 
 
 <code class="w3-codespan">__new__()</code>, örneklem oluşturmanın ilk adımıdır. İlk olarak adlandırılır, 
-ve sınıfınızın yeni bir örneklemeyi döndürmekten sorumludur. 
+ve sınıfınızın yeni bir örneklemi döndürmekten sorumludur. 
 Tezatında, <code class="w3-codespan">__init__()</code> hiçbir şey döndürmez; yalnızca, oluşturulduktan sonra örneklemin başlatmasından sorumludur. 
 
 Genel olarak, 
