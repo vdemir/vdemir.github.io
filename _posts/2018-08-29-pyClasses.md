@@ -386,7 +386,6 @@ print(p1)
       <li>Class Attributes: Sınıf öznitelikleri</li>
       <li>Class Methods: Sınıf yordamları</li>
       <li>Class instantiation: Sınıf örneklemi</li>
-      <li>Objects Instantiation: Nesnelerinin örneklemi</li>
       <li>Python class constructor: Python sınıf kurucu</li>
       <li>Class Objects: Sınıf nesneleri</li>
       <li>Instance Objects: Örneklem nesneleri</li>
