@@ -30,6 +30,8 @@ lang: tr
       <li><a href="#C5" style="text-decoration: none; color:#388E3C; cursor:pointer">Class Objects: Sınıf nesneleri</a></li>
       <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer">Instance Objects: Örneklem nesneleri</a></li>
       <li><a href="#C7" style="text-decoration: none; color:#388E3C; cursor:pointer">Method Objects: Yordam Nesneleri</a></li>
+      <li><a href="#C8" style="text-decoration: none; color:#388E3C; cursor:pointer">Sözlük Dizini
+</a></li>
     </ul>
     </p>
   </div>
@@ -113,7 +115,7 @@ person2.showName()
 
 <div class="teaser clearfix"></div>
 <h3 id="C3">Nesnenin Özniteliklerine Erişim</h3><hr>
-Nokta (.) operatörünü nesne ile kullanarak erişebilirsiniz. Sınıf adı kullanarak da sınıf özniteliklerine erişilebilir:
+Nokta (.) operatörünü nesne ile kullanarak erişebilirsiniz. Sınıf adı kullanarak da sınıf özdeğerlerine erişilebilir:
 <div class="w3-code notranslate pythonHigh">
   print(p1.x)<br>print(MyClass.x)</div>
 
@@ -439,7 +441,7 @@ print(p1)
 <a href="{{ sitebase.url }}/assets/txt/default_python_packages.txt"  style="text-decoration: none; color:#388E3C; cursor:pointer">Python 3 paket listesine bakınız</a>
  </div>
 <div class="w3-panel w3-card w3-light-grey">
-  <h3>Sözlük Dizini</h3>
+  <h3 id="C8">Sözlük Dizini</h3>
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
