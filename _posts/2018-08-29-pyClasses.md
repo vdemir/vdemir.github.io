@@ -437,3 +437,8 @@ print(p1)
     </p>
   </div>
 </div>
+
+attribute ÖZDEĞER
+Objects ÖBEK
+class	SINIF
+Instance EŞLEMEK, MİSL
