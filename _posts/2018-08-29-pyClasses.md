@@ -455,3 +455,4 @@ destructor YIKICI
 syntax SÖZDİZİM
 references ATIF
 standard NORMAL, BENZER
+notation GÖSTERİM
