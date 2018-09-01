@@ -124,7 +124,7 @@ Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnek
 <br>
 <div class="teaser clearfix"></div>
 <div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="7" cols="43" spellcheck="false">
+        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="17" cols="33" spellcheck="false">
 class MyClass:
     """Basit bir örnek sınıf"""
     i = 12345
