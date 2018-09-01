@@ -230,7 +230,7 @@ while True:<br>
 
 Bir yöntem çağrıldığında tam olarak ne olur? **f()** fonksiyon tanımı bir argüman belirtmiş olsa bile, **x.f()** öğesinin bir argüman olmadan çağrıldığını fark etmiş olabilirsiniz. Argümana ne oldu? Kesinlikle Python argüman gerektiren bir fonksiyon çağrılmadan çağrılır - argüman aslında kullanılmasa bile…
 
-Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey vardır ki, özdeş öbek fonksiyonun ilk ifadesi olarak geçirilir. Örneğimizde, **x.f()** çağrısı tam olarak **MyClass.f(x)** öğesine eşdeğerdir. Genel olarak, bir argüman listesi ile bir metodu çağırmak, ilgili argümanı, ilk argümandan önce metodun örnek nesnesini ekleyerek oluşturulan argüman listesiyle çağırmakla eşdeğerdir.
+Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey vardır ki, özdeş öbek fonksiyonun ilk ifadesi olarak geçirilir. Örneğimizde, **x.f()** çağrısı tam olarak **MyClass.f(x)** öğesine eşdeğerdir. Genel olarak, n ifade listesi ile bir yordamı çağırmak, ilk argümandan önce yordamın özdeş öbeği ekleyerek oluşturulan bir argüman listesiyle ilgili fonksiyonu çağırmakla eşdeğerdir.
 
 
 <br><br>
