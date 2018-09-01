@@ -18,7 +18,7 @@ lang: tr
 
 
 <div class="w3-panel w3-card w3-light-grey">
-  <h3>Index</h3>
+  <h3></h3>
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
@@ -439,7 +439,7 @@ print(p1)
 <a href="{{ sitebase.url }}/assets/txt/default_python_packages.txt"  style="text-decoration: none; color:#388E3C; cursor:pointer">Python 3 paket listesine bakınız</a>
  </div>
 <div class="w3-panel w3-card w3-light-grey">
-  <h3>Sözlük</h3>
+  <h3>Sözlük Dizini</h3>
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
