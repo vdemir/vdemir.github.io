@@ -124,7 +124,7 @@ Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnek
 <br>
 <div class="teaser clearfix"></div>
 <div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="17" cols="33" spellcheck="false">
+        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="16" cols="33" spellcheck="false">
 class MyClass:
     """Basit bir örnek sınıf"""
     i = 12345
@@ -141,7 +141,7 @@ print(t)
 p=MyClass.f(1)
 print(p)
 </textarea></div>
-</div>
+ 
 <br>
 sonra **MyClass.i** ve **MyClass.f**, sırasıyla bir tamsayı ve fonksiyon nesnesini döndüren geçerli öznitelik referanslarıdır. Sınıf öznitelikleri de atanabilir, böylece **MyClass.i**'nin değerini atama yoluyla değiştirebilirsiniz. **__doc__** ayrıca geçerli bir özniteliktir ve **'Basit bir örnek sınıf'** sınıfa ait olan docstring döndürür.
 
