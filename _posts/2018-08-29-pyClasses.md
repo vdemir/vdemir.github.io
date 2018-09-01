@@ -39,9 +39,6 @@ Python bir nesne yönelimli programlama dilidir.
 Python'daki hemen hemen her şey, öznitelikleri ve yordamları ile bir nesnedir. 
 
 Python sınıfları, Nesne Yönelimli Programlamanın tüm standart özelliklerini sağlar: sınıf örneklem mekanizması, birden fazla temel sınıfa izin verir, türetilmiş bir sınıf, temel sınıfının veya sınıflarının herhangi bir yordamını geçersiz kılabilir ve bir yordam, aynı ada sahip bir taban sınıfının yordamını çağırabilir . Nesneler, rastgele miktarları ve veri türlerini içerebilir. Modüller için doğru olduğu gibi, sınıflar Python'un dinamik doğasını paylaşırlar: çalışma zamanında oluşturulurlar ve oluşturulduktan sonra daha fazla değiştirilebilirler. 
-
-<br>
-
  
 <div id="container">
         <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="7" cols="34" spellcheck="false">
