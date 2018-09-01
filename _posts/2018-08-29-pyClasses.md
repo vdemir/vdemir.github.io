@@ -266,6 +266,9 @@ id(obj)
 
 Kimlik[identity], öbek için ayrılan bellek konumudur. id() fonksiyonu kullanılarak tanımlanabilir.
 
+Öbek türü, öbeğin iç temsilidir. Her öbek için desteklenen yordam ve işlemi tanımlar. Belirli bir öbeğin türünü öğrenmek için type() fonksiyonunu kullanabilirsiniz.
+
+
 <br><br>
 <h4><code class="w3-codespan">__new__()</code> yordamı </h4><hr>
  <code class="w3-codespan">__new__()</code> örnekleme ile oluşturan ve döndüren python özel yordamıdır.
