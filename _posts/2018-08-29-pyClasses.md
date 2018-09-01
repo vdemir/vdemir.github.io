@@ -138,7 +138,7 @@ Nokta (.) operatörünü nesne ile kullanarak erişebilirsiniz. Sınıf adı kul
   </div>
 </div>
 <br>
-<h3 id="C5">Sınıf/Öbek Nesneleri </h3><hr>
+<h3 id="C5">Sınıf Öbekleri </h3><hr>
 Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnekleme. 
 
 Öznitelik referansları, Python: obj.name'deki tüm öznitelik referansları için kullanılan standart sözdizimini kullanır. Geçerli nesne adları, sınıf nesnesi oluşturulduğunda sınıfın ad alanındaki tüm adlardır. Yani, sınıf tanımı böyle görünüyorsa:
@@ -194,10 +194,10 @@ x = Complex(3.0, -4.5)
 x.r, x.i
 </pre></div></div>
 <br>
-<h3 id="C6">Örneklem Nesneleri </h3><hr>
-Şimdi örneklenen nesnelerle ne yapabiliriz? Örnek nesneler tarafından anlaşılan tek işlemler, öznitelik referanslarıdır. İki tür geçerli öznitelik adı; data özniteliği ve yordamı vardır. 
+<h3 id="C6">Eşleşen Öbekler</h3><hr>
+Şimdi eşleşen nesnelerle ne yapabiliriz? Eşleşen nesneler ile anlaşılan yegane işlemler, öznitelik atıflarıdır. İki tür geçerli atıf ismi vardır; data öznitelikleri ve yordamları. 
 
-Data öznitelikleri, Smalltalk'daki “örneklem değişkenleri” ve C++'daki “data elemanlarına” karşılık gelir. Data özniteliklerinin beyan edilmesine gerek yoktur; yerel değişkenler gibi, ilk atandıklarında var olurlar. Örneğin, x yukarıda oluşturulan MyClass özniteliğiyse, aşağıdaki kod parçası bir iz bırakmadan değeri 16 yazdıracaktır:
+Data öznitelikleri, Smalltalk'daki “eşleşen değişkenler” ve C++'daki “data elemanlarına” karşılık gelir. Data özniteliklerinin beyan edilmesine gerek yoktur; yerel değişkenler gibi, ilk atandıklarında var olurlar. Örneğin, **x** yukarıda oluşturulan **MyClass** özniteliğiyse, aşağıdaki kod parçası bir iz bırakmadan değeri 16 yazdıracaktır:
 
 <div class="teaser clearfix"></div>
 <div class="highlight-python3 notranslate">
