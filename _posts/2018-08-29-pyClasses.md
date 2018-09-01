@@ -66,10 +66,6 @@ img.resize {
 </style>
 
 
-
-
-
-
 <div id="container">
         <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="30" cols="35" spellcheck="false">
 
@@ -97,7 +93,7 @@ class Person:
 person1 = Person("Richard", 23)
 #Aynı sınıfın diğer bir nesnesini oluşturur   
 person2 = Person("Anne", 30)
-#Nesnelerin yordamlarının elemanını çağırır  
+#Nesne/Öbek yordamının elemanını çağırır  
 person1.showAge()
 person2.showName() 
 </textarea></div>
