@@ -211,7 +211,7 @@ print(x.counter)
 del x.counter
 </pre>
 </div></div>
-Diğer örnek niteliği başvurusu bir yöntemdir. Bir yöntem, bir nesneye “ait” bir işlevdir. (Python'da, yöntem terimi, sınıf örneklerine özgü değildir: diğer nesne türleri de yöntemlere sahip olabilir. Örneğin, liste nesneleri ekleme, ekleme, kaldırma, sıralama vb. Yöntemleri içerir. Ancak, aşağıdaki tartışmada, Sadece aksi belirtilmedikçe sınıf örneği nesneleri yöntemlerini belirtmek için terim yöntemini kullanacağız.) 
+Diğer eşleşen öznitelik atıf türü bir yordamdır. Bir yordam, bir öbeğe “ait” bir fonksiyondur. (Python'da, yordam terimi, öbek eşleşmelerine özgü değildir: diğer öbek türleri de yordamlara sahip olabilir. Örneğin, liste öbekleri, append, insert, remove, sort adlı yordamları içerir. Ancak, aşağıdaki tartışmada, Sadece aksi belirtilmedikçe sınıf örneği nesneleri yöntemlerini belirtmek için terim yöntemini kullanacağız.) 
 
 Örnek nesnesinin geçerli yöntem adları, sınıfına bağlıdır. Tanım olarak, işlev nesneleri olan bir sınıfın tüm öznitelikleri, örneklerinin karşılık gelen yöntemlerini tanımlar. Yani bizim örneğimizde, x.f geçerli bir yöntem referansıdır, çünkü MyClass.f bir işlevdir, fakat x.i değil, MyClass.i olmadığı için. Ama x.f, MyClass.f ile aynı şey değildir - bir işlev nesnesi değil, bir işlev nesnesidir.
 <br>	<br>
