@@ -27,7 +27,6 @@ lang: tr
       <li><a href="#C3" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Eşleme ile Nesne Oluşturma</a></li>
       <li><a href="#C4" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesnenin Özniteliklerine Erişim</a></li>
       <li><a href="#C5" style="text-decoration: none; color:#388E3C; cursor:pointer">Bir Python Nesnesi Oluşturma</a></li>
-      <li>Python class constructor: Python sınıf kurucu</li>
       <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer">Class Objects: Sınıf nesneleri</a></li>
       <li><a href="#C7" style="text-decoration: none; color:#388E3C; cursor:pointer">Instance Objects: Örneklem nesneleri</a></li>
       <li><a href="#C8" style="text-decoration: none; color:#388E3C; cursor:pointer">Method Objects: Yordam Nesneleri</a></li>
@@ -216,7 +215,7 @@ Diğer eşleşen öznitelik atıf türü bir yordamdır. Bir yordam, bir öbeğe
 
 Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım olarak, bir sınıfın tüm öznitelikleri, eşleşen yordamlarına karşılık tanımlanan fonksiyon öbekleridir. Yani bizim örneğimizde, **x.f** geçerli bir yordam atfıdır, çünkü **MyClass.f** bir fonksiyondur, fakat **x.i** fonksiyon değildir çünkü **MyClass.i** da değildir. Ama **x.f**, **MyClass.f** ile aynı şey değildir - O bir fonksiyon nesnesi değil, bir yordam öbeğidir.
 <br>	<br>
-<h3 id="C7">Yordam Nesneleri </h3><hr>
+<h3 id="C7">Yordam Öbekleri </h3><hr>
 Genellikle, bağlantıdan hemen sonra bir yordam çağrılır: 
 <div class="w3-code notranslate pythonHigh">
 x.f() </div>
