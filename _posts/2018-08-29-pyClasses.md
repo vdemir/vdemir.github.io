@@ -443,38 +443,30 @@ print(p1)
 <a href="{{ sitebase.url }}/assets/txt/default_python_packages.txt"  style="text-decoration: none; color:#388E3C; cursor:pointer">Python 3 paket listesine bakınız</a>
  </div>
 <div class="w3-panel w3-card w3-light-grey">
-  <h3>Index</h3>
+  <h3>Sözlük</h3>
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
       <li>attribute ÖZDEĞER, DEĞER, ÖZNİTELİK, NİTELİK, SİMGE, ATIF</li>
-      <li>Class Attributes: Sınıf öznitelikleri</li>
-      <li>Class Methods: Sınıf yordamları</li>
-      <li>Class instantiation: Sınıf örneklemi</li>
-      <li>Python class constructor: Python sınıf kurucu</li>
-      <li><a href="#C5" style="text-decoration: none; color:#388E3C; cursor:pointer">Class Objects: Sınıf nesneleri</a></li>
-      <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer">Instance Objects: Örneklem nesneleri</a></li>
-      <li><a href="#C7" style="text-decoration: none; color:#388E3C; cursor:pointer">Method Objects: Yordam Nesneleri</a></li>
+      <li>class	SINIF</li>
+      <li>constructor KURUCU</li>
+      <li>data attributes BİLGİNİN NİTELİKLERİ</li>
+      <li>data VERİ, BİLGİ</li>
+      <li>constructor KURUCU</li>
+      <li>destructor YIKICI </li>
+      <li>Instance EŞLEMEK</li>
+      <li>instantiation MİSL, ÖZDEŞ </li>
+      <li>local YEREL</li>
+      <li>member ELEMAN</li>
+      <li>Method YORDAM</li>
+      <li>notation GÖSTERİM</li>
+      <li>Objects ÖBEK</li>
+      <li>references ATIF</li>
+      <li>standard NORMAL, BENZER</li>
+      <li>syntax SÖZDİZİM</li>
+      <li>valid GEÇERLİ </li>
+      <li>Variables DEĞİŞKEN DEĞER</li>
     </ul>
     </p>
   </div>
 </div>
-
-attribute ÖZDEĞER, DEĞER, ÖZNİTELİK, NİTELİK, SİMGE, ATIF
-valid GEÇERLİ 
-data attributes BİLGİNİN NİTELİKLERİ
-Objects ÖBEK
-class	SINIF
-Instance EŞLEMEK
-instantiation MİSL, ÖZDEŞ 
-Method YORDAM
-Variables DEĞİŞKEN DEĞER
-data VERİ, BİLGİ
-member ELEMAN
-local YEREL
-constructor KURUCU
-destructor YIKICI 
-syntax SÖZDİZİM
-references ATIF
-standard NORMAL, BENZER
-notation GÖSTERİM
