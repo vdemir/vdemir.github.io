@@ -253,7 +253,7 @@ Bir sınıfın özdeşi, bir Python öbeğidir ve her Python öbeğine benzer ş
 
 
 <br><br>
-<h3><code class="w3-codespan">__new__()</code> yordamı </h3><hr>
+<h4><code class="w3-codespan">__new__()</code> yordamı </h4><hr>
  <code class="w3-codespan">__new__()</code> örnekleme ile oluşturan ve döndüren python özel yordamıdır.
 
 <div class="w3-code notranslate pythonHigh">
