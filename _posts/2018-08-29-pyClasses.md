@@ -30,7 +30,7 @@ lang: tr
       <li><a href="#C5" style="text-decoration: none; color:#388E3C; cursor:pointer">Class Objects: Sınıf nesneleri</a></li>
       <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer">Instance Objects: Örneklem nesneleri</a></li>
       <li><a href="#C7" style="text-decoration: none; color:#388E3C; cursor:pointer">Method Objects: Yordam Nesneleri</a></li>
-      <li><a href="#C8" style="text-decoration: none; color:#388E3C; cursor:pointer">Python 3 </a></li>
+      <li><a href="#C8" style="text-decoration: none; color:#388E3C; cursor:pointer">Python 3 Shell</a></li>
       <li><a href="#C9" style="text-decoration: none; color:#388E3C; cursor:pointer">Sözlük Dizini</a></li>
     </ul>
     </p>
