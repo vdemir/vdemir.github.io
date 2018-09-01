@@ -44,7 +44,7 @@ Python sınıfları, Nesne Yönelimli Programlamanın tüm standart özellikleri
 
  
 <div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="7" cols="33" spellcheck="false">
+        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="7" cols="34" spellcheck="false">
 class ClassName:
     'class docstring'
     class_suite
