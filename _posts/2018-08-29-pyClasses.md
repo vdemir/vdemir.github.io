@@ -255,7 +255,7 @@ Bir sınıfın özdeşi, bir Python öbeğidir ve her Python öbeğine benzer ş
 Bir sonraki açıklama için aşağıdaki sınıf tanımını kullanacağım. Öncelikle, c sınıfı ilan edelim, ve sonra obj olarak adlandırılan bu sınıfın bir özdeşini oluşturacağız.
 
 <div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="9" cols="29" spellcheck="false">
+        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="13" cols="29" spellcheck="false">
 class c:
     def __init__(self, value=None):
         self.name = value
