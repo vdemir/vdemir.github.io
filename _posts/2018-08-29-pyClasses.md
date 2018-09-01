@@ -100,14 +100,14 @@ person2.showName()
 
 <br><br>
 <h3 id="C1">Bir Python Sınıfı Oluşturma</h3><hr>
-**x** adlı bir özdeğere sahip **MyClass** adlı bir sınıf oluşturun:
+**x** adlı bir özdeğere sahip **MyClass** adlı bir sınıf/öbek oluşturun:
 <div class="w3-code notranslate pythonHigh">
   class MyClass:<br> &nbsp; 'Python Temel Sınıf'<br> &nbsp; x = 5<br>print(MyClass)</div>
 <br>
 <br>
 <div class="teaser clearfix"></div>
-<h3>Örneklem ile Nesne Oluşturma</h3><hr>
- Bir sınıfın bir örneklemini oluşturmak için, sadece sınıf adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">__init__()</code> yordamının kabul ettiği argümanları iletirsiniz:
+<h3>Eşleme ile Nesne Oluşturma</h3><hr>
+ Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">__init__()</code> yordamının kabul ettiği argümanları iletirsiniz:
 <div class="w3-code notranslate pythonHigh">
   p1 = Person("John", 36)</div><br><br>
 
