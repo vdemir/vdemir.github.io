@@ -438,7 +438,11 @@ print(p1)
   </div>
 </div>
 
-attribute ÖZDEĞER
+attribute ÖZDEĞER, DEĞER, NİTELİK
 Objects ÖBEK
 class	SINIF
-Instance EŞLEMEK, MİSL
+Instance EŞLEMEK, MİSL, ÖZDEŞ
+Method YORDAM
+Variables DEĞİŞKEN
+data VERİ, BİLGİ
+member ELEMAN
