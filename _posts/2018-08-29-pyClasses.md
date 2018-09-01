@@ -441,6 +441,7 @@ print(p1)
 
 <a id="C8" class="w3-btn w3-margin-bottom" href="{{ sitebase.url }}/assets/txt/default_python_packages.txt"  style="text-decoration: none; color:#388E3C; cursor:pointer">Python 3 paket listesine bakınız.</a>
  </div>
+<br>
 <div class="w3-panel w3-card w3-light-grey">
   <h3 id="C9">Sözlük Dizini</h3>
   <div class="w3-container w3-white">
