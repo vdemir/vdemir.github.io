@@ -6,7 +6,7 @@ date:   2018-08-29 15:52:00
 tags:   Linux Programlama Python
 permalink: /PyClasses/
 categories: Programlama
-comments: true
+comments: false
 published: true
 lang: tr
 ---
