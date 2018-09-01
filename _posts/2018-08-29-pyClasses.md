@@ -55,7 +55,7 @@ class ClassName:
 </textarea></div></div>
 
 Burada, (class docstring) class_name._doc_ üzerinden erişilebilen bir belge dizesidir ve class_suite, temel olarak sınıf elemanlarını, veri özniteliklerini ve yordamları tanımlayan tüm bileşen ifadelerinden oluşur.
-
+<br>
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/class1.png" alt="programs" class="resize" />
   <p><small>Python &bull; Sınıflar.</small></p>
