@@ -132,7 +132,7 @@ Nokta (.) operatörünü nesne ile kullanarak erişebilirsiniz. Sınıf adı kul
 <br>
 <div class="teaser clearfix"></div>
 <h3 id="C4">Bir Python Nesnesi Oluşturma</h3><hr>
-Artık nesneleri oluşturmak için myClass adlı sınıfı kullanabiliriz:
+Artık nesneleri oluşturmak için **myClass** adlı sınıfı kullanabiliriz:
  
 <div class="w3-code notranslate pythonHigh">
   class MyClass:<br>&nbsp; x = 5<br>p1 = MyClass()<br>print(p1.x)<br>print(MyClass.x)</div>
