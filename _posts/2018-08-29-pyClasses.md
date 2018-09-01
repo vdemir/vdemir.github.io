@@ -451,4 +451,6 @@ member ELEMAN
 local YEREL
 constructor KURUCU
 destructor YIKICI 
-destructor
+syntax SÖZDİZİM
+references ATIF
+standard NORMAL, BENZER
