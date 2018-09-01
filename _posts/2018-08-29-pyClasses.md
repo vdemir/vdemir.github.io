@@ -245,12 +245,26 @@ Bir sınıftan oluşturulan her öbek sınıfın bir özdeşidir. Hepsi birbirin
 Bir sınıf, öbek öz niteliklerini (veri elemanları olarak da bilinir) ve öbeklerin davranışını (çoğunlukla yordamlar olarak bilinir) depolar. Bu davranış diğer (temel) sınıflardan miras alınabilir. Sınıfın yordam dışı öznitelikleri, genellikle sınıf elemanları veya sınıf öz nitelikleri olarak adlandırılır, böylece onlar özdeş öznitelikler ile karıştırılmaz.
 
 Her sınıfın, tüm görevlerin ve fonksiyon tanımlarının meydana geldiği kendi ad alanı vardır.
+
 <br>
 
 <h4>Sınıf Özdeşleri</h4><hr>
 
 Bir sınıfın özdeşi, bir Python öbeğidir ve her Python öbeğine benzer şekilde, şu özelliklere sahiptir: kimlik, öbek tipi, öznitelikler, yordamlar ve değeri.
 
+Bir sonraki açıklama için aşağıdaki sınıf tanımını kullanacağım. Öncelikle, c sınıfı ilan edelim, ve sonra obj olarak adlandırılan bu sınıfın bir özdeşini oluşturacağız.
+
+<div id="container">
+        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="11" cols="33" spellcheck="false">
+class c:
+    def __init__(self, value=None):
+        self.name = value
+obj = c()
+obj.name = "Andre"
+id(obj)
+</textarea></div>
+
+Kimlik[identity], öbek için ayrılan bellek konumudur. id() fonksiyonu kullanılarak tanımlanabilir.
 
 <br><br>
 <h4><code class="w3-codespan">__new__()</code> yordamı </h4><hr>
