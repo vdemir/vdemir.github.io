@@ -438,7 +438,8 @@ print(p1)
   </div>
 </div>
 
-attribute ÖZDEĞER, DEĞER, NİTELİK
+attribute ÖZDEĞER, DEĞER, ÖZNİTELİK, NİTELİK, SİMGE
+valid GEÇERLİ 
 data attributes BİLGİNİN NİTELİKLERİ
 Objects ÖBEK
 class	SINIF
