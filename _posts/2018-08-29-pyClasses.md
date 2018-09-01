@@ -247,12 +247,12 @@ Bir sınıf, öbek öz niteliklerini (veri elemanları olarak da bilinir) ve öb
 Her sınıfın, tüm görevlerin ve fonksiyon tanımlarının meydana geldiği kendi ad alanı vardır.
 
 
-Sınıf Özdeşleri
+<h4>Sınıf Özdeşleri</h4><hr>
+
+Bir sınıfın özdeşi, bir Python öbeğidir ve her Python öbeğine benzer şekilde, şu özelliklere sahiptir: kimlik, öbek tipi, öznitelikler, yordamlar ve değer.
 
 
-
-
-
+<br><br>
 <h3><code class="w3-codespan">__new__()</code> yordamı </h3><hr>
  <code class="w3-codespan">__new__()</code> örnekleme ile oluşturan ve döndüren python özel yordamıdır.
 
