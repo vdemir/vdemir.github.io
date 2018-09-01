@@ -123,8 +123,8 @@ Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnek
 Öznitelik referansları, Python: obj.name'deki tüm öznitelik referansları için kullanılan standart sözdizimini kullanır. Geçerli nesne adları, sınıf nesnesi oluşturulduğunda sınıfın ad alanındaki tüm adlardır. Yani, sınıf tanımı böyle görünüyorsa:
 <br>
 <div class="teaser clearfix"></div>
-<div class="highlight-python3 notranslate"><div class="highlight"><div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="7" cols="33" spellcheck="false">
+<div id="container">
+        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="7" cols="43" spellcheck="false">
 class MyClass:
     """Basit bir örnek sınıf"""
     i = 12345
@@ -140,7 +140,7 @@ print(t)
 
 p=MyClass.f(1)
 print(p)
-</textarea></div></div>
+</textarea></div>
 </div>
 <br>
 sonra **MyClass.i** ve **MyClass.f**, sırasıyla bir tamsayı ve fonksiyon nesnesini döndüren geçerli öznitelik referanslarıdır. Sınıf öznitelikleri de atanabilir, böylece **MyClass.i**'nin değerini atama yoluyla değiştirebilirsiniz. **__doc__** ayrıca geçerli bir özniteliktir ve **'Basit bir örnek sınıf'** sınıfa ait olan docstring döndürür.
