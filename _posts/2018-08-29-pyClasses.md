@@ -12,8 +12,29 @@ lang: tr
 ---
 
 {% include tr_ay.html %}
-<link rel="stylesheet" href="/css/w3.css">
+<link rel="stylesheet" href="{{ sitebase.url }}/css/w3.css">
 <br>
+
+
+
+<div class="w3-panel w3-card w3-light-grey">
+  <h3>Index</h3>
+  <div class="w3-container w3-white">
+    <p>
+    <ul class="w3-ul w3-card-4" style="width:85%">
+      <li><a href="#C1" style="text-decoration: none; color:#388E3C; cursor:pointer">Python Class: Python Sınıfı</a></li>
+      <li>Class Attributes: Sınıf öznitelikleri</li>
+      <li>Class Methods: Sınıf yordamları</li>
+      <li>Class instantiation: Sınıf örneklemi</li>
+      <li>Python class constructor: Python sınıf kurucu</li>
+      <li><a href="#C5" style="text-decoration: none; color:#388E3C; cursor:pointer">Class Objects: Sınıf nesneleri</a></li>
+      <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer">Instance Objects: Örneklem nesneleri</a></li>
+      <li><a href="#C7" style="text-decoration: none; color:#388E3C; cursor:pointer">Method Objects: Yordam Nesneleri</a></li>
+    </ul>
+    </p>
+  </div>
+</div>
+
 Python bir nesne yönelimli programlama dilidir.
 Python'daki hemen hemen her şey, öznitelikleri ve yordamları ile bir nesnedir. 
 
