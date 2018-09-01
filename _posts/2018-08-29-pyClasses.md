@@ -108,6 +108,13 @@ person2.showName()
 <br>
 <br>
 <div class="teaser clearfix"></div>
+<h3 id="C4">Bir Python Nesnesi Oluşturma</h3><hr>
+Artık nesneleri oluşturmak için **myClass** adlı sınıfı kullanabiliriz:
+ 
+<div class="w3-code notranslate pythonHigh">
+  class MyClass:<br>&nbsp; x = 5<br>p1 = MyClass()<br>print(p1.x)<br>print(MyClass.x)</div>
+<br>
+<div class="teaser clearfix"></div>
 <h3 id="C2">Sınıf Eşleme ile Nesne Oluşturma</h3><hr>
  Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">__init__()</code> yordamının kabul ettiği ifadeleri iletirsiniz:
 <div class="w3-code notranslate pythonHigh">
@@ -129,13 +136,6 @@ Nokta (.) operatörünü nesne ile kullanarak erişebilirsiniz. Sınıf adı kul
     </p>
   </div>
 </div>
-<br>
-<div class="teaser clearfix"></div>
-<h3 id="C4">Bir Python Nesnesi Oluşturma</h3><hr>
-Artık nesneleri oluşturmak için **myClass** adlı sınıfı kullanabiliriz:
- 
-<div class="w3-code notranslate pythonHigh">
-  class MyClass:<br>&nbsp; x = 5<br>p1 = MyClass()<br>print(p1.x)<br>print(MyClass.x)</div>
 <br>
 <h3 id="C5">Sınıf/Öbek Nesneleri </h3><hr>
 Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnekleme. 
