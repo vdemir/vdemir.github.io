@@ -29,7 +29,7 @@ lang: tr
       <li><a href="#C5" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Öbekleri</a></li>
       <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş Öbekler</a></li>
       <li><a href="#C7" style="text-decoration: none; color:#388E3C; cursor:pointer">Yordam Öbekleri</a></li>
-      <li><a href="#C8" style="text-decoration: none; color:#388E3C; cursor:pointer">Method Objects: Yordam Nesneleri</a></li>
+      <li><a href="#C8" style="text-decoration: none; color:#388E3C; cursor:pointer">__new__() yordamı</a></li>
       <li><a href="#C9" style="text-decoration: none; color:#388E3C; cursor:pointer">Python 3 Shell</a></li>
       <li><a href="#C10" style="text-decoration: none; color:#388E3C; cursor:pointer">Sözlük Dizini</a></li>
     </ul>

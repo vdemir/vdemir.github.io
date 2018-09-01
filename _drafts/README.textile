@@ -1,0 +1,5 @@
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django
+
+https://www.simplifiedpython.net/
+
+http://index-of.co.uk/Python/?C=S;O=D
