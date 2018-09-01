@@ -230,10 +230,7 @@ while True:<br>
 
 Bir yöntem çağrıldığında tam olarak ne olur? **f()** fonksiyon tanımı bir argüman belirtmiş olsa bile, **x.f()** öğesinin bir argüman olmadan çağrıldığını fark etmiş olabilirsiniz. Argümana ne oldu? Kesinlikle Python argüman gerektiren bir fonksiyon çağrılmadan çağrılır - argüman aslında kullanılmasa bile…
 
-Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey vardır ki, özdeş öbek fonksiyonun ilk ifadesi olarak geçirilir. Örneğimizde, **x.f()** çağrısı tam olarak **MyClass.f(x)** öğesine eşdeğerdir. Genel olarak, n argümanlı bir listeden bir yordamı çağırmak, ilk argümandan önce yordamın özdeş öbeğini ekleyerek oluşturulan bir argüman listesine karşılık fonksiyonu çağırmaya eşdeğerdir.
-
-
-Yöntemlerin nasıl çalıştığını hala anlamadıysanız, uygulamaya bir bakış belki de konulara açıklık getirebilir. Bir örneğin veri olmayan bir özniteliği başvurulduğunda, örneğin sınıfı aranır. Ad, bir işlev nesnesi olan geçerli bir sınıf özniteliğini gösterirse, nesne nesnesini ve nesne nesnesini bir soyut nesnede yeni bulunan nesne nesnesini (işaretçiler) paketleyerek oluşturulur: Bu yöntem nesnesidir. Yöntem nesnesi bir argüman listesiyle çağrıldığında, örnek nesnesinden ve argüman listesinden yeni bir argüman listesi oluşturulur ve bu yeni argüman listesiyle işlev nesnesi çağrılır.
+Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey vardır ki, özdeş öbek fonksiyonun ilk ifadesi olarak geçirilir. Örneğimizde, **x.f()** çağrısı tam olarak **MyClass.f(x)** öğesine eşdeğerdir. Genel olarak, n argümanlı bir listeden bir yordamı çağırmak, ilk argümandan önce yordamın özdeş öbeğini ekleyerek oluşturulan bir argüman listesine karşılık fonksiyonu çağırmaya eşdeğerdir. Eğer isim geçerli bir sınıf özniteliğini işaret ederse ki bir fonksiyon öbeğidir, bir yordam öbeği özdeş öbek paketlenerek oluşturulur ve fonksiyon öbeği sadece soyut bir öbek ile birlikte bulunur: bu yordam öbeğidir. Yordam öbeği bir argüman listesi ile çağrıldığında yeni bir argüman listesi, argüman listesi ve özdeş öbekten inşa edilir ve fonksiyon öbeği yeni bir argüman listesi ile çağrılır.
 <br><br>
 
 <h3><code class="w3-codespan">__new__()</code> yordamı </h3><hr>
