@@ -22,10 +22,10 @@ lang: tr
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
-      <li><a href="#C1" style="text-decoration: none; color:#388E3C; cursor:pointer">Python Class: Python Sınıfı</a></li>
-      <li>Class Attributes: Sınıf öznitelikleri</li>
-      <li>Class Methods: Sınıf yordamları</li>
-      <li>Class instantiation: Sınıf örneklemi</li>
+      <li><a href="#C1" style="text-decoration: none; color:#388E3C; cursor:pointer">Bir Python Sınıfı Oluşturma</a></li>
+      <li><a href="#C2" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Eşleme ile Nesne Oluşturma</a></li>
+      <li><a href="#C3" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesnenin Özniteliklerine Erişim</a></li>
+      <li><a href="#C4" style="text-decoration: none; color:#388E3C; cursor:pointer">Bir Python Nesnesi Oluşturma</a></li>
       <li>Python class constructor: Python sınıf kurucu</li>
       <li><a href="#C5" style="text-decoration: none; color:#388E3C; cursor:pointer">Class Objects: Sınıf nesneleri</a></li>
       <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer">Instance Objects: Örneklem nesneleri</a></li>
@@ -106,13 +106,13 @@ person2.showName()
 <br>
 <br>
 <div class="teaser clearfix"></div>
-<h3>Eşleme ile Nesne Oluşturma</h3><hr>
- Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">__init__()</code> yordamının kabul ettiği argümanları iletirsiniz:
+<h3 id="C2">Sınıf Eşleme ile Nesne Oluşturma</h3><hr>
+ Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">__init__()</code> yordamının kabul ettiği ifadeleri iletirsiniz:
 <div class="w3-code notranslate pythonHigh">
   p1 = Person("John", 36)</div><br><br>
 
 <div class="teaser clearfix"></div>
-<h3>Nesnenin Özniteliklerine Erişim</h3><hr>
+<h3 id="C3">Nesnenin Özniteliklerine Erişim</h3><hr>
 Nokta (.) operatörünü nesne ile kullanarak erişebilirsiniz. Sınıf adı kullanarak da sınıf özniteliklerine erişilebilir:
 <div class="w3-code notranslate pythonHigh">
   print(p1.x)<br>print(MyClass.x)</div>
@@ -129,7 +129,7 @@ Nokta (.) operatörünü nesne ile kullanarak erişebilirsiniz. Sınıf adı kul
 </div>
 <br>
 <div class="teaser clearfix"></div>
-<h3>Bir Python Nesnesi Oluşturma</h3><hr>
+<h3 id="C4">Bir Python Nesnesi Oluşturma</h3><hr>
 Artık nesneleri oluşturmak için myClass adlı sınıfı kullanabiliriz:
  
 <div class="w3-code notranslate pythonHigh">
