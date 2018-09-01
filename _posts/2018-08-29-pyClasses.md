@@ -42,8 +42,17 @@ Python sınıfları, Nesne Yönelimli Programlamanın tüm standart özellikleri
 
 <br>
 
-<div class="w3-code notranslate pythonHigh">
-  class ClassName:<br> &nbsp; 'class docstring'<br> &nbsp; class_suite</div>
+<div class='pull-right alert alert-warning' style="margin: 25px; text-align: right;">
+<div id="container">
+        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="7" cols="33" spellcheck="false">
+class ClassName:
+    'class docstring'
+    class_suite
+    # python sınıf değişkenleri listesi
+    # python sınıf kurucu
+    # python sınıf yordam tanımları
+
+</textarea></div></div>
 
 Burada, (class docstring) class_name._doc_ üzerinden erişilebilen bir belge dizesidir ve class_suite, temel olarak sınıf elemanlarını, veri özniteliklerini ve yordamları tanımlayan tüm bileşen ifadelerinden oluşur.
 
@@ -61,16 +70,7 @@ img.resize {
 
 
 
-<div class='pull-right alert alert-warning' style="margin: 25px; text-align: right;">
-<div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="7" cols="33" spellcheck="false">
-class ClassName:
-    'class docstring'
-    # python sınıf değişkenleri listesi
-    # python sınıf kurucu
-    # python sınıf yordam tanımları
 
-</textarea></div></div>
 
 
 <div id="container">
