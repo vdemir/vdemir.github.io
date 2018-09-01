@@ -249,7 +249,7 @@ Her sınıfın, tüm görevlerin ve fonksiyon tanımlarının meydana geldiği k
 
 <h4>Sınıf Özdeşleri</h4><hr>
 
-Bir sınıfın özdeşi, bir Python öbeğidir ve her Python öbeğine benzer şekilde, şu özelliklere sahiptir: kimlik, öbek tipi, öznitelikler, yordamlar ve değer.
+Bir sınıfın özdeşi, bir Python öbeğidir ve her Python öbeğine benzer şekilde, şu özelliklere sahiptir: kimlik, öbek tipi, öznitelikler, yordamlar ve değeri.
 
 
 <br><br>
