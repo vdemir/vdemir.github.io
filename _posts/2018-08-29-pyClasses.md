@@ -443,6 +443,7 @@ print(p1)
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
+      <li>argument İFADE</li>
       <li>attribute ÖZDEĞER, DEĞER, ÖZNİTELİK, NİTELİK, SİMGE, ATIF</li>
       <li>class	SINIF</li>
       <li>constructor KURUCU</li>
