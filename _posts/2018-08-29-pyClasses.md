@@ -430,7 +430,7 @@ print(p1)
  
 
 <script src="{{ sitebase.url }}/scripts/dcl-react.js.gz"></script>
-<a id="C8" class="w3-btn w3-margin-bottom">Just python 3 'Run'.</a>
+<a id="C9" class="w3-btn w3-margin-bottom">Just python 3 'Run'.</a>
 <div data-datacamp-exercise data-lang="python" data-height="auto">
       <code data-type="pre-exercise-code"></code>
       <code data-type="sample-code">
@@ -440,7 +440,7 @@ print(p1)
 </div>
 <div class="w3-container w3-content">
 
-<a id="C9" class="w3-btn w3-margin-bottom" href="{{ sitebase.url }}/assets/txt/default_python_packages.txt"  style="text-decoration: none; color:#388E3C; cursor:pointer">Python 3 paket listesine bakınız.</a>
+<a class="w3-btn w3-margin-bottom" href="{{ sitebase.url }}/assets/txt/default_python_packages.txt"  style="text-decoration: none; color:#388E3C; cursor:pointer">Python 3 paket listesine bakınız.</a>
  </div>
 <br>
 <div class="w3-panel w3-card w3-light-grey">
