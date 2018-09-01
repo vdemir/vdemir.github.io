@@ -439,10 +439,16 @@ print(p1)
 </div>
 
 attribute ÖZDEĞER, DEĞER, NİTELİK
+data attributes BİLGİNİN NİTELİKLERİ
 Objects ÖBEK
 class	SINIF
-Instance EŞLEMEK, MİSL, ÖZDEŞ
+Instance EŞLEMEK
+instantiation MİSL, ÖZDEŞ 
 Method YORDAM
-Variables DEĞİŞKEN
+Variables DEĞİŞKEN DEĞER
 data VERİ, BİLGİ
 member ELEMAN
+local YEREL
+constructor KURUCU
+destructor YIKICI 
+destructor
