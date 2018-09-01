@@ -75,7 +75,7 @@ class Person:
     name = ""
     age = 0
       
-    #sınıf kurucusu tanımlama
+    #sınıf kurucusu tanımlar
     def __init__(self, personName, personAge):
         self.name = personName  
         self.age = personAge  
@@ -100,7 +100,7 @@ person2.showName()
 
 <br><br>
 <h3 id="C1">Bir Python Sınıfı Oluşturma</h3><hr>
-x adlı bir özniteliğe sahip MyClass adlı bir sınıf oluşturun:
+**x** adlı bir özdeğere sahip **MyClass** adlı bir sınıf oluşturun:
 <div class="w3-code notranslate pythonHigh">
   class MyClass:<br> &nbsp; 'Python Temel Sınıf'<br> &nbsp; x = 5<br>print(MyClass)</div>
 <br>
