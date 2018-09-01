@@ -30,7 +30,8 @@ lang: tr
       <li><a href="#C5" style="text-decoration: none; color:#388E3C; cursor:pointer">Class Objects: Sınıf nesneleri</a></li>
       <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer">Instance Objects: Örneklem nesneleri</a></li>
       <li><a href="#C7" style="text-decoration: none; color:#388E3C; cursor:pointer">Method Objects: Yordam Nesneleri</a></li>
-      <li><a href="#C8" style="text-decoration: none; color:#388E3C; cursor:pointer">Sözlük Dizini</a></li>
+      <li><a href="#C8" style="text-decoration: none; color:#388E3C; cursor:pointer">Python 3 </a></li>
+      <li><a href="#C9" style="text-decoration: none; color:#388E3C; cursor:pointer">Sözlük Dizini</a></li>
     </ul>
     </p>
   </div>
@@ -428,7 +429,7 @@ print(p1)
  
 
 <script src="{{ sitebase.url }}/scripts/dcl-react.js.gz"></script>
-<a class="w3-btn w3-margin-bottom">Just python 3 'Run'.</a>
+<a id="C8" class="w3-btn w3-margin-bottom">Just python 3 'Run'.</a>
 <div data-datacamp-exercise data-lang="python" data-height="auto">
       <code data-type="pre-exercise-code"></code>
       <code data-type="sample-code">
@@ -440,7 +441,7 @@ print(p1)
 <a href="{{ sitebase.url }}/assets/txt/default_python_packages.txt"  style="text-decoration: none; color:#388E3C; cursor:pointer">Python 3 paket listesine bakınız</a>
  </div>
 <div class="w3-panel w3-card w3-light-grey">
-  <h3 id="C8">Sözlük Dizini</h3>
+  <h3 id="C9">Sözlük Dizini</h3>
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
