@@ -262,7 +262,13 @@ class c:
 obj = c()
 obj.name = "Andre"
 id(obj)
+type(obj)
+type(obj.name)
 </textarea></div>
+
+Out[1]: 140040300870176
+Out[2]: __main__.c
+Out[3]: str
 
 Kimlik[identity], öbek için ayrılan bellek konumudur. id() fonksiyonu kullanılarak tanımlanabilir.
 
