@@ -613,7 +613,8 @@ print sampleclass.count
   <article>
     <div class="text">
       <h3>Seamlessly visualize quality</h3>
-      <p># Write Python code here
+      <p>
+<pre><code># Write Python code here
 class sampleclass:
     count = 0     # class attribute
  
@@ -632,7 +633,7 @@ s2.increase()
 print s2.count
  
 print sampleclass.count
-</textarea></div>
+</code></pre>
 .</p>
       <button>Here's why</button>
     </div>
