@@ -580,6 +580,55 @@ print s2.count
 print sampleclass.count
 </textarea></div>
 
+<style>
+.grid { 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  }
+.grid > article {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
+.grid > article img {
+  max-width: 100%;
+}
+.text {
+  padding: 0 20px 20px;
+}
+.text > button {
+  background: gray;
+  border: 0;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  }
+.grid > article:nth-child(1) {
+  grid-column: span 2;
+}
+</style>
+<main class="grid">
+  <article> 
+    <div class="text">
+      <h3>Seamlessly visualize quality</h3>
+      <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
+      <button>Here's why</button>
+    </div>
+  </article>
+  <article> 
+    <div class="text">
+      <h3>Completely Synergize</h3>
+      <p>Dramatically engage seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.</p>
+      <button>Here's how</button>
+    </div>
+  </article>
+  
+</main>
+
+
+
+
+
 
 
 
