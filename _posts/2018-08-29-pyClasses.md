@@ -28,7 +28,9 @@ lang: tr
       <li><a href="#C4" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesnenin Özniteliklerine Erişim</a></li>
       <li><a href="#C5" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Öbekleri</a></li>
       <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş Öbekler</a></li>
-      <li><a  id="C17" href="#C7" style="text-decoration: none; color:#388E3C; cursor:pointer">Yordam Öbekleri</a></li>
+      <li><a href="#C7" style="text-decoration: none; color:#388E3C; cursor:pointer">Yordam Öbekleri</a></li>
+      <li><a href="#C17" style="text-decoration: none; color:#388E3C; cursor:pointer">Python OOP'a Giriş</a></li>
+      <li><a href="#C18" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıflar</a></li>
       <li><a href="#C8" style="text-decoration: none; color:#388E3C; cursor:pointer">__new__() yordamı</a></li>
       <li><a href="#C9" style="text-decoration: none; color:#388E3C; cursor:pointer">Python 3 Shell</a></li>
       <li><a href="#C10" style="text-decoration: none; color:#388E3C; cursor:pointer">Sözlük Dizini</a></li>
@@ -221,7 +223,11 @@ Diğer eşleşen öznitelik atıf türü bir yordamdır. Bir yordam, bir öbeğe
 
 Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım olarak, bir sınıfın tüm öznitelikleri, eşleşen yordamlarına karşılık tanımlanan fonksiyon öbekleridir. Yani bizim örneğimizde, **x.f** geçerli bir yordam atfıdır, çünkü **MyClass.f** bir fonksiyondur, fakat **x.i** fonksiyon değildir çünkü **MyClass.i** da değildir. Ama **x.f**, **MyClass.f** ile aynı şey değildir - **x.f**, bir fonksiyon nesnesi/öbeği değil, bir yordam öbeğidir.
 
+<!--------------------------------------------->
+
 <br><br> 
+
+
 <h3 id="C7"><a class="w3-btn w3-margin-bottom">Yordam Öbekleri</a></h3><hr>
 
 
@@ -242,8 +248,9 @@ Bir yordam çağrıldığında tam olarak ne olur? **f()** fonksiyon tanımı bi
 Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey vardır ki, özdeş öbek fonksiyonun ilk ifadesi olarak geçirilir. Örneğimizde, **x.f()** çağrısı tam olarak **MyClass.f(x)** öğesine eşdeğerdir. Genel olarak, n argümanlı bir listeden bir yordamı çağırmak, ilk argümandan önce yordamın özdeş öbeğini ekleyerek oluşturulan bir argüman listesine karşılık fonksiyonu çağırmaya eşdeğerdir. Eğer isim geçerli bir sınıf özniteliğini işaret ederse ki bir fonksiyon öbeğidir, bir yordam öbeği özdeş öbek paketlenerek oluşturulur ve fonksiyon öbeği sadece soyut bir öbek ile birlikte bulunur: bu yordam öbeğidir. Yordam öbeği bir argüman listesi ile çağrıldığında yeni bir argüman listesi, argüman listesi ve özdeş öbekten inşa edilir ve fonksiyon öbeği yeni bir argüman listesi ile çağrılır.
 <br><br>
 
+<!--------------------------------------------->
 
-<h3>Python OOP'a Giriş</h3><hr>
+<h3 id="C17">Python OOP'a Giriş</h3><hr>
 
 Bir sınıf, bir öbek grubunu, kapsadığı veriler ve arayüz fonksiyonları tarafından izin verilen veriler üzerindeki işlemler açısından tanımlar.
 
@@ -307,12 +314,13 @@ obj.name = "Andre"</div>
 
 **'Andre'** dizesi, **obj** öbeğinin **name** özniteliğine atanan değerdir.
 
-<!-- yeni bölüm   -->
+<!------------------------------------------>
+
 <br><br>
 
-<h4>Sınıflar </h4><hr>
+<h4 id="C18" >Sınıflar </h4><hr>
 <a class="w3-btn w3-margin-bottom" href="https://www.siafoo.net/article/52"  style="text-decoration: none; color:#388E3C; cursor:pointer">Classes</a>
- </div>
+
 
 <h5>Kendiliğinden Geçme Yordamlar</h5><hr>
 Yordamlar, bir özdeşden çağrıldığında, ilk ifadesi/ilk bağımsız değişken olarak (genellikle 'self') bu özdeşi geçiren normal fonksiyonlardır. Herhangi bir nedenle fonksiyonu bir özdeşden çağırmıyorsanız, özdeşi her zaman ilk ifade/ilk bağımsız değişken olarak el ile geçirebilirsiniz. Örneğin:
