@@ -536,7 +536,7 @@ Bu değerlendirme prosedüründe, özdeş nitelikleri, sınıf özniteliklerinde
 
 Atama. Sol taraflarında bir nokta ifadesi içeren tüm atama ifadeleri, bu nokta ifadesinin öbeği için öznitelikleri etkiler. Öbek bir özdeşse, atama özdeş özniteliğini ayarlar. Öbek bir sınıfsa, atama bir sınıf niteliği ayarlar. Bu kuralın bir sonucu olarak, bir öbeğin özniteliğine atanması, sınıfının özniteliklerini etkileyemez. Aşağıdaki örnekler bu ayrımı göstermektedir.
 
-
+Bir hesap özdeşini adlandırılmış öznitelik ilgi alanına atarsak, mevcut sınıf özniteliğiyle aynı ada sahip yeni bir özdeş özniteliği oluştururuz.
 
 
 
