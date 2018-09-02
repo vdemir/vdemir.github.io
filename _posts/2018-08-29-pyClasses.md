@@ -419,7 +419,7 @@ Aşırı **hasattr** ve **getattr** kullanmayın. Sınıfınızı, bir özelliğ
 Sınıf oluşturulduktan çok sonra ve sonradan eşleştirildikten sonra bile bir sınıf özelliğini veya yordamını ekleyebilir, değiştirebilir veya silebilirsiniz. Sadece mülke veya yönteme Class.attribute olarak erişin. Ne zaman oluşturuldukları önemli değil, sınıfın özdeşleri bu değişikliklere saygı duyacaktır:
 
 <div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="11" cols="29" spellcheck="false">
+        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="17" cols="29" spellcheck="false">
 class Class:
    def method(self):
         print ('Hey a method')
