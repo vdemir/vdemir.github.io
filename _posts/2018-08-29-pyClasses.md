@@ -319,10 +319,10 @@ Yordamlar, bir özdeşden çağrıldığında, ilk ifadesi/ilk bağımsız deği
 
  
 <div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="9" cols="29" spellcheck="false">
+        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="15" cols="29" spellcheck="false">
 class Class:
     def a_method(self):
-        print 'Hey a method'
+        print ('Hey a method')
 
 instance = Class()
 
