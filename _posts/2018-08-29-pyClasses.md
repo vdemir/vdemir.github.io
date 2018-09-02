@@ -213,14 +213,14 @@ del x.counter
 Diğer eşleşen öznitelik atıf türü bir yordamdır. Bir yordam, bir öbeğe “ait” bir fonksiyondur. (Python'da, yordam terimi, öbek eşleşmelerine özgü değildir: diğer öbek türleri de yordamlara sahip olabilir. Örneğin, liste öbekleri, append, insert, remove, sort adlı yordamları içerir. Ancak, aşağıdaki tartışmada, sadece aksi belirtilmedikçe sınıf yordamlarının eşleşen öbeklerinii belirtmek için deyim yordamını kullanacağız.) 
 
 
-Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım olarak, bir sınıfın tüm öznitelikleri, eşleşen yordamlarına karşılık tanımlanan fonksiyon öbekleridir. Yani bizim örneğimizde, **x.f** geçerli bir yordam atfıdır, çünkü **MyClass.f** bir fonksiyondur, fakat **x.i** fonksiyon değildir çünkü **MyClass.i** da değildir. Ama **x.f**, **MyClass.f** ile aynı şey değildir - O bir fonksiyon nesnesi değil, bir yordam öbeğidir.
+Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım olarak, bir sınıfın tüm öznitelikleri, eşleşen yordamlarına karşılık tanımlanan fonksiyon öbekleridir. Yani bizim örneğimizde, **x.f** geçerli bir yordam atfıdır, çünkü **MyClass.f** bir fonksiyondur, fakat **x.i** fonksiyon değildir çünkü **MyClass.i** da değildir. Ama **x.f**, **MyClass.f** ile aynı şey değildir - **x.f**, bir fonksiyon nesnesi/öbeği değil, bir yordam öbeğidir.
 <br>	<br>
 <h3 id="C7">Yordam Öbekleri </h3><hr>
 Genellikle, bağlantıdan hemen sonra bir yordam çağrılır: 
 <div class="w3-code notranslate pythonHigh">
 x.f() </div>
 
-MyClass örneğinde, 'merhaba dünya' dizesini döndürür. Ancak, bir yordamı hemen çağırmak gerekli değildir: x.f bir yordam nesnesidir ve daha sonra depolanabilir ve daha sonra çağrılabilir. Örneğin:
+MyClass örneğinde, 'merhaba dünya' dizesini döndürür. Ancak, bir yordamı hemen çağırmak gerekli değildir: x.f bir yordam öbeğidir ve daha sonra depolanabilir ve daha sonra çağrılabilir. Örneğin:
 <div class="w3-code notranslate pythonHigh">
 xf = x.f<br>
 while True:<br>
@@ -228,7 +228,7 @@ while True:<br>
 
 **merhaba dünya** zamanın sonuna kadar basmaya devam edecek. 
 
-Bir yöntem çağrıldığında tam olarak ne olur? **f()** fonksiyon tanımı bir argüman belirtmiş olsa bile, **x.f()** öğesinin bir argüman olmadan çağrıldığını fark etmiş olabilirsiniz. Argümana ne oldu? Kesinlikle Python argüman gerektiren bir fonksiyon çağrılmadan çağrılır - argüman aslında kullanılmasa bile…
+Bir yordam çağrıldığında tam olarak ne olur? **f()** fonksiyon tanımı bir argüman belirtmiş olsa bile, **x.f()** öğesinin bir argüman olmadan çağrıldığını fark etmiş olabilirsiniz. Argümana ne oldu? Kesinlikle Python argüman gerektiren bir fonksiyon çağrılmadan çağrılır - argüman aslında kullanılmasa bile…
 
 Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey vardır ki, özdeş öbek fonksiyonun ilk ifadesi olarak geçirilir. Örneğimizde, **x.f()** çağrısı tam olarak **MyClass.f(x)** öğesine eşdeğerdir. Genel olarak, n argümanlı bir listeden bir yordamı çağırmak, ilk argümandan önce yordamın özdeş öbeğini ekleyerek oluşturulan bir argüman listesine karşılık fonksiyonu çağırmaya eşdeğerdir. Eğer isim geçerli bir sınıf özniteliğini işaret ederse ki bir fonksiyon öbeğidir, bir yordam öbeği özdeş öbek paketlenerek oluşturulur ve fonksiyon öbeği sadece soyut bir öbek ile birlikte bulunur: bu yordam öbeğidir. Yordam öbeği bir argüman listesi ile çağrıldığında yeni bir argüman listesi, argüman listesi ve özdeş öbekten inşa edilir ve fonksiyon öbeği yeni bir argüman listesi ile çağrılır.
 <br><br>
@@ -273,7 +273,13 @@ Out[3]: str
 
 Kimlik[identity], öbek için ayrılan bellek konumudur. id() fonksiyonu kullanılarak tanımlanabilir.
 
-Öbek türü, öbeğin iç temsilidir. Her öbek için desteklenen yordam ve işlemi tanımlar. Belirli bir öbeğin türünü öğrenmek için type() fonksiyonunu kullanabilirsiniz.
+Öbek tipi, öbeğin iç temsilidir. Her öbek için desteklenen yordam ve işlemi tanımlar. Belirli bir öbeğin türünü öğrenmek için type() fonksiyonunu kullanabilirsiniz.
+
+Öbek tiplerinden bahsederken, tüm sınıf konusundan kısa bir ara verelim ve sınıflar gibi davranmayan, uzantı modüllerinde tanımlanan Python öbeklerini inceleyelim.
+
+
+
+
 
 
 <br><br>
@@ -506,14 +512,14 @@ print(p1)
       <li>instantiation MİSL, ÖZDEŞ </li>
       <li>local YEREL</li>
       <li>member ELEMAN</li>
-      <li>Method YORDAM</li>
+      <li>method YORDAM</li>
       <li>notation GÖSTERİM</li>
-      <li>Objects ÖBEK, NESNE</li>
+      <li>objects ÖBEK, NESNE</li>
       <li>references ATIF</li>
       <li>standard NORMAL, BENZER</li>
       <li>syntax SÖZDİZİM</li>
       <li>valid GEÇERLİ </li>
-      <li>Variables DEĞİŞKEN DEĞER</li>
+      <li>variables DEĞİŞKEN DEĞER</li>
     </ul>
     </p>
   </div>
