@@ -519,7 +519,7 @@ Out[4]: 0.04
 
 Bununla birlikte, bir sınıf özniteliğine yapılan tek bir atama ifadesi, sınıfın tüm özdeşleri için özniteliğin değerini değiştirir.
 
-Öznitelik isimleri. Eşleme sistemimize, adların belirli öznitelikleri nasıl çözümlendiğini belirtmek için yeterli karmaşıklığı sunduk. Sonuçta, aynı ada sahip bir sınıf özniteliğine ve bir özdeş niteliğe kolayca sahip olabiliriz.
+Öznitelik isimleri. Öbek sistemimize, adların belirli öznitelikleri nasıl çözümlendiğini belirtmek için yeterli karmaşıklığı sunduk. Sonuçta, aynı ada sahip bir sınıf özniteliğine ve bir özdeş niteliğe kolayca sahip olabiliriz.
 
 Gördüğümüz gibi, bir nokta ifadeleri; bir ifadeden, bir noktadan ve bir isimden oluşur:
 
@@ -527,10 +527,20 @@ Gördüğümüz gibi, bir nokta ifadeleri; bir ifadeden, bir noktadan ve bir isi
 
 Nokta ifadesini değerlendirmek için:
 
-1. Nokta ifadesinin özdeşini veren noktanın solundaki <expression> değerlendirmesi.
-2. <name>, bu nesnenin özdeş nitelikleriyle eşleşir; Bu ada sahip bir öznitelik varsa, değeri döndürülür.
+1. Nokta ifadesinin öbeğini veren noktanın solundaki <expression> değerlendirmesi.
+2. <name>, bu öbeğin özdeş nitelikleriyle eşleşir; Bu ada sahip bir öznitelik varsa, değeri döndürülür.
 3. Özdeş öznitelikleri arasında <name> görünmezse, sonra <name>, bir sınıf öznitelik değerini veren sınıfta  gözükür.
 4. Bir fonksiyon olmadığı sürece bu değer döndürülür, bu durumda, bunun yerine bir ilişkili yordam döndürülür.
+
+Bu değerlendirme prosedüründe, özdeş nitelikleri, sınıf özniteliklerinden önce bulunur, tıpkı yerel isimlerin bir ortamda küresel önceliğe sahip olması gibi. Sınıf içinde tanımlanan yordamlar, bu değerlendirme prosedürünün üçüncü aşaması sırasında nokta ifadesinin öbeğine bağlanır. Bir sınıfta bir isme bakma prosedürü, sınıf mirasını sunduğumuzda, kısa zamanda ortaya çıkacak ek nüanslara sahiptir.
+
+Atama. Sol taraflarında bir nokta ifadesi içeren tüm atama ifadeleri, bu nokta ifadesinin öbeği için öznitelikleri etkiler. Öbek bir özdeşse, atama özdeş özniteliğini ayarlar. Öbek bir sınıfsa, atama bir sınıf niteliği ayarlar. Bu kuralın bir sonucu olarak, bir öbeğin özniteliğine atanması, sınıfının özniteliklerini etkileyemez. Aşağıdaki örnekler bu ayrımı göstermektedir.
+
+
+
+
+
+
 
 
 
