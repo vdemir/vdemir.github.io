@@ -28,7 +28,7 @@ lang: tr
       <li><a href="#C4" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesnenin Özniteliklerine Erişim</a></li>
       <li><a href="#C5" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Öbekleri</a></li>
       <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş Öbekler</a></li>
-      <li><a href="#C7" style="text-decoration: none; color:#388E3C; cursor:pointer">Yordam Öbekleri</a></li>
+      <li><a  id="C17" href="#C7" style="text-decoration: none; color:#388E3C; cursor:pointer">Yordam Öbekleri</a></li>
       <li><a href="#C8" style="text-decoration: none; color:#388E3C; cursor:pointer">__new__() yordamı</a></li>
       <li><a href="#C9" style="text-decoration: none; color:#388E3C; cursor:pointer">Python 3 Shell</a></li>
       <li><a href="#C10" style="text-decoration: none; color:#388E3C; cursor:pointer">Sözlük Dizini</a></li>
@@ -101,12 +101,14 @@ person2.showName()
 </textarea></div>
 
 <br><br>
+
 <h3 id="C1">Bir Python Sınıfı Oluşturma</h3><hr>
 **x** adlı bir özdeğere sahip **MyClass** adlı bir sınıf/öbek oluşturun:
 <div class="w3-code notranslate pythonHigh">
   class MyClass:<br> &nbsp; 'Python Temel Sınıf'<br> &nbsp; x = 5<br>print(MyClass)</div>
-<br>
-<br>
+
+<br><br>
+
 <div class="teaser clearfix"></div>
 <h3 id="C2">Bir Python Nesnesi Oluşturma</h3><hr>
 Artık nesneleri oluşturmak için **myClass** adlı sınıfı kullanabiliriz:
@@ -136,7 +138,9 @@ Nokta (.) operatörünü nesne ile kullanarak erişebilirsiniz. Sınıf adı kul
     </p>
   </div>
 </div>
-<br>
+
+<br><br>
+
 <h3 id="C5">Sınıf Öbekleri </h3><hr>
 Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnekleme. 
 
@@ -192,7 +196,9 @@ class Complex:
 x = Complex(3.0, -4.5)
 x.r, x.i
 </pre></div></div>
-<br>
+
+<br><br>
+
 <h3 id="C6">Özdeş Öbekler</h3><hr>
 Şimdi eşleşen nesnelerle ne yapabiliriz? Eşleşen nesneler ile anlaşılan yegane işlemler, öznitelik atıflarıdır. İki tür geçerli atıf ismi vardır; data öznitelikleri ve yordamları. 
 
@@ -216,7 +222,8 @@ Diğer eşleşen öznitelik atıf türü bir yordamdır. Bir yordam, bir öbeğe
 Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım olarak, bir sınıfın tüm öznitelikleri, eşleşen yordamlarına karşılık tanımlanan fonksiyon öbekleridir. Yani bizim örneğimizde, **x.f** geçerli bir yordam atfıdır, çünkü **MyClass.f** bir fonksiyondur, fakat **x.i** fonksiyon değildir çünkü **MyClass.i** da değildir. Ama **x.f**, **MyClass.f** ile aynı şey değildir - **x.f**, bir fonksiyon nesnesi/öbeği değil, bir yordam öbeğidir.
 
 <br><br>
-<h3 id="C7"><a class="w3-btn w3-margin-bottom">Yordam Öbekleri</a></h3><hr>
+
+<h3 href="#C17" id="C7"><a class="w3-btn w3-margin-bottom">Yordam Öbekleri</a></h3><hr>
 <h3 id="C7">Yordam Öbekleri </h3><hr>
 Genellikle, bağlantıdan hemen sonra bir yordam çağrılır: 
 <div class="w3-code notranslate pythonHigh">
