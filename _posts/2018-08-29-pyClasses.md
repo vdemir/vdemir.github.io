@@ -342,7 +342,7 @@ obj.name = "Andre"</div>
 
 <h4 id="C18" >Sınıflar </h4><hr>
 
-<a class="w3-btn w3-margin-bottom" href="https://www.siafoo.net/article/52"  style="text-decoration: none; color:#388E3C; cursor:pointer">Kendiliğinden Geçme Yordamlar</a>
+<a class="w3-btn w3-margin-bottom" href="https://www.siafoo.net/article/52"  style="text-decoration: none; color:#388E3C; cursor:pointer">Kaynak</a>
 <br>
 
 <h5><a class="w3-btn w3-margin-bottom" style="text-decoration: none; color:#388E3C; cursor:pointer">Kendiliğinden Geçme Yordamlar</a></h5>
