@@ -282,7 +282,7 @@ Kimlik[identity], öbek için ayrılan bellek konumudur. **id()** fonksiyonu kul
 
 Nesne tipi, öbeğin iç temsilidir. Her öbek için desteklenen yordam ve işlemi tanımlar. Belirli bir Nesnenin tipini öğrenmek için **type()** fonksiyonunu kullanabilirsiniz.
 
-**type(obj)**
+**type(obj)** <br>
 **type(obj.name)**
 
 Nesne tiplerinden bahsederken, tüm sınıf konusundan kısa bir ara verelim ve sınıflar gibi davranmayan, uzantı modüllerinde tanımlanan Python öbeklerini inceleyelim.
