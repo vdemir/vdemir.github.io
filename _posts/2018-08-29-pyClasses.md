@@ -366,7 +366,6 @@ Sinif.bir_yordam(ozdes)
 
 
 <section>
-<textarea autocomplete="off" id="textareaCode" wrap="logical" rows="15" cols="29" spellcheck="false">
 <code>
 class Sinif:
     def bir_yordam(self):
@@ -384,7 +383,6 @@ Sinif.bir_yordam(ozdes)
 </code>
 </section>
 <section>
-<textarea autocomplete="off" id="textareaCode" wrap="logical" rows="15" cols="29" spellcheck="false">
 <code>
 class Sinif:
     def bir_yordam(self):
@@ -400,7 +398,6 @@ ozdes.bir_yordam()
 Sinif.bir_yordam(ozdes)
 # 'Hey bir yordam' yazdırır
 </code>
-</textarea>
 </section>
 
 <style>
