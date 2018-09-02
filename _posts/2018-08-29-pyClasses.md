@@ -365,65 +365,6 @@ Sinif.bir_yordam(ozdes)
 </textarea></div>
 
 
-<section>
-<code>
-class Sinif:
-    def bir_yordam(self):
-        print ('Hey bir yordam')
-
-ozdes = Sinif()
-
-ozdes.bir_yordam()
-# 'Hey bir yordam' yazdırır, 
-# az çok şaşırtıcı değil. 
-# Ayrıca şunları da yapabilirsiniz:
-
-Sinif.bir_yordam(ozdes)
-# 'Hey bir yordam' yazdırır
-</code>
-</section>
-
-<section>
-<code>
-class Sinif:
-    def bir_yordam(self):
-        print ('Hey bir yordam')
-
-ozdes = Sinif()
-
-ozdes.bir_yordam()
-# 'Hey bir yordam' yazdırır, 
-# az çok şaşırtıcı değil. 
-# Ayrıca şunları da yapabilirsiniz:
-
-Sinif.bir_yordam(ozdes)
-# 'Hey bir yordam' yazdırır
-</code>
-</section>
-
-<style>
-code {
-  background: #2db34a;
-  border-radius: 6px;
-  color: #fff;
-  display: block;
-  font: 14px/24px ;
-  padding: 55px 45px;
-  text-align: left;
-} 
-section {
-  margin: 0 10% 55px 1.5%;
-}
-section {
-  display: inline-block;
-  width: 35%;
-}
-footer {
-  margin-bottom: 0;
-}
-
-
-</style>
 
 
 
