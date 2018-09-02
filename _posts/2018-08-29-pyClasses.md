@@ -221,10 +221,10 @@ Diğer eşleşen öznitelik atıf türü bir yordamdır. Bir yordam, bir öbeğe
 
 Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım olarak, bir sınıfın tüm öznitelikleri, eşleşen yordamlarına karşılık tanımlanan fonksiyon öbekleridir. Yani bizim örneğimizde, **x.f** geçerli bir yordam atfıdır, çünkü **MyClass.f** bir fonksiyondur, fakat **x.i** fonksiyon değildir çünkü **MyClass.i** da değildir. Ama **x.f**, **MyClass.f** ile aynı şey değildir - **x.f**, bir fonksiyon nesnesi/öbeği değil, bir yordam öbeğidir.
 
-<br><br>
-<a href="#C17"  id="C7">  </a>
-<h3><a class="w3-btn w3-margin-bottom">Yordam Öbekleri</a></h3><hr>
-<h3 id="C7">Yordam Öbekleri </h3><hr>
+<br><br> 
+<h3 id="C7"><a class="w3-btn w3-margin-bottom">Yordam Öbekleri</a></h3><hr>
+
+
 Genellikle, bağlantıdan hemen sonra bir yordam çağrılır: 
 <div class="w3-code notranslate pythonHigh">
 x.f() </div>
