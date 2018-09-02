@@ -320,18 +320,19 @@ Yordamlar, bir özdeşden çağrıldığında, ilk ifadesi/ilk bağımsız deği
  
 <div id="container">
         <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="15" cols="29" spellcheck="false">
-class Class:
-    def a_method(self):
-        print ('Hey a method')
+class Sinif:
+    def bir_yordam(self):
+        print ('Hey bir yordam')
 
-instance = Class()
+ozdes = Sinif()
 
-instance.a_method()
-# prints 'Hey a method', 
-# somewhat unsuprisingly.  You can also do:
+ozdes.bir_yordam()
+# prints 'Hey bir yordam', 
+# az çok şaşırtıcı değil. 
+# Ayrıca şunları da yapabilirsiniz:
 
-Class.a_method(instance)
-# prints 'Hey a method'
+Sinif.bir_yordam(ozdes)
+# prints 'Hey bir yordam'
 </textarea></div>
 
 
