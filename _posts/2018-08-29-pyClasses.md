@@ -263,15 +263,11 @@ obj = c()
 obj.name = "Andre"
 id(obj)
 type(obj)
-type(obj.name)
-
-Out[1]: 140040300870176
-Out[2]: __main__.c
-Out[3]: str
+type(obj.name) 
 </textarea></div>
-
+<br>
 <div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="7" cols="29" spellcheck="false">
+        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="5" cols="29" spellcheck="false">
 Out[1]: 140040300870176
 Out[2]: __main__.c
 Out[3]: str
