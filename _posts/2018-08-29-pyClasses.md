@@ -250,7 +250,8 @@ Her sınıfın, tüm görevlerin ve fonksiyon tanımlarının meydana geldiği k
 
 <h4>Sınıf Özdeşleri</h4><hr>
 
-Bir sınıfın özdeşi, bir Python öbeğidir ve her Python öbeğine benzer şekilde, şu özelliklere sahiptir: kimlik, öbek/nesne tipi, öznitelikler, yordamlar ve değeri.(identity, object type, attributes, methods, and value)
+Bir sınıfın özdeşi, bir Python öbeğidir ve her Python öbeğine benzer şekilde, şu özelliklere sahiptir: kimlik, öbek/nesne tipi, öznitelikler, yordamlar ve değeri.
+**(identity, object type, attributes, methods, and value)
 
 Bir sonraki açıklama için aşağıdaki sınıf tanımını kullanacağım. Öncelikle, **c** sınıfı ilan edelim, ve sonra **obj** olarak adlandırılan bu sınıfın bir özdeşini oluşturacağız.
 
@@ -275,7 +276,7 @@ Out[3]: str
 
 
 
-Kimlik[identity], öbek için ayrılan bellek konumudur. id() fonksiyonu kullanılarak tanımlanabilir.
+Kimlik[identity], öbek için ayrılan bellek konumudur. **id()** fonksiyonu kullanılarak tanımlanabilir.
 
 Öbek/nesne tipi, öbeğin iç temsilidir. Her öbek için desteklenen yordam ve işlemi tanımlar. Belirli bir öbeğin/nesnenin tipini öğrenmek için **type()** fonksiyonunu kullanabilirsiniz.
 
