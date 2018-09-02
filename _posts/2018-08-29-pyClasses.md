@@ -614,7 +614,8 @@ print sampleclass.count
     <div class="text">
       <h3>Seamlessly visualize quality</h3>
       <p>
-<pre><code># Write Python code here
+<pre><code>
+# Write Python code here
 class sampleclass:
     count = 0     # class attribute
  
@@ -624,17 +625,17 @@ class sampleclass:
 # Calling increase() on an object
 s1 = sampleclass()
 s1.increase()
-print s1.count
+print (s1.count)
  
 # Calling increase on one more
 # object
 s2 = sampleclass()
 s2.increase()
-print s2.count
+print (s2.count)
  
-print sampleclass.count
+print (sampleclass.count)
 </code></pre>
-.</p>
+</p>
       <button>Here's why</button>
     </div>
   </article>
