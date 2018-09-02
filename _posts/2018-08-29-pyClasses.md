@@ -251,9 +251,7 @@ Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım ol
 
 <br><br> 
 
-
 <h3 id="C7"><a class="w3-btn w3-margin-bottom">Yordam Öbekleri</a></h3><hr>
-
 
 Genellikle, bağlantıdan hemen sonra bir yordam çağrılır: 
 <div class="w3-code notranslate pythonHigh">
@@ -345,7 +343,6 @@ obj.name = "Andre"</div>
 <h4 id="C18" >Sınıflar </h4><hr>
 <a class="w3-btn w3-margin-bottom" href="https://www.siafoo.net/article/52"  style="text-decoration: none; color:#388E3C; cursor:pointer">Classes</a>
 
-
 <h5>Kendiliğinden Geçme Yordamlar</h5><hr>
 Yordamlar, bir özdeşden çağrıldığında, ilk ifadesi olarak (genellikle 'self') bu özdeşi geçiren normal fonksiyonlardır. Herhangi bir nedenle fonksiyonu bir özdeşden çağırmıyorsanız, özdeşi her zaman ilk ifade olarak el ile geçirebilirsiniz. Örneğin:
 
@@ -370,6 +367,27 @@ Sinif.bir_yordam(ozdes)
 
 
 
+<div class="article-container clearfix">
+  <img src="{{ site.baseurl }}/images/vowels.gif" alt="Sound" class="wrap align-left">
+
+<br>
+
+<h3>Ünlü-ünsüz-e spelling  örnekleri</h3>
+<br>
+'a' spelling:
+<br>
+<p style="margin-left:40px"><strong>a</strong>gain:&nbsp;<strong>/ə 'g<span style="font-size:medium">ɛn/</span></strong>, vit<strong>a</strong>min:&nbsp;<strong>/'v<span style="font-size:medium">ɑɪ</span><span style="font-size:medium">&nbsp;t̬</span>ə m<span style="font-size:medium">ɪn/</span></strong></p>
+
+<audio controls style="width: 200px;">
+  <source src="{{ site.baseurl }}/audio/again.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<br>
+<audio controls style="width: 200px;">
+  <source src="{{ site.baseurl }}/audio/vitamin.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</div>
 
 
 
