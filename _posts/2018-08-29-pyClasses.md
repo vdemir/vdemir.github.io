@@ -386,7 +386,7 @@ hasattr(Class, 'answer')
 # returns True
 </textarea></div>
 
-
+Ayrıca, yerleşik işlev 'getattr' kullanarak  özelliğin varlığını kontrol edebilir ve tek adımda erişebilirsiniz.
 
 <!------------------------------------------>
 
