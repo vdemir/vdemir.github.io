@@ -234,7 +234,7 @@ Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey
 <br><br>
 
 
-<h3>Python Sınıfları ve Özdeşleri</h3><hr>
+<h3>Python OOP'a Giriş</h3><hr>
 
 Bir sınıf, bir öbek grubunu, kapsadığı veriler ve arayüz fonksiyonları tarafından izin verilen veriler üzerindeki işlemler açısından tanımlar.
 
