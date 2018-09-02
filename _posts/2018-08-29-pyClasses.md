@@ -490,8 +490,10 @@ Bazı öznitelik değerleri, verilen bir sınıfın tüm öbeklerinde paylaşıl
 Sınıf öznitelikleri, herhangi bir yordam tanımının dışında bir sınıf ifadesinin maiyetindeki atama ifadeleriyle oluşturulur. Daha geniş geliştirici topluluğunda, sınıf öznitelikleri de sınıf değişkenleri veya statik değişkenler olarak adlandırılabilir. Aşağıdaki sınıf deyimi,  adı geçen Hesap[Account] için bir sınıf özniteliği oluşturur.
 
 
+Bu öznitelik yine de sınıfın herhangi bir özdeşinden erişilebilir.
+
 <div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="25" cols="29" spellcheck="false">
+        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="15" cols="29" spellcheck="false">
 class Account(object):
  	interest = 0.02 # A class attribute
  	def __init__(self, account_holder):
@@ -500,7 +502,27 @@ class Account(object):
  	# Additional methods would be defined here
 jim_account = Account('Jim')
 jim_account.interest
+tom_account = Account('Tom')
+tom_account.interest
+Account.interest = 0.04
+tom_account.interest
+jim_account.interest
 </textarea></div>
+
+<div id="container">
+        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="5" cols="29" spellcheck="false">
+Out[1]: 0.02
+Out[2]: 0.02
+Out[3]: 0.04
+Out[4]: 0.04
+</textarea></div>
+
+Bununla birlikte, bir sınıf özniteliğine yapılan tek bir atama ifadesi, sınıfın tüm özdeşleri için özniteliğin değerini değiştirir.
+
+
+
+
+
 
 
 
