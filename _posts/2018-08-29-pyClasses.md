@@ -433,7 +433,7 @@ instance.method()
 # prints 'New method wins!'
 </textarea></div>
 
-
+Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşmayın, bu kötü bir formdur ve bu sınıfı kullanarak herhangi bir öbeği karıştırır. Öte yandan, yordamların eklenmesi çok daha az (ama yine de biraz) tehlikelidir.
 
 
 
