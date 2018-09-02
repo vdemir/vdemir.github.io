@@ -407,7 +407,7 @@ code {
   border-radius: 6px;
   color: #fff;
   display: block;
-  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  font: 14px/24px
   padding: 24px 15px;
   text-align: center;
 }
