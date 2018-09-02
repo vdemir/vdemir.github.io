@@ -392,7 +392,7 @@ Ayrıca, yerleşik işlev 'getattr' kullanarak  özelliğin varlığını kontro
 
 
 <div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="7" cols="29" spellcheck="false">
+        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="11" cols="29" spellcheck="false">
 class Class:
     answer = 42
 
