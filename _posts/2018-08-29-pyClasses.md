@@ -366,16 +366,40 @@ Sinif.bir_yordam(ozdes)
 
 
 <section>
-  <code>&#60;section&#62; <br> float: left;</code>
+  <code>class Sinif:
+    def bir_yordam(self):
+        print ('Hey bir yordam')
+
+ozdes = Sinif()
+
+ozdes.bir_yordam()
+# 'Hey bir yordam' yazdırır, 
+# az çok şaşırtıcı değil. 
+# Ayrıca şunları da yapabilirsiniz:
+
+Sinif.bir_yordam(ozdes)
+# 'Hey bir yordam' yazdırır <br> float: left;</code>
 </section>
 
 <section>
-  <code>&#60;section&#62; <br> float: left;</code>
+  <code>class Sinif:
+    def bir_yordam(self):
+        print ('Hey bir yordam')
+
+ozdes = Sinif()
+
+ozdes.bir_yordam()
+# 'Hey bir yordam' yazdırır, 
+# az çok şaşırtıcı değil. 
+# Ayrıca şunları da yapabilirsiniz:
+
+Sinif.bir_yordam(ozdes)
+# 'Hey bir yordam' yazdırır <br> float: left;</code>
 </section>
 
 <style>
 code {
-  background: #2db34a;
+  background: ;
   border-radius: 6px;
   color: #fff;
   display: block;
