@@ -393,8 +393,6 @@ ozdes.bir_yordam()
 
 Sinif.bir_yordam(ozdes)
 # 'Hey bir yordam' yazdırır</code>
-</section><section>
-  <code>&#60;section&#62; <br> display: <br> inline-block;</code>
 </section>
 
 <style>
