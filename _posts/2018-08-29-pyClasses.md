@@ -307,9 +307,9 @@ obj.name = "Andre"</div>
 
 'Andre' dizesi, obj öbeğinin name özniteliğine atanan değerdir.
 
-
-
+<!--yeni bölüm   -->
 <br><br>
+
 <h4>Sınıflar </h4><hr>
 <a class="w3-btn w3-margin-bottom" href="https://www.siafoo.net/article/52"  style="text-decoration: none; color:#388E3C; cursor:pointer">Classes</a>
  </div>
