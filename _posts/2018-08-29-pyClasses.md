@@ -323,7 +323,7 @@ obj.name = "Andre"</div>
 
 
 <h5>Kendiliğinden Geçme Yordamlar</h5><hr>
-Yordamlar, bir özdeşden çağrıldığında, ilk ifadesi/ilk bağımsız değişken olarak (genellikle 'self') bu özdeşi geçiren normal fonksiyonlardır. Herhangi bir nedenle fonksiyonu bir özdeşden çağırmıyorsanız, özdeşi her zaman ilk ifade/ilk bağımsız değişken olarak el ile geçirebilirsiniz. Örneğin:
+Yordamlar, bir özdeşden çağrıldığında, ilk ifadesi olarak (genellikle 'self') bu özdeşi geçiren normal fonksiyonlardır. Herhangi bir nedenle fonksiyonu bir özdeşden çağırmıyorsanız, özdeşi her zaman ilk ifade olarak el ile geçirebilirsiniz. Örneğin:
 
  
 <div id="container">
@@ -354,6 +354,7 @@ Sinif.bir_yordam(ozdes)
 
 
 
+<!------------------------------------------>
 
 <br><br>
 <h4><code class="w3-codespan">__new__()</code> yordamı </h4><hr>
