@@ -327,12 +327,12 @@ class Sinif:
 ozdes = Sinif()
 
 ozdes.bir_yordam()
-# prints 'Hey bir yordam', 
+# 'Hey bir yordam' yazdırır, 
 # az çok şaşırtıcı değil. 
 # Ayrıca şunları da yapabilirsiniz:
 
 Sinif.bir_yordam(ozdes)
-# prints 'Hey bir yordam'
+# 'Hey bir yordam' yazdırır
 </textarea></div>
 
 
