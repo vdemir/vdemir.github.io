@@ -450,6 +450,40 @@ Bir **'statik yordam'** nereden çağrıldığı hakkında hiçbir bilgi alamaz;
 Sınıf ve statik yordamlar, sınıftan, **Class.method()** olarak veya **Class().method()** olarak bir özdeşten  doğrudan çağrılabilir. Kendi sınıfı hariç özdeş göz ardı edilir. İşte düzgün bir özdeş yordam ile birlikte her biri için bir örnek:
 
 
+<div id="container">
+        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="25" cols="29" spellcheck="false">
+class Class:
+    @classmethod
+    def a_class_method(cls):
+        print 'I was called from class %s' % cls
+    #
+    @staticmethod
+    def a_static_method():
+        print 'I have no idea where I was called from'
+    #
+    def an_instance_method(self):
+        print 'I was called from the instance %s' % self
+
+instance = Class()
+
+Class.a_class_method()
+instance.a_class_method()
+# both print 'I was called from class __main__.Class'
+
+Class.a_static_method()
+instance.a_static_method()
+# both print 'I have no idea where I was called from'
+
+Class.an_instance_method()
+
+# raises TypeError
+instance.an_instance_method()
+# prints something like 'I was called from the instance 
+# <__main__.Class instance at 0x2e80d0>'
+</textarea></div>
+
+
+
 
 
 <!------------------------------------------>
