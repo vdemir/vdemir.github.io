@@ -399,7 +399,7 @@ Sinif.bir_yordam(ozdes)
 
 <style>
 code {
-  background: ;
+  background: #2db34a;
   border-radius: 6px;
   color: #fff;
   display: block;
@@ -407,10 +407,15 @@ code {
   padding: 24px 15px;
   text-align: center;
 }
+section,
+aside {
+  margin: 0 1.5% 24px 1.5%;
+}
 section {
-  float: left;
+  display: inline-block;
   width: 30%;
 }
+
 </style>
 
 
