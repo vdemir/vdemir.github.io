@@ -529,7 +529,7 @@ Nokta ifadesini değerlendirmek için:
 
 1. Nokta ifadesinin özdeşini veren noktanın solundaki **<expression>** değerlendirmesi.
 2. **<name>**, bu nesnenin özdeş nitelikleriyle eşleşir; Bu ada sahip bir öznitelik varsa, değeri döndürülür.
-
+3. Özdeş öznitelikleri arasında **<name>** görünmezse, sonra **<name>**, bir sınıf öznitelik değerini veren sınıfta  gözükür.
 
 
 
