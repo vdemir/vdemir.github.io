@@ -341,9 +341,12 @@ obj.name = "Andre"</div>
 <br><br>
 
 <h4 id="C18" >Sınıflar </h4><hr>
-<a class="w3-btn w3-margin-bottom" href="https://www.siafoo.net/article/52"  style="text-decoration: none; color:#388E3C; cursor:pointer">Classes</a>
 
-<h5>Kendiliğinden Geçme Yordamlar</h5><hr>
+<a class="w3-btn w3-margin-bottom" href="https://www.siafoo.net/article/52"  style="text-decoration: none; color:#388E3C; cursor:pointer">Kendiliğinden Geçme Yordamlar</a>
+<br>
+<a class="w3-btn w3-margin-bottom">Özellik ve Yordam Varlığını Kontrol Etme </a>
+<hr>
+
 Yordamlar, bir özdeşden çağrıldığında, ilk ifadesi olarak (genellikle 'self') bu özdeşi geçiren normal fonksiyonlardır. Herhangi bir nedenle fonksiyonu bir özdeşden çağırmıyorsanız, özdeşi her zaman ilk ifade olarak el ile geçirebilirsiniz. Örneğin:
 
  
