@@ -388,6 +388,10 @@ hasattr(Class, 'answer')
 
 Ayrıca, yerleşik işlev 'getattr' kullanarak  özelliğin varlığını kontrol edebilir ve tek adımda erişebilirsiniz.
 
+**getattr** ayrıca, öbek ve özniteliği kontrol etmek için bir string dize olarak kabul eder. Eğer öznitelik bulunamazsa, varsayılanı veren isteğe bağlı üçüncü ifadeye sahiptir. Daha fazla aşina olabileceğiniz **dict**'ın **'get'** yordamından farklı olarak, varsayılan değer verilmediyse ve öznitelik bulunamadıysa, bir **AttributeError** oluşturulur:
+
+
+
 <!------------------------------------------>
 
 <br><br>
