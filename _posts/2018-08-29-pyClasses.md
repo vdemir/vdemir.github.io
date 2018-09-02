@@ -382,6 +382,7 @@ Sinif.bir_yordam(ozdes)
 # 'Hey bir yordam' yazdırır
 </code>
 </section>
+
 <section>
 <code>
 class Sinif:
@@ -416,7 +417,7 @@ aside {
 }
 section {
   display: inline-block;
-  width: 50%;
+  width: 30%;
 }
 
 </style>
