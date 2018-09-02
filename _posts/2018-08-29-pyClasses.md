@@ -436,10 +436,17 @@ instance.method()
 Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşmayın, bu kötü bir formdur ve bu sınıfı kullanarak herhangi bir öbeği karıştırır. Öte yandan, yordamların eklenmesi çok daha az (ama yine de biraz) tehlikelidir.
 
 
+<br>
+<a class="w3-btn w3-margin-bottom" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Yordamıları Oluşturma</a>
+<hr>
 
+Bazen bir sınıf yazarken, sınıftan çağrılan bir fonksiyonu dahil etmek istersiniz, özdeşini değil. Belki bu yordam yeni özdeşler oluşturur veya belki de herhangi bir özel özdeşin herhangi bir özniteliğinden bağımsızdır. Python, yordamınızın, hangi sınıfın çağırdığını bilmesi gerektiğine (ya da bilmesine) bağlı olarak, bunu yapmanın iki yolunu size verir. Her ikisi de yordamlarınıza dekoratörler uygulamasını içerir. 
 
+Sadece düzenli örnek yöntemi örnek ilk bağımsız değişken olarak aldığı gibi bir 'sınıf yöntemi' sınıf ilk bağımsız değişken olarak alır. Yani, o kendi sınıf veya bir alt sınıf çağrıldığını ise farkında yöntemidir. 
 
+'Statik yöntem' nerede denir; ilgili bilgi alır Bu aslında bir normal, sadece farklı bir kapsamda fonksiyonudur. 
 
+Sınıf ve statik yöntemleri çağrılabilir düz olarak Class.method(), sınıf veya bir örnek olarak Class().method(). Örnek dışında kendi sınıfında göz ardı edilir. İşte bir düzenli örnek yöntemi ile birlikte her biri için bir örnek:
 
 
 
