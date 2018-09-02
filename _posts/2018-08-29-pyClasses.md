@@ -371,7 +371,7 @@ Sinif.bir_yordam(ozdes)
 Dahili olarak, bu ifadeler tamamen aynıdır.
 
 <br>
-<a class="w3-btn w3-margin-bottom">Özellik ve Yordam Varlığını Kontrol Etme </a>
+<a class="w3-btn w3-margin-bottom" style="text-decoration: none; color:#388E3C; cursor:pointer">Özellik ve Yordam Varlığını Kontrol Etme </a>
 <hr>
 
 
