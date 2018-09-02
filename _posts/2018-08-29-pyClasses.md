@@ -223,7 +223,7 @@ Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım ol
 
 <br><br>
 
-<h3 href="#C17" id="C7"><a class="w3-btn w3-margin-bottom">Yordam Öbekleri</a></h3><hr>
+<a href="#C17" id="C7"><h3 class="w3-btn w3-margin-bottom">Yordam Öbekleri</h3></a><hr>
 <h3 id="C7">Yordam Öbekleri </h3><hr>
 Genellikle, bağlantıdan hemen sonra bir yordam çağrılır: 
 <div class="w3-code notranslate pythonHigh">
