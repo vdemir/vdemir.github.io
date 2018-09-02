@@ -399,9 +399,9 @@ Sinif.bir_yordam(ozdes)
 
 <style>
 code {
-  background: #2db34a;
+  background: #fff;
   border-radius: 6px;
-  color: #fff;
+  color: #2db34a;
   display: block;
   font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
   padding: 24px 15px;
