@@ -519,7 +519,7 @@ Out[4]: 0.04
 
 Bununla birlikte, bir sınıf özniteliğine yapılan tek bir atama ifadesi, sınıfın tüm özdeşleri için özniteliğin değerini değiştirir.
 
-
+Öznitelik isimleri. Eşleme sistemimize, adların belirli öznitelikleri nasıl çözümlendiğini belirtmek için yeterli karmaşıklığı sunduk. Sonuçta, aynı ada sahip bir sınıf özniteliğine ve bir özdeş niteliğe kolayca sahip olabiliriz.
 
 
 
