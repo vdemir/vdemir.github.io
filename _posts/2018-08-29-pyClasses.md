@@ -307,17 +307,21 @@ obj.name = "Andre"</div>
 
 'Andre' dizesi, obj öbeğinin name özniteliğine atanan değerdir.
 
-<!--yeni bölüm   -->
+<!-- yeni bölüm   -->
 <br><br>
 
 <h4>Sınıflar </h4><hr>
 <a class="w3-btn w3-margin-bottom" href="https://www.siafoo.net/article/52"  style="text-decoration: none; color:#388E3C; cursor:pointer">Classes</a>
  </div>
 
+<h5>Kendiliğinden Geçme Yordamlar</h5><hr>
+Yordamlar, bir özdeşden çağrıldığında, ilk ifadesi olarak (genellikle 'self') bu özdeşi geçiren normal fonksiyonlardır. Herhangi bir nedenle fonksiyonu bir özdeşden çağırmıyorsanız, özdeşi her zaman ilk ifade olarak el ile geçirebilirsiniz. Örneğin:
 
-
-
-
+ <div class='code'>
+                            <a class='toggle_linenos' href='#'>
+                                #&#8202;'s
+                            </a>
+                            <div class="highlight"><pre><span class="lineno"> 1</span><span class="k">class</span> <span class="nc">Class</span><span class="p">:</span><br /><span class="lineno"> 2</span>    <span class="k">def</span> <span class="nf">a_method</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span><br /><span class="lineno"> 3</span>        <span class="k">print</span> <span class="s">&#39;Hey a method&#39;</span><br /><span class="lineno"> 4</span><br /><span class="lineno"> 5</span><span class="n">instance</span> <span class="o">=</span> <span class="n">Class</span><span class="p">()</span><br /><span class="lineno"> 6</span><br /><span class="lineno"> 7</span><span class="n">instance</span><span class="o">.</span><span class="n">a_method</span><span class="p">()</span><br /><span class="lineno"> 8</span><span class="c"># prints &#39;Hey a method&#39;, somewhat unsuprisingly.  You can also do:</span><br /><span class="lineno"> 9</span><br /><span class="lineno">10</span><span class="n">Class</span><span class="o">.</span><span class="n">a_method</span><span class="p">(</span><span class="n">instance</span><span class="p">)</span><br /><span class="lineno">11</span><span class="c"># prints &#39;Hey a method&#39;</span><br /></pre></div>
 
 
 
