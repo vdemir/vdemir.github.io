@@ -367,10 +367,10 @@ Sinif.bir_yordam(ozdes)
 Dahili olarak, bu ifadeler tamamen aynıdır.
 
 <br>
-<a class="w3-btn w3-margin-bottom" href="https://www.siafoo.net/article/52"  style="text-decoration: none; color:#388E3C; cursor:pointer">Özellik ve Yordam Varlığını Kontrol Etme </a>
+<a class="w3-btn w3-margin-bottom">Özellik ve Yordam Varlığını Kontrol Etme </a>
 
 
-Belirli bir sınıfın veya özdeşin, belirli bir özellik veya yordama sahip olup olmadığını bilmek mi gerekiyor? Yerleşik 'hasattr' işlevini kontrol etmek için kullanabilirsiniz; kontrol etmek için nesneyi ve özniteliği (dizge olarak) kabul eder. Dict 'has_key' yöntemine benzer şekilde kullanıyorsunuz (tamamen farklı olsa da):
+Belirli bir sınıfın veya özdeşin, belirli bir özellik veya yordama sahip olup olmadığını bilmek gerekir mi? Yerleşik 'hasattr' işlevini kontrol etmek için kullanabilirsiniz; kontrol etmek için nesneyi ve özniteliği (dizge olarak) kabul eder. Dict 'has_key' yöntemine benzer şekilde kullanıyorsunuz (tamamen farklı olsa da):
 
 <!------------------------------------------>
 
