@@ -112,23 +112,21 @@ person2.showName()
 <div class="w3-code notranslate pythonHigh">
   class MyClass:<br> &nbsp; 'Python Temel Sınıf'<br> &nbsp; x = 5<br>print(MyClass)</div>
 
-
-<div class="teaser clearfix"></div>
 <div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="15" cols="33" spellcheck="false">
-class Class:
-    def a_method(self):
-        print 'Hey a method'
+        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="15" cols="29" spellcheck="false">
+class Sinif:
+    def bir_yordam(self):
+        print ('Hey bir yordam')
 
-instance = Class()
+ozdes = Sinif()
 
-instance.a_method()
-# prints 'Hey a method', 
-# somewhat unsuprisingly.  
-# You can also do:
+ozdes.bir_yordam()
+# 'Hey bir yordam' yazdırır, 
+# az çok şaşırtıcı değil. 
+# Ayrıca şunları da yapabilirsiniz:
 
-Class.a_method(instance)
-# prints 'Hey a method'
+Sinif.bir_yordam(ozdes)
+# 'Hey bir yordam' yazdırır
 </textarea></div>
 
 <!----------------------------------------->
@@ -351,21 +349,23 @@ obj.name = "Andre"</div>
 Yordamlar, bir özdeşden çağrıldığında, ilk ifade olarak (genellikle 'self' olarak çağrılır) bu özdeşe geçirilen normal fonksiyonlardır. Herhangi bir nedenle fonksiyonu bir özdeşden çağırmıyorsanız, özdeşe her zaman ilk ifade olarak el ile geçirebilirsiniz. Örneğin:
 
  
+
+<div class="teaser clearfix"></div>
 <div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="15" cols="29" spellcheck="false">
-class Sinif:
-    def bir_yordam(self):
-        print ('Hey bir yordam')
+        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="15" cols="33" spellcheck="false">
+class Class:
+    def a_method(self):
+        print 'Hey a method'
 
-ozdes = Sinif()
+instance = Class()
 
-ozdes.bir_yordam()
-# 'Hey bir yordam' yazdırır, 
-# az çok şaşırtıcı değil. 
-# Ayrıca şunları da yapabilirsiniz:
+instance.a_method()
+# prints 'Hey a method', 
+# somewhat unsuprisingly.  
+# You can also do:
 
-Sinif.bir_yordam(ozdes)
-# 'Hey bir yordam' yazdırır
+Class.a_method(instance)
+# prints 'Hey a method'
 </textarea></div>
 
 Dahili olarak, bu ifadeler tamamen aynıdır.
@@ -419,7 +419,7 @@ Aşırı **hasattr** ve **getattr** kullanmayın. Sınıfınızı, bir özelliğ
 Sınıf oluşturulduktan çok sonra ve sonradan eşleştirildikten sonra bile bir sınıf özelliğini veya yordamını ekleyebilir, değiştirebilir veya silebilirsiniz. Sadece mülke veya yönteme Class.attribute olarak erişin. Ne zaman oluşturuldukları önemli değil, sınıfın özdeşleri bu değişikliklere saygı duyacaktır:
 
 <div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="17" cols="29" spellcheck="false">
+        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="15" cols="29" spellcheck="false">
 class Class:
    def method(self):
         print ('Hey a method')
