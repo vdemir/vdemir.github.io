@@ -538,7 +538,24 @@ Atama. Sol taraflarında bir nokta ifadesi içeren tüm atama ifadeleri, bu nokt
 
 Bir hesap özdeşini adlandırılmış öznitelik ilgi alanına atarsak, mevcut sınıf özniteliğiyle aynı ada sahip yeni bir özdeş özniteliği oluştururuz.
 
+jim_account.interest = 0.08
 
+ve bu öznitelik değeri bir nokta ifadesinden döndürülecek
+
+jim_account.interest
+0.08
+
+Bununla birlikte, sınıf özniteliği, diğer tüm hesaplar için döndürülen orijinal değerini hala korur.
+
+Sınıf özniteliğindeki değişiklikler tom_account'ı etkiler, ancak jim_account için özdeş özniteliği etkilenmez.
+
+Account.interest = 0.05 # sınıf özniteliğini değiştirme
+
+tom_account.interest # Özdeş adlandırılmış özdeş öznitelikleri olmayan özdeşleri değiştirir. 
+0.05
+
+jim_account.interest # ancak mevcut özdeş özniteliği etkilenmez
+0.08
 
 
 
