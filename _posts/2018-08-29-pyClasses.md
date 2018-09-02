@@ -416,6 +416,7 @@ Aşırı **hasattr** ve **getattr** kullanmayın. Sınıfınızı, bir özelliğ
 </a>
 <hr>
 
+Sınıf oluşturulduktan çok sonra ve sonradan eşleştirildikten sonra bile bir sınıf özelliğini veya yordamını ekleyebilir, değiştirebilir veya silebilirsiniz. Sadece mülke veya yönteme Class.attribute olarak erişin. Ne zaman oluşturuldukları önemli değil, sınıfın özdeşleri bu değişikliklere saygı duyacaktır:
 
 
 
