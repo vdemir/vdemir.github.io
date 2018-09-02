@@ -282,9 +282,14 @@ Nesne tipi, öbeğin iç temsilidir. Her öbek için desteklenen yordam ve işle
 
 Nesne tiplerinden bahsederken, tüm sınıf konusundan kısa bir ara verelim ve sınıflar gibi davranmayan, uzantı modüllerinde tanımlanan Python öbeklerini inceleyelim.
 
+Bir nesnenin öznitelikleri ve yordamları, öbek adından sonra bir nokta (.) yerleştirerek erişilmesi gereken bağlı özelliklerdir.
+
+Sonunda, bir nesnenin değeri bir örnekle daha iyi görselleştirilir.
+
+'Andre' dizesi, obj öbeğinin name özniteliğine atanan değerdir.
 
 
-
+<h4>Sınıflar </h4><hr>
 
 
 <br><br>
