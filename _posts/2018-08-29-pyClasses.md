@@ -378,15 +378,6 @@ Sinif.bir_yordam(ozdes)
 <br>
 <p style="margin-left:40px"><strong>a</strong>gain:&nbsp;<strong>/ə 'g<span style="font-size:medium">ɛn/</span></strong>, vit<strong>a</strong>min:&nbsp;<strong>/'v<span style="font-size:medium">ɑɪ</span><span style="font-size:medium">&nbsp;t̬</span>ə m<span style="font-size:medium">ɪn/</span></strong></p>
 
-<audio controls style="width: 200px;">
-  <source src="{{ site.baseurl }}/audio/again.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-<br>
-<audio controls style="width: 200px;">
-  <source src="{{ site.baseurl }}/audio/vitamin.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
 </div>
 
 
