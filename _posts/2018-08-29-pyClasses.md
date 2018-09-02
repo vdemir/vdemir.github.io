@@ -368,7 +368,7 @@ Sinif.bir_yordam(ozdes)
 
 
 <div class="article-container clearfix">
-  <img src="{{ site.baseurl }}/images/vowels.gif" alt="Sound" class="wrap align-left">
+alt="Sound" class="wrap align-left">
 
 <br>
 
@@ -376,7 +376,7 @@ Sinif.bir_yordam(ozdes)
 <br>
 'a' spelling:
 <br>
-<p style="margin-left:40px"><strong>a</strong>gain:&nbsp;<strong>/ə 'g<span style="font-size:medium">ɛn/</span></strong>, vit<strong>a</strong>min:&nbsp;<strong>/'v<span style="font-size:medium">ɑɪ</span><span style="font-size:medium">&nbsp;t̬</span>ə m<span style="font-size:medium">ɪn/</span></strong></p>
+<p style="margin-left:40px"></p>
 
 </div>
 
