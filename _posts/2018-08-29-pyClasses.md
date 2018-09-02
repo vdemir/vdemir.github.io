@@ -266,7 +266,7 @@ id(obj)
 type(obj)
 type(obj.name) 
 </textarea></div>
-<br>
+
 <div id="container">
         <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="4" cols="29" spellcheck="false">
 Out[1]: 140040300870176
