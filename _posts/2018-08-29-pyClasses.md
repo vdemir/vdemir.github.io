@@ -391,6 +391,20 @@ Ayrıca, yerleşik işlev 'getattr' kullanarak  özelliğin varlığını kontro
 **getattr** ayrıca, öbek ve özniteliği kontrol etmek için bir string dize olarak kabul eder. Eğer öznitelik bulunamazsa, varsayılanı veren isteğe bağlı üçüncü ifadeye sahiptir. Daha fazla aşina olabileceğiniz **dict**'ın **'get'** yordamından farklı olarak, varsayılan değer verilmediyse ve öznitelik bulunamadıysa, bir **AttributeError** oluşturulur:
 
 
+<div id="container">
+        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="7" cols="29" spellcheck="false">
+class Class:
+    answer = 42
+
+getattr(Class, 'answer')
+# returns 42
+getattr(Class, 'question', 'What is six times nine?')
+# returns 'What is six times nine?'
+getattr(Class, 'question')
+# raises AttributeError
+</textarea></div>
+
+
 
 <!------------------------------------------>
 
