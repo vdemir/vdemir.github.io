@@ -115,7 +115,7 @@ person2.showName()
 
 <div class="teaser clearfix"></div>
 <div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="16" cols="33" spellcheck="false">
+        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="13" cols="33" spellcheck="false">
 class Class:
     def a_method(self):
         print 'Hey a method'
