@@ -299,7 +299,8 @@ Sonunda, bir nesnenin değeri bir örnekle daha iyi görselleştirilir.
 
 <br><br>
 <h4>Sınıflar </h4><hr>
-
+<a class="w3-btn w3-margin-bottom" href="https://www.siafoo.net/article/52"  style="text-decoration: none; color:#388E3C; cursor:pointer">Classes</a>
+ </div>
 
 <br><br>
 <h4><code class="w3-codespan">__new__()</code> yordamı </h4><hr>
