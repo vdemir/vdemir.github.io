@@ -305,7 +305,7 @@ Sonunda, bir nesnenin değeri bir örnekle daha iyi görselleştirilir.
 <div class="w3-code notranslate pythonHigh">
 obj.name = "Andre"</div>
 
-'Andre' dizesi, obj öbeğinin name özniteliğine atanan değerdir.
+**'Andre'** dizesi, **obj** öbeğinin **name** özniteliğine atanan değerdir.
 
 <!-- yeni bölüm   -->
 <br><br>
