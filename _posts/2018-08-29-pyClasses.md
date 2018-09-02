@@ -365,24 +365,29 @@ Sinif.bir_yordam(ozdes)
 </textarea></div>
 
 
+<section>
+  <code>&#60;section&#62; <br> float: left;</code>
+</section>
 
+<section>
+  <code>&#60;section&#62; <br> float: left;</code>
+</section>
 
-<div class="article-container clearfix">
-alt="Sound" class="wrap align-left">
-
-<br>
-
-<h3>Ünlü-ünsüz-e spelling  örnekleri</h3>
-<br>
-'a' spelling:
-<br>
-<p style="margin-left:40px"></p>
-
-</div>
-
-
-
-
+<style>
+code {
+  background: #2db34a;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  padding: 24px 15px;
+  text-align: center;
+}
+section {
+  float: left;
+  width: 30%;
+}
+</style>
 
 
 
