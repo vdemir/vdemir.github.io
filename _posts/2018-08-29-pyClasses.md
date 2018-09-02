@@ -556,7 +556,7 @@ jim_account.interest # ancak mevcut özdeş özniteliği etkilenmez
 
 Sınıf öznitelikleri, tüm özdeşlerle paylaşılacakları sınıfa aittir. Bu öznitelikler, okunabilirlik için genellikle üst kısımdaki sınıf gövdesi parçalarında tanımlanmaktadır.
 
-
+<br>
 <div id="container">
         <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="15" cols="29" spellcheck="false">
 # Write Python code here
