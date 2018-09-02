@@ -520,13 +520,13 @@ Bununla birlikte, bir sınıf özniteliğine yapılan tek bir atama ifadesi, sı
 
 Gördüğümüz gibi, bir nokta ifadeleri; bir ifadeden, bir noktadan ve bir isimden oluşur:
 
-<expression> . <name>
+**expression . name**
 
 Nokta ifadesini değerlendirmek için:
 
-1. Nokta ifadesinin öbeğini veren noktanın solundaki <expression> değerlendirmesi.
-2. <name>, bu öbeğin özdeş nitelikleriyle eşleşir; Bu ada sahip bir öznitelik varsa, değeri döndürülür.
-3. Özdeş öznitelikleri arasında <name> görünmezse, sonra <name>, bir sınıf öznitelik değerini veren sınıfta  gözükür.
+1. Nokta ifadesinin öbeğini veren noktanın solundaki **expression** değerlendirmesi.
+2. **name**, bu öbeğin özdeş nitelikleriyle eşleşir; Bu ada sahip bir öznitelik varsa, değeri döndürülür.
+3. Özdeş öznitelikleri arasında **name** görünmezse, sonra **name**, bir sınıf öznitelik değerini veren sınıfta  gözükür.
 4. Bir fonksiyon olmadığı sürece bu değer döndürülür, bu durumda, bunun yerine bir ilişkili yordam döndürülür.
 
 Bu değerlendirme prosedüründe, özdeş nitelikleri, sınıf özniteliklerinden önce bulunur, tıpkı yerel isimlerin bir ortamda küresel önceliğe sahip olması gibi. Sınıf içinde tanımlanan yordamlar, bu değerlendirme prosedürünün üçüncü aşaması sırasında nokta ifadesinin öbeğine bağlanır. Bir sınıfta bir isme bakma prosedürü, sınıf mirasını sunduğumuzda, kısa zamanda ortaya çıkacak ek nüanslara sahiptir.
