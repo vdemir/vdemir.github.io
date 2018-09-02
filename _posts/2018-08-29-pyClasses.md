@@ -422,14 +422,14 @@ Sınıf oluşturulduktan çok sonra ve sonradan eşleştirildikten sonra bile bi
         <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="11" cols="29" spellcheck="false">
 class Class:
    def method(self):
-        print 'Hey a method'
+        print ('Hey a method')
 
 instance = Class()
 instance.method()
 # prints 'Hey a method'
 
 def new_method(self):
-    print 'New method wins!'
+    print ('New method wins!')
 
 Class.method = new_method
 instance.method()
