@@ -442,9 +442,10 @@ Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşma
 
 Bazen bir sınıf yazarken, sınıftan çağrılan bir fonksiyonu dahil etmek istersiniz, özdeşini değil. Belki bu yordam yeni özdeşler oluşturur veya belki de herhangi bir özel özdeşin herhangi bir özniteliğinden bağımsızdır. Python, yordamınızın, hangi sınıfın çağırdığını bilmesi gerektiğine (ya da bilmesine) bağlı olarak, bunu yapmanın iki yolunu size verir. Her ikisi de yordamlarınıza dekoratörler uygulamasını içerir. 
 
-Sadece düzenli örnek yöntemi örnek ilk bağımsız değişken olarak aldığı gibi bir 'sınıf yöntemi' sınıf ilk bağımsız değişken olarak alır. Yani, o kendi sınıf veya bir alt sınıf çağrıldığını ise farkında yöntemidir. 
+Düzgün bir  özdeş yordam ilk ifade olarak özdeşi aldığı gibi bir 'sınıf yordamı' ilk ifade olarak sınıfı alır. Böylece yordam, kendi sınıfından veya bir alt sınıfından çağrılıyorsa farkındadır.
 
-'Statik yöntem' nerede denir; ilgili bilgi alır Bu aslında bir normal, sadece farklı bir kapsamda fonksiyonudur. 
+Bir 'statik yordam' nereden çağrıldığı hakkında hiçbir bilgi alamaz; 
+'Statik yöntem' nerede denir; Bu aslında normal bir fonksiyonudur, sadece farklı bir kapsam içinde.
 
 Sınıf ve statik yöntemleri çağrılabilir düz olarak Class.method(), sınıf veya bir örnek olarak Class().method(). Örnek dışında kendi sınıfında göz ardı edilir. İşte bir düzenli örnek yöntemi ile birlikte her biri için bir örnek:
 
