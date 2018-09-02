@@ -407,18 +407,21 @@ code {
   border-radius: 6px;
   color: #fff;
   display: block;
-  font: 14px/24px
-  padding: 24px 15px;
-  text-align: center;
-}
-section,
-aside {
-  margin: 0 1.5% 24px 1.5%;
+  font: 14px/24px ;
+  padding: 55px 45px;
+  text-align: left;
+} 
+section {
+  margin: 0 10% 55px 1.5%;
 }
 section {
   display: inline-block;
-  width: 30%;
+  width: 35%;
 }
+footer {
+  margin-bottom: 0;
+}
+
 
 </style>
 
