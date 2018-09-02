@@ -278,12 +278,14 @@ Out[3]: str
 
 Kimlik[identity], öbek için ayrılan bellek konumudur. **id()** fonksiyonu kullanılarak tanımlanabilir.
 
-**id(obj)**
+<div class="w3-code notranslate pythonHigh">
+id(obj)</div>
 
 Nesne tipi, öbeğin iç temsilidir. Her öbek için desteklenen yordam ve işlemi tanımlar. Belirli bir Nesnenin tipini öğrenmek için **type()** fonksiyonunu kullanabilirsiniz.
 
-**type(obj)** <br>
-**type(obj.name)**
+<div class="w3-code notranslate pythonHigh">
+type(obj)<br>
+type(obj.name)</div>
 
 Nesne tiplerinden bahsederken, tüm sınıf konusundan kısa bir ara verelim ve sınıflar gibi davranmayan, uzantı modüllerinde tanımlanan Python öbeklerini inceleyelim.
 
@@ -291,7 +293,8 @@ Bir nesnenin öznitelikleri ve yordamları, öbek adından sonra bir nokta (.) y
 
 Sonunda, bir nesnenin değeri bir örnekle daha iyi görselleştirilir.
 
-**obj.name = "Andre"**
+<div class="w3-code notranslate pythonHigh">
+obj.name = "Andre"</div>
 
 'Andre' dizesi, obj öbeğinin name özniteliğine atanan değerdir.
 
@@ -301,6 +304,21 @@ Sonunda, bir nesnenin değeri bir örnekle daha iyi görselleştirilir.
 <h4>Sınıflar </h4><hr>
 <a class="w3-btn w3-margin-bottom" href="https://www.siafoo.net/article/52"  style="text-decoration: none; color:#388E3C; cursor:pointer">Classes</a>
  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <br><br>
 <h4><code class="w3-codespan">__new__()</code> yordamı </h4><hr>
