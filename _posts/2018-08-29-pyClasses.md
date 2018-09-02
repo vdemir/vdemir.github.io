@@ -521,6 +521,15 @@ Bununla birlikte, bir sınıf özniteliğine yapılan tek bir atama ifadesi, sı
 
 Öznitelik isimleri. Eşleme sistemimize, adların belirli öznitelikleri nasıl çözümlendiğini belirtmek için yeterli karmaşıklığı sunduk. Sonuçta, aynı ada sahip bir sınıf özniteliğine ve bir özdeş niteliğe kolayca sahip olabiliriz.
 
+Gördüğümüz gibi, bir nokta ifadeleri; bir ifadeden, bir noktadan ve bir isimden oluşur:
+
+**<expression> . <name>**
+
+
+
+
+
+
 
 
 
