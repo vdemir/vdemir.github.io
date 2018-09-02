@@ -451,7 +451,7 @@ Sınıf ve statik yordamlar, sınıftan, **Class.method()** olarak veya **Class(
 
 
 <div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="25" cols="35 spellcheck="false">
+        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="25" cols="29" spellcheck="false">
 class Class:
     @classmethod
     def a_class_method(cls):
