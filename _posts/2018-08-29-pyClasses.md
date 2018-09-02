@@ -410,6 +410,25 @@ getattr(Class, 'question')
 Aşırı **hasattr** ve **getattr** kullanmayın. Sınıfınızı, bir özelliğin var olup olmadığını kontrol etmeye devam etmeniz gereken bir şekilde yazmışsanız, yanlış yazmışsınız demektir. Sadece her zaman var olan değere sahip olur ve kullanılmıyorsa **None** (ya da her neyse) olarak ayarlayın. Bu işlevler en iyi şekilde polimorfizmi ele almak için kullanılır, Yani, fonksiyonunuzu / sınıfınızı / farklı nesneleri desteklemenizi sağlar.
 
 
+
+<br>
+<a class="w3-btn w3-margin-bottom" style="text-decoration: none; color:#388E3C; cursor:pointer">Oluşturulduktan Sonra Sınıfların Değiştirilmesi
+</a>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!------------------------------------------>
 
 <br><br>
