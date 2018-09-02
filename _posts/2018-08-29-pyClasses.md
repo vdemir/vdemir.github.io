@@ -370,7 +370,7 @@ Dahili olarak, bu ifadeler tamamen aynıdır.
 <a class="w3-btn w3-margin-bottom" href="https://www.siafoo.net/article/52"  style="text-decoration: none; color:#388E3C; cursor:pointer">Özellik ve Yordam Varlığını Kontrol Etme </a>
 
 
-Belirli bir sınıfın veya örneğin belirli bir özellik veya yöntemin olup olmadığını bilmek mi gerekiyor? Yerleşik 'hasattr' işlevini kontrol etmek için kullanabilirsiniz; kontrol etmek için nesneyi ve özniteliği (dizge olarak) kabul eder. Dict 'has_key' yöntemine benzer şekilde kullanıyorsunuz (tamamen farklı olsa da):
+Belirli bir sınıfın veya özdeşin, belirli bir özellik veya yordama sahip olup olmadığını bilmek mi gerekiyor? Yerleşik 'hasattr' işlevini kontrol etmek için kullanabilirsiniz; kontrol etmek için nesneyi ve özniteliği (dizge olarak) kabul eder. Dict 'has_key' yöntemine benzer şekilde kullanıyorsunuz (tamamen farklı olsa da):
 
 <!------------------------------------------>
 
