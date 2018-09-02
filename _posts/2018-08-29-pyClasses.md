@@ -286,9 +286,13 @@ Bir nesnenin öznitelikleri ve yordamları, öbek adından sonra bir nokta (.) y
 
 Sonunda, bir nesnenin değeri bir örnekle daha iyi görselleştirilir.
 
+**obj.name = "Andre"**
+
 'Andre' dizesi, obj öbeğinin name özniteliğine atanan değerdir.
 
 
+
+<br><br>
 <h4>Sınıflar </h4><hr>
 
 
