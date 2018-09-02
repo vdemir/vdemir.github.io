@@ -482,7 +482,9 @@ instance.an_instance_method()
 # <__main__.Class instance at 0x2e80d0>'
 </textarea></div>
 
-
+<br>
+<a class="w3-btn w3-margin-bottom" style="text-decoration: none; color:#388E3C; cursor:pointer">Sonuç</a>
+<hr>
 
 
 
