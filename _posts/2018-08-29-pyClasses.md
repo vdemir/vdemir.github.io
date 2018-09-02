@@ -250,7 +250,7 @@ Her sınıfın, tüm görevlerin ve fonksiyon tanımlarının meydana geldiği k
 
 <h4>Sınıf Özdeşleri</h4><hr>
 
-Bir sınıfın özdeşi, bir python öbeğidir ve her Python öbeğine benzer şekilde, şu özelliklere sahiptir: kimlik, öbek/nesne tipi, öznitelikler, yordamlar ve değeri.(identity, object type, attributes, methods, and value)
+Bir sınıfın özdeşi, bir Python öbeğidir ve her Python öbeğine benzer şekilde, şu özelliklere sahiptir: kimlik, öbek/nesne tipi, öznitelikler, yordamlar ve değeri.(identity, object type, attributes, methods, and value)
 
 Bir sonraki açıklama için aşağıdaki sınıf tanımını kullanacağım. Öncelikle, **c** sınıfı ilan edelim, ve sonra **obj** olarak adlandırılan bu sınıfın bir özdeşini oluşturacağız.
 
@@ -267,7 +267,7 @@ type(obj.name)
 </textarea></div>
 <br>
 <div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="3" cols="29" spellcheck="false">
+        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="4" cols="29" spellcheck="false">
 Out[1]: 140040300870176
 Out[2]: __main__.c
 Out[3]: str
