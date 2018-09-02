@@ -558,7 +558,7 @@ Sınıf öznitelikleri, tüm özdeşlerle paylaşılacakları sınıfa aittir. B
 
 <br>
 <div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="15" cols="29" spellcheck="false">
+        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="19" cols="29" spellcheck="false">
 # Write Python code here
 class sampleclass:
     count = 0     # class attribute
