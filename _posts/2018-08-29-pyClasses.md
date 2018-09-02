@@ -315,13 +315,26 @@ obj.name = "Andre"</div>
  </div>
 
 <h5>Kendiliğinden Geçme Yordamlar</h5><hr>
-Yordamlar, bir özdeşden çağrıldığında, ilk ifadesi olarak (genellikle 'self') bu özdeşi geçiren normal fonksiyonlardır. Herhangi bir nedenle fonksiyonu bir özdeşden çağırmıyorsanız, özdeşi her zaman ilk ifade olarak el ile geçirebilirsiniz. Örneğin:
+Yordamlar, bir özdeşden çağrıldığında, ilk ifadesi/ilk bağımsız değişken olarak (genellikle 'self') bu özdeşi geçiren normal fonksiyonlardır. Herhangi bir nedenle fonksiyonu bir özdeşden çağırmıyorsanız, özdeşi her zaman ilk ifade/ilk bağımsız değişken olarak el ile geçirebilirsiniz. Örneğin:
 
- <div class='code'>
-                            <a class='toggle_linenos' href='#'>
-                                #&#8202;'s
-                            </a>
-                            <div class="highlight"><pre><span class="lineno"> 1</span><span class="k">class</span> <span class="nc">Class</span><span class="p">:</span><br /><span class="lineno"> 2</span>    <span class="k">def</span> <span class="nf">a_method</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span><br /><span class="lineno"> 3</span>        <span class="k">print</span> <span class="s">&#39;Hey a method&#39;</span><br /><span class="lineno"> 4</span><br /><span class="lineno"> 5</span><span class="n">instance</span> <span class="o">=</span> <span class="n">Class</span><span class="p">()</span><br /><span class="lineno"> 6</span><br /><span class="lineno"> 7</span><span class="n">instance</span><span class="o">.</span><span class="n">a_method</span><span class="p">()</span><br /><span class="lineno"> 8</span><span class="c"># prints &#39;Hey a method&#39;, somewhat unsuprisingly.  You can also do:</span><br /><span class="lineno"> 9</span><br /><span class="lineno">10</span><span class="n">Class</span><span class="o">.</span><span class="n">a_method</span><span class="p">(</span><span class="n">instance</span><span class="p">)</span><br /><span class="lineno">11</span><span class="c"># prints &#39;Hey a method&#39;</span><br /></pre></div>
+ 
+<div id="container">
+        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="9" cols="29" spellcheck="false">
+class Class:
+    def a_method(self):
+        print 'Hey a method'
+
+instance = Class()
+
+instance.a_method()
+# prints 'Hey a method', 
+# somewhat unsuprisingly.  You can also do:
+
+Class.a_method(instance)
+# prints 'Hey a method'
+</textarea></div>
+
+
 
 
 
