@@ -371,11 +371,11 @@ Class.a_method(instance)
 Dahili olarak, bu ifadeler tamamen aynıdır.
 
 <br>
-<a class="w3-btn w3-margin-bottom" style="text-decoration: none; color:#388E3C; cursor:pointer">Özellik ve Yordam Varlığını Kontrol Etme </a>
+<a class="w3-btn w3-margin-bottom" style="text-decoration: none; color:#388E3C; cursor:pointer">Öznitelik ve Yordam Varlığını Kontrol Etme </a>
 <hr>
 
 
-Belirli bir sınıfın veya özdeşin, belirli bir özellik veya yordama sahip olup olmadığını bilmek gerekir mi? Yerleşik **'hasattr'** işlevini kontrol etmek için kullanabilirsiniz; kontrol etmek için nesneyi ve özniteliği (dizge olarak) kabul eder. Dict 'has_key' yöntemine benzer şekilde kullanıyorsunuz (tamamen farklı olsa da):
+Belirli bir sınıfın veya özdeşin, belirli bir öznitelik veya yordama sahip olup olmadığını bilmek gerekir mi? Yerleşik **'hasattr'** işlevini kontrol etmek için kullanabilirsiniz; kontrol etmek için nesneyi ve özniteliği (dizge olarak) kabul eder. Dict 'has_key' yöntemine benzer şekilde kullanıyorsunuz (tamamen farklı olsa da):
 
 <div id="container">
         <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="9" cols="29" spellcheck="false">
@@ -388,7 +388,7 @@ hasattr(Class, 'question')
 # returns False
 </textarea></div>
 
-Ayrıca, yerleşik işlev 'getattr' kullanarak  özelliğin varlığını kontrol edebilir ve tek adımda erişebilirsiniz.
+Ayrıca, yerleşik işlev 'getattr' kullanarak  özniteliğin varlığını kontrol edebilir ve tek adımda erişebilirsiniz.
 
 **getattr** ayrıca, öbek ve özniteliği kontrol etmek için bir string dize olarak kabul eder. Eğer öznitelik bulunamazsa, varsayılanı veren isteğe bağlı üçüncü ifadeye sahiptir. Daha fazla aşina olabileceğiniz **dict**'ın **'get'** yordamından farklı olarak, varsayılan değer verilmediyse ve öznitelik bulunamadıysa, bir **AttributeError** oluşturulur:
 
@@ -407,7 +407,7 @@ getattr(Class, 'question')
 </textarea></div>
 
 
-Aşırı **hasattr** ve **getattr** kullanmayın. Sınıfınızı, bir özelliğin var olup olmadığını kontrol etmeye devam etmeniz gereken bir şekilde yazmışsanız, yanlış yazmışsınız demektir. Sadece her zaman var olan değere sahip olur ve kullanılmıyorsa **None** (ya da her neyse) olarak ayarlayın. Bu işlevler en iyi şekilde polimorfizmi ele almak için kullanılır, Yani, fonksiyonunuzu / sınıfınızı / farklı nesneleri desteklemenizi sağlar.
+Aşırı **hasattr** ve **getattr** kullanmayın. Sınıfınızı, bir özniteliğin var olup olmadığını kontrol etmeye devam etmeniz gereken bir şekilde yazmışsanız, yanlış yazmışsınız demektir. Sadece her zaman var olan değere sahip olur ve kullanılmıyorsa **None** (ya da her neyse) olarak ayarlayın. Bu işlevler en iyi şekilde polimorfizmi ele almak için kullanılır, Yani, fonksiyonunuzu / sınıfınızı / farklı nesneleri desteklemenizi sağlar.
 
 
 
@@ -416,7 +416,7 @@ Aşırı **hasattr** ve **getattr** kullanmayın. Sınıfınızı, bir özelliğ
 </a>
 <hr>
 
-Sınıf oluşturulduktan çok sonra ve sonradan eşleştirildikten sonra bile bir sınıf özelliğini veya yordamını ekleyebilir, değiştirebilir veya silebilirsiniz. Sadece mülke veya yönteme Class.attribute olarak erişin. Ne zaman oluşturuldukları önemli değil, sınıfın özdeşleri bu değişikliklere saygı duyacaktır:
+Sınıf oluşturulduktan çok sonra ve sonradan eşleştirildikten sonra bile bir sınıf özniteliğini veya yordamını ekleyebilir, değiştirebilir veya silebilirsiniz. Sadece özniteliğe veya yordama **Class.attribute** olarak erişin. Ne zaman oluşturuldukları önemli değil, sınıfın özdeşleri bu değişikliklere saygı duyacaktır:
 
 <div id="container">
         <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="15" cols="29" spellcheck="false">
