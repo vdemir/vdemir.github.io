@@ -102,12 +102,36 @@ person1.showAge()
 person2.showName() 
 </textarea></div>
 
+
+<!------------------------------------->
+
 <br><br>
 
 <h3 id="C1">Bir Python Sınıfı Oluşturma</h3><hr>
 **x** adlı bir özdeğere sahip **MyClass** adlı bir sınıf/öbek oluşturun:
 <div class="w3-code notranslate pythonHigh">
   class MyClass:<br> &nbsp; 'Python Temel Sınıf'<br> &nbsp; x = 5<br>print(MyClass)</div>
+
+
+<div class="teaser clearfix"></div>
+<div id="container">
+        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="16" cols="33" spellcheck="false">
+class Class:
+    def a_method(self):
+        print 'Hey a method'
+
+instance = Class()
+
+instance.a_method()
+# prints 'Hey a method', 
+# somewhat unsuprisingly.  
+# You can also do:
+
+Class.a_method(instance)
+# prints 'Hey a method'
+</textarea></div>
+
+<!----------------------------------------->
 
 <br><br>
 
