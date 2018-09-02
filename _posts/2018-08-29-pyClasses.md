@@ -378,10 +378,8 @@ ozdes.bir_yordam()
 # Ayrıca şunları da yapabilirsiniz:
 
 Sinif.bir_yordam(ozdes)
-# 'Hey bir yordam' yazdırır <br> float: left;</code>
-</section>
-
-<section>
+# 'Hey bir yordam' yazdırır</code>
+</section><section>
   <code>class Sinif:
     def bir_yordam(self):
         print ('Hey bir yordam')
@@ -394,7 +392,9 @@ ozdes.bir_yordam()
 # Ayrıca şunları da yapabilirsiniz:
 
 Sinif.bir_yordam(ozdes)
-# 'Hey bir yordam' yazdırır <br> float: left;</code>
+# 'Hey bir yordam' yazdırır</code>
+</section><section>
+  <code>&#60;section&#62; <br> display: <br> inline-block;</code>
 </section>
 
 <style>
