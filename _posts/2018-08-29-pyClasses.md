@@ -396,6 +396,8 @@ class Class:
 
 getattr(Class, 'answer')
 # returns 42
+getattr(Class, 'question', 'What?')
+# returns 'What is six times nine?'
 getattr(Class, 'question')
 # raises AttributeError
 </code></pre>
