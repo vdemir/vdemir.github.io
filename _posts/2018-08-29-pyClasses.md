@@ -990,8 +990,7 @@ Hello, my name is Swaroop
 </main> 
 <br>
 <h5>Nasıl çalışır</h5><hr>
-Burada, bir parametre adı alarak __init__ metodunu tanımlarız (her zamanki gibi self).
-
+Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) olarak tanımlarız. Burada sadece name olarak da adlandırılan yeni bir alan yaratıyoruz. İkisi de 'name' olarak adlandırılsalar bile, bunlar iki farklı değişkenlerdir. Noktalı notasyon **self.name**, **'self'** olarak adlandırılan öbeğin bir parçası olan **'name'** adında bir şey olduğu anlamına gelir ve diğer **name** yerel bir değişkendir.
 
 
 
