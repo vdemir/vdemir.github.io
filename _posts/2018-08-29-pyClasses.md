@@ -524,7 +524,7 @@ Class.an_instance_method()
     <div class="text">
       <p>
 
-Out [1]:  <br> <br>
+Out [1]:  <br>
 I was called from class <class '__main__.Class'> <br>
 I was called from class <class '__main__.Class'> <br> <br>
 I have no idea where I was called from <br>
