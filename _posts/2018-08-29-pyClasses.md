@@ -965,11 +965,11 @@ Python sınıflarında özel bir önemi olan birçok yöntem ismi vardır. **ini
       <p>
 <pre><code>
 class Person:
-    def __init__(self, name):
-        self.name = name
+   def __init__(self, name):
+      self.name = name
 
-    def say_hi(self):
-        print('Hello, my name is', self.name)
+   def say_hi(self):
+      print('Hello, my name is', self.name)
 
 p = Person('Swaroop')
 p.say_hi()
