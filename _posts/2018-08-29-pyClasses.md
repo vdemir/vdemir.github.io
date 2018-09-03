@@ -504,13 +504,12 @@ Class.a_static_method()
 instance.a_static_method()
 # both print 'I have no idea where I was called from'
 
-Class.an_instance_method()
-
-# raises TypeError
 instance.an_instance_method()
 # prints something like 'I was called from the instance 
 # <__main__.Class instance at 0x2e80d0>'
 
+Class.an_instance_method()
+# raises TypeError
 </code></pre>
 </p>
     </div>
@@ -523,7 +522,8 @@ Out [1]: <br>
 I was called from class <class '__main__.Class'> <br>
 I was called from class <class '__main__.Class'> <br>
 I have no idea where I was called from <br>
-I have no idea where I was called from 
+I have no idea where I was called from <br> 
+I was called from the instance <__main__.Class object at 0x7f6854953748>
 </p>
     </div>
   </article>
