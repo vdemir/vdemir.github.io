@@ -961,7 +961,7 @@ Robots can do some work here.<br>
 Robots have finished their work.<br>
 So let's destroy them.<br>
 R2-D2
-is being destroyed!
+is being destroyed!<br>
  1
 There are still
 robots working.<br>
