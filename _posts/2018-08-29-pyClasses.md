@@ -322,27 +322,6 @@ Out[3]: str
 </main>
 
 
-<div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="9" cols="29" spellcheck="false">
-class c:
-    def __init__(self, value=None):
-        self.name = value
-obj = c()
-obj.name = "Andre"
-id(obj)
-type(obj)
-type(obj.name) 
-</textarea></div>
-
-<div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="4" cols="29" spellcheck="false">
-Out[1]: 140040300870176
-Out[2]: __main__.c
-Out[3]: str
-</textarea></div>
-
-
-
 Kimlik[identity], öbek için ayrılan bellek konumudur. **id()** fonksiyonu kullanılarak tanımlanabilir.
 
 <div class="w3-code notranslate pythonHigh">
