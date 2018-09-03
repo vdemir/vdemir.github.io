@@ -263,7 +263,7 @@ NameError: name 'p1' is not defined
 
 <div class="teaser clearfix"></div>
 <h3 id="C4">Öbeğin Özniteliklerine Erişim</h3><hr>
-Nokta (.) operatörünü nesne ile kullanarak erişebilirsiniz. Sınıf adı kullanarak da sınıf özdeğerlerine erişilebilir:
+Nokta (.) operatörünü öbek ismi ile kullanarak erişebilirsiniz. Sınıf adı kullanarak da sınıf özdeğerlerine erişilebilir:
 <div class="w3-code notranslate pythonHigh">
   print(p1.x)<br>print(MyClass.x)</div>
 
