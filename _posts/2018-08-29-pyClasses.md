@@ -35,7 +35,6 @@ img.resize {
       <li><a href="#C13" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesne Özniteliklerini Değiştirmek</a></li>
       <li><a href="#C14" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesne Özniteliklerini Silmek</a></li>
       <li><a href="#C15" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesneleri Silmek</a></li>
-      <li><a href="#C4" style="text-decoration: none; color:#388E3C; cursor:pointer">Öbeğin Özniteliklerine Erişim</a></li>
       <li><a href="#C5" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Öbekleri</a></li>
       <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş Öbekler</a></li>
       <li><a href="#C7" style="text-decoration: none; color:#388E3C; cursor:pointer">Yordam Öbekleri</a></li>
@@ -262,25 +261,6 @@ NameError: name 'p1' is not defined
 <br><br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C4">Öbeğin Özniteliklerine Erişim</h3><hr>
-Nokta (.) operatörünü öbek ismi ile kullanarak erişebilirsiniz. Sınıf adı kullanarak da sınıf özdeğerlerine erişilebilir:
-<div class="w3-code notranslate pythonHigh">
-  print(p1.x)<br>print(MyClass.x)</div>
-
-<div class="w3-panel w3-card w3-light-grey">
-  <h4>Özniteliklerin tanımı</h4>
-  <div class="w3-container w3-white">
-    <p>
-    <ul class="w3-ul w3-card-4" style="width:85%">
-      <li>z.real ifadesinde, real, z nesnesinin bir özdeğeridir. Kesin olarak, modüllerdeki isimlere yapılan atıflar öznitelik atıflarıdır: modname.funcname ifadesinde modname bir modül nesnesidir ve funcname bunun bir özniteliğidir. Bu durumda, modülün öznitelikleri ile modülde tanımlanan genel isimler arasında doğrudan bir eşleme olur: aynı isim uzayını paylaşırlar!</li>
-    </ul>
-    </p>
-  </div>
-</div>
-
-<br><br>
-
-<div class="teaser clearfix"></div>
 <h3 id="C5">Sınıf Öbekleri </h3><hr>
 Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnekleme. 
 
@@ -392,8 +372,26 @@ Diğer eşleşen öznitelik atıf türü bir yordamdır. Bir yordam, bir öbeğe
 
 Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım olarak, bir sınıfın tüm öznitelikleri, eşleşen yordamlarına karşılık tanımlanan fonksiyon öbekleridir. Yani bizim örneğimizde, **x.f** geçerli bir yordam atfıdır, çünkü **MyClass.f** bir fonksiyondur, fakat **x.i** fonksiyon değildir çünkü **MyClass.i** da değildir. Ama **x.f**, **MyClass.f** ile aynı şey değildir - **x.f**, bir fonksiyon nesnesi/öbeği değil, bir yordam öbeğidir.
 
+<br> 
 
-<br><br> 
+<div class="teaser clearfix"></div>
+<h4">Özdeş Öbeğin Özniteliklerine Erişim</h4><hr>
+Nokta (.) operatörünü öbek ismi ile kullanarak erişebilirsiniz. Sınıf adı kullanarak da sınıf özdeğerlerine erişilebilir:
+<div class="w3-code notranslate pythonHigh">
+  print(p1.x)<br>print(MyClass.x)</div>
+
+<div class="w3-panel w3-card w3-light-grey">
+  <h4>Özniteliklerin tanımı</h4>
+  <div class="w3-container w3-white">
+    <p>
+    <ul class="w3-ul w3-card-4" style="width:85%">
+      <li>z.real ifadesinde, real, z nesnesinin bir özdeğeridir. Kesin olarak, modüllerdeki isimlere yapılan atıflar öznitelik atıflarıdır: modname.funcname ifadesinde modname bir modül nesnesidir ve funcname bunun bir özniteliğidir. Bu durumda, modülün öznitelikleri ile modülde tanımlanan genel isimler arasında doğrudan bir eşleme olur: aynı isim uzayını paylaşırlar!</li>
+    </ul>
+    </p>
+  </div>
+</div>
+
+<br><br>
 
 <div class="teaser clearfix"></div>
 <h3 id="C7"><a class="w3-btn w3-margin-bottom">Yordam Öbekleri</a></h3><hr>
