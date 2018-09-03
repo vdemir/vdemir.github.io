@@ -493,7 +493,7 @@ Bu öznitelik yine de sınıfın herhangi bir özdeşinden erişilebilir.
   <article>
     <div class="text">
       <p><code>
-<pre class="python" style="font-family:monospace;">
+<pre class="python">
 class Account(object):
      interest = 0.02 # A class attribute
      def __init__(self, account_holder):
