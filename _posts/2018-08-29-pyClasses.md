@@ -438,9 +438,9 @@ getattr(Class, 'question')
     <div class="text">
       <p>
 
-Out [1]: <br> <br>
-42 <br> <br>
-'What?' <br> <br>
+
+Out[1]: 42 <br>
+Out[2]: 'What?' <br> <br>
 AttributeError: type object <br>
 'Class' has no attribute 'question'
 </p>
