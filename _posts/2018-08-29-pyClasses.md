@@ -25,13 +25,19 @@ lang: tr
       <li><a href="#C1" style="text-decoration: none; color:#388E3C; cursor:pointer">Bir Python Sınıfı Oluşturma</a></li>
       <li><a href="#C2" style="text-decoration: none; color:#388E3C; cursor:pointer">Bir Python Nesnesi Oluşturma</a></li>
       <li><a href="#C3" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Eşleme ile Nesne Oluşturma</a></li>
-      <li><a href="#C4" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesnenin Özniteliklerine Erişim</a></li>
+      <li><a href="#C3" style="text-decoration: none; color:#388E3C; cursor:pointer">Öbeğin Özniteliklerine Erişim</a></li>
       <li><a href="#C5" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Öbekleri</a></li>
       <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş Öbekler</a></li>
       <li><a href="#C7" style="text-decoration: none; color:#388E3C; cursor:pointer">Yordam Öbekleri</a></li>
       <li><a href="#C17" style="text-decoration: none; color:#388E3C; cursor:pointer">Python OOP'a Giriş</a></li>
       <li><a href="#C18" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıflar</a></li>
-      <li><a href="#C8" style="text-decoration: none; color:#388E3C; cursor:pointer">__new__() yordamı</a></li>
+      <li><a href="#C8" style="text-decoration: none; color:#388E3C; cursor:pointer">new yordamı</a></li>
+      <li><a href="#C8" style="text-decoration: none; color:#388E3C; cursor:pointer">init yordamı</a></li>
+      <li><a href="#C8" style="text-decoration: none; color:#388E3C; cursor:pointer">self yordamı</a></li>
+      <li><a href="#C8" style="text-decoration: none; color:#388E3C; cursor:pointer">super fonksiyonu</a></li>
+      <li><a href="#C8" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesne Özniteliklerini Değiştirmek</a></li>
+      <li><a href="#C8" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesne Özniteliklerini Silmek</a></li>
+      <li><a href="#C8" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesneleri Silmek</a></li>
       <li><a href="#C9" style="text-decoration: none; color:#388E3C; cursor:pointer">Python 3 Shell</a></li>
       <li><a href="#C10" style="text-decoration: none; color:#388E3C; cursor:pointer">Sözlük Dizini</a></li>
     </ul>
