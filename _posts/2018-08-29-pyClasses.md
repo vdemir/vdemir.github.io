@@ -741,8 +741,8 @@ jim_account.interest = 0.08
 ve bu öznitelik değeri bir nokta ifadesinden döndürülecek
 
 <div class="w3-code notranslate pythonHigh">
-jim_account.interest</div>
-0.08
+jim_account.interest<br>
+0.08</div>
 
 Bununla birlikte, sınıf özniteliği, diğer tüm hesaplar için döndürülen orijinal değerini hala korur.
 
