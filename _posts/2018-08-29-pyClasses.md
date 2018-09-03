@@ -1037,9 +1037,20 @@ print(p1.age)
 </main>
 
 
+<br>
+<div class="teaser clearfix"></div>
+<h3> Nesne Özniteliklerini Sil </h3><hr>
+Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz:
+<p>age özniteliğini p1 nesnesinden silin:</p>
+<div class="w3-code notranslate pythonHigh">
+ del p1.age</div>
 
-<div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="14" cols="35" spellcheck="false">
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
 class Person:
   def __init__(self, name, age):
     self.name = name
@@ -1050,19 +1061,23 @@ class Person:
 
 p1 = Person("John", 36)
 
-p1.age = 40
+del p1.age
+
 print(p1.age)
-</textarea>
-</div>
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+AttributeError: 'Person' object has no attribute 'age'
+</p>
+    </div>
+  </article>
+</main>
 
 
-<br>
-<div class="teaser clearfix"></div>
-<h3> Nesne Özniteliklerini Sil </h3><hr>
-Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz:
-<p>age özniteliğini p1 nesnesinden silin:</p>
-<div class="w3-code notranslate pythonHigh">
- del p1.age</div>
 
 <div id="container">
         <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="14" cols="35" spellcheck="false">
