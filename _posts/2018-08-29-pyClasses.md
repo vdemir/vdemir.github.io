@@ -943,32 +943,32 @@ Robot.how_many()
     <div class="text">
       <p>(R2-D2)
 Initializing
-R2-D2
+R2-D2<br>
 Greetings,
-my masters call me.
+my masters call me.<br>
 1
 We have robots.
 (C-3PO)
 Initializing
-C-3PO
+C-3PO<br>
 Greetings,
 my masters call me.
 2
-We have robots.
+We have robots.<br>
 
-Robots can do some work here.
+Robots can do some work here.<br>
 
-Robots have finished their work.
+Robots have finished their work.<br>
 So let's destroy them.
 R2-D2
 is being destroyed!
  1
 There are still
-robots working.
+robots working.<br>
 C-3PO
 is being destroyed!
 C-3PO
-was the last one.
+was the last one.<br>
 0
 We have robots.
 </p>
