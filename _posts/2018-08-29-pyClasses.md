@@ -492,8 +492,8 @@ Bu öznitelik yine de sınıfın herhangi bir özdeşinden erişilebilir.
 <main class="grid">
   <article>
     <div class="text">
-      <p>
-<pre><code>
+      <p><code>
+<pre class="python" style="font-family:monospace;">
 class Account(object):
      interest = 0.02 # A class attribute
      def __init__(self, account_holder):
@@ -508,7 +508,7 @@ tom_account.interest
 Account.interest = 0.04
 tom_account.interest
 jim_account.interest
-</code></pre>
+</pre></code>
 </p>
     </div>
   </article>
