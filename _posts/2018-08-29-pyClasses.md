@@ -815,7 +815,7 @@ Out [1]: <br>
 <br><br>
 
 <div class="teaser clearfix"></div>
-<h3><code class="w3-codespan">new</code> yordamı </h3><hr>
+<h3  id="C10"><code class="w3-codespan">new</code> yordamı </h3><hr>
  <code class="w3-codespan">new</code> örnekleme ile oluşturan ve döndüren python özel yordamıdır.
 
 <main class="grid">
