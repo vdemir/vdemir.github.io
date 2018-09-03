@@ -641,7 +641,7 @@ Out [1]: <br>
 
 <br><br>
 <h4><code class="w3-codespan">new</code> yordamı </h4><hr>
- <code class="w3-codespan">__new__()</code> örnekleme ile oluşturan ve döndüren python özel yordamıdır.
+ <code class="w3-codespan">new</code> örnekleme ile oluşturan ve döndüren python özel yordamıdır.
 
 <div class="w3-code notranslate pythonHigh">
   class Sample(object):<br>&nbsp; def __new__(cls, *args, **kargs):<br>&nbsp;&nbsp;&nbsp; 
@@ -649,6 +649,38 @@ Out [1]: <br>
   print ("Initiating instance of Sample")<br>s=Sample()</div><br>
 <div class="teaser clearfix"></div>
 <div class="w3-note">
+
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Sample(object):
+  def __new__(cls, *args, **kargs):
+    print ("Creating instance of Sample")
+    return super(Sample, cls).__new__(cls)
+
+  def __init__(self):
+    print ("Initiating instance of Sample")
+s=Sample()
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+
+Out [1]: <br>
+Creating instance of Sample <br>
+Initiating instance of Sample
+</p>
+    </div>
+  </article>
+</main> 
+
+<br>
 
 <div class="w3-code notranslate pythonHigh">
 <strong>Not:</strong> Örneklem ile oluşturulduktan sonra <code class="w3-codespan">init</code> yordamı çağrılır. Gerçek oluşturma işlemini kontrol etmek istiyorsanız, <code class="w3-codespan">new</code> yordamını kullanın.</div>
