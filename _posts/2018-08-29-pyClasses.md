@@ -705,11 +705,11 @@ str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturm
 <h3><code class="w3-codespan">init</code> yordamı</h3><hr>
 Yukarıdaki örnekler, en basit biçimde sınıflar ve nesnelerdir ve gerçek yaşam uygulamalarında gerçekten yararlı değildir. 
 
-Sınıfların manâsını anlamak için, yerleşik <code class="w3-codespan">__init__()</code> yordamını anlamamız gerekir. 
+Sınıfların manâsını anlamak için, yerleşik <code class="w3-codespan">init</code> yordamını anlamamız gerekir. 
 
-Tüm sınıflar, sınıf başlatıldığında her zaman çalıştırılan <code class="w3-codespan">__init__()</code> adında bir yordama sahiptir. 
+Tüm sınıflar, sınıf başlatıldığında her zaman çalıştırılan <code class="w3-codespan">init</code> adında bir yordama sahiptir. 
 
-Nesne özniteliklerine veya nesne oluşturulduğunda yapılması gereken diğer işlemlere değer atamak için <code class="w3-codespan">__init__()</code> yordamını kullanın:
+Nesne özniteliklerine veya nesne oluşturulduğunda yapılması gereken diğer işlemlere değer atamak için <code class="w3-codespan">init</code> yordamını kullanın:
 
  
 <div class="teaser clearfix"></div>
