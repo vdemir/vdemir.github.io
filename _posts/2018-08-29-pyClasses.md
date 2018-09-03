@@ -291,6 +291,37 @@ Bir sınıfın özdeşi, bir Python öbeğidir ve her Python öbeğine benzer ş
 
 Bir sonraki açıklama için aşağıdaki sınıf tanımını kullanacağım. Öncelikle, **c** sınıfı ilan edelim, ve sonra **obj** olarak adlandırılan bu sınıfın bir özdeşini oluşturacağız.
 
+ 
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class c:
+    def __init__(self, value=None):
+        self.name = value
+obj = c()
+obj.name = "Andre"
+id(obj)
+type(obj)
+type(obj.name)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+
+Out[1]: 140040300870176 <br>
+Out[2]: __main__.c <br>
+Out[3]: str
+</p>
+    </div>
+  </article>
+</main>
+
+
 <div id="container">
         <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="9" cols="29" spellcheck="false">
 class c:
