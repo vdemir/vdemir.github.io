@@ -875,7 +875,7 @@ Object variables are owned by each individual object/instance of the class. In t
 class Robot:
 "Represents a robot, with a name."
 
- # A class variable, counting the number of robots
+ # A class variable, number of robots
  population = 0
 
  def __init__(self, name):
