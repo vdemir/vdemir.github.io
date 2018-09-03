@@ -947,7 +947,7 @@ R2-D2<br>
 Greetings,
 my masters call me.<br>
 1
-We have robots.
+We have robots.<br>
 (C-3PO)
 Initializing
 C-3PO<br>
@@ -959,7 +959,7 @@ We have robots.<br>
 Robots can do some work here.<br>
 
 Robots have finished their work.<br>
-So let's destroy them.
+So let's destroy them.<br>
 R2-D2
 is being destroyed!
  1
