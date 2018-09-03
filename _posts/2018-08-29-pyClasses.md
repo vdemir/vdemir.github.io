@@ -908,7 +908,7 @@ str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturm
 <br>
 
 <div class="teaser clearfix"></div>
-<h3><code class="w3-codespan">init</code> yordamı</h3><hr>
+<h3  id="C11"><code class="w3-codespan">init</code> yordamı</h3><hr>
 Yukarıdaki örnekler, en basit biçimde sınıflar ve nesnelerdir ve gerçek yaşam uygulamalarında gerçekten yararlı değildir. 
 
 Sınıfların manâsını anlamak için, yerleşik <code class="w3-codespan">init</code> yordamını anlamamız gerekir. 
@@ -1052,7 +1052,7 @@ Bu aynı zamanda, hiçbir argüman almayan bir yordamınız varsa, o zaman hala 
  
 <br>
 <div class="teaser clearfix"></div>
-<h3>super fonksiyonu</h3><hr>
+<h3 id="C12">super fonksiyonu</h3><hr>
 **super([type[, object-or-type]])**
 
 Bir ebeveyn veya kardeş sınıfına yordam çağrıları veren bir temsili öbeği döndürür. Bu, bir sınıfta geçersiz kılınan devralınan yordamlara erişmek için kullanışlıdır. Arama sırası, **type**'ın kendisinin atlanması dışında **getattr()** tarafından kullanılanla aynıdır.
@@ -1104,7 +1104,7 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
 
 <br>
 <div class="teaser clearfix"></div>
-<h3>Nesne Özniteliklerini Değiştirmek</h3><hr>
+<h3 id="C13">Nesne Özniteliklerini Değiştirmek</h3><hr>
 Bu gibi nesnelerdeki öznitelikleri değiştirebilirsiniz:
 <p>p1'in yaşını 40'a ayarlayın:</p>
 <div class="w3-code notranslate pythonHigh">
@@ -1143,7 +1143,7 @@ print(p1.age)
 
 <br>
 <div class="teaser clearfix"></div>
-<h3> Nesne Özniteliklerini Silmek</h3><hr>
+<h3 id="C15"> Nesne Özniteliklerini Silmek</h3><hr>
 Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz:
 <p>age özniteliğini p1 nesnesinden silin:</p>
 <div class="w3-code notranslate pythonHigh">
@@ -1182,7 +1182,7 @@ AttributeError: 'Person' object has no attribute 'age'
 
 <br>
 <div class="teaser clearfix"></div>
-<h3> Nesneleri Silmek</h3><hr>
+<h3 id="C16"> Nesneleri Silmek</h3><hr>
 Nesneleri <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz: 
 <p>p1 nesnesini silin:</p>
 
@@ -1237,7 +1237,7 @@ NameError: name 'p1' is not defined
 <br><br>
 <div class="teaser clearfix"></div>
 <script src="{{ sitebase.url }}/scripts/dcl-react.js.gz"></script>
-<a id="C9" class="w3-btn w3-margin-bottom">Just python 3 'Run'.</a>
+<a id="C17" class="w3-btn w3-margin-bottom">Just python 3 'Run'.</a>
 <div data-datacamp-exercise data-lang="python" data-height="auto">
       <code data-type="pre-exercise-code"></code>
       <code data-type="sample-code">
@@ -1253,7 +1253,7 @@ NameError: name 'p1' is not defined
 
 <div class="teaser clearfix"></div>
 <div class="w3-panel w3-card w3-light-grey">
-  <h3 id="C10">Sözlük Dizini</h3>
+  <h3 id="C18">Sözlük Dizini</h3>
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
