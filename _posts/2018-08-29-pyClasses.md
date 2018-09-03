@@ -483,16 +483,16 @@ instance.an_instance_method()
       <p>
 <pre><code>
 class Class:
-  @classmethod
-  def a_class_method(cls):
-    print ('I was called from class %s' % cls)
-  #
-  @staticmethod
-  def a_static_method():
-    print ('I have no idea where I was called from')
-  #
-  def an_instance_method(self):
-    print ('I was called from the instance %s' % self)
+ @classmethod
+ def a_class_method(cls):
+  print ('I was called from class %s' % cls)
+ #
+ @staticmethod
+ def a_static_method():
+  print ('I have no idea where I was called from')
+ #
+ def an_instance_method(self):
+  print ('I was called from the instance %s' % self)
 
 instance = Class()
 
