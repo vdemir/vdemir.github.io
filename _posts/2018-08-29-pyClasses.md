@@ -1062,6 +1062,7 @@ Bu aynı zamanda, hiçbir argüman almayan bir yordamınız varsa, o zaman hala 
 
 Bir ebeveyn veya kardeş sınıfına yordam çağrıları veren bir temsili öbeği döndürür. Bu, bir sınıfta geçersiz kılınan devralınan yordamlara erişmek için kullanışlıdır. Arama sırası, **type**'ın kendisinin atlanması dışında **getattr()** tarafından kullanılanla aynıdır.
 
+super için iki tipik kullanım durumu vardır. Tek bir kalıtımı olan bir sınıf hiyerarşisinde, super, açık bir şekilde adlandırmadan üst sınıflara başvurmak için kullanılabilir, bu nedenle kodu daha sürdürülebilir hale getirmektedir. Bu kullanım diğer programlama dillerinde süper kullanımı ile paralellik gösterir.
 
 **super()**, Bir sınıfta geçersiz kılınan kalıtsal yordamlara erişmek için kullanılabilecek yerleşik bir fonksiyondur. **super()** sadece yeni stil sınıfları için çalışır; Tek bir kalıtımla bir sınıf hiyerarşisinde, **super()**, üst sınıflara açıkça ad vermeden başvurmak için kullanılabilir, böylece kodu daha fazla kullanılabilir hale getirir.
 
