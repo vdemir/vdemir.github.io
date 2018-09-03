@@ -29,9 +29,9 @@ img.resize {
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
-      <li><a href="#C1" style="text-decoration: none; color:#388E3C; cursor:pointer">Bir Python Sınıfı Oluşturma</a></li>
+      <li><a href="#C1" style="text-decoration: none; color:#388E3C; cursor:pointer">Bir Python Sınıfı Oluşturmak</a></li>
       <li><a href="#C2" style="text-decoration: none; color:#388E3C; cursor:pointer">Bir Python Nesnesi Oluşturma</a></li>
-      <li><a href="#C3" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Eşleme ile Nesne Oluşturma</a></li>
+      <li><a href="#C3" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Eşleme ile Nesne Oluşturmak</a></li>
       <li><a href="#C13" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesne Özniteliklerini Değiştirmek</a></li>
       <li><a href="#C14" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesne Özniteliklerini Silmek</a></li>
       <li><a href="#C15" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesneleri Silmek</a></li>
