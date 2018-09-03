@@ -396,8 +396,6 @@ class Class:
 
 getattr(Class, 'answer')
 # returns 42
-getattr(Class, 'question', 'What is six times nine?')
-# returns 'What is six times nine?'
 getattr(Class, 'question')
 # raises AttributeError
 </code></pre>
@@ -409,7 +407,9 @@ getattr(Class, 'question')
       <p>
 
 Out [1]: <br> <br>
-'What is six times nine?'
+42 <br> <br>
+AttributeError: type object <br>
+'Class' has no attribute 'question'
 </p>
     </div>
   </article>
