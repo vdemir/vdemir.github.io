@@ -13,6 +13,7 @@ lang: tr
 
 {% include tr_ay.html %}
 <link rel="stylesheet" href="{{ sitebase.url }}/css/w3.css">
+<link rel="stylesheet" href="{{ sitebase.url }}/css/code.css">
 <br>
 
 
@@ -759,33 +760,6 @@ Sınıf öznitelikleri, tüm özdeşlerle paylaşılacakları sınıfa aittir. B
 
 <br>
  
-<style>
-.grid { 
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
-  }
-.grid > article {
-  border: 1px solid #ccc;
-  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
-}
-.grid > article img {
-  max-width: 100%;
-}
-.text {
-  padding: 0 20px 20px;
-}
-.text > button {
-  background: gray;
-  border: 0;
-  color: white;
-  padding: 10px;
-  width: 100%;
-  }
-.grid > article:nth-child(1) {
-  grid-column: span 2;
-}
-</style>
 <main class="grid">
   <article>
     <div class="text">
