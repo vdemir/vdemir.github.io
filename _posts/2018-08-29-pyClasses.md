@@ -881,7 +881,7 @@ class Robot:
  def __init__(self, name):
       "Initializes the data."
    self.name = name
-   print("(Initializing {})".format(self.name))
+   print("(Initial {})".format(self.name))
 
    # When this person is created, the robot
    # adds to the population
