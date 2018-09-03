@@ -947,6 +947,51 @@ Bu aynı zamanda, hiçbir argüman almayan bir yordamınız varsa, o zaman hala 
 
 <!---------------------------------------------------------->
 
+<br>
+<div class="teaser clearfix"></div>
+<h3>Super fonksiyonu</h3><hr>
+
+super(), Bir sınıfta geçersiz kılınan kalıtsal yordamlara erişmek için kullanılabilecek yerleşik bir fonksiyondur. super() sadece yeni stil sınıfları için çalışır; Tek bir kalıtımla bir sınıf hiyerarşisinde, super(), üst sınıflara açıkça ad vermeden başvurmak için kullanılabilir, böylece kodu daha fazla kullanılabilir hale getirir
+
+
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Parent(object): # Base class definition
+  def printlnfo(self):
+   print ('Base class method')
+  def parentMethod(self) :
+   self.printInfo()
+class Child(Parent): # Derived class definition
+ def printInfo(self):
+  super(Child,self).printlnfo()
+ # Parent.printInfo(self)
+  print ('Derived class method')
+c=Child()
+c.parentMethod()
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+
+
+Base class method <br>
+Derived class method
+</p>
+    </div>
+  </article>
+</main>
+
+
+
+
+
 
 <br>
 <div class="teaser clearfix"></div>
