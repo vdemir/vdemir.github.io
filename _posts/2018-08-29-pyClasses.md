@@ -756,7 +756,7 @@ tom_account.interest # Özdeş adlandırılmış özdeş öznitelikleri olmayan 
 jim_account.interest # ancak mevcut özdeş özniteliği etkilenmez
 0.08
 <br>
-<h4> Sınıf Öznitelikleri</h4>
+<h4> Sınıf Öznitelikleri</h4><hr>
 Sınıf öznitelikleri, tüm özdeşlerle paylaşılacakları sınıfa aittir. Bu öznitelikler, okunabilirlik için genellikle üst kısımdaki sınıf gövdesi parçalarında tanımlanmaktadır.
 
 <br>
@@ -801,8 +801,51 @@ Out [1]: <br>
     </div>
   </article>
 </main>
+<br>
+<h4>Özdeş Öznitelikleri</h4><hr>
+Unlike class attributes, instance attributes are not shared by objects. Every object has its own copy of the instance attribute (In case of class attributes all object refer to single copy).
 
+
+
+To list the attributes of an instance/object, we have two functions:-
+1. vars()- This function displays the attribute of an instance in the form of an dictionary.
+2. dir()- This function displays more attributes than vars function,as it is not limited to instance. It displays the class attributes as well. 
+
+<br>
  
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+# Python program to demonstrate
+# instance attributes.
+class emp:
+    def __init__(self):
+        self.name = 'xyz'
+        self.salary = 4000
+ 
+    def show(self):
+        print (self.name)
+        print (self.salary)
+ 
+e1 = emp()
+print ("Dictionary form :", vars(e1))
+print (dir(e1))
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+
+Dictionary form : {'salary': 4000, 'name': 'xyz'}
+</p>
+    </div>
+  </article>
+</main>
+
 <br><br>
 
 <div class="teaser clearfix"></div>
