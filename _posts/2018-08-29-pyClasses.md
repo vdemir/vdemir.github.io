@@ -477,7 +477,7 @@ instance.an_instance_method()
 </textarea></div>
 
 <br>
-<h4 id="C18">OOP'ta Sınıf ÖzNitelikleri</h4>
+<h4 id="C18">Sınıf Öznitelikleri</h4>
 <hr>
 
 Bazı öznitelik değerleri, verilen bir sınıfın tüm öbeklerinde paylaşılır. Bu öznitelikler, sınıfın herhangi bir tek özdeşinden ziyade sınıfın kendisi ile ilişkilendirilir. Örneğin, bir bankanın hesap bakiyesine sabit faiz oranından faiz ödediğini söyleyelim. Bu faiz oranı değişebilir, ancak tüm hesaplarda paylaşılan tek bir değerdir. 
@@ -640,7 +640,7 @@ Out [1]: <br>
 <!------------------------------------------>
 
 <br><br>
-<h4><code class="w3-codespan">__new__()</code> yordamı </h4><hr>
+<h4><code class="w3-codespan">new</code> yordamı </h4><hr>
  <code class="w3-codespan">__new__()</code> örnekleme ile oluşturan ve döndüren python özel yordamıdır.
 
 <div class="w3-code notranslate pythonHigh">
@@ -702,7 +702,7 @@ str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturm
 
 
 <br>
-<h3><code class="w3-codespan">__init__()</code> yordamı</h3><hr>
+<h3><code class="w3-codespan">init</code> yordamı</h3><hr>
 Yukarıdaki örnekler, en basit biçimde sınıflar ve nesnelerdir ve gerçek yaşam uygulamalarında gerçekten yararlı değildir. 
 
 Sınıfların manâsını anlamak için, yerleşik <code class="w3-codespan">__init__()</code> yordamını anlamamız gerekir. 
