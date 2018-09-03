@@ -182,6 +182,46 @@ Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnek
 Öznitelik referansları, Python: obj.name'deki tüm öznitelik referansları için kullanılan standart sözdizimini kullanır. Geçerli nesne adları, sınıf nesnesi oluşturulduğunda sınıfın ad alanındaki tüm adlardır. Yani, sınıf tanımı böyle görünüyorsa:
 <br>
 <div class="teaser clearfix"></div>
+
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+# sınıfın tanımı burada başlar  
+class MyClass:
+    """Basit bir örnek sınıf"""
+    i = 12345
+
+    def f(self):
+        return 'hello world'
+
+x = MyClass()
+print(x.i) 
+
+t=MyClass.i
+print(t)
+
+p=MyClass.f(1)
+print(p)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+12345
+12345
+hello world
+</p>
+    </div>
+  </article>
+</main>
+
+
+
 <div id="container">
         <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="16" cols="33" spellcheck="false">
 class MyClass:
