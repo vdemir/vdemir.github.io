@@ -451,9 +451,11 @@ class Class:
     def a_class_method(cls):
         print 'I was called from class %s' % cls
     #
+    #
     @staticmethod
     def a_static_method():
         print 'I have no idea where I was called from'
+    #
     #
     def an_instance_method(self):
         print 'I was called from the instance %s' % self
@@ -524,7 +526,7 @@ Class.an_instance_method()
     <div class="text">
       <p>
 
-Out [1]:
+Out [1]: <br>
 I was called from class <class '__main__.Class'> <br>
 I was called from class <class '__main__.Class'> <br> <br>
 I have no idea where I was called from <br>
