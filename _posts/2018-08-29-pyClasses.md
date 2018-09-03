@@ -29,15 +29,15 @@ lang: tr
       <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş Öbekler</a></li>
       <li><a href="#C7" style="text-decoration: none; color:#388E3C; cursor:pointer">Yordam Öbekleri</a></li>
       <li><a href="#C8" style="text-decoration: none; color:#388E3C; cursor:pointer">Python OOP'a Giriş</a></li>
-      <li><a href="#C10" style="text-decoration: none; color:#388E3C; cursor:pointer">new yordamı</a></li>
-      <li><a href="#C11" style="text-decoration: none; color:#388E3C; cursor:pointer">init yordamı</a></li>
-      <li><a href="#C12" style="text-decoration: none; color:#388E3C; cursor:pointer">self yordamı</a></li>
-      <li><a href="#C13" style="text-decoration: none; color:#388E3C; cursor:pointer">super fonksiyonu</a></li>
-      <li><a href="#C14" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesne Özniteliklerini Değiştirmek</a></li>
-      <li><a href="#C15" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesne Özniteliklerini Silmek</a></li>
-      <li><a href="#C16" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesneleri Silmek</a></li>
-      <li><a href="#C17" style="text-decoration: none; color:#388E3C; cursor:pointer">Python 3 Shell</a></li>
-      <li><a href="#C18" style="text-decoration: none; color:#388E3C; cursor:pointer">Sözlük Dizini</a></li>
+      <li><a href="#C9" style="text-decoration: none; color:#388E3C; cursor:pointer">new yordamı</a></li>
+      <li><a href="#C10" style="text-decoration: none; color:#388E3C; cursor:pointer">init yordamı</a></li>
+      <li><a href="#C11" style="text-decoration: none; color:#388E3C; cursor:pointer">self yordamı</a></li>
+      <li><a href="#C12" style="text-decoration: none; color:#388E3C; cursor:pointer">super fonksiyonu</a></li>
+      <li><a href="#C13" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesne Özniteliklerini Değiştirmek</a></li>
+      <li><a href="#C14" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesne Özniteliklerini Silmek</a></li>
+      <li><a href="#C15" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesneleri Silmek</a></li>
+      <li><a href="#C16" style="text-decoration: none; color:#388E3C; cursor:pointer">Python 3 Shell</a></li>
+      <li><a href="#C17" style="text-decoration: none; color:#388E3C; cursor:pointer">Sözlük Dizini</a></li>
     </ul>
     </p>
   </div>
@@ -831,7 +831,7 @@ Out [1]: <br>
 <br><br>
 
 <div class="teaser clearfix"></div>
-<h3  id="C10"><code class="w3-codespan">new</code> yordamı </h3><hr>
+<h3  id="C9"><code class="w3-codespan">new</code> yordamı </h3><hr>
  <code class="w3-codespan">new</code> örnekleme ile oluşturan ve döndüren python özel yordamıdır.
 
 <main class="grid">
@@ -923,7 +923,7 @@ str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturm
 <br>
 
 <div class="teaser clearfix"></div>
-<h3  id="C11"><code class="w3-codespan">init</code> yordamı</h3><hr>
+<h3  id="C10"><code class="w3-codespan">init</code> yordamı</h3><hr>
 Yukarıdaki örnekler, en basit biçimde sınıflar ve nesnelerdir ve gerçek yaşam uygulamalarında gerçekten yararlı değildir. 
 
 Sınıfların manâsını anlamak için, yerleşik <code class="w3-codespan">init</code> yordamını anlamamız gerekir. 
@@ -1015,7 +1015,7 @@ Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) 
 <br>
 
 <div class="teaser clearfix"></div>
-<h3  id="C12"><code class="w3-codespan">self</code> Parametresi</h3><hr>
+<h3  id="C11"><code class="w3-codespan">self</code> Parametresi</h3><hr>
 <p> <code class="w3-codespan">self</code> sınıfın kendisine bir referanstır ve sınıfa ait değişkenlere erişmek için kullanılır. 
 
 <code class="w3-codespan">self</code> diye isimlendirilmek zorunda değildir, ne ile  istersen öyle çağırabilirsin, ama sınıftaki herhangi bir yordamın ilk parametresi olmalı:</p>
@@ -1067,7 +1067,7 @@ Bu aynı zamanda, hiçbir argüman almayan bir yordamınız varsa, o zaman hala 
  
 <br>
 <div class="teaser clearfix"></div>
-<h3 id="C13">super fonksiyonu</h3><hr>
+<h3 id="C12">super fonksiyonu</h3><hr>
 **super([type[, object-or-type]])**
 
 Bir ebeveyn veya kardeş sınıfına yordam çağrıları veren bir temsili öbeği döndürür. Bu, bir sınıfta geçersiz kılınan devralınan yordamlara erişmek için kullanışlıdır. Arama sırası, **type**'ın kendisinin atlanması dışında **getattr()** tarafından kullanılanla aynıdır.
@@ -1119,7 +1119,7 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
 
 <br>
 <div class="teaser clearfix"></div>
-<h3 id="C14">Nesne Özniteliklerini Değiştirmek</h3><hr>
+<h3 id="C13">Nesne Özniteliklerini Değiştirmek</h3><hr>
 Bu gibi nesnelerdeki öznitelikleri değiştirebilirsiniz:
 <p>p1'in yaşını 40'a ayarlayın:</p>
 <div class="w3-code notranslate pythonHigh">
@@ -1158,7 +1158,7 @@ print(p1.age)
 
 <br>
 <div class="teaser clearfix"></div>
-<h3 id="C15"> Nesne Özniteliklerini Silmek</h3><hr>
+<h3 id="C14"> Nesne Özniteliklerini Silmek</h3><hr>
 Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz:
 <p>age özniteliğini p1 nesnesinden silin:</p>
 <div class="w3-code notranslate pythonHigh">
@@ -1197,7 +1197,7 @@ AttributeError: 'Person' object has no attribute 'age'
 
 <br>
 <div class="teaser clearfix"></div>
-<h3 id="C16"> Nesneleri Silmek</h3><hr>
+<h3 id="C15"> Nesneleri Silmek</h3><hr>
 Nesneleri <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz: 
 <p>p1 nesnesini silin:</p>
 
@@ -1252,7 +1252,7 @@ NameError: name 'p1' is not defined
 <br><br>
 <div class="teaser clearfix"></div>
 <script src="{{ sitebase.url }}/scripts/dcl-react.js.gz"></script>
-<h3  id="C17"><a class="w3-btn w3-margin-bottom">Just python 3 'Run'.</a></h3>
+<h3  id="C16"><a class="w3-btn w3-margin-bottom">Just python 3 'Run'.</a></h3>
 <div data-datacamp-exercise data-lang="python" data-height="auto">
       <code data-type="pre-exercise-code"></code>
       <code data-type="sample-code">
@@ -1268,7 +1268,7 @@ NameError: name 'p1' is not defined
 
 <div class="teaser clearfix"></div>
 <div class="w3-panel w3-card w3-light-grey">
-  <h3 id="C18">Sözlük Dizini</h3>
+  <h3 id="C17">Sözlük Dizini</h3>
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
