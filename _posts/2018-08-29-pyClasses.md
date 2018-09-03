@@ -1115,7 +1115,7 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
 
 <br>
 <div class="teaser clearfix"></div>
-<h3>Nesne Özniteliklerini Değiştir </h3><hr>
+<h3>Nesne Özniteliklerini Değiştirmek</h3><hr>
 Bu gibi nesnelerdeki öznitelikleri değiştirebilirsiniz:
 <p>p1'in yaşını 40'a ayarlayın:</p>
 <div class="w3-code notranslate pythonHigh">
@@ -1154,7 +1154,7 @@ print(p1.age)
 
 <br>
 <div class="teaser clearfix"></div>
-<h3> Nesne Özniteliklerini Sil </h3><hr>
+<h3> Nesne Özniteliklerini Silmek</h3><hr>
 Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz:
 <p>age özniteliğini p1 nesnesinden silin:</p>
 <div class="w3-code notranslate pythonHigh">
@@ -1193,7 +1193,7 @@ AttributeError: 'Person' object has no attribute 'age'
 
 <br>
 <div class="teaser clearfix"></div>
-<h3> Nesneleri Sil  </h3><hr>
+<h3> Nesneleri Silmek</h3><hr>
 Nesneleri <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz: 
 <p>p1 nesnesini silin:</p>
 
