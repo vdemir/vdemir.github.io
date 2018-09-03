@@ -576,7 +576,7 @@ Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşma
 
 
 <br>
-<h4 id="C18">Sınıf Yordamıları Oluşturma</h4>
+<h4 id="C18">Sınıf Yordamları Oluşturma</h4>
 <hr>
 
 Bazen bir sınıf yazarken, sınıftan çağrılan bir fonksiyonu dahil etmek istersiniz, özdeşini değil. Belki bu yordam yeni özdeşler oluşturur veya belki de herhangi bir özel özdeşin herhangi bir özniteliğinden bağımsızdır. Python, yordamınızın, hangi sınıfın çağırdığını bilmesi gerektiğine (ya da bilmesine) bağlı olarak, bunu yapmanın iki yolunu size verir. Her ikisi de yordamlarınıza dekoratörler uygulamasını içerir. 
@@ -1057,7 +1057,11 @@ Bu aynı zamanda, hiçbir argüman almayan bir yordamınız varsa, o zaman hala 
 
 <br>
 <div class="teaser clearfix"></div>
-<h3>Super fonksiyonu</h3><hr>
+<h3>super fonksiyonu</h3><hr>
+**super([type[, object-or-type]])**
+
+Bir ebeveyn veya kardeş sınıfına yordam çağrıları veren bir temsili öbeği döndürür. Bu, bir sınıfta geçersiz kılınan devralınan yordamlara erişmek için kullanışlıdır.
+
 
 **super()**, Bir sınıfta geçersiz kılınan kalıtsal yordamlara erişmek için kullanılabilecek yerleşik bir fonksiyondur. **super()** sadece yeni stil sınıfları için çalışır; Tek bir kalıtımla bir sınıf hiyerarşisinde, **super()**, üst sınıflara açıkça ad vermeden başvurmak için kullanılabilir, böylece kodu daha fazla kullanılabilir hale getirir.
 
