@@ -350,6 +350,8 @@ Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey
       <li><a href="#C84" style="text-decoration: none; color:#388E3C; cursor:pointer">Oluşturulduktan Sonra Sınıfların Değiştirilmesi</a></li>
       <li><a href="#C85" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Yordamları Oluşturma</a></li>
       <li><a href="#C86" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Öznitelikleri</a></li>
+      <li><a href="#C87" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş Öznitelikler</a></li>
+      <li><a href="#C88" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf ve Nesne Değişkenleri</a></li>
     </ul>
     </p>
   </div>
@@ -808,7 +810,7 @@ Out [1]: <br>
   </article>
 </main>
 <br>
-<h4>Özdeş Öznitelikleri</h4><hr>
+<h4 id="C87">Özdeş Öznitelikleri</h4><hr>
 Unlike class attributes, instance attributes are not shared by objects. Every object has its own copy of the instance attribute (In case of class attributes all object refer to single copy).
 
 
@@ -853,7 +855,7 @@ Dictionary form : {'salary': 4000, 'name': 'xyz'} <br>
 </main>
 
 <br>
-<h4>Sınıf ve Nesne Değişkenleri</h4><hr>
+<h4 id="C88">Sınıf ve Nesne Değişkenleri</h4><hr>
 
 We have already discussed the functionality part of classes and objects (i.e. methods), now let us learn about the data part. The data part, i.e. fields, are nothing but ordinary variables that are bound to the namespaces of the classes and objects. This means that these names are valid within the context of these classes and objects only. That's why they are called name spaces.
 
