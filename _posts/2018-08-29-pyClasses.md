@@ -765,12 +765,6 @@ Hello my name is John
     </div>
   </article>
 </main>
-
-<div class="w3-code notranslate pythonHigh">
-  class Person:<br>&nbsp; def __init__(mysillyobject, name, age):<br>&nbsp;&nbsp;&nbsp; 
-  mysillyobject.name = name<br>&nbsp;&nbsp;&nbsp; mysillyobject.age = age<br><br>&nbsp; def myfunc(abc):<br>&nbsp;&nbsp;&nbsp; 
-  print(&quot;Hello my name is &quot; + abc.name)<br><br>p1 = Person(&quot;John&quot;, 
-  36)<br>p1.myfunc()</div>
  
 <div class="w3-code notranslate pythonHigh">
 <strong>Not:</strong> <code class="w3-codespan">self</code> parametresi, sınıfa ait bir referanstır ve sınıfa ait değişkenlere erişmek için kullanılır.</div>
