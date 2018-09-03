@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python Sınıflar/Nesneler
+title: Python Sınıflar/Nesneler/Öbekler/Özdeşler
 description: Python’daki hemen hemen her şey, öznitelikleri ve yordamları ile bir nesnedir.
 date:   2018-08-29 15:52:00
 tags:   Linux Programlama Python
@@ -176,7 +176,7 @@ Artık nesneleri oluşturmak için **myClass** adlı sınıfı kullanabiliriz:
   p1 = Person("John", 36)</div><br><br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C4">Nesnenin Özniteliklerine Erişim</h3><hr>
+<h3 id="C4">Öbeğin Özniteliklerine Erişim</h3><hr>
 Nokta (.) operatörünü nesne ile kullanarak erişebilirsiniz. Sınıf adı kullanarak da sınıf özdeğerlerine erişilebilir:
 <div class="w3-code notranslate pythonHigh">
   print(p1.x)<br>print(MyClass.x)</div>
@@ -413,7 +413,7 @@ obj.name = "Andre"</div>
 
 <br><br>
 
-<h5 id="C18">El Yordamı ile 'self' Geçirme</h5>
+<h4 id="C18">El Yordamı ile 'self' Geçirme</h4>
 <hr>
 Yordamlar, bir özdeşden çağrıldığında, ilk ifade olarak (genellikle 'self' olarak çağrılır) bu özdeşe geçirilen normal fonksiyonlardır. Herhangi bir nedenle fonksiyonu bir özdeşden çağırmıyorsanız, özdeşe her zaman ilk ifade olarak el ile geçirebilirsiniz. Örneğin:
 
@@ -455,7 +455,7 @@ Hey a method
 Dahili olarak, bu ifadeler tamamen aynıdır.
 
 <br>
-<h5 id="C18">Öznitelik ve Yordam Varlığını Kontrol Etme</h5>
+<h4 id="C18">Öznitelik ve Yordam Varlığını Kontrol Etme</h4>
 <hr>
 
 Belirli bir sınıfın veya özdeşin, belirli bir öznitelik veya yordama sahip olup olmadığını bilmek gerekir mi? Yerleşik **'hasattr'** işlevini kontrol etmek için kullanabilirsiniz; kontrol etmek için nesneyi ve özniteliği (dizge olarak) kabul eder. Dict 'has_key' yöntemine benzer şekilde kullanıyorsunuz (tamamen farklı olsa da):
@@ -530,7 +530,7 @@ AttributeError: type object <br>
 Aşırı **hasattr** ve **getattr** kullanmayın. Sınıfınızı, bir özniteliğin var olup olmadığını kontrol etmeye devam etmeniz gereken bir şekilde yazmışsanız, yanlış yazmışsınız demektir. Sadece her zaman var olan değere sahip olur ve kullanılmıyorsa **None** (ya da her neyse) olarak ayarlayın. Bu fonksiyonlar en iyi şekilde çokbiçimliliği ele almak için kullanılır, Yani, fonksiyonunuzu / sınıfınızı / öbeklerin farklı türlerini desteklemenizi sağlar.
 
 <br>
-<h5 id="C18">Oluşturulduktan Sonra Sınıfların Değiştirilmesi</h5>
+<h4 id="C18">Oluşturulduktan Sonra Sınıfların Değiştirilmesi</h4>
 <hr>
 
 
@@ -576,7 +576,7 @@ Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşma
 
 
 <br>
-<h5 id="C18">Sınıf Yordamıları Oluşturma</h5>
+<h4 id="C18">Sınıf Yordamıları Oluşturma</h4>
 <hr>
 
 Bazen bir sınıf yazarken, sınıftan çağrılan bir fonksiyonu dahil etmek istersiniz, özdeşini değil. Belki bu yordam yeni özdeşler oluşturur veya belki de herhangi bir özel özdeşin herhangi bir özniteliğinden bağımsızdır. Python, yordamınızın, hangi sınıfın çağırdığını bilmesi gerektiğine (ya da bilmesine) bağlı olarak, bunu yapmanın iki yolunu size verir. Her ikisi de yordamlarınıza dekoratörler uygulamasını içerir. 
