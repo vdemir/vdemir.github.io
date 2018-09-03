@@ -124,6 +124,7 @@ img.resize {
 
 <br><br>
 
+<div class="teaser clearfix"></div>
 <h3 id="C1">Bir Python Sınıfı Oluşturma</h3><hr>
 **x** adlı bir özdeğere sahip **MyClass** adlı bir sınıf/öbek oluşturun:
 <div class="w3-code notranslate pythonHigh">
@@ -162,10 +163,6 @@ Hey bir yordam
   </article>
 </main>
 
-
-
-<!----------------------------------------->
-
 <br><br>
 
 <div class="teaser clearfix"></div>
@@ -200,6 +197,7 @@ Nokta (.) operatörünü nesne ile kullanarak erişebilirsiniz. Sınıf adı kul
 
 <br><br>
 
+<div class="teaser clearfix"></div>
 <h3 id="C5">Sınıf Öbekleri </h3><hr>
 Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnekleme. 
 
@@ -264,10 +262,6 @@ Bir sınıf/öbek bir **__init__()** yordamını tanımladığında, sınıf/öb
 
 Elbette **__init__()** yordamı daha fazla esneklik için argümanlara sahip olabilir. Bu durumda, sınıf/öbek örnekleme işlecine verilen argümanlar **__init__()** öğesine iletilir. Örneğin,
 
-<div class="teaser clearfix"></div>
-
-
-
 <main class="grid">
   <article>
     <div class="text">
@@ -294,6 +288,7 @@ Out[1]: (3.0, -4.5)
 
 <br><br>
 
+<div class="teaser clearfix"></div>
 <h3 id="C6">Özdeş Öbekler</h3><hr>
 Şimdi eşleşen nesnelerle ne yapabiliriz? Eşleşen nesneler ile anlaşılan yegane işlemler, öznitelik atıflarıdır. İki tür geçerli atıf ismi vardır; data öznitelikleri ve yordamları. 
 
@@ -316,10 +311,10 @@ Diğer eşleşen öznitelik atıf türü bir yordamdır. Bir yordam, bir öbeğe
 
 Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım olarak, bir sınıfın tüm öznitelikleri, eşleşen yordamlarına karşılık tanımlanan fonksiyon öbekleridir. Yani bizim örneğimizde, **x.f** geçerli bir yordam atfıdır, çünkü **MyClass.f** bir fonksiyondur, fakat **x.i** fonksiyon değildir çünkü **MyClass.i** da değildir. Ama **x.f**, **MyClass.f** ile aynı şey değildir - **x.f**, bir fonksiyon nesnesi/öbeği değil, bir yordam öbeğidir.
 
-<!--------------------------------------------->
 
 <br><br> 
 
+<div class="teaser clearfix"></div>
 <h3 id="C7"><a class="w3-btn w3-margin-bottom">Yordam Öbekleri</a></h3><hr>
 
 Genellikle, bağlantıdan hemen sonra bir yordam çağrılır: 
@@ -338,9 +333,9 @@ Bir yordam çağrıldığında tam olarak ne olur? **f()** fonksiyon tanımı bi
 
 Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey vardır ki, özdeş öbek fonksiyonun ilk ifadesi olarak geçirilir. Örneğimizde, **x.f()** çağrısı tam olarak **MyClass.f(x)** öğesine eşdeğerdir. Genel olarak, n argümanlı bir listeden bir yordamı çağırmak, ilk argümandan önce yordamın özdeş öbeğini ekleyerek oluşturulan bir argüman listesine karşılık fonksiyonu çağırmaya eşdeğerdir. Eğer isim geçerli bir sınıf özniteliğini işaret ederse ki bir fonksiyon öbeğidir, bir yordam öbeği özdeş öbek paketlenerek oluşturulur ve fonksiyon öbeği sadece soyut bir öbek ile birlikte bulunur: bu yordam öbeğidir. Yordam öbeği bir argüman listesi ile çağrıldığında yeni bir argüman listesi, argüman listesi ve özdeş öbekten inşa edilir ve fonksiyon öbeği yeni bir argüman listesi ile çağrılır.
 <br><br>
+ 
 
-<!--------------------------------------------->
-
+<div class="teaser clearfix"></div>
 <h3 id="C17">Python OOP'a Giriş</h3><hr>
 
 Bir sınıf, bir öbek grubunu, kapsadığı veriler ve arayüz fonksiyonları tarafından izin verilen veriler üzerindeki işlemler açısından tanımlar.
@@ -419,7 +414,7 @@ obj.name = "Andre"</div>
 
 <br><br>
 
-<h4 id="C18">El Yordamı ile 'self' Geçirme</h4>
+<h4>El Yordamı ile 'self' Geçirme</h4>
 <hr>
 Yordamlar, bir özdeşden çağrıldığında, ilk ifade olarak (genellikle 'self' olarak çağrılır) bu özdeşe geçirilen normal fonksiyonlardır. Herhangi bir nedenle fonksiyonu bir özdeşden çağırmıyorsanız, özdeşe her zaman ilk ifade olarak el ile geçirebilirsiniz. Örneğin:
 
@@ -461,7 +456,7 @@ Hey a method
 Dahili olarak, bu ifadeler tamamen aynıdır.
 
 <br>
-<h4 id="C18">Öznitelik ve Yordam Varlığını Kontrol Etme</h4>
+<h4>Öznitelik ve Yordam Varlığını Kontrol Etme</h4>
 <hr>
 
 Belirli bir sınıfın veya özdeşin, belirli bir öznitelik veya yordama sahip olup olmadığını bilmek gerekir mi? Yerleşik **'hasattr'** işlevini kontrol etmek için kullanabilirsiniz; kontrol etmek için nesneyi ve özniteliği (dizge olarak) kabul eder. Dict 'has_key' yöntemine benzer şekilde kullanıyorsunuz (tamamen farklı olsa da):
@@ -536,7 +531,7 @@ AttributeError: type object <br>
 Aşırı **hasattr** ve **getattr** kullanmayın. Sınıfınızı, bir özniteliğin var olup olmadığını kontrol etmeye devam etmeniz gereken bir şekilde yazmışsanız, yanlış yazmışsınız demektir. Sadece her zaman var olan değere sahip olur ve kullanılmıyorsa **None** (ya da her neyse) olarak ayarlayın. Bu fonksiyonlar en iyi şekilde çokbiçimliliği ele almak için kullanılır, Yani, fonksiyonunuzu / sınıfınızı / öbeklerin farklı türlerini desteklemenizi sağlar.
 
 <br>
-<h4 id="C18">Oluşturulduktan Sonra Sınıfların Değiştirilmesi</h4>
+<h4>Oluşturulduktan Sonra Sınıfların Değiştirilmesi</h4>
 <hr>
 
 
@@ -582,7 +577,7 @@ Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşma
 
 
 <br>
-<h4 id="C18">Sınıf Yordamları Oluşturma</h4>
+<h4>Sınıf Yordamları Oluşturma</h4>
 <hr>
 
 Bazen bir sınıf yazarken, sınıftan çağrılan bir fonksiyonu dahil etmek istersiniz, özdeşini değil. Belki bu yordam yeni özdeşler oluşturur veya belki de herhangi bir özel özdeşin herhangi bir özniteliğinden bağımsızdır. Python, yordamınızın, hangi sınıfın çağırdığını bilmesi gerektiğine (ya da bilmesine) bağlı olarak, bunu yapmanın iki yolunu size verir. Her ikisi de yordamlarınıza dekoratörler uygulamasını içerir. 
@@ -660,7 +655,7 @@ I was called from the instance <__main__.Class object at 0x7f6854953748>
 
 
 <br>
-<h4 id="C18">Sınıf Öznitelikleri</h4>
+<h4>Sınıf Öznitelikleri</h4>
 <hr>
 
 Bazı öznitelik değerleri, verilen bir sınıfın tüm öbeklerinde paylaşılır. Bu öznitelikler, sınıfın herhangi bir tek özdeşinden ziyade sınıfın kendisi ile ilişkilendirilir. Örneğin, bir bankanın hesap bakiyesine sabit faiz oranından faiz ödediğini söyleyelim. Bu faiz oranı değişebilir, ancak tüm hesaplarda paylaşılan tek bir değerdir. 
@@ -817,12 +812,10 @@ Out [1]: <br>
   </article>
 </main>
 
-
-
-
-<!------------------------------------------>
-
+ 
 <br><br>
+
+<div class="teaser clearfix"></div>
 <h4><code class="w3-codespan">new</code> yordamı </h4><hr>
  <code class="w3-codespan">new</code> örnekleme ile oluşturan ve döndüren python özel yordamıdır.
 
@@ -913,6 +906,8 @@ str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturm
 
 
 <br>
+
+<div class="teaser clearfix"></div>
 <h3><code class="w3-codespan">init</code> yordamı</h3><hr>
 Yukarıdaki örnekler, en basit biçimde sınıflar ve nesnelerdir ve gerçek yaşam uygulamalarında gerçekten yararlı değildir. 
 
@@ -954,9 +949,7 @@ Hello my name is John
 </main> 
 
 <br>
-
-<div class="teaser clearfix"></div>
-
+ 
 <div class="w3-code notranslate pythonHigh">
 <strong>Not:</strong>  <code class="w3-codespan">init</code> bir sınıfın kurucusudur aslında başlatıcıdır. <code class="w3-codespan">init</code> yordamı, nesnenin belleğinin tahsis edildiği anda çağrılır.</div>
 
@@ -995,7 +988,7 @@ Hello, my name is Swaroop
   </article>
 </main> 
 <br>
-<h5>Nasıl çalışır</h5><hr>
+<h4>Nasıl çalışır</h4><hr>
 Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) olarak tanımlarız. Burada sadece name olarak da adlandırılan yeni bir alan yaratıyoruz. İkisi de 'name' olarak adlandırılsalar bile, bunlar iki farklı değişkenlerdir. Noktalı notasyon **self.name**, **'self'** olarak adlandırılan öbeğin bir parçası olan **'name'** adında bir şey olduğu anlamına gelir ve diğer **name** yerel bir değişkendir. Açıklamakta olduğumuz **name** açıkça belirttiğimizden karışıklık yok.
 
 **Person** sınıfı için yeni özdeş **p** oluştururken, sınıf adını kullanarak bunu yaparız, ardından parantez içindeki argümanlar takip edilir: **p = Person('Swaroop')**.
@@ -1003,12 +996,10 @@ Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) 
 **__init__** yöntemini açıkça aramadık. Bu yordamın özel anlamı vardır.
 
 Şimdi, **self.name** alanını **say_hi** yordamında gösterilen yordamlarımızda kullanabiliyoruz.
-
-<!---------------------------------------------------------->
-
+ 
+<br>
 
 <div class="teaser clearfix"></div>
-<br>
 <h3><code class="w3-codespan">self</code> Parametresi</h3><hr>
 <p> <code class="w3-codespan">self</code> sınıfın kendisine bir referanstır ve sınıfa ait değişkenlere erişmek için kullanılır. 
 
@@ -1058,9 +1049,7 @@ Her ne kadar bu parametre için herhangi bir isim verseniz de, **self** ismini k
  Python'un **self** için nasıl bir değer verdiğini ve neden bunun için bir değer vermeniz gerekmediğini merak etmelisiniz. Bir örnek bunu açıklığa kavuşturur. **MyClass** adlı bir sınıfınız olduğunu ve bu sınıfın bir özdeşinin **myobject** olarak adlandırdığınızı varsayalım. Bu nesnenin yordamını **myobject.method(arg1, arg2)** olarak çağırdığınızda, bu otomatik olarak Python tarafından **MyClass.method(myobject, arg1, arg2)** 'ye dönüştürülür - bu, tüm özel **self** hakkındadır.
 
 Bu aynı zamanda, hiçbir argüman almayan bir yordamınız varsa, o zaman hala tek bir argümana sahip olmanız gerektiği anlamına gelir - **self**.
-
-<!---------------------------------------------------------->
-
+ 
 <br>
 <div class="teaser clearfix"></div>
 <h3>super fonksiyonu</h3><hr>
@@ -1246,6 +1235,7 @@ NameError: name 'p1' is not defined
 <!-- python interpreter -->
  
 
+<div class="teaser clearfix"></div>
 <script src="{{ sitebase.url }}/scripts/dcl-react.js.gz"></script>
 <a id="C9" class="w3-btn w3-margin-bottom">Just python 3 'Run'.</a>
 <div data-datacamp-exercise data-lang="python" data-height="auto">
@@ -1260,6 +1250,8 @@ NameError: name 'p1' is not defined
 <a class="w3-btn w3-margin-bottom" href="{{ sitebase.url }}/assets/txt/default_python_packages.txt"  style="text-decoration: none; color:#388E3C; cursor:pointer">Python 3 paket listesine bakınız.</a>
  </div>
 <br>
+
+<div class="teaser clearfix"></div>
 <div class="w3-panel w3-card w3-light-grey">
   <h3 id="C10">Sözlük Dizini</h3>
   <div class="w3-container w3-white">
