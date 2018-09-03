@@ -612,7 +612,6 @@ print sampleclass.count
 <main class="grid">
   <article>
     <div class="text">
-      <h3>Seamlessly visualize quality</h3>
       <p>
 <pre><code>
 # Write Python code here
@@ -636,14 +635,15 @@ print (s2.count)
 print (sampleclass.count)
 </code></pre>
 </p>
-      <button>Here's why</button>
     </div>
   </article>
   <article>
     <div class="text">
-      <h3>Completely Synergize</h3>
-      <p>Dramatically engage seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing.</p>
-      <button>Here's how</button>
+      <p>1
+2
+2
+
+In [1]: </p>
     </div>
   </article>
 </main>
