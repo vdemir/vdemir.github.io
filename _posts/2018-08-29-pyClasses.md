@@ -491,7 +491,7 @@ Bu öznitelik yine de sınıfın herhangi bir özdeşinden erişilebilir.
 
 <main class="grid">
   <article>
-    <div class=" highlight hl-ipython3">
+    <div class="text highlight hl-ipython3">
       <p>
 <pre><code>
 class Account(object):
