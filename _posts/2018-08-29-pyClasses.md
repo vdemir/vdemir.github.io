@@ -409,6 +409,44 @@ Aşırı **hasattr** ve **getattr** kullanmayın. Sınıfınızı, bir özniteli
 
 Sınıf oluşturulduktan çok sonra ve sonradan eşleştirildikten sonra bile bir sınıf özniteliğini veya yordamını ekleyebilir, değiştirebilir veya silebilirsiniz. Sadece özniteliğe veya yordama **Class.attribute** olarak erişin. Ne zaman oluşturuldukları önemli değil, sınıfın özdeşleri bu değişikliklere saygı duyacaktır:
 
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Class:
+   def method(self):
+        print ('Hey a method')
+
+instance = Class()
+instance.method()
+# prints 'Hey a method'
+
+def new_method(self):
+    print ('New method wins!')
+
+Class.method = new_method
+instance.method()
+# prints 'New method wins!'
+
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+
+Out [1]: <br> <br>
+Hey a method <br>  <br>
+New method wins!
+</p>
+    </div>
+  </article>
+</main>
+
+
 <div id="container">
         <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="15" cols="29" spellcheck="false">
 class Class:
