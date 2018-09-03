@@ -725,6 +725,8 @@ Nesne özniteliklerine veya nesne oluşturulduğunda yapılması gereken diğer 
 <div class="w3-note">
   <p><strong>Not:</strong> <code class="w3-codespan">__init__()</code> bir sınıfın kurucusudur aslında başlatıcıdır. <code class="w3-codespan"> __init__()</code> yordamı, nesnenin belleğinin tahsis edildiği anda çağrılır.</p>
 </div>
+<!---------------------------------------------------------->
+
 
 <div class="teaser clearfix"></div>
 <br>
@@ -742,6 +744,15 @@ Nesne özniteliklerine veya nesne oluşturulduğunda yapılması gereken diğer 
 <div class="w3-note">
   <p><strong>Not:</strong> <code class="w3-codespan">self</code> parametresi, sınıfa ait bir referanstır ve sınıfa ait değişkenlere erişmek için kullanılır.</p>
 </div> 
+
+Sınıf yordamları, sıradan fonksiyonlardan yalnızca belirli bir fark içerirler - parametre listesinin başına eklenmesi gereken fazladan bir ilk ada sahip olmaları gerekir, ancak yordamı çağırdığınızda bu parametre için bir değer vermezsiniz, Python bunu sağlayacaktır. Bu özel değişken, öbeğin kendisine atıfta bulunur ve sözleşmeye göre, kendisine **self** ad verilir.
+
+Her ne kadar bu parametre için herhangi bir isim verseniz de, **self** ismini kullanmanız şiddetle tavsiye edilir. Standart bir ad kullanmanın birçok avantajı vardır - programınızın herhangi bir okuyucusu bunu hemen tanıyacaktır ve **self** kullanırsanız uzmanlaşmış IDE'ler (Entegre Geliştirme Ortamları) size yardımcı olabilir.
+
+
+
+<!---------------------------------------------------------->
+
 
 <br>
 <div class="teaser clearfix"></div>
