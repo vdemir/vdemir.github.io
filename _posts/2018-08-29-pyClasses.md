@@ -437,14 +437,13 @@ instance.method()
     <div class="text">
       <p>
 
-Out [1]: <br>
-Hey a method <br>
+Out [1]: <br> <br>
+Hey a method <br>  <br>
 New method wins!
 </p>
     </div>
   </article>
 </main>
-
 
 Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşmayın, bu kötü bir formdur ve bu sınıfı kullanarak herhangi bir öbeği karıştırır. Öte yandan, yordamların eklenmesi çok daha az (ama yine de biraz) tehlikelidir.
 
