@@ -495,11 +495,11 @@ Bu öznitelik yine de sınıfın herhangi bir özdeşinden erişilebilir.
       <p>
 <pre><code>
 class Account(object):
- 	interest = 0.02 # A class attribute
- 	def __init__(self, account_holder):
- 		self.balance = 0
- 		self.holder = account_holder
- 	# Additional methods would be defined here
+     interest = 0.02 # A class attribute
+     def __init__(self, account_holder):
+ 	self.balance = 0
+ 	self.holder = account_holder
+    # Additional methods would be defined here
 jim_account = Account('Jim')
 jim_account.interest
 tom_account = Account('Tom')
