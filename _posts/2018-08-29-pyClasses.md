@@ -1005,6 +1005,39 @@ Bu gibi nesnelerdeki öznitelikleri değiştirebilirsiniz:
 <div class="w3-code notranslate pythonHigh">
   p1.age = 40</div>
 
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def myfunc(self):
+    print("Hello my name is " + self.name)
+
+p1 = Person("John", 36)
+
+p1.age = 40
+print(p1.age)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+40
+</p>
+    </div>
+  </article>
+</main>
+
+
+
 <div id="container">
         <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="14" cols="35" spellcheck="false">
 class Person:
