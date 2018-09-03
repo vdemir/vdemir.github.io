@@ -674,7 +674,7 @@ str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturm
 
 <div id="id01" class="w3-panel w3-green w3-display-container" style="display:none">
   <span onclick="this.parentElement.style.display='none'"
-  class="w3-button w3-yellow w3-display-topright">x</span>
+  class="w3-button w3-yellow w3-display-topright">&#10004;</span>
   <p> <code class="w3-codespan">init</code> bazen nesnenin kurucusu olarak adlandırılır, çünkü kurucuların diğer dillerde kullanıldığı gibi kullanılır, ancak bu teknik olarak doğru değildir - onu başlatıcı olarak adlandırmak daha iyidir. Bir kurucuya daha benzer olan <code class="w3-codespan">new</code> adlı farklı bir yordam var, ancak neredeyse hiç kullanılmıyor.</p>
 </div>
 
