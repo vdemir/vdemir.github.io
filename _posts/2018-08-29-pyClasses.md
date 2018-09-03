@@ -994,9 +994,6 @@ Derived class method
 
 Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, **super(Child, self).printlnfo()** biçiminde **super()** yordamı kullanılır; burada taban sınıfının adı belirtilmemiştir. Diğer yol, **Parent.printlnfo(self)** kullanılarak olurdu.
 
-
-
-
 <br>
 <div class="teaser clearfix"></div>
 <h3>Nesne Özniteliklerini Değiştir </h3><hr>
@@ -1036,7 +1033,6 @@ print(p1.age)
   </article>
 </main>
 
-
 <br>
 <div class="teaser clearfix"></div>
 <h3> Nesne Özniteliklerini Sil </h3><hr>
@@ -1044,7 +1040,6 @@ Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcü
 <p>age özniteliğini p1 nesnesinden silin:</p>
 <div class="w3-code notranslate pythonHigh">
  del p1.age</div>
-
 
 <main class="grid">
   <article>
@@ -1103,7 +1098,6 @@ del p1
 print(p1)
 </textarea>
 </div>
-
 
 <div class="w3-container w3-content">
  <div class="w3-panel w3-white w3-card w3-display-container">
