@@ -97,8 +97,8 @@ person2.showName()
   <article>
     <div class="text">
       <p>
-Hey bir yordam<br>
-Hey bir yordam
+23<br>
+Anne
 </p>
     </div>
   </article>
@@ -149,8 +149,8 @@ Sinif.bir_yordam(ozdes)
   <article>
     <div class="text">
       <p>
-23<br>
-Anne
+Hey bir yordam<br>
+Hey bir yordam
 </p>
     </div>
   </article>
