@@ -723,7 +723,7 @@ Nesne özniteliklerine veya nesne oluşturulduğunda yapılması gereken diğer 
 
 
 <div class="w3-note">
-  <p><strong>Not:</strong> <code class="w3-codespan">__init__()</code> bir sınıfın kurucusudur aslında başlatıcıdır. <code class="w3-codespan"> __init__()</code> yordamı, nesnenin belleğinin tahsis edildiği anda çağrılır.</p>
+  <p><strong>Not:</strong> <code class="w3-codespan">init</code> bir sınıfın kurucusudur aslında başlatıcıdır. <code class="w3-codespan">init</code> yordamı, nesnenin belleğinin tahsis edildiği anda çağrılır.</p>
 </div>
 <!---------------------------------------------------------->
 
