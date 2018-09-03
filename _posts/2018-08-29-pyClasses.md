@@ -438,8 +438,8 @@ instance.method()
     <div class="text">
       <p>
 
-Out [1]: <br> <br>
-Hey a method <br>  <br>
+Out [1]: <br>
+Hey a method <br>
 New method wins!
 </p>
     </div>
