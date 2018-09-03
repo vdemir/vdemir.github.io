@@ -1456,8 +1456,8 @@ NameError: name 'p1' is not defined
       <li>constructor KURUCU</li>
       <li>data attributes BİLGİNİN NİTELİKLERİ</li>
       <li>data VERİ, BİLGİ</li>
-      <li>constructor KURUCU</li>
       <li>destructor YIKICI </li>
+      <li>function İCRACI </li>
       <li>Instance EŞLEMEK</li>
       <li>instantiation MİSL, ÖZDEŞ </li>
       <li>local YEREL</li>
