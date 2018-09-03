@@ -489,6 +489,50 @@ Sınıf öznitelikleri, herhangi bir yordam tanımının dışında bir sınıf 
 
 Bu öznitelik yine de sınıfın herhangi bir özdeşinden erişilebilir.
 
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Account(object):
+ 	interest = 0.02 # A class attribute
+ 	def __init__(self, account_holder):
+ 		self.balance = 0
+ 		self.holder = account_holder
+ 	# Additional methods would be defined here
+jim_account = Account('Jim')
+jim_account.interest
+tom_account = Account('Tom')
+tom_account.interest
+Account.interest = 0.04
+tom_account.interest
+jim_account.interest
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+
+Out [1]: <br>
+Out[1]: 0.02 <br>
+Out[2]: 0.02 <br>
+Out[3]: 0.04 <br>
+Out[4]: 0.04 <br>
+</p>
+    </div>
+  </article>
+</main>
+
+
+
+
+
+
+
+
+
 <div id="container">
         <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="15" cols="29" spellcheck="false">
 class Account(object):
