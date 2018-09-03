@@ -32,6 +32,9 @@ img.resize {
       <li><a href="#C1" style="text-decoration: none; color:#388E3C; cursor:pointer">Bir Python Sınıfı Oluşturma</a></li>
       <li><a href="#C2" style="text-decoration: none; color:#388E3C; cursor:pointer">Bir Python Nesnesi Oluşturma</a></li>
       <li><a href="#C3" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Eşleme ile Nesne Oluşturma</a></li>
+      <li><a href="#C13" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesne Özniteliklerini Değiştirmek</a></li>
+      <li><a href="#C14" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesne Özniteliklerini Silmek</a></li>
+      <li><a href="#C15" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesneleri Silmek</a></li>
       <li><a href="#C4" style="text-decoration: none; color:#388E3C; cursor:pointer">Öbeğin Özniteliklerine Erişim</a></li>
       <li><a href="#C5" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Öbekleri</a></li>
       <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş Öbekler</a></li>
@@ -41,9 +44,6 @@ img.resize {
       <li><a href="#C10" style="text-decoration: none; color:#388E3C; cursor:pointer">init yordamı</a></li>
       <li><a href="#C11" style="text-decoration: none; color:#388E3C; cursor:pointer">self yordamı</a></li>
       <li><a href="#C12" style="text-decoration: none; color:#388E3C; cursor:pointer">super fonksiyonu</a></li>
-      <li><a href="#C13" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesne Özniteliklerini Değiştirmek</a></li>
-      <li><a href="#C14" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesne Özniteliklerini Silmek</a></li>
-      <li><a href="#C15" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesneleri Silmek</a></li>
       <li><a href="#C16" style="text-decoration: none; color:#388E3C; cursor:pointer">Python 3 Shell</a></li>
       <li><a href="#C17" style="text-decoration: none; color:#388E3C; cursor:pointer">Sözlük Dizini</a></li>
     </ul>
@@ -178,6 +178,86 @@ Artık nesneleri oluşturmak için **myClass** adlı sınıfı kullanabiliriz:
 
 <div class="w3-code notranslate pythonHigh">
   p1 = Person("John", 36)</div>
+
+<br>
+<div class="teaser clearfix"></div>
+<h3 id="C14"> Nesne Özniteliklerini Silmek</h3><hr>
+Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz:
+<p>age özniteliğini p1 nesnesinden silin:</p>
+<div class="w3-code notranslate pythonHigh">
+ del p1.age</div>
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def myfunc(self):
+    print("Hello my name is " + self.name)
+
+p1 = Person("John", 36)
+
+del p1.age
+
+print(p1.age)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+AttributeError: 'Person' object has no attribute 'age'
+</p>
+    </div>
+  </article>
+</main>
+
+<br>
+<div class="teaser clearfix"></div>
+<h3 id="C15"> Nesneleri Silmek</h3><hr>
+Nesneleri <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz: 
+<p>p1 nesnesini silin:</p>
+
+<div class="w3-code notranslate pythonHigh">
+ del p1</div>
+
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def myfunc(self):
+    print("Hello my name is " + self.name)
+
+p1 = Person("John", 36)
+
+del p1
+
+print(p1)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+NameError: name 'p1' is not defined
+</p>
+    </div>
+  </article>
+</main>
 
 <br><br>
 
@@ -1329,86 +1409,6 @@ print(p1.age)
     <div class="text">
       <p>
 40
-</p>
-    </div>
-  </article>
-</main>
-
-<br>
-<div class="teaser clearfix"></div>
-<h3 id="C14"> Nesne Özniteliklerini Silmek</h3><hr>
-Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz:
-<p>age özniteliğini p1 nesnesinden silin:</p>
-<div class="w3-code notranslate pythonHigh">
- del p1.age</div>
-
-<main class="grid">
-  <article>
-    <div class="text">
-      <p>
-<pre><code>
-class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
-
-  def myfunc(self):
-    print("Hello my name is " + self.name)
-
-p1 = Person("John", 36)
-
-del p1.age
-
-print(p1.age)
-</code></pre>
-</p>
-    </div>
-  </article>
-  <article>
-    <div class="text">
-      <p>
-AttributeError: 'Person' object has no attribute 'age'
-</p>
-    </div>
-  </article>
-</main>
-
-<br>
-<div class="teaser clearfix"></div>
-<h3 id="C15"> Nesneleri Silmek</h3><hr>
-Nesneleri <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz: 
-<p>p1 nesnesini silin:</p>
-
-<div class="w3-code notranslate pythonHigh">
- del p1</div>
-
-
-<main class="grid">
-  <article>
-    <div class="text">
-      <p>
-<pre><code>
-class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
-
-  def myfunc(self):
-    print("Hello my name is " + self.name)
-
-p1 = Person("John", 36)
-
-del p1
-
-print(p1)
-</code></pre>
-</p>
-    </div>
-  </article>
-  <article>
-    <div class="text">
-      <p>
-NameError: name 'p1' is not defined
 </p>
     </div>
   </article>
