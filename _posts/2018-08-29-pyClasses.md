@@ -370,6 +370,36 @@ Dahili olarak, bu ifadeler tamamen aynıdır.
 
 Belirli bir sınıfın veya özdeşin, belirli bir öznitelik veya yordama sahip olup olmadığını bilmek gerekir mi? Yerleşik **'hasattr'** işlevini kontrol etmek için kullanabilirsiniz; kontrol etmek için nesneyi ve özniteliği (dizge olarak) kabul eder. Dict 'has_key' yöntemine benzer şekilde kullanıyorsunuz (tamamen farklı olsa da):
 
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Class:
+    answer = 42
+
+hasattr(Class, 'answer')
+# returns True
+hasattr(Class, 'question')
+# returns False
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+
+Out [1]: <br> <br>
+Out[2]: True
+Out[3]: False
+</p>
+    </div>
+  </article>
+</main>
+
+
 <div id="container">
         <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="9" cols="29" spellcheck="false">
 class Class:
