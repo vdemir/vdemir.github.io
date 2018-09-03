@@ -609,10 +609,9 @@ print sampleclass.count
 </style>
 <main class="grid">
   <article>
-<div class="teaser clearfix"></div>
-<div class="highlight-python3 notranslate"> 
+    <div class="text">
       <p>
-<pre> 
+<pre><code>
 # Write Python code here
 class sampleclass:
     count = 0     # class attribute
@@ -632,18 +631,19 @@ s2.increase()
 print (s2.count)
  
 print (sampleclass.count)
- </pre>
-</p> 
+</code></pre>
+</p>
     </div>
   </article>
   <article>
     <div class="text">
       <p>
-1
-2
-2
 
-In [1]: </p>
+Out [1]: <br>
+1 <br>
+2 <br>
+2
+</p>
     </div>
   </article>
 </main>
