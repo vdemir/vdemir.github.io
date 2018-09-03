@@ -1081,8 +1081,12 @@ Nesneleri <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak
 <div class="w3-code notranslate pythonHigh">
  del p1</div>
 
-<div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="14" cols="35" spellcheck="false">
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
 class Person:
   def __init__(self, name, age):
     self.name = name
@@ -1096,8 +1100,18 @@ p1 = Person("John", 36)
 del p1
 
 print(p1)
-</textarea>
-</div>
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+NameError: name 'p1' is not defined
+</p>
+    </div>
+  </article>
+</main>
 
 <div class="w3-container w3-content">
  <div class="w3-panel w3-white w3-card w3-display-container">
