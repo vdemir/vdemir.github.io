@@ -749,6 +749,11 @@ Sınıf yordamları, sıradan fonksiyonlardan yalnızca belirli bir fark içerir
 
 Her ne kadar bu parametre için herhangi bir isim verseniz de, **self** ismini kullanmanız şiddetle tavsiye edilir. Standart bir ad kullanmanın birçok avantajı vardır - programınızın herhangi bir okuyucusu bunu hemen tanıyacaktır ve **self** kullanırsanız uzmanlaşmış IDE'ler (Entegre Geliştirme Ortamları) size yardımcı olabilir.
 
+<div class="w3-code notranslate pythonHigh">
+Not: Python'daki self, C ++'daki bu pointer ve Java ve C'deki bu referansa eşdeğerdir.</div>
+
+
+
 
 
 <!---------------------------------------------------------->
