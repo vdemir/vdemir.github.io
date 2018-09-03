@@ -976,6 +976,33 @@ We have robots.
   </article>
 </main>
 
+How It Works
+
+This is a long example but helps demonstrate the nature of class and object variables. Here, population belongs to the Robot class and hence is a class variable. The name variable belongs to the object (it is assigned using self) and hence is an object variable.
+
+Thus, we refer to the population class variable as Robot.population and not as self.population. We refer to the object variable name using self.name notation in the methods of that object. Remember this simple difference between class and object variables. Also note that an object variable with the same name as a class variable will hide the class variable!
+
+Instead of Robot.population, we could have also used self.__class__.population because every object refers to its class via the self.__class__ attribute.
+
+The how_many is actually a method that belongs to the class and not to the object. This means we can define it as either a classmethod or a staticmethod depending on whether we need to know which class we are part of. Since we refer to a class variable, let's use classmethod.
+
+We have marked the how_many method as a class method using a decorator.
+
+Decorators can be imagined to be a shortcut to calling a wrapper function (i.e. a function that "wraps" around another function so that it can do something before or after the inner function), so applying the @classmethod decorator is the same as calling:
+
+how_many = classmethod(how_many)
+Observe that the __init__ method is used to initialize the Robot instance with a name. In this method, we increase the population count by 1 since we have one more robot being added. Also observe that the values of self.name is specific to each object which indicates the nature of object variables.
+
+Remember, that you must refer to the variables and methods of the same object using the self only. This is called an attribute reference.
+
+In this program, we also see the use of docstrings for classes as well as methods. We can access the class docstring at runtime using Robot.__doc__ and the method docstring as Robot.say_hi.__doc__
+
+In the die method, we simply decrease the Robot.population count by 1.
+
+All class members are public. One exception: If you use data members with names using the double underscore prefix such as __privatevar, Python uses name-mangling to effectively make it a private variable.
+
+Thus, the convention followed is that any variable that is to be used only within the class or object should begin with an underscore and all other names are public and can be used by other classes/objects. Remember that this is only a convention and is not enforced by Python (except for the double underscore prefix).
+
 
 <br><br>
 
