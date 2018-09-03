@@ -1077,27 +1077,6 @@ AttributeError: 'Person' object has no attribute 'age'
   </article>
 </main>
 
-
-
-<div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="14" cols="35" spellcheck="false">
-class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
-
-  def myfunc(self):
-    print("Hello my name is " + self.name)
-
-p1 = Person("John", 36)
-
-del p1.age
-
-print(p1.age)
-</textarea>
-</div>
-
-
 <br>
 <div class="teaser clearfix"></div>
 <h3> Nesneleri Sil  </h3><hr>
