@@ -869,45 +869,54 @@ Object variables are owned by each individual object/instance of the class. In t
   <article>
     <div class="text">
       <p>
-<pre><code class="language-python">
-# Python program to demonstrate
-# instance attributes.
+<pre><code>
 class Robot:
-"Represents a robot, with a name."
+    """Represents a robot"""
+    """, with a name."""
 
- # A class variable, number of robots
- population = 0
+    # A class variable, 
+    # counting the number of robots
+    population = 0
 
- def __init__(self, name):
-      "Initializes the data."
-   self.name = name
-   print("(Initial {})".format(self.name))
+    def __init__(self, name):
+        """Initializes the data."""
+        self.name = name
+        print("({})".format(self.name))
+        print("Initializing")
 
-   # When this person is created, the robot
-   # adds to the population
-   Robot.population += 1
+        # When this person is created,
+        #  the robot adds to the population
+        Robot.population += 1
 
- def die(self):
-   "I am dying."
-   print("{}".format(self.name))
+    def die(self):
+        """I am dying."""
+        print("{}".format(self.name))
+        print("is being destroyed!")
 
-   Robot.population -= 1
+        Robot.population -= 1
 
-   if Robot.population == 0:
-       print("{}".format(self.name))
-   else:
-       print("{:d}".format(
-          Robot.population))
+        if Robot.population == 0:
+            print("{}".format(self.name))
+            print("was the last one.")
+        else:
+            print(" {:d}".format(
+                Robot.population))
+            print("There are still")
+            print("robots working.")
 
- def say_hi(self):
-    "Greeting by the robot.
-     Yeah, they can do that."
-   print("{}.".format(self.name))
+    def say_hi(self):
+        """Greeting by the robot.
 
- @classmethod
- def how_many(cls):
-    "Prints the current population."
-     print("{:d}".format(cls.population))
+        Yeah, they can do that."""
+        print("{}".format(self.name))
+        print("Greetings,")
+        print("my masters call me.")
+
+    @classmethod
+    def how_many(cls):
+        """Prints the current population."""
+        print("{:d}".format(cls.population))
+        print("We have robots.")
 
 
 droid1 = Robot("R2-D2")
@@ -918,10 +927,10 @@ droid2 = Robot("C-3PO")
 droid2.say_hi()
 Robot.how_many()
 
+print("\nRobots can do some work here.\n")
 
-print("\nRobots can do.\n")
-
-print("Robots.let's destroy them.")
+print("Robots have finished their work.")
+print("So let's destroy them.")
 droid1.die()
 droid2.die()
 
@@ -932,22 +941,36 @@ Robot.how_many()
   </article>
   <article>
     <div class="text">
-      <p>
-(Initializing R2-D2) <br>
-Greetings, my masters call me R2-D2. <br>
-We have 1 robots. <br>
-(Initializing C-3PO) <br>
-Greetings, my masters call me C-3PO. <br>
-We have 2 robots. <br>
+      <p>(R2-D2)
+Initializing
+R2-D2
+Greetings,
+my masters call me.
+1
+We have robots.
+(C-3PO)
+Initializing
+C-3PO
+Greetings,
+my masters call me.
+2
+We have robots.
 
-Robots can do some work here. <br>
+Robots can do some work here.
 
-Robots have finished their work. So let's destroy them. <br>
-R2-D2 is being destroyed! <br>
-There are still 1 robots working. <br>
-C-3PO is being destroyed! <br>
-C-3PO was the last one. <br>
-We have 0 robots.
+Robots have finished their work.
+So let's destroy them.
+R2-D2
+is being destroyed!
+ 1
+There are still
+robots working.
+C-3PO
+is being destroyed!
+C-3PO
+was the last one.
+0
+We have robots.
 </p>
     </div>
   </article>
