@@ -123,8 +123,12 @@ img.resize {
 <div class="w3-code notranslate pythonHigh">
   class MyClass:<br> &nbsp; 'Python Temel Sınıf'<br> &nbsp; x = 5<br>print(MyClass)</div>
 
-<div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="15" cols="29" spellcheck="false">
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
 class Sinif:
     def bir_yordam(self):
         print ('Hey bir yordam')
@@ -138,7 +142,21 @@ ozdes.bir_yordam()
 
 Sinif.bir_yordam(ozdes)
 # 'Hey bir yordam' yazdırır
-</textarea></div>
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+23<br>
+Anne
+</p>
+    </div>
+  </article>
+</main>
+
+
 
 <!----------------------------------------->
 
@@ -153,7 +171,7 @@ Artık nesneleri oluşturmak için **myClass** adlı sınıfı kullanabiliriz:
 <br>
 <div class="teaser clearfix"></div>
 <h3 id="C3">Sınıf Eşleme ile Nesne Oluşturma</h3><hr>
- Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">__init__()</code> yordamının kabul ettiği ifadeleri iletirsiniz:
+ Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">init</code> yordamının kabul ettiği ifadeleri iletirsiniz:
 <div class="w3-code notranslate pythonHigh">
   p1 = Person("John", 36)</div><br><br>
 
