@@ -755,7 +755,8 @@ tom_account.interest # Özdeş adlandırılmış özdeş öznitelikleri olmayan 
 
 jim_account.interest # ancak mevcut özdeş özniteliği etkilenmez
 0.08
-
+<br>
+<h4> Sınıf Öznitelikleri</h4>
 Sınıf öznitelikleri, tüm özdeşlerle paylaşılacakları sınıfa aittir. Bu öznitelikler, okunabilirlik için genellikle üst kısımdaki sınıf gövdesi parçalarında tanımlanmaktadır.
 
 <br>
