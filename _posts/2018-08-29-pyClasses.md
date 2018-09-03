@@ -259,15 +259,32 @@ Bir sınıf/öbek bir **__init__()** yordamını tanımladığında, sınıf/öb
 Elbette **__init__()** yordamı daha fazla esneklik için argümanlara sahip olabilir. Bu durumda, sınıf/öbek örnekleme işlecine verilen argümanlar **__init__()** öğesine iletilir. Örneğin,
 
 <div class="teaser clearfix"></div>
-<div class="highlight-python3 notranslate"><div class="highlight"><pre>
 
+
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
 class Complex:
      def __init__(self, realpart, imagpart):
           self.r = realpart
           self.i = imagpart
 x = Complex(3.0, -4.5)
 x.r, x.i
-</pre></div></div>
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+Out[1]: (3.0, -4.5)
+</p>
+    </div>
+  </article>
+</main>
 
 <br><br>
 
