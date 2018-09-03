@@ -175,8 +175,11 @@ Artık nesneleri oluşturmak için **myClass** adlı sınıfı kullanabiliriz:
 <div class="teaser clearfix"></div>
 <h3 id="C3">Sınıf Eşleme ile Nesne Oluşturma</h3><hr>
  Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">init</code> yordamının kabul ettiği ifadeleri iletirsiniz:
+
 <div class="w3-code notranslate pythonHigh">
-  p1 = Person("John", 36)</div><br><br>
+  p1 = Person("John", 36)</div>
+
+<br><br>
 
 <div class="teaser clearfix"></div>
 <h3 id="C4">Öbeğin Özniteliklerine Erişim</h3><hr>
@@ -204,8 +207,6 @@ Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnek
 Öznitelik referansları, Python: obj.name'deki tüm öznitelik referansları için kullanılan standart sözdizimini kullanır. Geçerli nesne adları, sınıf nesnesi oluşturulduğunda sınıfın ad alanındaki tüm adlardır. Yani, sınıf tanımı böyle görünüyorsa:
 <br>
 <div class="teaser clearfix"></div>
-
-
 <main class="grid">
   <article>
     <div class="text">
@@ -668,9 +669,6 @@ I was called from the instance <__main__.Class object at 0x7f6854953748>
   </article>
 </main>
 
-
-
-
 <br>
 <h4 id="C86">Sınıf Öznitelikleri</h4>
 <hr>
@@ -742,7 +740,8 @@ jim_account.interest = 0.08
 
 ve bu öznitelik değeri bir nokta ifadesinden döndürülecek
 
-jim_account.interest
+<div class="w3-code notranslate pythonHigh">
+jim_account.interest</div>
 0.08
 
 Bununla birlikte, sınıf özniteliği, diğer tüm hesaplar için döndürülen orijinal değerini hala korur.
@@ -751,12 +750,18 @@ Sınıf özniteliğindeki değişiklikler tom_account'ı etkiler, ancak jim_acco
 
 Account.interest = 0.05 # sınıf özniteliğini değiştirme
 
-tom_account.interest # Özdeş adlandırılmış özdeş öznitelikleri olmayan özdeşleri değiştirir. 
+# Özdeş adlandırılmış özdeş öznitelikleri olmayan özdeşleri değiştirir.
+<div class="w3-code notranslate pythonHigh">
+tom_account.interest</div>
 0.05
 
-jim_account.interest # ancak mevcut özdeş özniteliği etkilenmez
+# ancak mevcut özdeş özniteliği etkilenmez
+<div class="w3-code notranslate pythonHigh">
+jim_account.interest</div>
 0.08
+
 <br><br>
+
 <h4> Sınıf Öznitelikleri</h4><hr>
 Sınıf öznitelikleri, tüm özdeşlerle paylaşılacakları sınıfa aittir. Bu öznitelikler, okunabilirlik için genellikle üst kısımdaki sınıf gövdesi parçalarında tanımlanmaktadır.
 
