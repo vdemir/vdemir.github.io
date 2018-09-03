@@ -960,12 +960,14 @@ Bu aynı zamanda, hiçbir argüman almayan bir yordamınız varsa, o zaman hala 
     <div class="text">
       <p>
 <pre><code>
-class Parent(object): # Base class definition
+class Parent(object): 
+# Base class definition
   def printlnfo(self):
    print ('Base class method')
   def parentMethod(self) :
    self.printInfo()
-class Child(Parent): # Derived class definition
+class Child(Parent): 
+# Derived class definition
  def printInfo(self):
   super(Child,self).printlnfo()
  # Parent.printInfo(self)
