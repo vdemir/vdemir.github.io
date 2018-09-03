@@ -521,10 +521,10 @@ Class.an_instance_method()
       <p>
 
 Out [1]: <br>
-I was called from class <class '__main__.Class'> <br>
-I was called from class <class '__main__.Class'> <br>
-I have no idea where I was called from <br>
-I have no idea where I was called from <br> 
+I was called from class <class '__main__.Class'> <br> <br>
+I was called from class <class '__main__.Class'> <br> <br>
+I have no idea where I was called from <br> <br>
+I have no idea where I was called from <br>  <br>
 I was called from the instance <__main__.Class object at 0x7f6854953748>
 </p>
     </div>
