@@ -429,7 +429,6 @@ def new_method(self):
 Class.method = new_method
 instance.method()
 # prints 'New method wins!'
-
 </code></pre>
 </p>
     </div>
