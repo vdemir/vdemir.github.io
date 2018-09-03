@@ -18,7 +18,6 @@ lang: tr
 
 
 <div class="w3-panel w3-card w3-light-grey">
-  <h3></h3>
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
@@ -185,7 +184,7 @@ Nokta (.) operatörünü nesne ile kullanarak erişebilirsiniz. Sınıf adı kul
   print(p1.x)<br>print(MyClass.x)</div>
 
 <div class="w3-panel w3-card w3-light-grey">
-  <h3>Özniteliklerin tanımı</h3>
+  <h4>Özniteliklerin tanımı</h4>
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
@@ -336,7 +335,7 @@ Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey
  
 
 <div class="teaser clearfix"></div>
-<h3 id="C17">Python OOP'a Giriş</h3><hr>
+<h3 id="C8">Python OOP'a Giriş</h3><hr>
 
 Bir sınıf, bir öbek grubunu, kapsadığı veriler ve arayüz fonksiyonları tarafından izin verilen veriler üzerindeki işlemler açısından tanımlar.
 
@@ -816,7 +815,7 @@ Out [1]: <br>
 <br><br>
 
 <div class="teaser clearfix"></div>
-<h4><code class="w3-codespan">new</code> yordamı </h4><hr>
+<h3><code class="w3-codespan">new</code> yordamı </h3><hr>
  <code class="w3-codespan">new</code> örnekleme ile oluşturan ve döndüren python özel yordamıdır.
 
 <main class="grid">
@@ -1104,7 +1103,7 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
 
 <br>
 <div class="teaser clearfix"></div>
-<h3 id="C13">Nesne Özniteliklerini Değiştirmek</h3><hr>
+<h3 id="C14">Nesne Özniteliklerini Değiştirmek</h3><hr>
 Bu gibi nesnelerdeki öznitelikleri değiştirebilirsiniz:
 <p>p1'in yaşını 40'a ayarlayın:</p>
 <div class="w3-code notranslate pythonHigh">
@@ -1237,7 +1236,7 @@ NameError: name 'p1' is not defined
 <br><br>
 <div class="teaser clearfix"></div>
 <script src="{{ sitebase.url }}/scripts/dcl-react.js.gz"></script>
-<a id="C17" class="w3-btn w3-margin-bottom">Just python 3 'Run'.</a>
+<h3  id="C17"><a class="w3-btn w3-margin-bottom">Just python 3 'Run'.</a></h3>
 <div data-datacamp-exercise data-lang="python" data-height="auto">
       <code data-type="pre-exercise-code"></code>
       <code data-type="sample-code">
