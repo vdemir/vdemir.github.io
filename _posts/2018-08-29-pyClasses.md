@@ -740,20 +740,16 @@ Hello my name is John
 </p>
     </div>
   </article>
-</main>
+</main> 
+
+<br>
+
 <div class="teaser clearfix"></div>
+
 <div class="w3-code notranslate pythonHigh">
-  class Person:<br>&nbsp; def __init__(self, name, age):<br>&nbsp;&nbsp;&nbsp; 
-  self.name = name<br>&nbsp;&nbsp;&nbsp; self.age = age<br><br>&nbsp; def myfunc(self):<br>&nbsp;&nbsp;&nbsp; 
-  print(&quot;Hello my name is &quot; + self.name)<br><br>p1 = Person(&quot;John&quot;, 
-  36)<br>p1.myfunc()</div><br>
-
-<div class="teaser clearfix"></div>
+<strong>Not:</strong>  <code class="w3-codespan">init</code> bir sınıfın kurucusudur aslında başlatıcıdır. <code class="w3-codespan">init</code> yordamı, nesnenin belleğinin tahsis edildiği anda çağrılır.</div>
 
 
-<div class="w3-note">
-  <p><strong>Not:</strong> <code class="w3-codespan">init</code> bir sınıfın kurucusudur aslında başlatıcıdır. <code class="w3-codespan">init</code> yordamı, nesnenin belleğinin tahsis edildiği anda çağrılır.</p>
-</div>
 <!---------------------------------------------------------->
 
 
