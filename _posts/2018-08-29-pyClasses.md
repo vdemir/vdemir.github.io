@@ -952,7 +952,7 @@ We have robots.<br>
 Initializing
 C-3PO<br>
 Greetings,
-my masters call me.
+my masters call me.<br>
 2
 We have robots.<br>
 
@@ -966,7 +966,7 @@ is being destroyed!<br>
 There are still
 robots working.<br>
 C-3PO
-is being destroyed!
+is being destroyed!<br>
 C-3PO
 was the last one.<br>
 0
