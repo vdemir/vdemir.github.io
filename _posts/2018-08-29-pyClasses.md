@@ -447,24 +447,6 @@ New method wins!
 </main>
 
 
-<div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="15" cols="29" spellcheck="false">
-class Class:
-   def method(self):
-        print ('Hey a method')
-
-instance = Class()
-instance.method()
-# prints 'Hey a method'
-
-def new_method(self):
-    print ('New method wins!')
-
-Class.method = new_method
-instance.method()
-# prints 'New method wins!'
-</textarea></div>
-
 Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşmayın, bu kötü bir formdur ve bu sınıfı kullanarak herhangi bir öbeği karıştırır. Öte yandan, yordamların eklenmesi çok daha az (ama yine de biraz) tehlikelidir.
 
 
