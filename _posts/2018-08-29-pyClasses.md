@@ -852,6 +852,98 @@ Dictionary form : {'salary': 4000, 'name': 'xyz'} <br>
   </article>
 </main>
 
+<br>
+<h4>Sınıf ve Nesne Değişkenleri</h4><hr>
+
+We have already discussed the functionality part of classes and objects (i.e. methods), now let us learn about the data part. The data part, i.e. fields, are nothing but ordinary variables that are bound to the namespaces of the classes and objects. This means that these names are valid within the context of these classes and objects only. That's why they are called name spaces.
+
+There are two types of fields - class variables and object variables which are classified depending on whether the class or the object owns the variables respectively.
+
+Class variables are shared - they can be accessed by all instances of that class. There is only one copy of the class variable and when any one object makes a change to a class variable, that change will be seen by all the other instances.
+
+Object variables are owned by each individual object/instance of the class. In this case, each object has its own copy of the field i.e. they are not shared and are not related in any way to the field by the same name in a different instance. An example will make this easy to understand (save as oop_objvar.py):
+
+<br>
+ 
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+# Python program to demonstrate
+# instance attributes.
+class Robot:
+    """Represents a robot, with a name."""
+
+    # A class variable, counting the number of robots
+    population = 0
+
+    def __init__(self, name):
+        """Initializes the data."""
+        self.name = name
+        print("(Initializing {})".format(self.name))
+
+        # When this person is created, the robot
+        # adds to the population
+        Robot.population += 1
+
+    def die(self):
+        """I am dying."""
+        print("{} is being destroyed!".format(self.name))
+
+        Robot.population -= 1
+
+        if Robot.population == 0:
+            print("{} was the last one.".format(self.name))
+        else:
+            print("There are still {:d} robots working.".format(
+                Robot.population))
+
+    def say_hi(self):
+        """Greeting by the robot.
+
+        Yeah, they can do that."""
+        print("Greetings, my masters call me {}.".format(self.name))
+
+    @classmethod
+    def how_many(cls):
+        """Prints the current population."""
+        print("We have {:d} robots.".format(cls.population))
+
+
+droid1 = Robot("R2-D2")
+droid1.say_hi()
+Robot.how_many()
+
+droid2 = Robot("C-3PO")
+droid2.say_hi()
+Robot.how_many()
+
+
+print("\nRobots can do some work here.\n")
+
+print("Robots have finished their work. So let's destroy them.")
+droid1.die()
+droid2.die()
+
+Robot.how_many()
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+Dictionary form : {'salary': 4000, 'name': 'xyz'} <br>
+['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'name', 'salary', 'show']
+</p>
+    </div>
+  </article>
+</main>
+
+
+
+
 <br><br>
 
 <div class="teaser clearfix"></div>
