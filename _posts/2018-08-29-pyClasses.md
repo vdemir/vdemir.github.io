@@ -377,24 +377,6 @@ Hey a method
 </main>
 
 
-<div class="teaser clearfix"></div>
-<div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="15" cols="33" spellcheck="false">
-class Class:
-    def a_method(self):
-        print 'Hey a method'
-
-instance = Class()
-
-instance.a_method()
-# prints 'Hey a method', 
-# somewhat unsuprisingly.  
-# You can also do:
-
-Class.a_method(instance)
-# prints 'Hey a method'
-</textarea></div>
-
 Dahili olarak, bu ifadeler tamamen aynıdır.
 
 <br>
