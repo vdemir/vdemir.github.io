@@ -57,18 +57,6 @@ class ClassName:
 
 Burada, (class docstring) class_name._doc_ üzerinden erişilebilen bir belge dizesidir ve class_suite, temel olarak sınıf elemanlarını, veri özniteliklerini ve yordamları tanımlayan tüm bileşen ifadelerinden oluşur.
 <br>
-<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/class1.png" alt="programs" class="resize" />
-  <p><small>Python &bull; Sınıflar.</small></p>
-</div> 
-  
-<style>
-img.resize {
-  max-width:100%;
-  max-height:100%;
-}
-</style>
-
 
 <main class="grid">
   <article>
@@ -116,8 +104,17 @@ Anne
   </article>
 </main>
 
-
-<!------------------------------------->
+<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="{{ site.baseurl }}/images/class1.png" alt="programs" class="resize" />
+  <p><small>Python &bull; Sınıflar.</small></p>
+</div> 
+  
+<style>
+img.resize {
+  max-width:100%;
+  max-height:100%;
+}
+</style>
 
 <br><br>
 
