@@ -70,9 +70,11 @@ img.resize {
 </style>
 
 
-<div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="30" cols="35" spellcheck="false">
-
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
 # sınıfın tanımı burada başlar  
 class Person:
     # değişkenleri başlatma yordamı
@@ -99,8 +101,20 @@ person1 = Person("Richard", 23)
 person2 = Person("Anne", 30)
 #Nesne/Öbek yordamının elemanını çağırır  
 person1.showAge()
-person2.showName() 
-</textarea></div>
+person2.showName()
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+23<br>
+Anne
+</p>
+    </div>
+  </article>
+</main>
 
 
 <!------------------------------------->
