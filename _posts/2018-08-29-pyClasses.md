@@ -14,6 +14,13 @@ lang: tr
 {% include tr_ay.html %}
 <link rel="stylesheet" href="{{ sitebase.url }}/css/w3.css">
 <link rel="stylesheet" href="{{ sitebase.url }}/css/code.css">
+  
+<style>
+img.resize {
+  max-width:100%;
+  max-height:100%;
+}
+</style>
 <br>
 
 
@@ -113,13 +120,7 @@ Anne
   <img src="{{ site.baseurl }}/images/class1.png" alt="programs" class="resize" />
   <p><small>Python &bull; Sınıflar.</small></p>
 </div> 
-  
-<style>
-img.resize {
-  max-width:100%;
-  max-height:100%;
-}
-</style>
+
 
 <br><br>
 
