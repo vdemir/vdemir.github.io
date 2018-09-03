@@ -889,25 +889,25 @@ class Robot:
 
  def die(self):
    "I am dying."
-   print("{} destroyed!".format(self.name))
+   print("{}".format(self.name))
 
    Robot.population -= 1
 
    if Robot.population == 0:
-       print("{} last one.".format(self.name))
+       print("{}".format(self.name))
    else:
-       print("{:d} robots working.".format(
+       print("{:d}".format(
           Robot.population))
 
  def say_hi(self):
     "Greeting by the robot.
      Yeah, they can do that."
-   print("Greetings {}.".format(self.name))
+   print("{}.".format(self.name))
 
  @classmethod
  def how_many(cls):
     "Prints the current population."
-     print("{:d} robots.".format(cls.population))
+     print("{:d}".format(cls.population))
 
 
 droid1 = Robot("R2-D2")
