@@ -343,6 +343,39 @@ obj.name = "Andre"</div>
 Yordamlar, bir özdeşden çağrıldığında, ilk ifade olarak (genellikle 'self' olarak çağrılır) bu özdeşe geçirilen normal fonksiyonlardır. Herhangi bir nedenle fonksiyonu bir özdeşden çağırmıyorsanız, özdeşe her zaman ilk ifade olarak el ile geçirebilirsiniz. Örneğin:
 
  
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Class:
+    def a_method(self):
+        print ('Hey a method')
+
+instance = Class()
+
+instance.a_method()
+# prints 'Hey a method', 
+# somewhat unsuprisingly.  
+# You can also do:
+
+Class.a_method(instance)
+# prints 'Hey a method'
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+
+Hey a method <br>
+Hey a method
+</p>
+    </div>
+  </article>
+</main>
+
 
 <div class="teaser clearfix"></div>
 <div id="container">
