@@ -987,9 +987,9 @@ Hello, my name is Swaroop
     </div>
   </article>
 </main> 
-
-<h5>Nasıl çalışır</h5>
-
+<br>
+<h5>Nasıl çalışır</h5><hr>
+Burada, bir parametre adı alarak __init__ metodunu tanımlarız (her zamanki gibi self).
 
 
 
