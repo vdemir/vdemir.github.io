@@ -643,14 +643,6 @@ Out [1]: <br>
 <h4><code class="w3-codespan">new</code> yordamı </h4><hr>
  <code class="w3-codespan">new</code> örnekleme ile oluşturan ve döndüren python özel yordamıdır.
 
-<div class="w3-code notranslate pythonHigh">
-  class Sample(object):<br>&nbsp; def __new__(cls, *args, **kargs):<br>&nbsp;&nbsp;&nbsp; 
-  print ("Creating instance of Sample")<br>&nbsp;&nbsp;&nbsp; return super(Sample, cls).__new__(cls)<br><br>&nbsp; def __init__(self):<br>&nbsp;&nbsp;&nbsp; 
-  print ("Initiating instance of Sample")<br>s=Sample()</div><br>
-<div class="teaser clearfix"></div>
-<div class="w3-note">
-
-
 <main class="grid">
   <article>
     <div class="text">
