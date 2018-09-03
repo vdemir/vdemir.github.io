@@ -678,7 +678,7 @@ str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturm
   <p> <code class="w3-codespan">init</code> bazen nesnenin kurucusu olarak adlandırılır, çünkü kurucuların diğer dillerde kullanıldığı gibi kullanılır, ancak bu teknik olarak doğru değildir - onu başlatıcı olarak adlandırmak daha iyidir. Bir kurucuya daha benzer olan <code class="w3-codespan">new</code> adlı farklı bir yordam var, ancak neredeyse hiç kullanılmıyor.</p>
 </div>
 
-
+<br>
 <div class="w3-container">
   <table class="w3-table">
     <tr>
