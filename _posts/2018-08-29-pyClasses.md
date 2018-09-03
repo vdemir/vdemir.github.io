@@ -966,12 +966,14 @@ class Parent(object):
     print ('Base class method')
   def parentMethod(self) :
     self.printInfo()
+
 class Child(Parent): 
 # Derived class definition
  def printInfo(self):
    super(Child,self).printlnfo()
- # Parent.printInfo(self)
+   # Parent.printInfo(self)
    print ('Derived class method')
+
 c=Child()
 c.parentMethod()
 </code></pre>
