@@ -649,18 +649,21 @@ Out [1]: <br>
   print ("Initiating instance of Sample")<br>s=Sample()</div><br>
 <div class="teaser clearfix"></div>
 <div class="w3-note">
-  <p><strong>Not:</strong> Örneklem ile oluşturulduktan sonra <code class="w3-codespan">__init__()</code> yordamı çağrılır. Gerçek oluşturma işlemini kontrol etmek istiyorsanız, <code class="w3-codespan">__new__()</code> yordamını kullanın.</p>
+  <p><strong>Not:</strong> Örneklem ile oluşturulduktan sonra <code class="w3-codespan">init</code> yordamı çağrılır. Gerçek oluşturma işlemini kontrol etmek istiyorsanız, <code class="w3-codespan">new</code> yordamını kullanın.</p>
 </div> 
 
 <div class="w3-note">
-  <p><strong>Not:</strong> <code class="w3-codespan">__new__()</code>, bir cls yordamı döndürürse, argümanların geri kalanıyla <code class="w3-codespan">__init__()</code> çağrılır (...), aksi halde <code class="w3-codespan">__init__()</code> çağrılmaz.</p>
+  <p><strong>Not:</strong> <code class="w3-codespan">new</code>, bir cls yordamı döndürürse, argümanların geri kalanıyla <code class="w3-codespan">init</code> çağrılır (...), aksi halde <code class="w3-codespan">init</code> çağrılmaz.</p>
 </div>
 
 <div class="w3-note">
   <p><strong>Not:</strong> Python sınıf kurucusunun iki adımı vardır: Örneklem ile oluşturmak için <code class="w3-codespan">new</code> çağırma ve başlatmak için <code class="w3-codespan">init</code> çağırma. <code class="w3-codespan">init</code> isteğe bağlı bir adım değildir, <code class="w3-codespan">init</code> başarısız olursa örneklem oluşturma da başarısız olur. </p></div> 
 
-<div class="w3-note">
-  <p><strong>Not:</strong> Yeni bir örneklemin oluşturulmasını kontrol etmeniz gerektiğinde <code class="w3-codespan">new</code> kullanın. 
+
+<div class="w3-code notranslate pythonHigh">
+<strong>Not:</strong> Python sınıf kurucusunun iki adımı vardır: Örneklem ile oluşturmak için <code class="w3-codespan">new</code> çağırma ve başlatmak için <code class="w3-codespan">init</code> çağırma. <code class="w3-codespan">init</code> isteğe bağlı bir adım değildir, <code class="w3-codespan">init</code> başarısız olursa örneklem oluşturma da başarısız olur.</div>
+
+<p> Yeni bir örneklemin oluşturulmasını kontrol etmeniz gerektiğinde <code class="w3-codespan">new</code> kullanın. 
 Yeni bir örneklemin başlatılmasını kontrol etmeniz gerektiğinde <code class="w3-codespan">init</code> kullanın. 
 
 <code class="w3-codespan">new</code>, örneklem oluşturmanın ilk adımıdır. İlk olarak adlandırılır, 
@@ -668,7 +671,7 @@ ve sınıfınızın yeni bir örneklemi döndürmekten sorumludur.
 Tezatında, <code class="w3-codespan">init</code> hiçbir şey döndürmez; yalnızca, oluşturulduktan sonra örneklemin başlatmasından sorumludur. 
 
 Genel olarak, 
-str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturmuyorsanız <code class="w3-codespan">new</code>'yi geçersiz kılmanız gerekmez. </p></div> 
+str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturmuyorsanız <code class="w3-codespan">new</code>'yi geçersiz kılmanız gerekmez. </p> 
 
 <div class="w3-panel w3-turquaz">
     <h3>Bilgi!</h3>
