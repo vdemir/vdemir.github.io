@@ -336,6 +336,24 @@ Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey
 <div class="teaser clearfix"></div>
 <h3 id="C8">Python OOP'a Giriş</h3><hr>
 
+
+<div class="w3-panel w3-card w3-light-grey">
+  <div class="w3-container w3-white">
+    <p>
+    <ul class="w3-ul w3-card-4" style="width:85%">
+      <li><a href="#C81" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Özdeşleri</a></li>
+      <li><a href="#C82" style="text-decoration: none; color:#388E3C; cursor:pointer">El Yordamı ile 'self' Geçirme</a></li>
+      <li><a href="#C83" style="text-decoration: none; color:#388E3C; cursor:pointer">Öznitelik ve Yordam Varlığını Kontrol Etme</a></li>
+      <li><a href="#C84" style="text-decoration: none; color:#388E3C; cursor:pointer">Oluşturulduktan Sonra Sınıfların Değiştirilmesi</a></li>
+      <li><a href="#C85" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Yordamları Oluşturma</a></li>
+      <li><a href="#C86" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Öznitelikleri</a></li>
+    </ul>
+    </p>
+  </div>
+</div>
+<br>
+
+
 Bir sınıf, bir öbek grubunu, kapsadığı veriler ve arayüz fonksiyonları tarafından izin verilen veriler üzerindeki işlemler açısından tanımlar.
 
 Esas olarak, bir sınıf öbeklerin oluşturulabileceği bir şablondur.
@@ -348,7 +366,7 @@ Her sınıfın, tüm görevlerin ve fonksiyon tanımlarının meydana geldiği k
 
 <br>
 
-<h4>Sınıf Özdeşleri</h4><hr>
+<h4 id="C81">Sınıf Özdeşleri</h4><hr>
 
 Bir sınıfın özdeşi, bir Python öbeğidir ve her Python öbeğine benzer şekilde, şu özelliklere sahiptir: kimlik, öbek/nesne tipi, öznitelikler, yordamlar ve değeri.
 **(identity, object type, attributes, methods, and value)
@@ -408,11 +426,10 @@ obj.name = "Andre"</div>
 
 **'Andre'** dizesi, **obj** öbeğinin **name** özniteliğine atanan değerdir.
 
-<!------------------------------------------>
 
 <br><br>
 
-<h4>El Yordamı ile 'self' Geçirme</h4>
+<h4 id="C82">El Yordamı ile 'self' Geçirme</h4>
 <hr>
 Yordamlar, bir özdeşden çağrıldığında, ilk ifade olarak (genellikle 'self' olarak çağrılır) bu özdeşe geçirilen normal fonksiyonlardır. Herhangi bir nedenle fonksiyonu bir özdeşden çağırmıyorsanız, özdeşe her zaman ilk ifade olarak el ile geçirebilirsiniz. Örneğin:
 
@@ -454,7 +471,7 @@ Hey a method
 Dahili olarak, bu ifadeler tamamen aynıdır.
 
 <br>
-<h4>Öznitelik ve Yordam Varlığını Kontrol Etme</h4>
+<h4 id="C83">Öznitelik ve Yordam Varlığını Kontrol Etme</h4>
 <hr>
 
 Belirli bir sınıfın veya özdeşin, belirli bir öznitelik veya yordama sahip olup olmadığını bilmek gerekir mi? Yerleşik **'hasattr'** işlevini kontrol etmek için kullanabilirsiniz; kontrol etmek için nesneyi ve özniteliği (dizge olarak) kabul eder. Dict 'has_key' yöntemine benzer şekilde kullanıyorsunuz (tamamen farklı olsa da):
@@ -529,7 +546,7 @@ AttributeError: type object <br>
 Aşırı **hasattr** ve **getattr** kullanmayın. Sınıfınızı, bir özniteliğin var olup olmadığını kontrol etmeye devam etmeniz gereken bir şekilde yazmışsanız, yanlış yazmışsınız demektir. Sadece her zaman var olan değere sahip olur ve kullanılmıyorsa **None** (ya da her neyse) olarak ayarlayın. Bu fonksiyonlar en iyi şekilde çokbiçimliliği ele almak için kullanılır, Yani, fonksiyonunuzu / sınıfınızı / öbeklerin farklı türlerini desteklemenizi sağlar.
 
 <br>
-<h4>Oluşturulduktan Sonra Sınıfların Değiştirilmesi</h4>
+<h4 id="C84">Oluşturulduktan Sonra Sınıfların Değiştirilmesi</h4>
 <hr>
 
 
@@ -575,7 +592,7 @@ Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşma
 
 
 <br>
-<h4>Sınıf Yordamları Oluşturma</h4>
+<h4 id="C85">Sınıf Yordamları Oluşturma</h4>
 <hr>
 
 Bazen bir sınıf yazarken, sınıftan çağrılan bir fonksiyonu dahil etmek istersiniz, özdeşini değil. Belki bu yordam yeni özdeşler oluşturur veya belki de herhangi bir özel özdeşin herhangi bir özniteliğinden bağımsızdır. Python, yordamınızın, hangi sınıfın çağırdığını bilmesi gerektiğine (ya da bilmesine) bağlı olarak, bunu yapmanın iki yolunu size verir. Her ikisi de yordamlarınıza dekoratörler uygulamasını içerir. 
@@ -653,7 +670,7 @@ I was called from the instance <__main__.Class object at 0x7f6854953748>
 
 
 <br>
-<h4>Sınıf Öznitelikleri</h4>
+<h4 id="C86">Sınıf Öznitelikleri</h4>
 <hr>
 
 Bazı öznitelik değerleri, verilen bir sınıfın tüm öbeklerinde paylaşılır. Bu öznitelikler, sınıfın herhangi bir tek özdeşinden ziyade sınıfın kendisi ile ilişkilendirilir. Örneğin, bir bankanın hesap bakiyesine sabit faiz oranından faiz ödediğini söyleyelim. Bu faiz oranı değişebilir, ancak tüm hesaplarda paylaşılan tek bir değerdir. 
