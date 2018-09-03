@@ -869,7 +869,7 @@ Object variables are owned by each individual object/instance of the class. In t
   <article>
     <div class="text">
       <p>
-<pre><code>
+<pre><code class="language-python">
 # Python program to demonstrate
 # instance attributes.
 class Robot:
