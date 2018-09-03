@@ -712,6 +712,35 @@ Tüm sınıflar, sınıf başlatıldığında her zaman çalıştırılan <code 
 Nesne özniteliklerine veya nesne oluşturulduğunda yapılması gereken diğer işlemlere değer atamak için <code class="w3-codespan">init</code> yordamını kullanın:
 
  
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def myfunc(self):
+    print("Hello my name is " + self.name)
+
+p1 = Person("John", 36)
+p1.myfunc()
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+
+Out [1]: <br>
+Hello my name is John
+</p>
+    </div>
+  </article>
+</main>
 <div class="teaser clearfix"></div>
 <div class="w3-code notranslate pythonHigh">
   class Person:<br>&nbsp; def __init__(self, name, age):<br>&nbsp;&nbsp;&nbsp; 
