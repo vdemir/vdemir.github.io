@@ -375,7 +375,7 @@ Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım ol
 <br> 
 
 <div class="teaser clearfix"></div>
-<h4">Özdeş Öbeğin Özniteliklerine Erişim</h4><hr>
+<h4>Özdeş Öbeğin Özniteliklerine Erişim</h4><hr>
 Nokta (.) operatörünü öbek ismi ile kullanarak erişebilirsiniz. Sınıf adı kullanarak da sınıf özdeğerlerine erişilebilir:
 <div class="w3-code notranslate pythonHigh">
   print(p1.x)<br>print(MyClass.x)</div>
