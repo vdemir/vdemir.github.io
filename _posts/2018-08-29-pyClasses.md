@@ -963,15 +963,15 @@ Bu aynı zamanda, hiçbir argüman almayan bir yordamınız varsa, o zaman hala 
 class Parent(object): 
 # Base class definition
   def printlnfo(self):
-   print ('Base class method')
+    print ('Base class method')
   def parentMethod(self) :
-   self.printInfo()
+    self.printInfo()
 class Child(Parent): 
 # Derived class definition
  def printInfo(self):
-  super(Child,self).printlnfo()
+   super(Child,self).printlnfo()
  # Parent.printInfo(self)
-  print ('Derived class method')
+   print ('Derived class method')
 c=Child()
 c.parentMethod()
 </code></pre>
