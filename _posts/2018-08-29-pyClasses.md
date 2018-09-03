@@ -751,7 +751,7 @@ Sınıf özniteliğindeki değişiklikler **tom_account**'ı etkiler, ancak **ji
 Account.interest = 0.05 # sınıf özniteliğini değiştirme
 
 <div class="w3-code notranslate pythonHigh">
-# Özdeş adlandırılmış özdeş öznitelikleri olmayan özdeşleri değiştirir.
+# Özdeş adlandırılmış özdeş öznitelikleri olmayan özdeşleri değiştirir. <br>
 tom_account.interest</div>
 0.05
 
