@@ -579,8 +579,6 @@ print s2.count
  
 print sampleclass.count
 </textarea></div>
-
-<!doctype html>
 <title>Example</title>
 <style>
 .grid { 
@@ -611,6 +609,8 @@ print sampleclass.count
 </style>
 <main class="grid">
   <article>
+<div class="teaser clearfix"></div>
+<div class="highlight-python3 notranslate">
     <div class="text">
       <p>
 <pre><code>
@@ -636,10 +636,12 @@ print (sampleclass.count)
 </code></pre>
 </p>
     </div>
+    </div>
   </article>
   <article>
     <div class="text">
-      <p>1
+      <p>
+1
 2
 2
 
