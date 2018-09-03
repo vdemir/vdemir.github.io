@@ -746,7 +746,7 @@ jim_account.interest</div>
 
 Bununla birlikte, sınıf özniteliği, diğer tüm hesaplar için döndürülen orijinal değerini hala korur.
 
-Sınıf özniteliğindeki değişiklikler tom_account'ı etkiler, ancak jim_account için özdeş özniteliği etkilenmez.
+Sınıf özniteliğindeki değişiklikler **tom_account**'ı etkiler, ancak **jim_account** için özdeş özniteliği etkilenmez.
 
 Account.interest = 0.05 # sınıf özniteliğini değiştirme
 
