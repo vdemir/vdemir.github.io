@@ -415,18 +415,6 @@ Out [1]: <br> <br>
   </article>
 </main>
 
-<div id="container">
-        <textarea autocomplete="off" id="textareaCode" wrap="logical" rows="11" cols="29" spellcheck="false">
-class Class:
-    answer = 42
-
-getattr(Class, 'answer')
-# returns 42
-getattr(Class, 'question', 'What is six times nine?')
-# returns 'What is six times nine?'
-getattr(Class, 'question')
-# raises AttributeError
-</textarea></div>
 
 
 Aşırı **hasattr** ve **getattr** kullanmayın. Sınıfınızı, bir özniteliğin var olup olmadığını kontrol etmeye devam etmeniz gereken bir şekilde yazmışsanız, yanlış yazmışsınız demektir. Sadece her zaman var olan değere sahip olur ve kullanılmıyorsa **None** (ya da her neyse) olarak ayarlayın. Bu fonksiyonlar en iyi şekilde çokbiçimliliği ele almak için kullanılır, Yani, fonksiyonunuzu / sınıfınızı / öbeklerin farklı türlerini desteklemenizi sağlar.
