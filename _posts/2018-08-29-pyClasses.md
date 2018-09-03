@@ -510,7 +510,8 @@ instance.a_static_method()
 # 'I have no idea where I was called from' 
 
 instance.an_instance_method()
-# prints something like 'I was called from the instance 
+# prints something like
+# 'I was called from the instance
 # <__main__.Class instance at 0x2e80d0>'
 
 Class.an_instance_method()
