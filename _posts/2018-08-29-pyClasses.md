@@ -670,7 +670,7 @@ Tezatında, <code class="w3-codespan">init</code> hiçbir şey döndürmez; yaln
 Genel olarak, 
 str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturmuyorsanız <code class="w3-codespan">new</code>'yi geçersiz kılmanız gerekmez. </p></div> 
 
-<div class="w3-panel w3-yellow">
+<div class="w3-panel w3-turquaz">
     <h3>Bilgi!</h3>
     <p> <code class="w3-codespan">init</code> bazen nesnenin kurucusu olarak adlandırılır, çünkü kurucuların diğer dillerde kullanıldığı gibi kullanılır, ancak bu teknik olarak doğru değildir - onu başlatıcı olarak adlandırmak daha iyidir. Bir kurucuya daha benzer olan <code class="w3-codespan">new</code> adlı farklı bir yordam var, ancak neredeyse hiç kullanılmıyor.</p>
   </div>
