@@ -954,6 +954,47 @@ Hello my name is John
 <div class="w3-code notranslate pythonHigh">
 <strong>Not:</strong>  <code class="w3-codespan">init</code> bir sınıfın kurucusudur aslında başlatıcıdır. <code class="w3-codespan">init</code> yordamı, nesnenin belleğinin tahsis edildiği anda çağrılır.</div>
 
+Python sınıflarında özel bir önemi olan birçok yöntem ismi vardır. **init** yönteminin önemini şimdi göreceğiz.
+
+**init** yordamı, bir sınıfın öbeği eşlendiğinde (yani oluşturulduğunda) çalıştırılır. Yordam, öbeğinizle yapmak istediğiniz herhangi bir eşleme işlemini yapmak için kullanışlıdır.(ilk değerleri nesnenize iletmek gibi). Adının başında ve sonunda çift alt çizgilere dikkat edin.
+
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def say_hi(self):
+        print('Hello, my name is', self.name)
+
+p = Person('Swaroop')
+p.say_hi()
+# The previous 2 lines can also be written as
+# Person('Swaroop').say_hi()
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+Hello, my name is Swaroop
+</p>
+    </div>
+  </article>
+</main> 
+
+
+
+
+
+
+
+
 
 <!---------------------------------------------------------->
 
