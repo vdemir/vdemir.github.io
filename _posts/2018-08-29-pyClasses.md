@@ -77,23 +77,23 @@ img.resize {
 <pre><code>
 # sınıfın tanımı burada başlar  
 class Person:
-    # değişkenleri başlatma yordamı
-    name = ""
-    age = 0
+  # değişkenleri başlatma yordamı
+  name = ""
+  age = 0
       
-    #sınıf kurucusu tanımlar
-    def __init__(self, personName, personAge):
-        self.name = personName  
-        self.age = personAge  
+  #sınıf kurucusu tanımlar
+  def __init__(self, personName, personAge):
+      self.name = personName
+      self.age = personAge
   
-    #sınıf yordamlarını tanımlar
-    def showName(self):
-        print(self.name)  
+  #sınıf yordamlarını tanımlar
+  def showName(self):
+      print(self.name)
   
-    def showAge(self):
-        print(self.age)  
+  def showAge(self):
+      print(self.age)
           
-    #sınıf tanımının sonu
+  #sınıf tanımının sonu
   
 #Sınıfın bir nesnesini oluşturur 
 person1 = Person("Richard", 23)
