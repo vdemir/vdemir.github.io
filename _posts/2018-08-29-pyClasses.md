@@ -761,7 +761,8 @@ Bir **```self```** parametresini kabul etmek yerine, sınıf yordamları bir ```
 Çünkü sınıf yordamı sadece bu cls argümanına erişebilir, öbek eşleneğinin durumunu değiştiremez. Bu **```self```**'e erişim gerektirecektir. Ancak, sınıf yordamları hala sınıf durumunu değiştirebilir ki sınıfın tüm özdeşlerine uygulanır.
 
 <br>
-<h4 id="C89">Static Methods</h4>
+<h4 id="C89">Statik Yordamlar</h4>
+<h6>Static Methods</h6>
 <hr>
 
 The third method, MyClass.staticmethod was marked with a @staticmethod decorator to flag it as a static method.
