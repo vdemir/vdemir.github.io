@@ -1611,6 +1611,8 @@ Kalıtım. Bir sınıf, bir veya daha fazla başka sınıftan miras alabilir. Bu
 
 B sınıfı, A sınıfından türetilmiştir. Sınıflardan sonraki ifadelerde, boyutu (B sınıfından) ve genişliği (A sınıfıdan) çağırıyoruz.
 
+Bir sınırlama. Dairesel sınıf devralın olamaz. Eğer A sınıfından B'ye ve A'dan B'ye türetmeye çalışırsanız, bir NameError alırsınız.
+
 Size: Bu def yordamı doğrudan B sınıfında bulunur. Sınıf A'da yoktur.
 Width: Bu, A sınıfı olan, B sınıfının temel sınıfı kontrol edilerek bulunur.
 
@@ -1647,7 +1649,6 @@ a, width called
     </div>
   </article>
 </main>
-
 
 <br>
 <div class="teaser clearfix"></div>
