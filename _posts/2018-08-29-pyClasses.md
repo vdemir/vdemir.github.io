@@ -749,8 +749,8 @@ In [7]: <br>MyClass.method()
 <h6>Instance Methods</h6>
 <hr>
 
-Method denilen MyClass'taki ilk yordam, normal bir özdeş yordamdır.
-The first method on MyClass, called method, is a regular instance method. That’s the basic, no-frills method type you’ll use most of the time. You can see the method takes one parameter, self, which points to an instance of MyClass when the method is called (but of course instance methods can accept more than just one parameter).
+Method denilen MyClass'taki ilk yordam, normal bir eşleşen yordamdır.
+Bu, çoğu zaman kullanacağınız temel, asgari ihtiyaçları karşılamaya yönelik yordam tipidir. Yordamın bir parametre **self** aldığını görebilirsiniz, yordam çağrıldığında MyClass eşleneğine işaret eder. You can see the method takes one parameter, self, which points to an instance of MyClass when the method is called (but of course instance methods can accept more than just one parameter).
 
 Through the self parameter, instance methods can freely access attributes and other methods on the same object. This gives them a lot of power when it comes to modifying an object’s state.
 
@@ -1556,7 +1556,7 @@ print(p1.age)
       <li>data VERİ, BİLGİ</li>
       <li>destructor YIKICI </li>
       <li>function İCRACI </li>
-      <li>Instance EŞLEMEK</li>
+      <li>Instance EŞLEMEK, EŞLENEK</li>
       <li>instantiation MİSL, ÖZDEŞ </li>
       <li>local YEREL</li>
       <li>member ELEMAN</li>
