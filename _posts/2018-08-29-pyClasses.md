@@ -758,9 +758,7 @@ Bunu ikinci yordam olan ```MyClass.classmethod``` ile karşılaştıralım. Onu 
 
 Bir **```self```** parametresini kabul etmek yerine, sınıf yordamları bir cls parametresi alır, yordam çağrıldığında -öbek eşleneğine değil- sınıfa işaret eder.
 
-Çünkü sınıf yordamı sadece bu cls argümanına erişebilir, öbek eşleneğinin durumunu değiştiremez.
-
-Because the class method only has access to this cls argument, it can’t modify object instance state. That would require access to self. However, class methods can still modify class state that applies across all instances of the class.
+Çünkü sınıf yordamı sadece bu cls argümanına erişebilir, öbek eşleneğinin durumunu değiştiremez. Bu **```self```**'e erişim gerektirecektir. Ancak, sınıf yordamları hala sınıf durumunu değiştirebilir, sınıfın tüm özdeşlerine uygulanır.
 <br>
 <h4 id="C89">Static Methods</h4>
 <hr>
