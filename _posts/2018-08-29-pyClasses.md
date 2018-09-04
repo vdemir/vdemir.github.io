@@ -740,13 +740,29 @@ MyClass.method()
 <h3 id="C86">Python'da statik değişkenler ve yordamlar</h3>
 <hr>
 
+
+<div class="w3-panel w3-card w3-light-grey">
+  <div class="w3-container w3-white">
+    <p>
+    <ul class="w3-ul w3-card-4" style="width:85%">
+      <li><a href="#C861" style="text-decoration: none; color:#388E3C; cursor:pointer">Değişkenler</a></li>
+      <li><a href="#C862" style="text-decoration: none; color:#388E3C; cursor:pointer">Yordamlar</a></li>
+      <li><a href="#C863" style="text-decoration: none; color:#388E3C; cursor:pointer">@staticmethod</a></li>
+      <li><a href="#C864" style="text-decoration: none; color:#388E3C; cursor:pointer">@classmethod</a></li>
+      <li><a href="#C865" style="text-decoration: none; color:#388E3C; cursor:pointer">Eşlenen Yordamlar</a></li>
+    </ul>
+    </p>
+  </div>
+</div>
+<br>
+
 Python'da bir veri elemanı veya statik yordam nasıl bildirilir? Statik, özdeş seviyesinden ziyade bir sınıf düzeyinde eleman olduğu anlamına gelir. Statik değişkenler, yalnızca sınıf başına tek özdeşte bulunur ve eşlenmez.  Sınıfın bir eşleneğinde statik bir değişken değiştirilirse, değişiklik diğer tüm özdeşlerde değerini etkileyecektir.
 
 Statik yöntemler, sınıfın herhangi bir eşleneğine başvurmaz ve dışında çağrılabilir. Ayrıca, belli sebeplerden dolayı sınıfın herhangi bir statik olmayan veri elemanına erişemezler. Python'dan nasıl statik hale getirileceğine bakalım.
 
 
 <br>
-<h4>Değişkenler</h4>
+<h4 id="C861">Değişkenler</h4>
 <hr>
 Python'daki sınıf düzeyinde tanımlanan tüm değişkenler statik kabul edilir. Bu örneğe bakın:
 
@@ -796,14 +812,14 @@ Bana oldukça basit görünüyor. Sadece kafa karışıklığı gerçek olabilir
 
 
 <br>
-<h4>Yordamlar</h4>
+<h4 id="C862">Yordamlar</h4>
 <h6>[Methods]</h6>
 <hr>
 
 Statik yordamlarla biraz daha karmaşık hale gelir. Python'da, bir sınıf içindeki statik yordamları tanımlamanın iki yolu vardır.
 
 <br>
-<h5>@staticmethod</h5>
+<h5 id="C863">@staticmethod</h5>
 <hr>
 
 Bu dekoratör ile dekore edilen yordam isim uzayını sınıf ile paylaşır. Yordam tanımında hiçbir argümanın zorunlu olmadığını unutmayın. Statik yordam, sınıflara statik değişkenlerle erişebilir. Aşağıdaki örnekte bakın:
@@ -851,7 +867,7 @@ Offspring2 static() called
 
 
 <br>
-<h5>@classmethod</h5>
+<h5 id="C864">@classmethod</h5>
 <hr>
 
 Python'da sınıf yordamı ve statik yordam arasındaki fark vardır. Bu sınıf yordamı, zorunlu bir argümanı - çağırdığı bir sınıf adını - alır. Bir bakalım:
@@ -902,7 +918,7 @@ Hangisini kullanmalısın? İlk seçenek, yalnızca aynı sınıftaki statik de�
 
 
 <br>
-<h4 id="C911">Eşlenen Yordamlar</h4>
+<h4 id="C865">Eşlenen Yordamlar</h4>
 <h6>Instance Methods</h6>
 <hr>
 
