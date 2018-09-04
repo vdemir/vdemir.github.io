@@ -754,18 +754,18 @@ Onlar sadece öbeğin durumunu değiştirmezler, özdeş yordamlar, sınıfın k
 <h6>Class Methods</h6>
 <hr>
 
-Bunu ikinci yordam olan ```MyClass.classmethod``` ile karşılaştıralım. Onu bir sınıf yordamı olarak işaret etmek için bu yordamı ```@classmethod``` dekoratörüyle işaretledim.
+Bunu ikinci yordam olan **```MyClass.classmethod```** ile karşılaştıralım. Onu bir sınıf yordamı olarak işaret etmek için bu yordamı **```@classmethod```** dekoratörüyle işaretledim.
 
-Bir **```self```** parametresini kabul etmek yerine, sınıf yordamları bir ```cls``` parametresi alır, yordam çağrıldığında -öbek eşleneğine değil- sınıfa işaret eder.
+Bir **```self```** parametresini kabul etmek yerine, sınıf yordamları bir **```cls```** parametresi alır, yordam çağrıldığında -öbek eşleneğine değil- sınıfa işaret eder.
 
-Çünkü sınıf yordamı sadece bu ```cls``` argümanına erişebilir, öbek eşleneğinin durumunu değiştiremez. Bu **```self```**'e erişim gerektirecektir. Ancak, sınıf yordamları hala sınıf durumunu değiştirebilir ki sınıfın tüm özdeşlerine uygulanır.
+Çünkü sınıf yordamı sadece bu **```cls```** argümanına erişebilir, öbek eşleneğinin durumunu değiştiremez. Bu **```self```**'e erişim gerektirecektir. Ancak, sınıf yordamları hala sınıf durumunu değiştirebilir ki sınıfın tüm özdeşlerine uygulanır.
 
 <br><br>
 <h4 id="C89">Statik Yordamlar</h4>
 <h6>Static Methods</h6>
 <hr>
 
-Üçüncü yöntem, bir statik yordam olarak işaret etmek için ```MyClass.staticmethod``` bir ```@staticmethod``` dekoratör ile işaretlendi.
+Üçüncü yöntem, bir statik yordam olarak işaret etmek için **```MyClass.staticmethod```** bir **```@staticmethod```** dekoratör ile işaretlendi.
 
 The third method, MyClass.staticmethod was marked with a @staticmethod decorator to flag it as a static method.
 
