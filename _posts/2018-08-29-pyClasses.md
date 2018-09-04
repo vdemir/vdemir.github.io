@@ -767,7 +767,7 @@ Bir **```self```** parametresini kabul etmek yerine, sınıf yordamları bir **`
 
 Üçüncü yöntem, bir statik yordam olarak işaret etmek için **```MyClass.staticmethod```** bir **```@staticmethod```** dekoratör ile işaretlendi.
 
-This type of method takes neither a self nor a cls parameter (but of course it’s free to accept an arbitrary number of other parameters).
+Bu tip bir yordam ne **```self```** ne de bir **```cls```** parametresini alır (ama tabii ki, diğer parametrelerin rastgele sayısını kabul etmekte serbesttir).
 
 Therefore a static method can neither modify object state nor class state. Static methods are restricted in what data they can access - and they’re primarily a way to namespace your methods.
 <br>
