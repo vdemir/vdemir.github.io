@@ -1147,11 +1147,11 @@ Out [1]: <br>
 </main>
 <br>
 <h4 id="C87">Özdeş Öznitelikleri</h4><hr>
-Unlike class attributes, instance attributes are not shared by objects. Every object has its own copy of the instance attribute (In case of class attributes all object refer to single copy).
 
+Sınıf özniteliklerinden farklı olarak, özdeş öznitelikleri öbekler tarafından paylaşılmaz. Her öbeğin, özdeş özniteliğinin kendi kopyası vardır (Sınıf öniteliklerinin durumunda, tüm nesneler tek kopyaya başvurur).
 
+Bir özdeşin / öbeğin özniteliklerini listelemek için iki fonksiyonumuz vardır: -
 
-To list the attributes of an instance/object, we have two functions:-
 1. vars()- This function displays the attribute of an instance in the form of an dictionary.
 2. dir()- This function displays more attributes than vars function,as it is not limited to instance. It displays the class attributes as well. 
 
