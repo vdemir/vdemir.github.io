@@ -1152,8 +1152,8 @@ Sınıf özniteliklerinden farklı olarak, özdeş öznitelikleri öbekler taraf
 
 Bir özdeşin / öbeğin özniteliklerini listelemek için iki fonksiyonumuz vardır: -
 
-1. vars()- This function displays the attribute of an instance in the form of an dictionary.
-2. dir()- This function displays more attributes than vars function,as it is not limited to instance. It displays the class attributes as well. 
+1. vars() - Bu fonksiyon, bir özdeşin özniteliğini bir sözlük biçiminde görüntüler.
+2. dir() - Bu fonksiyon, özdeşle sınırlı olmadığı için vars fonksiyonundan daha fazla nitelik gösterir. Sınıf özniteliklerini de gösterir.
 
 <br>
  
