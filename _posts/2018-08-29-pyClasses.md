@@ -752,9 +752,9 @@ In [7]: <br>MyClass.method()
 Method denilen MyClass'taki ilk yordam, normal bir eşleşen yordamdır.
 Bu, çoğu zaman kullanacağınız temel, asgari ihtiyaçları karşılamaya yönelik yordam tipidir. Yordamın bir parametre **self** aldığını görebilirsiniz, yordam çağrıldığında MyClass eşleneğine işaret eder. (ama elbette özdeş yordamlar sadece bir parametreden fazlasını kabul edebilir).
 
-Through the self parameter, instance methods can freely access attributes and other methods on the same object. This gives them a lot of power when it comes to modifying an object’s state.
+**self** parametresi aracılığıyla, eşlenen yordamlar, aynı öbek üzerindeki özniteliklere ve diğer yordamlara serbestçe erişebilir.Bu, bir öbeğin durumunu değiştirmeye sıra geldiğinde onlara çok fazla güç verir.
 
-Not only can they modify object state, instance methods can also access the class itself through the self.__class__ attribute. This means instance methods can also modify class state.
+Onlar sadece öbeğin durumunu değiştiremezler, özdeş yordamlar, sınıfın kendisine ```self .__class__``` özniteliği aracılığıyla da erişebilir. Not only can they modify object state, instance methods can also access the class itself through the self.__class__ attribute. This means instance methods can also modify class state.
 
 <br>
 <h4 id="C90">Class Methods</h4>
