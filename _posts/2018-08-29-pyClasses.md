@@ -1568,9 +1568,9 @@ Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) 
 <div class="w3-code notranslate pythonHigh">
 <strong>Not:</strong> init, parametreleri alır ve yeni sınıf özdeşine alanlar atar. Argümanları doğrulayabilir, hesaplamalar yapabilir, yordamları çağırır.</div>
 
-İfadede **Box(10, 2)**, **Box** sınıfının yeni bir eşleneğini oluşturuyoruz. Genişliği 10'a ayarlanır. Yüksekliği 2'ye ayarlanır.
+**Box:** İfadede **Box(10, 2)**, **Box** sınıfının yeni bir eşleneğini oluşturuyoruz. Genişliği 10'a ayarlanır. Yüksekliği 2'ye ayarlanır.
 
-**area()** yordamı 20'ye dönecektir. Bu, **init** tarafından belirlenen bellekte depolanan değerlere dayanmaktadır.
+**Area:** area() yordamı 20'ye dönecektir. Bu, **init** tarafından belirlenen bellekte depolanan değerlere dayanmaktadır.
 
 <br>
 <main class="grid">
@@ -1615,7 +1615,7 @@ B sınıfı, A sınıfından türetilmiştir. Sınıflardan sonraki ifadelerde, 
 
 **Size:** Bu def yordamı doğrudan B sınıfında bulunur. Sınıf A'da yoktur.
 
-**Width:** Bu, A sınıfı olan, B sınıfının temel sınıfı kontrol edilerek bulunur.
+**Width:** A sınıfı olan B sınıfının, temel sınıfı kontrol edilerek bulunur.
 
 <br>
 <main class="grid">
