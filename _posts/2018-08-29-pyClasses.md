@@ -754,7 +754,7 @@ Onlar sadece öbeğin durumunu değiştirmezler, özdeş yordamlar, sınıfın k
 <h6>Class Methods</h6>
 <hr>
 
-Let’s compare that to the second method, MyClass.classmethod. I marked this method with a @classmethod decorator to flag it as a class method.
+Bunu ikinci yordam olan ```MyClass.classmethod``` ile karşılaştıralım. Onu bir sınıf yordamı olarak işaret etmek için bu yordamı ```@classmethod``` dekoratörüyle işaretledim.
 
 Instead of accepting a self parameter, class methods take a cls parameter that points to the class—and not the object instance—when the method is called.
 
