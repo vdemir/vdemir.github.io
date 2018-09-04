@@ -675,7 +675,7 @@ Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşma
 
 <br>
 <h4 id="C91">Eşlenen Yordamlar</h4>
-<h6 id="C91">Instance Methods</h6>
+<h7>Instance Methods</h7>
 <hr>
 
 
