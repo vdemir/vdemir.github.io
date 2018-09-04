@@ -188,6 +188,53 @@ Artık nesneleri oluşturmak için **myClass** adlı sınıfı kullanabiliriz:
   p1 = Person("John", 36)</div>
 
 <br>
+
+<div class="teaser clearfix"></div>
+<h3 id="C13">Nesne Özniteliklerini Değiştirmek</h3><hr>
+Bu gibi nesnelerdeki öznitelikleri değiştirebilirsiniz:
+<p>p1'in yaşını 40'a ayarlayın:</p>
+<div class="w3-code notranslate pythonHigh">
+  p1.age = 40</div>
+
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+  def myfunc(self):
+    print("Hello my name is " + self.name)
+
+p1 = Person("John", 36)
+
+p1.age = 40
+print(p1.age)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+40
+</p>
+    </div>
+  </article>
+</main>
+
+<div class="w3-container w3-content">
+ <div class="w3-panel w3-white w3-card w3-display-container">
+   <p> Ne yaptığınızı biliyorsanız, sınıfların nasıl karşılaştırıldığı, özniteliklerin nasıl tanımlandığı ve sınıfınızın alt sınıfları olarak kabul edilen sınıflar hakkında neredeyse tam kontrol sahibi olabilirsiniz.</p>
+ </div>
+</div>
+
+<br>
+
 <div class="teaser clearfix"></div>
 <h3 id="C14"> Nesne Özniteliklerini Silmek</h3><hr>
 Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz:
@@ -1663,51 +1710,6 @@ Derived class method
 </main>
 
 Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, **super(Child, self).printlnfo()** biçiminde **super()** yordamı kullanılır; burada taban sınıfının adı belirtilmemiştir. Diğer yol, **Parent.printlnfo(self)** kullanılarak olurdu.
-
-<br>
-<div class="teaser clearfix"></div>
-<h3 id="C13">Nesne Özniteliklerini Değiştirmek</h3><hr>
-Bu gibi nesnelerdeki öznitelikleri değiştirebilirsiniz:
-<p>p1'in yaşını 40'a ayarlayın:</p>
-<div class="w3-code notranslate pythonHigh">
-  p1.age = 40</div>
-
-
-<main class="grid">
-  <article>
-    <div class="text">
-      <p>
-<pre><code>
-class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
-
-  def myfunc(self):
-    print("Hello my name is " + self.name)
-
-p1 = Person("John", 36)
-
-p1.age = 40
-print(p1.age)
-</code></pre>
-</p>
-    </div>
-  </article>
-  <article>
-    <div class="text">
-      <p>
-40
-</p>
-    </div>
-  </article>
-</main>
-
-<div class="w3-container w3-content">
- <div class="w3-panel w3-white w3-card w3-display-container">
-   <p> Ne yaptığınızı biliyorsanız, sınıfların nasıl karşılaştırıldığı, özniteliklerin nasıl tanımlandığı ve sınıfınızın alt sınıfları olarak kabul edilen sınıflar hakkında neredeyse tam kontrol sahibi olabilirsiniz.</p>
- </div>
-</div> 
 
  
 <br>
