@@ -1651,7 +1651,19 @@ a, width called
   </article>
 </main>
 
+
+
 <br>
+ 
+<h5>İki alt çizgi değişkenini kullanan Python programı</h5><hr>
+
+<br>
+İki alt çizgi. Bir sınıfta, bazı elemanların isimlerinin başında iki altçizgi vardır. Bunlar özeldir. Python dili, onları özel olarak ele alır.
+
+Sınıf dışından özel elemanlara erişilebilir, ancak başlangıçta **_ClassName** eklemeliyiz.
+
+A sınıfında, **__value** adlı bir alanımız var. Bunu, sınıfın dışında **_A__value** olarak belirtmeliyiz, ancak içinde **__value** kullanabiliriz.
+
 <div class="teaser clearfix"></div>
 <h3  id="C11"><code class="w3-codespan">self</code> Parametresi</h3><hr>
 <p> <code class="w3-codespan">self</code> sınıfın kendisine bir referanstır ve sınıfa ait değişkenlere erişmek için kullanılır. 
