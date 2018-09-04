@@ -767,8 +767,6 @@ Bir **```self```** parametresini kabul etmek yerine, sınıf yordamları bir **`
 
 Üçüncü yöntem, bir statik yordam olarak işaret etmek için **```MyClass.staticmethod```** bir **```@staticmethod```** dekoratör ile işaretlendi.
 
-The third method, MyClass.staticmethod was marked with a @staticmethod decorator to flag it as a static method.
-
 This type of method takes neither a self nor a cls parameter (but of course it’s free to accept an arbitrary number of other parameters).
 
 Therefore a static method can neither modify object state nor class state. Static methods are restricted in what data they can access - and they’re primarily a way to namespace your methods.
