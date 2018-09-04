@@ -733,8 +733,18 @@ MyClass.method()
   </article>
 </main>
 
+<br>
+<h3 id="C911">Python'da statik değişkenler ve yordamlar</h3>
+<hr>
+
+Python'da bir veri elemanı veya statik yordam nasıl bildirilir? Statik, özdeş seviyesinden ziyade bir sınıf düzeyinde eleman olduğu anlamına gelir. Statik değişkenler, yalnızca sınıf başına tek özdeşte bulunur ve eşlenmez.  Sınıfın bir eşleneğinde statik bir değişken değiştirilirse, değişiklik diğer tüm özdeşlerde değerini etkileyecektir.
+
+Statik yöntemler, sınıfın herhangi bir eşleneğine başvurmaz ve dışında çağrılabilir. Ayrıca, belli sebeplerden dolayı sınıfın herhangi bir statik olmayan veri elemanına erişemezler. Python'dan nasıl statik hale getirileceğine bakalım.
 
 
+<br>
+<h4>Değişkenler</h4>
+<hr>
 
 
 <br>
