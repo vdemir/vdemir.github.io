@@ -1027,7 +1027,7 @@ I was called from the instance <__main__.Class object at 0x7f6854953748>
 </main>
 
 <br>
-<h4 id="C88">Sınıf Öznitelikleri</h4>
+<h4 id="C88">Sınıf Öznitelikleri 1</h4>
 <hr>
 
 Bazı öznitelik değerleri, verilen bir sınıfın tüm öbeklerinde paylaşılır. Bu öznitelikler, sınıfın herhangi bir tek özdeşinden ziyade sınıfın kendisi ile ilişkilendirilir. Örneğin, bir bankanın hesap bakiyesine sabit faiz oranından faiz ödediğini söyleyelim. Bu faiz oranı değişebilir, ancak tüm hesaplarda paylaşılan tek bir değerdir. 
