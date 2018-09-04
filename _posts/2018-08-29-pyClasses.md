@@ -750,7 +750,8 @@ Bu, çoğu zaman kullanacağınız temel, asgari ihtiyaçları karşılamaya yö
 Onlar sadece öbeğin durumunu değiştirmezler, özdeş yordamlar, sınıfın kendisine ```**self .__class__**``` özniteliği aracılığıyla da erişebilir. Bu, eşlenen yordamların sınıf durumunu da değiştirebileceği anlamına gelir.
 
 <br>
-<h4 id="C90">Class Methods</h4>
+<h4 id="C90">Sınıf Yordamları</h4>
+<h6>Class Methods</h6>
 <hr>
 
 Let’s compare that to the second method, MyClass.classmethod. I marked this method with a @classmethod decorator to flag it as a class method.
