@@ -676,6 +676,57 @@ Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşma
 <br>
 <h4 id="C910">Eşlenen, Sınıf ve Statik Yordamlar - Genel Bakış</h4>
 <hr>
+Her üç yordam tipi için basit örnekler içeren bir (Python 3) sınıfı yazarak başlayalım:
+
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class MyClass:
+    def method(self):
+        return 'instance method called', self
+
+    @classmethod
+    def classmethod(cls):
+        return 'class method called', cls
+
+    @staticmethod
+    def staticmethod():
+        return 'static method called'
+obj = MyClass()
+obj.classmethod()
+# ('class method called', __main__.MyClass)
+obj.method()
+# ('instance method called', 
+# <__main__.MyClass at 0x7f878f4ffa90>)
+MyClass.method(obj)
+# ('instance method called', 
+# <__main__.MyClass at 0x7f878f56e278>)
+obj.staticmethod()
+# 'static method called'
+MyClass.classmethod()
+# ('class method called', __main__.MyClass)
+MyClass.staticmethod()
+# 'static method called'
+MyClass.method()
+# TypeError: method() missing 1 
+# required positional argument: 'self'
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+</p>
+    </div>
+  </article>
+</main>
+
+
+
 
 
 <br>
