@@ -720,6 +720,14 @@ MyClass.method()
   <article>
     <div class="text">
       <p>
+In [1]: 
+obj.classmethod()
+obj.method()
+MyClass.method(obj)
+obj.staticmethod()
+MyClass.classmethod()
+MyClass.staticmethod()
+MyClass.method()
 </p>
     </div>
   </article>
