@@ -1191,7 +1191,10 @@ Dictionary form : {'salary': 4000, 'name': 'xyz'} <br>
 </main>
 
 <br>
-<h4 id="C88">Sınıf ve Nesne Değişkenleri</h4><hr>
+<h4 id="C88">Sınıf ve Öbek Değişkenleri</h4><hr>
+
+Daha önce sınıfların ve nesnelerin işlevselliğini ele aldık (ör. Yordamlar), şimdi veri kısmı hakkında bilgi verelim. Veri kısmı, yani alanlar, sınıfların ve öbeklerin ad alanlarına bağlı olan sıradan değişkenlerden başka bir şey değildir. Bu, bu adların yalnızca bu sınıflar ve öbekler bağlamında geçerli olduğu anlamına gelir.
+
 
 We have already discussed the functionality part of classes and objects (i.e. methods), now let us learn about the data part. The data part, i.e. fields, are nothing but ordinary variables that are bound to the namespaces of the classes and objects. This means that these names are valid within the context of these classes and objects only. That's why they are called name spaces.
 
