@@ -428,7 +428,6 @@ Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey
       <li><a href="#C84" style="text-decoration: none; color:#388E3C; cursor:pointer">Oluşturulduktan Sonra Sınıfların Değiştirilmesi</a></li>
       <li><a href="#C85" style="text-decoration: none; color:#388E3C; cursor:pointer">Eşlenen, Sınıf ve Statik Yordamlar - Genel Bakış</a></li>
       <li><a href="#C86" style="text-decoration: none; color:#388E3C; cursor:pointer">Python'da statik değişkenler ve yordamlar</a></li>
-      <li><a href="#C87" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Yordamları Oluşturma</a></li>
       <li><a href="#C88" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Öznitelikleri 1</a></li>
       <li><a href="#C89" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Öznitelikleri 2</a></li>
       <li><a href="#C90" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş Öznitelikler</a></li>
