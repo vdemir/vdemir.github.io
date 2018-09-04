@@ -13,7 +13,6 @@ lang: tr
 
 {% include tr_ay.html %}
 <link rel="stylesheet" href="{{ sitebase.url }}/css/w3.css">
-<link rel="stylesheet" href="{{ sitebase.url }}/css/python.css">
 <link rel="stylesheet" href="{{ sitebase.url }}/css/code.css">
   
 <style>
@@ -675,7 +674,12 @@ New method wins!
 Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşmayın, bu kötü bir formdur ve bu sınıfı kullanarak herhangi bir öbeği karıştırır. Öte yandan, yordamların eklenmesi çok daha az (ama yine de biraz) tehlikelidir.
 
 <br>
-<h4 id="C91">Eşlenen Yordamlar</h4>
+<h4 id="C910">Eşlenen, Sınıf ve Statik Yordamlar - Genel Bakış</h4>
+<hr>
+
+
+<br>
+<h4 id="C911">Eşlenen Yordamlar</h4>
 <h6>Instance Methods</h6>
 <hr>
 
