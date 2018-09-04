@@ -789,6 +789,20 @@ print (Example.staticVariable) # now 7
   </article>
 </main>
 
+Bana oldukça basit görünüyor. Sadece kafa karışıklığı gerçek olabilir, sınıfınızda aynı ad altında iki farklı değişkeniniz olabilir (bir statik ve bir sıradan). Ama bu davranışı tamamen önlemek için (kendi iyiliğiniz için) tavsiye ederim.
+
+
+<br>
+<h4>Yordamlar</h4>
+<h6>[Methods]</h6>
+<hr>
+
+Statik yordamlarla biraz daha karmaşık hale gelir. Python'da, bir sınıf içindeki statik yordamları tanımlamanın iki yolu vardır.
+
+
+
+
+
 <br>
 <h4 id="C911">Eşlenen Yordamlar</h4>
 <h6>Instance Methods</h6>
