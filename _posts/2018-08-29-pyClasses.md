@@ -747,7 +747,7 @@ Bu, çoğu zaman kullanacağınız temel, asgari ihtiyaçları karşılamaya yö
 
 ```**self**``` parametresi aracılığıyla, eşlenen yordamlar, aynı öbek üzerindeki özniteliklere ve diğer yordamlara serbestçe erişebilir.Bu, bir öbeğin durumunu değiştirmeye sıra geldiğinde onlara çok fazla güç verir.
 
-Onlar sadece öbeğin durumunu değiştirmezler, özdeş yordamlar, sınıfın kendisine ```**self .__class__**``` özniteliği aracılığıyla da erişebilir. Bu, eşlenen yordamların sınıf durumunu da değiştirebileceği anlamına gelir.
+Onlar sadece öbeğin durumunu değiştirmezler, özdeş yordamlar, sınıfın kendisine **```self .__class__```** özniteliği aracılığıyla da erişebilir. Bu, eşlenen yordamların sınıf durumunu da değiştirebileceği anlamına gelir.
 
 <br>
 <h4 id="C90">Sınıf Yordamları</h4>
@@ -756,7 +756,7 @@ Onlar sadece öbeğin durumunu değiştirmezler, özdeş yordamlar, sınıfın k
 
 Bunu ikinci yordam olan ```MyClass.classmethod``` ile karşılaştıralım. Onu bir sınıf yordamı olarak işaret etmek için bu yordamı ```@classmethod``` dekoratörüyle işaretledim.
 
-Bir ```**self**``` parametresini kabul etmek yerine, sınıf yordamları bir cls parametresi alır, yordam çağrıldığında -öbek eşleneğine değil- sınıfa işaret eder.
+Bir **```self```** parametresini kabul etmek yerine, sınıf yordamları bir cls parametresi alır, yordam çağrıldığında -öbek eşleneğine değil- sınıfa işaret eder.
 
 Çünkü sınıf yordamı sadece bu cls argümanına erişebilir, öbek eşleneğinin durumunu değiştiremez.
 
