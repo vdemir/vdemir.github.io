@@ -749,7 +749,7 @@ Bu, çoğu zaman kullanacağınız temel, asgari ihtiyaçları karşılamaya yö
 
 Onlar sadece öbeğin durumunu değiştirmezler, özdeş yordamlar, sınıfın kendisine **```self .__class__```** özniteliği aracılığıyla da erişebilir. Bu, eşlenen yordamların sınıf durumunu da değiştirebileceği anlamına gelir.
 
-<br>
+<br><br>
 <h4 id="C90">Sınıf Yordamları</h4>
 <h6>Class Methods</h6>
 <hr>
@@ -760,7 +760,7 @@ Bir **```self```** parametresini kabul etmek yerine, sınıf yordamları bir ```
 
 Çünkü sınıf yordamı sadece bu cls argümanına erişebilir, öbek eşleneğinin durumunu değiştiremez. Bu **```self```**'e erişim gerektirecektir. Ancak, sınıf yordamları hala sınıf durumunu değiştirebilir ki sınıfın tüm özdeşlerine uygulanır.
 
-<br>
+<br><br>
 <h4 id="C89">Statik Yordamlar</h4>
 <h6>Static Methods</h6>
 <hr>
