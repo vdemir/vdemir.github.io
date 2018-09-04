@@ -778,12 +778,12 @@ print ('Example.staticVariable') # now 7
   <article>
     <div class="text">
       <p>
-Example.staticVariable <br>
-instance.staticVariable <br>
-instance.staticVariable <br>
-Example.staticVariable <br>
-instance.staticVariable <br>
-Example.staticVariable
+5 <br>
+5 <br>
+6 <br>
+5 <br>
+6 <br>
+7
 </p>
     </div>
   </article>
