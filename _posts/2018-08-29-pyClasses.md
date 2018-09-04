@@ -1561,7 +1561,7 @@ Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) 
  
 <br>
  
-**init örneği:**</strong> Bu program bir sınıf oluşturur. Sınıf anahtar sözcüğünü kullanır ve iki yordam sunar. **init** yordamı özeldir. Bu bir kurucudur.
+**init örneği:** Bu program bir sınıf oluşturur. Sınıf anahtar sözcüğünü kullanır ve iki yordam sunar. **init** yordamı özeldir. Bu bir kurucudur.
 
 <br>
  
