@@ -758,7 +758,7 @@ Bunu ikinci yordam olan ```MyClass.classmethod``` ile karşılaştıralım. Onu 
 
 Bir **```self```** parametresini kabul etmek yerine, sınıf yordamları bir ```cls``` parametresi alır, yordam çağrıldığında -öbek eşleneğine değil- sınıfa işaret eder.
 
-Çünkü sınıf yordamı sadece bu cls argümanına erişebilir, öbek eşleneğinin durumunu değiştiremez. Bu **```self```**'e erişim gerektirecektir. Ancak, sınıf yordamları hala sınıf durumunu değiştirebilir ki sınıfın tüm özdeşlerine uygulanır.
+Çünkü sınıf yordamı sadece bu ```cls``` argümanına erişebilir, öbek eşleneğinin durumunu değiştiremez. Bu **```self```**'e erişim gerektirecektir. Ancak, sınıf yordamları hala sınıf durumunu değiştirebilir ki sınıfın tüm özdeşlerine uygulanır.
 
 <br><br>
 <h4 id="C89">Statik Yordamlar</h4>
