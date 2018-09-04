@@ -1605,6 +1605,17 @@ print(x.area())
 </main>
 
 
+<h5>Sınıf kalıtımını kullanan Python programı</h5><hr>
+
+Kalıtım. Bir sınıf, bir veya daha fazla başka sınıftan miras alabilir. Buradan türetmek istediğimiz sınıf tanımlanmalıdır. Türetilmiş sınıf, sınıf adından sonra parantez içinde belirtilir.
+
+B sınıfı, A sınıfından türetilmiştir. Sınıflardan sonraki ifadelerde, boyutu (B sınıfından) ve genişliği (A sınıfıdan) çağırıyoruz.
+
+Size: Bu def yordamı doğrudan B sınıfında bulunur. Sınıf A'da yoktur.
+Width: Bu, A sınıfı olan, B sınıfının temel sınıfı kontrol edilerek bulunur.
+
+
+
 <br>
 <div class="teaser clearfix"></div>
 <h3  id="C11"><code class="w3-codespan">self</code> Parametresi</h3><hr>
