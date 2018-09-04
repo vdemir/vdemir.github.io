@@ -750,6 +750,9 @@ MyClass.method()
       <li><a href="#C863" style="text-decoration: none; color:#388E3C; cursor:pointer">@staticmethod</a></li>
       <li><a href="#C864" style="text-decoration: none; color:#388E3C; cursor:pointer">@classmethod</a></li>
       <li><a href="#C865" style="text-decoration: none; color:#388E3C; cursor:pointer">Eşlenen Yordamlar</a></li>
+      <li><a href="#C866" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Yordamları</a></li>
+      <li><a href="#C867" style="text-decoration: none; color:#388E3C; cursor:pointer">Statik Yordamlar</a></li>
+      <li><a href="#C868" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Yordamları Oluşturma</a></li>
     </ul>
     </p>
   </div>
@@ -930,7 +933,7 @@ Bu, çoğu zaman kullanacağınız temel, asgari ihtiyaçları karşılamaya yö
 Onlar sadece öbeğin durumunu değiştirmezler, özdeş yordamlar, sınıfın kendisine **```self .__class__```** özniteliği aracılığıyla da erişebilir. Bu, eşlenen yordamların sınıf durumunu da değiştirebileceği anlamına gelir.
 
 <br><br>
-<h4 id="C90">Sınıf Yordamları</h4>
+<h4 id="C866">Sınıf Yordamları</h4>
 <h6>Class Methods</h6>
 <hr>
 
@@ -941,7 +944,7 @@ Bir **```self```** parametresini kabul etmek yerine, sınıf yordamları bir **`
 Çünkü sınıf yordamı sadece bu **```cls```** argümanına erişebilir, öbek eşleneğinin durumunu değiştiremez. Bu **```self```**'e erişim gerektirecektir. Ancak, sınıf yordamları hala sınıf durumunu değiştirebilir ki sınıfın tüm özdeşlerine uygulanır.
 
 <br><br>
-<h4 id="C89">Statik Yordamlar</h4>
+<h4 id="C867">Statik Yordamlar</h4>
 <h6>Static Methods</h6>
 <hr>
 
@@ -952,7 +955,7 @@ Bu tip bir yordam ne **```self```** ne de bir **```cls```** parametresini alır 
 Bu nedenle, statik bir yordam, öbek durumunu ve sınıf durumunu değiştiremez. Statik yordamlar, verilerde erişebilecekleri şeyleri sınırlandırır ve esas olarak yordamlarınızı adlandırmak için bir yoldur.
 
 <br>
-<h4 id="C87">Sınıf Yordamları Oluşturma</h4>
+<h4 id="C868">Sınıf Yordamları Oluşturma</h4>
 <hr>
 
 Bazen bir sınıf yazarken, sınıftan çağrılan bir fonksiyonu dahil etmek istersiniz, özdeşini değil. Belki bu yordam yeni özdeşler oluşturur veya belki de herhangi bir özel özdeşin herhangi bir özniteliğinden bağımsızdır. Python, yordamınızın, hangi sınıfın çağırdığını bilmesi gerektiğine (ya da bilmesine) bağlı olarak, bunu yapmanın iki yolunu size verir. Her ikisi de yordamlarınıza dekoratörler uygulamasını içerir. 
