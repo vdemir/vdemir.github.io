@@ -13,6 +13,7 @@ lang: tr
 
 {% include tr_ay.html %}
 <link rel="stylesheet" href="{{ sitebase.url }}/css/w3.css">
+<link rel="stylesheet" href="{{ sitebase.url }}/css/python.css">
 <link rel="stylesheet" href="{{ sitebase.url }}/css/code.css">
   
 <style>
@@ -675,10 +676,10 @@ Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşma
 
 <br>
 <h4 id="C91">Eşlenen Yordamlar</h4>
-<h7>Instance Methods</h7>
+<h6>Instance Methods</h6>
 <hr>
 
-
+Method denilen MyClass'taki ilk yordam, normal bir özdeş yordamdır.
 The first method on MyClass, called method, is a regular instance method. That’s the basic, no-frills method type you’ll use most of the time. You can see the method takes one parameter, self, which points to an instance of MyClass when the method is called (but of course instance methods can accept more than just one parameter).
 
 Through the self parameter, instance methods can freely access attributes and other methods on the same object. This gives them a lot of power when it comes to modifying an object’s state.
