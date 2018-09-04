@@ -1614,6 +1614,39 @@ B sınıfı, A sınıfından türetilmiştir. Sınıflardan sonraki ifadelerde, 
 Size: Bu def yordamı doğrudan B sınıfında bulunur. Sınıf A'da yoktur.
 Width: Bu, A sınıfı olan, B sınıfının temel sınıfı kontrol edilerek bulunur.
 
+<br>
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class A:
+    def width(self):
+        print("a, width called")
+
+class B(A):
+    def size(self):
+        print("b, size called")
+
+# Create new class instance.
+b = B()
+# Call method on B.
+b.size()
+# Call method from base class.
+b.width()
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+b, size called<br>
+a, width called
+</p>
+    </div>
+  </article>
+</main>
 
 
 <br>
