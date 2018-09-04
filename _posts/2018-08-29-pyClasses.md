@@ -756,6 +756,8 @@ Onlar sadece öbeğin durumunu değiştirmezler, özdeş yordamlar, sınıfın k
 
 Bunu ikinci yordam olan ```MyClass.classmethod``` ile karşılaştıralım. Onu bir sınıf yordamı olarak işaret etmek için bu yordamı ```@classmethod``` dekoratörüyle işaretledim.
 
+Bir ```**self**``` parametresini kabul etmek yerine, sınıf yordamları bir cls parametresi alır, yordam çağrıldığında -öbek eşleneğine değil- sınıfa işaret eder.
+
 Instead of accepting a self parameter, class methods take a cls parameter that points to the class—and not the object instance—when the method is called.
 
 Because the class method only has access to this cls argument, it can’t modify object instance state. That would require access to self. However, class methods can still modify class state that applies across all instances of the class.
