@@ -756,9 +756,10 @@ Onlar sadece öbeğin durumunu değiştirmezler, özdeş yordamlar, sınıfın k
 
 Bunu ikinci yordam olan ```MyClass.classmethod``` ile karşılaştıralım. Onu bir sınıf yordamı olarak işaret etmek için bu yordamı ```@classmethod``` dekoratörüyle işaretledim.
 
-Bir **```self```** parametresini kabul etmek yerine, sınıf yordamları bir cls parametresi alır, yordam çağrıldığında -öbek eşleneğine değil- sınıfa işaret eder.
+Bir **```self```** parametresini kabul etmek yerine, sınıf yordamları bir ```cls``` parametresi alır, yordam çağrıldığında -öbek eşleneğine değil- sınıfa işaret eder.
 
-Çünkü sınıf yordamı sadece bu cls argümanına erişebilir, öbek eşleneğinin durumunu değiştiremez. Bu **```self```**'e erişim gerektirecektir. Ancak, sınıf yordamları hala sınıf durumunu değiştirebilir, sınıfın tüm özdeşlerine uygulanır.
+Çünkü sınıf yordamı sadece bu cls argümanına erişebilir, öbek eşleneğinin durumunu değiştiremez. Bu **```self```**'e erişim gerektirecektir. Ancak, sınıf yordamları hala sınıf durumunu değiştirebilir ki sınıfın tüm özdeşlerine uygulanır.
+
 <br>
 <h4 id="C89">Static Methods</h4>
 <hr>
