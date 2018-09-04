@@ -851,7 +851,49 @@ Offspring2 static() called
 <h5>@classmethod</h5>
 <hr>
 
-Python'da sınıf yordamı ve statik yordam arasındaki fark vardır. Bu sınıf yordamı, zorunlu bir argümanı - çağırdığı bir sınıf adını - alır.
+Python'da sınıf yordamı ve statik yordam arasındaki fark vardır. Bu sınıf yordamı, zorunlu bir argümanı - çağırdığı bir sınıf adını - alır. Bir bakalım:
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Example:
+    name = "Example"
+
+    @classmethod
+    def static(cls):
+        print ("%s static() called" % cls.name)
+
+class Offspring1(Example):
+    name = "Offspring1"
+    pass
+
+class Offspring2(Example):
+    name = "Offspring2"
+
+    @classmethod
+    def static(cls):
+        print ("%s static() called" % cls.name)
+
+Example.static()    # prints Example
+Offspring1.static() # prints Offspring1
+Offspring2.static() # prints Offspring2 
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+Example static() called <br>
+Offspring1 static() called <br>
+Offspring2 static() called
+</p>
+    </div>
+  </article>
+</main>
+
 
 
 
