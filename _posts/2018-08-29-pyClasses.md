@@ -1561,13 +1561,12 @@ Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) 
  
 <br>
  
-<div class="w3-code notranslate pythonHigh">
-<strong>Init örneği:</strong>Bu program bir sınıf oluşturur. Sınıf anahtar sözcüğünü kullanır ve iki yordam sunar. **__init__** yordamı özeldir. Bu bir kurucudur.</div>
+**init örneği:**</strong> Bu program bir sınıf oluşturur. Sınıf anahtar sözcüğünü kullanır ve iki yordam sunar. **init** yordamı özeldir. Bu bir kurucudur.
 
 <br>
  
 <div class="w3-code notranslate pythonHigh">
-<strong>Not:</strong> **init**, parametreleri alır ve yeni sınıf özdeşine alanlar atar. Argümanları doğrulayabilir, hesaplamalar yapabilir, yordamları çağırır.</div>
+<strong>Not:</strong> init, parametreleri alır ve yeni sınıf özdeşine alanlar atar. Argümanları doğrulayabilir, hesaplamalar yapabilir, yordamları çağırır.</div>
 
 <br>
 
