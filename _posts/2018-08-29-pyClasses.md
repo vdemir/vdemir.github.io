@@ -1558,148 +1558,8 @@ Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) 
 **__init__** yöntemini açıkça aramadık. Bu yordamın özel anlamı vardır.
 
 Şimdi, **self.name** alanını **say_hi** yordamında gösterilen yordamlarımızda kullanabiliyoruz.
- 
-<br>
- 
-<h5>Sınıfı kullanan Python programı</h5><hr>
-
-**init** örneği: Bu program bir sınıf oluşturur. Sınıf anahtar sözcüğünü kullanır ve iki yordam sunar. **init** yordamı özeldir. Bu bir kurucudur.
-
-<div class="w3-code notranslate pythonHigh">
-<strong>Not:</strong> init, parametreleri alır ve yeni sınıf özdeşine alanlar atar. Argümanları doğrulayabilir, hesaplamalar yapabilir, yordamları çağırır.</div>
-
-**Box:** İfadede **Box(10, 2)**, **Box** sınıfının yeni bir eşleneğini oluşturuyoruz. Genişliği 10'a ayarlanır. Yüksekliği 2'ye ayarlanır.
-
-**Area:** area() yordamı 20'ye dönecektir. Bu, **init** tarafından belirlenen bellekte depolanan değerlere dayanmaktadır.
 
 <br>
-<main class="grid">
-  <article>
-    <div class="text">
-      <p>
-<pre><code>
-class Box:
-    def area(self):
-        return self.width * self.height
-
-    def __init__(self, width, height):
-        self.width = width
-        self.height = height
-
-# Create an instance of Box.
-x = Box(10, 2)
-
-# Print area.
-print(x.area())
-</code></pre>
-</p>
-    </div>
-  </article>
-  <article>
-    <div class="text">
-      <p>
-20
-</p>
-    </div>
-  </article>
-</main>
-
-<br>
-<h5>Sınıf kalıtımını kullanan Python programı</h5><hr>
-
-**Kalıtım.** Bir sınıf, bir veya daha fazla başka sınıftan miras alabilir. Buradan türetmek istediğimiz sınıf tanımlanmalıdır. Türetilmiş sınıf, sınıf adından sonra parantez içinde belirtilir.
-
-B sınıfı, A sınıfından türetilmiştir. Sınıflardan sonraki ifadelerde, boyutu (B sınıfından) ve genişliği (A sınıfıdan) çağırıyoruz.
-
-**Bir sınırlama.** Dairesel sınıf devralın olamaz. Eğer A sınıfından B'ye ve A'dan B'ye türetmeye çalışırsanız, bir NameError alırsınız.
-
-**Size:** Bu def yordamı doğrudan B sınıfında bulunur. Sınıf A'da yoktur.
-
-**Width:** A sınıfı olan B sınıfının, temel sınıfı kontrol edilerek bulunur.
-
-<br>
-<main class="grid">
-  <article>
-    <div class="text">
-      <p>
-<pre><code>
-class A:
-    def width(self):
-        print("a, width called")
-
-class B(A):
-    def size(self):
-        print("b, size called")
-
-# Create new class instance.
-b = B()
-# Call method on B.
-b.size()
-# Call method from base class.
-b.width()
-</code></pre>
-</p>
-    </div>
-  </article>
-  <article>
-    <div class="text">
-      <p>
-b, size called<br>
-a, width called
-</p>
-    </div>
-  </article>
-</main>
-
-
-
-<br>
- 
-<h5>İki alt çizgi değişkenini kullanan Python programı</h5><hr>
-
-<br>
-İki alt çizgi. Bir sınıfta, bazı elemanların isimlerinin başında iki altçizgi vardır. Bunlar özeldir. Python dili, onları özel olarak ele alır.
-
-Sınıf dışından özel elemanlara erişilebilir, ancak başlangıçta **_ClassName** eklemeliyiz.
-
-A sınıfında, **__value** adlı bir alanımız var. Bunu, sınıfın dışında **_A__value** olarak belirtmeliyiz, ancak içinde **__value** kullanabiliriz.
-
-
-<br>
-<main class="grid">
-  <article>
-    <div class="text">
-      <p>
-<pre><code>
-class A:
-    # Init.
-    def __init__(self, value):
-        self.__value = value
-
-    # Two-underscore name.
-    __value = 0
-
-# Create the class.
-a = A(5)
-
-# [1] Cannot use two-underscore name.
-# print(a.__value)
-
-# [2] Must use mangled name.
-print(a._A__value)
-</code></pre>
-</p>
-    </div>
-  </article>
-  <article>
-    <div class="text">
-      <p>
-5
-</p>
-    </div>
-  </article>
-</main>
-
 
 <div class="teaser clearfix"></div>
 <h3  id="C11"><code class="w3-codespan">self</code> Parametresi</h3><hr>
@@ -1848,6 +1708,151 @@ print(p1.age)
    <p> Ne yaptığınızı biliyorsanız, sınıfların nasıl karşılaştırıldığı, özniteliklerin nasıl tanımlandığı ve sınıfınızın alt sınıfları olarak kabul edilen sınıflar hakkında neredeyse tam kontrol sahibi olabilirsiniz.</p>
  </div>
 </div> 
+
+ 
+<br>
+<h3>Python programıları</h3><hr>
+<h5>Sınıfı kullanan Python programı</h5><hr>
+
+**init** örneği: Bu program bir sınıf oluşturur. Sınıf anahtar sözcüğünü kullanır ve iki yordam sunar. **init** yordamı özeldir. Bu bir kurucudur.
+
+<div class="w3-code notranslate pythonHigh">
+<strong>Not:</strong> init, parametreleri alır ve yeni sınıf özdeşine alanlar atar. Argümanları doğrulayabilir, hesaplamalar yapabilir, yordamları çağırır.</div>
+
+**Box:** İfadede **Box(10, 2)**, **Box** sınıfının yeni bir eşleneğini oluşturuyoruz. Genişliği 10'a ayarlanır. Yüksekliği 2'ye ayarlanır.
+
+**Area:** area() yordamı 20'ye dönecektir. Bu, **init** tarafından belirlenen bellekte depolanan değerlere dayanmaktadır.
+
+<br>
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Box:
+    def area(self):
+        return self.width * self.height
+
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+
+# Create an instance of Box.
+x = Box(10, 2)
+
+# Print area.
+print(x.area())
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+20
+</p>
+    </div>
+  </article>
+</main>
+
+<br>
+<h5>Sınıf kalıtımını kullanan Python programı</h5><hr>
+
+**Kalıtım.** Bir sınıf, bir veya daha fazla başka sınıftan miras alabilir. Buradan türetmek istediğimiz sınıf tanımlanmalıdır. Türetilmiş sınıf, sınıf adından sonra parantez içinde belirtilir.
+
+B sınıfı, A sınıfından türetilmiştir. Sınıflardan sonraki ifadelerde, boyutu (B sınıfından) ve genişliği (A sınıfıdan) çağırıyoruz.
+
+**Bir sınırlama.** Dairesel sınıf devralın olamaz. Eğer A sınıfından B'ye ve A'dan B'ye türetmeye çalışırsanız, bir NameError alırsınız.
+
+**Size:** Bu def yordamı doğrudan B sınıfında bulunur. Sınıf A'da yoktur.
+
+**Width:** A sınıfı olan B sınıfının, temel sınıfı kontrol edilerek bulunur.
+
+<br>
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class A:
+    def width(self):
+        print("a, width called")
+
+class B(A):
+    def size(self):
+        print("b, size called")
+
+# Create new class instance.
+b = B()
+# Call method on B.
+b.size()
+# Call method from base class.
+b.width()
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+b, size called<br>
+a, width called
+</p>
+    </div>
+  </article>
+</main>
+
+
+
+<br>
+ 
+<h5>İki alt çizgi değişkenini kullanan Python programı</h5><hr>
+
+<br>
+İki alt çizgi. Bir sınıfta, bazı elemanların isimlerinin başında iki altçizgi vardır. Bunlar özeldir. Python dili, onları özel olarak ele alır.
+
+Sınıf dışından özel elemanlara erişilebilir, ancak başlangıçta **_ClassName** eklemeliyiz.
+
+A sınıfında, **__value** adlı bir alanımız var. Bunu, sınıfın dışında **_A__value** olarak belirtmeliyiz, ancak içinde **__value** kullanabiliriz.
+
+
+<br>
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class A:
+    # Init.
+    def __init__(self, value):
+        self.__value = value
+
+    # Two-underscore name.
+    __value = 0
+
+# Create the class.
+a = A(5)
+
+# [1] Cannot use two-underscore name.
+# print(a.__value)
+
+# [2] Must use mangled name.
+print(a._A__value)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+5
+</p>
+    </div>
+  </article>
+</main>
+
+
+
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
  
  
