@@ -674,7 +674,8 @@ New method wins!
 Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşmayın, bu kötü bir formdur ve bu sınıfı kullanarak herhangi bir öbeği karıştırır. Öte yandan, yordamların eklenmesi çok daha az (ama yine de biraz) tehlikelidir.
 
 <br>
-<h4 id="C91">Instance Methods</h4>
+<h4 id="C91">Eşlenen Yordamlar</h4>
+<h6 id="C91">Instance Methods</h6>
 <hr>
 
 
