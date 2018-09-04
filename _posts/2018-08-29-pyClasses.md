@@ -727,11 +727,11 @@ MyClass.method()
   <article>
     <div class="text">
       <p>
-In [1]: obj.classmethod()<br>
-In [2]: obj.method()<br>
-In [3]: MyClass.method(obj)<br>
-In [4]: obj.staticmethod()<br>
-In [5]: MyClass.classmethod()<br>
+In [1]: obj.classmethod()
+In [2]: obj.method()<br><br>
+In [3]: MyClass.method(obj)<br><br>
+In [4]: obj.staticmethod()<br><br>
+In [5]: MyClass.classmethod()<br><br>
 In [6]: MyClass.staticmethod()<br>
 In [7]: MyClass.method()
 </p>
