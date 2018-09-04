@@ -1571,6 +1571,46 @@ Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) 
 
 <br>
 
+**Box:**
+İfadede Box(10, 2), Box sınıfının yeni bir eşleneğini oluşturuyoruz. Genişliği 10'a ayarlanır. Yüksekliği 2'ye ayarlanır.
+
+**Area:** 
+area() yordamı 20'ye dönecektir. Bu, init tarafından belirlenen bellekte depolanan değerlere dayanmaktadır.
+
+<br>
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Box:
+    def area(self):
+        return self.width * self.height
+
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+
+# Create an instance of Box.
+x = Box(10, 2)
+
+# Print area.
+print(x.area())
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+20
+</p>
+    </div>
+  </article>
+</main>
+
+
+<br>
 <div class="teaser clearfix"></div>
 <h3  id="C11"><code class="w3-codespan">self</code> Parametresi</h3><hr>
 <p> <code class="w3-codespan">self</code> sınıfın kendisine bir referanstır ve sınıfa ait değişkenlere erişmek için kullanılır. 
