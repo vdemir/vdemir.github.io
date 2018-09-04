@@ -1152,8 +1152,8 @@ Sınıf özniteliklerinden farklı olarak, özdeş öznitelikleri öbekler taraf
 
 Bir özdeşin / öbeğin özniteliklerini listelemek için iki fonksiyonumuz vardır: -
 
-1. vars() - Bu fonksiyon, bir özdeşin özniteliğini bir sözlük biçiminde görüntüler.
-2. dir() - Bu fonksiyon, özdeşle sınırlı olmadığı için vars fonksiyonundan daha fazla nitelik gösterir. Sınıf özniteliklerini de gösterir.
+1. **vars()** - Bu fonksiyon, bir özdeşin özniteliğini bir sözlük biçiminde görüntüler.
+2. **dir()** - Bu fonksiyon, özdeşle sınırlı olmadığı için vars fonksiyonundan daha fazla nitelik gösterir. Sınıf özniteliklerini de gösterir.
 
 <br>
  
