@@ -765,6 +765,9 @@ Bir **```self```** parametresini kabul etmek yerine, sınıf yordamları bir ```
 <h6>Static Methods</h6>
 <hr>
 
+Üçüncü yöntem, ```MyClass.staticmethod``` bir statik yöntem olarak işaretlemek için bir 
+```@staticmethod``` dekoratör ile işaretlendi.
+
 The third method, MyClass.staticmethod was marked with a @staticmethod decorator to flag it as a static method.
 
 This type of method takes neither a self nor a cls parameter (but of course it’s free to accept an arbitrary number of other parameters).
