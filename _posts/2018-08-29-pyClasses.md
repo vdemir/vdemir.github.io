@@ -1563,12 +1563,8 @@ Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) 
  
 **init örneği:** Bu program bir sınıf oluşturur. Sınıf anahtar sözcüğünü kullanır ve iki yordam sunar. **init** yordamı özeldir. Bu bir kurucudur.
 
-<br>
- 
 <div class="w3-code notranslate pythonHigh">
 <strong>Not:</strong> init, parametreleri alır ve yeni sınıf özdeşine alanlar atar. Argümanları doğrulayabilir, hesaplamalar yapabilir, yordamları çağırır.</div>
-
-<br>
 
 **Box:**
 İfadede Box(10, 2), Box sınıfının yeni bir eşleneğini oluşturuyoruz. Genişliği 10'a ayarlanır. Yüksekliği 2'ye ayarlanır.
