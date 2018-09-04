@@ -1711,7 +1711,7 @@ print(p1.age)
 
  
 <br>
-<h3>Python programıları</h3><hr>
+<h3>Python Programları</h3><hr>
 
 
 <div class="w3-panel w3-card w3-light-grey">
