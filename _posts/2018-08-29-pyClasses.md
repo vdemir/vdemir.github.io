@@ -841,12 +841,6 @@ Offspring2.static() # prints Offspring2
 Example static() called <br>
 Example static() called <br>
 Offspring2 static() called
-5 <br>
-5  <br>
-6  <br>
-5  <br>
-6  <br>
-7
 </p>
     </div>
   </article>
