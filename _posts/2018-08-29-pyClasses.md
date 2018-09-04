@@ -1561,7 +1561,7 @@ Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) 
  
 <br>
  
-<h4>Örnekler</h4><hr>
+<h5>Sınıfı kullanan Python programı</h5><hr>
 
 **init** örneği: Bu program bir sınıf oluşturur. Sınıf anahtar sözcüğünü kullanır ve iki yordam sunar. **init** yordamı özeldir. Bu bir kurucudur.
 
