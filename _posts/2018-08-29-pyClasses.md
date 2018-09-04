@@ -799,7 +799,58 @@ Bana oldukça basit görünüyor. Sadece kafa karışıklığı gerçek olabilir
 
 Statik yordamlarla biraz daha karmaşık hale gelir. Python'da, bir sınıf içindeki statik yordamları tanımlamanın iki yolu vardır.
 
+<br>
+<h5>@staticmethod</h5>
+<hr>
 
+Bu dekoratör ile dekore edilen yordam isim uzayını sınıf ile paylaşır. Yordam tanımında hiçbir argümanın zorunlu olmadığını unutmayın. Statik yordam, sınıflara statik değişkenlerle erişebilir. Aşağıdaki örnekte bakın:
+
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Example:
+    name = "Example"
+
+    @staticmethod
+    def static():
+        print ("%s static() called" % Example.name)
+
+class Offspring1(Example):
+    name = "Offspring1"
+
+class Offspring2(Example):
+    name = "Offspring2"
+
+    @staticmethod
+    def static():
+        print ("%s static() called" % Offspring2.name)
+
+Example.static() # prints Example
+Offspring1.static() # prints Example
+Offspring2.static() # prints Offspring2
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+Example static() called <br>
+Example static() called <br>
+Offspring2 static() called
+5 <br>
+5  <br>
+6  <br>
+5  <br>
+6  <br>
+7
+</p>
+    </div>
+  </article>
+</main>
 
 
 
