@@ -894,7 +894,7 @@ Offspring2 static() called
   </article>
 </main>
 
-
+Hangisini kullanmalısın? İlk seçenek, yalnızca aynı sınıftaki statik değişkenlere erişmenizi sağlar. İkinci yaklaşımda, alt sınıfların sınıf değişkenlerini, kalıtım sırasında yordamı yeniden tanımlamanın zorunluluğu olmadan değiştirebileceksiniz. İlk varyantı tercih ederim çünkü kişisel olarak daha temiz bir çözüm olduğunu düşünüyorum, ancak ikinci varyant da bazı durumlarda faydalı olabilir.
 
 
 
