@@ -750,7 +750,7 @@ In [7]: <br>MyClass.method()
 <hr>
 
 Method denilen MyClass'taki ilk yordam, normal bir eşleşen yordamdır.
-Bu, çoğu zaman kullanacağınız temel, asgari ihtiyaçları karşılamaya yönelik yordam tipidir. Yordamın bir parametre **self** aldığını görebilirsiniz, yordam çağrıldığında MyClass eşleneğine işaret eder. You can see the method takes one parameter, self, which points to an instance of MyClass when the method is called (but of course instance methods can accept more than just one parameter).
+Bu, çoğu zaman kullanacağınız temel, asgari ihtiyaçları karşılamaya yönelik yordam tipidir. Yordamın bir parametre **self** aldığını görebilirsiniz, yordam çağrıldığında MyClass eşleneğine işaret eder. (ama elbette özdeş yordamlar sadece bir parametreden fazlasını kabul edebilir).
 
 Through the self parameter, instance methods can freely access attributes and other methods on the same object. This gives them a lot of power when it comes to modifying an object’s state.
 
