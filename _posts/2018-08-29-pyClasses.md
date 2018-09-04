@@ -754,23 +754,23 @@ Python'daki sınıf düzeyinde tanımlanan tüm değişkenler statik kabul edili
       <p>
 <pre><code>
 class Example:
-    staticVariable = 5 # Access through class
+  staticVariable = 5 # Access through class
 
-print ('Example.staticVariable') # prints 5
+print (Example.staticVariable) # prints 5
 
 # Access through an instance
 instance = Example()
-print ('instance.staticVariable') # still 5
+print (instance.staticVariable) # still 5
 
 # Change within an instance
 instance.staticVariable = 6
-print ('instance.staticVariable') # 6
-print ('Example.staticVariable') # 5
+print (instance.staticVariable) # 6
+print (Example.staticVariable) # 5
 
 # Change through
 Example.staticVariable = 7
-print ('instance.staticVariable') # still 6
-print ('Example.staticVariable') # now 7
+print (instance.staticVariable) # still 6
+print (Example.staticVariable) # now 7
 </code></pre>
 </p>
     </div>
@@ -779,11 +779,17 @@ print ('Example.staticVariable') # now 7
     <div class="text">
       <p>
 5 <br>
-5 <br>
-6 <br>
-5 <br>
-6 <br>
+5  <br>
+6  <br>
+5  <br>
+6  <br>
 7
+5 <br>
+5 <br>
+6 <br>
+5 <br>
+instance.staticVariable <br>
+Example.staticVariable
 </p>
     </div>
   </article>
