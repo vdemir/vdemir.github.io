@@ -677,7 +677,7 @@ New method wins!
 Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşmayın, bu kötü bir formdur ve bu sınıfı kullanarak herhangi bir öbeği karıştırır. Öte yandan, yordamların eklenmesi çok daha az (ama yine de biraz) tehlikelidir.
 
 <br>
-<h4 id="C910">Eşlenen, Sınıf ve Statik Yordamlar - Genel Bakış</h4>
+<h4 id="C85">Eşlenen, Sınıf ve Statik Yordamlar - Genel Bakış</h4>
 <hr>
 Her üç yordam tipi için basit örnekler içeren bir (Python 3) sınıfı yazarak başlayalım:
 
@@ -737,7 +737,7 @@ MyClass.method()
 </main>
 
 <br>
-<h3 id="C911">Python'da statik değişkenler ve yordamlar</h3>
+<h3 id="C86">Python'da statik değişkenler ve yordamlar</h3>
 <hr>
 
 Python'da bir veri elemanı veya statik yordam nasıl bildirilir? Statik, özdeş seviyesinden ziyade bir sınıf düzeyinde eleman olduğu anlamına gelir. Statik değişkenler, yalnızca sınıf başına tek özdeşte bulunur ve eşlenmez.  Sınıfın bir eşleneğinde statik bir değişken değiştirilirse, değişiklik diğer tüm özdeşlerde değerini etkileyecektir.
@@ -936,7 +936,7 @@ Bu tip bir yordam ne **```self```** ne de bir **```cls```** parametresini alır 
 Bu nedenle, statik bir yordam, öbek durumunu ve sınıf durumunu değiştiremez. Statik yordamlar, verilerde erişebilecekleri şeyleri sınırlandırır ve esas olarak yordamlarınızı adlandırmak için bir yoldur.
 
 <br>
-<h4 id="C85">Sınıf Yordamları Oluşturma</h4>
+<h4 id="C87">Sınıf Yordamları Oluşturma</h4>
 <hr>
 
 Bazen bir sınıf yazarken, sınıftan çağrılan bir fonksiyonu dahil etmek istersiniz, özdeşini değil. Belki bu yordam yeni özdeşler oluşturur veya belki de herhangi bir özel özdeşin herhangi bir özniteliğinden bağımsızdır. Python, yordamınızın, hangi sınıfın çağırdığını bilmesi gerektiğine (ya da bilmesine) bağlı olarak, bunu yapmanın iki yolunu size verir. Her ikisi de yordamlarınıza dekoratörler uygulamasını içerir. 
@@ -1011,7 +1011,7 @@ I was called from the instance <__main__.Class object at 0x7f6854953748>
 </main>
 
 <br>
-<h4 id="C86">Sınıf Öznitelikleri</h4>
+<h4 id="C88">Sınıf Öznitelikleri</h4>
 <hr>
 
 Bazı öznitelik değerleri, verilen bir sınıfın tüm öbeklerinde paylaşılır. Bu öznitelikler, sınıfın herhangi bir tek özdeşinden ziyade sınıfın kendisi ile ilişkilendirilir. Örneğin, bir bankanın hesap bakiyesine sabit faiz oranından faiz ödediğini söyleyelim. Bu faiz oranı değişebilir, ancak tüm hesaplarda paylaşılan tek bir değerdir. 
@@ -1103,7 +1103,7 @@ jim_account.interest <br>
 
 <br><br>
 
-<h4> Sınıf Öznitelikleri</h4><hr>
+<h4 id="C89"> Sınıf Öznitelikleri 2</h4><hr>
 Sınıf öznitelikleri, tüm özdeşlerle paylaşılacakları sınıfa aittir. Bu öznitelikler, okunabilirlik için genellikle üst kısımdaki sınıf gövdesi parçalarında tanımlanmaktadır.
 
 <br>
@@ -1149,7 +1149,7 @@ Out [1]: <br>
   </article>
 </main>
 <br>
-<h4 id="C87">Özdeş Öznitelikleri</h4><hr>
+<h4 id="C90">Özdeş Öznitelikleri</h4><hr>
 
 Sınıf özniteliklerinden farklı olarak, özdeş öznitelikleri öbekler tarafından paylaşılmaz. Her öbeğin, özdeş özniteliğinin kendi kopyası vardır (Sınıf öniteliklerinin durumunda, tüm nesneler tek kopyaya başvurur).
 
@@ -1194,7 +1194,7 @@ Dictionary form : {'salary': 4000, 'name': 'xyz'} <br>
 </main>
 
 <br>
-<h4 id="C88">Sınıf ve Öbek Değişkenleri</h4><hr>
+<h4 id="C91">Sınıf ve Öbek Değişkenleri</h4><hr>
 
 Daha önce sınıfların ve nesnelerin işlevselliğini ele aldık (ör. Yordamlar), şimdi veri kısmı hakkında bilgi verelim. Veri kısmı, yani alanlar, sınıfların ve öbeklerin ad alanlarına bağlı olan sıradan değişkenlerden başka bir şey değildir. Bu, bu adların yalnızca bu sınıflar ve öbekler bağlamında geçerli olduğu anlamına gelir. Bu yüzden isim alan adı verilir.
 
