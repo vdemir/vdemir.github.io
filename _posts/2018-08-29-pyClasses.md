@@ -784,12 +784,6 @@ print (Example.staticVariable) # now 7
 5  <br>
 6  <br>
 7
-5 <br>
-5 <br>
-6 <br>
-5 <br>
-instance.staticVariable <br>
-Example.staticVariable
 </p>
     </div>
   </article>
