@@ -733,7 +733,7 @@ In [2]: <br>obj.method()<br><br>
 In [3]: <br>MyClass.method(obj)<br><br>
 In [4]: <br>obj.staticmethod()<br><br>
 In [5]: <br>MyClass.classmethod()<br><br>
-In [6]: <br>MyClass.staticmethod()<br>
+In [6]: <br>MyClass.staticmethod()<br><br>
 In [7]: <br>MyClass.method()
 </p>
     </div>
