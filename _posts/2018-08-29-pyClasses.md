@@ -43,6 +43,7 @@ img.resize {
       <li><a href="#C10" style="text-decoration: none; color:#388E3C; cursor:pointer">init yordamı</a></li>
       <li><a href="#C11" style="text-decoration: none; color:#388E3C; cursor:pointer">self yordamı</a></li>
       <li><a href="#C12" style="text-decoration: none; color:#388E3C; cursor:pointer">super fonksiyonu</a></li>
+      <li><a href="#C18" style="text-decoration: none; color:#388E3C; cursor:pointer">Python Programları</a></li>
       <li><a href="#C16" style="text-decoration: none; color:#388E3C; cursor:pointer">Python 3 Shell</a></li>
       <li><a href="#C17" style="text-decoration: none; color:#388E3C; cursor:pointer">Sözlük Dizini</a></li>
     </ul>
@@ -1710,11 +1711,10 @@ Derived class method
 </main>
 
 Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, **super(Child, self).printlnfo()** biçiminde **super()** yordamı kullanılır; burada taban sınıfının adı belirtilmemiştir. Diğer yol, **Parent.printlnfo(self)** kullanılarak olurdu.
-
  
 <br>
-<h3>Python Programları</h3><hr>
 
+<h3 id="C18">Python Programları</h3><hr>
 
 <div class="w3-panel w3-card w3-light-grey">
   <div class="w3-container w3-white">
