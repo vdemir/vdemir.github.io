@@ -1560,6 +1560,16 @@ Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) 
 Şimdi, **self.name** alanını **say_hi** yordamında gösterilen yordamlarımızda kullanabiliyoruz.
  
 <br>
+ 
+<div class="w3-code notranslate pythonHigh">
+<strong>Init örneği:</strong>Bu program bir sınıf oluşturur. Sınıf anahtar sözcüğünü kullanır ve iki yordam sunar. **__init__** yordamı özeldir. Bu bir kurucudur.</div>
+
+<br>
+ 
+<div class="w3-code notranslate pythonHigh">
+<strong>Not:</strong> **init**, parametreleri alır ve yeni sınıf özdeşine alanlar atar. Argümanları doğrulayabilir, hesaplamalar yapabilir, yordamları çağırır.</div>
+
+<br>
 
 <div class="teaser clearfix"></div>
 <h3  id="C11"><code class="w3-codespan">self</code> Parametresi</h3><hr>
