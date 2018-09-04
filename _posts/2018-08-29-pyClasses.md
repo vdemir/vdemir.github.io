@@ -1568,11 +1568,9 @@ Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) 
 <div class="w3-code notranslate pythonHigh">
 <strong>Not:</strong> init, parametreleri alır ve yeni sınıf özdeşine alanlar atar. Argümanları doğrulayabilir, hesaplamalar yapabilir, yordamları çağırır.</div>
 
-**Box:**
-İfadede Box(10, 2), Box sınıfının yeni bir eşleneğini oluşturuyoruz. Genişliği 10'a ayarlanır. Yüksekliği 2'ye ayarlanır.
+İfadede **Box(10, 2)**, **Box** sınıfının yeni bir eşleneğini oluşturuyoruz. Genişliği 10'a ayarlanır. Yüksekliği 2'ye ayarlanır.
 
-**Area:** 
-area() yordamı 20'ye dönecektir. Bu, init tarafından belirlenen bellekte depolanan değerlere dayanmaktadır.
+**area()** yordamı 20'ye dönecektir. Bu, **init** tarafından belirlenen bellekte depolanan değerlere dayanmaktadır.
 
 <br>
 <main class="grid">
