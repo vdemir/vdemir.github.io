@@ -129,6 +129,15 @@ Anne
 <div class="w3-code notranslate pythonHigh">
   class MyClass:<br> &nbsp; 'Python Temel Sınıf'<br> &nbsp; x = 5<br>print(MyClass)</div>
 
+<br>
+ 
+<div class="w3-code notranslate pythonHigh">
+<strong>Sınıf:</strong> Uzakta bir kale duruyor. Birçok işlevi vardır - bir hendek vardır, duvarları vardır, şehri korur. İstilacıları dışarıda tutar.</div>
+ 
+<div class="w3-code notranslate pythonHigh">
+<strong>Bir kale gibi:</strong>Python'daki bir sınıfın işlevleri vardır (defs). Bir kale kasabayı koruyor. Bir sınıf verilerini korur. Sınıflar bir soyutlamadır.</div>
+
+<br>
 
 <main class="grid">
   <article>
