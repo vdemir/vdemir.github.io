@@ -1664,6 +1664,43 @@ Sınıf dışından özel elemanlara erişilebilir, ancak başlangıçta **_Clas
 
 A sınıfında, **__value** adlı bir alanımız var. Bunu, sınıfın dışında **_A__value** olarak belirtmeliyiz, ancak içinde **__value** kullanabiliriz.
 
+
+<br>
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class A:
+    # Init.
+    def __init__(self, value):
+        self.__value = value
+
+    # Two-underscore name.
+    __value = 0
+
+# Create the class.
+a = A(5)
+
+# [1] Cannot use two-underscore name.
+# print(a.__value)
+
+# [2] Must use mangled name.
+print(a._A__value)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+5
+</p>
+    </div>
+  </article>
+</main>
+
+
 <div class="teaser clearfix"></div>
 <h3  id="C11"><code class="w3-codespan">self</code> Parametresi</h3><hr>
 <p> <code class="w3-codespan">self</code> sınıfın kendisine bir referanstır ve sınıfa ait değişkenlere erişmek için kullanılır. 
