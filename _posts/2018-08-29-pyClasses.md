@@ -745,7 +745,49 @@ Statik yöntemler, sınıfın herhangi bir eşleneğine başvurmaz ve dışında
 <br>
 <h4>Değişkenler</h4>
 <hr>
+Python'daki sınıf düzeyinde tanımlanan tüm değişkenler statik kabul edilir. Bu örneğe bakın:
 
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Example:
+    staticVariable = 5 # Access through class
+
+print ('Example.staticVariable') # prints 5
+
+# Access through an instance
+instance = Example()
+print ('instance.staticVariable') # still 5
+
+# Change within an instance
+instance.staticVariable = 6
+print ('instance.staticVariable') # 6
+print ('Example.staticVariable') # 5
+
+# Change through
+Example.staticVariable = 7
+print ('instance.staticVariable') # still 6
+print ('Example.staticVariable') # now 7
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+Example.staticVariable <br>
+instance.staticVariable <br>
+instance.staticVariable <br>
+Example.staticVariable <br>
+instance.staticVariable <br>
+Example.staticVariable
+</p>
+    </div>
+  </article>
+</main>
 
 <br>
 <h4 id="C911">Eşlenen Yordamlar</h4>
