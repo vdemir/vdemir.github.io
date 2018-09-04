@@ -695,9 +695,10 @@ class MyClass:
     @staticmethod
     def staticmethod():
        return 'static method called'
-obj = MyClass()
-obj.classmethod()
 
+obj = MyClass()
+
+obj.classmethod()
 # ('class method called', __main__.MyClass)
 
 obj.method()
