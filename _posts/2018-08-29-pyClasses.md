@@ -742,8 +742,8 @@ MyClass.method()
 <h6>Instance Methods</h6>
 <hr>
 
-Method denilen ```MyClass```'taki ilk yordam, normal bir eşleşen yordamdır.
-Bu, çoğu zaman kullanacağınız temel, asgari ihtiyaçları karşılamaya yönelik yordam tipidir. Yordamın bir parametre **```self```** aldığını görebilirsiniz, yordam çağrıldığında ```MyClass``` eşleneğine işaret eder. (ama elbette özdeş yordamlar sadece bir parametreden fazlasını kabul edebilir).
+Method denilen **```MyClass```**'taki ilk yordam, normal bir eşleşen yordamdır.
+Bu, çoğu zaman kullanacağınız temel, asgari ihtiyaçları karşılamaya yönelik yordam tipidir. Yordamın bir parametre **```self```** aldığını görebilirsiniz, yordam çağrıldığında **```MyClass```** eşleneğine işaret eder. (ama elbette özdeş yordamlar sadece bir parametreden fazlasını kabul edebilir).
 
 **```self```** parametresi aracılığıyla, eşlenen yordamlar, aynı öbek üzerindeki özniteliklere ve diğer yordamlara serbestçe erişebilir.Bu, bir öbeğin durumunu değiştirmeye sıra geldiğinde onlara çok fazla güç verir.
 
