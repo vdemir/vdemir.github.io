@@ -1712,6 +1712,22 @@ print(p1.age)
  
 <br>
 <h3>Python programıları</h3><hr>
+
+
+<div class="w3-panel w3-card w3-light-grey">
+  <div class="w3-container w3-white">
+    <p>
+    <ul class="w3-ul w3-card-4" style="width:85%">
+      <li><a href="#C861" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıfı kullanan Python programı</a></li>
+      <li><a href="#C862" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf kalıtımını kullanan Python programı</a></li>
+      <li><a href="#C863" style="text-decoration: none; color:#388E3C; cursor:pointer">İki alt çizgi değişkenini kullanan Python programı</a></li>
+    </ul>
+    </p>
+  </div>
+</div>
+<br>
+
+
 <h5>Sınıfı kullanan Python programı</h5><hr>
 
 **init** örneği: Bu program bir sınıf oluşturur. Sınıf anahtar sözcüğünü kullanır ve iki yordam sunar. **init** yordamı özeldir. Bu bir kurucudur.
