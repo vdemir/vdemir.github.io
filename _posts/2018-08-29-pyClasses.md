@@ -747,7 +747,7 @@ Bu, çoğu zaman kullanacağınız temel, asgari ihtiyaçları karşılamaya yö
 
 **self** parametresi aracılığıyla, eşlenen yordamlar, aynı öbek üzerindeki özniteliklere ve diğer yordamlara serbestçe erişebilir.Bu, bir öbeğin durumunu değiştirmeye sıra geldiğinde onlara çok fazla güç verir.
 
-Onlar sadece öbeğin durumunu değiştirmezler, özdeş yordamlar, sınıfın kendisine ```**self .__class__**``` özniteliği aracılığıyla da erişebilir. Bu, eşlenen yordamların sınıf durumunu da değiştirebileceği anlamına gelir.
+Onlar sadece öbeğin durumunu değiştirmezler, özdeş yordamlar, sınıfın kendisine ```self .__class__``` özniteliği aracılığıyla da erişebilir. Bu, eşlenen yordamların sınıf durumunu da değiştirebileceği anlamına gelir.
 
 <br>
 <h4 id="C90">Class Methods</h4>
