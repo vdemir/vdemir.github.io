@@ -812,21 +812,21 @@ Bu dekoratör ile dekore edilen yordam isim uzayını sınıf ile paylaşır. Yo
       <p>
 <pre><code>
 class Example:
-    name = "Example"
+  name = "Example"
 
-    @staticmethod
-    def static():
-        print ("%s static() called" % Example.name)
+  @staticmethod
+  def static():
+    print ("%s static() called" % Example.name)
 
 class Offspring1(Example):
-    name = "Offspring1"
+  name = "Offspring1"
 
 class Offspring2(Example):
-    name = "Offspring2"
+  name = "Offspring2"
 
-    @staticmethod
-    def static():
-        print ("%s static() called" % Offspring2.name)
+  @staticmethod
+  def static():
+    print ("%s static() called" % Offspring2.name)
 
 Example.static() # prints Example
 Offspring1.static() # prints Example
