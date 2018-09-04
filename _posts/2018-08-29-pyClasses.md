@@ -1720,9 +1720,9 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
-      <li><a href="#C861" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıfı kullanan Python programı</a></li>
-      <li><a href="#C862" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf kalıtımını kullanan Python programı</a></li>
-      <li><a href="#C863" style="text-decoration: none; color:#388E3C; cursor:pointer">İki alt çizgi değişkenini kullanan Python programı</a></li>
+      <li><a href="#C181" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıfı kullanan Python programı</a></li>
+      <li><a href="#C182" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf kalıtımını kullanan Python programı</a></li>
+      <li><a href="#C183" style="text-decoration: none; color:#388E3C; cursor:pointer">İki alt çizgi değişkenini kullanan Python programı</a></li>
     </ul>
     </p>
   </div>
@@ -1730,7 +1730,7 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
 <br>
 
 
-<h5>Sınıfı kullanan Python programı</h5><hr>
+<h5 id="C181">Sınıfı kullanan Python programı</h5><hr>
 
 **init** örneği: Bu program bir sınıf oluşturur. Sınıf anahtar sözcüğünü kullanır ve iki yordam sunar. **init** yordamı özeldir. Bu bir kurucudur.
 
@@ -1774,7 +1774,7 @@ print(x.area())
 </main>
 
 <br>
-<h5>Sınıf kalıtımını kullanan Python programı</h5><hr>
+<h5 id="C182">Sınıf kalıtımını kullanan Python programı</h5><hr>
 
 **Kalıtım.** Bir sınıf, bir veya daha fazla başka sınıftan miras alabilir. Buradan türetmek istediğimiz sınıf tanımlanmalıdır. Türetilmiş sınıf, sınıf adından sonra parantez içinde belirtilir.
 
@@ -1824,7 +1824,7 @@ a, width called
 
 <br>
  
-<h5>İki alt çizgi değişkenini kullanan Python programı</h5><hr>
+<h5 id="C183">İki alt çizgi değişkenini kullanan Python programı</h5><hr>
 
 <br>
 İki alt çizgi. Bir sınıfta, bazı elemanların isimlerinin başında iki altçizgi vardır. Bunlar özeldir. Python dili, onları özel olarak ele alır.
