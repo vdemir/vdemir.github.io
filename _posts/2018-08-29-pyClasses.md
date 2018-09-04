@@ -765,8 +765,7 @@ Bir **```self```** parametresini kabul etmek yerine, sınıf yordamları bir ```
 <h6>Static Methods</h6>
 <hr>
 
-Üçüncü yöntem, ```MyClass.staticmethod``` bir statik yöntem olarak işaretlemek için bir 
-```@staticmethod``` dekoratör ile işaretlendi.
+Üçüncü yöntem, bir statik yordam olarak işaretlemek için ```MyClass.staticmethod``` bir ```@staticmethod``` dekoratör ile işaretlendi.
 
 The third method, MyClass.staticmethod was marked with a @staticmethod decorator to flag it as a static method.
 
