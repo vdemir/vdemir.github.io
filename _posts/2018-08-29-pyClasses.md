@@ -826,7 +826,7 @@ class Offspring2(Example):
 
  @staticmethod
  def static():
-  print ("%s static()called" % Offspring2.name)
+  print ("%s static() called" % Offspring2.name)
 
 Example.static() # prints Example
 Offspring1.static() # prints Example
@@ -840,11 +840,19 @@ Offspring2.static() # prints Offspring2
       <p>
 Example static() called <br>
 Example static() called <br>
-Offspring2 static()called
+Offspring2 static() called
 </p>
     </div>
   </article>
 </main>
+
+
+<br>
+<h5>@classmethod</h5>
+<hr>
+
+Python'da sınıf yordamı ve statik yordam arasındaki fark vardır. Bu sınıf yordamı, zorunlu bir argümanı - çağırdığı bir sınıf adını - alır.
+
 
 
 
