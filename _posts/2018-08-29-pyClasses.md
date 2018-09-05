@@ -2589,18 +2589,50 @@ Programınızda herhangi bir doğrudan erişim oluşursa, kodunuz yeni veya test
 **Özet.** KeyError, Python'da önlenebilir bir istisnadır. Bir sözlük yanlış kullanıldığında ortaya çıkar. Bu hatayı önlemek için iki yol gördük. Bir try-except ifadesi kullandık. Ve değer erişimini get() yordam çağrısı ile değiştirdik.
 
 <br>
-<h5 id="C196">KeyError işleyen Python programı</h5><hr>
+<h5 id="C196">in kullanan Python programı</h5><hr>
 
-In-keyword. Bir sözlük belirli bir anahtar-key içerebilir (veya içermeyebilir). Çoğu zaman varlığını test etmemiz gerekir. Bunu yapmanın bir yolu, anahtar kelime iledir. 
+**In-keyword.** Bir sözlük belirli bir anahtar-key içerebilir (veya içermeyebilir). Çoğu zaman varlığını test etmemiz gerekir. Bunu yapmanın bir yolu, anahtar kelime iledir. 
 In 
 
-True: 
+**True:** 
 Bu anahtar, sözlükteki bir anahtar/değer çiftinin parçası olarak mevcutsa 1 (true anlamında) döndürür.
 
-False: 
+**False:** 
 Anahtar yoksa, in-keyword, false değerini gösteren 0 değerini döndürür. Bu if-komut ifadelerinde yararlıdır.
 
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+animals = {}
+animals["monkey"] = 1
+animals["tuna"] = 2
+animals["giraffe"] = 4
 
+# Use in.
+if "tuna" in animals:
+    print("Has tuna")
+else:
+    print("No tuna")
+
+# Use in on nonexistent key.
+if "elephant" in animals:
+    print("Has elephant")
+else:
+    print("No elephant")</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+Has tuna <br>
+No elephant
+</p>
+    </div>
+  </article>
+</main>
 
 
 
