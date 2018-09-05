@@ -1826,6 +1826,7 @@ a, width called
 <h5 id="C183">İki alt çizgi değişkenini kullanan Python programı</h5><hr>
 
 <br>
+
 İki alt çizgi. Bir sınıfta, bazı elemanların isimlerinin başında iki altçizgi vardır. Bunlar özeldir. Python dili, onları özel olarak ele alır.
 
 Sınıf dışından özel elemanlara erişilebilir, ancak başlangıçta **_ClassName** eklemeliyiz.
@@ -1868,6 +1869,17 @@ print(a._A__value)
   </article>
 </main>
 
+
+<br>
+ 
+<h5 id="C183">issubclass kullanan Python programı</h5><hr>
+
+<br>
+
+**issubclass.** Bu bir sınıfın diğerinden türetilmiş olup olmadığını belirler. Bu yerleşik yöntemle, iki sınıf ismini (özdeşini değil) geçiririz.
+
+**Dönüş:** 
+Birinci sınıf ikincisinden miras alırsa, issubclass **true** değerini döndürür. Aksi takdirde **false** döner.
 
 
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
