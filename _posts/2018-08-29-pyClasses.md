@@ -1729,6 +1729,8 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
       <li><a href="#C188" style="text-decoration: none; color:#388E3C; cursor:pointer">super kullanan Python programı</a></li>
       <li><a href="#C189" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıfta hash kullanan Python programı</a></li>
       <li><a href="#C190" style="text-decoration: none; color:#388E3C; cursor:pointer">id kullanan Python programı</a></li>
+      <li><a href="#C191" style="text-decoration: none; color:#388E3C; cursor:pointer">classmethod kullanan Python programı</a></li>
+      <li><a href="#C192" style="text-decoration: none; color:#388E3C; cursor:pointer">staticmethod kullanan Python programı</a></li>
     </ul>
     </p>
   </div>
