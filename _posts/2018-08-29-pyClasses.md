@@ -2451,8 +2451,17 @@ False
 
 **Python'daki 'sınıf' bildirimleri gibi ifadeler**, 'type' gibi yerleşik yordam çağrılarına doğrudan çevrilebilir. Yüksek seviyeli parçaları uygulamak için dilin düşük seviyeli kısımları kullanılır.
 	
+<br>
+<h5 id="C194">Değerleri alan Python program</h5><hr>
 
+Sözlük. Bir dil düşünün. Her kelime bir anlamla eşleşir. Bir kitap yazılı bir çalışmadır. Bir bulut yüzen sudur. Bir sözlükte anahtarları (kelimeleri) değerlere (anlamlara) eşleştiririz. 
 
+Python sözlükleri haritalardır. Köşeli parantezlerle, bir anahtardaki bir değeri atar ve ona erişiriz. get() ile bir varsayılan sonuç belirtebiliriz. 
+
+Örnek alın. Değerler almanın birçok yolu var. '[' and ']' karakterlerini kullanabiliriz. Doğrudan bu şekilde bir değere erişiyoruz. Ancak bu sözdizimi, anahtar-key bulunamazsa bir KeyError'a neden olur. 
+
+Bunun yerine: 
+1 veya 2 argümanlı get() yordamını kullanabiliriz. Bu herhangi bir hataya neden olmaz - hiçbiri döndürmez.
 
 
 
