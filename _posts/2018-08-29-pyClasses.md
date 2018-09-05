@@ -1824,8 +1824,7 @@ a, width called
 <br>
  
 <h5 id="C183">İki alt çizgi değişkenini kullanan Python programı</h5><hr>
-
-<br>
+ 
 
 İki alt çizgi. Bir sınıfta, bazı elemanların isimlerinin başında iki altçizgi vardır. Bunlar özeldir. Python dili, onları özel olarak ele alır.
 
@@ -1873,9 +1872,7 @@ print(a._A__value)
 <br>
  
 <h5 id="C184">issubclass kullanan Python programı</h5><hr>
-
-<br>
-
+ 
 **issubclass.** Bu bir sınıfın diğerinden türetilmiş olup olmadığını belirler. Bu yerleşik yöntemle, iki sınıf ismini (özdeşini değil) geçiririz.
 
 **Dönüş:** 
@@ -1931,8 +1928,6 @@ B says hello <br>
 <br>
  
 <h5 id="C183">isinstance kullanan Python programı</h5><hr>
-
-<br>
 
 **isinstance.** İlk argüman (bir değişken), ikinci argümanın (bir sınıfın) bir eşleneği olduğunda, isinstance true değerini döndürür. Eğer sınıf bir temel sınıfsa, aynı zamanda true döner.
 
