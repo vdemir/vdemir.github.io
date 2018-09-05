@@ -2827,7 +2827,20 @@ change(coins, amounts, 0, 0, 51)
   </article>
 </main>
 
+Çıktı 51 toplam sent yapmak için birçok olası para çeşitleri içerir. İlk olarak 51 adet tek parça kullanabileceğimizi öğreniyoruz. Daha sonra, bir adet 46 sent ve 1 beş sentlik bir parça kullanabiliriz. Bunlar her ikisi de 51 sente kadar. 
 
+Son olarak: 
+Son sonuçta, birçok atlanan sonuçtan sonra gösterildi, 1 yüz sikke ve 50 kuruş para kullanıyoruz. 
+
+Özyinelemeyi kullanırken, özyinelemeli yöntemde çekler (if ifadeleri gibi) eklemek çok önemlidir. Bunlar özyineleme derinliğini sınırlar. Örneğimizde, 51 cent'e (hedefimize) devam etmek için bir nokta yok.
+
+Ve: 
+Biz ilerledikçe (değişimde) sadece daha büyük veya eşit değerde paralar ekliyoruz. Bu, aramayı daha da kolaylaştırır. 
+
+SICP. Bu örnek, klasik bir programlama metni olan Bilgisayar Programlarının Yapısı ve Yorumundan alınmıştır. Özyineleme, bir soruna kaba-arama uygulamanın bir yoludur. Birçok sorun bu şekilde çözülebilir. 
+
+İpucu: 
+Bulmaca gibi oyun problemlerini çözme, bunun gibi yinelemeli yöntemlerle mükemmel bir öğrenme alıştırmasıdır.
 
 
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
