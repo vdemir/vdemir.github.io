@@ -1981,9 +1981,13 @@ if isinstance(b, list):
 <br>
 <h5 id="C184">Repr kullanan Python programı</h5><hr>
 
+ Repr. Bu, bir sınıftan **__repr__** yordamına erişir. Repr 'temsil' anlamına gelir. Bir öbeği dize-string temsiline dönüştürür. Burada Snake özdeşini özel bir şekilde gösteriyoruz.
 
+İpucu: 
+repr yordamından bir dize döndürüyoruz. print yordamı, bir öbeğin **__repr__** yordamını otomatik olarak çağırır.
 
-
+Ve: 
+Kullanılacak olan **__repr__** yordamını kullanmaya zorlamak için **repr**'i çağırabiliriz. Bu temsil dizgisini bir değişkende saklayabilmemizi sağlar.
 
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
  
