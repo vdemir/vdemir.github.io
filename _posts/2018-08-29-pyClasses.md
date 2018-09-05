@@ -2598,7 +2598,6 @@ Programınızda herhangi bir doğrudan erişim oluşursa, kodunuz yeni veya test
 <h5 id="C198">in kullanan Python programı</h5><hr>
 
 **In-keyword.** Bir sözlük belirli bir anahtar-key içerebilir (veya içermeyebilir). Çoğu zaman varlığını test etmemiz gerekir. Bunu yapmanın bir yolu, anahtar kelime iledir. 
-In 
 
 **True:** 
 Bu anahtar, sözlükteki bir anahtar/değer çiftinin parçası olarak mevcutsa 1 (true anlamında) döndürür.
@@ -2640,7 +2639,35 @@ No elephant
   </article>
 </main>
 
+<br>
+<h5 id="C199">Sözlükte len'i kullanan Python programı</h5><hr>
 
+Len yerleşik. Bu, sözlükteki key-value anahtar/değer çiftlerinin sayısını döndürür. Anahtarların ve değerlerin veri tipleri önemli değil. Len ayrıca listelerde ve  strings dizelerde çalışır. 
+
+Dikkat: 
+Sözlük için döndürülen length uzunluk, anahtarları ve değerleri ayrı ayrı dikkate almaz. Her bir çift, uzunluğa birini ekler.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+animals = {"parrot": 2, "fish": 6}
+
+# Use len built-in on animals.
+print("Length:", len(animals))
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+Length: 2 <br>
+</p>
+    </div>
+  </article>
+</main>
 
 
 
