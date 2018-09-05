@@ -2761,7 +2761,70 @@ print(len(lookup))
   </article>
 </main>
 
+<br>
+<h5 id="C200">Özyineleme kullanan Python programı</h5><hr>
 
+Özyineleme. Özyinelemeyle, tüm olasılıkları denemek için çözümler ararız. Yinelemeli bir yöntemin bir sonlandırma koşulu (bir hedef) olmalıdır. Ve bir döngüde, değişen argümanlar ile kendini çağırabilir. Bu şekilde arama şubeleri dışarı çıkar.
+ 
+Değişiklik. Bu program, son paraların saklandığı boş bir bozuk paralar listesiyle başlar. Ayrıca, her biri 1 veya 5 kuruş gibi olası madeni para miktarlarını da belirtir. Değişim çağrısında (en aşağıya), 51 sent'lik bir hedef miktar belirtiyoruz. 
+
+Değiştir: 
+Bu özyinelemeli bir yöntemdir. İlk önce hedef tutarımızı toplayıp toplamadığımızı kontrol eder. Sonra bir döngüde yeni paralar eklemeye çalışır. 
+
+Eklemek için bir bozuk para bulduğumuzda, değişimde, paralar listemizi bir dilim ile kopyalarız. Sonra yeni parayı ekliyoruz. Her bir özyinel çağrının kendi listesi olması gerektiğinden, kopyalanması önemlidir. Hedef tutarımıza ulaştığımızda madeni paralarımızı gösteririz.
+
+Gösterge: 
+Bu def-method tüm olası miktarlar üzerinde döngü yapar ve -amount- miktar tarafından toplanan para sayısını gösterir.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+def change(coins, amounts, highest, sum, goal):
+    # See if we are done.
+    if sum == goal:
+        display(coins, amounts)
+        return
+
+    if sum > goal:
+        return
+
+    for value in amounts:
+        if value >= highest:
+            # Copy the coins list, then add the current value.
+            copy = coins[:]
+            copy.append(value)
+            # Recursively add more coins.
+            change(copy, amounts, value, sum + value, goal)
+
+def display(coins, amounts):
+    # Display our coins sorted by amount.
+    for amount in amounts:
+        count = coins.count(amount)
+        print(amount, ":", count)
+    print("")
+
+coins = []
+amounts = [1, 5, 10, 25, 50]
+# Begin.
+change(coins, amounts, 0, 0, 51)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+1 : 1 <br>
+5 : 0 <br>
+10 : 0 <br>
+25 : 0 <br>
+50 : 1
+</p>
+    </div>
+  </article>
+</main>
 
 
 
