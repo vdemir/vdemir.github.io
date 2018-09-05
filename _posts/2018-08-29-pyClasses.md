@@ -2221,18 +2221,18 @@ Programlamada modelleri şablon olarak belirleriz. Ve yürütülebilir ifadelerd
 <br>
 <h5 id="C190">classmethod kullanan Python programı</h5><hr>
 
- Classmethod, staticmethod. Bir sınıf düşünün. Sınıfın bir özdeşini oluşturuyoruz. Fakat sınıfın bazı özellikleri bir özdeş gerektirmeyebilir - daha genel amaçlıdırlar.
+**Classmethod, staticmethod.** Bir sınıf düşünün. Sınıfın bir özdeşini oluşturuyoruz. Fakat sınıfın bazı özellikleri bir özdeş gerektirmeyebilir - daha genel amaçlıdırlar.
 
-Statik bir yordama ihtiyaç vardır. Statik bir yordam ('staticmethod' ile belirtilir), özdeş olarak çağrılan değil, tip ismine çağrılan yordam anlamına gelir.
+**Burada** statik bir yordama ihtiyaç vardır. Statik bir yordam ('staticmethod' ile belirtilir), özdeş olarak çağrılan değil, tip ismine göre çağrılan yordam anlamına gelir.
 
-Classmethod. Bu bir fonksiyon dekoratör. 'def' den önce 
-@classmethod belirterek uygularız. Bir özdeş ve statik bir yordam birleşimidir. Her iki şekilde de çağrılabilir.
+**Classmethod.** Bu bir fonksiyon donatıcıdır. 'def' den önce 
+@classmethod belirterek uygularız. Bir özdeş ve bir statik yordam birleşimidir. Her iki şekilde de çağrılabilir.
 
-Yani: 
-Biz classmethod örneğini, Box.example sözdizimi ile veya bir Box özdeşi 'b' de çağırabiliriz.
+**Yani:** 
+Biz classmethod örneğini, Box.example sözdizimi ile veya bir Box özdeşi 'b' den çağırabiliriz.
 
-Sınıf: 
-Sınıf argümanını (burada 'cls'), bir tip oluşturarak ve onu döndürerek kullanılabilir. Ya da görmezden gelebiliriz.
+**Sınıf:** 
+Sınıf argümanı (burada 'cls'), bir tip oluşturarak ve onu döndürerek kullanılabilir. Ya da görmezden gelebiliriz.
 
 <main class="grid">
   <article>
