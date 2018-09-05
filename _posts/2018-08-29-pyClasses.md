@@ -2784,20 +2784,20 @@ Bu def-method tüm olası miktarlar üzerinde döngü yapar ve -amount- miktar t
 def change(coins, amounts, highest, sum, goal):
  # See if we are done.
  if sum == goal:
-     display(coins, amounts)
-     return
+   display(coins, amounts)
+   return
 
  if sum > goal:
-     return
+   return
 
  for value in amounts:
-     if value >= highest:
-         # Copy the coins list,
-         # then add the current value.
-         copy = coins[:]
-         copy.append(value)
-         # Recursively add more coins.
-         change(copy, amounts, value, sum + value, goal)
+   if value >= highest:
+     # Copy the coins list,
+     # then add the current value.
+     copy = coins[:]
+     copy.append(value)
+     # Recursively add more coins.
+     change(copy, amounts, value, sum + value, goal)
 
 def display(coins, amounts):
  # Display our coins sorted by amount.
