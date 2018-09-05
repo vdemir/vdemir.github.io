@@ -2025,7 +2025,7 @@ Snake, type = Anaconda
 </main>
 
 <br>
-<h5 id="C184">property kullanan Python programı</h5><hr>
+<h5 id="C185">property kullanan Python programı</h5><hr>
 
 **Property.** Bir değer alır ve ayarlar. Bu bir yordam gibidir, ancak daha basit bir sözdizimi kullanır. Bir **property** değişken gibi atanabilir. Bu, **setter** yordamının yürütülmesine neden olur.
 
@@ -2076,6 +2076,47 @@ Rattle
     </div>
   </article>
 </main>
+
+<br>
+<h5 id="C186">super kullanan Python programı</h5><hr>
+
+Süper. super() yerleşik ile, bir sınıfın üst öğesini alabiliriz. Bu derhal atası alır. Burada, üst sınıf öğesi olan Shape'e referans veren Circle sınıfında super() öğesini çağırıyoruz.
+
+Yazdır: 
+'Circle'dan name yordamını yazdırır. Daha sonra Shape'den name() de çağrılır.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Shape:
+    def name(self):
+        print("Shape")
+
+class Circle(Shape):
+    def name(self):
+        print("Circle")
+        # Call name method from parent class.
+        super().name()
+
+# Create Circle and call name.
+c = Circle()
+c.name()
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+Circle <br>
+Shape
+</p>
+    </div>
+  </article>
+</main>
+
 
 
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
