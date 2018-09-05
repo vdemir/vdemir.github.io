@@ -2124,6 +2124,45 @@ Shape
 </main>
 
 
+<br>
+<h5 id="C188">Sınıfta hash kullanan Python programı</h5><hr>
+
+**Hash.** Nesneleri karşılaştırırken, daha hızlı bir hash kodu kullanılabilir. Bir sözlük hash kullanır. **__hash__** ile özel hash hesaplamaları uyguluyoruz. Eşsiz bir değer, iyi bir hash dır.
+
+**Burada:** 
+Bu programda, aynı isimlere ve renklere sahip iki Snake öbeği oluşturulur. unique_id, hash değerini hesaplamak için kullanılır.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Shape:
+    def name(self):
+        print("Shape")
+
+class Circle(Shape):
+    def name(self):
+        print("Circle")
+        # Call name method from parent class.
+        super().name()
+
+# Create Circle and call name.
+c = Circle()
+c.name()
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+55 <br>
+105
+</p>
+    </div>
+  </article>
+</main>
 
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
  
