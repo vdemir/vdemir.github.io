@@ -1736,7 +1736,7 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
       <li><a href="#C195" style="text-decoration: none; color:#388E3C; cursor:pointer">Değerleri get ile alan Python program</a></li>
       <li><a href="#C196" style="text-decoration: none; color:#388E3C; cursor:pointer">KeyError'a neden olan Python programı</a></li>
       <li><a href="#C197" style="text-decoration: none; color:#388E3C; cursor:pointer">KeyError işleyen Python program</a></li>
-      <li><a href="#C198" style="text-decoration: none; color:#388E3C; cursor:pointer">in kullanan Python program</a></li>
+      <li><a href="#C198" style="text-decoration: none; color:#388E3C; cursor:pointer">in kullanan Python programı</a></li>
     </ul>
     </p>
   </div>
@@ -2595,7 +2595,7 @@ Programınızda herhangi bir doğrudan erişim oluşursa, kodunuz yeni veya test
 **Özet.** KeyError, Python'da önlenebilir bir istisnadır. Bir sözlük yanlış kullanıldığında ortaya çıkar. Bu hatayı önlemek için iki yol gördük. Bir try-except ifadesi kullandık. Ve değer erişimini get() yordam çağrısı ile değiştirdik.
 
 <br>
-<h5 id="C198">in kullanan Python program</h5><hr>
+<h5 id="C198">in kullanan Python programı</h5><hr>
 
 **In-keyword.** Bir sözlük belirli bir anahtar-key içerebilir (veya içermeyebilir). Çoğu zaman varlığını test etmemiz gerekir. Bunu yapmanın bir yolu, anahtar kelime iledir. 
 In 
