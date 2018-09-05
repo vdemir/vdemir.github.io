@@ -2458,7 +2458,7 @@ False
 **Python'daki 'sınıf' bildirimleri gibi ifadeler**, 'type' gibi yerleşik yordam çağrılarına doğrudan çevrilebilir. Yüksek seviyeli parçaları uygulamak için dilin düşük seviyeli kısımları kullanılır.
 	
 <br>
-<h5 id="C195">Değerleri alan Python program</h5><hr>
+<h5 id="C195">Değerleri get ile alan Python program</h5><hr>
 
 **Sözlük.** Bir dil düşünün. Her kelime bir anlamla eşleşir. Bir kitap yazılı bir çalışmadır. Bir bulut yüzen sudur. Bir sözlükte anahtarları (kelimeleri) değerlere (anlamlara) eşleştiririz. 
 
@@ -2595,7 +2595,7 @@ Programınızda herhangi bir doğrudan erişim oluşursa, kodunuz yeni veya test
 **Özet.** KeyError, Python'da önlenebilir bir istisnadır. Bir sözlük yanlış kullanıldığında ortaya çıkar. Bu hatayı önlemek için iki yol gördük. Bir try-except ifadesi kullandık. Ve değer erişimini get() yordam çağrısı ile değiştirdik.
 
 <br>
-<h5 id="C198">in kullanan Python programı</h5><hr>
+<h5 id="C198">in kullanan Python program</h5><hr>
 
 **In-keyword.** Bir sözlük belirli bir anahtar-key içerebilir (veya içermeyebilir). Çoğu zaman varlığını test etmemiz gerekir. Bunu yapmanın bir yolu, anahtar kelime iledir. 
 In 
