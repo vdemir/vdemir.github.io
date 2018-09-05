@@ -2447,6 +2447,10 @@ False
   </article>
 </main>
 
+**type, setattr ve getattr'ı anlayarak**, Python sınıflarının nasıl çalıştığı hakkında daha fazla şey öğreniyoruz. Bu bilgi daha iyi programlar yazmamıza yardımcı olur. 
+
+**Python'daki 'sınıf' bildirimleri gibi ifadeler**, 'type' gibi yerleşik yordam çağrılarına doğrudan çevrilebilir. Yüksek seviyeli parçaları uygulamak için dilin düşük seviyeli kısımları kullanılır.
+	
 
 
 
