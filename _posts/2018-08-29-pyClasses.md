@@ -1722,6 +1722,11 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
       <li><a href="#C181" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıfı kullanan Python programı</a></li>
       <li><a href="#C182" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf kalıtımını kullanan Python programı</a></li>
       <li><a href="#C183" style="text-decoration: none; color:#388E3C; cursor:pointer">İki alt çizgi değişkenini kullanan Python programı</a></li>
+      <li><a href="#C183" style="text-decoration: none; color:#388E3C; cursor:pointer">issubclass kullanan Python programı</a></li>
+      <li><a href="#C184" style="text-decoration: none; color:#388E3C; cursor:pointer">isinstance kullanan Python programı</a></li>
+      <li><a href="#C185" style="text-decoration: none; color:#388E3C; cursor:pointer">Repr kullanan Python programı</a></li>
+      <li><a href="#C186" style="text-decoration: none; color:#388E3C; cursor:pointer">property kullanan Python programı</a></li>
+      <li><a href="#C187" style="text-decoration: none; color:#388E3C; cursor:pointer">super kullanan Python programı</a></li>
     </ul>
     </p>
   </div>
@@ -1929,7 +1934,8 @@ B says hello <br>
 
 
  
-<br><h5 id="C183">isinstance kullanan Python programı</h5><hr>
+<br>
+<h5 id="C185">isinstance kullanan Python programı</h5><hr>
 
 **isinstance.** İlk argüman (bir değişken), ikinci argümanın (bir sınıfın) bir eşleneği olduğunda, isinstance true değerini döndürür. Eğer sınıf bir temel sınıfsa, aynı zamanda true döner.
 
@@ -1979,7 +1985,7 @@ if isinstance(b, list):
 
 
 <br>
-<h5 id="C184">Repr kullanan Python programı</h5><hr>
+<h5 id="C186">Repr kullanan Python programı</h5><hr>
 
  Repr. Bu, bir sınıftan **__repr__** yordamına erişir. Repr 'temsil' anlamına gelir. Bir öbeği dize-string temsiline dönüştürür. Burada Snake özdeşini özel bir şekilde gösteriyoruz.
 
@@ -2025,7 +2031,7 @@ Snake, type = Anaconda
 </main>
 
 <br>
-<h5 id="C185">property kullanan Python programı</h5><hr>
+<h5 id="C187">property kullanan Python programı</h5><hr>
 
 **Property.** Bir değer alır ve ayarlar. Bu bir yordam gibidir, ancak daha basit bir sözdizimi kullanır. Bir **property** değişken gibi atanabilir. Bu, **setter** yordamının yürütülmesine neden olur.
 
