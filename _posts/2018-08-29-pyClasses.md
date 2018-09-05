@@ -2242,7 +2242,8 @@ Sınıf argümanı (burada 'cls'), bir tip oluşturarak ve onu döndürerek kull
 class Box:
     @classmethod
     def example(cls, code):
-        # This method can be used as an instance or static method.
+        # This method can be used 
+        # as an instance or static method.
         print("Method called:", code)
 
 # Use classmethod as a static method.
