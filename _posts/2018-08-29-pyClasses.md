@@ -2059,7 +2059,8 @@ class Snake:
         return self._name
 
     def setname(self, value):
-        # When property is set, capitalize it.
+        # When property is set,
+        # capitalize it.
         self._name = value.capitalize()
 
     name = property(getname, setname)
@@ -2100,13 +2101,13 @@ Rattle
 <pre><code>
 class Shape:
     def name(self):
-        print("Shape")
+       print("Shape")
 
 class Circle(Shape):
     def name(self):
-        print("Circle")
-        # Call name method from parent class.
-        super().name()
+       print("Circle")
+       # Call name method from parent class.
+       super().name()
 
 # Create Circle and call name.
 c = Circle()
