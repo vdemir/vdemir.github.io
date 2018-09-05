@@ -2139,19 +2139,21 @@ Bu programda, aynı isimlere ve renklere sahip iki Snake öbeği oluşturulur. u
     <div class="text">
       <p>
 <pre><code>
-class Shape:
-    def name(self):
-        print("Shape")
+class Snake:
+    def __init__(self, name, color, unique_id):
+        self.name = name
+        self.color = color
+        self.unique_id = unique_id
+    def __hash__(self):
+        # Hash on a unique value of the class.
+        return int(self.unique_id)
 
-class Circle(Shape):
-    def name(self):
-        print("Circle")
-        # Call name method from parent class.
-        super().name()
+# Hash now is equal to the unique ID values used.
+p = Snake("Python", "green", 55)
+print(hash(p))
 
-# Create Circle and call name.
-c = Circle()
-c.name()
+p = Snake("Python", "green", 105)
+print(hash(p))
 </code></pre>
 </p>
     </div>
@@ -2159,7 +2161,8 @@ c.name()
   <article>
     <div class="text">
       <p>
-55 <br>
+55
+ <br>
 105
 </p>
     </div>
@@ -2259,8 +2262,8 @@ b.example("dog")
   <article>
     <div class="text">
       <p>
-Method called: dog <br>
-Method called: cat
+Method called: cat <br>
+Method called: dog
 </p>
     </div>
   </article>
@@ -2301,8 +2304,8 @@ b.Message(2)
   <article>
     <div class="text">
       <p>
-Box Message 2 <br>
-Box Message 1
+Box Message 1 <br>
+Box Message 2
 </p>
     </div>
   </article>
