@@ -2265,6 +2265,20 @@ Method called: cat
   </article>
 </main>
 
+<br>
+<h5 id="C190">staticmethod kullanan Python programı</h5><hr>
+
+**Staticmethod.** Statik bir yordam, self özdeşi kabul etmez. Bir sınıftaki çoğu yordam, 'self' adıyla ilk argümanı kabul eder. 
+@staticmethod dekoratörüyle birlikte, bu argümanı atlıyoruz. 
+
+**İpucu:** 
+Statik yordamlar herhangi bir değeri döndürebilir. Herhangi bir argümanı kabul edebilirler. Sınıf adıyla veya bir özdeşle çağrılırlar. 
+
+**Ayrıca:** 
+Box.Message ile statik bir yordam mi, yoksa b.Message gibi bir özdeş mi aradığınız fark etmez.
+
+
+
 
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
  
