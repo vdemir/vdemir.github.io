@@ -2588,6 +2588,22 @@ Programınızda herhangi bir doğrudan erişim oluşursa, kodunuz yeni veya test
 
 **Özet.** KeyError, Python'da önlenebilir bir istisnadır. Bir sözlük yanlış kullanıldığında ortaya çıkar. Bu hatayı önlemek için iki yol gördük. Bir try-except ifadesi kullandık. Ve değer erişimini get() yordam çağrısı ile değiştirdik.
 
+<br>
+<h5 id="C196">KeyError işleyen Python programı</h5><hr>
+
+In-keyword. Bir sözlük belirli bir anahtar-key içerebilir (veya içermeyebilir). Çoğu zaman varlığını test etmemiz gerekir. Bunu yapmanın bir yolu, anahtar kelime iledir. 
+In 
+
+True: 
+Bu anahtar, sözlükteki bir anahtar/değer çiftinin parçası olarak mevcutsa 1 (true anlamında) döndürür.
+
+False: 
+Anahtar yoksa, in-keyword, false değerini gösteren 0 değerini döndürür. Bu if-komut ifadelerinde yararlıdır.
+
+
+
+
+
 
 
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
