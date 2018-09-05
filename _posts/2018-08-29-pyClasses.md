@@ -2376,7 +2376,8 @@ print(value)
     <div class="text">
       <p>
 <pre><code>
-# Create class type with default attributes (fields).
+# Create class type,
+# with default attributes (fields).
 Cat = type("Cat", (object,), {"paws": 4, "weight": -1})
 cat = Cat()
 
@@ -2407,6 +2408,48 @@ delattr ile sınıftan bir öznitelik çıkarırız. Bu, del operatörü için b
 
 İpucu: 
 Şeyleri kaldırmak için (bir sözlükten) del operatörünü kullanırız. Bu özel bir sözdizimi formudur.
+
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Box:
+    pass
+
+box = Box()
+
+# Create a width attribute.
+setattr(box, "width", 15)
+
+# The attribute exists.
+if hasattr(box, "width"):
+    print(True)
+
+# Delete the width attribute.
+delattr(box, "width")
+
+# Width no longer exists.
+if not hasattr(box, "width"):
+    print(False)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+True <br>
+False
+</p>
+    </div>
+  </article>
+</main>
+
+
+
+
 
 
 
