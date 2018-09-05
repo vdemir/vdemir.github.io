@@ -2397,8 +2397,16 @@ Weight = -1
   </article>
 </main>
 
+<br>
+<h5 id="C192">hasattr, delattr kullanan Python program</h5><hr>
 
+Hasattr. getattr ve setattr den başka iki yerleşik işlev vardır. hasattr ile sınıf eşleneğinde bir öznitelik (alan) olup olmadığını görürüz. Doğru veya Yanlış döndürür. 
 
+Delattr: 
+delattr ile sınıftan bir öznitelik çıkarırız. Bu, del operatörü için başka bir sözdizimi formudur. 
+
+İpucu: 
+Şeyleri kaldırmak için (bir sözlükten) del operatörünü kullanırız. Bu özel bir sözdizimi formudur.
 
 
 
