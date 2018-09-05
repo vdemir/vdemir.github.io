@@ -2277,7 +2277,35 @@ Statik yordamlar herhangi bir değeri döndürebilir. Herhangi bir argümanı ka
 **Ayrıca:** 
 Box.Message ile statik bir yordam mi, yoksa b.Message gibi bir özdeş mi aradığınız fark etmez.
 
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Box:
+    @staticmethod
+    def Message(a):
+        print("Box Message", a)
 
+# Call static method with type.
+Box.Message(1)
+
+# Call static method with instance.
+b = Box()
+b.Message(2)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+Box Message 2 <br>
+Box Message 1
+</p>
+    </div>
+  </article>
+</main>
 
 
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
