@@ -2477,7 +2477,8 @@ get() için ikinci isteğe bağlı bağımsız argüman, varsayılan değerdir. 
 <pre><code>
 plants = {}
 
-# Add three key-value tuples to the dictionary.
+# Add three key-value tuples,
+# to the dictionary.
 plants["radish"] = 2
 plants["squash"] = 4
 plants["carrot"] = 7
