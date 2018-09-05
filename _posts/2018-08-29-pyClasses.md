@@ -2317,6 +2317,60 @@ Box Message 2
 
 **Bir inceleme.** Python programlarında sınıf yordamları ve statik yordamlar yararlıdır. Genellikle bir sınıfın, özdeş tabanlı olmayan bölümleri vardır. Bir özdeş gerektiren, hantal ve garip olacaktır.
 
+<br>
+<h5 id="C192">type kullanan Python program</h5><hr>
+
+**Type.** Python sınıfları destekler. Yerleşik type ile doğrudan tipleri oluşturabiliriz. Bu tiplerden sınıfları eşleştirebiliriz.
+
+**Setattr ile** sınıflarımıza öznitelikler (alanlar) ekleyebiliriz. getattr ile bu değerleri alırız. Komut ifadeleri ile tipleri oluştururuz.
+ 
+**İlk örnek.** Bu program, yerleşik tipler ile bir tip oluşturur. Bu, sınıf anahtar kelimesine alternatif bir sözdizimi formudur. Bu type adı 'Cat' olarak adlandırıyoruz.
+
+**İpucu:** 
+Bizim type, Python type ları için temel sınıfı, öbekten devralır. Ve başlangıç ​​değerleri yoktur. 
+
+**Setattr:** 
+Sınıf özdeşimize bir alan (veya öznitelik) eklemek için setattr kullanıyoruz. Sınıf özdeşini, öznitelik adını ve değerini iletiriz. 
+
+**Getattr:** 
+Sonraki bir sınıfın özniteliğini almak için getattr'ı çağırıyoruz. Burada bu çağrı setattr tarafından ayarlanan değeri döndürür.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+Cat = type("Cat", (object,), dict())
+cat = Cat()
+
+# Set weight to 4.
+setattr(cat, "weight", 10)
+
+# Get the weight.
+value = getattr(cat, "weight")
+print(value)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+10 <br>
+</p>
+    </div>
+  </article>
+</main>
+
+
+
+
+
+
+
+
+
+
 
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
  
