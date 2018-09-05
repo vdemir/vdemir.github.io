@@ -2557,7 +2557,8 @@ KeyError: 'fish'
 # Create dictionary with three entries.
 values = {"a" : 1, "b" : 2, "c" : 3}
 
-# Using the value directly can cause an error.
+# Using the value directly,
+# can cause an error.
 try:
     print(values["d"])
 except KeyError:
