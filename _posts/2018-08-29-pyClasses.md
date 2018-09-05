@@ -2024,11 +2024,58 @@ Snake, type = Anaconda
   </article>
 </main>
 
+<br>
+<h5 id="C184">property kullanan Python programı</h5><hr>
 
+**Property.** Bir değer alır ve ayarlar. Bu bir yordam gibidir, ancak daha basit bir sözdizimi kullanır. Bir **property** değişken gibi atanabilir. Bu, **setter** yordamının yürütülmesine neden olur.
 
+Burada: 
+Yerleşik **property** iki argüman iletiyoruz. **getname**'i **getter** olarak belirledik ve **setname** **setter** olarak belirledik.
 
+ İpucu: 
+Herhangi bir kod ifadesi, **getname** ve **setter** de kullanılabilir. Burada setname’ye iletilen dizgeyi büyük harfle yazıyoruz.
 
+Snake: 
+Bir Snake sınıf eşleneği oluşturuyoruz. Sonra "name" property atarız. Bu, Snake sınıfının setname yordamını çağırır.
 
+Son olarak: 
+"name" property değerini yazdırıyoruz. Bu getname yordamını çağırır.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Snake:
+    def getname(self):
+        return self._name
+
+    def setname(self, value):
+        # When property is set, capitalize it.
+        self._name = value.capitalize()
+
+    name = property(getname, setname)
+
+# Create a snake instance.
+s = Snake()
+
+# Set name property.
+s.name = "rattle"
+
+# Get name property.
+print(s.name)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+Rattle
+</p>
+    </div>
+  </article>
+</main>
 
 
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
@@ -2053,6 +2100,9 @@ Snake, type = Anaconda
 <div class="w3-container w3-content">
 
 <a class="w3-btn w3-margin-bottom" href="{{ sitebase.url }}/assets/txt/default_python_packages.txt"  style="text-decoration: none; color:#388E3C; cursor:pointer">Python 3 paket listesine bakınız.</a>
+<a>print(sys.version)
+3.5.2 (default, Nov 17 2016, 17:05:23) 
+[GCC 5.4.0 20160609]</a>
  </div>
 <br>
 
