@@ -2674,16 +2674,16 @@ Length: 2 <br>
 <br>
 <h5 id="C200">Dizelerde len kullanan Python programı</h5><hr>
 
-Len. Her şeyin uzunluğu var. Evrenimiz bile, sürekli genişlemede, bir uzunluğa sahiptir. Python'da olsa çoğunlukla -strings, lists, collections - dizgiler, listeler, koleksiyonlar - evren değil uzunluklarını ölçüyoruz. 
+**Len.** Her şeyin uzunluğu var. Evrenimiz bile, sürekli genişlemede, bir uzunluğa sahiptir. Python'da olsa çoğunlukla -strings, lists, collections - dizgiler, listeler, koleksiyonlar - evren değil uzunluklarını ölçüyoruz. 
 
-Len'i kullanıyoruz. Çoğu zaman performansı len ile optimize edebiliriz. Öğelerin sayısı, hesaplanamayan, öbek üzerinde depolanır, bu yüzden len hızlıdır.
+**Len'i kullanıyoruz.** Çoğu zaman performansı len ile optimize edebiliriz. Öğelerin sayısı, hesaplanamayan, öbek üzerinde depolanır, bu yüzden len hızlıdır.
 
-Strings. Len bir dizedeki karakter sayısını döndürür. Boşlukları, noktalama işaretlerini ve tüm karakterleri aynı sayar. None değişkeninin uzunluğunu almamıza dikkat etmeliyiz - bu başarısız olur. 
+**Strings.** Len bir dizedeki karakter sayısını döndürür. Boşlukları, noktalama işaretlerini ve tüm karakterleri aynı sayar. None değişkeninin uzunluğunu almamıza dikkat etmeliyiz - bu başarısız olur. 
 
-Boş: 
+**Boş:** 
 İkinci telefon çağrısı boş bir dizeyi sınar. Bu dizede sıfır karakter var, ancak None değil. 
 
-TypeError: 
+**TypeError:** 
 Len, iletilen değişkenin tipine dayanır. Bir NoneType len yerleşik desteğe sahip değildir.
  
 <main class="grid">
@@ -2716,6 +2716,51 @@ TypeError: object of type  <br> 'NoneType' has no len() <br>
     </div>
   </article>
 </main>
+
+<br>
+<h5 id="C200">Len, koleksiyonları kullanan Python programı</h5><hr>
+
+Collections. Yerleşik len, bir koleksiyondaki elemanların sayısını döndürür. İç içe geçmiş, alt koleksiyonlar içeren bir koleksiyon için sayım sığdır: tüm iç içe geçmiş öğeler dikkate alınmaz. 
+
+Dictionary: 
+Sözlük için, her bir çift bir birim olarak sayılır. Anahtarlar ve değerler bağımsız değil.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+# Get length of list with len.
+elements = [1, 2, 3]
+print(len(elements))
+
+# Get length of tuple.
+items = ("cat", "dog", "bird", "shark")
+print(len(items))
+
+# Length of example set (key count).
+set = {100, 200, 300}
+print(len(set))
+
+# Length of dictionary (pair count).
+lookup = {"cat" : 4, "centipede" : 100}
+print(len(lookup))
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+3 <br>
+4 <br>
+3 <br>
+2
+</p>
+    </div>
+  </article>
+</main>
+
 
 
 
