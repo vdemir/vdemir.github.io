@@ -1899,6 +1899,7 @@ b = B()
 b.hello()
 
 # See if B inherits from A.
+# B sınıfı A sınıfından miras alırsa.
 if issubclass(B, A):
     print(1)
 
@@ -1925,9 +1926,9 @@ B says hello <br>
   </article>
 </main>
 
-<br>
+
  
-<h5 id="C183">isinstance kullanan Python programı</h5><hr>
+<br><h5 id="C183">isinstance kullanan Python programı</h5><hr>
 
 **isinstance.** İlk argüman (bir değişken), ikinci argümanın (bir sınıfın) bir eşleneği olduğunda, isinstance true değerini döndürür. Eğer sınıf bir temel sınıfsa, aynı zamanda true döner.
 
@@ -1945,12 +1946,14 @@ class A:
         print("Welcome")
 
 # This is an instance of A.
+# Bu A sınıfının bir özdeşidir.
 a = A()
 
 if isinstance(a, A):
     print(1)
 
 # This is an instance of the list class.
+# Bu list sınıfının bir eşleneğidir.
 b = [1, 2, 3]
 
 if isinstance(b, A):
@@ -1974,6 +1977,7 @@ if isinstance(b, list):
 </main>
 
 
+<br><h5 id="C183">Repr kullanan Python programı</h5><hr>
 
 
 
