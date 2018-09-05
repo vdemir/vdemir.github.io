@@ -1833,8 +1833,8 @@ Sınıf dışından özel elemanlara erişilebilir, ancak başlangıçta **_Clas
 
 A sınıfında, **__value** adlı bir alanımız var. Bunu, sınıfın dışında **_A__value** olarak belirtmeliyiz, ancak içinde **__value** kullanabiliriz.
 
-
 <br>
+
 <main class="grid">
   <article>
     <div class="text">
@@ -1880,6 +1880,54 @@ print(a._A__value)
 
 **Dönüş:** 
 Birinci sınıf ikincisinden miras alırsa, issubclass **true** değerini döndürür. Aksi takdirde **false** döner.
+
+**İpucu:** 
+Bunun bilinmesi nadiren yararlıdır: Bir sınıf kendi alt sınıfında kabul edilir. Aşağıdaki üçüncü issubclass çağrısı bunu gösterir.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class A:
+    def hello(self):
+        print("A says hello")
+
+class B(A):
+    def hello(self):
+        print("B says hello")
+
+# Use the derived class.
+b = B()
+b.hello()
+
+# See if B inherits from A.
+if issubclass(B, A):
+    print(1)
+
+# See if A inherits from B.
+if issubclass(A, B):
+    # Not reached.
+    print(2)
+
+# See if A inherits from itself.
+if issubclass(A, A):
+    print(3)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+B says hello <br>
+1 <br>
+3
+</p>
+    </div>
+  </article>
+</main>
+
 
 
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
