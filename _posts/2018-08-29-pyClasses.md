@@ -2669,6 +2669,56 @@ Length: 2 <br>
   </article>
 </main>
 
+**Len notları.** İncelememiz gerek. Len() sadece sözlükler değil, diğer veri tiplerinde kullanılabilir. İçindeki eleman sayısını döndürerek bir liste üzerinde hareket eder. Ayrıca  -tuples - değişkenler grubunu da ele alır.
+
+<br>
+<h5 id="C200">Dizelerde len kullanan Python programı</h5><hr>
+
+Len. Her şeyin uzunluğu var. Evrenimiz bile, sürekli genişlemede, bir uzunluğa sahiptir. Python'da olsa çoğunlukla -strings, lists, collections - dizgiler, listeler, koleksiyonlar - evren değil uzunluklarını ölçüyoruz. 
+
+Len'i kullanıyoruz. Çoğu zaman performansı len ile optimize edebiliriz. Öğelerin sayısı, hesaplanamayan, öbek üzerinde depolanır, bu yüzden len hızlıdır.
+
+Strings. Len bir dizedeki karakter sayısını döndürür. Boşlukları, noktalama işaretlerini ve tüm karakterleri aynı sayar. None değişkeninin uzunluğunu almamıza dikkat etmeliyiz - bu başarısız olur. 
+
+Boş: 
+İkinci telefon çağrısı boş bir dizeyi sınar. Bu dizede sıfır karakter var, ancak None değil. 
+
+TypeError: 
+Len, iletilen değişkenin tipine dayanır. Bir NoneType len yerleşik desteğe sahip değildir.
+ 
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+# Has length of 3:
+value = "cat"
+print(len(value))
+
+# Has length of 0:
+value = ""
+print(len(value))
+
+# Causes TypeError:
+value = None
+print(len(value))
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+3 <br>
+0 <br>
+TypeError: object of type  <br> 'NoneType' has no len() <br>
+</p>
+    </div>
+  </article>
+</main>
+
+
+
 
 
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
