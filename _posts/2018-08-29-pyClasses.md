@@ -2164,6 +2164,46 @@ c.name()
   </article>
 </main>
 
+<br>
+<h5 id="C188">id kullanan Python programı</h5><hr>
+
+id yordamı. Her öbeğin bir id si vardır. Bu özdeşe özgüdür. Tam sayı bir uygulama detayıdır ve program yürütmeleri arasında değişecektir. Burada sınıf id lerine bakıyoruz.
+
+Not: Nesneler çöp toplayıcı tarafından kaldırıldığında ve kullanılmadığında 
+id ler yeniden kullanılabilir. Kodlarda nadiren faydalıdırlar.
+
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Cat:
+    def __init__(self, color):
+        self.color = color
+
+cat1 = Cat("black")
+cat2 = Cat("orange")
+
+# Each object has a unique id.
+# ... The ids may vary between runs.
+print(id(cat1))
+print(id(cat2))
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+139888838995640 <br>
+139888838995696
+</p>
+    </div>
+  </article>
+</main>
+
+
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
  
  
