@@ -2463,6 +2463,47 @@ Python sözlükleri haritalardır. Köşeli parantezlerle, bir anahtardaki bir d
 Bunun yerine: 
 1 veya 2 argümanlı get() yordamını kullanabiliriz. Bu herhangi bir hataya neden olmaz - hiçbiri döndürmez.
 
+Argüman 1: 
+get() için ilk argüman, test ettiğiniz anahtardır. Bu argüman gereklidir. 
+
+Argument 2: 
+get() için ikinci isteğe bağlı bağımsız argüman, varsayılan değerdir. Anahtar bulunmazsa bu iade edilir.
+
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+plants = {}
+
+# Add three key-value tuples to the dictionary.
+plants["radish"] = 2
+plants["squash"] = 4
+plants["carrot"] = 7
+
+# Get syntax 1.
+print(plants["radish"])
+
+# Get syntax 2.
+print(plants.get("tuna"))
+print(plants.get("tuna", "no tuna found"))
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+2 <br>
+None <br>
+no tuna found
+</p>
+    </div>
+  </article>
+</main>
+
+
 
 
 
