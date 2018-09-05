@@ -2452,7 +2452,7 @@ False
 **Python'daki 'sınıf' bildirimleri gibi ifadeler**, 'type' gibi yerleşik yordam çağrılarına doğrudan çevrilebilir. Yüksek seviyeli parçaları uygulamak için dilin düşük seviyeli kısımları kullanılır.
 	
 <br>
-<h5 id="C194">Değerleri alan Python program</h5><hr>
+<h5 id="C195">Değerleri alan Python program</h5><hr>
 
 **Sözlük.** Bir dil düşünün. Her kelime bir anlamla eşleşir. Bir kitap yazılı bir çalışmadır. Bir bulut yüzen sudur. Bir sözlükte anahtarları (kelimeleri) değerlere (anlamlara) eşleştiririz. 
 
@@ -2503,6 +2503,47 @@ no tuna found
     </div>
   </article>
 </main>
+
+	
+<br>
+<h5 id="C196">KeyError'a neden olan Python programı</h5><hr>
+
+Get, None. Python'da 'None', null veya nil gibi özel bir değerdir. Programlarda genellikle None kullanırız. Bu bir değer değil demektir. Bir sözlükte değer bulunamazsa get() None değerini döndürür. 
+
+Not: 
+None'a bir anahtar atamak için geçerlidir. Yani get() None yazamaz, ancak sözlükte aslında bir None değeri vardır. 
+
+KeyError. Programlardaki hatalar sadece sizi rahatsız etmek için orada değildir. Bir programla ilgili problemleri gösterir ve daha iyi çalışmasına yardımcı olurlar. Geçersiz erişimde bir KeyError oluşur.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+lookup = {"cat": 1, "dog": 2}
+
+# The dictionary has no fish key!
+print(lookup["fish"])
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+Traceback (most recent call last):
+  File "<stdin>", line 4, in <module>
+    print(lookup["fish"])
+KeyError: 'fish'
+</p>
+    </div>
+  </article>
+</main>
+
+
+
+
+
 
 
 
