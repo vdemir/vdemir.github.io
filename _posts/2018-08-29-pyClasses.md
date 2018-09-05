@@ -2365,11 +2365,11 @@ print(value)
 <br>
 <h5 id="C192">type içinde dict kullanan Python program</h5><hr>
 
-Dict. Bir type özniteliklerini sözlük argümanıyla başlatabiliriz. Bu üçüncü argümandır. Burada 'paws' özniteliğini 4 ve 'weight' özniteliğini -1 olarak ayarlıyorum. 
+**Dict.** Bir type özniteliklerini sözlük argümanıyla başlatabiliriz. Bu üçüncü argümandır. Burada 'paws' özniteliğini 4 ve 'weight' özniteliğini -1 olarak ayarlıyorum. 
 
-İpucu: Bu bir sözlük özdeşidir. Diğer sözlükler gibi oluşturulabilir.
+**İpucu:** Bu bir sözlük özdeşidir. Diğer sözlükler gibi oluşturulabilir.
 
-Sözlük Yazdır: Bu değerleri bir Cat özdeşinde görüntüleriz. print yerleşik yöntemini kullanıyoruz.
+**Yazdır:** Bu değerleri bir Cat özdeşinde görüntüleriz. print yerleşik yöntemini kullanıyoruz.
 
 <main class="grid">
   <article>
