@@ -2131,10 +2131,6 @@ Shape
 <div class="teaser clearfix"></div>
 <script src="{{ sitebase.url }}/scripts/dcl-react.js.gz"></script>
 <h3  id="C16"><a class="w3-btn w3-margin-bottom">Just python 3 'Run'.</a></h3>
-<a>
-python 3.5.2 (default, Nov 17 2016, 17:05:23) 
-[GCC 5.4.0 20160609]</a>
-
 <div data-datacamp-exercise data-lang="python" data-height="auto">
       <code data-type="pre-exercise-code"></code>
       <code data-type="sample-code">
@@ -2145,8 +2141,14 @@ python 3.5.2 (default, Nov 17 2016, 17:05:23)
 <div class="w3-container w3-content">
 
 <a class="w3-btn w3-margin-bottom" href="{{ sitebase.url }}/assets/txt/default_python_packages.txt"  style="text-decoration: none; color:#388E3C; cursor:pointer">Python 3 paket listesine bakınız.</a>
+<br>
+<a>
+python 3.5.2 (default, Nov 17 2016, 17:05:23) 
+[GCC 5.4.0 20160609]</a>
+
  </div>
 <br>
+
 <div class="teaser clearfix"></div>
 <div class="w3-panel w3-card w3-light-grey">
   <h3 id="C17">Sözlük Dizini</h3>
