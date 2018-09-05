@@ -2218,6 +2218,53 @@ Programlamada modelleri şablon olarak belirleriz. Ve yürütülebilir ifadelerd
 
 **Bazı kavramlar.** Sınıflar, verileri davranışa kolayca bağlayalım. Python programlarımızda bloklar oluşturuyorlar. Onlarla daha karmaşık modeller geliştiriyoruz.
 
+<br>
+<h5 id="C190">classmethod kullanan Python programı</h5><hr>
+
+ Classmethod, staticmethod. Bir sınıf düşünün. Sınıfın bir özdeşini oluşturuyoruz. Fakat sınıfın bazı özellikleri bir özdeş gerektirmeyebilir - daha genel amaçlıdırlar.
+
+Statik bir yordama ihtiyaç vardır. Statik bir yordam ('staticmethod' ile belirtilir), özdeş olarak çağrılan değil, tip ismine çağrılan yordam anlamına gelir.
+
+Classmethod. Bu bir fonksiyon dekoratör. 'def' den önce 
+@classmethod belirterek uygularız. Bir özdeş ve statik bir yordam birleşimidir. Her iki şekilde de çağrılabilir.
+
+Yani: 
+Biz classmethod örneğini, Box.example sözdizimi ile veya bir Box özdeşi 'b' de çağırabiliriz.
+
+Sınıf: 
+Sınıf argümanını (burada 'cls'), bir tip oluşturarak ve onu döndürerek kullanılabilir. Ya da görmezden gelebiliriz.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Box:
+    @classmethod
+    def example(cls, code):
+        # This method can be used as an instance or static method.
+        print("Method called:", code)
+
+# Use classmethod as a static method.
+Box.example("cat")
+
+# Use classmethod as an instance method.
+b = Box()
+b.example("dog")
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+Method called: dog <br>
+Method called: cat
+</p>
+    </div>
+  </article>
+</main>
+
 
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
  
