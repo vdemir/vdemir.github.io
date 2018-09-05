@@ -2580,7 +2580,12 @@ None
   </article>
 </main>
 
+**Python programlarında bir KeyError önlenebilir.** Soruna, doğrudan anahtara erişmek yerine get() gibi güvenli bir yordam kullanarak giderdik. Var olduğundan eminsek, sadece bir anahtara doğrudan erişebiliriz. 
 
+**Ayrıca:** 
+Programınızda herhangi bir doğrudan erişim oluşursa, kodunuz yeni veya test edilmemişse, bir try-except bloğu kullanmak faydalı olabilir. 
+
+**Özet.** KeyError, Python'da önlenebilir bir istisnadır. Bir sözlük yanlış kullanıldığında ortaya çıkar. Bu hatayı önlemek için iki yol gördük. Bir try-except ifadesi kullandık. Ve değer erişimini get() yordam çağrısı ile değiştirdik.
 
 
 
