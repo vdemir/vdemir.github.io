@@ -2029,17 +2029,17 @@ Snake, type = Anaconda
 
 **Property.** Bir değer alır ve ayarlar. Bu bir yordam gibidir, ancak daha basit bir sözdizimi kullanır. Bir **property** değişken gibi atanabilir. Bu, **setter** yordamının yürütülmesine neden olur.
 
-Burada: 
+**Burada:**
 Yerleşik **property** iki argüman iletiyoruz. **getname**'i **getter** olarak belirledik ve **setname** **setter** olarak belirledik.
 
- İpucu: 
+**İpucu:** 
 Herhangi bir kod ifadesi, **getname** ve **setter** de kullanılabilir. Burada setname’ye iletilen dizgeyi büyük harfle yazıyoruz.
 
-Snake: 
-Bir Snake sınıf eşleneği oluşturuyoruz. Sonra "name" property atarız. Bu, Snake sınıfının setname yordamını çağırır.
+**Snake:** 
+Bir Snake sınıf eşleneği oluşturuyoruz. Sonra **"name"** property atarız. Bu, Snake sınıfının setname yordamını çağırır.
 
-Son olarak: 
-"name" property değerini yazdırıyoruz. Bu getname yordamını çağırır.
+**Son olarak:** 
+**"name"** property değerini yazdırıyoruz. Bu **getname** yordamını çağırır.
 
 <main class="grid">
   <article>
