@@ -2023,7 +2023,7 @@ if isinstance(b, list):
       <li>data attributes BİLGİNİN NİTELİKLERİ</li>
       <li>data VERİ, BİLGİ</li>
       <li>destructor YIKICI </li>
-      <li>function İCRACI </li>
+      <li>function İCRACI, FONKSİYON </li>
       <li>Instance EŞLEMEK, EŞLENEK</li>
       <li>instantiation MİSL, ÖZDEŞ </li>
       <li>local YEREL</li>
@@ -2035,7 +2035,7 @@ if isinstance(b, list):
       <li>standard NORMAL, BENZER</li>
       <li>syntax SÖZDİZİM</li>
       <li>valid GEÇERLİ </li>
-      <li>variables DEĞİŞKEN DEĞER</li>
+      <li>variables DEĞİŞKEN, DEĞER</li>
     </ul>
     </p>
   </div>
