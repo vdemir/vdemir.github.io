@@ -1724,7 +1724,7 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
       <li><a href="#C183" style="text-decoration: none; color:#388E3C; cursor:pointer">İki alt çizgi değişkenini kullanan Python programı</a></li>
       <li><a href="#C184" style="text-decoration: none; color:#388E3C; cursor:pointer">issubclass kullanan Python programı</a></li>
       <li><a href="#C185" style="text-decoration: none; color:#388E3C; cursor:pointer">isinstance kullanan Python programı</a></li>
-      <li><a href="#C186" style="text-decoration: none; color:#388E3C; cursor:pointer">Repr kullanan Python programı</a></li>
+      <li><a href="#C186" style="text-decoration: none; color:#388E3C; cursor:pointer">repr kullanan Python programı</a></li>
       <li><a href="#C187" style="text-decoration: none; color:#388E3C; cursor:pointer">property kullanan Python programı</a></li>
       <li><a href="#C188" style="text-decoration: none; color:#388E3C; cursor:pointer">super kullanan Python programı</a></li>
     </ul>
