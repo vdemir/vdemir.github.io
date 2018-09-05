@@ -2203,6 +2203,19 @@ print(id(cat2))
   </article>
 </main>
 
+**Classmethod, staticmethod.** Python özel yordam tiplerini destekler (statik yordamlar gibi). Bunlar sınıf yordamları ve statik yordamlar. 
+ 
+**Tipi.** Yerleşik yordamlar, ifadeler içeren tipleri oluşturabilir ve değiştirebilir. Yerleşik tip 'sınıf' beyanının yerini alabilir. setattr ve getattr ile alanlar ekliyor veya yüklüyoruz. 
+
+**Tipleri, özdeşler.** Bir sınıf tanımıyla, bir tipin taslağını çıkarırız. Bu sınıflar şablonlardır. Kullanılmak üzere özdeş olarak oluşturulmalıdır (__init__ sayesinde). Tipler özdeş değildir.
+
+**Modeller:**
+Programlamada modelleri şablon olarak belirleriz. Ve yürütülebilir ifadelerde, bu şablonları hayata geçiririz (özdeş olarak). 
+
+**Bir sınıfta**, alanlardaki gibi verileri saklarız. Ayrıca, ref anahtar kelimesinde olduğu gibi, yordam uygulamalarını da sağlıyoruz. Bu önemli bir soyutlama seviyesi sağlar.
+
+**Bazı kavramlar.** Sınıflar, verileri davranışa kolayca bağlayalım. Python programlarımızda bloklar oluşturuyorlar. Onlarla daha karmaşık modeller geliştiriyoruz.
+
 
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
  
