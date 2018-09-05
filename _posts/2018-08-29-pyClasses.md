@@ -2363,7 +2363,7 @@ print(value)
 </main>
 
 <br>
-<h5 id="C192">type içinde dict kullanan Python program</h5><hr>
+<h5 id="C193">type içinde dict kullanan Python program</h5><hr>
 
 **Dict.** Bir type özniteliklerini sözlük argümanıyla başlatabiliriz. Bu üçüncü argümandır. Burada 'paws' özniteliğini 4 ve 'weight' özniteliğini -1 olarak ayarlıyorum. 
 
@@ -2399,7 +2399,7 @@ Weight = -1
 </main>
 
 <br>
-<h5 id="C192">hasattr, delattr kullanan Python program</h5><hr>
+<h5 id="C194">hasattr, delattr kullanan Python program</h5><hr>
 
 **Hasattr.** getattr ve setattr den başka iki yerleşik işlev vardır. hasattr ile sınıf eşleneğinde bir öznitelik (alan) olup olmadığını görürüz. Doğru veya Yanlış döndürür. 
 
