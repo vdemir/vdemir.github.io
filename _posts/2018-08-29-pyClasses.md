@@ -2531,6 +2531,10 @@ print(lookup["fish"])
   <article>
     <div class="text">
       <p>
+Traceback (most recent call last):  <br>
+  File "stdin", line 4, in module  <br>
+    print(lookup["fish"])  <br>
+KeyError: 'fish'
 </p>
     </div>
   </article>
