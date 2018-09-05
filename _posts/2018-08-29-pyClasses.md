@@ -1872,7 +1872,7 @@ print(a._A__value)
 
 <br>
  
-<h5 id="C183">issubclass kullanan Python programı</h5><hr>
+<h5 id="C184">issubclass kullanan Python programı</h5><hr>
 
 <br>
 
@@ -1927,6 +1927,58 @@ B says hello <br>
     </div>
   </article>
 </main>
+
+<br>
+ 
+<h5 id="C183">isinstance kullanan Python programı</h5><hr>
+
+<br>
+
+**isinstance.** İlk argüman (bir değişken) ikinci argümanın (bir sınıf) bir örneği olduğunda, **isinstance** true değerini döndürür. Eğer sınıf bir temel sınıfsa, aynı zamanda true döner.
+
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class A:
+    def welcome(self):
+        # Not called.
+        print("Welcome")
+
+# This is an instance of A.
+a = A()
+
+if isinstance(a, A):
+    print(1)
+
+# This is an instance of the list class.
+b = [1, 2, 3]
+
+if isinstance(b, A):
+    # Not reached.
+    print(2)
+
+if isinstance(b, list):
+    print(3)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+1 <br>
+3
+</p>
+    </div>
+  </article>
+</main>
+
+
+
+
 
 
 
