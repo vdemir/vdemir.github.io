@@ -2541,7 +2541,7 @@ KeyError: 'fish'
 </main>
 
 <br>
-<h5 id="C196">KeyError işleyen Python programı</h5><hr>
+<h5 id="C197">KeyError işleyen Python programı</h5><hr>
 
 **KeyError.** Bir sözlük bir KeyError'un oluşmasına neden olabilir. Bu, sözlüğün yanlış kullanımı nedeniyle gerçekleşir. KeyError'ı çoğu durumda, sözlükteki get() yordamını kullanarak önleyebiliriz. 
 
@@ -2589,7 +2589,7 @@ Programınızda herhangi bir doğrudan erişim oluşursa, kodunuz yeni veya test
 **Özet.** KeyError, Python'da önlenebilir bir istisnadır. Bir sözlük yanlış kullanıldığında ortaya çıkar. Bu hatayı önlemek için iki yol gördük. Bir try-except ifadesi kullandık. Ve değer erişimini get() yordam çağrısı ile değiştirdik.
 
 <br>
-<h5 id="C196">in kullanan Python programı</h5><hr>
+<h5 id="C198">in kullanan Python programı</h5><hr>
 
 **In-keyword.** Bir sözlük belirli bir anahtar-key içerebilir (veya içermeyebilir). Çoğu zaman varlığını test etmemiz gerekir. Bunu yapmanın bir yolu, anahtar kelime iledir. 
 In 
