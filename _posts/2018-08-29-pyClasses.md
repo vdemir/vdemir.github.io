@@ -2720,9 +2720,9 @@ TypeError: object of type  <br> 'NoneType' has no len() <br>
 <br>
 <h5 id="C200">Len, koleksiyonları kullanan Python programı</h5><hr>
 
-Collections. Yerleşik len, bir koleksiyondaki elemanların sayısını döndürür. İç içe geçmiş, alt koleksiyonlar içeren bir koleksiyon için sayım sığdır: tüm iç içe geçmiş öğeler dikkate alınmaz. 
+**Collections.** Yerleşik len, bir koleksiyondaki elemanların sayısını döndürür. İç içe geçmiş, alt koleksiyonlar içeren bir koleksiyon için sayım sığdır: tüm iç içe geçmiş öğeler dikkate alınmaz. 
 
-Dictionary: 
+**Dictionary:** 
 Sözlük için, her bir çift bir birim olarak sayılır. Anahtarlar ve değerler bağımsız değil.
 
 <main class="grid">
