@@ -2224,7 +2224,7 @@ Programlamada modelleri şablon olarak belirleriz. Ve yürütülebilir ifadelerd
 **Bazı kavramlar.** Sınıflar, verileri davranışa kolayca bağlayalım. Python programlarımızda bloklar oluşturuyorlar. Onlarla daha karmaşık modeller geliştiriyoruz.
 
 <br>
-<h5 id="C190">classmethod kullanan Python programı</h5><hr>
+<h5 id="C191">classmethod kullanan Python programı</h5><hr>
 
 **Classmethod, staticmethod.** Bir sınıf düşünün. Sınıfın bir özdeşini oluşturuyoruz. Fakat sınıfın bazı özellikleri bir özdeş gerektirmeyebilir - daha genel amaçlıdırlar.
 
@@ -2272,7 +2272,7 @@ Method called: dog
 </main>
 
 <br>
-<h5 id="C190">staticmethod kullanan Python programı</h5><hr>
+<h5 id="C192">staticmethod kullanan Python programı</h5><hr>
 
 **Staticmethod.** Statik bir yordam, self özdeşi kabul etmez. Bir sınıftaki çoğu yordam, 'self' adıyla ilk argümanı kabul eder. 
 @staticmethod dekoratörüyle birlikte, bu argümanı atlıyoruz. 
