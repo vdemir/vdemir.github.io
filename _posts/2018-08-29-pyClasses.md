@@ -1826,14 +1826,15 @@ a, width called
 <h5 id="C183">İki alt çizgi değişkenini kullanan Python programı</h5><hr>
 
 <br>
+
 İki alt çizgi. Bir sınıfta, bazı elemanların isimlerinin başında iki altçizgi vardır. Bunlar özeldir. Python dili, onları özel olarak ele alır.
 
 Sınıf dışından özel elemanlara erişilebilir, ancak başlangıçta **_ClassName** eklemeliyiz.
 
 A sınıfında, **__value** adlı bir alanımız var. Bunu, sınıfın dışında **_A__value** olarak belirtmeliyiz, ancak içinde **__value** kullanabiliriz.
 
-
 <br>
+
 <main class="grid">
   <article>
     <div class="text">
@@ -1867,6 +1868,119 @@ print(a._A__value)
     </div>
   </article>
 </main>
+
+
+<br>
+ 
+<h5 id="C184">issubclass kullanan Python programı</h5><hr>
+
+<br>
+
+**issubclass.** Bu bir sınıfın diğerinden türetilmiş olup olmadığını belirler. Bu yerleşik yöntemle, iki sınıf ismini (özdeşini değil) geçiririz.
+
+**Dönüş:** 
+Birinci sınıf ikincisinden miras alırsa, issubclass **true** değerini döndürür. Aksi takdirde **false** döner.
+
+**İpucu:** 
+Bunun bilinmesi nadiren yararlıdır: Bir sınıf kendi alt sınıfında kabul edilir. Aşağıdaki üçüncü issubclass çağrısı bunu gösterir.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class A:
+    def hello(self):
+        print("A says hello")
+
+class B(A):
+    def hello(self):
+        print("B says hello")
+
+# Use the derived class.
+b = B()
+b.hello()
+
+# See if B inherits from A.
+if issubclass(B, A):
+    print(1)
+
+# See if A inherits from B.
+if issubclass(A, B):
+    # Not reached.
+    print(2)
+
+# See if A inherits from itself.
+if issubclass(A, A):
+    print(3)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+B says hello <br>
+1 <br>
+3
+</p>
+    </div>
+  </article>
+</main>
+
+<br>
+ 
+<h5 id="C183">isinstance kullanan Python programı</h5><hr>
+
+<br>
+
+**isinstance.** İlk argüman (bir değişken) ikinci argümanın (bir sınıf) bir örneği olduğunda, **isinstance** true değerini döndürür. Eğer sınıf bir temel sınıfsa, aynı zamanda true döner.
+
+**Burada:** 
+Listeler gibi, bazı değişkenler için, sınıf adı programda belirtilmemiş olabilir. Ama yine de **'liste'** yi bu şekilde test edebiliriz.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class A:
+    def welcome(self):
+        # Not called.
+        print("Welcome")
+
+# This is an instance of A.
+a = A()
+
+if isinstance(a, A):
+    print(1)
+
+# This is an instance of the list class.
+b = [1, 2, 3]
+
+if isinstance(b, A):
+    # Not reached.
+    print(2)
+
+if isinstance(b, list):
+    print(3)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+1 <br>
+3
+</p>
+    </div>
+  </article>
+</main>
+
+
+
+
 
 
 
