@@ -1989,6 +1989,48 @@ repr yordamından bir dize döndürüyoruz. print yordamı, bir öbeğin **__rep
 Ve: 
 Kullanılacak olan **__repr__** yordamını kullanmaya zorlamak için **repr**'i çağırabiliriz. Bu temsil dizgisini bir değişkende saklayabilmemizi sağlar.
 
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Snake:
+    def __init__(self, type):
+        self.type = type
+
+    def __repr__(self):
+        return "Snake, type = " + self.type
+
+# Create Snake instance.
+# ... Print its repr.
+s = Snake("Anaconda")
+print(s)
+
+# Get repr of Snake.
+value = repr(s)
+print(value)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+Snake, type = Anaconda <br>
+Snake, type = Anaconda
+</p>
+    </div>
+  </article>
+</main>
+
+
+
+
+
+
+
+
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
  
  
