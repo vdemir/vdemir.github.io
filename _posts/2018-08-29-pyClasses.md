@@ -2080,10 +2080,10 @@ Rattle
 <br>
 <h5 id="C186">super kullanan Python programı</h5><hr>
 
-Süper. super() yerleşik ile, bir sınıfın üst öğesini alabiliriz. Bu derhal atası alır. Burada, üst sınıf öğesi olan Shape'e referans veren Circle sınıfında super() öğesini çağırıyoruz.
+**Süper.** super() yerleşik ile, bir sınıfın üst öğesini alabiliriz. Bu derhal atası alır. Burada, üst sınıf öğesi olan Shape'e referans veren Circle sınıfında **super()** öğesini çağırıyoruz.
 
-Yazdır: 
-'Circle'dan name yordamını yazdırır. Daha sonra Shape'den name() de çağrılır.
+**Yazdır:** 
+'Circle'dan name yordamını yazdırır. Daha sonra Shape'den **name()** de çağrılır.
 
 <main class="grid">
   <article>
