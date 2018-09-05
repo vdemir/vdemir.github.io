@@ -2308,6 +2308,8 @@ Box Message 1
   </article>
 </main>
 
+**Bir inceleme.** Python programlarında sınıf yordamları ve statik yordamlar yararlıdır. Genellikle bir sınıfın, özdeş tabanlı olmayan bölümleri vardır. Bir özdeş gerektiren, hantal ve garip olacaktır.
+
 
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
  
