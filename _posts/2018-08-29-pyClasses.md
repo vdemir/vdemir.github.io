@@ -1911,6 +1911,7 @@ if issubclass(A, B):
 # See if A inherits from itself.
 if issubclass(A, A):
     print(3)
+    print(b.__class__)
 </code></pre>
 </p>
     </div>
