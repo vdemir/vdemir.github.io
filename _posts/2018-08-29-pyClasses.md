@@ -1727,6 +1727,8 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
       <li><a href="#C186" style="text-decoration: none; color:#388E3C; cursor:pointer">repr kullanan Python programı</a></li>
       <li><a href="#C187" style="text-decoration: none; color:#388E3C; cursor:pointer">property kullanan Python programı</a></li>
       <li><a href="#C188" style="text-decoration: none; color:#388E3C; cursor:pointer">super kullanan Python programı</a></li>
+      <li><a href="#C189" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıfta hash kullanan Python programı</a></li>
+      <li><a href="#C190" style="text-decoration: none; color:#388E3C; cursor:pointer">id kullanan Python programı</a></li>
     </ul>
     </p>
   </div>
@@ -2125,7 +2127,7 @@ Shape
 
 
 <br>
-<h5 id="C188">Sınıfta hash kullanan Python programı</h5><hr>
+<h5 id="C189">Sınıfta hash kullanan Python programı</h5><hr>
 
 **Hash.** Nesneleri karşılaştırırken, daha hızlı bir hash kodu kullanılabilir. Bir sözlük hash kullanır. **__hash__** ile özel hash hesaplamaları uyguluyoruz. Eşsiz bir değer, iyi bir hash dır.
 
@@ -2165,7 +2167,7 @@ c.name()
 </main>
 
 <br>
-<h5 id="C188">id kullanan Python programı</h5><hr>
+<h5 id="C190">id kullanan Python programı</h5><hr>
 
 id yordamı. Her öbeğin bir id si vardır. Bu özdeşe özgüdür. Tam sayı bir uygulama detayıdır ve program yürütmeleri arasında değişecektir. Burada sınıf id lerine bakıyoruz.
 
