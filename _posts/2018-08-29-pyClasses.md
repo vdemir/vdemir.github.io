@@ -1934,7 +1934,7 @@ B says hello <br>
 
 <br>
 
-**isinstance.** İlk argüman (bir değişken) ikinci argümanın (bir sınıf) bir örneği olduğunda, **isinstance** true değerini döndürür. Eğer sınıf bir temel sınıfsa, aynı zamanda true döner.
+**isinstance.** İlk argüman (bir değişken), ikinci argümanın (bir sınıf) bir eşleneği olduğunda, isinstance true değerini döndürür. Eğer sınıf bir temel sınıfsa, aynı zamanda true döner.
 
 **Burada:** 
 Listeler gibi, bazı değişkenler için, sınıf adı programda belirtilmemiş olabilir. Ama yine de **'liste'** yi bu şekilde test edebiliriz.
