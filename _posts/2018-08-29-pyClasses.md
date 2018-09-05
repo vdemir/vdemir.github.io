@@ -1722,11 +1722,11 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
       <li><a href="#C181" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıfı kullanan Python programı</a></li>
       <li><a href="#C182" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf kalıtımını kullanan Python programı</a></li>
       <li><a href="#C183" style="text-decoration: none; color:#388E3C; cursor:pointer">İki alt çizgi değişkenini kullanan Python programı</a></li>
-      <li><a href="#C183" style="text-decoration: none; color:#388E3C; cursor:pointer">issubclass kullanan Python programı</a></li>
-      <li><a href="#C184" style="text-decoration: none; color:#388E3C; cursor:pointer">isinstance kullanan Python programı</a></li>
-      <li><a href="#C185" style="text-decoration: none; color:#388E3C; cursor:pointer">Repr kullanan Python programı</a></li>
-      <li><a href="#C186" style="text-decoration: none; color:#388E3C; cursor:pointer">property kullanan Python programı</a></li>
-      <li><a href="#C187" style="text-decoration: none; color:#388E3C; cursor:pointer">super kullanan Python programı</a></li>
+      <li><a href="#C184" style="text-decoration: none; color:#388E3C; cursor:pointer">issubclass kullanan Python programı</a></li>
+      <li><a href="#C185" style="text-decoration: none; color:#388E3C; cursor:pointer">isinstance kullanan Python programı</a></li>
+      <li><a href="#C186" style="text-decoration: none; color:#388E3C; cursor:pointer">Repr kullanan Python programı</a></li>
+      <li><a href="#C187" style="text-decoration: none; color:#388E3C; cursor:pointer">property kullanan Python programı</a></li>
+      <li><a href="#C188" style="text-decoration: none; color:#388E3C; cursor:pointer">super kullanan Python programı</a></li>
     </ul>
     </p>
   </div>
@@ -2084,7 +2084,7 @@ Rattle
 </main>
 
 <br>
-<h5 id="C186">super kullanan Python programı</h5><hr>
+<h5 id="C188">super kullanan Python programı</h5><hr>
 
 **Süper.** super() yerleşik ile, bir sınıfın üst öğesini alabiliriz. Bu derhal atası alır. Burada, üst sınıf öğesi olan Shape'e referans veren Circle sınıfında **super()** öğesini çağırıyoruz.
 
