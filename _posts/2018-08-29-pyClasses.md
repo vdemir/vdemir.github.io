@@ -2531,19 +2531,54 @@ print(lookup["fish"])
   <article>
     <div class="text">
       <p>
-Traceback (most recent call last):
-  File "<stdin>", line 4, in <module>
-    print(lookup["fish"])
+Traceback (most recent call last):  <br>
+  File "<stdin>", line 4, in <module>  <br>
+    print(lookup["fish"])  <br>
 KeyError: 'fish'
 </p>
     </div>
   </article>
 </main>
 
+<br>
+<h5 id="C196">KeyError işleyen Python programı</h5><hr>
 
+KeyError. Bir sözlük bir KeyError'un oluşmasına neden olabilir. Bu, sözlüğün yanlış kullanımı nedeniyle gerçekleşir. KeyError'ı çoğu durumda, sözlükteki get() yordamını kullanarak önleyebiliriz. 
 
+Örnek. Bu program bir KeyError'un atılmasına neden olur. Sözlük sadece üç giriş içerir - bunlar 'a', 'b' ve 'c' tuşlarını içerir. Bir 'd' anahtarına erişmeye çalışıyoruz, ancak mevcut değil. Ve bir KeyError ile karşılaşıldı.
+ 
+Sonra, KeyError'ı try-except yapısında yakalarız. Bir except-block ta bir hata mesajı yazdırıyoruz. Son olarak, exceptions-istisnaları ele aldıktan sonra, get() yöntemiyle 'd' anahtarına erişiriz. Bu güvenli. exception-olağandışılık yok.
 
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+# Create dictionary with three entries.
+values = {"a" : 1, "b" : 2, "c" : 3}
 
+# Using the value directly can cause an error.
+try:
+    print(values["d"])
+except KeyError:
+    print("KeyError encountered")
+
+# We use get to safely get a value.
+print(values.get("d"))
+
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+KeyError encountered <br>
+None
+</p>
+    </div>
+  </article>
+</main>
 
 
 
