@@ -1731,6 +1731,12 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
       <li><a href="#C190" style="text-decoration: none; color:#388E3C; cursor:pointer">id kullanan Python programı</a></li>
       <li><a href="#C191" style="text-decoration: none; color:#388E3C; cursor:pointer">classmethod kullanan Python programı</a></li>
       <li><a href="#C192" style="text-decoration: none; color:#388E3C; cursor:pointer">staticmethod kullanan Python programı</a></li>
+      <li><a href="#C193" style="text-decoration: none; color:#388E3C; cursor:pointer">type içinde dict kullanan Python program</a></li>
+      <li><a href="#C194" style="text-decoration: none; color:#388E3C; cursor:pointer">hasattr, delattr kullanan Python program</a></li>
+      <li><a href="#C195" style="text-decoration: none; color:#388E3C; cursor:pointer">Değerleri get ile alan Python program</a></li>
+      <li><a href="#C196" style="text-decoration: none; color:#388E3C; cursor:pointer">KeyError'a neden olan Python programı</a></li>
+      <li><a href="#C197" style="text-decoration: none; color:#388E3C; cursor:pointer">KeyError işleyen Python program</a></li>
+      <li><a href="#C198" style="text-decoration: none; color:#388E3C; cursor:pointer">in kullanan Python program</a></li>
     </ul>
     </p>
   </div>
