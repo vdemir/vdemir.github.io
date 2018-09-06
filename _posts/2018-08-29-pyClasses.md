@@ -533,7 +533,7 @@ Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey
       <li><a href="#C81" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Özdeşleri</a></li>
       <li><a href="#C82" style="text-decoration: none; color:#388E3C; cursor:pointer">El Yordamı ile 'self' Geçirme</a></li>
       <li><a href="#C83" style="text-decoration: none; color:#388E3C; cursor:pointer">Öznitelik ve Yordam Varlığını Kontrol Etme</a></li>
-      <li><a href="#C85" style="text-decoration: none; color:#388E3C; cursor:pointer">Eşlenen, Sınıf ve Statik Yordamlar - Genel Bakış</a></li>
+      <li><a href="#C85" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş, Sınıf ve Statik Yordamlar - Genel Bakış</a></li>
       <li><a href="#C86" style="text-decoration: none; color:#388E3C; cursor:pointer"><Python'da statik değişkenler ve yordamlar></a></li>
       <li><a href="#C88" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Öznitelikleri 1</a></li>
       <li><a href="#C89" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Öznitelikleri 2</a></li>
@@ -740,7 +740,7 @@ Aşırı **hasattr** ve **getattr** kullanmayın. Sınıfınızı, bir özniteli
 
 
 <br>
-<h4 id="C85">Eşlenen, Sınıf ve Statik Yordamlar - Genel Bakış</h4>
+<h4 id="C85">Özdeş, Sınıf ve Statik Yordamlar - Genel Bakış</h4>
 <hr>
 Her üç yordam tipi için basit örnekler içeren bir (Python 3) sınıfı yazarak başlayalım:
 
