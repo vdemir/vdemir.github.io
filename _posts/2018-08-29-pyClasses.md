@@ -1775,6 +1775,8 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
   </div>
 </div>
 
+<br>
+
 **Liste.** Bir ağaç büyüdükçe odun katmanları eklenir. Mevsimler ve sıcaklıklar büyümesini etkiler. Halkalar bir liste olarak temsil edilebilir.
 
 <br>
