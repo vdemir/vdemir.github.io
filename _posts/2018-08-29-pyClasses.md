@@ -2075,7 +2075,7 @@ For döngüsü içindeki dört liste öğesinin her biriyle karşılaşırız. D
       <p>
 <pre><code>
 # An input list.
-elements = ["spider", "moth", "butterfly", "lizard"]
+elements = ["spider", "moth", "butterfly"]
 
 # Use simple for-loop.
 for element in elements:
@@ -2089,8 +2089,7 @@ for element in elements:
       <p>
 spider <br>
 moth <br>
-butterfly <br>
-lizard
+butterfly
 </p>
     </div>
   </article>
