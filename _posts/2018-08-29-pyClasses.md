@@ -2053,7 +2053,7 @@ print(names)
   <article>
     <div class="text">
       <p>
-['Tommy', 'Janet', 'Bill', 'Stacy'] <br>
+['Tommy', 'Janet', 'Bill'] <br>
 ['Tommy', 'Janet'] <br>
 ['Janet']
 </p>
