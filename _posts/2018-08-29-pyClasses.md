@@ -1755,7 +1755,7 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
 **Bir örnek.** Bir liste kapasitesini yönetir. Boş bir listeyle başlıyoruz. Ancak, onları ekledikçe sayılara uyacak şekilde genişler. Listeye eklediğimiz 4 öğe bu sırada saklanır. 
 
 **İpucu:** 
-Sözlüğün aksine, sipariş bir listede garanti edilir. Liste sıralı bir koleksiyondur. 
+Sözlüğün aksine, Sıra bir listede garanti edilir. Liste sıralı bir koleksiyondur. 
 
 **append:** 
 Bu yordam, liste özdeşinde (None ifadesine eşit olmamalıdır) çağrılır. Eklediğimiz değeri alır.
@@ -1784,6 +1784,46 @@ print(list)
     </div>
   </article>
 </main>
+
+<br>
+<h5 id="C191">insert çağıran Python programı</h5><hr>
+
+Insert. Bir öğe bir listede herhangi bir yere eklenebilir. insert() ile ilk kısma veya listenin ortasındaki bir yere ekleyebiliriz. 
+
+Önemli: 
+Sıra 1, ikinci eleman konumunu gösterir. Listeler sıfırdan başlayarak endekslenir sıfır-tabanlıdır.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+list = ["dot", "perls"]
+
+# Insert at index 1.
+list.insert(1, "net")
+
+print(list)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+['dot', 'net', 'perls']
+</p>
+    </div>
+  </article>
+</main>
+
+
+
+
+
+
+
+
 
 
 <br>
