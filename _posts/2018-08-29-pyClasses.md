@@ -2061,6 +2061,42 @@ print(names)
   </article>
 </main>
 
+<br>
+<h5 id="C197">for, list kullanan Python programı</h5><hr>
+
+For-loop. Liste döngülerinde, Genellikle listeye ihtiyacımız yok. Sadece sırayla elemanlara ihtiyacımız var. For döngüsü, bu durumda idealdir. Bir dizi değişkeninin bir diğeri ile karışıklığını ortadan kaldırır. 
+
+Burada: 
+For döngüsü içindeki dört liste öğesinin her biriyle karşılaşırız. Döngü gövdesindeki 'element' tanımlayıcısını kullanıyoruz.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+# An input list.
+elements = ["spider", "moth", "butterfly", "lizard"]
+
+# Use simple for-loop.
+for element in elements:
+    print(element)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+spider <br>
+moth <br>
+butterfly <br>
+lizard
+</p>
+    </div>
+  </article>
+</main>
+
+
 
 <br>
 <h5 id="C181">Sınıfı kullanan Python programı</h5><hr>
