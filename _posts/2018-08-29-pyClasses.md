@@ -1796,7 +1796,7 @@ print(list)
 Insert. Bir öğe bir listede herhangi bir yere eklenebilir. insert() ile ilk kısma veya listenin ortasındaki bir yere ekleyebiliriz. 
 
 Önemli: 
-Sıra 1, ikinci eleman konumunu gösterir. Listeler sıfırdan başlayarak endekslenir sıfır-tabanlıdır.
+Sıra 1, ikinci eleman konumunu gösterir. Listeler sıfırdan başlayarak sıralanır -sıfır-tabanlıdır.
 
 <main class="grid">
   <article>
@@ -2018,15 +2018,15 @@ print(values)
 </main>
 
 <br>
-<h5 id="C197">Öğeleri kaldıran Python programı</h5><hr>
+<h5 id="C198">Öğeleri kaldıran Python programı</h5><hr>
 
-**Remove, del.** Bir değer üzerinde hareket eder. Önce bu değeri arar ve sonra kaldırır. Öğeler (bir -index- dizinde) del ifadesiyle de kaldırılabilir.
+**Remove, del.** Bir değer üzerinde hareket eder. Önce bu değeri arar ve sonra kaldırır. Öğeler (bir -index- sırada) del ifadesiyle de kaldırılabilir.
  
 **Remove::** 
 Bu listedeki ilk eşleşen öğeyi dışarı alır. Bunu birkaç kez çağırabiliriz ve listeyi değiştirmeye devam edebilir. 
 
 **Del:** 
-Bu arada, öğeleri diziden veya bir dizi grubunundan kaldırır. Del, dilim sözdizimini kullanır.
+Bu arada, öğeleri sıradan veya bir dizi grubunundan kaldırır. Del, -slice- dilim sözdizimini kullanır.
 
 <main class="grid">
   <article>
@@ -2062,9 +2062,9 @@ print(names)
 </main>
 
 <br>
-<h5 id="C197">for, list kullanan Python programı</h5><hr>
+<h5 id="C199">for, list kullanan Python programı</h5><hr>
 
-For-loop. Liste döngülerinde, Genellikle listeye ihtiyacımız yok. Sadece sırayla elemanlara ihtiyacımız var. For döngüsü, bu durumda idealdir. Bir dizi değişkeninin bir diğeri ile karışıklığını ortadan kaldırır. 
+For-loop. Liste döngülerinde, Genellikle sıralamaya ihtiyacımız yok. Sadece sırayla elemanlara ihtiyacımız var. For döngüsü, bu durumda idealdir. Bir dizi değişkeninin bir diğeri ile karışıklığını ortadan kaldırır. 
 
 Burada: 
 For döngüsü içindeki dört liste öğesinin her biriyle karşılaşırız. Döngü gövdesindeki 'element' tanımlayıcısını kullanıyoruz.
@@ -2090,6 +2090,45 @@ for element in elements:
 spider <br>
 moth <br>
 butterfly
+</p>
+    </div>
+  </article>
+</main>
+
+<br>
+<h5 id="C200">Bitişik liste öğelerini alan Python programı</h5><hr>
+
+Adjacent elements. Çoğu zaman döngüde sadece bir elemana ihtiyacımız var. Ancak bazı durumlarda, karşılaştırmak için bitişik öğelere ihtiyacımız var. Burada listedeki bitişik öğelere ulaşıyoruz. 
+
+İpucu: 
+Sıra 1'den başlama anahtardır. Döngü gövdesinde, önceki öğeye 'i-1' sırasına ve geçerli öğeye erişiriz.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+# Input list.
+elements = [0, 10, 20, 30]
+
+# Use range.
+for i in range(1, len(elements)):
+    # Get two adjacent elements.
+    a = elements[i - 1]
+    b = elements[i]
+
+    # Print two elements.
+    print(a, b)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+0 10 <br>
+10 20 <br>
+20 30
 </p>
     </div>
   </article>
