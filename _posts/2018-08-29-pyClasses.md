@@ -1917,8 +1917,6 @@ if "marker" not in items:
   <article>
     <div class="text">
       <p>
-['cat', 'dog'] <br>
-2 <br>
 1 <br>
 3 <br>
 4
