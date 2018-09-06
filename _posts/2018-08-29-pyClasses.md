@@ -2281,6 +2281,46 @@ True
   </article>
 </main>
 
+<br>
+<h5 id="C200">all kullanan Python programı</h5><hr>
+
+**Any built-in.** Bu, yinelenen argümanı üzerinden döngü yapar (bir liste gibi). Eğer argümandaki elemanlardan 'any' True olarak değerlendirilirse, any() de True değerini döndürür. Yani True bir sonuç için tarar. 
+
+**False:** 
+Hiçbir öğe True değilse, any() false değerini döndürür. Yani 'not any', 'no True' ile aynıdır.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+elements = [False, None, "Pomegranate", 0]
+
+# One value is True, so any returns True.
+if any(elements):
+    print(True)
+
+elements = [0, 0, False]
+
+# Now no elements are True.
+# ... Any returns False.
+if not any(elements):
+    print(False)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+True <br>
+False
+</p>
+    </div>
+  </article>
+</main>
+
+
 
 
 <br>
