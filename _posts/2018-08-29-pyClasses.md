@@ -1741,9 +1741,31 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
     </p>
   </div>
 </div>
+
 <br>
+<h4 id="C181">List</h4><hr>
+
+**Liste.** Bir ağaç büyüdükçe odun katmanları eklenir. Mevsimler ve sıcaklıklar büyümesini etkiler. Halkalar bir liste olarak temsil edilebilir.
+
+**Öğeler eklenebilir,** döngülenebilir veya sıralanabilir. Listeler diğer yapılarla birleştirilebilir. Bir ağaç gibi, listeyi büyütmek için elemanlar (katmanlar) ekliyoruz.
+
+**Bir örnek.** Bir liste kapasitesini yönetir. Boş bir listeyle başlıyoruz. Ancak, onları ekledikçe sayılara uyacak şekilde genişler. Listeye eklediğimiz 4 öğe bu sırada saklanır. 
+
+**İpucu:** 
+Sözlüğün aksine, sipariş bir listede garanti edilir. Liste sıralı bir koleksiyondur. 
+
+**Ekleme:** 
+Bu yordam, liste özdeşinde (None ifadesine eşit olmamalıdır) çağrılır. Eklediğimiz değeri alır.
 
 
+
+
+<br>
+<h4 id="C181">List</h4><hr>
+
+
+
+<br>
 <h5 id="C181">Sınıfı kullanan Python programı</h5><hr>
 
 **init** örneği: Bu program bir sınıf oluşturur. Sınıf anahtar sözcüğünü kullanır ve iki yordam sunar. **init** yordamı özeldir. Bu bir kurucudur.
@@ -2909,7 +2931,6 @@ TypeError: object of type 'int' has no len()
   </article>
 </main>
 
-
 <br>
 <h5 id="C200">char sayımını, len zamanlayan Python programı</h5><hr>
 
@@ -2970,7 +2991,8 @@ for-loop = 1.444 s
 
 **Döngü önerisi.** Len kullanmaktan kaçınmak için bir for-in döngü düşünün. Bu döngü yapısı, her öğeyi bir koleksiyonda numaralandıracaktır. Dizin endeksleri gerekli değildir.
 
-
+<br>
+<h5 id="C200">char sayımını, len zamanlayan Python programı</h5><hr>
 
 
 
