@@ -2139,7 +2139,7 @@ print(list)
 **Liste Kapsamı, notlar.** Liste kapsamında, bir koleksiyondaki her bir öğeye bir yöntem veya başka bir işlem uygularız. Bu son derece güçlüdür. 
 
 **Ve:** 
-Sözdizimi kısa, programcıları okumayı ve taramayı kolaylaştırır. Sıkıcı for döngülerinden kaçınırız.
+Sözdizimi kısadır, programcılar için okumayı ve taramayı kolaylaştırır. Sıkıcı for döngülerinden kaçınırız.
 
 
 <br>
