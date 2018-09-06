@@ -2141,6 +2141,39 @@ print(list)
 **Ve:** 
 Sözdizimi kısadır, programcılar için okumayı ve taramayı kolaylaştırır. Sıkıcı for döngülerinden kaçınırız.
 
+<br>
+<h5 id="C200">Örnek kopya bildirimi: Python</h5><hr>
+
+**Kopya.** Bir dilim sözdizimi kullanılarak bir liste kopyalanır. Dilimde rakam belirtmediğimizde, tüm listeyi kapsar. Bu nedenle, belirtilmemiş bir dilime atanarak, listeyi kopyalarız. 
+ 
+**Yeniden Boyutlandır:**
+Ayrıca bir listeyi yeniden boyutlandırabiliriz. Dilim sözdizimi ve append ) gibi yordamlar yararlıdır.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+# Copy list1 into list2.
+list2 = list1[:]
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+</p>
+    </div>
+  </article>
+</main>
+
+**İkinci Kopya.** Bazen yinelenen öğeleri bir listeden kaldırmak istiyoruz. Sıralama önemliyse, elemanların yeniden sıralanmasını önlemek için özel bir yönteme ihtiyacımız olabilir. Burada bir set faydalıdır. 
+
+**iki boyutlu.** Bir liste diğer listeleri içerebilir. Bu tür veri yapısını, iki boyutlu bir eleman ızgarası olarak kullanabiliriz. Bunlar pürüzlüdür. Alt listeler uzunluk olarak değişebilir. 
+
+**İpucu:** 
+Liste listeleri, küçük grafikler ve koordinat aramasına ihtiyaç duyan diğer uygulamalar için yararlı olabilir, ancak büyük bir bellek alanı değildir.
 
 <br>
 <h5 id="C200">Bitişik liste öğelerini alan Python programı</h5><hr>
