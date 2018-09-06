@@ -1,11 +1,16 @@
 ---
 layout: post
 title: Python Sınıfları
-description: Python’daki hemen hemen her şey, öznitelikleri ve yordamları ile bir nesnedir.
+description: Python sınıfları, Nesne Yönelimli Programlamanın tüm standart özelliklerini sağlar.
 date:   2018-08-29 15:52:00
+last_updated: Aug 30, 2018
+keywords: linux, python, programlama
+summary: "Python 3 Sınıflar ve Nesneler."
+excerpt: This post is about Python 3 Classes
+categorie: Programlama
 tags:   Linux Programlama Python
 permalink: /PyClasses/
-categories: Programlama
+categories: [Python Classes, Python 3]
 comments: false
 published: true
 lang: tr
@@ -1971,7 +1976,7 @@ print(list)
 **Sort, key.** Bazen listedeki öğeler belirli bir şekilde sıralanmalıdır. Burada, liste karakterlerini son karakterlerine ve ardından ikinci karakterlerine göre sıralarız. 
 
 **Def:** 
-Örnek önce sıralamak için anahtar argüman olarak bir def yordamını kullanır. -key equals- 'Anahtar eşittir' bölümü belirtilmelidir. 
+Örnek önce sıralamak için key argümanı olarak bir def yordamını kullanır. -key equals- 'Anahtar eşittir' bölümü belirtilmelidir. 
 
 **Lambda:** 
 Son olarak öğeleri sıralamak için alternatif bir sözdizimi formu, lambda ifadesi sunuyoruz. Bu ikinci -char- karakterini hedefler.
