@@ -2910,6 +2910,68 @@ TypeError: object of type 'int' has no len()
 </main>
 
 
+<br>
+<h5 id="C200">char sayımını, len zamanlayan Python programı</h5><hr>
+
+**Performans.** -collections- Koleksiyonların ve -strings- dizelerin uzunluğu hafızada bir sayı olarak saklanır. Bir döngüde olduğu gibi her erişildiğinde hesaplanmaz. Bu nedenle, len bir döngüden çok daha hızlıdır. 
+
+**Here:** 
+Bir döngüde len ile bir dizinin uzunluğuna erişirim. Bu zamanlanmış. Sonra bir for döngüsünü test ediyorum. 
+
+**Sonuç:** 
+Len erişmek için çok kere daha hızlıdır. For-loop, yalnızca değerlerinin önem taşıdığı karakterleri sayarken kullanışlıdır.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+import time
+
+value = "characters"
+
+print(time.time())
+
+# Version 1: len
+for i in range(0, 1000000):
+    length = len(value)
+    if length != 10:
+        raise Exception()
+
+print(time.time())
+
+# Version 2: count chars
+for i in range(0, 1000000):
+    length = 0
+    for c in value:
+        length += 1
+    if length != 10:
+        raise Exception()
+
+print(time.time())
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+1406752804.325871   <br>
+1406752804.606887   <br>
+1406752806.05097    <br>
+len      = 0.281 s  <br> 
+for-loop = 1.444 s
+</p>
+    </div>
+  </article>
+</main>
+
+**Özet.** Bir uzunluk negatif olamaz. Bu yüzden len'i bir döngü sınırı olarak kullanabiliriz: Bu bir liste üzerinde döngü yapmak için uygun bir yoldur. Ancak gerekmediğinde, len kullanmaktan kaçınmak idealdir. 
+
+**Döngü önerisi.** Len kullanmaktan kaçınmak için bir for-in döngü düşünün. Bu döngü yapısı, her öğeyi bir koleksiyonda numaralandıracaktır. Dizin endeksleri gerekli değildir.
+
+
+
 
 
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
