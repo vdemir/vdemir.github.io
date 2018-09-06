@@ -2881,10 +2881,10 @@ print(len(list[2]))
 <br>
 <h5 id="C200">int üzerinden len ile hataya neden olan Python programı</h5><hr>
 
-**Hata.** Herhangi bir değişkenin lenmesini alamayız. Bu program int değişkeninin uzunluğunu almaya çalışır. Ve, işini bitiren bir TypeError ile sefil bir şekilde başarısız olur. 
+**Hata.** Herhangi bir değişkenin lenmesini alamayız. Bu program int değişkeninin uzunluğunu almaya çalışır. Ve, işini bitiren bir **TypeError** ile sefil bir şekilde başarısız olur. 
 
 **Not:** 
-Kavramsal olarak len () sayılabilir birimleri sayar: bir dizgede chars, listedeki öğeler. Bir sayının rakamı vardır, ancak başka 'birimleri' yoktur.
+Kavramsal olarak **len()** sayılabilir birimleri sayar: bir dizgede chars, listedeki öğeler. Bir sayının rakamı vardır, ancak başka 'birimleri' yoktur.
 
 <main class="grid">
   <article>
