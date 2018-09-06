@@ -1765,7 +1765,7 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
       <li><a href="#C198" style="text-decoration: none; color:#388E3C; cursor:pointer">Öğeleri kaldıran Python programı</a></li>
       <li><a href="#C199" style="text-decoration: none; color:#388E3C; cursor:pointer">for, list kullanan Python programı</a></li>
       <li><a href="#C200" style="text-decoration: none; color:#388E3C; cursor:pointer">list kapsamı kullanan Python programı</a></li>
-      <li><a href="#C201" style="text-decoration: none; color:#388E3C; cursor:pointer">Örnek kopya bildirimi: Python</a></li>
+      <li><a href="#C201" style="text-decoration: none; color:#388E3C; cursor:pointer">Örnek copy bildirimi: Python</a></li>
       <li><a href="#C202" style="text-decoration: none; color:#388E3C; cursor:pointer">Bitişik liste öğelerini alan Python programı</a></li>
       <li><a href="#C203" style="text-decoration: none; color:#388E3C; cursor:pointer">format, liste kullanan Python programı</a></li>
       <li><a href="#C204" style="text-decoration: none; color:#388E3C; cursor:pointer">all kullanan Python programı</a></li>
@@ -2307,7 +2307,7 @@ True
 </main>
 
 <br>
-<h5 id="C205">all kullanan Python programı</h5><hr>
+<h5 id="C205">any kullanan Python programı</h5><hr>
 
 **Any built-in.** Bu, yinelenen argümanı üzerinden döngü yapar (bir liste gibi). Eğer argümandaki elemanlardan 'any' True olarak değerlendirilirse, any() de True değerini döndürür. Yani True bir sonuç için tarar. 
 
