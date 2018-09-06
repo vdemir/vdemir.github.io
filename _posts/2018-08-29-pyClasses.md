@@ -2113,7 +2113,7 @@ Bu listedeki kapsamda, her dizgeye 'x' tanımlayıcısı verilir. Listedeki her 
 <pre><code>
 # Transform string into HTML.
 def html(s):
-    return "<<b>>" + s.capitalize() + "</b>"
+    return "<b>" + s.capitalize() + "</b>"
 
 # Input string.
 input = ["rabbit", "mouse", "gorilla"]
@@ -2130,10 +2130,7 @@ print(list)
   <article>
     <div class="text">
       <p>
-{% comment %} 
-    ['<b>Rabbit</b>', '<b>Mouse</b>', '<b>Gorilla</b>']
-{% endcomment %}
-
+{>> ['<b>Rabbit</b>', '<b>Mouse</b>', '<b>Gorilla</b>'] <<}
 </p>
     </div>
   </article>
