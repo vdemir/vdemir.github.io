@@ -1820,12 +1820,12 @@ print(list)
 <br>
 <h5 id="C191">extend kullanan Python programı</h5><hr>
 
-Uzatın. Bir liste extend() ile başka bir listeye eklenebilir. Bu yüzden bir listeyi sonuna kadar başka bir liste içerecek şekilde genişletiyoruz. Listeleri arda arda bağlarız (birleştiririz). 
+**Extend.** Bir liste extend() ile başka bir listeye eklenebilir. Bu yüzden bir listeyi sonuna kadar başka bir liste içerecek şekilde genişletiyoruz. Listeleri arda arda bağlarız (birleştiririz). 
 
-Dikkat: 
+**Dikkat:** 
 Bir liste eklemek için append() öğesini çağırmaya çalışırsak, yeni listenin tamamı sonuç listesinin tek bir öğesi olarak eklenecektir. 
 
-İpucu: 
+**İpucu:** 
 Başka bir seçenek, bir for döngüsü kullanmak veya listeyi arda arda bağlayarak (genişletmek) için aralık sözdizimini kullanmaktır.
 
 <main class="grid">
