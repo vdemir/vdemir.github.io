@@ -1780,7 +1780,7 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
 **Liste.** Bir ağaç büyüdükçe odun katmanları eklenir. Mevsimler ve sıcaklıklar büyümesini etkiler. Halkalar bir liste olarak temsil edilebilir.
 
 <br>
-<h5 id="C191">append kullanan Python programı</h5><hr>
+<h5 id="C291">append kullanan Python programı</h5><hr>
 
 **Öğeler eklenebilir,** döngülenebilir veya sıralanabilir. Listeler diğer yapılarla birleştirilebilir. Bir ağaç gibi, listeyi büyütmek için elemanlar (katmanlar) ekliyoruz.
 
@@ -1818,7 +1818,7 @@ print(list)
 </main>
 
 <br>
-<h5 id="C192">insert çağıran Python programı</h5><hr>
+<h5 id="C292">insert çağıran Python programı</h5><hr>
 
 Insert. Bir öğe bir listede herhangi bir yere eklenebilir. insert() ile ilk kısma veya listenin ortasındaki bir yere ekleyebiliriz. 
 
@@ -1850,7 +1850,7 @@ print(list)
 </main>
 
 <br>
-<h5 id="C193">extend kullanan Python programı</h5><hr>
+<h5 id="C293">extend kullanan Python programı</h5><hr>
 
 **Extend.** Bir liste extend() ile başka bir listeye eklenebilir. Bu yüzden bir listeyi sonuna kadar başka bir liste içerecek şekilde genişletiyoruz. Listeleri arda arda bağlarız (birleştiririz). 
 
@@ -1888,7 +1888,7 @@ print(a)
 </main>
 
 <br>
-<h5 id="C194">len kullanan Python programı</h5><hr>
+<h5 id="C294">len kullanan Python programı</h5><hr>
 
 **Len.** Bir liste belirli sayıda eleman içerir. Boşsa bu sıfır olabilir. Dahili bir yordam olan len ile eleman sayısına erişiriz.
 
@@ -1920,7 +1920,7 @@ print(count)
 </main>
 
 <br>
-<h5 id="C195">in kullanan Python programı</h5><hr>
+<h5 id="C295">in kullanan Python programı</h5><hr>
 
 Anahtar kelimede. Listede bir eleman mı? Bunu belirlemek için 'in' ve 'not in' ifadesini kullanıyoruz. Diğer yaklaşımlar mümkündür, ancak 'in' en basitidir. Burada 'in' ve 'not in' ile bir liste ararız.
 
@@ -1958,7 +1958,7 @@ if "marker" not in items:
 </main>
 
 <br>
-<h5 id="C196">Sıralayan ve tersine çeviren Python programı</h5><hr>
+<h5 id="C296">Sıralayan ve tersine çeviren Python programı</h5><hr>
 
 **Sort, reverse.** Listeler, öğelerinin sırasını muhafaza eder. Ve yeniden düzenlenebilirler. Sıralama yordamıyla, öğelerin sırasını düşükten yükseğe doğru değiştiririz. 
 
@@ -1998,7 +1998,7 @@ print(list)
 </main>
 
 <br>
-<h5 id="C197">lambda, def ile sıralanan Python programı</h5><hr>
+<h5 id="C297">lambda, def ile sıralanan Python programı</h5><hr>
 
 **Sort, key.** Bazen listedeki öğeler belirli bir şekilde sıralanmalıdır. Burada, liste karakterlerini son karakterlerine ve ardından ikinci karakterlerine göre sıralarız. 
 
@@ -2045,7 +2045,7 @@ print(values)
 </main>
 
 <br>
-<h5 id="C198">Öğeleri kaldıran Python programı</h5><hr>
+<h5 id="C298">Öğeleri kaldıran Python programı</h5><hr>
 
 **Remove, del.** Bir değer üzerinde hareket eder. Önce bu değeri arar ve sonra kaldırır. Öğeler (bir -index- sırada) del ifadesiyle de kaldırılabilir.
  
@@ -2089,7 +2089,7 @@ print(names)
 </main>
 
 <br>
-<h5 id="C199">for, list kullanan Python programı</h5><hr>
+<h5 id="C299">for, list kullanan Python programı</h5><hr>
 
 For-loop. Liste döngülerinde, Genellikle sıralamaya ihtiyacımız yok. Sadece sırayla elemanlara ihtiyacımız var. For döngüsü, bu durumda idealdir. Bir dizi değişkeninin bir diğeri ile karışıklığını ortadan kaldırır. 
 
@@ -2123,7 +2123,7 @@ butterfly
 </main>
 
 <br>
-<h5 id="C200">list kapsamı kullanan Python programı</h5><hr>
+<h5 id="C300">list kapsamı kullanan Python programı</h5><hr>
 
 **Listeyi kapsamı** tek bir ifadede tüm döngüyü ifade eder. Bu örnekte bir listeyi HTML dizgileri listesine çevirmek için liste kapsamayı kullanıyoruz. 
 
@@ -2169,7 +2169,7 @@ print(list)
 Sözdizimi kısadır, programcılar için okumayı ve taramayı kolaylaştırır. Sıkıcı for döngülerinden kaçınırız.
 
 <br>
-<h5 id="C201">Örnek kopya bildirimi: Python</h5><hr>
+<h5 id="C301">Örnek kopya bildirimi: Python</h5><hr>
 
 **Kopya.** Bir dilim sözdizimi kullanılarak bir liste kopyalanır. Dilimde rakam belirtmediğimizde, tüm listeyi kapsar. Bu nedenle, belirtilmemiş bir dilime atanarak, listeyi kopyalarız. 
  
@@ -2203,7 +2203,7 @@ list2 = list1[:]
 Liste listeleri, küçük grafikler ve koordinat aramasına ihtiyaç duyan diğer uygulamalar için yararlı olabilir, ancak büyük bir bellek alanı değildir.
 
 <br>
-<h5 id="C202">Bitişik liste öğelerini alan Python programı</h5><hr>
+<h5 id="C302">Bitişik liste öğelerini alan Python programı</h5><hr>
 
 **Bitişik elemanlar.** Çoğu zaman döngüde sadece bir elemana ihtiyacımız vardır. Ancak bazı durumlarda, karşılaştırmak için bitişik öğelere ihtiyacımız var. Burada listedeki bitişik öğelere ulaşıyoruz. 
 
@@ -2242,7 +2242,7 @@ for i in range(1, len(elements)):
 </main>
 
 <br>
-<h5 id="C203">format, liste kullanan Python programı</h5><hr>
+<h5 id="C303">format, liste kullanan Python programı</h5><hr>
 
 **Format.** Bir listemiz olduğunu varsayalım. Ondan bazı öğeleri bir dizgeye eklemek istiyoruz. Bunun için str.format kullanabiliriz. Format(), liste argümanları için özel desteğe sahiptir. 
 
@@ -2274,7 +2274,7 @@ The values are 10, 20 and 30
 </main>
 
 <br>
-<h5 id="C204">all kullanan Python programı</h5><hr>
+<h5 id="C304">all kullanan Python programı</h5><hr>
 
 All built-in -yerleşik-. Tümüyle, tüm öğelerin True olarak değerlendirip değerlendirmediğini kontrol ederiz. Tek bir eleman bile yanlışsa, all() False değerini döndürür. Yöntem, elemanlar için standart bir boole değerlendirmesi kullanır.
 
@@ -2309,7 +2309,7 @@ True
 </main>
 
 <br>
-<h5 id="C205">any kullanan Python programı</h5><hr>
+<h5 id="C305">any kullanan Python programı</h5><hr>
 
 **Any built-in.** Bu, yinelenen argümanı üzerinden döngü yapar (bir liste gibi). Eğer argümandaki elemanlardan 'any' True olarak değerlendirilirse, any() de True değerini döndürür. Yani True bir sonuç için tarar. 
 
