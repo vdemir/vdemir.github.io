@@ -2096,12 +2096,53 @@ butterfly
 </main>
 
 <br>
+<h5 id="C200">list kapsamı kullanan Python programı</h5><hr>
+
+Listeyi kapsamı tek bir ifadede tüm döngüyü ifade eder. Bu örnekte bir listeyi HTML dizgileri listesine çevirmek için liste kavramasını kullanıyoruz. 
+
+Burada: 
+Giriş listesindeki her dizgeye html yöntemini uygularız. Bu, capitalize() çağırır ve bir HTML parçasını döndürür. 
+
+Tanımlayıcı: 
+Bu listedeki kapsamda, her dizgeye 'x' tanımlayıcısı verilir. Listedeki her öğeye Html() denir.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+# Transform string into HTML.
+def html(s):
+    return "<b>" + s.capitalize() + "</b>"
+
+# Input string.
+input = ["rabbit", "mouse", "gorilla"]
+
+# List comprehension.
+list = [html(x) for x in input]
+
+# Result list.
+print(list)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+['<b>Rabbit</b>', '<b>Mouse</b>', '<b>Gorilla</b>']
+</p>
+    </div>
+  </article>
+</main>
+
+<br>
 <h5 id="C200">Bitişik liste öğelerini alan Python programı</h5><hr>
 
-Adjacent elements. Çoğu zaman döngüde sadece bir elemana ihtiyacımız var. Ancak bazı durumlarda, karşılaştırmak için bitişik öğelere ihtiyacımız var. Burada listedeki bitişik öğelere ulaşıyoruz. 
+**Bitişik elemanlar.** Çoğu zaman döngüde sadece bir elemana ihtiyacımız vardır. Ancak bazı durumlarda, karşılaştırmak için bitişik öğelere ihtiyacımız var. Burada listedeki bitişik öğelere ulaşıyoruz. 
 
-İpucu: 
-Sıra 1'den başlama anahtardır. Döngü gövdesinde, önceki öğeye 'i-1' sırasına ve geçerli öğeye erişiriz.
+**İpucu:** 
+Sıra 1'de başlama, anahtardır. Döngü gövdesinde, önceki öğeye 'i-1' sırasına ve geçerli öğeye erişiriz.
 
 <main class="grid">
   <article>
@@ -2133,7 +2174,6 @@ for i in range(1, len(elements)):
     </div>
   </article>
 </main>
-
 
 
 <br>
