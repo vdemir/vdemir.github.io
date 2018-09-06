@@ -1993,7 +1993,8 @@ values = ["abc", "bca", "cab"]
 values.sort(key=lastchar)
 print(values)
 
-# Sort by the second character in the strings.
+# Sort by the second character,
+# in the strings.
 # ... Use a lambda expression.
 values.sort(key=lambda s: s[1])
 print(values)
