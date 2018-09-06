@@ -2764,7 +2764,7 @@ print(len(lookup))
 <br>
 <h5 id="C200">Özyineleme kullanan Python programı</h5><hr>
 
-**Özyineleme.** Özyinelemeyle, tüm olasılıkları denemek için çözümler ararız. Yinelemeli bir yöntemin bir sonlandırma koşulu (bir hedef) olmalıdır. Ve bir döngüde, değişen argümanlar ile kendini çağırabilir. Bu şekilde arama şubeleri dışarı çıkar.
+**Özyineleme.** -recurse- Özyinelemeyle, tüm olasılıkları denemek için çözümler ararız. Yinelemeli bir yöntemin bir sonlandırma koşulu (bir hedef) olmalıdır. Ve bir döngüde, değişen argümanlar ile kendini çağırabilir. Bu şekilde arama şubeleri dışarı çıkar.
  
 **Değişiklik.** Bu program, son paraların saklandığı boş bir bozuk paralar listesiyle başlar. Ayrıca, her biri 1 veya 5 kuruş gibi olası madeni para miktarlarını da belirtir. Değişim çağrısında (en aşağıya), 51 sent'lik bir hedef miktar belirtiyoruz. 
 
@@ -2878,10 +2878,36 @@ print(len(list[2]))
   </article>
 </main>
 
+<br>
+<h5 id="C200">Hataya neden olan Python programı, int üzerinde len</h5><hr>
 
+Hata. Herhangi bir değişkenin lenmesini alamayız. Bu program int değişkeninin uzunluğunu almaya çalışır. Ve, işini bitiren bir TypeError ile sefil bir şekilde başarısız olur. 
 
+Not: 
+Kavramsal olarak len () sayılabilir birimleri sayar: bir dizgede chars, listedeki öğeler. Bir sayının rakamı vardır, ancak başka 'birimleri' yoktur.
 
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+value = 100
 
+# Cannot take length of int:
+length = len(value)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+length = len(value) <br>
+TypeError: object of type 'int' has no len()
+</p>
+    </div>
+  </article>
+</main>
 
 
 
