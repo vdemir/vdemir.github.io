@@ -1765,19 +1765,13 @@ Bu yordam, liste özdeşinde (None ifadesine eşit olmamalıdır) çağrılır. 
     <div class="text">
       <p>
 <pre><code>
-class Box:
-    def area(self):
-        return self.width * self.height
+list = []
+list.append(1)
+list.append(2)
+list.append(6)
+list.append(3)
 
-    def __init__(self, width, height):
-        self.width = width
-        self.height = height
-
-# Create an instance of Box.
-x = Box(10, 2)
-
-# Print area.
-print(x.area())
+print(list)
 </code></pre>
 </p>
     </div>
