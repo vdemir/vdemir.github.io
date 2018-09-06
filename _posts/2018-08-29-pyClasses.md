@@ -1965,6 +1965,51 @@ print(list)
   </article>
 </main>
 
+<br>
+<h5 id="C196">lambda, def ile sıralanan Python programı</h5><hr>
+
+**Sort, key.** Bazen listedeki öğeler belirli bir şekilde sıralanmalıdır. Burada, liste karakterlerini son karakterlerine ve ardından ikinci karakterlerine göre sıralarız. 
+
+**Def:** 
+Örnek önce sıralamak için anahtar argüman olarak bir def yordamını kullanır. -key equals- 'Anahtar eşittir' bölümü belirtilmelidir. 
+
+**Lambda:** 
+Son olarak öğeleri sıralamak için alternatif bir sözdizimi formu, lambda ifadesi sunuyoruz. Bu ikinci -char- karakterini hedefler.
+	
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+def lastchar(s):
+    # Return last character in string.
+    return s[-1]
+
+# Input.
+values = ["abc", "bca", "cab"]
+
+# Sort by last character in the strings.
+values.sort(key=lastchar)
+print(values)
+
+# Sort by the second character in the strings.
+# ... Use a lambda expression.
+values.sort(key=lambda s: s[1])
+print(values)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+['bca', 'cab', 'abc'] <br>
+['cab', 'abc', 'bca']
+</p>
+    </div>
+  </article>
+</main>
 
 
 
