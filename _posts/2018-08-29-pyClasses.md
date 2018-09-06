@@ -2217,9 +2217,9 @@ for i in range(1, len(elements)):
 <br>
 <h5 id="C200">format, liste kullanan Python programı</h5><hr>
 
-Format. Bir listemiz olduğunu varsayalım. Ondan bazı öğeleri bir dizgeye eklemek istiyoruz. Bunun için str.format kullanabiliriz. Format(), liste argümanları için özel desteğe sahiptir. 
+**Format.** Bir listemiz olduğunu varsayalım. Ondan bazı öğeleri bir dizgeye eklemek istiyoruz. Bunun için str.format kullanabiliriz. Format(), liste argümanları için özel desteğe sahiptir. 
 
-İpucu: 
+**İpucu:** 
 format() 'nin ikinci argümanı bir değişkene bir -identifier- tanımlayıcı atar ve dizge içindeki öğelere erişebiliriz.
 
 <main class="grid">
@@ -2246,7 +2246,40 @@ The values are 10, 20 and 30
   </article>
 </main>
 
+<br>
+<h5 id="C200">all kullanan Python programı</h5><hr>
 
+All built-in -yerleşik-. Tümüyle, tüm öğelerin True olarak değerlendirip değerlendirmediğini kontrol ederiz. Tek bir eleman bile yanlışsa, all() False değerini döndürür. Yöntem, elemanlar için standart bir boole değerlendirmesi kullanır.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+items = [False, None, True]
+
+# Some elements evaluate to False, so all is False.
+if not all(items):
+    print(False)
+
+items = [10, 20, 30]
+
+# All the items evaluate to True.
+if all(items):
+    print(True)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+False <br>
+True
+</p>
+    </div>
+  </article>
+</main>
 
 
 
