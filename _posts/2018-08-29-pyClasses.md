@@ -153,7 +153,7 @@ print(MyClass)
   <article>
     <div class="text">
       <p>
-<pre><code>
+{% highlight python %}
 class Sinif:
     def bir_yordam(self):
         print ('Hey bir yordam')
@@ -167,7 +167,7 @@ ozdes.bir_yordam()
 
 Sinif.bir_yordam(ozdes)
 # 'Hey bir yordam' yazdırır
-</code></pre>
+{% endhighlight %}
 </p>
     </div>
   </article>
@@ -194,7 +194,7 @@ Sınıf oluşturulduktan çok sonra ve sonradan eşleştirildikten sonra bile bi
   <article>
     <div class="text">
       <p>
-<pre><code>
+{% highlight python %}
 class Class:
    def method(self):
         print ('Hey a method')
@@ -209,7 +209,7 @@ def new_method(self):
 Class.method = new_method
 instance.method()
 # prints 'New method wins!'
-</code></pre>
+{% endhighlight %}
 </p>
     </div>
   </article>
