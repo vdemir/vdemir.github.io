@@ -2320,8 +2320,13 @@ False
   </article>
 </main>
 
+**Index, count.** Sıralama metodu ile bir liste arayabiliriz. Ve sayımla, listedeki bir elemanın özdeş sayısını toplayabiliriz (sayım sırayla uygulanabilir). 
 
+**Array -dizi-.** Python'da bir liste bir diziden ayrıdır. Listeler küçük veri kümeleri için iyidir, ancak daha büyük miktarlarda veri için, diziler çok daha verimlidir. Genellikle % 90 daha az bellek kullanırlar. 
 
+**Özeti.** Bir liste elemanları doğrusal bir toplamayla birbiri ardına depolar.Python sayıları, dizeleri de dahil olmak üzere her türlü elemanı ele alır - hatta tuples ve diğer koleksiyonlar.
+
+**Faydaları, negatifler.** Listeler basit bir sözdizimine sahiptir; bir tane oluşturmak için yalnızca birkaç karakter gerekir. Ve listeleri yeniden boyutlandırmak zorunda kalmayacağız. Ancak büyük veri kümeleri için aşırı bellek kullanırlar.
 
 <br>
 <h5 id="C181">Sınıfı kullanan Python programı</h5><hr>
