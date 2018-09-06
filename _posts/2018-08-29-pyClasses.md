@@ -2879,7 +2879,7 @@ print(len(list[2]))
 </main>
 
 <br>
-<h5 id="C200">Hataya neden olan Python programı, int üzerinde len</h5><hr>
+<h5 id="C200">int üzerinden len ile hataya neden olan Python programı</h5><hr>
 
 **Hata.** Herhangi bir değişkenin lenmesini alamayız. Bu program int değişkeninin uzunluğunu almaya çalışır. Ve, işini bitiren bir TypeError ile sefil bir şekilde başarısız olur. 
 
