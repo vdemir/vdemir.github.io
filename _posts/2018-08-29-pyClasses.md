@@ -2136,6 +2136,12 @@ print(list)
   </article>
 </main>
 
+**Liste Kapsamı, notlar.** Liste kapsamında, bir koleksiyondaki her bir öğeye bir yöntem veya başka bir işlem uygularız. Bu son derece güçlüdür. 
+
+**Ve:** 
+Sözdizimi kısa, programcıları okumayı ve taramayı kolaylaştırır. Sıkıcı for döngülerinden kaçınırız.
+
+
 <br>
 <h5 id="C200">Bitişik liste öğelerini alan Python programı</h5><hr>
 
