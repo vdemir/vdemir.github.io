@@ -2098,7 +2098,7 @@ butterfly
 <br>
 <h5 id="C200">list kapsamı kullanan Python programı</h5><hr>
 
-**Listeyi kapsamı** tek bir ifadede tüm döngüyü ifade eder. Bu örnekte bir listeyi HTML dizgileri listesine çevirmek için liste kavramasını kullanıyoruz. 
+**Listeyi kapsamı** tek bir ifadede tüm döngüyü ifade eder. Bu örnekte bir listeyi HTML dizgileri listesine çevirmek için liste kapsamayı kullanıyoruz. 
 
 **Burada:** 
 Giriş listesindeki her dizgeye html yöntemini uygularız. Bu, capitalize() çağırır ve bir HTML parçasını döndürür. 
@@ -2130,7 +2130,7 @@ print(list)
   <article>
     <div class="text">
       <p>
-['<b>Rabbit</b>', '<b>Mouse</b>', '<b>Gorilla</b>']
+['<b><b>Rabbit</b></b>'', '<b>Mouse</b>', '<b>Gorilla</b>']
 </p>
     </div>
   </article>
