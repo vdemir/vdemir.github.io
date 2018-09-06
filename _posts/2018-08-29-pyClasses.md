@@ -2113,7 +2113,7 @@ Bu listedeki kapsamda, her dizgeye 'x' tanımlayıcısı verilir. Listedeki her 
 <pre><code>
 # Transform string into HTML.
 def html(s):
-    return "<b>" + s.capitalize() + "</b>"
+    return "<<b>>" + s.capitalize() + "</b>"
 
 # Input string.
 input = ["rabbit", "mouse", "gorilla"]
