@@ -2033,7 +2033,7 @@ Bu arada, öğeleri diziden veya bir dizi grubunundan kaldırır. Del, dilim sö
     <div class="text">
       <p>
 <pre><code>
-names = ["Tommy", "Bill", "Janet", "Bill", "Stacy"]
+names = ["Tommy", "Bill", "Janet", "Bill"]
 
 # Remove this value.
 names.remove("Bill")
