@@ -3,7 +3,7 @@ layout: post
 title: Python Sınıfları
 description: Python sınıfları, Nesne Yönelimli Programlamanın tüm standart özelliklerini sağlar.
 date:   2018-08-29 15:52:00
-last_updated: Aug 30, 2018
+last_updated: 2018-09-05 15:52:00
 keywords: linux, python, programlama
 summary: "Python 3 Sınıflar ve Nesneler."
 excerpt: This post is about Python 3 Classes
