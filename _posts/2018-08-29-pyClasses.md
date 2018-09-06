@@ -1818,7 +1818,7 @@ print(list)
 </main>
 
 <br>
-<h5 id="C191">extend kullanan Python programı</h5><hr>
+<h5 id="C192">extend kullanan Python programı</h5><hr>
 
 **Extend.** Bir liste extend() ile başka bir listeye eklenebilir. Bu yüzden bir listeyi sonuna kadar başka bir liste içerecek şekilde genişletiyoruz. Listeleri arda arda bağlarız (birleştiririz). 
 
@@ -1855,6 +1855,37 @@ print(a)
   </article>
 </main>
 
+<br>
+<h5 id="C193">len kullanan Python programı</h5><hr>
+
+**Len.** Bir liste belirli sayıda eleman içerir. Boşsa bu sıfır olabilir. Dahili bir yordam olan len ile eleman sayısına erişiriz.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+animals = []
+animals.append("cat")
+animals.append("dog")
+count = len(animals)
+
+# Display the list and the length.
+print(animals)
+print(count)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+['cat', 'dog'] <br>
+2
+</p>
+    </div>
+  </article>
+</main>
 
 
 
