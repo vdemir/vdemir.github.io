@@ -2296,7 +2296,8 @@ Hiçbir öğe True değilse, any() false değerini döndürür. Yani 'not any', 
 <pre><code>
 elements = [False, None, "Pomegranate", 0]
 
-# One value is True, so any returns True.
+# One value is True,
+# so any returns True.
 if any(elements):
     print(True)
 
