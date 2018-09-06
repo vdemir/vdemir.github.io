@@ -35,6 +35,7 @@ img.resize {
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
       <li><a href="#C1" style="text-decoration: none; color:#388E3C; cursor:pointer">Bir Python Sınıfı Oluşturmak</a></li>
+      <li><a href="#C84" style="text-decoration: none; color:#388E3C; cursor:pointer">Oluşturulduktan Sonra Sınıfların Değiştirilmesi</a></li>
       <li><a href="#C2" style="text-decoration: none; color:#388E3C; cursor:pointer">Bir Python Nesnesi Oluşturmak</a></li>
       <li><a href="#C3" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Eşleme ile Nesne Oluşturmak</a></li>
       <li><a href="#C13" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesne Özniteliklerini Değiştirmek</a></li>
@@ -175,6 +176,52 @@ Hey bir yordam
     </div>
   </article>
 </main>
+
+<br><br>
+
+<h4 id="C84">Oluşturulduktan Sonra Sınıfların Değiştirilmesi</h4>
+<hr>
+
+
+Sınıf oluşturulduktan çok sonra ve sonradan eşleştirildikten sonra bile bir sınıf özniteliğini veya yordamını ekleyebilir, değiştirebilir veya silebilirsiniz. Sadece özniteliğe veya yordama **Class.attribute** olarak erişin. Ne zaman oluşturuldukları önemli değil, sınıfın özdeşleri bu değişikliklere saygı duyacaktır:
+
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Class:
+   def method(self):
+        print ('Hey a method')
+
+instance = Class()
+instance.method()
+# prints 'Hey a method'
+
+def new_method(self):
+    print ('New method wins!')
+
+Class.method = new_method
+instance.method()
+# prints 'New method wins!'
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+
+Out [1]: <br> <br>
+Hey a method <br>  <br>
+New method wins!
+</p>
+    </div>
+  </article>
+</main>
+
+Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşmayın, bu kötü bir formdur ve bu sınıfı kullanarak herhangi bir öbeği karıştırır. Öte yandan, yordamların eklenmesi çok daha az (ama yine de biraz) tehlikelidir.
 
 <br><br>
 
@@ -486,7 +533,6 @@ Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey
       <li><a href="#C81" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Özdeşleri</a></li>
       <li><a href="#C82" style="text-decoration: none; color:#388E3C; cursor:pointer">El Yordamı ile 'self' Geçirme</a></li>
       <li><a href="#C83" style="text-decoration: none; color:#388E3C; cursor:pointer">Öznitelik ve Yordam Varlığını Kontrol Etme</a></li>
-      <li><a href="#C84" style="text-decoration: none; color:#388E3C; cursor:pointer">Oluşturulduktan Sonra Sınıfların Değiştirilmesi</a></li>
       <li><a href="#C85" style="text-decoration: none; color:#388E3C; cursor:pointer">Eşlenen, Sınıf ve Statik Yordamlar - Genel Bakış</a></li>
       <li><a href="#C86" style="text-decoration: none; color:#388E3C; cursor:pointer"><Python'da statik değişkenler ve yordamlar></a></li>
       <li><a href="#C88" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Öznitelikleri 1</a></li>
@@ -691,50 +737,7 @@ AttributeError: type object <br>
 
 Aşırı **hasattr** ve **getattr** kullanmayın. Sınıfınızı, bir özniteliğin var olup olmadığını kontrol etmeye devam etmeniz gereken bir şekilde yazmışsanız, yanlış yazmışsınız demektir. Sadece her zaman var olan değere sahip olur ve kullanılmıyorsa **None** (ya da her neyse) olarak ayarlayın. Bu fonksiyonlar en iyi şekilde çokbiçimliliği ele almak için kullanılır, Yani, fonksiyonunuzu / sınıfınızı / öbeklerin farklı türlerini desteklemenizi sağlar.
 
-<br>
-<h4 id="C84">Oluşturulduktan Sonra Sınıfların Değiştirilmesi</h4>
-<hr>
 
-
-Sınıf oluşturulduktan çok sonra ve sonradan eşleştirildikten sonra bile bir sınıf özniteliğini veya yordamını ekleyebilir, değiştirebilir veya silebilirsiniz. Sadece özniteliğe veya yordama **Class.attribute** olarak erişin. Ne zaman oluşturuldukları önemli değil, sınıfın özdeşleri bu değişikliklere saygı duyacaktır:
-
-
-<main class="grid">
-  <article>
-    <div class="text">
-      <p>
-<pre><code>
-class Class:
-   def method(self):
-        print ('Hey a method')
-
-instance = Class()
-instance.method()
-# prints 'Hey a method'
-
-def new_method(self):
-    print ('New method wins!')
-
-Class.method = new_method
-instance.method()
-# prints 'New method wins!'
-</code></pre>
-</p>
-    </div>
-  </article>
-  <article>
-    <div class="text">
-      <p>
-
-Out [1]: <br> <br>
-Hey a method <br>  <br>
-New method wins!
-</p>
-    </div>
-  </article>
-</main>
-
-Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşmayın, bu kötü bir formdur ve bu sınıfı kullanarak herhangi bir öbeği karıştırır. Öte yandan, yordamların eklenmesi çok daha az (ama yine de biraz) tehlikelidir.
 
 <br>
 <h4 id="C85">Eşlenen, Sınıf ve Statik Yordamlar - Genel Bakış</h4>
