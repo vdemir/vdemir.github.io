@@ -78,7 +78,7 @@ Burada, (class docstring) class_name._doc_ üzerinden erişilebilen bir belge di
   <article>
     <div class="text">
       <p>
-<pre><code>{% highlight python %}
+{% highlight python %}
 # sınıfın tanımı burada başlar  
 class Person:
   # değişkenleri başlatma yordamı
@@ -107,7 +107,6 @@ person2 = Person("Anne", 30)
 person1.showAge()
 person2.showName()
 {% endhighlight %}
-</code></pre>
 </p>
     </div>
   </article>
