@@ -1888,7 +1888,7 @@ print(count)
 </main>
 
 <br>
-<h5 id="C193">in kullanan Python programı</h5><hr>
+<h5 id="C194">in kullanan Python programı</h5><hr>
 
 Anahtar kelimede. Listede bir eleman mı? Bunu belirlemek için 'in' ve 'not in' ifadesini kullanıyoruz. Diğer yaklaşımlar mümkündür, ancak 'in' en basitidir. Burada 'in' ve 'not in' ile bir liste ararız.
 
@@ -1925,7 +1925,45 @@ if "marker" not in items:
   </article>
 </main>
 
+<br>
+<h5 id="C195">Sıralayan ve tersine çeviren Python programı</h5><hr>
 
+Sırala, tersine çevir. Listeler, öğelerinin sırasını muhafaza eder. Ve yeniden düzenlenebilirler. Sıralama yordamıyla, öğelerin sırasını düşükten yükseğe doğru değiştiririz. 
+
+Ve: 
+Tersine, öğelerin güncel sırasını tersine çeviririz. sort ve reverse tekrar birleştirebilir (tersine çevrilmiş bir sıralama için).
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+list = [400, 500, 100, 2000]
+
+# Reversed.
+list.reverse()
+print(list)
+
+# Sorted.
+list.sort()
+print(list)
+
+# Sorted and reversed.
+list.reverse()
+print(list)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+[2000, 100, 500, 400] <br>
+[100, 400, 500, 2000] <br>
+[2000, 500, 400, 100]
+</p>
+    </div>
+  </article>
+</main>
 
 
 
