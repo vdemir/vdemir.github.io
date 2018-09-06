@@ -2214,6 +2214,41 @@ for i in range(1, len(elements)):
   </article>
 </main>
 
+<br>
+<h5 id="C200">format, liste kullanan Python programı</h5><hr>
+
+Format. Bir listemiz olduğunu varsayalım. Ondan bazı öğeleri bir dizgeye eklemek istiyoruz. Bunun için str.format kullanabiliriz. Format(), liste argümanları için özel desteğe sahiptir. 
+
+İpucu: 
+format() 'nin ikinci argümanı bir değişkene bir -identifier- tanımlayıcı atar ve dizge içindeki öğelere erişebiliriz.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+list = [10, 20, 30]
+
+# Use "v" identifier to refer to the list.
+# ... Access its elements in format.
+res = str.format("The values are {v[0]}, {v[1]} and {v[2]}", v=list)
+print(res)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+The values are 10, 20 and 30
+</p>
+    </div>
+  </article>
+</main>
+
+
+
+
 
 <br>
 <h5 id="C181">Sınıfı kullanan Python programı</h5><hr>
