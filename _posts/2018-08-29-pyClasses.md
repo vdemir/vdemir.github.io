@@ -533,8 +533,7 @@ Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey
       <li><a href="#C81" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Özdeşleri</a></li>
       <li><a href="#C82" style="text-decoration: none; color:#388E3C; cursor:pointer">El Yordamı ile 'self' Geçirme</a></li>
       <li><a href="#C83" style="text-decoration: none; color:#388E3C; cursor:pointer">Öznitelik ve Yordam Varlığını Kontrol Etme</a></li>
-      <li><a href="#C85" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş, Sınıf ve Statik Yordamlar - Genel Bakış</a></li>
-      <li><a href="#C86" style="text-decoration: none; color:#388E3C; cursor:pointer"><Python'da statik değişkenler ve yordamlar></a></li>
+      <li><a href="#C86" style="text-decoration: none; color:#388E3C; cursor:pointer">Python'da statik değişkenler ve yordamlar</a></li>
       <li><a href="#C88" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Öznitelikleri 1</a></li>
       <li><a href="#C89" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Öznitelikleri 2</a></li>
       <li><a href="#C90" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş Öznitelikler</a></li>
@@ -740,66 +739,6 @@ Aşırı **hasattr** ve **getattr** kullanmayın. Sınıfınızı, bir özniteli
 
 
 <br>
-<h4 id="C85">Özdeş, Sınıf ve Statik Yordamlar - Genel Bakış</h4>
-<hr>
-Her üç yordam tipi için basit örnekler içeren bir (Python 3) sınıfı yazarak başlayalım:
-
-
-<main class="grid">
-  <article>
-    <div class="text">
-      <p>
-<pre><code>
-class MyClass:
-    def method(self):
-       return 'instance method called', self
-
-    @classmethod
-    def classmethod(cls):
-       return 'class method called', cls
-
-    @staticmethod
-    def staticmethod():
-       return 'static method called'
-
-obj = MyClass()
-
-obj.classmethod()
-# ('class method called', __main__.MyClass)
-
-obj.method()
-# ('instance method called', 
-# <__main__.MyClass at 0x7f878f4ffa90>)
-
-MyClass.method(obj)
-# ('instance method called', 
-# <__main__.MyClass at 0x7f878f56e278>)
-
-obj.staticmethod()
-# 'static method called'
-
-MyClass.classmethod()
-# ('class method called', __main__.MyClass)
-
-MyClass.staticmethod()
-# 'static method called'
-
-MyClass.method()
-# TypeError: method() missing 1 
-# required positional argument: 'self'
-</code></pre>
-</p>
-    </div>
-  </article>
-  <article>
-    <div class="text">
-      <p>
-</p>
-    </div>
-  </article>
-</main>
-
-<br>
 <h3 id="C86">Python'da statik değişkenler ve yordamlar</h3>
 <hr>
 
@@ -809,7 +748,7 @@ MyClass.method()
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
       <li><a href="#C861" style="text-decoration: none; color:#388E3C; cursor:pointer">Değişkenler</a></li>
-      <li><a href="#C862" style="text-decoration: none; color:#388E3C; cursor:pointer">Yordamlar</a></li>
+      <li><a href="#C862" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş, Sınıf ve Statik Yordamlar</a></li>
       <li><a href="#C863" style="text-decoration: none; color:#388E3C; cursor:pointer">@staticmethod</a></li>
       <li><a href="#C864" style="text-decoration: none; color:#388E3C; cursor:pointer">@classmethod</a></li>
       <li><a href="#C865" style="text-decoration: none; color:#388E3C; cursor:pointer">Eşlenen Yordamlar</a></li>
@@ -878,11 +817,67 @@ Bana oldukça basit görünüyor. Sadece kafa karışıklığı gerçek olabilir
 
 
 <br>
-<h4 id="C862">Yordamlar</h4>
-<h6>[Methods]</h6>
+<h4 id="C862">Özdeş, Sınıf ve Statik Yordamlar</h4>
 <hr>
 
 Statik yordamlarla biraz daha karmaşık hale gelir. Python'da, bir sınıf içindeki statik yordamları tanımlamanın iki yolu vardır.
+
+Her üç yordam tipi için basit örnekler içeren bir (Python 3) sınıfı yazarak başlayalım:
+
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class MyClass:
+    def method(self):
+       return 'instance method called', self
+
+    @classmethod
+    def classmethod(cls):
+       return 'class method called', cls
+
+    @staticmethod
+    def staticmethod():
+       return 'static method called'
+
+obj = MyClass()
+
+obj.classmethod()
+# ('class method called', __main__.MyClass)
+
+obj.method()
+# ('instance method called', 
+# <__main__.MyClass at 0x7f878f4ffa90>)
+
+MyClass.method(obj)
+# ('instance method called', 
+# <__main__.MyClass at 0x7f878f56e278>)
+
+obj.staticmethod()
+# 'static method called'
+
+MyClass.classmethod()
+# ('class method called', __main__.MyClass)
+
+MyClass.staticmethod()
+# 'static method called'
+
+MyClass.method()
+# TypeError: method() missing 1 
+# required positional argument: 'self'
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+</p>
+    </div>
+  </article>
+</main>
 
 <br>
 <h5 id="C863">@staticmethod</h5>
