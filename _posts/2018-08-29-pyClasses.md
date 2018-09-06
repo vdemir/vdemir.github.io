@@ -2130,7 +2130,7 @@ print(list)
   <article>
     <div class="text">
       <p>
-{>> ['<b>Rabbit</b>', '<b>Mouse</b>', '<b>Gorilla</b>'] <<}
+['< b>Rabbit</b>', '< b>Mouse</b>', '< b>Gorilla</b>']
 </p>
     </div>
   </article>
