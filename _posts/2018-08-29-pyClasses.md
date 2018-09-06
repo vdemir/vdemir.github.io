@@ -1743,9 +1743,12 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
 </div>
 
 <br>
-<h4 id="C181">List</h4><hr>
+<h4 id="C190">List</h4><hr>
 
 **Liste.** Bir ağaç büyüdükçe odun katmanları eklenir. Mevsimler ve sıcaklıklar büyümesini etkiler. Halkalar bir liste olarak temsil edilebilir.
+
+<br>
+<h4 id="C191">append kullanan Python programı</h4><hr>
 
 **Öğeler eklenebilir,** döngülenebilir veya sıralanabilir. Listeler diğer yapılarla birleştirilebilir. Bir ağaç gibi, listeyi büyütmek için elemanlar (katmanlar) ekliyoruz.
 
@@ -1754,15 +1757,39 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
 **İpucu:** 
 Sözlüğün aksine, sipariş bir listede garanti edilir. Liste sıralı bir koleksiyondur. 
 
-**Ekleme:** 
+**append:** 
 Bu yordam, liste özdeşinde (None ifadesine eşit olmamalıdır) çağrılır. Eklediğimiz değeri alır.
 
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+class Box:
+    def area(self):
+        return self.width * self.height
 
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
 
+# Create an instance of Box.
+x = Box(10, 2)
 
-<br>
-<h4 id="C181">List</h4><hr>
-
+# Print area.
+print(x.area())
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+[1, 2, 6, 3]
+</p>
+    </div>
+  </article>
+</main>
 
 
 <br>
