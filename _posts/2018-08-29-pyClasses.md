@@ -1817,6 +1817,43 @@ print(list)
   </article>
 </main>
 
+<br>
+<h5 id="C191">extend kullanan Python programı</h5><hr>
+
+Uzatın. Bir liste extend() ile başka bir listeye eklenebilir. Bu yüzden bir listeyi sonuna kadar başka bir liste içerecek şekilde genişletiyoruz. Listeleri arda arda bağlarız (birleştiririz). 
+
+Dikkat: 
+Bir liste eklemek için append() öğesini çağırmaya çalışırsak, yeni listenin tamamı sonuç listesinin tek bir öğesi olarak eklenecektir. 
+
+İpucu: 
+Başka bir seçenek, bir for döngüsü kullanmak veya listeyi arda arda bağlayarak (genişletmek) için aralık sözdizimini kullanmaktır.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+# Two lists.
+a = [1, 2, 3]
+b = [4, 5, 6]
+
+# Add all elements in list "b" to list "a."
+a.extend(b)
+
+# List "a" now contains six elements.
+print(a)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+[1, 2, 3, 4, 5, 6]
+</p>
+    </div>
+  </article>
+</main>
 
 
 
