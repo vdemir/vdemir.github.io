@@ -131,8 +131,14 @@ Anne
 <div class="teaser clearfix"></div>
 <h3 id="C1">Bir Python Sınıfı Oluşturma</h3><hr>
 **x** adlı bir özdeğere sahip **MyClass** adlı bir sınıf/öbek oluşturun:
-<div class="w3-code notranslate pythonHigh">
-  class MyClass:<br> &nbsp; 'Python Temel Sınıf'<br> &nbsp; x = 5<br>print(MyClass)</div>
+<div class="w3-code notranslate">
+{% highlight python %}
+  class MyClass:
+  'Python Temel Sınıf'
+  x = 5
+print(MyClass)
+{% endhighlight %}
+</div>
 
 <br>
  
