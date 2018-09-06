@@ -1887,6 +1887,45 @@ print(count)
   </article>
 </main>
 
+<br>
+<h5 id="C193">in kullanan Python programı</h5><hr>
+
+Anahtar kelimede. Listede bir eleman mı? Bunu belirlemek için 'in' ve 'not in' ifadesini kullanıyoruz. Diğer yaklaşımlar mümkündür, ancak 'in' en basitidir. Burada 'in' ve 'not in' ile bir liste ararız.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+items = ["book", "computer", "keys", "mug"]
+
+if "computer" in items:
+    print(1)
+
+if "atlas" in items:
+    # This is not reached.
+    print(2)
+else:
+    print(3)
+
+if "marker" not in items:
+    print(4)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+['cat', 'dog'] <br>
+2 <br>
+1 <br>
+3 <br>
+4
+</p>
+    </div>
+  </article>
+</main>
 
 
 
