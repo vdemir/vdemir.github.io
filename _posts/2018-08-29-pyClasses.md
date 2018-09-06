@@ -1928,9 +1928,9 @@ if "marker" not in items:
 <br>
 <h5 id="C195">Sıralayan ve tersine çeviren Python programı</h5><hr>
 
-Sırala, tersine çevir. Listeler, öğelerinin sırasını muhafaza eder. Ve yeniden düzenlenebilirler. Sıralama yordamıyla, öğelerin sırasını düşükten yükseğe doğru değiştiririz. 
+**Sort, reverse.** Listeler, öğelerinin sırasını muhafaza eder. Ve yeniden düzenlenebilirler. Sıralama yordamıyla, öğelerin sırasını düşükten yükseğe doğru değiştiririz. 
 
-Ve: 
+**Ve:** 
 Tersine, öğelerin güncel sırasını tersine çeviririz. sort ve reverse tekrar birleştirebilir (tersine çevrilmiş bir sıralama için).
 <main class="grid">
   <article>
