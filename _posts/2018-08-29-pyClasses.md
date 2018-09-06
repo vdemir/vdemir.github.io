@@ -2017,7 +2017,49 @@ print(values)
   </article>
 </main>
 
+<br>
+<h5 id="C197">Öğeleri kaldıran Python programı</h5><hr>
 
+**Remove, del.** Bir değer üzerinde hareket eder. Önce bu değeri arar ve sonra kaldırır. Öğeler (bir -index- dizinde) del ifadesiyle de kaldırılabilir.
+ 
+**Remove::** 
+Bu listedeki ilk eşleşen öğeyi dışarı alır. Bunu birkaç kez çağırabiliriz ve listeyi değiştirmeye devam edebilir. 
+
+**Del:** 
+Bu arada, öğeleri diziden veya bir dizi grubunundan kaldırır. Del, dilim sözdizimini kullanır.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+names = ["Tommy", "Bill", "Janet", "Bill", "Stacy"]
+
+# Remove this value.
+names.remove("Bill")
+print(names)
+
+# Delete all except first two elements.
+del names[2:]
+print(names)
+
+# Delete all except last element.
+del names[:1]
+print(names)
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+['Tommy', 'Janet', 'Bill', 'Stacy'] <br>
+['Tommy', 'Janet'] <br>
+['Janet']
+</p>
+    </div>
+  </article>
+</main>
 
 
 <br>
