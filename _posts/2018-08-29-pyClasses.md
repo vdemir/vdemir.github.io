@@ -1748,7 +1748,7 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
 **Liste.** Bir ağaç büyüdükçe odun katmanları eklenir. Mevsimler ve sıcaklıklar büyümesini etkiler. Halkalar bir liste olarak temsil edilebilir.
 
 <br>
-<h4 id="C191">append kullanan Python programı</h4><hr>
+<h5 id="C191">append kullanan Python programı</h5><hr>
 
 **Öğeler eklenebilir,** döngülenebilir veya sıralanabilir. Listeler diğer yapılarla birleştirilebilir. Bir ağaç gibi, listeyi büyütmek için elemanlar (katmanlar) ekliyoruz.
 
