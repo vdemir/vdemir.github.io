@@ -1749,9 +1749,8 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
 </div>
 
 <br>
-
 <div class="w3-panel w3-card w3-light-grey">
-<a id="C290">Listeler</a>
+<h5><a id="C290">Listeler</a></h5>
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
