@@ -2130,7 +2130,10 @@ print(list)
   <article>
     <div class="text">
       <p>
-['<b><b>Rabbit</b></b>', '<b>Mouse</b>', '<b>Gorilla</b>']
+{% comment %} 
+    ['<b>Rabbit</b>', '<b>Mouse</b>', '<b>Gorilla</b>']
+{% endcomment %}
+
 </p>
     </div>
   </article>
