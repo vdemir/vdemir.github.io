@@ -2098,12 +2098,12 @@ butterfly
 <br>
 <h5 id="C200">list kapsamı kullanan Python programı</h5><hr>
 
-Listeyi kapsamı tek bir ifadede tüm döngüyü ifade eder. Bu örnekte bir listeyi HTML dizgileri listesine çevirmek için liste kavramasını kullanıyoruz. 
+**Listeyi kapsamı** tek bir ifadede tüm döngüyü ifade eder. Bu örnekte bir listeyi HTML dizgileri listesine çevirmek için liste kavramasını kullanıyoruz. 
 
-Burada: 
+**Burada:** 
 Giriş listesindeki her dizgeye html yöntemini uygularız. Bu, capitalize() çağırır ve bir HTML parçasını döndürür. 
 
-Tanımlayıcı: 
+**Tanımlayıcı:** 
 Bu listedeki kapsamda, her dizgeye 'x' tanımlayıcısı verilir. Listedeki her öğeye Html() denir.
 
 <main class="grid">
