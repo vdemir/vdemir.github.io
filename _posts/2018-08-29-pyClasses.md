@@ -1724,6 +1724,7 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
+      <li><a href="#C290" style="text-decoration: none; color:#388E3C; cursor:pointer">Listeler - Lists</a></li>
       <li><a href="#C181" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıfı kullanan Python programı</a></li>
       <li><a href="#C182" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf kalıtımını kullanan Python programı</a></li>
       <li><a href="#C183" style="text-decoration: none; color:#388E3C; cursor:pointer">İki alt çizgi değişkenini kullanan Python programı</a></li>
@@ -1748,28 +1749,27 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
 </div>
 
 <br>
-<h4 id="C190">List</h4><hr>
 
 <div class="w3-panel w3-card w3-light-grey">
 <p>Listeler</p>
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
-      <li><a href="#C191" style="text-decoration: none; color:#388E3C; cursor:pointer">append kullanan Python programı</a></li>
-      <li><a href="#C192" style="text-decoration: none; color:#388E3C; cursor:pointer">insert çağıran Python programı</a></li>
-      <li><a href="#C193" style="text-decoration: none; color:#388E3C; cursor:pointer">extend kullanan Python programı</a></li>
-      <li><a href="#C194" style="text-decoration: none; color:#388E3C; cursor:pointer">len kullanan Python programı</a></li>
-      <li><a href="#C195" style="text-decoration: none; color:#388E3C; cursor:pointer">in kullanan Python programı</a></li>
-      <li><a href="#C196" style="text-decoration: none; color:#388E3C; cursor:pointer">Sıralayan ve tersine çeviren Python programı</a></li>
-      <li><a href="#C197" style="text-decoration: none; color:#388E3C; cursor:pointer">lambda, def ile sıralanan Python programı</a></li>
-      <li><a href="#C198" style="text-decoration: none; color:#388E3C; cursor:pointer">Öğeleri kaldıran Python programı</a></li>
-      <li><a href="#C199" style="text-decoration: none; color:#388E3C; cursor:pointer">for, list kullanan Python programı</a></li>
-      <li><a href="#C200" style="text-decoration: none; color:#388E3C; cursor:pointer">list kapsamı kullanan Python programı</a></li>
-      <li><a href="#C201" style="text-decoration: none; color:#388E3C; cursor:pointer">Örnek copy bildirimi: Python</a></li>
-      <li><a href="#C202" style="text-decoration: none; color:#388E3C; cursor:pointer">Bitişik liste öğelerini alan Python programı</a></li>
-      <li><a href="#C203" style="text-decoration: none; color:#388E3C; cursor:pointer">format, liste kullanan Python programı</a></li>
-      <li><a href="#C204" style="text-decoration: none; color:#388E3C; cursor:pointer">all kullanan Python programı</a></li>
-      <li><a href="#C205" style="text-decoration: none; color:#388E3C; cursor:pointer">any kullanan Python programı</a></li>
+      <li><a href="#C291" style="text-decoration: none; color:#388E3C; cursor:pointer">append kullanan Python programı</a></li>
+      <li><a href="#C292" style="text-decoration: none; color:#388E3C; cursor:pointer">insert çağıran Python programı</a></li>
+      <li><a href="#C293" style="text-decoration: none; color:#388E3C; cursor:pointer">extend kullanan Python programı</a></li>
+      <li><a href="#C294" style="text-decoration: none; color:#388E3C; cursor:pointer">len kullanan Python programı</a></li>
+      <li><a href="#C295" style="text-decoration: none; color:#388E3C; cursor:pointer">in kullanan Python programı</a></li>
+      <li><a href="#C296" style="text-decoration: none; color:#388E3C; cursor:pointer">Sıralayan ve tersine çeviren Python programı</a></li>
+      <li><a href="#C297" style="text-decoration: none; color:#388E3C; cursor:pointer">lambda, def ile sıralanan Python programı</a></li>
+      <li><a href="#C298" style="text-decoration: none; color:#388E3C; cursor:pointer">Öğeleri kaldıran Python programı</a></li>
+      <li><a href="#C299" style="text-decoration: none; color:#388E3C; cursor:pointer">for, list kullanan Python programı</a></li>
+      <li><a href="#C300" style="text-decoration: none; color:#388E3C; cursor:pointer">list kapsamı kullanan Python programı</a></li>
+      <li><a href="#C301" style="text-decoration: none; color:#388E3C; cursor:pointer">Örnek copy bildirimi: Python</a></li>
+      <li><a href="#C302" style="text-decoration: none; color:#388E3C; cursor:pointer">Bitişik liste öğelerini alan Python programı</a></li>
+      <li><a href="#C303" style="text-decoration: none; color:#388E3C; cursor:pointer">format, liste kullanan Python programı</a></li>
+      <li><a href="#C304" style="text-decoration: none; color:#388E3C; cursor:pointer">all kullanan Python programı</a></li>
+      <li><a href="#C305" style="text-decoration: none; color:#388E3C; cursor:pointer">any kullanan Python programı</a></li>
     </ul>
     </p>
   </div>
