@@ -2764,16 +2764,16 @@ print(len(lookup))
 <br>
 <h5 id="C200">Özyineleme kullanan Python programı</h5><hr>
 
-Özyineleme. Özyinelemeyle, tüm olasılıkları denemek için çözümler ararız. Yinelemeli bir yöntemin bir sonlandırma koşulu (bir hedef) olmalıdır. Ve bir döngüde, değişen argümanlar ile kendini çağırabilir. Bu şekilde arama şubeleri dışarı çıkar.
+**Özyineleme.** Özyinelemeyle, tüm olasılıkları denemek için çözümler ararız. Yinelemeli bir yöntemin bir sonlandırma koşulu (bir hedef) olmalıdır. Ve bir döngüde, değişen argümanlar ile kendini çağırabilir. Bu şekilde arama şubeleri dışarı çıkar.
  
-Değişiklik. Bu program, son paraların saklandığı boş bir bozuk paralar listesiyle başlar. Ayrıca, her biri 1 veya 5 kuruş gibi olası madeni para miktarlarını da belirtir. Değişim çağrısında (en aşağıya), 51 sent'lik bir hedef miktar belirtiyoruz. 
+**Değişiklik.** Bu program, son paraların saklandığı boş bir bozuk paralar listesiyle başlar. Ayrıca, her biri 1 veya 5 kuruş gibi olası madeni para miktarlarını da belirtir. Değişim çağrısında (en aşağıya), 51 sent'lik bir hedef miktar belirtiyoruz. 
 
-Değiştir: 
+**Change:** 
 Bu özyinelemeli bir yöntemdir. İlk önce hedef tutarımızı toplayıp toplamadığımızı kontrol eder. Sonra bir döngüde yeni paralar eklemeye çalışır. 
 
 Eklemek için bir bozuk para bulduğumuzda, değişimde, paralar listemizi bir dilim ile kopyalarız. Sonra yeni parayı ekliyoruz. Her bir özyinel çağrının kendi listesi olması gerektiğinden, kopyalanması önemlidir. Hedef tutarımıza ulaştığımızda madeni paralarımızı gösteririz.
 
-Gösterge: 
+**Gösterge:** 
 Bu def-method tüm olası miktarlar üzerinde döngü yapar ve -amount- miktar tarafından toplanan para sayısını gösterir.
 
 <main class="grid">
@@ -2842,7 +2842,49 @@ Biz ilerledikçe (değişimde) sadece daha büyük veya eşit değerde paralar e
 **İpucu:** 
 Bulmaca gibi oyun problemlerini çözme, bunun gibi yinelemeli yöntemlerle mükemmel bir öğrenme alıştırmasıdır.
 
-Özet. Yinelemeli bir yöntem, olası her seçeneği deneyerek birçok sorunu çözebilir. Buradaki değişim bulmaca, kaba kuvvetli bir şekilde çözülür. Her olası kuruşu her bir yineleme seviyesinde deneriz.
+**Özet.** Yinelemeli bir yöntem, olası her seçeneği deneyerek birçok sorunu çözebilir. Buradaki değişim bulmaca, kaba kuvvetli bir şekilde çözülür. Her olası kuruşu her bir yineleme seviyesinde deneriz.
+
+
+<br>
+<h5 id="C200">iç içe geçen listeden len kullanan Python programı</h5><hr>
+
+İç içe geçmiş listeler. İç içe geçmiş koleksiyonları tekrar gözden geçirelim. Bir koleksiyonun kendisi bir elementtir, bu yüzden sadece bir kez sayar. Yerleşik len, tekrarlamaz. Döngü bile değil. Basit. 
+ 
+Böylece: 
+Özel kod ile bu şeyleri (yinelemeli, döngü) yapmalıyız. Alt elemanları test edebilir ve len'i kullanabiliriz.
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+<pre><code>
+# A nested list:
+list = [1, 2, [4, 5]]
+
+# Shallow count of elements.
+print(len(list))
+print(len(list[2]))
+</code></pre>
+</p>
+    </div>
+  </article>
+  <article>
+    <div class="text">
+      <p>
+3 <br>
+2
+</p>
+    </div>
+  </article>
+</main>
+
+
+
+
+
+
+
+
 
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
  
