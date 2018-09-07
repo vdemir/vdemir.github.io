@@ -5,9 +5,9 @@
 {% assign day = page.date | date: "%d" %}
 {% assign month = months[m] %}
 {% assign year = page.date | date: "%Y" %}
-<p class="meta">{{ day }} {{ month }} {{ year }} - Türkiye</p>
+<p class="meta"><i class="far fa-clock"></i>&nbsp;{{ day }} {{ month }} {{ year }} - Türkiye</p>
 {% elsif page.lang == 'en' %}
-<p class="meta">{{ page.date | date_to_string }} - Turkey</p>
+<p class="meta"><i class="far fa-clock"></i>&nbsp;{{ page.date | date_to_string }} - Turkey</p>
 {% endif %}
 
 <div align="right">
