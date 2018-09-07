@@ -306,11 +306,11 @@ p1 = Person("John", 36)
 Bu gibi nesnelerdeki öznitelikleri değiştirebilirsiniz:
 <p>p1'in yaşını 40'a ayarlayın:</p>
 
-{% highlight python %} 
 <div class="w3-code notranslate">
-  p1.age = 40</div>
+{% highlight python %} 
+  p1.age = 40
 {% endhighlight %}
-
+</div>
 <br>
 
 <main class="grid">
