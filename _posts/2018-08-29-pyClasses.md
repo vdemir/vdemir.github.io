@@ -64,7 +64,7 @@ Python sınıfları, Nesne Yönelimli Programlamanın tüm standart özellikleri
 class ClassName:
     'class docstring'
     class_suite
-    # python sınıf değişkenleri listesi
+    # python sınıf öznitelikleri listesi
     # python sınıf kurucu
     # python sınıf yordam tanımları
 {% endhighlight %}
@@ -77,7 +77,7 @@ Burada, (class docstring) class_name._doc_ üzerinden erişilebilen bir belge di
 {% highlight python %}
 # sınıfın tanımı burada başlar  
 class Person:
-  # değişkenleri başlatma yordamı
+  # öznitelikleri başlatma yordamı
   name = ""
   age = 0
       
@@ -491,7 +491,7 @@ Out[1]: (3.0, -4.5)
 <h3 id="C6">Özdeş Öbekler</h3><hr>
 Şimdi eşleşen nesnelerle ne yapabiliriz? Eşleşen nesneler ile anlaşılan yegane işlemler, öznitelik atıflarıdır. İki tür geçerli atıf ismi vardır; data öznitelikleri ve yordamları. 
 
-Data öznitelikleri, Smalltalk'daki “eşleşen değişkenler” ve C++'daki “data elemanlarına” karşılık gelir. Data özniteliklerinin beyan edilmesine gerek yoktur; yerel değişkenler gibi, ilk atandıklarında var olurlar. Örneğin, **x** yukarıda oluşturulan **MyClass** özniteliğiyse, aşağıdaki kod parçası bir iz bırakmadan değeri 16 yazdıracaktır:
+Data öznitelikleri, Smalltalk'daki “eşleşen öznitelikler” ve C++'daki “data elemanlarına” karşılık gelir. Data özniteliklerinin beyan edilmesine gerek yoktur; yerel öznitelikler gibi, ilk atandıklarında var olurlar. Örneğin, **x** yukarıda oluşturulan **MyClass** özniteliğiyse, aşağıdaki kod parçası bir iz bırakmadan değeri 16 yazdıracaktır:
 
 <div class="teaser clearfix"></div>
 <div class="w3-code notranslate">
@@ -567,8 +567,8 @@ Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey
       <li><a href="#C88" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Öznitelikleri 1</a></li>
       <li><a href="#C89" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Öznitelikleri 2</a></li>
       <li><a href="#C90" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş Öznitelikler</a></li>
-      <li><a href="#C86" style="text-decoration: none; color:#388E3C; cursor:pointer">Python'da statik değişkenler ve yordamlar</a></li>
-      <li><a href="#C91" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf ve Öbek Değişkenleri</a></li>
+      <li><a href="#C86" style="text-decoration: none; color:#388E3C; cursor:pointer">Python'da statik öznitelikler ve yordamlar</a></li>
+      <li><a href="#C91" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf ve Öbek öznitelikleri</a></li>
     </ul>
     </p>
   </div>
@@ -662,7 +662,7 @@ Aşırı **hasattr** ve **getattr** kullanmayın. Sınıfınızı, bir özniteli
 
 
 <br>
-<h3 id="C86">Python'da statik değişkenler ve yordamlar</h3>
+<h3 id="C86">Python'da statik öznitelikler ve yordamlar</h3>
 <hr>
 
 
@@ -670,7 +670,7 @@ Aşırı **hasattr** ve **getattr** kullanmayın. Sınıfınızı, bir özniteli
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
-      <li><a href="#C861" style="text-decoration: none; color:#388E3C; cursor:pointer">Değişkenler</a></li>
+      <li><a href="#C861" style="text-decoration: none; color:#388E3C; cursor:pointer">Öznitelikler</a></li>
       <li><a href="#C862" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş, Sınıf ve Statik Yordamlar</a></li>
       <li><a href="#C863" style="text-decoration: none; color:#388E3C; cursor:pointer">@staticmethod</a></li>
       <li><a href="#C864" style="text-decoration: none; color:#388E3C; cursor:pointer">@classmethod</a></li>
@@ -684,15 +684,15 @@ Aşırı **hasattr** ve **getattr** kullanmayın. Sınıfınızı, bir özniteli
 </div>
 <br>
 
-Python'da bir veri elemanı veya statik yordam nasıl bildirilir? Statik, özdeş seviyesinden ziyade bir sınıf düzeyinde eleman olduğu anlamına gelir. Statik değişkenler, yalnızca sınıf başına tek özdeşte bulunur ve eşlenmez.  Sınıfın bir eşleneğinde statik bir değişken değiştirilirse, değişiklik diğer tüm özdeşlerde değerini etkileyecektir.
+Python'da bir veri elemanı veya statik yordam nasıl bildirilir? Statik, özdeş seviyesinden ziyade bir sınıf düzeyinde eleman olduğu anlamına gelir. Statik öznitelikler, yalnızca sınıf başına tek özdeşte bulunur ve eşlenmez.  Sınıfın bir eşleneğinde statik bir değişken değiştirilirse, değişiklik diğer tüm özdeşlerde değerini etkileyecektir.
 
 Statik yöntemler, sınıfın herhangi bir eşleneğine başvurmaz ve dışında çağrılabilir. Ayrıca, belli sebeplerden dolayı sınıfın herhangi bir statik olmayan veri elemanına erişemezler. Python'dan nasıl statik hale getirileceğine bakalım.
 
 
 <br>
-<h4 id="C861">Değişkenler</h4>
+<h4 id="C861">Öznitelikler</h4>
 <hr>
-Python'daki sınıf düzeyinde tanımlanan tüm değişkenler statik kabul edilir. Bu örneğe bakın:
+Python'daki sınıf düzeyinde tanımlanan tüm öznitelikler statik kabul edilir. Bu örneğe bakın:
 
 
 <main class="grid">
@@ -798,7 +798,7 @@ MyClass.method()
 <h5 id="C863">@staticmethod</h5>
 <hr>
 
-Bu dekoratör ile dekore edilen yordam isim uzayını sınıf ile paylaşır. Yordam tanımında hiçbir argümanın zorunlu olmadığını unutmayın. Statik yordam, sınıflara statik değişkenlerle erişebilir. Aşağıdaki örnekte bakın:
+Bu dekoratör ile dekore edilen yordam isim uzayını sınıf ile paylaşır. Yordam tanımında hiçbir argümanın zorunlu olmadığını unutmayın. Statik yordam, sınıflara statik özniteliklerle erişebilir. Aşağıdaki örnekte bakın:
 
 
 <main class="grid">
@@ -881,7 +881,7 @@ Offspring2 static() called
   </article>
 </main>
 
-Hangisini kullanmalısın? İlk seçenek, yalnızca aynı sınıftaki statik değişkenlere erişmenizi sağlar. İkinci yaklaşımda, alt sınıfların sınıf değişkenlerini, kalıtım sırasında yordamı yeniden tanımlamanın zorunluluğu olmadan değiştirebileceksiniz. İlk varyantı tercih ederim çünkü kişisel olarak daha temiz bir çözüm olduğunu düşünüyorum, ancak ikinci varyant da bazı durumlarda faydalı olabilir.
+Hangisini kullanmalısın? İlk seçenek, yalnızca aynı sınıftaki statik özniteliklere erişmenizi sağlar. İkinci yaklaşımda, alt sınıfların sınıf özniteliklerini, kalıtım sırasında yordamı yeniden tanımlamanın zorunluluğu olmadan değiştirebileceksiniz. İlk varyantı tercih ederim çünkü kişisel olarak daha temiz bir çözüm olduğunu düşünüyorum, ancak ikinci varyant da bazı durumlarda faydalı olabilir.
 
 
 
@@ -996,7 +996,7 @@ I was called from the instance <__main__.Class object at 0x7f6854953748>
 
 Bazı öznitelik değerleri, verilen bir sınıfın tüm öbeklerinde paylaşılır. Bu öznitelikler, sınıfın herhangi bir tek özdeşinden ziyade sınıfın kendisi ile ilişkilendirilir. Örneğin, bir bankanın hesap bakiyesine sabit faiz oranından faiz ödediğini söyleyelim. Bu faiz oranı değişebilir, ancak tüm hesaplarda paylaşılan tek bir değerdir. 
 
-Sınıf öznitelikleri, herhangi bir yordam tanımının dışında bir sınıf ifadesinin maiyetindeki atama ifadeleriyle oluşturulur. Daha geniş geliştirici topluluğunda, sınıf öznitelikleri de sınıf değişkenleri veya statik değişkenler olarak adlandırılabilir. Aşağıdaki sınıf deyimi,  adı geçen Hesap[Account] için bir sınıf özniteliği oluşturur.
+Sınıf öznitelikleri, herhangi bir yordam tanımının dışında bir sınıf ifadesinin maiyetindeki atama ifadeleriyle oluşturulur. Daha geniş geliştirici topluluğunda, sınıf öznitelikleri de sınıf öznitelikleri veya statik öznitelikler olarak adlandırılabilir. Aşağıdaki sınıf deyimi,  adı geçen Hesap[Account] için bir sınıf özniteliği oluşturur.
 
 
 Bu öznitelik yine de sınıfın herhangi bir özdeşinden erişilebilir.
@@ -1162,9 +1162,9 @@ Dictionary form : {'salary': 4000, 'name': 'xyz'} <br>
 </main>
 
 <br>
-<h4 id="C91">Sınıf ve Öbek Değişkenleri</h4><hr>
+<h4 id="C91">Sınıf ve Öbek öznitelikler</h4><hr>
 
-Daha önce sınıfların ve nesnelerin işlevselliğini ele aldık (ör. Yordamlar), şimdi veri kısmı hakkında bilgi verelim. Veri kısmı, yani alanlar, sınıfların ve öbeklerin ad alanlarına bağlı olan sıradan değişkenlerden başka bir şey değildir. Bu, bu adların yalnızca bu sınıflar ve öbekler bağlamında geçerli olduğu anlamına gelir. Bu yüzden isim alan adı verilir.
+Daha önce sınıfların ve nesnelerin işlevselliğini ele aldık (ör. Yordamlar), şimdi veri kısmı hakkında bilgi verelim. Veri kısmı, yani alanlar, sınıfların ve öbeklerin ad alanlarına bağlı olan sıradan özniteliklerden başka bir şey değildir. Bu, bu adların yalnızca bu sınıflar ve öbekler bağlamında geçerli olduğu anlamına gelir. Bu yüzden isim alan adı verilir.
 
 
 We have already discussed the functionality part of classes and objects (i.e. methods), now let us learn about the data part. The data part, i.e. fields, are nothing but ordinary variables that are bound to the namespaces of the classes and objects. This means that these names are valid within the context of these classes and objects only. That's why they are called name spaces.
@@ -1451,7 +1451,7 @@ Hello, my name is Swaroop
 </main> 
 <br>
 <h4>Nasıl çalışır</h4><hr>
-Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) olarak tanımlarız. Burada sadece name olarak da adlandırılan yeni bir alan yaratıyoruz. İkisi de 'name' olarak adlandırılsalar bile, bunlar iki farklı değişkenlerdir. Noktalı notasyon **self.name**, **'self'** olarak adlandırılan öbeğin bir parçası olan **'name'** adında bir şey olduğu anlamına gelir ve diğer **name** yerel bir değişkendir. Açıklamakta olduğumuz **name** açıkça belirttiğimizden karışıklık yok.
+Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) olarak tanımlarız. Burada sadece name olarak da adlandırılan yeni bir alan yaratıyoruz. İkisi de 'name' olarak adlandırılsalar bile, bunlar iki farklı özniteliklerdir. Noktalı notasyon **self.name**, **'self'** olarak adlandırılan öbeğin bir parçası olan **'name'** adında bir şey olduğu anlamına gelir ve diğer **name** yerel bir değişkendir. Açıklamakta olduğumuz **name** açıkça belirttiğimizden karışıklık yok.
 
 **Person** sınıfı için yeni özdeş **p** oluştururken, sınıf adını kullanarak bunu yaparız, ardından parantez içindeki argümanlar takip edilir: **p = Person('Swaroop')**.
 
@@ -1463,7 +1463,7 @@ Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) 
 
 <div class="teaser clearfix"></div>
 <h3  id="C11"><code class="w3-codespan">self</code> Parametresi</h3><hr>
-<p> <code class="w3-codespan">self</code> sınıfın kendisine bir referanstır ve sınıfa ait değişkenlere erişmek için kullanılır. 
+<p> <code class="w3-codespan">self</code> sınıfın kendisine bir referanstır ve sınıfa ait özniteliklere erişmek için kullanılır. 
 
 <code class="w3-codespan">self</code> diye isimlendirilmek zorunda değildir, ne ile  istersen öyle çağırabilirsin, ama sınıftaki herhangi bir yordamın ilk parametresi olmalı:</p>
 
@@ -1495,7 +1495,7 @@ Hello my name is John
 </main>
  
 <div class="w3-code notranslate pythonHigh">
-<strong>Not:</strong> <code class="w3-codespan">self</code> parametresi, sınıfa ait bir referanstır ve sınıfa ait değişkenlere erişmek için kullanılır.</div>
+<strong>Not:</strong> <code class="w3-codespan">self</code> parametresi, sınıfa ait bir referanstır ve sınıfa ait özniteliklere erişmek için kullanılır.</div>
 
 Sınıf yordamları, sıradan fonksiyonlardan yalnızca belirli bir fark içerirler - parametre listesinin başına eklenmesi gereken fazladan bir ilk ada sahip olmaları gerekir, ancak yordamı çağırdığınızda bu parametre için bir değer vermezsiniz, Python bunu sağlayacaktır. Bu özel değişken, öbeğin kendisine atıfta bulunur ve sözleşmeye göre, kendisine **self** ad verilir.
 
@@ -2366,7 +2366,7 @@ B says hello <br>
 **isinstance.** İlk argüman (bir değişken), ikinci argümanın (bir sınıfın) bir eşleneği olduğunda, isinstance true değerini döndürür. Eğer sınıf bir temel sınıfsa, aynı zamanda true döner.
 
 **Burada:** 
-Listeler gibi, bazı değişkenler için, sınıf adı programda belirtilmemiş olabilir. Ama yine de **'liste'** yi bu şekilde test edebiliriz.
+Listeler gibi, bazı öznitelikler için, sınıf adı programda belirtilmemiş olabilir. Ama yine de **'liste'** yi bu şekilde test edebiliriz.
 
 <main class="grid">
   <article>
@@ -3021,7 +3021,7 @@ Length: 2 <br>
   </article>
 </main>
 
-**Len notları.** İncelememiz gerek. Len() sadece sözlükler değil, diğer veri tiplerinde kullanılabilir. İçindeki eleman sayısını döndürerek bir liste üzerinde hareket eder. Ayrıca  -tuples - değişkenler grubunu da ele alır.
+**Len notları.** İncelememiz gerek. Len() sadece sözlükler değil, diğer veri tiplerinde kullanılabilir. İçindeki eleman sayısını döndürerek bir liste üzerinde hareket eder. Ayrıca  -tuples - öznitelikler grubunu da ele alır.
 
 <br>
 <h5 id="C200">Dizelerde len kullanan Python programı</h5><hr>
