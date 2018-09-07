@@ -8,7 +8,7 @@ summary: "Python 3 Dekoratörlere Giriş"
 excerpt: This post is about Python Decorators.
 categorie: Programlama
 tags:   Python Linux Programlama
-categories: [Python 3, Python Decorators]
+categories: [Python 3, Python Decorators, Programlama]
 permalink: /PisiLinux/
 comments: false
 published: true

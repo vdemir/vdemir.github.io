@@ -10,7 +10,7 @@ excerpt: This post is about Python 3 Classes
 categorie: Programlama
 tags:   Linux Programlama Python
 permalink: /PyClasses/
-categories: [Python Classes, Python 3]
+categories: [Python 3, Programlama]
 comments: false
 published: true
 lang: tr
