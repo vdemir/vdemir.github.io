@@ -21,7 +21,7 @@ lang: tr
   
 <style>
 img.resize {
-  max-width:130%;
+  max-width:100%;
   max-height:100%;
 }
 </style>
@@ -33,9 +33,9 @@ img.resize {
 </style>
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/class1.png" alt="programs" class="resize" />
+  <img src="{{ site.baseurl }}/images/Classes-in-Python.jpg" alt="programs" class="resize" />
   <p><small>Python &bull; Sınıflar.</small></p>
-</div> 
+</div>
 
 <div class="w3-panel w3-card w3-light-grey">
   <div class="w3-container w3-white">
@@ -124,6 +124,12 @@ Anne
     </div>
   </article>
 </main>
+
+<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="{{ site.baseurl }}/images/class1.png" alt="programs" class="resize" />
+  <p><small>Python &bull; Sınıflar.</small></p>
+</div> 
+
 
 <br><br>
 
