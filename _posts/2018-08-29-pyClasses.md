@@ -729,7 +729,7 @@ Bana oldukça basit görünüyor. Sadece kafa karışıklığı gerçek olabilir
 
 
 <br>
-<h3 id="C86">Sınıf ve Statik Yordamlar</h3>
+<h3 id="C86"> Statik ve Sınıf Yordamlar</h3>
 <hr>
 
 
