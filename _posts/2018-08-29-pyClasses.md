@@ -1234,20 +1234,20 @@ Robot.how_many()
   <article>
     <div class="text">
       <p>
-(Initializing R2-D2)
-Greetings, my masters call me R2-D2.
-We have 1 robots.
-(Initializing C-3PO)
-Greetings, my masters call me C-3PO.
-We have 2 robots.
+(Initializing R2-D2) <br>
+Greetings, my masters call me R2-D2. <br>
+We have 1 robots. <br>
+(Initializing C-3PO) <br>
+Greetings, my masters call me C-3PO. <br>
+We have 2 robots. <br>
 
-Robots can do some work here.
+Robots can do some work here. <br>
 
-Robots have finished their work. So let's destroy them.
-R2-D2 is being destroyed!
-There are still 1 robots working.
-C-3PO is being destroyed!
-C-3PO was the last one.
+Robots have finished their work. So let's destroy them. <br>
+R2-D2 is being destroyed! <br>
+There are still 1 robots working. <br>
+C-3PO is being destroyed! <br>
+C-3PO was the last one. <br>
 We have 0 robots.
 </p>
     </div>
