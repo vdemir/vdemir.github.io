@@ -294,7 +294,10 @@ print(MyClass.x)
  Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">init</code> yordamının kabul ettiği ifadeleri iletirsiniz:
 
 <div class="w3-code notranslate pythonHigh">
-  p1 = Person("John", 36)</div>
+{% highlight python %} 
+  p1 = Person("John", 36)
+{% endhighlight %}
+</div>
 
 <br>
 
