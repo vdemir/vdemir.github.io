@@ -76,7 +76,7 @@ Genel olarak, Python'daki işlevler, bir girdiyi bir çıktıya dönüştürmek 
 
 <style>
 	
-	.box2 {
+	.cok {
 		opacity: .5;
 		background-color: #BDBDBD;
 		font-size: 5vw;
@@ -85,7 +85,7 @@ Genel olarak, Python'daki işlevler, bir girdiyi bir çıktıya dönüştürmek 
 	}
 </style>
 
-<div class="box2">Not: Fonksiyonel programlamada, yan etkiler olmadan sadece saf fonksiyonlarla çalışırsınız (neredeyse). Tamamen işlevsel bir dil olmasa da, Python birinci sınıf nesneler gibi işlevler de dahil olmak üzere birçok işlevsel programlama kavramını desteklemektedir.</div>
+<div class="cok">Not: Fonksiyonel programlamada, yan etkiler olmadan sadece saf fonksiyonlarla çalışırsınız (neredeyse). Tamamen işlevsel bir dil olmasa da, Python birinci sınıf nesneler gibi işlevler de dahil olmak üzere birçok işlevsel programlama kavramını desteklemektedir.</div>
 
 
 
