@@ -343,9 +343,6 @@ Nesneleri <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
 {% highlight python %}
 class Person:
   def __init__(self, name, age):
@@ -361,9 +358,6 @@ del p1
 
 print(p1)
 {% endhighlight %}
-</code></pre>
-</p>
-    </div>
   </article>
   <article>
     <div class="text">
