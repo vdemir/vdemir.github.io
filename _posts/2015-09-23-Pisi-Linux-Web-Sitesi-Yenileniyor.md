@@ -9,8 +9,6 @@ published: true
 lang: tr
 ---
 
-{% include tr_ay.html %}
-
 Pisi Linux web sitesi statik öğelerin olduğu yeni içeriğiyle tasarlanmaya başlandı. Ayrıca forum alanı yeniden düzenlenecek, farklı bir işlev ile tekrar yazılacak. Pisi Linux 2.0 için çalışmaların devam ettiğ bu aşamada yeni bir site ile karşınızda olmayı umuyoruz. Pisi Linux takımı topluluktan aldığı destekle ile yine çok iyi işler çıkarıyor.
 
 
