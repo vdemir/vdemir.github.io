@@ -41,7 +41,7 @@ Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nası
 	.box {
 		color: orange;
 		font-size: 5vw;
-		padding: 10vw;
+		padding: 5vw;
 		margin: 5vw;
 		border-style: solid;
 	}
