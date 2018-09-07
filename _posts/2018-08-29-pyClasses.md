@@ -307,7 +307,7 @@ p1 = Person("John", 36)
 <br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C13">Nesne Özniteliklerini Değiştirmek</h3><hr>
+<h3 id="C13"><i class="fas fa-code"></i> Nesne Özniteliklerini Değiştirmek</h3><hr>
 Bu gibi nesnelerdeki öznitelikleri değiştirebilirsiniz:
 <p>p1'in yaşını 40'a ayarlayın:</p>
 
@@ -542,7 +542,7 @@ Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım ol
 <br> 
 
 <div class="teaser clearfix"></div>
-<h4>Özdeş Öbeğin Özniteliklerine Erişim</h4><hr>
+<h4><i class="fas fa-code"></i> Özdeş Öbeğin Özniteliklerine Erişim</h4><hr>
 Nokta (.) operatörünü öbek ismi ile kullanarak erişebilirsiniz. Sınıf adı kullanarak da sınıf özdeğerlerine erişilebilir:
 <div class="w3-code notranslate pythonHigh">
   print(p1.x)<br>print(MyClass.x)</div>
@@ -580,6 +580,10 @@ Bir yordam çağrıldığında tam olarak ne olur? **f()** fonksiyon tanımı bi
 Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey vardır ki, özdeş öbek fonksiyonun ilk ifadesi olarak geçirilir. Örneğimizde, **x.f()** çağrısı tam olarak **MyClass.f(x)** öğesine eşdeğerdir. Genel olarak, n argümanlı bir listeden bir yordamı çağırmak, ilk argümandan önce yordamın özdeş öbeğini ekleyerek oluşturulan bir argüman listesine karşılık fonksiyonu çağırmaya eşdeğerdir. Eğer isim geçerli bir sınıf özniteliğini işaret ederse ki bir fonksiyon öbeğidir, bir yordam öbeği özdeş öbek paketlenerek oluşturulur ve fonksiyon öbeği sadece soyut bir öbek ile birlikte bulunur: bu yordam öbeğidir. Yordam öbeği bir argüman listesi ile çağrıldığında yeni bir argüman listesi, argüman listesi ve özdeş öbekten inşa edilir ve fonksiyon öbeği yeni bir argüman listesi ile çağrılır.
 <br><br>
  
+<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="{{ site.baseurl }}/images/python-oop.jpg" alt="programs" class="resize" />
+  <p><small>Python &bull; Sınıflar.</small></p>
+</div>
 
 <div class="teaser clearfix"></div>
 <h3 id="C8">Python Öznitelikler ve Yordamlar</h3><hr>
