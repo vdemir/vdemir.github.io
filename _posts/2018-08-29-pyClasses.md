@@ -411,9 +411,9 @@ Elbette **__init__()** yordamı daha fazla esneklik için argümanlara sahip ola
   <article>
 {% highlight python %}
 class Complex:
-     def __init__(self, realpart, imagpart):
-          self.r = realpart
-          self.i = imagpart
+   def __init__(self, realpart, imagpart):
+        self.r = realpart
+        self.i = imagpart
 x = Complex(3.0, -4.5)
 x.r, x.i
 {% endhighlight %}
