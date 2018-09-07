@@ -8,8 +8,6 @@ published: true
 lang: tr
 ---
 
-{% include tr_ay.html %}
-
 {% include CSS.html %}
 <br>
 <div style="clear:both"></div>

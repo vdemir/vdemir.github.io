@@ -8,8 +8,6 @@ comments: true
 published: true
 lang: tr
 ---
- 
-{% include tr_ay.html %}
 
 Programlama dilleri hakkında kısa bilgi vereceğimiz bu yazımızda örneğine çokça yer verilen ```Hello World``` programlarını farklı dillerde yazacağız.
 

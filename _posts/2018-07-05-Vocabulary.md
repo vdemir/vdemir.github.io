@@ -10,8 +10,6 @@ published: true
 lang: tr
 ---
 
-{% include tr_ay.html %}
-
 <br>
 <input type="text" id="search" placeholder="Type to search">
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>

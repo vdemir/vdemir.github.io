@@ -9,8 +9,6 @@ published: true
 lang: tr
 ---
 
-{% include tr_ay.html %}
-
 RSI başka sebeplerle bağlantılı da olsa genellikle bilgisayar ve klavye kullanmayla ilgili mesleğe dayalı bir rahatsızlıktır.
 
 Boynu, omuzları, sırtı, beli , kol ve dirseği ve omurganın çeşitli yerlerini etkileyen ve kollarda ağrıya neden olan bir durumdur. Uyuşma, karıncalanma, zonklama, zayıflık, tutma ve kavrama güçlüğü ve hareket kısıtlığı gibi insanların evde ve işte en basit görevleri bile yerine getirmesini engelleyen belirtileri vardır. 

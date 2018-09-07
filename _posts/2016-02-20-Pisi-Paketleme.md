@@ -9,8 +9,6 @@ published: true
 lang: tr
 ---
 
-{% include tr_ay.html %}
-
 Pisi Linux Dağıtımında kullandığımız pisi paket sistemi python dilinde yazılmış paket yapımı ve kurulumu gibi araçları içeren bir uygulamadır. 
 
 Belgelendirme çalışmamızın başlangıç aşaması [gitbook](https://vdemir.gitbooks.io/pisi-paket-yapimi/content/) sitesinde barındırılmaktadır.

@@ -8,8 +8,6 @@ comments: true
 published: true
 lang: tr
 ---
- 
-{% include tr_ay.html %}
 
 Pisi Linux tanıtımı için tasarlanan siyah-beyaz çıkartma örnekleri GIMP kullanılarak hazırlandı. 
 
