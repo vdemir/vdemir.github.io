@@ -28,7 +28,6 @@ img.resize {
 
 <style>
   ul {
-    font-size: 1.5em;
     list-style-type: circle;
   }
 </style>
