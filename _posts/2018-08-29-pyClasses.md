@@ -564,10 +564,11 @@ Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
       <li><a href="#C83" style="text-decoration: none; color:#388E3C; cursor:pointer">Öznitelik ve Yordam Varlığını Kontrol Etme</a></li>
+      <li><a href="#C861" style="text-decoration: none; color:#388E3C; cursor:pointer"> Statik Öznitelikler</a></li>
       <li><a href="#C88" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Öznitelikleri 1</a></li>
       <li><a href="#C89" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Öznitelikleri 2</a></li>
       <li><a href="#C90" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş Öznitelikler</a></li>
-      <li><a href="#C86" style="text-decoration: none; color:#388E3C; cursor:pointer">Python'da statik öznitelikler ve yordamlar</a></li>
+      <li><a href="#C86" style="text-decoration: none; color:#388E3C; cursor:pointer">Python'da yordamlar</a></li>
       <li><a href="#C91" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf ve Öbek öznitelikleri</a></li>
     </ul>
     </p>
@@ -660,35 +661,6 @@ AttributeError: type object <br>
 Aşırı **hasattr** ve **getattr** kullanmayın. Sınıfınızı, bir özniteliğin var olup olmadığını kontrol etmeye devam etmeniz gereken bir şekilde yazmışsanız, yanlış yazmışsınız demektir. Sadece her zaman var olan değere sahip olur ve kullanılmıyorsa **None** (ya da her neyse) olarak ayarlayın. Bu fonksiyonlar en iyi şekilde çokbiçimliliği ele almak için kullanılır, Yani, fonksiyonunuzu / sınıfınızı / öbeklerin farklı türlerini desteklemenizi sağlar.
 
 
-
-<br>
-<h3 id="C86">Python'da statik öznitelikler ve yordamlar</h3>
-<hr>
-
-
-<div class="w3-panel w3-card w3-light-grey">
-  <div class="w3-container w3-white">
-    <p>
-    <ul class="w3-ul w3-card-4" style="width:85%">
-      <li><a href="#C861" style="text-decoration: none; color:#388E3C; cursor:pointer">Öznitelikler</a></li>
-      <li><a href="#C862" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş, Sınıf ve Statik Yordamlar</a></li>
-      <li><a href="#C863" style="text-decoration: none; color:#388E3C; cursor:pointer">@staticmethod</a></li>
-      <li><a href="#C864" style="text-decoration: none; color:#388E3C; cursor:pointer">@classmethod</a></li>
-      <li><a href="#C865" style="text-decoration: none; color:#388E3C; cursor:pointer">Eşlenen Yordamlar</a></li>
-      <li><a href="#C866" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Yordamları</a></li>
-      <li><a href="#C867" style="text-decoration: none; color:#388E3C; cursor:pointer">Statik Yordamlar</a></li>
-      <li><a href="#C868" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Yordamları Oluşturma</a></li>
-    </ul>
-    </p>
-  </div>
-</div>
-<br>
-
-Python'da bir veri elemanı veya statik yordam nasıl bildirilir? Statik, özdeş seviyesinden ziyade bir sınıf düzeyinde eleman olduğu anlamına gelir. Statik öznitelikler, yalnızca sınıf başına tek özdeşte bulunur ve eşlenmez.  Sınıfın bir eşleneğinde statik bir değişken değiştirilirse, değişiklik diğer tüm özdeşlerde değerini etkileyecektir.
-
-Statik yöntemler, sınıfın herhangi bir eşleneğine başvurmaz ve dışında çağrılabilir. Ayrıca, belli sebeplerden dolayı sınıfın herhangi bir statik olmayan veri elemanına erişemezler. Python'dan nasıl statik hale getirileceğine bakalım.
-
-
 <br>
 <h4 id="C861">Öznitelikler</h4>
 <hr>
@@ -733,6 +705,35 @@ print (Example.staticVariable) # now 7
 </main>
 
 Bana oldukça basit görünüyor. Sadece kafa karışıklığı gerçek olabilir, sınıfınızda aynı ad altında iki farklı değişkeniniz olabilir (bir statik ve bir sıradan). Ama bu davranışı tamamen önlemek için (kendi iyiliğiniz için) tavsiye ederim.
+
+
+<br>
+<h3 id="C86">Python'da yordamlar</h3>
+<hr>
+
+
+<div class="w3-panel w3-card w3-light-grey">
+  <div class="w3-container w3-white">
+    <p>
+    <ul class="w3-ul w3-card-4" style="width:85%">
+      <li><a href="#C861" style="text-decoration: none; color:#388E3C; cursor:pointer">Öznitelikler</a></li>
+      <li><a href="#C862" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş, Sınıf ve Statik Yordamlar</a></li>
+      <li><a href="#C863" style="text-decoration: none; color:#388E3C; cursor:pointer">@staticmethod</a></li>
+      <li><a href="#C864" style="text-decoration: none; color:#388E3C; cursor:pointer">@classmethod</a></li>
+      <li><a href="#C865" style="text-decoration: none; color:#388E3C; cursor:pointer">Eşlenen Yordamlar</a></li>
+      <li><a href="#C866" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Yordamları</a></li>
+      <li><a href="#C867" style="text-decoration: none; color:#388E3C; cursor:pointer">Statik Yordamlar</a></li>
+      <li><a href="#C868" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Yordamları Oluşturma</a></li>
+    </ul>
+    </p>
+  </div>
+</div>
+<br>
+
+Python'da bir veri elemanı veya statik yordam nasıl bildirilir? Statik, özdeş seviyesinden ziyade bir sınıf düzeyinde eleman olduğu anlamına gelir. Statik öznitelikler, yalnızca sınıf başına tek özdeşte bulunur ve eşlenmez.  Sınıfın bir eşleneğinde statik bir değişken değiştirilirse, değişiklik diğer tüm özdeşlerde değerini etkileyecektir.
+
+Statik yöntemler, sınıfın herhangi bir eşleneğine başvurmaz ve dışında çağrılabilir. Ayrıca, belli sebeplerden dolayı sınıfın herhangi bir statik olmayan veri elemanına erişemezler. Python'dan nasıl statik hale getirileceğine bakalım.
+
 
 
 <br>
