@@ -16,7 +16,6 @@ published: true
 lang: tr
 ---
 
-{% include tr_ay.html %}
 <link rel="stylesheet" href="{{ sitebase.url }}/css/w3.css">
 <link rel="stylesheet" href="{{ sitebase.url }}/css/code.css">
   
