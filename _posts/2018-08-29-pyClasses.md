@@ -131,7 +131,7 @@ Anne
 **x** adlı bir özdeğere sahip **MyClass** adlı bir sınıf/öbek oluşturun:
 <div class="w3-code notranslate">
 {% highlight python %}
-  class MyClass:
+class MyClass:
   'Python Temel Sınıf'
   x = 5
 print(MyClass)
