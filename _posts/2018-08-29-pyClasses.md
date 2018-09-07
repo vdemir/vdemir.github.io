@@ -718,11 +718,11 @@ Bana oldukça basit görünüyor. Sadece kafa karışıklığı gerçek olabilir
     <ul class="w3-ul w3-card-4" style="width:85%">
       <li><a href="#C862" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş, Sınıf ve Statik Yordamlar</a></li>
       <li><a href="#C865" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş Yordamlar</a></li>
-      <li><a href="#C867" style="text-decoration: none; color:#388E3C; cursor:pointer">Statik Yordamlar</a></li>
-      <li><a href="#C863" style="text-decoration: none; color:#388E3C; cursor:pointer">@staticmethod</a></li>
       <li><a href="#C868" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Yordamları Oluşturma</a></li>
       <li><a href="#C866" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Yordamları</a></li>
       <li><a href="#C864" style="text-decoration: none; color:#388E3C; cursor:pointer">@classmethod</a></li>
+      <li><a href="#C867" style="text-decoration: none; color:#388E3C; cursor:pointer">Statik Yordamlar</a></li>
+      <li><a href="#C863" style="text-decoration: none; color:#388E3C; cursor:pointer">@staticmethod</a></li>
     </ul>
     </p>
   </div>
