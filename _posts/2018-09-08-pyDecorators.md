@@ -9,11 +9,25 @@ excerpt: This post is about Python Decorators.
 categorie: Programlama
 tags:   Python Linux Programlama
 categories: [Python 3, Programlama]
-permalink: /PisiLinux/
+permalink: /pyDecorators/
 comments: false
 published: true
 lang: tr
 ---
+
+<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="{{ site.baseurl }}/images/Python-Decorators.png" alt="programs" class="resize" />
+  <p><small>Pisi &bull; Linux.</small></p>
+</div> 
+  
+<style>
+img.resize {
+  max-width:100%;
+  max-height:100%;
+}
+</style>
+
+
 
 ***Pisi Linux 2.0Alfa5 KDE5***
 
@@ -24,17 +38,7 @@ Pisi Linux ekibinin geliştirdiği ve geliştiricilerin test etmesi için KaraKe
 
 **Snapshots**
 
-<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/snapshot1.png" alt="programs" class="resize" />
-  <p><small>Pisi &bull; Linux.</small></p>
-</div> 
-  
-<style>
-img.resize {
-  max-width:100%;
-  max-height:100%;
-}
-</style>
+
 
 
 {% include dist.html %}
