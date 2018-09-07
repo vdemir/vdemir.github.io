@@ -25,9 +25,6 @@ img.resize {
   max-height:100%;
 }
 </style>
-<br>
-
-
 
 <div class="w3-panel w3-card w3-light-grey">
   <div class="w3-container w3-white">
@@ -541,9 +538,7 @@ Bir sonraki açıklama için aşağıdaki sınıf tanımını kullanacağım. Ö
  
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class c:
     def __init__(self, value=None):
         self.name = value
@@ -552,9 +547,7 @@ obj.name = "Andre"
 id(obj)
 type(obj)
 type(obj.name)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -601,9 +594,7 @@ Yordamlar, bir özdeşden çağrıldığında, ilk ifade olarak (genellikle 'sel
  
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class Class:
     def a_method(self):
         print ('Hey a method')
@@ -617,9 +608,7 @@ instance.a_method()
 
 Class.a_method(instance)
 # prints 'Hey a method'
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -644,9 +633,7 @@ Belirli bir sınıfın veya özdeşin, belirli bir öznitelik veya yordama sahip
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class Class:
     answer = 42
 
@@ -654,9 +641,7 @@ hasattr(Class, 'answer')
 # returns True
 hasattr(Class, 'question')
 # returns False
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -676,9 +661,7 @@ Ayrıca, yerleşik işlev **'getattr'** kullanarak  özniteliğin varlığını 
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class Class:
     answer = 42
 
@@ -688,9 +671,7 @@ getattr(Class, 'question', 'What?')
 # returns 'What?'
 getattr(Class, 'question')
 # raises AttributeError
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -748,9 +729,7 @@ Python'daki sınıf düzeyinde tanımlanan tüm değişkenler statik kabul edili
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class Example:
   staticVariable = 5 # Access through class
 
@@ -769,9 +748,7 @@ print (Example.staticVariable) # 5
 Example.staticVariable = 7
 print (instance.staticVariable) # still 6
 print (Example.staticVariable) # now 7
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -801,9 +778,7 @@ Her üç yordam tipi için basit örnekler içeren bir (Python 3) sınıfı yaza
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class MyClass:
     def method(self):
        return 'instance method called', self
@@ -841,9 +816,7 @@ MyClass.staticmethod()
 MyClass.method()
 # TypeError: method() missing 1 
 # required positional argument: 'self'
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -862,9 +835,7 @@ Bu dekoratör ile dekore edilen yordam isim uzayını sınıf ile paylaşır. Yo
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class Example:
  name = "Example"
 
@@ -885,9 +856,7 @@ class Offspring2(Example):
 Example.static() # prints Example
 Offspring1.static() # prints Example
 Offspring2.static() # prints Offspring2
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -909,9 +878,7 @@ Python'da sınıf yordamı ve statik yordam arasındaki fark vardır. Bu sınıf
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class Example:
   name = "Example"
 
@@ -933,9 +900,7 @@ class Offspring2(Example):
 Example.static()    # prints Example
 Offspring1.static() # prints Offspring1
 Offspring2.static() # prints Offspring2 
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -1003,9 +968,7 @@ Sınıf ve statik yordamlar, sınıftan, **Class.method()** olarak veya **Class(
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class Class:
  @classmethod
  def a_class_method(cls):
@@ -1042,9 +1005,7 @@ instance.an_instance_method()
 
 Class.an_instance_method()
 # raises TypeError
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -1074,9 +1035,7 @@ Bu öznitelik yine de sınıfın herhangi bir özdeşinden erişilebilir.
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p><code>
-<pre class="python">
+{% highlight python %}
 class Account(object):
      interest = 0.02 # A class attribute
      def __init__(self, account_holder):
@@ -1091,9 +1050,7 @@ tom_account.interest
 Account.interest = 0.04
 tom_account.interest
 jim_account.interest
-</pre></code>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -1161,9 +1118,7 @@ Sınıf öznitelikleri, tüm özdeşlerle paylaşılacakları sınıfa aittir. B
  
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 # Write Python code here
 class sampleclass:
     count = 0     # class attribute
@@ -1183,9 +1138,7 @@ s2.increase()
 print (s2.count)
  
 print (sampleclass.count)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -1213,9 +1166,7 @@ Bir özdeşin / öbeğin özniteliklerini listelemek için iki fonksiyonumuz var
  
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 # Python program to demonstrate
 # instance attributes.
 class emp:
@@ -1230,9 +1181,7 @@ class emp:
 e1 = emp()
 print ("Dictionary form :", vars(e1))
 print (dir(e1))
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -1262,9 +1211,7 @@ Object variables are owned by each individual object/instance of the class. In t
  
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class Robot:
     """Represents a robot"""
     """, with a name."""
@@ -1330,9 +1277,7 @@ droid1.die()
 droid2.die()
 
 Robot.how_many()
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -1407,9 +1352,7 @@ Thus, the convention followed is that any variable that is to be used only withi
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class Sample(object):
   def __new__(cls, *args, **kargs):
     print ("Creating instance of Sample")
@@ -1418,9 +1361,7 @@ class Sample(object):
   def __init__(self):
     print ("Initiating instance of Sample")
 s=Sample()
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -1506,9 +1447,7 @@ Nesne özniteliklerine veya nesne oluşturulduğunda yapılması gereken diğer 
  
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class Person:
   def __init__(self, name, age):
     self.name = name
@@ -1519,9 +1458,7 @@ class Person:
 
 p1 = Person("John", 36)
 p1.myfunc()
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -1546,9 +1483,7 @@ Python sınıflarında özel bir önemi olan birçok yöntem ismi vardır. **ini
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class Person:
    def __init__(self, name):
       self.name = name
@@ -1561,9 +1496,7 @@ p.say_hi()
 # The previous 2 
 # lines can also be written as
 # Person('Swaroop').say_hi()
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -1594,9 +1527,7 @@ Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) 
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class Person:
   def __init__(mysillyobject, name, age):
     mysillyobject.name = name
@@ -1607,9 +1538,7 @@ class Person:
 
 p1 = Person("John", 36)
 p1.myfunc()
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -1651,9 +1580,7 @@ super için iki tipik kullanım durumu vardır. Tek bir kalıtımı olan bir sı
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class Parent(object): 
 # Base class definition
   def printlnfo(self):
@@ -1670,9 +1597,7 @@ class Child(Parent):
 
 c=Child()
 c.parentMethod()
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -1765,9 +1690,7 @@ Bu yordam, liste özdeşinde (None ifadesine eşit olmamalıdır) çağrılır. 
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 list = []
 list.append(1)
 list.append(2)
@@ -1775,9 +1698,7 @@ list.append(6)
 list.append(3)
 
 print(list)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -1798,18 +1719,14 @@ Sıra 1, ikinci eleman konumunu gösterir. Listeler sıfırdan başlayarak sıra
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 list = ["dot", "perls"]
 
 # Insert at index 1.
 list.insert(1, "net")
 
 print(list)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -1833,9 +1750,7 @@ Başka bir seçenek, bir for döngüsü kullanmak veya listeyi arda arda bağlay
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 # Two lists.
 a = [1, 2, 3]
 b = [4, 5, 6]
@@ -1845,9 +1760,7 @@ a.extend(b)
 
 # List "a" now contains six elements.
 print(a)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -1865,9 +1778,7 @@ print(a)
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 animals = []
 animals.append("cat")
 animals.append("dog")
@@ -1876,9 +1787,7 @@ count = len(animals)
 # Display the list and the length.
 print(animals)
 print(count)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -1897,9 +1806,7 @@ Anahtar kelimede. Listede bir eleman mı? Bunu belirlemek için 'in' ve 'not in'
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 items = ["book", "computer", "keys", "mug"]
 
 if "computer" in items:
@@ -1913,9 +1820,7 @@ else:
 
 if "marker" not in items:
     print(4)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -1937,9 +1842,7 @@ if "marker" not in items:
 Tersine, öğelerin güncel sırasını tersine çeviririz. sort ve reverse tekrar birleştirebilir (tersine çevrilmiş bir sıralama için).
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 list = [400, 500, 100, 2000]
 
 # Reversed.
@@ -1953,9 +1856,7 @@ print(list)
 # Sorted and reversed.
 list.reverse()
 print(list)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -1982,9 +1883,7 @@ Son olarak öğeleri sıralamak için alternatif bir sözdizimi formu, lambda if
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 def lastchar(s):
     # Return last character in string.
     return s[-1]
@@ -2001,9 +1900,7 @@ print(values)
 # ... Use a lambda expression.
 values.sort(key=lambda s: s[1])
 print(values)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -2028,9 +1925,7 @@ Bu arada, öğeleri sıradan veya bir dizi grubunundan kaldırır. Del, -slice- 
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 names = ["Tommy", "Bill", "Janet", "Bill"]
 
 # Remove this value.
@@ -2044,9 +1939,7 @@ print(names)
 # Delete all except last element.
 del names[:1]
 print(names)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -2069,18 +1962,14 @@ For döngüsü içindeki dört liste öğesinin her biriyle karşılaşırız. D
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 # An input list.
 elements = ["spider", "moth", "butterfly"]
 
 # Use simple for-loop.
 for element in elements:
     print(element)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -2106,9 +1995,7 @@ Bu listedeki kapsamda, her dizgeye 'x' tanımlayıcısı verilir. Listedeki her 
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 # Transform string into HTML.
 def html(s):
     return "< b>" + s.capitalize() + "< /b>"
@@ -2121,9 +2008,7 @@ list = [html(x) for x in input]
 
 # Result list.
 print(list)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -2149,14 +2034,10 @@ Ayrıca bir listeyi yeniden boyutlandırabiliriz. Dilim sözdizimi ve append ) g
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 # Copy list1 into list2.
 list2 = list1[:]
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -2183,9 +2064,7 @@ Sıra 1'de başlama, anahtardır. Döngü gövdesinde, önceki öğeye 'i-1' sı
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 # Input list.
 elements = [0, 10, 20, 30]
 
@@ -2197,9 +2076,7 @@ for i in range(1, len(elements)):
 
     # Print two elements.
     print(a, b)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -2222,18 +2099,14 @@ format() 'nin ikinci argümanı bir değişkene bir -identifier- tanımlayıcı 
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 list = [10, 20, 30]
 
 # Use "v" identifier to refer to the list.
 # ... Access its elements in format.
 res = str.format("The values are {v[0]}, {v[1]} and {v[2]}", v=list)
 print(res)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -2251,9 +2124,7 @@ All built-in -yerleşik-. Tümüyle, tüm öğelerin True olarak değerlendirip 
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 items = [False, None, True]
 
 # Some elements evaluate to False, so all is False.
@@ -2265,9 +2136,7 @@ items = [10, 20, 30]
 # All the items evaluate to True.
 if all(items):
     print(True)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -2289,9 +2158,7 @@ Hiçbir öğe True değilse, any() false değerini döndürür. Yani 'not any', 
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 elements = [False, None, "Pomegranate", 0]
 
 # One value is True,
@@ -2305,9 +2172,7 @@ elements = [0, 0, False]
 # ... Any returns False.
 if not any(elements):
     print(False)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -2342,9 +2207,7 @@ False
 <br>
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class Box:
     def area(self):
         return self.width * self.height
@@ -2358,9 +2221,7 @@ x = Box(10, 2)
 
 # Print area.
 print(x.area())
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -2387,9 +2248,7 @@ B sınıfı, A sınıfından türetilmiştir. Sınıflardan sonraki ifadelerde, 
 <br>
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class A:
     def width(self):
         print("a, width called")
@@ -2404,9 +2263,7 @@ b = B()
 b.size()
 # Call method from base class.
 b.width()
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -2435,9 +2292,7 @@ A sınıfında, **__value** adlı bir alanımız var. Bunu, sınıfın dışınd
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class A:
     # Init.
     def __init__(self, value):
@@ -2454,9 +2309,7 @@ a = A(5)
 
 # [2] Must use mangled name.
 print(a._A__value)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -2482,9 +2335,7 @@ Bunun bilinmesi nadiren yararlıdır: Bir sınıf kendi alt sınıfında kabul e
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class A:
     def hello(self):
         print("A says hello")
@@ -2511,9 +2362,7 @@ if issubclass(A, B):
 if issubclass(A, A):
     print(3)
     print(b.__class__)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -2538,9 +2387,7 @@ Listeler gibi, bazı değişkenler için, sınıf adı programda belirtilmemiş 
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class A:
     def welcome(self):
         # Not called.
@@ -2563,9 +2410,7 @@ if isinstance(b, A):
 
 if isinstance(b, list):
     print(3)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -2592,9 +2437,7 @@ Kullanılacak olan **__repr__** yordamını kullanmaya zorlamak için **repr**'i
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class Snake:
     def __init__(self, type):
         self.type = type
@@ -2610,9 +2453,7 @@ print(s)
 # Get repr of Snake.
 value = repr(s)
 print(value)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -2643,9 +2484,7 @@ Bir Snake sınıf eşleneği oluşturuyoruz. Sonra **"name"** property atarız. 
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class Snake:
     def getname(self):
         return self._name
@@ -2665,9 +2504,7 @@ s.name = "rattle"
 
 # Get name property.
 print(s.name)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -2688,9 +2525,7 @@ Rattle
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class Shape:
     def name(self):
        print("Shape")
@@ -2704,9 +2539,7 @@ class Circle(Shape):
 # Create Circle and call name.
 c = Circle()
 c.name()
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -2729,9 +2562,7 @@ Bu programda, aynı isimlere ve renklere sahip iki Snake öbeği oluşturulur. u
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class Snake:
  def __init__(self, name, color, unique_id):
      self.name = name
@@ -2748,9 +2579,7 @@ print(hash(p))
 
 p = Snake("Python", "green", 105)
 print(hash(p))
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -2774,9 +2603,7 @@ id ler yeniden kullanılabilir. Kodlarda nadiren faydalıdırlar.
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class Cat:
     def __init__(self, color):
         self.color = color
@@ -2788,9 +2615,7 @@ cat2 = Cat("orange")
 # ... The ids may vary between runs.
 print(id(cat1))
 print(id(cat2))
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -2833,9 +2658,7 @@ Sınıf argümanı (burada 'cls'), bir tip oluşturarak ve onu döndürerek kull
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class Box:
     @classmethod
     def example(cls, code):
@@ -2849,9 +2672,7 @@ Box.example("cat")
 # Use classmethod as an instance method.
 b = Box()
 b.example("dog")
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -2877,9 +2698,7 @@ Box.Message ile statik bir yordam mi, yoksa b.Message gibi bir özdeş mi aradı
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class Box:
     @staticmethod
     def Message(a):
@@ -2891,9 +2710,7 @@ Box.Message(1)
 # Call static method with instance.
 b = Box()
 b.Message(2)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -2927,9 +2744,7 @@ Sonraki bir sınıfın özniteliğini almak için getattr'ı çağırıyoruz. Bu
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 Cat = type("Cat", (object,), dict())
 cat = Cat()
 
@@ -2939,9 +2754,7 @@ setattr(cat, "weight", 10)
 # Get the weight.
 value = getattr(cat, "weight")
 print(value)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -2963,9 +2776,7 @@ print(value)
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 # Create class type,
 # with default attributes (fields).
 Cat = type("Cat", (object,), {"paws": 4, "weight": -1})
@@ -2974,9 +2785,7 @@ cat = Cat()
 # Access attributes.
 print("Paws =", cat.paws)
 print("Weight =", cat.weight)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -3002,9 +2811,7 @@ delattr ile sınıftan bir öznitelik çıkarırız. Bu, del operatörü için b
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class Box:
     pass
 
@@ -3023,9 +2830,7 @@ delattr(box, "width")
 # Width no longer exists.
 if not hasattr(box, "width"):
     print(False)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -3062,9 +2867,7 @@ get() için ikinci isteğe bağlı bağımsız argüman, varsayılan değerdir. 
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 plants = {}
 
 # Add three key-value tuples,
@@ -3079,9 +2882,7 @@ print(plants["radish"])
 # Get syntax 2.
 print(plants.get("tuna"))
 print(plants.get("tuna", "no tuna found"))
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -3107,16 +2908,12 @@ KeyError. Programlardaki hatalar sadece sizi rahatsız etmek için orada değild
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 lookup = {"cat": 1, "dog": 2}
 
 # The dictionary has no fish key!
 print(lookup["fish"])
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -3141,9 +2938,7 @@ KeyError: 'fish'
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 # Create dictionary with three entries.
 values = {"a" : 1, "b" : 2, "c" : 3}
 
@@ -3156,10 +2951,7 @@ except KeyError:
 
 # We use get to safely get a value.
 print(values.get("d"))
-
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -3191,9 +2983,7 @@ Anahtar yoksa, in-keyword, false değerini gösteren 0 değerini döndürür. Bu
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 animals = {}
 animals["monkey"] = 1
 animals["tuna"] = 2
@@ -3209,9 +2999,8 @@ else:
 if "elephant" in animals:
     print("Has elephant")
 else:
-    print("No elephant")</code></pre>
-</p>
-    </div>
+    print("No elephant")
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -3233,16 +3022,12 @@ Sözlük için döndürülen length uzunluk, anahtarları ve değerleri ayrı ay
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 animals = {"parrot": 2, "fish": 6}
 
 # Use len built-in on animals.
 print("Length:", len(animals))
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -3272,9 +3057,7 @@ Len, iletilen değişkenin tipine dayanır. Bir NoneType len yerleşik desteğe 
  
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 # Has length of 3:
 value = "cat"
 print(len(value))
@@ -3286,9 +3069,7 @@ print(len(value))
 # Causes TypeError:
 value = None
 print(len(value))
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -3311,9 +3092,7 @@ Sözlük için, her bir çift bir birim olarak sayılır. Anahtarlar ve değerle
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 # Get length of list with len.
 elements = [1, 2, 3]
 print(len(elements))
@@ -3329,9 +3108,7 @@ print(len(set))
 # Length of dictionary (pair count).
 lookup = {"cat" : 4, "centipede" : 100}
 print(len(lookup))
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -3362,9 +3139,7 @@ Bu def-method tüm olası miktarlar üzerinde döngü yapar ve -amount- miktar t
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 def change(coins, amounts, highest, sum, goal):
  # See if we are done.
  if sum == goal:
@@ -3394,9 +3169,7 @@ coins = []
 amounts = [1, 5, 10, 25, 50]
 # Begin.
 change(coins, amounts, 0, 0, 51)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -3439,18 +3212,14 @@ Böylece:
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 # A nested list:
 list = [1, 2, [4, 5]]
 
 # Shallow count of elements.
 print(len(list))
 print(len(list[2]))
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -3472,16 +3241,12 @@ Kavramsal olarak **len()** sayılabilir birimleri sayar: bir dizgede chars, list
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 value = 100
 
 # Cannot take length of int:
 length = len(value)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -3506,9 +3271,7 @@ Len erişmek için çok kere daha hızlıdır. For-loop, yalnızca değerlerinin
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 import time
 
 value = "characters"
@@ -3532,9 +3295,7 @@ for i in range(0, 1000000):
         raise Exception()
 
 print(time.time())
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
