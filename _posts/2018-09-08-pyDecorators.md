@@ -47,6 +47,18 @@ Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nası
 		margin: 5vw;
 		border-style: solid;
 	}
+	.pop {
+		font-size: 5vw;
+		text-decoration: overline;
+		text-decoration-color: orange;
+	}
+	.cok {
+		opacity: .5;
+		background-color: #BDBDBD;
+		font-size: 5vw;
+		padding: 10vw;
+		margin: 5vw;
+	}
 </style>
 
 <div class="box">Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nasıl çalıştığına dair birkaç örnek gördükten sonra değil.</div>
@@ -63,27 +75,7 @@ add_one(2)
 >>> 3
 {% endhighlight %}
 
-
-<style>
-	.pop {
-		font-size: 5vw;
-		text-decoration: overline;
-		text-decoration-color: orange;
-	}
-</style>
-
 Genel olarak, Python'daki işlevler, bir girdiyi bir çıktıya dönüştürmek yerine, yan etkilere de sahip olabilir. Print () işlevi bunun temel bir örneğidir: Konsola bir şey vermenin yan etkisine sahipken, Hiçbiri'ni döndürmez. Ancak, dekoratörler anlamak için, işlevleri argümanları bir değere dönüştüren bir şey olarak düşünmek yeterlidir.
-
-<style>
-	
-	.cok {
-		opacity: .5;
-		background-color: #BDBDBD;
-		font-size: 5vw;
-		padding: 10vw;
-		margin: 5vw;
-	}
-</style>
 
 <div class="cok">Not: Fonksiyonel programlamada, yan etkiler olmadan sadece saf fonksiyonlarla çalışırsınız (neredeyse). Tamamen işlevsel bir dil olmasa da, Python birinci sınıf nesneler gibi işlevler de dahil olmak üzere birçok işlevsel programlama kavramını desteklemektedir.</div>
 
