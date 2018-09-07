@@ -47,7 +47,7 @@ img.resize {
       <li><a href="#C11" style="text-decoration: none; color:#388E3C; cursor:pointer">self yordamı</a></li>
       <li><a href="#C82" style="text-decoration: none; color:#388E3C; cursor:pointer">El Yordamı ile 'self' Geçirme</a></li>
       <li><a href="#C12" style="text-decoration: none; color:#388E3C; cursor:pointer">super fonksiyonu</a></li>
-      <li><a href="#C18" style="text-decoration: none; color:#388E3C; cursor:pointer">Python Programları</a></li>
+      <li><a href="#C18" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-list"></i> Python Programları</a></li>
       <li><a href="#C16" style="text-decoration: none; color:#388E3C; cursor:pointer">Python 3 Shell</a></li>
       <li><a href="#C17" style="text-decoration: none; color:#388E3C; cursor:pointer">Sözlük Dizini</a></li>
     </ul>
