@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Python Decoratörler
+title:  Python Dekoratörler
 date:   2018-09-08 12:00:00
 last_updated: 2018-09-08 12:00:00
 keywords: linux, python, decorators
@@ -40,6 +40,18 @@ Tanım olarak, bir dekoratör, başka bir işlev alan ve ikincisinin işlevini a
 Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nasıl çalıştığına dair birkaç örnek gördükten sonra değil. Bu makaledeki tüm örnekleri burada bulabilirsiniz.
 
 <style>
+	.box {
+		color: orange;
+		font-size: 5vw;
+		padding: 5vw;
+		margin: 5vw;
+		border-style: solid;
+	}
+	.pop {
+		font-size: 5vw;
+		text-decoration: overline;
+		text-decoration-color: orange;
+	}
 	.cok {
 		background-color: gold;
 		font-size: 5vw;
@@ -65,7 +77,7 @@ add_one(2)
 
 Genel olarak, Python'daki işlevler, bir girdiyi bir çıktıya dönüştürmek yerine, yan etkilere de sahip olabilir. Print () işlevi bunun temel bir örneğidir: Konsola bir şey vermenin yan etkisine sahipken, Hiçbiri'ni döndürmez. Ancak, dekoratörler anlamak için, işlevleri argümanları bir değere dönüştüren bir şey olarak düşünmek yeterlidir.
 
-<div class="cok">Not: Fonksiyonel programlamada, yan etkiler olmadan sadece saf fonksiyonlarla çalışırsınız (neredeyse). Tamamen işlevsel bir dil olmasa da, Python birinci sınıf nesneler gibi işlevler de dahil olmak üzere birçok işlevsel programlama kavramını desteklemektedir.</div>
+<div class="pop">Not: Fonksiyonel programlamada, yan etkiler olmadan sadece saf fonksiyonlarla çalışırsınız (neredeyse). Tamamen işlevsel bir dil olmasa da, Python birinci sınıf nesneler gibi işlevler de dahil olmak üzere birçok işlevsel programlama kavramını desteklemektedir.</div>
 
 
 
