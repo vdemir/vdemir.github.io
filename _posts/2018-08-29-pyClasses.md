@@ -716,7 +716,6 @@ Bana oldukça basit görünüyor. Sadece kafa karışıklığı gerçek olabilir
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
-      <li><a href="#C861" style="text-decoration: none; color:#388E3C; cursor:pointer">Öznitelikler</a></li>
       <li><a href="#C862" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş, Sınıf ve Statik Yordamlar</a></li>
       <li><a href="#C863" style="text-decoration: none; color:#388E3C; cursor:pointer">@staticmethod</a></li>
       <li><a href="#C864" style="text-decoration: none; color:#388E3C; cursor:pointer">@classmethod</a></li>
