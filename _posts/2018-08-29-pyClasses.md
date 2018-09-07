@@ -353,9 +353,9 @@ Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcü
 <p>age özniteliğini p1 nesnesinden silin:</p>
 
 
-<div class="w3-code notranslate">
+<div class="w3-code">
 {% highlight python %} 
- del p1.age
+del p1.age
 {% endhighlight %}
 </div>
 
@@ -392,9 +392,9 @@ AttributeError: 'Person' object has no attribute 'age'
 Nesneleri <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz: 
 <p>p1 nesnesini silin:</p>
 
-<div class="w3-code notranslate">
+<div class="w3-code">
 {% highlight python %} 
- del p1
+del p1
 {% endhighlight %}</div>
 
 
