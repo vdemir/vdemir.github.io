@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Python Decorators
+title:  Python Decoratörler
 date:   2018-09-08 12:00:00
 last_updated: 2018-09-08 12:00:00
 keywords: linux, python, decorators
@@ -8,7 +8,7 @@ summary: "Python 3 Dekoratörlere Giriş"
 excerpt: This post is about Python Decorators.
 categorie: Programlama
 tags:   Python Linux Programlama
-categories: [Python 3, Python Decorators, Programlama]
+categories: [Python 3, Programlama]
 permalink: /PisiLinux/
 comments: false
 published: true
