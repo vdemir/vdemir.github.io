@@ -27,6 +27,8 @@ img.resize {
 }
 </style>
 
+<br>
+
 <div class="pop">Python Dekoratörler Üzerine ...</div> 
 
 <br>
