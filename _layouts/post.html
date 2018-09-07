@@ -18,7 +18,7 @@ layout: default
 
 
 <br>
-{% if page.last_updated != '' %}
+{% if page.last_updated != None %}
 <p class="meta">Değiş. Tarihi: {{ page.last_updated | date_to_string }} </p>
 {% endif %}
 <br>
