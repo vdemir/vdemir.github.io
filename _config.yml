@@ -3,7 +3,15 @@ highlighter: rouge
 
 # Site wide configuration
 
-description       : Günlük Blog Yazıları
+
+description:
+
+  # Description of your site. This will show up in google.
+  meta: Günce - Daily is a minimalist blog with focus on readability and content.
+
+  # Description of your site. This will show up on the front page.
+  subtitle: Günce - Daily is a minimalist blog with focus on readability and content. <a href="https://github.com/vdemir/ on Github</a>.
+
 title             : Günlük Blog Yazıları - Teknik Ceviriler, Programlama
 keywords          : C,Language,Programming
 logo              : siteicon.png
@@ -19,6 +27,7 @@ author:
 
 yandex-verify     : "b642748cb18cbd1c"
 google-verify     : "zFuwF6tlf7YemTRN-ZOvl5lG1rjuI9qEomPbr_5vAu8"
+
 
 
 timezone: Europe/Istanbul # add your own locale timezone
