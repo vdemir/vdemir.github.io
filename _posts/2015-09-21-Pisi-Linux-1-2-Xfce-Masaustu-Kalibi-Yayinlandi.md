@@ -8,8 +8,6 @@ comments: true
 published: true
 lang: tr
 ---
- 
-{% include tr_ay.html %}
 
 Pisi Linux 1.2 serisinin için mevcut olan Xfce paketleri ile kurulabilen bir kalıp hazırlandı ve yayınlandı. Diğer masaüstüler içinde -örneğin LXQT, GNOME, Openbox için- önümüzdeki günlerde kalıpların yayınlanmasını bekliyoruz.
 
