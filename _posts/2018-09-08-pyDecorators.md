@@ -53,11 +53,11 @@ Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nası
 		text-decoration-color: orange;
 	}
 	.cok {
-		opacity: .5;
-		background-color: #BDBDBD;
+		background-color: gold;
 		font-size: 5vw;
 		padding: 10vw;
 		margin: 5vw;
+		border: solid;
 	}
 </style>
 
