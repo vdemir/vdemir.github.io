@@ -23,3 +23,7 @@
 .grid > article:nth-child(1) {
   grid-column: span 2;
 }
+
+body {
+	background-color: gold;
+}
