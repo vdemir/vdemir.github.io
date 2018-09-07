@@ -357,9 +357,7 @@ Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnek
 <div class="teaser clearfix"></div>
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 # sınıfın tanımı burada başlar  
 class MyClass:
     """Basit bir örnek sınıf"""
@@ -376,9 +374,7 @@ print(t)
 
 p=MyClass.f(1)
 print(p)
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -413,18 +409,14 @@ Elbette **__init__()** yordamı daha fazla esneklik için argümanlara sahip ola
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
+{% highlight python %}
 class Complex:
      def __init__(self, realpart, imagpart):
           self.r = realpart
           self.i = imagpart
 x = Complex(3.0, -4.5)
 x.r, x.i
-</code></pre>
-</p>
-    </div>
+{% endhighlight %}
   </article>
   <article>
     <div class="text">
@@ -444,17 +436,20 @@ Out[1]: (3.0, -4.5)
 Data öznitelikleri, Smalltalk'daki “eşleşen değişkenler” ve C++'daki “data elemanlarına” karşılık gelir. Data özniteliklerinin beyan edilmesine gerek yoktur; yerel değişkenler gibi, ilk atandıklarında var olurlar. Örneğin, **x** yukarıda oluşturulan **MyClass** özniteliğiyse, aşağıdaki kod parçası bir iz bırakmadan değeri 16 yazdıracaktır:
 
 <div class="teaser clearfix"></div>
-<div class="highlight-python3 notranslate">
-<div class="highlight">
-<pre>
+<div class="w3-code notranslate">
+{% highlight python %}
+
 class MyClass(): 
   x.counter = 1
   while x.counter < 10:
      x.counter = x.counter * 2
 print(x.counter)
 del x.counter
-</pre>
-</div></div>
+
+{% endhighlight %}
+
+</div>
+
 Diğer eşleşen öznitelik atıf türü bir yordamdır. Bir yordam, bir öbeğe “ait” bir fonksiyondur. (Python'da, yordam terimi, öbek eşleşmelerine özgü değildir: diğer öbek türleri de yordamlara sahip olabilir. Örneğin, liste öbekleri, append, insert, remove, sort adlı yordamları içerir. Ancak, aşağıdaki tartışmada, sadece aksi belirtilmedikçe sınıf yordamlarının eşleşen öbeklerinii belirtmek için deyim yordamını kullanacağız.) 
 
 
