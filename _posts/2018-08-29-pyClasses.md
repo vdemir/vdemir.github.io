@@ -45,6 +45,7 @@ img.resize {
       <li><a href="#C9" style="text-decoration: none; color:#388E3C; cursor:pointer">new yordamı</a></li>
       <li><a href="#C10" style="text-decoration: none; color:#388E3C; cursor:pointer">init yordamı</a></li>
       <li><a href="#C11" style="text-decoration: none; color:#388E3C; cursor:pointer">self yordamı</a></li>
+      <li><a href="#C82" style="text-decoration: none; color:#388E3C; cursor:pointer">El Yordamı ile 'self' Geçirme</a></li>
       <li><a href="#C12" style="text-decoration: none; color:#388E3C; cursor:pointer">super fonksiyonu</a></li>
       <li><a href="#C18" style="text-decoration: none; color:#388E3C; cursor:pointer">Python Programları</a></li>
       <li><a href="#C16" style="text-decoration: none; color:#388E3C; cursor:pointer">Python 3 Shell</a></li>
@@ -562,7 +563,6 @@ Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
-      <li><a href="#C82" style="text-decoration: none; color:#388E3C; cursor:pointer">El Yordamı ile 'self' Geçirme</a></li>
       <li><a href="#C83" style="text-decoration: none; color:#388E3C; cursor:pointer">Öznitelik ve Yordam Varlığını Kontrol Etme</a></li>
       <li><a href="#C86" style="text-decoration: none; color:#388E3C; cursor:pointer">Python'da statik değişkenler ve yordamlar</a></li>
       <li><a href="#C88" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Öznitelikleri 1</a></li>
@@ -586,45 +586,6 @@ Bir sınıf, öbek öz niteliklerini (veri elemanları olarak da bilinir) ve öb
 
 Her sınıfın, tüm görevlerin ve fonksiyon tanımlarının meydana geldiği kendi ad alanı vardır.
 
-
-<br><br>
-
-<h4 id="C82">El Yordamı ile 'self' Geçirme</h4>
-<hr>
-Yordamlar, bir özdeşden çağrıldığında, ilk ifade olarak (genellikle 'self' olarak çağrılır) bu özdeşe geçirilen normal fonksiyonlardır. Herhangi bir nedenle fonksiyonu bir özdeşden çağırmıyorsanız, özdeşe her zaman ilk ifade olarak el ile geçirebilirsiniz. Örneğin:
-
- 
-<main class="grid">
-  <article>
-{% highlight python %}
-class Class:
-    def a_method(self):
-        print ('Hey a method')
-
-instance = Class()
-
-instance.a_method()
-# prints 'Hey a method', 
-# somewhat unsuprisingly.  
-# You can also do:
-
-Class.a_method(instance)
-# prints 'Hey a method'
-{% endhighlight %}
-  </article>
-  <article>
-    <div class="text">
-      <p>
-
-Hey a method <br>
-Hey a method
-</p>
-    </div>
-  </article>
-</main>
-
-
-Dahili olarak, bu ifadeler tamamen aynıdır.
 
 <br>
 <h4 id="C83">Öznitelik ve Yordam Varlığını Kontrol Etme</h4>
@@ -1568,6 +1529,46 @@ Her ne kadar bu parametre için herhangi bir isim verseniz de, **self** ismini k
 Bu aynı zamanda, hiçbir argüman almayan bir yordamınız varsa, o zaman hala tek bir argümana sahip olmanız gerektiği anlamına gelir - **self**.
  
 <br>
+
+<h4 id="C82">El Yordamı ile 'self' Geçirme</h4>
+<hr>
+Yordamlar, bir özdeşden çağrıldığında, ilk ifade olarak (genellikle 'self' olarak çağrılır) bu özdeşe geçirilen normal fonksiyonlardır. Herhangi bir nedenle fonksiyonu bir özdeşden çağırmıyorsanız, özdeşe her zaman ilk ifade olarak el ile geçirebilirsiniz. Örneğin:
+
+ 
+<main class="grid">
+  <article>
+{% highlight python %}
+class Class:
+    def a_method(self):
+        print ('Hey a method')
+
+instance = Class()
+
+instance.a_method()
+# prints 'Hey a method', 
+# somewhat unsuprisingly.  
+# You can also do:
+
+Class.a_method(instance)
+# prints 'Hey a method'
+{% endhighlight %}
+  </article>
+  <article>
+    <div class="text">
+      <p>
+
+Hey a method <br>
+Hey a method
+</p>
+    </div>
+  </article>
+</main>
+
+
+Dahili olarak, bu ifadeler tamamen aynıdır.
+
+<br><br>
+
 <div class="teaser clearfix"></div>
 <h3 id="C12">super fonksiyonu</h3><hr>
 **super([type[, object-or-type]])**
