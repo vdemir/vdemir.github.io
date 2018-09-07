@@ -26,12 +26,6 @@ img.resize {
 }
 </style>
 
-<style>
-  ul {
-    list-style-type: circle;
-  }
-</style>
-
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/Classes-in-Python.jpg" alt="programs" class="resize" />
   <p><small>Python &bull; Sınıflar.</small></p>
@@ -41,7 +35,7 @@ img.resize {
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
-      <li><a href="#C1" style="text-decoration: none; color:#388E3C; cursor:pointer">Bir Python Sınıfı Oluşturmak</a></li>
+      <li><a href="#C1" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Bir Python Sınıfı Oluşturmak</a></li>
       <li><a href="#C84" style="text-decoration: none; color:#388E3C; cursor:pointer">Oluşturulduktan Sonra Sınıfların Değiştirilmesi</a></li>
       <li><a href="#C81" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Özdeşleri</a></li>
       <li><a href="#C2" style="text-decoration: none; color:#388E3C; cursor:pointer">Bir Python Nesnesi Oluşturmak</a></li>
