@@ -76,7 +76,6 @@ Burada, (class docstring) class_name._doc_ üzerinden erişilebilen bir belge di
 
 <main class="grid">
   <article>
-    <div class="text">
       <p>
 {% highlight python %}
 # sınıfın tanımı burada başlar  
@@ -108,7 +107,6 @@ person1.showAge()
 person2.showName()
 {% endhighlight %}
 </p>
-    </div>
   </article>
   <article>
     <div class="text">
