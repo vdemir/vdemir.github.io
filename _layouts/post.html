@@ -22,8 +22,15 @@ layout: default
 <br>
 <br>
 <div align="right">
-{% if page.last_updated != None %}
-<p class="meta">Değiş. Tarihi: {{ page.last_updated | date_to_string }} </p>
+{% if page.lang == 'tr' %}
+{% assign months = "Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık" | split: "|" %}
+{% assign m = page.last_updated | date: "%-m" | minus: 1 %}
+{% assign day = page.last_updated | date: "%d" %}
+{% assign month = months[m] %}
+{% assign year = page.last_updated | date: "%Y" %}
+<p class="meta">Son Değişim: {{ day }} {{ month }} {{ year }} - Türkiye</p>
+{% elsif page.lang == 'en' %}
+<p class="meta">Last Update: {{ page.last_updated | date_to_string }} - Turkey</p>
 {% endif %}
 </div>
 <hr>
