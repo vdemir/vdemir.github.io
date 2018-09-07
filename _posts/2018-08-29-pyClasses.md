@@ -32,6 +32,7 @@ img.resize {
     <ul class="w3-ul w3-card-4" style="width:85%">
       <li><a href="#C1" style="text-decoration: none; color:#388E3C; cursor:pointer">Bir Python Sınıfı Oluşturmak</a></li>
       <li><a href="#C84" style="text-decoration: none; color:#388E3C; cursor:pointer">Oluşturulduktan Sonra Sınıfların Değiştirilmesi</a></li>
+      <li><a href="#C81" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Özdeşleri</a></li>
       <li><a href="#C2" style="text-decoration: none; color:#388E3C; cursor:pointer">Bir Python Nesnesi Oluşturmak</a></li>
       <li><a href="#C3" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Eşleme ile Nesne Oluşturmak</a></li>
       <li><a href="#C13" style="text-decoration: none; color:#388E3C; cursor:pointer">Nesne Özniteliklerini Değiştirmek</a></li>
@@ -210,6 +211,66 @@ New method wins!
 </main>
 
 Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşmayın, bu kötü bir formdur ve bu sınıfı kullanarak herhangi bir öbeği karıştırır. Öte yandan, yordamların eklenmesi çok daha az (ama yine de biraz) tehlikelidir.
+
+<br><br>
+
+<h4 id="C81">Sınıf Özdeşleri</h4><hr>
+
+Bir sınıfın özdeşi, bir Python öbeğidir ve her Python öbeğine benzer şekilde, şu özelliklere sahiptir: kimlik, öbek/nesne tipi, öznitelikler, yordamlar ve değeri.
+**(identity, object type, attributes, methods, and value)
+
+Bir sonraki açıklama için aşağıdaki sınıf tanımını kullanacağım. Öncelikle, **c** sınıfı ilan edelim, ve sonra **obj** olarak adlandırılan bu sınıfın bir özdeşini oluşturacağız.
+
+ 
+<main class="grid">
+  <article>
+{% highlight python %}
+class c:
+    def __init__(self, value=None):
+        self.name = value
+obj = c()
+obj.name = "Andre"
+id(obj)
+type(obj)
+type(obj.name)
+{% endhighlight %}
+  </article>
+  <article>
+    <div class="text">
+      <p>
+
+Out[1]: 140040300870176 <br>
+Out[2]: __main__.c <br>
+Out[3]: str
+</p>
+    </div>
+  </article>
+</main>
+
+
+Kimlik[identity], öbek için ayrılan bellek konumudur. **id()** fonksiyonu kullanılarak tanımlanabilir.
+
+<div class="w3-code notranslate pythonHigh">
+id(obj)</div>
+
+Nesne tipi, öbeğin iç temsilidir. Her öbek için desteklenen yordam ve işlemi tanımlar. Belirli bir Nesnenin tipini öğrenmek için **type()** fonksiyonunu kullanabilirsiniz.
+
+<div class="w3-code notranslate pythonHigh">
+type(obj)<br>
+type(obj.name)</div>
+
+Nesne tiplerinden bahsederken, tüm sınıf konusundan kısa bir ara verelim ve sınıflar gibi davranmayan, uzantı modüllerinde tanımlanan Python öbeklerini inceleyelim.
+
+Bir nesnenin öznitelikleri ve yordamları, öbek adından sonra bir nokta (.) yerleştirerek erişilmesi gereken bağlı özelliklerdir.
+
+Sonunda, bir nesnenin değeri bir örnekle daha iyi görselleştirilir.
+
+<div class="w3-code notranslate pythonHigh">
+obj.name = "Andre"</div>
+
+**'Andre'** dizesi, **obj** öbeğinin **name** özniteliğine atanan değerdir.
+
+
 
 <br><br>
 
@@ -501,7 +562,6 @@ Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
-      <li><a href="#C81" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Özdeşleri</a></li>
       <li><a href="#C82" style="text-decoration: none; color:#388E3C; cursor:pointer">El Yordamı ile 'self' Geçirme</a></li>
       <li><a href="#C83" style="text-decoration: none; color:#388E3C; cursor:pointer">Öznitelik ve Yordam Varlığını Kontrol Etme</a></li>
       <li><a href="#C86" style="text-decoration: none; color:#388E3C; cursor:pointer">Python'da statik değişkenler ve yordamlar</a></li>
@@ -525,64 +585,6 @@ Bir sınıftan oluşturulan her öbek sınıfın bir özdeşidir. Hepsi birbirin
 Bir sınıf, öbek öz niteliklerini (veri elemanları olarak da bilinir) ve öbeklerin davranışını (çoğunlukla yordamlar olarak bilinir) depolar. Bu davranış diğer (temel) sınıflardan miras alınabilir. Sınıfın yordam dışı öznitelikleri, genellikle sınıf elemanları veya sınıf öz nitelikleri olarak adlandırılır, böylece onlar özdeş öznitelikler ile karıştırılmaz.
 
 Her sınıfın, tüm görevlerin ve fonksiyon tanımlarının meydana geldiği kendi ad alanı vardır.
-
-<br>
-
-<h4 id="C81">Sınıf Özdeşleri</h4><hr>
-
-Bir sınıfın özdeşi, bir Python öbeğidir ve her Python öbeğine benzer şekilde, şu özelliklere sahiptir: kimlik, öbek/nesne tipi, öznitelikler, yordamlar ve değeri.
-**(identity, object type, attributes, methods, and value)
-
-Bir sonraki açıklama için aşağıdaki sınıf tanımını kullanacağım. Öncelikle, **c** sınıfı ilan edelim, ve sonra **obj** olarak adlandırılan bu sınıfın bir özdeşini oluşturacağız.
-
- 
-<main class="grid">
-  <article>
-{% highlight python %}
-class c:
-    def __init__(self, value=None):
-        self.name = value
-obj = c()
-obj.name = "Andre"
-id(obj)
-type(obj)
-type(obj.name)
-{% endhighlight %}
-  </article>
-  <article>
-    <div class="text">
-      <p>
-
-Out[1]: 140040300870176 <br>
-Out[2]: __main__.c <br>
-Out[3]: str
-</p>
-    </div>
-  </article>
-</main>
-
-
-Kimlik[identity], öbek için ayrılan bellek konumudur. **id()** fonksiyonu kullanılarak tanımlanabilir.
-
-<div class="w3-code notranslate pythonHigh">
-id(obj)</div>
-
-Nesne tipi, öbeğin iç temsilidir. Her öbek için desteklenen yordam ve işlemi tanımlar. Belirli bir Nesnenin tipini öğrenmek için **type()** fonksiyonunu kullanabilirsiniz.
-
-<div class="w3-code notranslate pythonHigh">
-type(obj)<br>
-type(obj.name)</div>
-
-Nesne tiplerinden bahsederken, tüm sınıf konusundan kısa bir ara verelim ve sınıflar gibi davranmayan, uzantı modüllerinde tanımlanan Python öbeklerini inceleyelim.
-
-Bir nesnenin öznitelikleri ve yordamları, öbek adından sonra bir nokta (.) yerleştirerek erişilmesi gereken bağlı özelliklerdir.
-
-Sonunda, bir nesnenin değeri bir örnekle daha iyi görselleştirilir.
-
-<div class="w3-code notranslate pythonHigh">
-obj.name = "Andre"</div>
-
-**'Andre'** dizesi, **obj** öbeğinin **name** özniteliğine atanan değerdir.
 
 
 <br><br>
