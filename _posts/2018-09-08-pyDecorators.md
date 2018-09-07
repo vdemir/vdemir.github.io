@@ -47,16 +47,14 @@ Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nası
 
 <div class="box">Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nasıl çalıştığına dair birkaç örnek gördükten sonra değil. Bu makaledeki tüm örnekleri burada bulabilirsiniz.</div>
 
+## Fonksiyonlar
+
+Dekoratörleri anlayabilmeniz için öncelikle işlevlerin nasıl çalıştığını anlamanız gerekir. Bizim amacımız için, bir işlev verilen argümanlara dayalı bir değer döndürür. İşte çok basit bir örnek:
 
 {% highlight python %}
-def my_decorator(func):
-    def wrapper():
-        print("Something is happening before the function is called.")
-        func()
-        print("Something is happening after the function is called.")
-    return wrapper
+>>> def add_one(number):
+...     return number + 1
 
-@my_decorator
-def say_whee():
-    print("Whee!")
+>>> add_one(2)
+3
 {% endhighlight %}
