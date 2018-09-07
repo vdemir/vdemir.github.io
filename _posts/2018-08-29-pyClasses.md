@@ -278,9 +278,16 @@ obj.name = "Andre"</div>
 <div class="teaser clearfix"></div>
 <h3 id="C2">Bir Python Nesnesi Oluşturma</h3><hr>
 Artık nesneleri oluşturmak için **myClass** adlı sınıfı kullanabiliriz:
- 
+
 <div class="w3-code notranslate pythonHigh">
-  class MyClass:<br>&nbsp; x = 5<br>p1 = MyClass()<br>print(p1.x)<br>print(MyClass.x)</div>
+{% highlight python %} 
+class MyClass:
+  x = 5
+p1 = MyClass()
+print(p1.x)
+print(MyClass.x)
+{% endhighlight %}
+</div>
 <br>
 <div class="teaser clearfix"></div>
 <h3 id="C3">Sınıf Eşleme ile Nesne Oluşturma</h3><hr>
