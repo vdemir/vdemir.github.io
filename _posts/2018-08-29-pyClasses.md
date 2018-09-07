@@ -568,7 +568,7 @@ Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey
       <li><a href="#C88" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Öznitelikleri 1</a></li>
       <li><a href="#C89" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Öznitelikleri 2</a></li>
       <li><a href="#C90" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş Öznitelikler</a></li>
-      <li><a href="#C86" style="text-decoration: none; color:#388E3C; cursor:pointer">Statik yordamlar</a></li>
+      <li><a href="#C86" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf ve Statik Yordamlar</a></li>
       <li><a href="#C91" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf ve Öbek öznitelikleri</a></li>
     </ul>
     </p>
@@ -708,7 +708,7 @@ Bana oldukça basit görünüyor. Sadece kafa karışıklığı gerçek olabilir
 
 
 <br>
-<h3 id="C86">Statik yordamlar</h3>
+<h3 id="C86">Sınıf ve Statik Yordamlar</h3>
 <hr>
 
 
