@@ -2020,12 +2020,6 @@ Ayrıca bir listeyi yeniden boyutlandırabiliriz. Dilim sözdizimi ve append ) g
 list2 = list1[:]
 {% endhighlight %}
   </article>
-  <article>
-    <div class="text">
-      <p>
-</p>
-    </div>
-  </article>
 </main>
 
 **İkinci Kopya.** Bazen yinelenen öğeleri bir listeden kaldırmak istiyoruz. Sıralama önemliyse, elemanların yeniden sıralanmasını önlemek için özel bir yönteme ihtiyacımız olabilir. Burada bir set faydalıdır. 
