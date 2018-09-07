@@ -21,7 +21,7 @@ lang: tr
   
 <style>
 img.resize {
-  max-width:100%;
+  max-width:130%;
   max-height:100%;
 }
 </style>
