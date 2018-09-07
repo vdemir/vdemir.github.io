@@ -1625,8 +1625,8 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
       <li><a href="#C290" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-list"></i> Listeler</a></li>
-      <li><a href="#C181" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıfı kullanan Python programı</a></li>
-      <li><a href="#C182" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf kalıtımını kullanan Python programı</a></li>
+      <li><a href="#C181" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-laptop-code"></i> Sınıfı kullanan Python programı</a></li>
+      <li><a href="#C182" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-laptop-code"></i> Sınıf kalıtımını kullanan Python programı</a></li>
       <li><a href="#C183" style="text-decoration: none; color:#388E3C; cursor:pointer">İki alt çizgi değişkenini kullanan Python programı</a></li>
       <li><a href="#C184" style="text-decoration: none; color:#388E3C; cursor:pointer">issubclass kullanan Python programı</a></li>
       <li><a href="#C185" style="text-decoration: none; color:#388E3C; cursor:pointer">isinstance kullanan Python programı</a></li>
