@@ -614,9 +614,9 @@ hasattr(Class, 'question')
   <article>
     <div class="text">
       <p>
-
 Out[1]: True <br>
-Out[2]: False
+Out[2]: True <br>
+Out[3]: False
 </p>
     </div>
   </article>
