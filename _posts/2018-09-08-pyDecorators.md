@@ -17,7 +17,7 @@ lang: tr
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/Python-Decorators.png" alt="programs" class="resize" />
-  <p><small>Pisi &bull; Linux.</small></p>
+  <p><small>Python &bull; Decorators.</small></p>
 </div> 
   
 <style>
@@ -26,6 +26,7 @@ img.resize {
   max-height:100%;
 }
 </style>
+
 {% highlight python %}
 def my_decorator(func):
     def wrapper():
