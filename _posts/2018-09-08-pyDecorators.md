@@ -40,13 +40,6 @@ Tanım olarak, bir dekoratör, başka bir işlev alan ve ikincisinin işlevini a
 Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nasıl çalıştığına dair birkaç örnek gördükten sonra değil. Bu makaledeki tüm örnekleri burada bulabilirsiniz.
 
 <style>
-	.box {
-		color: orange;
-		font-size: 5vw;
-		padding: 5vw;
-		margin: 5vw;
-		border-style: solid;
-	} 
 	.cok {
 		background-color: gold;
 		font-size: 5vw;
