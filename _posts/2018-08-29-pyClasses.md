@@ -590,7 +590,7 @@ Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey
       <li><a href="#C89" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Öznitelikleri 2</a></li>
       <li><a href="#C90" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş Öznitelikler</a></li>
       <li><a href="#C91" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf ve Öbek öznitelikleri</a></li>
-      <li><a href="#C86" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş, Sınıf ve Statik Yordamlar</a></li>
+      <li><a href="#C86" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-list"></i> Yordamlar</a></li>
     </ul>
     </p>
   </div>
@@ -737,7 +737,7 @@ Bana oldukça basit görünüyor. Sadece kafa karışıklığı gerçek olabilir
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
-      <li><a href="#C862" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-list"></i> Özdeş, Sınıf ve Statik Yordamlar</a></li>
+      <li><a href="#C862" style="text-decoration: none; color:#388E3C; cursor:pointer">Yordamlar</a></li>
       <li><a href="#C865" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş Yordamlar</a></li>
       <li><a href="#C868" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Yordamları Oluşturma</a></li>
       <li><a href="#C866" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Yordamları</a></li>
