@@ -256,6 +256,7 @@ Bu gibi nesnelerdeki öznitelikleri değiştirebilirsiniz:
     <div class="text">
       <p>
 <pre><code>
+{% highlight python %}
 class Person:
   def __init__(self, name, age):
     self.name = name
@@ -268,6 +269,7 @@ p1 = Person("John", 36)
 
 p1.age = 40
 print(p1.age)
+{% endhighlight %}
 </code></pre>
 </p>
     </div>
@@ -301,6 +303,7 @@ Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcü
     <div class="text">
       <p>
 <pre><code>
+{% highlight python %}
 class Person:
   def __init__(self, name, age):
     self.name = name
@@ -314,6 +317,7 @@ p1 = Person("John", 36)
 del p1.age
 
 print(p1.age)
+{% endhighlight %}
 </code></pre>
 </p>
     </div>
@@ -342,6 +346,7 @@ Nesneleri <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak
     <div class="text">
       <p>
 <pre><code>
+{% highlight python %}
 class Person:
   def __init__(self, name, age):
     self.name = name
@@ -355,6 +360,7 @@ p1 = Person("John", 36)
 del p1
 
 print(p1)
+{% endhighlight %}
 </code></pre>
 </p>
     </div>
