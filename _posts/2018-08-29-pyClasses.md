@@ -352,10 +352,12 @@ print(p1.age)
 Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz:
 <p>age özniteliğini p1 nesnesinden silin:</p>
 
+
+<div class="w3-code notranslate">
 {% highlight python %} 
-<div class="w3-code notranslate pythonHigh">
- del p1.age</div>
+ del p1.age
 {% endhighlight %}
+</div>
 
 <main class="grid">
   <article>
@@ -390,8 +392,10 @@ AttributeError: 'Person' object has no attribute 'age'
 Nesneleri <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz: 
 <p>p1 nesnesini silin:</p>
 
-<div class="w3-code notranslate pythonHigh">
- del p1</div>
+<div class="w3-code notranslate">
+{% highlight python %} 
+ del p1
+{% endhighlight %}</div>
 
 
 <main class="grid">
