@@ -18,7 +18,7 @@ html, body {
 body {
   background-color: white;
   font: 13.34px helvetica, arial, clean, sans-serif;
-  font-size: small;
+  *font-size: small;
   text-align: center;
 }
 
@@ -92,11 +92,6 @@ ul.posts {
   margin-bottom: 2em;
 }
 
-.site-tag a {
-    display: inline-block;
-    margin-right: 12px;
-}
-
   .site .title a {
     color: #a00;
     text-decoration: none;
@@ -146,7 +141,7 @@ ul.posts {
       .site .footer .rss img {
         border: 0;
       }
-      
+
 /*****************************************************************************/
 /*
 /* Posts
@@ -181,6 +176,11 @@ ul.posts {
       border: none;
     }
 
+  #post img {
+    max-width: 42em;
+    padding: 1em 0;
+  }
+
   /* terminal */
 
   #post pre.terminal {
@@ -200,9 +200,3 @@ ul.posts {
   #related h2 {
     margin-bottom: 1em;
   }
-
-@media screen and (min-width: 480px) and (max-width: 960px) {
-    #header {
-        display: none;
-    }
-}
