@@ -28,17 +28,3 @@ img.resize {
 </style>
 
 
-
-***Pisi Linux 2.0Alfa5 KDE5***
-
-Pisi Linux ekibinin geliştirdiği ve geliştiricilerin test etmesi için KaraKedi adlı Alfa5 deneme sürümü yayınlandı. Bu deneme sürümünde öncekine göre birçok iyileştirme ve hata düzeltmeleri yapıldı. Bir önceki deneme sürümünden bu sürüme yükseltmek için komut satırını kullanabilirsiniz.
-
-```sudo pisi up -dvsy
-```
-
-**Snapshots**
-
-
-
-
-{% include dist.html %}
