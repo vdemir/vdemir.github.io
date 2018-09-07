@@ -27,7 +27,7 @@ img.resize {
 }
 </style>
 
-### Python Dekoratörler Üzerine
+### Python Dekoratörler Üzerine Kısa Kısa ...
 
 
 
