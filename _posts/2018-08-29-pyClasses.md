@@ -295,7 +295,7 @@ print(MyClass.x)
 
 <div class="w3-code">
 {% highlight python %} 
-  p1 = Person("John", 36)
+p1 = Person("John", 36)
 {% endhighlight %}
 </div>
 
