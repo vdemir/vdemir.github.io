@@ -1994,11 +1994,9 @@ print(list)
 {% endhighlight %}
   </article>
   <article>
-    <div class="text">
-      <p>
-['< b>Rabbit</b>', '< b>Mouse</b>', '< b>Gorilla</b>']
-</p>
-    </div>
+{% highlight python %}
+['<b>Rabbit</b>', '< b>Mouse</b>', '<b>Gorilla</b>']
+{% endhighlight %}
   </article>
 </main>
 
