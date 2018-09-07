@@ -128,7 +128,7 @@ Anne
 <br><br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C1">Bir Python Sınıfı Oluşturma</h3><hr>
+<h3 id="C1"><i class="fas fa-code"></i> Bir Python Sınıfı Oluşturma</h3><hr>
 **x** adlı bir özdeğere sahip **MyClass** adlı bir sınıf/öbek oluşturun:
 <div class="w3-code notranslate">
 {% highlight python %}
@@ -178,7 +178,7 @@ Hey bir yordam
 
 <br><br>
 
-<h4 id="C84">Oluşturulduktan Sonra Sınıfların Değiştirilmesi</h4>
+<h4 id="C84"><i class="fas fa-code"></i> Oluşturulduktan Sonra Sınıfların Değiştirilmesi</h4>
 <hr>
 
 
@@ -220,7 +220,7 @@ Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşma
 
 <br><br>
 
-<h4 id="C81">Sınıf Özdeşleri</h4><hr>
+<h4 id="C81"><i class="fas fa-code"></i> Sınıf Özdeşleri</h4><hr>
 
 Bir sınıfın özdeşi, bir Python öbeğidir ve her Python öbeğine benzer şekilde, şu özelliklere sahiptir: kimlik, öbek/nesne tipi, öznitelikler, yordamlar ve değeri.
 **(identity, object type, attributes, methods, and value)
@@ -281,7 +281,7 @@ obj.name = "Andre"</div>
 <br><br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C2">Bir Python Nesnesi Oluşturma</h3><hr>
+<h3 id="C2"><i class="fas fa-code"></i> Bir Python Nesnesi Oluşturma</h3><hr>
 Artık nesneleri oluşturmak için **myClass** adlı sınıfı kullanabiliriz:
 
 <div class="w3-code">
@@ -295,7 +295,7 @@ print(MyClass.x)
 </div>
 <br>
 <div class="teaser clearfix"></div>
-<h3 id="C3">Sınıf Eşleme ile Nesne Oluşturma</h3><hr>
+<h3 id="C3"><i class="fas fa-code"></i> Sınıf Eşleme ile Nesne Oluşturma</h3><hr>
  Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">init</code> yordamının kabul ettiği ifadeleri iletirsiniz:
 
 <div class="w3-code">
@@ -353,7 +353,7 @@ print(p1.age)
 <br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C14"> Nesne Özniteliklerini Silmek</h3><hr>
+<h3 id="C14"><i class="fas fa-code"></i> Nesne Özniteliklerini Silmek</h3><hr>
 Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz:
 <p>age özniteliğini p1 nesnesinden silin:</p>
 
@@ -393,7 +393,7 @@ AttributeError: 'Person' object has no attribute 'age'
 
 <br>
 <div class="teaser clearfix"></div>
-<h3 id="C15"> Nesneleri Silmek</h3><hr>
+<h3 id="C15"><i class="fas fa-code"></i> Nesneleri Silmek</h3><hr>
 Nesneleri <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz: 
 <p>p1 nesnesini silin:</p>
 
@@ -433,7 +433,7 @@ NameError: name 'p1' is not defined
 <br><br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C5">Sınıf Öbekleri </h3><hr>
+<h3 id="C5"><i class="fas fa-code"></i> Sınıf Öbekleri </h3><hr>
 Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnekleme. 
 
 Öznitelik referansları, Python: obj.name'deki tüm öznitelik referansları için kullanılan standart sözdizimini kullanır. Geçerli nesne adları, sınıf nesnesi oluşturulduğunda sınıfın ad alanındaki tüm adlardır. Yani, sınıf tanımı böyle görünüyorsa:
@@ -514,7 +514,7 @@ Out[1]: (3.0, -4.5)
 <br><br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C6">Özdeş Öbekler</h3><hr>
+<h3 id="C6"><i class="fas fa-code"></i> Özdeş Öbekler</h3><hr>
 Şimdi eşleşen nesnelerle ne yapabiliriz? Eşleşen nesneler ile anlaşılan yegane işlemler, öznitelik atıflarıdır. İki tür geçerli atıf ismi vardır; data öznitelikleri ve yordamları. 
 
 Data öznitelikleri, Smalltalk'daki “eşleşen öznitelikler” ve C++'daki “data elemanlarına” karşılık gelir. Data özniteliklerinin beyan edilmesine gerek yoktur; yerel öznitelikler gibi, ilk atandıklarında var olurlar. Örneğin, **x** yukarıda oluşturulan **MyClass** özniteliğiyse, aşağıdaki kod parçası bir iz bırakmadan değeri 16 yazdıracaktır:
@@ -1659,7 +1659,7 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
-      <li><a href="#C291" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-code"></i> append kullanan Python programı</a></li>
+      <li><a href="#C291" style="text-decoration: none; color:#388E3C; cursor:pointer"> append kullanan Python programı</a></li>
       <li><a href="#C292" style="text-decoration: none; color:#388E3C; cursor:pointer">insert çağıran Python programı</a></li>
       <li><a href="#C293" style="text-decoration: none; color:#388E3C; cursor:pointer">extend kullanan Python programı</a></li>
       <li><a href="#C294" style="text-decoration: none; color:#388E3C; cursor:pointer">len kullanan Python programı</a></li>
