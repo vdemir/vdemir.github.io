@@ -737,7 +737,6 @@ print (Example.staticVariable) # now 7
 Bana oldukça basit görünüyor. Sadece kafa karışıklığı gerçek olabilir, sınıfınızda aynı ad altında iki farklı değişkeniniz olabilir (bir statik ve bir sıradan). Ama bu davranışı tamamen önlemek için (kendi iyiliğiniz için) tavsiye ederim.
 
 
- 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/python-logo23.jpg" alt="programs" class="resize" />
   <p><small>Python &bull; Sınıflar.</small></p>
@@ -1631,6 +1630,12 @@ Derived class method
 Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, **super(Child, self).printlnfo()** biçiminde **super()** yordamı kullanılır; burada taban sınıfının adı belirtilmemiştir. Diğer yol, **Parent.printlnfo(self)** kullanılarak olurdu.
  
 <br>
+
+ 
+<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="{{ site.baseurl }}/images/qppr.png" alt="programs" class="resize" />
+  <p><small>Python &bull; Sınıflar.</small></p>
+</div>
 
 <h3 id="C18">Python Programları</h3><hr>
 
