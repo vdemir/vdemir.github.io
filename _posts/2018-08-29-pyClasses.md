@@ -600,7 +600,12 @@ Belirli bir sınıfın veya özdeşin, belirli bir öznitelik veya yordama sahip
 class Class:
     answer = 42
 
+    def method(self):
+      pass
+
 hasattr(Class, 'answer')
+# returns True
+hasattr(Class, 'method')
 # returns True
 hasattr(Class, 'question')
 # returns False
