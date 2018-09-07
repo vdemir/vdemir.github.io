@@ -72,4 +72,8 @@ Genel olarak, Python'daki işlevler, bir girdiyi bir çıktıya dönüştürmek 
 
 **Not:** Fonksiyonel programlamada, yan etkiler olmadan sadece saf fonksiyonlarla çalışırsınız (neredeyse). Tamamen işlevsel bir dil olmasa da, Python birinci sınıf nesneler gibi işlevler de dahil olmak üzere birçok işlevsel programlama kavramını desteklemektedir.
  
+## Birinci Sınıf Öbekler
+
+Python'da işlevler birinci sınıf nesnelerdir. Bu, diğer nesneler gibi (string, int, float, list, vb.) İşlevlerin etrafından geçirilip argüman olarak kullanılabileceği anlamına gelir. Aşağıdaki üç işlevi göz önünde bulundurun:
+
 
