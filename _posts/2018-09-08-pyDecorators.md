@@ -62,20 +62,12 @@ Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nası
   .ease {
     transition: width 2s ease;
   }
-  .cubic-bezier {
-    transition: width 2s cubic-bezier(.63,.05,.43,1.7);
-  }
+
   .ease:hover,
   .cubic-bezier:hover {
     width: 100%;
   }
-  div {
-    background: orange;
-    color: white;
-    width: 250px;
-    margin: 10px;
-    padding: 10px;
-  }
+
 </style>
 
 <div class="box">Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nasıl çalıştığına dair birkaç örnek gördükten sonra değil.</div>
