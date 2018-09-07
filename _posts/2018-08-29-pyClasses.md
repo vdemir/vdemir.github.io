@@ -26,6 +26,13 @@ img.resize {
 }
 </style>
 
+<style>
+  ul {
+    font-size: 1.5em;
+    list-style-type: circle;
+  }
+</style>
+
 <div class="w3-panel w3-card w3-light-grey">
   <div class="w3-container w3-white">
     <p>
