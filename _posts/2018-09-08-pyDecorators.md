@@ -27,7 +27,7 @@ img.resize {
 }
 </style>
 
-## Python Dekoratörler Üzerine Kısa Kısa ...
+<div class="pop">Python Dekoratörler Üzerine Kısa Kısa ...</div> 
 
 Dekoratörlerle ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Dekoratörler, yüksek mertebe işlevlerini çağırmak için basit bir sözdizimi sağlar. 
 
@@ -61,7 +61,7 @@ add_one(2)
 
 
 <style>
-	p {
+	.pop {
 		font-size: 5vw;
 		text-decoration: overline;
 		text-decoration-color: orange;
