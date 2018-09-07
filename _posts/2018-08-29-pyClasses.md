@@ -828,6 +828,77 @@ Bu, çoğu zaman kullanacağınız temel, asgari ihtiyaçları karşılamaya yö
 Onlar sadece öbeğin durumunu değiştirmezler, özdeş yordamlar, sınıfın kendisine **```self .__class__```** özniteliği aracılığıyla da erişebilir. Bu, eşlenen yordamların sınıf durumunu da değiştirebileceği anlamına gelir.
 
 <br><br>
+
+<h4 id="C868">Sınıf Yordamları Oluşturma</h4>
+<hr>
+
+Bazen bir sınıf yazarken, sınıftan çağrılan bir fonksiyonu dahil etmek istersiniz, özdeşini değil. Belki bu yordam yeni özdeşler oluşturur veya belki de herhangi bir özel özdeşin herhangi bir özniteliğinden bağımsızdır. Python, yordamınızın, hangi sınıfın çağırdığını bilmesi gerektiğine (ya da bilmesine) bağlı olarak, bunu yapmanın iki yolunu size verir. Her ikisi de yordamlarınıza dekoratörler uygulamasını içerir. 
+
+Düzgün bir  özdeş yordam ilk ifade olarak özdeşi aldığı gibi bir **'sınıf yordamı'** ilk ifade olarak sınıfı alır. Böylece yordam, kendi sınıfından veya bir alt sınıfından çağrılıyorsa farkındadır.
+
+Bir **'statik yordam'** nereden çağrıldığı hakkında hiçbir bilgi alamaz; 
+**'Statik yöntem'** nerede denir; bu aslında normal bir fonksiyonudur, sadece farklı bir kapsam içinde.
+
+Sınıf ve statik yordamlar, sınıftan, **Class.method()** olarak veya **Class().method()** olarak bir özdeşten  doğrudan çağrılabilir. Kendi sınıfı hariç özdeş göz ardı edilir. İşte düzgün bir özdeş yordam ile birlikte her biri için bir örnek:
+
+<main class="grid">
+  <article>
+{% highlight python %}
+class Class:
+ @classmethod
+ def a_class_method(cls):
+  print ('I was called from class')
+  print ('%s' % cls)
+ #
+ #
+ @staticmethod
+ def a_static_method():
+  print ('I have no idea')
+  print ('where I was called from')
+ #
+ #
+ def an_instance_method(self):
+  print ('I was called from the instance')
+  print ('%s' % self)
+
+instance = Class()
+
+Class.a_class_method()
+instance.a_class_method()
+# both print
+# 'I was called from class __main__.Class' 
+
+Class.a_static_method()
+instance.a_static_method()
+# both print
+# 'I have no idea where I was called from' 
+
+instance.an_instance_method()
+# prints something like
+# 'I was called from the instance
+# <__main__.Class instance at 0x2e80d0>'
+
+Class.an_instance_method()
+# raises TypeError
+{% endhighlight %}
+  </article>
+  <article>
+    <div class="text">
+      <p>
+
+Out [1]: <br> <br>
+I was called from class <class '__main__.Class'> <br>
+I was called from class <class '__main__.Class'> <br> <br>
+I have no idea where I was called from <br>
+I have no idea where I was called from <br>  <br>
+I was called from the instance <__main__.Class object at 0x7f6854953748>
+</p>
+    </div>
+  </article>
+</main>
+
+<br>
+
 <h4 id="C866">Sınıf Yordamları</h4>
 <h6>Class Methods</h6>
 <hr>
@@ -887,78 +958,6 @@ Offspring2.static() # prints Offspring2
 Example static() called <br>
 Example static() called <br>
 Offspring2 static() called
-</p>
-    </div>
-  </article>
-</main>
-
-
-<br>
-<h4 id="C868">Sınıf Yordamları Oluşturma</h4>
-<hr>
-
-Bazen bir sınıf yazarken, sınıftan çağrılan bir fonksiyonu dahil etmek istersiniz, özdeşini değil. Belki bu yordam yeni özdeşler oluşturur veya belki de herhangi bir özel özdeşin herhangi bir özniteliğinden bağımsızdır. Python, yordamınızın, hangi sınıfın çağırdığını bilmesi gerektiğine (ya da bilmesine) bağlı olarak, bunu yapmanın iki yolunu size verir. Her ikisi de yordamlarınıza dekoratörler uygulamasını içerir. 
-
-Düzgün bir  özdeş yordam ilk ifade olarak özdeşi aldığı gibi bir **'sınıf yordamı'** ilk ifade olarak sınıfı alır. Böylece yordam, kendi sınıfından veya bir alt sınıfından çağrılıyorsa farkındadır.
-
-Bir **'statik yordam'** nereden çağrıldığı hakkında hiçbir bilgi alamaz; 
-**'Statik yöntem'** nerede denir; bu aslında normal bir fonksiyonudur, sadece farklı bir kapsam içinde.
-
-Sınıf ve statik yordamlar, sınıftan, **Class.method()** olarak veya **Class().method()** olarak bir özdeşten  doğrudan çağrılabilir. Kendi sınıfı hariç özdeş göz ardı edilir. İşte düzgün bir özdeş yordam ile birlikte her biri için bir örnek:
-
-
-
-<main class="grid">
-  <article>
-{% highlight python %}
-class Class:
- @classmethod
- def a_class_method(cls):
-  print ('I was called from class')
-  print ('%s' % cls)
- #
- #
- @staticmethod
- def a_static_method():
-  print ('I have no idea')
-  print ('where I was called from')
- #
- #
- def an_instance_method(self):
-  print ('I was called from the instance')
-  print ('%s' % self)
-
-instance = Class()
-
-Class.a_class_method()
-instance.a_class_method()
-# both print
-# 'I was called from class __main__.Class' 
-
-Class.a_static_method()
-instance.a_static_method()
-# both print
-# 'I have no idea where I was called from' 
-
-instance.an_instance_method()
-# prints something like
-# 'I was called from the instance
-# <__main__.Class instance at 0x2e80d0>'
-
-Class.an_instance_method()
-# raises TypeError
-{% endhighlight %}
-  </article>
-  <article>
-    <div class="text">
-      <p>
-
-Out [1]: <br> <br>
-I was called from class <class '__main__.Class'> <br>
-I was called from class <class '__main__.Class'> <br> <br>
-I have no idea where I was called from <br>
-I have no idea where I was called from <br>  <br>
-I was called from the instance <__main__.Class object at 0x7f6854953748>
 </p>
     </div>
   </article>
