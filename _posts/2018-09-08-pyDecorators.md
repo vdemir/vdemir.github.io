@@ -29,7 +29,7 @@ img.resize {
 
 <br>
 
-<div class="pop">Python Dekoratörler Üzerine ...</div> 
+<div class="pop">Python Dekoratörler Üzerine kısa kısa ...</div> 
 
 <br>
 
