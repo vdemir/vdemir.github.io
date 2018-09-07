@@ -1981,7 +1981,7 @@ Bu listedeki kapsamda, her dizgeye 'x' tanımlayıcısı verilir. Listedeki her 
 {% highlight python %}
 # Transform string into HTML.
 def html(s):
-    return "< b>" + s.capitalize() + "< /b>"
+    return "<b>" + s.capitalize() + "</b>"
 
 # Input string.
 input = ["rabbit", "mouse", "gorilla"]
