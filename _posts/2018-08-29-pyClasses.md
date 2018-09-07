@@ -351,8 +351,11 @@ print(p1.age)
 <h3 id="C14"> Nesne Özniteliklerini Silmek</h3><hr>
 Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz:
 <p>age özniteliğini p1 nesnesinden silin:</p>
+
+{% highlight python %} 
 <div class="w3-code notranslate pythonHigh">
  del p1.age</div>
+{% endhighlight %}
 
 <main class="grid">
   <article>
