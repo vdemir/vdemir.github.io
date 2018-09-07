@@ -737,10 +737,15 @@ print (Example.staticVariable) # now 7
 Bana oldukça basit görünüyor. Sadece kafa karışıklığı gerçek olabilir, sınıfınızda aynı ad altında iki farklı değişkeniniz olabilir (bir statik ve bir sıradan). Ama bu davranışı tamamen önlemek için (kendi iyiliğiniz için) tavsiye ederim.
 
 
+ 
+<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="{{ site.baseurl }}/images/python-logo23.jpg" alt="programs" class="resize" />
+  <p><small>Python &bull; Sınıflar.</small></p>
+</div>
+
 <br>
 <h3 id="C86"> Statik ve Sınıf Yordamlar</h3>
 <hr>
-
 
 <div class="w3-panel w3-card w3-light-grey">
   <div class="w3-container w3-white">
