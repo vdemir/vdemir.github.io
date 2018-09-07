@@ -35,6 +35,18 @@ Tanım olarak, bir dekoratör, başka bir işlev alan ve ikincisinin işlevini a
 
 Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nasıl çalıştığına dair birkaç örnek gördükten sonra değil. Bu makaledeki tüm örnekleri burada bulabilirsiniz.
 
+<style>
+	.box {
+		color: orange;
+		font-size: 5vw;
+		padding: 10vw;
+		margin: 5vw;
+		border-style: solid;
+	}
+</style>
+
+<div class="box">Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nasıl çalıştığına dair birkaç örnek gördükten sonra değil. Bu makaledeki tüm örnekleri burada bulabilirsiniz.</div>
+
 
 {% highlight python %}
 def my_decorator(func):
