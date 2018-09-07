@@ -45,7 +45,7 @@ img.resize {
       <li><a href="#C9" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="far fa-file-code"></i> new yordamı</a></li>
       <li><a href="#C10" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="far fa-file-code"></i> init yordamı</a></li>
       <li><a href="#C11" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="far fa-file-code"></i> self yordamı</a></li>
-      <li><a href="#C82" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="far fa-file-code"></i>El Yordamı ile 'self' Geçirme</a></li>
+      <li><a href="#C82" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="far fa-file-code"></i> El Yordamı ile 'self' Geçirme</a></li>
       <li><a href="#C12" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="far fa-file-code"></i> super fonksiyonu</a></li>
       <li><a href="#C18" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-list"></i> Python Programları</a></li>
       <li><a href="#C16" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="far fa-file-code"></i> Python 3 Shell</a></li>
