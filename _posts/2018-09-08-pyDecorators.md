@@ -46,12 +46,7 @@ Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nası
 		padding: 5vw;
 		margin: 5vw;
 		border-style: solid;
-	}
-	.pop {
-		font-size: 5vw;
-		text-decoration: overline;
-		text-decoration-color: orange;
-	}
+	} 
 	.cok {
 		background-color: gold;
 		font-size: 5vw;
