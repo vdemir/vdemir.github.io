@@ -279,7 +279,7 @@ obj.name = "Andre"</div>
 <h3 id="C2">Bir Python Nesnesi Oluşturma</h3><hr>
 Artık nesneleri oluşturmak için **myClass** adlı sınıfı kullanabiliriz:
 
-<div class="w3-code notranslate pythonHigh">
+<div class="w3-code">
 {% highlight python %} 
 class MyClass:
   x = 5
@@ -293,7 +293,7 @@ print(MyClass.x)
 <h3 id="C3">Sınıf Eşleme ile Nesne Oluşturma</h3><hr>
  Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">init</code> yordamının kabul ettiği ifadeleri iletirsiniz:
 
-<div class="w3-code notranslate pythonHigh">
+<div class="w3-code">
 {% highlight python %} 
   p1 = Person("John", 36)
 {% endhighlight %}
