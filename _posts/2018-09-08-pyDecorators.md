@@ -45,7 +45,7 @@ Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nası
 	}
 </style>
 
-<div class="box">Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nasıl çalıştığına dair birkaç örnek gördükten sonra değil. Bu makaledeki tüm örnekleri burada bulabilirsiniz.</div>
+<div class="box">Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nasıl çalıştığına dair birkaç örnek gördükten sonra değil.</div>
 
 ## Fonksiyonlar
 
@@ -58,3 +58,14 @@ def add_one(number):
 add_one(2)
 >>> 3
 {% endhighlight %}
+
+
+<style>
+	p {
+		font-size: 5vw;
+		text-decoration: overline;
+		text-decoration-color: orange;
+	}
+</style>
+
+<p>Genel olarak, Python'daki işlevler, bir girdiyi bir çıktıya dönüştürmek yerine, yan etkilere de sahip olabilir. Print () işlevi bunun temel bir örneğidir: Konsola bir şey vermenin yan etkisine sahipken, Hiçbiri'ni döndürmez. Ancak, dekoratörler anlamak için, işlevleri argümanları bir değere dönüştüren bir şey olarak düşünmek yeterlidir.</p>
