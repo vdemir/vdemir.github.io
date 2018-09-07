@@ -27,6 +27,10 @@ img.resize {
 }
 </style>
 
+### Python Dekoratörler Üzerine
+
+
+
 {% highlight python %}
 def my_decorator(func):
     def wrapper():
