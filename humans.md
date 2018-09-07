@@ -16,4 +16,10 @@ permalink: '/humans.txt'
     Last update: {{ site.time }}
     Language: English
     Doctype: HTML5
-    IDE: Sublime Text 3, Github Pages, Jekyll
+    IDE: Github Pages, Jekyll
+
+/* SITE */
+    Son Değişiklik: {{ site.time }}
+    Dil: Türkçe
+    Doctype: HTML5
+    IDE: Github Pages, Jekyll
