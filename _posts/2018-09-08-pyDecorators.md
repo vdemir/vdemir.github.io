@@ -27,8 +27,13 @@ img.resize {
 }
 </style>
 
-# Python Dekoratörler Üzerine Kısa Kısa ...
+## Python Dekoratörler Üzerine Kısa Kısa ...
 
+Dekoratörlerle ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Dekoratörler, yüksek mertebe işlevlerini çağırmak için basit bir sözdizimi sağlar. 
+
+Tanım olarak, bir dekoratör, başka bir işlev alan ve ikincisinin işlevini açıkça değiştirmeden davranışını genişleten bir işlevdir. 
+
+Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nasıl çalıştığına dair birkaç örnek gördükten sonra değil. Bu makaledeki tüm örnekleri burada bulabilirsiniz.
 
 
 {% highlight python %}
