@@ -816,6 +816,40 @@ MyClass.method()
 </main>
 
 <br>
+<h4 id="C865">Özdeş Yordamlar</h4>
+<h6>Instance Methods</h6>
+<hr>
+
+Method denilen **```MyClass```**'taki ilk yordam, normal bir eşleşen yordamdır.
+Bu, çoğu zaman kullanacağınız temel, asgari ihtiyaçları karşılamaya yönelik yordam tipidir. Yordamın bir parametre **```self```** aldığını görebilirsiniz, yordam çağrıldığında **```MyClass```** eşleneğine işaret eder. (ama elbette özdeş yordamlar sadece bir parametreden fazlasını kabul edebilir).
+
+**```self```** parametresi aracılığıyla, eşlenen yordamlar, aynı öbek üzerindeki özniteliklere ve diğer yordamlara serbestçe erişebilir.Bu, bir öbeğin durumunu değiştirmeye sıra geldiğinde onlara çok fazla güç verir.
+
+Onlar sadece öbeğin durumunu değiştirmezler, özdeş yordamlar, sınıfın kendisine **```self .__class__```** özniteliği aracılığıyla da erişebilir. Bu, eşlenen yordamların sınıf durumunu da değiştirebileceği anlamına gelir.
+
+<br><br>
+<h4 id="C866">Sınıf Yordamları</h4>
+<h6>Class Methods</h6>
+<hr>
+
+Bunu ikinci yordam olan **```MyClass.classmethod```** ile karşılaştıralım. Onu bir sınıf yordamı olarak işaret etmek için bu yordamı **```@classmethod```** dekoratörüyle işaretledim.
+
+Bir **```self```** parametresini kabul etmek yerine, sınıf yordamları bir **```cls```** parametresi alır, yordam çağrıldığında -öbek eşleneğine değil- sınıfa işaret eder.
+
+Çünkü sınıf yordamı sadece bu **```cls```** argümanına erişebilir, öbek eşleneğinin durumunu değiştiremez. Bu **```self```**'e erişim gerektirecektir. Ancak, sınıf yordamları hala sınıf durumunu değiştirebilir ki sınıfın tüm özdeşlerine uygulanır.
+
+<br><br>
+<h4 id="C867">Statik Yordamlar</h4>
+<h6>Static Methods</h6>
+<hr>
+
+Üçüncü yöntem, bir statik yordam olarak işaret etmek için **```MyClass.staticmethod```** bir **```@staticmethod```** dekoratör ile işaretlendi.
+
+Bu tip bir yordam ne **```self```** ne de bir **```cls```** parametresini alır (ama tabii ki, diğer parametrelerin rastgele sayısını kabul etmekte serbesttir).
+
+Bu nedenle, statik bir yordam, öbek durumunu ve sınıf durumunu değiştiremez. Statik yordamlar, verilerde erişebilecekleri şeyleri sınırlandırır ve esas olarak yordamlarınızı adlandırmak için bir yoldur.
+
+<br>
 <h5 id="C863">@staticmethod</h5>
 <hr>
 
@@ -858,87 +892,6 @@ Offspring2 static() called
   </article>
 </main>
 
-
-<br>
-<h5 id="C864">@classmethod</h5>
-<hr>
-
-Python'da sınıf yordamı ve statik yordam arasındaki fark vardır. Bu sınıf yordamı, zorunlu bir argümanı - çağırdığı bir sınıf adını - alır. Bir bakalım:
-
-<main class="grid">
-  <article>
-{% highlight python %}
-class Example:
-  name = "Example"
-
-  @classmethod
-  def static(cls):
-    print ("%s static() called" % cls.name)
-
-class Offspring1(Example):
-  name = "Offspring1"
-  pass
-
-class Offspring2(Example):
-  name = "Offspring2"
-
-  @classmethod
-  def static(cls):
-    print ("%s static() called" % cls.name)
-
-Example.static()    # prints Example
-Offspring1.static() # prints Offspring1
-Offspring2.static() # prints Offspring2 
-{% endhighlight %}
-  </article>
-  <article>
-    <div class="text">
-      <p>
-Example static() called <br>
-Offspring1 static() called <br>
-Offspring2 static() called
-</p>
-    </div>
-  </article>
-</main>
-
-Hangisini kullanmalısın? İlk seçenek, yalnızca aynı sınıftaki statik özniteliklere erişmenizi sağlar. İkinci yaklaşımda, alt sınıfların sınıf özniteliklerini, kalıtım sırasında yordamı yeniden tanımlamanın zorunluluğu olmadan değiştirebileceksiniz. İlk varyantı tercih ederim çünkü kişisel olarak daha temiz bir çözüm olduğunu düşünüyorum, ancak ikinci varyant da bazı durumlarda faydalı olabilir.
-
-
-
-<br>
-<h4 id="C865">Eşlenen Yordamlar</h4>
-<h6>Instance Methods</h6>
-<hr>
-
-Method denilen **```MyClass```**'taki ilk yordam, normal bir eşleşen yordamdır.
-Bu, çoğu zaman kullanacağınız temel, asgari ihtiyaçları karşılamaya yönelik yordam tipidir. Yordamın bir parametre **```self```** aldığını görebilirsiniz, yordam çağrıldığında **```MyClass```** eşleneğine işaret eder. (ama elbette özdeş yordamlar sadece bir parametreden fazlasını kabul edebilir).
-
-**```self```** parametresi aracılığıyla, eşlenen yordamlar, aynı öbek üzerindeki özniteliklere ve diğer yordamlara serbestçe erişebilir.Bu, bir öbeğin durumunu değiştirmeye sıra geldiğinde onlara çok fazla güç verir.
-
-Onlar sadece öbeğin durumunu değiştirmezler, özdeş yordamlar, sınıfın kendisine **```self .__class__```** özniteliği aracılığıyla da erişebilir. Bu, eşlenen yordamların sınıf durumunu da değiştirebileceği anlamına gelir.
-
-<br><br>
-<h4 id="C866">Sınıf Yordamları</h4>
-<h6>Class Methods</h6>
-<hr>
-
-Bunu ikinci yordam olan **```MyClass.classmethod```** ile karşılaştıralım. Onu bir sınıf yordamı olarak işaret etmek için bu yordamı **```@classmethod```** dekoratörüyle işaretledim.
-
-Bir **```self```** parametresini kabul etmek yerine, sınıf yordamları bir **```cls```** parametresi alır, yordam çağrıldığında -öbek eşleneğine değil- sınıfa işaret eder.
-
-Çünkü sınıf yordamı sadece bu **```cls```** argümanına erişebilir, öbek eşleneğinin durumunu değiştiremez. Bu **```self```**'e erişim gerektirecektir. Ancak, sınıf yordamları hala sınıf durumunu değiştirebilir ki sınıfın tüm özdeşlerine uygulanır.
-
-<br><br>
-<h4 id="C867">Statik Yordamlar</h4>
-<h6>Static Methods</h6>
-<hr>
-
-Üçüncü yöntem, bir statik yordam olarak işaret etmek için **```MyClass.staticmethod```** bir **```@staticmethod```** dekoratör ile işaretlendi.
-
-Bu tip bir yordam ne **```self```** ne de bir **```cls```** parametresini alır (ama tabii ki, diğer parametrelerin rastgele sayısını kabul etmekte serbesttir).
-
-Bu nedenle, statik bir yordam, öbek durumunu ve sınıf durumunu değiştiremez. Statik yordamlar, verilerde erişebilecekleri şeyleri sınırlandırır ve esas olarak yordamlarınızı adlandırmak için bir yoldur.
 
 <br>
 <h4 id="C868">Sınıf Yordamları Oluşturma</h4>
@@ -1010,6 +963,53 @@ I was called from the instance <__main__.Class object at 0x7f6854953748>
     </div>
   </article>
 </main>
+
+
+<br>
+<h5 id="C864">@classmethod</h5>
+<hr>
+
+Python'da sınıf yordamı ve statik yordam arasındaki fark vardır. Bu sınıf yordamı, zorunlu bir argümanı - çağırdığı bir sınıf adını - alır. Bir bakalım:
+
+<main class="grid">
+  <article>
+{% highlight python %}
+class Example:
+  name = "Example"
+
+  @classmethod
+  def static(cls):
+    print ("%s static() called" % cls.name)
+
+class Offspring1(Example):
+  name = "Offspring1"
+  pass
+
+class Offspring2(Example):
+  name = "Offspring2"
+
+  @classmethod
+  def static(cls):
+    print ("%s static() called" % cls.name)
+
+Example.static()    # prints Example
+Offspring1.static() # prints Offspring1
+Offspring2.static() # prints Offspring2 
+{% endhighlight %}
+  </article>
+  <article>
+    <div class="text">
+      <p>
+Example static() called <br>
+Offspring1 static() called <br>
+Offspring2 static() called
+</p>
+    </div>
+  </article>
+</main>
+
+Hangisini kullanmalısın? İlk seçenek, yalnızca aynı sınıftaki statik özniteliklere erişmenizi sağlar. İkinci yaklaşımda, alt sınıfların sınıf özniteliklerini, kalıtım sırasında yordamı yeniden tanımlamanın zorunluluğu olmadan değiştirebileceksiniz. İlk varyantı tercih ederim çünkü kişisel olarak daha temiz bir çözüm olduğunu düşünüyorum, ancak ikinci varyant da bazı durumlarda faydalı olabilir.
+
 
 <br>
 <h4 id="C88">Sınıf Öznitelikleri 1</h4>
