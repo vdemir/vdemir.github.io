@@ -305,9 +305,13 @@ p1 = Person("John", 36)
 <h3 id="C13">Nesne Özniteliklerini Değiştirmek</h3><hr>
 Bu gibi nesnelerdeki öznitelikleri değiştirebilirsiniz:
 <p>p1'in yaşını 40'a ayarlayın:</p>
-<div class="w3-code notranslate pythonHigh">
-  p1.age = 40</div>
 
+{% highlight python %} 
+<div class="w3-code notranslate">
+  p1.age = 40</div>
+{% endhighlight %}
+
+<br>
 
 <main class="grid">
   <article>
