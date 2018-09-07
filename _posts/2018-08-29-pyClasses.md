@@ -41,7 +41,7 @@ img.resize {
       <li><a href="#C5" style="text-decoration: none; color:#388E3C; cursor:pointer">Sınıf Öbekleri</a></li>
       <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer">Özdeş Öbekler</a></li>
       <li><a href="#C7" style="text-decoration: none; color:#388E3C; cursor:pointer">Yordam Öbekleri</a></li>
-      <li><a href="#C8" style="text-decoration: none; color:#388E3C; cursor:pointer"><Python OOP'a Giriş></a></li>
+      <li><a href="#C8" style="text-decoration: none; color:#388E3C; cursor:pointer">Python Öznitelikler ve Yordamlar</a></li>
       <li><a href="#C9" style="text-decoration: none; color:#388E3C; cursor:pointer">new yordamı</a></li>
       <li><a href="#C10" style="text-decoration: none; color:#388E3C; cursor:pointer">init yordamı</a></li>
       <li><a href="#C11" style="text-decoration: none; color:#388E3C; cursor:pointer">self yordamı</a></li>
