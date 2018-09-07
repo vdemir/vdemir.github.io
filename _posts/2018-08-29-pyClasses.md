@@ -76,7 +76,6 @@ Burada, (class docstring) class_name._doc_ üzerinden erişilebilen bir belge di
 
 <main class="grid">
   <article>
-      <p>
 {% highlight python %}
 # sınıfın tanımı burada başlar  
 class Person:
@@ -106,7 +105,6 @@ person2 = Person("Anne", 30)
 person1.showAge()
 person2.showName()
 {% endhighlight %}
-</p>
   </article>
   <article>
     <div class="text">
@@ -149,8 +147,6 @@ print(MyClass)
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
 {% highlight python %}
 class Sinif:
     def bir_yordam(self):
@@ -166,8 +162,6 @@ ozdes.bir_yordam()
 Sinif.bir_yordam(ozdes)
 # 'Hey bir yordam' yazdırır
 {% endhighlight %}
-</p>
-    </div>
   </article>
   <article>
     <div class="text">
@@ -190,8 +184,6 @@ Sınıf oluşturulduktan çok sonra ve sonradan eşleştirildikten sonra bile bi
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
 {% highlight python %}
 class Class:
    def method(self):
@@ -208,8 +200,6 @@ Class.method = new_method
 instance.method()
 # prints 'New method wins!'
 {% endhighlight %}
-</p>
-    </div>
   </article>
   <article>
     <div class="text">
@@ -253,9 +243,6 @@ Bu gibi nesnelerdeki öznitelikleri değiştirebilirsiniz:
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
 {% highlight python %}
 class Person:
   def __init__(self, name, age):
@@ -270,9 +257,6 @@ p1 = Person("John", 36)
 p1.age = 40
 print(p1.age)
 {% endhighlight %}
-</code></pre>
-</p>
-    </div>
   </article>
   <article>
     <div class="text">
@@ -300,9 +284,6 @@ Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcü
 
 <main class="grid">
   <article>
-    <div class="text">
-      <p>
-<pre><code>
 {% highlight python %}
 class Person:
   def __init__(self, name, age):
@@ -318,9 +299,6 @@ del p1.age
 
 print(p1.age)
 {% endhighlight %}
-</code></pre>
-</p>
-    </div>
   </article>
   <article>
     <div class="text">
