@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   grid-gap: 20px;
-  background-color: gold;
   }
 .grid > article {
   border: 1px solid #ccc;
@@ -15,7 +14,7 @@
   padding: 0 20px 20px;
 }
 .text > button {
-  background: gray;
+  background: #9E9E9E;
   border: 0;
   color: white;
   padding: 10px;
