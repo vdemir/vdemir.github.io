@@ -323,7 +323,7 @@ In [5]:
 
 <br>
 
-<div id="D21" class="pop1">Sözdizimsel şeker!</div>
+<div id="D21" class="pop1">Sözdizimsel Şeker!</div>
 
 Yukarıda say_whee() ile dekore ettiğiniz yol biraz tıkalı. Her şeyden önce, say_whee isminin üç kere yazımını bitirirsiniz. Buna ek olarak, dekorasyon fonksiyonun tanımının aşağısına gizlenmiştir.
 
