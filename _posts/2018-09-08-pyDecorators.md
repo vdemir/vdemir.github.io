@@ -34,7 +34,10 @@ img.resize {
 <br>
 
 + [Fonksiyonlar](#D1)
-    - [Birinci Sınıf Öbekler](#D2)
+    - [Birinci Sınıf Öbekler](#D11)
+    - [İç fonksiyonlar](#D12)
+    - [Fonksiyonlardan Dönen Fonksiyonlar](#D13)
++ [Basit Dekoratörler](#D2)
 
 Dekoratörlerle ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Dekoratörler, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
 
@@ -100,7 +103,7 @@ Genel olarak, Python'daki fonksiyonlar, bir girdiyi bir çıktıya dönüştürm
 
 <br>
 
-<div id="D2" class="pop1">Birinci Sınıf Öbekler</div>
+<div id="D11" class="pop1">Birinci Sınıf Öbekler</div>
 
 Python'da fonksiyonlar birinci sınıf öbeklerdir. Bu fonksiyonlar diğer öbekler gibi (string, int, float, list, vb.), fonksiyonların içinden geçirilip argüman olarak kullanılabileceği anlamına gelir. Aşağıdaki üç fonksiyonu göz önünde bulundurun:
 
@@ -132,7 +135,7 @@ Out[2]: 'Hey Kedi, biz birlikte harikayız!'
 
 <br>
 
-<div class="pop1">İç fonksiyonlar</div>
+<div id="D12" class="pop1">İç fonksiyonlar</div>
 
 **Diğer fonksiyonların içinde fonksiyonlar tanımlamak** mümkündür. Bu gibi fonksiyonlar iç fonksiyonlar içinde çağrılır. İki iç fonksiyonlu bir fonksiyon örneği buradadır:
 
@@ -177,7 +180,7 @@ ebeveyn() çağırdığınızda, ```ilk_veled()``` ve ```ikinci_veled()``` iç f
 
 <br>
 
-<div class="pop1">Fonksiyonlardan Dönen Fonksiyonlar</div>
+<div id="D13" class="pop1">Fonksiyonlardan Dönen Fonksiyonlar</div>
 
 Python, fonksiyonları dönüş değeri olarak kullanmanıza da izin verir. Aşağıdaki örnek, dış ebeveyn() fonksiyonundan iç fonksiyonların birini döndürür. 
 
@@ -228,7 +231,7 @@ Son olarak, daha önceki örnekte, iç fonksiyonları ```ebeveyn``` fonksiyon i�
 
 <br>
 
-<div class="pop1">Basit Dekoratörler</div>
+<div id="D2" class="pop0">Basit Dekoratörler</div>
 
 Artık, bu fonksiyonların Python'daki diğer herhangi bir öbek gibi olduğunu gördüğünüze göre, Python dekoratörü olan büyülü yaratığa geçmeye ve görmeye hazırsınız. Bir örnekle başlayalım:
 
