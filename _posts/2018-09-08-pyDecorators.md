@@ -241,7 +241,7 @@ say_whee = my_decorator(say_whee)
 
 {% endhighlight %}
 
-Say_whee () çağırdığınızda ne olacağını tahmin edebilir misiniz? Dene:
+```say_whee()``` çağırdığınızda ne olacağını tahmin edebilir misiniz? Dene:
 
 {% highlight python %}
 
