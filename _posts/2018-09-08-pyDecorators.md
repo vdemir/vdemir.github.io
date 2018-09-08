@@ -130,7 +130,7 @@ ilk_veled()
 
 ebeveyn() fonksiyonu çağırdığınızda ne olur? Bir dakikalığına düşün bunu. Çıkış aşağıdaki gibi olacaktır:
 
-{% highlight python %}
+{% highlight bash %}
 In [1]: ebeveyn()
 ebeveyn() fonksiyonundan yazdırılıyor
 ikinci_veled() fonksiyonundan yazdırılıyor
