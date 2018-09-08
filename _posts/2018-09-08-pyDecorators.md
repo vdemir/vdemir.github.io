@@ -62,8 +62,8 @@ img.resize {
     - [İç Fonksiyonlar](#D12)
     - [Fonksiyonlardan Dönen Fonksiyonlar](#D13)
 + [Basit Dekoratörler](#D2)
-	&nbsp;- [Sözdizimsel Şeker!](#D21)
-	&nbsp;- [Dekoratörleri Yeniden Kullanmak](#D22)
+   &nbsp;- [Sözdizimsel Şeker!](#D21)
+   &nbsp;- [Dekoratörleri Yeniden Kullanmak](#D22)
 
 Dekoratörlerle ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Dekoratörler, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
 
@@ -350,7 +350,7 @@ Bu yüzden, @my_decorator sadece, say_whee = my_decorator(say_whee) demenin daha
 
 <div id="D22" class="pop1">Dekoratörleri Yeniden Kullanmak</div>
 
-
+Bir dekoratörün sadece normal bir Python işlevi olduğunu hatırlayın. Kolay tekrar kullanılabilirlik için tüm genel araçlar mevcuttur.
 
 
 
