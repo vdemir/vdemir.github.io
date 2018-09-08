@@ -82,23 +82,25 @@ Python'da fonksiyonlar birinci sınıf öbeklerdir. Bu fonksiyonlar diğer öbek
 
 {% highlight python  linenos=table %}
 def say_hello(name):
-    return f"Hello {name}"
+    return "Hello " + name
 
-def be_awesome(name):
-    return f"Yo {name}, together we are the awesomest!"
+def be_awesome(name): 
+    return "Yo" + name + ", together we are the awesomest!"
 
 def greet_bob(greeter_func):
     return greeter_func("Bob")
+
+greet_bob(say_hello)
+greet_bob(be_awesome)
+
 {% endhighlight %}
 
 
 Burada, say_hello() ve be_awesome(), bir dizge olarak verilen bir -**name**- isimi bekleyen normal fonksiyonlardır. Ancak greet_bob() fonksiyonu, kendi ifadesi olarak bir fonksiyon bekler. Örneğin, say_hello() veya be_awesome() fonksiyonuna iletebiliriz:
 
 {% highlight python %}
->>> greet_bob(say_hello)
-'Hello Bob'
->>> greet_bob(be_awesome)
-'Yo Bob, together we are the awesomest!'
+Out[1]: 'Hello Bob'
+Out[2]: 'YoBob, together we are the awesomest!'
 {% endhighlight %}
 
 greet_bob (say_hello) 'nun iki işleve, ancak farklı yollara başvurduğunu unutmayın: greet_bob() ve '''say_hello'''. Say_hello işlevi parantez içermiyor. Bu, işleve yalnızca bir referansın geçirildiği anlamına gelir. İşlev yürütülmez. Öte yandan, greet_bob() işlevi parantez ile yazıldığından, her zamanki gibi çağrılır.
