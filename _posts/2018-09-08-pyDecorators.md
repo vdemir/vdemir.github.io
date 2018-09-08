@@ -58,9 +58,9 @@ img.resize {
 <br>
 
 + [Fonksiyonlar](#D1)
-    - &nbsp;&nbsp;[Birinci Sınıf Öbekler](#D11)
-    - &nbsp;&nbsp;[İç Fonksiyonlar](#D12)
-    - &nbsp;&nbsp;[Fonksiyonlardan Dönen Fonksiyonlar](#D13)
+    - &nbsp;&nbsp;&nbsp;[Birinci Sınıf Öbekler](#D11)
+    - &nbsp;&nbsp;&nbsp;[İç Fonksiyonlar](#D12)
+    - &nbsp;&nbsp;&nbsp;[Fonksiyonlardan Dönen Fonksiyonlar](#D13)
 + [Basit Dekoratörler](#D2)
 &nbsp;&nbsp;- [Sözdizimsel Şeker!](#D21)
 &nbsp;&nbsp;- [Dekoratörleri Yeniden Kullanmak](#D22)
