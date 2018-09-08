@@ -94,5 +94,5 @@ def say_hi(to_who):
 say_hi("World")
 {% endhighlight %}
 
-Burada, say_hello() ve be_awesome(), bir dize olarak verilen bir isim bekleyen normal fonksiyonlardır. Ancak greet_bob() fonksiyonu, argümanı olarak bir fonksiyon bekler. Örneğin, say_hello() veya be_awesome() işlevini iletebiliriz:
+Burada, say_hello() ve be_awesome(), bir dize olarak verilen bir isim bekleyen normal fonksiyonlardır. Ancak greet_bob() fonksiyonu, ifade olarak bir fonksiyon bekler. Örneğin, say_hello() veya be_awesome() fonksiyonunu iletebiliriz:
 
