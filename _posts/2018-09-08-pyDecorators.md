@@ -212,6 +212,6 @@ In [11]: ikinci()
 Out[11]: 'Bana Liam deyin'
 {% endhighlight %}
 
-
+Son olarak, daha önceki örnekte, iç fonksiyonları ebeveyn fonksiyon içinde gerçekleştirdiğinizi unutmayın, örneğin ilk_veled(). Bununla birlikte, bu son örnekte, -return- den sonra iç fonksiyonlara parantez eklemediniz -ilk_veled-. Bu şekilde, gelecekte çağırabileceğiniz her fonksiyona bir atıf aldın. Mantıklı olmak?
 
 
