@@ -60,13 +60,13 @@ Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nası
 
 Dekoratörleri anlayabilmeniz için öncelikle işlevlerin nasıl çalıştığını anlamanız gerekir. Bizim amacımız için, bir işlev verilen argümanlara dayalı bir değer döndürür. İşte çok basit bir örnek:
 
-{% highlight python   linenos %}
+{% highlight python %}
 def add_one(number):
      return number + 1
 
 add_one(2)
-{% endhighlight %}
 >>> 3
+{% endhighlight %}
 
 Genel olarak, Python'daki işlevler, bir girdiyi bir çıktıya dönüştürmek yerine, yan etkilere de sahip olabilir. Print () işlevi bunun temel bir örneğidir: Konsola bir şey vermenin yan etkisine sahipken, Hiçbiri'ni döndürmez. Ancak, dekoratörler anlamak için, işlevleri argümanları bir değere dönüştüren bir şey olarak düşünmek yeterlidir.
 
