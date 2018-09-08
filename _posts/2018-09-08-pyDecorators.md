@@ -274,6 +274,7 @@ say_whee = my_decorator(say_whee)
 
 Aslında, say_whee ismi şimdi wrapper() iç fonksiyonuna işaret etmektedir.
 Çağrı yaptığınızda wrapper fonksiyon olarak döndürdüğünüzü hatırlayın.
+
 my_decorator(say_whee):
 
 {% highlight python  %}
