@@ -347,6 +347,7 @@ def say_whee():
 
 Bu yüzden, @my_decorator sadece, say_whee = my_decorator(say_whee) demenin daha kolay bir yoldur. Bu bir işleve bir dekoratörün nasıl uygulandığıdır.
 
+<br>
 
 <div id="D22" class="pop1">Dekoratörleri Yeniden Kullanmak</div>
 
