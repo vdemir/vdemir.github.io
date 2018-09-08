@@ -131,7 +131,8 @@ ilk_veled()
 ebeveyn() fonksiyonu çağırdığınızda ne olur? Bir dakikalığına düşün bunu. Çıkış aşağıdaki gibi olacaktır:
 
 {% highlight python %}
-In [1]: ebeveyn()ebeveyn() fonksiyonundan yazdırılıyor
+In [1]: ebeveyn()
+ebeveyn() fonksiyonundan yazdırılıyor
 ikinci_veled() fonksiyonundan yazdırılıyor
 ilk_veled() fonksiyonundan yazdırılıyor
 {% endhighlight %}
