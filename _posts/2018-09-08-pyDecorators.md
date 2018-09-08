@@ -128,7 +128,7 @@ def ebeveyn():
 
 {% endhighlight %}
 
-ebeveyn() fonksiyonu çağırdığınızda ne olur? Bir dakikalığına düşün bunu. Çıkış aşağıdaki gibi olacaktır:
+```ebeveyn()``` fonksiyonu çağırdığınızda ne olur? Bir dakikalığına düşün bunu. Çıkış aşağıdaki gibi olacaktır:
 
 {% highlight python %}
 In [1]: ebeveyn()
@@ -139,5 +139,5 @@ ilk_veled() fonksiyonundan okunuyor
 
 İç fonksiyonların tanımlandığı sıranın önemli olmadığını unutmayın. Diğer fonksiyonlarda olduğu gibi, yazdırma yalnızca iç fonksiyonlar yürütüldüğünde gerçekleşir.
 
-Ayrıca, üst fonksiyon çağrılana kadar iç fonksiyonlar tanımlanmamıştır. Bunlar yerel olarak ebeveyn() ile kapsama alınıp araştırılır: bunlar yalnızca yerel değişkenler olarak ebeveyn() fonksiyonu içinde bulunur. ilk_veled() öğesini çağırmayı deneyin. Bir hata almalısınız:
+Ayrıca, üst fonksiyon çağrılana kadar iç fonksiyonlar tanımlanmamıştır. Bunlar yerel olarak ```ebeveyn()``` ile kapsama alınıp araştırılır: bunlar yalnızca yerel değişkenler olarak ```ebeveyn()``` fonksiyonu içinde bulunur. ```ilk_veled()``` öğesini çağırmayı deneyin. Bir hata almalısınız:
 
