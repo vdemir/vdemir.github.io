@@ -61,15 +61,15 @@ Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nası
 
 Dekoratörleri anlayabilmeniz için öncelikle fonksiyonların nasıl çalıştığını anlamanız gerekir. Bizim amacımız için, bir fonksiyon verilen ifadelere dayalı bir değer döndürür. İşte çok basit bir örnek:
 
-{% highlight python %}
+{% highlight python linenos=table %}
 def add_one(number):
      return number + 1
 
-add_one(2)
 {% endhighlight %}
 
-{% highlight bash %}
->>> 3
+{% highlight python %}
+In [1]: add_one(2)
+Out[1]:  3
 {% endhighlight %}
 
 Genel olarak, Python'daki fonksiyonlar, bir girdiyi bir çıktıya dönüştürmek yerine, yan etkilere de sahip olabilir. print() fonksiyonu bunun temel bir örneğidir: Konsola bir şey vermenin yan etkisine sahipken, hiçbiri'ni döndürmez. Ancak, dekoratörler anlamak için, fonksiyonları ifadeleri bir değere dönüştüren bir şey olarak düşünmek yeterlidir.
