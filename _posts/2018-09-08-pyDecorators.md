@@ -115,13 +115,13 @@ Out[2]: 'Hey Kedi, biz birlikte harikayız!'
 {% highlight python  linenos=table %}
 
 def ebeveyn():
-    print("ebeveyn() fonksiyonundan okunuyor")
+    print("ebeveyn() fonksiyonundan okunuyor ...")
 
     def ilk_veled():
-        print("ilk_veled() fonksiyonundan okunuyor")
+        print("ilk_veled() fonksiyonundan okunuyor ...")
 
     def ikinci_veled():
-        print("ikinci_veled() fonksiyonundan okunuyor")
+        print("ikinci_veled() fonksiyonundan okunuyor ...")
 
     ikinci_veled()
     ilk_veled()
@@ -132,9 +132,9 @@ def ebeveyn():
 
 {% highlight python %}
 In [1]: ebeveyn()
-ebeveyn() fonksiyonundan okunuyor
-ikinci_veled() fonksiyonundan okunuyor
-ilk_veled() fonksiyonundan okunuyor
+ebeveyn() fonksiyonundan okunuyor ...
+ikinci_veled() fonksiyonundan okunuyor ...
+ilk_veled() fonksiyonundan okunuyor ...
 {% endhighlight %}
 
 İç fonksiyonların tanımlandığı sıranın önemli olmadığını unutmayın. Diğer fonksiyonlarda olduğu gibi, yazdırma yalnızca iç fonksiyonlar yürütüldüğünde gerçekleşir.
