@@ -115,15 +115,19 @@ Diğer fonksiyonların içindeki fonksiyonları tanımlamak mümkündür. Bu fon
 {% highlight python  linenos=table %}
 
 def ebeveyn():
-    print("ebeveyn() fonksiyonundan yazdırma")
+    print("ebeveyn() fonksiyonundan yazdırılıyor")
 
     def ilk_veled():
-        print("ilk_veled() fonksiyonundan yazdırma")
+        print("ilk_veled() fonksiyonundan yazdırılıyor")
 
     def ikinci_veled():
-        print("ikinci_veled() fonksiyonundan yazdırma")
+        print("ikinci_veled() fonksiyonundan yazdırılıyor")
 
     ikinci_veled()
     ilk_veled()
 
 {% endhighlight %}
+
+ebeveyn() fonksiyonu çağırdığınızda ne olur? Bir dakikalığına düşün bunu. Çıkış aşağıdaki gibi olacaktır:
+
+
