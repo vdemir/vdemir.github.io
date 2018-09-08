@@ -32,13 +32,13 @@ img.resize {
 <div class="pop">Dekoratörler</div> 
 
 <br>
-Sözdizimsel şeker!
+
 + [Fonksiyonlar](#D1)
     - [Birinci Sınıf Öbekler](#D11)
-    - [İç fonksiyonlar](#D12)
+    - [İç Fonksiyonlar](#D12)
     - [Fonksiyonlardan Dönen Fonksiyonlar](#D13)
 + [Basit Dekoratörler](#D2)
-	- [Basit Dekoratörler](#D21)
+	- [Sözdizimsel Şeker!](#D21)
 
 Dekoratörlerle ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Dekoratörler, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
 
