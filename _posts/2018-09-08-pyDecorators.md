@@ -130,7 +130,7 @@ ilk_veled()
 
 ebeveyn() fonksiyonu çağırdığınızda ne olur? Bir dakikalığına düşün bunu. Çıkış aşağıdaki gibi olacaktır:
 
-{% highlight python utf8=true %}
+{% highlight python %}
 In [1]: ebeveyn()
 ebeveyn() fonksiyonundan okunuyor
 ikinci_veled() fonksiyonundan okunuyor
