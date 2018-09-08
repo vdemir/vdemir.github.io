@@ -325,5 +325,25 @@ In [5]:
 
 <div id="D21" class="pop1">Sözdizimsel şeker!</div>
 
+Yukarıda say_whee() ile dekore ettiğiniz yol biraz tıkalı. Her şeyden önce, say_whee isminin üç kere yazımını bitirirsiniz. Buna ek olarak, dekorasyon fonksiyonun tanımının aşağısına gizlenmiştir.
 
+Bunun yerine, Python, bazen 'pie' sözdizimi olarak da adlandırılan @ sembolüyle daha basit bir şekilde dekoratörler kullanmanıza izin verir. Aşağıdaki örnek, ilk dekoratör örneğiyle tamamen aynı şeyi yapar:
+
+{% highlight python  linenos=table %}
+
+def my_decorator(func):
+    def wrapper():
+        print("Something is happening before the function is called.")
+        func()
+        print("Something is happening after the function is called.")
+    return wrapper
+
+@my_decorator
+def say_whee():
+    print("Whee!")
+
+{% endhighlight %}
+
+Bu yüzden, @my_decorator sadece, say_whee = demenin daha kolay bir yoldur.
+my_decorator(say_whee). Bir işleve bir dekoratör nasıl uygulanır.
 
