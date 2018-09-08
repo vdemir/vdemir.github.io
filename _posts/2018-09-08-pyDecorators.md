@@ -53,7 +53,7 @@ Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nası
 		text-decoration-color: orange;
 	}
 	.pop1 {
-		font-size: 1vw;
+		font-size: 2vw;
 		text-decoration: underline;
 		text-decoration-color: orange;
 	}
