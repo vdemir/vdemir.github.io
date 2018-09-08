@@ -131,6 +131,7 @@ def ebeveyn():
 ebeveyn() fonksiyonu çağırdığınızda ne olur? Bir dakikalığına düşün bunu. Çıkış aşağıdaki gibi olacaktır:
 
 {% highlight python %}
-In [1]: ebeveyn()
-Out[1]: 'Merhaba Kedi'
+In [1]: ebeveyn()ebeveyn() fonksiyonundan yazdırılıyor
+ikinci_veled() fonksiyonundan yazdırılıyor
+ilk_veled() fonksiyonundan yazdırılıyor
 {% endhighlight %}
