@@ -2,7 +2,7 @@
 layout: post
 title:  Python Dekoratörler
 date:   2018-09-08 12:00:00
-last_updated: 2018-09-08 12:00:00
+last_updated: 2018-09-09 12:00:00
 keywords: linux, python, decorators
 summary: "Python 3 Dekoratörlere Giriş"
 excerpt: This post is about Python Decorators.
