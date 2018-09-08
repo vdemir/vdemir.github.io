@@ -139,5 +139,5 @@ ilk_veled() fonksiyonundan okunuyor
 
 İç fonksiyonların tanımlandığı sıranın önemli olmadığını unutmayın. Diğer fonksiyonlarda olduğu gibi, yazdırma yalnızca iç fonksiyonlar yürütüldüğünde gerçekleşir.
 
-
+Ayrıca, üst fonksiyon çağrılana kadar iç fonksiyonlar tanımlanmamıştır. Bunlar yerel olarak ebeveyn() ile kapsama alınıp araştırılır: bunlar yalnızca yerel değişkenler olarak ebeveyn() fonksiyonu içinde bulunur. ilk_veled() öğesini çağırmayı deneyin. Bir hata almalısınız:
 
