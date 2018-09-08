@@ -79,7 +79,7 @@ Genel olarak, Python'daki fonksiyonlar, bir girdiyi bir çıktıya dönüştürm
  
 ## Birinci Sınıf Öbekler
 
-Python'da fonksiyonlar birinci sınıf öbeklerdir. Bu fonksiyonlar diğer öbekler gibi (string, int, float, list, vb.), fonksiyonların içinden geçirilip argüman olarak kullanılabileceği anlamına gelir. Aşağıdaki üç işlevi göz önünde bulundurun:
+Python'da fonksiyonlar birinci sınıf öbeklerdir. Bu fonksiyonlar diğer öbekler gibi (string, int, float, list, vb.), fonksiyonların içinden geçirilip argüman olarak kullanılabileceği anlamına gelir. Aşağıdaki üç fonksiyonu göz önünde bulundurun:
 
 {% highlight python  linenos=table %}
 def merhaba_de(ad):
