@@ -183,5 +183,15 @@ def ebeveyn(num):
 Parantez olmadan ```ilk_veled``` döndürdüğünüzü unutmayın. Bunun, ```ilk_veled``` fonksiyonuna bir atıf döndürdüğünüz anlamına geldiğini hatırlayın. Aksine, ```ilk_veled()``` parantez içinde, fonksiyonun değerlendirilmesi sonucunu ifade eder. Bu, aşağıdaki örnekte görülebilir:
 
 
+{% highlight python %}
+In [1]: ilk=ebeveyn(1)
 
+In [2]: ilk
+Out[3]: <function __main__.ebeveyn.<locals>.ilk_veled>
+
+In [4]: ikinci=ebeveyn(2)
+
+In [5]: ikinci
+Out[6]: <function __main__.ebeveyn.<locals>.ikinci_veled>
+{% endhighlight %}
 
