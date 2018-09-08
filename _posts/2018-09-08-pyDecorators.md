@@ -81,17 +81,14 @@ Genel olarak, Python'daki fonksiyonlar, bir girdiyi bir çıktıya dönüştürm
 Python'da fonksiyonlar birinci sınıf öbeklerdir. Bu fonksiyonlar diğer öbekler gibi (string, int, float, list, vb.), fonksiyonların içinden geçirilip argüman olarak kullanılabileceği anlamına gelir. Aşağıdaki üç işlevi göz önünde bulundurun:
 
 {% highlight python  linenos=table %}
-def say_hello(name):
-    return "Hello " + name
+def merhaba_de(ad):
+    return "Merhaba " + ad
 
-def be_awesome(name): 
-    return "Yo" + name + ", together we are the awesomest!"
+def harika_ol(name): 
+    return "Hey " + ad + ", biz birlikte harikayız!"
 
-def greet_bob(greeter_func):
-    return greeter_func("Bob")
-
-
-
+def merhaba_kedi(selamlama_fonk):
+    return selamlama_fonk("Kedi")
 
 {% endhighlight %}
 
@@ -99,10 +96,10 @@ def greet_bob(greeter_func):
 Burada, say_hello() ve be_awesome(), bir dizge olarak verilen bir -**name**- isimi bekleyen normal fonksiyonlardır. Ancak greet_bob() fonksiyonu, kendi ifadesi olarak bir fonksiyon bekler. Örneğin, say_hello() veya be_awesome() fonksiyonuna iletebiliriz:
 
 {% highlight bash %}
-In[1]: greet_bob(say_hello)
-Out[1]: 'Hello Bob'
-In[2]: greet_bob(be_awesome)
-Out[2]: 'YoBob, together we are the awesomest!'
+In[1]: merhaba_kedi(merhaba_de)
+Out[1]: 'Merhaba Bob'
+In[2]: merhaba_kedi(harika_ol)
+Out[2]: 'Hey Kedi, biz birlikte harikayız!'
 {% endhighlight %}
 
 greet_bob (say_hello) 'nun iki işleve, ancak farklı yollara başvurduğunu unutmayın: greet_bob() ve '''say_hello'''. Say_hello işlevi parantez içermiyor. Bu, işleve yalnızca bir referansın geçirildiği anlamına gelir. İşlev yürütülmez. Öte yandan, greet_bob() işlevi parantez ile yazıldığından, her zamanki gibi çağrılır.
