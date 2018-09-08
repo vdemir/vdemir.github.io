@@ -325,7 +325,7 @@ In [5]:
 
 <div id="D21" class="pop1">Sözdizimsel Şeker!</div>
 
-Yukarıda say_whee() ile dekore ettiğiniz yol biraz tıkalı. Her şeyden önce, say_whee isminin üç kere yazımını bitirirsiniz. Buna ek olarak, dekorasyon fonksiyonun tanımının aşağısına gizlenmiştir.
+Yukarıda say_whee() ile dekore ettiğiniz yol biraz biçimsiz ve hantal. Her şeyden önce, say_whee isminin üç kere yazımını bitirirsiniz. Buna ek olarak, dekorasyon fonksiyonun tanımının aşağısına gizlenmiştir.
 
 Bunun yerine, Python, bazen 'pie' sözdizimi olarak da adlandırılan @ sembolüyle daha basit bir şekilde dekoratörler kullanmanıza izin verir. Aşağıdaki örnek, ilk dekoratör örneğiyle tamamen aynı şeyi yapar:
 
