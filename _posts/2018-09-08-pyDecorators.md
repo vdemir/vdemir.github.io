@@ -344,6 +344,5 @@ def say_whee():
 
 {% endhighlight %}
 
-Bu yüzden, @my_decorator sadece, say_whee = demenin daha kolay bir yoldur.
-my_decorator(say_whee). Bu bir işleve bir dekoratörün nasıl uygulandığıdır.
+Bu yüzden, @my_decorator sadece, say_whee = my_decorator(say_whee) demenin daha kolay bir yoldur. Bu bir işleve bir dekoratörün nasıl uygulandığıdır.
 
