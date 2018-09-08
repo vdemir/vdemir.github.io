@@ -34,7 +34,7 @@ img.resize {
 <br>
 
 * [Fonksiyonlar](#D1)
-..* [Birinci Sınıf Öbekler](#D2)
+    * [Birinci Sınıf Öbekler](#D2)
 
 Dekoratörlerle ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Dekoratörler, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
 
