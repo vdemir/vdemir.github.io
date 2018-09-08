@@ -33,7 +33,8 @@ img.resize {
 
 <br>
 
-* [Fonksiyonlar](#D1) - Fonksiyonlar
+* [Fonksiyonlar](#D1)
+   * [Birinci Sınıf Öbekler](#D2)
 
 Dekoratörlerle ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Dekoratörler, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
 
@@ -94,7 +95,7 @@ Genel olarak, Python'daki fonksiyonlar, bir girdiyi bir çıktıya dönüştürm
 
 <br>
 
-<div class="pop1">Birinci Sınıf Öbekler</div>
+<div id="D2" class="pop1">Birinci Sınıf Öbekler</div>
 
 Python'da fonksiyonlar birinci sınıf öbeklerdir. Bu fonksiyonlar diğer öbekler gibi (string, int, float, list, vb.), fonksiyonların içinden geçirilip argüman olarak kullanılabileceği anlamına gelir. Aşağıdaki üç fonksiyonu göz önünde bulundurun:
 
