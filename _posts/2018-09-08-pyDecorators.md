@@ -96,7 +96,6 @@ Burada, say_hello() ve be_awesome(), bir dizge olarak verilen bir -**name**- isi
 {% highlight bash %}
 >>> greet_bob(say_hello)
 'Hello Bob'
-
 >>> greet_bob(be_awesome)
 'Yo Bob, together we are the awesomest!'
 {% endhighlight %}
