@@ -93,7 +93,7 @@ def merhaba_kedi(selamlama_fonk):
 {% endhighlight %}
 
 
-Burada, merhaba_de() ve harika_ol(), bir dizge olarak verilen bir -**ad**- ismini bekleyen normal fonksiyonlardır. Ancak merhaba_kedi() fonksiyonu, kendi ifadesi olarak bir fonksiyon -selamlama_fonk- bekler. Örneğin, merhaba_de() veya harika_ol() fonksiyonuna iletebiliriz:
+Burada, ```merhaba_de()``` ve ```harika_ol()```, bir dizge olarak verilen bir -**ad**- ismini bekleyen normal fonksiyonlardır. Ancak ```merhaba_kedi()``` fonksiyonu, kendi ifadesi olarak bir fonksiyon -selamlama_fonk- bekler. Örneğin, ```merhaba_de()``` veya ```harika_ol()``` fonksiyonuna iletebiliriz:
 
 {% highlight python %}
 In [1]: merhaba_kedi(merhaba_de)
