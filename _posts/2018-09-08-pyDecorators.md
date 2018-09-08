@@ -316,4 +316,7 @@ Yatma zamanı sonrası **say_whee()** çağırmayı denerseniz, hiçbir şey olm
 In [1]: say_whee()
 Whee!
 
+In [4]: say_whee()
+
+In [5]: 
 {% endhighlight %}
