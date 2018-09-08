@@ -191,11 +191,11 @@ Parantez olmadan ```ilk_veled``` döndürdüğünüzü unutmayın. Bunun, ```ilk
 {% highlight python %}
 In [1]: ilk=ebeveyn(1)
 In [2]: ilk
-Out[3]: <function __main__.ebeveyn.<locals>.ilk_veled>
+Out[2]: <function __main__.ebeveyn.<locals>.ilk_veled>
 
 In [4]: ikinci=ebeveyn(2)
 In [5]: ikinci
-Out[6]: <function __main__.ebeveyn.<locals>.ikinci_veled>
+Out[5]: <function __main__.ebeveyn.<locals>.ikinci_veled>
 {% endhighlight %}
 
 Bir miktar şifreli çıktı, basitçe, ```ebeveyn()``` içindeki, ```ikinci``` değişkeni ```ikinci_veled()``` fonksiyonuna işaret ederken ```ilk``` değişkeni yerel ```ilk_veled()``` fonksiyonuna başvurur.
