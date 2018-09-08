@@ -52,6 +52,11 @@ Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nası
 		text-decoration: overline;
 		text-decoration-color: orange;
 	}
+	.pop1 {
+		font-size: 3vw;
+		text-decoration: underline;
+		text-decoration-color: orange;
+	}
 </style>
 
 <div class="box">Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nasıl çalıştığına dair birkaç örnek gördükten sonra değil.</div>
@@ -142,9 +147,15 @@ ilk_veled() fonksiyonundan okunuyor ...
 Ayrıca, üst fonksiyon çağrılana kadar iç fonksiyonlar tanımlanmamıştır. Bunlar yerel olarak ```ebeveyn()``` ile kapsama alınıp araştırılır: bunlar yalnızca yerel değişkenler olarak ```ebeveyn()``` fonksiyonu içinde bulunur. ```ilk_veled()``` öğesini çağırmayı deneyin. Bir hata almalısınız:
 
 {% highlight python %}
-In [3]: ilk_veled()
+In [2]: ilk_veled()
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
     ilk_veled()
 NameError: name 'ilk_veled' is not defined
 {% endhighlight %}
+
+ebeveyn() çağırdığınızda, ilk_veled() ve ikinci_veled() iç fonksiyonları da
+çağrılır. Ancak yerel kapsamı nedeniyle, ebeveyn() fonksiyonu dışında mevcut değildir.
+
+<div class="pop1">Fonksiyonlardan Dönen Fonksiyonlar</div>
+
