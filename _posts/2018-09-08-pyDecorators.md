@@ -267,15 +267,21 @@ Burada neler olduğunu anlamak için önceki örneklere bakın. Tam anlamıyla �
 Sözde dekorasyon şu satırda gerçekleşir:
 
 {% highlight python  linenos=table %}
+
 say_whee = my_decorator(say_whee)
+
 {% endhighlight %}
 
 Aslında, say_whee ismi şimdi wrapper() iç fonksiyonuna işaret etmektedir.
 Çağrı yaptığınızda wrapper fonksiyon olarak döndürdüğünüzü hatırlayın.
 my_decorator(say_whee):
 
+{% highlight python  %}
 
+In [3]: say_whee
+Out[3]: <function __main__.my_decorator.<locals>.wrapper>
 
+{% endhighlight %}
 
 
 
