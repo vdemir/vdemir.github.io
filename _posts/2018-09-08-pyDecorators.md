@@ -219,6 +219,20 @@ Son olarak, daha önceki örnekte, iç fonksiyonları ```ebeveyn``` fonksiyon i�
 
 Artık, bu fonksiyonların Python'daki diğer herhangi bir öbek gibi olduğunu gördüğünüze göre, Python dekoratörü olan büyülü yaratığa geçmeye ve görmeye hazırsınız. Bir örnekle başlayalım:
 
+{% highlight python  linenos=table %}
+
+def my_decorator(func):
+    def wrapper():
+        print("Something is happening before the function is called.")
+        func()
+        print("Something is happening after the function is called.")
+    return wrapper
+
+def say_whee():
+    print("Whee!")
+
+say_whee = my_decorator(say_whee)
+{% endhighlight %}
 
 
 
