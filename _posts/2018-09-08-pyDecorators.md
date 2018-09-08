@@ -193,9 +193,9 @@ In [5]: ikinci
 Out[6]: <function __main__.ebeveyn.<locals>.ikinci_veled>
 {% endhighlight %}
 
-Bir miktar şifreli çıktı basitçe, ebeveyn() içindeki, ikinci değişkeni ikinci_veled() fonksiyonunu işaret ederken ilk değişken yerel ilk_veled() fonksiyonuna başvurur.
+Bir miktar şifreli çıktı basitçe, ```ebeveyn()``` içindeki, ```ikinci``` değişkeni ```ikinci_veled()``` fonksiyonunu işaret ederken ```ilk``` değişkeni yerel ```ilk_veled()``` fonksiyonuna başvurur.
 
-İşaret ettikleri işlevler doğrudan erişilemese bile, artık normal işlevlermiş gibi ilk ve ikinci olarak kullanabilirsiniz:
+İşaret ettikleri fonksiyonlara doğrudan erişilemese bile, artık normal fonksiyonlarmış gibi ```ilk``` ve ```ikinci``` olarak kullanabilirsiniz:
 
 
 
