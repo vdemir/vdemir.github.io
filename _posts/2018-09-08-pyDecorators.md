@@ -130,4 +130,7 @@ def ebeveyn():
 
 ebeveyn() fonksiyonu çağırdığınızda ne olur? Bir dakikalığına düşün bunu. Çıkış aşağıdaki gibi olacaktır:
 
-
+{% highlight python %}
+In [1]: ebeveyn()
+Out[1]: 'Merhaba Kedi'
+{% endhighlight %}
