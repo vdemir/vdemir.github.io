@@ -168,6 +168,7 @@ NameError: name 'ilk_veled' is not defined
 
 ebeveyn() çağırdığınızda, ```ilk_veled()``` ve ```ikinci_veled()``` iç fonksiyonları da çağrılır. Ancak yerel kapsamı nedeniyle, ```ebeveyn()``` fonksiyonu dışında mevcut değildir.
 
+<br>
 
 <div class="pop1">Fonksiyonlardan Dönen Fonksiyonlar</div>
 
@@ -218,6 +219,7 @@ Out[11]: 'Bana Liam deyin'
 
 Son olarak, daha önceki örnekte, iç fonksiyonları ```ebeveyn``` fonksiyon içinde gerçekleştirdiğinizi unutmayın,```ilk_veled()``` özdeşi. Bununla birlikte, bu son örnekte, -```return```- den sonra iç fonksiyonlara parantez eklemediniz -```ilk_veled```-. Bu şekilde, gelecekte çağırabileceğiniz her bir fonksiyona bir atıf aldın. Mantıklı olmak?
 
+<br>
 
 <div class="pop1">Basit Dekoratörler</div>
 
