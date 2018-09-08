@@ -346,3 +346,29 @@ def say_whee():
 
 Bu yüzden, @my_decorator sadece, say_whee = my_decorator(say_whee) demenin daha kolay bir yoldur. Bu bir işleve bir dekoratörün nasıl uygulandığıdır.
 
+``` ruby
+# Public: Duplicate some text an abitrary number of times.
+#
+# text  - The String to be duplicated.
+# count - The Integer number of times to duplicate the text.
+#
+# Examples
+#
+#   multiplex('Tom', 4)
+#   # => 'TomTomTomTom'
+#
+# Returns the duplicated String.
+def multiplex(text, count)
+  text * count
+end
+```
+
+
+
+
+
+
+
+
+
+
