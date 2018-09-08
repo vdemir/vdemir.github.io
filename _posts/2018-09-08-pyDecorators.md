@@ -40,8 +40,8 @@ Dekoratörlerle ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullan
 
 Matematik ve bilgisayar bilimlerinde, daha yüksek mertebeden bir fonksiyon (aynı zamanda fonksiyonel, fonksiyonel form) aşağıdakilerden en az birini yapan bir fonksiyondur: 
 
-- ifade olarak bir veya daha fazla fonksiyon alır (örn. Yordamsal parametreler) , 
-- sonuç olarak bir fonksiyonu döndürür.
+1. ifade olarak bir veya daha fazla fonksiyon alır (örn. Yordamsal parametreler) , 
+2. sonuç olarak bir fonksiyonu döndürür.
 
 Tanım olarak, bir dekoratör, başka bir fonksiyon alan ve  açık bir şekilde değiştirmeden aldığı fonksiyonun davranışını genişleten bir fonksiyondur. 
 
