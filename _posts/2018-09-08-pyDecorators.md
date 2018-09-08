@@ -117,10 +117,10 @@ Diğer fonksiyonların içindeki fonksiyonları tanımlamak mümkündür. Bu fon
 def ebeveyn():
     print("ebeveyn() fonksiyonundan yazdırılıyor")
 
-def ilk_veled():
+    def ilk_veled():
         print("ilk_veled() fonksiyonundan yazdırılıyor")
 
-def ikinci_veled():
+    def ikinci_veled():
         print("ikinci_veled() fonksiyonundan yazdırılıyor")
 
 ikinci_veled()
