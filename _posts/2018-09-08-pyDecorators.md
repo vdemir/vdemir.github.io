@@ -200,7 +200,7 @@ Out[6]: <function __main__.ebeveyn.<locals>.ikinci_veled>
 
 Bir miktar şifreli çıktı, basitçe, ```ebeveyn()``` içindeki, ```ikinci``` değişkeni ```ikinci_veled()``` fonksiyonuna işaret ederken ```ilk``` değişkeni yerel ```ilk_veled()``` fonksiyonuna başvurur.
 
-İşaret ettikleri fonksiyonlara doğrudan erişilemese bile, artık normal fonksiyonlarmış gibi ```ilk``` ve ```ikinci``` olarak kullanabilirsiniz:
+İşaret ettikleri fonksiyonlara doğrudan erişilemese bile, artık normal fonksiyonlarmış gibi şimdi ```ilk``` ve ```ikinci``` kullanabilirsiniz:
 
 {% highlight python %}
 In [8]: ilk=ebeveyn(1)
