@@ -60,7 +60,7 @@ Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nası
 
 Dekoratörleri anlayabilmeniz için öncelikle işlevlerin nasıl çalıştığını anlamanız gerekir. Bizim amacımız için, bir işlev verilen argümanlara dayalı bir değer döndürür. İşte çok basit bir örnek:
 
-{% highlight python %}
+{% highlight python   linenos %}
 def add_one(number):
      return number + 1
 
