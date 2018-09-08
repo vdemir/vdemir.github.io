@@ -253,7 +253,7 @@ say_whee = my_decorator(say_whee)
 
 ```say_whee()``` çağırdığınızda ne olacağını tahmin edebilir misiniz? Dene:
 
-{% highlight bash %}
+{% highlight c %}
 
 In [1]: say_whee()
 Something is happening before the function is called.
