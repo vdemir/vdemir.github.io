@@ -90,8 +90,8 @@ def be_awesome(name):
 def greet_bob(greeter_func):
     return greeter_func("Bob")
 
-greet_bob(say_hello)
-greet_bob(be_awesome)
+
+
 
 {% endhighlight %}
 
@@ -99,7 +99,9 @@ greet_bob(be_awesome)
 Burada, say_hello() ve be_awesome(), bir dizge olarak verilen bir -**name**- isimi bekleyen normal fonksiyonlardır. Ancak greet_bob() fonksiyonu, kendi ifadesi olarak bir fonksiyon bekler. Örneğin, say_hello() veya be_awesome() fonksiyonuna iletebiliriz:
 
 {% highlight python %}
+In[1]: greet_bob(say_hello)
 Out[1]: 'Hello Bob'
+In[2]: greet_bob(be_awesome)
 Out[2]: 'YoBob, together we are the awesomest!'
 {% endhighlight %}
 
