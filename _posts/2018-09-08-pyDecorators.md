@@ -27,30 +27,6 @@ img.resize {
 }
 </style>
 
-<br>
-
-<div class="pop">Dekoratörler</div> 
-
-<br>
-
-+ [Fonksiyonlar](#D1)
-    - [Birinci Sınıf Öbekler](#D11)
-    - [İç Fonksiyonlar](#D12)
-    - [Fonksiyonlardan Dönen Fonksiyonlar](#D13)
-+ [Basit Dekoratörler](#D2)
-	- [Sözdizimsel Şeker!](#D21)
-
-Dekoratörlerle ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Dekoratörler, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
-
-Matematik ve bilgisayar bilimlerinde, daha yüksek mertebeden bir fonksiyon (aynı zamanda fonksiyonel, fonksiyonel form) aşağıdakilerden en az birini yapan bir fonksiyondur: 
-
-1. ifade olarak bir veya daha fazla fonksiyon alır (örn. Yordamsal parametreler) , 
-2. sonuç olarak bir fonksiyonu döndürür.
-
-Tanım olarak, bir dekoratör, başka bir fonksiyon alan ve  açık bir şekilde değiştirmeden aldığı fonksiyonun davranışını genişleten bir fonksiyondur. 
-
-Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nasıl çalıştığına dair birkaç örnek gördükten sonra değil. Bu makaledeki tüm örnekleri burada bulabilirsiniz.
-
 <style>
 	.box {
 		color: orange;
@@ -75,6 +51,31 @@ Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nası
 		text-decoration-color: orange;
 	}
 </style>
+<br>
+
+<div class="pop">Dekoratörler</div> 
+
+<br>
+
++ [Fonksiyonlar](#D1)
+    - [Birinci Sınıf Öbekler](#D11)
+    - [İç Fonksiyonlar](#D12)
+    - [Fonksiyonlardan Dönen Fonksiyonlar](#D13)
++ [Basit Dekoratörler](#D2)
+	&nbsp;- [Sözdizimsel Şeker!](#D21)
+	&nbsp;- [Dekoratörleri Yeniden Kullanmak](#D22)
+
+Dekoratörlerle ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Dekoratörler, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
+
+Matematik ve bilgisayar bilimlerinde, daha yüksek mertebeden bir fonksiyon (aynı zamanda fonksiyonel, fonksiyonel form) aşağıdakilerden en az birini yapan bir fonksiyondur: 
+
+1. ifade olarak bir veya daha fazla fonksiyon alır (örn. Yordamsal parametreler) , 
+2. sonuç olarak bir fonksiyonu döndürür.
+
+Tanım olarak, bir dekoratör, başka bir fonksiyon alan ve  açık bir şekilde değiştirmeden aldığı fonksiyonun davranışını genişleten bir fonksiyondur. 
+
+Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nasıl çalıştığına dair birkaç örnek gördükten sonra değil. Bu makaledeki tüm örnekleri burada bulabilirsiniz.
+
 
 <div class="box">Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nasıl çalıştığına dair birkaç örnek gördükten sonra değil.</div>
 
@@ -346,6 +347,8 @@ def say_whee():
 
 Bu yüzden, @my_decorator sadece, say_whee = my_decorator(say_whee) demenin daha kolay bir yoldur. Bu bir işleve bir dekoratörün nasıl uygulandığıdır.
 
+
+<div id="D22" class="pop1">Dekoratörleri Yeniden Kullanmak</div>
 
 
 
