@@ -62,13 +62,13 @@ Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nası
 Dekoratörleri anlayabilmeniz için öncelikle fonksiyonların nasıl çalıştığını anlamanız gerekir. Bizim amacımız için, bir fonksiyon verilen ifadelere dayalı bir değer döndürür. İşte çok basit bir örnek:
 
 {% highlight python linenos=table %}
-def add_one(number):
-     return number + 1
+def ekle_bir(numara):
+     return numara + 1
 
 {% endhighlight %}
 
 {% highlight python %}
-In [1]: add_one(2)
+In [1]: ekle_bir(2)
 Out[1]:  3
 {% endhighlight %}
 
