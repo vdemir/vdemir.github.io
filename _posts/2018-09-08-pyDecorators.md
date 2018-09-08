@@ -163,7 +163,7 @@ ebeveyn() çağırdığınızda, ```ilk_veled()``` ve ```ikinci_veled()``` iç f
 
 <div class="pop1">Fonksiyonlardan Dönen Fonksiyonlar</div>
 
-Python, fonksiyonları dönüş değeri olarak kullanmanıza da izin verir. Aşağıdaki örnek, dış ebeveyn() Parantez olmadan ilk_veled döndürdüğünüzü unutmayın. Bunun, ilk_veled işlevine bir başvuru döndürdüğünüz anlamına geldiğini unutmayın. Aksine, ilk_veled() parantez içinde, işlevi değerlendirmenin sonucudur. Bu, aşağıdaki örnekte görülebilir:ndan iç fonksiyonlardan birini döndürür:
+Python, fonksiyonları dönüş değeri olarak kullanmanıza da izin verir. Aşağıdaki örnek, dış ebeveyn() fonksiyonundan iç fonksiyonların birini döndürür. 
 
 {% highlight python  linenos=table %}
 
