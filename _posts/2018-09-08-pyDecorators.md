@@ -157,14 +157,13 @@ Traceback (most recent call last):
 NameError: name 'ilk_veled' is not defined
 {% endhighlight %}
 
-ebeveyn() çağırdığınızda, ilk_veled() ve ikinci_veled() iç fonksiyonları da
-çağrılır. Ancak yerel kapsamı nedeniyle, ebeveyn() fonksiyonu dışında mevcut değildir.
+ebeveyn() çağırdığınızda, ```ilk_veled()``` ve ```ikinci_veled()``` iç fonksiyonları da çağrılır. Ancak yerel kapsamı nedeniyle, ```ebeveyn()``` fonksiyonu dışında mevcut değildir.
 
 <br>
 
 <div class="pop1">Fonksiyonlardan Dönen Fonksiyonlar</div>
 
-Python, fonksiyonları dönüş değeri olarak kullanmanıza da izin verir. Aşağıdaki örnek, dış ebeveyn() Parantez olmadan first_child döndürdüğünüzü unutmayın. Bunun, first_child işlevine bir başvuru döndürdüğünüz anlamına geldiğini unutmayın. Aksine, first_child () parantez içinde, işlevi değerlendirmenin sonucudur. Bu, aşağıdaki örnekte görülebilir:ndan iç fonksiyonlardan birini döndürür:
+Python, fonksiyonları dönüş değeri olarak kullanmanıza da izin verir. Aşağıdaki örnek, dış ebeveyn() Parantez olmadan ilk_veled döndürdüğünüzü unutmayın. Bunun, ilk_veled işlevine bir başvuru döndürdüğünüz anlamına geldiğini unutmayın. Aksine, ilk_veled() parantez içinde, işlevi değerlendirmenin sonucudur. Bu, aşağıdaki örnekte görülebilir:ndan iç fonksiyonlardan birini döndürür:
 
 {% highlight python  linenos=table %}
 
@@ -182,7 +181,7 @@ def ebeveyn(num):
 
 {% endhighlight %}
 
-Parantez olmadan ilk_veled döndürdüğünüzü unutmayın. Bunun, ilk_veled fonksiyonuna bir atıf döndürdüğünüz anlamına geldiğini hatırlayın. Aksine, ilk_veled() parantez içinde, fonksiyonun değerlendirilmesi sonucu. Bu, aşağıdaki örnekte görülebilir:
+Parantez olmadan ```ilk_veled``` döndürdüğünüzü unutmayın. Bunun, ```ilk_veled``` fonksiyonuna bir atıf döndürdüğünüz anlamına geldiğini hatırlayın. Aksine, ```ilk_veled()``` parantez içinde, fonksiyonun değerlendirilmesi sonucunu ifade eder. Bu, aşağıdaki örnekte görülebilir:
 
 
 
