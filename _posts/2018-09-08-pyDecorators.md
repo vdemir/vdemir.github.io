@@ -71,7 +71,7 @@ add_one(2)
 >>> 3
 {% endhighlight %}
 
-Genel olarak, Python'daki işlevler, bir girdiyi bir çıktıya dönüştürmek yerine, yan etkilere de sahip olabilir. Print () işlevi bunun temel bir örneğidir: Konsola bir şey vermenin yan etkisine sahipken, Hiçbiri'ni döndürmez. Ancak, dekoratörler anlamak için, işlevleri argümanları bir değere dönüştüren bir şey olarak düşünmek yeterlidir.
+Genel olarak, Python'daki fonksiyonlar, bir girdiyi bir çıktıya dönüştürmek yerine, yan etkilere de sahip olabilir. print() fonksiyonu bunun temel bir örneğidir: Konsola bir şey vermenin yan etkisine sahipken, hiçbiri'ni döndürmez. Ancak, dekoratörler anlamak için, fonksiyonları ifadeleri bir değere dönüştüren bir şey olarak düşünmek yeterlidir.
 
 **Not:** Fonksiyonel programlamada, yan etkiler olmadan sadece saf fonksiyonlarla çalışırsınız (neredeyse). Tamamen işlevsel bir dil olmasa da, Python birinci sınıf öbekler gibi fonksiyonlar de dahil olmak üzere birçok fonksiyonel programlama kavramını desteklemektedir.
  
@@ -100,7 +100,7 @@ Burada, say_hello() ve be_awesome(), bir dizge olarak verilen bir -**name**- isi
 'Yo Bob, together we are the awesomest!'
 {% endhighlight %}
 
-greet_bob (say_hello) 'nun iki işleve, ancak farklı yollara başvurduğunu unutmayın: greet_bob () ve say_hello. Say_hello işlevi parantez içermiyor. Bu, işleve yalnızca bir referansın geçirildiği anlamına gelir. İşlev yürütülmez. Öte yandan, greet_bob () işlevi parantez ile yazıldığından, her zamanki gibi çağrılır.
+greet_bob (say_hello) 'nun iki işleve, ancak farklı yollara başvurduğunu unutmayın: greet_bob() ve say_hello. Say_hello işlevi parantez içermiyor. Bu, işleve yalnızca bir referansın geçirildiği anlamına gelir. İşlev yürütülmez. Öte yandan, greet_bob() işlevi parantez ile yazıldığından, her zamanki gibi çağrılır.
 
 
 
