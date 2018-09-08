@@ -103,7 +103,7 @@ In [2]: merhaba_kedi(harika_ol)
 Out[2]: 'Hey Kedi, biz birlikte harikayız!'
 {% endhighlight %}
 
-merhaba_kedi(merhaba_de)'nin iki fonksiyona, ancak farklı yollara başvurduğunu unutmayın: harika_ol() ve merhaba_de. merhaba_de fonksiyonu parantez içermiyor. Bu, fonksiyona yalnızca bir atfın geçirildiği anlamına gelir. fonksiyon yürütülmez. Öte yandan, merhaba_kedi() fonksiyonu parantez ile yazıldığından, her zamanki gibi çağrılır.
+```merhaba_kedi(merhaba_de)```'nin iki fonksiyona, ancak farklı yollara başvurduğunu unutmayın: ```harika_ol()``` ve ```merhaba_de```. merhaba_de fonksiyonu parantez içermiyor. Bu, fonksiyona yalnızca bir atfın geçirildiği anlamına gelir. fonksiyon yürütülmez. Öte yandan, ```merhaba_kedi()``` fonksiyonu parantez ile yazıldığından, her zamanki gibi çağrılır.
 
 
 
