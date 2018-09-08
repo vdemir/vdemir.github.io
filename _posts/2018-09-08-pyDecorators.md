@@ -121,7 +121,7 @@ def ebeveyn():
         print("ilk_veled() fonksiyonundan yazdırma")
 
     def ikinci_veled():
-        print("ikinci_veled() fonksiyondan yazdırma")
+        print("ikinci_veled() fonksiyonundan yazdırma")
 
     ikinci_veled()
     ilk_veled()
