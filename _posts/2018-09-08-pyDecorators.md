@@ -288,3 +288,26 @@ Ancak, **wrapper()** işlevi, orijinal **say_whee()** işlevine func olarak bir 
 
 Basitçe söylemek gerekirse: **dekoratörler, onların davranışlarını değiştirerek bir işlevi sarmaktadır.**
 
+Devam etmeden önce, ikinci bir örneğe bakalım. wrapper() normal bir Python işlevi olduğu için bir dekoratörün bir işlevi değiştirdiği yöntem dinamik olarak değişebilir. Komşularınızı rahatsız etmeyecek şekilde, aşağıdaki örnek yalnızca gün boyunca dekore edilmiş kodu çalıştıracaktır:
+
+{% highlight python  linenos=table %}
+
+from datetime import datetime
+
+def not_during_the_night(func):
+    def wrapper():
+        if 7 <= datetime.now().hour < 22:
+            func()
+        else:
+            pass  # Hush, the neighbors are asleep
+    return wrapper
+
+def say_whee():
+    print("Whee!")
+
+say_whee = not_during_the_night(say_whee)
+
+{% endhighlight %}
+
+
+
