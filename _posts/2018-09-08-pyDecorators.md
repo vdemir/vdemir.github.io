@@ -73,6 +73,7 @@ Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nası
 Dekoratörleri anlayabilmeniz için öncelikle fonksiyonların nasıl çalıştığını anlamanız gerekir. Bizim amacımız için, bir fonksiyon verilen ifadelere dayalı bir değer döndürür. İşte çok basit bir örnek:
 
 {% highlight python linenos=table %}
+
 def ekle_bir(numara):
      return numara + 1
 
@@ -80,8 +81,10 @@ def ekle_bir(numara):
 
 
 {% highlight python %}
+
 In [1]: ekle_bir(2)
 Out[1]:  3
+
 {% endhighlight %}
 
 Genel olarak, Python'daki fonksiyonlar, bir girdiyi bir çıktıya dönüştürmek yerine, yan etkilere de sahip olabilir. ```print()``` fonksiyonu bunun temel bir örneğidir: Konsola bir şey vermenin yan etkisine sahipken, hiçbiri'ni döndürmez. Ancak, dekoratörler anlamak için, fonksiyonları ifadeleri bir değere dönüştüren bir şey olarak düşünmek yeterlidir.
@@ -95,6 +98,7 @@ Genel olarak, Python'daki fonksiyonlar, bir girdiyi bir çıktıya dönüştürm
 Python'da fonksiyonlar birinci sınıf öbeklerdir. Bu fonksiyonlar diğer öbekler gibi (string, int, float, list, vb.), fonksiyonların içinden geçirilip argüman olarak kullanılabileceği anlamına gelir. Aşağıdaki üç fonksiyonu göz önünde bulundurun:
 
 {% highlight python  linenos=table %}
+
 def merhaba_de(ad):
     return "Merhaba " + ad
 
@@ -235,7 +239,7 @@ say_whee = my_decorator(say_whee)
 
 {% endhighlight %}
 
-
+Say_whee () çağırdığınızda ne olacağını tahmin edebilir misiniz? Dene:
 
 
 
