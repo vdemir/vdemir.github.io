@@ -168,10 +168,10 @@ Python, fonksiyonları dönüş değeri olarak kullanmanıza da izin verir. Aşa
 
 def ebeveyn(num):
     def ilk_veled():
-        return "Selam, Benim adım "
+        return "Merhaba ben Emma"
 
     def ikinci_veled():
-        return "Call me Liam"
+        return "Bana Liam deyin"
 
     if num == 1:
         return ilk_veled
