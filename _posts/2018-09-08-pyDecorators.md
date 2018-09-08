@@ -101,7 +101,7 @@ Burada, say_hello() ve be_awesome(), bir dizge olarak verilen bir -**name**- isi
 'Yo Bob, together we are the awesomest!'
 {% endhighlight %}
 
-greet_bob (say_hello) 'nun iki işleve, ancak farklı yollara başvurduğunu unutmayın: greet_bob() ve say_hello. Say_hello işlevi parantez içermiyor. Bu, işleve yalnızca bir referansın geçirildiği anlamına gelir. İşlev yürütülmez. Öte yandan, greet_bob() işlevi parantez ile yazıldığından, her zamanki gibi çağrılır.
+greet_bob (say_hello) 'nun iki işleve, ancak farklı yollara başvurduğunu unutmayın: greet_bob() ve '''say_hello'''. Say_hello işlevi parantez içermiyor. Bu, işleve yalnızca bir referansın geçirildiği anlamına gelir. İşlev yürütülmez. Öte yandan, greet_bob() işlevi parantez ile yazıldığından, her zamanki gibi çağrılır.
 
 
 
