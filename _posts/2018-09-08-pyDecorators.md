@@ -32,7 +32,6 @@ img.resize {
 <div class="pop">Dekoratörler</div> 
 
 <br>
-<li><a href="#C1" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Bir Python Sınıfı Oluşturmak</a></li>
 
 * [Fonksiyonlar](#D1) - Fonksiyonlar
 
