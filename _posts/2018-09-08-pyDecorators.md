@@ -86,3 +86,13 @@ def be_awesome(name):
 def greet_bob(greeter_func):
     return greeter_func("Bob")
 {% endhighlight %}
+
+{% highlight python linenos hl_lines="1 3 4" %}
+def say_hi(to_who):
+    print "Hello,", to_who
+
+say_hi("World")
+{% endhighlight %}
+
+Burada, say_hello() ve be_awesome(), bir dize olarak verilen bir isim bekleyen normal işlevlerdir. Ancak greet_bob() işlevi, argümanı olarak bir işlev bekler. Örneğin, say_hello() veya be_awesome() işlevini iletebiliriz:
+
