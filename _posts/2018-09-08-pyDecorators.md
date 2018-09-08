@@ -29,7 +29,7 @@ img.resize {
 
 <br>
 
-<div class="pop">Python Dekoratörler Üzerine kısa kısa ...</div> 
+<div class="pop">Python Dekoratörler</div> 
 
 <br>
 
@@ -42,7 +42,7 @@ Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nası
 <style>
 	.box {
 		color: orange;
-		font-size: 5vw;
+		font-size: 3vw;
 		padding: 5vw;
 		margin: 5vw;
 		border-style: solid;
