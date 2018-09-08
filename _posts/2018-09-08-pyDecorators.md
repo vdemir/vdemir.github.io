@@ -110,7 +110,7 @@ Out[2]: 'Hey Kedi, biz birlikte harikayız!'
 ## İç fonksiyonlar
 ***
 
-Diğer fonksiyonların içindeki fonksiyonları tanımlamak mümkündür. Bu fonksiyonlar iç fonksiyonlar olarak adlandırılır. İki iç fonksiyonlu bir fonksiyon örneği:
+**Diğer fonksiyonların içinde fonksiyonlar tanımlamak** mümkündür. Bu fonksiyonlar iç fonksiyonlar olarak adlandırılır. İki iç fonksiyonlu bir fonksiyon örneği:
 
 {% highlight python  linenos=table %}
 
