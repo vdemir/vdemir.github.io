@@ -84,7 +84,7 @@ Python'da fonksiyonlar birinci sınıf öbeklerdir. Bu fonksiyonlar diğer öbek
 def merhaba_de(ad):
     return "Merhaba " + ad
 
-def harika_ol(name): 
+def harika_ol(ad): 
     return "Hey " + ad + ", biz birlikte harikayız!"
 
 def merhaba_kedi(selamlama_fonk):
