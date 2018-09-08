@@ -98,7 +98,7 @@ def greet_bob(greeter_func):
 
 Burada, say_hello() ve be_awesome(), bir dizge olarak verilen bir -**name**- isimi bekleyen normal fonksiyonlardır. Ancak greet_bob() fonksiyonu, kendi ifadesi olarak bir fonksiyon bekler. Örneğin, say_hello() veya be_awesome() fonksiyonuna iletebiliriz:
 
-{% highlight python %}
+{% highlight bash %}
 In[1]: greet_bob(say_hello)
 Out[1]: 'Hello Bob'
 In[2]: greet_bob(be_awesome)
