@@ -262,8 +262,10 @@ Something is happening after the function is called.
 
 {% endhighlight %}
 
+Burada neler olduğunu anlamak için önceki örneklere bakın. Tam anlamıyla şimdiye kadar öğrendiğiniz her şeyi gerçekten uyguluyoruz. 
 
+Sözde dekorasyon şu satırda gerçekleşir:
 
-
-
-
+{% highlight python  linenos=table %}
+say_whee = my_decorator(say_whee)
+{% endhighlight %}
