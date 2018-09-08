@@ -193,7 +193,7 @@ In [5]: ikinci
 Out[6]: <function __main__.ebeveyn.<locals>.ikinci_veled>
 {% endhighlight %}
 
-Biraz şifreli çıktı basitçe, ilk değişkenin, parent () içindeki yerel first_child () işlevine, ikinci nokta ise second_child () öğesine başvurduğu anlamına gelir. 
+Bir miktar şifreli çıktı basitçe, ebeveyn() içindeki, ikinci değişkeni ikinci_veled() fonksiyonunu işaret ederken ilk değişken yerel ilk_veled() fonksiyonuna başvurur.
 
 İşaret ettikleri işlevler doğrudan erişilemese bile, artık normal işlevlermiş gibi ilk ve ikinci olarak kullanabilirsiniz:
 
