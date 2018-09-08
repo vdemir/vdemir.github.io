@@ -159,7 +159,6 @@ NameError: name 'ilk_veled' is not defined
 
 ebeveyn() çağırdığınızda, ```ilk_veled()``` ve ```ikinci_veled()``` iç fonksiyonları da çağrılır. Ancak yerel kapsamı nedeniyle, ```ebeveyn()``` fonksiyonu dışında mevcut değildir.
 
-<br>
 
 <div class="pop1">Fonksiyonlardan Dönen Fonksiyonlar</div>
 
@@ -169,7 +168,7 @@ Python, fonksiyonları dönüş değeri olarak kullanmanıza da izin verir. Aşa
 
 def ebeveyn(num):
     def ilk_veled():
-        return "Hi, I am Emma"
+        return "Selam, Benim adım "
 
     def ikinci_veled():
         return "Call me Liam"
