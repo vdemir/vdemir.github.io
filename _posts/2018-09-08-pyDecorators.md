@@ -33,9 +33,9 @@ img.resize {
 
 <br>
 
-Dekoratörlerle ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Dekoratörler, yüksek mertebe işlevlerini çağırmak için basit bir sözdizimi sağlar. 
+Dekoratörlerle ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Dekoratörler, yüksek mertebe fonksiyonlarını çağırmak için basit bir sözdizimi sağlar. 
 
-Tanım olarak, bir dekoratör, başka bir işlev alan ve ikincisinin işlevini açıkça değiştirmeden davranışını genişleten bir işlevdir. 
+Tanım olarak, bir dekoratör, başka bir fonksiyon alan ve  açık bir şekilde değiştirmeden ikinci fonksiyonun davranışını genişleten bir fonksiyondur. 
 
 Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nasıl çalıştığına dair birkaç örnek gördükten sonra değil. Bu makaledeki tüm örnekleri burada bulabilirsiniz.
 
