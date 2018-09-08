@@ -88,5 +88,5 @@ def greet_bob(greeter_func):
 {% endhighlight %}
 
 
-Burada, say_hello() ve be_awesome(), bir dize olarak verilen bir isim bekleyen normal fonksiyonlardır. Ancak greet_bob() fonksiyonu, ifade olarak bir fonksiyon bekler. Örneğin, say_hello() veya be_awesome() fonksiyonunu iletebiliriz:
+Burada, say_hello() ve be_awesome(), bir dizge olarak verilen bir -**name**- isimi bekleyen normal fonksiyonlardır. Ancak greet_bob() fonksiyonu, kendi ifadesi olarak bir fonksiyon bekler. Örneğin, say_hello() veya be_awesome() fonksiyonuna iletebiliriz:
 
