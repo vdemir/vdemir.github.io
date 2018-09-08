@@ -351,11 +351,19 @@ Bu yüzden, @my_decorator sadece, say_whee = my_decorator(say_whee) demenin daha
 
 <div id="D22" class="pop1">Dekoratörleri Yeniden Kullanmak</div>
 
-Bir dekoratörün sadece normal bir Python işlevi olduğunu hatırlayın. Kolay tekrar kullanılabilirlik için tüm genel araçlar mevcuttur.
+Bir dekoratörün sadece normal bir Python işlevi olduğunu hatırlayın. Kolay tekrar kullanılabilirlik için tüm genel araçlar mevcuttur. Dekoratörü diğer birçok işlevde kullanılabilecek kendi modülüne taşıyalım.
 
+Aşağıdaki içerikle decorators.py adlı bir dosya oluşturun:
 
+{% highlight python  linenos=table %}
 
+def do_twice(func):
+    def wrapper_do_twice():
+        func()
+        func()
+    return wrapper_do_twice
 
+{% endhighlight %}
 
 
 
