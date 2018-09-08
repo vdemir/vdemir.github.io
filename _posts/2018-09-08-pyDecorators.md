@@ -202,6 +202,15 @@ Bir miktar şifreli çıktı, basitçe, ```ebeveyn()``` içindeki, ```ikinci``` 
 
 İşaret ettikleri fonksiyonlara doğrudan erişilemese bile, artık normal fonksiyonlarmış gibi ```ilk``` ve ```ikinci``` olarak kullanabilirsiniz:
 
+{% highlight python %}
+In [8]: ilk=ebeveyn(1)
+In [9]: ilk()
+Out[9]: 'Merhaba ben Emma'
+
+In [10]: ikinci=ebeveyn(2)
+In [11]: ikinci()
+Out[11]: 'Bana Liam deyin'
+{% endhighlight %}
 
 
 
