@@ -66,7 +66,7 @@ def ekle_bir(numara):
      return numara + 1
 
 {% endhighlight %}
-<br>
+
 {% highlight python %}
 In [1]: ekle_bir(2)
 Out[1]:  3
