@@ -272,7 +272,7 @@ say_whee = my_decorator(say_whee)
 
 {% endhighlight %}
 
-Aslında, say_whee ismi şimdi wrapper() iç fonksiyonuna işaret etmektedir.
+Aslında, **say_whee** ismi şimdi **wrapper()** iç fonksiyonuna işaret etmektedir.
 Çağrı yaptığınızda wrapper fonksiyon olarak döndürdüğünüzü hatırlayın.
 
 my_decorator(say_whee):
@@ -288,7 +288,7 @@ Ancak, **wrapper()** işlevi, orijinal **say_whee()** işlevine func olarak bir 
 
 Basitçe söylemek gerekirse: **dekoratörler, onların davranışlarını değiştirerek bir işlevi sarmaktadır.**
 
-Devam etmeden önce, ikinci bir örneğe bakalım. wrapper() normal bir Python işlevi olduğu için bir dekoratörün bir işlevi değiştirdiği yöntem dinamik olarak değişebilir. Komşularınızı rahatsız etmeyecek şekilde, aşağıdaki örnek yalnızca gün boyunca dekore edilmiş kodu çalıştıracaktır:
+Devam etmeden önce, ikinci bir örneğe bakalım. **wrapper()** normal bir Python işlevi olduğu için bir dekoratörün bir işlevi değiştirdiği yöntem dinamik olarak değişebilir. Komşularınızı rahatsız etmeyecek şekilde, aşağıdaki örnek yalnızca gün boyunca dekore edilmiş kodu çalıştıracaktır:
 
 {% highlight python  linenos=table %}
 
@@ -309,7 +309,7 @@ say_whee = not_during_the_night(say_whee)
 
 {% endhighlight %}
 
-Yatma zamanı sonrası say_whee() çağırmayı denerseniz, hiçbir şey olmaz:
+Yatma zamanı sonrası **say_whee()** çağırmayı denerseniz, hiçbir şey olmaz:
 
 {% highlight python  %}
 
