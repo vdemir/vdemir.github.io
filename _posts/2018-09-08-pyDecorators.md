@@ -76,7 +76,7 @@ Genel olarak, Python'daki işlevler, bir girdiyi bir çıktıya dönüştürmek 
 
 Python'da fonksiyonlar birinci sınıf öbeklerdir. Bu fonksiyonlar diğer öbekler gibi (string, int, float, list, vb.), fonksiyonların içinden geçirilip argüman olarak kullanılabileceği anlamına gelir. Aşağıdaki üç işlevi göz önünde bulundurun:
 
-{% highlight python %}
+{% highlight python  linenos %}
 def say_hello(name):
     return f"Hello {name}"
 
