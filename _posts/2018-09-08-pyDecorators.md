@@ -164,3 +164,26 @@ ebeveyn() çağırdığınızda, ilk_veled() ve ikinci_veled() iç fonksiyonlar�
 
 <div class="pop1">Fonksiyonlardan Dönen Fonksiyonlar</div>
 
+Python, fonksiyonları dönüş değeri olarak kullanmanıza da izin verir. Aşağıdaki örnek, dış ebeveyn() fonksiyonundan iç fonksiyonlardan birini döndürür:
+
+{% highlight python  linenos=table %}
+
+def parent(num):
+    def first_child():
+        return "Hi, I am Emma"
+
+    def second_child():
+        return "Call me Liam"
+
+    if num == 1:
+        return first_child
+    else:
+        return second_child
+
+{% endhighlight %}
+
+
+
+
+
+
