@@ -141,3 +141,10 @@ ilk_veled() fonksiyonundan okunuyor ...
 
 Ayrıca, üst fonksiyon çağrılana kadar iç fonksiyonlar tanımlanmamıştır. Bunlar yerel olarak ```ebeveyn()``` ile kapsama alınıp araştırılır: bunlar yalnızca yerel değişkenler olarak ```ebeveyn()``` fonksiyonu içinde bulunur. ```ilk_veled()``` öğesini çağırmayı deneyin. Bir hata almalısınız:
 
+{% highlight python %}
+In [3]: ilk_veled()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    ilk_veled()
+NameError: name 'ilk_veled' is not defined
+{% endhighlight %}
