@@ -185,13 +185,19 @@ Parantez olmadan ```ilk_veled``` döndürdüğünüzü unutmayın. Bunun, ```ilk
 
 {% highlight python %}
 In [1]: ilk=ebeveyn(1)
-
 In [2]: ilk
 Out[3]: <function __main__.ebeveyn.<locals>.ilk_veled>
 
 In [4]: ikinci=ebeveyn(2)
-
 In [5]: ikinci
 Out[6]: <function __main__.ebeveyn.<locals>.ikinci_veled>
 {% endhighlight %}
+
+Biraz şifreli çıktı basitçe, ilk değişkenin, parent () içindeki yerel first_child () işlevine, ikinci nokta ise second_child () öğesine başvurduğu anlamına gelir. 
+
+İşaret ettikleri işlevler doğrudan erişilemese bile, artık normal işlevlermiş gibi ilk ve ikinci olarak kullanabilirsiniz:
+
+
+
+
 
