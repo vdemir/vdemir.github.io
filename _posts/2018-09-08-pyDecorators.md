@@ -266,7 +266,7 @@ Burada neler olduğunu anlamak için önceki örneklere bakın. Tam anlamıyla �
 
 Sözde dekorasyon şu satırda gerçekleşir:
 
-{% highlight python  linenos=table %}
+{% highlight python %}
 
 say_whee = my_decorator(say_whee)
 
