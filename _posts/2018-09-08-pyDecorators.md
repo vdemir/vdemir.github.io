@@ -61,7 +61,7 @@ Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nası
 		text-decoration-color: orange;
 	}
 	.pop1 {
-		font-size: 2vw;
+		font-size: 3vw;
 		text-decoration: overline;
 		text-decoration-color: orange;
 	}
