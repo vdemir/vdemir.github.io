@@ -269,3 +269,15 @@ Sözde dekorasyon şu satırda gerçekleşir:
 {% highlight python  linenos=table %}
 say_whee = my_decorator(say_whee)
 {% endhighlight %}
+
+Aslında, say_whee ismi şimdi wrapper() iç fonksiyonuna işaret etmektedir.
+Çağrı yaptığınızda wrapper fonksiyon olarak döndürdüğünüzü hatırlayın.
+my_decorator(say_whee):
+
+
+
+
+
+
+
+
