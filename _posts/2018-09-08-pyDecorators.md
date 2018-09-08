@@ -286,5 +286,5 @@ Out[3]: <function __main__.my_decorator.<locals>.wrapper>
 
 Ancak, **wrapper()** işlevi, orijinal **say_whee()** işlevine func olarak bir atıfta bulunur ve iki **print()** çağrı arasında bu fonksiyonu çağırır.
 
-
+Basitçe söylemek gerekirse: **dekoratörler, onların davranışlarını değiştirerek bir işlevi sarmaktadır.**
 
