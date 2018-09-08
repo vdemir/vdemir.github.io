@@ -137,7 +137,7 @@ ikinci_veled() fonksiyonundan yazdırılıyor
 ilk_veled() fonksiyonundan yazdırılıyor
 {% endhighlight %}
 
-İç fonksiyonların tanımlandığı sıranın önemli olmadığını unutmayın. Diğer işlevlerde olduğu gibi, yazdırma yalnızca iç fonksiyonlar yürütüldüğünde gerçekleşir.
+İç fonksiyonların tanımlandığı sıranın önemli olmadığını unutmayın. Diğer fonksiyonlarda olduğu gibi, yazdırma yalnızca iç fonksiyonlar yürütüldüğünde gerçekleşir.
 
 
 
