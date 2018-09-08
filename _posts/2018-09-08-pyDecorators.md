@@ -309,5 +309,11 @@ say_whee = not_during_the_night(say_whee)
 
 {% endhighlight %}
 
+Yatma zamanı sonrası say_whee() çağırmayı denerseniz, hiçbir şey olmaz:
 
+{% highlight python  %}
 
+In [1]: say_whee()
+Whee!
+
+{% endhighlight %}
