@@ -34,8 +34,10 @@ img.resize {
 <br>
 
 - [Fonksiyonlar](#D1)
-  - [Birinci Sınıf Öbekler](#D2)
-
+    - [Birinci Sınıf Öbekler](#D2)
+- Flour
+    - Cheese
+      - Tomatoes
 Dekoratörlerle ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Dekoratörler, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
 
 Matematik ve bilgisayar bilimlerinde, daha yüksek mertebeden bir fonksiyon (aynı zamanda fonksiyonel, fonksiyonel form) aşağıdakilerden en az birini yapan bir fonksiyondur: 
