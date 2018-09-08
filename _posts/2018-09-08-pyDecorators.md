@@ -65,6 +65,9 @@ def add_one(number):
      return number + 1
 
 add_one(2)
+{% endhighlight %}
+
+{% highlight bash %}
 >>> 3
 {% endhighlight %}
 
