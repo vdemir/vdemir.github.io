@@ -114,16 +114,16 @@ Diğer fonksiyonların içindeki fonksiyonları tanımlamak mümkündür. Bu fon
 
 {% highlight python  linenos=table %}
 
-def parent():
-    print("Printing from the parent() function")
+def ebeveyn():
+    print("ebeveyn() fonksiyonundan yazdırma")
 
-    def first_child():
-        print("Printing from the first_child() function")
+    def ilk_veled():
+        print("ilk_veled() fonksiyonundan yazdırma")
 
-    def second_child():
-        print("Printing from the second_child() function")
+    def ikinci_veled():
+        print("ikinci_veled() fonksiyondan yazdırma")
 
-    second_child()
-    first_child()
+    ikinci_veled()
+    ilk_veled()
 
 {% endhighlight %}
