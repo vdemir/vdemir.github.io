@@ -115,16 +115,16 @@ Out[2]: 'Hey Kedi, biz birlikte harikayız!'
 {% highlight python  linenos=table %}
 
 def ebeveyn():
-    print("ebeveyn() fonksiyonundan okunuyor")
+    print("ebeveyn() fonksiyonundan yazdırılıyor")
 
     def ilk_veled():
-        print("ilk_veled() fonksiyonundan okunuyor")
+        print("ilk_veled() fonksiyonundan yazdırılıyor")
 
     def ikinci_veled():
-        print("ikinci_veled() fonksiyonundan okunuyor")
+        print("ikinci_veled() fonksiyonundan yazdırılıyor")
 
-ikinci_veled()
-ilk_veled()
+    ikinci_veled()
+    ilk_veled()
 
 {% endhighlight %}
 
