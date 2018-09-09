@@ -920,4 +920,15 @@ Ancak, dekore edildikten sonra, say_whee() kendi kimliği konusunda çok kafa ka
 
 Bunu düzeltmek için, dekoratörler orijinal işlevle ilgili bilgileri koruyacak @functools.wraps dekoratörünü kullanmalıdır.  Decorators.py dosyasını tekrar güncelleyin:
 
+{% highlight python %}
 
+import functools
+
+def do_twice(func):
+    @functools.wraps(func)
+    def wrapper_do_twice(*args, **kwargs):
+        func(*args, **kwargs)
+        return func(*args, **kwargs)
+    return wrapper_do_twice
+
+{% endhighlight %} 
