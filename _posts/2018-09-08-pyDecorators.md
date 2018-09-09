@@ -871,3 +871,10 @@ Out[3]: 'Hi Adam'
 {% endhighlight %} 
 
 
+<br>
+
+<div id="D24" class="pop1">Kimsin sen, Gerçekten mi?</div>
+
+Özellikle etkileşimli kabukta, Python ile çalışırken büyük kolaylık, güçlü iç gözlemleme yeteneğidir. Gözlemleme, bir nesnenin çalışma zamanında kendi öz niteliklerini bilmesidir. Örneğin, bir işlev kendi adını ve belgelerini bilir:
+
+
