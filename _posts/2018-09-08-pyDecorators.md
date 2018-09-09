@@ -987,4 +987,4 @@ def decorator(func):
     return wrapper_decorator
 {% endhighlight %} 
 
-
+Bu formül, daha karmaşık dekoratörler oluşturmak için iyi bir standart kalıptır.
