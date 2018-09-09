@@ -983,7 +983,7 @@ def do_twice(func):
 {% endhighlight %} 
 <br>
 
-<div class="alert alert-secondary" role="alert">
+<div class="alert alert-success" role="alert">
 <p><strong>functools:</strong>  - Yüksek mertebeden fonksiyonlar ve istenebilen nesneler üzerindeki işlemler. Functools modülü üst düzey fonksiyonlar içindir: diğer fonksiyonlar üzerinde hareket eden veya dönen fonksiyonlar. Genel olarak, herhangi bir değiştirilebilir nesne bu modülün amaçları için bir fonksiyon olarak ele alınabilir.Bu, bir wrapper fonksiyonunu tanımlarken update_wrapper() öğesini bir fonksiyon dekoratör olarak çağırmak için bir kolaylık fonksiyonudur. Bu kısmi (update_wrapper, sarılmış = sarılmış, atanan = atanan, güncellenmiş = güncellenmiş) eşdeğerdir.</p>
 </div>
 
