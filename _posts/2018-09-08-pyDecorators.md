@@ -677,7 +677,7 @@ Maalesef, dekoratörünüz işlevden dönüş değerini yedi.
 
 do_twice_wrapper() işlevi açıkça bir değer döndürmediğinden, return_greeting('Adam') çağrısı, None döndürerek sona ermiştir.
 
-Bunu düzeltmek için, **sarma işlevinin dekore edilmiş işlevin dönüş değerini döndürdüğünden emin olmanız** gerekir. Decorators.py dosyanızı değiştirin:
+Bunu düzeltmek için, **sarma işlevinin dekore edilmiş işlevin dönüş değerini döndürdüğünden emin olmanız** gerekir. Decorators.py dosyanızı 4. satırını değiştirin:
 
 {% highlight python %}
 
