@@ -624,6 +624,8 @@ def say_whee():
 
 {% endhighlight %}
 
+Çıktı:
+
 {% highlight python %}
 
 In [1]: greet("World")
