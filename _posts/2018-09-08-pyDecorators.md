@@ -660,7 +660,7 @@ def return_greeting(name):
 
 {% endhighlight %}
 
-Çıktı:
+Kullanmayı dene:
 
 {% highlight python %}
 
