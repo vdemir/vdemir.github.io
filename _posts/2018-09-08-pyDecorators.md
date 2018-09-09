@@ -954,7 +954,7 @@ say_whee()
 <br>
 
 <div class="alert alert-info" role="alert">
-<p><strong>Note:</strong> functools - Yüksek mertebeden işlevler ve istenebilen nesneler üzerindeki işlemler. Functools modülü üst düzey işlevler içindir: diğer işlevler üzerinde hareket eden veya dönen işlevler. Genel olarak, herhangi bir değiştirilebilir nesne bu modülün amaçları için bir işlev olarak ele alınabilir.</p>
+<p><strong>Note:</strong> functools - Yüksek mertebeden işlevler ve istenebilen nesneler üzerindeki işlemler. Functools modülü üst düzey işlevler içindir: diğer işlevler üzerinde hareket eden veya dönen işlevler. Genel olarak, herhangi bir değiştirilebilir nesne bu modülün amaçları için bir işlev olarak ele alınabilir.Bu, bir wrapper işlevini tanımlarken update_wrapper() öğesini bir işlev dekoratör olarak çağırmak için bir kolaylık işlevidir. Bu kısmi (update_wrapper, sarılmış = sarılmış, atanan = atanan, güncellenmiş = güncellenmiş) eşdeğerdir.</p>
 </div>
 
 
