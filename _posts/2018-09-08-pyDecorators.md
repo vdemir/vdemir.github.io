@@ -333,7 +333,7 @@ In [5]:
 Yukarıda say_whee() ile dekore ettiğiniz yol biraz biçimsiz ve hantal. Her şeyden önce, say_whee isminin üç kere yazımını bitirirsiniz. Buna ek olarak, dekorasyon, fonksiyon tanımının altında gizlenmiştir.
 
 Bunun yerine, Python, bazen 'pie' sözdizimi olarak da adlandırılan @ sembolüyle daha basit bir şekilde dekoratörler kullanmanıza izin verir. Aşağıdaki örnek, ilk dekoratör örneğiyle tamamen aynı şeyi yapar:
-
+<div class="alert alert-info" role="alert">
 {% highlight python  linenos=table %}
 
 def my_decorator(func):
@@ -348,7 +348,7 @@ def say_whee():
     print("Whee!")
 
 {% endhighlight %}
-
+</div>
 Bu yüzden, @my_decorator sadece, say_whee = my_decorator(say_whee) demenin daha kolay bir yoldur. Bu bir işleve bir dekoratörün nasıl uygulandığıdır.
 
 <br>
