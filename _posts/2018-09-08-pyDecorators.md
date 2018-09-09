@@ -114,6 +114,7 @@ Genel olarak, Python'daki fonksiyonlar, bir girdiyi bir çıktıya dönüştürm
 Bilgisayar biliminde, Fonksiyonel programlama, hesaplamayı matematiksel fonksiyonların değerlendirilmesi olarak hesaplamayı işleyen ve değişen durum ve değişebilir verileri önleyen bir programlama paradigmasıdır. Bir bildirimsel programlama paradigmasıdır, yani programlama, ifadeler yerine deyim veya bildirimlerle yapılır.
 
 Fonksiyonel programlamada beyanlar|statements| yerine ifadeler|expressions| ve bildirimler|declarations| kullanılır; bir programlama dilinde bir ifade, programlama dilinin başka bir değer üretmesi için yorumladığı ve hesapladığı bir veya daha fazla sabit, değişken, operatör ve işlevlerin birleşimidir. Bu süreç, matematiksel ifadeler için değerlendirmeye denir.
+
 <br>
 
 <div id="D11" class="pop1">Birinci Sınıf Öbekler</div>
