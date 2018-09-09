@@ -486,6 +486,7 @@ def say_whee():
 say_whee = not_during_the_night(say_whee)
 
 {% endhighlight %}
+<br>
 
 Yatma zamanı sonrası ```say_whee()``` çağırmayı denerseniz, hiçbir şey olmaz:
 
@@ -557,6 +558,7 @@ def say_whee():
     print("Whee!")
 
 {% endhighlight %}
+<br>
 
 yada doğruda çalıştırabilirsiniz:
 
@@ -574,6 +576,7 @@ def say_whee():
 
 {% endhighlight %}
 
+<br>
 
 Bu örneği çalıştırdığınızda, orijinal ```say_whee()``` öğesinin iki kez yürütüldüğünü görmelisiniz:
 
@@ -986,10 +989,10 @@ def do_twice(func):
 <div class="alert alert-success" role="alert">
 <p><strong>functools:</strong>  - Yüksek mertebeden fonksiyonlar ve istenebilen nesneler üzerindeki işlemler. Functools modülü üst düzey fonksiyonlar içindir: diğer fonksiyonlar üzerinde hareket eden veya dönen fonksiyonlar. Genel olarak, herhangi bir değiştirilebilir nesne bu modülün amaçları için bir fonksiyon olarak ele alınabilir.Bu, bir wrapper fonksiyonunu tanımlarken update_wrapper() öğesini bir fonksiyon dekoratör olarak çağırmak için bir kolaylık fonksiyonudur. Bu kısmi (update_wrapper, sarılmış = sarılmış, atanan = atanan, güncellenmiş = güncellenmiş) eşdeğerdir.</p>
 </div>
-
-Dekore edilmiş say_whee() fonksiyonu hakkında bir şey değiştirmeniz gerekmez:
   
 <br>
+
+Dekore edilmiş say_whee() fonksiyonu hakkında bir şey değiştirmeniz gerekmez:
 
 {% highlight python %}
 
