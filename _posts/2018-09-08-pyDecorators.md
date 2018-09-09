@@ -86,6 +86,10 @@ Matematik ve bilgisayar bilimlerinde, daha yüksek mertebeden bir fonksiyon (ayn
 
 Tanım olarak, bir dekoratör, başka bir fonksiyon alan ve  açık bir şekilde değiştirmeden aldığı fonksiyonun davranışını genişleten bir fonksiyondur. 
 
+<div class="alert alert-success" role="alert">
+<p><strong>Note:</strong> Python ile ilgili olarak bahsettiğimiz 'dekoratörler'  fonksiyonları ve yöntemleri daha kolay değiştirmemizi sağlayan Python sözdizimine özel bir değişikliktir</p>
+</div>
+
 Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nasıl çalıştığına dair birkaç örnek gördükten sonra değil. Bu makaledeki tüm örnekleri burada bulabilirsiniz.
 
 
