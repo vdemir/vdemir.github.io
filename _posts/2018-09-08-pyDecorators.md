@@ -77,6 +77,7 @@ img.resize {
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Dekoratörleri Yeniden Kullanmak](#D22)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[İfadelerle Bezeyen Fonksiyonlar](#D23)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Dekore Edilmiş Fonksiyonlardan Dönen Değerler](#D24)
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Kimsin sen, Gerçekten mi?](#D25)
 
 Dekoratörlerle ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Dekoratörler, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
 
