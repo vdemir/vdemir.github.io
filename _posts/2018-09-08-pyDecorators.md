@@ -265,7 +265,7 @@ Son olarak, daha önceki örnekte, iç fonksiyonları ```ebeveyn``` fonksiyon i�
 
 Dalış yapmadan önce, net olması gereken bazı önkoşullar vardır. Python'da, fonksiyonlar birinci sınıf vatandaşlar, onlar öbeklerdir ve bu da onlarla çok yararlı şeyler yapabileceğimiz anlamına gelir. 
 
-## Değişkenlere fonksiyon atama
+**Değişkenlere fonksiyon atama**
 
 
 {% highlight python %}
