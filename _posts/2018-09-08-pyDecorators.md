@@ -411,5 +411,10 @@ def say_whee():
 
 {% endhighlight %}
 
+{% highlight python  %}
 
+In [1]: say_whee()
+Whee!
+Whee!
+{% endhighlight %}
 
