@@ -583,6 +583,7 @@ Maalesef, bu kodu çalıştırmak bir hataya yol açıyor:
 
 {% highlight python  %}
 
+In [1]: greet("World")
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
     greet("World")
