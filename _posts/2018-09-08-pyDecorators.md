@@ -525,6 +525,33 @@ Basitçe söylemek gerekirse, meta sınıflar, sınıfları almak için örnekle
 Verilen bir metaclass, sınıf tanımındaki fonksiyonların bir alt kümesini tanımlamak için bir kod eklememiz için iyi bir başlangıç ​​noktasıdır. Başka bir deyişle, meta sınıfın (yani, sınıfın) çıktısının tam olarak standart durumda olduğu gibi oluşturulmasını istiyoruz, ama ek olarak: 
 stringfilter ile süslenmiş tüm yöntemlerin ayrı bir listesi.
 
+{% highlight python  linenos=table %}
+
+class StringFilter(object):
+
+    @staticmethod
+    def split(string):
+        return string.split(" ")
+
+    @staticmethod
+    def capitalize(string):
+        return string.capitalize()
+
+    @staticmethod
+    def strip(string):
+        return string.strip()
+
+    def __new__(cls, string, *functions):
+        result = string
+        for function in functions:
+            result = getattr(cls, function)(result)
+
+        return result
+
+if __name__ == "__main__":
+    print(StringFilter("    i am a cat  help me derp", "strip", "capitalize", "split"))
+
+{% endhighlight %}
 
 
 
