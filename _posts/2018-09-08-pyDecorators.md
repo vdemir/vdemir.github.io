@@ -260,6 +260,29 @@ Son olarak, daha önceki örnekte, iç fonksiyonları ```ebeveyn``` fonksiyon i�
 
 <br>
 
+<div id="D14" class="pop1">İşlevler hakkında bilmeniz gerekenler</div>
+
+Dalış yapmadan önce, net olması gereken bazı önkoşullar vardır. Python'da, işlevler birinci sınıf vatandaşlar, onlar nesnelerdir ve bu da onlarla çok yararlı şeyler yapabileceğimiz anlamına gelir. 
+
+## Değişkenlere işlev atama
+
+{% highlight python  linenos=table %}
+
+def greet(name):
+    return "hello "+name
+
+greet_someone = greet
+print greet_someone("John")
+
+{% endhighlight %}
+
+
+
+
+
+
+<br>
+
 <div id="D2" class="pop0">Basit Dekoratörler</div>
 
 Artık, bu fonksiyonların Python'daki diğer herhangi bir öbek gibi olduğunu gördüğünüze göre, Python dekoratörü olan büyülü yaratığa geçmeye ve görmeye hazırsınız. Bir örnekle başlayalım:
