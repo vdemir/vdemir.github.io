@@ -344,7 +344,7 @@ print greet()
 
 <br>
 
-** İç işlevler bidirim alanını çevreleyerek erişime sahip olurlar**
+**İç işlevler bidirim alanını çevreleyerek erişime sahip olurlar**
 
 Daha çok bir kapanma olarak bilinir. Dekoratörler inşa ederken karşılaşacağımız çok güçlü bir desen. Unutulmaması gereken bir başka şey ise, Python sadece dış çerçeveye okumaya izin vermemekte ve atamaya izin vermemektedir. Yukarıdaki örneği, iç işlevin kapalı kapsamından bir 'ad' argümanı okumak ve yeni işlevi döndürmek için nasıl değiştirdiğimizi fark ettik.
 
