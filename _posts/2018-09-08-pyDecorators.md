@@ -673,7 +673,7 @@ None
 
 {% endhighlight %} 
 
+Maalesef, dekoratörünüz işlevden dönüş değerini yedi.
 
-
-
+do_twice_wrapper() işlevi açıkça bir değer döndürmediğinden, return_greeting ('Adam') çağrısı, None döndürerek sona ermiştir.
 
