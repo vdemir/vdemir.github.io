@@ -109,6 +109,9 @@ Genel olarak, Python'daki fonksiyonlar, bir girdiyi bir çıktıya dönüştürm
 <div class="alert alert-primary" role="alert">
 <p><strong>Note:</strong> Fonksiyonel programlamada, yan etkiler olmadan sadece saf fonksiyonlarla çalışırsınız (neredeyse). Tamamen fonksiyonel bir dil olmasa da, Python birinci sınıf öbekler gibi fonksiyonlar de dahil olmak üzere birçok fonksiyonel programlama kavramını desteklemektedir.</p>
 </div>
+
+Bilgisayar biliminde, Fonksiyonel programlama, hesaplamayı matematiksel fonksiyonların değerlendirilmesi olarak hesaplamayı işleyen ve değişen durum ve değişebilir verileri önleyen bir programlama paradigmasıdır. Bir bildirimsel programlama paradigmasıdır, yani programlama, ifadeler yerine deyim veya beyanlarla yapılır.
+
 <br>
 
 <div id="D11" class="pop1">Birinci Sınıf Öbekler</div>
