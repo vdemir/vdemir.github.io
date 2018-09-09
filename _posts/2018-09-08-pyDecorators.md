@@ -74,6 +74,8 @@ img.resize {
 + [Basit Dekoratörler](#D2)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Sözdizimsel Şeker!](#D21)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Dekoratörleri Yeniden Kullanmak](#D22)
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[İfadelerle Bezeyen Fonksiyonlar](#D23)
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Dekore Edilmiş Fonksiyonlardan Dönen Değerler](#D24)
 
 Dekoratörlerle ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Dekoratörler, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
 
