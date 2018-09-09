@@ -366,6 +366,8 @@ def do_twice(func):
 {% endhighlight %}
 
 
-
+<div class="alert alert-primary" role="alert">
+<p><strong>Note:</strong> The <code>countdown()</code> function is a recursive function. In other words, it&rsquo;s a function calling itself. To learn more about recursive functions in Python, see our guide on <a href="https://realpython.com/python-thinking-recursively/">Thinking Recursively in Python</a>.</p>
+</div>
 
 
