@@ -321,7 +321,7 @@ say_whee = not_during_the_night(say_whee)
 
 {% endhighlight %}
 
-Yatma zamanı sonrası **say_whee()** çağırmayı denerseniz, hiçbir şey olmaz:
+Yatma zamanı sonrası ```say_whee()``` çağırmayı denerseniz, hiçbir şey olmaz:
 
 {% highlight python  %}
 
@@ -338,7 +338,7 @@ In [5]:
 
 Yukarıda ```say_whee()``` ile dekore ettiğiniz yol biraz biçimsiz ve hantal. Her şeyden önce, ```say_whee``` isminin üç kere yazımını bitirirsiniz. Buna ek olarak, dekorasyon, fonksiyon tanımının altında gizlenmiştir.
 
-Bunun yerine, Python, bazen 'pie' sözdizimi olarak da adlandırılan @ sembolüyle daha basit bir şekilde dekoratörler kullanmanıza izin verir. Aşağıdaki örnek, ilk dekoratör örneğiyle tamamen aynı şeyi yapar:
+Bunun yerine, Python, bazen ```'pie'``` sözdizimi olarak da adlandırılan ```@``` sembolüyle daha basit bir şekilde dekoratörler kullanmanıza izin verir. Aşağıdaki örnek, ilk dekoratör örneğiyle tamamen aynı şeyi yapar:
 
 {% highlight python  linenos=table %}
 
