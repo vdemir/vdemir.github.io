@@ -715,7 +715,7 @@ Kullanmayı dene:
 In [3]: return_greeting("Adam")
 Creating greeting
 Creating greeting
-Out[3]: 'HiAdam'
+Out[3]: 'Hi Adam'
 
 {% endhighlight %} 
 
