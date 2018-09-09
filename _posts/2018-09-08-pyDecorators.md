@@ -1101,5 +1101,4 @@ print('a={:d}, b={:d}'.format(f(x,n),g(x,n)))
 Python 3.6, başka bir dizgi formatlama paradigmasını sunar: f-dizeleri.
 print(f'a={f(x,n):d}, b={g(x,n):d}')
 
-VVCBVCBCV
 
