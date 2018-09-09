@@ -87,7 +87,7 @@ Matematik ve bilgisayar bilimlerinde, daha yüksek mertebeden bir fonksiyon (ayn
 Tanım olarak, bir dekoratör, başka bir fonksiyon alan ve  açık bir şekilde değiştirmeden aldığı fonksiyonun davranışını genişleten bir fonksiyondur. 
 
 <div class="alert alert-success" role="alert">
-<p><strong>Note:</strong> Python ile ilgili olarak bahsettiğimiz 'dekoratörler'  fonksiyonları ve yöntemleri daha kolay değiştirmemizi sağlayan Python sözdizimine özel bir değişikliktir. Tasarım desenleri bağlamında, dekoratörler, alt sınıfları doğrudan kullanmak zorunda kalmadan bir işlev, yöntem veya sınıfın işlevselliğini dinamik olarak değiştirir. Bu, değiştirmek istemediğiniz işlevlerin işlevselliğini genişletmeniz gerektiğinde idealdir.</p>
+<p><strong>Bilgi:</strong> Python ile ilgili olarak bahsettiğimiz 'dekoratörler'  fonksiyonları ve yöntemleri daha kolay değiştirmemizi sağlayan Python sözdizimine özel bir değişikliktir. Tasarım desenleri bağlamında, dekoratörler, alt sınıfları doğrudan kullanmak zorunda kalmadan bir işlev, yöntem veya sınıfın işlevselliğini dinamik olarak değiştirir. Bu, değiştirmek istemediğiniz işlevlerin işlevselliğini genişletmeniz gerektiğinde idealdir.</p>
 </div>
 
 Esas olarak, dekoratörler sarmalayıcı olarak işlev görürler, fonksiyonun kendisini değiştirmeye gerek kalmadan, orijinal işlevselliği arttırarak ve böylece dekorasyonunu yaparak, kodun bir hedef işlev yürütme işleminden önce ve sonra davranışlarını değiştirirler.
