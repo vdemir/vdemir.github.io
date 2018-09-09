@@ -1085,8 +1085,6 @@ In [14]: waste_some_time(1)
 Finished  waste_some_time in  0.0029 secs
 {% endhighlight %} 
 
-
-
 <div class="alert alert-success" role="alert">
 <p><strong>Bilgi:</strong>Python2'de, print bir ifade sunan bir anahtar kelime oldu: print "Hi"
 Python3'te print, çağrılabilecek bir işlevdir: print ("Hi")
