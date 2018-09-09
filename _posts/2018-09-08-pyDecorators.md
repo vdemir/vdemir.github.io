@@ -399,7 +399,11 @@ Bu örneği çalıştırdığınızda, orijinal ```say_whee()``` öğesinin iki 
 
 {% highlight python  linenos=table %}
 
-from decorators import do_twice
+def do_twice(func):
+    def wrapper_do_twice():
+        func()
+        func()
+    return wrapper_do_twice
 
 @do_twice
 def say_whee():
