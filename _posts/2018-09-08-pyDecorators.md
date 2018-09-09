@@ -1011,8 +1011,6 @@ say_whee()
 <br>
 
 Çok daha iyi! Şimdi say_whee(), dekorasyondan sonra hala kendisidir.
-  
-<br>
 
 <div class="alert alert-info" role="alert">
 <p><strong>Teknik Detay:</strong> functools.wraps dekoratör, içebakışta kullanılan __name__ ve __doc__ gibi özel nitelikleri güncellemek için functools.update_wrapper() fonksiyonunu kullanır.</p>
