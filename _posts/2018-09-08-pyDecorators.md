@@ -323,7 +323,7 @@ print greet("John")
 
 <br>
 
-**İşlevler diğer işlevleri geri verebilir.**
+**İşlevler diğer fonksiyonleri geri verebilir.**
 
 Başka bir deyişle, diğer fonksiyonları üreten fonksiyonlar.
 
@@ -346,9 +346,9 @@ print greet()
 
 <br>
 
-**İç işlevler bidirim alanını çevreleyerek erişime sahip olurlar**
+**İç fonksiyonler bidirim alanını çevreleyerek erişime sahip olurlar**
 
-Daha çok bir kapanma olarak bilinir. Dekoratörler inşa ederken karşılaşacağımız çok güçlü bir desen. Unutulmaması gereken bir başka şey ise, Python sadece dış bildirim alanını okumaya izin verir ve atamaya izin vermez. Yukarıdaki örneği, iç işlevin kapalı kapsamından bir 'name' argümanı okumak ve yeni işlevi döndürmek için nasıl değiştirdiğimizi fark ettik.
+Daha çok bir kapanma olarak bilinir. Dekoratörler inşa ederken karşılaşacağımız çok güçlü bir desen. Unutulmaması gereken bir başka şey ise, Python sadece dış bildirim alanını okumaya izin verir ve atamaya izin vermez. Yukarıdaki örneği, iç fonksiyonin kapalı kapsamından bir 'name' argümanı okumak ve yeni fonksiyoni döndürmek için nasıl değiştirdiğimizi fark ettik.
 
 {% highlight python %}
 
@@ -369,7 +369,7 @@ print greet()
 
 **Dekoratörlerin Bileşimi**
 
-İşlev dekoratörler, mevcut fonksiyonlara basit bir şekilde sarılırlar. Yukarıda bahsi geçen fikirleri bir araya getirerek bir dekoratör yapabiliriz. Bu örnekte, başka bir işlevin string çıktısını p etiketleriyle saran bir işlevi düşünelim.
+İşlev dekoratörler, mevcut fonksiyonlara basit bir şekilde sarılırlar. Yukarıda bahsi geçen fikirleri bir araya getirerek bir dekoratör yapabiliriz. Bu örnekte, başka bir fonksiyonin string çıktısını p etiketleriyle saran bir fonksiyoni düşünelim.
 
 {% highlight python %}
 
@@ -389,7 +389,7 @@ print my_get_text("John")
 
 {% endhighlight %}
 
-Bu bizim ilk dekoratörümüzdü. Başka bir işlevi argüman olarak alan bir işlev, yeni bir işlev üretir, orijinal işlevin çalışmasını çoğaltır ve oluşturulan işlevi döndürerek her yerde kullanabiliriz. get_text'in kendisi p_decorate tarafından dekore edilmek için, sadece get_text 'i p_decorate sonucuna atamak zorundayız.
+Bu bizim ilk dekoratörümüzdü. Başka bir fonksiyoni argüman olarak alan bir fonksiyon, yeni bir fonksiyon üretir, orijinal fonksiyonin çalışmasını çoğaltır ve oluşturulan fonksiyoni döndürerek her yerde kullanabiliriz. get_text'in kendisi p_decorate tarafından dekore edilmek için, sadece get_text 'i p_decorate sonucuna atamak zorundayız.
 
 {% highlight python %}
 
@@ -880,7 +880,7 @@ Out[3]: 'Hi Adam'
 
 <div id="D24" class="pop1">Kimsin sen, Gerçekten mi?</div>
 
-Özellikle etkileşimli kabukta, Python ile çalışırken büyük kolaylık, güçlü içebakış yeteneğidir. İçebakış, bir nesnenin çalışma zamanında kendi öz niteliklerini bilmesidir. Örneğin, bir işlev kendi adını ve belgelerini bilir:
+Özellikle etkileşimli kabukta, Python ile çalışırken büyük kolaylık, güçlü içebakış yeteneğidir. İçebakış, bir nesnenin çalışma zamanında kendi öz niteliklerini bilmesidir. Örneğin, bir fonksiyon kendi adını ve belgelemesini bilir:
 
 {% highlight python %}
 
@@ -901,7 +901,7 @@ print(...)
 
 {% endhighlight %} 
 
-İçebakış, kendinizin tanımladığı işlevler için de çalışır:
+İçebakış, kendinizin tanımladığı fonksiyonler için de çalışır:
 
 {% highlight python %}
 
@@ -916,9 +916,9 @@ Help on function wrapper_do_twice in module __main__:
 
 {% endhighlight %} 
 
-Ancak, dekore edildikten sonra, say_whee() kendi kimliği konusunda çok kafa karıştırdı. Şimdi do_twice() dekoratörünün içinde wrapper_do_twice() iç işlevi olduğunu bildiriyor. Teknik olarak doğru olsa da, bu çok yararlı bir bilgi değildir.
+Ancak, dekore edildikten sonra, say_whee() kendi kimliği konusunda çok kafa karıştırdı. Şimdi do_twice() dekoratörünün içinde wrapper_do_twice() iç fonksiyoni olduğunu bildiriyor. Teknik olarak doğru olsa da, bu çok yararlı bir bilgi değildir.
 
-Bunu düzeltmek için, dekoratörler orijinal işlevle ilgili bilgileri koruyacak @functools.wraps dekoratörünü kullanmalıdır.  Decorators.py dosyasını tekrar güncelleyin:
+Bunu düzeltmek için, dekoratörler orijinal fonksiyonle ilgili bilgileri koruyacak @functools.wraps dekoratörünü kullanmalıdır.  Decorators.py dosyasını tekrar güncelleyin:
 
 {% highlight python %}
 
@@ -936,10 +936,10 @@ def do_twice(func):
 <br>
 
 <div class="alert alert-info" role="alert">
-<p><strong>functools:</strong>  - Yüksek mertebeden işlevler ve istenebilen nesneler üzerindeki işlemler. Functools modülü üst düzey işlevler içindir: diğer işlevler üzerinde hareket eden veya dönen işlevler. Genel olarak, herhangi bir değiştirilebilir nesne bu modülün amaçları için bir işlev olarak ele alınabilir.Bu, bir wrapper işlevini tanımlarken update_wrapper() öğesini bir işlev dekoratör olarak çağırmak için bir kolaylık işlevidir. Bu kısmi (update_wrapper, sarılmış = sarılmış, atanan = atanan, güncellenmiş = güncellenmiş) eşdeğerdir.</p>
+<p><strong>functools:</strong>  - Yüksek mertebeden fonksiyonler ve istenebilen nesneler üzerindeki işlemler. Functools modülü üst düzey fonksiyonler içindir: diğer fonksiyonler üzerinde hareket eden veya dönen fonksiyonler. Genel olarak, herhangi bir değiştirilebilir nesne bu modülün amaçları için bir fonksiyon olarak ele alınabilir.Bu, bir wrapper fonksiyonini tanımlarken update_wrapper() öğesini bir fonksiyon dekoratör olarak çağırmak için bir kolaylık fonksiyonidir. Bu kısmi (update_wrapper, sarılmış = sarılmış, atanan = atanan, güncellenmiş = güncellenmiş) eşdeğerdir.</p>
 </div>
 
-Dekore edilmiş say_whee() işlevi hakkında bir şey değiştirmeniz gerekmez:
+Dekore edilmiş say_whee() fonksiyoni hakkında bir şey değiştirmeniz gerekmez:
 
 {% highlight python %}
 
@@ -961,7 +961,7 @@ say_whee()
 <br>
 
 <div class="alert alert-info" role="alert">
-<p><strong>Teknik Detay:</strong> functools.wraps dekoratör, içebakışta kullanılan __name__ ve __doc__ gibi özel nitelikleri güncellemek için functools.update_wrapper() işlevini kullanır.</p>
+<p><strong>Teknik Detay:</strong> functools.wraps dekoratör, içebakışta kullanılan __name__ ve __doc__ gibi özel nitelikleri güncellemek için functools.update_wrapper() fonksiyonini kullanır.</p>
 </div>
 
  
