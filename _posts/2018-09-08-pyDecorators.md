@@ -508,7 +508,11 @@ class MyStringProcessor(StringProcessor):
         return string.replace(' ', ' ')
 
 msp = MyStringProcessor()
-"A test string" == msp("a test string")
+input_string = "a test string"
+output_string = msp(input_string)
+print("INPUT STRING:", input_string)
+print("OUTPUT STRING:", output_string)
+
 {% endhighlight %}
 
 Modül, bir standart imza (self, str) içeren ve 
