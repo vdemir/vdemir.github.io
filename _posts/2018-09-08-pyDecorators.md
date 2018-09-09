@@ -323,8 +323,9 @@ print greet("John")
 
 <br>
 
-**Diğer fonksiyonları üreten fonksiyonlar.**
+**İşlevler diğer işlevleri geri verebilir.**
 
+Başka bir deyişle, diğer fonksiyonları üreten fonksiyonlar.
 
 {% highlight python %}
 
@@ -340,6 +341,29 @@ print greet()
 # Outputs: Hello there!
 
 {% endhighlight %}
+
+<br>
+
+** İç işlevler bidirim alanını çevreleyerek erişime sahip olurlar**
+
+Daha çok bir kapanma olarak bilinir. Dekoratörler inşa ederken karşılaşacağımız çok güçlü bir desen. Unutulmaması gereken bir başka şey ise, Python sadece dış çerçeveye okumaya izin vermemekte ve atamaya izin vermemektedir. Yukarıdaki örneği, iç işlevin kapalı kapsamından bir 'ad' argümanı okumak ve yeni işlevi döndürmek için nasıl değiştirdiğimizi fark ettik.
+
+{% highlight python %}
+
+def compose_greet_func(name):
+    def get_message():
+        return "Hello there "+name+"!"
+
+    return get_message
+
+greet = compose_greet_func("John")
+print greet()
+
+# Outputs: Hello there John!
+
+{% endhighlight %}
+
+
 
 <br>
 
