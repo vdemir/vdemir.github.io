@@ -366,7 +366,7 @@ Bu yüzden, ```@my_decorator``` sadece, ```say_whee = my_decorator(say_whee)``` 
 
 Bir dekoratörün sadece normal bir Python fonksiyonu olduğunu hatırlayın. Kolay tekrar kullanılabilirlik için tüm genel araçlar mevcuttur. Dekoratörü diğer birçok fonksiyonda kullanılabilecek kendi modülüne taşıyalım.
 
-Aşağıdaki içerikle decorators.py adlı bir dosya oluşturun:
+Aşağıdaki içerikle ```decorators.py``` adlı bir dosya oluşturun:
 
 {% highlight python  linenos=table %}
 
@@ -394,3 +394,18 @@ def say_whee():
     print("Whee!")
 
 {% endhighlight %}
+
+Bu örneği çalıştırdığınızda, orijinal ```say_whee()``` öğesinin iki kez yürütüldüğünü görmelisiniz:
+
+{% highlight python  linenos=table %}
+
+from decorators import do_twice
+
+@do_twice
+def say_whee():
+    print("Whee!")
+
+{% endhighlight %}
+
+
+
