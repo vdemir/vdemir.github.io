@@ -594,7 +594,7 @@ Sorun şu ki, içsel işlev wrapper_do_twice() işlevi herhangi bir argüman alm
 
 Çözüm, iç sarmalayıcı fonksiyonunda *args ve **kwargs kullanmaktır. Ardından, rastgele sayı ve konum argümanlarını kabul eder. decorators.py dosyasını aşağıdaki gibi yeniden yazınız:
 
-{% highlight python  linenos=table %}
+{% highlight python %}
 
 def do_twice(func):
     def wrapper_do_twice(*args, **kwargs):
@@ -606,7 +606,23 @@ def do_twice(func):
 
 wrapper_do_twice() iç işlevi artık herhangi bir sayıdaki argümanı kabul eder ve bunları bezediği işleve iletir. Şimdi hem say_whee() ve greet() örnekleri çalışır:
 
+{% highlight python  linenos=table %}
 
+def do_twice(func):
+    def wrapper_do_twice(*args, **kwargs):
+        func(*args, **kwargs)
+        func(*args, **kwargs)
+    return wrapper_do_twice
+
+@do_twice
+def greet(name):
+    print("Hello" + name)
+    
+@do_twice
+def say_whee():
+    print("Whee!")
+
+{% endhighlight %}
 
 
 
