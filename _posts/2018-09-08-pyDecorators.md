@@ -551,6 +551,8 @@ if __name__ == "__main__":
 
 {% endhighlight %}
 
+Çıktı:
+
 {% highlight python  %}
 
 ['I', 'am', 'a', 'cat', '', 'help', 'me', 'derp']
