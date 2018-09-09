@@ -547,7 +547,7 @@ class StringFilter(object):
         return result
 
 if __name__ == "__main__":
-    print(StringFilter("i am a cat  help me derp", "strip", "capitalize", "split"))
+    print(StringFilter("i am a cat  help me", "strip", "capitalize", "split"))
 
 {% endhighlight %}
 
@@ -555,7 +555,7 @@ if __name__ == "__main__":
 
 {% highlight python  %}
 
-['I', 'am', 'a', 'cat', '', 'help', 'me', 'derp']
+['I', 'am', 'a', 'cat', '', 'help', 'me']
 
 {% endhighlight %}
 
