@@ -879,7 +879,7 @@ Out[3]: 'Hi Adam'
 
 <br>
 
-<div id="D24" class="pop1">Kimsin sen, Gerçekten mi?</div>
+<div id="D25" class="pop1">Kimsin sen, Gerçekten mi?</div>
 
 Özellikle etkileşimli kabukta, Python ile çalışırken büyük kolaylık, güçlü içebakış yeteneğidir. İçebakış, bir nesnenin çalışma zamanında kendi öz niteliklerini bilmesidir. Örneğin, bir fonksiyon kendi adını ve belgelemesini bilir:
 
