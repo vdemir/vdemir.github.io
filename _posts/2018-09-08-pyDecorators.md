@@ -78,6 +78,9 @@ img.resize {
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[İfadelerle Bezeyen Fonksiyonlar](#D23)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Dekore Edilmiş Fonksiyonlardan Dönen Değerler](#D24)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Kimsin sen, Gerçekten mi?](#D25)
++ [Birkaç Gerçek Dünya Örneği](#D3)
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Zamanlama Fonksiyonları](#D31)
+
 
 Dekoratörlerle ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Dekoratörler, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
 
@@ -966,7 +969,7 @@ say_whee()
 
 <br>
 
-<div id="D25" class="pop1">Birkaç Gerçek Dünya Örneği</div>
+<div id="D3" class="pop1">Birkaç Gerçek Dünya Örneği</div>
 
 Dekoratörlerin birkaç yararlı örneğine bakalım. Şimdiye kadar öğrendiklerinizle aynı kalıbı takip edeceklerini fark edeceksiniz.
 
