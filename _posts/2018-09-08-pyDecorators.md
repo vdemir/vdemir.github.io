@@ -679,6 +679,14 @@ do_twice_wrapper() işlevi açıkça bir değer döndürmediğinden, return_gree
 
 Bunu düzeltmek için, **sarma işlevinin dekore edilmiş işlevin dönüş değerini döndürdüğünden emin olmanız** gerekir. Decorators.py dosyanızı değiştirin:
 
+{% highlight python %}
 
+def do_twice(func):
+    def wrapper_do_twice(*args, **kwargs):
+        func(*args, **kwargs)
+        return func(*args, **kwargs)
+    return wrapper_do_twice
+
+{% endhighlight %} 
 
 
