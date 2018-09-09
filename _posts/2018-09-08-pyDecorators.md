@@ -1046,7 +1046,7 @@ Bu formül, daha karmaşık dekoratörler oluşturmak için iyi bir standart kal
 
 <br>
 
-<div id="D3" class="pop1">Zamanlama Fonksiyonları</div>
+<div id="D31" class="pop1">Zamanlama Fonksiyonları</div>
 
 Bir timer dekoratör oluşturarak başlayalım. Bir fonksiyonu yürütmek ve süreyi konsola yazdırmak için gereken süreyi ölçer. İşte kod:
 
