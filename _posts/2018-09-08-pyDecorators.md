@@ -296,11 +296,11 @@ Out[3]: <function __main__.my_decorator.<locals>.wrapper>
 
 {% endhighlight %}
 
-Ancak, ```wrapper()``` işlevi, orijinal ```say_whee()``` işlevine func olarak bir atıfta bulunur ve iki ```print()``` çağrı arasında bu fonksiyonu çağırır.
+Ancak, ```wrapper()``` fonksiyonu, orijinal ```say_whee()``` fonksiyonune func olarak bir atıfta bulunur ve iki ```print()``` çağrı arasında bu fonksiyonu çağırır.
 
-Basitçe söylemek gerekirse: **dekoratörler, onların davranışlarını değiştirerek bir işlevi sarmaktadır.**
+Basitçe söylemek gerekirse: **dekoratörler, onların davranışlarını değiştirerek bir fonksiyonu sarmaktadır.**
 
-Devam etmeden önce, ikinci bir örneğe bakalım. ```wrapper()``` normal bir Python işlevi olduğu için bir dekoratörün bir işlevi değiştirdiği yöntem dinamik olarak değişebilir. Komşularınızı rahatsız etmeyecek şekilde, aşağıdaki örnek yalnızca gün boyunca dekore edilmiş kodu çalıştıracaktır:
+Devam etmeden önce, ikinci bir örneğe bakalım. ```wrapper()``` normal bir Python fonksiyonu olduğu için bir dekoratörün bir fonksiyonu değiştirdiği yöntem dinamik olarak değişebilir. Komşularınızı rahatsız etmeyecek şekilde, aşağıdaki örnek yalnızca gün boyunca dekore edilmiş kodu çalıştıracaktır:
 
 {% highlight python  linenos=table %}
 
@@ -355,13 +355,13 @@ def say_whee():
 
 {% endhighlight %}
 
-Bu yüzden, ```@my_decorator``` sadece, ```say_whee = my_decorator(say_whee)``` demenin daha kolay bir yoldur. Bu bir işleve bir dekoratörün nasıl uygulandığıdır.
+Bu yüzden, ```@my_decorator``` sadece, ```say_whee = my_decorator(say_whee)``` demenin daha kolay bir yoldur. Bu bir fonksiyona bir dekoratörün nasıl uygulandığıdır.
 
 <br>
 
 <div id="D22" class="pop1">Dekoratörleri Yeniden Kullanmak</div>
 
-Bir dekoratörün sadece normal bir Python işlevi olduğunu hatırlayın. Kolay tekrar kullanılabilirlik için tüm genel araçlar mevcuttur. Dekoratörü diğer birçok işlevde kullanılabilecek kendi modülüne taşıyalım.
+Bir dekoratörün sadece normal bir Python fonksiyonu olduğunu hatırlayın. Kolay tekrar kullanılabilirlik için tüm genel araçlar mevcuttur. Dekoratörü diğer birçok fonksiyonda kullanılabilecek kendi modülüne taşıyalım.
 
 Aşağıdaki içerikle decorators.py adlı bir dosya oluşturun:
 
@@ -377,7 +377,7 @@ def do_twice(func):
 
 <br>
 <div class="alert alert-primary" role="alert">
-<p><strong>Note:</strong> İçsel işlevinizi istediğiniz gibi adlandırın ve sarmalayıcı () gibi genel bir ad genellikle tamamdır. Bu makalede çok sayıda dekoratör göreceksiniz. Bunları ayrı tutmak için, iç işlevi, dekoratörle aynı adla, ancak bir wrapper_ önekiyle adlandıracağız.</p>
+<p><strong>Note:</strong> İçsel fonksiyonunuzu istediğiniz gibi adlandırın ve wrapper() gibi genel bir ad genellikle tamamdır. Bu makalede çok sayıda dekoratör göreceksiniz. Bunları ayrı tutmak için, iç fonksiyonu, dekoratörle aynı adla, ancak bir wrapper_ önekiyle adlandıracağız.</p>
 </div>
 
 
