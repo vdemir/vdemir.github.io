@@ -960,7 +960,7 @@ say_whee()
 
 <br>
 
-<div class="alert alert-info" role="alert">
+<div class="alert alert-secondary" role="alert">
 <p><strong>Teknik Detay:</strong> functools.wraps dekoratör, içebakışta kullanılan __name__ ve __doc__ gibi özel nitelikleri güncellemek için functools.update_wrapper() fonksiyonunu kullanır.</p>
 </div>
 
