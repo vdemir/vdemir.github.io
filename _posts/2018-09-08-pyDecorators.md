@@ -855,6 +855,8 @@ In [2]: print(hi_adam)
 None
 
 {% endhighlight %} 
+<br>
+
 
 Maalesef, dekoratörünüz fonksiyondan dönüş değerini yedi.
 
@@ -919,6 +921,8 @@ Out[3]: 'Hi Adam'
 <div id="D25" class="pop1">Kimsin sen, Gerçekten mi?</div>
 
 Özellikle etkileşimli kabukta, Python ile çalışırken büyük kolaylık, güçlü içebakış yeteneğidir. İçebakış, bir nesnenin çalışma zamanında kendi öz niteliklerini bilmesidir. Örneğin, bir fonksiyon kendi adını ve belgelemesini bilir:
+<br>
+
 
 {% highlight python %}
 
@@ -957,10 +961,14 @@ In [8]: help(say_whee)
 Help on function wrapper_do_twice in module __main__:
 
 {% endhighlight %} 
+<br>
+
 
 Ancak, dekore edildikten sonra, say_whee() kendi kimliği konusunda çok kafa karıştırdı. Şimdi do_twice() dekoratörünün içinde wrapper_do_twice() iç fonksiyonu olduğunu bildiriyor. Teknik olarak doğru olsa da, bu çok yararlı bir bilgi değildir.
 
 Bunu düzeltmek için, dekoratörler orijinal fonksiyonla ilgili bilgileri muhafaza eden @functools.wraps dekoratörünü kullanmalıdır.  Decorators.py betiğini tekrar güncelleyin:
+<br>
+
 
 {% highlight python %}
 
