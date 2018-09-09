@@ -1054,10 +1054,7 @@ Bir timer dekoratör oluşturarak başlayalım. Bir fonksiyonu yürütmek ve sü
 
 
 {% highlight python  linenos=table %}
-
-
-Timing Functions
-Let’s start by creating a @timer decorator. It will measure the time a function takes to execute and print the duration to the console. Here’s the code:
+ 
 
 import functools
 import time
