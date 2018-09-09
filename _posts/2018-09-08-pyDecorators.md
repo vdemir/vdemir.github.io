@@ -894,5 +894,10 @@ print(...)
     Prints the values to a stream, or to sys.stdout by default.
     <full help message>
 
-
 {% endhighlight %} 
+
+İçebakış, kendinizin tanımladığı işlevler için de çalışır:
+
+
+
+
