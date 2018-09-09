@@ -1094,8 +1094,10 @@ Kendi kendinine çalışır. Kod boyunca satır satır çalışır. Nasıl çal�
 Python3'te print, çağrılabilecek bir işlevdir: print ("Hi").
 Her iki sürümde,%, sol tarafta bir dize ve sağ tarafta bir değer veya bir değer sayısı veya bir eşleme nesnesi (dikte gibi) gerektiren bir operatördür.</p>
 </div>
-Yani, senin satır böyle görünmesi lazım: print("a=%d,b=%d" % (f(x,n),g(x,n)))
-Ayrıca, Python3 ve daha yenisi için olan öneri, % -style biçimlendirme yerine {} -style biçimlendirme kullanmaktır: print('a={:d}, b={:d}'.format(f(x,n),g(x,n)))
+Yani, senin satır böyle görünmesi lazım: 
+print("a=%d,b=%d" % (f(x,n),g(x,n)))
+Ayrıca, Python3 ve daha yenisi için olan öneri, % -style biçimlendirme yerine {} -style biçimlendirme kullanmaktır: 
+print('a={:d}, b={:d}'.format(f(x,n),g(x,n)))
 Python 3.6, başka bir dizgi formatlama paradigmasını sunar: f-dizeleri.
 print(f'a={f(x,n):d}, b={g(x,n):d}')
 
