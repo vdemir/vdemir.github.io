@@ -116,6 +116,8 @@ Bilgisayar biliminde, Fonksiyonel programlama, hesaplamayı matematiksel fonksiy
 
 Fonksiyonel programlamada beyanlar-```statements```- yerine ifadeler-```expressions```- ve bildirimler-```declarations```- kullanılır; bir programlama dilinde bir ifade, programlama dilinin başka bir değer üretmesi için yorumladığı ve hesapladığı bir veya daha fazla sabit, değişken, operatör ve işlevlerin birleşimidir. Bu süreç, matematiksel ifadeler için değerlendirmeye denir.
 
+<br>
+
 <div id="D11" class="pop1">Birinci Sınıf Öbekler</div>
 
 Python'da fonksiyonlar birinci sınıf öbeklerdir. Bu fonksiyonlar diğer öbekler (string, int, float, list, vb.) gibi, fonksiyonların içinden geçirilip bir ifade olarak kullanılabileceği anlamına gelir. Aşağıdaki üç fonksiyonu göz önünde bulundurun:
