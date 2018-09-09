@@ -565,7 +565,7 @@ if __name__ == "__main__":
 
 <div id="D23" class="pop1">İfadelerle Bezeyen Fonksiyonlar</div>
 
-Bazı argümanları kabul eden bir fonksiyonuniz olduğunu varsayalım. Hala dekore edebilir misin? Hadi deneyelim:
+Bazı ifadeları kabul eden bir fonksiyonuniz olduğunu varsayalım. Hala dekore edebilir misin? Hadi deneyelim:
 
 {% highlight python  linenos=table %}
 
@@ -592,7 +592,7 @@ Traceback (most recent call last):
 TypeError: wrapper_do_twice() takes 0 positional arguments but 1 was given
 {% endhighlight %}
 
-Sorun şu ki, içsel fonksiyon ```wrapper_do_twice()``` fonksiyonu herhangi bir argüman almaz, ancak ```name = 'World'``` ona aktarıldı. ```wrapper_do_twice()``` öğesinin bir bağımsız değişkeni kabul etmesine izin vererek bunu düzeltebilirsiniz, ancak daha önce oluşturduğunuz ```say_whee()``` fonksiyonu için çalışmaz.
+Sorun şu ki, içsel fonksiyon ```wrapper_do_twice()``` fonksiyonu herhangi bir ifade almaz, ancak ```name = 'World'``` ona aktarıldı. ```wrapper_do_twice()``` öğesinin bir bağımsız değişkeni kabul etmesine izin vererek bunu düzeltebilirsiniz, ancak daha önce oluşturduğunuz ```say_whee()``` fonksiyonu için çalışmaz.
 
 Çözüm, iç sarmalayıcı fonksiyonunda ```*args``` ve ```**kwargs``` kullanmaktır. Ardından, rastgele sayı ve konum ifadeyi kabul eder. ```decorators.py``` dosyasını aşağıdaki gibi yeniden yazınız:
 
