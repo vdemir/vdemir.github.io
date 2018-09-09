@@ -382,4 +382,14 @@ def do_twice(func):
 <p><strong>Note:</strong> İçsel fonksiyonunuzu istediğiniz gibi adlandırın ve **wrapper()** gibi genel bir ad genellikle tamamdır. Bu makalede çok sayıda dekoratör göreceksiniz. Bunları ayrı tutmak için, iç fonksiyonu, dekoratörle aynı adla, ancak bir **wrapper_** önekiyle adlandıracağız.</p>
 </div>
 
+Bu yeni dekoratörü, normal bir içe aktarma yaparak diğer dosyalarda kullanabilirsiniz:
 
+{% highlight python  linenos=table %}
+
+from decorators import do_twice
+
+@do_twice
+def say_whee():
+    print("Whee!")
+
+{% endhighlight %}
