@@ -634,7 +634,42 @@ HelloWorld
 
 In [2]: say_whee()
 Whee!
-Whee!
+Whee! 
+
+{% endhighlight %} 
+
+
+<br>
+
+<div id="D24" class="pop1">Dekore Edilmiş Fonksiyonlardan Dönen Değerler</div>
+
+Dekorlu fonksiyonların dönüş değeri ne olur? Eh, karar vermek için dekoratöre kalmış. Basit bir işlevi aşağıdaki gibi dekore ettiğinizi varsayalım:
+
+{% highlight python  linenos=table %}
+
+def do_twice(func):
+    def wrapper_do_twice(*args, **kwargs):
+        func(*args, **kwargs)
+        func(*args, **kwargs)
+    return wrapper_do_twice
+
+@do_twice
+def return_greeting(name):
+    print("Creating greeting")
+    return "Hi" + name
+
+{% endhighlight %}
+
+Çıktı:
+
+{% highlight python %}
+
+In [1]: hi_adam = return_greeting("Adam")
+Creating greeting
+Creating greeting
+
+In [2]: print(hi_adam)
+None
 
 {% endhighlight %} 
 
