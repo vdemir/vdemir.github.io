@@ -62,12 +62,12 @@ img.resize {
 <br>
 
 + [Fonksiyonlar](#D1)
-    - &nbsp;&nbsp;&nbsp;[Birinci Sınıf Öbekler](#D11)
-    - &nbsp;&nbsp;&nbsp;[İç Fonksiyonlar](#D12)
-    - &nbsp;&nbsp;&nbsp;[Fonksiyonlardan Dönen Fonksiyonlar](#D13)
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Birinci Sınıf Öbekler](#D11)
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[İç Fonksiyonlar](#D12)
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fonksiyonlardan Dönen Fonksiyonlar](#D13)
 + [Basit Dekoratörler](#D2)
-    - &nbsp;&nbsp;&nbsp;[Sözdizimsel Şeker!](#D21)
-    - &nbsp;&nbsp;&nbsp;[Dekoratörleri Yeniden Kullanmak](#D22)
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Sözdizimsel Şeker!](#D21)
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Dekoratörleri Yeniden Kullanmak](#D22)
 
 Dekoratörlerle ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Dekoratörler, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
 
