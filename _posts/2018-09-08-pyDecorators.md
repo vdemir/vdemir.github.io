@@ -933,6 +933,12 @@ def do_twice(func):
 
 {% endhighlight %} 
 
+<br>
+
+<div class="alert alert-info" role="alert">
+<p><strong>functools:</strong>  - Yüksek mertebeden işlevler ve istenebilen nesneler üzerindeki işlemler. Functools modülü üst düzey işlevler içindir: diğer işlevler üzerinde hareket eden veya dönen işlevler. Genel olarak, herhangi bir değiştirilebilir nesne bu modülün amaçları için bir işlev olarak ele alınabilir.Bu, bir wrapper işlevini tanımlarken update_wrapper() öğesini bir işlev dekoratör olarak çağırmak için bir kolaylık işlevidir. Bu kısmi (update_wrapper, sarılmış = sarılmış, atanan = atanan, güncellenmiş = güncellenmiş) eşdeğerdir.</p>
+</div>
+
 Dekore edilmiş say_whee() işlevi hakkında bir şey değiştirmeniz gerekmez:
 
 {% highlight python %}
@@ -951,10 +957,12 @@ say_whee()
 
 Çok daha iyi! Şimdi say_whee(), dekorasyondan sonra hala kendisidir.
 
+
 <br>
 
 <div class="alert alert-info" role="alert">
-<p><strong>functools:</strong>  - Yüksek mertebeden işlevler ve istenebilen nesneler üzerindeki işlemler. Functools modülü üst düzey işlevler içindir: diğer işlevler üzerinde hareket eden veya dönen işlevler. Genel olarak, herhangi bir değiştirilebilir nesne bu modülün amaçları için bir işlev olarak ele alınabilir.Bu, bir wrapper işlevini tanımlarken update_wrapper() öğesini bir işlev dekoratör olarak çağırmak için bir kolaylık işlevidir. Bu kısmi (update_wrapper, sarılmış = sarılmış, atanan = atanan, güncellenmiş = güncellenmiş) eşdeğerdir.</p>
+<p><strong>Teknik Detay:</strong> functools.wraps dekoratör, içebakışta kullanılan __name__ ve __doc__ gibi özel nitelikleri güncellemek için functools.update_wrapper() işlevini kullanır.</p>
 </div>
 
+ 
 
