@@ -944,6 +944,8 @@ def do_twice(func):
 </div>
 
 Dekore edilmiş say_whee() fonksiyonu hakkında bir şey değiştirmeniz gerekmez:
+  
+<br>
 
 {% highlight python %}
 
@@ -958,6 +960,8 @@ Help on function say_whee in module __main__:
 
 say_whee()
 {% endhighlight %} 
+  
+<br>
 
 Çok daha iyi! Şimdi say_whee(), dekorasyondan sonra hala kendisidir.
   
