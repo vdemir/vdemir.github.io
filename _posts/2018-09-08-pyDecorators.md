@@ -856,6 +856,11 @@ def do_twice(func):
 def return_greeting(name):
     print("Creating greeting")
     return "Hi " + name
+
+@do_twice
+def say_whee():
+    print("Whee!")
+
 {% endhighlight %}
 
 
