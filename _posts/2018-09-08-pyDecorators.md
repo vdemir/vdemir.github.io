@@ -268,7 +268,7 @@ Dalış yapmadan önce, net olması gereken bazı önkoşullar vardır. Python'd
 ## Değişkenlere fonksiyon atama
 
 
-{% highlight python  linenos=table %}
+{% highlight python %}
 
 def greet(name):
     return "hello "+name
@@ -276,9 +276,29 @@ def greet(name):
 greet_someone = greet
 print greet_someone("John")
 
+# Outputs: hello John
+
 {% endhighlight %}
 
+<br>
 
+## Fonksiyonları diğer fonksiyonlar içinde tanımlayın
+
+
+{% highlight python %}
+
+def greet(name):
+    def get_message():
+        return "Hello "
+
+    result = get_message()+name
+    return result
+
+print greet("John")
+
+# Outputs: Hello John
+
+{% endhighlight %}
 
 
 
