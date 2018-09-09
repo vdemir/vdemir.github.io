@@ -935,6 +935,18 @@ def do_twice(func):
 
 Dekore edilmiş say_whee() işlevi hakkında bir şey değiştirmeniz gerekmez:
 
+{% highlight python %}
 
+In [9]: say_whee
+Out[9]: <function __main__.say_whee>
 
+In [10]: say_whee.__name__
+Out[10]: 'say_whee'
 
+In [11]: help(say_whee)
+Help on function say_whee in module __main__:
+
+say_whee()
+{% endhighlight %} 
+
+Çok daha iyi! Şimdi say_whee () dekorasyondan sonra hala kendisidir.
