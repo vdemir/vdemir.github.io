@@ -980,9 +980,7 @@ def do_twice(func):
         func(*args, **kwargs)
         return func(*args, **kwargs)
     return wrapper_do_twice
-
 {% endhighlight %} 
- 
 <br>
 
 <div class="alert alert-secondary" role="alert">
