@@ -511,6 +511,8 @@ msp = MyStringProcessor()
 
 {% endhighlight %}
 
+<a href="{{ site.baseurl }}/assets/strproc.py"><img src="{{ site.baseurl }}/images/humanstxt-isolated-blank.gif" alt="strproc.py" width="88" height="31"></a>
+
 [Bu yazı içerisinde kullanılan kaynak kodun tamamını içerir.]({{ site.baseurl }}/assets/strproc.py)
 
 Modül, bir standart imza (self, str) içeren ve 
