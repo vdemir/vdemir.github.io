@@ -918,6 +918,6 @@ Help on function wrapper_do_twice in module __main__:
 
 Ancak, dekore edildikten sonra, say_whee() kendi kimliği konusunda çok kafa karıştırdı. Şimdi do_twice() dekoratörünün içinde wrapper_do_twice() iç işlevi olduğunu bildiriyor. Teknik olarak doğru olsa da, bu çok yararlı bir bilgi değildir.
 
-
+Bunu düzeltmek için, dekoratörler orijinal işlevle ilgili bilgileri koruyacak @functools.wraps dekoratörünü kullanmalıdır.  Decorators.py dosyasını tekrar güncelleyin:
 
 
