@@ -389,6 +389,20 @@ print my_get_text("John")
 
 {% endhighlight %}
 
+Bu bizim ilk dekoratörümüzdü. Başka bir işlevi argüman olarak alan bir işlev, yeni bir işlev üretir, orijinal işlevin çalışmasını çoğaltır ve oluşturulan işlevi döndürerek her yerde kullanabiliriz. get_text'in kendisi p_decorate tarafından dekore edilmek için, sadece get_text 'i p_decorate sonucuna atamak zorundayız.
+
+{% highlight python %}
+
+get_text = p_decorate(get_text)
+
+print get_text("John")
+
+# Outputs lorem ipsum, John dolor sit amet
+
+{% endhighlight %}
+
+Dikkat edilmesi gereken diğer bir şey, dekore edilmiş fonksiyonumuzun bir isim argümanını almasıdır. Dekoratörde yapmamız gereken her şey, get_text'in sarmalayıcısının bu argümanı geçmesine izin vermektir.
+
 <br>
 
 <div id="D2" class="pop0">Basit Dekoratörler</div>
