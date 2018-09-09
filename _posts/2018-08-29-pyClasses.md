@@ -120,7 +120,7 @@ Anne
 </main>
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/class1.png" alt="programs" class="resize" />
+  <img src="{{ site.baseurl }}/images/python/class1.png" alt="programs" class="resize" />
   <p><small>Python &bull; Sınıflar.</small></p>
 </div> 
 
