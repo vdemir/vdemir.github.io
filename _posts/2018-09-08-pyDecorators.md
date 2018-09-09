@@ -428,6 +428,7 @@ Whee!
 Whee!
 {% endhighlight %}
 
+<br>
 
 <div class="pop1">Biraz Daha Faydalı </div>
 
@@ -476,6 +477,8 @@ Dekore edilmiş işlevlerin artık çağrı etrafında 'Entering' ve 'Exited' iz
 
 Kurucu, işlev nesnesi olan bağımsız değişkeni saklar. Çağrıda, işlevin adını göstermek için işlevin __name__ özniteliğini kullanırız, daha sonra işlevin kendisini çağırırız.
 
+
+<br>
 
 <div class="pop1">Meta sınıflar ve dekoratörler: uzayda yapılmış bir eşleme</div>
 
