@@ -335,7 +335,7 @@ Yukarıda say_whee() ile dekore ettiğiniz yol biraz biçimsiz ve hantal. Her ş
 Bunun yerine, Python, bazen 'pie' sözdizimi olarak da adlandırılan @ sembolüyle daha basit bir şekilde dekoratörler kullanmanıza izin verir. Aşağıdaki örnek, ilk dekoratör örneğiyle tamamen aynı şeyi yapar:
 
 {% highlight python  linenos=table %}
- 
+
 def my_decorator(func):
     def wrapper():
         print("Something is happening before the function is called.")
@@ -370,8 +370,7 @@ def do_twice(func):
 {% endhighlight %}
 
 <br>
-
-<div class="alert alert-info" role="alert">
+<div class="alert alert-primary" role="alert">
 <p><strong>Note:</strong> İçsel işlevinizi istediğiniz gibi adlandırın ve sarmalayıcı () gibi genel bir ad genellikle tamamdır. Bu makalede çok sayıda dekoratör göreceksiniz. Bunları ayrı tutmak için, iç işlevi, dekoratörle aynı adla, ancak bir wrapper_ önekiyle adlandıracağız.</p>
 </div>
 
