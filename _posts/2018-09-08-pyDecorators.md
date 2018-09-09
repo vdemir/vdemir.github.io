@@ -366,37 +366,6 @@ def do_twice(func):
 {% endhighlight %}
 
 
-<div class="row promises__search-row">
-        <div class="col-md-5">
-            <form action="#" class="form-inline">
-                <input id="search" type="text" class="form-control search" placeholder="Search">
-                <button class="promises__category--reset btn btn-default">
-                    <i class="fa fa-fw fa-refresh"></i> Clear
-                    <i class="fa fa-fw fa-filter"></i><span id="count">{{ total }}</span>/{{ total }}
-                </button>
-            </form>
-            <br>
-        </div>
-        <div class="col-md-7" id="center-on-mobile">
-            <div class="pull-right">
-
-                <div class="promises__statuses">
-                    {% for status in statuses %}
-                        {% assign status_name = status[0] %}
-                        {% assign status_data = status[1] %}
-
-                        <button class="btn btn-{{ status_data['color'] }}" data-list-facet="js-promise-status" data-facet-value="{{ status_name }}" data-select-single="true">
-                            <i class="fa fa-{{ status_data['icon'] }} fa-fw" aria-hidden="true"></i>
-                            <span class="remove-on-mobile">{{ status_name }}</span>
-                        </button>
-                    {% endfor %}
-                </div>
-
-            </div>
-        </div>
-    </div>
 
 
-
-<script src="{{ site.baseurl }}/scripts/js/main.js"></script>
 
