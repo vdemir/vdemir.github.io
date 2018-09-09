@@ -604,7 +604,7 @@ def do_twice(func):
 
 {% endhighlight %}
 
-
+wrapper_do_twice() iç işlevi artık herhangi bir sayıdaki argümanı kabul eder ve bunları bezediği işleve iletir. Şimdi hem say_whee() ve greet() örnekleri çalışır:
 
 
 
