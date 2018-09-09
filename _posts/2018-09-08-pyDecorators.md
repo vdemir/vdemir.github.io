@@ -467,4 +467,43 @@ Dekore edilmiş işlevlerin artık çağrı etrafında 'Entering' ve 'Exited' iz
 
 Kurucu, işlev nesnesi olan bağımsız değişkeni saklar. Çağrıda, işlevin adını göstermek için işlevin __name__ özniteliğini kullanırız, daha sonra işlevin kendisini çağırırız.
 
+Meta sınıflar ve dekoratörler: uzayda yapılmış bir eşleme
+
+Meta sınıflar karmaşık bir konudur ve çoğu zaman ileri düzey programcılar, onlar için çok çeşitli pratik kullanımları görmez.
+
+Gerçekten metasınıflar genellikle çok sayıda otomasyonun sağlanması gereken gelişmiş kütüphaneleri veya çerçeveleri programlarken oyuna girer. Örneğin, Django Forms sistemi, tüm sihrini sağlamak için meta sınıflara dayanır.
+
+Bununla birlikte, genel olarak bilmediğimiz tüm teknikleri 'büyü' ya da 'hileler' olarak adlandırdığımızı ve Python'un bir sonucu olarak birçok şeyin bu şekilde çağrıldığını, bunun diğer dillere kıyasla genellikle kendine özgü bir uygulama olduğunu belirtmek zorundayız.
+
+Biraz Python sihirbazlığı yapalım ve dilin gücünü kullanalım!
+
+Bu yazıda size dekoratörler ve meta sınıfların ilginç bir ortak kullanımını göstermek istiyorum. Yöntemleri işaretlemek için dekoratörlerin nasıl kullanılacağını size göstereceğim, böylece belirli bir işlemi gerçekleştirirken sınıf tarafından otomatik olarak kullanılabilirler.
+
+Daha ayrıntılı olarak, bir dizgeye 'işleyebilmek' için çağrılabilecek bir sınıf uygulayacağım ve basit bir şekilde dekore edilmiş yöntemlerle farklı 'filtreleri' nasıl uygulayacağınızı göstereceğim. Benim elde etmek istediğim şunun gibi:
+
+{% highlight python  linenos=table %}
+
+class MyStringProcessor(StringProcessor):
+    @stringfilter
+    def capitalize(self, str):
+        [...]
+
+    @stringfilter
+    def remove_double_spaces(self, str):
+        [...]
+
+msp = MyStringProcessor()
+"A test string" == msp("a test string")
+{% endhighlight %}
+
+Modül, bir standart imza (self, str) içeren ve 
+stringfilter ile dekore edilen ekleme yöntemlerini alıp özelleştirebileceğim bir StringProcessor sınıfı tanımlar. Bu sınıf daha sonra örneklenebilir ve örnek, bir dizeyi doğrudan işlemek ve sonucu döndürmek için kullanılır. Dahili olarak sınıf, tüm dekore edilmiş yöntemleri art arda otomatik olarak yürütür. Ayrıca, sınıfın, filtreleri tanımladığım sıraya uymasını istiyorum: ilk önce, ilk olarak çalıştırılır.
+
+
+
+
+
+
+
+
 
