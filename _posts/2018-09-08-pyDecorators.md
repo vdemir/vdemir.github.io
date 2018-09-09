@@ -866,9 +866,13 @@ def say_whee():
     print("Whee!")
 
 {% endhighlight %}
+<br>
+
 
 
 Kullanmayı dene:
+<br>
+
 
 {% highlight python %}
 
@@ -904,8 +908,12 @@ print(...)
     <full help message>
 
 {% endhighlight %} 
+<br>
+
 
 İçebakış, kendinizin tanımladığı fonksiyonlar için de çalışır:
+<br>
+
 
 {% highlight python %}
 
