@@ -1075,7 +1075,7 @@ def waste_some_time(num_times):
 {% endhighlight %}
 <br>
 
-Bu dekoratör, fonksiyonun çalışmaya başlamasından hemen önceki süreyi saklayarak çalışır
+Bu dekoratör, fonksiyonun çalışmaya başlamasından hemen önceki süreyi saklayarak çalışır(# 1 olarak işaretlenmiş satırda) ve işlev bittikten hemen sonra(# 2'de). Fonksiyonun aldığı zaman ikisinin arasındaki farktır(# 3'de). Zaman aralıklarını ölçmek için iyi bir iş yapan time.perf_counter() işlevini kullanırız.
 
 {% highlight python %}
 
