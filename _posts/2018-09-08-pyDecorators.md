@@ -282,7 +282,7 @@ print greet_someone("John")
 
 <br>
 
-## Fonksiyonları diğer fonksiyonlar içinde tanımlayın
+**Fonksiyonları diğer fonksiyonlar içinde tanımlayın**
 
 
 {% highlight python %}
@@ -301,7 +301,25 @@ print greet("John")
 {% endhighlight %}
 
 
+<br>
 
+**Dinlemek Fonksiyonlar diğer fonksiyonlara parametre olarak geçirilebilir**
+
+
+{% highlight python %}
+
+def greet(name):
+    def get_message():
+        return "Hello "
+
+    result = get_message()+name
+    return result
+
+print greet("John")
+
+# Outputs: Hello John
+
+{% endhighlight %}
 
 <br>
 
