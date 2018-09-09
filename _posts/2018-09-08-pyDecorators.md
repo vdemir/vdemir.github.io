@@ -495,7 +495,7 @@ Bu yazıda size dekoratörler ve meta sınıfların ilginç bir ortak kullanım�
 
 Daha ayrıntılı olarak, bir dizgeye 'işleyebilmek' için çağrılabilecek bir sınıf uygulayacağım ve basit bir şekilde dekore edilmiş yöntemlerle farklı 'filtreleri' nasıl uygulayacağınızı göstereceğim. Benim elde etmek istediğim şunun gibi:
 
-{% highlight python  linenos=table %}
+{% highlight python %}
 
 class MyStringProcessor(StringProcessor):
     @stringfilter
