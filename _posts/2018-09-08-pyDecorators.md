@@ -129,7 +129,7 @@ Genel olarak, Python'daki fonksiyonlar, bir girdiyi bir çıktıya dönüştürm
 
 Bilgisayar biliminde, Fonksiyonel programlama, hesaplamayı matematiksel fonksiyonların değerlendirilmesi olarak hesaplamayı işleyen ve değişen durum ve değişebilir verileri önleyen bir programlama paradigmasıdır. Bir bildirimsel programlama paradigmasıdır, yani programlama, ifadeler yerine deyim veya bildirimlerle yapılır.
 
-Fonksiyonel programlamada beyanlar-```statements```- yerine ifadeler-```expressions```- ve bildirimler-```declarations```- kullanılır; bir programlama dilinde bir ifade, programlama dilinin başka bir değer üretmesi için yorumladığı ve hesapladığı bir veya daha fazla sabit, değişken, operatör ve fonksiyonlerin birleşimidir. Bu süreç, matematiksel ifadeler için değerlendirmeye denir.
+Fonksiyonel programlamada beyanlar-```statements```- yerine ifadeler-```expressions```- ve bildirimler-```declarations```- kullanılır; bir programlama dilinde bir ifade, programlama dilinin başka bir değer üretmesi için yorumladığı ve hesapladığı bir veya daha fazla sabit, değişken, operatör ve fonksiyonlarin birleşimidir. Bu süreç, matematiksel ifadeler için değerlendirmeye denir.
 
 <br>
 
@@ -323,7 +323,7 @@ print greet("John")
 
 <br>
 
-**İşlevler diğer fonksiyonleri geri verebilir.**
+**İşlevler diğer fonksiyonlari geri verebilir.**
 
 Başka bir deyişle, diğer fonksiyonları üreten fonksiyonlar.
 
@@ -346,9 +346,9 @@ print greet()
 
 <br>
 
-**İç fonksiyonler bidirim alanını çevreleyerek erişime sahip olurlar**
+**İç fonksiyonlar bidirim alanını çevreleyerek erişime sahip olurlar**
 
-Daha çok bir kapanma olarak bilinir. Dekoratörler inşa ederken karşılaşacağımız çok güçlü bir desen. Unutulmaması gereken bir başka şey ise, Python sadece dış bildirim alanını okumaya izin verir ve atamaya izin vermez. Yukarıdaki örneği, iç fonksiyonin kapalı kapsamından bir 'name' argümanı okumak ve yeni fonksiyoni döndürmek için nasıl değiştirdiğimizi fark ettik.
+Daha çok bir kapanma olarak bilinir. Dekoratörler inşa ederken karşılaşacağımız çok güçlü bir desen. Unutulmaması gereken bir başka şey ise, Python sadece dış bildirim alanını okumaya izin verir ve atamaya izin vermez. Yukarıdaki örneği, iç fonksiyonun kapalı kapsamından bir 'name' argümanı okumak ve yeni fonksiyonu döndürmek için nasıl değiştirdiğimizi fark ettik.
 
 {% highlight python %}
 
@@ -369,7 +369,7 @@ print greet()
 
 **Dekoratörlerin Bileşimi**
 
-İşlev dekoratörler, mevcut fonksiyonlara basit bir şekilde sarılırlar. Yukarıda bahsi geçen fikirleri bir araya getirerek bir dekoratör yapabiliriz. Bu örnekte, başka bir fonksiyonin string çıktısını p etiketleriyle saran bir fonksiyoni düşünelim.
+İşlev dekoratörler, mevcut fonksiyonlara basit bir şekilde sarılırlar. Yukarıda bahsi geçen fikirleri bir araya getirerek bir dekoratör yapabiliriz. Bu örnekte, başka bir fonksiyonun string çıktısını p etiketleriyle saran bir fonksiyonu düşünelim.
 
 {% highlight python %}
 
@@ -389,7 +389,7 @@ print my_get_text("John")
 
 {% endhighlight %}
 
-Bu bizim ilk dekoratörümüzdü. Başka bir fonksiyoni argüman olarak alan bir fonksiyon, yeni bir fonksiyon üretir, orijinal fonksiyonin çalışmasını çoğaltır ve oluşturulan fonksiyoni döndürerek her yerde kullanabiliriz. get_text'in kendisi p_decorate tarafından dekore edilmek için, sadece get_text 'i p_decorate sonucuna atamak zorundayız.
+Bu bizim ilk dekoratörümüzdü. Başka bir fonksiyonu argüman olarak alan bir fonksiyon, yeni bir fonksiyon üretir, orijinal fonksiyonun çalışmasını çoğaltır ve oluşturulan fonksiyonu döndürerek her yerde kullanabiliriz. get_text'in kendisi p_decorate tarafından dekore edilmek için, sadece get_text 'i p_decorate sonucuna atamak zorundayız.
 
 {% highlight python %}
 
@@ -626,7 +626,7 @@ Exited func2
 {% endhighlight %}
 
 
-Dekore edilmiş fonksiyonlerin artık çağrı etrafında ```'Entering'``` ve ```'Exited'``` izleme ifadelerine sahip olduğunu görebilirsiniz. 
+Dekore edilmiş fonksiyonlarin artık çağrı etrafında ```'Entering'``` ve ```'Exited'``` izleme ifadelerine sahip olduğunu görebilirsiniz. 
 
 Kurucu, fonksiyon nesnesi olan bağımsız değişkeni saklar. Çağrıda, fonksiyonun adını göstermek için fonksiyonun ```__name__``` özniteliğini kullanırız, daha sonra fonksiyonun kendisini çağırırız.
 
@@ -901,7 +901,7 @@ print(...)
 
 {% endhighlight %} 
 
-İçebakış, kendinizin tanımladığı fonksiyonler için de çalışır:
+İçebakış, kendinizin tanımladığı fonksiyonlar için de çalışır:
 
 {% highlight python %}
 
@@ -916,9 +916,9 @@ Help on function wrapper_do_twice in module __main__:
 
 {% endhighlight %} 
 
-Ancak, dekore edildikten sonra, say_whee() kendi kimliği konusunda çok kafa karıştırdı. Şimdi do_twice() dekoratörünün içinde wrapper_do_twice() iç fonksiyoni olduğunu bildiriyor. Teknik olarak doğru olsa da, bu çok yararlı bir bilgi değildir.
+Ancak, dekore edildikten sonra, say_whee() kendi kimliği konusunda çok kafa karıştırdı. Şimdi do_twice() dekoratörünün içinde wrapper_do_twice() iç fonksiyonu olduğunu bildiriyor. Teknik olarak doğru olsa da, bu çok yararlı bir bilgi değildir.
 
-Bunu düzeltmek için, dekoratörler orijinal fonksiyonle ilgili bilgileri koruyacak @functools.wraps dekoratörünü kullanmalıdır.  Decorators.py dosyasını tekrar güncelleyin:
+Bunu düzeltmek için, dekoratörler orijinal fonksiyonla ilgili bilgileri muhafaza eden @functools.wraps dekoratörünü kullanmalıdır.  Decorators.py betiğini tekrar güncelleyin:
 
 {% highlight python %}
 
@@ -936,10 +936,10 @@ def do_twice(func):
 <br>
 
 <div class="alert alert-info" role="alert">
-<p><strong>functools:</strong>  - Yüksek mertebeden fonksiyonler ve istenebilen nesneler üzerindeki işlemler. Functools modülü üst düzey fonksiyonler içindir: diğer fonksiyonler üzerinde hareket eden veya dönen fonksiyonler. Genel olarak, herhangi bir değiştirilebilir nesne bu modülün amaçları için bir fonksiyon olarak ele alınabilir.Bu, bir wrapper fonksiyonini tanımlarken update_wrapper() öğesini bir fonksiyon dekoratör olarak çağırmak için bir kolaylık fonksiyonidir. Bu kısmi (update_wrapper, sarılmış = sarılmış, atanan = atanan, güncellenmiş = güncellenmiş) eşdeğerdir.</p>
+<p><strong>functools:</strong>  - Yüksek mertebeden fonksiyonlar ve istenebilen nesneler üzerindeki işlemler. Functools modülü üst düzey fonksiyonlar içindir: diğer fonksiyonlar üzerinde hareket eden veya dönen fonksiyonlar. Genel olarak, herhangi bir değiştirilebilir nesne bu modülün amaçları için bir fonksiyon olarak ele alınabilir.Bu, bir wrapper fonksiyonunu tanımlarken update_wrapper() öğesini bir fonksiyon dekoratör olarak çağırmak için bir kolaylık fonksiyonudur. Bu kısmi (update_wrapper, sarılmış = sarılmış, atanan = atanan, güncellenmiş = güncellenmiş) eşdeğerdir.</p>
 </div>
 
-Dekore edilmiş say_whee() fonksiyoni hakkında bir şey değiştirmeniz gerekmez:
+Dekore edilmiş say_whee() fonksiyonu hakkında bir şey değiştirmeniz gerekmez:
 
 {% highlight python %}
 
@@ -961,7 +961,7 @@ say_whee()
 <br>
 
 <div class="alert alert-info" role="alert">
-<p><strong>Teknik Detay:</strong> functools.wraps dekoratör, içebakışta kullanılan __name__ ve __doc__ gibi özel nitelikleri güncellemek için functools.update_wrapper() fonksiyonini kullanır.</p>
+<p><strong>Teknik Detay:</strong> functools.wraps dekoratör, içebakışta kullanılan __name__ ve __doc__ gibi özel nitelikleri güncellemek için functools.update_wrapper() fonksiyonunu kullanır.</p>
 </div>
 
  
