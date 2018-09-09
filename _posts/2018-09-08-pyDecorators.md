@@ -679,6 +679,8 @@ Basitçe söylemek gerekirse, meta sınıflar, sınıfları almak için örnekle
 
 Verilen bir metaclass, sınıf tanımındaki fonksiyonların bir alt kümesini tanımlamak için bir kod eklememiz için iyi bir başlangıç ​​noktasıdır. Başka bir deyişle, meta sınıfın (yani, sınıfın) çıktısının tam olarak standart durumda olduğu gibi oluşturulmasını istiyoruz, ama ek olarak: 
 ```stringfilter``` ile süslenmiş tüm yöntemlerin ayrı bir listesi.
+<br>
+
 
 {% highlight python  linenos=table %}
 
@@ -707,8 +709,12 @@ if __name__ == "__main__":
     print(StringFilter("i am a cat  help me", "strip", "capitalize", "split"))
 
 {% endhighlight %}
+<br>
+
 
 Çıktı:
+<br>
+
 
 {% highlight python  %}
 
@@ -721,6 +727,8 @@ if __name__ == "__main__":
 <div id="D23" class="pop1">İfadelerle Bezeyen Fonksiyonlar</div>
 
 Bazı ifadeları kabul eden bir fonksiyonuniz olduğunu varsayalım. Hala dekore edebilir misin? Hadi deneyelim:
+<br>
+
 
 {% highlight python  linenos=table %}
 
@@ -735,8 +743,12 @@ def greet(name):
     print("Hello" + name)
 
 {% endhighlight %}
+<br>
+
 
 Maalesef, bu kodu çalıştırmak bir hataya yol açıyor:
+<br>
+
 
 {% highlight python  %}
 
@@ -750,6 +762,8 @@ TypeError: wrapper_do_twice() takes 0 positional arguments but 1 was given
 Sorun şu ki, içsel fonksiyon ```wrapper_do_twice()``` fonksiyonu herhangi bir ifade almaz, ancak ```name = 'World'``` ona aktarıldı. ```wrapper_do_twice()``` öğesinin bir bağımsız değişkeni kabul etmesine izin vererek bunu düzeltebilirsiniz, ancak daha önce oluşturduğunuz ```say_whee()``` fonksiyonu için çalışmaz.
 
 Çözüm, iç sarmalayıcı fonksiyonunda ```*args``` ve ```**kwargs``` kullanmaktır. Ardından, rastgele sayı ve konum ifadeyi kabul eder. ```decorators.py``` dosyasını aşağıdaki gibi yeniden yazınız:
+<br>
+
 
 {% highlight python %}
 
@@ -780,8 +794,12 @@ def say_whee():
     print("Whee!")
 
 {% endhighlight %}
+<br>
+
 
 Çıktı:
+<br>
+
 
 {% highlight python %}
 
@@ -816,8 +834,12 @@ def return_greeting(name):
     return "Hi" + name
 
 {% endhighlight %}
+<br>
+
 
 Kullanmayı dene:
+<br>
+
 
 {% highlight python %}
 
@@ -845,8 +867,12 @@ def do_twice(func):
     return wrapper_do_twice
 
 {% endhighlight %} 
+<br>
+
 
 fonksiyonun son yürütülmesinden döndürülen değer döndürülür:
+<br>
+
 
 {% highlight python  linenos=table %}
 
