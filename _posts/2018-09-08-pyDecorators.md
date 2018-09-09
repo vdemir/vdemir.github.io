@@ -551,7 +551,11 @@ if __name__ == "__main__":
 
 {% endhighlight %}
 
+{% highlight python  %}
 
+['I', 'am', 'a', 'cat', '', 'help', 'me', 'derp']
+
+{% endhighlight %}
 
 
 
