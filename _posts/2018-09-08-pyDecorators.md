@@ -1054,8 +1054,6 @@ Bir timer dekoratör oluşturarak başlayalım. Bir fonksiyonu yürütmek ve sü
 
 
 {% highlight python  linenos=table %}
- 
-
 import functools
 import time
 
