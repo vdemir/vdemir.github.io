@@ -1065,7 +1065,7 @@ def timer(func):
         value = func(*args, **kwargs)
         end_time = time.perf_counter()      # 2
         run_time = end_time - start_time    # 3
-        print(f"Finished {func.__name__!r} in {run_time:.4f} secs")
+        print('Finished  waste_some_time in  {:.4f} secs'.format(run_time))
         return value
     return wrapper_timer
 
@@ -1078,6 +1078,14 @@ def waste_some_time(num_times):
 <br>
 
 Bu dekoratör, fonksiyonun çalışmaya başlamasından hemen önceki süreyi saklayarak çalışır
+
+{% highlight python %}
+
+In [14]: waste_some_time(1)
+Finished  waste_some_time in  0.0029 secs
+{% endhighlight %} 
+
+
 
 <div class="alert alert-success" role="alert">
 <p><strong>Bilgi:</strong>Python2'de, print bir ifade sunan bir anahtar kelime oldu: print "Hi"
