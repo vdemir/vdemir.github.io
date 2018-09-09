@@ -27,7 +27,7 @@ img.resize {
 </style>
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/Classes-in-Python.jpg" alt="programs" class="resize" />
+  <img src="{{ site.baseurl }}/images/python/python-classes2.jpg" alt="programs" class="resize" />
   <p><small>Python &bull; Sınıflar.</small></p>
 </div>
 
