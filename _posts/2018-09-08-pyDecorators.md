@@ -877,4 +877,22 @@ Out[3]: 'Hi Adam'
 
 Özellikle etkileşimli kabukta, Python ile çalışırken büyük kolaylık, güçlü iç gözlemleme yeteneğidir. Gözlemleme, bir nesnenin çalışma zamanında kendi öz niteliklerini bilmesidir. Örneğin, bir işlev kendi adını ve belgelerini bilir:
 
+{% highlight python %}
 
+In [1]: print
+Out[1]: <function print>
+
+In [2]: print.__name__
+Out[2]: 'print'
+
+In [3]: help(print)
+Help on built-in function print in module builtins:
+
+print(...)
+    print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
+    
+    Prints the values to a stream, or to sys.stdout by default.
+    <full help message>
+
+
+{% endhighlight %} 
