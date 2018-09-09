@@ -950,3 +950,11 @@ say_whee()
 {% endhighlight %} 
 
 Çok daha iyi! Şimdi say_whee () dekorasyondan sonra hala kendisidir.
+
+<br>
+
+<div class="alert alert-info" role="alert">
+<p><strong>Note:</strong> functools - Yüksek mertebeden işlevler ve istenebilen nesneler üzerindeki işlemler. Functools modülü üst düzey işlevler içindir: diğer işlevler üzerinde hareket eden veya dönen işlevler. Genel olarak, herhangi bir değiştirilebilir nesne bu modülün amaçları için bir işlev olarak ele alınabilir.</p>
+</div>
+
+
