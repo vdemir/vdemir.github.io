@@ -898,6 +898,17 @@ print(...)
 
 İçebakış, kendinizin tanımladığı işlevler için de çalışır:
 
+{% highlight python %}
 
+In [6]: say_whee
+Out[6]: <function __main__.do_twice.<locals>.wrapper_do_twice>
+
+In [7]: say_whee.__name__
+Out[7]: 'wrapper_do_twice'
+
+In [8]: help(say_whee)
+Help on function wrapper_do_twice in module __main__:
+
+{% endhighlight %} 
 
 
