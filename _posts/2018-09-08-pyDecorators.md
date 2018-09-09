@@ -429,7 +429,7 @@ Whee!
 {% endhighlight %}
 
 
-<div class="pop2">Biraz Daha Faydalı </div>
+<div class="pop1">Biraz Daha Faydalı </div>
 
 
 Şimdi, ilk örneğe dönelim ve uygulayalım. Burada, daha tipik olanı yapacağız ve aslında kodu dekore edilmiş fonksiyonlarda kullanacağız:
@@ -477,7 +477,7 @@ Dekore edilmiş işlevlerin artık çağrı etrafında 'Entering' ve 'Exited' iz
 Kurucu, işlev nesnesi olan bağımsız değişkeni saklar. Çağrıda, işlevin adını göstermek için işlevin __name__ özniteliğini kullanırız, daha sonra işlevin kendisini çağırırız.
 
 
-<div class="pop2">Meta sınıflar ve dekoratörler: uzayda yapılmış bir eşleme</div>
+<div class="pop1">Meta sınıflar ve dekoratörler: uzayda yapılmış bir eşleme</div>
 
 
 Meta sınıflar karmaşık bir konudur ve çoğu zaman ileri düzey programcılar, onlar için çok çeşitli pratik kullanımları görmez.
