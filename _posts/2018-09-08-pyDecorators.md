@@ -509,9 +509,7 @@ class MyStringProcessor(StringProcessor):
 msp = MyStringProcessor()
 "A test string" == msp("a test string")
 
-{% endhighlight %}
-
-<a href="{{ site.baseurl }}/assets/strproc.py"><img src="{{ site.baseurl }}/images/strproc-isolated-blank.gif" alt="strproc.py" width="88" height="31"></a>
+{% endhighlight %} 
 
 [Bu yazı içerisinde kullanılan kaynak kodun tamamını içerir.]({{ site.baseurl }}/assets/strproc.py)
 
