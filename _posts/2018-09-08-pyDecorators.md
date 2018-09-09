@@ -395,7 +395,7 @@ def say_whee():
 
 {% endhighlight %}
 
-Bu örneği çalıştırdığınızda, orijinal ```say_whee()``` öğesinin iki kez yürütüldüğünü görmelisiniz:
+yada doğruda çalıştırabilirsiniz:
 
 {% highlight python  linenos=table %}
 
@@ -410,6 +410,10 @@ def say_whee():
     print("Whee!")
 
 {% endhighlight %}
+
+
+Bu örneği çalıştırdığınızda, orijinal ```say_whee()``` öğesinin iki kez yürütüldüğünü görmelisiniz:
+
 
 {% highlight python  %}
 
