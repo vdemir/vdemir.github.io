@@ -16,7 +16,7 @@ lang: tr
 ---
 
 <!-- syntax highlighting CSS -->
-<link rel="stylesheet" href="{{ site.baseurl }}/css/still/main.css" type="text/css" >
+<link rel="stylesheet" href="{{ site.baseurl }}/css/still/still.css" type="text/css" >
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/Python-Decorators.png" alt="programs" class="resize" />
