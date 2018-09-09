@@ -83,10 +83,9 @@ Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nası
 
 <div class="box">Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nasıl çalıştığına dair birkaç örnek gördükten sonra değil.</div>
 
-<br><div id="D1" class="pop0">
-<div class="alert alert-heading" role="alert">
-Fonksiyonlar</div>
-</div>
+<br>
+
+<div id="D1" class="pop0">Fonksiyonlar</div>
 
 Dekoratörleri anlayabilmeniz için öncelikle fonksiyonların nasıl çalıştığını anlamanız gerekir. Bizim amacımız için, bir fonksiyon verilen ifadelere dayalı bir değer döndürür. İşte çok basit bir örnek:
 
@@ -285,8 +284,8 @@ say_whee = my_decorator(say_whee)
 
 {% endhighlight %}
 
-Aslında, **say_whee** ismi şimdi **wrapper()** iç fonksiyonuna işaret etmektedir.
-Çağrı yaptığınızda wrapper fonksiyon olarak döndürdüğünüzü hatırlayın.
+Aslında, ```say_whee``` ismi şimdi ```wrapper()``` iç fonksiyonuna işaret etmektedir.
+Çağrı yaptığınızda ```wrapper``` fonksiyon olarak döndürdüğünüzü hatırlayın.
 
 my_decorator(say_whee):
 
@@ -297,11 +296,11 @@ Out[3]: <function __main__.my_decorator.<locals>.wrapper>
 
 {% endhighlight %}
 
-Ancak, **wrapper()** işlevi, orijinal **say_whee()** işlevine func olarak bir atıfta bulunur ve iki **print()** çağrı arasında bu fonksiyonu çağırır.
+Ancak, ```wrapper()``` işlevi, orijinal ```say_whee()``` işlevine func olarak bir atıfta bulunur ve iki ```print()``` çağrı arasında bu fonksiyonu çağırır.
 
 Basitçe söylemek gerekirse: **dekoratörler, onların davranışlarını değiştirerek bir işlevi sarmaktadır.**
 
-Devam etmeden önce, ikinci bir örneğe bakalım. **wrapper()** normal bir Python işlevi olduğu için bir dekoratörün bir işlevi değiştirdiği yöntem dinamik olarak değişebilir. Komşularınızı rahatsız etmeyecek şekilde, aşağıdaki örnek yalnızca gün boyunca dekore edilmiş kodu çalıştıracaktır:
+Devam etmeden önce, ikinci bir örneğe bakalım. ```wrapper()``` normal bir Python işlevi olduğu için bir dekoratörün bir işlevi değiştirdiği yöntem dinamik olarak değişebilir. Komşularınızı rahatsız etmeyecek şekilde, aşağıdaki örnek yalnızca gün boyunca dekore edilmiş kodu çalıştıracaktır:
 
 {% highlight python  linenos=table %}
 
@@ -337,7 +336,7 @@ In [5]:
 
 <div id="D21" class="pop1">Sözdizimsel Şeker!</div>
 
-Yukarıda say_whee() ile dekore ettiğiniz yol biraz biçimsiz ve hantal. Her şeyden önce, say_whee isminin üç kere yazımını bitirirsiniz. Buna ek olarak, dekorasyon, fonksiyon tanımının altında gizlenmiştir.
+Yukarıda ```say_whee()``` ile dekore ettiğiniz yol biraz biçimsiz ve hantal. Her şeyden önce, ```say_whee``` isminin üç kere yazımını bitirirsiniz. Buna ek olarak, dekorasyon, fonksiyon tanımının altında gizlenmiştir.
 
 Bunun yerine, Python, bazen 'pie' sözdizimi olarak da adlandırılan @ sembolüyle daha basit bir şekilde dekoratörler kullanmanıza izin verir. Aşağıdaki örnek, ilk dekoratör örneğiyle tamamen aynı şeyi yapar:
 
@@ -356,7 +355,7 @@ def say_whee():
 
 {% endhighlight %}
 
-Bu yüzden, @my_decorator sadece, say_whee = my_decorator(say_whee) demenin daha kolay bir yoldur. Bu bir işleve bir dekoratörün nasıl uygulandığıdır.
+Bu yüzden, ```@my_decorator``` sadece, ```say_whee = my_decorator(say_whee)``` demenin daha kolay bir yoldur. Bu bir işleve bir dekoratörün nasıl uygulandığıdır.
 
 <br>
 
