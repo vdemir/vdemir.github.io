@@ -122,7 +122,7 @@ Genel olarak, Python'daki fonksiyonlar, bir girdiyi bir çıktıya dönüştürm
 
 Bilgisayar biliminde, Fonksiyonel programlama, hesaplamayı matematiksel fonksiyonların değerlendirilmesi olarak hesaplamayı işleyen ve değişen durum ve değişebilir verileri önleyen bir programlama paradigmasıdır. Bir bildirimsel programlama paradigmasıdır, yani programlama, ifadeler yerine deyim veya bildirimlerle yapılır.
 
-Fonksiyonel programlamada beyanlar-```statements```- yerine ifadeler-```expressions```- ve bildirimler-```declarations```- kullanılır; bir programlama dilinde bir ifade, programlama dilinin başka bir değer üretmesi için yorumladığı ve hesapladığı bir veya daha fazla sabit, değişken, operatör ve işlevlerin birleşimidir. Bu süreç, matematiksel ifadeler için değerlendirmeye denir.
+Fonksiyonel programlamada beyanlar-```statements```- yerine ifadeler-```expressions```- ve bildirimler-```declarations```- kullanılır; bir programlama dilinde bir ifade, programlama dilinin başka bir değer üretmesi için yorumladığı ve hesapladığı bir veya daha fazla sabit, değişken, operatör ve fonksiyonlerin birleşimidir. Bu süreç, matematiksel ifadeler için değerlendirmeye denir.
 
 <br>
 
@@ -475,9 +475,9 @@ Exited func2
 {% endhighlight %}
 
 
-Dekore edilmiş işlevlerin artık çağrı etrafında ```'Entering'``` ve ```'Exited'``` izleme ifadelerine sahip olduğunu görebilirsiniz. 
+Dekore edilmiş fonksiyonlerin artık çağrı etrafında ```'Entering'``` ve ```'Exited'``` izleme ifadelerine sahip olduğunu görebilirsiniz. 
 
-Kurucu, işlev nesnesi olan bağımsız değişkeni saklar. Çağrıda, işlevin adını göstermek için işlevin ```__name__``` özniteliğini kullanırız, daha sonra işlevin kendisini çağırırız.
+Kurucu, fonksiyon nesnesi olan bağımsız değişkeni saklar. Çağrıda, fonksiyonun adını göstermek için fonksiyonun ```__name__``` özniteliğini kullanırız, daha sonra fonksiyonun kendisini çağırırız.
 
 
 <br>
@@ -565,7 +565,7 @@ if __name__ == "__main__":
 
 <div id="D23" class="pop1">İfadelerle Bezeyen Fonksiyonlar</div>
 
-Bazı argümanları kabul eden bir işleviniz olduğunu varsayalım. Hala dekore edebilir misin? Hadi deneyelim:
+Bazı argümanları kabul eden bir fonksiyonuniz olduğunu varsayalım. Hala dekore edebilir misin? Hadi deneyelim:
 
 {% highlight python  linenos=table %}
 
@@ -592,9 +592,9 @@ Traceback (most recent call last):
 TypeError: wrapper_do_twice() takes 0 positional arguments but 1 was given
 {% endhighlight %}
 
-Sorun şu ki, içsel işlev ```wrapper_do_twice()``` işlevi herhangi bir argüman almaz, ancak ```name = 'Dünya'``` ona aktarıldı. ```wrapper_do_twice()``` öğesinin bir bağımsız değişkeni kabul etmesine izin vererek bunu düzeltebilirsiniz, ancak daha önce oluşturduğunuz ```say_whee()``` işlevi için çalışmaz.
+Sorun şu ki, içsel fonksiyon ```wrapper_do_twice()``` fonksiyonu herhangi bir argüman almaz, ancak ```name = 'World'``` ona aktarıldı. ```wrapper_do_twice()``` öğesinin bir bağımsız değişkeni kabul etmesine izin vererek bunu düzeltebilirsiniz, ancak daha önce oluşturduğunuz ```say_whee()``` fonksiyonu için çalışmaz.
 
-Çözüm, iç sarmalayıcı fonksiyonunda *args ve **kwargs kullanmaktır. Ardından, rastgele sayı ve konum argümanlarını kabul eder. ```decorators.py``` dosyasını aşağıdaki gibi yeniden yazınız:
+Çözüm, iç sarmalayıcı fonksiyonunda ```*args``` ve ```**kwargs``` kullanmaktır. Ardından, rastgele sayı ve konum ifadeyi kabul eder. ```decorators.py``` dosyasını aşağıdaki gibi yeniden yazınız:
 
 {% highlight python %}
 
@@ -606,7 +606,7 @@ def do_twice(func):
 
 {% endhighlight %}
 
-```wrapper_do_twice()``` iç işlevi artık herhangi bir sayıdaki argümanı kabul eder ve bunları bezediği işleve iletir. Şimdi hem ```say_whee()``` ve ```greet()``` örnekleri çalışır:
+```wrapper_do_twice()``` iç fonksiyonu artık herhangi bir sayıdaki ifadeyi kabul eder ve bunları bezediği fonksiyone iletir. Şimdi hem ```say_whee()``` ve ```greet()``` örnekleri çalışır:
 
 {% highlight python  linenos=table %}
 
@@ -645,7 +645,7 @@ Whee!
 
 <div id="D24" class="pop1">Dekore Edilmiş Fonksiyonlardan Dönen Değerler</div>
 
-Dekorlu fonksiyonların dönüş değeri ne olur? Eh, karar vermek için dekoratöre kalmış. Basit bir işlevi aşağıdaki gibi dekore ettiğinizi varsayalım:
+Dekorlu fonksiyonların dönüş değeri ne olur? Eh, karar vermek için dekoratöre kalmış. Basit bir fonksiyonu aşağıdaki gibi dekore ettiğinizi varsayalım:
 
 {% highlight python  linenos=table %}
 
@@ -675,11 +675,11 @@ None
 
 {% endhighlight %} 
 
-Maalesef, dekoratörünüz işlevden dönüş değerini yedi.
+Maalesef, dekoratörünüz fonksiyondan dönüş değerini yedi.
 
-```do_twice_wrapper()``` işlevi açıkça bir değer döndürmediğinden, ```return_greeting('Adam')``` çağrısı, None döndürerek sona ermiştir.
+```do_twice_wrapper()``` fonksiyonu açıkça bir değer döndürmediğinden, ```return_greeting('Adam')``` çağrısı, None döndürerek sona ermiştir.
 
-Bunu düzeltmek için, **sarma işlevinin dekore edilmiş işlevin dönüş değerini döndürdüğünden emin olmanız** gerekir. ```decorators.py``` dosyanızı 4. satırını değiştirin:
+Bunu düzeltmek için, **sarma fonksiyonunin dekore edilmiş fonksiyonun dönüş değerini döndürdüğünden emin olmanız** gerekir. ```decorators.py``` dosyanızı 4. satırını değiştirin:
 
 {% highlight python %}
 
@@ -691,7 +691,7 @@ def do_twice(func):
 
 {% endhighlight %} 
 
-İşlevin son yürütülmesinden döndürülen değer döndürülür:
+fonksiyonun son yürütülmesinden döndürülen değer döndürülür:
 
 {% highlight python  linenos=table %}
 
