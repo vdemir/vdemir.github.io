@@ -90,6 +90,8 @@ Tanım olarak, bir dekoratör, başka bir fonksiyon alan ve  açık bir şekilde
 <p><strong>Note:</strong> Python ile ilgili olarak bahsettiğimiz 'dekoratörler'  fonksiyonları ve yöntemleri daha kolay değiştirmemizi sağlayan Python sözdizimine özel bir değişikliktir. Tasarım desenleri bağlamında, dekoratörler, alt sınıfları doğrudan kullanmak zorunda kalmadan bir işlev, yöntem veya sınıfın işlevselliğini dinamik olarak değiştirir. Bu, değiştirmek istemediğiniz işlevlerin işlevselliğini genişletmeniz gerektiğinde idealdir.</p>
 </div>
 
+Esas olarak, dekoratörler sarmalayıcı olarak işlev görürler, fonksiyonun kendisini değiştirmeye gerek kalmadan, orijinal işlevselliği arttırarak ve böylece dekorasyonunu yaparak, kodun bir hedef işlev yürütme işleminden önce ve sonra davranışlarını değiştirirler.
+
 Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nasıl çalıştığına dair birkaç örnek gördükten sonra değil. Bu makaledeki tüm örnekleri burada bulabilirsiniz.
 
 
