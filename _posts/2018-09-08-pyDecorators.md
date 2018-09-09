@@ -932,3 +932,9 @@ def do_twice(func):
     return wrapper_do_twice
 
 {% endhighlight %} 
+
+Dekore edilmiş say_whee() işlevi hakkında bir şey değiştirmeniz gerekmez:
+
+
+
+
