@@ -679,7 +679,7 @@ Maalesef, dekoratörünüz fonksiyondan dönüş değerini yedi.
 
 ```do_twice_wrapper()``` fonksiyonu açıkça bir değer döndürmediğinden, ```return_greeting('Adam')``` çağrısı, None döndürerek sona ermiştir.
 
-Bunu düzeltmek için, **sarma fonksiyonunin dekore edilmiş fonksiyonun dönüş değerini döndürdüğünden emin olmanız** gerekir. ```decorators.py``` dosyanızı 4. satırını değiştirin:
+Bunu düzeltmek için, **sarma fonksiyonunun dekore edilmiş fonksiyonun dönüş değerini döndürdüğünden emin olmanız** gerekir. ```decorators.py``` dosyanızı 4. satırını değiştirin:
 
 {% highlight python %}
 
