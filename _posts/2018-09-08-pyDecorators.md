@@ -988,3 +988,12 @@ def decorator(func):
 {% endhighlight %} 
 
 Bu formül, daha karmaşık dekoratörler oluşturmak için iyi bir standart kalıptır.
+
+<div class="alert alert-warning" role="alert">
+<p><strong>Not::</strong>  Daha sonraki örneklerde, bu dekoratörlerin de decorators.py dosyanıza kaydedildiğini kabul edeceğiz. Bu derste tüm örnekleri indirebileceğinizi unutmayın.</p>
+</div>
+
+
+
+
+
