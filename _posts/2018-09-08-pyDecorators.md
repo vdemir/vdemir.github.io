@@ -430,7 +430,7 @@ Whee!
 
 <br>
 
-<div class="pop1">Biraz Daha Faydalı </div>
+## Biraz Daha Faydalı
 
 
 Şimdi, ilk örneğe dönelim ve uygulayalım. Burada, daha tipik olanı yapacağız ve aslında kodu dekore edilmiş fonksiyonlarda kullanacağız:
@@ -480,7 +480,7 @@ Kurucu, işlev nesnesi olan bağımsız değişkeni saklar. Çağrıda, işlevin
 
 <br>
 
-<div class="pop1">Meta sınıflar ve dekoratörler: uzayda yapılmış bir eşleme</div>
+## Meta sınıflar ve dekoratörler: uzayda yapılmış bir eşleme
 
 
 Meta sınıflar karmaşık bir konudur ve çoğu zaman ileri düzey programcılar, onlar için çok çeşitli pratik kullanımları görmez.
