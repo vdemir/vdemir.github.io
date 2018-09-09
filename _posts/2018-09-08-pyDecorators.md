@@ -1081,6 +1081,9 @@ Bu dekoratör, fonksiyonun çalışmaya başlamasından hemen önceki süreyi sa
 
 In [14]: waste_some_time(1)
 Finished  waste_some_time in  0.0029 secs
+
+In [34]: waste_some_time(999)
+Finished  waste_some_time in  2.8798 secs
 {% endhighlight %} 
 
 <div class="alert alert-success" role="alert">
