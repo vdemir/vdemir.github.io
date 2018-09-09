@@ -964,5 +964,24 @@ say_whee()
 <p><strong>Teknik Detay:</strong> functools.wraps dekoratör, içebakışta kullanılan __name__ ve __doc__ gibi özel nitelikleri güncellemek için functools.update_wrapper() fonksiyonunu kullanır.</p>
 </div>
 
- 
+<br>
+
+<div id="D25" class="pop1">Birkaç Gerçek Dünya Örneği</div>
+
+Dekoratörlerin birkaç yararlı örneğine bakalım. Şimdiye kadar öğrendiklerinizle aynı kalıbı takip edeceklerini fark edeceksiniz.
+
+{% highlight python %}
+
+import functools
+
+def decorator(func):
+    @functools.wraps(func)
+    def wrapper_decorator(*args, **kwargs):
+        # Do something before
+        value = func(*args, **kwargs)
+        # Do something after
+        return value
+    return wrapper_decorator
+{% endhighlight %} 
+
 
