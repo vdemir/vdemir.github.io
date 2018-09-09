@@ -511,6 +511,8 @@ msp = MyStringProcessor()
 
 {% endhighlight %}
 
+[Bu yazı içerisinde kullanılan kaynak kodun tamamını içerir.](href="{{ site.baseurl }}/assets/strproc.py")
+
 Modül, bir standart imza (self, str) içeren ve 
 stringfilter ile dekore edilen ekleme yöntemlerini alıp özelleştirebileceğim bir StringProcessor sınıfı tanımlar. Bu sınıf daha sonra örneklenebilir ve örnek, bir dizeyi doğrudan işlemek ve sonucu döndürmek için kullanılır. Dahili olarak sınıf, tüm dekore edilmiş yöntemleri art arda otomatik olarak yürütür. Ayrıca, sınıfın, filtreleri tanımladığım sıraya uymasını istiyorum: ilk önce, ilk olarak çalıştırılır.
 
