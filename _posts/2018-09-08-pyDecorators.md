@@ -71,6 +71,7 @@ img.resize {
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Birinci Sınıf Öbekler](#D11)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[İç Fonksiyonlar](#D12)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fonksiyonlardan Dönen Fonksiyonlar](#D13)
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fonksiyonlar hakkında bilmeniz gerekenler](#D14)
 + [Basit Dekoratörler](#D2)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Sözdizimsel Şeker!](#D21)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Dekoratörleri Yeniden Kullanmak](#D22)
