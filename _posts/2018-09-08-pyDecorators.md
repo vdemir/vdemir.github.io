@@ -651,6 +651,8 @@ Biraz Python sihirbazlığı yapalım ve dilin gücünü kullanalım!
 Bu yazıda size dekoratörler ve meta sınıfların ilginç bir ortak kullanımını göstermek istiyorum. Yöntemleri işaretlemek için dekoratörlerin nasıl kullanılacağını size göstereceğim, böylece belirli bir işlemi gerçekleştirirken sınıf tarafından otomatik olarak kullanılabilirler.
 
 Daha ayrıntılı olarak, bir dizgeye 'işleyebilmek' için çağrılabilecek bir sınıf uygulayacağım ve basit bir şekilde dekore edilmiş yöntemlerle farklı 'filtreleri' nasıl uygulayacağınızı göstereceğim. Benim elde etmek istediğim şunun gibi:
+<br>
+
 
 {% highlight python %}
 
@@ -667,6 +669,8 @@ msp = MyStringProcessor()
 "A test string" == msp("a test string")
 
 {% endhighlight %} 
+<br>
+
 
 [Bu yazı içerisinde kullanılan kaynak kodun tamamını içerir.]({{ site.baseurl }}/assets/strproc.py)
 
