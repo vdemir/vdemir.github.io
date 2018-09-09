@@ -624,7 +624,17 @@ def say_whee():
 
 {% endhighlight %}
 
+{% highlight python %}
 
+In [1]: greet("World")
+HelloWorld
+HelloWorld
+
+In [2]: say_whee()
+Whee!
+Whee!
+
+{% endhighlight %} 
 
 
 
