@@ -547,7 +547,7 @@ class StringFilter(object):
         return result
 
 if __name__ == "__main__":
-    print(StringFilter("    i am a cat  help me derp", "strip", "capitalize", "split"))
+    print(StringFilter("i am a cat  help me derp", "strip", "capitalize", "split"))
 
 {% endhighlight %}
 
@@ -558,6 +558,37 @@ if __name__ == "__main__":
 ['I', 'am', 'a', 'cat', '', 'help', 'me', 'derp']
 
 {% endhighlight %}
+
+<br>
+
+<div id="D23" class="pop1">İfadelerle Bezeyen Fonksiyonlar</div>
+
+Bazı argümanları kabul eden bir işleviniz olduğunu varsayalım. Hala dekore edebilir misin? Hadi deneyelim:
+
+{% highlight python  linenos=table %}
+
+def do_twice(func):
+    def wrapper_do_twice():
+        func()
+        func()
+    return wrapper_do_twice
+
+@do_twice
+def greet(name):
+    print("Hello" + name)
+
+{% endhighlight %}
+
+Maalesef, bu kodu çalıştırmak bir hataya yol açıyor:
+
+{% highlight python  %}
+
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    greet("World")
+TypeError: wrapper_do_twice() takes 0 positional arguments but 1 was given
+{% endhighlight %}
+
 
 
 
