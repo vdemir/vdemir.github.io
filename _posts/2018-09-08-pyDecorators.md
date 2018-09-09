@@ -949,7 +949,7 @@ Help on function say_whee in module __main__:
 say_whee()
 {% endhighlight %} 
 
-Çok daha iyi! Şimdi say_whee () dekorasyondan sonra hala kendisidir.
+Çok daha iyi! Şimdi say_whee(), dekorasyondan sonra hala kendisidir.
 
 <br>
 
