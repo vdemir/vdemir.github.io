@@ -473,9 +473,9 @@ Exited func2
 {% endhighlight %}
 
 
-Dekore edilmiş işlevlerin artık çağrı etrafında 'Entering' ve 'Exited' izleme ifadelerine sahip olduğunu görebilirsiniz. 
+Dekore edilmiş işlevlerin artık çağrı etrafında ```'Entering'``` ve ```'Exited'``` izleme ifadelerine sahip olduğunu görebilirsiniz. 
 
-Kurucu, işlev nesnesi olan bağımsız değişkeni saklar. Çağrıda, işlevin adını göstermek için işlevin __name__ özniteliğini kullanırız, daha sonra işlevin kendisini çağırırız.
+Kurucu, işlev nesnesi olan bağımsız değişkeni saklar. Çağrıda, işlevin adını göstermek için işlevin ```__name__``` özniteliğini kullanırız, daha sonra işlevin kendisini çağırırız.
 
 
 <br>
@@ -487,7 +487,7 @@ Meta sınıflar karmaşık bir konudur ve çoğu zaman ileri düzey programcıla
 
 Gerçekten metasınıflar genellikle çok sayıda otomasyonun sağlanması gereken gelişmiş kütüphaneleri veya çerçeveleri programlarken oyuna girer. Örneğin, Django Forms sistemi, tüm sihrini sağlamak için meta sınıflara dayanır.
 
-Bununla birlikte, genel olarak bilmediğimiz tüm teknikleri 'büyü' ya da 'hileler' olarak adlandırdığımızı ve Python'un bir sonucu olarak birçok şeyin bu şekilde çağrıldığını, bunun diğer dillere kıyasla genellikle kendine özgü bir uygulama olduğunu belirtmek zorundayız.
+Bununla birlikte, genel olarak bilmediğimiz tüm teknikleri ```'büyü'``` ya da ```'hileler'``` olarak adlandırdığımızı ve Python'un bir sonucu olarak birçok şeyin bu şekilde çağrıldığını, bunun diğer dillere kıyasla genellikle kendine özgü bir uygulama olduğunu belirtmek zorundayız.
 
 Biraz Python sihirbazlığı yapalım ve dilin gücünü kullanalım!
 
@@ -513,15 +513,15 @@ msp = MyStringProcessor()
 
 [Bu yazı içerisinde kullanılan kaynak kodun tamamını içerir.]({{ site.baseurl }}/assets/strproc.py)
 
-Modül, bir standart imza (self, str) içeren ve 
-stringfilter ile dekore edilen ekleme yöntemlerini alıp özelleştirebileceğim bir StringProcessor sınıfı tanımlar. Bu sınıf daha sonra örneklenebilir ve örnek, bir dizeyi doğrudan işlemek ve sonucu döndürmek için kullanılır. Dahili olarak sınıf, tüm dekore edilmiş yöntemleri art arda otomatik olarak yürütür. Ayrıca, sınıfın, filtreleri tanımladığım sıraya uymasını istiyorum: ilk önce, ilk olarak çalıştırılır.
+Modül, bir standart imza ```(self, str)``` içeren ve 
+```stringfilter``` ile dekore edilen ekleme yöntemlerini alıp özelleştirebileceğim bir ```StringProcessor``` sınıfı tanımlar. Bu sınıf daha sonra örneklenebilir ve örnek, bir dizeyi doğrudan işlemek ve sonucu döndürmek için kullanılır. Dahili olarak sınıf, tüm dekore edilmiş yöntemleri art arda otomatik olarak yürütür. Ayrıca, sınıfın, filtreleri tanımladığım sıraya uymasını istiyorum: ilk önce, ilk olarak çalıştırılır.
 
 Metaclasses bu hedefe ulaşmak için nasıl yardımcı olabilir? 
 
-Basitçe söylemek gerekirse, meta sınıflar, sınıfları almak için örneklendirilen sınıflardır. Bu, bir dersi her kullandığımda, örneğin, onu örneklendirmek için ilk Python'un, yazdığımız meta sınıfı ve sınıf tanımını kullanarak bu sınıfı oluşturduğu anlamına gelir. Örneğin, sınıf üyelerini __dict__ özniteliğinde bulabileceğinizi biliyorsunuz: bu özellik, tür olan standart metaclass tarafından oluşturulur. 
+Basitçe söylemek gerekirse, meta sınıflar, sınıfları almak için örneklendirilen sınıflardır. Bu, bir dersi her kullandığımda, örneğin, onu örneklendirmek için ilk Python'un, yazdığımız meta sınıfı ve sınıf tanımını kullanarak bu sınıfı oluşturduğu anlamına gelir. Örneğin, sınıf üyelerini ```__dict__``` özniteliğinde bulabileceğinizi biliyorsunuz: bu özellik, tür olan standart metaclass tarafından oluşturulur. 
 
 Verilen bir metaclass, sınıf tanımındaki fonksiyonların bir alt kümesini tanımlamak için bir kod eklememiz için iyi bir başlangıç ​​noktasıdır. Başka bir deyişle, meta sınıfın (yani, sınıfın) çıktısının tam olarak standart durumda olduğu gibi oluşturulmasını istiyoruz, ama ek olarak: 
-stringfilter ile süslenmiş tüm yöntemlerin ayrı bir listesi.
+```stringfilter``` ile süslenmiş tüm yöntemlerin ayrı bir listesi.
 
 {% highlight python  linenos=table %}
 
@@ -590,9 +590,9 @@ Traceback (most recent call last):
 TypeError: wrapper_do_twice() takes 0 positional arguments but 1 was given
 {% endhighlight %}
 
-Sorun şu ki, içsel işlev wrapper_do_twice() işlevi herhangi bir argüman almaz, ancak name = 'Dünya' ona aktarıldı. Wrapper_do_twice() öğesinin bir bağımsız değişkeni kabul etmesine izin vererek bunu düzeltebilirsiniz, ancak daha önce oluşturduğunuz say_whee() işlevi için çalışmaz.
+Sorun şu ki, içsel işlev ```wrapper_do_twice()``` işlevi herhangi bir argüman almaz, ancak ```name = 'Dünya'``` ona aktarıldı. ```wrapper_do_twice()``` öğesinin bir bağımsız değişkeni kabul etmesine izin vererek bunu düzeltebilirsiniz, ancak daha önce oluşturduğunuz ```say_whee()``` işlevi için çalışmaz.
 
-Çözüm, iç sarmalayıcı fonksiyonunda *args ve **kwargs kullanmaktır. Ardından, rastgele sayı ve konum argümanlarını kabul eder. decorators.py dosyasını aşağıdaki gibi yeniden yazınız:
+Çözüm, iç sarmalayıcı fonksiyonunda *args ve **kwargs kullanmaktır. Ardından, rastgele sayı ve konum argümanlarını kabul eder. ```decorators.py``` dosyasını aşağıdaki gibi yeniden yazınız:
 
 {% highlight python %}
 
@@ -604,7 +604,7 @@ def do_twice(func):
 
 {% endhighlight %}
 
-wrapper_do_twice() iç işlevi artık herhangi bir sayıdaki argümanı kabul eder ve bunları bezediği işleve iletir. Şimdi hem say_whee() ve greet() örnekleri çalışır:
+```wrapper_do_twice()``` iç işlevi artık herhangi bir sayıdaki argümanı kabul eder ve bunları bezediği işleve iletir. Şimdi hem ```say_whee()``` ve ```greet()``` örnekleri çalışır:
 
 {% highlight python  linenos=table %}
 
@@ -675,9 +675,9 @@ None
 
 Maalesef, dekoratörünüz işlevden dönüş değerini yedi.
 
-do_twice_wrapper() işlevi açıkça bir değer döndürmediğinden, return_greeting('Adam') çağrısı, None döndürerek sona ermiştir.
+```do_twice_wrapper()``` işlevi açıkça bir değer döndürmediğinden, ```return_greeting('Adam')``` çağrısı, None döndürerek sona ermiştir.
 
-Bunu düzeltmek için, **sarma işlevinin dekore edilmiş işlevin dönüş değerini döndürdüğünden emin olmanız** gerekir. Decorators.py dosyanızı 4. satırını değiştirin:
+Bunu düzeltmek için, **sarma işlevinin dekore edilmiş işlevin dönüş değerini döndürdüğünden emin olmanız** gerekir. ```decorators.py``` dosyanızı 4. satırını değiştirin:
 
 {% highlight python %}
 
@@ -702,7 +702,7 @@ def do_twice(func):
 @do_twice
 def return_greeting(name):
     print("Creating greeting")
-    return "Hi" + name
+    return "Hi " + name
 {% endhighlight %}
 
 
