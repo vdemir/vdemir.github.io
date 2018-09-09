@@ -371,7 +371,7 @@ def do_twice(func):
 
 
 <div class="alert alert-primary" role="alert">
-<p><strong>Note:</strong> You can name your inner function whatever you want, and a generic name like wrapper() is usually okay. You’ll see a lot of decorators in this article. To keep them apart, we’ll name the inner function with the same name as the decorator but with a wrapper_ prefix.</p>
+<p><strong>Note:</strong> İçsel işlevinizi istediğiniz gibi adlandırın ve sarmalayıcı () gibi genel bir ad genellikle tamamdır. Bu makalede çok sayıda dekoratör göreceksiniz. Bunları ayrı tutmak için, iç işlevi, dekoratörle aynı adla, ancak bir wrapper_ önekiyle adlandıracağız.</p>
 </div>
 
 
