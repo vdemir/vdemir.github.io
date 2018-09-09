@@ -1044,7 +1044,45 @@ Bu formül, daha karmaşık dekoratörler oluşturmak için iyi bir standart kal
 <p><strong>Not::</strong>  Daha sonraki örneklerde, bu dekoratörlerin de decorators.py dosyanıza kaydedildiğini kabul edeceğiz. Bu derste tüm örnekleri indirebileceğinizi unutmayın.</p>
 </div>
 
+<br>
 
+<div id="D3" class="pop1">Zamanlama Fonksiyonları</div>
+
+Bir timer dekoratör oluşturarak başlayalım. Bir fonksiyonu yürütmek ve süreyi konsola yazdırmak için gereken süreyi ölçer. İşte kod:
+
+<br>
+
+
+{% highlight python  linenos=table %}
+
+
+Timing Functions
+Let’s start by creating a @timer decorator. It will measure the time a function takes to execute and print the duration to the console. Here’s the code:
+
+import functools
+import time
+
+def timer(func):
+    """Print the runtime of the decorated function"""
+    @functools.wraps(func)
+    def wrapper_timer(*args, **kwargs):
+        start_time = time.perf_counter()    # 1
+        value = func(*args, **kwargs)
+        end_time = time.perf_counter()      # 2
+        run_time = end_time - start_time    # 3
+        print(f"Finished {func.__name__!r} in {run_time:.4f} secs")
+        return value
+    return wrapper_timer
+
+@timer
+def waste_some_time(num_times):
+    for _ in range(num_times):
+        sum([i**2 for i in range(10000)])
+
+{% endhighlight %}
+<br>
+
+Bu dekoratör, fonksiyonun çalışmaya başlamasından hemen önceki süreyi saklayarak çalışır
 
 
 
