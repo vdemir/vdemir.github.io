@@ -261,7 +261,7 @@ Son olarak, daha önceki örnekte, iç fonksiyonları ```ebeveyn``` fonksiyon i�
 
 <br>
 
-<div id="D14" class="pop1">Fonksiyonlar hakkında bilmeniz gerekenler</div>
+<div id="D14" class="pop1">Fonksiyonlar Hakkında Bilmeniz Gerekenler</div>
 
 Dalış yapmadan önce, net olması gereken bazı önkoşullar vardır. Python'da, fonksiyonlar birinci sınıf vatandaşlar, onlar öbeklerdir ve bu da onlarla çok yararlı şeyler yapabileceğimiz anlamına gelir. 
 
@@ -339,6 +339,30 @@ greet = compose_greet_func()
 print greet()
 
 # Outputs: Hello there!
+
+{% endhighlight %}
+
+<br>
+
+**Dekoratörlerin Bileşimi**
+
+İşlev dekoratörler, mevcut fonksiyonlara basit bir şekilde sarılırlar. Yukarıda bahsi geçen fikirleri bir araya getirerek bir dekoratör yapabiliriz. Bu örnekte, başka bir işlevin string çıktısını p etiketleriyle saran bir işlevi düşünelim.
+
+{% highlight python %}
+
+def get_text(name):
+   return "lorem ipsum, {0} dolor sit amet".format(name)
+
+def p_decorate(func):
+   def func_wrapper(name):
+       return "<p>{0}</p>".format(func(name))
+   return func_wrapper
+
+my_get_text = p_decorate(get_text)
+
+print my_get_text("John")
+
+# <p>Outputs lorem ipsum, John dolor sit amet</p>
 
 {% endhighlight %}
 
