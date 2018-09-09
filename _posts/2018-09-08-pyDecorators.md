@@ -53,6 +53,12 @@ img.resize {
 		text-decoration: overline;
 		text-decoration-color: orange;
 	}
+	.pop2 {
+		font-size: 1vw;
+		text-decoration: overline;
+		text-decoration-color: orange;
+	}
+
 .alert{position:relative;padding:.75rem 1.25rem;margin-bottom:1.125rem;border:1px solid transparent;border-radius:.25rem}.alert-heading{color:inherit}.alert-link{font-weight:700}.alert-dismissible{padding-right:4.1875rem}.alert-dismissible .close{position:absolute;top:0;right:0;padding:.75rem 1.25rem;color:inherit}.alert-primary{color:#32516b;background-color:#dfebf5;border-color:#d3e3f1}.alert-primary hr{border-top-color:#c0d7eb}.alert-primary .alert-link{color:#223748}.alert-secondary{color:#7d7d7d;background-color:#fcfcfc;border-color:#fbfbfb}.alert-secondary hr{border-top-color:#eee}.alert-secondary .alert-link{color:#646464}.alert-success{color:#155724;background-color:#d4edda;border-color:#c3e6cb}.alert-success hr{border-top-color:#b1dfbb}.alert-success .alert-link{color:#0b2e13}.alert-info{color:#0c5460;background-color:#d1ecf1;border-color:#bee5eb}.alert-info hr{border-top-color:#abdde5}.alert-info .alert-link{color:#062c33}.alert-warning{color:#856404;background-color:#fff3cd;border-color:#ffeeba}.alert-warning hr{border-top-color:#ffe8a1}.alert-warning .alert-link{color:#533f03}.alert-danger{color:#850000;background-color:#fcc;border-color:#ffb8b8}.alert-danger hr{border-top-color:#ff9f9f}.alert-danger .alert-link{color:#520000}.alert-light{color:gray;background-color:#fdfdfd;border-color:#fcfcfc}.alert-light hr{border-top-color:#efefef}.alert-light .alert-link{color:#676767}.alert-dark{color:#0c1c28;background-color:#d1d7db;border-color:#bec6cd}.alert-dark hr{border-top-color:#b0b9c2}.alert-dark .alert-link{color:#000101}@-webkit-keyframes progress-bar-stripes{from{background-position:1rem 0}to{background-position:0 0}}@keyframes progress-bar-stripes{from{background-position:1rem 0}to{background-position:0 0}}
 </style>
 <br>
@@ -422,7 +428,10 @@ Whee!
 Whee!
 {% endhighlight %}
 
-Biraz Daha Faydalı 
+
+<div class="pop2">Biraz Daha Faydalı </div>
+
+
 Şimdi, ilk örneğe dönelim ve uygulayalım. Burada, daha tipik olanı yapacağız ve aslında kodu dekore edilmiş fonksiyonlarda kullanacağız:
 
 {% highlight python  linenos=table %}
@@ -467,7 +476,9 @@ Dekore edilmiş işlevlerin artık çağrı etrafında 'Entering' ve 'Exited' iz
 
 Kurucu, işlev nesnesi olan bağımsız değişkeni saklar. Çağrıda, işlevin adını göstermek için işlevin __name__ özniteliğini kullanırız, daha sonra işlevin kendisini çağırırız.
 
-Meta sınıflar ve dekoratörler: uzayda yapılmış bir eşleme
+
+<div class="pop2">Meta sınıflar ve dekoratörler: uzayda yapılmış bir eşleme</div>
+
 
 Meta sınıflar karmaşık bir konudur ve çoğu zaman ileri düzey programcılar, onlar için çok çeşitli pratik kullanımları görmez.
 
@@ -499,7 +510,12 @@ msp = MyStringProcessor()
 Modül, bir standart imza (self, str) içeren ve 
 stringfilter ile dekore edilen ekleme yöntemlerini alıp özelleştirebileceğim bir StringProcessor sınıfı tanımlar. Bu sınıf daha sonra örneklenebilir ve örnek, bir dizeyi doğrudan işlemek ve sonucu döndürmek için kullanılır. Dahili olarak sınıf, tüm dekore edilmiş yöntemleri art arda otomatik olarak yürütür. Ayrıca, sınıfın, filtreleri tanımladığım sıraya uymasını istiyorum: ilk önce, ilk olarak çalıştırılır.
 
+Metaclasses bu hedefe ulaşmak için nasıl yardımcı olabilir? 
 
+Basitçe söylemek gerekirse, meta sınıflar, sınıfları almak için örneklendirilen sınıflardır. Bu, bir dersi her kullandığımda, örneğin, onu örneklendirmek için ilk Python'un, yazdığımız meta sınıfı ve sınıf tanımını kullanarak bu sınıfı oluşturduğu anlamına gelir. Örneğin, sınıf üyelerini __dict__ özniteliğinde bulabileceğinizi biliyorsunuz: bu özellik, tür olan standart metaclass tarafından oluşturulur. 
+
+Verilen bir metaclass, sınıf tanımındaki fonksiyonların bir alt kümesini tanımlamak için bir kod eklememiz için iyi bir başlangıç ​​noktasıdır. Başka bir deyişle, meta sınıfın (yani, sınıfın) çıktısının tam olarak standart durumda olduğu gibi oluşturulmasını istiyoruz, ama ek olarak: 
+stringfilter ile süslenmiş tüm yöntemlerin ayrı bir listesi.
 
 
 
