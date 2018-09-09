@@ -495,13 +495,14 @@ Daha ayrıntılı olarak, bir dizgeye 'işleyebilmek' için çağrılabilecek bi
 {% highlight python  linenos=table %}
 
 class MyStringProcessor(StringProcessor):
-    @stringfilter
-    def capitalize(self, str):
-        [...]
 
     @stringfilter
-    def remove_double_spaces(self, str):
-        [...]
+    def capitalize(self, string):
+        return string.capitalize()
+
+    @stringfilter
+    def remove_double_spaces(self, string):
+        return string.replace(' ', ' ')
 
 msp = MyStringProcessor()
 "A test string" == msp("a test string")
