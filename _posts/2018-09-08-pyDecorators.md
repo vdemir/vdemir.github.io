@@ -1133,10 +1133,10 @@ def debug(func):
     return wrapper_debug
 
 {% endhighlight %}
+
 <br>
 
 signature, tüm argümanların dize gösterimlerine katılarak oluşturulur.
-
 
 <br>
 
@@ -1156,7 +1156,6 @@ class Car:
         self.mileage = mileage
 
 {% endhighlight %}
-
 
 <br>
 
@@ -1178,7 +1177,6 @@ Varsayılan olarak, aldığınız tek şey sınıf adını ve nesne örneğinin 
 
 Sınıfın özniteliklerini doğrudan yazdırarak veya sınıflarınıza özel bir to_string () yöntemi ekleyerek, bu konu üzerinde çalışmaya deneyebilirsiniz.
 
-
 <br>
 
 {% highlight python  linenos=table %}
@@ -1192,7 +1190,6 @@ class Car(object):
            self.__class__.__name__,
            self.color, self.mileage)
 {% endhighlight %}
-
 
 <br>
 
