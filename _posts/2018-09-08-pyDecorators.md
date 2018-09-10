@@ -1156,6 +1156,7 @@ class Car:
 {% endhighlight %}
 
 
+<br>
 
 {% highlight python %}
 In [1]: my_car = Car('red', 37281)
@@ -1187,6 +1188,8 @@ class Car(object):
            self.color, self.mileage)
 {% endhighlight %}
 
+
+<br>
 
 {% highlight python %}
 In [8]: my_car = Car('red', 37281)
