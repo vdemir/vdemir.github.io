@@ -1138,6 +1138,7 @@ def debug(func):
 signature, tüm argümanların dize gösterimlerine katılarak oluşturulur.
 
 
+<br>
 
 ## Python Sınıflarınızda “Dize” Dönüştürme Nasıl Desteklenir?
 ***
