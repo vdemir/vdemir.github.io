@@ -1116,7 +1116,6 @@ Aşağıdaki @debug dekoratör argümanları yazdıracaktır, fonksiyon çağrı
 
 <br>
 
-
 {% highlight python  linenos=table %}
 import functools
 
@@ -1135,5 +1134,72 @@ def debug(func):
 
 {% endhighlight %}
 <br>
+
+signature, tüm argümanların dize gösterimlerine katılarak oluşturulur.
+
+
+
+
+
+Python'da bir özel sınıf tanımladığınızda ve örneklerinden birini konsolda yazdırmaya çalıştığınızda (veya bir yorumlayıcı oturumunda inceleyin), göreceli olarak tatmin edici olmayan bir sonuç elde edersiniz. 
+
+Varsayılan 'dizgi' dönüştürme davranışı temeldir ve ayrıntılardan yoksundur:
+
+<br>
+
+{% highlight python  linenos=table %}
+class Car:
+    def __init__(self, color, mileage):
+        self.color = color
+        self.mileage = mileage
+
+{% endhighlight %}
+
+
+
+{% highlight python %}
+In [1]: my_car = Car('red', 37281)
+
+In [2]: print(my_car)
+<__main__.Car object at 0x7ff90a6c1550>
+
+In [3]: print(my_car.color, my_car.mileage)
+red 37281
+
+{% endhighlight %}
+
+Varsayılan olarak, aldığınız tek şey sınıf adını ve nesne örneğinin kimliğini içeren bir dizedir (bu, nesnenin CPython'daki bellek adresidir.) Bu, hiçbir şeyden daha iyi değildir, ancak aynı zamanda çok kullanışlı değildir. 
+
+Sınıfın özniteliklerini doğrudan yazdırarak veya sınıflarınıza özel bir to_string () yöntemi ekleyerek, bu konu üzerinde çalışmaya deneyebilirsiniz.
+
+
+<br>
+
+{% highlight python  linenos=table %}
+class Car(object):
+    def __init__(self, color, mileage):
+        self.color = color
+        self.mileage = mileage
+
+    def __repr__(self):
+       return '{}({!r}, {!r})'.format(
+           self.__class__.__name__,
+           self.color, self.mileage)
+{% endhighlight %}
+
+
+{% highlight python %}
+In [8]: my_car = Car('red', 37281)
+
+In [9]: print(my_car)
+Car('red', 37281)
+
+{% endhighlight %}
+
+
+
+
+
+
 
 
