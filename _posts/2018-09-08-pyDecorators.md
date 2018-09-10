@@ -1196,7 +1196,7 @@ Car('red', 37281)
 
 {% endhighlight %}
 
-
+Genel fikir burada doğru olanıdır -ancak Python'un nesnelerin dizge olarak nasıl temsil edildiğini işlemek için kullandığı sözleşmeleri ve yerleşik mekanizmaları yok sayar.
 
 
 
