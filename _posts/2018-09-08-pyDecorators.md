@@ -1139,7 +1139,8 @@ signature, tüm argümanların dize gösterimlerine katılarak oluşturulur.
 
 
 
-
+## Python Sınıflarınızda “Dize” Dönüştürme Nasıl Desteklenir?
+***
 
 Python'da bir özel sınıf tanımladığınızda ve örneklerinden birini konsolda yazdırmaya çalıştığınızda (veya bir yorumlayıcı oturumunda inceleyin), göreceli olarak tatmin edici olmayan bir sonuç elde edersiniz. 
 
@@ -1170,6 +1171,9 @@ red 37281
 {% endhighlight %}
 
 Varsayılan olarak, aldığınız tek şey sınıf adını ve nesne örneğinin kimliğini içeren bir dizedir (bu, nesnenin CPython'daki bellek adresidir.) Bu, hiçbir şeyden daha iyi değildir, ancak aynı zamanda çok kullanışlı değildir. 
+
+## Neden Her Python Sınıfının bir __repr__ İhtiyacı Var?
+***
 
 Sınıfın özniteliklerini doğrudan yazdırarak veya sınıflarınıza özel bir to_string () yöntemi ekleyerek, bu konu üzerinde çalışmaya deneyebilirsiniz.
 
