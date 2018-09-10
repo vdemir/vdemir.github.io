@@ -80,6 +80,7 @@ img.resize {
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Kimsin sen, Gerçekten mi?](#D25)
 + [Birkaç Gerçek Dünya Örneği](#D3)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Zamanlama Fonksiyonları](#D31)
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Hata ayıklama kodu](#D32)
 
 
 Dekoratörlerle ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Dekoratörler, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
@@ -1075,7 +1076,7 @@ def waste_some_time(num_times):
 {% endhighlight %}
 <br>
 
-Bu dekoratör, fonksiyonun çalışmaya başlamasından hemen önceki süreyi saklayarak çalışır(# 1 olarak işaretlenmiş satırda) ve işlev bittikten hemen sonra(# 2'de). Fonksiyonun aldığı zaman ikisinin arasındaki farktır(# 3'de). Zaman aralıklarını ölçmek için iyi bir iş yapan time.perf_counter() işlevini kullanırız.
+Bu dekoratör, fonksiyonun çalışmaya başlamasından hemen önceki süreyi saklayarak çalışır(# 1 olarak işaretlenmiş satırda) ve fonksiyon bittikten hemen sonra(# 2'de). Fonksiyonun aldığı zaman ikisinin arasındaki farktır(# 3'de). Zaman aralıklarını ölçmek için iyi bir iş yapan time.perf_counter() işlevini kullanırız.
 
 {% highlight python %}
 
@@ -1104,7 +1105,17 @@ Python 3.6, başka bir dizgi formatlama paradigmasını sunar: f-dizeleri.
 print(f'a={f(x,n):d}, b={g(x,n):d}')
 
 <div class="alert alert-warning" role="alert">
-<p><strong>Not:</strong>  Eğer fonksiyonlarınızın çalışma zamanı hakkında bir fikir edinmek istiyorsanız, @timer decorator harikadır. Daha hassas ölçüm kodları yapmak istiyorsanız, yerine standart kütüphanedeki timeit modülünü düşünmelisiniz. Çöp toplanmasını geçici olarak devre dışı bırakır ve hızlı işlev çağrılarından gelen gürültüyü çıkarmak için birden çok denemeyi çalıştırır.</p>
+<p><strong>Not:</strong>  Eğer fonksiyonlarınızın çalışma zamanı hakkında bir fikir edinmek istiyorsanız, @timer decorator harikadır. Daha hassas ölçüm kodları yapmak istiyorsanız, yerine standart kütüphanedeki timeit modülünü düşünmelisiniz. Çöp toplanmasını geçici olarak devre dışı bırakır ve hızlı fonksiyon çağrılarından gelen gürültüyü çıkarmak için birden çok denemeyi çalıştırır.</p>
 </div>
 
 <br>
+
+<div id="D31" class="pop1">Hata Ayıklama Kodu</div>
+
+Aşağıdaki @debug dekoratör fonksiyonu çağrılan argümanlar yazdıracaktır, fonksiyon her çağrıldığında dönüş değeriyle birlikte:
+
+Aşağıdaki @debug dekoratör argümanları yazdıracaktır, fonksiyon çağrıldığında her seferinde bir fonksiyon, dönüş değeriyle birlikte çağrılır:
+
+
+
+
