@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Python Dekoratörler Üzerine Bir Başlangıç
+title:  Python Dekoratörler için Bir Başlangıç
 date:   2018-09-08 12:00:00
 last_updated: 2018-09-11 12:00:00
 keywords: linux, python, decorators
@@ -1103,4 +1103,8 @@ print('a={:d}, b={:d}'.format(f(x,n),g(x,n)))
 Python 3.6, başka bir dizgi formatlama paradigmasını sunar: f-dizeleri.
 print(f'a={f(x,n):d}, b={g(x,n):d}')
 
+<div class="alert alert-warning" role="alert">
+<p><strong>Not:</strong>  Eğer fonksiyonlarınızın çalışma zamanı hakkında bir fikir edinmek istiyorsanız, @timer decorator harikadır. Daha hassas ölçüm kodları yapmak istiyorsanız, yerine standart kütüphanedeki timeit modülünü düşünmelisiniz. Çöp toplanmasını geçici olarak devre dışı bırakır ve hızlı işlev çağrılarından gelen gürültüyü çıkarmak için birden çok denemeyi çalıştırır.</p>
+</div>
 
+<br>
