@@ -39,7 +39,7 @@ img.resize {
 		border-style: solid;
 	}
 	.pop {
-		font-size: 5vw;
+		font-size: 4vw;
 		text-decoration: overline;
 		text-decoration-color: orange;
 	}
