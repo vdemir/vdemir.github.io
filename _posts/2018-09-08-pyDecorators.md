@@ -1110,9 +1110,7 @@ print(f'a={f(x,n):d}, b={g(x,n):d}')
 
 <br>
 
-<div id="D31" class="pop1">Hata Ayıklama Kodu</div>
-
-Aşağıdaki @debug dekoratör fonksiyonu çağrılan argümanlar yazdıracaktır, fonksiyon her çağrıldığında dönüş değeriyle birlikte:
+<div id="D32" class="pop1">Hata Ayıklama Kodu</div>
 
 Aşağıdaki @debug dekoratör argümanları yazdıracaktır, fonksiyon çağrıldığında her seferinde bir fonksiyon, dönüş değeriyle birlikte çağrılır:
 
