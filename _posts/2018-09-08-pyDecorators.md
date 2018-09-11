@@ -1205,6 +1205,21 @@ Genel fikir burada doğru olanıdır -ancak Python'un nesnelerin dizge olarak na
 
 {signature}, tüm argümanların dize gösterimlerine katılarak oluşturulur. Aşağıdaki listedeki sayılar, koddaki numaralı yorumlara karşılık gelir:
 
+1. Konumsal argümanların bir listesini oluşturun. Her ifadeyi temsil eden güzel bir dize almak için repr () öğesini kullanın.
+
+2. Anahtar kelime -keyword arguments- ifadelerinin bir listesini oluşturun. !r belirtecinin, değeri temsil etmek için repr() kullanıldığı anlamına geldiği yerde f-string her bir argümanı key=value olarak formatlar.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
