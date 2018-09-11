@@ -1145,7 +1145,6 @@ def make_greeting(name, age=None):
 <br>
 <div class="pop2">Çıktı:</div>
  
-<br>
 
 {% highlight python %}
 
