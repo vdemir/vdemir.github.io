@@ -1246,8 +1246,10 @@ Calling factorial(4)
 
 {% endhighlight %} 
 
+<br>
+Bu örnekte, sadece 5 terim ekleyerek, e = 2.718281828 gerçek değerine doğru bir yaklaşım elde edersiniz.
 
-
+<br>
 
 ## Python Sınıflarınızda “Dize” Dönüştürme Nasıl Desteklenir?
 ***
