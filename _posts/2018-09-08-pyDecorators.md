@@ -1172,7 +1172,7 @@ red 37281
 
 Varsayılan olarak, aldığınız tek şey sınıf adını ve nesne örneğinin kimliğini içeren bir dizedir (bu, nesnenin CPython'daki bellek adresidir.) Bu, hiçbir şeyden daha iyi değildir, ancak aynı zamanda çok kullanışlı değildir. 
 
-## Neden Her Python Sınıfının bir __repr__ İhtiyacı Var?
+## Neden Her Python Sınıfının bir __repr__ ihtiyacı Var?
 ***
 
 Sınıfın özniteliklerini doğrudan yazdırarak veya sınıflarınıza özel bir to_string () yöntemi ekleyerek, bu konu üzerinde çalışmaya deneyebilirsiniz.
@@ -1203,7 +1203,7 @@ Car('red', 37281)
 
 Genel fikir burada doğru olanıdır -ancak Python'un nesnelerin dizge olarak nasıl temsil edildiğini işlemek için kullandığı sözleşmeleri ve yerleşik mekanizmaları yok sayar.
 
-
+{signature}, tüm argümanların dize gösterimlerine katılarak oluşturulur. Aşağıdaki listedeki sayılar, koddaki numaralı yorumlara karşılık gelir:
 
 
 
