@@ -54,7 +54,7 @@ img.resize {
 		text-decoration-color: orange;
 	}
 	.pop2 {
-		font-size: 1vw;
+		font-size: 1.5vw;
 		text-decoration: overline;
 		text-decoration-color: orange;
 	}
@@ -1141,7 +1141,8 @@ def make_greeting(name, age=None):
 
 {% endhighlight %}
 
-
+ 
+<br>
 <div class="pop2">Çıktı:</div>
  
 <br>
