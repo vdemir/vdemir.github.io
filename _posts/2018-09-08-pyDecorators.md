@@ -1141,7 +1141,10 @@ def make_greeting(name, age=None):
 
 {% endhighlight %}
 
-<br>
+
+## Çıktı:
+***
+
 
 {% highlight python %}
 
