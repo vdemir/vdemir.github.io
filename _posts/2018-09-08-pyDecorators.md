@@ -1138,11 +1138,11 @@ def debug(func):
 
 {signature}, tüm argümanların dize gösterimlerine katılarak oluşturulur. Aşağıdaki listedeki sayılar, koddaki numaralı yorumlara karşılık gelir:
 
-1. Konumsal argümanların bir listesini oluşturun. Her ifadeyi temsil eden güzel bir dize almak için repr () öğesini kullanın.
+1. Konumsal ifadelerin bir listesini oluşturun. Her ifadeyi temsil eden güzel bir dize almak için repr () öğesini kullanın.
 
-2. Anahtar kelime -keyword arguments- ifadelerinin bir listesini oluşturun. value değeri temsil etmek için repr() kullanıldığını ifade eden !r belirtecinin olduğu yerde key=value olarak f-string her bir ifadeyi formatlar.
+2. keyword ifadelerinin bir listesini oluşturun. value değeri temsil etmek için repr() kullanıldığını ifade eden !r belirtecinin olduğu yerde key=value olarak f-string her bir ifadeyi formatlar.
 
-3. Pozisyonel ve keyword ifadelerinin listeleri, bir virgülle ayrılan ifadenin herbiri ile signature dizisinin birine beraber katılır.
+3. Konumsal ve keyword ifadelerinin listeleri, bir virgülle ayrılan ifadenin herbiri ile signature dizisinin birine beraber katılır.
 
 4. Fonksiyon çalıştırıldıktan sonra geri dönüş değeri yazdırılır.
 
