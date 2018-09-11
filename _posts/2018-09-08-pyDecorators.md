@@ -1176,7 +1176,10 @@ Calling make_greeting(name='Dorrisile', age=116)
 
 Dekoratörün, bir konum ve bir anahtar kelime ifadesiyle basit bir fonksiyona uygulayarak pratikte nasıl çalıştığını görelim:
 
-Debug dekoratörünün make_greeting() işlevinin signature ve dönüş değerini nasıl yazdığını not alın:
+@debug dekoratörünün make_greeting() işlevinin signature ve dönüş değerini nasıl yazdığını not alın:
+
+Bu örnek, @debug dekoratörü az önce yazdıklarınızı tekrarladığından beri kullanışlı görünmeyebilir. Doğrudan kendinize çağrı yapmadığınız küçük kolaylık işlevlerine uygulandığında daha güçlüdür.
+
 
 
 
