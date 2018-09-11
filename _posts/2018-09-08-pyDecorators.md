@@ -1268,9 +1268,10 @@ class Car:
 {% endhighlight %}
 
 
+<br>
 ## Çıktı:
 ***
-
+<br>
 
 {% highlight python %}
 In [1]: my_car = Car('red', 37281)
