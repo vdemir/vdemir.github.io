@@ -1288,9 +1288,8 @@ red 37281
 Varsayılan olarak, aldığınız tek şey sınıf adını ve nesne örneğinin kimliğini içeren bir dizedir (bu, nesnenin CPython'daki bellek adresidir.) Bu, hiçbir şeyden daha iyi değildir, ancak aynı zamanda çok kullanışlı değildir. 
 
 <br>
-
-## Neden Her Python Sınıfının bir __repr__ ihtiyacı Var?
-***
+<div class="pop2">Neden Her Python Sınıfının bir __repr__ ihtiyacı var?</div>
+<br>
 
 Sınıfın özniteliklerini doğrudan yazdırarak veya sınıflarınıza özel bir to_string () yöntemi ekleyerek, bu konu üzerinde çalışmaya deneyebilirsiniz.
 
