@@ -3331,12 +3331,13 @@ for-loop = 1.444 s
 <br>
 <h5 id="C200">char sayımını, len zamanlayan Python programı</h5><hr>
 
-
-
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
+
+
+<!--python3 interpreter -->
+<iframe src="https://trinket.io/embed/python3/49b7d634c8" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
  
- 
-<!--python interpreter -->
+<!--python2 interpreter -->
 <iframe src="https://trinket.io/embed/python/0bdde66575" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 <!-- python interpreter -->
