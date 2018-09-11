@@ -621,7 +621,11 @@ func2()
 
 {% endhighlight %}
 
- Çıktı:
+
+<br>
+<div class="pop2">Çıktı:</div>
+<br> 
+
 
 {% highlight python  %}
 
@@ -717,11 +721,11 @@ if __name__ == "__main__":
     print(StringFilter("i am a cat  help me", "strip", "capitalize", "split"))
 
 {% endhighlight %}
-<br>
 
-
-Çıktı:
 <br>
+<div class="pop2">Çıktı:</div>
+<br> 
+
 
 
 {% highlight python  %}
@@ -802,11 +806,10 @@ def say_whee():
     print("Whee!")
 
 {% endhighlight %}
-<br>
 
-
-Çıktı:
 <br>
+<div class="pop2">Çıktı:</div>
+<br> 
 
 
 {% highlight python %}
