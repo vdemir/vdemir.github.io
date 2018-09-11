@@ -1180,7 +1180,7 @@ Dekoratörün, bir konum ve bir anahtar kelime ifadesiyle basit bir fonksiyona u
 
 Bu örnek, @debug dekoratörü az önce yazdıklarınızı tekrarladığından beri kullanışlı görünmeyebilir. Doğrudan kendinize çağrı yapmadığınız küçük kolaylık işlevlerine uygulandığında daha güçlüdür.
 
-
+Aşağıdaki örnek, matematik sabiti e'ye bir yaklaşım hesaplar:
 
 
 <br>
