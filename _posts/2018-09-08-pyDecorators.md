@@ -1143,7 +1143,7 @@ def make_greeting(name, age=None):
 
 <br>
 ## Çıktı:
-***
+ 
 <br>
 
 {% highlight python %}
@@ -1216,7 +1216,7 @@ approximate_e(5)
 
 <br>
 ## Çıktı:
-***
+ 
 <br>
 {% highlight python %}
 
@@ -1269,7 +1269,7 @@ class Car:
 
 <br>
 ## Çıktı:
-***
+ 
 <br>
 
 {% highlight python %}
@@ -1310,7 +1310,7 @@ class Car(object):
 
 <br>
 ## Çıktı:
-***
+ 
 <br>
 
 {% highlight python %}
