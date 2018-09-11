@@ -1146,7 +1146,7 @@ def debug(func):
 
 4. Fonksiyon çalıştırıldıktan sonra geri dönüş değeri yazdırılır.
 
-
+Dekoratörün, bir konum ve bir anahtar kelime ifadesiyle basit bir fonksiyona uygulayarak pratikte nasıl çalıştığını görelim:
 
 
 <br>
