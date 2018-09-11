@@ -1194,7 +1194,16 @@ math.factorial = debug(math.factorial)
 def approximate_e(terms=18):
     return sum(1 / math.factorial(n) for n in range(terms))
 {% endhighlight %}
+
 <br>
+
+Bu örnek ayrıca, bir dekoratörün önceden tanımlanmış bir işleve nasıl uygulanabileceğini gösterir. e'nin yaklaşımı, aşağıdaki dizi genişlemesine dayanmaktadır:
+
+
+
+
+
+
 
 ## Python Sınıflarınızda “Dize” Dönüştürme Nasıl Desteklenir?
 ***
