@@ -117,6 +117,10 @@ def ekle_bir(numara):
 {% endhighlight %}
 
 
+<br>
+<div class="pop2">Çıktı:</div>
+<br> 
+
 {% highlight python %}
 
 In [1]: ekle_bir(2)
@@ -432,7 +436,11 @@ say_whee = my_decorator(say_whee)
 
 ```say_whee()``` çağırdığınızda ne olacağını tahmin edebilir misiniz? Dene:
 
-{% highlight c %}
+<br>
+<div class="pop2">Çıktı:</div>
+<br> 
+
+{% highlight python %}
 
 In [1]: say_whee()
 Something is happening before the function is called.
