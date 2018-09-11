@@ -1186,14 +1186,50 @@ Aşağıdaki örnek, matematik sabiti e'ye bir yaklaşım hesaplar:
 
 {% highlight python  linenos=table %}
 import math
-from decorators import debug
+import functools
+
+def debug(func):
+    """Print the function signature and return value"""
+    @functools.wraps(func)
+    def wrapper_debug(*args, **kwargs):
+        args_repr = [repr(a) for a in args]                      # 1
+        kwargs_repr = [f"{k}={v!r}" for k, v in kwargs.items()]  # 2
+        signature = ", ".join(args_repr + kwargs_repr)           # 3
+        print(f"Calling {func.__name__}({signature})")
+        value = func(*args, **kwargs)
+        print(f"{func.__name__!r} returned {value!r}")           # 4
+        return value
+    return wrapper_debug
 
 # Apply a decorator to a standard library function
 math.factorial = debug(math.factorial)
-
+@debug
 def approximate_e(terms=18):
     return sum(1 / math.factorial(n) for n in range(terms))
+
+approximate_e(5) 
 {% endhighlight %}
+
+<br>
+
+{% highlight python %}
+
+Calling approximate_e(5)
+Calling factorial(0)
+'factorial' returned 1
+Calling factorial(1)
+'factorial' returned 1
+Calling factorial(2)
+'factorial' returned 2
+Calling factorial(3)
+'factorial' returned 6
+Calling factorial(4)
+'factorial' returned 24
+'approximate_e' returned 2.708333333333333
+
+
+{% endhighlight %} 
+
 
 <br>
 
@@ -1201,6 +1237,10 @@ Bu örnek ayrıca, bir dekoratörün önceden tanımlanmış bir işleve nasıl 
 
 
  e'nin değeri de  1/0!  +  1/1!  +  1/2!  +  1/3!  +  1/4!  +  1/5!  +  1/6!  +  1/7!  + ... (etc) eşittir
+
+Approximate_e() işlevini çağırırken, @debug dekoratörünü iş başında görebilirsiniz:
+
+
 
 
 ## Python Sınıflarınızda “Dize” Dönüştürme Nasıl Desteklenir?
