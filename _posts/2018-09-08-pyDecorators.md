@@ -1144,7 +1144,7 @@ def debug(func):
 
 3. Pozisyonel ve keyword ifadelerinin listeleri, bir virgülle ayrılan ifadenin herbiri ile signature dizisinin birine beraber katılır.
 
-4. 
+4. Fonksiyon çalıştırıldıktan sonra geri dönüş değeri yazdırılır.
 
 
 
