@@ -1214,6 +1214,16 @@ def approximate_e(terms=18):
 approximate_e(5) 
 {% endhighlight %}
 
+
+<br>
+
+Bu örnek ayrıca, bir dekoratörün önceden tanımlanmış bir işleve nasıl uygulanabileceğini gösterir. e'nin yaklaşımı, aşağıdaki dizi genişlemesine dayanmaktadır:
+
+
+ e'nin değeri de  1/0!  +  1/1!  +  1/2!  +  1/3!  +  1/4!  +  1/5!  +  1/6!  +  1/7!  + ... (etc) eşittir
+
+Approximate_e() işlevini çağırırken, @debug dekoratörünü iş başında görebilirsiniz:
+
 <br>
 ## Çıktı:
  
@@ -1235,16 +1245,6 @@ Calling factorial(4)
 
 
 {% endhighlight %} 
-
-
-<br>
-
-Bu örnek ayrıca, bir dekoratörün önceden tanımlanmış bir işleve nasıl uygulanabileceğini gösterir. e'nin yaklaşımı, aşağıdaki dizi genişlemesine dayanmaktadır:
-
-
- e'nin değeri de  1/0!  +  1/1!  +  1/2!  +  1/3!  +  1/4!  +  1/5!  +  1/6!  +  1/7!  + ... (etc) eşittir
-
-Approximate_e() işlevini çağırırken, @debug dekoratörünü iş başında görebilirsiniz:
 
 
 
