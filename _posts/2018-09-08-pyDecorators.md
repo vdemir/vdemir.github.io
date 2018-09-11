@@ -1141,10 +1141,10 @@ def make_greeting(name, age=None):
 
 {% endhighlight %}
 
-
+<br>
 ## Çıktı:
 ***
-
+<br>
 
 {% highlight python %}
 
@@ -1215,10 +1215,10 @@ def approximate_e(terms=18):
 approximate_e(5) 
 {% endhighlight %}
 
-
+<br>
 ## Çıktı:
 ***
-
+<br>
 {% highlight python %}
 
 Calling approximate_e(5)
