@@ -1182,7 +1182,18 @@ Bu örnek, @debug dekoratörü az önce yazdıklarınızı tekrarladığından b
 
 Aşağıdaki örnek, matematik sabiti e'ye bir yaklaşım hesaplar:
 
+<br>
 
+{% highlight python  linenos=table %}
+import math
+from decorators import debug
+
+# Apply a decorator to a standard library function
+math.factorial = debug(math.factorial)
+
+def approximate_e(terms=18):
+    return sum(1 / math.factorial(n) for n in range(terms))
+{% endhighlight %}
 <br>
 
 ## Python Sınıflarınızda “Dize” Dönüştürme Nasıl Desteklenir?
