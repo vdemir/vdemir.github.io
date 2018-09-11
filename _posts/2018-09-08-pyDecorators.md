@@ -1200,11 +1200,7 @@ def approximate_e(terms=18):
 Bu örnek ayrıca, bir dekoratörün önceden tanımlanmış bir işleve nasıl uygulanabileceğini gösterir. e'nin yaklaşımı, aşağıdaki dizi genişlemesine dayanmaktadır:
 
 
-The value of e is also equal to  10!  +  11!  +  12!  +  13!  +  14!  +  15!  +  16!  +  17!  + ... (etc)
-
- 1   1   1
-.- + - + -
- 0!  1!  2!
+ e'nin değeri de  1/0!  +  1/1!  +  1/2!  +  1/3!  +  1/4!  +  1/5!  +  1/6!  +  1/7!  + ... (etc) eşittir
 
 
 ## Python Sınıflarınızda “Dize” Dönüştürme Nasıl Desteklenir?
