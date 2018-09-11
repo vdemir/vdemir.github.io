@@ -1213,7 +1213,8 @@ approximate_e(5)
 {% endhighlight %}
 
 
-**Çıktı**
+## Çıktı:
+***
 
 {% highlight python %}
 
@@ -1263,7 +1264,10 @@ class Car:
 
 {% endhighlight %}
 
-**Çıktı**
+
+## Çıktı:
+***
+
 
 {% highlight python %}
 In [1]: my_car = Car('red', 37281)
