@@ -286,8 +286,8 @@ print greet_someone("John")
 {% endhighlight %}
 
 <br>
-
-**Fonksiyonları diğer fonksiyonlar içinde tanımlayın**
+<div class="pop2">Fonksiyonları diğer fonksiyonlar içinde tanımlayın</div>
+<br> 
 
 
 {% highlight python %}
@@ -307,8 +307,8 @@ print greet("John")
 
 
 <br>
-
-**Fonksiyonlar diğer fonksiyonlara parametre olarak geçirilebilir**
+<div class="pop2">Fonksiyonlar diğer fonksiyonlara parametre olarak geçirilebilir</div>
+<br> 
 
 
 {% highlight python %}
@@ -326,9 +326,10 @@ print greet("John")
 
 {% endhighlight %}
 
-<br>
 
-**İşlevler diğer fonksiyonlari geri verebilir.**
+<br>
+<div class="pop2">İşlevler diğer fonksiyonlari geri verebilir</div>
+<br> 
 
 Başka bir deyişle, diğer fonksiyonları üreten fonksiyonlar.
 
@@ -348,10 +349,9 @@ print greet()
 {% endhighlight %}
 
 
-
 <br>
-
-**İç fonksiyonlar bidirim alanını çevreleyerek erişime sahip olurlar**
+<div class="pop2">İç fonksiyonlar bidirim alanını çevreleyerek erişime sahip olurlar</div>
+<br>
 
 Daha çok bir kapanma olarak bilinir. Dekoratörler inşa ederken karşılaşacağımız çok güçlü bir desen. Unutulmaması gereken bir başka şey ise, Python sadece dış bildirim alanını okumaya izin verir ve atamaya izin vermez. Yukarıdaki örneği, iç fonksiyonun kapalı kapsamından bir 'name' argümanı okumak ve yeni fonksiyonu döndürmek için nasıl değiştirdiğimizi fark ettik.
 
@@ -371,8 +371,8 @@ print greet()
 {% endhighlight %}
 
 <br>
-
-**Dekoratörlerin Bileşimi**
+<div class="pop2">Dekoratörlerin Bileşimi</div>
+<br>
 
 İşlev dekoratörler, mevcut fonksiyonlara basit bir şekilde sarılırlar. Yukarıda bahsi geçen fikirleri bir araya getirerek bir dekoratör yapabiliriz. Bu örnekte, başka bir fonksiyonun string çıktısını p etiketleriyle saran bir fonksiyonu düşünelim.
 
@@ -1291,7 +1291,7 @@ Varsayılan olarak, aldığınız tek şey sınıf adını ve nesne örneğinin 
 <div class="pop2">Neden Her Python Sınıfının bir __repr__ ihtiyacı var?</div>
 <br>
 
-Sınıfın özniteliklerini doğrudan yazdırarak veya sınıflarınıza özel bir to_string () yöntemi ekleyerek, bu konu üzerinde çalışmaya deneyebilirsiniz.
+Sınıfın özniteliklerini doğrudan yazdırarak veya sınıflarınıza özel bir to_string() yöntemi ekleyerek, bu konu üzerinde çalışmaya deneyebilirsiniz.
 
 <br>
 
