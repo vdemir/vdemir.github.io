@@ -1141,8 +1141,8 @@ def make_greeting(name, age=None):
 
 {% endhighlight %}
 
-<br>
-## Çıktı:
+
+<div class="pop2">Çıktı:</div>
  
 <br>
 
