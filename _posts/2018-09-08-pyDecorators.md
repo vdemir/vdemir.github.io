@@ -1138,7 +1138,29 @@ def make_greeting(name, age=None):
         return f"Howdy {name}!"
     else:
         return f"Whoa {name}! {age} already, you are growing up!"
+
 {% endhighlight %}
+
+<br>
+
+{% highlight python %}
+
+In [1]: make_greeting("Benjamin")
+
+Calling make_greeting('Benjamin')
+'make_greeting' returned 'Howdy Benjamin!'
+
+In [2]: make_greeting("Richard", age=112)
+
+Calling make_greeting('Richard', age=112)
+'make_greeting' returned 'Whoa Richard! 112 already, you are growing up!'
+
+In [3]: make_greeting(name="Dorrisile", age=116)
+
+Calling make_greeting(name='Dorrisile', age=116)
+'make_greeting' returned 'Whoa Dorrisile! 116 already, you are growing up!'
+
+{% endhighlight %} 
 
 <br>
 
