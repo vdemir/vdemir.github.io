@@ -1207,7 +1207,7 @@ Genel fikir burada doğru olanıdır -ancak Python'un nesnelerin dizge olarak na
 
 1. Konumsal argümanların bir listesini oluşturun. Her ifadeyi temsil eden güzel bir dize almak için repr () öğesini kullanın.
 
-2. Anahtar kelime -keyword arguments- ifadelerinin bir listesini oluşturun. !r belirtecinin, değeri temsil etmek için repr() kullanıldığı anlamına geldiği yerde f-string her bir argümanı key=value olarak formatlar.
+2. Anahtar kelime -keyword arguments- ifadelerinin bir listesini oluşturun. , değeri temsil etmek için repr() kullanıldığını ifade eden !r belirtecinin olduğu yerde key=value olarak f-string her bir argümanı formatlar.
 
 
 
