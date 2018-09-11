@@ -1181,7 +1181,7 @@ Dekoratörün, bir konum ve bir anahtar kelime ifadesiyle basit bir fonksiyona u
 
 @debug dekoratörünün make_greeting() işlevinin signature ve dönüş değerini nasıl yazdığını not alın:
 
-Bu örnek, @debug dekoratörü az önce yazdıklarınızı tekrarladığından beri kullanışlı görünmeyebilir. Doğrudan kendinize çağrı yapmadığınız küçük kolaylık işlevlerine uygulandığında daha güçlüdür.
+Bu örnek, @debug dekoratörü az önce yazdıklarınızı tekrarladığından beri kullanışlı görünmeyebilir. Doğrudan kendinize çağrı yapmadığınız küçük uygun işlevlere uygulandığında daha güçlüdür.
 
 Aşağıdaki örnek, matematik sabiti e'ye bir yaklaşım hesaplar:
 
