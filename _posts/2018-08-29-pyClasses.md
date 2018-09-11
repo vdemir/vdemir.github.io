@@ -3333,11 +3333,15 @@ for-loop = 1.444 s
 
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
 
-
-<!--python3 interpreter -->
-<iframe src="https://trinket.io/embed/python3/49b7d634c8" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
  
+<br><br>
+<!--python3 interpreter -->
+<h3  id="C16"><a class="w3-btn w3-margin-bottom">Just python 3.6.5 'Run'.</a></h3>
+<iframe src="https://trinket.io/embed/python3/49b7d634c8" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+  
+<br><br>
 <!--python2 interpreter -->
+<h3  id="C16"><a class="w3-btn w3-margin-bottom">Just python 2.7.5 'Run'.</a></h3>
 <iframe src="https://trinket.io/embed/python/0bdde66575" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 <!-- python interpreter -->
@@ -3345,7 +3349,7 @@ for-loop = 1.444 s
 <br><br>
 <div class="teaser clearfix"></div>
 <script src="{{ sitebase.url }}/scripts/dcl-react.js.gz"></script>
-<h3  id="C16"><a class="w3-btn w3-margin-bottom">Just python 3 'Run'.</a></h3>
+<h3  id="C16"><a class="w3-btn w3-margin-bottom">Just python 3.5.2 'Run'.</a></h3>
 <div data-datacamp-exercise data-lang="python" data-height="auto">
       <code data-type="pre-exercise-code"></code>
       <code data-type="sample-code">
