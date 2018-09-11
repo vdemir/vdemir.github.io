@@ -1136,7 +1136,14 @@ def debug(func):
 
 <br>
 
-signature, tüm argümanların dize gösterimlerine katılarak oluşturulur.
+{signature}, tüm argümanların dize gösterimlerine katılarak oluşturulur. Aşağıdaki listedeki sayılar, koddaki numaralı yorumlara karşılık gelir:
+
+1. Konumsal argümanların bir listesini oluşturun. Her ifadeyi temsil eden güzel bir dize almak için repr () öğesini kullanın.
+
+2. Anahtar kelime -keyword arguments- ifadelerinin bir listesini oluşturun. value değeri temsil etmek için repr() kullanıldığını ifade eden !r belirtecinin olduğu yerde key=value olarak f-string her bir ifadeyi formatlar.
+
+
+
 
 <br>
 
@@ -1203,11 +1210,7 @@ Car('red', 37281)
 
 Genel fikir burada doğru olanıdır -ancak Python'un nesnelerin dizge olarak nasıl temsil edildiğini işlemek için kullandığı sözleşmeleri ve yerleşik mekanizmaları yok sayar.
 
-{signature}, tüm argümanların dize gösterimlerine katılarak oluşturulur. Aşağıdaki listedeki sayılar, koddaki numaralı yorumlara karşılık gelir:
 
-1. Konumsal argümanların bir listesini oluşturun. Her ifadeyi temsil eden güzel bir dize almak için repr () öğesini kullanın.
-
-2. Anahtar kelime -keyword arguments- ifadelerinin bir listesini oluşturun. , değeri temsil etmek için repr() kullanıldığını ifade eden !r belirtecinin olduğu yerde key=value olarak f-string her bir argümanı formatlar.
 
 
 
