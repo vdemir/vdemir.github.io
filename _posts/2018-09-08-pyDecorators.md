@@ -598,8 +598,8 @@ Whee!
 {% endhighlight %}
 
 <br>
-
-## Biraz Daha Faydalı
+<div class="pop2">Biraz Daha Faydalı</div>
+<br>
 
 
 Şimdi, ilk örneğe dönelim ve uygulayalım. Burada, daha tipik olanı yapacağız ve aslında kodu dekore edilmiş fonksiyonlarda kullanacağız:
