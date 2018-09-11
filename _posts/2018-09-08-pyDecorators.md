@@ -1142,7 +1142,7 @@ def debug(func):
 
 2. Anahtar kelime -keyword arguments- ifadelerinin bir listesini oluşturun. value değeri temsil etmek için repr() kullanıldığını ifade eden !r belirtecinin olduğu yerde key=value olarak f-string her bir ifadeyi formatlar.
 
-
+3. Pozisyonel ve anahtar kelime argümanlarının listeleri, her virgülle ayrılan her argümanla birlikte bir signature dizisine birleştirilir.
 
 
 <br>
