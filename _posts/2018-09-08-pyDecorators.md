@@ -1154,6 +1154,9 @@ def make_greeting(name, age=None):
 
 Dekoratörün, bir konum ve bir anahtar kelime ifadesiyle basit bir fonksiyona uygulayarak pratikte nasıl çalıştığını görelim:
 
+Debug dekoratörünün make_greeting() işlevinin signature ve dönüş değerini nasıl yazdığını not alın:
+
+
 
 <br>
 
