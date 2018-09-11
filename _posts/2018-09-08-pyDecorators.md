@@ -1144,7 +1144,7 @@ def make_greeting(name, age=None):
  
 <br>
 <div class="pop2">Çıktı:</div>
- 
+<br> 
 
 {% highlight python %}
 
@@ -1225,9 +1225,9 @@ Bu örnek ayrıca, bir dekoratörün önceden tanımlanmış bir işleve nasıl 
 Approximate_e() işlevini çağırırken, @debug dekoratörünü iş başında görebilirsiniz:
 
 <br>
-## Çıktı:
- 
-<br>
+<div class="pop2">Çıktı:</div>
+<br> 
+
 {% highlight python %}
 
 Calling approximate_e(5)
@@ -1270,9 +1270,8 @@ class Car:
 
 
 <br>
-## Çıktı:
- 
-<br>
+<div class="pop2">Çıktı:</div>
+<br> 
 
 {% highlight python %}
 In [1]: my_car = Car('red', 37281)
@@ -1311,9 +1310,8 @@ class Car(object):
 {% endhighlight %}
 
 <br>
-## Çıktı:
- 
-<br>
+<div class="pop2">Çıktı:</div>
+<br> 
 
 {% highlight python %}
 In [8]: my_car = Car('red', 37281)
