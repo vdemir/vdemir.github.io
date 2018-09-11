@@ -642,11 +642,10 @@ Dekore edilmiş fonksiyonlarin artık çağrı etrafında ```'Entering'``` ve ``
 
 Kurucu, fonksiyon nesnesi olan bağımsız değişkeni saklar. Çağrıda, fonksiyonun adını göstermek için fonksiyonun ```__name__``` özniteliğini kullanırız, daha sonra fonksiyonun kendisini çağırırız.
 
-
+ 
 <br>
-
-## Meta sınıflar ve dekoratörler: uzayda yapılmış bir eşleme
-
+<div class="pop2">Meta sınıflar ve dekoratörler: uzayda yapılmış bir eşleme</div>
+<br>
 
 Meta sınıflar karmaşık bir konudur ve çoğu zaman ileri düzey programcılar, onlar için çok çeşitli pratik kullanımları görmez.
 
