@@ -1140,7 +1140,7 @@ def debug(func):
 
 1. Konumsal ifadelerin bir listesini oluşturun. Her ifadeyi temsil eden güzel bir dize almak için repr () öğesini kullanın.
 
-2. keyword ifadelerinin bir listesini oluşturun. value değeri temsil etmek için repr() kullanıldığını ifade eden !r belirtecinin olduğu yerde key=value olarak f-string her bir ifadeyi formatlar.
+2. keyword ifadelerinin bir listesini oluşturun. value ifade etmek için kullanılan repr() 'yi ifade eden !r belirtecinin olduğu yerde key=value olarak f-string her bir ifadeyi formatlar.
 
 3. Konumsal ve keyword ifadelerinin listeleri, bir virgülle ayrılan ifadenin herbiri ile signature dizisinin birine beraber katılır.
 
