@@ -519,6 +519,8 @@ def f(x):
 
 print (f.__name__)  # prints 'f'
 print (f.__doc__)   # prints 'does some mat
+
+print (f(5))  # prints 'f was called' 
 {% endhighlight %}
 
 <br>
@@ -530,6 +532,8 @@ print (f.__doc__)   # prints 'does some mat
 f
 does some math
 
+f was called
+30
 {% endhighlight %}
 
 <br>
