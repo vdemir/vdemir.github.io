@@ -642,7 +642,6 @@ func2()
 <br>
 
 {% highlight python  %}
-
 Entering func1
 inside func1()
 Exited func1
