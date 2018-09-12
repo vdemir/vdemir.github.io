@@ -1371,7 +1371,7 @@ countdown(3)
 
 <br>
 <div class="pop2">Çıktı:</div>
-<br> 
+ 
 
 {% highlight python %}
 
