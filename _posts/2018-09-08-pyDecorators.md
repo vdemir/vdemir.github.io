@@ -1385,7 +1385,7 @@ Liftoff!
 
 {% endhighlight %}
 
-<div class="pop2">...</div>
+<div class="pop2"> &raquo; &raquo; &raquo; &raquo; &raquo;</div>
 <br>
 
 <div class="alert alert-warning" role="alert">
