@@ -402,7 +402,7 @@ print my_get_text("John")
 
 {% endhighlight %}
 
-Bu bizim ilk dekoratörümüzdü. Başka bir fonksiyonu argüman olarak alan bir fonksiyon, yeni bir fonksiyon üretir, orijinal fonksiyonun çalışmasını çoğaltır ve oluşturulan fonksiyonu döndürerek her yerde kullanabiliriz. get_text'in kendisi p_decorate tarafından dekore edilmek için, sadece get_text 'i p_decorate sonucuna atamak zorundayız.
+Bu bizim ilk dekoratörümüzdü. Başka bir fonksiyonu ifade olarak alan bir fonksiyon, yeni bir fonksiyon üretir, orijinal fonksiyonun çalışmasını çoğaltır ve oluşturulan fonksiyonu döndürerek her yerde kullanabiliriz. get_text'in kendisi p_decorate tarafından dekore edilmek için, sadece get_text 'i p_decorate sonucuna atamak zorundayız.
 
 {% highlight python %}
 
@@ -666,7 +666,7 @@ a_function
 A pretty useless function
 {% endhighlight %}
 
-Şimdi bir kez daha doğru isim ve docstring sahibiz. Python yorumlayıcınıza giderseniz, yardım işlevi artık doğru şekilde çalışacaktır. Burada çıktısını koymaktan vazgeçip, denemeniz için onu bırakacağım.
+Şimdi bir kez daha doğru isim ve docstring sahibiz. Python yorumlayıcınıza giderseniz, yardım fonksiyonu artık doğru şekilde çalışacaktır. Burada çıktısını koymaktan vazgeçip, denemeniz için onu bırakacağım.
 
 help(example):
 <br>
@@ -1723,7 +1723,7 @@ def randomly_greet(name):
 @register dekoratörü, global PLUGINS dict'daki dekore edilmiş fonksiyona bir atfı basitçe saklar.
 
 <div class="alert alert-primary" role="alert">
-<p><strong>Bilgi:</strong> Python'da bir dekoratör, argüman olarak başka bir işlevi kabul eden bir işlevdir. Dekoratör genellikle kabul ettiği işlevi değiştirir veya geliştirir ve değiştirilmiş işlevi döndürür. Bu, süslü bir işlevi çağırdığınızda, temel tanımla karşılaştırıldığında ek özelliklere sahip olabilecek, biraz farklı olabilecek bir işlev elde edeceğiniz anlamına gelir.</p>
+<p><strong>Bilgi:</strong> Python'da bir dekoratör, ifade olarak başka bir fonksiyonu kabul eden bir fonksiyondur. Dekoratör genellikle kabul ettiği fonksiyonu değiştirir veya geliştirir ve değiştirilmiş fonksiyonu döndürür. Bu, süslü bir fonksiyonu çağırdığınızda, temel tanımla karşılaştırıldığında ek özelliklere sahip olabilen, biraz farklı olabilecek bir işlev elde edeceğiniz anlamına gelir.</p>
 </div>
 
 
