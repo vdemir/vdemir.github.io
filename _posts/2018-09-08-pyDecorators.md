@@ -117,7 +117,7 @@ def ekle_bir(numara):
      return numara + 1
 
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 
 <br>
 <div class="pop2">Çıktı:</div>
@@ -129,7 +129,7 @@ In [1]: ekle_bir(2)
 Out[1]:  3
 
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 Genel olarak, Python'daki fonksiyonlar, bir girdiyi bir çıktıya dönüştürmek yerine, yan etkilere de sahip olabilir. ```print()``` fonksiyonu bunun temel bir örneğidir: Konsola bir şey vermenin yan etkisine sahipken, hiçbiri'ni döndürmez. Ancak, dekoratörler anlamak için, fonksiyonları ifadeleri bir değere dönüştüren bir şey olarak düşünmek yeterlidir.
  
 <br>
@@ -171,7 +171,7 @@ Out[1]: 'Merhaba Kedi'
 In [2]: merhaba_kedi(harika_ol)
 Out[2]: 'Hey Kedi, biz birlikte harikayız!'
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 ```merhaba_kedi(merhaba_de)```'nin iki fonksiyona, ancak farklı yollara başvurduğunu unutmayın: ```harika_ol()``` ve ```merhaba_de```. ```merhaba_de``` fonksiyonu parantez içermiyor. Bu, fonksiyona yalnızca bir atfın geçirildiği anlamına gelir. Fonksiyon yürütülmez. Öte yandan, ```merhaba_kedi()``` fonksiyonu parantez ile yazıldığından, her zamanki gibi çağrılır.
 
 <br>
@@ -195,7 +195,7 @@ def ebeveyn():
     ilk_veled()
 
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 ```ebeveyn()``` fonksiyonu çağırdığınızda ne olur? Bir dakikalığına düşün bunu. Çıkış aşağıdaki gibi olacaktır:
 
 {% highlight python %}
@@ -216,7 +216,7 @@ Traceback (most recent call last):
     ilk_veled()
 NameError: name 'ilk_veled' is not defined
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 ebeveyn() çağırdığınızda, ```ilk_veled()``` ve ```ikinci_veled()``` iç fonksiyonları da çağrılır. Ancak yerel kapsamı nedeniyle, ```ebeveyn()``` fonksiyonu dışında mevcut değildir.
 
 <br>
@@ -240,7 +240,7 @@ def ebeveyn(num):
         return ikinci_veled
 
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 Parantez olmadan ```ilk_veled``` döndürdüğünüzü unutmayın. Bunun, ```ilk_veled``` fonksiyonuna bir atıf döndürdüğünüz anlamına geldiğini hatırlayın. Aksine, ```ilk_veled()``` parantez içinde, fonksiyonun değerlendirilmesi sonucunu ifade eder. Bu, aşağıdaki örnekte görülebilir:
 
 
@@ -267,7 +267,7 @@ In [10]: ikinci=ebeveyn(2)
 In [11]: ikinci()
 Out[11]: 'Bana Liam deyin'
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 Son olarak, daha önceki örnekte, iç fonksiyonları ```ebeveyn``` fonksiyon içinde gerçekleştirdiğinizi unutmayın,```ilk_veled()``` özdeşi. Bununla birlikte, bu son örnekte, -```return```- den sonra iç fonksiyonlara parantez eklemediniz -```ilk_veled```-. Bu şekilde, gelecekte çağırabileceğiniz her bir fonksiyona bir atıf aldın. Mantıklı olmak?
 
 <br>
@@ -290,7 +290,7 @@ print greet_someone("John")
 # Outputs: hello John
 
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <br>
 <div class="pop2">Fonksiyonları diğer fonksiyonlar içinde tanımlayın</div>
 <br> 
@@ -310,7 +310,7 @@ print greet("John")
 # Outputs: Hello John
 
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 
 <br>
 <div class="pop2">Fonksiyonlar diğer fonksiyonlara parametre olarak geçirilebilir</div>
@@ -331,7 +331,7 @@ print greet("John")
 # Outputs: Hello John
 
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 
 <br>
 <div class="pop2">İşlevler diğer fonksiyonlari geri verebilir</div>
@@ -353,7 +353,7 @@ print greet()
 # Outputs: Hello there!
 
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 
 <br>
 <div class="pop2">İç fonksiyonlar bidirim alanını çevreleyerek erişime sahip olurlar</div>
@@ -375,7 +375,7 @@ print greet()
 # Outputs: Hello there John!
 
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <br>
 <div class="pop2">Dekoratörlerin Bileşimi</div>
 <br>
@@ -399,7 +399,7 @@ print my_get_text("John")
 # <p>Outputs lorem ipsum, John dolor sit amet</p>
 
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 Bu bizim ilk dekoratörümüzdü. Başka bir fonksiyonu argüman olarak alan bir fonksiyon, yeni bir fonksiyon üretir, orijinal fonksiyonun çalışmasını çoğaltır ve oluşturulan fonksiyonu döndürerek her yerde kullanabiliriz. get_text'in kendisi p_decorate tarafından dekore edilmek için, sadece get_text 'i p_decorate sonucuna atamak zorundayız.
 
 {% highlight python %}
@@ -450,7 +450,7 @@ Whee!
 Something is happening after the function is called.
 
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 Burada neler olduğunu anlamak için önceki örneklere bakın. Tam anlamıyla şimdiye kadar öğrendiğiniz her şeyi gerçekten uyguluyoruz. 
 
 Sözde dekorasyon şu satırda gerçekleşir:
@@ -472,7 +472,7 @@ In [3]: say_whee
 Out[3]: <function __main__.my_decorator.<locals>.wrapper>
 
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 Ancak, ```wrapper()``` fonksiyonu, orijinal ```say_whee()``` fonksiyonune func olarak bir atıfta bulunur ve iki ```print()``` çağrı arasında bu fonksiyonu çağırır.
 
 Basitçe söylemek gerekirse: **dekoratörler, onların davranışlarını değiştirerek bir fonksiyonu sarmaktadır.**
@@ -509,7 +509,7 @@ Whee!
 In [4]: say_whee()
 In [5]: 
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <br>
 
 <div id="D21" class="pop1">Sözdizimsel Şeker!</div>
@@ -532,7 +532,7 @@ def say_whee():
     print("Whee!")
 
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 Bu yüzden, ```@my_decorator``` sadece, ```say_whee = my_decorator(say_whee)``` demenin daha kolay bir yoldur. Bu bir fonksiyona bir dekoratörün nasıl uygulandığıdır.
 
 <br>
@@ -552,7 +552,7 @@ def do_twice(func):
     return wrapper_do_twice
 
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <br>
 <div class="alert alert-primary" role="alert">
 <p><strong>Note:</strong> İçsel fonksiyonunuzu istediğiniz gibi adlandırın ve **wrapper()** gibi genel bir ad genellikle tamamdır. Bu makalede çok sayıda dekoratör göreceksiniz. Bunları ayrı tutmak için, iç fonksiyonu, dekoratörle aynı adla, ancak bir **wrapper_** önekiyle adlandıracağız.</p>
@@ -569,6 +569,7 @@ def say_whee():
     print("Whee!")
 
 {% endhighlight %}
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <br>
 
 yada doğruda çalıştırabilirsiniz:
@@ -586,7 +587,7 @@ def say_whee():
     print("Whee!")
 
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <br>
 
 Bu örneği çalıştırdığınızda, orijinal ```say_whee()``` öğesinin iki kez yürütüldüğünü görmelisiniz:
@@ -598,7 +599,7 @@ In [1]: say_whee()
 Whee!
 Whee!
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <br>
 <div class="pop2">Biraz Daha Faydalı</div>
 <br>
@@ -630,7 +631,7 @@ func1()
 func2()
 
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 
 <br>
 <div class="pop2">Çıktı:</div>
@@ -686,6 +687,7 @@ msp = MyStringProcessor()
 "A test string" == msp("a test string")
 
 {% endhighlight %} 
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <br>
 
 
@@ -730,7 +732,7 @@ if __name__ == "__main__":
     print(StringFilter("i am a cat  help me", "strip", "capitalize", "split"))
 
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <br>
 <div class="pop2">Çıktı:</div>
 <br> 
@@ -742,7 +744,7 @@ if __name__ == "__main__":
 ['I', 'am', 'a', 'cat', '', 'help', 'me']
 
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <br>
 
 <div id="D23" class="pop1">İfadelerle Bezeyen Fonksiyonlar</div>
@@ -764,6 +766,7 @@ def greet(name):
     print("Hello" + name)
 
 {% endhighlight %}
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <br>
 
 
@@ -779,7 +782,7 @@ Traceback (most recent call last):
     greet("World")
 TypeError: wrapper_do_twice() takes 0 positional arguments but 1 was given
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 Sorun şu ki, içsel fonksiyon ```wrapper_do_twice()``` fonksiyonu herhangi bir ifade almaz, ancak ```name = 'World'``` ona aktarıldı. ```wrapper_do_twice()``` öğesinin bir bağımsız değişkeni kabul etmesine izin vererek bunu düzeltebilirsiniz, ancak daha önce oluşturduğunuz ```say_whee()``` fonksiyonu için çalışmaz.
 
 Çözüm, iç sarmalayıcı fonksiyonunda ```*args``` ve ```**kwargs``` kullanmaktır. Ardından, rastgele sayı ve konum ifadeyi kabul eder. ```decorators.py``` dosyasını aşağıdaki gibi yeniden yazınız:
@@ -795,7 +798,7 @@ def do_twice(func):
     return wrapper_do_twice
 
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 ```wrapper_do_twice()``` iç fonksiyonu artık herhangi bir sayıdaki ifadeyi kabul eder ve bunları bezediği fonksiyone iletir. Şimdi hem ```say_whee()``` ve ```greet()``` örnekleri çalışır:
 
 {% highlight python  linenos=table %}
@@ -815,7 +818,7 @@ def say_whee():
     print("Whee!")
 
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <br>
 <div class="pop2">Çıktı:</div>
 <br> 
@@ -832,7 +835,7 @@ Whee!
 Whee! 
 
 {% endhighlight %} 
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 
 <br>
 
@@ -854,6 +857,7 @@ def return_greeting(name):
     return "Hi" + name
 
 {% endhighlight %}
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <br>
 
 
@@ -871,6 +875,7 @@ In [2]: print(hi_adam)
 None
 
 {% endhighlight %} 
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <br>
 
 
@@ -888,7 +893,8 @@ def do_twice(func):
         return func(*args, **kwargs)
     return wrapper_do_twice
 
-{% endhighlight %} 
+{% endhighlight %}
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div> 
 <br>
 
 
@@ -914,6 +920,7 @@ def say_whee():
     print("Whee!")
 
 {% endhighlight %}
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <br>
 
 
@@ -930,7 +937,7 @@ Creating greeting
 Out[3]: 'Hi Adam'
 
 {% endhighlight %} 
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 
 <br>
 
@@ -957,7 +964,8 @@ print(...)
     Prints the values to a stream, or to sys.stdout by default.
     <full help message>
 
-{% endhighlight %} 
+{% endhighlight %}
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div> 
 <br>
 
 
@@ -976,7 +984,8 @@ Out[7]: 'wrapper_do_twice'
 In [8]: help(say_whee)
 Help on function wrapper_do_twice in module __main__:
 
-{% endhighlight %} 
+{% endhighlight %}
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div> 
 <br>
 
 
@@ -996,7 +1005,8 @@ def do_twice(func):
         func(*args, **kwargs)
         return func(*args, **kwargs)
     return wrapper_do_twice
-{% endhighlight %} 
+{% endhighlight %}
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div> 
 <br>
 
 <div class="alert alert-success" role="alert">
@@ -1020,7 +1030,7 @@ Help on function say_whee in module __main__:
 
 say_whee()
 {% endhighlight %} 
-  
+  <div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <br>
 
 Çok daha iyi! Şimdi say_whee(), dekorasyondan sonra hala kendisidir.
@@ -1048,7 +1058,7 @@ def decorator(func):
         return value
     return wrapper_decorator
 {% endhighlight %} 
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 Bu formül, daha karmaşık dekoratörler oluşturmak için iyi bir standart kalıptır.
 
 <div class="alert alert-warning" role="alert">
