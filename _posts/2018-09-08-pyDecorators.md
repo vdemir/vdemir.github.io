@@ -591,6 +591,46 @@ Bu doğru değil! Bu programı IDLE veya yorumlayıcıda çalıştırırsanız, 
 
 Temel olarak burada olan şey, dekoratörün dekore edilmiş işlevin adını ve belgesini kendi başına değiştirmesidir.
 
+<br>
+
+<div id="D17" class="pop1">Wraps to the Rescue!</div>
+
+Bu küçük karışıklığı nasıl düzeltiriz? Python geliştiricileri bize functools.wraps çözümü verdi! Hadi kontrol edelim:
+
+
+{% highlight python linenos=table %}
+
+from functools import wraps
+ 
+#----------------------------------------------------------------------
+def another_function(func):
+    """
+    A function that accepts another function
+    """
+ 
+    @wraps(func)
+    def wrapper():
+        """
+        A wrapping function
+        """
+        val = "The result of %s is %s" % (func(),
+                                          eval(func())
+                                          )
+        return val
+    return wrapper
+ 
+#----------------------------------------------------------------------
+@another_function
+def a_function():
+    """A pretty useless function"""
+    return "1+1"
+ 
+#----------------------------------------------------------------------
+if __name__ == "__main__":
+    #a_function()
+    print a_function.__name__
+    print a_function.__doc__
+{% endhighlight %}
 
 
 
