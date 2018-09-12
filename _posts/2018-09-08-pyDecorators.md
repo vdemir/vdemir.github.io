@@ -437,11 +437,9 @@ say_whee = my_decorator(say_whee)
 {% endhighlight %}
 
 ```say_whee()``` çağırdığınızda ne olacağını tahmin edebilir misiniz? Dene:
-
 <br>
-<div class="pop2">Çıktı:</div>
-<br> 
-
+<div class="pop2"> Fonksiyon Çıktısı:</div>
+<br>
 {% highlight python %}
 
 In [1]: say_whee()
@@ -465,7 +463,9 @@ Aslında, ```say_whee``` ismi şimdi ```wrapper()``` iç fonksiyonuna işaret et
 Çağrı yaptığınızda ```wrapper``` fonksiyon olarak döndürdüğünüzü hatırlayın.
 
 my_decorator(say_whee):
-
+<br>
+<div class="pop2"> Fonksiyon Çıktısı:</div>
+<br>
 {% highlight python  %}
 
 In [3]: say_whee
@@ -500,7 +500,9 @@ say_whee = not_during_the_night(say_whee)
 <br>
 
 Yatma zamanı sonrası ```say_whee()``` çağırmayı denerseniz, hiçbir şey olmaz:
-
+<br>
+<div class="pop2"> Fonksiyon Çıktısı:</div>
+<br>
 {% highlight python  %}
 
 In [1]: say_whee()
@@ -591,7 +593,9 @@ def say_whee():
 
 Bu örneği çalıştırdığınızda, orijinal ```say_whee()``` öğesinin iki kez yürütüldüğünü görmelisiniz:
 
-
+<br>
+<div class="pop2"> Fonksiyon Çıktısı:</div>
+<br>
 {% highlight python  %}
 
 In [1]: say_whee()
@@ -631,11 +635,9 @@ func2()
 
 {% endhighlight %}
 
-
 <br>
-<div class="pop2">Çıktı:</div>
-<br> 
-
+<div class="pop2"> Fonksiyon Çıktısı:</div>
+<br>
 
 {% highlight python  %}
 
@@ -669,7 +671,8 @@ Bu yazıda size dekoratörler ve meta sınıfların ilginç bir ortak kullanım�
 
 Daha ayrıntılı olarak, bir dizgeye 'işleyebilmek' için çağrılabilecek bir sınıf uygulayacağım ve basit bir şekilde dekore edilmiş yöntemlerle farklı 'filtreleri' nasıl uygulayacağınızı göstereceğim. Benim elde etmek istediğim şunun gibi:
 <br>
-
+<div class="pop2"> Fonksiyon Çıktısı:</div>
+<br>
 
 {% highlight python %}
 
@@ -730,11 +733,9 @@ if __name__ == "__main__":
     print(StringFilter("i am a cat  help me", "strip", "capitalize", "split"))
 
 {% endhighlight %}
-
 <br>
-<div class="pop2">Çıktı:</div>
-<br> 
-
+<div class="pop2"> Fonksiyon Çıktısı:</div>
+<br>
 
 
 {% highlight python  %}
@@ -769,7 +770,8 @@ def greet(name):
 
 Maalesef, bu kodu çalıştırmak bir hataya yol açıyor:
 <br>
-
+<div class="pop2"> Fonksiyon Çıktısı:</div>
+<br>
 
 {% highlight python  %}
 
@@ -817,9 +819,8 @@ def say_whee():
 {% endhighlight %}
 
 <br>
-<div class="pop2">Çıktı:</div>
-<br> 
-
+<div class="pop2"> Fonksiyon Çıktısı:</div>
+<br>
 
 {% highlight python %}
 
@@ -859,6 +860,8 @@ def return_greeting(name):
 
 Kullanmayı dene:
 <br>
+<div class="pop2"> Fonksiyon Çıktısı:</div>
+<br>
 
 
 {% highlight python %}
@@ -879,7 +882,9 @@ Maalesef, dekoratörünüz fonksiyondan dönüş değerini yedi.
 ```do_twice_wrapper()``` fonksiyonu açıkça bir değer döndürmediğinden, ```return_greeting('Adam')``` çağrısı, None döndürerek sona ermiştir.
 
 Bunu düzeltmek için, **sarma fonksiyonunun dekore edilmiş fonksiyonun dönüş değerini döndürdüğünden emin olmanız** gerekir. ```decorators.py``` dosyanızı 4. satırını değiştirin:
-
+<br>
+<div class="pop2"> Fonksiyon Çıktısı:</div>
+<br>
 {% highlight python %}
 
 def do_twice(func):
