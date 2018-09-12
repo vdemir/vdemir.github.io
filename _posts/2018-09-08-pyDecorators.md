@@ -440,9 +440,10 @@ print(dbl(4))
 {% endhighlight %}
 
 Bu kod 8'e dönecek.
+
 <br>
 <div class="pop2"> Fonksiyon Çıktısı:</div>
-<br>
+
 {% highlight python %}
 
 8
