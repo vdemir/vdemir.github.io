@@ -583,7 +583,28 @@ wrapper
 
         A wrapping function
 {% endhighlight %}
+<br>
 
+{% highlight python %}
+
+Help on module example:
+
+NAME
+    example - # example.py
+
+FUNCTIONS
+    a_function = wrapper()
+        A wrapping function
+    
+    another_function(func)
+        A function that accepts another function
+
+FILE
+    ~/example.py
+
+
+{% endhighlight %}
+<br>
 Bu kodda, **a_function** olarak adlandırılan fonksiyonu bir **another_function** ile dekore ederiz. Fonksiyonun **__name__** ve **__doc__** özelliklerini kullanarak baskı yaparak a_function’ın adını ve docstring belgesini kontrol edebilirsiniz. Bu örneği çalıştırırsanız, çıktı için aşağıdakini alırsınız:
 
 
@@ -628,8 +649,8 @@ def a_function():
 #----------------------------------------------------------------------
 if __name__ == "__main__":
     #a_function()
-    print a_function.__name__
-    print a_function.__doc__
+    print (a_function.__name__)
+    print (a_function.__doc__)
 {% endhighlight %}
 
 
@@ -644,7 +665,28 @@ a_function
 A pretty useless function
 {% endhighlight %}
 
+Şimdi bir kez daha doğru isim ve docstring sahibiz. Python yorumlayıcınıza giderseniz, yardım işlevi artık doğru şekilde çalışacaktır. Burada çıktısını koymaktan vazgeçip, denemeniz için onu bırakacağım.
 
+<br>
+
+{% highlight python %}
+
+Help on module example.py:
+
+NAME
+    example.py
+
+FUNCTIONS
+    a_function()
+        A pretty useless function
+    
+    another_function(func)
+        A function that accepts another function
+
+FILE
+    ~/example.py
+
+{% endhighlight %}
 
 <br>
 
