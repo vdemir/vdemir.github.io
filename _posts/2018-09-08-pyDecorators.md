@@ -82,6 +82,7 @@ img.resize {
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Zamanlama Fonksiyonları](#D31)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Hata ayıklama kodu](#D32)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Kod Aşağı Çekiliyor](#D33)
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Eklentileri Kaydetme](#D34)
 
 
 Dekoratörlerle ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Dekoratörler, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
@@ -1335,7 +1336,7 @@ Genel fikir burada doğru olanıdır -ancak Python'un nesnelerin dizge olarak na
 
 <br>
 
-<div id="D32" class="pop1">Kod Aşağı Çekiliyor</div>
+<div id="D33" class="pop1">Kod Aşağı Çekiliyor</div>
 
 Bu sonraki örnek çok kullanışlı görünmeyebilir. Neden Python kodunuzu yavaşlatmak istersiniz? Muhtemelen en yaygın kullanım durumu, bir kaynağın değişip değişmediğini sürekli olarak kontrol eden bir fonksiyonu derecelendirmek - sınırlandırmak istediğinizdir.
 
@@ -1390,6 +1391,9 @@ Liftoff!
 
 @slow_down dekoratör her zaman bir saniye uyur. Daha sonra, dekoratöre bir ifadeyi geçirerek oranı nasıl kontrol edeceğinizi göreceksiniz.
 
+<br>
+
+<div id="D34" class="pop1">Eklentileri Kaydetme</div>
 
 
 
