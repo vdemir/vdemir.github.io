@@ -361,7 +361,7 @@ print greet()
 <div class="pop2">İç fonksiyonlar bidirim alanını çevreleyerek erişime sahip olurlar</div>
 <br>
 
-Daha çok bir kapanma olarak bilinir. Süslü fonksiyonlar inşa ederken karşılaşacağımız çok güçlü bir desen. Unutulmaması gereken bir başka şey ise, Python sadece dış bildirim alanını okumaya izin verir ve atamaya izin vermez. Yukarıdaki örneği, iç fonksiyonun kapalı kapsamından bir 'name' argümanı okumak ve yeni fonksiyonu döndürmek için nasıl değiştirdiğimizi fark ettik.
+Daha çok bir kapanma olarak bilinir. Süslü fonksiyonlar inşa ederken karşılaşacağımız çok güçlü bir desen. Unutulmaması gereken bir başka şey ise, Python sadece dış bildirim alanını okumaya izin verir ve atamaya izin vermez. Yukarıdaki örneği, iç fonksiyonun kapalı kapsamından bir 'name' ifadeyi okumak ve yeni fonksiyonu döndürmek için nasıl değiştirdiğimizi fark ettik.
 
 {% highlight python %}
 
@@ -414,7 +414,7 @@ print get_text("John")
 
 {% endhighlight %}
 
-Dikkat edilmesi gereken diğer bir şey, dekore edilmiş fonksiyonumuzun bir isim argümanını almasıdır. Dekoratörde yapmamız gereken her şey, get_text'in sarmalayıcısının bu argümanı geçmesine izin vermektir.
+Dikkat edilmesi gereken diğer bir şey, süslü fonksiyonumuzun bir isim ifadesini almasıdır. Süslü fonksiyonda yapmamız gereken her şey, get_text'in çevreleyicisinin bu ifadeyi geçmesine izin vermektir.
 
 
 
@@ -541,7 +541,7 @@ f was called
 
 <div id="D17" class="pop1">Functools.wraps Nasıl Kullanılır?</div>
 
-Bugün hakkında konuşmak istediğim az bilinen bir araç var. Buna wraps denir ve functools modülünün bir parçasıdır. Doküman dizelerini ve dekore edilmiş işlevlerin adlarını docstrings düzeltmek için bir Süslü fonksiyon olarak wraps kullanabilirsiniz. Bu neden önemli? Bu ilk başta garip bir durum gibi görünüyor, ancak bir API veya kendinizden başka birisinin kullanacağı herhangi bir kod yazıyorsanız, bu önemli olabilir. Nedeni, Python’un bir başkasının kodunu bulmak için içbakış kullandığınızda, dekore edilmiş bir fonksiyon yanlış bilgileri döndürecektir. Decorum.py olarak adlandırdığım basit bir örneğe bakalım:
+Bugün hakkında konuşmak istediğim az bilinen bir araç var. Buna wraps denir ve functools modülünün bir parçasıdır. Doküman dizelerini ve süslü işlevlerin adlarını docstrings düzeltmek için bir Süslü fonksiyon olarak wraps kullanabilirsiniz. Bu neden önemli? Bu ilk başta garip bir durum gibi görünüyor, ancak bir API veya kendinizden başka birisinin kullanacağı herhangi bir kod yazıyorsanız, bu önemli olabilir. Nedeni, Python’un bir başkasının kodunu bulmak için içbakış kullandığınızda, süslü bir fonksiyon yanlış bilgileri döndürecektir. Decorum.py olarak adlandırdığım basit bir örneğe bakalım:
 
 {% highlight python linenos=table %}
 
@@ -611,7 +611,7 @@ Bu kodda, **a_function** olarak adlandırılan fonksiyonu bir **another_function
 
 Bu doğru değil! Bu programı IDLE veya yorumlayıcıda çalıştırırsanız, bunun gerçekten kafa karıştırıcı, gerçekten hızlı bir şekilde nasıl elde edilebileceği daha da açık hale gelir. Bu gerçekten nasıl kafa karıştırıcı, gerçekten hızlı olabilir daha da belirgin hale geliyor.
 
-Temel olarak burada olan şey, dekoratörün dekore edilmiş işlevin adını ve belgesini kendi başına değiştirmesidir.
+Temel olarak burada olan şey, dekoratörün süslü işlevin adını ve belgesini kendi başına değiştirmesidir.
 
 <br>
 
@@ -761,7 +761,7 @@ Ancak, ```wrapper()``` fonksiyonu, orijinal ```say_whee()``` fonksiyonune func o
 
 Basitçe söylemek gerekirse: **süslü fonksiyonlar, onların davranışlarını değiştirerek bir fonksiyonu sarmaktadır.**
 
-Devam etmeden önce, ikinci bir örneğe bakalım. ```wrapper()``` normal bir Python fonksiyonu olduğu için bir dekoratörün bir fonksiyonu değiştirdiği yöntem dinamik olarak değişebilir. Komşularınızı rahatsız etmeyecek şekilde, aşağıdaki örnek yalnızca gün boyunca dekore edilmiş kodu çalıştıracaktır:
+Devam etmeden önce, ikinci bir örneğe bakalım. ```wrapper()``` normal bir Python fonksiyonu olduğu için bir dekoratörün bir fonksiyonu değiştirdiği yöntem dinamik olarak değişebilir. Komşularınızı rahatsız etmeyecek şekilde, aşağıdaki örnek yalnızca gün boyunca süslü kodu çalıştıracaktır:
 
 {% highlight python  linenos=table %}
 
@@ -893,7 +893,7 @@ Whee!
 <br>
 
 
-Şimdi, ilk örneğe dönelim ve uygulayalım. Burada, daha tipik olanı yapacağız ve aslında kodu dekore edilmiş fonksiyonlarda kullanacağız:
+Şimdi, ilk örneğe dönelim ve uygulayalım. Burada, daha tipik olanı yapacağız ve aslında kodu süslü fonksiyonlarda kullanacağız:
 
 {% highlight python  linenos=table %}
 
@@ -953,7 +953,7 @@ Biraz Python sihirbazlığı yapalım ve dilin gücünü kullanalım!
 
 Bu yazıda size süslü fonksiyonlar ve meta sınıfların ilginç bir ortak kullanımını göstermek istiyorum. Yöntemleri işaretlemek için Süslü fonksiyonların nasıl kullanılacağını size göstereceğim, böylece belirli bir işlemi gerçekleştirirken sınıf tarafından otomatik olarak kullanılabilirler.
 
-Daha ayrıntılı olarak, bir dizgeye 'işleyebilmek' için çağrılabilecek bir sınıf uygulayacağım ve basit bir şekilde dekore edilmiş yöntemlerle farklı 'filtreleri' nasıl uygulayacağınızı göstereceğim. Benim elde etmek istediğim şunun gibi:
+Daha ayrıntılı olarak, bir dizgeye 'işleyebilmek' için çağrılabilecek bir sınıf uygulayacağım ve basit bir şekilde süslü yöntemlerle farklı 'filtreleri' nasıl uygulayacağınızı göstereceğim. Benim elde etmek istediğim şunun gibi:
 
 {% highlight python %}
 
@@ -976,7 +976,7 @@ msp = MyStringProcessor()
 [Bu yazı içerisinde kullanılan kaynak kodun tamamını içerir.]({{ site.baseurl }}/assets/strproc.py)
 
 Modül, bir standart imza ```(self, str)``` içeren ve 
-```stringfilter``` ile dekore edilen ekleme yöntemlerini alıp özelleştirebileceğim bir ```StringProcessor``` sınıfı tanımlar. Bu sınıf daha sonra örneklenebilir ve örnek, bir dizeyi doğrudan işlemek ve sonucu döndürmek için kullanılır. Dahili olarak sınıf, tüm dekore edilmiş yöntemleri art arda otomatik olarak yürütür. Ayrıca, sınıfın, filtreleri tanımladığım sıraya uymasını istiyorum: ilk önce, ilk olarak çalıştırılır.
+```stringfilter``` ile dekore edilen ekleme yöntemlerini alıp özelleştirebileceğim bir ```StringProcessor``` sınıfı tanımlar. Bu sınıf daha sonra örneklenebilir ve örnek, bir dizeyi doğrudan işlemek ve sonucu döndürmek için kullanılır. Dahili olarak sınıf, tüm süslü yöntemleri art arda otomatik olarak yürütür. Ayrıca, sınıfın, filtreleri tanımladığım sıraya uymasını istiyorum: ilk önce, ilk olarak çalıştırılır.
 
 Metaclasses bu hedefe ulaşmak için nasıl yardımcı olabilir? 
 
@@ -1164,7 +1164,7 @@ Maalesef, dekoratörünüz fonksiyondan dönüş değerini yedi.
 
 ```do_twice_wrapper()``` fonksiyonu açıkça bir değer döndürmediğinden, ```return_greeting('Adam')``` çağrısı, None döndürerek sona ermiştir.
 
-Bunu düzeltmek için, **sarma fonksiyonunun dekore edilmiş fonksiyonun dönüş değerini döndürdüğünden emin olmanız** gerekir. ```decorators.py``` dosyanızı 4. satırını değiştirin:
+Bunu düzeltmek için, **sarma fonksiyonunun süslü fonksiyonun dönüş değerini döndürdüğünden emin olmanız** gerekir. ```decorators.py``` dosyanızı 4. satırını değiştirin:
 
 {% highlight python %}
 def do_twice(func):
@@ -1636,7 +1636,7 @@ Genel fikir burada doğru olanıdır -ancak Python'un nesnelerin dizge olarak na
 
 Bu sonraki örnek çok kullanışlı görünmeyebilir. Neden Python kodunuzu yavaşlatmak istersiniz? Muhtemelen en yaygın kullanım durumu, bir kaynağın değişip değişmediğini sürekli olarak kontrol eden bir fonksiyonu derecelendirmek - sınırlandırmak istediğinizdir.
 
-Muhtemelen en yaygın kullanım durumu, - bir web sayfası gibi - bir kaynağın olup olmadığını sürekli kontrol eden bir fonksiyonun hızını limitlemek istemenizdir. @slow_down Süslü fonksiyon, dekore edilmiş fonksiyonu çağırmadan önce bir saniye uyuyacaktır:
+Muhtemelen en yaygın kullanım durumu, - bir web sayfası gibi - bir kaynağın olup olmadığını sürekli kontrol eden bir fonksiyonun hızını limitlemek istemenizdir. @slow_down Süslü fonksiyon, süslü fonksiyonu çağırmadan önce bir saniye uyuyacaktır:
 
 
 "With "Why would you want to slow down your Python code? " you're questioning the other person's motivations, which implies that a) it was deliberate and b) they might do it again c) you're simply asking about someone's motivation or opinions."
