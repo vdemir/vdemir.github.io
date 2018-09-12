@@ -1720,7 +1720,7 @@ def randomly_greet(name):
     return greeter_func(name)
 {% endhighlight %}
 
-@register süslü fonksiyonu, global PLUGINS dict içindeki süslü fonksiyona bir atfı basitçe saklar.
+@register süslü fonksiyonu, global PLUGINS dict içindeki süslü fonksiyona bir atfı basitçe saklar. Bir iç işlev yazmanız veya bu örnekte @functools.wraps kullanmanız gerekmez unutmayın, çünkü değiştirilmemiş orijinal işlevi döndürüyorsunuz.
 
 <div class="alert alert-primary" role="alert">
 <p><strong>Bilgi:</strong> Python'da bir süslü fonksiyon, ifade olarak başka bir fonksiyonu kabul eden bir fonksiyondur. Süslü fonksiyon genellikle kabul ettiği fonksiyonu değiştirir veya geliştirir ve değiştirilmiş fonksiyonu döndürür. Süslü bir fonksiyonu çağırdığınızda, temel tanımla karşılaştırıldığında ek özelliklere sahip olabilen, biraz farklı olabilecek bir fonksiyon alacağınız anlamına gelir.</p>
