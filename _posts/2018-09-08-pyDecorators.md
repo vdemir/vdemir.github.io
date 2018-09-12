@@ -934,7 +934,7 @@ Exited func2
 {% endhighlight %}
 
 
-Dekore edilmiş fonksiyonlarin artık çağrı etrafında ```'Entering'``` ve ```'Exited'``` izleme ifadelerine sahip olduğunu görebilirsiniz. 
+süslü fonksiyonlarin artık çağrı etrafında ```'Entering'``` ve ```'Exited'``` izleme ifadelerine sahip olduğunu görebilirsiniz. 
 
 Kurucu, fonksiyon nesnesi olan bağımsız değişkeni saklar. Çağrıda, fonksiyonun adını göstermek için fonksiyonun ```__name__``` özniteliğini kullanırız, daha sonra fonksiyonun kendisini çağırırız.
 
@@ -1294,7 +1294,7 @@ def do_twice(func):
   
 <br>
 
-Dekore edilmiş say_whee() fonksiyonu hakkında bir şey değiştirmeniz gerekmez:
+süslü say_whee() fonksiyonu hakkında bir şey değiştirmeniz gerekmez:
 
 <br>
 <div class="pop2"> Fonksiyon Çıktısı:</div>
