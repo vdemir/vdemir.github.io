@@ -545,7 +545,7 @@ Bugün hakkında konuşmak istediğim az bilinen bir araç var. Buna wraps denir
 
 {% highlight python linenos=table %}
 
-# decorum.py
+# example.py
  
 #----------------------------------------------------------------------
 def another_function(func):
@@ -574,8 +574,9 @@ if __name__ == "__main__":
     print (a_function.__name__)
     print (a_function.__doc__)
 {% endhighlight %}
+
 <br>
-<div class="pop2"> Fonksiyon Çıktısı:</div>
+help(example):
 <br>
 {% highlight python %}
 
@@ -667,6 +668,7 @@ A pretty useless function
 
 Şimdi bir kez daha doğru isim ve docstring sahibiz. Python yorumlayıcınıza giderseniz, yardım işlevi artık doğru şekilde çalışacaktır. Burada çıktısını koymaktan vazgeçip, denemeniz için onu bırakacağım.
 
+help(example):
 <br>
 
 {% highlight python %}
