@@ -499,7 +499,7 @@ print f.__name__
 
  with_logging yazdıracağız, çünkü bu yeni işlevinizin adı. Aslında, eğer f için docstring E bakarsanız, boş olacaktır çünkü with_logging'ın hiçbir docstring i yoktur ve yazdığınız dokümanlar artık orada olmayacaktır. Ayrıca, bu işlev için pydoc sonucuna bakarsanız, bir x ifadesi alarak listelenmeyecek; bunun yerine *args ve **kwargs olarak listelenecektir çünkü bu, with_logging'in aldığı şeydir.
 
-
+Bir dekoratör kullanmak her zaman bir fonksiyon hakkında bu bilgiyi kaybetmek anlamına gelirse, ciddi bir sorun olur. Bu yüzden functools.wraps var. Bu, bir dekoratörde kullanılan bir işlevi alır ve işlev adı, doküman, argüman listesi, vb. Üzerine kopyalama işlevini ekler. Sarmaların kendisi bir dekoratör olduğundan, aşağıdaki kod doğru olanı yapar:
 
 {% highlight python %}
 
