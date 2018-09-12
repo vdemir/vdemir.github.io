@@ -1337,11 +1337,46 @@ Genel fikir burada doğru olanıdır -ancak Python'un nesnelerin dizge olarak na
 
 <div id="D32" class="pop1">Kod Aşağı Çekiliyor</div>
 
-Bu sonraki örnek çok kullanışlı görünmeyebilir. Neden Python kodunuzu yavaşlatmak istiyorsunuz?
+Bu sonraki örnek çok kullanışlı görünmeyebilir. Neden Python kodunuzu yavaşlatmak istersiniz? Muhtemelen en yaygın kullanım durumu, bir kaynağın değişip değişmediğini sürekli olarak kontrol eden bir fonksiyonu derecelendirmek - sınırlandırmak istediğinizdir.
+
+Muhtemelen en yaygın kullanım durumu, - bir web sayfası gibi - bir kaynağın olup olmadığını sürekli kontrol eden bir fonksiyonu derecelendirmek - sınırlandırmak istemenizdir. @slow_down dekoratör, dekore edilmiş fonksiyonu çağırmadan önce bir saniye uyuyacaktır:
 
 
-With "Why would you want to slow down your Python code? " you're questioning the other person's motivations, which implies that a) it was deliberate and b) they might do it again c) you're simply asking about someone's motivation or opinions.
+"With "Why would you want to slow down your Python code? " you're questioning the other person's motivations, which implies that a) it was deliberate and b) they might do it again c) you're simply asking about someone's motivation or opinions."
 
+<br>
+
+{% highlight python  linenos=table %}
+import functools
+import time
+
+def slow_down(func):
+    """Sleep 1 second before calling the function"""
+    @functools.wraps(func)
+    def wrapper_slow_down(*args, **kwargs):
+        time.sleep(1)
+        return func(*args, **kwargs)
+    return wrapper_slow_down
+
+@slow_down
+def countdown(from_number):
+    if from_number < 1:
+        print("Liftoff!")
+    else:
+        print(from_number)
+        countdown(from_number - 1)
+
+countdown(3)
+{% endhighlight %}
+
+<br>
+<div class="pop2">Çıktı:</div>
+<br> 
+
+{% highlight python %}
+
+
+{% endhighlight %}
 
 
 
