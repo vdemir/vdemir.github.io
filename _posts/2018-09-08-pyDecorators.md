@@ -655,7 +655,7 @@ if __name__ == "__main__":
 {% endhighlight %}
 
 
-Burada functools modülünden wraps ları içe aktarıyoruz ve bir another_function içindeki iç içe wrapper fonksiyonu için bir Süslü fonksiyon olarak kullanıyoruz. Bu kez onu çalıştırırsanız, çıktı değişmiş olacaktır:
+Burada functools modülünden wraps ları içe aktarıyoruz ve bir another_function içindeki iç içe wrapper fonksiyonu için bir süslü fonksiyon olarak kullanıyoruz. Bu kez onu çalıştırırsanız, çıktı değişmiş olacaktır:
 
 <br>
 <div class="pop2"> Fonksiyon Çıktısı:</div>
@@ -694,13 +694,13 @@ FILE
 <div class="pop2"> Wrapping Up</div>
 <br>
 
-wraps dekoratörü hemen hemen bir numaradır, ama ihtiyaç duyduğunuzda oldukça kullanışlıdır. Eğer fonksiyonlarınızın size doğru ismi veya docstring belgesi vermediğini fark ederseniz, artık nasıl kolayca düzeltileceğini biliyorsunuz. Mutlu bir kodlama yapın!
+wraps süslü fonksiyonu hemen hemen bir numaradır, ama ihtiyaç duyduğunuzda oldukça kullanışlıdır. Eğer fonksiyonlarınızın size doğru ismi veya docstring belgesi vermediğini fark ederseniz, artık nasıl kolayca düzeltileceğini biliyorsunuz. Mutlu bir kodlama yapın!
 
 <br>
 
 <div id="D2" class="pop0">Basit Süslü fonksiyonlar</div>
 
-Artık, bu fonksiyonların Python'daki diğer herhangi bir öbek gibi olduğunu gördüğünüze göre, Python dekoratörü olan büyülü yaratığa geçmeye ve görmeye hazırsınız. Bir örnekle başlayalım:
+Artık, bu fonksiyonların Python'daki diğer herhangi bir öbek gibi olduğunu gördüğünüze göre, Python süslü fonksiyonu olan büyülü yaratığa geçmeye ve görmeye hazırsınız. Bir örnekle başlayalım:
 
 {% highlight python  linenos=table %}
 
@@ -734,7 +734,7 @@ Something is happening after the function is called.
 
 Burada neler olduğunu anlamak için önceki örneklere bakın. Tam anlamıyla şimdiye kadar öğrendiğiniz her şeyi gerçekten uyguluyoruz. 
 
-Sözde dekorasyon şu satırda gerçekleşir:
+Sözde fonksiyon süsleme şu satırda gerçekleşir:
 
 {% highlight python %}
 
@@ -761,7 +761,7 @@ Ancak, ```wrapper()``` fonksiyonu, orijinal ```say_whee()``` fonksiyonune func o
 
 Basitçe söylemek gerekirse: **süslü fonksiyonlar, onların davranışlarını değiştirerek bir fonksiyonu sarmaktadır.**
 
-Devam etmeden önce, ikinci bir örneğe bakalım. ```wrapper()``` normal bir Python fonksiyonu olduğu için bir dekoratörün bir fonksiyonu değiştirdiği yöntem dinamik olarak değişebilir. Komşularınızı rahatsız etmeyecek şekilde, aşağıdaki örnek yalnızca gün boyunca süslü kodu çalıştıracaktır:
+Devam etmeden önce, ikinci bir örneğe bakalım. ```wrapper()``` normal bir Python fonksiyonu olduğu için bir süslü fonksiyonun bir fonksiyonu değiştirdiği yöntem dinamik olarak değişebilir. Komşularınızı rahatsız etmeyecek şekilde, aşağıdaki örnek yalnızca gün boyunca süslü kodu çalıştıracaktır:
 
 {% highlight python  linenos=table %}
 
@@ -801,7 +801,7 @@ In [5]:
 
 <div id="D21" class="pop1">Sözdizimsel Şeker!</div>
 
-Yukarıda ```say_whee()``` ile dekore ettiğiniz yol biraz biçimsiz ve hantal. Her şeyden önce, ```say_whee``` isminin üç kere yazımını bitirirsiniz. Buna ek olarak, dekorasyon, fonksiyon tanımının altında gizlenmiştir.
+Yukarıda ```say_whee()``` ile fonksiyonu süslediğiniz yol biraz biçimsiz ve hantal. Her şeyden önce, ```say_whee``` isminin üç kere yazımını bitirirsiniz. Buna ek olarak, fonksiyon süsleme, fonksiyon tanımının altında gizlenmiştir.
 
 Bunun yerine, Python, bazen ```'pie'``` sözdizimi olarak da adlandırılan ```@``` sembolüyle daha basit bir şekilde süslü fonksiyonlar kullanmanıza izin verir. Aşağıdaki örnek, ilk Süslü fonksiyon örneğiyle tamamen aynı şeyi yapar:
 
@@ -820,13 +820,13 @@ def say_whee():
 
 {% endhighlight %}
 
-Bu yüzden, ```@my_decorator``` sadece, ```say_whee = my_decorator(say_whee)``` demenin daha kolay bir yoldur. Bu bir fonksiyona bir dekoratörün nasıl uygulandığıdır.
+Bu yüzden, ```@my_decorator``` sadece, ```say_whee = my_decorator(say_whee)``` demenin daha kolay bir yoldur. Bu bir fonksiyona bir süslü fonksiyonun nasıl uygulandığıdır.
 
 <br>
 
 <div id="D22" class="pop1">Süslü fonksiyonları Yeniden Kullanmak</div>
 
-Bir dekoratörün sadece normal bir Python fonksiyonu olduğunu hatırlayın. Kolay tekrar kullanılabilirlik için tüm genel araçlar mevcuttur. Dekoratörü diğer birçok fonksiyonda kullanılabilecek kendi modülüne taşıyalım.
+Bir süslü fonksiyonun sadece normal bir Python fonksiyonu olduğunu hatırlayın. Kolay tekrar kullanılabilirlik için tüm genel araçlar mevcuttur. Süslü fonksiyonu diğer birçok fonksiyonda kullanılabilecek kendi modülüne taşıyalım.
 
 Aşağıdaki içerikle ```decorators.py``` adlı bir dosya oluşturun:
 
@@ -845,7 +845,7 @@ def do_twice(func):
 <p><strong>Note:</strong> İçsel fonksiyonunuzu istediğiniz gibi adlandırın ve **wrapper()** gibi genel bir ad genellikle tamamdır. Bu makalede çok sayıda Süslü fonksiyon göreceksiniz. Bunları ayrı tutmak için, iç fonksiyonu, dekoratörle aynı adla, ancak bir **wrapper_** önekiyle adlandıracağız.</p>
 </div>
 
-Bu yeni dekoratörü, normal bir içe aktarma yaparak diğer dosyalarda kullanabilirsiniz:
+Bu yeni süslü fonksiyonu, normal bir içe aktarma yaparak diğer dosyalarda kullanabilirsiniz:
 
 {% highlight python  linenos=table %}
 
@@ -1490,7 +1490,7 @@ Dekoratörün, bir konum ve bir anahtar kelime ifadesiyle basit bir fonksiyona u
 
 @debug dekoratörünün make_greeting() fonksiyonunun signature ve dönüş değerini nasıl yazdığını not alın:
 
-Bu örnek, @debug dekoratörü az önce yazdıklarınızı tekrarladığından beri kullanışlı görünmeyebilir. Doğrudan kendinize çağrı yapmadığınız küçük uygun fonksiyonlara uygulandığında daha güçlüdür.
+Bu örnek, @debug süslü fonksiyonu az önce yazdıklarınızı tekrarladığından beri kullanışlı görünmeyebilir. Doğrudan kendinize çağrı yapmadığınız küçük uygun fonksiyonlara uygulandığında daha güçlüdür.
 
 Aşağıdaki örnek, matematik sabiti e'ye bir yaklaşım hesaplar:
 
@@ -1525,7 +1525,7 @@ approximate_e(5)
 
 <br> 
 
-Bu örnek ayrıca, bir dekoratörün önceden tanımlanmış bir fonksiyona nasıl uygulanabileceğini gösterir. e'nin yaklaşımı, aşağıdaki dizi genişlemesine dayanmaktadır:
+Bu örnek ayrıca, bir süslü fonksiyonun önceden tanımlanmış bir fonksiyona nasıl uygulanabileceğini gösterir. e'nin yaklaşımı, aşağıdaki dizi genişlemesine dayanmaktadır:
 
 
  e'nin değeri de  1/0!  +  1/1!  +  1/2!  +  1/3!  +  1/4!  +  1/5!  +  1/6!  +  1/7!  + ... (etc) eşittir
