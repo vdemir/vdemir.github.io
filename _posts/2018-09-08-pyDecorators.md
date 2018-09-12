@@ -1331,6 +1331,9 @@ Car('red', 37281)
 
 {% endhighlight %}
 
+<br>
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
+<br>
 Genel fikir burada doğru olanıdır -ancak Python'un nesnelerin dizge olarak nasıl temsil edildiğini işlemek için kullandığı sözleşmeleri ve yerleşik mekanizmaları yok sayar.
 
 
