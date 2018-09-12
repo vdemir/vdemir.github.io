@@ -672,10 +672,6 @@ Bu yazıda size dekoratörler ve meta sınıfların ilginç bir ortak kullanım�
 
 Daha ayrıntılı olarak, bir dizgeye 'işleyebilmek' için çağrılabilecek bir sınıf uygulayacağım ve basit bir şekilde dekore edilmiş yöntemlerle farklı 'filtreleri' nasıl uygulayacağınızı göstereceğim. Benim elde etmek istediğim şunun gibi:
 
-<br>
-<div class="pop2"> Fonksiyon Çıktısı:</div>
-<br>
-
 {% highlight python %}
 
 class MyStringProcessor(StringProcessor):
@@ -887,10 +883,6 @@ Maalesef, dekoratörünüz fonksiyondan dönüş değerini yedi.
 
 Bunu düzeltmek için, **sarma fonksiyonunun dekore edilmiş fonksiyonun dönüş değerini döndürdüğünden emin olmanız** gerekir. ```decorators.py``` dosyanızı 4. satırını değiştirin:
 
-<br>
-<div class="pop2"> Fonksiyon Çıktısı:</div>
-<br>
-
 {% highlight python %}
 def do_twice(func):
     def wrapper_do_twice(*args, **kwargs):
@@ -999,10 +991,6 @@ Help on function wrapper_do_twice in module __main__:
 Ancak, dekore edildikten sonra, say_whee() kendi kimliği konusunda çok kafa karıştırdı. Şimdi do_twice() dekoratörünün içinde wrapper_do_twice() iç fonksiyonu olduğunu bildiriyor. Teknik olarak doğru olsa da, bu çok yararlı bir bilgi değildir.
 
 Bunu düzeltmek için, dekoratörler orijinal fonksiyonla ilgili bilgileri muhafaza eden @functools.wraps dekoratörünü kullanmalıdır.  Decorators.py betiğini tekrar güncelleyin:
-
-<br>
-<div class="pop2"> Fonksiyon Çıktısı:</div>
-<br>
 
 {% highlight python %}
 
