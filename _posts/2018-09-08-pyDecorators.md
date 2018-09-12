@@ -95,7 +95,7 @@ Matematik ve bilgisayar bilimlerinde, daha yüksek mertebeden bir fonksiyon (ayn
 1. ifade olarak bir veya daha fazla fonksiyon alır (örn. Yordamsal parametreler) , 
 2. sonuç olarak bir fonksiyonu döndürür.
 
-Tanım olarak, bir dekoratör, başka bir fonksiyon alan ve  açık bir şekilde değiştirmeden aldığı fonksiyonun davranışını genişleten bir fonksiyondur. 
+Tanım olarak, bir Süslü fonksiyon, başka bir fonksiyon alan ve  açık bir şekilde değiştirmeden aldığı fonksiyonun davranışını genişleten bir fonksiyondur. 
 
 <div class="alert alert-success" role="alert">
 <p><strong>Bilgi:</strong> Python ile ilgili olarak bahsettiğimiz 'dekoratörler'  fonksiyonları ve yöntemleri daha kolay değiştirmemizi sağlayan Python sözdizimine özel bir değişikliktir. Tasarım desenleri bağlamında, dekoratörler, alt sınıfları doğrudan kullanmak zorunda kalmadan bir fonksiyon, yöntem veya sınıfın fonksiyonselliğini dinamik olarak değiştirir. Bu, değiştirmek istemediğiniz fonksiyonlarin fonksiyonselliğini genişletmeniz gerektiğinde idealdir.</p>
@@ -382,7 +382,7 @@ print greet()
 <div class="pop2">Dekoratörlerin Bileşimi</div>
 <br>
 
-Fonksiyon dekoratörler, mevcut fonksiyonlara basit bir şekilde sarılırlar. Yukarıda bahsi geçen fikirleri bir araya getirerek bir dekoratör yapabiliriz. Bu örnekte, başka bir fonksiyonun string çıktısını p etiketleriyle saran bir fonksiyonu düşünelim.
+Fonksiyon dekoratörler, mevcut fonksiyonlara basit bir şekilde sarılırlar. Yukarıda bahsi geçen fikirleri bir araya getirerek bir Süslü fonksiyon yapabiliriz. Bu örnekte, başka bir fonksiyonun string çıktısını p etiketleriyle saran bir fonksiyonu düşünelim.
 
 {% highlight python %}
 
@@ -458,7 +458,7 @@ Bu kod 8'e dönecek.
 
 <div id="D16" class="pop1">Functools.wraps Ne Yapar?</div>
 
-Bir dekoratör kullandığınızda, bir fonksiyonu bir diğeriyle değiştirirsiniz. Başka bir deyişle, bir dekoratörünüz varsa
+Bir Süslü fonksiyon kullandığınızda, bir fonksiyonu bir diğeriyle değiştirirsiniz. Başka bir deyişle, bir dekoratörünüz varsa
 
 {% highlight python %}
 
@@ -501,7 +501,7 @@ print f.__name__
 
  with_logging yazdıracağız, çünkü bu yeni fonksiyonunuzun adı. Aslında, eğer f için docstring değerine bakarsanız, boş olacaktır çünkü with_logging'ın hiçbir docstring değeri yoktur ve yazdığınız dokümanlar artık orada olmayacaktır. Ayrıca, bu fonksiyon için pydoc sonucuna bakarsanız, bir x ifadesi alarak listelenmeyecek; bunun yerine *args ve **kwargs olarak listelenecektir çünkü bu, with_logging'in ele aldığı şeydir.
 
-Bir dekoratör kullanmak her zaman bir fonksiyon hakkında bu bilgiyi kaybetmek anlamına gelirse, ciddi bir sorun olur. Bu yüzden functools.wraps var. Bu, bir dekoratörde kullanılan bir fonksiyonu alır ve fonksiyon adı, docstring, ifade listesi vb. üzerine kopyalama fonksiyonelliğini ekler. Ve wraps kendisi bir dekoratör olduğundan, aşağıdaki kod doğru şeyi yapar:
+Bir Süslü fonksiyon kullanmak her zaman bir fonksiyon hakkında bu bilgiyi kaybetmek anlamına gelirse, ciddi bir sorun olur. Bu yüzden functools.wraps var. Bu, bir dekoratörde kullanılan bir fonksiyonu alır ve fonksiyon adı, docstring, ifade listesi vb. üzerine kopyalama fonksiyonelliğini ekler. Ve wraps kendisi bir Süslü fonksiyon olduğundan, aşağıdaki kod doğru şeyi yapar:
 
 {% highlight python linenos=table %}
 
@@ -541,7 +541,7 @@ f was called
 
 <div id="D17" class="pop1">Functools.wraps Nasıl Kullanılır?</div>
 
-Bugün hakkında konuşmak istediğim az bilinen bir araç var. Buna wraps denir ve functools modülünün bir parçasıdır. Doküman dizelerini ve dekore edilmiş işlevlerin adlarını docstrings düzeltmek için bir dekoratör olarak wraps kullanabilirsiniz. Bu neden önemli? Bu ilk başta garip bir durum gibi görünüyor, ancak bir API veya kendinizden başka birisinin kullanacağı herhangi bir kod yazıyorsanız, bu önemli olabilir. Nedeni, Python’un bir başkasının kodunu bulmak için içbakış kullandığınızda, dekore edilmiş bir fonksiyon yanlış bilgileri döndürecektir. Decorum.py olarak adlandırdığım basit bir örneğe bakalım:
+Bugün hakkında konuşmak istediğim az bilinen bir araç var. Buna wraps denir ve functools modülünün bir parçasıdır. Doküman dizelerini ve dekore edilmiş işlevlerin adlarını docstrings düzeltmek için bir Süslü fonksiyon olarak wraps kullanabilirsiniz. Bu neden önemli? Bu ilk başta garip bir durum gibi görünüyor, ancak bir API veya kendinizden başka birisinin kullanacağı herhangi bir kod yazıyorsanız, bu önemli olabilir. Nedeni, Python’un bir başkasının kodunu bulmak için içbakış kullandığınızda, dekore edilmiş bir fonksiyon yanlış bilgileri döndürecektir. Decorum.py olarak adlandırdığım basit bir örneğe bakalım:
 
 {% highlight python linenos=table %}
 
@@ -655,7 +655,7 @@ if __name__ == "__main__":
 {% endhighlight %}
 
 
-Burada functools modülünden wraps ları içe aktarıyoruz ve bir another_function içindeki iç içe wrapper fonksiyonu için bir dekoratör olarak kullanıyoruz. Bu kez onu çalıştırırsanız, çıktı değişmiş olacaktır:
+Burada functools modülünden wraps ları içe aktarıyoruz ve bir another_function içindeki iç içe wrapper fonksiyonu için bir Süslü fonksiyon olarak kullanıyoruz. Bu kez onu çalıştırırsanız, çıktı değişmiş olacaktır:
 
 <br>
 <div class="pop2"> Fonksiyon Çıktısı:</div>
@@ -803,7 +803,7 @@ In [5]:
 
 Yukarıda ```say_whee()``` ile dekore ettiğiniz yol biraz biçimsiz ve hantal. Her şeyden önce, ```say_whee``` isminin üç kere yazımını bitirirsiniz. Buna ek olarak, dekorasyon, fonksiyon tanımının altında gizlenmiştir.
 
-Bunun yerine, Python, bazen ```'pie'``` sözdizimi olarak da adlandırılan ```@``` sembolüyle daha basit bir şekilde dekoratörler kullanmanıza izin verir. Aşağıdaki örnek, ilk dekoratör örneğiyle tamamen aynı şeyi yapar:
+Bunun yerine, Python, bazen ```'pie'``` sözdizimi olarak da adlandırılan ```@``` sembolüyle daha basit bir şekilde dekoratörler kullanmanıza izin verir. Aşağıdaki örnek, ilk Süslü fonksiyon örneğiyle tamamen aynı şeyi yapar:
 
 {% highlight python  linenos=table %}
 
@@ -842,7 +842,7 @@ def do_twice(func):
 
 <br>
 <div class="alert alert-primary" role="alert">
-<p><strong>Note:</strong> İçsel fonksiyonunuzu istediğiniz gibi adlandırın ve **wrapper()** gibi genel bir ad genellikle tamamdır. Bu makalede çok sayıda dekoratör göreceksiniz. Bunları ayrı tutmak için, iç fonksiyonu, dekoratörle aynı adla, ancak bir **wrapper_** önekiyle adlandıracağız.</p>
+<p><strong>Note:</strong> İçsel fonksiyonunuzu istediğiniz gibi adlandırın ve **wrapper()** gibi genel bir ad genellikle tamamdır. Bu makalede çok sayıda Süslü fonksiyon göreceksiniz. Bunları ayrı tutmak için, iç fonksiyonu, dekoratörle aynı adla, ancak bir **wrapper_** önekiyle adlandıracağız.</p>
 </div>
 
 Bu yeni dekoratörü, normal bir içe aktarma yaparak diğer dosyalarda kullanabilirsiniz:
@@ -1289,7 +1289,7 @@ def do_twice(func):
 <br>
 
 <div class="alert alert-success" role="alert">
-<p><strong>functools:</strong>  - Yüksek mertebeden fonksiyonlar ve istenebilen nesneler üzerindeki işlemler. Functools modülü üst düzey fonksiyonlar içindir: diğer fonksiyonlar üzerinde hareket eden veya dönen fonksiyonlar. Genel olarak, herhangi bir değiştirilebilir nesne bu modülün amaçları için bir fonksiyon olarak ele alınabilir.Bu, bir wrapper fonksiyonunu tanımlarken update_wrapper() öğesini bir fonksiyon dekoratör olarak çağırmak için bir kolaylık fonksiyonudur. Bu kısmi (update_wrapper, sarılmış = sarılmış, atanan = atanan, güncellenmiş = güncellenmiş) eşdeğerdir.</p>
+<p><strong>functools:</strong>  - Yüksek mertebeden fonksiyonlar ve istenebilen nesneler üzerindeki işlemler. Functools modülü üst düzey fonksiyonlar içindir: diğer fonksiyonlar üzerinde hareket eden veya dönen fonksiyonlar. Genel olarak, herhangi bir değiştirilebilir nesne bu modülün amaçları için bir fonksiyon olarak ele alınabilir.Bu, bir wrapper fonksiyonunu tanımlarken update_wrapper() öğesini bir fonksiyon Süslü fonksiyon olarak çağırmak için bir kolaylık fonksiyonudur. Bu kısmi (update_wrapper, sarılmış = sarılmış, atanan = atanan, güncellenmiş = güncellenmiş) eşdeğerdir.</p>
 </div>
   
 <br>
@@ -1319,7 +1319,7 @@ say_whee()
 Çok daha iyi! Şimdi say_whee(), dekorasyondan sonra hala kendisidir.
 
 <div class="alert alert-info" role="alert">
-<p><strong>Teknik Detay:</strong> functools.wraps dekoratör, içebakışta kullanılan __name__ ve __doc__ gibi özel nitelikleri güncellemek için functools.update_wrapper() fonksiyonunu kullanır.</p>
+<p><strong>Teknik Detay:</strong> functools.wraps Süslü fonksiyon, içebakışta kullanılan __name__ ve __doc__ gibi özel nitelikleri güncellemek için functools.update_wrapper() fonksiyonunu kullanır.</p>
 </div>
 
 <br>
@@ -1352,7 +1352,7 @@ Bu formül, daha karmaşık dekoratörler oluşturmak için iyi bir standart kal
 
 <div id="D31" class="pop1">Zamanlama Fonksiyonları</div>
 
-Bir timer dekoratör oluşturarak başlayalım. Bir fonksiyonu yürütmek ve süreyi konsola yazdırmak için gereken süreyi ölçer. İşte kod:
+Bir timer Süslü fonksiyon oluşturarak başlayalım. Bir fonksiyonu yürütmek ve süreyi konsola yazdırmak için gereken süreyi ölçer. İşte kod:
 
 <br>
 
@@ -1381,7 +1381,7 @@ def waste_some_time(num_times):
 {% endhighlight %}
 <br> 
 
-Bu dekoratör, fonksiyonun çalışmaya başlamasından hemen önceki süreyi saklayarak çalışır(# 1 olarak işaretlenmiş satırda) ve fonksiyon bittikten hemen sonra(# 2'de). Fonksiyonun aldığı zaman ikisinin arasındaki farktır(# 3'de). Zaman aralıklarını ölçmek için iyi bir iş yapan time.perf_counter() fonksiyonunu kullanırız.
+Bu Süslü fonksiyon, fonksiyonun çalışmaya başlamasından hemen önceki süreyi saklayarak çalışır(# 1 olarak işaretlenmiş satırda) ve fonksiyon bittikten hemen sonra(# 2'de). Fonksiyonun aldığı zaman ikisinin arasındaki farktır(# 3'de). Zaman aralıklarını ölçmek için iyi bir iş yapan time.perf_counter() fonksiyonunu kullanırız.
 
 <br>
 <div class="pop2"> Fonksiyon Çıktısı:</div>
@@ -1421,7 +1421,7 @@ print(f'a={f(x,n):d}, b={g(x,n):d}')
 
 <div id="D32" class="pop1">Hata Ayıklama Kodu</div>
 
-Aşağıdaki @debug dekoratör argümanları yazdıracaktır, fonksiyon çağrıldığında her seferinde bir fonksiyon, dönüş değeriyle birlikte çağrılır:
+Aşağıdaki @debug Süslü fonksiyon argümanları yazdıracaktır, fonksiyon çağrıldığında her seferinde bir fonksiyon, dönüş değeriyle birlikte çağrılır:
 
 <br>
 
@@ -1636,7 +1636,7 @@ Genel fikir burada doğru olanıdır -ancak Python'un nesnelerin dizge olarak na
 
 Bu sonraki örnek çok kullanışlı görünmeyebilir. Neden Python kodunuzu yavaşlatmak istersiniz? Muhtemelen en yaygın kullanım durumu, bir kaynağın değişip değişmediğini sürekli olarak kontrol eden bir fonksiyonu derecelendirmek - sınırlandırmak istediğinizdir.
 
-Muhtemelen en yaygın kullanım durumu, - bir web sayfası gibi - bir kaynağın olup olmadığını sürekli kontrol eden bir fonksiyonun hızını limitlemek istemenizdir. @slow_down dekoratör, dekore edilmiş fonksiyonu çağırmadan önce bir saniye uyuyacaktır:
+Muhtemelen en yaygın kullanım durumu, - bir web sayfası gibi - bir kaynağın olup olmadığını sürekli kontrol eden bir fonksiyonun hızını limitlemek istemenizdir. @slow_down Süslü fonksiyon, dekore edilmiş fonksiyonu çağırmadan önce bir saniye uyuyacaktır:
 
 
 "With "Why would you want to slow down your Python code? " you're questioning the other person's motivations, which implies that a) it was deliberate and b) they might do it again c) you're simply asking about someone's motivation or opinions."
@@ -1686,7 +1686,7 @@ Liftoff!
 <p><strong>Not:</strong>  countdown() fonksiyonu özyinelemeli bir fonksiyondur.Başka bir deyişle, kendisini çağıran bir fonksiyondur.  Python'daki özyinelemeli fonksiyonlar hakkında daha fazla bilgi edinmek için, Python'da Tekrarlı Düşünmek kılavuzumuza bakın.</p>
 </div>
 
-@slow_down dekoratör her zaman bir saniye uyur. Daha sonra, dekoratöre bir ifadeyi geçirerek oranı nasıl kontrol edeceğinizi göreceksiniz.
+@slow_down Süslü fonksiyon her zaman bir saniye uyur. Daha sonra, dekoratöre bir ifadeyi geçirerek oranı nasıl kontrol edeceğinizi göreceksiniz.
 
 <br>
 
@@ -1720,10 +1720,10 @@ def randomly_greet(name):
     return greeter_func(name)
 {% endhighlight %}
 
-@register dekoratörü, global PLUGINS dict'daki dekore edilmiş fonksiyona bir atfı basitçe saklar.
+@register süslü fonksiyonu, global PLUGINS dict içindeki süslü fonksiyona bir atfı basitçe saklar.
 
 <div class="alert alert-primary" role="alert">
-<p><strong>Bilgi:</strong> Python'da bir dekoratör, ifade olarak başka bir fonksiyonu kabul eden bir fonksiyondur. Dekoratör genellikle kabul ettiği fonksiyonu değiştirir veya geliştirir ve değiştirilmiş fonksiyonu döndürür. Süslü bir fonksiyonu çağırdığınızda, temel tanımla karşılaştırıldığında ek özelliklere sahip olabilen, biraz farklı olabilecek bir fonksiyon alacağınız anlamına gelir.</p>
+<p><strong>Bilgi:</strong> Python'da bir Süslü fonksiyon, ifade olarak başka bir fonksiyonu kabul eden bir fonksiyondur. Süslü fonksiyon genellikle kabul ettiği fonksiyonu değiştirir veya geliştirir ve değiştirilmiş fonksiyonu döndürür. Süslü bir fonksiyonu çağırdığınızda, temel tanımla karşılaştırıldığında ek özelliklere sahip olabilen, biraz farklı olabilecek bir fonksiyon alacağınız anlamına gelir.</p>
 </div>
 
 
