@@ -73,6 +73,7 @@ img.resize {
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fonksiyonlardan Dönen Fonksiyonlar](#D13)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fonksiyonlar hakkında bilmeniz gerekenler](#D14)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Kısmi fonksiyonlar](#D15)
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Functools.wraps Ne Yapar?](#D16)
 + [Basit Dekoratörler](#D2)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Sözdizimsel Şeker!](#D21)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Dekoratörleri Yeniden Kullanmak](#D22)
@@ -418,7 +419,7 @@ Dikkat edilmesi gereken diğer bir şey, dekore edilmiş fonksiyonumuzun bir isi
 
 <br>
 
-<div id="D15" class="pop1">Fonksiyonlardan Dönen Fonksiyonlar</div>
+<div id="D15" class="pop1">Kısmi fonksiyonlar</div>
 
 functools kütüphanesinden kısmi işlevi kullanarak python'da kısmi işlevler oluşturabilirsiniz. 
 
@@ -451,6 +452,29 @@ Bu kod 8'e dönecek.
 {% endhighlight %}
 
 Önemli bir not: varsayılan değerler, değişkenleri soldan değiştirmeye başlar. 2 x'in yerini alacak. dbl(4) çağrıldığında y eşittir. Bu örnekte bir fark yaratmaz, ancak aşağıdaki örnekte yer almaktadır.
+
+<br>
+
+<div id="D16" class="pop1">Functools.wraps Ne Yapar?</div>
+
+Bir dekoratör kullandığınızda, bir işlevi bir diğeriyle değiştirirsiniz. Başka bir deyişle, bir dekoratörünüz varsa
+
+{% highlight python %}
+
+def logged(func):
+    def with_logging(*args, **kwargs):
+        print func.__name__ + " was called"
+        return func(*args, **kwargs)
+    return with_logging
+
+{% endhighlight %}
+
+
+
+
+
+
+
 
 
 <br>
