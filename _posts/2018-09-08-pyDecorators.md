@@ -72,6 +72,7 @@ img.resize {
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[İç Fonksiyonlar](#D12)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fonksiyonlardan Dönen Fonksiyonlar](#D13)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fonksiyonlar hakkında bilmeniz gerekenler](#D14)
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Kısmi fonksiyonlar](#D15)
 + [Basit Dekoratörler](#D2)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Sözdizimsel Şeker!](#D21)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Dekoratörleri Yeniden Kullanmak](#D22)
@@ -413,6 +414,40 @@ print get_text("John")
 
 Dikkat edilmesi gereken diğer bir şey, dekore edilmiş fonksiyonumuzun bir isim argümanını almasıdır. Dekoratörde yapmamız gereken her şey, get_text'in sarmalayıcısının bu argümanı geçmesine izin vermektir.
 
+
+
+<br>
+
+<div id="D15" class="pop1">Fonksiyonlardan Dönen Fonksiyonlar</div>
+
+functools kütüphanesinden kısmi işlevi kullanarak python'da kısmi işlevler oluşturabilirsiniz. 
+
+Kısmi işlevler, daha az parametre ve daha sınırlı işlev için ayarlanan sabit değerler ile bir işleve x parametresiyle bir fonksiyon türettirilmesini sağlar. 
+
+İçe aktarma gerekli:
+
+{% highlight python  linenos=table %}
+
+from functools import partial
+
+def multiply(x,y):
+        return x * y
+
+# create a new function that multiplies by 2
+dbl = partial(multiply,2)
+print(dbl(4))
+
+{% endhighlight %}
+
+Bu kod 8'e dönecek.
+<br>
+<div class="pop2"> Fonksiyon Çıktısı:</div>
+<br>
+{% highlight python %}
+
+8
+
+{% endhighlight %}
 <br>
 
 <div id="D2" class="pop0">Basit Dekoratörler</div>
