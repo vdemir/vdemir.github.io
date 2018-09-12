@@ -842,7 +842,7 @@ def do_twice(func):
 
 <br>
 <div class="alert alert-primary" role="alert">
-<p><strong>Note:</strong> İçsel fonksiyonunuzu istediğiniz gibi adlandırın ve **wrapper()** gibi genel bir ad genellikle tamamdır. Bu makalede çok sayıda Süslü fonksiyon göreceksiniz. Bunları ayrı tutmak için, iç fonksiyonu, süslü fonksiyonla aynı adla, ancak bir **wrapper_** önekiyle adlandıracağız.</p>
+<p><strong>Note:</strong> İçsel fonksiyonunuzu istediğiniz gibi adlandırın ve **wrapper()** gibi genel bir ad genellikle tamamdır. Bu makalede çok sayıda süslü fonksiyon göreceksiniz. Bunları ayrı tutmak için, iç fonksiyonu, süslü fonksiyonla aynı adla, ancak bir **wrapper_** önekiyle adlandıracağız.</p>
 </div>
 
 Bu yeni süslü fonksiyonu, normal bir içe aktarma yaparak diğer dosyalarda kullanabilirsiniz:
@@ -1271,9 +1271,9 @@ Help on function wrapper_do_twice in module __main__:
 <br>
 
 
-Ancak, dekore edildikten sonra, say_whee() kendi kimliği konusunda çok kafa karıştırdı. Şimdi do_twice() dekoratörünün içinde wrapper_do_twice() iç fonksiyonu olduğunu bildiriyor. Teknik olarak doğru olsa da, bu çok yararlı bir bilgi değildir.
+Ancak, fonksiyon süslendikten sonra, say_whee() kendi kimliği konusunda çok kafa karıştırdı. Şimdi do_twice() süslü fonksiyonunun içinde wrapper_do_twice() iç fonksiyonu olduğunu bildiriyor. Teknik olarak doğru olsa da, bu çok yararlı bir bilgi değildir.
 
-Bunu düzeltmek için, süslü fonksiyonlar orijinal fonksiyonla ilgili bilgileri muhafaza eden @functools.wraps dekoratörünü kullanmalıdır.  Decorators.py betiğini tekrar güncelleyin:
+Bunu düzeltmek için, süslü fonksiyonlar orijinal fonksiyonla ilgili bilgileri muhafaza eden @functools.wraps süslü fonksiyonunu kullanmalıdır.  Decorators.py betiğini tekrar güncelleyin:
 
 {% highlight python %}
 
@@ -1488,7 +1488,7 @@ Calling make_greeting(name='Dorrisile', age=116)
 
 Dekoratörün, bir konum ve bir anahtar kelime ifadesiyle basit bir fonksiyona uygulayarak pratikte nasıl çalıştığını görelim:
 
-@debug dekoratörünün make_greeting() fonksiyonunun signature ve dönüş değerini nasıl yazdığını not alın:
+@debug süslü fonksiyonunun make_greeting() fonksiyonunun signature ve dönüş değerini nasıl yazdığını not alın:
 
 Bu örnek, @debug süslü fonksiyonu az önce yazdıklarınızı tekrarladığından beri kullanışlı görünmeyebilir. Doğrudan kendinize çağrı yapmadığınız küçük uygun fonksiyonlara uygulandığında daha güçlüdür.
 
@@ -1530,7 +1530,7 @@ Bu örnek ayrıca, bir süslü fonksiyonun önceden tanımlanmış bir fonksiyon
 
  e'nin değeri de  1/0!  +  1/1!  +  1/2!  +  1/3!  +  1/4!  +  1/5!  +  1/6!  +  1/7!  + ... (etc) eşittir
 
-Approximate_e() fonksiyonunu çağırırken, @debug dekoratörünü iş başında görebilirsiniz:
+Approximate_e() fonksiyonunu çağırırken, @debug süslü fonksiyonunu iş başında görebilirsiniz:
 
 <br>
 <div class="pop2">Fonksiyon Çıktısı:</div>
@@ -1667,7 +1667,7 @@ countdown(3)
 
 {% endhighlight %}
 
-@slow_down dekoratörünün etkisini görmek için, örneği kendiniz uygulamanız gerekiyor:
+@slow_down süslü fonksiyonunun etkisini görmek için, örneği kendiniz uygulamanız gerekiyor:
 
 <br>
 <div class="pop2"> Fonksiyon Çıktısı:</div>
