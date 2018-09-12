@@ -490,6 +490,18 @@ def f(x):
 f = logged(f)
 {% endhighlight %}
 
+ve fonksiyonunuzun f işlevi, with_logging işleviyle değiştirilir. Ne yazık ki, bu demek oluyor ki
+
+{% highlight python %}
+
+print f.__name__
+{% endhighlight %}
+
+ with_logging yazdıracağız, çünkü bu yeni işlevinizin adı. Aslında, eğer f için docstring E bakarsanız, boş olacaktır çünkü with_logging'ın hiçbir docstring i yoktur ve yazdığınız dokümanlar artık orada olmayacaktır. Ayrıca, bu işlev için pydoc sonucuna bakarsanız, bir x ifadesi alarak listelenmeyecek; bunun yerine *args ve **kwargs olarak listelenecektir çünkü bu, with_logging'in aldığı şeydir.
+
+
+
+
 <br>
 
 <div id="D2" class="pop0">Basit Dekoratörler</div>
