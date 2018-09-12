@@ -501,7 +501,7 @@ print f.__name__
 
 Bir dekoratör kullanmak her zaman bir fonksiyon hakkında bu bilgiyi kaybetmek anlamına gelirse, ciddi bir sorun olur. Bu yüzden functools.wraps var. Bu, bir dekoratörde kullanılan bir işlevi alır ve işlev adı, doküman, argüman listesi, vb. fonksiyon adının, docstring, ifade listesi vb. üzerine kopyalama fonksiyonelliğini ekler. Ve wraps kendisi bir dekoratör olduğundan, aşağıdaki kod doğru şeyi yapar:
 
-{% highlight python %}
+{% highlight python linenos=table %}
 
 from functools import wraps
 def logged(func):
@@ -520,7 +520,14 @@ print (f.__name__)  # prints 'f'
 print (f.__doc__)   # prints 'does some mat
 {% endhighlight %}
 
+<br>
 
+{% highlight python %}
+
+f
+does some math
+
+{% endhighlight %}
 
 <br>
 
