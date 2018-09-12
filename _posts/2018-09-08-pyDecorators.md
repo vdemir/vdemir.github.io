@@ -483,7 +483,6 @@ dersiniz.
 
 {% highlight python %}
 
-@logged
 def f(x):
     """does some math"""
     return x + x * x
