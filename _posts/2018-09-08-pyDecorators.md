@@ -424,7 +424,7 @@ Dikkat edilmesi gereken diğer bir şey, dekore edilmiş fonksiyonumuzun bir isi
 
 functools kütüphanesinden kısmi fonksiyonu kullanarak python'da kısmi işlevler oluşturabilirsiniz. 
 
-Kısmi işlevler, daha az parametre ve daha sınırlı fonksiyon için ayarlanan sabit değerler ile bir işleve x parametresiyle bir fonksiyon türettirilmesini sağlar. 
+Kısmi işlevler, daha az parametre ve daha sınırlı fonksiyon için ayarlanan sabit değerler ile bir fonksiyona x parametresiyle bir fonksiyon türettirilmesini sağlar. 
 
 İçe aktarma gerekli:
 
@@ -1720,7 +1720,7 @@ def randomly_greet(name):
     return greeter_func(name)
 {% endhighlight %}
 
-
+@register dekoratörü, global PLUGINS dict'daki dekore edilmiş fonksiyona bir atfı basitçe saklar.
 
 
 
