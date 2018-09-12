@@ -920,8 +920,8 @@ def say_whee():
 
 Kullanmayı dene:
 <br>
-
-
+<div class="pop2"> Fonksiyon Çıktısı:</div>
+<br>
 {% highlight python %}
 
 In [3]: return_greeting("Adam")
@@ -937,9 +937,10 @@ Out[3]: 'Hi Adam'
 <div id="D25" class="pop1">Kimsin sen, Gerçekten mi?</div>
 
 Özellikle etkileşimli kabukta, Python ile çalışırken büyük kolaylık, güçlü içebakış yeteneğidir. İçebakış, bir nesnenin çalışma zamanında kendi öz niteliklerini bilmesidir. Örneğin, bir fonksiyon kendi adını ve belgelemesini bilir:
+
 <br>
-
-
+<div class="pop2"> Fonksiyon Çıktısı:</div>
+<br>
 {% highlight python %}
 
 In [1]: print
@@ -963,7 +964,8 @@ print(...)
 
 İçebakış, kendinizin tanımladığı fonksiyonlar için de çalışır:
 <br>
-
+<div class="pop2"> Fonksiyon Çıktısı:</div>
+<br>
 
 {% highlight python %}
 
@@ -983,9 +985,10 @@ Help on function wrapper_do_twice in module __main__:
 Ancak, dekore edildikten sonra, say_whee() kendi kimliği konusunda çok kafa karıştırdı. Şimdi do_twice() dekoratörünün içinde wrapper_do_twice() iç fonksiyonu olduğunu bildiriyor. Teknik olarak doğru olsa da, bu çok yararlı bir bilgi değildir.
 
 Bunu düzeltmek için, dekoratörler orijinal fonksiyonla ilgili bilgileri muhafaza eden @functools.wraps dekoratörünü kullanmalıdır.  Decorators.py betiğini tekrar güncelleyin:
+
 <br>
-
-
+<div class="pop2"> Fonksiyon Çıktısı:</div>
+<br>
 {% highlight python %}
 
 import functools
@@ -1097,7 +1100,7 @@ def waste_some_time(num_times):
 Bu dekoratör, fonksiyonun çalışmaya başlamasından hemen önceki süreyi saklayarak çalışır(# 1 olarak işaretlenmiş satırda) ve fonksiyon bittikten hemen sonra(# 2'de). Fonksiyonun aldığı zaman ikisinin arasındaki farktır(# 3'de). Zaman aralıklarını ölçmek için iyi bir iş yapan time.perf_counter() fonksiyonunu kullanırız.
 
 <br>
-<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
+<div class="pop2"> Fonksiyon Çıktısı:</div>
 {% highlight python %}
 
 In [14]: waste_some_time(1)
@@ -1164,7 +1167,7 @@ def make_greeting(name, age=None):
 
  
 <br>
-<div class="pop2">Çıktı:</div>
+<div class="pop2">Fonksiyon Çıktısı:</div>
 <br> 
 
 {% highlight python %}
@@ -1247,7 +1250,7 @@ Bu örnek ayrıca, bir dekoratörün önceden tanımlanmış bir fonksiyona nas�
 Approximate_e() fonksiyonunu çağırırken, @debug dekoratörünü iş başında görebilirsiniz:
 
 <br>
-<div class="pop2">Çıktı:</div>
+<div class="pop2">Fonksiyon Çıktısı:</div>
 <br> 
 
 {% highlight python %}
