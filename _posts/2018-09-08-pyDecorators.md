@@ -1367,11 +1367,13 @@ def countdown(from_number):
         countdown(from_number - 1)
 
 countdown(3)
+
 {% endhighlight %}
 
-<br>
+@slow_down dekoratörünün etkisini görmek için, örneği kendiniz uygulamanız gerekiyor:
+
 <div class="pop2">Çıktı:</div>
- 
+<br> 
 
 {% highlight python %}
 
