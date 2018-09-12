@@ -1105,6 +1105,7 @@ Bu dekoratör, fonksiyonun çalışmaya başlamasından hemen önceki süreyi sa
 
 <br>
 <div class="pop2"> Fonksiyon Çıktısı:</div>
+<br>
 {% highlight python %}
 
 In [14]: waste_some_time(1)
