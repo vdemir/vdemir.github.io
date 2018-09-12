@@ -1726,8 +1726,6 @@ def randomly_greet(name):
 <p><strong>Bilgi:</strong> Python'da bir süslü fonksiyon, ifade olarak başka bir fonksiyonu kabul eden bir fonksiyondur. Süslü fonksiyon genellikle kabul ettiği fonksiyonu değiştirir veya geliştirir ve değiştirilmiş fonksiyonu döndürür. Süslü bir fonksiyonu çağırdığınızda, temel tanımla karşılaştırıldığında ek özelliklere sahip olabilen, biraz farklı olabilecek bir fonksiyon alacağınız anlamına gelir.</p>
 </div>
 
-
-
-
+randomly_greet() fonksiyonu, kayıtlı işlevlerden birini kullanmak için rasgele seçer. PLUGINS sözlüğünün zaten eklenti olarak kaydedilen her bir fonksiyon öbeğine atıflar içerdiğini unutmayın:
 
 
