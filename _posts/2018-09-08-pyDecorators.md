@@ -436,6 +436,7 @@ say_whee = my_decorator(say_whee)
 {% endhighlight %}
 
 ```say_whee()``` çağırdığınızda ne olacağını tahmin edebilir misiniz? Dene:
+
 <br>
 <div class="pop2"> Fonksiyon Çıktısı:</div>
 <br>
@@ -462,6 +463,7 @@ Aslında, ```say_whee``` ismi şimdi ```wrapper()``` iç fonksiyonuna işaret et
 Çağrı yaptığınızda ```wrapper``` fonksiyon olarak döndürdüğünüzü hatırlayın.
 
 my_decorator(say_whee):
+
 <br>
 <div class="pop2"> Fonksiyon Çıktısı:</div>
 <br>
@@ -499,6 +501,7 @@ say_whee = not_during_the_night(say_whee)
 <br>
 
 Yatma zamanı sonrası ```say_whee()``` çağırmayı denerseniz, hiçbir şey olmaz:
+
 <br>
 <div class="pop2"> Fonksiyon Çıktısı:</div>
 <br>
@@ -669,6 +672,7 @@ Biraz Python sihirbazlığı yapalım ve dilin gücünü kullanalım!
 Bu yazıda size dekoratörler ve meta sınıfların ilginç bir ortak kullanımını göstermek istiyorum. Yöntemleri işaretlemek için dekoratörlerin nasıl kullanılacağını size göstereceğim, böylece belirli bir işlemi gerçekleştirirken sınıf tarafından otomatik olarak kullanılabilirler.
 
 Daha ayrıntılı olarak, bir dizgeye 'işleyebilmek' için çağrılabilecek bir sınıf uygulayacağım ve basit bir şekilde dekore edilmiş yöntemlerle farklı 'filtreleri' nasıl uygulayacağınızı göstereceğim. Benim elde etmek istediğim şunun gibi:
+
 <br>
 <div class="pop2"> Fonksiyon Çıktısı:</div>
 <br>
