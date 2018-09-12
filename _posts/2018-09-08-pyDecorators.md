@@ -1339,7 +1339,7 @@ Genel fikir burada doğru olanıdır -ancak Python'un nesnelerin dizge olarak na
 
 Bu sonraki örnek çok kullanışlı görünmeyebilir. Neden Python kodunuzu yavaşlatmak istersiniz? Muhtemelen en yaygın kullanım durumu, bir kaynağın değişip değişmediğini sürekli olarak kontrol eden bir fonksiyonu derecelendirmek - sınırlandırmak istediğinizdir.
 
-Muhtemelen en yaygın kullanım durumu, - bir web sayfası gibi - bir kaynağın olup olmadığını sürekli kontrol eden bir fonksiyonu derecelendirmek - sınırlandırmak istemenizdir. @slow_down dekoratör, dekore edilmiş fonksiyonu çağırmadan önce bir saniye uyuyacaktır:
+Muhtemelen en yaygın kullanım durumu, - bir web sayfası gibi - bir kaynağın olup olmadığını sürekli kontrol eden bir fonksiyonun hızını limitlemek istemenizdir. @slow_down dekoratör, dekore edilmiş fonksiyonu çağırmadan önce bir saniye uyuyacaktır:
 
 
 "With "Why would you want to slow down your Python code? " you're questioning the other person's motivations, which implies that a) it was deliberate and b) they might do it again c) you're simply asking about someone's motivation or opinions."
@@ -1388,7 +1388,7 @@ Liftoff!
 <p><strong>Not:</strong>  countdown() işlevi özyinelemeli bir işlevdir.Başka bir deyişle, kendisini çağıran bir işlevdir.  Python'daki özyinelemeli işlevler hakkında daha fazla bilgi edinmek için, Python'da Tekrarlı Düşünmek kılavuzumuza bakın.</p>
 </div>
 
-
+@slow_down dekoratör her zaman bir saniye uyur. Daha sonra, dekoratöre bir ifadeyi geçirerek oranı nasıl kontrol edeceğinizi göreceksiniz.
 
 
 
