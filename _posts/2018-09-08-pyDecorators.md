@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Python Dekoratörler için Bir Başlangıç
+title:  Python Süslü fonksiyonlar için Bir Başlangıç
 date:   2018-09-08 12:00:00
 last_updated: 2018-09-11 12:00:00
 keywords: linux, python, decorators
@@ -63,7 +63,7 @@ img.resize {
 </style>
 <br>
 
-<div class="pop">Dekoratörler</div> 
+<div class="pop">Süslü fonksiyonlar</div> 
 
 <br>
 
@@ -75,9 +75,9 @@ img.resize {
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Kısmi fonksiyonlar](#D15)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Functools.wraps Ne Yapar?](#D16)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Functools.wraps nasıl kullanılır?](#D17)
-+ [Basit Dekoratörler](#D2)
++ [Basit Süslü fonksiyonlar](#D2)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Sözdizimsel Şeker!](#D21)
-    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Dekoratörleri Yeniden Kullanmak](#D22)
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Süslü fonksiyonları Yeniden Kullanmak](#D22)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[İfadelerle Bezeyen Fonksiyonlar](#D23)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Dekore Edilmiş Fonksiyonlardan Dönen Değerler](#D24)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Kimsin sen, Gerçekten mi?](#D25)
@@ -88,7 +88,7 @@ img.resize {
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Eklentileri Kaydetme](#D34)
 
 
-Dekoratörlerle ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Dekoratörler, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
+Süslü fonksiyonlarla ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Süslü fonksiyonlar, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
 
 Matematik ve bilgisayar bilimlerinde, daha yüksek mertebeden bir fonksiyon (aynı zamanda fonksiyonel, fonksiyonel form) aşağıdakilerden en az birini yapan bir fonksiyondur: 
 
@@ -98,10 +98,10 @@ Matematik ve bilgisayar bilimlerinde, daha yüksek mertebeden bir fonksiyon (ayn
 Tanım olarak, bir Süslü fonksiyon, başka bir fonksiyon alan ve  açık bir şekilde değiştirmeden aldığı fonksiyonun davranışını genişleten bir fonksiyondur. 
 
 <div class="alert alert-success" role="alert">
-<p><strong>Bilgi:</strong> Python ile ilgili olarak bahsettiğimiz 'dekoratörler'  fonksiyonları ve yöntemleri daha kolay değiştirmemizi sağlayan Python sözdizimine özel bir değişikliktir. Tasarım desenleri bağlamında, dekoratörler, alt sınıfları doğrudan kullanmak zorunda kalmadan bir fonksiyon, yöntem veya sınıfın fonksiyonselliğini dinamik olarak değiştirir. Bu, değiştirmek istemediğiniz fonksiyonlarin fonksiyonselliğini genişletmeniz gerektiğinde idealdir.</p>
+<p><strong>Bilgi:</strong> Python ile ilgili olarak bahsettiğimiz 'süslü fonksiyonlar'  fonksiyonları ve yöntemleri daha kolay değiştirmemizi sağlayan Python sözdizimine özel bir değişikliktir. Tasarım desenleri bağlamında, süslü fonksiyonlar, alt sınıfları doğrudan kullanmak zorunda kalmadan bir fonksiyon, yöntem veya sınıfın fonksiyonselliğini dinamik olarak değiştirir. Bu, değiştirmek istemediğiniz fonksiyonlarin fonksiyonselliğini genişletmeniz gerektiğinde idealdir.</p>
 </div>
 
-Esas olarak, dekoratörler sarmalayıcı olarak fonksiyon görürler, fonksiyonun kendisini değiştirmeye gerek kalmadan, orijinal fonksiyonselliği arttırarak ve böylece dekorasyonunu yaparak, kodun bir hedef fonksiyon yürütme işleminden önce ve sonra davranışlarını değiştirirler.
+Esas olarak, süslü fonksiyonlar çevreleyici olarak fonksiyon görürler, fonksiyonun kendisini değiştirmeye gerek kalmadan, orijinal fonksiyonselliği arttırarak ve böylece süslemesini yaparak, kodun bir hedef fonksiyon yürütme işleminden önce ve sonra davranışlarını değiştirirler.
 
 Bu kafa karıştırıcı gibi geliyor, ancak özellikle de Süslü fonksiyonların nasıl çalıştığına dair birkaç örnek gördükten sonra değil. Bu makaledeki tüm örnekleri burada bulabilirsiniz.
 
@@ -112,7 +112,7 @@ Bu kafa karıştırıcı gibi geliyor, ancak özellikle de Süslü fonksiyonlar�
 
 <div id="D1" class="pop0">Fonksiyonlar</div>
 
-Dekoratörleri anlayabilmeniz için öncelikle fonksiyonların nasıl çalıştığını anlamanız gerekir. Bizim amacımız için, bir fonksiyon verilen ifadelere dayalı bir değer döndürür. İşte çok basit bir örnek:
+Süslü fonksiyonları anlayabilmeniz için öncelikle fonksiyonların nasıl çalıştığını anlamanız gerekir. Bizim amacımız için, bir fonksiyon verilen ifadelere dayalı bir değer döndürür. İşte çok basit bir örnek:
 
 {% highlight python linenos=table %}
 
@@ -132,7 +132,7 @@ Out[1]:  3
 
 {% endhighlight %}
 
-Genel olarak, Python'daki fonksiyonlar, bir girdiyi bir çıktıya dönüştürmek yerine, yan etkilere de sahip olabilir. ```print()``` fonksiyonu bunun temel bir örneğidir: Konsola bir şey vermenin yan etkisine sahipken, hiçbiri'ni döndürmez. Ancak, dekoratörler anlamak için, fonksiyonları ifadeleri bir değere dönüştüren bir şey olarak düşünmek yeterlidir.
+Genel olarak, Python'daki fonksiyonlar, bir girdiyi bir çıktıya dönüştürmek yerine, yan etkilere de sahip olabilir. ```print()``` fonksiyonu bunun temel bir örneğidir: Konsola bir şey vermenin yan etkisine sahipken, hiçbiri'ni döndürmez. Ancak, süslü fonksiyonlar anlamak için, fonksiyonları ifadeleri bir değere dönüştüren bir şey olarak düşünmek yeterlidir.
  
 <br>
 
@@ -361,7 +361,7 @@ print greet()
 <div class="pop2">İç fonksiyonlar bidirim alanını çevreleyerek erişime sahip olurlar</div>
 <br>
 
-Daha çok bir kapanma olarak bilinir. Dekoratörler inşa ederken karşılaşacağımız çok güçlü bir desen. Unutulmaması gereken bir başka şey ise, Python sadece dış bildirim alanını okumaya izin verir ve atamaya izin vermez. Yukarıdaki örneği, iç fonksiyonun kapalı kapsamından bir 'name' argümanı okumak ve yeni fonksiyonu döndürmek için nasıl değiştirdiğimizi fark ettik.
+Daha çok bir kapanma olarak bilinir. Süslü fonksiyonlar inşa ederken karşılaşacağımız çok güçlü bir desen. Unutulmaması gereken bir başka şey ise, Python sadece dış bildirim alanını okumaya izin verir ve atamaya izin vermez. Yukarıdaki örneği, iç fonksiyonun kapalı kapsamından bir 'name' argümanı okumak ve yeni fonksiyonu döndürmek için nasıl değiştirdiğimizi fark ettik.
 
 {% highlight python %}
 
@@ -382,7 +382,7 @@ print greet()
 <div class="pop2">Süslü fonksiyonların Bileşimi</div>
 <br>
 
-Fonksiyon dekoratörler, mevcut fonksiyonlara basit bir şekilde sarılırlar. Yukarıda bahsi geçen fikirleri bir araya getirerek bir Süslü fonksiyon yapabiliriz. Bu örnekte, başka bir fonksiyonun string çıktısını p etiketleriyle saran bir fonksiyonu düşünelim.
+Fonksiyon süslü fonksiyonlar, mevcut fonksiyonlara basit bir şekilde sarılırlar. Yukarıda bahsi geçen fikirleri bir araya getirerek bir Süslü fonksiyon yapabiliriz. Bu örnekte, başka bir fonksiyonun string çıktısını p etiketleriyle saran bir fonksiyonu düşünelim.
 
 {% highlight python %}
 
@@ -402,7 +402,7 @@ print my_get_text("John")
 
 {% endhighlight %}
 
-Bu bizim ilk dekoratörümüzdü. Başka bir fonksiyonu ifade olarak alan bir fonksiyon, yeni bir fonksiyon üretir, orijinal fonksiyonun çalışmasını çoğaltır ve oluşturulan fonksiyonu döndürerek her yerde kullanabiliriz. get_text'in kendisi p_decorate tarafından dekore edilmek için, sadece get_text 'i p_decorate sonucuna atamak zorundayız.
+Bu bizim ilk süslü fonksiyonumuzdu. Başka bir fonksiyonu ifade olarak alan bir fonksiyon, yeni bir fonksiyon üretir, orijinal fonksiyonun çalışmasını çoğaltır ve oluşturulan fonksiyonu döndürerek her yerde kullanabiliriz. get_text'in kendisi p_decorate tarafından dekore edilmek için, sadece get_text 'i p_decorate sonucuna atamak zorundayız.
 
 {% highlight python %}
 
@@ -698,7 +698,7 @@ wraps dekoratörü hemen hemen bir numaradır, ama ihtiyaç duyduğunuzda olduk�
 
 <br>
 
-<div id="D2" class="pop0">Basit Dekoratörler</div>
+<div id="D2" class="pop0">Basit Süslü fonksiyonlar</div>
 
 Artık, bu fonksiyonların Python'daki diğer herhangi bir öbek gibi olduğunu gördüğünüze göre, Python dekoratörü olan büyülü yaratığa geçmeye ve görmeye hazırsınız. Bir örnekle başlayalım:
 
@@ -759,7 +759,7 @@ Out[3]: <function __main__.my_decorator.<locals>.wrapper>
 
 Ancak, ```wrapper()``` fonksiyonu, orijinal ```say_whee()``` fonksiyonune func olarak bir atıfta bulunur ve iki ```print()``` çağrı arasında bu fonksiyonu çağırır.
 
-Basitçe söylemek gerekirse: **dekoratörler, onların davranışlarını değiştirerek bir fonksiyonu sarmaktadır.**
+Basitçe söylemek gerekirse: **süslü fonksiyonlar, onların davranışlarını değiştirerek bir fonksiyonu sarmaktadır.**
 
 Devam etmeden önce, ikinci bir örneğe bakalım. ```wrapper()``` normal bir Python fonksiyonu olduğu için bir dekoratörün bir fonksiyonu değiştirdiği yöntem dinamik olarak değişebilir. Komşularınızı rahatsız etmeyecek şekilde, aşağıdaki örnek yalnızca gün boyunca dekore edilmiş kodu çalıştıracaktır:
 
@@ -803,7 +803,7 @@ In [5]:
 
 Yukarıda ```say_whee()``` ile dekore ettiğiniz yol biraz biçimsiz ve hantal. Her şeyden önce, ```say_whee``` isminin üç kere yazımını bitirirsiniz. Buna ek olarak, dekorasyon, fonksiyon tanımının altında gizlenmiştir.
 
-Bunun yerine, Python, bazen ```'pie'``` sözdizimi olarak da adlandırılan ```@``` sembolüyle daha basit bir şekilde dekoratörler kullanmanıza izin verir. Aşağıdaki örnek, ilk Süslü fonksiyon örneğiyle tamamen aynı şeyi yapar:
+Bunun yerine, Python, bazen ```'pie'``` sözdizimi olarak da adlandırılan ```@``` sembolüyle daha basit bir şekilde süslü fonksiyonlar kullanmanıza izin verir. Aşağıdaki örnek, ilk Süslü fonksiyon örneğiyle tamamen aynı şeyi yapar:
 
 {% highlight python  linenos=table %}
 
@@ -824,7 +824,7 @@ Bu yüzden, ```@my_decorator``` sadece, ```say_whee = my_decorator(say_whee)``` 
 
 <br>
 
-<div id="D22" class="pop1">Dekoratörleri Yeniden Kullanmak</div>
+<div id="D22" class="pop1">Süslü fonksiyonları Yeniden Kullanmak</div>
 
 Bir dekoratörün sadece normal bir Python fonksiyonu olduğunu hatırlayın. Kolay tekrar kullanılabilirlik için tüm genel araçlar mevcuttur. Dekoratörü diğer birçok fonksiyonda kullanılabilecek kendi modülüne taşıyalım.
 
@@ -940,7 +940,7 @@ Kurucu, fonksiyon nesnesi olan bağımsız değişkeni saklar. Çağrıda, fonks
 
  
 <br>
-<div class="pop2">Meta sınıflar ve dekoratörler: uzayda yapılmış bir eşleme</div>
+<div class="pop2">Meta sınıflar ve süslü fonksiyonlar: uzayda yapılmış bir eşleme</div>
 <br>
 
 Meta sınıflar karmaşık bir konudur ve çoğu zaman ileri düzey programcılar, onlar için çok çeşitli pratik kullanımları görmez.
@@ -951,7 +951,7 @@ Bununla birlikte, genel olarak bilmediğimiz tüm teknikleri ```'büyü'``` ya d
 
 Biraz Python sihirbazlığı yapalım ve dilin gücünü kullanalım!
 
-Bu yazıda size dekoratörler ve meta sınıfların ilginç bir ortak kullanımını göstermek istiyorum. Yöntemleri işaretlemek için Süslü fonksiyonların nasıl kullanılacağını size göstereceğim, böylece belirli bir işlemi gerçekleştirirken sınıf tarafından otomatik olarak kullanılabilirler.
+Bu yazıda size süslü fonksiyonlar ve meta sınıfların ilginç bir ortak kullanımını göstermek istiyorum. Yöntemleri işaretlemek için Süslü fonksiyonların nasıl kullanılacağını size göstereceğim, böylece belirli bir işlemi gerçekleştirirken sınıf tarafından otomatik olarak kullanılabilirler.
 
 Daha ayrıntılı olarak, bir dizgeye 'işleyebilmek' için çağrılabilecek bir sınıf uygulayacağım ve basit bir şekilde dekore edilmiş yöntemlerle farklı 'filtreleri' nasıl uygulayacağınızı göstereceğim. Benim elde etmek istediğim şunun gibi:
 
@@ -1067,7 +1067,7 @@ TypeError: wrapper_do_twice() takes 0 positional arguments but 1 was given
 
 Sorun şu ki, içsel fonksiyon ```wrapper_do_twice()``` fonksiyonu herhangi bir ifade almaz, ancak ```name = 'World'``` ona aktarıldı. ```wrapper_do_twice()``` öğesinin bir bağımsız değişkeni kabul etmesine izin vererek bunu düzeltebilirsiniz, ancak daha önce oluşturduğunuz ```say_whee()``` fonksiyonu için çalışmaz.
 
-Çözüm, iç sarmalayıcı fonksiyonunda ```*args``` ve ```**kwargs``` kullanmaktır. Ardından, rastgele sayı ve konum ifadeyi kabul eder. ```decorators.py``` dosyasını aşağıdaki gibi yeniden yazınız:
+Çözüm, iç çevreleyici fonksiyonunda ```*args``` ve ```**kwargs``` kullanmaktır. Ardından, rastgele sayı ve konum ifadeyi kabul eder. ```decorators.py``` dosyasını aşağıdaki gibi yeniden yazınız:
 <br>
 
 
@@ -1273,7 +1273,7 @@ Help on function wrapper_do_twice in module __main__:
 
 Ancak, dekore edildikten sonra, say_whee() kendi kimliği konusunda çok kafa karıştırdı. Şimdi do_twice() dekoratörünün içinde wrapper_do_twice() iç fonksiyonu olduğunu bildiriyor. Teknik olarak doğru olsa da, bu çok yararlı bir bilgi değildir.
 
-Bunu düzeltmek için, dekoratörler orijinal fonksiyonla ilgili bilgileri muhafaza eden @functools.wraps dekoratörünü kullanmalıdır.  Decorators.py betiğini tekrar güncelleyin:
+Bunu düzeltmek için, süslü fonksiyonlar orijinal fonksiyonla ilgili bilgileri muhafaza eden @functools.wraps dekoratörünü kullanmalıdır.  Decorators.py betiğini tekrar güncelleyin:
 
 {% highlight python %}
 
@@ -1342,7 +1342,7 @@ def decorator(func):
     return wrapper_decorator
 {% endhighlight %} 
 
-Bu formül, daha karmaşık dekoratörler oluşturmak için iyi bir standart kalıptır.
+Bu formül, daha karmaşık süslü fonksiyonlar oluşturmak için iyi bir standart kalıptır.
 
 <div class="alert alert-warning" role="alert">
 <p><strong>Not:</strong>  Daha sonraki örneklerde, bu Süslü fonksiyonların de decorators.py dosyanıza kaydedildiğini kabul edeceğiz. Bu derste tüm örnekleri indirebileceğinizi unutmayın.</p>
@@ -1396,7 +1396,7 @@ In [34]: waste_some_time(999)
 Finished  waste_some_time in  2.8798 secs
 {% endhighlight %} 
  <br> 
-Kendi kendinine çalışır. Kod boyunca satır satır çalışır. Nasıl çalıştığını anladığınızdan emin olun. Yine de anlamadıysan endişelenme. Dekoratörler gelişmiş yapılardır. Ertelemeyi deneyin veya program akışını çizi.
+Kendi kendinine çalışır. Kod boyunca satır satır çalışır. Nasıl çalıştığını anladığınızdan emin olun. Yine de anlamadıysan endişelenme. Süslü fonksiyonlar gelişmiş yapılardır. Ertelemeyi deneyin veya program akışını çizi.
 
 Python2'de, print bir ifade sunan bir anahtar kelime oldu: print "Hi"
 
