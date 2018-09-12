@@ -582,6 +582,9 @@ wrapper
         A wrapping function
 {% endhighlight %}
 
+Bu kodda, a_function olarak adlandırılan fonksiyonu bir another_function ile dekore ederiz. Fonksiyonun __name__ ve __doc__ özelliklerini kullanarak baskı yaparak a_function’ın adını ve docstring belgesini kontrol edebilirsiniz. Bu örneği çalıştırırsanız, çıktı için aşağıdakini alırsınız:
+
+
 <br>
 
 <div id="D2" class="pop0">Basit Dekoratörler</div>
