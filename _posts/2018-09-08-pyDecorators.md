@@ -1152,9 +1152,8 @@ def make_greeting(name, age=None):
         return f"Whoa {name}! {age} already, you are growing up!"
 
 {% endhighlight %}
-
- 
 <br>
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <div class="pop2">Çıktı:</div>
 <br> 
 
@@ -1178,6 +1177,7 @@ Calling make_greeting(name='Dorrisile', age=116)
 {% endhighlight %} 
 
 <br>
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 
 {signature}, tüm argümanların dize gösterimlerine katılarak oluşturulur. Aşağıdaki listedeki sayılar, koddaki numaralı yorumlara karşılık gelir:
 
@@ -1226,8 +1226,8 @@ def approximate_e(terms=18):
 approximate_e(5) 
 {% endhighlight %}
 
-
 <br>
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 
 Bu örnek ayrıca, bir dekoratörün önceden tanımlanmış bir fonksiyona nasıl uygulanabileceğini gösterir. e'nin yaklaşımı, aşağıdaki dizi genişlemesine dayanmaktadır:
 
