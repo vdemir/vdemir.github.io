@@ -81,6 +81,7 @@ img.resize {
 + [Birkaç Gerçek Dünya Örneği](#D3)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Zamanlama Fonksiyonları](#D31)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Hata ayıklama kodu](#D32)
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Kod Aşağı Çekiliyor](#D33)
 
 
 Dekoratörlerle ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Dekoratörler, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
@@ -1332,9 +1333,14 @@ Car('red', 37281)
 Genel fikir burada doğru olanıdır -ancak Python'un nesnelerin dizge olarak nasıl temsil edildiğini işlemek için kullandığı sözleşmeleri ve yerleşik mekanizmaları yok sayar.
 
 
+<br>
+
+<div id="D32" class="pop1">Kod Aşağı Çekiliyor</div>
+
+Bu sonraki örnek çok kullanışlı görünmeyebilir. Neden Python kodunuzu yavaşlatmak istiyorsunuz?
 
 
-
+With "Why would you want to slow down your Python code? " you're questioning the other person's motivations, which implies that a) it was deliberate and b) they might do it again c) you're simply asking about someone's motivation or opinions.
 
 
 
