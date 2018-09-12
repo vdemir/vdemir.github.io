@@ -1409,6 +1409,15 @@ Liftoff!
 
 <div id="D34" class="pop1">Eklentileri Kaydetme</div>
 
+Dekoratörlerin, dekore ettikleri işlevi sarması gerekmez. Ayrıca bir fonksiyonun mevcut olduğunu kolayca kaydedebilirler ve sarılmamış olarak döndürebilirler.
+
+
+
+
+
+
+
+
 
 
 
