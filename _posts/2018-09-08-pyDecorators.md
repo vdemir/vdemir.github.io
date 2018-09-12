@@ -1383,8 +1383,7 @@ countdown(3)
 1
 Liftoff!
 
-{% endhighlight %}
-<br>
+{% endhighlight %} 
 <div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <br>
 
