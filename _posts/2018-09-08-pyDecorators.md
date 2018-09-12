@@ -489,9 +489,9 @@ def f(x):
 f = logged(f)
 {% endhighlight %}
 
-Söylemekle tamamen aynı şeydir.
+söylemekle tamamen aynı şeydir.
 
-ve fonksiyonunuzun f fonksiyonu, with_logging işleviyle değiştirilir. Ne yazık ki, bu demek oluyor ki
+ve fonksiyonunuzun f, with_logging fonksiyonuyla değiştirilir. Ne yazık ki, bu demek oluyor ki
 
 {% highlight python %}
 
