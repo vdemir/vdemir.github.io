@@ -1375,6 +1375,10 @@ countdown(3)
 
 {% highlight python %}
 
+3
+2
+1
+Liftoff!
 
 {% endhighlight %}
 
