@@ -1257,7 +1257,7 @@ Calling factorial(4)
 
 
 {% endhighlight %} 
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <br>
 Bu örnekte, sadece 5 terim ekleyerek, e = 2.718281828 gerçek değerine doğru bir yaklaşım elde edersiniz.
 
