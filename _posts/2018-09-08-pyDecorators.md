@@ -1319,7 +1319,7 @@ say_whee()
 Çok daha iyi! Şimdi say_whee(), dekorasyondan sonra hala kendisidir.
 
 <div class="alert alert-info" role="alert">
-<p><strong>Teknik Detay:</strong> functools.wraps Süslü fonksiyon, içebakışta kullanılan __name__ ve __doc__ gibi özel nitelikleri güncellemek için functools.update_wrapper() fonksiyonunu kullanır.</p>
+<p><strong>Teknik Detay:</strong> functools.wraps süslü fonksiyon, içebakışta kullanılan __name__ ve __doc__ gibi özel nitelikleri güncellemek için functools.update_wrapper() fonksiyonunu kullanır.</p>
 </div>
 
 <br>
@@ -1486,7 +1486,7 @@ Calling make_greeting(name='Dorrisile', age=116)
 
 4. Fonksiyon çalıştırıldıktan sonra geri dönüş değeri yazdırılır.
 
-Dekoratörün, bir konum ve bir anahtar kelime ifadesiyle basit bir fonksiyona uygulayarak pratikte nasıl çalıştığını görelim:
+Süslü fonksiyonun, bir konum ve bir anahtar kelime ifadesiyle basit bir fonksiyona uygulayarak pratikte nasıl çalıştığını görelim:
 
 @debug süslü fonksiyonunun make_greeting() fonksiyonunun signature ve dönüş değerini nasıl yazdığını not alın:
 
