@@ -468,7 +468,8 @@ def logged(func):
     return with_logging
 
 {% endhighlight %}
-
+o zaman siz 
+<br>
 {% highlight python %}
 
 @logged
@@ -477,7 +478,7 @@ def f(x):
    return x + x * x
 {% endhighlight %}
 
-o zaman siz dersiniz.
+dersiniz.
 <br>
 
 {% highlight python %}
