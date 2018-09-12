@@ -501,7 +501,7 @@ print f.__name__
 
  with_logging yazdıracağız, çünkü bu yeni fonksiyonunuzun adı. Aslında, eğer f için docstring belgesi değerine bakarsanız, boş olacaktır çünkü with_logging'ın hiçbir docstring belgesi değeri yoktur ve yazdığınız dokümanlar artık orada olmayacaktır. Ayrıca, bu fonksiyon için pydoc sonucuna bakarsanız, bir x ifadesi alarak listelenmeyecek; bunun yerine *args ve **kwargs olarak listelenecektir çünkü bu, with_logging'in ele aldığı şeydir.
 
-Bir süslü fonksiyon kullanmak her zaman bir fonksiyon hakkında bu bilgiyi kaybetmek anlamına gelirse, ciddi bir sorun olur. Bu yüzden functools.wraps var. Bu, bir dekoratörde kullanılan bir fonksiyonu alır ve fonksiyon adı, docstring belgesi, ifade listesi vb. üzerine kopyalama fonksiyonelliğini ekler. Ve wraps kendisi bir Süslü fonksiyon olduğundan, aşağıdaki kod doğru şeyi yapar:
+Bir süslü fonksiyon kullanmak her zaman bir fonksiyon hakkında bu bilgiyi kaybetmek anlamına gelirse, ciddi bir sorun olur. Bu yüzden functools.wraps var. Bu, bir süslü fonksiyonda kullanılan bir fonksiyonu alır ve fonksiyon adı, docstring belgesi, ifade listesi vb. üzerine kopyalama fonksiyonelliğini ekler. Ve wraps kendisi bir Süslü fonksiyon olduğundan, aşağıdaki kod doğru şeyi yapar:
 
 {% highlight python linenos=table %}
 
