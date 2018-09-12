@@ -118,10 +118,9 @@ def ekle_bir(numara):
 
 {% endhighlight %}
 
-
 <br>
-<div class="pop2">Çıktı:</div>
-<br> 
+<div class="pop2"> Fonksiyon Çıktısı:</div>
+<br>
 
 {% highlight python %}
 
@@ -1299,10 +1298,9 @@ class Car:
 
 {% endhighlight %}
 
-
 <br>
-<div class="pop2">Çıktı:</div>
-<br> 
+<div class="pop2"> Fonksiyon Çıktısı:</div>
+<br>
 
 {% highlight python %}
 In [1]: my_car = Car('red', 37281)
@@ -1342,7 +1340,7 @@ class Car(object):
 {% endhighlight %}
 
 <br>
-<div class="pop2">Çıktı:</div>
+<div class="pop2"> Fonksiyon Çıktısı:</div>
 <br> 
 
 {% highlight python %}
@@ -1398,9 +1396,9 @@ countdown(3)
 
 @slow_down dekoratörünün etkisini görmek için, örneği kendiniz uygulamanız gerekiyor:
 
-<div class="pop2">Çıktı:</div>
-<br> 
-
+<br>
+<div class="pop2"> Fonksiyon Çıktısı:</div>
+<br>
 {% highlight python %}
 
 3
