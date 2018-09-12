@@ -1020,7 +1020,7 @@ Help on function say_whee in module __main__:
 
 say_whee()
 {% endhighlight %} 
-  
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div> 
 <br>
 
 Çok daha iyi! Şimdi say_whee(), dekorasyondan sonra hala kendisidir.
