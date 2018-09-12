@@ -423,7 +423,7 @@ Dikkat edilmesi gereken diğer bir şey, dekore edilmiş fonksiyonumuzun bir isi
 
 functools kütüphanesinden kısmi fonksiyonu kullanarak python'da kısmi işlevler oluşturabilirsiniz. 
 
-Kısmi işlevler, daha az parametre ve daha sınırlı işlev için ayarlanan sabit değerler ile bir işleve x parametresiyle bir fonksiyon türettirilmesini sağlar. 
+Kısmi işlevler, daha az parametre ve daha sınırlı fonksiyon için ayarlanan sabit değerler ile bir işleve x parametresiyle bir fonksiyon türettirilmesini sağlar. 
 
 İçe aktarma gerekli:
 
@@ -492,16 +492,16 @@ f = logged(f)
 
 söylemekle tamamen aynı şeydir.
 
-ve fonksiyonunuzun f, with_logging fonksiyonuyla değiştirilir. Ne yazık ki, bu demek oluyor ki
+ve fonksiyonunuzun f, with_logging fonksiyonuyla değiştirilir. Ne yazık ki, bu demek oluyor ki,
 
 {% highlight python %}
 
 print f.__name__
 {% endhighlight %}
 
- with_logging yazdıracağız, çünkü bu yeni işlevinizin adı. Aslında, eğer f için docstring E bakarsanız, boş olacaktır çünkü with_logging'ın hiçbir docstring i yoktur ve yazdığınız dokümanlar artık orada olmayacaktır. Ayrıca, bu işlev için pydoc sonucuna bakarsanız, bir x ifadesi alarak listelenmeyecek; bunun yerine *args ve **kwargs olarak listelenecektir çünkü bu, with_logging'in aldığı şeydir.
+ with_logging yazdıracağız, çünkü bu yeni fonksiyonunuzun adı. Aslında, eğer f için docstring değerine bakarsanız, boş olacaktır çünkü with_logging'ın hiçbir docstring değeri yoktur ve yazdığınız dokümanlar artık orada olmayacaktır. Ayrıca, bu fonksiyon için pydoc sonucuna bakarsanız, bir x ifadesi alarak listelenmeyecek; bunun yerine *args ve **kwargs olarak listelenecektir çünkü bu, with_logging'in aldığı şeydir.
 
-Bir dekoratör kullanmak her zaman bir fonksiyon hakkında bu bilgiyi kaybetmek anlamına gelirse, ciddi bir sorun olur. Bu yüzden functools.wraps var. Bu, bir dekoratörde kullanılan bir fonksiyonu alır ve işlev adı, doküman, argüman listesi, vb. fonksiyon adının, docstring, ifade listesi vb. üzerine kopyalama fonksiyonelliğini ekler. Ve wraps kendisi bir dekoratör olduğundan, aşağıdaki kod doğru şeyi yapar:
+Bir dekoratör kullanmak her zaman bir fonksiyon hakkında bu bilgiyi kaybetmek anlamına gelirse, ciddi bir sorun olur. Bu yüzden functools.wraps var. Bu, bir dekoratörde kullanılan bir fonksiyonu alır ve fonksiyon adı, doküman, argüman listesi, vb. fonksiyon adının, docstring, ifade listesi vb. üzerine kopyalama fonksiyonelliğini ekler. Ve wraps kendisi bir dekoratör olduğundan, aşağıdaki kod doğru şeyi yapar:
 
 {% highlight python linenos=table %}
 
