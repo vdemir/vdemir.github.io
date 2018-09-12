@@ -611,7 +611,7 @@ Bu kodda, **a_function** olarak adlandırılan fonksiyonu bir **another_function
 
 Bu doğru değil! Bu programı IDLE veya yorumlayıcıda çalıştırırsanız, bunun gerçekten kafa karıştırıcı, gerçekten hızlı bir şekilde nasıl elde edilebileceği daha da açık hale gelir. Bu gerçekten nasıl kafa karıştırıcı, gerçekten hızlı olabilir daha da belirgin hale geliyor.
 
-Temel olarak burada olan şey, dekoratörün süslü işlevin adını ve belgesini kendi başına değiştirmesidir.
+Temel olarak burada olan şey, süslü fonksiyonun adını ve docstring belgesini kendi başına değiştirmesidir.
 
 <br>
 
