@@ -735,6 +735,7 @@ if __name__ == "__main__":
     print(StringFilter("i am a cat  help me", "strip", "capitalize", "split"))
 
 {% endhighlight %}
+
 <br>
 <div class="pop2"> Fonksiyon Çıktısı:</div>
 <br>
@@ -771,6 +772,7 @@ def greet(name):
 
 
 Maalesef, bu kodu çalıştırmak bir hataya yol açıyor:
+
 <br>
 <div class="pop2"> Fonksiyon Çıktısı:</div>
 <br>
@@ -861,13 +863,13 @@ def return_greeting(name):
 
 
 Kullanmayı dene:
+
 <br>
 <div class="pop2"> Fonksiyon Çıktısı:</div>
 <br>
 
 
 {% highlight python %}
-
 In [1]: hi_adam = return_greeting("Adam")
 Creating greeting
 Creating greeting
