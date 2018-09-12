@@ -886,11 +886,12 @@ Maalesef, dekoratörünüz fonksiyondan dönüş değerini yedi.
 ```do_twice_wrapper()``` fonksiyonu açıkça bir değer döndürmediğinden, ```return_greeting('Adam')``` çağrısı, None döndürerek sona ermiştir.
 
 Bunu düzeltmek için, **sarma fonksiyonunun dekore edilmiş fonksiyonun dönüş değerini döndürdüğünden emin olmanız** gerekir. ```decorators.py``` dosyanızı 4. satırını değiştirin:
+
 <br>
 <div class="pop2"> Fonksiyon Çıktısı:</div>
 <br>
-{% highlight python %}
 
+{% highlight python %}
 def do_twice(func):
     def wrapper_do_twice(*args, **kwargs):
         func(*args, **kwargs)
@@ -928,9 +929,11 @@ def say_whee():
 
 
 Kullanmayı dene:
+
 <br>
 <div class="pop2"> Fonksiyon Çıktısı:</div>
 <br>
+
 {% highlight python %}
 
 In [3]: return_greeting("Adam")
@@ -950,6 +953,7 @@ Out[3]: 'Hi Adam'
 <br>
 <div class="pop2"> Fonksiyon Çıktısı:</div>
 <br>
+
 {% highlight python %}
 
 In [1]: print
@@ -972,6 +976,7 @@ print(...)
 
 
 İçebakış, kendinizin tanımladığı fonksiyonlar için de çalışır:
+
 <br>
 <div class="pop2"> Fonksiyon Çıktısı:</div>
 <br>
@@ -998,6 +1003,7 @@ Bunu düzeltmek için, dekoratörler orijinal fonksiyonla ilgili bilgileri muhaf
 <br>
 <div class="pop2"> Fonksiyon Çıktısı:</div>
 <br>
+
 {% highlight python %}
 
 import functools
@@ -1109,6 +1115,7 @@ Bu dekoratör, fonksiyonun çalışmaya başlamasından hemen önceki süreyi sa
 <br>
 <div class="pop2"> Fonksiyon Çıktısı:</div>
 <br>
+
 {% highlight python %}
 
 In [14]: waste_some_time(1)
