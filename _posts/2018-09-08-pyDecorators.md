@@ -1692,10 +1692,33 @@ Liftoff!
 
 <div id="D34" class="pop1">Eklentileri Kaydetme</div>
 
-Dekoratörlerin, dekore ettikleri fonksiyonu sarması gerekmez. Ayrıca bir fonksiyonun mevcut olduğunu kolayca kaydedebilirler ve sarılmamış olarak döndürebilirler.
+Dekoratörlerin, dekore ettikleri fonksiyonu sarması gerekmez. Ayrıca bir fonksiyonun mevcut olduğunu kolayca kaydedebilirler ve sarılmamış olarak döndürebilirler. Bu kullanılabilir, örneğin, hafif bir eklenti mimarisi oluşturmak için kullanılabilir:
 
 
+<br>
 
+{% highlight python  linenos=table %}
+import random
+PLUGINS = dict()
+
+def register(func):
+    """Register a function as a plug-in"""
+    PLUGINS[func.__name__] = func
+    return func
+
+@register
+def say_hello(name):
+    return f"Hello {name}"
+
+@register
+def be_awesome(name):
+    return f"Yo {name}, together we are the awesomest!"
+
+def randomly_greet(name):
+    greeter, greeter_func = random.choice(list(PLUGINS.items()))
+    print(f"Using {greeter!r}")
+    return greeter_func(name)
+{% endhighlight %}
 
 
 
