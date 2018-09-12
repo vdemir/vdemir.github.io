@@ -1259,6 +1259,8 @@ Calling factorial(4)
 {% endhighlight %} 
 
 <br>
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
+<br>
 Bu örnekte, sadece 5 terim ekleyerek, e = 2.718281828 gerçek değerine doğru bir yaklaşım elde edersiniz.
 
 <br>
@@ -1295,6 +1297,8 @@ red 37281
 
 {% endhighlight %}
 
+<br>
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <br>
 
 Varsayılan olarak, aldığınız tek şey sınıf adını ve nesne örneğinin kimliğini içeren bir dizedir (bu, nesnenin CPython'daki bellek adresidir.) Bu, hiçbir şeyden daha iyi değildir, ancak aynı zamanda çok kullanışlı değildir. 
