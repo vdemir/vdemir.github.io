@@ -499,9 +499,9 @@ ve fonksiyonunuzun f, with_logging fonksiyonuyla değiştirilir. Ne yazık ki, b
 print f.__name__
 {% endhighlight %}
 
- with_logging yazdıracağız, çünkü bu yeni fonksiyonunuzun adı. Aslında, eğer f için docstring değerine bakarsanız, boş olacaktır çünkü with_logging'ın hiçbir docstring değeri yoktur ve yazdığınız dokümanlar artık orada olmayacaktır. Ayrıca, bu fonksiyon için pydoc sonucuna bakarsanız, bir x ifadesi alarak listelenmeyecek; bunun yerine *args ve **kwargs olarak listelenecektir çünkü bu, with_logging'in aldığı şeydir.
+ with_logging yazdıracağız, çünkü bu yeni fonksiyonunuzun adı. Aslında, eğer f için docstring değerine bakarsanız, boş olacaktır çünkü with_logging'ın hiçbir docstring değeri yoktur ve yazdığınız dokümanlar artık orada olmayacaktır. Ayrıca, bu fonksiyon için pydoc sonucuna bakarsanız, bir x ifadesi alarak listelenmeyecek; bunun yerine *args ve **kwargs olarak listelenecektir çünkü bu, with_logging'in ele aldığı şeydir.
 
-Bir dekoratör kullanmak her zaman bir fonksiyon hakkında bu bilgiyi kaybetmek anlamına gelirse, ciddi bir sorun olur. Bu yüzden functools.wraps var. Bu, bir dekoratörde kullanılan bir fonksiyonu alır ve fonksiyon adı, doküman, argüman listesi, vb. fonksiyon adının, docstring, ifade listesi vb. üzerine kopyalama fonksiyonelliğini ekler. Ve wraps kendisi bir dekoratör olduğundan, aşağıdaki kod doğru şeyi yapar:
+Bir dekoratör kullanmak her zaman bir fonksiyon hakkında bu bilgiyi kaybetmek anlamına gelirse, ciddi bir sorun olur. Bu yüzden functools.wraps var. Bu, bir dekoratörde kullanılan bir fonksiyonu alır ve fonksiyon adı, docstring, ifade listesi vb. üzerine kopyalama fonksiyonelliğini ekler. Ve wraps kendisi bir dekoratör olduğundan, aşağıdaki kod doğru şeyi yapar:
 
 {% highlight python linenos=table %}
 
