@@ -1385,6 +1385,8 @@ Liftoff!
 
 {% endhighlight %}
 
+<br>
+
 <div class="alert alert-warning" role="alert">
 <p><strong>Not:</strong>  countdown() işlevi özyinelemeli bir işlevdir.Başka bir deyişle, kendisini çağıran bir işlevdir.  Python'daki özyinelemeli işlevler hakkında daha fazla bilgi edinmek için, Python'da Tekrarlı Düşünmek kılavuzumuza bakın.</p>
 </div>
