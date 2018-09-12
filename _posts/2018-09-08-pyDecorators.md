@@ -1722,7 +1722,9 @@ def randomly_greet(name):
 
 @register dekoratörü, global PLUGINS dict'daki dekore edilmiş fonksiyona bir atfı basitçe saklar.
 
-
+<div class="alert alert-primary" role="alert">
+<p><strong>Bilgi:</strong> Python'da bir dekoratör, argüman olarak başka bir işlevi kabul eden bir işlevdir. Dekoratör genellikle kabul ettiği işlevi değiştirir veya geliştirir ve değiştirilmiş işlevi döndürür. Bu, süslü bir işlevi çağırdığınızda, temel tanımla karşılaştırıldığında ek özelliklere sahip olabilecek, biraz farklı olabilecek bir işlev elde edeceğiniz anlamına gelir.</p>
+</div>
 
 
 
