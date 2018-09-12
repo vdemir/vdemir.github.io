@@ -842,7 +842,7 @@ def do_twice(func):
 
 <br>
 <div class="alert alert-primary" role="alert">
-<p><strong>Note:</strong> İçsel fonksiyonunuzu istediğiniz gibi adlandırın ve **wrapper()** gibi genel bir ad genellikle tamamdır. Bu makalede çok sayıda Süslü fonksiyon göreceksiniz. Bunları ayrı tutmak için, iç fonksiyonu, dekoratörle aynı adla, ancak bir **wrapper_** önekiyle adlandıracağız.</p>
+<p><strong>Note:</strong> İçsel fonksiyonunuzu istediğiniz gibi adlandırın ve **wrapper()** gibi genel bir ad genellikle tamamdır. Bu makalede çok sayıda Süslü fonksiyon göreceksiniz. Bunları ayrı tutmak için, iç fonksiyonu, süslü fonksiyonla aynı adla, ancak bir **wrapper_** önekiyle adlandıracağız.</p>
 </div>
 
 Bu yeni süslü fonksiyonu, normal bir içe aktarma yaparak diğer dosyalarda kullanabilirsiniz:
