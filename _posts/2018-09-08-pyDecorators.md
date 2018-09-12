@@ -1032,8 +1032,7 @@ Help on function say_whee in module __main__:
 say_whee()
 {% endhighlight %} 
 
-<br>
-<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div> 
+<br> 
 
 Çok daha iyi! Şimdi say_whee(), dekorasyondan sonra hala kendisidir.
 
@@ -1098,8 +1097,7 @@ def waste_some_time(num_times):
         sum([i**2 for i in range(10000)])
 
 {% endhighlight %}
-<br>
-<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
+<br> 
 
 Bu dekoratör, fonksiyonun çalışmaya başlamasından hemen önceki süreyi saklayarak çalışır(# 1 olarak işaretlenmiş satırda) ve fonksiyon bittikten hemen sonra(# 2'de). Fonksiyonun aldığı zaman ikisinin arasındaki farktır(# 3'de). Zaman aralıklarını ölçmek için iyi bir iş yapan time.perf_counter() fonksiyonunu kullanırız.
 
@@ -1114,8 +1112,7 @@ Finished  waste_some_time in  0.0029 secs
 In [34]: waste_some_time(999)
 Finished  waste_some_time in  2.8798 secs
 {% endhighlight %} 
-
-<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
+ <br> 
 Kendi kendinine çalışır. Kod boyunca satır satır çalışır. Nasıl çalıştığını anladığınızdan emin olun. Yine de anlamadıysan endişelenme. Dekoratörler gelişmiş yapılardır. Ertelemeyi deneyin veya program akışını çizi.
 
 Python2'de, print bir ifade sunan bir anahtar kelime oldu: print "Hi"
@@ -1194,8 +1191,7 @@ Calling make_greeting(name='Dorrisile', age=116)
 
 {% endhighlight %} 
 
-<br>
-<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
+<br> 
 
 {signature}, tüm argümanların dize gösterimlerine katılarak oluşturulur. Aşağıdaki listedeki sayılar, koddaki numaralı yorumlara karşılık gelir:
 
@@ -1244,8 +1240,7 @@ def approximate_e(terms=18):
 approximate_e(5) 
 {% endhighlight %}
 
-<br>
-<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
+<br> 
 
 Bu örnek ayrıca, bir dekoratörün önceden tanımlanmış bir fonksiyona nasıl uygulanabileceğini gösterir. e'nin yaklaşımı, aşağıdaki dizi genişlemesine dayanmaktadır:
 
@@ -1276,9 +1271,7 @@ Calling factorial(4)
 
 {% endhighlight %} 
 
-<br>
-<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
-<br>
+<br> 
 Bu örnekte, sadece 5 terim ekleyerek, e = 2.718281828 gerçek değerine doğru bir yaklaşım elde edersiniz.
 
 <br>
@@ -1314,9 +1307,7 @@ red 37281
 
 {% endhighlight %}
 
-<br>
-<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
-<br>
+<br> 
 
 Varsayılan olarak, aldığınız tek şey sınıf adını ve nesne örneğinin kimliğini içeren bir dizedir (bu, nesnenin CPython'daki bellek adresidir.) Bu, hiçbir şeyden daha iyi değildir, ancak aynı zamanda çok kullanışlı değildir. 
 
@@ -1352,9 +1343,7 @@ Car('red', 37281)
 
 {% endhighlight %}
 
-<br>
-<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
-<br>
+<br> 
 Genel fikir burada doğru olanıdır -ancak Python'un nesnelerin dizge olarak nasıl temsil edildiğini işlemek için kullandığı sözleşmeleri ve yerleşik mekanizmaları yok sayar.
 
 
@@ -1408,9 +1397,7 @@ countdown(3)
 Liftoff!
 
 {% endhighlight %} 
-<br>
-<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
-<br>
+<br> 
 
 <div class="alert alert-warning" role="alert">
 <p><strong>Not:</strong>  countdown() fonksiyonu özyinelemeli bir fonksiyondur.Başka bir deyişle, kendisini çağıran bir fonksiyondur.  Python'daki özyinelemeli fonksiyonlar hakkında daha fazla bilgi edinmek için, Python'da Tekrarlı Düşünmek kılavuzumuza bakın.</p>
