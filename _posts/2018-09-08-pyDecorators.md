@@ -1294,7 +1294,7 @@ In [3]: print(my_car.color, my_car.mileage)
 red 37281
 
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <br>
 
 Varsayılan olarak, aldığınız tek şey sınıf adını ve nesne örneğinin kimliğini içeren bir dizedir (bu, nesnenin CPython'daki bellek adresidir.) Bu, hiçbir şeyden daha iyi değildir, ancak aynı zamanda çok kullanışlı değildir. 
@@ -1330,7 +1330,7 @@ In [9]: print(my_car)
 Car('red', 37281)
 
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 Genel fikir burada doğru olanıdır -ancak Python'un nesnelerin dizge olarak nasıl temsil edildiğini işlemek için kullandığı sözleşmeleri ve yerleşik mekanizmaları yok sayar.
 
 
