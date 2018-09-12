@@ -633,6 +633,18 @@ if __name__ == "__main__":
 {% endhighlight %}
 
 
+Burada functools modülünden wraps ları içe aktarıyoruz ve bir another_function içindeki iç içe wrapper fonksiyonu için bir dekoratör olarak kullanıyoruz. Bu kez onu çalıştırırsanız, çıktı değişmiş olacaktır:
+
+<br>
+<div class="pop2"> Fonksiyon Çıktısı:</div>
+<br>
+{% highlight python %}
+
+a_function
+A pretty useless function
+{% endhighlight %}
+
+
 
 <br>
 
