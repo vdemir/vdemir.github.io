@@ -448,6 +448,10 @@ Bu kod 8'e dönecek.
 8
 
 {% endhighlight %}
+
+Önemli bir not: varsayılan değerler, değişkenleri soldan değiştirmeye başlar. 2 x'in yerini alacak. dbl(4) çağrıldığında y eşittir. Bu örnekte bir fark yaratmaz, ancak aşağıdaki örnekte yer almaktadır.
+
+
 <br>
 
 <div id="D2" class="pop0">Basit Dekoratörler</div>
