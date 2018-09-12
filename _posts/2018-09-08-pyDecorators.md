@@ -74,6 +74,7 @@ img.resize {
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fonksiyonlar hakkında bilmeniz gerekenler](#D14)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Kısmi fonksiyonlar](#D15)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Functools.wraps Ne Yapar?](#D16)
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Functools.wraps nasıl kullanılır?](#D17)
 + [Basit Dekoratörler](#D2)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Sözdizimsel Şeker!](#D21)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Dekoratörleri Yeniden Kullanmak](#D22)
@@ -534,6 +535,51 @@ does some math
 
 f was called
 30
+{% endhighlight %}
+
+<br>
+
+<div id="D17" class="pop1">Functools.wraps Nasıl Kullanılır?</div>
+
+Bugün hakkında konuşmak istediğim az bilinen bir araç var. Buna wraps denir ve functools modülünün bir parçasıdır. Doküman dizelerini ve dekore edilmiş işlevlerin adlarını docstrings düzeltmek için bir dekoratör olarak wraps kullanabilirsiniz. Bu neden önemli? Bu ilk başta garip bir durum gibi görünüyor, ancak bir API veya kendinizden başka birisinin kullanacağı herhangi bir kod yazıyorsanız, bu önemli olabilir. Nedeni, Python’un bir başkasının kodunu bulmak için içbakış kullandığınızda, dekore edilmiş bir işlev yanlış bilgileri döndürecektir. Decorum.py olarak adlandırdığım basit bir örneğe bakalım:
+
+{% highlight python linenos=table %}
+
+# decorum.py
+ 
+#----------------------------------------------------------------------
+def another_function(func):
+    """
+    A function that accepts another function
+    """
+ 
+    def wrapper():
+        """
+        A wrapping function
+        """
+        val = "The result of %s is %s" % (func(),
+                                          eval(func())
+                                          )
+        return val
+    return wrapper
+ 
+#----------------------------------------------------------------------
+@another_function
+def a_function():
+    """A pretty useless function"""
+    return "1+1"
+ 
+#----------------------------------------------------------------------
+if __name__ == "__main__":
+    print (a_function.__name__)
+    print (a_function.__doc__)
+{% endhighlight %}
+<br>
+{% highlight python %}
+
+wrapper
+
+        A wrapping function
 {% endhighlight %}
 
 <br>
