@@ -469,13 +469,26 @@ def logged(func):
 
 {% endhighlight %}
 
+o zaman siz şöyle söylersiniz
 
+{% highlight python %}
 
+@logged
+def f(x):
+   """does some math"""
+   return x + x * x
+{% endhighlight %}
 
+Söylemekle tamamen aynı şeydir
 
+{% highlight python %}
 
-
-
+@logged
+def f(x):
+    """does some math"""
+    return x + x * x
+f = logged(f)
+{% endhighlight %}
 
 <br>
 
