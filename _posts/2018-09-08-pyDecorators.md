@@ -584,7 +584,7 @@ wrapper
         A wrapping function
 {% endhighlight %}
 
-Bu kodda, a_function olarak adlandırılan fonksiyonu bir another_function ile dekore ederiz. Fonksiyonun __name__ ve __doc__ özelliklerini kullanarak baskı yaparak a_function’ın adını ve docstring belgesini kontrol edebilirsiniz. Bu örneği çalıştırırsanız, çıktı için aşağıdakini alırsınız:
+Bu kodda, **a_function** olarak adlandırılan fonksiyonu bir **another_function** ile dekore ederiz. Fonksiyonun **__name__** ve **__doc__** özelliklerini kullanarak baskı yaparak a_function’ın adını ve docstring belgesini kontrol edebilirsiniz. Bu örneği çalıştırırsanız, çıktı için aşağıdakini alırsınız:
 
 
 Bu doğru değil! Bu programı IDLE veya yorumlayıcıda çalıştırırsanız, bunun gerçekten kafa karıştırıcı, gerçekten hızlı bir şekilde nasıl elde edilebileceği daha da açık hale gelir. Bu gerçekten nasıl kafa karıştırıcı, gerçekten hızlı olabilir daha da belirgin hale geliyor.
