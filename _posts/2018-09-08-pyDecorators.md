@@ -671,10 +671,10 @@ A pretty useless function
 
 {% highlight python %}
 
-Help on module example.py:
+Help on module example:
 
 NAME
-    example.py
+    example
 
 FUNCTIONS
     a_function()
