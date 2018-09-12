@@ -1088,7 +1088,7 @@ def waste_some_time(num_times):
 {% endhighlight %}
 <br>
 
-Bu dekoratör, fonksiyonun çalışmaya başlamasından hemen önceki süreyi saklayarak çalışır(# 1 olarak işaretlenmiş satırda) ve fonksiyon bittikten hemen sonra(# 2'de). Fonksiyonun aldığı zaman ikisinin arasındaki farktır(# 3'de). Zaman aralıklarını ölçmek için iyi bir iş yapan time.perf_counter() işlevini kullanırız.
+Bu dekoratör, fonksiyonun çalışmaya başlamasından hemen önceki süreyi saklayarak çalışır(# 1 olarak işaretlenmiş satırda) ve fonksiyon bittikten hemen sonra(# 2'de). Fonksiyonun aldığı zaman ikisinin arasındaki farktır(# 3'de). Zaman aralıklarını ölçmek için iyi bir iş yapan time.perf_counter() fonksiyonunu kullanırız.
 
 {% highlight python %}
 
@@ -1103,7 +1103,7 @@ Kendi kendinine çalışır. Kod boyunca satır satır çalışır. Nasıl çal�
 
 Python2'de, print bir ifade sunan bir anahtar kelime oldu: print "Hi"
 
-Python3'te print, çağrılabilecek bir işlevdir: print ("Hi").
+Python3'te print, çağrılabilecek bir fonksiyondur: print ("Hi").
 
 Her iki sürümde, %, sol tarafta bir dize ve sağ tarafta bir değer veya bir değer sayısı veya bir eşleme nesnesi gerektiren bir operatördür.
 
@@ -1191,9 +1191,9 @@ Calling make_greeting(name='Dorrisile', age=116)
 
 Dekoratörün, bir konum ve bir anahtar kelime ifadesiyle basit bir fonksiyona uygulayarak pratikte nasıl çalıştığını görelim:
 
-@debug dekoratörünün make_greeting() işlevinin signature ve dönüş değerini nasıl yazdığını not alın:
+@debug dekoratörünün make_greeting() fonksiyonunun signature ve dönüş değerini nasıl yazdığını not alın:
 
-Bu örnek, @debug dekoratörü az önce yazdıklarınızı tekrarladığından beri kullanışlı görünmeyebilir. Doğrudan kendinize çağrı yapmadığınız küçük uygun işlevlere uygulandığında daha güçlüdür.
+Bu örnek, @debug dekoratörü az önce yazdıklarınızı tekrarladığından beri kullanışlı görünmeyebilir. Doğrudan kendinize çağrı yapmadığınız küçük uygun fonksiyonlara uygulandığında daha güçlüdür.
 
 Aşağıdaki örnek, matematik sabiti e'ye bir yaklaşım hesaplar:
 
@@ -1229,12 +1229,12 @@ approximate_e(5)
 
 <br>
 
-Bu örnek ayrıca, bir dekoratörün önceden tanımlanmış bir işleve nasıl uygulanabileceğini gösterir. e'nin yaklaşımı, aşağıdaki dizi genişlemesine dayanmaktadır:
+Bu örnek ayrıca, bir dekoratörün önceden tanımlanmış bir fonksiyona nasıl uygulanabileceğini gösterir. e'nin yaklaşımı, aşağıdaki dizi genişlemesine dayanmaktadır:
 
 
  e'nin değeri de  1/0!  +  1/1!  +  1/2!  +  1/3!  +  1/4!  +  1/5!  +  1/6!  +  1/7!  + ... (etc) eşittir
 
-Approximate_e() işlevini çağırırken, @debug dekoratörünü iş başında görebilirsiniz:
+Approximate_e() fonksiyonunu çağırırken, @debug dekoratörünü iş başında görebilirsiniz:
 
 <br>
 <div class="pop2">Çıktı:</div>
@@ -1388,7 +1388,7 @@ Liftoff!
 <br>
 
 <div class="alert alert-warning" role="alert">
-<p><strong>Not:</strong>  countdown() işlevi özyinelemeli bir işlevdir.Başka bir deyişle, kendisini çağıran bir işlevdir.  Python'daki özyinelemeli işlevler hakkında daha fazla bilgi edinmek için, Python'da Tekrarlı Düşünmek kılavuzumuza bakın.</p>
+<p><strong>Not:</strong>  countdown() fonksiyonu özyinelemeli bir fonksiyondur.Başka bir deyişle, kendisini çağıran bir fonksiyondur.  Python'daki özyinelemeli fonksiyonlar hakkında daha fazla bilgi edinmek için, Python'da Tekrarlı Düşünmek kılavuzumuza bakın.</p>
 </div>
 
 @slow_down dekoratör her zaman bir saniye uyur. Daha sonra, dekoratöre bir ifadeyi geçirerek oranı nasıl kontrol edeceğinizi göreceksiniz.
