@@ -575,6 +575,8 @@ if __name__ == "__main__":
     print (a_function.__doc__)
 {% endhighlight %}
 <br>
+<div class="pop2"> Fonksiyon Çıktısı:</div>
+<br>
 {% highlight python %}
 
 wrapper
