@@ -458,7 +458,7 @@ Bu kod 8'e dönecek.
 
 <div id="D16" class="pop1">Functools.wraps Ne Yapar?</div>
 
-Bir Süslü fonksiyon kullandığınızda, bir fonksiyonu bir diğeriyle değiştirirsiniz. Başka bir deyişle, bir dekoratörünüz varsa
+Bir süslü fonksiyon kullandığınızda, bir fonksiyonu bir diğeriyle değiştirirsiniz. Başka bir deyişle, bir süslü fonksiyonunuz varsa
 
 {% highlight python %}
 
@@ -499,9 +499,9 @@ ve fonksiyonunuzun f, with_logging fonksiyonuyla değiştirilir. Ne yazık ki, b
 print f.__name__
 {% endhighlight %}
 
- with_logging yazdıracağız, çünkü bu yeni fonksiyonunuzun adı. Aslında, eğer f için docstring değerine bakarsanız, boş olacaktır çünkü with_logging'ın hiçbir docstring değeri yoktur ve yazdığınız dokümanlar artık orada olmayacaktır. Ayrıca, bu fonksiyon için pydoc sonucuna bakarsanız, bir x ifadesi alarak listelenmeyecek; bunun yerine *args ve **kwargs olarak listelenecektir çünkü bu, with_logging'in ele aldığı şeydir.
+ with_logging yazdıracağız, çünkü bu yeni fonksiyonunuzun adı. Aslında, eğer f için docstring belgesi değerine bakarsanız, boş olacaktır çünkü with_logging'ın hiçbir docstring belgesi değeri yoktur ve yazdığınız dokümanlar artık orada olmayacaktır. Ayrıca, bu fonksiyon için pydoc sonucuna bakarsanız, bir x ifadesi alarak listelenmeyecek; bunun yerine *args ve **kwargs olarak listelenecektir çünkü bu, with_logging'in ele aldığı şeydir.
 
-Bir Süslü fonksiyon kullanmak her zaman bir fonksiyon hakkında bu bilgiyi kaybetmek anlamına gelirse, ciddi bir sorun olur. Bu yüzden functools.wraps var. Bu, bir dekoratörde kullanılan bir fonksiyonu alır ve fonksiyon adı, docstring, ifade listesi vb. üzerine kopyalama fonksiyonelliğini ekler. Ve wraps kendisi bir Süslü fonksiyon olduğundan, aşağıdaki kod doğru şeyi yapar:
+Bir süslü fonksiyon kullanmak her zaman bir fonksiyon hakkında bu bilgiyi kaybetmek anlamına gelirse, ciddi bir sorun olur. Bu yüzden functools.wraps var. Bu, bir dekoratörde kullanılan bir fonksiyonu alır ve fonksiyon adı, docstring belgesi, ifade listesi vb. üzerine kopyalama fonksiyonelliğini ekler. Ve wraps kendisi bir Süslü fonksiyon olduğundan, aşağıdaki kod doğru şeyi yapar:
 
 {% highlight python linenos=table %}
 
@@ -606,7 +606,7 @@ FILE
 
 {% endhighlight %}
 <br>
-Bu kodda, **a_function** olarak adlandırılan fonksiyonu bir **another_function** ile dekore ederiz. Fonksiyonun **__name__** ve **__doc__** özelliklerini kullanarak baskı yaparak a_function’ın adını ve docstring belgesini kontrol edebilirsiniz. Bu örneği çalıştırırsanız, çıktı için aşağıdakini alırsınız:
+Bu kodda, **a_function** olarak adlandırılan fonksiyonu bir **another_function** ile dekore ederiz. Fonksiyonun **__name__** ve **__doc__** özelliklerini kullanarak baskı yaparak a_function’ın adını ve docstring belgesi belgesini kontrol edebilirsiniz. Bu örneği çalıştırırsanız, çıktı için aşağıdakini alırsınız:
 
 
 Bu doğru değil! Bu programı IDLE veya yorumlayıcıda çalıştırırsanız, bunun gerçekten kafa karıştırıcı, gerçekten hızlı bir şekilde nasıl elde edilebileceği daha da açık hale gelir. Bu gerçekten nasıl kafa karıştırıcı, gerçekten hızlı olabilir daha da belirgin hale geliyor.
@@ -666,7 +666,7 @@ a_function
 A pretty useless function
 {% endhighlight %}
 
-Şimdi bir kez daha doğru isim ve docstring sahibiz. Python yorumlayıcınıza giderseniz, yardım fonksiyonu artık doğru şekilde çalışacaktır. Burada çıktısını koymaktan vazgeçip, denemeniz için onu bırakacağım.
+Şimdi bir kez daha doğru isim ve docstring belgesi sahibiz. Python yorumlayıcınıza giderseniz, yardım fonksiyonu artık doğru şekilde çalışacaktır. Burada çıktısını koymaktan vazgeçip, denemeniz için onu bırakacağım.
 
 help(example):
 <br>
@@ -694,7 +694,7 @@ FILE
 <div class="pop2"> Wrapping Up</div>
 <br>
 
-wraps dekoratörü hemen hemen bir numaradır, ama ihtiyaç duyduğunuzda oldukça kullanışlıdır. Eğer fonksiyonlarınızın size doğru ismi veya docstring vermediğini fark ederseniz, artık nasıl kolayca düzeltileceğini biliyorsunuz. Mutlu bir kodlama yapın!
+wraps dekoratörü hemen hemen bir numaradır, ama ihtiyaç duyduğunuzda oldukça kullanışlıdır. Eğer fonksiyonlarınızın size doğru ismi veya docstring belgesi vermediğini fark ederseniz, artık nasıl kolayca düzeltileceğini biliyorsunuz. Mutlu bir kodlama yapın!
 
 <br>
 
@@ -1160,7 +1160,7 @@ None
 <br>
 
 
-Maalesef, dekoratörünüz fonksiyondan dönüş değerini yedi.
+Maalesef, süslü fonksiyonunuz fonksiyondan dönüş değerini yedi.
 
 ```do_twice_wrapper()``` fonksiyonu açıkça bir değer döndürmediğinden, ```return_greeting('Adam')``` çağrısı, None döndürerek sona ermiştir.
 
