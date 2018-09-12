@@ -1384,7 +1384,7 @@ countdown(3)
 Liftoff!
 
 {% endhighlight %} 
-<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <br>
 
 <div class="alert alert-warning" role="alert">
