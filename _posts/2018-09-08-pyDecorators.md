@@ -694,7 +694,7 @@ FILE
 <div class="pop2"> Wrapping Up</div>
 <br>
 
-wraps dekoratörü hemen hemen bir numaradır, ama ihtiyaç duyduğunuzda oldukça kullanışlıdır. Eğer fonksiyonlarınızın size doğru ismi veya dokümanı vermediğini fark ederseniz, artık nasıl kolayca düzeltileceğini biliyorsunuz. Mutlu bir kodlama yapın!
+wraps dekoratörü hemen hemen bir numaradır, ama ihtiyaç duyduğunuzda oldukça kullanışlıdır. Eğer fonksiyonlarınızın size doğru ismi veya docstring vermediğini fark ederseniz, artık nasıl kolayca düzeltileceğini biliyorsunuz. Mutlu bir kodlama yapın!
 
 <br>
 
