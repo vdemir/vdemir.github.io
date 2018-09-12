@@ -103,10 +103,10 @@ Tanım olarak, bir Süslü fonksiyon, başka bir fonksiyon alan ve  açık bir �
 
 Esas olarak, dekoratörler sarmalayıcı olarak fonksiyon görürler, fonksiyonun kendisini değiştirmeye gerek kalmadan, orijinal fonksiyonselliği arttırarak ve böylece dekorasyonunu yaparak, kodun bir hedef fonksiyon yürütme işleminden önce ve sonra davranışlarını değiştirirler.
 
-Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nasıl çalıştığına dair birkaç örnek gördükten sonra değil. Bu makaledeki tüm örnekleri burada bulabilirsiniz.
+Bu kafa karıştırıcı gibi geliyor, ancak özellikle de Süslü fonksiyonların nasıl çalıştığına dair birkaç örnek gördükten sonra değil. Bu makaledeki tüm örnekleri burada bulabilirsiniz.
 
 
-<div class="box">Bu kafa karıştırıcı gibi geliyor, ancak özellikle de dekoratörlerin nasıl çalıştığına dair birkaç örnek gördükten sonra değil.</div>
+<div class="box">Bu kafa karıştırıcı gibi geliyor, ancak özellikle de Süslü fonksiyonların nasıl çalıştığına dair birkaç örnek gördükten sonra değil.</div>
 
 <br>
 
@@ -379,7 +379,7 @@ print greet()
 {% endhighlight %}
 
 <br>
-<div class="pop2">Dekoratörlerin Bileşimi</div>
+<div class="pop2">Süslü fonksiyonların Bileşimi</div>
 <br>
 
 Fonksiyon dekoratörler, mevcut fonksiyonlara basit bir şekilde sarılırlar. Yukarıda bahsi geçen fikirleri bir araya getirerek bir Süslü fonksiyon yapabiliriz. Bu örnekte, başka bir fonksiyonun string çıktısını p etiketleriyle saran bir fonksiyonu düşünelim.
@@ -951,7 +951,7 @@ Bununla birlikte, genel olarak bilmediğimiz tüm teknikleri ```'büyü'``` ya d
 
 Biraz Python sihirbazlığı yapalım ve dilin gücünü kullanalım!
 
-Bu yazıda size dekoratörler ve meta sınıfların ilginç bir ortak kullanımını göstermek istiyorum. Yöntemleri işaretlemek için dekoratörlerin nasıl kullanılacağını size göstereceğim, böylece belirli bir işlemi gerçekleştirirken sınıf tarafından otomatik olarak kullanılabilirler.
+Bu yazıda size dekoratörler ve meta sınıfların ilginç bir ortak kullanımını göstermek istiyorum. Yöntemleri işaretlemek için Süslü fonksiyonların nasıl kullanılacağını size göstereceğim, böylece belirli bir işlemi gerçekleştirirken sınıf tarafından otomatik olarak kullanılabilirler.
 
 Daha ayrıntılı olarak, bir dizgeye 'işleyebilmek' için çağrılabilecek bir sınıf uygulayacağım ve basit bir şekilde dekore edilmiş yöntemlerle farklı 'filtreleri' nasıl uygulayacağınızı göstereceğim. Benim elde etmek istediğim şunun gibi:
 
@@ -1122,7 +1122,7 @@ Whee!
 
 <div id="D24" class="pop1">Dekore Edilmiş Fonksiyonlardan Dönen Değerler</div>
 
-Dekorlu fonksiyonların dönüş değeri ne olur? Eh, karar vermek için dekoratöre kalmış. Basit bir fonksiyonu aşağıdaki gibi dekore ettiğinizi varsayalım:
+Dekorlu fonksiyonların dönüş değeri ne olur? Eh, karar vermek için süslü fonksiyona kalmış. Basit bir fonksiyonu aşağıdaki gibi dekore ettiğinizi varsayalım:
 
 {% highlight python  linenos=table %}
 
@@ -1326,7 +1326,7 @@ say_whee()
 
 <div id="D3" class="pop1">Birkaç Gerçek Dünya Örneği</div>
 
-Dekoratörlerin birkaç yararlı örneğine bakalım. Şimdiye kadar öğrendiklerinizle aynı kalıbı takip edeceklerini fark edeceksiniz.
+Süslü fonksiyonların birkaç yararlı örneğine bakalım. Şimdiye kadar öğrendiklerinizle aynı kalıbı takip edeceklerini fark edeceksiniz.
 
 {% highlight python %}
 
@@ -1345,7 +1345,7 @@ def decorator(func):
 Bu formül, daha karmaşık dekoratörler oluşturmak için iyi bir standart kalıptır.
 
 <div class="alert alert-warning" role="alert">
-<p><strong>Not:</strong>  Daha sonraki örneklerde, bu dekoratörlerin de decorators.py dosyanıza kaydedildiğini kabul edeceğiz. Bu derste tüm örnekleri indirebileceğinizi unutmayın.</p>
+<p><strong>Not:</strong>  Daha sonraki örneklerde, bu Süslü fonksiyonların de decorators.py dosyanıza kaydedildiğini kabul edeceğiz. Bu derste tüm örnekleri indirebileceğinizi unutmayın.</p>
 </div>
 
 <br>
@@ -1686,13 +1686,13 @@ Liftoff!
 <p><strong>Not:</strong>  countdown() fonksiyonu özyinelemeli bir fonksiyondur.Başka bir deyişle, kendisini çağıran bir fonksiyondur.  Python'daki özyinelemeli fonksiyonlar hakkında daha fazla bilgi edinmek için, Python'da Tekrarlı Düşünmek kılavuzumuza bakın.</p>
 </div>
 
-@slow_down Süslü fonksiyon her zaman bir saniye uyur. Daha sonra, dekoratöre bir ifadeyi geçirerek oranı nasıl kontrol edeceğinizi göreceksiniz.
+@slow_down süslü fonksiyon her zaman bir saniye uyur. Daha sonra, süslü fonksiyona bir ifadeyi geçirerek oranı nasıl kontrol edeceğinizi göreceksiniz.
 
 <br>
 
 <div id="D34" class="pop1">Eklentileri Kaydetme</div>
 
-Dekoratörlerin, dekore ettikleri fonksiyonu sarması gerekmez. Ayrıca bir fonksiyonun mevcut olduğunu kolayca kaydedebilirler ve sarılmamış olarak döndürebilirler. Bu kullanılabilir, örneğin, hafif bir eklenti mimarisi oluşturmak için kullanılabilir:
+Süslü fonksiyonların, süsledikleri fonksiyonu çevrelemesi gerekmez. Ayrıca bir fonksiyonun mevcut olduğunu kolayca kaydedebilirler ve sarılmamış olarak döndürebilirler. Bu kullanılabilir, örneğin, hafif bir eklenti mimarisi oluşturmak için kullanılabilir:
 
 
 <br>
@@ -1723,7 +1723,7 @@ def randomly_greet(name):
 @register süslü fonksiyonu, global PLUGINS dict içindeki süslü fonksiyona bir atfı basitçe saklar.
 
 <div class="alert alert-primary" role="alert">
-<p><strong>Bilgi:</strong> Python'da bir Süslü fonksiyon, ifade olarak başka bir fonksiyonu kabul eden bir fonksiyondur. Süslü fonksiyon genellikle kabul ettiği fonksiyonu değiştirir veya geliştirir ve değiştirilmiş fonksiyonu döndürür. Süslü bir fonksiyonu çağırdığınızda, temel tanımla karşılaştırıldığında ek özelliklere sahip olabilen, biraz farklı olabilecek bir fonksiyon alacağınız anlamına gelir.</p>
+<p><strong>Bilgi:</strong> Python'da bir süslü fonksiyon, ifade olarak başka bir fonksiyonu kabul eden bir fonksiyondur. Süslü fonksiyon genellikle kabul ettiği fonksiyonu değiştirir veya geliştirir ve değiştirilmiş fonksiyonu döndürür. Süslü bir fonksiyonu çağırdığınızda, temel tanımla karşılaştırıldığında ek özelliklere sahip olabilen, biraz farklı olabilecek bir fonksiyon alacağınız anlamına gelir.</p>
 </div>
 
 
