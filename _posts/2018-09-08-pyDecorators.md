@@ -523,6 +523,8 @@ print (f.__doc__)   # prints 'does some mat
 {% endhighlight %}
 
 <br>
+<div class="pop2"> Fonksiyon Çıktısı:</div>
+<br>
 
 {% highlight python %}
 
