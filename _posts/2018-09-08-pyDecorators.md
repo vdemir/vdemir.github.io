@@ -54,7 +54,7 @@ img.resize {
 		text-decoration-color: orange;
 	}
 	.pop2 {
-		font-size: 1.81vw;
+		font-size: 1.79vw;
 		text-decoration: overline;
 		text-decoration-color: orange;
 	}
