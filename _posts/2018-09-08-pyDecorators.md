@@ -1098,7 +1098,8 @@ Finished  waste_some_time in  0.0029 secs
 In [34]: waste_some_time(999)
 Finished  waste_some_time in  2.8798 secs
 {% endhighlight %} 
-
+<br>
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 Kendi kendinine çalışır. Kod boyunca satır satır çalışır. Nasıl çalıştığını anladığınızdan emin olun. Yine de anlamadıysan endişelenme. Dekoratörler gelişmiş yapılardır. Ertelemeyi deneyin veya program akışını çizi.
 
 Python2'de, print bir ifade sunan bir anahtar kelime oldu: print "Hi"
