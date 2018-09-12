@@ -1008,7 +1008,7 @@ def do_twice(func):
 Dekore edilmiş say_whee() fonksiyonu hakkında bir şey değiştirmeniz gerekmez:
 
 <br>
-<div class="pop2"> Çıktı:</div>
+<div class="pop2"> Fonksiyon Çıktısı:</div>
 <br>
 
 {% highlight python %}
