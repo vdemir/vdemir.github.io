@@ -541,7 +541,7 @@ f was called
 
 <div id="D17" class="pop1">Functools.wraps Nasıl Kullanılır?</div>
 
-Bugün hakkında konuşmak istediğim az bilinen bir araç var. Buna wraps denir ve functools modülünün bir parçasıdır. Doküman dizelerini ve dekore edilmiş işlevlerin adlarını docstrings düzeltmek için bir dekoratör olarak wraps kullanabilirsiniz. Bu neden önemli? Bu ilk başta garip bir durum gibi görünüyor, ancak bir API veya kendinizden başka birisinin kullanacağı herhangi bir kod yazıyorsanız, bu önemli olabilir. Nedeni, Python’un bir başkasının kodunu bulmak için içbakış kullandığınızda, dekore edilmiş bir işlev yanlış bilgileri döndürecektir. Decorum.py olarak adlandırdığım basit bir örneğe bakalım:
+Bugün hakkında konuşmak istediğim az bilinen bir araç var. Buna wraps denir ve functools modülünün bir parçasıdır. Doküman dizelerini ve dekore edilmiş işlevlerin adlarını docstrings düzeltmek için bir dekoratör olarak wraps kullanabilirsiniz. Bu neden önemli? Bu ilk başta garip bir durum gibi görünüyor, ancak bir API veya kendinizden başka birisinin kullanacağı herhangi bir kod yazıyorsanız, bu önemli olabilir. Nedeni, Python’un bir başkasının kodunu bulmak için içbakış kullandığınızda, dekore edilmiş bir fonksiyon yanlış bilgileri döndürecektir. Decorum.py olarak adlandırdığım basit bir örneğe bakalım:
 
 {% highlight python linenos=table %}
 
@@ -1723,7 +1723,7 @@ def randomly_greet(name):
 @register dekoratörü, global PLUGINS dict'daki dekore edilmiş fonksiyona bir atfı basitçe saklar.
 
 <div class="alert alert-primary" role="alert">
-<p><strong>Bilgi:</strong> Python'da bir dekoratör, ifade olarak başka bir fonksiyonu kabul eden bir fonksiyondur. Dekoratör genellikle kabul ettiği fonksiyonu değiştirir veya geliştirir ve değiştirilmiş fonksiyonu döndürür. Bu, süslü bir fonksiyonu çağırdığınızda, temel tanımla karşılaştırıldığında ek özelliklere sahip olabilen, biraz farklı olabilecek bir işlev elde edeceğiniz anlamına gelir.</p>
+<p><strong>Bilgi:</strong> Python'da bir dekoratör, ifade olarak başka bir fonksiyonu kabul eden bir fonksiyondur. Dekoratör genellikle kabul ettiği fonksiyonu değiştirir veya geliştirir ve değiştirilmiş fonksiyonu döndürür. Süslü bir fonksiyonu çağırdığınızda, temel tanımla karşılaştırıldığında ek özelliklere sahip olabilen, biraz farklı olabilecek bir fonksiyon alacağınız anlamına gelir.</p>
 </div>
 
 
