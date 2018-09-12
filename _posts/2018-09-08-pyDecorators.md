@@ -335,7 +335,7 @@ print greet("John")
 
 
 <br>
-<div class="pop2">İşlevler diğer fonksiyonlari geri verebilir</div>
+<div class="pop2">Fonksiyonlar diğer fonksiyonlari geri verebilir</div>
 <br> 
 
 Başka bir deyişle, diğer fonksiyonları üreten fonksiyonlar.
@@ -381,7 +381,7 @@ print greet()
 <div class="pop2">Dekoratörlerin Bileşimi</div>
 <br>
 
-İşlev dekoratörler, mevcut fonksiyonlara basit bir şekilde sarılırlar. Yukarıda bahsi geçen fikirleri bir araya getirerek bir dekoratör yapabiliriz. Bu örnekte, başka bir fonksiyonun string çıktısını p etiketleriyle saran bir fonksiyonu düşünelim.
+Fonksiyon dekoratörler, mevcut fonksiyonlara basit bir şekilde sarılırlar. Yukarıda bahsi geçen fikirleri bir araya getirerek bir dekoratör yapabiliriz. Bu örnekte, başka bir fonksiyonun string çıktısını p etiketleriyle saran bir fonksiyonu düşünelim.
 
 {% highlight python %}
 
