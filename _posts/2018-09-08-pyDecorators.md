@@ -1086,6 +1086,7 @@ def waste_some_time(num_times):
         sum([i**2 for i in range(10000)])
 
 {% endhighlight %}
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <br>
 
 Bu dekoratör, fonksiyonun çalışmaya başlamasından hemen önceki süreyi saklayarak çalışır(# 1 olarak işaretlenmiş satırda) ve fonksiyon bittikten hemen sonra(# 2'de). Fonksiyonun aldığı zaman ikisinin arasındaki farktır(# 3'de). Zaman aralıklarını ölçmek için iyi bir iş yapan time.perf_counter() işlevini kullanırız.
@@ -1098,7 +1099,7 @@ Finished  waste_some_time in  0.0029 secs
 In [34]: waste_some_time(999)
 Finished  waste_some_time in  2.8798 secs
 {% endhighlight %} 
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 Kendi kendinine çalışır. Kod boyunca satır satır çalışır. Nasıl çalıştığını anladığınızdan emin olun. Yine de anlamadıysan endişelenme. Dekoratörler gelişmiş yapılardır. Ertelemeyi deneyin veya program akışını çizi.
 
 Python2'de, print bir ifade sunan bir anahtar kelime oldu: print "Hi"
@@ -1152,7 +1153,7 @@ def make_greeting(name, age=None):
         return f"Whoa {name}! {age} already, you are growing up!"
 
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
  
 <br>
 <div class="pop2">Çıktı:</div>
@@ -1176,7 +1177,7 @@ Calling make_greeting(name='Dorrisile', age=116)
 'make_greeting' returned 'Whoa Dorrisile! 116 already, you are growing up!'
 
 {% endhighlight %} 
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 <br>
 
 {signature}, tüm argümanların dize gösterimlerine katılarak oluşturulur. Aşağıdaki listedeki sayılar, koddaki numaralı yorumlara karşılık gelir:
@@ -1225,7 +1226,7 @@ def approximate_e(terms=18):
 
 approximate_e(5) 
 {% endhighlight %}
-
+<div class="pop2"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;</div>
 
 <br>
 
