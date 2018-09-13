@@ -1880,7 +1880,7 @@ class Circle:
 Bu sınıfta:
 
 -  .cylinder_volume() normal bir yordamdır.
-
+-  .radius değişken bir özelliktir: farklı bir değere ayarlanabilir. Ancak, bir setter metodu tanımlayarak, bir anlamsız negatif sayıya ayarlanmadığından emin olmak için bazı hata testleri yapabiliriz. Özelliklere parantez olmadan öznitelikler olarak erişilebilir.
 
 
 
