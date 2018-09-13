@@ -1883,7 +1883,7 @@ Bu sınıfta:
 -  .radius, değişken bir niteliktir: farklı bir değere ayarlanabilir. Ancak, bir setter metodu tanımlayarak, anlamsız bir negatif sayıya ayarlanmadığından emin olmak için bazı hata testleri yapabiliriz. Özelliklere parantez olmadan öznitelikler olarak erişilebilir.
 -  .area değişmez bir niteliktir: .setter() yordamları dışındaki nitelikler, değiştirilemez. Bir yordam olarak tanımlanmış olsa bile, parantez içermeyen bir öznitellik olarak yeniden ele alınabilir.
 -  .unit_circle() bir sınıf yordamıdır. Belirli bir Circle özdeşine bağlı değildir. Sınıf yordamları, sınıfın belirli özdeşlerini oluşturabilen fabrika yordamları olarak sıklıkla kullanılır.
-
+-  .pi() statik bir yordamdır. Circle sınıfına gerçekten bağlı değildir, onun aduzayının bir parçası olması dışında. Statik yordamlar, bir özdeşte veya sınıfta çağrılabilir.
 
 
 
