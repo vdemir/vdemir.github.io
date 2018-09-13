@@ -1817,7 +1817,7 @@ Web çatınıza kimlik doğrulamanın nasıl ekleneceği hakkında bir fikir ver
 <div id="D4" class="pop0">Çok Süslü Fonksiyonlar</div>
 
 <br>
-Şimdiye kadar, basit dekoratörlerin nasıl oluşturulduğunu gördünüz. Dekoratörlerin ne olduğunu ve nasıl çalıştıklarını çok iyi biliyorsunuz. Öğrendiğiniz herşeyi uygulamak için bu makaleden bir ara vermekte özgür hissedin.
+Şimdiye kadar, basit süslü fonksiyonların nasıl oluşturulduğunu gördünüz. Dekoratörlerin ne olduğunu ve nasıl çalıştıklarını çok iyi biliyorsunuz. Öğrendiğiniz herşeyi uygulamak için bu makaleden bir ara vermekte özgür hissedin.
 
 Bu eğiticinin ikinci bölümünde, aşağıdakileri nasıl kullanacağınız da dahil olmak üzere daha gelişmiş özellikleri inceleyeceğiz:
 
@@ -1927,8 +1927,23 @@ Out[11]: 3.1415926535
 
 Önceden @debug ve @timer süslü fonksiyonlarını kullanarak bazı yordamlarını süslediğimiz bir sınıfı tanımlayalım:
 
+<br>
 
+{% highlight python  linenos=table %}
+from decorators import debug, timer
 
+class TimeWaster:
+    @debug
+    def __init__(self, max_num):
+        self.max_num = max_num
 
+    @timer
+    def waste_time(self, num_times):
+        for _ in range(num_times):
+            sum([i**2 for i in range(self.max_num)])
+
+{% endhighlight %}
+
+Bu sınıfı kullanarak, süslü fonksiyonların etkisini görebilirsiniz:
 
 
