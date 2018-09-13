@@ -103,10 +103,10 @@ Tanım olarak, bir Süslü fonksiyon, başka bir fonksiyon alan ve  açık bir �
 
 Esas olarak, süslü fonksiyonlar çevreleyici olarak fonksiyon görürler, fonksiyonun kendisini değiştirmeye gerek kalmadan, orijinal fonksiyonselliği arttırarak ve böylece süslemesini yaparak, kodun bir hedef fonksiyon yürütme işleminden önce ve sonra davranışlarını değiştirirler.
 
-Bu kafa karıştırıcı gibi geliyor, ancak özellikle de Süslü fonksiyonların nasıl çalıştığına dair birkaç örnek gördükten sonra değil. Bu makaledeki tüm örnekleri burada bulabilirsiniz.
+Bu kafa karıştırıcı gibi geliyor, ancak özellikle de süslü fonksiyonların nasıl çalıştığına dair birkaç örnek gördükten sonra değil. Bu makaledeki tüm örnekleri burada bulabilirsiniz.
 
 
-<div class="box">Bu kafa karıştırıcı gibi geliyor, ancak özellikle de Süslü fonksiyonların nasıl çalıştığına dair birkaç örnek gördükten sonra değil.</div>
+<div class="box">Bu kafa karıştırıcı gibi geliyor, ancak özellikle de süslü fonksiyonların nasıl çalıştığına dair birkaç örnek gördükten sonra değil.</div>
 
 <br>
 
@@ -382,7 +382,7 @@ print greet()
 <div class="pop2">Süslü fonksiyonların Bileşimi</div>
 <br>
 
-Süslü fonksiyonlar, mevcut fonksiyonları basit bir şekilde çevrelerler. Yukarıda bahsi geçen fikirleri bir araya getirerek bir Süslü fonksiyon yapabiliriz. Bu örnekte, başka bir fonksiyonun string çıktısını p etiketleriyle saran bir fonksiyonu düşünelim.
+Süslü fonksiyonlar, mevcut fonksiyonları basit bir şekilde çevrelerler. Yukarıda bahsi geçen fikirleri bir araya getirerek bir süslü fonksiyon yapabiliriz. Bu örnekte, başka bir fonksiyonun string çıktısını p etiketleriyle saran bir fonksiyonu düşünelim.
 
 {% highlight python %}
 
@@ -501,7 +501,7 @@ print f.__name__
 
  with_logging yazdıracağız, çünkü bu yeni fonksiyonunuzun adı. Aslında, eğer f için docstring belgesi değerine bakarsanız, boş olacaktır çünkü with_logging'ın hiçbir docstring belgesi değeri yoktur ve yazdığınız dokümanlar artık orada olmayacaktır. Ayrıca, bu fonksiyon için pydoc sonucuna bakarsanız, bir x ifadesi alarak listelenmeyecek; bunun yerine *args ve **kwargs olarak listelenecektir çünkü bu, with_logging'in ele aldığı şeydir.
 
-Bir süslü fonksiyon kullanmak her zaman bir fonksiyon hakkında bu bilgiyi kaybetmek anlamına gelirse, ciddi bir sorun olur. Bu yüzden functools.wraps var. Bu, bir süslü fonksiyonda kullanılan bir fonksiyonu alır ve fonksiyon adı, docstring belgesi, ifade listesi vb. üzerine kopyalama fonksiyonelliğini ekler. Ve wraps kendisi bir Süslü fonksiyon olduğundan, aşağıdaki kod doğru şeyi yapar:
+Bir süslü fonksiyon kullanmak her zaman bir fonksiyon hakkında bu bilgiyi kaybetmek anlamına gelirse, ciddi bir sorun olur. Bu yüzden functools.wraps var. Bu, bir süslü fonksiyonda kullanılan bir fonksiyonu alır ve fonksiyon adı, docstring belgesi, ifade listesi vb. üzerine kopyalama fonksiyonelliğini ekler. Ve wraps kendisi bir süslü fonksiyon olduğundan, aşağıdaki kod doğru şeyi yapar:
 
 {% highlight python linenos=table %}
 
@@ -541,7 +541,7 @@ f was called
 
 <div id="D17" class="pop1">Functools.wraps Nasıl Kullanılır?</div>
 
-Bugün hakkında konuşmak istediğim az bilinen bir araç var. Buna wraps denir ve functools modülünün bir parçasıdır. Doküman dizelerini ve süslü işlevlerin adlarını docstrings düzeltmek için bir Süslü fonksiyon olarak wraps kullanabilirsiniz. Bu neden önemli? Bu ilk başta garip bir durum gibi görünüyor, ancak bir API veya kendinizden başka birisinin kullanacağı herhangi bir kod yazıyorsanız, bu önemli olabilir. Nedeni, Python’un bir başkasının kodunu bulmak için içbakış kullandığınızda, süslü bir fonksiyon yanlış bilgileri döndürecektir. Decorum.py olarak adlandırdığım basit bir örneğe bakalım:
+Bugün hakkında konuşmak istediğim az bilinen bir araç var. Buna wraps denir ve functools modülünün bir parçasıdır. Doküman dizelerini ve süslü işlevlerin adlarını docstring belgelerini düzeltmek için bir @süslü fonksiyon olarak wraps kullanabilirsiniz. Bu neden önemli? Bu ilk başta garip bir durum gibi görünüyor, ancak bir API veya kendinizden başka birisinin kullanacağı herhangi bir kod yazıyorsanız, bu önemli olabilir. Nedeni, Python’un bir başkasının kodunu bulmak için içbakış kullandığınızda, süslü bir fonksiyon yanlış bilgileri döndürecektir. Decorum.py olarak adlandırdığım basit bir örneğe bakalım:
 
 {% highlight python linenos=table %}
 
@@ -951,7 +951,7 @@ Bununla birlikte, genel olarak bilmediğimiz tüm teknikleri ```'büyü'``` ya d
 
 Biraz Python sihirbazlığı yapalım ve dilin gücünü kullanalım!
 
-Bu yazıda size süslü fonksiyonlar ve meta sınıfların ilginç bir ortak kullanımını göstermek istiyorum. Yöntemleri işaretlemek için Süslü fonksiyonların nasıl kullanılacağını size göstereceğim, böylece belirli bir işlemi gerçekleştirirken sınıf tarafından otomatik olarak kullanılabilirler.
+Bu yazıda size süslü fonksiyonlar ve meta sınıfların ilginç bir ortak kullanımını göstermek istiyorum. Yöntemleri işaretlemek için süslü fonksiyonların nasıl kullanılacağını size göstereceğim, böylece belirli bir işlemi gerçekleştirirken sınıf tarafından otomatik olarak kullanılabilirler.
 
 Daha ayrıntılı olarak, bir dizgeye 'işleyebilmek' için çağrılabilecek bir sınıf uygulayacağım ve basit bir şekilde süslü yöntemlerle farklı 'filtreleri' nasıl uygulayacağınızı göstereceğim. Benim elde etmek istediğim şunun gibi:
 
