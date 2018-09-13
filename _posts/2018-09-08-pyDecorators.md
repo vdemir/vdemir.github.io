@@ -1614,7 +1614,6 @@ Sınıfın özniteliklerini doğrudan yazdırarak veya sınıflarınıza özel b
 
 <br>
 
-<h2 class="python3">Python</h2>
 
 {% highlight python  linenos=table %}
 class Car(object):
@@ -1629,7 +1628,7 @@ class Car(object):
 {% endhighlight %}
 
 <br>
-<div class="pop2"> Fonksiyon Çıktısı:</div>
+<h2 class="python3">Python</h2>
 <br> 
 
 {% highlight python %}
