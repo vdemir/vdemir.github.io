@@ -1745,9 +1745,13 @@ Using 'say_hello'
 
 {% endhighlight %} 
 <br> 
-
-
-
-
-
+<h2 class="python3">Python</h2>
+<style>
+.python3 {
+    background-color: #dfebf5;
+    color:#32516b;
+    border-color:#d3e3f1;
+    padding: 10px;
+}
+</style>
 
