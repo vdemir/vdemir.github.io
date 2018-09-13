@@ -1588,7 +1588,7 @@ class Car:
 {% endhighlight %}
 
 <br>
-<div class="pop2"> Fonksiyon Çıktısı:</div>
+<h2 class="python3">Python</h2>
 <br>
 
 {% highlight python %}
@@ -1613,6 +1613,8 @@ Varsayılan olarak, aldığınız tek şey sınıf adını ve nesne örneğinin 
 Sınıfın özniteliklerini doğrudan yazdırarak veya sınıflarınıza özel bir ```to_string()``` yöntemi ekleyerek, bu konu üzerinde çalışmaya deneyebilirsiniz.
 
 <br>
+
+<h2 class="python3">Python</h2>
 
 {% highlight python  linenos=table %}
 class Car(object):
@@ -1752,6 +1754,7 @@ print(f"{PLUGINS}")
 {% highlight python %}
 
 Using 'say_hello'
+
 {'say_hello': <function say_hello at 0x7f0105032730>, 
 'be_awesome': <function be_awesome at 0x7f01050327b8>}
 
