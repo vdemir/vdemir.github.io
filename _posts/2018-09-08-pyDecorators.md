@@ -1528,7 +1528,7 @@ approximate_e(5)
 Bu örnek ayrıca, bir süslü fonksiyonun önceden tanımlanmış bir fonksiyona nasıl uygulanabileceğini gösterir. ```e```'nin yaklaşımı, aşağıdaki dizi genişlemesine dayanmaktadır:
 
 
- e'nin değeri de  1/0!  +  1/1!  +  1/2!  +  1/3!  +  1/4!  +  1/5!  +  1/6!  +  1/7!  + ... (etc) eşittir
+ e'nin değeri de  ```1/0!  +  1/1!  +  1/2!  +  1/3!  +  1/4!  +  1/5!  +  1/6!  +  1/7!  + ... (etc)``` eşittir
 
 ```Approximate_e()``` fonksiyonunu çağırırken, @debug süslü fonksiyonunu iş başında görebilirsiniz:
 
