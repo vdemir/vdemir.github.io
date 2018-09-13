@@ -1563,8 +1563,7 @@ class Car:
         self.mileage = mileage
 
 {% endhighlight %}
-
-<br>
+ 
 <h2 class="python3">Python</h2>
 <br>
 
