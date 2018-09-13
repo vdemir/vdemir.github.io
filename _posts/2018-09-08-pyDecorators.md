@@ -1752,6 +1752,11 @@ Using 'say_hello'
     color:#32516b;
     border-color:#d3e3f1;
     padding: 10px;
+    position:relative;
+    padding:.75rem 1.25rem;
+    margin-bottom:1.125rem;
+    border:1px solid transparent;
+    border-radius:.25rem;
 }
 </style>
 
