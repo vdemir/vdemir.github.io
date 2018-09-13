@@ -606,18 +606,18 @@ FILE
 
 {% endhighlight %}
 <br>
-Bu kodda, **a_function** olarak adlandırılan fonksiyonu bir **another_function** ile dekore ederiz. Fonksiyonun **__name__** ve **__doc__** özelliklerini kullanarak baskı yaparak a_function’ın adını ve docstring belgesi belgesini kontrol edebilirsiniz. Bu örneği çalıştırırsanız, çıktı için aşağıdakini alırsınız:
+Bu kodda, '''**a_function**''' olarak adlandırılan fonksiyonu bir **another_function** ile dekore ederiz. Fonksiyonun '''**__name__**''' ve '''**__doc__**''' özelliklerini kullanarak baskı yaparak '''a_function'''’ın adını ve '''docstring''' belgesi belgesini kontrol edebilirsiniz. Bu örneği çalıştırırsanız, çıktı için aşağıdakini alırsınız:
 
 
 Bu doğru değil! Bu programı IDLE veya yorumlayıcıda çalıştırırsanız, bunun gerçekten kafa karıştırıcı, gerçekten hızlı bir şekilde nasıl elde edilebileceği daha da açık hale gelir. Bu gerçekten nasıl kafa karıştırıcı, gerçekten hızlı olabilir daha da belirgin hale geliyor.
 
-Temel olarak burada olan şey, süslü fonksiyonun adını ve docstring belgesini kendi başına değiştirmesidir.
+Temel olarak burada olan şey, süslü fonksiyonun adını ve '''docstring''' belgesini kendi başına değiştirmesidir.
 
 <br>
 
 <div id="D17" class="pop1">Wraps to the Rescue!</div>
 
-Bu küçük karışıklığı nasıl düzeltiriz? Python geliştiricileri bize functools.wraps çözümü verdi! Hadi kontrol edelim:
+Bu küçük karışıklığı nasıl düzeltiriz? Python geliştiricileri bize '''functools.wraps''' çözümü verdi! Hadi kontrol edelim:
 
 
 {% highlight python linenos=table %}
@@ -655,7 +655,7 @@ if __name__ == "__main__":
 {% endhighlight %}
 
 
-Burada functools modülünden wraps ları içe aktarıyoruz ve bir another_function içindeki iç içe wrapper fonksiyonu için bir süslü fonksiyon olarak kullanıyoruz. Bu kez onu çalıştırırsanız, çıktı değişmiş olacaktır:
+Burada '''functools''' modülünden '''wraps''' ları içe aktarıyoruz ve bir '''another_function''' içindeki iç içe '''wrapper''' fonksiyonu için bir süslü fonksiyon olarak kullanıyoruz. Bu kez onu çalıştırırsanız, çıktı değişmiş olacaktır:
 
 <br>
 <div class="pop2"> Fonksiyon Çıktısı:</div>
@@ -842,7 +842,7 @@ def do_twice(func):
 
 <br>
 <div class="alert alert-primary" role="alert">
-<p><strong>Note:</strong> İçsel fonksiyonunuzu istediğiniz gibi adlandırın ve **wrapper()** gibi genel bir ad genellikle tamamdır. Bu makalede çok sayıda süslü fonksiyon göreceksiniz. Bunları ayrı tutmak için, iç fonksiyonu, süslü fonksiyonla aynı adla, ancak bir **wrapper_** önekiyle adlandıracağız.</p>
+<p><strong>Note:</strong> İçsel fonksiyonunuzu istediğiniz gibi adlandırın ve '''**wrapper()**''' gibi genel bir ad genellikle tamamdır. Bu makalede çok sayıda süslü fonksiyon göreceksiniz. Bunları ayrı tutmak için, iç fonksiyonu, süslü fonksiyonla aynı adla, ancak bir '''**wrapper_**''' önekiyle adlandıracağız.</p>
 </div>
 
 Bu yeni süslü fonksiyonu, normal bir içe aktarma yaparak diğer dosyalarda kullanabilirsiniz:
