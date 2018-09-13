@@ -986,7 +986,7 @@ msp = MyStringProcessor()
 [Bu yazı içerisinde kullanılan kaynak kodun tamamını içerir.]({{ site.baseurl }}/assets/strproc.py)
 
 Modül, bir standart imza ```(self, str)``` içeren ve 
-```stringfilter``` ile dekore edilen ekleme yöntemlerini alıp özelleştirebileceğim bir ```StringProcessor``` sınıfı tanımlar. Bu sınıf daha sonra örneklenebilir ve örnek, bir dizeyi doğrudan işlemek ve sonucu döndürmek için kullanılır. Dahili olarak sınıf, tüm süslü yöntemleri art arda otomatik olarak yürütür. Ayrıca, sınıfın, filtreleri tanımladığım sıraya uymasını istiyorum: ilk önce, ilk olarak çalıştırılır.
+```stringfilter``` ile dekore edilen ekleme yordamlarını alıp özelleştirebileceğim bir ```StringProcessor``` sınıfı tanımlar. Bu sınıf daha sonra örneklenebilir ve örnek, bir dizeyi doğrudan işlemek ve sonucu döndürmek için kullanılır. Dahili olarak sınıf, tüm süslü yöntemleri art arda otomatik olarak yürütür. Ayrıca, sınıfın, filtreleri tanımladığım sıraya uymasını istiyorum: ilk önce, ilk olarak çalıştırılır.
 
 Metaclasses bu hedefe ulaşmak için nasıl yardımcı olabilir? 
 
@@ -1925,7 +1925,7 @@ Out[11]: 3.1415926535
 
 {% endhighlight %}
 
-
+Önceden @debug ve @timer süslü fonksiyonlarını kullanarak bazı yordamlarını süslediğimiz bir sınıfı tanımlayalım:
 
 
 
