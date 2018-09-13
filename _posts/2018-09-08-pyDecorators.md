@@ -1679,7 +1679,7 @@ countdown(3)
 @slow_down süslü fonksiyonunun etkisini görmek için, örneği kendiniz uygulamanız gerekiyor:
 
 <br>
-<div class="pop2"> Fonksiyon Çıktısı:</div>
+<h2 class="python3">Python</h2>
 <br>
 {% highlight python %}
 
