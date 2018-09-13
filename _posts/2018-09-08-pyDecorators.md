@@ -66,7 +66,7 @@ img.resize {
     		margin-bottom:1.125rem;
     		border:1px solid transparent;
     		border-radius:.25rem;
-                max-width:11%;
+                max-width:100%;
   		max-height:100%;
        }
 
