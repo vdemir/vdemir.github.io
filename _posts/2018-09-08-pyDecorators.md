@@ -714,7 +714,7 @@ wraps süslü fonksiyonu hemen hemen bir numaradır, ama ihtiyaç duyduğunuzda 
 
 <br>
 
-<div id="D2" class="pop0">Basit Süslü fonksiyonlar</div>
+<div id="D2" class="pop0">Basit Süslü Fonksiyonlar</div>
 
 Artık, bu fonksiyonların Python'daki diğer herhangi bir öbek gibi olduğunu gördüğünüze göre, Python süslü fonksiyonu olan büyülü yaratığa geçmeye ve görmeye hazırsınız. Bir örnekle başlayalım:
 
