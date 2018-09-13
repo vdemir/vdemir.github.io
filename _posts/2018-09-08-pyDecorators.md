@@ -2,7 +2,7 @@
 layout: post
 title:  Python Süslü fonksiyonlar için Bir Başlangıç
 date:   2018-09-08 12:00:00
-last_updated: 2018-09-11 12:00:00
+last_updated: 2018-09-15 12:00:00
 keywords: linux, python, decorators
 summary: "Python 3 Dekoratörlere Giriş"
 excerpt: This post is about Python Decorators.
