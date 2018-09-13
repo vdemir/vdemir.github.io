@@ -1876,6 +1876,12 @@ class Circle:
         return 3.1415926535
 
 {% endhighlight %}
+<br>
+Bu sınıfta:
+
+-  .cylinder_volume() normal bir yordamdır.
+
+
 
 
 
