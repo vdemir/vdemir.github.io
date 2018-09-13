@@ -99,7 +99,8 @@ img.resize {
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Eklentileri Kaydetme](#D34)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Kullanıcı Oturumu Açıldı mı?](#D35)
 + [Çok Süslü Fonksiyonlar](#D4)
-    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[](#D41)
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[İç İçe Süslü Fonksiyonlar](#D41)
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[İfadeler ile Süslü Fonksiyonlar](#D42)
 
 
 Süslü fonksiyonlarla ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Süslü fonksiyonlar, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
@@ -2210,6 +2211,9 @@ Hello Eva
 {% endhighlight %}
 
 
+<br>
+
+<div id="D41" class="pop1">İfadeler ile Süslü Fonksiyonlar</div>
 
 
 
