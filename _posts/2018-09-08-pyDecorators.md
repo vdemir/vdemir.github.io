@@ -1753,11 +1753,12 @@ Python'da globals() ile tanışıyorsanız, eklenti mimarisinin nasıl çalışt
 
 {% highlight python %}
 
-{'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': 
- <_frozen_importlib_external.SourceFileLoader object at 0x7faf79ec9c50>, '__spec__': None, '__annotations__': {}, '__builtins__': 
-<module 'builtins' (built-in)>, '__file__': '/tmp/sessions/37af0fce7645f9ae/main.py', '__cached__': 
-None, 'random': <module 'random' from '/usr/lib/python3.6/random.py'>, 'PLUGINS':
- {'say_hello': <function say_hello at 0x7faf789126a8>, 'be_awesome': <function be_awesome at 0x7faf78912730>}, 'register': <function register at 0x7faf79eeee18>, 'say_hello': <function say_hello at 0x7faf789126a8>, 'be_awesome': <function be_awesome at 0x7faf78912730>, 'randomly_greet': <function randomly_greet at 0x7faf789127b8>, 'v': {...}}
+'PLUGINS':
+{..., # Lots of variables not shown here.
+'register': <function register at 0x7faf79eeee18>, 
+'say_hello': <function say_hello at 0x7faf789126a8>, 
+'be_awesome': <function be_awesome at 0x7faf78912730>, 
+'randomly_greet': <function randomly_greet at 0x7faf789127b8>}
 
 
 {% endhighlight %} 
