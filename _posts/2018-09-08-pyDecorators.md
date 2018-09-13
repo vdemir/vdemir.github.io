@@ -2020,7 +2020,7 @@ class PlayingCard:
 
 {% endhighlight %}
 
-
+Sözdiziminin anlamı, fonksiyon süslemelerine benzer. Yukarıdaki örnekte, Fonksiyon süslemesini PlayingCard = dataclass (PlayingCard) yazarak yapabilirdiniz.
 
 
 
