@@ -2007,9 +2007,18 @@ Finished 'waste_time' in 0.2627 secs
 
 {% endhighlight %}
 
+Süslü fonksiyonları sınıflarda kullanmanın diğer yolu tüm sınıfı süslemektir. Bu, örneğin, Python 3.7'deki yeni dataclasses modülünde yapılır:
 
+{% highlight python %}
 
+from dataclasses import dataclass
 
+@dataclass
+class PlayingCard:
+    rank: str
+    suit: str
+
+{% endhighlight %}
 
 
 
