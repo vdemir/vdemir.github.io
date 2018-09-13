@@ -2109,7 +2109,16 @@ Sonra, uygun bir sınıf dekoratörünü tanımlayan, bir sınıfın sadece bir 
 
 Birbirlerine üst üste istifleyerek birkaç süslü fonksiyonu bir fonksiyona uygulayabilirsiniz:
 
+{% highlight python %}
 
+from decorators import debug, do_twice
+
+@debug
+@do_twice
+def greet(name):
+    print(f"Hello {name}")
+
+{% endhighlight %}
 
 
 
