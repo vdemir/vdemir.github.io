@@ -1773,7 +1773,7 @@ Python'da globals() ile tanışıyorsanız, eklenti mimarisinin nasıl çalışt
 
 {% endhighlight %} 
 
-
+@register süslü fonksiyonunu kullanarak kendi seçilmiş ilginç değişkenler listenizi oluşturabilirsiniz, globals()'dan bazı fonksiyonları etkin bir şekilde seçer.
 
 
 
