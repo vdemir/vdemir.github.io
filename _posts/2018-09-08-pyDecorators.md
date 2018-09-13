@@ -382,7 +382,7 @@ print greet()
 <div class="pop2">Süslü fonksiyonların Bileşimi</div>
 <br>
 
-Fonksiyon süslü fonksiyonlar, mevcut fonksiyonlara basit bir şekilde sarılırlar. Yukarıda bahsi geçen fikirleri bir araya getirerek bir Süslü fonksiyon yapabiliriz. Bu örnekte, başka bir fonksiyonun string çıktısını p etiketleriyle saran bir fonksiyonu düşünelim.
+Süslü fonksiyonlar, mevcut fonksiyonları basit bir şekilde çevrelerler. Yukarıda bahsi geçen fikirleri bir araya getirerek bir Süslü fonksiyon yapabiliriz. Bu örnekte, başka bir fonksiyonun string çıktısını p etiketleriyle saran bir fonksiyonu düşünelim.
 
 {% highlight python %}
 
@@ -1289,7 +1289,7 @@ def do_twice(func):
 <br>
 
 <div class="alert alert-success" role="alert">
-<p><strong>functools:</strong>  - Yüksek mertebeden fonksiyonlar ve istenebilen nesneler üzerindeki işlemler. Functools modülü üst düzey fonksiyonlar içindir: diğer fonksiyonlar üzerinde hareket eden veya dönen fonksiyonlar. Genel olarak, herhangi bir değiştirilebilir nesne bu modülün amaçları için bir fonksiyon olarak ele alınabilir.Bu, bir wrapper fonksiyonunu tanımlarken update_wrapper() öğesini bir fonksiyon Süslü fonksiyon olarak çağırmak için bir kolaylık fonksiyonudur. Bu kısmi (update_wrapper, sarılmış = sarılmış, atanan = atanan, güncellenmiş = güncellenmiş) eşdeğerdir.</p>
+<p><strong>functools:</strong>  - Yüksek mertebeden fonksiyonlar ve istenebilen nesneler üzerindeki işlemler. Functools modülü üst düzey fonksiyonlar içindir: diğer fonksiyonlar üzerinde hareket eden veya dönen fonksiyonlar. Genel olarak, herhangi bir değiştirilebilir nesne bu modülün amaçları için bir fonksiyon olarak ele alınabilir.Bu, bir wrapper fonksiyonunu tanımlarken update_wrapper() öğesini bir fonksiyon Süslü fonksiyon olarak çağırmak için bir kolaylık fonksiyonudur. Bu kısmi (update_wrapper, çevrelenmiş = çevrelenmiş, atanan = atanan, güncellenmiş = güncellenmiş) eşdeğerdir.</p>
 </div>
   
 <br>
@@ -1634,10 +1634,7 @@ Genel fikir burada doğru olanıdır -ancak Python'un nesnelerin dizge olarak na
 
 <div id="D33" class="pop1">Kod Aşağı Çekiliyor</div>
 
-Bu sonraki örnek çok kullanışlı görünmeyebilir. Neden Python kodunuzu yavaşlatmak istersiniz? Muhtemelen en yaygın kullanım durumu, bir kaynağın değişip değişmediğini sürekli olarak kontrol eden bir fonksiyonu derecelendirmek - sınırlandırmak istediğinizdir.
-
-Muhtemelen en yaygın kullanım durumu, - bir web sayfası gibi - bir kaynağın olup olmadığını sürekli kontrol eden bir fonksiyonun hızını limitlemek istemenizdir. @slow_down Süslü fonksiyon, süslü fonksiyonu çağırmadan önce bir saniye uyuyacaktır:
-
+Bu sonraki örnek çok kullanışlı görünmeyebilir. Neden Python kodunuzu yavaşlatmak istersiniz? Muhtemelen en yaygın kullanım durumu, - bir web sayfası gibi - bir kaynağın olup olmadığını sürekli kontrol eden bir fonksiyonun hızını limitlemek istemenizdir. @slow_down Süslü fonksiyon, süslü fonksiyonu çağırmadan önce bir saniye uyuyacaktır:
 
 "With "Why would you want to slow down your Python code? " you're questioning the other person's motivations, which implies that a) it was deliberate and b) they might do it again c) you're simply asking about someone's motivation or opinions."
 
@@ -1692,7 +1689,7 @@ Liftoff!
 
 <div id="D34" class="pop1">Eklentileri Kaydetme</div>
 
-Süslü fonksiyonların, süsledikleri fonksiyonu çevrelemesi gerekmez. Ayrıca bir fonksiyonun mevcut olduğunu kolayca kaydedebilirler ve sarılmamış olarak döndürebilirler. Bu kullanılabilir, örneğin, hafif bir eklenti mimarisi oluşturmak için kullanılabilir:
+Süslü fonksiyonların, süsledikleri fonksiyonu çevrelemesi gerekmez. Ayrıca bir fonksiyonun mevcut olduğunu kolayca kaydedebilirler ve çevrelenmemiş olarak döndürebilirler. Bu kullanılabilir, örneğin, hafif bir eklenti mimarisi oluşturmak için kullanılabilir:
 
 
 <br>
