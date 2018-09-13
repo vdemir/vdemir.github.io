@@ -1748,8 +1748,8 @@ Using 'say_hello'
 <h2 class="python3">Python</h2>
 <style>
 .python3 {
-    background-color: #3498db;
-    color:#2c3e50;
+    background-color: #dfebf5;
+    color:#3498db;
     border-color:#d3e3f1;
     position:relative;
     padding:.75rem 1.25rem;
