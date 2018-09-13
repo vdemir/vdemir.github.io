@@ -1681,8 +1681,7 @@ countdown(3)
 @slow_down süslü fonksiyonunun etkisini görmek için, örneği kendiniz uygulamanız gerekiyor:
 
 <br>
-<h2 class="python3">Python</h2>
-<br>
+<h2 class="python3">Python</h2> 
 {% highlight python %}
 
 3
@@ -1707,8 +1706,6 @@ Süslü fonksiyonların, süsledikleri fonksiyonu çevrelemesi gerekmez. Ayrıca
 
 
 <br>
-
-<h2 class="python3">Python</h2>
 
 {% highlight python  linenos=table %}
 import random
