@@ -1880,8 +1880,11 @@ class Circle:
 Bu sınıfta:
 
 -  .cylinder_volume() normal bir yordamdır.
--  .radius, değişken bir özelliktir: farklı bir değere ayarlanabilir. Ancak, bir setter metodu tanımlayarak, anlamsız bir negatif sayıya ayarlanmadığından emin olmak için bazı hata testleri yapabiliriz. Özelliklere parantez olmadan öznitelikler olarak erişilebilir.
--  .area değişmez bir niteliktir: .setter() yordamları dışında nitelikler, değiştirilemez. Bir yordam olarak tanımlanmış olsa bile, parantez içermeyen bir öznitellik olarak alınabilir.
+-  .radius, değişken bir niteliktir: farklı bir değere ayarlanabilir. Ancak, bir setter metodu tanımlayarak, anlamsız bir negatif sayıya ayarlanmadığından emin olmak için bazı hata testleri yapabiliriz. Özelliklere parantez olmadan öznitelikler olarak erişilebilir.
+-  .area değişmez bir niteliktir: .setter() yordamları dışındaki nitelikler, değiştirilemez. Bir yordam olarak tanımlanmış olsa bile, parantez içermeyen bir öznitellik olarak yeniden ele alınabilir.
+
+
+
 
 
 
