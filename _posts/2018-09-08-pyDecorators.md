@@ -2022,8 +2022,8 @@ class PlayingCard:
 
 Sözdiziminin anlamı, fonksiyon süslemelerine benzer. Yukarıdaki örnekte, Fonksiyon süslemesini PlayingCard = dataclass (PlayingCard) yazarak yapabilirdiniz.
 
+Sınıf süslü fonksiyonlarının yaygın bir kullanımı, metasınıfların bazı kullanım durumlarına daha basit bir alternatif olmaktır. Her iki durumda da, bir sınıfın tanımını dinamik olarak değiştiriyorsunuz.
 
-
-
+Bir sınıf süslüsünün yazılması, bir fonksiyon süslüsünün yazılmasına çok benzer. Tek fark, süslü fonksiyonun bir ifade olarak bir fonksiyon değil bir sınıf alacağıdır. Aslında, yukarıda gördüğünüz tüm süslü fonksiyonlar, sınıf süslüleri olarak çalışacak. Onları bir fonksiyon yerine bir sınıfta kullanırken, bunların etkisi istediğiniz gibi olmayabilir. Aşağıdaki örnekte, @timer süslü fonksiyonu bir sınıfa uygulanır:
 
 
