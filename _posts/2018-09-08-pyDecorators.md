@@ -272,8 +272,11 @@ Out[5]: <function __main__.ebeveyn.<locals>.ikinci_veled>
 Bir miktar şifreli çıktı, basitçe, ```ebeveyn()``` içindeki, ```ikinci``` değişkeni ```ikinci_veled()``` fonksiyonuna işaret ederken ```ilk``` değişkeni yerel ```ilk_veled()``` fonksiyonuna başvurur.
 
 İşaret ettikleri fonksiyonlara doğrudan erişilemese bile, artık normal fonksiyonlarmış gibi şimdi ```ilk``` ve ```ikinci``` kullanabilirsiniz:
+
 <br>
+
 <h2 class="python3">Python</h2>
+
 {% highlight python %}
 In [8]: ilk=ebeveyn(1)
 In [9]: ilk()
