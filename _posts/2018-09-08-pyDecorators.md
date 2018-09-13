@@ -129,8 +129,7 @@ def ekle_bir(numara):
      return numara + 1
 
 {% endhighlight %}
-
-<br>
+ 
 <h2 class="python3">Python</h2>
 
 {% highlight python %}
@@ -450,8 +449,7 @@ print(dbl(4))
 {% endhighlight %}
 
 Bu kod 8'e dönecek.
-
-<br>
+ 
 <h2 class="python3">Python</h2>
 {% highlight python %}
 
@@ -530,8 +528,7 @@ print (f.__doc__)   # prints 'does some mat
 
 print (f(5))  # prints 'f was called' 
 {% endhighlight %}
-
-<br>
+ 
 <h2 class="python3">Python</h2>
 
 {% highlight python %}
@@ -662,8 +659,7 @@ if __name__ == "__main__":
 
 
 Burada '''functools''' modülünden '''wraps''' ları içe aktarıyoruz ve bir '''another_function''' içindeki iç içe '''wrapper''' fonksiyonu için bir süslü fonksiyon olarak kullanıyoruz. Bu kez onu çalıştırırsanız, çıktı değişmiş olacaktır:
-
-<br>
+ 
 <h2 class="python3">Python</h2>
 {% highlight python %}
 
@@ -724,8 +720,7 @@ say_whee = my_decorator(say_whee)
 {% endhighlight %}
 
 ```say_whee()``` çağırdığınızda ne olacağını tahmin edebilir misiniz? Dene:
-
-<br>
+ 
 <h2 class="python3">Python</h2>
 {% highlight python %}
 
@@ -750,8 +745,7 @@ Aslında, ```say_whee``` ismi şimdi ```wrapper()``` iç fonksiyonuna işaret et
 Çağrı yaptığınızda ```wrapper``` fonksiyon olarak döndürdüğünüzü hatırlayın.
 
 my_decorator(say_whee):
-
-<br>
+ 
 <h2 class="python3">Python</h2>
 {% highlight python  %}
 
@@ -787,8 +781,7 @@ say_whee = not_during_the_night(say_whee)
 <br>
 
 Yatma zamanı sonrası ```say_whee()``` çağırmayı denerseniz, hiçbir şey olmaz:
-
-<br>
+ 
 <h2 class="python3">Python</h2>
 {% highlight python  %}
 
@@ -879,8 +872,7 @@ def say_whee():
 <br>
 
 Bu örneği çalıştırdığınızda, orijinal ```say_whee()``` öğesinin iki kez yürütüldüğünü görmelisiniz:
-
-<br>
+ 
 <h2 class="python3">Python</h2>
 {% highlight python  %}
 
@@ -920,8 +912,7 @@ func1()
 func2()
 
 {% endhighlight %}
-
-<br>
+ 
 <h2 class="python3">Python</h2>
 
 {% highlight python  %}
@@ -1014,8 +1005,7 @@ if __name__ == "__main__":
     print(StringFilter("i am a cat  help me", "strip", "capitalize", "split"))
 
 {% endhighlight %}
-
-<br>
+ 
 <h2 class="python3">Python</h2>
 
 
@@ -1050,8 +1040,7 @@ def greet(name):
 
 
 Maalesef, bu kodu çalıştırmak bir hataya yol açıyor:
-
-<br>
+ 
 <h2 class="python3">Python</h2>
 
 {% highlight python  %}
@@ -1098,8 +1087,7 @@ def say_whee():
     print("Whee!")
 
 {% endhighlight %}
-
-<br>
+ 
 <h2 class="python3">Python</h2>
 
 {% highlight python %}
@@ -1139,8 +1127,7 @@ def return_greeting(name):
 
 
 Kullanmayı dene:
-
-<br>
+ 
 <h2 class="python3">Python</h2>
 
 
@@ -1200,8 +1187,7 @@ def say_whee():
 
 
 Kullanmayı dene:
-
-<br>
+ 
 <h2 class="python3">Python</h2>
 
 {% highlight python %}
@@ -1245,8 +1231,7 @@ print(...)
 
 
 İçebakış, kendinizin tanımladığı fonksiyonlar için de çalışır:
-
-<br>
+ 
 <h2 class="python3">Python</h2>
 
 {% highlight python %}
@@ -1288,8 +1273,7 @@ def do_twice(func):
 <br>
 
 süslü ```say_whee()``` fonksiyonu hakkında bir şey değiştirmeniz gerekmez:
-
-<br>
+ 
 <h2 class="python3">Python</h2>
 
 {% highlight python %}
@@ -1374,8 +1358,7 @@ def waste_some_time(num_times):
 <br> 
 
 Bu süslü fonksiyon, fonksiyonun çalışmaya başlamasından hemen önceki süreyi saklayarak çalışır (# 1 olarak işaretlenmiş satırda) ve fonksiyon bittikten hemen sonra (# 2'de). Fonksiyonun aldığı zaman ikisinin arasındaki farktır (# 3'de). Zaman aralıklarını ölçmek için iyi bir iş yapan ```time.perf_counter()``` fonksiyonunu kullanırız.
-
-<br>
+ 
 <h2 class="python3">Python</h2>
 
 {% highlight python %}
@@ -1440,9 +1423,7 @@ def make_greeting(name, age=None):
         return f"Whoa {name}! {age} already, you are growing up!"
 
 {% endhighlight %}
-
  
-<br>
 <h2 class="python3">Python</h2>
 
 {% highlight python %}
@@ -1521,8 +1502,7 @@ Bu örnek ayrıca, bir süslü fonksiyonun önceden tanımlanmış bir fonksiyon
  e'nin değeri de  ```1/0!  +  1/1!  +  1/2!  +  1/3!  +  1/4!  +  1/5!  +  1/6!  +  1/7!  + ... (etc)``` eşittir
 
 ```Approximate_e()``` fonksiyonunu çağırırken, @debug süslü fonksiyonunu iş başında görebilirsiniz:
-
-<br>
+ 
 <h2 class="python3">Python</h2>
 
 {% highlight python %}
