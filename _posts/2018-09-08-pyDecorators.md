@@ -98,6 +98,8 @@ img.resize {
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Kod Aşağı Çekiliyor](#D33)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Eklentileri Kaydetme](#D34)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Kullanıcı Oturumu Açıldı mı?](#D35)
++ [Birkaç Gerçek Dünya Örneği](#D4)
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Çok Süslü Fonksiyonlar](#D41)
 
 
 Süslü fonksiyonlarla ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Süslü fonksiyonlar, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
@@ -1810,6 +1812,9 @@ def secret():
 Web çatınıza kimlik doğrulamanın nasıl ekleneceği hakkında bir fikir verirken, genellikle bu tür süslü fonksiyonları kendiniz yazmamalısınız. Flask için daha fazla güvenlik ve işlevsellik ekleyen Flask-Login uzantısını kullanabilirsiniz.
 
 
+<br>
+
+<div id="D4" class="pop0">Çok Süslü Fonksiyonlar</div>
 
 
 
