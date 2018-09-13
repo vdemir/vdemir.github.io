@@ -2099,4 +2099,8 @@ Finished 'TimeWaster' in 0.0000 secs
 
 {% endhighlight %}
 
+Sonra, uygun bir sınıf dekoratörünü tanımlayan, bir sınıfın sadece bir özdeşini sağlayan, @singleton olarak adlandırılan bir örnek göreceksiniz.
+
+
+
 
