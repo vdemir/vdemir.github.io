@@ -1568,7 +1568,6 @@ class Car:
 
 <br>
 <h2 class="python3">Python</h2>
-<br>
 
 {% highlight python %}
 In [1]: my_car = Car('red', 37281)
