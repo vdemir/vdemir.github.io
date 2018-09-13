@@ -1732,6 +1732,11 @@ print(f"{PLUGINS}")
 ```randomly_greet()``` fonksiyonu, kayıtlı fonksiyonlardan birini kullanmak için rasgele seçer. ```PLUGINS``` sözlüğünün zaten eklenti olarak kaydedilen her bir fonksiyon öbeğine atıflar içerdiğini unutmayın:
 
 <br>
+
+<div class="alert alert-primary" role="alert">
+<p><strong>python</strong></p>
+</div>
+
 {% highlight python %}
 
 Using 'say_hello'
