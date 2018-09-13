@@ -1748,7 +1748,7 @@ Using 'say_hello'
 <h2 class="python3">Python</h2>
 <style>
 .python3 {
-    background-color: #bdc3c7;
+    background-color: #ecf0f1;
     color:#34495e;
     border-color:#1abc9c;
     position:relative;
