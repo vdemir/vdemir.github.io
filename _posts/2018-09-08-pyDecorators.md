@@ -1352,7 +1352,7 @@ Bu formül, daha karmaşık süslü fonksiyonlar oluşturmak için iyi bir stand
 
 <div id="D31" class="pop1">Zamanlama Fonksiyonları</div>
 
-Bir timer Süslü fonksiyon oluşturarak başlayalım. Bir fonksiyonu yürütmek ve süreyi konsola yazdırmak için gereken süreyi ölçer. İşte kod:
+Bir ```timer``` süslü fonksiyon oluşturarak başlayalım. Bir fonksiyonu yürütmek ve süreyi konsola yazdırmak için gereken süreyi ölçer. İşte kod:
 
 <br>
 
@@ -1398,16 +1398,16 @@ Finished  waste_some_time in  2.8798 secs
  <br> 
 Kendi kendinine çalışır. Kod boyunca satır satır çalışır. Nasıl çalıştığını anladığınızdan emin olun. Yine de anlamadıysan endişelenme. Süslü fonksiyonlar gelişmiş yapılardır. Ertelemeyi deneyin veya program akışını çizi.
 
-Python2'de, print bir ifade sunan bir anahtar kelime oldu: print "Hi"
+Python2'de, print bir ifade sunan bir anahtar kelime oldu: ```print "Hi"```
 
-Python3'te print, çağrılabilecek bir fonksiyondur: print ("Hi").
+Python3'te print, çağrılabilecek bir fonksiyondur: ```print ("Hi")```.
 
-Her iki sürümde, %, sol tarafta bir dize ve sağ tarafta bir değer veya bir değer sayısı veya bir eşleme nesnesi gerektiren bir operatördür.
+Her iki sürümde, ```%```, sol tarafta bir dize ve sağ tarafta bir değer veya bir değer sayısı veya bir eşleme nesnesi gerektiren bir operatördür.
 
 Satır böyle görünür: 
 print("a=%d,b=%d" % (f(x,n),g(x,n)))
 
-Python3 için olan öneri, % -style biçimlendirme yerine {} -style biçimlendirme kullanmaktır: 
+Python3 için olan öneri, ```%```-style biçimlendirme yerine ```{}``` -style biçimlendirme kullanmaktır: 
 print('a={:d}, b={:d}'.format(f(x,n),g(x,n)))
 
 Python 3.6, başka bir dizgi formatlama paradigmasını sunar: f-dizeleri.
@@ -1525,12 +1525,12 @@ approximate_e(5)
 
 <br> 
 
-Bu örnek ayrıca, bir süslü fonksiyonun önceden tanımlanmış bir fonksiyona nasıl uygulanabileceğini gösterir. e'nin yaklaşımı, aşağıdaki dizi genişlemesine dayanmaktadır:
+Bu örnek ayrıca, bir süslü fonksiyonun önceden tanımlanmış bir fonksiyona nasıl uygulanabileceğini gösterir. ```e```'nin yaklaşımı, aşağıdaki dizi genişlemesine dayanmaktadır:
 
 
  e'nin değeri de  1/0!  +  1/1!  +  1/2!  +  1/3!  +  1/4!  +  1/5!  +  1/6!  +  1/7!  + ... (etc) eşittir
 
-Approximate_e() fonksiyonunu çağırırken, @debug süslü fonksiyonunu iş başında görebilirsiniz:
+```Approximate_e()``` fonksiyonunu çağırırken, @debug süslü fonksiyonunu iş başında görebilirsiniz:
 
 <br>
 <div class="pop2">Fonksiyon Çıktısı:</div>
@@ -1555,7 +1555,7 @@ Calling factorial(4)
 {% endhighlight %} 
 
 <br> 
-Bu örnekte, sadece 5 terim ekleyerek, e = 2.718281828 gerçek değerine doğru bir yaklaşım elde edersiniz.
+Bu örnekte, sadece 5 terim ekleyerek, ```e = 2.718281828``` gerçek değerine doğru bir yaklaşım elde edersiniz.
 
 <br>
 <div class="pop2">Python Sınıflarınızda “Dize” Dönüştürme Nasıl Desteklenir?</div>
@@ -1598,7 +1598,7 @@ Varsayılan olarak, aldığınız tek şey sınıf adını ve nesne örneğinin 
 <div class="pop2">Neden Her Python Sınıfının bir __repr__ ihtiyacı var?</div>
 <br>
 
-Sınıfın özniteliklerini doğrudan yazdırarak veya sınıflarınıza özel bir to_string() yöntemi ekleyerek, bu konu üzerinde çalışmaya deneyebilirsiniz.
+Sınıfın özniteliklerini doğrudan yazdırarak veya sınıflarınıza özel bir ```to_string()``` yöntemi ekleyerek, bu konu üzerinde çalışmaya deneyebilirsiniz.
 
 <br>
 
