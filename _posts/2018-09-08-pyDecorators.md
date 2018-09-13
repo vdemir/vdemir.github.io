@@ -532,8 +532,7 @@ print (f(5))  # prints 'f was called'
 {% endhighlight %}
 
 <br>
-<div class="pop2"> Fonksiyon Çıktısı:</div>
-<br>
+<h2 class="python3">Python</h2>
 
 {% highlight python %}
 
@@ -727,8 +726,7 @@ say_whee = my_decorator(say_whee)
 ```say_whee()``` çağırdığınızda ne olacağını tahmin edebilir misiniz? Dene:
 
 <br>
-<div class="pop2"> Fonksiyon Çıktısı:</div>
-<br>
+<h2 class="python3">Python</h2>
 {% highlight python %}
 
 In [1]: say_whee()
@@ -883,8 +881,7 @@ def say_whee():
 Bu örneği çalıştırdığınızda, orijinal ```say_whee()``` öğesinin iki kez yürütüldüğünü görmelisiniz:
 
 <br>
-<div class="pop2"> Fonksiyon Çıktısı:</div>
-<br>
+<h2 class="python3">Python</h2>
 {% highlight python  %}
 
 In [1]: say_whee()
@@ -1205,8 +1202,7 @@ def say_whee():
 Kullanmayı dene:
 
 <br>
-<div class="pop2"> Fonksiyon Çıktısı:</div>
-<br>
+<h2 class="python3">Python</h2>
 
 {% highlight python %}
 
@@ -1294,8 +1290,7 @@ def do_twice(func):
 süslü ```say_whee()``` fonksiyonu hakkında bir şey değiştirmeniz gerekmez:
 
 <br>
-<div class="pop2"> Fonksiyon Çıktısı:</div>
-<br>
+<h2 class="python3">Python</h2>
 
 {% highlight python %}
 
