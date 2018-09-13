@@ -1408,10 +1408,10 @@ Satır böyle görünür:
 print("a=%d,b=%d" % (f(x,n),g(x,n)))
 
 Python3 için olan öneri, ```%```-style biçimlendirme yerine ```{}``` -style biçimlendirme kullanmaktır: 
-print('a={:d}, b={:d}'.format(f(x,n),g(x,n)))
+```print('a={:d}, b={:d}'.format(f(x,n),g(x,n)))```
 
 Python 3.6, başka bir dizgi formatlama paradigmasını sunar: f-dizeleri.
-print(f'a={f(x,n):d}, b={g(x,n):d}')
+```print(f'a={f(x,n):d}, b={g(x,n):d}')```
 
 <div class="alert alert-warning" role="alert">
 <p><strong>Not:</strong>  Eğer fonksiyonlarınızın çalışma zamanı hakkında bir fikir edinmek istiyorsanız, @timer decorator harikadır. Daha hassas ölçüm kodları yapmak istiyorsanız, yerine standart kütüphanedeki timeit modülünü düşünmelisiniz. Çöp toplanmasını geçici olarak devre dışı bırakır ve hızlı fonksiyon çağrılarından gelen gürültüyü çıkarmak için birden çok denemeyi çalıştırır.</p>
