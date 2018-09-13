@@ -1740,6 +1740,7 @@ print(f"{PLUGINS}")
 {% highlight python %}
 
 Using 'say_hello'
+
 {'say_hello': <function say_hello at 0x7f0105032730>, 
 'be_awesome': <function be_awesome at 0x7f01050327b8>}
 
