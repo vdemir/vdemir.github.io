@@ -1887,6 +1887,12 @@ Bu sınıfta:
 
 Circle sınıfı örneğin aşağıdaki gibi kullanılabilir:
 
+
+
+<br>
+
+{% highlight python %}
+
 In [1]: c = Circle(5)
 In [1]: c.radius
 Out[1]: 5
@@ -1918,8 +1924,7 @@ Out[9]: 3.1415926535
 
 In [11]: Circle.pi()
 Out[11]: 3.1415926535
-
-
+{% endhighlight %}
 
 
 
