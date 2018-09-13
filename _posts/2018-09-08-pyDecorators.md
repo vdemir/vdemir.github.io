@@ -1693,25 +1693,34 @@ Süslü fonksiyonların, süsledikleri fonksiyonu çevrelemesi gerekmez. Ayrıca
 
 <br>
 
-{% highlight python %}
+{% highlight python  linenos=table %}
+import random
+PLUGINS = dict()
 
-from flask import Flask, g, request, redirect, url_for
-import functools
-app = Flask(__name__)
+def register(func):
+    """Register a function as a plug-in"""
+    PLUGINS[func.__name__] = func
+    return func
 
-def login_required(func):
-    """Make sure user is logged in before proceeding"""
-    @functools.wraps(func)
-    def wrapper_login_required(*args, **kwargs):
-        if g.user is None:
-            return redirect(url_for("login", next=request.url))
-        return func(*args, **kwargs)
-    return wrapper_login_required
+@register
+def say_hello(name):
+    return f"Hello {name}"
 
-@app.route("/secret")
-@login_required
-def secret():
-    ...
+@register
+def be_awesome(name):
+    return f"Yo {name}, together we are the awesomest!"
+
+def randomly_greet(name):
+    greeter, greeter_func = random.choice(list(PLUGINS.items()))
+    print(f"Using {greeter!r}")
+    return greeter_func(name)
+
+
+randomly_greet("Alice")
+
+print(f"{PLUGINS}")
+
+print(globals())
 
 {% endhighlight %}
 
@@ -1774,9 +1783,31 @@ web çerçevesiyle çalışırken yaygın olarak kullanılır
 
 Bir web çatısıyla çalışırken yaygın olarak kullanılan bazı daha süslü fonksiyonlar için yola devam etmeden önce son örnek. Sadece giriş yapan kullanıcılar tarafından görülen veya başka şekilde doğrulanmış bir /secret web sayfası kurmak için Flask kullanıyoruz:
 
+<br>
 
+{% highlight python %}
 
+from flask import Flask, g, request, redirect, url_for
+import functools
+app = Flask(__name__)
 
+def login_required(func):
+    """Make sure user is logged in before proceeding"""
+    @functools.wraps(func)
+    def wrapper_login_required(*args, **kwargs):
+        if g.user is None:
+            return redirect(url_for("login", next=request.url))
+        return func(*args, **kwargs)
+    return wrapper_login_required
+
+@app.route("/secret")
+@login_required
+def secret():
+    ...
+
+{% endhighlight %}
+
+Web çatınıza kimlik doğrulamanın nasıl ekleneceği hakkında bir fikir verirken, genellikle bu tür süslü fonksiyonları kendiniz yazmamalısınız. Flask için daha fazla güvenlik ve işlevsellik ekleyen Flask-Login uzantısını kullanabilirsiniz.
 
 
 
