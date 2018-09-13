@@ -1335,7 +1335,9 @@ def decorator(func):
 {% endhighlight %} 
 
 <br>
+
 Bu formül, daha karmaşık süslü fonksiyonlar oluşturmak için iyi bir standart kalıptır.
+<br>
 
 <div class="alert alert-warning" role="alert">
 <p><strong>Not:</strong>  Daha sonraki örneklerde, bu Süslü fonksiyonların de decorators.py dosyanıza kaydedildiğini kabul edeceğiz. Bu derste tüm örnekleri indirebileceğinizi unutmayın.</p>
