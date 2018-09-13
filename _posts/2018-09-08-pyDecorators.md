@@ -1749,7 +1749,7 @@ Using 'say_hello'
 <style>
 .python3 {
     background-color: #3498db;
-    color:tomato;
+    color:#2c3e50;
     border-color:#d3e3f1;
     position:relative;
     padding:.75rem 1.25rem;
