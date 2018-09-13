@@ -173,7 +173,8 @@ def merhaba_kedi(selamlama_fonk):
 
 
 Burada, ```merhaba_de()``` ve ```harika_ol()```, bir dizge olarak verilen bir -**ad**- ismini bekleyen normal fonksiyonlardır. Ancak ```merhaba_kedi()``` fonksiyonu, kendi ifadesi olarak bir fonksiyon -```selamlama_fonk```- bekler. Örneğin, ```merhaba_de()``` veya ```harika_ol()``` fonksiyonuna iletebiliriz:
-
+<br>
+<h2 class="python3">Python</h2>
 {% highlight python %}
 In [1]: merhaba_kedi(merhaba_de)
 Out[1]: 'Merhaba Kedi'
@@ -218,7 +219,8 @@ ilk_veled() fonksiyonundan okunuyor ...
 İç fonksiyonların tanımlandığı sıranın önemli olmadığını unutmayın. Diğer fonksiyonlarda olduğu gibi, yazdırma yalnızca iç fonksiyonlar yürütüldüğünde gerçekleşir.
 
 Ayrıca, üst fonksiyon çağrılana kadar iç fonksiyonlar tanımlanmamıştır. Bunlar yerel olarak ```ebeveyn()``` ile kapsama alınıp araştırılır: bunlar yalnızca yerel değişkenler olarak ```ebeveyn()``` fonksiyonu içinde bulunur. ```ilk_veled()``` öğesini çağırmayı deneyin. Bir hata almalısınız:
-
+<br>
+<h2 class="python3">Python</h2>
 {% highlight python %}
 In [2]: ilk_veled()
 Traceback (most recent call last):
@@ -253,7 +255,8 @@ def ebeveyn(num):
 
 Parantez olmadan ```ilk_veled``` döndürdüğünüzü unutmayın. Bunun, ```ilk_veled``` fonksiyonuna bir atıf döndürdüğünüz anlamına geldiğini hatırlayın. Aksine, ```ilk_veled()``` parantez içinde, fonksiyonun değerlendirilmesi sonucunu ifade eder. Bu, aşağıdaki örnekte görülebilir:
 
-
+<br>
+<h2 class="python3">Python</h2>
 {% highlight python %}
 In [1]: ilk=ebeveyn(1)
 In [2]: ilk
@@ -267,7 +270,8 @@ Out[5]: <function __main__.ebeveyn.<locals>.ikinci_veled>
 Bir miktar şifreli çıktı, basitçe, ```ebeveyn()``` içindeki, ```ikinci``` değişkeni ```ikinci_veled()``` fonksiyonuna işaret ederken ```ilk``` değişkeni yerel ```ilk_veled()``` fonksiyonuna başvurur.
 
 İşaret ettikleri fonksiyonlara doğrudan erişilemese bile, artık normal fonksiyonlarmış gibi şimdi ```ilk``` ve ```ikinci``` kullanabilirsiniz:
-
+<br>
+<h2 class="python3">Python</h2>
 {% highlight python %}
 In [8]: ilk=ebeveyn(1)
 In [9]: ilk()
@@ -423,8 +427,6 @@ print get_text("John")
 {% endhighlight %}
 
 Dikkat edilmesi gereken diğer bir şey, süslü fonksiyonumuzun bir isim ifadesini almasıdır. Süslü fonksiyonda yapmamız gereken her şey, get_text'in çevreleyicisinin bu ifadeyi geçmesine izin vermektir.
-
-
 
 <br>
 
