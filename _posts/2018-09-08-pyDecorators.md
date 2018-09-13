@@ -2194,7 +2194,20 @@ def greet(name):
 
 Bu durumda, @do_twice ayrıca @debug'a da uygulanacaktır:
 
+<br>
 
+<h2 class="python3">Python</h2>
+{% highlight python %}
+
+Calling greet('Eva')
+Hello Eva
+'greet' returned None
+Calling greet('Eva')
+Hello Eva
+'greet' returned None
+
+
+{% endhighlight %}
 
 
 
