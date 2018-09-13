@@ -1715,6 +1715,12 @@ def randomly_greet(name):
     greeter, greeter_func = random.choice(list(PLUGINS.items()))
     print(f"Using {greeter!r}")
     return greeter_func(name)
+
+
+randomly_greet("Alice")
+
+print(f"{PLUGINS}")
+
 {% endhighlight %}
 
 ```@register``` süslü fonksiyonu, ```global PLUGINS dict``` içindeki süslü fonksiyona bir atfı basitçe saklar. Bir iç işlev yazmanız veya bu örnekte ```@functools.wraps``` kullanmanız gerekmez unutmayın, çünkü değiştirilmemiş orijinal işlevi döndürüyorsunuz.
@@ -1724,5 +1730,18 @@ def randomly_greet(name):
 </div>
 
 ```randomly_greet()``` fonksiyonu, kayıtlı fonksiyonlardan birini kullanmak için rasgele seçer. ```PLUGINS``` sözlüğünün zaten eklenti olarak kaydedilen her bir fonksiyon öbeğine atıflar içerdiğini unutmayın:
+
+<br>
+{% highlight python %}
+
+Using 'say_hello'
+{'say_hello': <function say_hello at 0x7f0105032730>, 'be_awesome': <function be_awesome at 0x7f01050327b8>}
+
+{% endhighlight %} 
+<br> 
+
+
+
+
 
 
