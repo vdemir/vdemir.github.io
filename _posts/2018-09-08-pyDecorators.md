@@ -97,6 +97,7 @@ img.resize {
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Hata ayıklama kodu](#D32)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Kod Aşağı Çekiliyor](#D33)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Eklentileri Kaydetme](#D34)
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Kullanıcı Oturumu Açıldı mı?](#D35)
 
 
 Süslü fonksiyonlarla ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Süslü fonksiyonlar, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
@@ -1685,7 +1686,7 @@ Liftoff!
 
 <br>
 
-<div id="D34" class="pop1">Eklentileri Kaydetme</div>
+<div id="D34" class="pop1">Eklentileri Kaydetmek</div>
 
 Süslü fonksiyonların, süsledikleri fonksiyonu çevrelemesi gerekmez. Ayrıca bir fonksiyonun mevcut olduğunu kolayca kaydedebilirler ve çevrelenmemiş olarak döndürebilirler. Bu kullanılabilir, örneğin, hafif bir eklenti mimarisi oluşturmak için kullanılabilir:
 
@@ -1774,6 +1775,22 @@ Python'da globals() ile tanışıyorsanız, eklenti mimarisinin nasıl çalışt
 {% endhighlight %} 
 
 @register süslü fonksiyonunu kullanarak, globals() fonksiyonlarından bazılarını etkin bir şekilde seçerek kendi seçilmiş ilginç değişkenler listenizi oluşturabilirsiniz.
+
+web çerçevesiyle çalışırken yaygın olarak kullanılır
+<br>
+
+<div id="D35" class="pop1">Kullanıcı Oturumu Açıldı mı?</div>
+
+Bir web çatısıyla çalışırken yaygın olarak kullanılan bazı daha süslü fonksiyonlar için yola devam etmeden önce son örnek. Sadece giriş yapan kullanıcılar tarafından görülen veya başka şekilde doğrulanmış bir /secret web sayfası kurmak için Flask kullanıyoruz:
+
+
+
+
+
+
+
+
+
 
 
 
