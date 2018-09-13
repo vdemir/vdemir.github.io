@@ -1654,8 +1654,7 @@ countdown(3)
 {% endhighlight %}
 
 @slow_down süslü fonksiyonunun etkisini görmek için, örneği kendiniz uygulamanız gerekiyor:
-
-<br>
+ 
 <h2 class="python3">Python</h2> 
 {% highlight python %}
 
@@ -1718,8 +1717,6 @@ print(f"{PLUGINS}")
 </div>
 
 ```randomly_greet()``` fonksiyonu, kayıtlı fonksiyonlardan birini kullanmak için rasgele seçer. ```PLUGINS``` sözlüğünün zaten eklenti olarak kaydedilen her bir fonksiyon öbeğine atıflar içerdiğini unutmayın:
-
-<br>
 
 <h2 class="python3">Python</h2>
 
