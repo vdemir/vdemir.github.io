@@ -2120,5 +2120,6 @@ def greet(name):
 
 {% endhighlight %}
 
-
+Dekoratörlerin listelendikleri sırayla yürütüldüklerini düşünün. Başka bir deyişle, @debug, greet() veya debug(do_twice(greet()))'i çağıran 
+@do_twice çağırır:
 
