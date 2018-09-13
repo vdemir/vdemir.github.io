@@ -1751,7 +1751,6 @@ Using 'say_hello'
     background-color: #dfebf5;
     color:#32516b;
     border-color:#d3e3f1;
-    padding: 10px;
     position:relative;
     padding:.75rem 1.25rem;
     margin-bottom:1.125rem;
