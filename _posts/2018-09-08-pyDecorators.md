@@ -59,7 +59,7 @@ img.resize {
 
        .python3 {
     		background-color: #E3F2FD;
-    		color:#8e44ad;
+    		color:#01579B;
     		border-color:#1abc9c;
     		position:relative;
     		padding:.75rem 1.25rem;
@@ -1623,7 +1623,6 @@ class Car(object):
 
 <br>
 <h2 class="python3">Python</h2>
-<br> 
 
 {% highlight python %}
 In [8]: my_car = Car('red', 37281)
