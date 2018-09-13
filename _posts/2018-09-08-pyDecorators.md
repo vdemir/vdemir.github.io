@@ -1743,7 +1743,7 @@ Using 'say_hello'
 {% endhighlight %} 
 <br> 
 
-Bu basit eklenti mimarisinin temel faydası, eklentilerin bulunduğu bir listeye bakımınızın gerekmemesidir. Bu liste,  eklentiler kendilerini kaydettirdiğinde oluşturulur. Bu yeni bir eklenti eklemeyi önemsiz kılar: sadece işlevi tanımlayın ve @register ile süsleyin.
+Bu basit eklenti mimarisinin temel faydası, eklentilerin bulunduğu bir listeye bakımınızın gerekmemesidir. Bu liste,  eklentiler kendilerini kaydettirdiğinde oluşturulur. Bu yeni bir eklenti eklemeyi önemsiz kılar: sadece fonksiyonu tanımlayın ve @register ile süsleyin.
  
 
 
