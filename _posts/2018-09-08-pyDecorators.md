@@ -98,8 +98,8 @@ img.resize {
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Kod Aşağı Çekiliyor](#D33)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Eklentileri Kaydetme](#D34)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Kullanıcı Oturumu Açıldı mı?](#D35)
-+ [Birkaç Gerçek Dünya Örneği](#D4)
-    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Çok Süslü Fonksiyonlar](#D41)
++ [Çok Süslü Fonksiyonlar](#D4)
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[](#D41)
 
 
 Süslü fonksiyonlarla ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Süslü fonksiyonlar, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
