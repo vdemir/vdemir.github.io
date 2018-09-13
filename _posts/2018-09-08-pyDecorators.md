@@ -1397,7 +1397,6 @@ Bu süslü fonksiyon, fonksiyonun çalışmaya başlamasından hemen önceki sü
 
 <br>
 <h2 class="python3">Python</h2>
-<br>
 
 {% highlight python %}
 
@@ -1464,8 +1463,7 @@ def make_greeting(name, age=None):
 
  
 <br>
-<div class="pop2">Fonksiyon Çıktısı:</div>
-<br> 
+<h2 class="python3">Python</h2>
 
 {% highlight python %}
 
@@ -1546,7 +1544,6 @@ Bu örnek ayrıca, bir süslü fonksiyonun önceden tanımlanmış bir fonksiyon
 
 <br>
 <h2 class="python3">Python</h2>
-<br> 
 
 {% highlight python %}
 
