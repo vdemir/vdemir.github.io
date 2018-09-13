@@ -2026,4 +2026,21 @@ Sınıf süslü fonksiyonlarının yaygın bir kullanımı, metasınıfların ba
 
 Bir sınıf süslüsünün yazılması, bir fonksiyon süslüsünün yazılmasına çok benzer. Tek fark, süslü fonksiyonun bir ifade olarak bir fonksiyon değil bir sınıf alacağıdır. Aslında, yukarıda gördüğünüz tüm süslü fonksiyonlar, sınıf süslüleri olarak çalışacak. Onları bir fonksiyon yerine bir sınıfta kullanırken, bunların etkisi istediğiniz gibi olmayabilir. Aşağıdaki örnekte, @timer süslü fonksiyonu bir sınıfa uygulanır:
 
+{% highlight python %}
+
+from decorators import timer
+
+@timer
+class TimeWaster:
+    def __init__(self, max_num):
+        self.max_num = max_num
+
+    def waste_time(self, num_times):
+        for _ in range(num_times):
+            sum([i**2 for i in range(self.max_num)])
+
+{% endhighlight %}
+
+Bir sınıfın süslenmesi yordamlarını süslemez. Hatırlayın, @timer sadece TimeWaster = timer (TimeWaster) için kısaltılmıştır.
+ 
 
