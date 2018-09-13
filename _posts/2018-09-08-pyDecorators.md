@@ -1905,7 +1905,7 @@ In [4]: c.area
 Out[4]: 12.566370614
 
 In [5]: c.area = 100
-Out[5]: AttributeError: can't set attribute
+Out[5]: AttributeError
 
 In [5]: c.cylinder_volume(height=4)
 Out[5]: 50.265482456
