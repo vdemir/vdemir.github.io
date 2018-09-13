@@ -2076,6 +2076,7 @@ def debug(func):
         print(f"{func.__name__!r} returned {value!r}")           # 4
         return value
     return wrapper_debug
+
 @timer
 class TimeWaster:
     def __init__(self, max_num):
