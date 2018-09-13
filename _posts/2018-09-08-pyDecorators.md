@@ -62,7 +62,7 @@ img.resize {
     		color:#01579B;
     		border-color:#1abc9c;
     		position:relative;
-    		padding:.15rem 1.25rem;
+    		padding:.11rem 1.25rem;
     		margin-bottom:1.125rem;
     		border:1px solid transparent;
     		border-radius:.25rem;
