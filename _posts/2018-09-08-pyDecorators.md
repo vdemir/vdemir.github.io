@@ -2283,7 +2283,19 @@ def repeat(num_times):
 
 Tipik olarak, süslü fonksiyon bir iç çevreleyici fonksiyonu yaratır ve döndürür, böylece, örneklemi tam olarak yazmak, içsel bir fonksiyon içinde size içsel bir fonksiyon verecektir.
 
+{% highlight python %}
 
+def repeat(num_times):
+    def decorator_repeat(func):
+        @functools.wraps(func)
+        def wrapper_repeat(*args, **kwargs):
+            for _ in range(num_times):
+                value = func(*args, **kwargs)
+            return value
+        return wrapper_repeat
+    return decorator_repeat
+
+{% endhighlight %}
 
 
 
