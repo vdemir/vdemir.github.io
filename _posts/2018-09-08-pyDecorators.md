@@ -1906,13 +1906,13 @@ In [4]: c.area
 Out[4]: 12.566370614
 
 In [5]: c.area = 100
-AttributeError: can't set attribute
+Out[5]: AttributeError: can't set attribute
 
 In [5]: c.cylinder_volume(height=4)
 Out[5]: 50.265482456
 
 In [6]: c.radius = -1
-ValueError: Radius must be positive
+Out[6]: ValueError: Radius must be positive
 
 In [7]: c = Circle.unit_circle()
 
@@ -1924,6 +1924,7 @@ Out[9]: 3.1415926535
 
 In [11]: Circle.pi()
 Out[11]: 3.1415926535
+
 {% endhighlight %}
 
 
