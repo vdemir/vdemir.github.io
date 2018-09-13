@@ -1545,7 +1545,7 @@ Bu örnek ayrıca, bir süslü fonksiyonun önceden tanımlanmış bir fonksiyon
 ```Approximate_e()``` fonksiyonunu çağırırken, @debug süslü fonksiyonunu iş başında görebilirsiniz:
 
 <br>
-<div class="pop2">Fonksiyon Çıktısı:</div>
+<h2 class="python3">Python</h2>
 <br> 
 
 {% highlight python %}
