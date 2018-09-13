@@ -1887,9 +1887,9 @@ Bu sınıfta:
 
 Circle sınıfı örneğin aşağıdaki gibi kullanılabilir:
 
-
-
 <br>
+
+<h2 class="python3">Python</h2>
 
 {% highlight python %}
 
