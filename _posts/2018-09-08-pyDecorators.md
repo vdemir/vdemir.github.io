@@ -1830,7 +1830,8 @@ Süslü Fonksiyon Sınıfları
 
 Sınıflarda süslü fonksiyonlar kullanmanın iki farklı yolu vardır. İlki, zaten fonksiyonlarla yaptığınız şeye çok yakın: Bir sınıfın yordamlarını süsleyebilirsiniz. Süslü fonksiyonların gün içinde desteklenen tanıtım motivasyonlarından biriydi.
 
-
+Python'da bile yerleşik olan bazı yaygın olarak kullanılan süslü fonksiyonlar 
+@classmethod, @staticmethod ve @property'dir.
 
 
 
