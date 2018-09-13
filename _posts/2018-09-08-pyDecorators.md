@@ -1334,6 +1334,7 @@ def decorator(func):
     return wrapper_decorator
 {% endhighlight %} 
 
+<br>
 Bu formül, daha karmaşık süslü fonksiyonlar oluşturmak için iyi bir standart kalıptır.
 
 <div class="alert alert-warning" role="alert">
