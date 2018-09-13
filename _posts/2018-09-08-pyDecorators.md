@@ -1994,7 +1994,17 @@ tw.waste_time(999)
 
 {% endhighlight %}
 
+<br>
 
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+Calling __init__(<__main__.TimeWaster object at 0x7f5b9708b4e0>, 1000)
+'__init__' returned None
+Finished 'waste_time' in 0.2627 secs
+
+{% endhighlight %}
 
 
 
