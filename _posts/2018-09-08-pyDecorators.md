@@ -1634,7 +1634,7 @@ Genel fikir burada doğru olanıdır -ancak Python'un nesnelerin dizge olarak na
 
 <div id="D33" class="pop1">Kod Aşağı Çekiliyor</div>
 
-Bu sonraki örnek çok kullanışlı görünmeyebilir. Neden Python kodunuzu yavaşlatmak istersiniz? Muhtemelen en yaygın kullanım durumu, - bir web sayfası gibi - bir kaynağın olup olmadığını sürekli kontrol eden bir fonksiyonun hızını limitlemek istemenizdir. @slow_down Süslü fonksiyon, süslü fonksiyonu çağırmadan önce bir saniye uyuyacaktır:
+Bu sonraki örnek çok kullanışlı görünmeyebilir. Neden Python kodunuzu yavaşlatmak istersiniz? Muhtemelen en yaygın kullanım durumu, - bir web sayfası gibi - bir kaynağın olup olmadığını sürekli kontrol eden bir fonksiyonun hızını limitlemek istemenizdir. @slow_down süslü fonksiyon, süslü fonksiyonu çağırmadan önce bir saniye uyuyacaktır:
 
 "With "Why would you want to slow down your Python code? " you're questioning the other person's motivations, which implies that a) it was deliberate and b) they might do it again c) you're simply asking about someone's motivation or opinions."
 
