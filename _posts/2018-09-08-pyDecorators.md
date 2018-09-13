@@ -58,7 +58,7 @@ img.resize {
 	}
 
        .python3 {
-    		background-color: #ecf0f1;
+    		background-color: #E3F2FD;
     		color:#8e44ad;
     		border-color:#1abc9c;
     		position:relative;
