@@ -1750,7 +1750,7 @@ Using 'say_hello'
 .python3 {
     background-color: #dfebf5;
     color:#3498db;
-    border-color:#d3e3f1;
+    border-color:#2980b9;
     position:relative;
     padding:.75rem 1.25rem;
     margin-bottom:1.125rem;
