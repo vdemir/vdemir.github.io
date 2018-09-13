@@ -759,7 +759,7 @@ Out[3]: <function __main__.my_decorator.<locals>.wrapper>
 
 Ancak, ```wrapper()``` fonksiyonu, orijinal ```say_whee()``` fonksiyonune func olarak bir atıfta bulunur ve iki ```print()``` çağrı arasında bu fonksiyonu çağırır.
 
-Basitçe söylemek gerekirse: **süslü fonksiyonlar, onların davranışlarını değiştirerek bir fonksiyonu sarmaktadır.**
+Basitçe söylemek gerekirse: **süslü fonksiyonlar, onların davranışlarını değiştirerek bir fonksiyonu çevrelemektedir.**
 
 Devam etmeden önce, ikinci bir örneğe bakalım. ```wrapper()``` normal bir Python fonksiyonu olduğu için bir süslü fonksiyonun bir fonksiyonu değiştirdiği yöntem dinamik olarak değişebilir. Komşularınızı rahatsız etmeyecek şekilde, aşağıdaki örnek yalnızca gün boyunca süslü kodu çalıştıracaktır:
 
@@ -1164,7 +1164,7 @@ Maalesef, süslü fonksiyonunuz fonksiyondan dönüş değerini yedi.
 
 ```do_twice_wrapper()``` fonksiyonu açıkça bir değer döndürmediğinden, ```return_greeting('Adam')``` çağrısı, None döndürerek sona ermiştir.
 
-Bunu düzeltmek için, **sarma fonksiyonunun süslü fonksiyonun dönüş değerini döndürdüğünden emin olmanız** gerekir. ```decorators.py``` dosyanızı 4. satırını değiştirin:
+Bunu düzeltmek için, **çevreleme fonksiyonunun süslü fonksiyonun dönüş değerini döndürdüğünden emin olmanız** gerekir. ```decorators.py``` dosyanızı 4. satırını değiştirin:
 
 {% highlight python %}
 def do_twice(func):
