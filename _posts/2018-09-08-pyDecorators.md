@@ -1822,4 +1822,18 @@ Web çatınıza kimlik doğrulamanın nasıl ekleneceği hakkında bir fikir ver
 Bu eğiticinin ikinci bölümünde, aşağıdakileri nasıl kullanacağınız da dahil olmak üzere daha gelişmiş özellikleri inceleyeceğiz:
 
 
+<br>
+
+<div id="D41" class="pop1">Sınıflardaki Süslü Fonksiyonlar</div>
+
+Dekorasyon Sınıfları 
+Sınıflarda süslü fonksiyonlar kullanmanın iki farklı yolu vardır. İlki, zaten fonksiyonlarla yaptığınız şeye çok yakın: Bir sınıfın yordamlarını süsleyebilirsiniz. Süslü fonksiyonların güne içinde desteklenen tanıtım motivasyonlarından biriydi.
+
+
+
+
+
+
+
+
 
