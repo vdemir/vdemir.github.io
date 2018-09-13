@@ -1745,7 +1745,7 @@ Using 'say_hello'
 
 Bu basit eklenti mimarisinin temel faydası, eklentilerin bulunduğu bir listeye bakımınızın gerekmemesidir. Bu liste,  eklentiler kendilerini kaydettirdiğinde oluşturulur. Bu yeni bir eklenti eklemeyi önemsiz kılar: sadece fonksiyonu tanımlayın ve @register ile süsleyin.
  
-
+Python'da globals() ile tanışıyorsanız, eklenti mimarisinin nasıl çalıştığıyla ilgili benzerlikler görebilirsiniz. globals(), eklentileriniz de dahil olmak üzere geçerli kapsamdaki tüm global değişkenlere erişim sağlar:
 
 
 
