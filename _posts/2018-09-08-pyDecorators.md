@@ -131,8 +131,7 @@ def ekle_bir(numara):
 {% endhighlight %}
 
 <br>
-<div class="pop2"> Fonksiyon Çıktısı:</div>
-<br>
+<h2 class="python3">Python</h2>
 
 {% highlight python %}
 
@@ -453,8 +452,7 @@ print(dbl(4))
 Bu kod 8'e dönecek.
 
 <br>
-<div class="pop2"> Fonksiyon Çıktısı:</div>
-
+<h2 class="python3">Python</h2>
 {% highlight python %}
 
 8
@@ -667,8 +665,7 @@ if __name__ == "__main__":
 Burada '''functools''' modülünden '''wraps''' ları içe aktarıyoruz ve bir '''another_function''' içindeki iç içe '''wrapper''' fonksiyonu için bir süslü fonksiyon olarak kullanıyoruz. Bu kez onu çalıştırırsanız, çıktı değişmiş olacaktır:
 
 <br>
-<div class="pop2"> Fonksiyon Çıktısı:</div>
-<br>
+<h2 class="python3">Python</h2>
 {% highlight python %}
 
 a_function
@@ -757,8 +754,7 @@ Aslında, ```say_whee``` ismi şimdi ```wrapper()``` iç fonksiyonuna işaret et
 my_decorator(say_whee):
 
 <br>
-<div class="pop2"> Fonksiyon Çıktısı:</div>
-<br>
+<h2 class="python3">Python</h2>
 {% highlight python  %}
 
 In [3]: say_whee
@@ -795,8 +791,7 @@ say_whee = not_during_the_night(say_whee)
 Yatma zamanı sonrası ```say_whee()``` çağırmayı denerseniz, hiçbir şey olmaz:
 
 <br>
-<div class="pop2"> Fonksiyon Çıktısı:</div>
-<br>
+<h2 class="python3">Python</h2>
 {% highlight python  %}
 
 In [1]: say_whee()
@@ -930,8 +925,7 @@ func2()
 {% endhighlight %}
 
 <br>
-<div class="pop2"> Fonksiyon Çıktısı:</div>
-<br>
+<h2 class="python3">Python</h2>
 
 {% highlight python  %}
 Entering func1
@@ -1025,8 +1019,7 @@ if __name__ == "__main__":
 {% endhighlight %}
 
 <br>
-<div class="pop2"> Fonksiyon Çıktısı:</div>
-<br>
+<h2 class="python3">Python</h2>
 
 
 {% highlight python  %}
@@ -1062,8 +1055,7 @@ def greet(name):
 Maalesef, bu kodu çalıştırmak bir hataya yol açıyor:
 
 <br>
-<div class="pop2"> Fonksiyon Çıktısı:</div>
-<br>
+<h2 class="python3">Python</h2>
 
 {% highlight python  %}
 
@@ -1111,8 +1103,7 @@ def say_whee():
 {% endhighlight %}
 
 <br>
-<div class="pop2"> Fonksiyon Çıktısı:</div>
-<br>
+<h2 class="python3">Python</h2>
 
 {% highlight python %}
 
@@ -1153,8 +1144,7 @@ def return_greeting(name):
 Kullanmayı dene:
 
 <br>
-<div class="pop2"> Fonksiyon Çıktısı:</div>
-<br>
+<h2 class="python3">Python</h2>
 
 
 {% highlight python %}
@@ -1235,8 +1225,7 @@ Out[3]: 'Hi Adam'
 Özellikle etkileşimli kabukta, Python ile çalışırken büyük kolaylık, güçlü içebakış yeteneğidir. İçebakış, bir nesnenin çalışma zamanında kendi öz niteliklerini bilmesidir. Örneğin, bir fonksiyon kendi adını ve belgelemesini bilir:
 
 <br>
-<div class="pop2"> Fonksiyon Çıktısı:</div>
-<br>
+<h2 class="python3">Python</h2>
 
 {% highlight python %}
 
@@ -1262,8 +1251,7 @@ print(...)
 İçebakış, kendinizin tanımladığı fonksiyonlar için de çalışır:
 
 <br>
-<div class="pop2"> Fonksiyon Çıktısı:</div>
-<br>
+<h2 class="python3">Python</h2>
 
 {% highlight python %}
 
