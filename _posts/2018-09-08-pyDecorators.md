@@ -1289,12 +1289,12 @@ def do_twice(func):
 <br>
 
 <div class="alert alert-success" role="alert">
-<p><strong>functools:</strong>  - Yüksek mertebeden fonksiyonlar ve istenebilen nesneler üzerindeki işlemler. Functools modülü üst düzey fonksiyonlar içindir: diğer fonksiyonlar üzerinde hareket eden veya dönen fonksiyonlar. Genel olarak, herhangi bir değiştirilebilir nesne bu modülün amaçları için bir fonksiyon olarak ele alınabilir.Bu, bir wrapper fonksiyonunu tanımlarken update_wrapper() öğesini bir fonksiyon Süslü fonksiyon olarak çağırmak için bir kolaylık fonksiyonudur. Bu kısmi (update_wrapper, çevrelenmiş = çevrelenmiş, atanan = atanan, güncellenmiş = güncellenmiş) eşdeğerdir.</p>
+<p><strong>functools:</strong>  - Yüksek mertebeden fonksiyonlar ve istenebilen nesneler üzerindeki işlemler. ```Functools``` modülü üst düzey fonksiyonlar içindir: diğer fonksiyonlar üzerinde hareket eden veya dönen fonksiyonlar. Genel olarak, herhangi bir değiştirilebilir nesne bu modülün amaçları için bir fonksiyon olarak ele alınabilir.Bu, bir ```wrapper``` fonksiyonunu tanımlarken ```update_wrapper()``` öğesini bir fonksiyon Süslü fonksiyon olarak çağırmak için bir kolaylık fonksiyonudur. Bu kısmi ```(update_wrapper, çevrelenmiş = çevrelenmiş, atanan = atanan, güncellenmiş = güncellenmiş)``` eşdeğerdir.</p>
 </div>
   
 <br>
 
-süslü say_whee() fonksiyonu hakkında bir şey değiştirmeniz gerekmez:
+süslü ```say_whee()``` fonksiyonu hakkında bir şey değiştirmeniz gerekmez:
 
 <br>
 <div class="pop2"> Fonksiyon Çıktısı:</div>
@@ -1316,7 +1316,7 @@ say_whee()
 
 <br> 
 
-Çok daha iyi! Şimdi say_whee(), dekorasyondan sonra hala kendisidir.
+Çok daha iyi! Şimdi ```say_whee()```, dekorasyondan sonra hala kendisidir.
 
 <div class="alert alert-info" role="alert">
 <p><strong>Teknik Detay:</strong> functools.wraps süslü fonksiyon, içebakışta kullanılan __name__ ve __doc__ gibi özel nitelikleri güncellemek için functools.update_wrapper() fonksiyonunu kullanır.</p>
@@ -1381,7 +1381,7 @@ def waste_some_time(num_times):
 {% endhighlight %}
 <br> 
 
-Bu Süslü fonksiyon, fonksiyonun çalışmaya başlamasından hemen önceki süreyi saklayarak çalışır(# 1 olarak işaretlenmiş satırda) ve fonksiyon bittikten hemen sonra(# 2'de). Fonksiyonun aldığı zaman ikisinin arasındaki farktır(# 3'de). Zaman aralıklarını ölçmek için iyi bir iş yapan time.perf_counter() fonksiyonunu kullanırız.
+Bu süslü fonksiyon, fonksiyonun çalışmaya başlamasından hemen önceki süreyi saklayarak çalışır (# 1 olarak işaretlenmiş satırda) ve fonksiyon bittikten hemen sonra (# 2'de). Fonksiyonun aldığı zaman ikisinin arasındaki farktır (# 3'de). Zaman aralıklarını ölçmek için iyi bir iş yapan ```time.perf_counter()``` fonksiyonunu kullanırız.
 
 <br>
 <div class="pop2"> Fonksiyon Çıktısı:</div>
@@ -1421,7 +1421,7 @@ print(f'a={f(x,n):d}, b={g(x,n):d}')
 
 <div id="D32" class="pop1">Hata Ayıklama Kodu</div>
 
-Aşağıdaki @debug Süslü fonksiyon argümanları yazdıracaktır, fonksiyon çağrıldığında her seferinde bir fonksiyon, dönüş değeriyle birlikte çağrılır:
+Aşağıdaki ```@debug``` süslü fonksiyon argümanları yazdıracaktır, fonksiyon çağrıldığında her seferinde bir fonksiyon, dönüş değeriyle birlikte çağrılır:
 
 <br>
 
@@ -1476,11 +1476,11 @@ Calling make_greeting(name='Dorrisile', age=116)
 
 <br> 
 
-{signature}, tüm argümanların dize gösterimlerine katılarak oluşturulur. Aşağıdaki listedeki sayılar, koddaki numaralı yorumlara karşılık gelir:
+```{signature}```, tüm argümanların dize gösterimlerine katılarak oluşturulur. Aşağıdaki listedeki sayılar, koddaki numaralı yorumlara karşılık gelir:
 
-1. Konumsal ifadelerin bir listesini oluşturun. Her ifadeyi temsil eden güzel bir dize almak için repr () öğesini kullanın.
+1. Konumsal ifadelerin bir listesini oluşturun. Her ifadeyi temsil eden güzel bir dize almak için ```repr()``` öğesini kullanın.
 
-2. keyword ifadelerinin bir listesini oluşturun. value ifade etmek için kullanılan repr() 'yi ifade eden !r belirtecinin olduğu yerde key=value olarak f-string her bir ifadeyi formatlar.
+2. ```keyword``` ifadelerinin bir listesini oluşturun. ```value``` ifade etmek için kullanılan ```repr()```'yi ifade eden ```!r``` belirtecinin olduğu yerde ```key=value``` olarak f-string her bir ifadeyi formatlar.
 
 3. Konumsal ve keyword ifadelerinin listeleri, bir virgülle ayrılan  herbir ifade ile signature dizisinin birine beraber katılır.
 
@@ -1488,9 +1488,9 @@ Calling make_greeting(name='Dorrisile', age=116)
 
 Süslü fonksiyonun, bir konum ve bir anahtar kelime ifadesiyle basit bir fonksiyona uygulayarak pratikte nasıl çalıştığını görelim:
 
-@debug süslü fonksiyonunun make_greeting() fonksiyonunun signature ve dönüş değerini nasıl yazdığını not alın:
+```@debug``` süslü fonksiyonunun ```make_greeting()``` fonksiyonunun ```signature``` ve dönüş değerini nasıl yazdığını not alın:
 
-Bu örnek, @debug süslü fonksiyonu az önce yazdıklarınızı tekrarladığından beri kullanışlı görünmeyebilir. Doğrudan kendinize çağrı yapmadığınız küçük uygun fonksiyonlara uygulandığında daha güçlüdür.
+Bu örnek, ```@debug``` süslü fonksiyonu az önce yazdıklarınızı tekrarladığından beri kullanışlı görünmeyebilir. Doğrudan kendinize çağrı yapmadığınız küçük uygun fonksiyonlara uygulandığında daha güçlüdür.
 
 Aşağıdaki örnek, matematik sabiti e'ye bir yaklaşım hesaplar:
 
@@ -1634,7 +1634,7 @@ Genel fikir burada doğru olanıdır -ancak Python'un nesnelerin dizge olarak na
 
 <div id="D33" class="pop1">Kod Aşağı Çekiliyor</div>
 
-Bu sonraki örnek çok kullanışlı görünmeyebilir. Neden Python kodunuzu yavaşlatmak istersiniz? Muhtemelen en yaygın kullanım durumu, - bir web sayfası gibi - bir kaynağın olup olmadığını sürekli kontrol eden bir fonksiyonun hızını limitlemek istemenizdir. @slow_down süslü fonksiyon, süslü fonksiyonu çağırmadan önce bir saniye uyuyacaktır:
+Bu sonraki örnek çok kullanışlı görünmeyebilir. Neden Python kodunuzu yavaşlatmak istersiniz? Muhtemelen en yaygın kullanım durumu, - bir web sayfası gibi - bir kaynağın olup olmadığını sürekli kontrol eden bir fonksiyonun hızını limitlemek istemenizdir. ```@slow_down``` süslü fonksiyon, süslü fonksiyonu çağırmadan önce bir saniye uyuyacaktır:
 
 "With "Why would you want to slow down your Python code? " you're questioning the other person's motivations, which implies that a) it was deliberate and b) they might do it again c) you're simply asking about someone's motivation or opinions."
 
@@ -1683,7 +1683,7 @@ Liftoff!
 <p><strong>Not:</strong>  countdown() fonksiyonu özyinelemeli bir fonksiyondur.Başka bir deyişle, kendisini çağıran bir fonksiyondur.  Python'daki özyinelemeli fonksiyonlar hakkında daha fazla bilgi edinmek için, Python'da Tekrarlı Düşünmek kılavuzumuza bakın.</p>
 </div>
 
-@slow_down süslü fonksiyon her zaman bir saniye uyur. Daha sonra, süslü fonksiyona bir ifadeyi geçirerek oranı nasıl kontrol edeceğinizi göreceksiniz.
+```@slow_down``` süslü fonksiyon her zaman bir saniye uyur. Daha sonra, süslü fonksiyona bir ifadeyi geçirerek oranı nasıl kontrol edeceğinizi göreceksiniz.
 
 <br>
 
@@ -1717,12 +1717,12 @@ def randomly_greet(name):
     return greeter_func(name)
 {% endhighlight %}
 
-@register süslü fonksiyonu, global PLUGINS dict içindeki süslü fonksiyona bir atfı basitçe saklar. Bir iç işlev yazmanız veya bu örnekte @functools.wraps kullanmanız gerekmez unutmayın, çünkü değiştirilmemiş orijinal işlevi döndürüyorsunuz.
+```@register``` süslü fonksiyonu, ```global PLUGINS dict``` içindeki süslü fonksiyona bir atfı basitçe saklar. Bir iç işlev yazmanız veya bu örnekte ```@functools.wraps``` kullanmanız gerekmez unutmayın, çünkü değiştirilmemiş orijinal işlevi döndürüyorsunuz.
 
 <div class="alert alert-primary" role="alert">
 <p><strong>Bilgi:</strong> Python'da bir süslü fonksiyon, ifade olarak başka bir fonksiyonu kabul eden bir fonksiyondur. Süslü fonksiyon genellikle kabul ettiği fonksiyonu değiştirir veya geliştirir ve değiştirilmiş fonksiyonu döndürür. Süslü bir fonksiyonu çağırdığınızda, temel tanımla karşılaştırıldığında ek özelliklere sahip olabilen, biraz farklı olabilecek bir fonksiyon alacağınız anlamına gelir.</p>
 </div>
 
-randomly_greet() fonksiyonu, kayıtlı fonksiyonlardan birini kullanmak için rasgele seçer. PLUGINS sözlüğünün zaten eklenti olarak kaydedilen her bir fonksiyon öbeğine atıflar içerdiğini unutmayın:
+```randomly_greet()``` fonksiyonu, kayıtlı fonksiyonlardan birini kullanmak için rasgele seçer. ```PLUGINS``` sözlüğünün zaten eklenti olarak kaydedilen her bir fonksiyon öbeğine atıflar içerdiğini unutmayın:
 
 
