@@ -1828,7 +1828,7 @@ Bu eğiticinin ikinci bölümünde, aşağıdakileri nasıl kullanacağınız da
 
 Süslü Fonksiyon Sınıfları 
 
-Sınıflarda süslü fonksiyonlar kullanmanın iki farklı yolu vardır. İlki, zaten fonksiyonlarla yaptığınız şeye çok yakın: Bir sınıfın yordamlarını süsleyebilirsiniz. Süslü fonksiyonların güne içinde desteklenen tanıtım motivasyonlarından biriydi.
+Sınıflarda süslü fonksiyonlar kullanmanın iki farklı yolu vardır. İlki, zaten fonksiyonlarla yaptığınız şeye çok yakın: Bir sınıfın yordamlarını süsleyebilirsiniz. Süslü fonksiyonların gün içinde desteklenen tanıtım motivasyonlarından biriydi.
 
 
 
