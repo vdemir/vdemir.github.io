@@ -1901,7 +1901,6 @@ In [2]: c.area
 Out[2]: 78.5398163375
 
 In [3]: c.radius = 2
-
 In [4]: c.area
 Out[4]: 12.566370614
 
@@ -1915,7 +1914,6 @@ In [6]: c.radius = -1
 Out[6]: ValueError: Radius must be positive
 
 In [7]: c = Circle.unit_circle()
-
 In [8]: c.radius
 Out[8]: 1
 
