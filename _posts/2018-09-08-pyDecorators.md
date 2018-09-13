@@ -1817,7 +1817,7 @@ Web çatınıza kimlik doğrulamanın nasıl ekleneceği hakkında bir fikir ver
 <div id="D4" class="pop0">Çok Süslü Fonksiyonlar</div>
 
 <br>
-Şimdiye kadar, basit süslü fonksiyonların nasıl oluşturulduğunu gördünüz. Dekoratörlerin ne olduğunu ve nasıl çalıştıklarını çok iyi biliyorsunuz. Öğrendiğiniz herşeyi uygulamak için bu makaleden bir ara vermekte özgür hissedin.
+Şimdiye kadar, basit süslü fonksiyonların nasıl oluşturulduğunu gördünüz. Süslü fonksiyonların ne olduğunu ve nasıl çalıştıklarını çok iyi biliyorsunuz. Öğrendiğiniz herşeyi uygulamak için bu makaleden bir ara vermekte özgür hissedin.
 
 Bu eğiticinin ikinci bölümünde, aşağıdakileri nasıl kullanacağınız da dahil olmak üzere daha gelişmiş özellikleri inceleyeceğiz:
 
@@ -2101,6 +2101,14 @@ Finished 'TimeWaster' in 0.0000 secs
 {% endhighlight %}
 
 Sonra, uygun bir sınıf dekoratörünü tanımlayan, bir sınıfın sadece bir özdeşini sağlayan, @singleton olarak adlandırılan bir örnek göreceksiniz.
+
+
+<br>
+
+<div id="D41" class="pop1">İç İçe Süslü Fonksiyonlar</div>
+
+Birbirlerine üst üste istifleyerek birkaç süslü fonksiyonu bir fonksiyona uygulayabilirsiniz:
+
 
 
 
