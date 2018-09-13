@@ -1816,7 +1816,7 @@ Web çatınıza kimlik doğrulamanın nasıl ekleneceği hakkında bir fikir ver
 
 <div id="D4" class="pop0">Çok Süslü Fonksiyonlar</div>
 
-
+Şimdiye kadar, basit dekoratörlerin nasıl oluşturulduğunu gördünüz. Dekoratörlerin ne olduğunu ve nasıl çalıştıklarını çok iyi biliyorsunuz. Öğrendiğiniz herşeyi uygulamak için bu makaleden bir ara vermekte özgür hissedin.
 
 
 
