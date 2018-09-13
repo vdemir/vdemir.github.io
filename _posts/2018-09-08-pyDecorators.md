@@ -1885,6 +1885,55 @@ Bu sınıfta:
 -  .unit_circle() bir sınıf yordamıdır. Belirli bir Circle özdeşine bağlı değildir. Sınıf yordamları, sınıfın belirli özdeşlerini oluşturabilen fabrika yordamları olarak sıklıkla kullanılır.
 -  .pi() statik bir yordamdır. Circle sınıfına gerçekten bağlı değildir, onun aduzayının bir parçası olması dışında. Statik yordamlar, bir özdeşte veya sınıfta çağrılabilir.
 
+Circle sınıfı örneğin aşağıdaki gibi kullanılabilir:
+
+In [1]: c = Circle(5)
+In [1]: c.radius
+Out[1]: 5
+
+
+In [8]: c.area
+Out[8]: 78.5398163375
+
+In [9]: c.radius = 2
+
+In [10]: c.area
+Out[10]: 12.566370614
+
+In [11]: c.area = 100
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    c.area = 100
+AttributeError: can't set attribute
+
+In [12]: c.cylinder_volume(height=4)
+Out[12]: 50.265482456
+
+In [13]: c.radius = -1
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    c.radius = -1
+  File "<stdin>", line 16, in radius
+    raise ValueError("Radius must be positive")
+ValueError: Radius must be positive
+
+In [14]: c = Circle.unit_circle()
+
+In [15]: c.radius
+Out[15]: 1
+
+In [16]: c.pi()
+Out[16]: 3.1415926535
+
+In [17]: Circle.pi()
+Out[17]: 3.1415926535
+
+
+
+
+
+
+
 
 
 
