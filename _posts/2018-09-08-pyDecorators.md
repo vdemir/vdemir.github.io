@@ -1271,9 +1271,9 @@ Help on function wrapper_do_twice in module __main__:
 <br>
 
 
-Ancak, fonksiyon süslendikten sonra, say_whee() kendi kimliği konusunda çok kafa karıştırdı. Şimdi do_twice() süslü fonksiyonunun içinde wrapper_do_twice() iç fonksiyonu olduğunu bildiriyor. Teknik olarak doğru olsa da, bu çok yararlı bir bilgi değildir.
+Ancak, fonksiyon süslendikten sonra, ```say_whee()``` kendi kimliği konusunda çok kafa karıştırdı. Şimdi do_twice() süslü fonksiyonunun içinde ```wrapper_do_twice()``` iç fonksiyonu olduğunu bildiriyor. Teknik olarak doğru olsa da, bu çok yararlı bir bilgi değildir.
 
-Bunu düzeltmek için, süslü fonksiyonlar orijinal fonksiyonla ilgili bilgileri muhafaza eden @functools.wraps süslü fonksiyonunu kullanmalıdır.  Decorators.py betiğini tekrar güncelleyin:
+Bunu düzeltmek için, süslü fonksiyonlar orijinal fonksiyonla ilgili bilgileri muhafaza eden ```@functools.wraps``` süslü fonksiyonunu kullanmalıdır.  Decorators.py betiğini tekrar güncelleyin:
 
 {% highlight python %}
 
