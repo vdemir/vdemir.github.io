@@ -1891,7 +1891,7 @@ Circle sınıfı örneğin aşağıdaki gibi kullanılabilir:
 
 <h2 class="python3">Python</h2>
 
-{% highlight bash %}
+{% highlight python %}
 
 In [1]: c = Circle(5)
 In [1]: c.radius
