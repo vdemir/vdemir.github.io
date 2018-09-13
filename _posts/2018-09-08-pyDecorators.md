@@ -1733,7 +1733,7 @@ print(f"{PLUGINS}")
 
 <br>
 
-<div class="alert alert-heading" role="alert">
+<div class="alert alert-dismissible" role="alert">
 <p><strong>python</strong></p>
 </div>
 
