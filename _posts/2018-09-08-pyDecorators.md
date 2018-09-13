@@ -1289,7 +1289,7 @@ def do_twice(func):
 <br>
 
 <div class="alert alert-success" role="alert">
-<p><strong>functools:</strong>  - Yüksek mertebeden fonksiyonlar ve istenebilen nesneler üzerindeki işlemler. ```Functools``` modülü üst düzey fonksiyonlar içindir: diğer fonksiyonlar üzerinde hareket eden veya dönen fonksiyonlar. Genel olarak, herhangi bir değiştirilebilir nesne bu modülün amaçları için bir fonksiyon olarak ele alınabilir.Bu, bir ```wrapper``` fonksiyonunu tanımlarken ```update_wrapper()``` öğesini bir fonksiyon Süslü fonksiyon olarak çağırmak için bir kolaylık fonksiyonudur. Bu kısmi ```(update_wrapper, çevrelenmiş = çevrelenmiş, atanan = atanan, güncellenmiş = güncellenmiş)``` eşdeğerdir.</p>
+<p><strong>functools:</strong>  - Yüksek mertebeden fonksiyonlar ve istenebilen nesneler üzerindeki işlemler. Functools modülü üst düzey fonksiyonlar içindir: diğer fonksiyonlar üzerinde hareket eden veya dönen fonksiyonlar. Genel olarak, herhangi bir değiştirilebilir nesne bu modülün amaçları için bir fonksiyon olarak ele alınabilir.Bu, bir wrapper fonksiyonunu tanımlarken update_wrapper() öğesini bir fonksiyon Süslü fonksiyon olarak çağırmak için bir kolaylık fonksiyonudur. Bu kısmi (update_wrapper, çevrelenmiş = çevrelenmiş, atanan = atanan, güncellenmiş = güncellenmiş) eşdeğerdir.</p>
 </div>
   
 <br>
