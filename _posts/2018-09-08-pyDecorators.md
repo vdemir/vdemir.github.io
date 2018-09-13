@@ -1706,6 +1706,8 @@ Süslü fonksiyonların, süsledikleri fonksiyonu çevrelemesi gerekmez. Ayrıca
 
 <br>
 
+<h2 class="python3">Python</h2>
+
 {% highlight python  linenos=table %}
 import random
 PLUGINS = dict()
