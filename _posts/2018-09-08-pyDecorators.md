@@ -1396,7 +1396,7 @@ def waste_some_time(num_times):
 Bu süslü fonksiyon, fonksiyonun çalışmaya başlamasından hemen önceki süreyi saklayarak çalışır (# 1 olarak işaretlenmiş satırda) ve fonksiyon bittikten hemen sonra (# 2'de). Fonksiyonun aldığı zaman ikisinin arasındaki farktır (# 3'de). Zaman aralıklarını ölçmek için iyi bir iş yapan ```time.perf_counter()``` fonksiyonunu kullanırız.
 
 <br>
-<div class="pop2"> Fonksiyon Çıktısı:</div>
+<h2 class="python3">Python</h2>
 <br>
 
 {% highlight python %}
