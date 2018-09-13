@@ -2215,5 +2215,75 @@ Hello Eva
 
 <div id="D41" class="pop1">İfadeler ile Süslü Fonksiyonlar</div>
 
-Bazen, ifadeleri süslü fonksiyonlara iletmek yararlıdır. Örneğin, @do_twice bir   @repeat(num_times) süslü fonksiyonuna genişletilebilir.
+Bazen, ifadeleri süslü fonksiyonlara iletmek yararlıdır. Örneğin, @do_twice bir   @repeat(num_times) süslü fonksiyonuna genişletilebilir. Süslenen fonksiyonun yürütme sayısı, daha sonra bir ifade olarak verilebilir.
+
+Bu, böyle bir şey yapmanıza izin verirdi:
+
+{% highlight python %}
+
+@repeat(num_times=4)
+def greet(name):
+    print(f"Hello {name}")
+
+{% endhighlight %}
+
+
+<br>
+
+{% highlight python  linenos=table %}
+
+import functools
+
+
+def repeat(num_times):
+    def decorator_repeat(func):
+        @functools.wraps(func)
+        def wrapper_repeat(*args, **kwargs):
+            for _ in range(num_times):
+                value = func(*args, **kwargs)
+            return value
+        return wrapper_repeat
+    return decorator_repeat 
+
+
+@repeat(num_times=4)
+def greet(name):
+    print(f"Hello {name}")
+    
+greet("World")
+
+{% endhighlight %}
+
+
+<br>
+
+<h2 class="python3">Python</h2>
+{% highlight python %}
+
+Hello World
+Hello World
+Hello World
+Hello World
+
+
+{% endhighlight %}
+
+Bunu nasıl başarabileceğinizi düşünün.
+
+Şimdiye kadar, @ 'den sonra yazılan ad, başka bir fonksiyonla çağrılabilen bir fonksiyon öbeğine başvurdu. Tutarlı olmak için, bir süslü fonksiyon gibi davranabilen bir fonksiyon öbeğini döndürmek için tekrar (num_times = 4) gerekir. Neyse ki, zaten fonksiyonların nasıl döndüğünü biliyorsunuz! Genel olarak, aşağıdaki gibi bir şey istersiniz:
+
+{% highlight python %}
+
+def repeat(num_times):
+    def decorator_repeat(func):
+        ...  # Create and return a wrapper function
+    return decorator_repeat
+
+{% endhighlight %}
+
+Tipik olarak, süslü fonksiyon bir iç çevreleyici fonksiyonu yaratır ve döndürür, böylece, örneklemi tam olarak yazmak, içsel bir fonksiyon içinde size içsel bir fonksiyon verecektir.
+
+
+
+
 
