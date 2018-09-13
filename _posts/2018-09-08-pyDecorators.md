@@ -2215,5 +2215,5 @@ Hello Eva
 
 <div id="D41" class="pop1">İfadeler ile Süslü Fonksiyonlar</div>
 
-
+Bazen, ifadeleri süslü fonksiyonlara iletmek yararlıdır. Örneğin, @do_twice bir   @repeat(num_times) süslü fonksiyonuna genişletilebilir.
 
