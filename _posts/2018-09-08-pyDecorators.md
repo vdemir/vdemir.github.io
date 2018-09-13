@@ -1719,6 +1719,8 @@ randomly_greet("Alice")
 
 print(f"{PLUGINS}")
 
+print(globals())
+
 {% endhighlight %}
 
 ```@register``` süslü fonksiyonu, ```global PLUGINS dict``` içindeki süslü fonksiyona bir atfı basitçe saklar. Bir iç işlev yazmanız veya bu örnekte ```@functools.wraps``` kullanmanız gerekmez unutmayın, çünkü değiştirilmemiş orijinal işlevi döndürüyorsunuz.
@@ -1759,7 +1761,6 @@ Python'da globals() ile tanışıyorsanız, eklenti mimarisinin nasıl çalışt
 'say_hello': <function say_hello at 0x7faf789126a8>, 
 'be_awesome': <function be_awesome at 0x7faf78912730>, 
 'randomly_greet': <function randomly_greet at 0x7faf789127b8>}
-
 
 {% endhighlight %} 
 
