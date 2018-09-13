@@ -2213,7 +2213,7 @@ Hello Eva
 
 <br>
 
-<div id="D41" class="pop1">İfadeler ile Süslü Fonksiyonlar</div>
+<div id="D42" class="pop1">İfadeler ile Süslü Fonksiyonlar</div>
 
 Bazen, ifadeleri süslü fonksiyonlara iletmek yararlıdır. Örneğin, @do_twice bir   @repeat(num_times) süslü fonksiyonuna genişletilebilir. Süslenen fonksiyonun yürütme sayısı, daha sonra bir ifade olarak verilebilir.
 
