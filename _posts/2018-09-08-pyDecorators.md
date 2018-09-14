@@ -2704,6 +2704,10 @@ say_whee.num_calls 2
 
 Her türlü süslü fonksiyonu nasıl oluşturacağımızı anlayarak, şu ana kadar çok yol kat ettik. Yeni bir bilgi birikimimizi, gerçek dünyada gerçekten faydalı olabilecek birkaç örnek oluşturarak bir araya getirelim.
 
+
+<div class="pop2">Slowing Down Code</div>
+
+
 Daha önce belirtildiği gibi, daha önce de belirtildiği gibi, Önceki @slow_down uygulamamız her zaman bir saniye uyur. Artık, süslü fonksiyonlar için parametrelerin nasıl ekleneceğini biliyorsunuz. Bu nedenle, ne kadar süre uyuduğunu kontrol eden isteğe bağlı bir rate ifadesi kullanarak @slow_down'u yeniden yazalım:
 
 <br>
