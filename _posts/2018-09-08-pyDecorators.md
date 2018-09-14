@@ -95,7 +95,7 @@ img.resize {
     - &nbsp;&nbsp;&nbsp;&nbsp; 2.1&nbsp;[Sözdizimsel Şeker!](#D21)
     - &nbsp;&nbsp;&nbsp;&nbsp; 2.2&nbsp;[Süslü fonksiyonları Yeniden Kullanmak](#D22)
     - &nbsp;&nbsp;&nbsp;&nbsp; 2.3&nbsp;[İfadelerle Bezeyen Fonksiyonlar](#D23)
-    - &nbsp;&nbsp;&nbsp;&nbsp; 2.4&nbsp;[Dekore Edilmiş Fonksiyonlardan Dönen Değerler](#D24)
+    - &nbsp;&nbsp;&nbsp;&nbsp; 2.4&nbsp;[Süslü Fonksiyonlardan Dönen Değerler](#D24)
     - &nbsp;&nbsp;&nbsp;&nbsp; 2.5&nbsp;[Kimsin sen, Gerçekten mi?](#D25)
 + 3 [Birkaç Gerçek Dünya Örneği](#D3)
     - &nbsp;&nbsp;&nbsp;&nbsp; 3.1&nbsp;[Zamanlama Fonksiyonları](#D31)
@@ -449,9 +449,9 @@ Dikkat edilmesi gereken diğer bir şey, süslü fonksiyonumuzun bir isim ifades
 
 <div id="D15" class="pop1">1.5 Kısmi fonksiyonlar</div>
 
-functools kütüphanesinden kısmi fonksiyonu kullanarak python'da kısmi işlevler oluşturabilirsiniz. 
+functools kütüphanesinden kısmi fonksiyonu kullanarak python'da kısmi fonksiyonlar oluşturabilirsiniz. 
 
-Kısmi işlevler, daha az parametre ve daha sınırlı fonksiyon için ayarlanan sabit değerler ile bir fonksiyona x parametresiyle bir fonksiyon türettirilmesini sağlar. 
+Kısmi fonksiyonlar, daha az parametre ve daha sınırlı fonksiyon için ayarlanan sabit değerler ile bir fonksiyona x parametresiyle bir fonksiyon türettirilmesini sağlar. 
 
 İçe aktarma gerekli:
 
@@ -1136,7 +1136,7 @@ Whee!
 
 <br>
 
-<div id="D24" class="pop1">2.4 Dekore Edilmiş Fonksiyonlardan Dönen Değerler</div>
+<div id="D24" class="pop1">2.4 Süslü Fonksiyonlardan Dönen Değerler</div>
 
 Dekorlu fonksiyonların dönüş değeri ne olur? Eh, karar vermek için süslü fonksiyona kalmış. Basit bir fonksiyonu aşağıdaki gibi dekore ettiğinizi varsayalım:
 
