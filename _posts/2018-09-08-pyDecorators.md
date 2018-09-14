@@ -2508,9 +2508,15 @@ Hello Penny
 
 <div id="D44" class="pop1">Durumsal Süslü Fonksiyonlar</div>
 
-Bazen, durumu takip edebilen bir süslü fonksiyon olması yararlı olur. Basit bir örnek olarak, bir fonksiyonun çağrılma sayısını sayan bir süslü fonksiyon oluşturacağız.
+Bazen, **durumu takip edebilen bir süslü fonksiyon** olması yararlı olur. Basit bir örnek olarak, bir fonksiyonun çağrılma sayısını sayan bir süslü fonksiyon oluşturacağız.
 
+<br>
 
+<div class="alert alert-warning" role="alert">
+<p><strong>Not:</strong> Bu kılavuzun başında, verilen argümanlara dayalı bir değer döndüren saf fonksiyonlardan söz ettik. Durum bilgisi veren dekoratörler tam tersidir, geri dönüş değeri mevcut duruma ve ayrıca verilen argümanlara bağlı olacaktır.</p>
+</div>
+
+<br>
 
 
 
