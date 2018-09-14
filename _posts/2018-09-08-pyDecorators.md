@@ -2671,6 +2671,13 @@ print(f"say_whee.num_calls {say_whee.num_calls}")
 {% endhighlight %}
  
 <br>
+
+.__init__() yordamı, fonksiyona bir atfı kaydetmeli ve diğer gerekli başlatma işlemlerini yapmalıdır. Süslü fonksiyonun yerine .__call__() yordamı çağrılacak. Aslında daha önceki örneğimizde wrapper() fonksiyonuyla aynı şeyi yapar. 
+@functools.wraps yerine functools.update_wrapper () fonksiyonunu kullanmanız gerektiğini unutmayın. 
+
+
+@CountCalls süslü fonksiyonu önceki bölümdeki ile aynı çalışır:
+<br>
 <h2 class="python3">Python</h2>
 {% highlight python %}
 
@@ -2681,4 +2688,6 @@ Whee!
 say_whee.num_calls 2
 
 {% endhighlight %}
+
+
 
