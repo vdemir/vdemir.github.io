@@ -2308,8 +2308,6 @@ def wrapper_repeat(*args, **kwargs):
 
 {% endhighlight %}
 
-
-
-
+Yine, decorator_repeat(), farklı adlandırılması dışında daha önce yazmış olduğunuz süslü fonksiyonlar gibi görünür. Bunun nedeni, kullanıcının arayacağı, en dıştaki fonksiyon için temel adı —repeat()— ayırmamızdır.
 
 
