@@ -2385,9 +2385,7 @@ Bir anahtar kelime ifadesi, varsayılan bir değere sahip bir konumsal ifadedir.
 **İfade** 
 Fonksiyonu çağırırken bir fonksiyona (veya yordama) geçirilen bir değer. 	İki tür ifade var:
 
--  keyword ifadesi: Bir fonksiyon çağrısında bir tanıtıcıdan (örn. name =) önce gelen bir ifade veya ** ile öncelenen bir sözlükte bir değer olarak geçirilir.
-
-bir fonksiyon çağrısındaki bir tanımlayıcıdan (ör. name =) önce gelen veya ** ile öncelenen bir sözlükte bir değer olarak geçirilen bir ifade. Örneğin, 3 ve 5, aşağıdaki her iki keyword ifadesi complex() için çağrılır:
+-  keyword ifadesi: Bir fonksiyon çağrısındaki bir tanımlayıcıdan (ör. name =) önce gelen veya ** ile öncelenen bir sözlükte bir değer olarak geçirilen bir ifade. Örneğin, 3 ve 5, aşağıdaki her iki keyword ifadesi complex() için çağrılır:
 
 {% highlight python %}
 
@@ -2396,9 +2394,14 @@ complex(**{'real': 3, 'imag': 5})
 
 {% endhighlight %}
 
+-  positional ifade: bir keyword ifade olmayan bir ifade. Konum ifadeleri, ifade listesinin başında görünebilir ve / veya * ile öncelenen yinelenebilir elemanlar olarak geçirilebilir. Örneğin, 3 ve 5, aşağıdaki her iki positional ifadesi çağrılır:
 
+{% highlight python %}
 
+complex(3, 5)
+complex(*(3, 5))
 
+{% endhighlight %}
 
 
 
