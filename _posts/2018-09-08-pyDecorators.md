@@ -2345,9 +2345,9 @@ Hello World
 
 {% endhighlight %}
 
+Bunu nasıl başarabileceğinizi düşünün.
 
-
-
+Şimdiye kadar, @ dan sonra yazılan ad, başka bir fonksiyonla çağrılabilen bir fonksiyon öbeğine atfedildi. Tutarlı olmak için, o zaman bir süslü fonksiyon gibi davranabilen bir fonksiyon öbeğini döndürmek için repeat(num_times=4) gerekir. Neyse ki, zaten fonksiyonların nasıl döndüğünü biliyorsunuz! Genel olarak, aşağıdaki gibi bir şey istersiniz:
 
 
 
