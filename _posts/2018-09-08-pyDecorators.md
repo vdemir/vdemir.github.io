@@ -86,6 +86,7 @@ img.resize {
         - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.4.1&nbsp;[Fonksiyonları diğer fonksiyonlar içinde tanımlayın](#D141)
         - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.4.2&nbsp;[Fonksiyonlar diğer fonksiyonlara parametre olarak geçirilebilir](#D142)
         - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.4.3&nbsp;[Fonksiyonlar diğer fonksiyonlari geri verebilir](#D143)
+        - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.4.4&nbsp;[İç fonksiyonlar bidirim alanını çevreleyerek erişime sahip olurlar](#D144)
     - &nbsp;&nbsp;&nbsp;&nbsp; 1.5&nbsp;[Kısmi fonksiyonlar](#D15)
     - &nbsp;&nbsp;&nbsp;&nbsp; 1.6&nbsp;[Functools.wraps Ne Yapar?](#D16)
     - &nbsp;&nbsp;&nbsp;&nbsp; 1.7&nbsp;[Functools.wraps nasıl kullanılır?](#D17)
