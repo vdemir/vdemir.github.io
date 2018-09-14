@@ -431,7 +431,7 @@ print my_get_text("John")
 
 {% endhighlight %}
 
-Bu bizim ilk süslü fonksiyonumuzdu. Başka bir fonksiyonu ifade olarak alan bir fonksiyon, yeni bir fonksiyon üretir, orijinal fonksiyonun çalışmasını çoğaltır ve oluşturulan fonksiyonu döndürerek her yerde kullanabiliriz. get_text'in kendisi p_decorate tarafından dekore edilmek için, sadece get_text 'i p_decorate sonucuna atamak zorundayız.
+Bu bizim ilk süslü fonksiyonumuzdu. Başka bir fonksiyonu ifade olarak alan bir fonksiyon, yeni bir fonksiyon üretir, orijinal fonksiyonun çalışmasını çoğaltır ve oluşturulan fonksiyonu döndürerek her yerde kullanabiliriz. get_text'in kendisi p_decorate tarafından donatılması için, sadece get_text 'i p_decorate sonucuna atamak zorundayız.
 
 {% highlight python %}
 
@@ -631,7 +631,7 @@ FILE
 
 {% endhighlight %}
 <br>
-Bu kodda, '''**a_function**''' olarak adlandırılan fonksiyonu bir **another_function** ile dekore ederiz. Fonksiyonun '''**__name__**''' ve '''**__doc__**''' özelliklerini kullanarak baskı yaparak '''a_function'''’ın adını ve '''docstring''' belgesi belgesini kontrol edebilirsiniz. Bu örneği çalıştırırsanız, çıktı için aşağıdakini alırsınız:
+Bu kodda, '''**a_function**''' olarak adlandırılan fonksiyonu bir **another_function** ile donatırız. Fonksiyonun '''**__name__**''' ve '''**__doc__**''' özelliklerini kullanarak baskı yaparak '''a_function'''’ın adını ve '''docstring''' belgesi belgesini kontrol edebilirsiniz. Bu örneği çalıştırırsanız, çıktı için aşağıdakini alırsınız:
 
 
 Bu doğru değil! Bu programı IDLE veya yorumlayıcıda çalıştırırsanız, bunun gerçekten kafa karıştırıcı, gerçekten hızlı bir şekilde nasıl elde edilebileceği daha da açık hale gelir. Bu gerçekten nasıl kafa karıştırıcı, gerçekten hızlı olabilir daha da belirgin hale geliyor.
@@ -995,7 +995,7 @@ msp = MyStringProcessor()
 [Bu yazı içerisinde kullanılan kaynak kodun tamamını içerir.]({{ site.baseurl }}/assets/strproc.py)
 
 Modül, bir standart imza ```(self, str)``` içeren ve 
-```stringfilter``` ile dekore edilen ekleme yordamlarını alıp özelleştirebileceğim bir ```StringProcessor``` sınıfı tanımlar. Bu sınıf daha sonra örneklenebilir ve örnek, bir dizeyi doğrudan işlemek ve sonucu döndürmek için kullanılır. Dahili olarak sınıf, tüm süslü yöntemleri art arda otomatik olarak yürütür. Ayrıca, sınıfın, filtreleri tanımladığım sıraya uymasını istiyorum: ilk önce, ilk olarak çalıştırılır.
+```stringfilter``` ile donatılan ekleme yordamlarını alıp özelleştirebileceğim bir ```StringProcessor``` sınıfı tanımlar. Bu sınıf daha sonra örneklenebilir ve örnek, bir dizeyi doğrudan işlemek ve sonucu döndürmek için kullanılır. Dahili olarak sınıf, tüm süslü yöntemleri art arda otomatik olarak yürütür. Ayrıca, sınıfın, filtreleri tanımladığım sıraya uymasını istiyorum: ilk önce, ilk olarak çalıştırılır.
 
 Metaclasses bu hedefe ulaşmak için nasıl yardımcı olabilir? 
 
@@ -1048,7 +1048,7 @@ if __name__ == "__main__":
 
 <div id="D23" class="pop1">2.3 İfadelerle Bezeyen Fonksiyonlar</div>
 
-Bazı ifadeları kabul eden bir fonksiyonuniz olduğunu varsayalım. Hala dekore edebilir misin? Hadi deneyelim:
+Bazı ifadeleri kabul eden bir fonksiyonunuz olduğunu varsayalım. Hala donatabilir misin? Hadi deneyelim:
 <br>
 
 
@@ -1138,7 +1138,7 @@ Whee!
 
 <div id="D24" class="pop1">2.4 Süslü Fonksiyonlardan Dönen Değerler</div>
 
-Dekorlu fonksiyonların dönüş değeri ne olur? Eh, karar vermek için süslü fonksiyona kalmış. Basit bir fonksiyonu aşağıdaki gibi dekore ettiğinizi varsayalım:
+Dekorlu fonksiyonların dönüş değeri ne olur? Eh, karar vermek için süslü fonksiyona kalmış. Basit bir fonksiyonu aşağıdaki gibi donattığınızı varsayalım:
 
 {% highlight python  linenos=table %}
 
