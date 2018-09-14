@@ -2873,7 +2873,7 @@ function myFunction() {
 
 <div id="id01" style="display:none">
 
-  <p> {% highlight python  linenos=table %}
+ {% highlight python  linenos=table %}
 
 import functools
 import time
@@ -3040,7 +3040,7 @@ def set_unit(unit):
         return func
 
     return decorator_set_unit
-{% endhighlight %}</p>
+{% endhighlight %}
 </div>
 
 
