@@ -2513,7 +2513,7 @@ Bazen, **durumu takip edebilen bir süslü fonksiyon** olması yararlı olur. Ba
 <br>
 
 <div class="alert alert-warning" role="alert">
-<p><strong>Not:</strong> Bu kılavuzun başında, verilen argümanlara dayalı bir değer döndüren saf fonksiyonlardan söz ettik. Durum bilgisi veren dekoratörler tam tersidir, geri dönüş değeri mevcut duruma ve ayrıca verilen argümanlara bağlı olacaktır.</p>
+<p><strong>Not:</strong> Bu kılavuzun başında, verilen ifadelere dayalı bir değer döndüren saf fonksiyonlardan söz ettik. Durum bilgisi veren süslü fonksiyonlar tam tersidir, geri dönüş değeri mevcut duruma ve ayrıca verilen argümanlara bağlı olacaktır.</p>
 </div>
 
 <br>
