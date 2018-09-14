@@ -2746,7 +2746,7 @@ countdown(3)
 
 @slow_down'u ifadeli ve ifadesiz olarak kullanılabilir hale getirmek için, bölümünde tanıtılan katmanı kullanıyoruz. Aynı özyineli countdown() fonksiyonu, daha önce olduğu gibi her sayım arasında iki saniye uyur:
 
-
+Daha önce olduğu gibi, süslü fonksiyonun etkisini görmek için örneği kendiniz uygulamanız gerekir:
 <br>
 <h2 class="python3">Python</h2>
 {% highlight python %}
