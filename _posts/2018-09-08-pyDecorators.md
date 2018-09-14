@@ -2839,7 +2839,8 @@ first_one'un gerçekten de bir another_one ile aynı özdeş olduğu açıkça g
 <p><strong>Not:</strong> Singleton sınıfları, diğer dillerdeki gibi Python'da sık sık kullanılmamaktadır. Bir Singleton etkisi genellikle bir modülde global değişken olarak daha iyi uygulanır.</p>
 </div>
 
-
+<br>
+<div class="pop2">Dönüş Değerlerini Önbelleğe Alma</div>
 
 
 
