@@ -2842,6 +2842,38 @@ first_one'un gerçekten de bir another_one ile aynı özdeş olduğu açıkça g
 <br>
 <div class="pop2">Dönüş Değerlerini Önbelleğe Alma</div>
 
+Dekoratörler, önbelleğe alma ve hafızalama için güzel bir mekanizma sağlayabilir. Örnek olarak, Fibonacci dizisinin yinelemeli bir tanımına bakalım:
+
+<br>
+{% highlight python %}
+
+from decorators import count_calls
+
+@count_calls
+def fibonacci(num):
+    if num < 2:
+        return num
+    return fibonacci(num - 1) + fibonacci(num - 2)
+
+{% endhighlight %}
+
+Uygulama basitken, çalışma zamanı performansı korkunç:
+
+
+
+<button class="w3-button w3-blue" onclick="document.getElementById('id01').style.display='block'">Bilgi!</button> 
+
+<div id="id01" class="w3-panel w3-green w3-display-container" style="display:none">
+  <span onclick="this.parentElement.style.display='none'"
+  class="w3-button w3-yellow w3-display-topright">&#10004;</span>
+  <p> <code class="w3-codespan">init</code> bazen nesnenin kurucusu olarak adlandırılır, çünkü kurucuların diğer dillerde kullanıldığı gibi kullanılır, ancak bu teknik olarak doğru değildir - onu başlatıcı olarak adlandırmak daha iyidir. Bir kurucuya daha benzer olan <code class="w3-codespan">new</code> adlı farklı bir yordam var, ancak neredeyse hiç kullanılmıyor.</p>
+</div>
+
+
+
+
+
+
 
 
 
