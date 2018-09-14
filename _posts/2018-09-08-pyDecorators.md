@@ -2359,6 +2359,18 @@ Süslü fonksiyonların ifadelerle veya ifadeler olmadan çağrılıp çağrılm
 
 Süslü fonksiyon ifadeler olmadan çağrıldığında, fonksiyon, süslü fonksiyona yalnızca doğrudan iletildiğinden beri, fonksiyon isteğe bağlı bir ifade olmalıdır. Süslü fonksiyon ifadelerinin keyword ile belirtilmesi gerektiği anlamına gelir. Bunu, aşağıdaki tüm parametrelerin yalnızca keyword olduğu anlamına gelen özel * sözdizimi ile uygulayabilirsiniz:
 
+{% highlight python %}
+
+def name(_func=None, *, kw1=val1, kw2=val2, ...):  # 1
+    def decorator_name(func):
+        ...  # Create and return a wrapper function.
+
+    if _func is None:
+        return decorator_name                      # 2
+    else:
+        return decorator_name(_func)               # 3
+
+{% endhighlight %}
 
 
 
