@@ -2642,5 +2642,43 @@ counter.count is 2
 
 Bu nedenle, bir süslü fonksiyon sınıfının tipik bir uygulaması, .__init__() ve .__call__() uygulanması gerekir:
 
+<br>
 
+{% highlight python  linenos=table %}
+
+import functools
+
+class CountCalls:
+    def __init__(self, func):
+        functools.update_wrapper(self, func)
+        self.func = func
+        self.num_calls = 0
+
+    def __call__(self, *args, **kwargs):
+        self.num_calls += 1
+        print(f"Call {self.num_calls} of {self.func.__name__!r}")
+        return self.func(*args, **kwargs)
+
+@CountCalls
+def say_whee():
+    print("Whee!")
+    
+    
+say_whee()
+say_whee()
+
+print(f"say_whee.num_calls {say_whee.num_calls}")
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+{% highlight python %}
+
+Call 1 of 'say_whee'
+Whee!
+Call 2 of 'say_whee'
+Whee!
+say_whee.num_calls 2
+
+{% endhighlight %}
 
