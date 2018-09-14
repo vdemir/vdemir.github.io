@@ -2375,6 +2375,11 @@ def name(_func=None, *, kw1=val1, kw2=val2, ...):  # 1
 Süslü fonksiyonların ifadeler ile çağrılıp çağrılmadığını belirterek burada, _func ifadesi bir işaretçi olarak davranır:
 
 1. Eğer name ifadesiz çağrıldıysa, süslenmiş fonksiyon _func olarak aktarılacaktır. İfadeler ile çağrıldıysa, o zaman _func None olacaktır ve bazı keyword ifadeleri varsayılan değerlerinden değişime uğramış olabilir. İfade listesindeki *, arda kalan ifadelerin konumsal ifadeler olarak çağrılamayacağı anlamına gelir.
+
+2. Bu durumda, süslü fonksiyonlar, ifadeler ile çağrıldı. Bir fonksiyonu okuyabilen ve döndüren bir süslü fonksiyonu döndür.
+
+3. Bu durumda, süslü fonksiyon, ifadeler olmadan çağrıldı. Süslü fonksiyonu hemen fonksiyona uygulayın.
+
 <br>
 <div class="pop2">Positional ifade ve keyword ifadesi</div>
 
@@ -2404,7 +2409,26 @@ Eşit işaretin anlamı, tanımda mı yoksa çağrıda mı olduğuna bağlı ola
 
 Bir anahtar kelime ifadesi, varsayılan bir değere sahip bir konumsal ifadedir. Varsayılan değere sahip olmayan tüm ifadeleri belirtmelisiniz. Diğer bir deyişle, anahtar kelime ifadeleri yalnızca 'isteğe bağlı' dır, çünkü özellikle sağlanmadıkları takdirde varsayılan değerlerine ayarlanırlar.
 
+<br>
+Önceki bölümdeki @repeat süslü fonksiyonunda bu şablonu kullanarak aşağıdakileri yazabilirsiniz:
 
+{% highlight python  linenos=table %}
+
+def repeat(_func=None, *, num_times=2):
+    def decorator_repeat(func):
+        @functools.wraps(func)
+        def wrapper_repeat(*args, **kwargs):
+            for _ in range(num_times):
+                value = func(*args, **kwargs)
+            return value
+        return wrapper_repeat
+
+    if _func is None:
+        return decorator_repeat
+    else:
+        return decorator_repeat(_func)
+
+{% endhighlight %}
 
 
 
