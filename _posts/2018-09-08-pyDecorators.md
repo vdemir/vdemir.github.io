@@ -2403,6 +2403,6 @@ complex(*(3, 5))
 
 {% endhighlight %}
 
-
+İfadeler, bir fonksiyon gövdesindeki adlandırılmış yerel değişkenlere atanır. Sözdizimsel olarak, herhangi bir ifade bir argümanı temsil etmek için kullanılabilir; değerlendirilen değer yerel değişkene atanır.
 
 
