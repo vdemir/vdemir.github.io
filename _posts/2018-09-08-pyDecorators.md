@@ -635,7 +635,7 @@ Temel olarak burada olan şey, süslü fonksiyonun adını ve '''docstring''' be
 
 <br>
 
-<div id="D171" class="pop1">1.7.1 Wraps to the Rescue!</div>
+<div id="D171" class="pop1">1.7.1 Yardım için Wraps!</div>
 
 Bu küçük karışıklığı nasıl düzeltiriz? Python geliştiricileri bize '''functools.wraps''' çözümü verdi! Hadi kontrol edelim:
 
