@@ -840,7 +840,7 @@ Bu yüzden, ```@my_decorator``` sadece, ```say_whee = my_decorator(say_whee)``` 
 
 <br>
 
-<div id="D22" class="pop1">Süslü fonksiyonları Yeniden Kullanmak</div>
+<div id="D22" class="pop1">2.1.1 Süslü fonksiyonları Yeniden Kullanmak</div>
 
 Bir süslü fonksiyonun sadece normal bir Python fonksiyonu olduğunu hatırlayın. Kolay tekrar kullanılabilirlik için tüm genel araçlar mevcuttur. Süslü fonksiyonu diğer birçok fonksiyonda kullanılabilecek kendi modülüne taşıyalım.
 
@@ -904,7 +904,7 @@ Whee!
 {% endhighlight %}
 
 <br>
-<div class="pop2">Biraz Daha Faydalı</div>
+<div class="pop2">2.1.2 Biraz Daha Faydalı</div>
 <br>
 
 
@@ -954,7 +954,7 @@ Kurucu, fonksiyon nesnesi olan bağımsız değişkeni saklar. Çağrıda, fonks
 
  
 <br>
-<div class="pop2">Meta sınıflar ve süslü fonksiyonlar: uzayda yapılmış bir eşleme</div>
+<div class="pop2">2.1.3 Meta sınıflar ve süslü fonksiyonlar: uzayda yapılmış bir eşleme</div>
 <br>
 
 Meta sınıflar karmaşık bir konudur ve çoğu zaman ileri düzey programcılar, onlar için çok çeşitli pratik kullanımları görmez.
