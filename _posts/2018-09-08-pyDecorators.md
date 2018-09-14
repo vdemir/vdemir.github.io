@@ -2861,19 +2861,19 @@ Uygulama basitken, çalışma zamanı performansı korkunç:
 
 <script>
 function myFunction() {
-    var onclick = document.getElementById('id01');
-    if (onclick.style.display === 'none') {
-        onclick.style.display = 'block';
+    if (document.getElementById('id01').style.display === 'none') {
+        document.getElementById('id01').style.display='block';
     } else {
-        onclick.style.display = 'none';
+        document.getElementById('id01').style.display='none';
     }
 }
 </script>
 
-<button class="w3-button w3-blue" onclick >decorators.py</button> 
+<button class="w3-button w3-blue" onclick="document.getElementById('id01').style.display='block'">decorators.py</button> 
 
 <div id="id01" class="w3-panel w3-green w3-display-container" style="display:none">
- 
+  <span onclick="this.parentElement.style.display='none'"
+  class="w3-button w3-yellow w3-display-topright">&#10004;</span>
   <p> {% highlight python  linenos=table %}
 
 """Examples of decorators
