@@ -2594,6 +2594,18 @@ func = my_decorator (func) demenin daha kolay bir yolu olan süslü fonksiyon s�
 
 Bir sınıfın istenebilir olması için, özel .__ call __() yordamını uygularsınız:
 
+<br>
+{% highlight python %}
+
+class Counter:
+    def __init__(self, start=0):
+        self.count = start
+
+    def __call__(self):
+        self.count += 1
+        print(f"Current count is {self.count}")
+
+{% endhighlight %}
 
 
 
