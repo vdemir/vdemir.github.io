@@ -2357,4 +2357,20 @@ Bir önceki bölümde gördüğünüz gibi, bir süslü fonksiyon ifadeleri kull
 
 Süslü fonksiyonların ifadelerle veya ifadeler olmadan çağrılıp çağrılmadığını, kodunuzun çözmesi için meydan okumadır.
 
+Süslü fonksiyon ifadeler olmadan çağrıldığında, fonksiyon, süslü fonksiyona yalnızca doğrudan iletildiğinden beri, fonksiyon isteğe bağlı bir ifade olmalıdır. Süslü fonksiyon ifadelerinin keyword ile belirtilmesi gerektiği anlamına gelir. Bunu, aşağıdaki tüm parametrelerin yalnızca keyword olduğu anlamına gelen özel * sözdizimi ile uygulayabilirsiniz:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
