@@ -2412,7 +2412,7 @@ Bir anahtar kelime ifadesi, varsayılan bir değere sahip bir konumsal ifadedir.
 <br>
 Önceki bölümdeki @repeat süslü fonksiyonunda bu şablonu kullanarak aşağıdakileri yazabilirsiniz:
 
-{% highlight python  linenos=table %}
+{% highlight python %}
 
 def repeat(_func=None, *, num_times=2):
     def decorator_repeat(func):
