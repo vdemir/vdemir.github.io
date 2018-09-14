@@ -2378,11 +2378,7 @@ Süslü fonksiyonların ifadeler ile çağrılıp çağrılmadığını belirter
  
 
 **Positional -konumsal- ifade ve keyword ifadesi:**
-Eşit işaretin anlamı, tanımda mı yoksa çağrıda mı olduğuna bağlı olarak değişir. Tanımda, ifadeyi isteğe bağlı olarak işaretler ve varsayılan bir değere ayarlar. Çağrıda, istediğiniz ifadeleri ve değerleri belirtmenize izin verir.
 
-Bir anahtar kelime ifadesi, varsayılan bir değere sahip bir konumsal ifadedir. Varsayılan değere sahip olmayan tüm ifadeleri belirtmelisiniz. Diğer bir deyişle, anahtar kelime ifadeleri yalnızca 'isteğe bağlı' dır, çünkü özellikle sağlanmadıkları takdirde varsayılan değerlerine ayarlanırlar.
-
-**İfade** 
 Fonksiyonu çağırırken bir fonksiyona (veya yordama) geçirilen bir değer. 	İki tür ifade var:
 
 -  keyword ifadesi: Bir fonksiyon çağrısındaki bir tanımlayıcıdan (ör. name =) önce gelen veya ** ile öncelenen bir sözlükte bir değer olarak geçirilen bir ifade. Örneğin, 3 ve 5, aşağıdaki her iki keyword ifadesi complex() için çağrılır:
@@ -2404,5 +2400,17 @@ complex(*(3, 5))
 {% endhighlight %}
 
 İfadeler, bir fonksiyon gövdesindeki adlandırılmış yerel değişkenlere atanır. Sözdizimsel olarak, herhangi bir ifade bir argümanı temsil etmek için kullanılabilir; değerlendirilen değer yerel değişkene atanır.
+
+Eşit işaretin anlamı, tanımda mı yoksa çağrıda mı olduğuna bağlı olarak değişir. Tanımda, ifadeyi isteğe bağlı olarak işaretler ve varsayılan bir değere ayarlar. Çağrıda, istediğiniz ifadeleri ve değerleri belirtmenize izin verir.
+
+Bir anahtar kelime ifadesi, varsayılan bir değere sahip bir konumsal ifadedir. Varsayılan değere sahip olmayan tüm ifadeleri belirtmelisiniz. Diğer bir deyişle, anahtar kelime ifadeleri yalnızca 'isteğe bağlı' dır, çünkü özellikle sağlanmadıkları takdirde varsayılan değerlerine ayarlanırlar.
+
+
+
+
+
+
+
+
 
 
