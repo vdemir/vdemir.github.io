@@ -2743,7 +2743,10 @@ def countdown(from_number):
 countdown(3)
 
 {% endhighlight %}
- 
+
+@slow_down'u ifadeli ve ifadesiz olarak kullanılabilir hale getirmek için, bölümünde tanıtılan katmanı kullanıyoruz. Aynı özyineli countdown() fonksiyonu, daha önce olduğu gibi her sayım arasında iki saniye uyur:
+
+
 <br>
 <h2 class="python3">Python</h2>
 {% highlight python %}
