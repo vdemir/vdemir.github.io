@@ -2801,11 +2801,34 @@ def singleton(cls):
 @singleton
 class TheOne:
     pass
+  
+first_one = TheOne()
+another_one = TheOne()
 
+id(first_one)
+id(another_one)
+
+first_one is another_one
+
+
+print(f"id.first_one {id(first_one)}")
+
+print(f"id.another_one {id(another_one)}")
+
+print(f"first_one is another_one {first_one is another_one}")
 {% endhighlight %}
 
+Gördüğünüz gibi, bu sınıf donatıcı, fonksiyon donatıcılarımızla aynı şablonu takip eder. Tek fark, func yerine cls kullanmanın, bir sınıf donatıcı olması gerektiğine işaret etmek için parametre adı olarak kullanılmasıdır. 
+
+<br>
+<h2 class="python3">Python</h2>
+{% highlight python %}
+
+id.first_one 140378732397792
+id.another_one 140378732397792
+first_one is another_one True
 
 
-
+{% endhighlight %}
 
 
