@@ -710,7 +710,7 @@ FILE
 {% endhighlight %}
 
 <br>
-<div class="pop2"> Wrapping Up</div>
+<div class="pop2"> Özet</div>
 <br>
 
 wraps süslü fonksiyonu hemen hemen bir numaradır, ama ihtiyaç duyduğunuzda oldukça kullanışlıdır. Eğer fonksiyonlarınızın size doğru ismi veya docstring belgesi vermediğini fark ederseniz, artık nasıl kolayca düzeltileceğini biliyorsunuz. Mutlu bir kodlama yapın!
