@@ -2566,6 +2566,8 @@ def say_whee():
 say_whee()
 say_whee()
 say_whee()
+
+print(say_whee.num_calls)
 {% endhighlight %}
  
 <br>
@@ -2579,7 +2581,7 @@ Whee!
 Call 3 of 'say_whee'
 Whee!
 
-
+3
 {% endhighlight %}
 
 
