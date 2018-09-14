@@ -2324,11 +2324,7 @@ def repeat(num_times):
 repeat() fonksiyonunda gerçekleşen birkaç ince şey vardır:
 
 -  decorator_repeat() öğesinin bir iç fonksiyon olarak tanımlanması, repeat() öğesinin bir fonksiyon öbeğine atıfta bulunması anlamına gelir - decorator_repeat. Daha önce, fonksiyon öbeğine atıfta bulunmak için parantez olmadan repeat kullandık. Eklenen parantezler, ifadeleri alan süslü fonksiyonlar tanımlanırken gereklidir.
-
-
-
-
-
+-  num_times ifadesi, görünüşte bizzat repeat() içinde kendi kendine kullanılmamaktadır. Ancak num_times değeri daha sonra wrapper_repeat() tarafından kullanılıncaya kadar saklanır, num_times geçerek bitirilir.
 
 
 
