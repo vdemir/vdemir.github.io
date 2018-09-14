@@ -2375,7 +2375,7 @@ def name(_func=None, *, kw1=val1, kw2=val2, ...):  # 1
 Süslü fonksiyonların ifadeler ile çağrılıp çağrılmadığını belirterek burada, _func ifadesi bir işaretçi olarak davranır:
 
 1. Eğer name ifadesiz çağrıldıysa, süslenmiş fonksiyon _func olarak aktarılacaktır. İfadeler ile çağrıldıysa, o zaman _func None olacaktır ve bazı keyword ifadeleri varsayılan değerlerinden değişime uğramış olabilir. İfade listesindeki *, arda kalan ifadelerin konumsal ifadeler olarak çağrılamayacağı anlamına gelir.
- 
+ <br>
 <div class="pop2">Positional ifade ve keyword ifadesi</div>
 
 Fonksiyonu çağırırken bir fonksiyona (veya yordama) geçirilen bir değer. 	İki tür ifade var:
