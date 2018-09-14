@@ -319,7 +319,7 @@ print greet_someone("John")
 {% endhighlight %}
 
 <br>
-<div class="pop2">1.4.1 Fonksiyonları diğer fonksiyonlar içinde tanımlayın</div>
+<div id="D141" class="pop2">1.4.1 Fonksiyonları diğer fonksiyonlar içinde tanımlayın</div>
 <br> 
 
 
