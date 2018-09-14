@@ -2377,7 +2377,7 @@ Süslü fonksiyonların ifadeler ile çağrılıp çağrılmadığını belirter
 1. Eğer name ifadesiz çağrıldıysa, süslenmiş fonksiyon _func olarak aktarılacaktır. İfadeler ile çağrıldıysa, o zaman _func None olacaktır ve bazı keyword ifadeleri varsayılan değerlerinden değişime uğramış olabilir. İfade listesindeki *, arda kalan ifadelerin konumsal ifadeler olarak çağrılamayacağı anlamına gelir.
  
 
-**Positional ifade v.s. anahtar kelime ifadesi**
+**Positional ifade ve keyword ifadesi**
 Eşit işaretin anlamı, tanımda mı yoksa çağrıda mı olduğuna bağlı olarak değişir. Tanımda, ifadeyi isteğe bağlı olarak işaretler ve varsayılan bir değere ayarlar. Çağrıda, istediğiniz ifadeleri ve değerleri belirtmenize izin verir.
 
 Bir anahtar kelime ifadesi, varsayılan bir değere sahip bir konumsal ifadedir. Varsayılan değere sahip olmayan tüm ifadeleri belirtmelisiniz. Diğer bir deyişle, anahtar kelime ifadeleri yalnızca 'isteğe bağlı' dır, çünkü özellikle sağlanmadıkları takdirde varsayılan değerlerine ayarlanırlar.
