@@ -2347,11 +2347,6 @@ Hello World
 
 Sadece hedeflediğimiz sonuç.
 
-Her İkisi de Ama Asla Zarar Vermez 
-
-Biraz dikkatli olursanız, hem argümanlı hem de bağımsız olarak kullanılabilecek süslü fonksiyonlar da tanımlayabilirsiniz. Büyük ihtimalle buna ihtiyacınız yok, ancak esnekliğe sahip olmak güzel.
-
-
 <br>
 
 <div id="D43" class="pop1">Her İkisi de Lütfen, Ama Asla Zarar Vermeyin </div>
