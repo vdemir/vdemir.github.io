@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Python Süslü fonksiyonlar için Bir Başlangıç
+title:  Python Süslü fonksiyonlar
 date:   2018-09-08 12:00:00
 last_updated: 2018-09-15 12:00:00
 keywords: linux, python, decorators
