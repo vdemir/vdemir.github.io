@@ -2698,5 +2698,72 @@ say_whee.num_calls 2
 
 {% endhighlight %}
 
+<br>
+
+<div id="D5" class="pop0">5 Daha Gerçek Dünya Örnekleri</div>
+
+Her türlü süslü fonksiyonu nasıl oluşturacağımızı anlayarak, şu ana kadar çok yol kat ettik. Yeni bir bilgi birikimimizi, gerçek dünyada gerçekten faydalı olabilecek birkaç örnek oluşturarak bir araya getirelim.
+
+Daha önce belirtildiği gibi, daha önce de belirtildiği gibi, Önceki @slow_down uygulamamız her zaman bir saniye uyur. Artık, süslü fonksiyonlar için parametrelerin nasıl ekleneceğini biliyorsunuz. Bu nedenle, ne kadar süre uyuduğunu kontrol eden isteğe bağlı bir rate ifadesi kullanarak @slow_down'u yeniden yazalım:
+
+<br>
+
+{% highlight python  linenos=table %}
+
+import functools
+import time
+
+def slow_down(_func=None, *, rate=1):
+    """Sleep given amount of seconds before calling the function"""
+    def decorator_slow_down(func):
+        @functools.wraps(func)
+        def wrapper_slow_down(*args, **kwargs):
+            time.sleep(rate)
+            return func(*args, **kwargs)
+        return wrapper_slow_down
+
+    if _func is None:
+        return decorator_slow_down
+    else:
+        return decorator_slow_down(_func)
+        
+        
+@slow_down(rate=2)
+def countdown(from_number):
+    if from_number < 1:
+        print("Liftoff!")
+    else:
+        print(from_number)
+        countdown(from_number - 1)
+               
+countdown(3)
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+{% highlight python %}
+
+3
+2
+1
+Liftoff!
+
+{% endhighlight %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
