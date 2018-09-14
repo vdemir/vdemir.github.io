@@ -2875,14 +2875,6 @@ function myFunction() {
 
   <p> {% highlight python  linenos=table %}
 
-"""Examples of decorators
-
-See https://realpython.com/primer-on-python-decorators/
-
-The decorators with dependencies outside of the standard library (Flask
-and Pint) are available in separate files.
-"""
-
 import functools
 import time
 
