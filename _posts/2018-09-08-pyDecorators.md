@@ -2863,10 +2863,41 @@ Uygulama basitken, çalışma zamanı performansı korkunç:
 
 <button class="w3-button w3-blue" onclick="document.getElementById('id01').style.display='block'">Bilgi!</button> 
 
-<div id="id01" class="w3-panel w3-green w3-display-container" style="display:none">
-  <span onclick="this.parentElement.style.display='none'"
-  class="w3-button w3-yellow w3-display-topright">&#10004;</span>
-  <p> <code class="w3-codespan">init</code> bazen nesnenin kurucusu olarak adlandırılır, çünkü kurucuların diğer dillerde kullanıldığı gibi kullanılır, ancak bu teknik olarak doğru değildir - onu başlatıcı olarak adlandırmak daha iyidir. Bir kurucuya daha benzer olan <code class="w3-codespan">new</code> adlı farklı bir yordam var, ancak neredeyse hiç kullanılmıyor.</p>
+<div id="id01" >
+  <span onclick="this.parentElement.style.display='none'">&#10004;</span>
+  {% highlight python  linenos=table %}
+
+import functools
+
+def singleton(cls):
+    """Make a class a Singleton class (only one instance)"""
+    @functools.wraps(cls)
+    def wrapper_singleton(*args, **kwargs):
+        if not wrapper_singleton.instance:
+            wrapper_singleton.instance = cls(*args, **kwargs)
+        return wrapper_singleton.instance
+    wrapper_singleton.instance = None
+    return wrapper_singleton
+
+@singleton
+class TheOne:
+    pass
+  
+first_one = TheOne()
+another_one = TheOne()
+
+id(first_one)
+id(another_one)
+
+first_one is another_one
+
+
+print(f"id.first_one {id(first_one)}")
+
+print(f"id.another_one {id(another_one)}")
+
+print(f"first_one is another_one {first_one is another_one}")
+{% endhighlight %}
 </div>
 
 
