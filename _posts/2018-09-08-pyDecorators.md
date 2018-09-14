@@ -2382,11 +2382,19 @@ Eşit işaretin anlamı, tanımda mı yoksa çağrıda mı olduğuna bağlı ola
 
 Bir anahtar kelime ifadesi, varsayılan bir değere sahip bir konumsal ifadedir. Varsayılan değere sahip olmayan tüm ifadeleri belirtmelisiniz. Diğer bir deyişle, anahtar kelime ifadeleri yalnızca 'isteğe bağlı' dır, çünkü özellikle sağlanmadıkları takdirde varsayılan değerlerine ayarlanırlar.
 
+**İfade** 
+Fonksiyonu çağırırken bir fonksiyona (veya yordama) geçirilen bir değer. 	İki tür ifade var:
 
+-  keyword ifadesi: Bir fonksiyon çağrısında bir tanıtıcıdan (örn. name =) önce gelen bir ifade veya ** ile öncelenen bir sözlükte bir değer olarak geçirilir.
 
+bir fonksiyon çağrısındaki bir tanımlayıcıdan (ör. name =) önce gelen veya ** ile öncelenen bir sözlükte bir değer olarak geçirilen bir ifade. Örneğin, 3 ve 5, aşağıdaki her iki keyword ifadesi complex() için çağrılır:
 
+{% highlight python %}
 
+complex(real=3, imag=5)
+complex(**{'real': 3, 'imag': 5})
 
+{% endhighlight %}
 
 
 
