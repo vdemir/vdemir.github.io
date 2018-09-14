@@ -101,6 +101,7 @@ img.resize {
 + [Çok Süslü Fonksiyonlar](#D4)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[İç İçe Süslü Fonksiyonlar](#D41)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[İfadeler ile Süslü Fonksiyonlar](#D42)
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Durumsal Süslü Fonksiyonlar](#D43)
 
 
 Süslü fonksiyonlarla ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Süslü fonksiyonlar, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
@@ -2502,6 +2503,9 @@ Hello Penny
 {% endhighlight %}
 
 
+<br>
+
+<div id="D43" class="pop1">Durumsal Süslü Fonksiyonlar</div>
 
 
 
