@@ -2859,7 +2859,16 @@ def fibonacci(num):
 
 Uygulama basitken, çalışma zamanı performansı korkunç:
 
-
+<script>
+function myFunction() {
+    var x = document.getElementById('id01');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
 
 <button class="w3-button w3-blue" onclick="document.getElementById('id01').style.display='block'">Bilgi!</button> 
 
