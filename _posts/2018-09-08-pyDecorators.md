@@ -2861,9 +2861,9 @@ Uygulama basitken, çalışma zamanı performansı korkunç:
 
 <script>
 function myFunction() {
-    var x = document.getElementById('id01');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
+    var onclick = document.getElementById('id01');
+    if (onclick.style.display === 'none') {
+        onclick.style.display = 'block';
     } else {
         x.style.display = 'none';
     }
