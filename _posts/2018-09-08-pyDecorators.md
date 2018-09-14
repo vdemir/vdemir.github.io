@@ -2705,6 +2705,7 @@ say_whee.num_calls 2
 Her türlü süslü fonksiyonu nasıl oluşturacağımızı anlayarak, şu ana kadar çok yol kat ettik. Yeni bir bilgi birikimimizi, gerçek dünyada gerçekten faydalı olabilecek birkaç örnek oluşturarak bir araya getirelim.
 
 
+<br>
 <div class="pop2">Slowing Down Code</div>
 
 
