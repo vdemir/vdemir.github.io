@@ -2375,13 +2375,13 @@ def name(_func=None, *, kw1=val1, kw2=val2, ...):  # 1
 Süslü fonksiyonların ifadeler ile çağrılıp çağrılmadığını belirterek burada, _func ifadesi bir işaretçi olarak davranır:
 
 1. Eğer name ifadesiz çağrıldıysa, süslenmiş fonksiyon _func olarak aktarılacaktır. İfadeler ile çağrıldıysa, o zaman _func None olacaktır ve bazı keyword ifadeleri varsayılan değerlerinden değişime uğramış olabilir. İfade listesindeki *, arda kalan ifadelerin konumsal ifadeler olarak çağrılamayacağı anlamına gelir.
- <br>
+<br>
 <div class="pop2">Positional ifade ve keyword ifadesi</div>
 
 Fonksiyonu çağırırken bir fonksiyona (veya yordama) geçirilen bir değer. 	İki tür ifade var:
 
 -  keyword ifadesi: Bir fonksiyon çağrısındaki bir tanımlayıcıdan (ör. name =) önce gelen veya ** ile öncelenen bir sözlükte bir değer olarak geçirilen bir ifade. Örneğin, 3 ve 5, aşağıdaki her iki keyword ifadesi complex() için çağrılır:
-
+<br>
 {% highlight python %}
 
 complex(real=3, imag=5)
@@ -2390,7 +2390,7 @@ complex(**{'real': 3, 'imag': 5})
 {% endhighlight %}
 
 -  positional ifade: bir keyword ifade olmayan bir ifade. Konum ifadeleri, ifade listesinin başında görünebilir ve / veya * ile öncelenen yinelenebilir elemanlar olarak geçirilebilir. Örneğin, 3 ve 5, aşağıdaki her iki positional ifadesi çağrılır:
-
+<br>
 {% highlight python %}
 
 complex(3, 5)
