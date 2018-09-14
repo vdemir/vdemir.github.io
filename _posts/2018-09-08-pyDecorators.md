@@ -2508,7 +2508,7 @@ Hello Penny
 
 <div id="D44" class="pop1">Durumsal Süslü Fonksiyonlar</div>
 
-
+Bazen, durumu takip edebilen bir süslü fonksiyon olması yararlı olur. Basit bir örnek olarak, bir fonksiyonun çağrılma sayısını sayan bir süslü fonksiyon oluşturacağız.
 
 
 
