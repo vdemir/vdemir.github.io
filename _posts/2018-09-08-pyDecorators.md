@@ -2673,7 +2673,7 @@ print(f"say_whee.num_calls {say_whee.num_calls}")
 <br>
 
 .__init__() yordamı, fonksiyona bir atfı kaydetmeli ve diğer gerekli başlatma işlemlerini yapmalıdır. Süslü fonksiyonun yerine .__call__() yordamı çağrılacak. Aslında daha önceki örneğimizde wrapper() fonksiyonuyla aynı şeyi yapar. 
-@functools.wraps yerine functools.update_wrapper () fonksiyonunu kullanmanız gerektiğini unutmayın. 
+@functools.wraps yerine functools.update_wrapper() fonksiyonunu kullanmanız gerektiğini unutmayın. 
 
 
 @CountCalls süslü fonksiyonu önceki bölümdeki ile aynı çalışır:
