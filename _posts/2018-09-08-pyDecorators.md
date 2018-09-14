@@ -365,7 +365,7 @@ print greet("John")
 
 
 <br>
-<div class="pop2">1.4.3 Fonksiyonlar diğer fonksiyonlari geri verebilir</div>
+<div class="pop2">1.4.3 Fonksiyonlar diğer fonksiyonlari döndürebilir</div>
 <br> 
 
 Başka bir deyişle, diğer fonksiyonları üreten fonksiyonlar.
@@ -387,7 +387,7 @@ print greet()
 
 
 <br>
-<div class="pop2">1.4.4 İç fonksiyonlar bidirim alanını çevreleyerek erişime sahip olurlar</div>
+<div class="pop2">1.4.4 İç fonksiyonlar bildirim alanını çevreleyerek erişime sahip olurlar</div>
 <br>
 
 Daha çok bir kapanma olarak bilinir. Süslü fonksiyonlar inşa ederken karşılaşacağımız çok güçlü bir desen. Unutulmaması gereken bir başka şey ise, Python sadece dış bildirim alanını okumaya izin verir ve atamaya izin vermez. Yukarıdaki örneği, iç fonksiyonun kapalı kapsamından bir 'name' ifadeyi okumak ve yeni fonksiyonu döndürmek için nasıl değiştirdiğimizi fark ettik.
