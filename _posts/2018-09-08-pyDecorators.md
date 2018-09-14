@@ -2266,7 +2266,7 @@ Hello World
 
 Bunu nasıl başarabileceğinizi düşünün.
 
-Şimdiye kadar, @ 'den sonra yazılan ad, başka bir fonksiyonla çağrılabilen bir fonksiyon öbeğine başvurdu. Tutarlı olmak için, bir süslü fonksiyon gibi davranabilen bir fonksiyon öbeğini döndürmek için tekrar (num_times = 4) gerekir. Neyse ki, zaten fonksiyonların nasıl döndüğünü biliyorsunuz! Genel olarak, aşağıdaki gibi bir şey istersiniz:
+Şimdiye kadar, @ 'den sonra yazılan ad, başka bir fonksiyonla çağrılabilen bir fonksiyon öbeğine atfedildi. Tutarlı olmak için, o zaman bir süslü fonksiyon gibi davranabilen bir fonksiyon öbeğini döndürmek için repeat(num_times=4) gerekir. Neyse ki, zaten fonksiyonların nasıl döndüğünü biliyorsunuz! Genel olarak, aşağıdaki gibi bir şey istersiniz:
 
 {% highlight python %}
 
@@ -2277,7 +2277,7 @@ def repeat(num_times):
 
 {% endhighlight %}
 
-Tipik olarak, süslü fonksiyon bir iç çevreleyici fonksiyonu yaratır ve döndürür, böylece, örneklemi tam olarak yazmak, içsel bir fonksiyon içinde size içsel bir fonksiyon verecektir.
+Tipik olarak, süslü fonksiyon bir iç çevreleyici fonksiyonu oluşturur ve döndürür, bu yüzden örnek yazmak size içsel bir fonksiyon içinde bir iç fonksiyon kazandırır.
 
 {% highlight python %}
 
@@ -2345,18 +2345,20 @@ Hello World
 
 {% endhighlight %}
 
-Bunu nasıl başarabileceğinizi düşünün.
 
-Şimdiye kadar, @ dan sonra yazılan ad, başka bir fonksiyonla çağrılabilen bir fonksiyon öbeğine atfedildi. Tutarlı olmak için, o zaman bir süslü fonksiyon gibi davranabilen bir fonksiyon öbeğini döndürmek için repeat(num_times=4) gerekir. Neyse ki, zaten fonksiyonların nasıl döndüğünü biliyorsunuz! Genel olarak, aşağıdaki gibi bir şey istersiniz:
 
-{% highlight python %}
 
-def repeat(num_times):
-    def decorator_repeat(func):
-        ...  # Create and return a wrapper function
-    return decorator_repeat
 
-{% endhighlight %}
+
+
+
+
+
+
+
+
+
+
 
 
 
