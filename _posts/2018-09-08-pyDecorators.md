@@ -2244,7 +2244,6 @@ def repeat(num_times):
         return wrapper_repeat
     return decorator_repeat 
 
-
 @repeat(num_times=4)
 def greet(name):
     print(f"Hello {name}")
@@ -2252,7 +2251,6 @@ def greet(name):
 greet("World")
 
 {% endhighlight %}
-
 
 <br>
 
@@ -2263,7 +2261,6 @@ Hello World
 Hello World
 Hello World
 Hello World
-
 
 {% endhighlight %}
 
@@ -2336,7 +2333,17 @@ def greet(name):
 
 {% endhighlight %}
 
+<br>
 
+<h2 class="python3">Python</h2>
+{% highlight python %}
+
+Hello World
+Hello World
+Hello World
+Hello World
+
+{% endhighlight %}
 
 
 
