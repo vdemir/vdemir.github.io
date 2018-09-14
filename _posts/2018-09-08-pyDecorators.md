@@ -128,7 +128,7 @@ Bu kafa karıştırıcı gibi geliyor, ancak özellikle de süslü fonksiyonlar�
 
 <br>
 
-<div id="D1" class="pop0">Fonksiyonlar</div>
+<div id="D1" class="pop0">1 Fonksiyonlar</div>
 
 Süslü fonksiyonları anlayabilmeniz için öncelikle fonksiyonların nasıl çalıştığını anlamanız gerekir. Bizim amacımız için, bir fonksiyon verilen ifadelere dayalı bir değer döndürür. İşte çok basit bir örnek:
 
@@ -163,7 +163,7 @@ Fonksiyonel programlamada beyanlar-```statements```- yerine ifadeler-```expressi
 
 <br>
 
-<div id="D11" class="pop1">Birinci Sınıf Öbekler</div>
+<div id="D11" class="pop1">1.1 Birinci Sınıf Öbekler</div>
 
 Python'da fonksiyonlar birinci sınıf öbeklerdir. Bu fonksiyonlar diğer öbekler (string, int, float, list, vb.) gibi, fonksiyonların içinden geçirilip bir ifade olarak kullanılabileceği anlamına gelir. Aşağıdaki üç fonksiyonu göz önünde bulundurun:
 
@@ -196,7 +196,7 @@ Out[2]: 'Hey Kedi, biz birlikte harikayız!'
 
 <br>
 
-<div id="D12" class="pop1">İç fonksiyonlar</div>
+<div id="D12" class="pop1">1.2 İç fonksiyonlar</div>
 
 **Diğer fonksiyonların içinde fonksiyonlar tanımlamak** mümkündür. Bu gibi fonksiyonlar iç fonksiyonlar içinde çağrılır. İki iç fonksiyonlu bir fonksiyon örneği buradadır:
 
@@ -242,7 +242,7 @@ ebeveyn() çağırdığınızda, ```ilk_veled()``` ve ```ikinci_veled()``` iç f
 
 <br>
 
-<div id="D13" class="pop1">Fonksiyonlardan Dönen Fonksiyonlar</div>
+<div id="D13" class="pop1">1.3 Fonksiyonlardan Dönen Fonksiyonlar</div>
 
 Python, fonksiyonları dönüş değeri olarak kullanmanıza da izin verir. Aşağıdaki örnek, dış ebeveyn() fonksiyonundan iç fonksiyonların birini döndürür. 
 
@@ -298,7 +298,7 @@ Son olarak, daha önceki örnekte, iç fonksiyonları ```ebeveyn``` fonksiyon i�
 
 <br>
 
-<div id="D14" class="pop1">Fonksiyonlar Hakkında Bilmeniz Gerekenler</div>
+<div id="D14" class="pop1">1.4 Fonksiyonlar Hakkında Bilmeniz Gerekenler</div>
 
 Dalış yapmadan önce, net olması gereken bazı önkoşullar vardır. Python'da, fonksiyonlar birinci sınıf vatandaşlar, onlar öbeklerdir ve bu da onlarla çok yararlı şeyler yapabileceğimiz anlamına gelir. 
 
@@ -442,7 +442,7 @@ Dikkat edilmesi gereken diğer bir şey, süslü fonksiyonumuzun bir isim ifades
 
 <br>
 
-<div id="D15" class="pop1">Kısmi fonksiyonlar</div>
+<div id="D15" class="pop1">1.5 Kısmi fonksiyonlar</div>
 
 functools kütüphanesinden kısmi fonksiyonu kullanarak python'da kısmi işlevler oluşturabilirsiniz. 
 
@@ -477,7 +477,7 @@ Bu kod 8'e dönecek.
 
 <br>
 
-<div id="D16" class="pop1">Functools.wraps Ne Yapar?</div>
+<div id="D16" class="pop1">1.6 Functools.wraps Ne Yapar?</div>
 
 Bir süslü fonksiyon kullandığınızda, bir fonksiyonu bir diğeriyle değiştirirsiniz. Başka bir deyişle, bir süslü fonksiyonunuz varsa
 
@@ -559,7 +559,7 @@ f was called
 
 <br>
 
-<div id="D17" class="pop1">Functools.wraps Nasıl Kullanılır?</div>
+<div id="D17" class="pop1">1.7 Functools.wraps Nasıl Kullanılır?</div>
 
 Bugün hakkında konuşmak istediğim az bilinen bir araç var. Buna wraps denir ve functools modülünün bir parçasıdır. Doküman dizelerini ve süslü işlevlerin adlarını docstring belgelerini düzeltmek için bir @süslü fonksiyon olarak wraps kullanabilirsiniz. Bu neden önemli? Bu ilk başta garip bir durum gibi görünüyor, ancak bir API veya kendinizden başka birisinin kullanacağı herhangi bir kod yazıyorsanız, bu önemli olabilir. Nedeni, Python’un bir başkasının kodunu bulmak için içbakış kullandığınızda, süslü bir fonksiyon yanlış bilgileri döndürecektir. Decorum.py olarak adlandırdığım basit bir örneğe bakalım:
 
@@ -635,7 +635,7 @@ Temel olarak burada olan şey, süslü fonksiyonun adını ve '''docstring''' be
 
 <br>
 
-<div id="D17" class="pop1">Wraps to the Rescue!</div>
+<div id="D171" class="pop1">1.7.1 Wraps to the Rescue!</div>
 
 Bu küçük karışıklığı nasıl düzeltiriz? Python geliştiricileri bize '''functools.wraps''' çözümü verdi! Hadi kontrol edelim:
 
