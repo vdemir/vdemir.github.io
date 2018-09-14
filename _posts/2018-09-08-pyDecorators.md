@@ -2590,9 +2590,9 @@ Whee!
 
 Durumu sürdürmenin tipik yolu, sınıfları kullanmaktır. Bu bölümde, **bir süslü fonksiyon gibi bir sınıfı kullanarak** bir önceki bölümden @count_calls örneğinin nasıl yeniden yazılacağını göreceksiniz.
 
-func = my_decorator (func) demenin daha kolay bir yolu olan süslü fonksiyon sözdizimini @my_decorator hatırlayın. Bu nedenle, eğer my_decorator bir sınıfsa, onun .__ init __ () yordamında bir ifade olarak func alması gerekir. Dahası, sınıfın, süslü fonksiyonun içinde durabilmesi için, istenebilmesi gerekir.
+func = my_decorator (func) demenin daha kolay bir yolu olan süslü fonksiyon sözdizimini @my_decorator hatırlayın. Bu nedenle, eğer my_decorator bir sınıfsa, onun .__init__ () yordamında bir ifade olarak func alması gerekir. Dahası, sınıfın, süslü fonksiyonun içinde durabilmesi için, istenebilmesi gerekir.
 
-Bir sınıfın istenebilir olması için, özel .__ call __() yordamını uygularsınız:
+Bir sınıfın istenebilir olması için, özel .__call__() yordamını uygularsınız:
 
 <br>
 {% highlight python %}
@@ -2607,7 +2607,7 @@ class Counter:
 
 {% endhighlight %}
 
-
+Bir sınıf özdeşini çağırmaya çalıştığınızda, ___call__() yordamı her seferinde yürütülür:
 
 
 
