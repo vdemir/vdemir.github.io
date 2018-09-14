@@ -2760,7 +2760,10 @@ Liftoff!
 {% endhighlight %}
 
 
+<br>
+<div class="pop2">Singletons Oluşturma</div>
 
+Singleton, tek bir özdeşe sahip bir sınıftır. Python'da, None, True ve False da dahil olmak üzere sıkça kullandığınız birkaç singleton vardır. Gerçekte None, is anahtar sözcüğünü kullanarak None'yu karşılaştırmanıza olanak veren bir singleton'dur
 
 
 
