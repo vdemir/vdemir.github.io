@@ -2640,7 +2640,7 @@ counter.count is 2
 
 {% endhighlight %}
 
-
+Bu nedenle, bir süslü fonksiyon sınıfının tipik bir uygulaması, .__init__() ve .__call__() uygulanması gerekir:
 
 
 
