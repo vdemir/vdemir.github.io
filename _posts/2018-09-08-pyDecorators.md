@@ -815,7 +815,7 @@ In [5]:
 
 <br>
 
-<div id="D21" class="pop1">Sözdizimsel Şeker!</div>
+<div id="D21" class="pop1">2.1 Sözdizimsel Şeker!</div>
 
 Yukarıda ```say_whee()``` ile fonksiyonu süslediğiniz yol biraz biçimsiz ve hantal. Her şeyden önce, ```say_whee``` isminin üç kere yazımını bitirirsiniz. Buna ek olarak, fonksiyon süsleme, fonksiyon tanımının altında gizlenmiştir.
 
@@ -1041,7 +1041,7 @@ if __name__ == "__main__":
 
 <br>
 
-<div id="D23" class="pop1">İfadelerle Bezeyen Fonksiyonlar</div>
+<div id="D23" class="pop1">2.3 İfadelerle Bezeyen Fonksiyonlar</div>
 
 Bazı ifadeları kabul eden bir fonksiyonuniz olduğunu varsayalım. Hala dekore edebilir misin? Hadi deneyelim:
 <br>
@@ -1131,7 +1131,7 @@ Whee!
 
 <br>
 
-<div id="D24" class="pop1">Dekore Edilmiş Fonksiyonlardan Dönen Değerler</div>
+<div id="D24" class="pop1">2.4 Dekore Edilmiş Fonksiyonlardan Dönen Değerler</div>
 
 Dekorlu fonksiyonların dönüş değeri ne olur? Eh, karar vermek için süslü fonksiyona kalmış. Basit bir fonksiyonu aşağıdaki gibi dekore ettiğinizi varsayalım:
 
@@ -1230,7 +1230,7 @@ Out[3]: 'Hi Adam'
 
 <br>
 
-<div id="D25" class="pop1">Kimsin sen, Gerçekten mi?</div>
+<div id="D25" class="pop1">2.5 Kimsin sen, Gerçekten mi?</div>
 
 Özellikle etkileşimli kabukta, Python ile çalışırken büyük kolaylık, güçlü içebakış yeteneğidir. İçebakış, bir nesnenin çalışma zamanında kendi öz niteliklerini bilmesidir. Örneğin, bir fonksiyon kendi adını ve belgelemesini bilir:
 
@@ -1330,7 +1330,7 @@ say_whee()
 
 <br>
 
-<div id="D3" class="pop1">Birkaç Gerçek Dünya Örneği</div>
+<div id="D3" class="pop1">3 Birkaç Gerçek Dünya Örneği</div>
 
 Süslü fonksiyonların birkaç yararlı örneğine bakalım. Şimdiye kadar öğrendiklerinizle aynı kalıbı takip edeceklerini fark edeceksiniz.
 
@@ -1359,7 +1359,7 @@ Bu formül, daha karmaşık süslü fonksiyonlar oluşturmak için iyi bir stand
 
 <br>
 
-<div id="D31" class="pop1">Zamanlama Fonksiyonları</div>
+<div id="D31" class="pop1">3.1 Zamanlama Fonksiyonları</div>
 
 Bir ```timer``` süslü fonksiyon oluşturarak başlayalım. Bir fonksiyonu yürütmek ve süreyi konsola yazdırmak için gereken süreyi ölçer. İşte kod:
 
@@ -1428,7 +1428,7 @@ Python 3.6, başka bir dizgi formatlama paradigmasını sunar: f-dizeleri.
 
 <br>
 
-<div id="D32" class="pop1">Hata Ayıklama Kodu</div>
+<div id="D32" class="pop1">3.2 Hata Ayıklama Kodu</div>
 
 Aşağıdaki ```@debug``` süslü fonksiyon argümanları yazdıracaktır, fonksiyon çağrıldığında her seferinde bir fonksiyon, dönüş değeriyle birlikte çağrılır:
 
@@ -1638,7 +1638,7 @@ Genel fikir burada doğru olanıdır -ancak Python'un nesnelerin dizge olarak na
 
 <br>
 
-<div id="D33" class="pop1">Kod Aşağı Çekiliyor</div>
+<div id="D33" class="pop1">3.3 Kod Aşağı Çekiliyor</div>
 
 Bu sonraki örnek çok kullanışlı görünmeyebilir. Neden Python kodunuzu yavaşlatmak istersiniz? Muhtemelen en yaygın kullanım durumu, - bir web sayfası gibi - bir kaynağın olup olmadığını sürekli kontrol eden bir fonksiyonun hızını limitlemek istemenizdir. ```@slow_down``` süslü fonksiyon, süslü fonksiyonu çağırmadan önce bir saniye uyuyacaktır:
 
@@ -1692,7 +1692,7 @@ Liftoff!
 
 <br>
 
-<div id="D34" class="pop1">Eklentileri Kaydetmek</div>
+<div id="D34" class="pop1">3.4 Eklentileri Kaydetmek</div>
 
 Süslü fonksiyonların, süsledikleri fonksiyonu çevrelemesi gerekmez. Ayrıca bir fonksiyonun mevcut olduğunu kolayca kaydedebilirler ve çevrelenmemiş olarak döndürebilirler. Bu kullanılabilir, örneğin, hafif bir eklenti mimarisi oluşturmak için kullanılabilir:
 
@@ -1785,7 +1785,7 @@ Python'da globals() ile tanışıyorsanız, eklenti mimarisinin nasıl çalışt
 web çerçevesiyle çalışırken yaygın olarak kullanılır
 <br>
 
-<div id="D35" class="pop1">Kullanıcı Oturumu Açıldı mı?</div>
+<div id="D35" class="pop1">3.5 Kullanıcı Oturumu Açıldı mı?</div>
 
 Bir web çatısıyla çalışırken yaygın olarak kullanılan bazı daha süslü fonksiyonlar için yola devam etmeden önce son örnek. Sadece giriş yapan kullanıcılar tarafından görülen veya başka şekilde doğrulanmış bir /secret web sayfası kurmak için Flask kullanıyoruz:
 
@@ -1818,7 +1818,7 @@ Web çatınıza kimlik doğrulamanın nasıl ekleneceği hakkında bir fikir ver
 
 <br>
 
-<div id="D4" class="pop0">Çok Süslü Fonksiyonlar</div>
+<div id="D4" class="pop0">4 Çok Süslü Fonksiyonlar</div>
 
 <br>
 Şimdiye kadar, basit süslü fonksiyonların nasıl oluşturulduğunu gördünüz. Süslü fonksiyonların ne olduğunu ve nasıl çalıştıklarını çok iyi biliyorsunuz. Öğrendiğiniz herşeyi uygulamak için bu makaleden bir ara vermekte özgür hissedin.
@@ -2096,7 +2096,7 @@ Sonra, uygun bir sınıf dekoratörünü tanımlayan, bir sınıfın sadece bir 
 
 <br>
 
-<div id="D41" class="pop1">İç İçe Süslü Fonksiyonlar</div>
+<div id="D41" class="pop1">4.1 İç İçe Süslü Fonksiyonlar</div>
 
 Birbirlerine üst üste istifleyerek birkaç süslü fonksiyonu bir fonksiyona uygulayabilirsiniz:
 
@@ -2216,7 +2216,7 @@ Hello Eva
 
 <br>
 
-<div id="D42" class="pop1">İfadeler ile Süslü Fonksiyonlar</div>
+<div id="D42" class="pop1">4.2 İfadeler ile Süslü Fonksiyonlar</div>
 
 Bazen, ifadeleri süslü fonksiyonlara iletmek yararlıdır. Örneğin, @do_twice bir   @repeat(num_times) süslü fonksiyonuna genişletilebilir. Süslenen fonksiyonun yürütme sayısı, daha sonra bir ifade olarak verilebilir.
 
@@ -2352,7 +2352,7 @@ Sadece hedeflediğimiz sonuç.
 
 <br>
 
-<div id="D43" class="pop1">Her ikisi de Lütfen, Ama Asla Zarar Vermeyin </div>
+<div id="D43" class="pop1">4.3 Her ikisi de Lütfen, Ama Asla Zarar Vermeyin </div>
 
 Biraz dikkatli olursanız, **hem ifadeli hem de ifadesiz olarak kullanılabilecek süslü fonksiyonlar** da tanımlayabilirsiniz. Büyük ihtimalle buna ihtiyacınız yok, ancak esnekliğe sahip olmak güzel.
 
@@ -2507,7 +2507,7 @@ Hello Penny
 
 <br>
 
-<div id="D44" class="pop1">Durumsal Süslü Fonksiyonlar</div>
+<div id="D44" class="pop1">4.4 Durumsal Süslü Fonksiyonlar</div>
 
 Bazen, **durumu takip edebilen bir süslü fonksiyon** olması yararlı olur. Basit bir örnek olarak, bir fonksiyonun çağrılma sayısını sayan bir süslü fonksiyon oluşturacağız.
 
