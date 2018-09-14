@@ -103,6 +103,7 @@ img.resize {
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[İfadeler ile Süslü Fonksiyonlar](#D42)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Her ikisi de Lütfen, Ama Asla Zarar Vermeyin](#D43)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Durumsal Süslü Fonksiyonlar](#D44)
+    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Süslü Fonksiyonlar gibi Sınıflar](#D45)
 
 
 Süslü fonksiyonlarla ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Süslü fonksiyonlar, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
@@ -2583,5 +2584,8 @@ Whee!
 {% endhighlight %}
 
 
+<br>
+
+<div id="D45" class="pop1">Süslü Fonksiyonlar gibi Sınıflar</div>
 
 
