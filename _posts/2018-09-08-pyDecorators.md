@@ -2869,7 +2869,7 @@ function myFunction() {
 }
 </script>
 
-<button  onclick="myFunction()">decorators.py</button> 
+<button  onclick="myFunction()">decorators.py - [Göster]/[Gizle]</button> 
 
 <div id="id01" style="display:none">
 
