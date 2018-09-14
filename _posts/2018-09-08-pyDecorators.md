@@ -2588,4 +2588,8 @@ Whee!
 
 <div id="D45" class="pop1">Süslü Fonksiyonlar gibi Sınıflar</div>
 
+Durumu sürdürmenin tipik yolu, sınıfları kullanmaktır. Bu bölümde, bir süslü fonksiyon gibi bir sınıfı kullanarak bir önceki bölümden @count_calls örneğinin nasıl yeniden yazılacağını göreceksiniz.
+
+
+
 
