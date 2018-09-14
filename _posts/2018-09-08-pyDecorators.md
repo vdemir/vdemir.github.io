@@ -2310,4 +2310,26 @@ def wrapper_repeat(*args, **kwargs):
 
 Yine, decorator_repeat(), farklı adlandırılması dışında daha önce yazmış olduğunuz süslü fonksiyonlar gibi görünür. Bunun nedeni, kullanıcının arayacağı, en dıştaki fonksiyon için temel adı —repeat()— ayırmamızdır.
 
+Daha önce gördüğünüz gibi, en dıştaki fonksiyon, süslü fonksiyona bir atıf döndürür:
+
+{% highlight python %}
+
+def repeat(num_times):
+    def decorator_repeat(func):
+        ...
+    return decorator_repeat
+
+{% endhighlight %}
+
+repeat() fonksiyonunda gerçekleşen birkaç ince şey vardır:
+
+-  decorator_repeat() öğesinin bir iç fonksiyon olarak tanımlanması, repeat() öğesinin bir fonksiyon öbeğine atıfta bulunması anlamına gelir - decorator_repeat. Daha önce, fonksiyon öbeğine atıfta bulunmak için parantez olmadan repeat kullandık. Eklenen parantezler, ifadeleri alan süslü fonksiyonlar tanımlanırken gereklidir.
+
+
+
+
+
+
+
+
 
