@@ -2872,8 +2872,7 @@ function myFunction() {
 <button class="w3-button w3-blue" onclick="myFunction()">decorators.py</button> 
 
 <div id="id01" class="w3-panel w3-green w3-display-container" style="display:none">
-  <span onclick="this.parentElement.style.display='none'"
-  class="w3-button w3-yellow w3-display-topright">&#10004;</span>
+
   <p> {% highlight python  linenos=table %}
 
 """Examples of decorators
