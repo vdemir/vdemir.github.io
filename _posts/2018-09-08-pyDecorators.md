@@ -1565,7 +1565,7 @@ Calling factorial(4)
 Bu örnekte, sadece 5 terim ekleyerek, ```e = 2.718281828``` gerçek değerine doğru bir yaklaşım elde edersiniz.
 
 <br>
-<div class="pop2">Python Sınıflarınızda “Dize” Dönüştürme Nasıl Desteklenir?</div>
+<div class="pop2">3.2.1 Python Sınıflarınızda “Dize” Dönüştürme Nasıl Desteklenir?</div>
 <br>
 
 Python'da bir özel sınıf tanımladığınızda ve örneklerinden birini konsolda yazdırmaya çalıştığınızda (veya bir yorumlayıcı oturumunda inceleyin), göreceli olarak tatmin edici olmayan bir sonuç elde edersiniz. 
@@ -1601,7 +1601,7 @@ red 37281
 Varsayılan olarak, aldığınız tek şey sınıf adını ve nesne örneğinin kimliğini içeren bir dizedir (bu, nesnenin CPython'daki bellek adresidir.) Bu, hiçbir şeyden daha iyi değildir, ancak aynı zamanda çok kullanışlı değildir. 
 
 <br>
-<div class="pop2">Neden Her Python Sınıfının bir __repr__ ihtiyacı var?</div>
+<div class="pop2">3.2.2 Neden Her Python Sınıfının bir __repr__ ihtiyacı var?</div>
 <br>
 
 Sınıfın özniteliklerini doğrudan yazdırarak veya sınıflarınıza özel bir ```to_string()``` yöntemi ekleyerek, bu konu üzerinde çalışmaya deneyebilirsiniz.
@@ -1783,6 +1783,7 @@ Python'da globals() ile tanışıyorsanız, eklenti mimarisinin nasıl çalışt
 @register süslü fonksiyonunu kullanarak, globals() fonksiyonlarından bazılarını etkin bir şekilde seçerek kendi seçilmiş ilginç değişkenler listenizi oluşturabilirsiniz.
 
 web çerçevesiyle çalışırken yaygın olarak kullanılır
+
 <br>
 
 <div id="D35" class="pop1">3.5 Kullanıcı Oturumu Açıldı mı?</div>
@@ -2384,7 +2385,7 @@ Süslü fonksiyonların ifadeler ile çağrılıp çağrılmadığını belirter
 3. Bu durumda, süslü fonksiyon, ifadeler olmadan çağrıldı. Süslü fonksiyonu hemen fonksiyona uygulayın.
 
 <br>
-<div class="pop2">Positional ifade ve keyword ifadesi</div>
+<div class="pop2">4.3.1 Positional ifade ve keyword ifadesi</div>
 
 Fonksiyonu çağırırken bir fonksiyona (veya yordama) geçirilen bir değer. 	İki tür ifade var:
 
