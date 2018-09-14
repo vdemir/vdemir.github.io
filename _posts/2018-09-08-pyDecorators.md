@@ -2592,4 +2592,13 @@ Durumu sürdürmenin tipik yolu, sınıfları kullanmaktır. Bu bölümde, **bir
 
 func = my_decorator (func) demenin daha kolay bir yolu olan süslü fonksiyon sözdizimini @my_decorator hatırlayın. Bu nedenle, eğer my_decorator bir sınıfsa, onun .__ init __ () yordamında bir ifade olarak func alması gerekir. Dahası, sınıfın, süslü fonksiyonun içinde durabilmesi için, istenebilmesi gerekir.
 
+Bir sınıfın istenebilir olması için, özel .__ call __() yordamını uygularsınız:
+
+
+
+
+
+
+
+
 
