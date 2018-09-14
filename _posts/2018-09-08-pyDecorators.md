@@ -2832,3 +2832,17 @@ first_one is another_one True
 {% endhighlight %}
 
 first_one'un gerçekten de bir another_one ile aynı özdeş olduğu açıkça görünüyor.
+
+<br>
+
+<div class="alert alert-warning" role="alert">
+<p><strong>Not:</strong> Singleton sınıfları, diğer dillerdeki gibi Python'da sık sık kullanılmamaktadır. Bir Singleton etkisi genellikle bir modülde global değişken olarak daha iyi uygulanır.</p>
+</div>
+
+
+
+
+
+
+
+
