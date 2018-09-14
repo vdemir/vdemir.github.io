@@ -2353,7 +2353,7 @@ Sadece hedeflediğimiz sonuç.
 
 Biraz dikkatli olursanız, **hem ifadeli hem de ifadesiz olarak kullanılabilecek süslü fonksiyonlar** da tanımlayabilirsiniz. Büyük ihtimalle buna ihtiyacınız yok, ancak esnekliğe sahip olmak güzel.
 
-Bir önceki bölümde gördüğünüz gibi, bir süslü fonksiyon ifadeleri kullandığınızda, ilave bir dış fonksiyon eklemeniz gerekir. Meydan okuma, dekoratörün argümanlarla veya argümanlar olmadan çağrılıp çağrılmadığını anlamak içindir.
+Bir önceki bölümde gördüğünüz gibi, bir süslü fonksiyon ifadeleri kullandığınızda, ilave bir dış fonksiyon eklemeniz gerekir. Meydan okuma, süslü fonksiyonların argümanlarla veya argümanlar olmadan çağrılıp çağrılmadığını anlamak içindir.
 
 Süslü fonksiyonların ifadelerle veya ifadeler olmadan çağrılıp çağrılmadığını, kodunuzun çözmesi için meydan okumadır.
 
@@ -2372,7 +2372,7 @@ def name(_func=None, *, kw1=val1, kw2=val2, ...):  # 1
 
 {% endhighlight %}
 
-
+Süslü fonksiyonların ifadeler ile çağrılıp çağrılmadığını belirterek burada, _func ifadesi bir işaretçi olarak davranır:
 
 
 
