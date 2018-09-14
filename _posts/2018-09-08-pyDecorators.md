@@ -2609,6 +2609,36 @@ class Counter:
 
 Bir sınıf özdeşini çağırmaya çalıştığınızda, ___call__() yordamı her seferinde yürütülür:
 
+<br>
+
+{% highlight python  linenos=table %}
+
+class Counter:
+    def __init__(self, start=0):
+        self.count = start
+
+    def __call__(self):
+        self.count += 1
+        print(f"Current count is {self.count}")
+        
+counter = Counter()
+counter()
+
+counter()
+ 
+print(f"counter.count is {counter.count}")
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+{% highlight python %}
+
+Current count is 1
+Current count is 2
+counter.count is 2
+
+{% endhighlight %}
 
 
 
