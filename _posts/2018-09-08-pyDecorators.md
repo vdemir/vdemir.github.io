@@ -98,11 +98,11 @@ img.resize {
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Kod Aşağı Çekiliyor](#D33)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Eklentileri Kaydetme](#D34)
     - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Kullanıcı Oturumu Açıldı mı?](#D35)
-+ [Çok Süslü Fonksiyonlar](#D4)
-    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[İç İçe Süslü Fonksiyonlar](#D41)
-    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[İfadeler ile Süslü Fonksiyonlar](#D42)
-    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Her ikisi de Lütfen, Ama Asla Zarar Vermeyin](#D43)
-    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Durumsal Süslü Fonksiyonlar](#D44)
++ 4 [Çok Süslü Fonksiyonlar](#D4)
+    - 4.1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[İç İçe Süslü Fonksiyonlar](#D41)
+    - 4.2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[İfadeler ile Süslü Fonksiyonlar](#D42)
+    - 4.3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Her ikisi de Lütfen, Ama Asla Zarar Vermeyin](#D43)
+    - 4.4 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Durumsal Süslü Fonksiyonlar](#D44)
     - 4.5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Süslü Fonksiyonlar gibi Sınıflar](#D45)
 
 
