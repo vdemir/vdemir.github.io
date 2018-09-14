@@ -2871,7 +2871,7 @@ function myFunction() {
 
 <button  onclick="myFunction()">decorators.py</button> 
 
-<div id="id01" class="w3-panel w3-green w3-display-container" style="display:none">
+<div id="id01" style="display:none">
 
   <p> {% highlight python  linenos=table %}
 
