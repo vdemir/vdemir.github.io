@@ -83,7 +83,7 @@ img.resize {
     - &nbsp;&nbsp;&nbsp;&nbsp; 1.2&nbsp;[İç Fonksiyonlar](#D12)
     - &nbsp;&nbsp;&nbsp;&nbsp; 1.3&nbsp;[Fonksiyonlardan Dönen Fonksiyonlar](#D13)
     - &nbsp;&nbsp;&nbsp;&nbsp; 1.4&nbsp;[Fonksiyonlar hakkında bilmeniz gerekenler](#D14)
-        - &nbsp;&nbsp;&nbsp;&nbsp; 1.4.1&nbsp;[Fonksiyonları diğer fonksiyonlar içinde tanımlayın](#D141)
+        - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.4.1&nbsp;[Fonksiyonları diğer fonksiyonlar içinde tanımlayın](#D141)
     - &nbsp;&nbsp;&nbsp;&nbsp; 1.5&nbsp;[Kısmi fonksiyonlar](#D15)
     - &nbsp;&nbsp;&nbsp;&nbsp; 1.6&nbsp;[Functools.wraps Ne Yapar?](#D16)
     - &nbsp;&nbsp;&nbsp;&nbsp; 1.7&nbsp;[Functools.wraps nasıl kullanılır?](#D17)
