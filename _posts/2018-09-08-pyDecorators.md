@@ -2430,10 +2430,22 @@ def repeat(_func=None, *, num_times=2):
 
 {% endhighlight %}
 
+Bunu orijinal @repeat ile karşılaştırın. _func parametresi ve sonunda if-else eklenmiş tek değişikliklerdir.
 
+Bu örnekler, @repeat'un artık ifadelerle birlikte veya bağımsız olarak kullanılabileceğini gösterir:
 
+<br>
+{% highlight python %}
 
+@repeat
+def say_whee():
+    print("Whee!")
 
+@repeat(num_times=3)
+def greet(name):
+    print(f"Hello {name}")
+
+{% endhighlight %}
 
 
 
