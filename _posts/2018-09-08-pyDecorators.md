@@ -2349,14 +2349,12 @@ Sadece hedeflediğimiz sonuç.
 
 <br>
 
-<div id="D43" class="pop1">Her İkisi de Lütfen, Ama Asla Zarar Vermeyin </div>
+<div id="D43" class="pop1">Her ikisi de Lütfen, Ama Asla Zarar Vermeyin </div>
 
 Biraz dikkatli olursanız, hem ifadeli hem de ifadesiz olarak kullanılabilecek süslü fonksiyonlar da tanımlayabilirsiniz. Büyük ihtimalle buna ihtiyacınız yok, ancak esnekliğe sahip olmak güzel.
 
-Bir önceki bölümde gördüğünüz gibi, bir dekoratör argümanları kullandığında, ekstra bir dış fonksiyon eklemeniz gerekir. Meydan okuma, dekoratörün argümanlarla veya argümanlar olmadan çağrılıp çağrılmadığını anlamak içindir.
+Bir önceki bölümde gördüğünüz gibi, bir süslü fonksiyon ifadeleri kullandığınızda, ilave bir dış fonksiyon eklemeniz gerekir. Meydan okuma, dekoratörün argümanlarla veya argümanlar olmadan çağrılıp çağrılmadığını anlamak içindir.
 
-
-
-
+Süslü fonksiyonların ifadelerle veya ifadeler olmadan çağrılıp çağrılmadığını, kodunuzun çözmesi için meydan okumadır.
 
 
