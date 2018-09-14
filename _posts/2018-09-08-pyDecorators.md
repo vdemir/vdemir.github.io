@@ -2863,9 +2863,10 @@ Uygulama basitken, çalışma zamanı performansı korkunç:
 
 <button class="w3-button w3-blue" onclick="document.getElementById('id01').style.display='block'">Bilgi!</button> 
 
-<div id="id01" >
-  <span onclick="this.parentElement.style.display='none'">&#10004;</span>
-  {% highlight python  linenos=table %}
+<div id="id01" class="w3-panel w3-green w3-display-container" style="display:none">
+  <span onclick="this.parentElement.style.display='none'"
+  class="w3-button w3-yellow w3-display-topright">&#10004;</span>
+  <p> {% highlight python  linenos=table %}
 
 import functools
 
@@ -2897,7 +2898,7 @@ print(f"id.first_one {id(first_one)}")
 print(f"id.another_one {id(another_one)}")
 
 print(f"first_one is another_one {first_one is another_one}")
-{% endhighlight %}
+{% endhighlight %}</p>
 </div>
 
 
