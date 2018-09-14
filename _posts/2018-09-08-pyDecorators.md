@@ -91,7 +91,7 @@ img.resize {
     - &nbsp;&nbsp;&nbsp;&nbsp; 2.2&nbsp;[Süslü fonksiyonları Yeniden Kullanmak](#D22)
     - &nbsp;&nbsp;&nbsp;&nbsp; 2.3&nbsp;[İfadelerle Bezeyen Fonksiyonlar](#D23)
     - &nbsp;&nbsp;&nbsp;&nbsp; 2.4&nbsp;[Dekore Edilmiş Fonksiyonlardan Dönen Değerler](#D24)
-    - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Kimsin sen, Gerçekten mi?](#D25)
+    - &nbsp;&nbsp;&nbsp;&nbsp; 2.5&nbsp;[Kimsin sen, Gerçekten mi?](#D25)
 + 3 [Birkaç Gerçek Dünya Örneği](#D3)
     - &nbsp;&nbsp;&nbsp;&nbsp; 3.1&nbsp;[Zamanlama Fonksiyonları](#D31)
     - &nbsp;&nbsp;&nbsp;&nbsp; 3.2&nbsp;[Hata ayıklama kodu](#D32)
