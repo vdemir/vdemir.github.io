@@ -2865,7 +2865,7 @@ function myFunction() {
     if (onclick.style.display === 'none') {
         onclick.style.display = 'block';
     } else {
-        x.style.display = 'none';
+        onclick.style.display = 'none';
     }
 }
 </script>
