@@ -2560,9 +2560,7 @@ def count_calls(func):
 @count_calls
 def say_whee():
     print("Whee!")
-    
-    
-    
+     
 say_whee()
 say_whee()
 say_whee()
