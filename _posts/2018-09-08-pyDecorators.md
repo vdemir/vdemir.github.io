@@ -2765,7 +2765,15 @@ Liftoff!
 
 Singleton, tek bir özdeşe sahip bir sınıftır. Python'da, None, True ve False da dahil olmak üzere sıkça kullandığınız birkaç singleton vardır. Gerçekte None, is anahtar sözcüğünü kullanarak None'yu karşılaştırmanıza olanak veren bir singleton'dur
 
+<br>
+{% highlight python %}
 
+if _func is None:
+    return decorator_name
+else:
+    return decorator_name(_func)
+
+{% endhighlight %}
 
 
 
