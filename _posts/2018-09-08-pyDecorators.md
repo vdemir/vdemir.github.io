@@ -2296,5 +2296,20 @@ def repeat(num_times):
 
 {% endhighlight %}
 
+Biraz dağınık görünüyor, ama şimdiye kadar ifadeleri süslü fonksiyona işleyen bir ek def içinde birçok kez gördüğünüz aynı süslü fonksiyon modelini sadece ekledik. En içteki fonksiyonla başlayalım:
+
+
+{% highlight python %}
+
+def wrapper_repeat(*args, **kwargs):
+    for _ in range(num_times):
+        value = func(*args, **kwargs)
+    return value
+
+{% endhighlight %}
+
+
+
+
 
 
