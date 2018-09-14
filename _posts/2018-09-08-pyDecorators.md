@@ -2518,5 +2518,32 @@ Bazen, **durumu takip edebilen bir süslü fonksiyon** olması yararlı olur. Ba
 
 <br>
 
+Bir sonraki bölümde, durumu korumak için sınıfları nasıl kullanacağınızı göreceksiniz. Ancak basit durumlarda, fonksiyon özniteliklerini kullanarak da uzaklaşabilirsiniz:
+
+<br>
+{% highlight python %}
+
+import functools
+
+def count_calls(func):
+    @functools.wraps(func)
+    def wrapper_count_calls(*args, **kwargs):
+        wrapper_count_calls.num_calls += 1
+        print(f"Call {wrapper_count_calls.num_calls} of {func.__name__!r}")
+        return func(*args, **kwargs)
+    wrapper_count_calls.num_calls = 0
+    return wrapper_count_calls
+
+@count_calls
+def say_whee():
+    print("Whee!")
+
+{% endhighlight %}
+
+
+
+
+
+
 
 
