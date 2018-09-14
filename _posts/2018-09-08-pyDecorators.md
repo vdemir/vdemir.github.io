@@ -2831,4 +2831,4 @@ first_one is another_one True
 
 {% endhighlight %}
 
-
+first_one'un gerçekten de bir another_one ile aynı özdeş olduğu açıkça görünüyor.
