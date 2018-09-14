@@ -318,7 +318,7 @@ print greet_someone("John")
 {% endhighlight %}
 
 <br>
-<div class="pop2">Fonksiyonları diğer fonksiyonlar içinde tanımlayın</div>
+<div class="pop2">1.4.1 Fonksiyonları diğer fonksiyonlar içinde tanımlayın</div>
 <br> 
 
 
@@ -339,7 +339,7 @@ print greet("John")
 
 
 <br>
-<div class="pop2">Fonksiyonlar diğer fonksiyonlara parametre olarak geçirilebilir</div>
+<div class="pop2">1.4.2 Fonksiyonlar diğer fonksiyonlara parametre olarak geçirilebilir</div>
 <br> 
 
 
@@ -360,7 +360,7 @@ print greet("John")
 
 
 <br>
-<div class="pop2">Fonksiyonlar diğer fonksiyonlari geri verebilir</div>
+<div class="pop2">1.4.3 Fonksiyonlar diğer fonksiyonlari geri verebilir</div>
 <br> 
 
 Başka bir deyişle, diğer fonksiyonları üreten fonksiyonlar.
@@ -382,7 +382,7 @@ print greet()
 
 
 <br>
-<div class="pop2">İç fonksiyonlar bidirim alanını çevreleyerek erişime sahip olurlar</div>
+<div class="pop2">1.4.4 İç fonksiyonlar bidirim alanını çevreleyerek erişime sahip olurlar</div>
 <br>
 
 Daha çok bir kapanma olarak bilinir. Süslü fonksiyonlar inşa ederken karşılaşacağımız çok güçlü bir desen. Unutulmaması gereken bir başka şey ise, Python sadece dış bildirim alanını okumaya izin verir ve atamaya izin vermez. Yukarıdaki örneği, iç fonksiyonun kapalı kapsamından bir 'name' ifadeyi okumak ve yeni fonksiyonu döndürmek için nasıl değiştirdiğimizi fark ettik.
@@ -403,7 +403,7 @@ print greet()
 {% endhighlight %}
 
 <br>
-<div class="pop2">Süslü fonksiyonların Bileşimi</div>
+<div class="pop2">1.4.5 Süslü fonksiyonların Bileşimi</div>
 <br>
 
 Süslü fonksiyonlar, mevcut fonksiyonları basit bir şekilde çevrelerler. Yukarıda bahsi geçen fikirleri bir araya getirerek bir süslü fonksiyon yapabiliriz. Bu örnekte, başka bir fonksiyonun string çıktısını p etiketleriyle saran bir fonksiyonu düşünelim.
