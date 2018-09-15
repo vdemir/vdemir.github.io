@@ -3116,9 +3116,27 @@ Ancak, ek açıklamalar, tip ipuçları için kullanıldığı için statik tip 
 
 Birimler, birimler arasında dönüşebilen bir kütüphaneye bağlandığında daha da güçlü ve eğlenceli hale gelir. Böyle bir kütüphane de '''pint'''. '''pint''' yüklü olduğunda '''(pip install pint)''', örneğin hacmi; kübik inç veya galona dönüştürebilirsiniz:
 
-Doğrudan bir '''pint''' Niceliği döndürmek için süslü fonksiyonu de değiştirebilirsiniz. Böyle bir Nicelik, bir değeri birim ile çarparak yapılır. Bir '''pint''' birimler bir UnitRegistry'e bakılmalıdır. Kayıt defteri, ad alanının karışıklığını önlemek için bir işlev özniteliği olarak saklanır:
+Doğrudan bir '''pint''' Niceliği döndürmek için süslü fonksiyonu de değiştirebilirsiniz. Böyle bir Nicelik, bir değeri birim ile çarparak yapılır. '''pint''' de, birimler bir UnitRegistry'e bakılmalıdır. Kayıt defteri, ad alanının karışıklığını önlemek için bir fonksiyon özniteliği olarak saklanır:
 
+<br>
+{% highlight python %}
 
+def use_unit(unit):
+    """Have a function return a Quantity with given unit"""
+    use_unit.ureg = pint.UnitRegistry()
+    def decorator_use_unit(func):
+        @functools.wraps(func)
+        def wrapper_use_unit(*args, **kwargs):
+            value = func(*args, **kwargs)
+            return value * use_unit.ureg(unit)
+        return wrapper_use_unit
+    return decorator_use_unit
+
+@use_unit("meters per second")
+def average_speed(distance, duration):
+    return distance / duration
+
+{% endhighlight %}
 
 
 
