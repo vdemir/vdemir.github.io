@@ -2859,6 +2859,36 @@ def fibonacci(num):
 
 Uygulama basitken, çalışma zamanı performansı korkunç:
 
+<br>
+<h2 class="python3">Python</h2>
+{% highlight python %}
+
+<Lots of output from count_calls>
+55
+
+
+{% endhighlight %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script>
 function myFunction() {
     if (document.getElementById('id01').style.display === 'none') {
