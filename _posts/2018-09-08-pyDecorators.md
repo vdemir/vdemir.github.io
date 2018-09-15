@@ -3182,6 +3182,30 @@ def validate_json(*expected_args):                  # 1
     return decorator_validate_json
 {% endhighlight %}
 
+Yukarıdaki kodda, süslü fonksiyon, ifade olarak bir değişken uzunluk listesi alır; böylece, her biri JSON verilerini doğrulamak için kullanılan bir anahtarı temsil eden, gerektiği kadar dize ifadesini iletebiliriz:
+
+1. JSON'da bulunması gereken anahtarların listesi, süslü fonksiyona ifadeler olarak verilir.
+2. Çevreleyen fonksiyon, her beklenen anahtarın JSON verilerinde olduğunu doğrular.
+
+Daha sonra, route rota işleyicisi, JSON verilerinin geçerli olduğunu güvenli bir şekilde varsaydığı için, gerçek işine (notları güncelleme) odaklanabilir:
+
+<br>
+{% highlight python %}
+@app.route("/grade", methods=["POST"])
+@validate_json("student_id")
+def update_grade():
+    json_data = request.get_json()
+    # Update database.
+    return "success!"
+{% endhighlight %}
+
+<br>
+
+<div id="D6" class="pop0">6 SONUÇ</div>
+
+
+
+
 
 
 
