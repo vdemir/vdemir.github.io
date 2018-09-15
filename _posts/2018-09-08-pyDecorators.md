@@ -1140,7 +1140,7 @@ Whee!
 
 <div id="D23" class="pop1">2.3 Süslü Fonksiyonlardan Dönen Değerler</div>
 
-Dekorlu fonksiyonların dönüş değeri ne olur? Eh, karar vermek için süslü fonksiyona kalmış. Basit bir fonksiyonu aşağıdaki gibi donattığınızı varsayalım:
+Süslü fonksiyonların dönüş değeri ne olur? Eh, karar vermek süslü fonksiyona kalmış. Basit bir fonksiyonu aşağıdaki gibi donattığınızı varsayalım:
 
 {% highlight python  linenos=table %}
 
