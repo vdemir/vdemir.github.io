@@ -1048,7 +1048,7 @@ if __name__ == "__main__":
 
 <br>
 
-<div id="D23" class="pop1">2.3 İfadelerle Bezeyen Fonksiyonlar</div>
+<div id="D22" class="pop1">2.2 İfadelerle Donatılan Fonksiyonlar</div>
 
 Bazı ifadeleri kabul eden bir fonksiyonunuz olduğunu varsayalım. Hala donatabilir misin? Hadi deneyelim:
 <br>
@@ -1084,7 +1084,7 @@ Traceback (most recent call last):
 TypeError: wrapper_do_twice() takes 0 positional arguments but 1 was given
 {% endhighlight %}
 
-Sorun şu ki, içsel fonksiyon ```wrapper_do_twice()``` fonksiyonu herhangi bir ifade almaz, ancak ```name = 'World'``` ona aktarıldı. ```wrapper_do_twice()``` öğesinin bir bağımsız değişkeni kabul etmesine izin vererek bunu düzeltebilirsiniz, ancak daha önce oluşturduğunuz ```say_whee()``` fonksiyonu için çalışmaz.
+Sorun şu ki, içsel fonksiyon ```wrapper_do_twice()``` herhangi bir ifade almaz, ancak ```name = 'World'``` ona aktarıldı. ```wrapper_do_twice()``` öğesinin bir bağımsız değişkeni kabul etmesine izin vererek bunu düzeltebilirsiniz, ancak daha önce oluşturduğunuz ```say_whee()``` fonksiyonu için çalışmaz.
 
 Çözüm, iç çevreleyici fonksiyonunda ```*args``` ve ```**kwargs``` kullanmaktır. Ardından, rastgele sayı ve konum ifadeyi kabul eder. ```decorators.py``` dosyasını aşağıdaki gibi yeniden yazınız:
 <br>
@@ -1138,7 +1138,7 @@ Whee!
 
 <br>
 
-<div id="D24" class="pop1">2.4 Süslü Fonksiyonlardan Dönen Değerler</div>
+<div id="D23" class="pop1">2.3 Süslü Fonksiyonlardan Dönen Değerler</div>
 
 Dekorlu fonksiyonların dönüş değeri ne olur? Eh, karar vermek için süslü fonksiyona kalmış. Basit bir fonksiyonu aşağıdaki gibi donattığınızı varsayalım:
 
@@ -1237,7 +1237,7 @@ Out[3]: 'Hi Adam'
 
 <br>
 
-<div id="D25" class="pop1">2.5 Kimsin sen, Gerçekten mi?</div>
+<div id="D24" class="pop1">2.4 Kimsin sen, Gerçekten mi?</div>
 
 Özellikle etkileşimli kabukta, Python ile çalışırken büyük kolaylık, güçlü içebakış yeteneğidir. İçebakış, bir nesnenin çalışma zamanında kendi öz niteliklerini bilmesidir. Örneğin, bir fonksiyon kendi adını ve belgelemesini bilir:
 
