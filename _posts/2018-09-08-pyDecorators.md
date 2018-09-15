@@ -2976,7 +2976,7 @@ def fibonacci(num):
 
 {% endhighlight %}
 
-
+maxsize parametresi, son aramaların kaç kere önbelleğe alındığını belirtir.
 
 
 
