@@ -2845,7 +2845,7 @@ first_one'un gerçekten de bir another_one ile aynı özdeş olduğu açıkça g
 Süslü fonksiyonlar, önbelleğe alma ve hafızalama için güzel bir mekanizma sağlayabilir. Örnek olarak, Fibonacci dizisinin yinelemeli bir tanımına bakalım:
 
 <br>
-{% highlight python %}
+{% highlight python  linenos=table %}
 
 import functools
 
@@ -2889,10 +2889,58 @@ Onuncu Fibonacci sayısını hesaplamak için, gerçekten sadece önceki Fibonac
 Genel çözüm, bir for döngü ve bir arama tablosu kullanarak Fibonacci sayılarını uygulamaktır. Hesapların basit bir şekilde önbelleğe alınması da iş görecek:
 
 
+<br>
+{% highlight python  linenos=table %}
 
+import functools
 
+def count_calls(func):
+    """Count the number of calls made to the decorated function"""
 
+    @functools.wraps(func)
+    def wrapper_count_calls(*args, **kwargs):
+        wrapper_count_calls.num_calls += 1
+        print(f"Call {wrapper_count_calls.num_calls} of {func.__name__!r}")
+        return func(*args, **kwargs)
 
+    wrapper_count_calls.num_calls = 0
+    return wrapper_count_calls
+
+def cache(func):
+    """Keep a cache of previous function calls"""
+    @functools.wraps(func)
+    def wrapper_cache(*args, **kwargs):
+        cache_key = args + tuple(kwargs.items())
+        if cache_key not in wrapper_cache.cache:
+            wrapper_cache.cache[cache_key] = func(*args, **kwargs)
+        return wrapper_cache.cache[cache_key]
+    wrapper_cache.cache = dict()
+    return wrapper_cache
+
+@cache
+@count_calls
+def fibonacci(num):
+    if num < 2:
+        return num
+    return fibonacci(num - 1) + fibonacci(num - 2)
+
+fibonacci(10)
+fibonacci.num_calls
+
+{% endhighlight %}
+
+Önbellek bir arama tablosu olarak çalışır, bu yüzden şimdi fibonacci() sadece gerekli hesaplamaları bir kez yapar:
+
+<br>
+<h2 class="python3">Python</h2>
+{% highlight python %}
+
+Call 1 of 'fibonacci'
+...
+Call 11 of 'fibonacci'
+55
+
+{% endhighlight %}
 
 
 
