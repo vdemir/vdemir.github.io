@@ -2847,13 +2847,29 @@ Dekoratörler, önbelleğe alma ve hafızalama için güzel bir mekanizma sağla
 <br>
 {% highlight python %}
 
-from decorators import count_calls
+import functools
+
+def count_calls(func):
+    """Count the number of calls made to the decorated function"""
+
+    @functools.wraps(func)
+    def wrapper_count_calls(*args, **kwargs):
+        wrapper_count_calls.num_calls += 1
+        print(f"Call {wrapper_count_calls.num_calls} of {func.__name__!r}")
+        return func(*args, **kwargs)
+
+    wrapper_count_calls.num_calls = 0
+    return wrapper_count_calls
 
 @count_calls
 def fibonacci(num):
+    print(f"Call {fibonacci.num_calls}")
     if num < 2:
         return num
     return fibonacci(num - 1) + fibonacci(num - 2)
+
+fibonacci(10)
+fibonacci.num_calls
 
 {% endhighlight %}
 
@@ -2863,14 +2879,12 @@ Uygulama basitken, çalışma zamanı performansı korkunç:
 <h2 class="python3">Python</h2>
 {% highlight python %}
 
-<Lots of output from count_calls>
 55
-
+177
 
 {% endhighlight %}
 
-
-
+Onuncu Fibonacci sayısını hesaplamak için, gerçekten sadece önceki Fibonacci sayılarını hesaplamanız gerekir, ancak bu uygulama bir şekilde 177 hesaplamaya ihtiyaç duyar.
 
 
 
