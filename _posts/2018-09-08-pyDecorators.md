@@ -115,7 +115,7 @@ img.resize {
     - &nbsp;&nbsp;&nbsp;&nbsp; 5.1&nbsp;[Kod Yavaşlatıcı](#D51)
     - &nbsp;&nbsp;&nbsp;&nbsp; 5.2&nbsp;[Singletons Oluşturma](#D52)
     - &nbsp;&nbsp;&nbsp;&nbsp; 5.3&nbsp;[Dönüş Değerlerini Önbelleğe Alma](#D53)
-
+    - &nbsp;&nbsp;&nbsp;&nbsp; 5.4&nbsp;[Birimler Hakkında Bilgi Ekleme](#D54)
 
 Süslü fonksiyonlarla ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Süslü fonksiyonlar, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
 
@@ -3023,6 +3023,9 @@ Out[9]: CacheInfo(hits=17, misses=20, maxsize=4, currsize=4)
 
 {% endhighlight %}
 
+<br>
+
+<div id="D54" class="pop2">5.4 Birimler Hakkında Bilgi Ekleme</div>
 
 
 
