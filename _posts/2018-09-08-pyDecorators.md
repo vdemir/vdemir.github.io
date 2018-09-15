@@ -3161,9 +3161,26 @@ def update_grade():
 
 {% endhighlight %}
 
-Burada, student_id anahtarının request isteğin bir parçası olduğundan emin oluyoruz. Bu doğrulama çalışmasına rağmen, gerçekten fonksiyonun kendisine ait değildir. Ayrıca, belki de aynı doğrulamayı kullanan başka routes rotalarda vardır. Yani, hadi DRY'yi koruyalım ve bir süslü fonksiyon ile gereksiz bir mantığı soyutlayalım. Aşağıdaki validate_json süslü fonksiyon, işi yapacak:
+Burada, student_id anahtarının request isteğin bir parçası olduğundan emin oluyoruz. Bu doğrulama çalışmasına rağmen, gerçekten fonksiyonun kendisine ait değildir. Ayrıca, belki de aynı doğrulamayı kullanan başka routes rotalarda vardır. Yani, hadi DRY'yi koruyalım ve bir süslü fonksiyon ile gereksiz bir mantığı soyutlayalım. Aşağıdaki @validate_json süslü fonksiyon, işi yapacak:
 
+<br>
+{% highlight python %}
+from flask import Flask, request, abort
+import functools
+app = Flask(__name__)
 
+def validate_json(*expected_args):                  # 1
+    def decorator_validate_json(func):
+        @functools.wraps(func)
+        def wrapper_validate_json(*args, **kwargs):
+            json_object = request.get_json()
+            for expected_arg in expected_args:      # 2
+                if expected_arg not in json_object:
+                    abort(400)
+            return func(*args, **kwargs)
+        return wrapper_validate_json
+    return decorator_validate_json
+{% endhighlight %}
 
 
 
