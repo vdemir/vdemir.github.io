@@ -2955,6 +2955,42 @@ Out[2]: 21
 
 Son çağrıda fibonacci(8), sekizinci Fibonacci numarası zaten fibonacci(10) için hesaplanmış olduğundan, yeni hesaplamalara gerek yoktu.
 
+Standart kitaplıkta, en az kullanılan (LRU) cache, @functools.lru_cache olarak kullanılabilir.
+
+Bu süslü fonksiyon, yukarıda gördüğünüzden daha fazla özelliğe sahiptir. Kendi önbellek süslü fonksiyonunuzu yazmak yerine @functools.lru_cache kullanmalısınız:
+
+<br>
+{% highlight python %}
+
+import functools
+
+@functools.lru_cache(maxsize=4)
+def fibonacci(num):
+    print(f"Calculating fibonacci({num})")
+    if num < 2:
+        return num
+    return fibonacci(num - 1) + fibonacci(num - 2)
+
+{% endhighlight %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
