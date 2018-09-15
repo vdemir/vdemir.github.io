@@ -2976,11 +2976,49 @@ def fibonacci(num):
 
 {% endhighlight %}
 
-maxsize parametresi, son aramaların kaç kere önbelleğe alındığını belirtir. Varsayılan değer 128'dir, ancak tüm fonksiyon çağrılarını önbelleğe almak için maxsize = None değerini belirleyebilirsiniz.
+maxsize parametresi, son aramaların kaç kere önbelleğe alındığını belirtir. Varsayılan değer 128'dir, ancak tüm fonksiyon çağrılarını önbelleğe almak için maxsize = None değerini belirleyebilirsiniz. Ancak, birçok büyük nesneyi önbelleğe aldığınızda bunun bellek sorunlarına neden olabileceğini unutmayın.
 
+Önbelleğin nasıl çalıştığını görmek için .cache_info() yöntemini kullanabilir ve gerekirse bunları ayarlayabilirsiniz. Örneğimizde, önbellekten kaldırılan öğelerin etkisini görmek için yapay olarak küçük bir boyut belirledik:
 
+<br>
+<h2 class="python3">Python</h2>
+{% highlight python %}
+In [4]: fibonacci(10)
+Calculating fibonacci(10)
+Calculating fibonacci(9)
+Calculating fibonacci(8)
+Calculating fibonacci(7)
+Calculating fibonacci(6)
+Calculating fibonacci(5)
+Calculating fibonacci(4)
+Calculating fibonacci(3)
+Calculating fibonacci(2)
+Calculating fibonacci(1)
+Calculating fibonacci(0)
+Out[1]: 55
 
+In [2]: fibonacci(8)
+Out[2]: 21
 
+In [6]: fibonacci(5)
+Calculating fibonacci({num})
+Calculating fibonacci({num})
+Calculating fibonacci({num})
+Calculating fibonacci({num})
+Calculating fibonacci({num})
+Calculating fibonacci({num})
+Out[6]: 5
+
+In [7]: fibonacci(8)
+Calculating fibonacci({num})
+Calculating fibonacci({num})
+Calculating fibonacci({num})
+Out[7]: 21
+
+In [8]: fibonacci(5)
+Out[8]: 5
+
+{% endhighlight %}
 
 
 
