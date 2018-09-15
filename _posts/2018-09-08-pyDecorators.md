@@ -1181,7 +1181,7 @@ Maalesef, süslü fonksiyonunuz fonksiyondan dönüş değerini yedi.
 
 ```do_twice_wrapper()``` fonksiyonu açıkça bir değer döndürmediğinden, ```return_greeting('Adam')``` çağrısı, None döndürerek sona ermiştir.
 
-Bunu düzeltmek için, **çevrelenen fonksiyonunun süslü fonksiyonun dönüş değerini döndürdüğünden emin olmanız** gerekir. ```decorators.py``` dosyanızı 4. satırını değiştirin:
+Bunu düzeltmek için, **çevrelenen fonksiyonunun süslü fonksiyonun dönüş değerini döndürdüğünden emin olmanız** gerekir. ```decorators.py``` dosyanızı 4. satırını ekleyerek değiştirin:
 
 {% highlight python  linenos=table %}
 def do_twice(func):
