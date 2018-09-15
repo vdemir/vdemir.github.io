@@ -2966,7 +2966,7 @@ Standart kitaplıkta, en az kullanılan (LRU) cache, @functools.lru_cache olarak
 Bu süslü fonksiyon, yukarıda gördüğünüzden daha fazla özelliğe sahiptir. Kendi önbellek süslü fonksiyonunuzu yazmak yerine @functools.lru_cache kullanmalısınız:
 
 <br>
-{% highlight python %}
+{% highlight python linenos=table %}
 
 import functools
 
