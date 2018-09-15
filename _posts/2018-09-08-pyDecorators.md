@@ -3081,9 +3081,17 @@ In [3]: volume(3, 5)
 Out[3]: 141.3716694115407
 {% endhighlight %}
 
+Fonksiyon ek açıklamalarını kullanarak benzer bir şeye ulaşabileceğinizi unutmayın:
 
+<br>
+{% highlight python %}
 
+import math
 
+def volume(radius, height) -> "cm^3":
+    return math.pi * radius**2 * height
+
+{% endhighlight %}
 
 
 <script>
