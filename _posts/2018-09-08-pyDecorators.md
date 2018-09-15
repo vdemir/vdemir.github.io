@@ -2999,7 +2999,7 @@ maxsize parametresi, son aramaların kaç kere önbelleğe alındığını belir
 <br>
 <h2 class="python3">Python</h2>
 {% highlight python %}
-In [4]: fibonacci(10)
+In [1]: fibonacci(10)
 Calculating fibonacci(10)
 Calculating fibonacci(9)
 Calculating fibonacci(8)
@@ -3016,26 +3016,26 @@ Out[1]: 55
 In [2]: fibonacci(8)
 Out[2]: 21
 
-In [6]: fibonacci(5)
+In [3]: fibonacci(5)
 Calculating fibonacci(5)
 Calculating fibonacci(4)
 Calculating fibonacci(3)
 Calculating fibonacci(2)
 Calculating fibonacci(1)
 Calculating fibonacci(0)
-Out[6]: 5
+Out[3]: 5
 
-In [7]: fibonacci(8)
+In [4]: fibonacci(8)
 Calculating fibonacci(8)
 Calculating fibonacci(7)
 Calculating fibonacci(6)
-Out[7]: 21
+Out[4]: 21
 
-In [8]: fibonacci(5)
-Out[8]: 5
+In [5]: fibonacci(5)
+Out[5]: 5
 
-In [9]: fibonacci.cache_info()
-Out[9]: CacheInfo(hits=17, misses=20, maxsize=4, currsize=4)
+In [6]: fibonacci.cache_info()
+Out[6]: CacheInfo(hits=17, misses=20, maxsize=4, currsize=4)
 
 {% endhighlight %}
 
