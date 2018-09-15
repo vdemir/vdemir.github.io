@@ -3139,7 +3139,7 @@ def average_speed(distance, duration):
 
 {% endhighlight %}
 
-@use_unit süslü fonksiyonuyla, dönüştürme birimleri pratik olarak zahmetsizdir:
+'''@use_unit''' süslü fonksiyonuyla, dönüştürme birimleri pratik olarak zahmetsizdir:
 
 
 
