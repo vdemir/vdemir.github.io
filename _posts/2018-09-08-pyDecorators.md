@@ -3141,10 +3141,25 @@ def average_speed(distance, duration):
 
 ```@use_unit``` süslü fonksiyonuyla, dönüştürme birimleri pratik olarak zahmetsizdir:
 
+<br>
 
+<div id="D55" class="pop2">5.5 JSON Doğrulama</div>
 
+Son kullanım örneğine bakalım. Aşağıdaki Flask rota işleyicisine hızlıca bakın:
 
+<br>
+{% highlight python %}
+import pint
 
+@app.route("/grade", methods=["POST"])
+def update_grade():
+    json_data = request.get_json()
+    if "student_id" not in json_data:
+        abort(400)
+    # Update database
+    return "success!"
+
+{% endhighlight %}
 
 
 
