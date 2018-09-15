@@ -3145,7 +3145,7 @@ def average_speed(distance, duration):
 
 <div id="D55" class="pop2">5.5 JSON Doğrulama</div>
 
-Son kullanım örneğine bakalım. Aşağıdaki Flask rota işleyicisine hızlıca bakın:
+Son kullanım örneğine bakalım. Aşağıdaki Flask route rota fonksiyonuna hızlıca bakın:
 
 <br>
 {% highlight python %}
@@ -3161,7 +3161,7 @@ def update_grade():
 
 {% endhighlight %}
 
-
+Burada, student_id anahtarının request isteğin bir parçası olduğundan emin oluyoruz. Bu doğrulama çalışmasına rağmen, gerçekten fonksiyonun kendisine ait değildir. Ayrıca, belki de aynı doğrulamayı kullanan başka routes rotalarda vardır. Yani, hadi DRY'yi koruyalım ve bir süslü fonksiyon ile gereksiz bir mantığı soyutlayalım. Aşağıdaki validate_json süslü fonksiyon, işi yapacak:
 
 
 
