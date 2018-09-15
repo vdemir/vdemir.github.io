@@ -2709,7 +2709,7 @@ Her türlü süslü fonksiyonu nasıl oluşturacağımızı anlayarak, şu ana k
 
 
 <br>
-<div class="pop2">Slowing Down Code</div>
+<div id="D51" class="pop2">5.1 Slowing Down Code</div>
 
 
 Daha önce belirtildiği gibi, daha önce de belirtildiği gibi, Önceki @slow_down uygulamamız her zaman bir saniye uyur. Artık, süslü fonksiyonlar için parametrelerin nasıl ekleneceğini biliyorsunuz. Bu nedenle, ne kadar süre uyuduğunu kontrol eden isteğe bağlı bir rate ifadesi kullanarak @slow_down'u yeniden yazalım:
@@ -2764,7 +2764,7 @@ Liftoff!
 
 
 <br>
-<div class="pop2">Singletons Oluşturma</div>
+<div id="D52" class="pop2">5.2 Singletons Oluşturma</div>
 
 Singleton, tek bir özdeşe sahip bir sınıftır. Python'da, None, True ve False da dahil olmak üzere sıkça kullandığınız birkaç singleton vardır. Gerçekte None, is anahtar sözcüğünü kullanarak None'yu karşılaştırmanıza olanak veren bir singleton'dur
 
@@ -2843,7 +2843,7 @@ first_one'un gerçekten de bir another_one ile aynı özdeş olduğu açıkça g
 </div>
 
 <br>
-<div class="pop2">Dönüş Değerlerini Önbelleğe Alma</div>
+<div id="D53" class="pop2">5.3 Dönüş Değerlerini Önbelleğe Alma</div>
 
 Süslü fonksiyonlar, önbelleğe alma ve hafızalama için güzel bir mekanizma sağlayabilir. Örnek olarak, Fibonacci dizisinin yinelemeli bir tanımına bakalım:
 
