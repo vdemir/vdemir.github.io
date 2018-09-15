@@ -2884,9 +2884,9 @@ Uygulama basitken, çalışma zamanı performansı korkunç:
 
 {% endhighlight %}
 
-Onuncu Fibonacci sayısını hesaplamak için, gerçekten sadece önceki Fibonacci sayılarını hesaplamanız gerekir, ancak bu uygulama bir şekilde 177 hesaplamaya ihtiyaç duyar.
+Onuncu Fibonacci sayısını hesaplamak için, gerçekten sadece önceki Fibonacci sayılarını hesaplamanız gerekir, ancak bu uygulama bir şekilde 177 hesaplamaya ihtiyaç duyar. Daha da kötüye gidiyor: Fibonacci (20) için 21891 hesaplaması ve 30'uncu sayı için yaklaşık 2.7 milyon hesap. Bunun nedeni, kodun zaten bilinen Fibonacci sayılarını yeniden hesaplamasıdır.
 
-
+Genel çözüm, bir for döngü ve bir arama tablosu kullanarak Fibonacci sayılarını uygulamaktır. Hesapların basit bir şekilde önbelleğe alınması da iş görecek:
 
 
 
