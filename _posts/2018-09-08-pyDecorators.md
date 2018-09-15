@@ -3076,8 +3076,13 @@ Bu .unit fonksiyon özniteliğine daha sonra gerektiğinde erişilebilir:
 <br>
 <h2 class="python3">Python</h2>
 {% highlight python %}
+
 In [3]: volume(3, 5)
 Out[3]: 141.3716694115407
+
+In [4]: volume.unit
+Out[4]: 'cm^3'
+
 {% endhighlight %}
 
 Fonksiyon ek açıklamalarını kullanarak benzer bir şeye ulaşabileceğinizi unutmayın:
