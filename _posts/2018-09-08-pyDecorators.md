@@ -3097,6 +3097,38 @@ def volume(radius, height) -> "cm^3":
 
 {% endhighlight %}
 
+Ancak, ek açıklamalar, tip ipuçları için kullanıldığı için statik tip kontrolü ile ek açıklama gibi birimleri birleştirmek zor olurdu
+
+Birimler, birimler arasında dönüşebilen bir kütüphaneye bağlandığında daha da güçlü ve eğlenceli hale gelir. Böyle bir kütüphane de **pint**. pint yüklü olduğunda (pip install Pint), örneğin hacmi; kübik inç veya galona dönüştürebilirsiniz:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <script>
 function myFunction() {
