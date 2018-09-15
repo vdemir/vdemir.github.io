@@ -2967,12 +2967,25 @@ Bu süslü fonksiyon, yukarıda gördüğünüzden daha fazla özelliğe sahipti
 
 import functools
 
+def count_calls(func):
+    """Count the number of calls made to the decorated function"""
+
+    @functools.wraps(func)
+    def wrapper_count_calls(*args, **kwargs):
+        wrapper_count_calls.num_calls += 1
+        print(f"Call {wrapper_count_calls.num_calls} of {func.__name__!r}")
+        return func(*args, **kwargs)
+
+    wrapper_count_calls.num_calls = 0
+    return wrapper_count_calls
+    
 @functools.lru_cache(maxsize=4)
 def fibonacci(num):
     print(f"Calculating fibonacci({num})")
     if num < 2:
         return num
     return fibonacci(num - 1) + fibonacci(num - 2)
+
 
 {% endhighlight %}
 
