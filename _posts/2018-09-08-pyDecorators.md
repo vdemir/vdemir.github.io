@@ -3211,6 +3211,22 @@ Bu tam bir yolculuk oldu! Özellikle diğer fonksiyonlar içinde nasıl tanımla
 
 Öğreticinin ikinci bölümünde daha gelişmiş süslü fonksiyonlar gördünüz ve nasıl yapılacağını öğrendiniz:
 
+-  Süslü sınıflar
+-  İç içe süslü fonksiyonlar
+-  Süslü fonksiyonlara ifadeler ekle
+-  Süslü fonksiyonlar içinde durumu koru
+-  Süslü fonksiyonlar olarak sınıfları kullan
+
+Bir süslü fonksiyon tanımlamak için, genellikle bir çevreleyici fonksiyon döndüren bir fonksiyon tanımladığını gördünüz. Çevreleyici fonksiyon, süslü fonksiyona ifadeleri iletmek için *args ve **kwargs kullanır. Süslü fonksiyonunuzunda ifadeler almasını istiyorsanız, çevreleyici fonksiyon başka bir fonksiyonun içine yerleştirmeniz gerekir. Bu durumda, genellikle üç dönüş ifadesiyle sonuçlanırsınız.
+
+
+
+
+
+
+
+
+
 
 
 
