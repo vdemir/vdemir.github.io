@@ -111,6 +111,10 @@ img.resize {
     - &nbsp;&nbsp;&nbsp;&nbsp; 4.3&nbsp;[Her ikisi de Lütfen, Ama Asla Zarar Vermeyin](#D43)
     - &nbsp;&nbsp;&nbsp;&nbsp; 4.4&nbsp;[Durumsal Süslü Fonksiyonlar](#D44)
     - &nbsp;&nbsp;&nbsp;&nbsp; 4.5&nbsp;[Süslü Fonksiyonlar gibi Sınıflar](#D45)
++ 5 [Daha Gerçek Dünya Örnekleri](#D5)
+    - &nbsp;&nbsp;&nbsp;&nbsp; 5.1&nbsp;[Kod Yavaşlatıcı](#D51)
+    - &nbsp;&nbsp;&nbsp;&nbsp; 5.2&nbsp;[Singletons Oluşturma](#D52)
+    - &nbsp;&nbsp;&nbsp;&nbsp; 5.3&nbsp;[Dönüş Değerlerini Önbelleğe Alma](#D53)
 
 
 Süslü fonksiyonlarla ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Süslü fonksiyonlar, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
