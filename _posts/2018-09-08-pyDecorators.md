@@ -3001,22 +3001,25 @@ In [2]: fibonacci(8)
 Out[2]: 21
 
 In [6]: fibonacci(5)
-Calculating fibonacci({num})
-Calculating fibonacci({num})
-Calculating fibonacci({num})
-Calculating fibonacci({num})
-Calculating fibonacci({num})
-Calculating fibonacci({num})
+Calculating fibonacci(5)
+Calculating fibonacci(4)
+Calculating fibonacci(3)
+Calculating fibonacci(2)
+Calculating fibonacci(1)
+Calculating fibonacci(0)
 Out[6]: 5
 
 In [7]: fibonacci(8)
-Calculating fibonacci({num})
-Calculating fibonacci({num})
-Calculating fibonacci({num})
+Calculating fibonacci(8)
+Calculating fibonacci(7)
+Calculating fibonacci(6)
 Out[7]: 21
 
 In [8]: fibonacci(5)
 Out[8]: 5
+
+In [9]: fibonacci.cache_info()
+Out[9]: CacheInfo(hits=17, misses=20, maxsize=4, currsize=4)
 
 {% endhighlight %}
 
