@@ -2951,6 +2951,12 @@ Out[1]: 55
 In [2]: fibonacci(8)
 Out[2]: 21
 
+In [15]: fibonacci(5)
+Out[15]: 5
+
+In [16]: fibonacci(8)
+Out[16]: 21
+
 {% endhighlight %}
 
 Son çağrıda fibonacci(8), sekizinci Fibonacci numarası zaten fibonacci(10) için hesaplanmış olduğundan, yeni hesaplamalara gerek yoktu.
