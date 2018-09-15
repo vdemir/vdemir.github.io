@@ -1100,7 +1100,7 @@ def do_twice(func):
 
 {% endhighlight %}
 
-```wrapper_do_twice()``` iç fonksiyonu artık herhangi bir sayıdaki ifadeyi kabul eder ve bunları bezediği fonksiyone iletir. Şimdi hem ```say_whee()``` ve ```greet()``` örnekleri çalışır:
+```wrapper_do_twice()``` iç fonksiyonu artık herhangi bir sayıdaki ifadeyi kabul eder ve bunları süslü fonksiyona iletir. Şimdi hem ```say_whee()``` ve ```greet()``` örnekleri çalışır:
 
 {% highlight python  linenos=table %}
 
