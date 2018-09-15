@@ -116,6 +116,8 @@ img.resize {
     - &nbsp;&nbsp;&nbsp;&nbsp; 5.2&nbsp;[Singletons Oluşturma](#D52)
     - &nbsp;&nbsp;&nbsp;&nbsp; 5.3&nbsp;[Dönüş Değerlerini Önbelleğe Alma](#D53)
     - &nbsp;&nbsp;&nbsp;&nbsp; 5.4&nbsp;[Birimler Hakkında Bilgi Ekleme](#D54)
+    - &nbsp;&nbsp;&nbsp;&nbsp; 5.5&nbsp;[JSON Doğrulama](#D55)
++ 6 [SONUÇ](#D5)
 
 Süslü fonksiyonlarla ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Süslü fonksiyonlar, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
 
