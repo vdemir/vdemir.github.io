@@ -2976,7 +2976,7 @@ def fibonacci(num):
 
 {% endhighlight %}
 
-maxsize parametresi, son aramaların kaç kere önbelleğe alındığını belirtir.
+maxsize parametresi, son aramaların kaç kere önbelleğe alındığını belirtir. Varsayılan değer 128'dir, ancak tüm fonksiyon çağrılarını önbelleğe almak için maxsize = None değerini belirleyebilirsiniz.
 
 
 
