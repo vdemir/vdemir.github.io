@@ -3203,18 +3203,13 @@ def update_grade():
 
 <div id="D6" class="pop0">6 SONUÇ</div>
 
+Bu tam bir yolculuk oldu! Özellikle diğer fonksiyonlar içinde nasıl tanımlanabileceklerine ve diğer herhangi bir Python öbeği gibi nasıl geçirilebileceklerine; fonksiyonlara biraz daha yakından bakarak bu eğiticiye başladık. Sonra süslü fonksiyonları ve bunları nasıl yazacağınızı öğrendiniz:
 
+-  Yeniden kullanılabilirler.
+-  Fonksiyonları ifadelerle donatabilirler ve değerleri döndürebilir.
+-  @functools.wraps süslü fonksiyona daha çok benzemek için kullanabilirler.
 
-
-
-
-
-
-
-
-
-
-
+Öğreticinin ikinci bölümünde daha gelişmiş süslü fonksiyonlar gördünüz ve nasıl yapılacağını öğrendiniz:
 
 
 
