@@ -96,7 +96,7 @@ img.resize {
        - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.1.1&nbsp;[Süslü fonksiyonları Yeniden Kullanmak](#D211)
        - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.1.2&nbsp;[Biraz Daha Faydalı](#D212)
        - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.1.3&nbsp;[Meta sınıflar ve süslü fonksiyonlar: uzayda yapılmış bir eşleme](#D213)
-    - &nbsp;&nbsp;&nbsp;&nbsp; 2.2&nbsp;[İfadelerle Bezeyen Fonksiyonlar](#D22)
+    - &nbsp;&nbsp;&nbsp;&nbsp; 2.2&nbsp;[İfadelerle Donatılan Fonksiyonlar](#D22)
     - &nbsp;&nbsp;&nbsp;&nbsp; 2.3&nbsp;[Süslü Fonksiyonlardan Dönen Değerler](#D23)
     - &nbsp;&nbsp;&nbsp;&nbsp; 2.4&nbsp;[Kimsin sen, Gerçekten mi?](#D24)
 + 3 [Birkaç Gerçek Dünya Örneği](#D3)
@@ -1084,9 +1084,9 @@ Traceback (most recent call last):
 TypeError: wrapper_do_twice() takes 0 positional arguments but 1 was given
 {% endhighlight %}
 
-Sorun şu ki, içsel fonksiyon ```wrapper_do_twice()``` herhangi bir ifade almaz, ancak ```name = 'World'``` ona aktarıldı. ```wrapper_do_twice()``` öğesinin bir bağımsız değişkeni kabul etmesine izin vererek bunu düzeltebilirsiniz, ancak daha önce oluşturduğunuz ```say_whee()``` fonksiyonu için çalışmaz.
+Sorun şu ki, içsel fonksiyon ```wrapper_do_twice()``` herhangi bir ifade almaz, ancak ```name = 'World'``` ona aktarıldı. ```wrapper_do_twice()``` öğesinin bir ifadeyi kabul etmesine izin vererek bunu düzeltebilirsiniz, ancak daha önce oluşturduğunuz ```say_whee()``` fonksiyonu için çalışmaz.
 
-Çözüm, iç çevreleyici fonksiyonunda ```*args``` ve ```**kwargs``` kullanmaktır. Ardından, rastgele sayı ve konum ifadeyi kabul eder. ```decorators.py``` dosyasını aşağıdaki gibi yeniden yazınız:
+Çözüm, iç çevreleyici fonksiyonunda ```*args``` ve ```**kwargs``` kullanmaktır. Ardından, rastgele sayı ve konumsal ifadeyi kabul eder. ```decorators.py``` dosyasını aşağıdaki gibi yeniden yazınız:
 <br>
 
 
