@@ -3057,7 +3057,6 @@ def set_unit(unit):
 
 {% endhighlight %}
 
-:
 Aşağıdaki örnek yarıçapı ve santimetre cinsinden yüksekliği temelinde bir silindirin hacmini hesaplar:
 
 <br>
