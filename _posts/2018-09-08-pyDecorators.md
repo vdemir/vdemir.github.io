@@ -3043,16 +3043,36 @@ Out[6]: CacheInfo(hits=17, misses=20, maxsize=4, currsize=4)
 
 <div id="D54" class="pop2">5.4 Birimler Hakkında Bilgi Ekleme</div>
 
+Aşağıdaki örnek, daha önce, Eklenti Kaydetme örneğine benzemektedir, çünkü bu, süslü fonksiyonun davranışını gerçekten değiştirmez. Bunun yerine, yalnızca bir fonksiyon öznitelliği olarak unit ekler:
+
+<br>
+{% highlight python %}
+
+def set_unit(unit):
+    """Register a unit on a function"""
+    def decorator_set_unit(func):
+        func.unit = unit
+        return func
+    return decorator_set_unit
+
+{% endhighlight %}
+
+:
+Aşağıdaki örnek yarıçapı ve santimetre cinsinden yüksekliği temelinde bir silindirin hacmini hesaplar:
+
+<br>
+{% highlight python %}
+
+import math
+
+@set_unit("cm^3")
+def volume(radius, height):
+    return math.pi * radius**2 * height
 
 
+{% endhighlight %}
 
-
-
-
-
-
-
-
+Bu .unit fonksiyon özniteliğine daha sonra gerektiğinde erişilebilir:
 
 
 
