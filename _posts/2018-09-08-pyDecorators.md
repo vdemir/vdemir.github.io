@@ -3072,7 +3072,22 @@ def volume(radius, height):
 {% endhighlight %}
 
 Bu .unit fonksiyon özniteliğine daha sonra gerektiğinde erişilebilir:
+<br>
+{% highlight python linenos=table %}
 
+import math
+
+def set_unit(unit):
+    """Register a unit on a function"""
+    def decorator_set_unit(func):
+        func.unit = unit
+        return func
+    return decorator_set_unit
+
+@set_unit("cm^3")
+def volume(radius, height):
+    return math.pi * radius**2 * height
+{% endhighlight %}
 <br>
 <h2 class="python3">Python</h2>
 {% highlight python %}
@@ -3099,7 +3114,7 @@ def volume(radius, height) -> "cm^3":
 
 Ancak, ek açıklamalar, tip ipuçları için kullanıldığı için statik tip kontrolü ile ek açıklama gibi birimleri birleştirmek zor olurdu
 
-Birimler, birimler arasında dönüşebilen bir kütüphaneye bağlandığında daha da güçlü ve eğlenceli hale gelir. Böyle bir kütüphane de **pint**. pint yüklü olduğunda (pip install Pint), örneğin hacmi; kübik inç veya galona dönüştürebilirsiniz:
+Birimler, birimler arasında dönüşebilen bir kütüphaneye bağlandığında daha da güçlü ve eğlenceli hale gelir. Böyle bir kütüphane de **pint**. pint yüklü olduğunda **(pip install Pint)**, örneğin hacmi; kübik inç veya galona dönüştürebilirsiniz:
 
 
 
