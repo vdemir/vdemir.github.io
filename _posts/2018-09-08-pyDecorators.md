@@ -2953,7 +2953,7 @@ Out[2]: 21
 
 {% endhighlight %}
 
-
+Son çağrıda fibonacci(8), sekizinci Fibonacci numarası zaten fibonacci(10) için hesaplanmış olduğundan, yeni hesaplamalara gerek yoktu.
 
 
 
