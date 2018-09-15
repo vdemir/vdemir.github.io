@@ -2842,7 +2842,6 @@ first_one'un gerçekten de bir another_one ile aynı özdeş olduğu açıkça g
 <br>
 <div class="pop2">Dönüş Değerlerini Önbelleğe Alma</div>
 
-<button  onclick="myFunction()">decorators.py - [Göster]/[Gizle]</button> 
 Süslü fonksiyonlar, önbelleğe alma ve hafızalama için güzel bir mekanizma sağlayabilir. Örnek olarak, Fibonacci dizisinin yinelemeli bir tanımına bakalım:
 
 <br>
@@ -2915,6 +2914,7 @@ function myFunction() {
 </script>
 
 
+<button  onclick="myFunction()">decorators.py - [Göster]/[Gizle]</button> 
 <div id="id01" style="display:none">
 
  {% highlight python  linenos=table %}
