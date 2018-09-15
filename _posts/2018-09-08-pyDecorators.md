@@ -1763,9 +1763,9 @@ Using 'say_hello'
 {% endhighlight %} 
 <br> 
 
-Bu basit eklenti mimarisinin temel faydası, eklentilerin bulunduğu bir listeye bakımınızın gerekmemesidir. Bu liste,  eklentiler kendilerini kaydettirdiğinde oluşturulur. Bu yeni bir eklenti eklemeyi önemsiz kılar: sadece fonksiyonu tanımlayın ve '''@register''' ile süsleyin.
+Bu basit eklenti mimarisinin temel faydası, eklentilerin bulunduğu bir listeye bakımınızın gerekmemesidir. Bu liste,  eklentiler kendilerini kaydettirdiğinde oluşturulur. Bu yeni bir eklenti eklemeyi önemsiz kılar: sadece fonksiyonu tanımlayın ve ```@register``` ile süsleyin.
  
-Python'da '''globals()''' ile tanışıyorsanız, eklenti mimarisinin nasıl çalıştığıyla ilgili benzerlikler görebilirsiniz. '''globals()''', eklentileriniz de dahil olmak üzere geçerli kapsamdaki tüm global değişkenlere erişim sağlar:
+Python'da ```globals()``` ile tanışıyorsanız, eklenti mimarisinin nasıl çalıştığıyla ilgili benzerlikler görebilirsiniz. ```globals()```, eklentileriniz de dahil olmak üzere geçerli kapsamdaki tüm global değişkenlere erişim sağlar:
 
 <br>
 
@@ -1791,7 +1791,7 @@ Python'da '''globals()''' ile tanışıyorsanız, eklenti mimarisinin nasıl ça
 
 {% endhighlight %} 
 
-'''@register''' süslü fonksiyonunu kullanarak, '''globals()''' fonksiyonlarından bazılarını etkin bir şekilde seçerek kendi seçilmiş ilginç değişkenler listenizi oluşturabilirsiniz.
+```@register``` süslü fonksiyonunu kullanarak, ```globals()``` fonksiyonlarından bazılarını etkin bir şekilde seçerek kendi seçilmiş ilginç değişkenler listenizi oluşturabilirsiniz.
 
 web çerçevesiyle çalışırken yaygın olarak kullanılır
 
@@ -1799,7 +1799,7 @@ web çerçevesiyle çalışırken yaygın olarak kullanılır
 
 <div id="D35" class="pop1">3.5 Kullanıcı Oturumu Açıldı mı?</div>
 
-Bir web çatısıyla çalışırken yaygın olarak kullanılan bazı daha süslü fonksiyonlar için yola devam etmeden önce son örnek. Sadece giriş yapan kullanıcılar tarafından görülen veya başka şekilde doğrulanmış bir '''/secret''' web sayfası kurmak için Flask kullanıyoruz:
+Bir web çatısıyla çalışırken yaygın olarak kullanılan bazı daha süslü fonksiyonlar için yola devam etmeden önce son örnek. Sadece giriş yapan kullanıcılar tarafından görülen veya başka şekilde doğrulanmış bir ```/secret``` web sayfası kurmak için Flask kullanıyoruz:
 
 <br>
 
@@ -1847,10 +1847,10 @@ Süslü Fonksiyon Sınıfları
 Sınıflarda süslü fonksiyonlar kullanmanın iki farklı yolu vardır. İlki, zaten fonksiyonlarla yaptığınız şeye çok yakın: Bir sınıfın yordamlarını süsleyebilirsiniz. Süslü fonksiyonların gün içinde desteklenen tanıtım motivasyonlarından biriydi.
 
 Python'da bile yerleşik olan bazı yaygın olarak kullanılan süslü fonksiyonlar 
-'''@classmethod''', '''@staticmethod''' ve '''@property''''dir. '''@classmethod''' ve 
-'''@staticmethod''' süslü fonksiyonları, bu sınıfın belirli bir özdeşine bağlanmayan bir sınıf aduzayı içindeki yordamları tanımlamak için kullanılır. '''@property''' süslü fonksiyonu, sınıf öznitellikleri için getters and '''setters''' özelleştirmek için kullanılır. Bu süslü fonksiyonları kullanılarak bir örnek için aşağıdaki kutucuğu genişletin.
+```@classmethod```, ```@staticmethodv``` ve ```@property```'dir. ```@classmethod``` ve 
+```@staticmethod``` süslü fonksiyonları, bu sınıfın belirli bir özdeşine bağlanmayan bir sınıf aduzayı içindeki yordamları tanımlamak için kullanılır. ```@property``` süslü fonksiyonu, sınıf öznitellikleri için getters and ```setters``` özelleştirmek için kullanılır. Bu süslü fonksiyonları kullanılarak bir örnek için aşağıdaki kutucuğu genişletin.
 
-Bir Circle sınıfının aşağıdaki tanımı '''@classmethod''', '''@staticmethod''' ve '''@property''' süslü fonksiyonlarını kullanır:
+Bir Circle sınıfının aşağıdaki tanımı ```@classmethod```, ```@staticmethod``` ve ```@property``` süslü fonksiyonlarını kullanır:
 
 <br>
 
@@ -1895,11 +1895,11 @@ class Circle:
 <br>
 Bu sınıfta:
 
--  '''.cylinder_volume()''' normal bir yordamdır.
--  '''.radius''', değişken bir niteliktir: farklı bir değere ayarlanabilir. Ancak, bir setter metodu tanımlayarak, anlamsız bir negatif sayıya ayarlanmadığından emin olmak için bazı hata testleri yapabiliriz. Özelliklere parantez olmadan öznitelikler olarak erişilebilir.
--  '''.area''' değişmez bir niteliktir: '''.setter()''' yordamları dışındaki nitelikler, değiştirilemez. Bir yordam olarak tanımlanmış olsa bile, parantez içermeyen bir öznitellik olarak yeniden ele alınabilir.
--  '''.unit_circle()''' bir sınıf yordamıdır. Belirli bir '''Circle''' özdeşine bağlı değildir. Sınıf yordamları, sınıfın belirli özdeşlerini oluşturabilen fabrika yordamları olarak sıklıkla kullanılır.
--  '''.pi()''' statik bir yordamdır. '''Circle''' sınıfına gerçekten bağlı değildir, onun aduzayının bir parçası olması dışında. Statik yordamlar, bir özdeşte veya sınıfta çağrılabilir.
+-  ```.cylinder_volume()``` normal bir yordamdır.
+-  ```.radius```, değişken bir niteliktir: farklı bir değere ayarlanabilir. Ancak, bir setter metodu tanımlayarak, anlamsız bir negatif sayıya ayarlanmadığından emin olmak için bazı hata testleri yapabiliriz. Özelliklere parantez olmadan öznitelikler olarak erişilebilir.
+-  ```.area``` değişmez bir niteliktir: ```.setter()``` yordamları dışındaki nitelikler, değiştirilemez. Bir yordam olarak tanımlanmış olsa bile, parantez içermeyen bir öznitellik olarak yeniden ele alınabilir.
+-  ```.unit_circle()``` bir sınıf yordamıdır. Belirli bir ```Circle``` özdeşine bağlı değildir. Sınıf yordamları, sınıfın belirli özdeşlerini oluşturabilen fabrika yordamları olarak sıklıkla kullanılır.
+-  ```.pi()``` statik bir yordamdır. ```Circle``` sınıfına gerçekten bağlı değildir, onun aduzayının bir parçası olması dışında. Statik yordamlar, bir özdeşte veya sınıfta çağrılabilir.
 
 Circle sınıfı örneğin aşağıdaki gibi kullanılabilir:
 
@@ -1941,7 +1941,7 @@ Out[11]: 3.1415926535
 
 {% endhighlight %}
 
-Önceden '''@debug''' ve '''@timer''' süslü fonksiyonlarını kullanarak bazı yordamlarını süslediğimiz bir sınıfı tanımlayalım:
+Önceden ```@debug``` ve ```@timer``` süslü fonksiyonlarını kullanarak bazı yordamlarını süslediğimiz bir sınıfı tanımlayalım:
 
 <br>
 
@@ -2023,7 +2023,7 @@ Finished 'waste_time' in 0.2627 secs
 
 {% endhighlight %}
 
-Süslü fonksiyonları sınıflarda kullanmanın diğer yolu tüm sınıfı süslemektir. Bu, örneğin, Python 3.7'deki yeni '''dataclasses''' modülünde yapılır:
+Süslü fonksiyonları sınıflarda kullanmanın diğer yolu tüm sınıfı süslemektir. Bu, örneğin, Python 3.7'deki yeni ```dataclasses``` modülünde yapılır:
 
 {% highlight python %}
 
@@ -2036,11 +2036,11 @@ class PlayingCard:
 
 {% endhighlight %}
 
-Sözdiziminin anlamı, fonksiyon süslemelerine benzer. Yukarıdaki örnekte, Fonksiyon süslemesini '''PlayingCard = dataclass (PlayingCard)''' yazarak yapabilirdiniz.
+Sözdiziminin anlamı, fonksiyon süslemelerine benzer. Yukarıdaki örnekte, Fonksiyon süslemesini ```PlayingCard = dataclass (PlayingCard)``` yazarak yapabilirdiniz.
 
 Sınıf süslü fonksiyonlarının yaygın bir kullanımı, metasınıfların bazı kullanım durumlarına daha basit bir alternatif olmaktır. Her iki durumda da, bir sınıfın tanımını dinamik olarak değiştiriyorsunuz.
 
-Bir sınıf süslüsünün yazılması, bir fonksiyon süslüsünün yazılmasına çok benzer. Tek fark, süslü fonksiyonun bir ifade olarak bir fonksiyon değil bir sınıf alacağıdır. Aslında, yukarıda gördüğünüz tüm süslü fonksiyonlar, sınıf süslüleri olarak çalışacak. Onları bir fonksiyon yerine bir sınıfta kullanırken, bunların etkisi istediğiniz gibi olmayabilir. Aşağıdaki örnekte, '''@timer''' süslü fonksiyonu bir sınıfa uygulanır:
+Bir sınıf süslüsünün yazılması, bir fonksiyon süslüsünün yazılmasına çok benzer. Tek fark, süslü fonksiyonun bir ifade olarak bir fonksiyon değil bir sınıf alacağıdır. Aslında, yukarıda gördüğünüz tüm süslü fonksiyonlar, sınıf süslüleri olarak çalışacak. Onları bir fonksiyon yerine bir sınıfta kullanırken, bunların etkisi istediğiniz gibi olmayabilir. Aşağıdaki örnekte, ```@timer``` süslü fonksiyonu bir sınıfa uygulanır:
 
 {% highlight python %}
 
@@ -2057,9 +2057,9 @@ class TimeWaster:
 
 {% endhighlight %}
 
-Bir sınıfın süslenmesi yordamlarını süslemez. Hatırlayın, '''@timer''' sadece '''TimeWaster = timer (TimeWaster)''' için kısaltılmıştır.
+Bir sınıfın süslenmesi yordamlarını süslemez. Hatırlayın, ```@timer``` sadece ```TimeWaster = timer (TimeWaster)``` için kısaltılmıştır.
  
-Burada, @timer sadece sınıfı eşleneği için gereken süreyi ölçer:
+Burada, ```@timer``` sadece sınıfı eşleneği için gereken süreyi ölçer:
 
 <br>
 
@@ -2103,7 +2103,7 @@ Finished 'TimeWaster' in 0.0000 secs
 
 {% endhighlight %}
 
-Sonra, uygun bir sınıf dekoratörünü tanımlayan, bir sınıfın sadece bir özdeşini sağlayan, '''@singleton''' olarak adlandırılan bir örnek göreceksiniz.
+Sonra, uygun bir sınıf dekoratörünü tanımlayan, bir sınıfın sadece bir özdeşini sağlayan, ```@singleton``` olarak adlandırılan bir örnek göreceksiniz.
 
 
 <br>
@@ -2123,8 +2123,8 @@ def greet(name):
 
 {% endhighlight %}
 
-Dekoratörlerin listelendikleri sırayla yürütüldüklerini düşünün. Başka bir deyişle, '''@debug''', '''greet()''' veya '''debug(do_twice(greet()))''''i çağıran 
-'''@do_twice''' çağırır:
+Dekoratörlerin listelendikleri sırayla yürütüldüklerini düşünün. Başka bir deyişle, ```@debug```, ```greet()``` veya ```debug(do_twice(greet()))```'i çağıran 
+```@do_twice``` çağırır:
 
 <br>
 
@@ -2173,7 +2173,7 @@ Hello Eva
 
 {% endhighlight %}
 
-'''@debug''' ve '''@do_twice''' sırasını değiştirirsek farkı gözlemleyin:
+```@debug``` ve ```@do_twice``` sırasını değiştirirsek farkı gözlemleyin:
 
 <br>
 
@@ -2208,7 +2208,7 @@ def greet(name):
 
 {% endhighlight %}
 
-Bu durumda, '''@do_twice''' ayrıca '''@debug''''a da uygulanacaktır:
+Bu durumda, ```@do_twice``` ayrıca ```@debug```'a da uygulanacaktır:
 
 <br>
 
@@ -2230,7 +2230,7 @@ Hello Eva
 
 <div id="D42" class="pop1">4.2 İfadeler ile Süslü Fonksiyonlar</div>
 
-Bazen, ifadeleri süslü fonksiyonlara iletmek yararlıdır. Örneğin, '''@do_twice''' bir   '''@repeat(num_times)''' süslü fonksiyonuna genişletilebilir. Süslenen fonksiyonun yürütme sayısı, daha sonra bir ifade olarak verilebilir.
+Bazen, ifadeleri süslü fonksiyonlara iletmek yararlıdır. Örneğin, ```@do_twice``` bir   ```@repeat(num_times)``` süslü fonksiyonuna genişletilebilir. Süslenen fonksiyonun yürütme sayısı, daha sonra bir ifade olarak verilebilir.
 
 Bu, böyle bir şey yapmanıza izin verirdi:
 
@@ -2281,7 +2281,7 @@ Hello World
 
 Bunu nasıl başarabileceğinizi düşünün.
 
-Şimdiye kadar, '''@''' 'den sonra yazılan ad, başka bir fonksiyonla çağrılabilen bir fonksiyon öbeğine atfedildi. Tutarlı olmak için, o zaman bir süslü fonksiyon gibi davranabilen bir fonksiyon öbeğini döndürmek için repeat('''num_times=4''') gerekir. Neyse ki, zaten fonksiyonların nasıl döndüğünü biliyorsunuz! Genel olarak, aşağıdaki gibi bir şey istersiniz:
+Şimdiye kadar, ```@``` 'den sonra yazılan ad, başka bir fonksiyonla çağrılabilen bir fonksiyon öbeğine atfedildi. Tutarlı olmak için, o zaman bir süslü fonksiyon gibi davranabilen bir fonksiyon öbeğini döndürmek için repeat(```num_times=4```) gerekir. Neyse ki, zaten fonksiyonların nasıl döndüğünü biliyorsunuz! Genel olarak, aşağıdaki gibi bir şey istersiniz:
 
 {% highlight python %}
 
@@ -2320,7 +2320,7 @@ def wrapper_repeat(*args, **kwargs):
 
 {% endhighlight %}
 
-Yine, '''decorator_repeat()''', farklı adlandırılması dışında daha önce yazmış olduğunuz süslü fonksiyonlar gibi görünür. Bunun nedeni, kullanıcının arayacağı, en dıştaki fonksiyon için temel adı —'''repeat()'''— ayırmamızdır.
+Yine, ```decorator_repeat()```, farklı adlandırılması dışında daha önce yazmış olduğunuz süslü fonksiyonlar gibi görünür. Bunun nedeni, kullanıcının arayacağı, en dıştaki fonksiyon için temel adı —```repeat()```— ayırmamızdır.
 
 Daha önce gördüğünüz gibi, en dıştaki fonksiyon, süslü fonksiyona bir atıf döndürür:
 
@@ -2335,8 +2335,8 @@ def repeat(num_times):
 
 repeat() fonksiyonunda gerçekleşen birkaç ince şey vardır:
 
--  '''decorator_repeat()''' öğesinin bir iç fonksiyon olarak tanımlanması, '''repeat()''' öğesinin bir fonksiyon öbeğine atıfta bulunması anlamına gelir - '''decorator_repeat'''. Daha önce, fonksiyon öbeğine atıfta bulunmak için parantez olmadan '''repeat''' kullandık. Eklenen parantezler, ifadeleri alan süslü fonksiyonlar tanımlanırken gereklidir.
--  '''num_times''' ifadesi, görünüşte bizzat '''repeat()''' içinde kendi kendine kullanılmamaktadır. Ancak '''num_times''' değeri daha sonra '''wrapper_repeat()''' tarafından kullanılıncaya kadar saklanır, '''num_times''' geçerek bir kapanış oluşturulur.
+-  ```decorator_repeat()``` öğesinin bir iç fonksiyon olarak tanımlanması, ```repeat()``` öğesinin bir fonksiyon öbeğine atıfta bulunması anlamına gelir - ```decorator_repeat```. Daha önce, fonksiyon öbeğine atıfta bulunmak için parantez olmadan ```repeat``` kullandık. Eklenen parantezler, ifadeleri alan süslü fonksiyonlar tanımlanırken gereklidir.
+-  ```num_times``` ifadesi, görünüşte bizzat ```repeat()``` içinde kendi kendine kullanılmamaktadır. Ancak ```num_times``` değeri daha sonra ```wrapper_repeat()``` tarafından kullanılıncaya kadar saklanır, ```num_times``` geçerek bir kapanış oluşturulur.
 
 Ayarlanan her şeyle, sonuçların beklendiği gibi olup olmadığını görelim:
 
@@ -2372,7 +2372,7 @@ Bir önceki bölümde gördüğünüz gibi, bir süslü fonksiyon ifadeleri kull
 
 Süslü fonksiyonların ifadelerle veya ifadeler olmadan çağrılıp çağrılmadığını, kodunuzun çözmesi için meydan okumadır.
 
-Süslü fonksiyon ifadeler olmadan çağrıldığında, fonksiyon, süslü fonksiyona yalnızca doğrudan iletildiğinden beri, fonksiyon isteğe bağlı bir ifade olmalıdır. Süslü fonksiyon ifadelerinin '''keyword''' ile belirtilmesi gerektiği anlamına gelir. Bunu, aşağıdaki tüm parametrelerin yalnızca keyword olduğu anlamına gelen özel * sözdizimi ile uygulayabilirsiniz:
+Süslü fonksiyon ifadeler olmadan çağrıldığında, fonksiyon, süslü fonksiyona yalnızca doğrudan iletildiğinden beri, fonksiyon isteğe bağlı bir ifade olmalıdır. Süslü fonksiyon ifadelerinin ```keyword``` ile belirtilmesi gerektiği anlamına gelir. Bunu, aşağıdaki tüm parametrelerin yalnızca keyword olduğu anlamına gelen özel * sözdizimi ile uygulayabilirsiniz:
 
 {% highlight python %}
 
@@ -2387,9 +2387,9 @@ def name(_func=None, *, kw1=val1, kw2=val2, ...):  # 1
 
 {% endhighlight %}
 
-Süslü fonksiyonların ifadeler ile çağrılıp çağrılmadığını belirterek burada, '''_func''' ifadesi bir işaretçi olarak davranır:
+Süslü fonksiyonların ifadeler ile çağrılıp çağrılmadığını belirterek burada, ```_func``` ifadesi bir işaretçi olarak davranır:
 
-1. Eğer name ifadesiz çağrıldıysa, süslenmiş fonksiyon '''_func''' olarak aktarılacaktır. İfadeler ile çağrıldıysa, o zaman '''_func''' None olacaktır ve bazı '''keyword''' ifadeleri varsayılan değerlerinden değişime uğramış olabilir. İfade listesindeki *, arda kalan ifadelerin konumsal ifadeler olarak çağrılamayacağı anlamına gelir.
+1. Eğer name ifadesiz çağrıldıysa, süslenmiş fonksiyon ```_func``` olarak aktarılacaktır. İfadeler ile çağrıldıysa, o zaman ```_func``` None olacaktır ve bazı ```keyword``` ifadeleri varsayılan değerlerinden değişime uğramış olabilir. İfade listesindeki *, arda kalan ifadelerin konumsal ifadeler olarak çağrılamayacağı anlamına gelir.
 
 2. Bu durumda, süslü fonksiyonlar, ifadeler ile çağrıldı. Bir fonksiyonu okuyabilen ve döndüren bir süslü fonksiyonu döndür.
 
@@ -2398,9 +2398,9 @@ Süslü fonksiyonların ifadeler ile çağrılıp çağrılmadığını belirter
 <br>
 <div class="pop2">4.3.1 Positional ifade ve keyword ifadesi</div>
 
-Fonksiyonu çağırırken bir fonksiyona (veya yordama) geçirilen bir değer. 	İki tür ifade var:
+Fonksiyonu çağırırken bir fonksiyona (veya yordama) geçirilen bir değer. İki tür ifade var:
 
--  keyword ifadesi: Bir fonksiyon çağrısındaki bir tanımlayıcıdan (ör. name =) önce gelen veya ** ile öncelenen bir sözlükte bir değer olarak geçirilen bir ifade. Örneğin, 3 ve 5, aşağıdaki her iki keyword ifadesi '''complex()''' için çağrılır:
+-  keyword ifadesi: Bir fonksiyon çağrısındaki bir tanımlayıcıdan (ör. name =) önce gelen veya ** ile öncelenen bir sözlükte bir değer olarak geçirilen bir ifade. Örneğin, 3 ve 5, aşağıdaki her iki keyword ifadesi ```complex()``` için çağrılır:
 
 <br>
 
@@ -2413,7 +2413,7 @@ complex(**{'real': 3, 'imag': 5})
 
 <br>
 
--  '''positional''' ifade: bir '''keyword''' ifade olmayan bir ifade. Konum ifadeleri, ifade listesinin başında görünebilir ve / veya * ile öncelenen yinelenebilir elemanlar olarak geçirilebilir. Örneğin, 3 ve 5, aşağıdaki her iki positional ifadesi çağrılır:
+-  ```positional``` ifade: bir ```keyword``` ifade olmayan bir ifade. Konum ifadeleri, ifade listesinin başında görünebilir ve / veya * ile öncelenen yinelenebilir elemanlar olarak geçirilebilir. Örneğin, 3 ve 5, aşağıdaki her iki positional ifadesi çağrılır:
 
 <br>
 
@@ -2433,7 +2433,7 @@ Eşit işaretin anlamı, tanımda mı yoksa çağrıda mı olduğuna bağlı ola
 Bir anahtar kelime ifadesi, varsayılan bir değere sahip bir konumsal ifadedir. Varsayılan değere sahip olmayan tüm ifadeleri belirtmelisiniz. Diğer bir deyişle, anahtar kelime ifadeleri yalnızca 'isteğe bağlı' dır, çünkü özellikle sağlanmadıkları takdirde varsayılan değerlerine ayarlanırlar.
 
 <br>
-Önceki bölümdeki '''@repeat''' süslü fonksiyonunda bu şablonu kullanarak aşağıdakileri yazabilirsiniz:
+Önceki bölümdeki ```@repeat``` süslü fonksiyonunda bu şablonu kullanarak aşağıdakileri yazabilirsiniz:
 
 {% highlight python %}
 
@@ -2453,9 +2453,9 @@ def repeat(_func=None, *, num_times=2):
 
 {% endhighlight %}
 
-Bunu orijinal '''@repeat''' ile karşılaştırın. '''_func''' parametresi ve sonunda if-else eklenmiş tek değişikliklerdir.
+Bunu orijinal ```@repeat``` ile karşılaştırın. ```_func``` parametresi ve sonunda if-else eklenmiş tek değişikliklerdir.
 
-Bu örnekler, '''@repeat''''un artık ifadelerle birlikte veya bağımsız olarak kullanılabileceğini gösterir:
+Bu örnekler, ```@repeat```'un artık ifadelerle birlikte veya bağımsız olarak kullanılabileceğini gösterir:
 
 <br>
 {% highlight python %}
@@ -2553,7 +2553,7 @@ def say_whee():
 
 {% endhighlight %}
 
-Durum - fonksiyona yapılan çağrı sayısı - çevreleyici fonksiyondaki '''.num_calls''' fonksiyon özniteliğinde saklanır. İşte kullanmanın etkisi:
+Durum - fonksiyona yapılan çağrı sayısı - çevreleyici fonksiyondaki ```.num_calls``` fonksiyon özniteliğinde saklanır. İşte kullanmanın etkisi:
 
 <br>
 
@@ -2600,11 +2600,11 @@ Whee!
  
 <div id="D45" class="pop1">4.5 Süslü Fonksiyonlar gibi Sınıflar</div>
 
-Durumu sürdürmenin tipik yolu, sınıfları kullanmaktır. Bu bölümde, **bir süslü fonksiyon gibi bir sınıfı kullanarak** bir önceki bölümden '''@count_calls''' örneğinin nasıl yeniden yazılacağını göreceksiniz.
+Durumu sürdürmenin tipik yolu, sınıfları kullanmaktır. Bu bölümde, **bir süslü fonksiyon gibi bir sınıfı kullanarak** bir önceki bölümden ```@count_calls``` örneğinin nasıl yeniden yazılacağını göreceksiniz.
 
-'''func = my_decorator(func)''' demenin daha kolay bir yolu olan süslü fonksiyon sözdizimini @my_decorator hatırlayın. Bu nedenle, eğer '''my_decorator''' bir sınıfsa, onun '''.__init__ ()''' yordamında bir ifade olarak func alması gerekir. Dahası, sınıfın, süslü fonksiyonun içinde durabilmesi için, istenebilmesi gerekir.
+```func = my_decorator(func)``` demenin daha kolay bir yolu olan süslü fonksiyon sözdizimini @my_decorator hatırlayın. Bu nedenle, eğer ```my_decorator``` bir sınıfsa, onun ```.__init__ ()``` yordamında bir ifade olarak func alması gerekir. Dahası, sınıfın, süslü fonksiyonun içinde durabilmesi için, istenebilmesi gerekir.
 
-Bir sınıfın istenebilir olması için, özel '''.__call__()''' yordamını uygularsınız:
+Bir sınıfın istenebilir olması için, özel ```.__call__()``` yordamını uygularsınız:
 
 <br>
 {% highlight python %}
@@ -2619,7 +2619,7 @@ class Counter:
 
 {% endhighlight %}
 
-Bir sınıf özdeşini çağırmaya çalıştığınızda, '''__call__()''' yordamı her seferinde yürütülür:
+Bir sınıf özdeşini çağırmaya çalıştığınızda, ```__call__()``` yordamı her seferinde yürütülür:
 
 <br>
 
@@ -2652,7 +2652,7 @@ counter.count is 2
 
 {% endhighlight %}
 
-Bu nedenle, bir süslü fonksiyon sınıfının tipik bir uygulaması, '''.__init__()''' ve '''.__call__()''' uygulanması gerekir:
+Bu nedenle, bir süslü fonksiyon sınıfının tipik bir uygulaması, ```.__init__()``` ve ```.__call__()``` uygulanması gerekir:
 
 <br>
 
@@ -2684,11 +2684,11 @@ print(f"say_whee.num_calls {say_whee.num_calls}")
  
 <br>
 
-'''.__init__()''' yordamı, fonksiyona bir atfı kaydetmeli ve diğer gerekli başlatma işlemlerini yapmalıdır. Süslü fonksiyonun yerine '''.__call__()''' yordamı çağrılacak. Aslında daha önceki örneğimizde '''wrapper()''' fonksiyonuyla aynı şeyi yapar. 
-'''@functools.wraps''' yerine '''functools'''. '''update_wrapper()''' fonksiyonunu kullanmanız gerektiğini unutmayın. 
+```.__init__()``` yordamı, fonksiyona bir atfı kaydetmeli ve diğer gerekli başlatma işlemlerini yapmalıdır. Süslü fonksiyonun yerine ```.__call__()``` yordamı çağrılacak. Aslında daha önceki örneğimizde '''wrapper()''' fonksiyonuyla aynı şeyi yapar. 
+```@functools.wraps``` yerine ```functools```. ```update_wrapper()``` fonksiyonunu kullanmanız gerektiğini unutmayın. 
 
 
-'''@CountCalls''' süslü fonksiyonu önceki bölümdeki ile aynı çalışır:
+```@CountCalls``` süslü fonksiyonu önceki bölümdeki ile aynı çalışır:
 <br>
 <h2 class="python3">Python</h2>
 {% highlight python %}
@@ -2712,7 +2712,7 @@ Her türlü süslü fonksiyonu nasıl oluşturacağımızı anlayarak, şu ana k
 <div id="D51" class="pop2">5.1 Slowing Down Code</div>
 
 
-Daha önce belirtildiği gibi, daha önce de belirtildiği gibi, Önceki '''@slow_down''' uygulamamız her zaman bir saniye uyur. Artık, süslü fonksiyonlar için parametrelerin nasıl ekleneceğini biliyorsunuz. Bu nedenle, ne kadar süre uyuduğunu kontrol eden isteğe bağlı bir '''rate''' ifadesi kullanarak '''@slow_down''''u yeniden yazalım:
+Daha önce belirtildiği gibi, daha önce de belirtildiği gibi, Önceki ```@slow_down``` uygulamamız her zaman bir saniye uyur. Artık, süslü fonksiyonlar için parametrelerin nasıl ekleneceğini biliyorsunuz. Bu nedenle, ne kadar süre uyuduğunu kontrol eden isteğe bağlı bir ```rate``` ifadesi kullanarak ```@slow_down```'u yeniden yazalım:
 
 <br>
 
@@ -2748,7 +2748,7 @@ countdown(3)
 
 {% endhighlight %}
 
-'''@slow_down''''u ifadeli ve ifadesiz olarak kullanılabilir hale getirmek için, bölümünde tanıtılan katmanı kullanıyoruz. Aynı özyineli '''countdown()''' fonksiyonu, daha önce olduğu gibi her sayım arasında iki saniye uyur:
+```@slow_down```'u ifadeli ve ifadesiz olarak kullanılabilir hale getirmek için, bölümünde tanıtılan katmanı kullanıyoruz. Aynı özyineli ```countdown()``` fonksiyonu, daha önce olduğu gibi her sayım arasında iki saniye uyur:
 
 Daha önce olduğu gibi, süslü fonksiyonun etkisini görmek için örneği kendiniz uygulamanız gerekir:
 <br>
@@ -2766,7 +2766,7 @@ Liftoff!
 <br>
 <div id="D52" class="pop2">5.2 Singletons Oluşturma</div>
 
-Singleton, tek bir özdeşe sahip bir sınıftır. Python'da, '''None''', '''True''' ve '''False''' da dahil olmak üzere sıkça kullandığınız birkaç singleton vardır. Gerçekte '''None''', '''is''' anahtar sözcüğünü kullanarak None'yu karşılaştırmanıza olanak veren bir singleton'dur
+Singleton, tek bir özdeşe sahip bir sınıftır. Python'da, ```None```, ```True``` ve ```False``` da dahil olmak üzere sıkça kullandığınız birkaç ```singleton``` vardır. Gerçekte ```None```, ```is``` anahtar sözcüğünü kullanarak ```None```'yu karşılaştırmanıza olanak veren bir ```singleton```'dur
 
 <br>
 {% highlight python %}
@@ -2778,9 +2778,9 @@ else:
 
 {% endhighlight %}
 
-is, yalnızca tamamen aynı özdeş öbekler için True'yu döndürür.
+```is```, yalnızca tamamen aynı özdeş öbekler için ```True```'yu döndürür.
 
-Aşağıdaki '''@singleton''' süslü fonksiyonu, sınıfın ilk özdeşini bir öznitelik olarak saklayarak bir sınıfı bir singletona dönüştürür.
+Aşağıdaki ```@singleton``` süslü fonksiyonu, sınıfın ilk özdeşini bir öznitelik olarak saklayarak bir sınıfı bir ```singletona``` dönüştürür.
 
 
 Daha sonra saklanan özdeşi basitçe döndüren bir özdeş oluşturmaya çalışır:
@@ -2821,7 +2821,7 @@ print(f"id.another_one {id(another_one)}")
 print(f"first_one is another_one {first_one is another_one}")
 {% endhighlight %}
 
-Gördüğünüz gibi, bu sınıf donatıcı, fonksiyon donatıcılarımızla aynı şablonu takip eder. Tek fark, '''func''' yerine '''cls''' kullanmanın, bir sınıf donatıcı olması gerektiğine işaret etmek için parametre adı olarak kullanılmasıdır. 
+Gördüğünüz gibi, bu sınıf donatıcı, fonksiyon donatıcılarımızla aynı şablonu takip eder. Tek fark, ```func``` yerine ```cls``` kullanmanın, bir sınıf donatıcı olması gerektiğine işaret etmek için parametre adı olarak kullanılmasıdır. 
 
 <br>
 <h2 class="python3">Python</h2>
@@ -2845,7 +2845,7 @@ first_one'un gerçekten de bir another_one ile aynı özdeş olduğu açıkça g
 <br>
 <div id="D53" class="pop2">5.3 Dönüş Değerlerini Önbelleğe Alma</div>
 
-Süslü fonksiyonlar, önbelleğe alma ve hafızalama için güzel bir mekanizma sağlayabilir. Örnek olarak, Fibonacci dizisinin yinelemeli bir tanımına bakalım:
+Süslü fonksiyonlar, önbelleğe alma ve hafızalama için güzel bir mekanizma sağlayabilir. Örnek olarak, ```Fibonacci``` dizisinin yinelemeli bir tanımına bakalım:
 
 <br>
 {% highlight python  linenos=table %}
@@ -2886,7 +2886,7 @@ Out[4]: 177
 
 {% endhighlight %}
 
-Onuncu Fibonacci sayısını hesaplamak için, gerçekten sadece önceki Fibonacci sayılarını hesaplamanız gerekir, ancak bu uygulama bir şekilde 177 hesaplamaya ihtiyaç duyar. Daha da kötüye gidiyor: Fibonacci (20) için 22068 hesaplaması ve 30'uncu sayı için yaklaşık 2.7 milyon hesap. Bunun nedeni, kodun zaten bilinen Fibonacci sayılarını yeniden hesaplamasıdır.
+Onuncu Fibonacci sayısını hesaplamak için, gerçekten sadece önceki Fibonacci sayılarını hesaplamanız gerekir, ancak bu uygulama bir şekilde 177 hesaplamaya ihtiyaç duyar. Daha da kötüye gidiyor: ```Fibonacci(20)``` için 22068 hesaplaması ve 30'uncu sayı için yaklaşık 2.7 milyon hesap. Bunun nedeni, kodun zaten bilinen Fibonacci sayılarını yeniden hesaplamasıdır.
 
 Genel çözüm, bir for döngü ve bir arama tablosu kullanarak Fibonacci sayılarını uygulamaktır. Hesapların basit bir şekilde önbelleğe alınması da iş görecek:
 
@@ -2928,7 +2928,7 @@ def fibonacci(num):
 
 {% endhighlight %}
 
-Önbellek bir arama tablosu olarak çalışır, bu yüzden şimdi '''fibonacci()''' sadece gerekli hesaplamaları bir kez yapar:
+Önbellek bir arama tablosu olarak çalışır, bu yüzden şimdi ```fibonacci()``` sadece gerekli hesaplamaları bir kez yapar:
 
 <br>
 <h2 class="python3">Python</h2>
@@ -2959,11 +2959,11 @@ Out[16]: 21
 
 {% endhighlight %}
 
-Son çağrıda fibonacci(8), sekizinci Fibonacci numarası zaten fibonacci(10) için hesaplanmış olduğundan, yeni hesaplamalara gerek yoktu.
+Son çağrıda fibonacci(8), sekizinci Fibonacci numarası zaten ```fibonacci(10)``` için hesaplanmış olduğundan, yeni hesaplamalara gerek yoktu.
 
-Standart kitaplıkta, en az kullanılan (LRU) cache, '''@functools.lru_cache''' olarak kullanılabilir.
+Standart kitaplıkta, en az kullanılan (LRU) cache, ```@functools.lru_cache``` olarak kullanılabilir.
 
-Bu süslü fonksiyon, yukarıda gördüğünüzden daha fazla özelliğe sahiptir. Kendi önbellek süslü fonksiyonunuzu yazmak yerine '''@functools.lru_cache''' kullanmalısınız:
+Bu süslü fonksiyon, yukarıda gördüğünüzden daha fazla özelliğe sahiptir. Kendi önbellek süslü fonksiyonunuzu yazmak yerine ```@functools.lru_cache``` kullanmalısınız:
 
 <br>
 {% highlight python linenos=table %}
@@ -2992,9 +2992,9 @@ def fibonacci(num):
 
 {% endhighlight %}
 
-'''maxsize''' parametresi, son aramaların kaç kere önbelleğe alındığını belirtir. Varsayılan değer 128'dir, ancak tüm fonksiyon çağrılarını önbelleğe almak için '''maxsize = None''' değerini belirleyebilirsiniz. Ancak, birçok büyük nesneyi önbelleğe aldığınızda bunun bellek sorunlarına neden olabileceğini unutmayın.
+```maxsize``` parametresi, son aramaların kaç kere önbelleğe alındığını belirtir. Varsayılan değer 128'dir, ancak tüm fonksiyon çağrılarını önbelleğe almak için ```maxsize = None``` değerini belirleyebilirsiniz. Ancak, birçok büyük nesneyi önbelleğe aldığınızda bunun bellek sorunlarına neden olabileceğini unutmayın.
 
-Önbelleğin nasıl çalıştığını görmek için '''.cache_info()''' yöntemini kullanabilir ve gerekirse bunları ayarlayabilirsiniz. Örneğimizde, önbellekten kaldırılan öğelerin etkisini görmek için yapay olarak küçük bir boyut belirledik:
+Önbelleğin nasıl çalıştığını görmek için ```.cache_info()``` yöntemini kullanabilir ve gerekirse bunları ayarlayabilirsiniz. Örneğimizde, önbellekten kaldırılan öğelerin etkisini görmek için yapay olarak küçük bir boyut belirledik:
 
 <br>
 <h2 class="python3">Python</h2>
@@ -3071,7 +3071,7 @@ def volume(radius, height):
 
 {% endhighlight %}
 
-Bu '''.unit''' fonksiyon özniteliğine daha sonra gerektiğinde erişilebilir:
+Bu ```.unit``` fonksiyon özniteliğine daha sonra gerektiğinde erişilebilir:
 <br>
 {% highlight python linenos=table %}
 
@@ -3114,9 +3114,9 @@ def volume(radius, height) -> "cm^3":
 
 Ancak, ek açıklamalar, tip ipuçları için kullanıldığı için statik tip kontrolü ile ek açıklama gibi birimleri birleştirmek zor olurdu
 
-Birimler, birimler arasında dönüşebilen bir kütüphaneye bağlandığında daha da güçlü ve eğlenceli hale gelir. Böyle bir kütüphane de '''pint'''. '''pint''' yüklü olduğunda '''(pip install pint)''', örneğin hacmi; kübik inç veya galona dönüştürebilirsiniz:
+Birimler, birimler arasında dönüşebilen bir kütüphaneye bağlandığında daha da güçlü ve eğlenceli hale gelir. Böyle bir kütüphane de ```pint```. ```pint``` yüklü olduğunda ```(pip install pint)```, örneğin hacmi; kübik inç veya galona dönüştürebilirsiniz:
 
-Doğrudan bir '''pint''' Niceliği döndürmek için süslü fonksiyonu de değiştirebilirsiniz. Böyle bir Nicelik, bir değeri birim ile çarparak yapılır. '''pint''' de, birimler bir UnitRegistry'e bakılmalıdır. Kayıt defteri, ad alanının karışıklığını önlemek için bir fonksiyon özniteliği olarak saklanır:
+Doğrudan bir ```pint``` Niceliği döndürmek için süslü fonksiyonu de değiştirebilirsiniz. Böyle bir Nicelik, bir değeri birim ile çarparak yapılır. ```pint``` de, birimler bir ```UnitRegistry```'e bakılmalıdır. Kayıt defteri, ad alanının karışıklığını önlemek için bir fonksiyon özniteliği olarak saklanır:
 
 <br>
 {% highlight python %}
@@ -3139,7 +3139,7 @@ def average_speed(distance, duration):
 
 {% endhighlight %}
 
-'''@use_unit''' süslü fonksiyonuyla, dönüştürme birimleri pratik olarak zahmetsizdir:
+```@use_unit``` süslü fonksiyonuyla, dönüştürme birimleri pratik olarak zahmetsizdir:
 
 
 
