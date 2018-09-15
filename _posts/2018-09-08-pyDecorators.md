@@ -2867,9 +2867,7 @@ def fibonacci(num):
     if num < 2:
         return num
     return fibonacci(num - 1) + fibonacci(num - 2)
-
-fibonacci(10)
-fibonacci.num_calls
+ 
 
 {% endhighlight %}
 
@@ -2878,9 +2876,11 @@ Uygulama basitken, çalışma zamanı performansı korkunç:
 <br>
 <h2 class="python3">Python</h2>
 {% highlight python %}
+In [1]: fibonacci(10)
+Out[3]: 55
 
-55
-177
+In [4]: fibonacci.num_calls
+Out[4]: 177
 
 {% endhighlight %}
 
