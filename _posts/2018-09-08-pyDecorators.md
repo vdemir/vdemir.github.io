@@ -3120,6 +3120,7 @@ Doğrudan bir '''pint''' Niceliği döndürmek için süslü fonksiyonu de deği
 
 <br>
 {% highlight python %}
+import pint
 
 def use_unit(unit):
     """Have a function return a Quantity with given unit"""
