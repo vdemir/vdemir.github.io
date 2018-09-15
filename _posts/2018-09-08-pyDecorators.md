@@ -2924,8 +2924,7 @@ def fibonacci(num):
         return num
     return fibonacci(num - 1) + fibonacci(num - 2)
 
-fibonacci(10)
-fibonacci.num_calls
+fibonacci(10) 
 
 {% endhighlight %}
 
@@ -2935,10 +2934,22 @@ fibonacci.num_calls
 <h2 class="python3">Python</h2>
 {% highlight python %}
 
+In [1]: fibonacci(10)
 Call 1 of 'fibonacci'
-...
+Call 2 of 'fibonacci'
+Call 3 of 'fibonacci'
+Call 4 of 'fibonacci'
+Call 5 of 'fibonacci'
+Call 6 of 'fibonacci'
+Call 7 of 'fibonacci'
+Call 8 of 'fibonacci'
+Call 9 of 'fibonacci'
+Call 10 of 'fibonacci'
 Call 11 of 'fibonacci'
-55
+Out[1]: 55
+
+In [2]: fibonacci(8)
+Out[2]: 21
 
 {% endhighlight %}
 
