@@ -29,31 +29,31 @@ lang: tr
     font-family: 'Life Savers', serif;
     font-size: 1.7vw;
     font-feature-settings: "liga" on;
-    color: orange;
+    color: #131418;
   }
  p {
     font-family: 'Life Savers', serif;
     font-size: 1.7vw;
     font-feature-settings: "liga" on;
-    color: orange;
+    color: #131418;
   }
  ul {
     font-family: 'Life Savers', serif;
     font-size: 1.7vw;
     font-feature-settings: "liga" on;
-    color: orange;
+    color: #131418;
   }
  li {
     font-family: 'Life Savers', serif;
     font-size: 1.7vw;
     font-feature-settings: "liga" on;
-    color: orange;
+    color: #131418;
   }
  h1 {
     font-family: 'Life Savers', serif;
     font-size: 1.7vw;
     font-feature-settings: "liga" on;
-    color: orange;
+    color: #131418;
   }
 </style>
 <span class="off">fi</span>
