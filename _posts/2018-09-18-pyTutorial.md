@@ -95,28 +95,28 @@ img.resize {
 	}
 	.pop {
                 font-family: 'Life Savers', serif;
-                font-feature-settings: "liga" off;
+                font-feature-settings: "liga" on;
 		font-size: 4vw;
 		text-decoration: overline;
 		text-decoration-color: orange;
 	}
 	.pop0 {
                 font-family: 'Life Savers', serif;
-                font-feature-settings: "liga" off;
+                font-feature-settings: "liga" on;
 		font-size: 3vw;
 		text-decoration: overline;
 		text-decoration-color: orange;
 	}
 	.pop1 {
                 font-family: 'Life Savers', serif;
-                font-feature-settings: "liga" off;
+                font-feature-settings: "liga" on;
 		font-size: 2vw;
 		text-decoration: overline;
 		text-decoration-color: orange;
 	}
 	.pop2 {
                 font-family: 'Life Savers', serif;
-                font-feature-settings: "liga" off;
+                font-feature-settings: "liga" on;
 		font-size: 1.75vw;
 		text-decoration: overline;
 		text-decoration-color: orange;
@@ -125,7 +125,7 @@ img.resize {
 
        .python3 {
                 font-family: 'Life Savers', serif;
-                font-feature-settings: "liga" off;
+                font-feature-settings: "liga" on;
     		background-color: #E3F2FD;
     		color:#01579B;
     		border-color:#1abc9c;
