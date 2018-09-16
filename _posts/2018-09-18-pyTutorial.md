@@ -23,55 +23,55 @@ lang: tr
     font-family: 'Life Savers', serif;
     font-size: 1.8vw;
     font-feature-settings: "liga" off;
-    color: #2c3e50;
+    color: #3d3d3d;
   }
  .on {
     font-family: 'Life Savers', serif;
     font-size: 1.8vw;
     font-feature-settings: "liga" on;
-    color: #131418;
+    color: #3d3d3d;
   }
  p {
     font-family: 'Life Savers', serif;
     font-size: 1.8vw;
     font-feature-settings: "liga" on;
-    color: #131418;
+    color: #3d3d3d;
   }
  ul {
     font-family: 'Life Savers', serif;
     font-size: 1.8vw;
     font-feature-settings: "liga" on;
-    color: #131418;
+    color: #3d3d3d;
   }
  li {
     font-family: 'Life Savers', serif;
     font-size: 1.8vw;
     font-feature-settings: "liga" on;
-    color: #131418;
+    color: #3d3d3d;
   }
  h1 {
     font-family: 'Life Savers', serif;
     font-size: 1.8vw;
     font-feature-settings: "liga" on;
-    color: #131418;
+    color: #3d3d3d;
   }
  h4 {
     font-family: 'Life Savers', serif;
     font-size: 1.8vw;
     font-feature-settings: "liga" on;
-    color: #131418;
+    color: #3d3d3d;
   }
  h2 {
     font-family: 'Life Savers', serif;
     font-size: 1.8vw;
     font-feature-settings: "liga" on;
-    color: #131418;
+    color: #3d3d3d;
   }
  h3 {
     font-family: 'Life Savers', serif;
     font-size: 1.8vw;
     font-feature-settings: "liga" on;
-    color: #131418;
+    color: #3d3d3d;
   }
 </style>
 <span class="off">fi</span>
