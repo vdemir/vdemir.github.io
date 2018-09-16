@@ -94,10 +94,11 @@ img.resize {
 		border-style: solid;
 	}
 	.pop {
+                font-family: 'Life Savers', serif;
+                font-feature-settings: "liga" off;
 		font-size: 4vw;
 		text-decoration: overline;
 		text-decoration-color: orange;
-                font-feature-settings: "liga" on;
 	}
 	.pop0 {
 		font-size: 3vw;
