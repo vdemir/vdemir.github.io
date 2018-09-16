@@ -28,7 +28,7 @@ lang: tr
  .on {
     font-family: 'Life Savers', serif;
     font-size: 1.5vw;
-    font-feature-settings: "swsh" 2; 
+    font-feature-settings: "liga" on;
     color: #3d3d3d;
   }
  strong {
@@ -65,7 +65,7 @@ lang: tr
 <span class="off">fi</span>
 <span class="on">fi</span>
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/python/Python-Decorators.png" alt="Decorators" class="resize" />
+  <img src="{{ site.baseurl }}/images/python/Peephole_Long_Short-Term_Memory.svg" alt="Decorators" class="resize" />
   <p><small>Python &bull; Decorators.</small></p>
 </div> 
   
