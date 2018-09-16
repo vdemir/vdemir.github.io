@@ -19,15 +19,15 @@ lang: tr
  
 <link href="//fonts.googleapis.com/css?family=Life+Savers" rel="stylesheet">
 <style>
-  body {
+ .off {
     font-family: 'Life Savers', serif;
     font-size: 1.7vw;
-    } 
- .off {
     font-feature-settings: "liga" off;
     color: gray;
   }
  .on {
+    font-family: 'Life Savers', serif;
+    font-size: 1.7vw;
     font-feature-settings: "liga" on;
     color: orange;
   }
