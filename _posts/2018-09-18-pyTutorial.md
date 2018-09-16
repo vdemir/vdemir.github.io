@@ -97,6 +97,7 @@ img.resize {
 		font-size: 4vw;
 		text-decoration: overline;
 		text-decoration-color: orange;
+                font-feature-settings: "liga" on;
 	}
 	.pop0 {
 		font-size: 3vw;
