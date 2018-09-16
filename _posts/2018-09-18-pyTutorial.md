@@ -62,8 +62,6 @@ lang: tr
     color: #3d3d3d;
   }
 </style>
-<span class="off">fi</span>
-<span class="on">fi</span>
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/python/Peephole_Long_Short-Term_Memory.svg" alt="Decorators" class="resize" />
   <p><small>Short-Term Memory &bull; Long .</small></p>
