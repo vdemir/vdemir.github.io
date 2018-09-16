@@ -21,7 +21,7 @@ lang: tr
 <style>
   body {
     font-family: 'Life Savers', serif;
-    font-size: 1.31vw;
+    font-size: 1.5vw;
     } 
  .off {
     font-feature-settings: "liga" off;
