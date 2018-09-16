@@ -31,24 +31,6 @@ lang: tr
     font-feature-settings: "liga" on;
     color: #3d3d3d;
   }
- p {
-    font-family: 'Life Savers', serif;
-    font-size: 1.5vw;
-    font-feature-settings: "liga" on;
-    color: #3d3d3d;
-  }
- ul {
-    font-family: 'Life Savers', serif;
-    font-size: 1.5vw;
-    font-feature-settings: "liga" on;
-    color: #3d3d3d;
-  }
- li {
-    font-family: 'Life Savers', serif;
-    font-size: 1.5vw;
-    font-feature-settings: "liga" on;
-    color: #3d3d3d;
-  }
  h1 {
     font-family: 'Life Savers', serif;
     font-size: 1.5vw;
