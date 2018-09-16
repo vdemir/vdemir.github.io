@@ -28,7 +28,7 @@ lang: tr
  .on {
     font-family: 'Life Savers', serif;
     font-size: 1.5vw;
-    font-feature-settings: "liga" on;
+    font-feature-settings: "swsh" 2; 
     color: #3d3d3d;
   }
  strong {
