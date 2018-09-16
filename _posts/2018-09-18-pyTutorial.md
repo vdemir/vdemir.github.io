@@ -55,6 +55,24 @@ lang: tr
     font-feature-settings: "liga" on;
     color: #131418;
   }
+ h4 {
+    font-family: 'Life Savers', serif;
+    font-size: 1.7vw;
+    font-feature-settings: "liga" on;
+    color: #131418;
+  }
+ h2 {
+    font-family: 'Life Savers', serif;
+    font-size: 1.7vw;
+    font-feature-settings: "liga" on;
+    color: #131418;
+  }
+ h3 {
+    font-family: 'Life Savers', serif;
+    font-size: 1.7vw;
+    font-feature-settings: "liga" on;
+    color: #131418;
+  }
 </style>
 <span class="off">fi</span>
 <span class="on">fi</span>
