@@ -23,7 +23,7 @@ lang: tr
     font-family: 'Life Savers', serif;
     font-size: 1.7vw;
     font-feature-settings: "liga" off;
-    color: gray;
+    color: #2c3e50;
   }
  .on {
     font-family: 'Life Savers', serif;
