@@ -21,55 +21,55 @@ lang: tr
 <style>
  .off {
     font-family: 'Life Savers', serif;
-    font-size: 1.7vw;
+    font-size: 1.8vw;
     font-feature-settings: "liga" off;
     color: #2c3e50;
   }
  .on {
     font-family: 'Life Savers', serif;
-    font-size: 1.7vw;
+    font-size: 1.8vw;
     font-feature-settings: "liga" on;
     color: #131418;
   }
  p {
     font-family: 'Life Savers', serif;
-    font-size: 1.7vw;
+    font-size: 1.8vw;
     font-feature-settings: "liga" on;
     color: #131418;
   }
  ul {
     font-family: 'Life Savers', serif;
-    font-size: 1.7vw;
+    font-size: 1.8vw;
     font-feature-settings: "liga" on;
     color: #131418;
   }
  li {
     font-family: 'Life Savers', serif;
-    font-size: 1.7vw;
+    font-size: 1.8vw;
     font-feature-settings: "liga" on;
     color: #131418;
   }
  h1 {
     font-family: 'Life Savers', serif;
-    font-size: 1.7vw;
+    font-size: 1.8vw;
     font-feature-settings: "liga" on;
     color: #131418;
   }
  h4 {
     font-family: 'Life Savers', serif;
-    font-size: 1.7vw;
+    font-size: 1.8vw;
     font-feature-settings: "liga" on;
     color: #131418;
   }
  h2 {
     font-family: 'Life Savers', serif;
-    font-size: 1.7vw;
+    font-size: 1.8vw;
     font-feature-settings: "liga" on;
     color: #131418;
   }
  h3 {
     font-family: 'Life Savers', serif;
-    font-size: 1.7vw;
+    font-size: 1.8vw;
     font-feature-settings: "liga" on;
     color: #131418;
   }
