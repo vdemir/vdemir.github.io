@@ -195,7 +195,7 @@ Bu ardışıl işlenenler kullanışlıdır, çünkü onları istediğiniz kadar
 
 # Generators
 
-
+Generators ardışıl işlemlerdir, **ancak bunları yalnızca bir kez tekrarlayabilirsiniz**. Tüm değerleri bellekte saklamamaları nedeniyle, **değerleri anında oluştururlar**:
 
 Jeneratörlerin uygulanması çok kolaydır, ancak anlaması biraz zor. 
 
