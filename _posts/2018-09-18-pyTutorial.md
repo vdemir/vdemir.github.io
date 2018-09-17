@@ -280,6 +280,12 @@ def node._get_child_candidates(self, distance, min_dist, max_dist):
 döndürecek düğüm öbeğinin yordamını oluşturun:
 
    # Burada generator öbeğini her kullandığınızda çağrılacak kod aşağıdadır:
+     
+     # Hala solda düğüm öbeğinin bir veledi varsa
+     # VE eğer mesafe tamamsa, bir sonraki veledi döndürür
+     # if self._leftchild and distance - max_dist < self._median:
+                yield self._leftchild
+
 
 {% endhighlight %}
 
