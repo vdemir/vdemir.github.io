@@ -332,6 +332,22 @@ Kodunuz açıklandı:
 
 {% endhighlight %}
 <br>
+Bu kod birkaç akıllı parça içerir:
+
+-  Döngü bir listede yinelenir, ancak döngü yinelenirken liste genişler. Sonsuz bir döngü ile sonuçlanabildiğiniz için biraz tehlikeli olsa bile, tüm bu iç içe geçmiş verilerin üzerinden gitmenin kısa bir yoludur. Bu durumda, **candidates.extend(node._get_child_candidates(distance, min_dist, max_dist))** jeneratörün tüm değerlerini tüketir, ancak aynı düğümde uygulanmadığı için öncekilerden farklı değerler üretecek yeni jeneratör nesneleri oluşturmaya devam eder.
+
+-  extend() yordamı, yinelenebilir olmasını bekleyen ve değerlerini listeye ekleyen bir liste öbeği yordamıdır.
+
+
+
+
+
+
+
+
+
+
+
 
 generator uygulanması çok kolaydır, ancak anlaması biraz zor. 
 
