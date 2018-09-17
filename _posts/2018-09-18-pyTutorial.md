@@ -550,7 +550,7 @@ word_lengths: [5, 5, 3, 5, 4, 4, 3]
 <br>
 Liste içlemini kullanarak, bu işlemi bu notasyona göre basitleştirebiliriz:
 <br>
-{% highlight python linenos=table %}
+{% highlight python %}
 sentence = "the quick brown fox jumps over the lazy dog"
 words = sentence.split()
 word_lengths = [len(word) for word in words if word != "the"]
