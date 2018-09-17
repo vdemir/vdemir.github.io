@@ -615,7 +615,7 @@ And all the rest... [4, 5]
 {% endhighlight %}
 <br>
 
-
+Ayrıca, aşağıdaki içlemleri kullanarak içlemlerin sırasının önemi olmayacak şekilde fonksiyon içlemlerini anahtar kelimeye göre de göndermek mümkündür. Aşağıdaki kod aşağıdaki çıktıyı verir:
 
 
 
