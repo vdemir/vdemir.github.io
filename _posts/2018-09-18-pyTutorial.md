@@ -216,7 +216,7 @@ for i in mygenerator:
 
 <br>
 
-
+[] Yerine () kullanmanız dışında tamamen aynıdır.
 
 
 
