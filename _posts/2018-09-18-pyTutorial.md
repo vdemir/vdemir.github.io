@@ -405,7 +405,7 @@ StopIteration
 
 {% endhighlight %}
 <br>
-
+Bir kaynağa erişimi kontrol etmek gibi çeşitli şeyler için yararlı olabilir.
 
 
 
