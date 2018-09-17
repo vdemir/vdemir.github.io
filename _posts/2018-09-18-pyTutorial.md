@@ -43,7 +43,7 @@ img.resize {
                 font-family: 'Life Savers', serif;
                 font-feature-settings: "liga" on;
 		font-size: 3vw;
-		text-decoration: overline;
+		text-decoration: underline;
 		text-decoration-color: orange;
 	}
 	.pop1 {
