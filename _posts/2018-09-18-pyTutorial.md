@@ -219,12 +219,12 @@ for i in mygenerator:
 
 <br>
 
-[] Yerine () kullanmanız dışında tamamen aynıdır. AMA, jeneratörler sadece bir kez kullanabileceğinden **for i in mygenerator**'yı ikinci kez gerçekleştiremezsiniz : 0'ı hesaplar, sonra unutur ve 1'i hesaplar ve 4'ü hesaplayarak sonlanır, teker teker.
+[] Yerine () kullanmanız dışında tamamen aynıdır. AMA, generator sadece bir kez kullanabileceğinden **for i in mygenerator**'yı ikinci kez gerçekleştiremezsiniz : 0'ı hesaplar, sonra unutur ve 1'i hesaplar ve 4'ü hesaplayarak sonlanır, teker teker.
 
 <br>
 ## Yield
 
-Fonksiyonun bir generator döndürmesi dışında, Yield, **return** gibi kullanılan bir anahtar kelimedir. 
+Fonksiyonun bir generator döndürmesi dışında, **yield**, **return** gibi kullanılan bir anahtar kelimedir. 
 
 {% highlight python linenos=table %}
    
@@ -264,7 +264,7 @@ Daha sonra kodunuzun çalıştırıldığı her seferinde **for** generator u ku
 
 **for** ilk kez, fonksiyonunuzdan oluşturulan generator öbeğini çağırır, başlangıçtan **yield**'ya ulaşana kadar, işlevinizdeki kodu çalıştıracaktır, daha sonra çevrimin ilk değerini döndürür. Ardından, her bir çağrı, fonksiyonda yazdığınız çevrimi bir kez daha çalıştıracak ve geri dönüş değeri olmayana kadar bir sonraki değeri döndürecektir.
 
-Fonksiyon çalıştığında generator boş olarak kabul edilir, ancak artık yield hedefe ulaşmaz. Döngü sonunda sona ermiş  ya da artık “**if / else**” yerine getirmediğiniz için olabilir.
+Fonksiyon çalıştığında generator boş olarak kabul edilir, ancak artık **yield** hedefe ulaşmaz. Döngü sonunda sona ermiş  ya da artık “**if / else**” yerine getirmediğiniz için olabilir.
  
 Kodunuz açıklandı:
 
@@ -279,7 +279,7 @@ Kodunuz açıklandı:
  def node._get_child_candidates(self, distance, min_dist, max_dist):
 
 
-   # Burada generator öbeğini her kullandığınızda çağrılacak kod aşağıdadır:
+   # generator öbeğini her kullandığınızda çağrılacak kod aşağıdadır:
      
      # Hala solda düğüm öbeğinin bir veledi varsa
      # VE eğer mesafe tamamsa, bir sonraki veledi döndürür
