@@ -381,18 +381,13 @@ print(next(corner_street_atm))
 print([next(corner_street_atm) for cash in range(5)])
 ['$100', '$100', '$100', '$100', '$100']
 
-
 hsbc.crisis = False # trouble is, even post-crisis the ATM remains empty
-
 print(next(corner_street_atm))
 
-
 hsbc.crisis = True # crisis is coming, no more money!
-
 print(next(corner_street_atm))
 
 wall_street_atm = hsbc.create_atm() # it's even true for new ATMs
-
 print(next(corner_street_atm))
 {% endhighlight %}
 <br>
