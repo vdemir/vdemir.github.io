@@ -149,7 +149,7 @@ Jeneratörlerin uygulanması çok kolaydır, ancak anlaması biraz zor.
 
 Jeneratörler, ardışıl işlem oluşturmak için kullanılır, ancak farklı bir yaklaşımla. Jeneratörler, her seferinde özel olarak ardışık öğeler grubunu döndüren basit işlevlerdir. 
 
-Bir öğe kümesi üzerinde ardışıl işlem, for deyimini kullanmaya başladığında, jeneratör çalıştırılır. Jeneratörün işlev kodu bir 'verim' ifadesine ulaştığında, jeneratör, çalışmayı for döngüye geri göndererek, setten yeni bir değer döndürür. Jeneratör fonksiyonu, istediği kadar çok değer(muhtemelen sonsuz) üreterek, her birinin sırayla üretilmesini sağlayabilir.
+Bir öğe kümesi üzerinde ardışıl işlem, for deyimini kullanmaya başladığında, jeneratör çalıştırılır. Jeneratörün işlev kodu bir 'yield' deyimine ulaştığında, jeneratör, çalışmayı for döngüye geri göndererek, setten yeni bir değer döndürür. Jeneratör fonksiyonu, istediği kadar çok değer(muhtemelen sonsuz) üreterek, her birinin sırayla üretilmesini sağlayabilir.
 
 İşte, 7 rastgele tamsayı döndüren bir jeneratör fonksiyonunun basit bir örneğidir:
 
@@ -166,7 +166,7 @@ def lottery():
     yield random.randint(1,15)
 
 for random_number in lottery():
-       print("And the next number is... %d!" %(random_number))
+       print("And the next number is... %d" %(random_number))
 
 {% endhighlight %}
 
