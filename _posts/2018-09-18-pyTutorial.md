@@ -615,7 +615,7 @@ And all the rest... [4, 5]
 {% endhighlight %}
 <br>
 
-Ayrıca, aşağıdaki içlemleri kullanarak içlemlerin sırasının önemi olmayacak şekilde fonksiyon içlemlerini anahtar kelimeye göre de göndermek mümkündür. Aşağıdaki kod aşağıdaki çıktıyı verir:
+Ayrıca, aşağıdaki yazımları kullanarak içlemlerin sırasının önemi olmayacak şekilde fonksiyon içlemlerini anahtar kelimeye göre de göndermek mümkündür. Aşağıdaki kod aşağıdaki çıktıyı verir:
 
 <br>
 {% highlight python linenos=table %}
@@ -641,7 +641,7 @@ Result: 1
 {% endhighlight %}
 <br>
 
-
+'bar' fonksiyonu 3 içlem  alır. Ek bir 'action' içlemi alınırsa ve sayıların toplanması talimatını verirse, toplamı yazdırılır. Alternatif olarak, fonksiyon, aynı zamanda, 'number' parametresinin değerinin, fonksiyona iletilmesi halinde 'first' e eşit olması durumunda, ilk içlem değişkeni döndürmesi gerektiğini de bilir.
 
 
 
