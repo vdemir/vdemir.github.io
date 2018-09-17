@@ -558,7 +558,6 @@ print(words)
 {% endhighlight %}
 <br>
 
-
 ### Talim
 
 Liste içlemini kullanarak, tam sayı olarak listeden yalnızca pozitif sayıları içeren **numbers** listesinden **newlist** adlı yeni bir liste oluşturun.
@@ -643,11 +642,9 @@ Result: 1
 
 **bar** fonksiyonu 3 içlem  alır. Ek bir **action** içlemi alınırsa ve sayıların toplanması talimatını verirse, toplamı yazdırılır. Alternatif olarak, fonksiyon, aynı zamanda, **number** parametresinin değerinin, fonksiyona iletilmesi halinde **first** e eşit olması durumunda, ilk içlem değerini döndürmesi gerektiğini de bilir.
 
+### Talim
 
-
-
-
-
+**foo** ve **bar** fonksiyonlarını doldurun, böylece değişken miktarda içlemi alabilirler (3 veya daha fazla). **foo** fonksiyonu, alınan ekstra içlem değerlerinin miktarını döndürmelidir. **bar** fonksiyonu, **magicnumber** anahtar kelimesi ile içlem 7 değerindeyse **True** ve aksi takdirde **False** değerini döndürmelidir. 
 
 
 
