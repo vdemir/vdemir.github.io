@@ -316,7 +316,6 @@ Kodunuz açıklandı:
      # Son candidate al ve listeden çıkar
      node = candidates.pop()
 
-
      # obj ile candidate arasındaki mesafeyi al
      distance = node._get_dist(obj)
 
@@ -324,6 +323,12 @@ Kodunuz açıklandı:
      if distance <= max_dist and distance >= min_dist:
         result.extend(node._values)
 
+     # candidate listesinde candidate children ekle
+     # böylece döngü görünene kadar çalışmaya devam edecek
+     # at all the children of the children of the children, etc. of the candidate
+     candidates.extend(node._get_child_candidates(distance, min_dist, max_dist))
+ 
+ return result
 
 {% endhighlight %}
 <br>
