@@ -146,9 +146,9 @@ img.resize {
 
 ## Iterables
 <br>
-Bu bir Python "yield" anahtar kelimesi ile ilgilidir. "yield", "generator" ve "iterable" ne olduğunu açıklar.
+Bu bir Python **yield** anahtar kelimesi ile ilgilidir. **yield**, **generator** ve **iterable** ne olduğunu açıklar.
 
-"yield" ne anlama geldiğini anlamak için, "generator" nedir anlamalısınız. Ve "generator" den iterable gelir.
+**yield** ne anlama geldiğini anlamak için, **generator** nedir anlamalısınız. Ve **generator** den iterable gelir.
 
 <br>
 
@@ -193,7 +193,7 @@ for i in mylist:
 
 <br>
 
- “for… in…” için kullanabileceğiniz her şey ardışıl işlemdir: lists, strings, files…
+ **for… in…** için kullanabileceğiniz her şey ardışıl işlemdir: **lists, strings, files…**
 Bu ardışıl işlenenler kullanışlıdır, çünkü onları istediğiniz kadar okuyabilirsiniz, ancak tüm değerleri hafızaya kaydedersiniz ve çok fazla değeriniz olduğunda istediğiniz her zaman olmaz.
 
 <br>
@@ -219,7 +219,7 @@ for i in mygenerator:
 
 <br>
 
-[] Yerine () kullanmanız dışında tamamen aynıdır. AMA, generator sadece bir kez kullanabileceğinden **for i in mygenerator**'yı ikinci kez gerçekleştiremezsiniz : 0'ı hesaplar, sonra unutur ve 1'i hesaplar ve 4'ü hesaplayarak sonlanır, teker teker.
+**[]** yerine **()** kullanmanız dışında tamamen aynıdır. AMA, generator sadece bir kez kullanabileceğinden **for i in mygenerator**'yı ikinci kez gerçekleştiremezsiniz : 0'ı hesaplar, sonra unutur ve 1'i hesaplar ve 4'ü hesaplayarak sonlanır, teker teker.
 
 <br>
 ## Yield
@@ -334,7 +334,7 @@ Kodunuz açıklandı:
 <br>
 Bu kod birkaç akıllı parça içerir:
 
--  Döngü bir listede yinelenir, ancak döngü yinelenirken liste genişler. Sonsuz bir döngü ile sonuçlanabildiğiniz için biraz tehlikeli olsa bile, tüm bu iç içe geçmiş verilerin üzerinden gitmenin kısa bir yoludur. Bu durumda, **candidates.extend(node._get_child_candidates(distance, min_dist, max_dist))** jeneratörün tüm değerlerini tüketir, ancak aynı düğümde uygulanmadığı için öncekilerden farklı değerler üretecek yeni jeneratör nesneleri oluşturmaya devam eder.
+-  Döngü bir listede yinelenir, ancak döngü yinelenirken liste genişler. Sonsuz bir döngü ile sonuçlanabildiğiniz için biraz tehlikeli olsa bile, tüm bu iç içe geçmiş verilerin üzerinden gitmenin kısa bir yoludur. Bu durumda, **candidates.extend(node._get_child_candidates(distance, min_dist, max_dist))** jeneratörün tüm değerlerini tüketir, ancak aynı düğümde uygulanmadığı için öncekilerden farklı değerler üretecek yeni genarator nesneleri oluşturmaya devam eder.
 
 -  extend() yordamı, yinelenebilir olmasını bekleyen ve değerlerini listeye ekleyen bir liste öbeği yordamıdır.
 
@@ -357,14 +357,14 @@ print(a)
 
 {% endhighlight %}
 <br>
-Fakat kodunuzda bir jeneratör var, bu da iyi çünkü:
+Fakat kodunuzda bir generator var, bu da iyi çünkü:
 
 1. Değerleri iki kere okumak zorunda değilsiniz. 
 2. Çok fazla çocuğunuz olabilir ve bunların hepsinin hafızada saklanmasını istemezsiniz. 
 
 Ve çalışır çünkü bir yöntemin argümanı bir liste olup olmadığını Python umursamaz. Python iterables bekler böylece dizeleri, listeler, tuples ve jeneratörler ile çalışacak! Bu, ördek tiplemesi olarak adlandırılır ve Python'un neden bu kadar havalı olmasının nedenlerinden biridir. Ama bu başka bir hikaye, başka bir soru için… 
 
-Burada durabilir veya gelişmiş bir jeneratör kullanımını görmek için biraz okuyabilirsiniz:
+Burada durabilir veya gelişmiş bir generator kullanımını görmek için biraz okuyabilirsiniz:
 
 <br>
 {% highlight python linenos=table %} 
@@ -414,9 +414,9 @@ generator uygulanması çok kolaydır, ancak anlaması biraz zor.
 
 Jeneratörler, ardışıl işlem oluşturmak için kullanılır, ancak farklı bir yaklaşımla. Jeneratörler, her seferinde özel olarak ardışık öğeler grubunu döndüren basit işlevlerdir. 
 
-Bir öğe kümesi üzerinde ardışıl işlem, for deyimini kullanmaya başladığında, jeneratör çalıştırılır. Jeneratörün fonksiyon kodu bir 'yield' deyimine ulaştığında, jeneratör, çalışmayı for döngüye geri göndererek, setten yeni bir değer döndürür. Jeneratör fonksiyonu, istediği kadar çok değer(muhtemelen sonsuz) üreterek, her birinin sırayla üretilmesini sağlayabilir.
+Bir öğe kümesi üzerinde ardışıl işlem, for deyimini kullanmaya başladığında, generator çalıştırılır. Jeneratörün fonksiyon kodu bir 'yield' deyimine ulaştığında, generator, çalışmayı for döngüye geri göndererek, setten yeni bir değer döndürür. Generator fonksiyonu, istediği kadar çok değer(muhtemelen sonsuz) üreterek, her birinin sırayla üretilmesini sağlayabilir.
 
-İşte, 7 rastgele tamsayı döndüren bir jeneratör fonksiyonunun basit bir örneğidir:
+İşte, 7 rastgele tamsayı döndüren bir generator fonksiyonunun basit bir örneğidir:
 
 {% highlight python linenos=table %}
 
