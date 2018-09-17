@@ -275,20 +275,20 @@ Fonksiyon çalıştığında generator boş olarak kabul edilir, ancak artık yi
 
 {% highlight python %}
 
- # Burada generator
-def node._get_child_candidates(self, distance, min_dist, max_dist):
-döndürecek düğüm öbeğinin yordamını oluşturun:
+ # Burada generator döndürecek olan düğüm öbeğinin yordamını oluşturun:
+ def node._get_child_candidates(self, distance, min_dist, max_dist):
+
 
    # Burada generator öbeğini her kullandığınızda çağrılacak kod aşağıdadır:
      
      # Hala solda düğüm öbeğinin bir veledi varsa
      # VE eğer mesafe tamamsa, bir sonraki veledi döndürür
-     # if self._leftchild and distance - max_dist < self._median:
+     if self._leftchild and distance - max_dist < self._median:
                 yield self._leftchild
 
      # Hala sağda düğüm öbeğinin bir veledi varsa
      # VE eğer mesafe tamamsa, bir sonraki veledi döndürür
-     # if self._rightchild and distance + max_dist >= self._median:
+     if self._rightchild and distance + max_dist >= self._median:
                 yield self._rightchild
 
      #  Eğer fonksiyon buraya gelirse, generator boş olarak değerlendirilecektir
