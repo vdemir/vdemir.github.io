@@ -408,7 +408,10 @@ StopIteration
 Bir kaynağa erişimi kontrol etmek gibi çeşitli şeyler için yararlı olabilir.
 
 <br>
-## Generators
+
+<div id="D1" class="pop0">2 Generators</div>
+<br>
+## 2 Generators
 
 generator uygulanması çok kolaydır, ancak anlaması biraz zor. 
 
