@@ -646,6 +646,38 @@ Result: 1
 
 **foo** ve **bar** fonksiyonlarını doldurun, böylece değişken miktarda içlemi alabilirler (3 veya daha fazla). **foo** fonksiyonu, alınan ekstra içlem değerlerinin miktarını döndürmelidir. **bar** fonksiyonu, **magicnumber** anahtar kelimesi ile içlem 7 değerindeyse **True** ve aksi takdirde **False** değerini döndürmelidir. 
 
+<br>
+{% highlight python linenos=table %}
+# edit the functions prototype and implementation
+def foo(a, b, c, *args):
+    return len(args)
+
+def bar(a, b, c, **kwargs):
+    return kwargs["magicnumber"] == 7
+
+
+# test code
+if foo(1,2,3,4) == 1:
+    print("Good.")
+if foo(1,2,3,4,5) == 2:
+    print("Better.")
+if bar(1,2,3,magicnumber = 6) == False:
+    print("Great.")
+if bar(1,2,3,magicnumber = 7) == True:
+    print("Awesome!")
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+Good.
+Better.
+Great.
+Awesome!
+
+{% endhighlight %}
+<br>
 
 
 
