@@ -144,13 +144,13 @@ img.resize {
        - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.4.2&nbsp;[Fonksiyonlar diğer fonksiyonlara parametre olarak geçirilebilir](#D142)
        - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.4.3&nbsp;[Fonksiyonlar diğer fonksiyonlari döndürebilir](#D143)
 
+## Iterables
 <br>
 Bu bir Python "yield" anahtar kelimesi ile ilgilidir. "yield", "generator" ve "iterable" ne olduğunu açıklar.
 
 "yield" ne anlama geldiğini anlamak için, "generator" nedir anlamalısınız. Ve "generator" den iterable gelir.
 
 <br>
-## Iterables
 
 Bir liste oluşturduğunuzda, öğelerini tek tek okuyabilir ve buna ardışıl işlem denir:
 
