@@ -224,6 +224,33 @@ for i in mygenerator:
 
 Fonksiyonun bir generator döndürmesi dışında, Yield, **return** gibi kullanılan bir anahtar kelimedir. 
 
+{% highlight python linenos=table %}
+   
+def createGenerator():
+    mylist = range(3)
+    for i in mylist:
+        yield i*i  
+        
+mygenerator = createGenerator()
+for i in mygenerator:
+     print(i)
+
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+0
+1
+4
+
+In [11]: print(mygenerator)
+<generator object createGenerator at 0x7fb00c5ea728>
+
+{% endhighlight %}
+
+<br>
 
 
 Jeneratörlerin uygulanması çok kolaydır, ancak anlaması biraz zor. 
