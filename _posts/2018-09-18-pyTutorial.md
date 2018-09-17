@@ -580,7 +580,7 @@ print(newlist)
 
 ## 3 Çoklu Fonksiyon İçlem İfadeleri
 
-
+Python'daki her fonksiyon, normal olarak bildirilirse, önceden tanımlanmış bir sayıda içlem  alır:
 
 
 
