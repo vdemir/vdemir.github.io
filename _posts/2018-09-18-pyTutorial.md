@@ -516,7 +516,7 @@ Good, The fib function is a generator.
 {% endhighlight %}
 <br>
 
-
+## 3 List Kavramı
 
 
 <div class="alert alert-success" role="alert">
