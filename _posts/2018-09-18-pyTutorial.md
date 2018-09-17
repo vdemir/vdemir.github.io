@@ -516,7 +516,35 @@ Good, The fib function is a generator.
 {% endhighlight %}
 <br>
 
-## 3 List Kavramı
+## 3 List İçlemi
+
+List İçlemi, tek bir okunabilir satırda, başka bir listeye dayalı yeni bir liste oluşturan çok güçlü bir araçtır. 
+
+Örneğin, belirli bir cümlede her kelimenin uzunluğunu belirten tamsayıların bir listesini oluşturmamız gerektiğini, ancak yalnızca kelimenin **the** kelimesi olmaması gerektiğini varsayalım.
+
+<br>
+{% highlight python linenos=table %} 
+sentence = "the quick brown fox jumps over the lazy dog"
+words = sentence.split()
+word_lengths = []
+for word in words:
+      if word != "the":
+          word_lengths.append(len(word))
+print(words)
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+['the', 'quick', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog']
+
+{% endhighlight %}
+<br>
+
+
+
+
 
 
 <div class="alert alert-success" role="alert">
