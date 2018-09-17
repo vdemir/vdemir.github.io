@@ -341,8 +341,7 @@ Bu kod birkaç akıllı parça içerir:
 Genellikle bir listeyi geçiyoruz:
 
 <br>
-{% highlight python linenos=table %}
-   
+{% highlight python linenos=table %} 
 a = [1, 2]
 b = [3, 4]
 a.extend(b)
@@ -357,7 +356,7 @@ print(a)
 [1, 2, 3, 4]
 
 {% endhighlight %}
-
+<br>
 Fakat kodunuzda bir jeneratör var, bu da iyi çünkü:
 
 1. Değerleri iki kere okumak zorunda değilsiniz. 
@@ -368,8 +367,7 @@ Ve çalışır çünkü bir yöntemin argümanı bir liste olup olmadığını P
 Burada durabilir veya gelişmiş bir jeneratör kullanımını görmek için biraz okuyabilirsiniz:
 
 <br>
-{% highlight python linenos=table %}
-   
+{% highlight python linenos=table %} 
 class Bank(): # let's create a bank, building ATMs
     crisis = False
     def create_atm(self):
@@ -379,8 +377,6 @@ class Bank(): # let's create a bank, building ATMs
 hsbc = Bank()
 corner_street_atm = hsbc.create_atm()
 print(next(corner_street_atm))
-            
-
 {% endhighlight %}
 <br>
 <h2 class="python3">Python</h2>
