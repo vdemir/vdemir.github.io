@@ -275,24 +275,24 @@ Kodunuz açıklandı:
 
 {% highlight python %}
 
- # Burada generator döndürecek olan düğüm öbeğinin yordamını oluşturun:
+ # Burada generator döndürecek olan node öbeğinin yordamını oluşturun:
  def node._get_child_candidates(self, distance, min_dist, max_dist):
 
 
    # generator öbeğini her kullandığınızda çağrılacak kod aşağıdadır:
      
-     # Hala solda düğüm öbeğinin bir veledi varsa
-     # VE eğer mesafe tamamsa, bir sonraki veledi döndürür
+     # Hala solda node öbeğinin bir veledi varsa
+     # VE eğer distance tamamsa, bir sonraki child döndürür
      if self._leftchild and distance - max_dist < self._median:
                 yield self._leftchild
 
-     # Hala sağda düğüm öbeğinin bir veledi varsa
-     # VE eğer mesafe tamamsa, bir sonraki veledi döndürür
+     # Hala sağda node öbeğinin bir veledi varsa
+     # VE eğer distance tamamsa, bir sonraki child döndürür
      if self._rightchild and distance + max_dist >= self._median:
                 yield self._rightchild
 
      #  Eğer fonksiyon buraya gelirse, generator boş olarak değerlendirilecektir
-     #  ikiden fazla değer yoktur: sol ve sağ veledler
+     #  ikiden fazla değer yoktur: sol ve sağ child
 
 {% endhighlight %}
 
@@ -301,6 +301,31 @@ Kodunuz açıklandı:
 
 ### Caller:
 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+ # Boş bir liste ve geçerli öbek atfı ile bir liste oluştur
+ result, candidates = list(), [self]
+
+
+ # candidates üzerinde çevrim (başlangıçta sadece bir öğe içerir)
+ while candidates:
+
+     # Son candidate al ve listeden çıkar
+     node = candidates.pop()
+
+
+     # obj ile candidate arasındaki mesafeyi al
+     distance = node._get_dist(obj)
+
+     # distance tamam ise, o zaman sonucu doldurabilirsiniz
+     if distance <= max_dist and distance >= min_dist:
+        result.extend(node._values)
+
+
+{% endhighlight %}
 <br>
 
 generator uygulanması çok kolaydır, ancak anlaması biraz zor. 
