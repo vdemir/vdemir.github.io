@@ -256,7 +256,7 @@ In [11]: print(mygenerator)
 
 İşte bu işe yaramaz bir örnek, ancak kullanışlıdır, fonksiyonunuzu bildiğiniz zaman, sadece bir kez okumanız gereken büyük bir değerler kümesi döndürecektir.
 
-
+yield uzmanı olmak için işlev gövdesinde yazdığınız kodun çalışmadığını, işlevi çağırdığınızda anlamanız gerekir. Fonksiyon sadece generator öbeğini döndürür, bu biraz aldatıcıdır.
 
 
 
