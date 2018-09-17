@@ -252,6 +252,14 @@ In [11]: print(mygenerator)
 
 <br>
 
+İşte bu işe yaramaz bir örnek, ancak kullanışlıdır, fonksiyonunuzu bildiğiniz zaman, sadece bir kez okumanız gereken büyük bir değerler kümesi döndürecektir.
+
+
+
+
+
+
+
 
 Jeneratörlerin uygulanması çok kolaydır, ancak anlaması biraz zor. 
 
