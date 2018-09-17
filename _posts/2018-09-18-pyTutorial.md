@@ -582,11 +582,38 @@ print(newlist)
 
 Python'daki her fonksiyon, normal olarak bildirilirse, önceden tanımlanmış bir sayıda içlem  alır:
 
+<br>
+{% highlight python %}
+def myfunction(first, second, third):
+    # do something with the 3 variables
+    ...
+{% endhighlight %}
 
+Aşağıdaki sözdizimini kullanarak değişken sayıda içlem alan fonksiyonları bildirmek mümkündür:
 
+<br>
+{% highlight python linenos=table %}
+def foo(first, second, third, *therest):
+    print("First: %s" %(first))
+    print("Second: %s" %(second))
+    print("Third: %s" %(third))
+    print("And all the rest... %s" %(list(therest)))
 
+foo(1,2,3,4,5)
 
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
 
+{% highlight python %}
+
+First: 1
+Second: 2
+Third: 3
+And all the rest... [4, 5]
+
+{% endhighlight %}
+<br>
 
 
 
