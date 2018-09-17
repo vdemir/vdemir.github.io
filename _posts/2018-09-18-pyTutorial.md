@@ -338,6 +338,24 @@ Bu kod birkaç akıllı parça içerir:
 
 -  extend() yordamı, yinelenebilir olmasını bekleyen ve değerlerini listeye ekleyen bir liste öbeği yordamıdır.
 
+Genellikle bir listeyi geçiyoruz:
+
+{% highlight python linenos=table %}
+   
+a = [1, 2]
+b = [3, 4]
+a.extend(b)
+print(a)
+
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+[1, 2, 3, 4]
+
+{% endhighlight %}
 
 
 
