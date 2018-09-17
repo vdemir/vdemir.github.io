@@ -523,7 +523,7 @@ List İçlemi, tek bir okunabilir satırda, başka bir listeye dayalı yeni bir 
 Örneğin, belirli bir cümlede her kelimenin uzunluğunu belirten tamsayıların bir listesini oluşturmamız gerektiğini, ancak yalnızca kelimenin **the** kelimesi olmaması gerektiğini varsayalım.
 
 <br>
-{% highlight python linenos=table %} 
+{% highlight python linenos=table %}
 sentence = "the quick brown fox jumps over the lazy dog"
 words = sentence.split()
 word_lengths = []
