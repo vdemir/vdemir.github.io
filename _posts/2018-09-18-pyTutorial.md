@@ -144,7 +144,7 @@ img.resize {
 
 <br>
 
-## Iterables
+## 1 Iterables
 <br>
 Bu bir Python **yield** anahtar kelimesi ile ilgilidir. **yield**, **generator** ve **iterable** ne olduğunu açıklar.
 
