@@ -169,6 +169,27 @@ for i in mylist:
 
 <br>
 
+Mylist ardışıl bir işlemdir. Liste içlemini kullandığınızda, bir liste oluşturur ve böylece ardışık sıralanabilir:
+
+{% highlight python linenos=table %}
+
+mylist = [x*x for x in range(3)]
+for i in mylist:
+     print(i)
+
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+0
+1
+4
+{% endhighlight %}
+
+<br>
+
 
 Jeneratörlerin uygulanması çok kolaydır, ancak anlaması biraz zor. 
 
