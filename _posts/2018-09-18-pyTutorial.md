@@ -340,6 +340,7 @@ Bu kod birkaç akıllı parça içerir:
 
 Genellikle bir listeyi geçiyoruz:
 
+<br>
 {% highlight python linenos=table %}
    
 a = [1, 2]
@@ -357,11 +358,38 @@ print(a)
 
 {% endhighlight %}
 
+Fakat kodunuzda bir jeneratör var, bu da iyi çünkü:
 
+1. Değerleri iki kere okumak zorunda değilsiniz. 
+2. Çok fazla çocuğunuz olabilir ve bunların hepsinin hafızada saklanmasını istemezsiniz. 
 
+Ve çalışır çünkü bir yöntemin argümanı bir liste olup olmadığını Python umursamaz. Python iterables bekler böylece dizeleri, listeler, tuples ve jeneratörler ile çalışacak! Bu, ördek tiplemesi olarak adlandırılır ve Python'un neden bu kadar havalı olmasının nedenlerinden biridir. Ama bu başka bir hikaye, başka bir soru için… 
 
+Burada durabilir veya gelişmiş bir jeneratör kullanımını görmek için biraz okuyabilirsiniz:
 
+<br>
+{% highlight python linenos=table %}
+   
+class Bank(): # let's create a bank, building ATMs
+    crisis = False
+    def create_atm(self):
+        while not self.crisis:
+            yield "$100"
+            
+hsbc = Bank()
+corner_street_atm = hsbc.create_atm()
+print(next(corner_street_atm))
+            
 
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+$100
+
+{% endhighlight %}
 
 
 
