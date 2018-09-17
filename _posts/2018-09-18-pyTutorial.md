@@ -407,7 +407,7 @@ StopIteration
 <br>
 Bir kaynağa erişimi kontrol etmek gibi çeşitli şeyler için yararlı olabilir.
 
-
+<br>
 ## Generators
 
 generator uygulanması çok kolaydır, ancak anlaması biraz zor. 
