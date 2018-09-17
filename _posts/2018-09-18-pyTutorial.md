@@ -469,4 +469,4 @@ Genel olarak, Python'daki fonksiyonlar, bir girdiyi bir çıktıya dönüştürm
 </div>
  
 
-<div id="D11" class="pop1">1.1 Birinci Sınıf Öbekler</div 
+<div id="D11" class="pop1">1.1 Birinci Sınıf Öbekler</div>
