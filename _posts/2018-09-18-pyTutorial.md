@@ -197,6 +197,33 @@ Bu ardışıl işlenenler kullanışlıdır, çünkü onları istediğiniz kadar
 
 Generators ardışıl işlemlerdir, **ancak bunları yalnızca bir kez tekrarlayabilirsiniz**. Tüm değerleri bellekte saklamamaları nedeniyle, **değerleri anında oluştururlar**:
 
+{% highlight python linenos=table %}
+   
+mygenerator = (x*x for x in range(3))
+for i in mygenerator:
+   print(i) 
+
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+0
+1
+4
+{% endhighlight %}
+
+<br>
+
+
+
+
+
+
+
+
+
 Jeneratörlerin uygulanması çok kolaydır, ancak anlaması biraz zor. 
 
 Jeneratörler, ardışıl işlem oluşturmak için kullanılır, ancak farklı bir yaklaşımla. Jeneratörler, her seferinde özel olarak ardışık öğeler grubunu döndüren basit işlevlerdir. 
