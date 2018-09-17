@@ -360,9 +360,9 @@ print(a)
 Fakat kodunuzda bir generator var, bu da iyi çünkü:
 
 1. Değerleri iki kere okumak zorunda değilsiniz. 
-2. Çok fazla çocuğunuz olabilir ve bunların hepsinin hafızada saklanmasını istemezsiniz. 
+2. Çok fazla child olabilir ve bunların hepsinin hafızada saklanmasını istemezsiniz. 
 
-Ve çalışır çünkü bir yöntemin argümanı bir liste olup olmadığını Python umursamaz. Python iterables bekler böylece dizeleri, listeler, tuples ve jeneratörler ile çalışacak! Bu, ördek tiplemesi olarak adlandırılır ve Python'un neden bu kadar havalı olmasının nedenlerinden biridir. Ama bu başka bir hikaye, başka bir soru için… 
+Ve çalışır çünkü bir yordamın ifadesinin bir liste olup olmadığını Python umursamaz. Python ardışıl işlemleri bekler böylece dizeleri, listeler, tuples ve generator ile çalışacaktır! Bu, ördek tiplemesi olarak adlandırılır ve Python'un neden bu kadar havalı olmasının nedenlerinden biridir. Ama bu başka bir hikaye, başka bir soru için… 
 
 Burada durabilir veya gelişmiş bir generator kullanımını görmek için biraz okuyabilirsiniz:
 
@@ -412,9 +412,9 @@ Bir kaynağa erişimi kontrol etmek gibi çeşitli şeyler için yararlı olabil
 
 generator uygulanması çok kolaydır, ancak anlaması biraz zor. 
 
-Jeneratörler, ardışıl işlem oluşturmak için kullanılır, ancak farklı bir yaklaşımla. Jeneratörler, her seferinde özel olarak ardışık öğeler grubunu döndüren basit işlevlerdir. 
+Generators, ardışıl işlem oluşturmak için kullanılır, ancak farklı bir yaklaşımla. Generators, her seferinde özel olarak ardışık öğeler grubunu döndüren basit işlevlerdir. 
 
-Bir öğe kümesi üzerinde ardışıl işlem, for deyimini kullanmaya başladığında, generator çalıştırılır. Jeneratörün fonksiyon kodu bir 'yield' deyimine ulaştığında, generator, çalışmayı for döngüye geri göndererek, setten yeni bir değer döndürür. Generator fonksiyonu, istediği kadar çok değer(muhtemelen sonsuz) üreterek, her birinin sırayla üretilmesini sağlayabilir.
+Bir öğe kümesi üzerinde ardışıl işlem, for deyimini kullanmaya başladığında, generator çalıştırılır. generator fonksiyon kodu bir 'yield' deyimine ulaştığında, generator, çalışmayı for döngüye geri göndererek, setten yeni bir değer döndürür. Generator fonksiyonu, istediği kadar çok değer(muhtemelen sonsuz) üreterek, her birinin sırayla üretilmesini sağlayabilir.
 
 İşte, 7 rastgele tamsayı döndüren bir generator fonksiyonunun basit bir örneğidir:
 
