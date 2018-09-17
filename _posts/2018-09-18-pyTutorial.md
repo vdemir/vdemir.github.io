@@ -196,7 +196,6 @@ for i in mylist:
 Bu ardışıl işlenenler kullanışlıdır, çünkü onları istediğiniz kadar okuyabilirsiniz, ancak tüm değerleri hafızaya kaydedersiniz ve çok fazla değeriniz olduğunda istediğiniz her zaman olmaz.
 
 <br>
-## Generators
 
 Generators ardışıl işlemlerdir, **ancak bunları yalnızca bir kez tekrarlayabilirsiniz**. Tüm değerleri bellekte saklamamaları nedeniyle, **değerleri anında oluştururlar**:
 
@@ -408,6 +407,7 @@ StopIteration
 Bir kaynağa erişimi kontrol etmek gibi çeşitli şeyler için yararlı olabilir.
 
 
+## Generators
 
 generator uygulanması çok kolaydır, ancak anlaması biraz zor. 
 
