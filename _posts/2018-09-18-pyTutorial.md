@@ -298,6 +298,8 @@ Fonksiyon çalıştığında generator boş olarak kabul edilir, ancak artık yi
 
 **Caller:**
 
+<br>
+
 
 <br>
 
