@@ -256,7 +256,7 @@ In [11]: print(mygenerator)
 
 İşte bu işe yaramaz bir örnek, ancak kullanışlıdır, fonksiyonunuzu bildiğiniz zaman, sadece bir kez okumanız gereken büyük bir değerler kümesi döndürecektir.
 
-yield uzmanı olmak için işlev gövdesinde yazdığınız kodun çalışmadığını, işlevi çağırdığınızda anlamanız gerekir. Fonksiyon sadece generator öbeğini döndürür, bu biraz aldatıcıdır.
+yield uzmanı olmak için, **fonksiyon gövdesinde yazdığınız kodun çalışmadığını, fonksiyonu çağırdığınızda** anlamanız gerekir. Fonksiyon sadece generator öbeğini döndürür, bu biraz aldatıcıdır.
 
 
 
@@ -267,7 +267,7 @@ Jeneratörlerin uygulanması çok kolaydır, ancak anlaması biraz zor.
 
 Jeneratörler, ardışıl işlem oluşturmak için kullanılır, ancak farklı bir yaklaşımla. Jeneratörler, her seferinde özel olarak ardışık öğeler grubunu döndüren basit işlevlerdir. 
 
-Bir öğe kümesi üzerinde ardışıl işlem, for deyimini kullanmaya başladığında, jeneratör çalıştırılır. Jeneratörün işlev kodu bir 'yield' deyimine ulaştığında, jeneratör, çalışmayı for döngüye geri göndererek, setten yeni bir değer döndürür. Jeneratör fonksiyonu, istediği kadar çok değer(muhtemelen sonsuz) üreterek, her birinin sırayla üretilmesini sağlayabilir.
+Bir öğe kümesi üzerinde ardışıl işlem, for deyimini kullanmaya başladığında, jeneratör çalıştırılır. Jeneratörün fonksiyon kodu bir 'yield' deyimine ulaştığında, jeneratör, çalışmayı for döngüye geri göndererek, setten yeni bir değer döndürür. Jeneratör fonksiyonu, istediği kadar çok değer(muhtemelen sonsuz) üreterek, her birinin sırayla üretilmesini sağlayabilir.
 
 İşte, 7 rastgele tamsayı döndüren bir jeneratör fonksiyonunun basit bir örneğidir:
 
