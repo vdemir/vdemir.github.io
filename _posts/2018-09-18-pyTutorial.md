@@ -262,12 +262,12 @@ Daha sonra kodunuzun çalıştırıldığı her seferinde **for** generator u ku
 
 Şimdi zor kısmı:
 
-**for** ilk kez, fonksiyonunuzdan oluşturulan generator öbeğini çağırır, Bu kod, başlangıçta **yield**'ya ulaşana kadar, işlevinizdeki kodu çalıştıracaktır.
+**for** ilk kez, fonksiyonunuzdan oluşturulan generator öbeğini çağırır, başlangıçtan **yield**'ya ulaşana kadar, işlevinizdeki kodu çalıştıracaktır.
 
 
 
 
-Jeneratörlerin uygulanması çok kolaydır, ancak anlaması biraz zor. 
+generator uygulanması çok kolaydır, ancak anlaması biraz zor. 
 
 Jeneratörler, ardışıl işlem oluşturmak için kullanılır, ancak farklı bir yaklaşımla. Jeneratörler, her seferinde özel olarak ardışık öğeler grubunu döndüren basit işlevlerdir. 
 
