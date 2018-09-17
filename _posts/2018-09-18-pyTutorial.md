@@ -530,6 +530,7 @@ word_lengths = []
 for word in words:
       if word != "the":
           word_lengths.append(len(word))
+
 print("words:",words)
 
 print("word_lengths:", word_lengths)
