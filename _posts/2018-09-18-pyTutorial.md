@@ -374,8 +374,25 @@ class Bank(): # let's create a bank, building ATMs
         while not self.crisis:
             yield "$100"
             
-hsbc = Bank()
+hsbc = Bank() # when everything's ok the ATM gives you as much as you want
 corner_street_atm = hsbc.create_atm()
+print(next(corner_street_atm))
+
+print([next(corner_street_atm) for cash in range(5)])
+['$100', '$100', '$100', '$100', '$100']
+
+
+hsbc.crisis = False # trouble is, even post-crisis the ATM remains empty
+
+print(next(corner_street_atm))
+
+
+hsbc.crisis = True # crisis is coming, no more money!
+
+print(next(corner_street_atm))
+
+wall_street_atm = hsbc.create_atm() # it's even true for new ATMs
+
 print(next(corner_street_atm))
 {% endhighlight %}
 <br>
@@ -384,9 +401,15 @@ print(next(corner_street_atm))
 {% highlight python %}
 
 $100
+['$100', '$100', '$100', '$100', '$100']
+$100
+Traceback (most recent call last):
+  File "/tmp/sessions/6271a918dfe75b0f/main.py", line 26, in <module>
+    print(next(corner_street_atm))
+StopIteration
 
 {% endhighlight %}
-
+<br>
 
 
 
