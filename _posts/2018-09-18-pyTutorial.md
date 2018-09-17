@@ -134,7 +134,7 @@ img.resize {
 
 <br>
 
-+ 1 [Fonksiyonlar](#D1)
++ 1 [Generators](#D1)
     - &nbsp;&nbsp;&nbsp;&nbsp; 1.1&nbsp;[Birinci Sınıf Öbekler](#D11)
     - &nbsp;&nbsp;&nbsp;&nbsp; 1.2&nbsp;[İç Fonksiyonlar](#D12)
     - &nbsp;&nbsp;&nbsp;&nbsp; 1.3&nbsp;[Fonksiyonlardan Dönen Fonksiyonlar](#D13)
@@ -145,14 +145,14 @@ img.resize {
 
 
 
-Süslü fonksiyonlarla ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Süslü fonksiyonlar, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar. 
+Jeneratörlerin uygulanması çok kolaydır, ancak anlaması biraz zor. 
 
-Matematik ve bilgisayar bilimlerinde, daha yüksek mertebeden bir fonksiyon (aynı zamanda fonksiyonel, fonksiyonel form) aşağıdakilerden en az birini yapan bir fonksiyondur: 
+Jeneratörler, ardışıl işlem oluşturmak için kullanılır, ancak farklı bir yaklaşımla. Jeneratörler, her seferinde özel olarak yinelenen öğeler grubunu döndüren basit işlevlerdir. 
 
-1. ifade olarak bir veya daha fazla fonksiyon alır (örn. Yordamsal parametreler) , 
-2. sonuç olarak bir fonksiyonu döndürür.
+Bir öğe kümesi üzerinde yineleme, for ifadesini kullanmaya başladığında, jeneratör çalıştırılır. Jeneratörün işlev kodu bir 'verim' ifadesine ulaştığında, jeneratör, çalışmayı for döngüye geri göndererek, setten yeni bir değer döndürür. Jeneratör işlevi, istediği kadar çok değer (muhtemelen sonsuz) oluşturarak, her birinin kendi sırasına sahip olmasını sağlayabilir. 
 
-Tanım olarak, bir Süslü fonksiyon, başka bir fonksiyon alan ve  açık bir şekilde değiştirmeden aldığı fonksiyonun davranışını genişleten bir fonksiyondur. 
+İşte, 7 rastgele tamsayı döndüren bir jeneratör fonksiyonunun basit bir örneğidir:
+
 
 <div class="alert alert-success" role="alert">
 <p><strong>Bilgi:</strong> Python ile ilgili olarak bahsettiğimiz 'süslü fonksiyonlar'  fonksiyonları ve yöntemleri daha kolay değiştirmemizi sağlayan Python sözdizimine özel bir değişikliktir. Tasarım desenleri bağlamında, süslü fonksiyonlar, alt sınıfları doğrudan kullanmak zorunda kalmadan bir fonksiyon, yöntem veya sınıfın fonksiyonselliğini dinamik olarak değiştirir. Bu, değiştirmek istemediğiniz fonksiyonlarin fonksiyonselliğini genişletmeniz gerektiğinde idealdir.</p>
