@@ -147,7 +147,7 @@ img.resize {
 Bu bir Python "yield" anahtar kelimesi ile ilgilidir. "yield", "generator" ve "iterable" ne olduğunu açıklar.
 
 "yield" ne anlama geldiğini anlamak için, "generator" nedir anlamalısınız. Ve "generator" den iterable gelir.
-
+<br>
 ## Iterables
 
 Bir liste oluşturduğunuzda, öğelerini tek tek okuyabilir ve buna ardışıl işlem denir:
@@ -193,7 +193,7 @@ for i in mylist:
 
  “for… in…” için kullanabileceğiniz her şey ardışıl işlemdir: lists, strings, files…
 Bu ardışıl işlenenler kullanışlıdır, çünkü onları istediğiniz kadar okuyabilirsiniz, ancak tüm değerleri hafızaya kaydedersiniz ve çok fazla değeriniz olduğunda istediğiniz her zaman olmaz.
-
+<br>
 ## Generators
 
 Generators ardışıl işlemlerdir, **ancak bunları yalnızca bir kez tekrarlayabilirsiniz**. Tüm değerleri bellekte saklamamaları nedeniyle, **değerleri anında oluştururlar**:
