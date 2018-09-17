@@ -151,6 +151,25 @@ Bu bir Python yield anahtar kelimesi ile ilgilidir. "yield", "generator" ve "ite
 
 Bir liste oluşturduğunuzda, öğelerini tek tek okuyabilir ve buna ardışıl işlem denir:
 
+{% highlight python linenos=table %}
+
+mylist = [1, 2, 3]
+for i in mylist:
+     print(i)
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+1
+2
+3
+{% endhighlight %}
+
+<br>
+
+
 Jeneratörlerin uygulanması çok kolaydır, ancak anlaması biraz zor. 
 
 Jeneratörler, ardışıl işlem oluşturmak için kullanılır, ancak farklı bir yaklaşımla. Jeneratörler, her seferinde özel olarak ardışık öğeler grubunu döndüren basit işlevlerdir. 
