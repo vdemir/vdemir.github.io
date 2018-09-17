@@ -275,9 +275,11 @@ Fonksiyon çalıştığında generator boş olarak kabul edilir, ancak artık yi
 
 {% highlight python %}
 
-# Burada generator
+ # Burada generator
 def node._get_child_candidates(self, distance, min_dist, max_dist):
 döndürecek düğüm öbeğinin yordamını oluşturun:
+
+   # Burada generator öbeğini her kullandığınızda çağrılacak kod aşağıdadır:
 
 {% endhighlight %}
 
