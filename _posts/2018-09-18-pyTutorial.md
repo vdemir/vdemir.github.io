@@ -217,7 +217,7 @@ for i in mygenerator:
 
 <br>
 
-[] Yerine () kullanmanız dışında tamamen aynıdır. AMA, jeneratörler sadece bir kez kullanabileceğinden **for i in mygenerator**'yı ikinci kez gerçekleştiremezsiniz:
+[] Yerine () kullanmanız dışında tamamen aynıdır. AMA, jeneratörler sadece bir kez kullanabileceğinden **for i in mygenerator**'yı ikinci kez gerçekleştiremezsiniz : 0'ı hesaplar, sonra unutur ve 1'i hesaplar ve 4'ü hesaplayarak sonlanır, teker teker.
 
 
 
