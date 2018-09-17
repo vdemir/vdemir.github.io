@@ -460,6 +460,22 @@ Bu fonksiyon rasgele sayıların kendi başına nasıl üretileceğine karar ver
 Fibonacci serisini döndüren bir generator fonksiyonu yazın. Aşağıdaki formül kullanılarak hesaplanırlar: Dizinin ilk iki sayısı her zaman 1'e eşittir ve her ardışık sayı son iki sayının toplamıdır. İpucu: generator fonksiyonunda sadece iki değişken kullanabilir misiniz? Atamaların aynı anda yapılabileceğini unutmayın. Kod:
 
 
+<br>
+{% highlight python linenos=table %} 
+a = 1
+b = 2
+a, b = b, a
+print(a,b)
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+2 1
+
+{% endhighlight %}
+<br>
 
 
 
