@@ -286,6 +286,13 @@ döndürecek düğüm öbeğinin yordamını oluşturun:
      # if self._leftchild and distance - max_dist < self._median:
                 yield self._leftchild
 
+     # Hala sağda düğüm öbeğinin bir veledi varsa
+     # VE eğer mesafe tamamsa, bir sonraki veledi döndürür
+     # if self._rightchild and distance + max_dist >= self._median:
+                yield self._rightchild
+
+     #  Eğer fonksiyon buraya gelirse, generator boş olarak değerlendirilecektir
+     #  ikiden fazla değer yoktur: sol ve sağ veledler
 
 {% endhighlight %}
 
