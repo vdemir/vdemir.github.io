@@ -526,6 +526,9 @@ List İçlemi, tek bir okunabilir satırda, başka bir listeye dayalı yeni bir 
 {% highlight python linenos=table %}
 sentence = "the quick brown fox jumps over the lazy dog"
 words = sentence.split()
+
+# word_lengths = [len(word) for word in words if word != "the"]
+
 word_lengths = []
 for word in words:
       if word != "the":
