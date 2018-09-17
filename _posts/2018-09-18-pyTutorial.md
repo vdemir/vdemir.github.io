@@ -578,7 +578,7 @@ print(newlist)
 {% endhighlight %}
 <br>
 
-
+## 3 Çoklu Fonksiyon İçlem İfadeleri
 
 
 
