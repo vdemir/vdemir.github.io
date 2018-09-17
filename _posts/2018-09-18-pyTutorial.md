@@ -99,19 +99,19 @@ img.resize {
   }
  h1 {
     font-family: 'Life Savers', serif;
-    font-size: 1.5vw;
+    font-size: 3.5vw;
     font-feature-settings: "liga" on;
     color: #3d3d3d;
   }
  h4 {
     font-family: 'Life Savers', serif;
-    font-size: 1.5vw;
+    font-size: 0.5vw;
     font-feature-settings: "liga" on;
     color: #3d3d3d;
   }
  h2 {
     font-family: 'Life Savers', serif;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
     font-feature-settings: "liga" on;
     color: #3d3d3d;
   }
