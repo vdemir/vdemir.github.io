@@ -147,11 +147,45 @@ img.resize {
 
 Jeneratörlerin uygulanması çok kolaydır, ancak anlaması biraz zor. 
 
-Jeneratörler, ardışıl işlem oluşturmak için kullanılır, ancak farklı bir yaklaşımla. Jeneratörler, her seferinde özel olarak yinelenen öğeler grubunu döndüren basit işlevlerdir. 
+Jeneratörler, ardışıl işlem oluşturmak için kullanılır, ancak farklı bir yaklaşımla. Jeneratörler, her seferinde özel olarak ardışık öğeler grubunu döndüren basit işlevlerdir. 
 
-Bir öğe kümesi üzerinde yineleme, for ifadesini kullanmaya başladığında, jeneratör çalıştırılır. Jeneratörün işlev kodu bir 'verim' ifadesine ulaştığında, jeneratör, çalışmayı for döngüye geri göndererek, setten yeni bir değer döndürür. Jeneratör işlevi, istediği kadar çok değer (muhtemelen sonsuz) oluşturarak, her birinin kendi sırasına sahip olmasını sağlayabilir. 
+Bir öğe kümesi üzerinde ardışıl işlem, for deyimini kullanmaya başladığında, jeneratör çalıştırılır. Jeneratörün işlev kodu bir 'verim' ifadesine ulaştığında, jeneratör, çalışmayı for döngüye geri göndererek, setten yeni bir değer döndürür. Jeneratör fonksiyonu, istediği kadar çok değer(muhtemelen sonsuz) üreterek, her birinin sırayla üretilmesini sağlayabilir.
 
 İşte, 7 rastgele tamsayı döndüren bir jeneratör fonksiyonunun basit bir örneğidir:
+
+{% highlight python linenos=table %}
+
+import random
+
+def lottery():
+    # returns 6 numbers between 1 and 40
+    for i in range(6):
+        yield random.randint(1, 40)
+
+    # returns a 7th number between 1 and 15
+    yield random.randint(1,15)
+
+for random_number in lottery():
+       print("And the next number is... %d!" %(random_number))
+
+{% endhighlight %}
+
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+And the next number is... 3
+And the next number is... 1
+And the next number is... 6
+And the next number is... 26
+And the next number is... 34
+And the next number is... 39
+And the next number is... 8
+
+{% endhighlight %}
+
+
 
 
 <div class="alert alert-success" role="alert">
