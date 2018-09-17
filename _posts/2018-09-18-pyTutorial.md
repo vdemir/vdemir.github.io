@@ -147,6 +147,10 @@ Bu bir Python yield anahtar kelimesi ile ilgilidir. "yield", "generator" ve "ite
 
 "yield" ne anlama geldiğini anlamak için, "generator" nedir anlamalısınız. Ve "generator" den iterable gelir.
 
+**Iterables**
+
+Bir liste oluşturduğunuzda, öğelerini tek tek okuyabilir ve buna ardışıl işlem denir:
+
 Jeneratörlerin uygulanması çok kolaydır, ancak anlaması biraz zor. 
 
 Jeneratörler, ardışıl işlem oluşturmak için kullanılır, ancak farklı bir yaklaşımla. Jeneratörler, her seferinde özel olarak ardışık öğeler grubunu döndüren basit işlevlerdir. 
