@@ -258,9 +258,9 @@ In [11]: print(mygenerator)
 
 yield uzmanı olmak için, **fonksiyon gövdesinde yazdığınız kodun çalışmadığını, fonksiyonu çağırdığınızda** anlamanız gerekir. Fonksiyon sadece generator öbeğini döndürür, bu biraz aldatıcıdır.
 
-Daha sonra **for** un generator kullandığı her seferinde kodunuz çalıştırılacak.
+Daha sonra kodunuzun çalıştırıldığı her seferinde **for** generator u kullanır.
 
-
+Şimdi zor kısmı:
 
 
 
