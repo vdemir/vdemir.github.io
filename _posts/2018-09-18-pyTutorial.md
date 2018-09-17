@@ -130,7 +130,7 @@ img.resize {
 
 <br>
 
-<div class="pop">Süslü fonksiyonlar</div> 
+<div class="pop">Python Eğitici Rehber</div> 
 
 <br>
 
