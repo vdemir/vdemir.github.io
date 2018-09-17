@@ -457,9 +457,7 @@ Bu fonksiyon rasgele sayıların kendi başına nasıl üretileceğine karar ver
 
 ### Talim
 
-Fibonacci serisini döndüren bir generator fonksiyonu yazın. Aşağıdaki formül kullanılarak hesaplanırlar: Dizinin ilk iki sayısı her zaman 1'e eşittir ve her ardışık sayı son iki sayının toplamıdır. İpucu: generator fonksiyonunda sadece iki değişken kullanabilir misiniz? Atamaların aynı anda yapılabileceğini unutmayın. Kod:
-
-
+Fibonacci serisini döndüren bir generator fonksiyonu yazın. Aşağıdaki formül kullanılarak hesaplanırlar: Dizinin ilk iki sayısı her zaman 1'e eşittir ve her ardışık sayı son iki sayının toplamıdır. İpucu: generator fonksiyonunda sadece iki değişken kullanabilir misiniz? Atamaların aynı anda yapılabileceğini unutmayın. Kod; 
 <br>
 {% highlight python linenos=table %} 
 a = 1
@@ -476,8 +474,47 @@ print(a,b)
 
 {% endhighlight %}
 <br>
+aynı anda a ve b değerlerini değiştirir.
+<br>
+{% highlight python linenos=table %} 
+# fill in this function
+def fib():
+    a, b = 1, 1
+    while 1:
+        yield a
+        a, b = b, a + b
 
+# testing code
+import types
+if type(fib()) == types.GeneratorType:
+    print("Good, The fib function is a generator.")
 
+    counter = 0
+    for n in fib():
+        print(n)
+        counter += 1
+        if counter == 10:
+            break
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+Good, The fib function is a generator.
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+
+{% endhighlight %}
+<br>
 
 
 
