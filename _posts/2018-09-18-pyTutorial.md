@@ -118,7 +118,7 @@ img.resize {
   }
  h3 {
     font-family: 'Life Savers', serif;
-    font-size: 1.5vw;
+    font-size: 1.95vw;
     font-feature-settings: "liga" on;
     color: #3d3d3d;
   }
