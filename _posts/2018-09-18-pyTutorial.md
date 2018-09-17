@@ -222,7 +222,7 @@ for i in mygenerator:
 <br>
 ## Yield
 
-
+Fonksiyonun bir generator döndürmesi dışında, Yield, **return** gibi kullanılan bir anahtar kelimedir. 
 
 
 
