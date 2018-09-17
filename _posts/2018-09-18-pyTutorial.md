@@ -262,7 +262,7 @@ Daha sonra kodunuzun çalıştırıldığı her seferinde **for** generator u ku
 
 Şimdi zor kısmı:
 
-
+İlk kez **for**, fonksiyonunuzdan oluşturulan generator öbeğini çağırır
 
 
 
