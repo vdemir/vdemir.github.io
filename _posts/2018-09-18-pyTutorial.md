@@ -264,6 +264,14 @@ Daha sonra kodunuzun çalıştırıldığı her seferinde **for** generator u ku
 
 **for** ilk kez, fonksiyonunuzdan oluşturulan generator öbeğini çağırır, başlangıçtan **yield**'ya ulaşana kadar, işlevinizdeki kodu çalıştıracaktır, daha sonra çevrimin ilk değerini döndürür. Ardından, her bir çağrı, fonksiyonda yazdığınız çevrimi bir kez daha çalıştıracak ve geri dönüş değeri olmayana kadar bir sonraki değeri döndürecektir.
 
+Fonksiyon çalıştığında generator boş olarak kabul edilir, ancak artık yield hedefe ulaşmaz. Döngü sonunda sona ermiş  ya da artık “**if / else**” yerine getirmediğiniz için olabilir.
+
+
+
+
+
+
+
 
 <br>
 
