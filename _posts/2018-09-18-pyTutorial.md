@@ -617,6 +617,39 @@ And all the rest... [4, 5]
 
 Ayrıca, aşağıdaki içlemleri kullanarak içlemlerin sırasının önemi olmayacak şekilde fonksiyon içlemlerini anahtar kelimeye göre de göndermek mümkündür. Aşağıdaki kod aşağıdaki çıktıyı verir:
 
+<br>
+{% highlight python linenos=table %}
+def bar(first, second, third, **options):
+    if options.get("action") == "sum":
+        print("The sum is: %d" %(first + second + third))
+
+    if options.get("number") == "first":
+        return first
+
+result = bar(1, 2, 3, action = "sum", number = "first")
+print("Result: %d" %(result))
+
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+The sum is: 6
+Result: 1
+
+{% endhighlight %}
+<br>
+
+
+
+
+
+
+
+
+
+
 
 
 
