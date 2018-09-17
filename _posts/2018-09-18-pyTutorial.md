@@ -266,9 +266,20 @@ Daha sonra kodunuzun çalıştırıldığı her seferinde **for** generator u ku
 
 Fonksiyon çalıştığında generator boş olarak kabul edilir, ancak artık yield hedefe ulaşmaz. Döngü sonunda sona ermiş  ya da artık “**if / else**” yerine getirmediğiniz için olabilir.
 
+**Kodunuz açıklandı**
 
+**Generator:**
 
+<br>
+<h2 class="python3">Python</h2>
 
+{% highlight python %}
+
+# Burada generator
+def node._get_child_candidates(self, distance, min_dist, max_dist):
+döndürecek düğüm öbeğinin yordamını oluşturun:
+
+{% endhighlight %}
 
 
 
