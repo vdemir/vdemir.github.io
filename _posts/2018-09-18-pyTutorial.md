@@ -564,7 +564,20 @@ print(words)
 
 Liste içlemini kullanarak, tam sayı olarak listeden yalnızca pozitif sayıları içeren **numbers** listesinden **newlist** adlı yeni bir liste oluşturun.
 
+<br>
+{% highlight python linenos=table %}
+numbers = [34.6, -203.4, 44.9, 68.3, -12.2, 44.6, 12.7]
+newlist = [int(x) for x in numbers if x > 0]
+print(newlist)
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
 
+{% highlight python %}
+
+[34, 44, 68, 44, 12]
+{% endhighlight %}
+<br>
 
 
 
