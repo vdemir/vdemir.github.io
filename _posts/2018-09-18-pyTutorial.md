@@ -740,12 +740,23 @@ You failed to match wha.t.`1an?ug{}ly.email.com
 ## 4 İstisna işleme
 
 Programlama yaparken hatalar meydana gelir. Bu sadece bir yaşam gerçeğidir. Belki de kullanıcı kötü girdi verdi. Belki bir ağ kaynağı mevcut değildi. Belki de program belleği bitti. Ya da programcı bir hata yapmış olabilir! 
-kural dışı durumlar
-Hatalara Python'un çözümü özel bir durumdur. Daha önce kural dışı bir durum görmüş olabilirsiniz.
 
+Python'un hatalara çözümü özel bir durumdur. Daha önce kural dışı bir durum görmüş olabilirsiniz.
 
+{% highlight python %}
 
+print(a)
 
+#error
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'a' is not defined
+</module></stdin>
+{% endhighlight %}
+
+Hata! 'a' değişkenine değer atamayı unuttum. 
+
+Fakat bazen programı tamamen durdurmak için kural dışı özel bir durum istemezsiniz. Bir kural dışı durum kaldırıldığında özel bir şey yapmak isteyebilirsiniz. Bu bir **try/except** bloğunda yapılır.
 
 
 
