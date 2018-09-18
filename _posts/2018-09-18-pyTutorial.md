@@ -1050,10 +1050,37 @@ Kısmi işlevler, x parametresiyle bir işlevi daha sınırlı işlev için daha
 
 İçe aktarma gerekli:
 
+<br>
+{% highlight python %}
 
+from functools import partial
 
+{% endhighlight %}
 
+<br>
+Bu kod 8'e dönecek.
 
+<br>
+{% highlight python linenos=table %}
+
+from functools import partial
+
+def multiply(x,y):
+        return x * y
+
+# create a new function that multiplies by 2
+dbl = partial(multiply,2)
+print(dbl(4))
+
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+8
+
+{% endhighlight %}
 
 
 
