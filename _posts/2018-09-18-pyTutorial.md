@@ -961,7 +961,7 @@ Json modülünü kullanabilmek için önce içeri aktarılmalıdır:
 
 JSON verileri için iki temel biçim vardır. Bir dize veya nesne veri yapısında. Python'daki nesne veri yapısı, iç içe geçmiş listelerden ve sözlüklerden oluşur. Nesne veri yapısı, veri yapısından elemanları eklemek, listelemek, aramak ve çıkarmak için python yordamlarının (listeler ve sözlükler için) kullanılmasına izin verir. Dize formatı esas olarak verileri başka bir programa aktarmak veya bir veri yapısına yüklemek için kullanılır. 
 
-JSON'u bir veri yapısına geri yüklemek için 'yükler' yöntemini kullanın. Bu yöntem bir dize alır ve json nesne veri yapısına geri döndürür:
+JSON'u bir veri yapısına geri yüklemek için 'loads' yordamını kullanın. Bu yordam bir dize alır ve json nesne veri yapısına geri döndürür:
 
 
 
