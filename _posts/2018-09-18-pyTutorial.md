@@ -799,7 +799,18 @@ Orada bu çok zor değildi! Bunu herhangi bir istisna ile yapabilirsiniz.
 
 Setleri, çift kayıt içermeyen listelerdir. Paragrafta kullanılan kelimelerin listesini toplamak istediğinizi varsayalım:
 
+<br>
+{% highlight python linenos=table %}
+print(set("my name is Eric and Eric is my name".split()))
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
 
+{% highlight python %}
+
+{'my', 'is', 'Eric', 'name', 'and'}
+
+{% endhighlight %}
 
 
 
