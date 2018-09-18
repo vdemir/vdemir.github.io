@@ -686,15 +686,14 @@ Awesome!
 
 Normal İfadeler (bazen regex'e, regex'e veya re'ye kısaltılır) metindeki kalıpları eşleştirmek için kullanılan bir araçtır. Python'da, re modülümüz var. Düzenli ifadeler için uygulamalar geniş kapsamlıdır, ancak oldukça karmaşıktırlar, bu yüzden belirli bir görev için bir regex kullanmayı düşünürken, alternatifleri düşünün ve son çare olarak regex ifadelere gelin.
 
-<p>Bir örnek regex **r"^(From|To|Cc).*?python-list@python.org"** Şimdi bir açıklama için: düzeltme işareti **^** bir satırın başında metni eşleştirir. Aşağıdaki grup, **(From|To|Cc)** kısmına sahip olan kısım, hattın boru **|** ile ayrılmış kelimelerden biriyle başlaması gerektiği anlamına gelir. Buna OR operatörü denir ve satır gruptaki sözcüklerden herhangi biriyle başlarsa normal ifadeler eşleşir.newline **\n** karakteri dışında, **.*?** herhangi bir sayıda karakterle açgözlülükle eşleşmesi anlamına gelir, Açgözlü olmayan bölüm, mümkün olduğunca az tekrarla eşleşmesi anlamına gelir. **.** karakter yeni olmayan herhangi bir karakter anlamına gelir. *, 0 veya daha fazla kez tekrarlamak için anlamına gelir, ve? karakter açgözlü yapar.</p>
+Bir örnek regex **r"^(From|To|Cc).*?python-list@python.org"** Şimdi bir açıklama için: düzeltme işareti **^** bir satırın başında metni eşleştirir. Aşağıdaki grup, (From|To|Cc) kısmına sahip olan kısım, hattın boru **|** ile ayrılmış kelimelerden biriyle başlaması gerektiği anlamına gelir. Buna OR operatörü denir ve satır gruptaki sözcüklerden herhangi biriyle başlarsa normal ifadeler eşleşir.newline **\n** karakteri dışında, **.*?** herhangi bir sayıda karakterle açgözlülükle eşleşmesi anlamına gelir, Açgözlü olmayan bölüm, mümkün olduğunca az tekrarla eşleşmesi anlamına gelir. **.** karakter yeni olmayan herhangi bir karakter anlamına gelir. *, 0 veya daha fazla kez tekrarlamak için anlamına gelir, ve? karakter açgözlü yapar.
 
-Yani, aşağıdaki satırlar bu regex ile eşleşir:
+Yani, aşağıdaki satırlar bu **regex** ile eşleşir:
 **From: python-list@python.org To: !asp]<,. python-list@python.org**
 
 re yazımı için tam bir başvuru python belgelerinde mevcuttur. 
 
-'Doğru' e-posta eşleme ifadesinin bir örneği olarak (alıştırmadaki gibi), buna bakın
-
+**proper** e-posta eşleştirme **regex** örneği(egzersizdeki gibi)
 
 
 
