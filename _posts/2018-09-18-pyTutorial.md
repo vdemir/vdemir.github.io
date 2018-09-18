@@ -686,7 +686,7 @@ Awesome!
 
 Normal İfadeler (bazen regex'e, regex'e veya re'ye kısaltılır) metindeki kalıpları eşleştirmek için kullanılan bir araçtır. Python'da, re modülümüz var. Düzenli ifadeler için uygulamalar geniş kapsamlıdır, ancak oldukça karmaşıktırlar, bu yüzden belirli bir görev için bir regex kullanmayı düşünürken, alternatifleri düşünün ve son çare olarak regex ifadelere gelin.
 
-Bir örnek regex **r"^(From|To|Cc).*?python-list@python.org"** 
+Bir örnek regex r"^(From|To|Cc).*?python-list@python.org"
 
 <p>Şimdi bir açıklama için: düzeltme işareti ^ bir satırın başında metni eşleştirir. Aşağıdaki grup, (From|To|Cc) kısmına sahip olan kısım, hattın boru | ile ayrılmış kelimelerden biriyle başlaması gerektiği anlamına gelir. Buna OR operatörü denir ve satır gruptaki sözcüklerden herhangi biriyle başlarsa normal ifadeler eşleşir.newline \n karakteri dışında, .*? herhangi bir sayıda karakterle açgözlülükle eşleşmesi anlamına gelir, Açgözlü olmayan bölüm, mümkün olduğunca az tekrarla eşleşmesi anlamına gelir. . karakter yeni olmayan herhangi bir karakter anlamına gelir. *, 0 veya daha fazla kez tekrarlamak için anlamına gelir, ve? karakter açgözlü yapar.</p>
 
@@ -734,7 +734,41 @@ You failed to match wha.t.`1an?ug{}ly.email.com
 
 {% endhighlight %}
 
+
 <br>
+
+## 4 İstisna işleme
+
+Programlama yaparken hatalar meydana gelir. Bu sadece bir yaşam gerçeğidir. Belki de kullanıcı kötü girdi verdi. Belki bir ağ kaynağı mevcut değildi. Belki de program belleği bitti. Ya da programcı bir hata yapmış olabilir! 
+kural dışı durumlar
+Python'un hatalara çözümü özel bir durumlardur. Daha önce bir kural dışı durum görmüş olabilirsiniz.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <div class="alert alert-success" role="alert">
