@@ -695,7 +695,37 @@ re yazımı için tam bir başvuru python belgelerinde mevcuttur.
 
 **proper** e-posta eşleştirme **regex** örneği(egzersizdeki gibi)
 
+<br>
+{% highlight python linenos=table %}
+# Exercise: make a regular expression that will match an email
+import re
+def test_email(your_pattern):
+    pattern = re.compile(your_pattern)
+    emails = ["john@example.com", "python-list@python.org", "wha.t.`1an?ug{}ly@email.com"]
+    for email in emails:
+        if not re.match(pattern, email):
+            print("You failed to match %s" % (email))
+        elif not your_pattern:
+            print("Forgot to enter a pattern!")
+        else:
+            print("Pass")
+# Your pattern here!
+pattern = r"\"?([-a-zA-Z0-9.`?{}]+@\w+\.\w+)\"?"
+test_email(pattern)
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
 
+{% highlight python %}
+
+Pass
+Pass
+Pass
+
+
+{% endhighlight %}
+
+<br>
 
 
 <div class="alert alert-success" role="alert">
