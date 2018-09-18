@@ -857,9 +857,27 @@ print(b.intersection(a))
 
 {% endhighlight %}
 
+Etkinliklerden yalnızca birine hangi üyelerin katıldıklarını öğrenmek için 'symmetric_difference' yöntemini kullanın:
 
+<br>
+{% highlight python linenos=table %}
 
+a = set(["Jake", "John", "Eric"])
+b = set(["John", "Jill"])
 
+print(a.symmetric_difference(b))
+print(b.symmetric_difference(a))
+
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+{'Jill', 'Jake', 'Eric'}
+{'Jill', 'Jake', 'Eric'}
+
+{% endhighlight %}
 
 
 
