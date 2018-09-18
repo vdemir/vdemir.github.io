@@ -836,7 +836,7 @@ print(b)
 {% endhighlight %}
 
 <br>
-Her iki etkinliğe hangi üyelerin katıldıklarını öğrenmek için 'intersection' yöntemini kullanabilirsiniz:
+Her iki etkinliğe hangi üyelerin katıldıklarını öğrenmek için **intersection** yöntemini kullanabilirsiniz:
 
 <br>
 {% highlight python linenos=table %}
@@ -859,7 +859,7 @@ print(b.intersection(a))
 {% endhighlight %}
 
 <br>
-Etkinliklerden yalnızca birine hangi üyelerin katıldıklarını öğrenmek için 'symmetric_difference' yöntemini kullanın:
+Etkinliklerden yalnızca birine hangi üyelerin katıldıklarını öğrenmek için **symmetric_difference** yöntemini kullanın:
 
 <br>
 {% highlight python linenos=table %}
@@ -882,7 +882,7 @@ print(b.symmetric_difference(a))
 {% endhighlight %}
 
 <br>
-Hangi üyelerin yalnızca bir etkinliğe katıldığını ve diğerine katılmadığını öğrenmek için 'difference' yöntemini kullanın:
+Hangi üyelerin yalnızca bir etkinliğe katıldığını ve diğerine katılmadığını öğrenmek için **difference** yöntemini kullanın:
 
 <br>
 {% highlight python linenos=table %}
@@ -905,7 +905,7 @@ print(b.difference(a))
 {% endhighlight %}
 
 <br>
-Tüm katılımcıların listesini almak için 'union' yordamını kullanın:
+Tüm katılımcıların listesini almak için **union** yordamını kullanın:
 
 <br>
 {% highlight python linenos=table %}
