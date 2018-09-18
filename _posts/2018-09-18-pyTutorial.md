@@ -961,9 +961,9 @@ Json modülünü kullanabilmek için önce içeri aktarılmalıdır:
 
 JSON verileri için iki temel biçim vardır. Bir dize veya nesne veri yapısında. Python'daki nesne veri yapısı, iç içe geçmiş listelerden ve sözlüklerden oluşur. Nesne veri yapısı, veri yapısından elemanları eklemek, listelemek, aramak ve çıkarmak için python yordamlarının (listeler ve sözlükler için) kullanılmasına izin verir. String formatı esas olarak verileri başka bir programa aktarmak veya bir veri yapısına yüklemek için kullanılır. 
 
-JSON'u bir veri yapısına geri yüklemek için 'loads' yordamını kullanın. Bu yordam bir dize alır ve json nesne veri yapısına geri döndürür:
+JSON'u bir veri yapısına geri yüklemek için **loads** yordamını kullanın. Bu yordam bir dize alır ve json nesne veri yapısına geri döndürür:
 
-Bir veri yapısını JSON'a kodlamak için 'dumps' yordamını kullanın. Bu yordam bir object nesne alır ve bir string dize döndürür:
+Bir veri yapısını JSON'a kodlamak için **dumps** yordamını kullanın. Bu yordam bir object nesne alır ve bir string dize döndürür:
 
 <br>
 {% highlight python linenos=table %}
@@ -1005,7 +1005,7 @@ print(pickle.loads(pickled_string))
 
 {% endhighlight %}
 
-Bu alıştırmanın amacı, 'Me' anahtar / değer çiftiyle JSON dizesini yazdırmaktır: 800 eklendi.
+Bu alıştırmanın amacı, **Me** anahtar / değer çiftiyle JSON dizesini yazdırmaktır: 800 eklendi.
 
 <br>
 {% highlight python linenos=table %}
