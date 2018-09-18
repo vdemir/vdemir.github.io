@@ -984,6 +984,32 @@ print(json_string)
 
 <br>
 
+Python, pickle adı verilen tescilli bir Python veri serileştirme yordamını (ve cPickle olarak adlandırılan daha hızlı bir alternatif) destekler. 
+
+Tam olarak aynı şekilde kullanabilirsiniz.
+
+<br>
+{% highlight python linenos=table %}
+
+import pickle
+pickled_string = pickle.dumps([1, 2, 3, "a", "b", "c"])
+print(pickle.loads(pickled_string))
+
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+[1, 2, 3, 'a', 'b', 'c']
+
+{% endhighlight %}
+
+
+
+
+
+
 
 <br>
 
