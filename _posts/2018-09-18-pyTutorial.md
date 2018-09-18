@@ -963,8 +963,26 @@ JSON verileri için iki temel biçim vardır. Bir dize veya nesne veri yapısın
 
 JSON'u bir veri yapısına geri yüklemek için 'loads' yordamını kullanın. Bu yordam bir dize alır ve json nesne veri yapısına geri döndürür:
 
+Bir veri yapısını JSON'a kodlamak için 'dumps' yordamını kullanın. Bu yordam bir object nesne alır ve bir string dize döndürür:
 
+<br>
+{% highlight python linenos=table %}
 
+import json
+json_string = json.dumps([1, 2, 3, "a", "b", "c"])
+print(json_string)
+
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+[1, 2, 3, "a", "b", "c"]
+
+{% endhighlight %}
+
+<br>
 
 
 <br>
