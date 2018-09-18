@@ -697,6 +697,16 @@ re yazımı için tam bir başvuru python belgelerinde mevcuttur.
 
 <br>
 {% highlight python linenos=table %}
+# Example: 
+import re
+pattern = re.compile(r"\[(on|off)\]") # Slight optimization
+print(re.search(pattern, "Mono: Playback 65 [75%] [-16.50dB] [on]"))
+# Returns a Match object!
+print(re.search(pattern, "Nada...:-("))
+# Doesn't return anything.
+# End Example
+
+
 # Exercise: make a regular expression that will match an email
 import re
 def test_email(your_pattern):
@@ -717,6 +727,9 @@ test_email(pattern)
 <h2 class="python3">Python</h2>
 
 {% highlight python %}
+
+<_sre.SRE_Match object; span=(35, 39), match='[on]'>
+None
 
 Pass
 Pass
