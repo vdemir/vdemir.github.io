@@ -756,7 +756,7 @@ NameError: name 'a' is not defined
 
 Hata! 'a' değişkenine değer atamayı unuttum. 
 
-Fakat bazen programı tamamen durdurmak için kural dışı özel bir durum istemezsiniz. Bir kural dışı durum kaldırıldığında özel bir şey yapmak isteyebilirsiniz. Bu bir **try/except** bloğunda yapılır.
+Fakat bazen programı tamamen durdurmak için kural dışı özel bir durum istemezsiniz. Bir kural dışı durum oluştuğunda özel bir şey yapmak isteyebilirsiniz. Bu bir **try/except** bloğunda yapılır.
 
 
 
