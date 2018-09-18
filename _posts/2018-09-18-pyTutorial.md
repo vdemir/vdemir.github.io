@@ -901,7 +901,7 @@ print(b.difference(a))
 
 {% endhighlight %}
 
-
+Tüm katılımcıların listesini almak için 'union' yordamını kullanın:
 
 
 
