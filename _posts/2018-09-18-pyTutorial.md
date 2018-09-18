@@ -949,6 +949,23 @@ print(A.difference(B))
 
 {% endhighlight %}
 
+<br>
+
+## 5 Serileştirme
+
+Python, JSON'u kodlamak ve kodunu çözmek için yerleşik JSON kitaplıkları sağlar. 
+
+Python 2.5'de, simplejson modülü kullanılır, oysa Python 2.7'de json modülü kullanılır. Bu tercüman Python 2.7 kullandığı için json kullanıyor olacağız. 
+
+Json modülünü kullanabilmek için önce içeri aktarılmalıdır:
+
+JSON verileri için iki temel biçim vardır. Bir dize veya nesne veri yapısında. Python'daki nesne veri yapısı, iç içe geçmiş listelerden ve sözlüklerden oluşur. Nesne veri yapısı, veri yapısından elemanları eklemek, listelemek, aramak ve çıkarmak için python yordamlarının (listeler ve sözlükler için) kullanılmasına izin verir. Dize formatı esas olarak verileri başka bir programa aktarmak veya bir veri yapısına yüklemek için kullanılır. 
+
+JSON'u bir veri yapısına geri yüklemek için 'yükler' yöntemini kullanın. Bu yöntem bir dize alır ve json nesne veri yapısına geri döndürür:
+
+
+
+
 
 <br>
 
