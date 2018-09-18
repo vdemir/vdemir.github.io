@@ -812,7 +812,9 @@ print(set("my name is Eric and Eric is my name".split()))
 
 {% endhighlight %}
 
+'my', 'name', 'is', 'Eric' ve son olarak 'and' içeren bir liste basar. Cümlenin geri kalanı halihazırda sette bulunan kelimeleri kullandığı için, ikinci kez eklenmez. 
 
+Setler, diğer setler arasındaki farkları ve kesişimleri hesaplama yeteneğine sahip olduklarından Python'da güçlü bir araçtır. Örneğin, A ve B etkinliklerinde katılımcı listeniz olduğunu varsayalım:
 
 
 
