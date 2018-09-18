@@ -903,7 +903,23 @@ print(b.difference(a))
 
 Tüm katılımcıların listesini almak için 'union' yordamını kullanın:
 
+<br>
+{% highlight python linenos=table %}
 
+a = set(["Jake", "John", "Eric"])
+b = set(["John", "Jill"])
+
+print(a.union(b))
+
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+{'John', 'Jake', 'Eric', 'Jill'}
+
+{% endhighlight %}
 
 
 
