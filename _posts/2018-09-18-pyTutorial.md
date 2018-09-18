@@ -691,6 +691,14 @@ Normal İfadeler (bazen regex'e, regex'e veya re'ye kısaltılır) metindeki kal
 Yani, aşağıdaki satırlar bu regex ile eşleşir:
 **From: python-list@python.org To: !asp]<,. python-list@python.org**
 
+re yazımı için tam bir başvuru python belgelerinde mevcuttur. 
+
+'Doğru' e-posta eşleme ifadesinin bir örneği olarak (alıştırmadaki gibi), buna bakın
+
+
+
+
+
 <div class="alert alert-success" role="alert">
 <p><strong>Bilgi:</strong> Python ile ilgili olarak bahsettiğimiz 'süslü fonksiyonlar'  fonksiyonları ve yöntemleri daha kolay değiştirmemizi sağlayan Python sözdizimine özel bir değişikliktir. Tasarım desenleri bağlamında, süslü fonksiyonlar, alt sınıfları doğrudan kullanmak zorunda kalmadan bir fonksiyon, yöntem veya sınıfın fonksiyonselliğini dinamik olarak değiştirir. Bu, değiştirmek istemediğiniz fonksiyonlarin fonksiyonselliğini genişletmeniz gerektiğinde idealdir.</p>
 </div> 
