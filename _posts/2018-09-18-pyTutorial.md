@@ -741,7 +741,7 @@ You failed to match wha.t.`1an?ug{}ly.email.com
 
 Programlama yaparken hatalar meydana gelir. Bu sadece bir yaşam gerçeğidir. Belki de kullanıcı kötü girdi verdi. Belki bir ağ kaynağı mevcut değildi. Belki de program belleği bitti. Ya da programcı bir hata yapmış olabilir! 
 kural dışı durumlar
-Python'un hatalara çözümü özel bir durumlardur. Daha önce bir kural dışı durum görmüş olabilirsiniz.
+Hatalara Python'un çözümü özel bir durumdur. Daha önce kural dışı bir durum görmüş olabilirsiniz.
 
 
 
