@@ -816,7 +816,24 @@ print(set("my name is Eric and Eric is my name".split()))
 
 Setler, diğer setler arasındaki farkları ve kesişimleri hesaplama yeteneğine sahip olduklarından Python'da güçlü bir araçtır. Örneğin, A ve B etkinliklerinde katılımcı listeniz olduğunu varsayalım:
 
+<br>
+{% highlight python linenos=table %}
 
+a = set(["Jake", "John", "Eric"])
+print(a)
+b = set(["John", "Jill"])
+print(b)
+
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+{'John', 'Jake', 'Eric'}
+{'John', 'Jill'}
+
+{% endhighlight %}
 
 
 
