@@ -1040,6 +1040,29 @@ print(decoded_salaries["Me"])
 
 {% endhighlight %}
 
+<br>
+
+## 6 Kısmi Fonksiyonlar
+
+functools kütüphanesinden kısmi işlevi kullanarak python'da kısmi işlevler oluşturabilirsiniz. 
+
+Kısmi işlevler, x parametresiyle bir işlevi daha sınırlı işlev için daha az parametre ve sabit değerler kümesi olan bir işleve dönüştürmeyi sağlar
+
+İçe aktarma gerekli:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <br>
 
