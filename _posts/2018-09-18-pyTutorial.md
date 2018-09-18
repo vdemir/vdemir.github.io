@@ -703,7 +703,9 @@ re yazımı için tam bir başvuru python belgelerinde mevcuttur.
 import re
 def test_email(your_pattern):
     pattern = re.compile(your_pattern)
-    emails = ["john@example.com", "python-list@python.org", "python-list@python.org", "wha.t.`1an?ug{}ly@email.com", "wha.t.`1an?ug{}ly.email.com"]
+    emails = ["john@example.com", "python-list@python.org",
+               "python-list@python.org", "wha.t.`1an?ug{}ly@email.com",
+               "wha.t.`1an?ug{}ly.email.com"]
     for email in emails:
         print(re.match(pattern, email))
         if not re.match(pattern, email):
