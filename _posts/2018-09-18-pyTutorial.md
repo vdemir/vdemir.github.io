@@ -835,6 +835,7 @@ print(b)
 
 {% endhighlight %}
 
+<br>
 Her iki etkinliğe hangi üyelerin katıldıklarını öğrenmek için 'intersection' yöntemini kullanabilirsiniz:
 
 <br>
@@ -857,6 +858,7 @@ print(b.intersection(a))
 
 {% endhighlight %}
 
+<br>
 Etkinliklerden yalnızca birine hangi üyelerin katıldıklarını öğrenmek için 'symmetric_difference' yöntemini kullanın:
 
 <br>
@@ -879,6 +881,7 @@ print(b.symmetric_difference(a))
 
 {% endhighlight %}
 
+<br>
 Hangi üyelerin yalnızca bir etkinliğe katıldığını ve diğerine katılmadığını öğrenmek için 'difference' yöntemini kullanın:
 
 <br>
@@ -901,6 +904,7 @@ print(b.difference(a))
 
 {% endhighlight %}
 
+<br>
 Tüm katılımcıların listesini almak için 'union' yordamını kullanın:
 
 <br>
@@ -921,6 +925,7 @@ print(a.union(b))
 
 {% endhighlight %}
 
+<br>
 Aşağıdaki alıştırmada, etkinlik B'ye katılmayan A olayından tüm katılımcıları içeren bir kümeyi yazdırmak için verilen listeleri kullanın.
 
 <br>
