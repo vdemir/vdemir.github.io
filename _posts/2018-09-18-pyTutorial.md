@@ -686,9 +686,9 @@ Awesome!
 
 Normal İfadeler (bazen regex'e, regex'e veya re'ye kısaltılır) metindeki kalıpları eşleştirmek için kullanılan bir araçtır. Python'da, re modülümüz var. Düzenli ifadeler için uygulamalar geniş kapsamlıdır, ancak oldukça karmaşıktırlar, bu yüzden belirli bir görev için bir regex kullanmayı düşünürken, alternatifleri düşünün ve son çare olarak regex ifadelere gelin.
 
-Bir örnek regex **r"^(From|To|Cc).*?python-list@python.org"** 
+<p>Bir örnek regex <strong>r"^(From|To|Cc).*?python-list@python.org"</strong> 
 
-Şimdi bir açıklama için: düzeltme işareti ^ bir satırın başında metni eşleştirir. Aşağıdaki grup, (From|To|Cc) kısmına sahip olan kısım, hattın boru | ile ayrılmış kelimelerden biriyle başlaması gerektiği anlamına gelir. Buna OR operatörü denir ve satır gruptaki sözcüklerden herhangi biriyle başlarsa normal ifadeler eşleşir.newline \n karakteri dışında, .*? herhangi bir sayıda karakterle açgözlülükle eşleşmesi anlamına gelir, Açgözlü olmayan bölüm, mümkün olduğunca az tekrarla eşleşmesi anlamına gelir. . karakter yeni olmayan herhangi bir karakter anlamına gelir. *, 0 veya daha fazla kez tekrarlamak için anlamına gelir, ve? karakter açgözlü yapar.
+Şimdi bir açıklama için: düzeltme işareti <strong>^ bir satırın başında metni eşleştirir. Aşağıdaki grup, <strong>(From|To|Cc)</strong> kısmına sahip olan kısım, hattın boru <strong>|</strong> ile ayrılmış kelimelerden biriyle başlaması gerektiği anlamına gelir. Buna OR operatörü denir ve satır gruptaki sözcüklerden herhangi biriyle başlarsa normal ifadeler eşleşir. newline <strong>\n karakteri dışında, <strong>.*? </strong> herhangi bir sayıda karakterle açgözlülükle eşleşmesi anlamına gelir, Açgözlü olmayan bölüm, mümkün olduğunca az tekrarla eşleşmesi anlamına gelir. <strong>.</strong> karakter yeni olmayan herhangi bir karakter anlamına gelir. <strong>*</strong>, 0 veya daha fazla kez tekrarlamak için anlamına gelir, ve? karakter açgözlü yapar.</p>
 
 Yani, aşağıdaki satırlar bu **regex** ile eşleşir:
 **From: python-list@python.org To: !asp]<,. python-list@python.org**
