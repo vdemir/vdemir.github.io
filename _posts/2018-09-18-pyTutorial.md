@@ -770,7 +770,8 @@ the_list = (1, 2, 3, 4, 5)
 for i in range(8):
     try:
         do_stuff_with_number(the_list[i])
-    except IndexError: # Raised when accessing a non-existing index of a list
+    # Raised when accessing a non-existing index of a list
+    except IndexError: 
         do_stuff_with_number(0)
 {% endhighlight %}
 <br>
@@ -789,8 +790,14 @@ for i in range(8):
 
 {% endhighlight %}
 
+Orada bu çok zor değildi! Bunu herhangi bir istisna ile yapabilirsiniz.
 
 
+<br>
+
+## 5 Sets
+
+Setleri, çift kayıt içermeyen listelerdir. Paragrafta kullanılan kelimelerin listesini toplamak istediğinizi varsayalım:
 
 
 
