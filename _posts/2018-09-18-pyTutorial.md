@@ -1005,7 +1005,7 @@ print(pickle.loads(pickled_string))
 
 {% endhighlight %}
 
-Bu alıştırmanın amacı, **Me** anahtar / değer çiftiyle JSON dizesini yazdırmaktır: 800 eklendi.
+Bu alıştırmanın amacı, **Me** anahtar-değer çiftiyle JSON dizesini yazdırmaktır: 800 eklendi.
 
 <br>
 {% highlight python linenos=table %}
