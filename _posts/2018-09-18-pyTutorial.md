@@ -688,8 +688,8 @@ Normal İfadeler (bazen regex'e, regex'e veya re'ye kısaltılır) metindeki kal
 
 <p>Bir örnek regex **r"^(From|To|Cc).*?python-list@python.org"** Şimdi bir açıklama için: düzeltme işareti **^** bir satırın başında metni eşleştirir. Aşağıdaki grup, **(From|To|Cc)** kısmına sahip olan kısım, hattın boru **|** ile ayrılmış kelimelerden biriyle başlaması gerektiği anlamına gelir. Buna OR operatörü denir ve satır gruptaki sözcüklerden herhangi biriyle başlarsa normal ifadeler eşleşir.newline **\n** karakteri dışında, **.*?** herhangi bir sayıda karakterle açgözlülükle eşleşmesi anlamına gelir, Açgözlü olmayan bölüm, mümkün olduğunca az tekrarla eşleşmesi anlamına gelir. **.** karakter yeni olmayan herhangi bir karakter anlamına gelir. *, 0 veya daha fazla kez tekrarlamak için anlamına gelir, ve? karakter açgözlü yapar.</p>
 
-
-
+Yani, aşağıdaki satırlar bu regex ile eşleşir:
+**From: python-list@python.org To: !asp]<,. python-list@python.org**
 
 <div class="alert alert-success" role="alert">
 <p><strong>Bilgi:</strong> Python ile ilgili olarak bahsettiğimiz 'süslü fonksiyonlar'  fonksiyonları ve yöntemleri daha kolay değiştirmemizi sağlayan Python sözdizimine özel bir değişikliktir. Tasarım desenleri bağlamında, süslü fonksiyonlar, alt sınıfları doğrudan kullanmak zorunda kalmadan bir fonksiyon, yöntem veya sınıfın fonksiyonselliğini dinamik olarak değiştirir. Bu, değiştirmek istemediğiniz fonksiyonlarin fonksiyonselliğini genişletmeniz gerektiğinde idealdir.</p>
