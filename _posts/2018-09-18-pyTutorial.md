@@ -921,9 +921,28 @@ print(a.union(b))
 
 {% endhighlight %}
 
+Aşağıdaki alıştırmada, etkinlik B'ye katılmayan A olayından tüm katılımcıları içeren bir kümeyi yazdırmak için verilen listeleri kullanın.
 
+<br>
+{% highlight python linenos=table %}
 
+a = ["Jake", "John", "Eric"]
+b = ["John", "Jill"]
 
+A = set(a)
+B = set(b)
+
+print(A.difference(B))
+
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+{'Eric', 'Jake'}
+
+{% endhighlight %}
 
 
 
