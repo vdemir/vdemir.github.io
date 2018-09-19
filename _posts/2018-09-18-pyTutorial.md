@@ -1283,6 +1283,27 @@ Ayrıca, Python'daki süslü fonksiyonlar,  closure kapatıcıların yaygın kul
 
 Closure kapatıcıları kullanarak birden çok çarpım fonksiyonunu elde etmek için fonksiyonlar yapmak için iç içe bir döngü ve bir python closure kapatıcı yapın. Bu closure kapatıcıları kullanarak **multiply_with_5()** veya **multiply_with_4()** fonksiyonlarını oluşturmak için fonksiyonlar oluşturabilir.
 
+<br>
+
+{% highlight python linenos=table %}
+
+def multiplier_of(n):
+    def multiplier(number):
+        return number*n
+    return multiplier
+
+multiplywith5 = multiplier_of(5)
+print(multiplywith5(9))
+
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+45
+
+{% endhighlight %}
 
 
 
