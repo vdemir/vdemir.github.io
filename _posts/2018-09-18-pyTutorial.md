@@ -1353,9 +1353,25 @@ Analytics, logging, and instrumentation
 
 Özellikle büyük uygulamalarla, genellikle neler olup bittiğini ölçmemiz ve farklı etkinlikleri ölçen metrikleri kaydetmemiz gerekir. Bu gibi kayda değer olayları kendi fonksiyonlarında veya yordamlarında kapsülleyerek, bir dekoratör bu ihtiyacı çok kolay ve kolay bir şekilde ele alabilir.
 
+{% highlight python %}
 
+from myapp.log import logger
 
+def log_order_event(func):
+    def wrapper(*args, **kwargs):
+        logger.info("Ordering: %s", func.__name__)
+        order = func(*args, **kwargs)
+        logger.debug("Order result: %s", order.result)
+        return order
+    return wrapper
 
+@log_order_event
+def order_pizza(*toppings):
+    # let's get some pizza!
+
+{% endhighlight %}
+
+Aynı yaklaşım sayıları veya diğer ölçümleri kaydetmek için kullanılabilir.
 
 
 
