@@ -147,11 +147,10 @@ img.resize {
 + 10 [Kod İçgözlemi](#D10)
 + 11 [Closures](#D11)
 
+ 
 
 <br>
-
-<br>
-
+<a id="D1"></a>
 ## 1 Iterables
 <br>
 Bu bir Python **yield** anahtar kelimesi ile ilgilidir. **yield**, **generator** ve **iterable** ne olduğunu açıklar.
@@ -276,6 +275,7 @@ Fonksiyon çalıştığında generator boş olarak kabul edilir, ancak artık **
  
 Kodunuz açıklandı:
 
+<a id="D2"></a>
 ### Generator:
 
 <br>
