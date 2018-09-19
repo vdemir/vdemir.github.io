@@ -136,11 +136,16 @@ img.resize {
 <br>
 
 + 1 [Iterables](#D1)
-+ 2 [Generators](#D1)
-+ 3 [List İçlemi](#D1)
-+ 4 [Çoklu Fonksiyon İçlem İfadeleri](#D1)
-+ 5 [Generators](#D1)
-+ 6 [List İçlemi](#D1)
++ 2 [Generators](#D2)
++ 3 [List İçlemi](#D3)
++ 4 [Çoklu Fonksiyon İçlem İfadeleri](#D4)
++ 5 [Düzenli Kurallı İfadeler](#D5)
++ 6 [İstisna işleme](#D6)
++ 7 [Sets](#D7)
++ 8 [Serileştirme](#D8)
++ 9 [Kısmi Fonksiyonlar](#D9)
++ 10 [Kod İçgözlemi](#D10)
++ 11 [Closures](#D11)
 <br>
 
 ## 1 Iterables
