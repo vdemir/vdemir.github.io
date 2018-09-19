@@ -1337,7 +1337,13 @@ def some_function():
 
 {% endhighlight %}
 
+Fakat dekoratörler yazmak tamamen farklı bir beceri setidir. Ve önemsiz değil; anlamak zorundasın:
 
+-  closures
+-  birinci sınıf içlemler olarak fonksiyonlarla nasıl çalışılır
+-  değişken içlemler
+-  içlem açma, hatta
+-  Python'un kaynak kodunu nasıl yüklediğiyle ilgili bazı ayrıntılar.
 
 
 
