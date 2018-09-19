@@ -412,7 +412,7 @@ Bir kaynağa erişimi kontrol etmek gibi çeşitli şeyler için yararlı olabil
 
 generator uygulanması çok kolaydır, ancak anlaması biraz zor. 
 
-Generators, ardışıl işlem oluşturmak için kullanılır, ancak farklı bir yaklaşımla. Generators, her seferinde özel olarak ardışık öğeler grubunu döndüren basit işlevlerdir. 
+Generators, ardışıl işlem oluşturmak için kullanılır, ancak farklı bir yaklaşımla. Generators, her seferinde özel olarak ardışık öğeler grubunu döndüren basit fonksiyonlardir. 
 
 Bir öğe kümesi üzerinde ardışıl işlem, for deyimini kullanmaya başladığında, generator çalıştırılır. generator fonksiyon kodu bir **yield**' deyimine ulaştığında, generator, çalışmayı for döngüye geri göndererek, setten yeni bir değer döndürür. Generator fonksiyonu, istediği kadar çok değer(muhtemelen sonsuz) üreterek, her birinin sırayla üretilmesini sağlayabilir.
 
@@ -1044,9 +1044,9 @@ print(decoded_salaries["Me"])
 
 ## 6 Kısmi Fonksiyonlar
 
-functools kütüphanesinden kısmi işlevi kullanarak python'da kısmi işlevler oluşturabilirsiniz. 
+functools kütüphanesinden kısmi işlevi kullanarak python'da kısmi fonksiyonlar oluşturabilirsiniz. 
 
-Kısmi işlevler, x parametresiyle bir işlevi daha sınırlı işlev için daha az parametre ve sabit değerler kümesi olan bir işleve dönüştürmeyi sağlar
+Kısmi fonksiyonlar, x parametresiyle bir işlevi daha sınırlı işlev için daha az parametre ve sabit değerler kümesi olan bir işleve dönüştürmeyi sağlar
 
 İçe aktarma gerekli:
 
@@ -1121,7 +1121,18 @@ print(p(8))
 
 ## 6 Kod İçgözlemi
 
-Kod İçgözlemi, neler olduğunu, ne yaptıkları ve ne bildikleri bilmek için sınıfları, işlevleri ve anahtar kelimeleri inceleme yeteneğidir.
+Kod İçgözlemi, ne olduklarını, ne yaptıklarını ve ne bildiklerini bilmek için sınıfları, fonksiyonlari ve anahtar kelimeleri -**classes, functions and keywords**- tahlil etme yeteneğidir.
+
+Python, kod içgözlemi için çeşitli fonksiyonlar ve yardımcı uygulamalar sunar.
+
+
+
+
+
+
+
+
+
 
 <br>
 
