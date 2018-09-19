@@ -1274,7 +1274,8 @@ Burn the Sun!
 
 {% endhighlight %}
 
-**transmit_to_space()**ifadesinin yürütülmesi tamamlanmış olsa da, mesaj oldukça korunmuştur. Verilerin, diğer orijinal işlevlerin sona ermesinden sonra bile bir koda eklendiği bu teknik, python 
+<br>
+**transmit_to_space()** ifadesinin yürütülmesi tamamlanmış olsa da, mesaj oldukça korunmuştur. Verilerin, diğer orijinal işlevlerin sona ermesinden sonra bile bir koda eklendiği bu teknik, python 
 
 ADVANTAGE'de kapanmalar olarak adlandırılır. Kapanışlar, global değişkenlerin kullanılmasını engelleyebilir ve bir tür veri gizlemesi sağlar. Bir sınıftaki birkaç yöntem, bunun yerine kapanışları kullanın). 
 
