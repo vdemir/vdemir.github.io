@@ -1281,7 +1281,7 @@ Avantaj: **Closure**, global değişkenlerin kullanılmasını önleyebilir ve b
  
 Ayrıca, Python'daki süslü fonksiyonlar,  closure kapatıcıların yaygın kullanımını sağlıyor.
 
-Closure kapatıcıları kullanarak çoklu çoğaltma işlevleri elde etmek için işlevler yapmak için iç içe bir döngü ve bir python closure kapatıcı yapın. Bu, kapanışları kullanarak, kapamaları kullanarak **multiply_with_5()** veya **multiply_with_4()** işlevlerini oluşturmak için işlevler oluşturabilir.
+Closure kapatıcıları kullanarak birden çok çarpım fonksiyonunu elde etmek için fonksiyonlar yapmak için iç içe bir döngü ve bir python closure kapatıcı yapın. Bu closure kapatıcıları kullanarak **multiply_with_5()** veya **multiply_with_4()** fonksiyonlarını oluşturmak için fonksiyonlar oluşturabilir.
 
 
 
