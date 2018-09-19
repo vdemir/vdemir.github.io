@@ -1145,7 +1145,7 @@ __name__
 
 Çoğu zaman en önemlisi yardım fonksiyonidir, çünkü diğer fonksiyonlerin ne yaptığını bulmak için kullanabilirsiniz.
 
-Verilen Araç nesnesinin tüm öznitelliklerinin bir listesini yazdırın.
+Verilen Vehicle öbeğinin tüm öznitelliklerinin bir listesini yazdırın.
 
 <br>
 
