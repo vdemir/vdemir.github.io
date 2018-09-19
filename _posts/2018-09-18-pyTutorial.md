@@ -810,7 +810,7 @@ Orada bu çok zor değildi! Bunu herhangi bir istisna ile yapabilirsiniz.
 <a id="D7"></a>
 ## 7 Sets
 
-Setleri, çift kayıt içermeyen listelerdir. Paragrafta kullanılan kelimelerin listesini toplamak istediğinizi varsayalım:
+Setler, çift kayıt içermeyen listelerdir. Paragrafta kullanılan kelimelerin listesini toplamak istediğinizi varsayalım:
 
 <br>
 {% highlight python linenos=table %}
