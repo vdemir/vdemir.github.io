@@ -146,6 +146,10 @@ img.resize {
 + 9 [Kısmi Fonksiyonlar](#D9)
 + 10 [Kod İçgözlemi](#D10)
 + 11 [Closures](#D11)
+
+
+<br>
+
 <br>
 
 ## 1 Iterables
