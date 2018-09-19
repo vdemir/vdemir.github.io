@@ -1275,11 +1275,11 @@ Burn the Sun!
 {% endhighlight %}
 
 <br>
-**transmit_to_space()** ifadesinin yürütülmesi tamamlanmış olsa da, mesaj oldukça korunmuştur. Verilerin, diğer orijinal işlevlerin sona ermesinden sonra bile bir koda eklendiği bu teknik, python 
+**transmit_to_space()** ifadesinin yürütülmesi tamamlanmış olsa da, message oldukça korunmuştur. Verilerin, diğer orijinal işlevlerin bitiminden sonra bile bir koda eklendiği bu teknik, python'da **closure** olarak adlandırılır.
 
-ADVANTAGE'de kapanmalar olarak adlandırılır. Kapanışlar, global değişkenlerin kullanılmasını engelleyebilir ve bir tür veri gizlemesi sağlar. Bir sınıftaki birkaç yöntem, bunun yerine kapanışları kullanın). 
-
-Ayrıca, Python'daki dekoratörler, kapakların yaygın kullanımını sağlıyor.
+Avantaj: **Closure**, global değişkenlerin kullanılmasını önleyebilir ve bir tür veri gizleme sağlar. (Örneğin. Bir sınıfta birkaç yordam olduğunda, bunun yerine **closure** kullanın).
+ 
+Ayrıca, Python'daki süslü fonksiyonlar,  closure kapatıcıların yaygın kullanımını sağlıyor.
 
 
 
