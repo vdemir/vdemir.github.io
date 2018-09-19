@@ -1188,9 +1188,33 @@ Closures, bellekte bulunmasalar bile çevrelediği etki alanı ile ilgili değer
 
 İlk olarak, bir iç içe fonksiyon, başka bir fonksiyonun içinde tanımlanmış bir işlevdir. İç içe geçmiş işlevlerin çevrelenen etki alanı değişkenlerine erişebildiğini unutmamak çok önemlidir. Bununla birlikte, en azından pythonda, sadece salt okunurlar. Ancak, bu değişkenleri değiştirmek için 'nonlocal' anahtar kelimeyi açıkça bu değişkenlerle kullanabilirsiniz.
 
+Örneğin:
 
+<br>
 
+{% highlight python linenos=table %}
 
+def transmit_to_space(message):
+    "This is the enclosing function"
+    def data_transmitter():
+        "The nested function"
+        print(message)
+
+    data_transmitter()
+
+print(transmit_to_space("Test message"))
+
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+Test message
+None
+
+{% endhighlight %}
+<br>
 
 
 
