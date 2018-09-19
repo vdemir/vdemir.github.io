@@ -1186,9 +1186,7 @@ print(dir(Vehicle))
 
 Closures, bellekte bulunmasalar bile çevrelediği etki alanı ile ilgili değerleri hatırlayan bir fonksiyon öbeğidir. Hadi adım adım ulaşalım
 
-İlk olarak, bir iç içe fonksiyon, başka bir fonksiyonun içinde tanımlanmış bir işlevdir. İç içe geçmiş işlevlerin çevrelenen etki alanı değişkenlerine erişebildiğini unutmamak çok önemlidir. Bununla birlikte, en azından pythonda, sadece salt okunurlar. Ancak, bu değişkenleri değiştirmek için 'nonlocal' anahtar kelimeyi bu değişkenlerle açıkça kullanabilirsiniz.
-
-
+İlk olarak, bir iç içe fonksiyon, başka bir fonksiyonun içinde tanımlanmış bir işlevdir. İç içe geçmiş işlevlerin çevrelenen etki alanı değişkenlerine erişebildiğini unutmamak çok önemlidir. Bununla birlikte, en azından pythonda, sadece salt okunurlar. Ancak, bu değişkenleri değiştirmek için 'nonlocal' anahtar kelimeyi açıkça bu değişkenlerle kullanabilirsiniz.
 
 
 
