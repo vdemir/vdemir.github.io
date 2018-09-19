@@ -1345,7 +1345,7 @@ Fakat dekoratörler yazmak tamamen farklı bir beceri setidir. Ve önemsiz deği
 -  içlem açma, hatta
 -  Python'un kaynak kodunu nasıl yüklediğiyle ilgili bazı ayrıntılar.
 
-
+Bunların tümü, anlamak ve ustalaşmak için önemli bir zaman alır. Ve öğrenmek için zaten bir şeylerin var. Senin zamanın buna değer mi?
 
 
 
