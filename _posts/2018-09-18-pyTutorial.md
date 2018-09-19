@@ -1117,8 +1117,11 @@ print(p(8))
 {% endhighlight %}
 
 
+<br>
 
+## 6 Kod İçgözlemi
 
+Kod İçgözlemi, neler olduğunu, ne yaptıkları ve ne bildikleri bilmek için sınıfları, işlevleri ve anahtar kelimeleri inceleme yeteneğidir.
 
 <br>
 
