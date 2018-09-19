@@ -1347,6 +1347,22 @@ Fakat dekoratörler yazmak tamamen farklı bir beceri setidir. Ve önemsiz deği
 
 Bunların tümü, anlamak ve ustalaşmak için önemli bir zaman alır. Ve öğrenmek için zaten bir şeylerin var. Senin zamanın buna değer mi?
 
+Benim için cevap 'bin kez EVET! oldu, Ve olasılıklar da senin için olacak. Dekoratör yazmanın temel faydaları nelerdir? Kolay ve güçlü bir şekilde ne yapmanıza izin veriyorlar, günlük gelişiminizde?
+
+Analytics, logging, and instrumentation
+
+Özellikle büyük uygulamalarla, genellikle neler olup bittiğini ölçmemiz ve farklı etkinlikleri ölçen metrikleri kaydetmemiz gerekir. Bu gibi kayda değer olayları kendi fonksiyonlarında veya yordamlarında kapsülleyerek, bir dekoratör bu ihtiyacı çok kolay ve kolay bir şekilde ele alabilir.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
