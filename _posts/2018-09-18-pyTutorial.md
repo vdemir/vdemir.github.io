@@ -275,7 +275,6 @@ Fonksiyon çalıştığında generator boş olarak kabul edilir, ancak artık **
  
 Kodunuz açıklandı:
 
-<a id="D2"></a>
 ### Generator:
 
 <br>
@@ -416,6 +415,7 @@ StopIteration
 Bir kaynağa erişimi kontrol etmek gibi çeşitli şeyler için yararlı olabilir.
 
 <br>
+<a id="D2"></a>
 ## 2 Generators
 
 generator uygulanması çok kolaydır, ancak anlaması biraz zor. 
