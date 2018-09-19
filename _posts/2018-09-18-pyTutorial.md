@@ -1373,9 +1373,9 @@ def order_pizza(*toppings):
 
 Aynı yaklaşım sayıları veya diğer ölçümleri kaydetmek için kullanılabilir.
 
+Doğrulama ve çalışma zamanı denetimleri
 
-
-
+Python’un tip sistemi güçlü bir şekilde yazılmıştır, ancak çok dinamiktir. Tüm faydaları için bu, bazı hataların yavaşça içeri süzülebileceği anlamına gelir, daha statik olarak yazılan diller (Java gibi) derleme zamanında yakalanır. Ötesine baktığımızda, içeri veya dışarı giden verilere daha karmaşık, özel kontroller uygulamak isteyebilirsiniz. Dekoratörler, tüm bunları kolayca halledebilir ve aynı anda birçok fonksiyona uygulayabilir.
 
 
 
