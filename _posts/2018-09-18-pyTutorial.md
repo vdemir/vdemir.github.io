@@ -1216,8 +1216,34 @@ None
 {% endhighlight %}
 <br>
 
+ Bu **data_transmitter** fonksiyonu **message** erişebilir olduğu sürece iyi çalışır. **nonlocal** anahtar kelimenin kullanımını göstermek için şunu düşünün.
 
+<br>
 
+{% highlight python linenos=table %}
+
+def print_msg(number):
+    def printer():
+        "Here we are using the nonlocal keyword"
+        nonlocal number
+        number=3
+        print(number)
+    printer()
+    print(number)
+
+print_msg(9)
+
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+3
+3
+
+{% endhighlight %}
+<br>
 
 
 
