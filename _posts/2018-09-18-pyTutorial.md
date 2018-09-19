@@ -1051,7 +1051,7 @@ Kısmi işlevler, x parametresiyle bir işlevi daha sınırlı işlev için daha
 İçe aktarma gerekli:
 
 <br>
-{% highlight python %}
+{% highlight python linenos=table %}
 
 from functools import partial
 
@@ -1084,8 +1084,37 @@ print(dbl(4))
 
 Önemli bir not: varsayılan değerler, değişkenleri soldan değiştirmeye başlar. 2, x'in yerini alacak. dbl(4) çağrıldığında y, 4'e eşit olacak. Bu örnekte bir fark oluşmaz, ancak aşağıdaki örnekte yer almaktadır.
 
+partial() öğesini çağırarak ve func() içindeki ilk üç değişkeni değiştirerek sağlanan işlevi düzenleyin. Ardından, çıkışın 60'a eşit olması için sadece bir giriş değişkeni kullanarak yeni kısmi işlevle yazdırın.
 
+<br>
+{% highlight python linenos=table %}
 
+from functools import partial
+
+{% endhighlight %}
+
+<br>
+Bu kod 8'e dönecek.
+
+<br>
+{% highlight python linenos=table %}
+
+from functools import partial
+def func(u,v,w,x):
+    return u*4 + v*3 + w*2 + x
+
+p = partial(func,5,6,7)
+print(p(8))
+
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+60
+
+{% endhighlight %}
 
 
 
