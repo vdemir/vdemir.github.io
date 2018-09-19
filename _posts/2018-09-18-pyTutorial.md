@@ -1155,9 +1155,7 @@ from functools import partial
 {% endhighlight %}
 
 <br>
-Bu kod 8'e dönecek.
 
-<br>
 {% highlight python linenos=table %}
 
 # Define the Vehicle class
