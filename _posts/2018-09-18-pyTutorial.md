@@ -1059,9 +1059,9 @@ print(decoded_salaries["Me"])
 <a id="D9"></a>
 ## 9 Kısmi Fonksiyonlar
 
-functools kütüphanesinden kısmi fonksiyoni kullanarak python'da kısmi fonksiyonlar oluşturabilirsiniz. 
+functools kütüphanesinden kısmi fonksiyonu kullanarak python'da kısmi fonksiyonlar oluşturabilirsiniz. 
 
-Kısmi fonksiyonlar, x parametresiyle bir fonksiyoni daha sınırlı fonksiyon için daha az parametre ve sabit değerler kümesi olan bir fonksiyone dönüştürmeyi sağlar
+Kısmi fonksiyonlar, x parametresiyle bir fonksiyonu daha sınırlı fonksiyon için daha az parametre ve sabit değerler kümesi olan bir fonksiyone dönüştürmeyi sağlar
 
 İçe aktarma gerekli:
 
@@ -1099,7 +1099,7 @@ print(dbl(4))
 
 Önemli bir not: varsayılan değerler, değişkenleri soldan değiştirmeye başlar. 2, x'in yerini alacak. dbl(4) çağrıldığında y, 4'e eşit olacak. Bu örnekte bir fark oluşmaz, ancak aşağıdaki örnekte yer almaktadır.
 
-partial() öğesini çağırarak ve func() içindeki ilk üç değişkeni değiştirerek sağlanan fonksiyoni düzenleyin. Ardından, çıkışın 60'a eşit olması için sadece bir giriş değişkeni kullanarak yeni kısmi fonksiyonle yazdırın.
+partial() öğesini çağırarak ve func() içindeki ilk üç değişkeni değiştirerek sağlanan fonksiyonu düzenleyin. Ardından, çıkışın 60'a eşit olması için sadece bir giriş değişkeni kullanarak yeni kısmi fonksiyonle yazdırın.
 
 <br>
 {% highlight python linenos=table %}
