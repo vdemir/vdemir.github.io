@@ -1082,7 +1082,7 @@ print(dbl(4))
 
 {% endhighlight %}
 
-
+Önemli bir not: varsayılan değerler, değişkenleri soldan değiştirmeye başlar. 2, x'in yerini alacak. dbl(4) çağrıldığında y, 4'e eşit olacak. Bu örnekte bir fark oluşmaz, ancak aşağıdaki örnekte yer almaktadır.
 
 
 
