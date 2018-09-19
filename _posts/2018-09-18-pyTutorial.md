@@ -524,6 +524,7 @@ Good, The fib function is a generator.
 {% endhighlight %}
 <br>
 
+<a id="D3"></a>
 ## 3 List İçlemi
 
 List İçlemi, tek bir okunabilir satırda, başka bir listeye dayalı yeni bir liste oluşturan çok güçlü bir araçtır. 
