@@ -1148,13 +1148,6 @@ __name__
 Verilen Araç nesnesinin tüm öznitelliklerinin bir listesini yazdırın.
 
 <br>
-{% highlight python linenos=table %}
-
-from functools import partial
-
-{% endhighlight %}
-
-<br>
 
 {% highlight python linenos=table %}
 
