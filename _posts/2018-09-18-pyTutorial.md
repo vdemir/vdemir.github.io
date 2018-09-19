@@ -586,6 +586,7 @@ print(newlist)
 {% endhighlight %}
 <br>
 
+<a id="D4"></a>
 ## 4 Çoklu Fonksiyon İçlem İfadeleri
 
 Python'daki her fonksiyon, normal olarak bildirilirse, önceden tanımlanmış bir sayıda içlem  alır:
@@ -691,6 +692,7 @@ Awesome!
 
 <br>
 
+<a id="D5"></a>
 ## 5 Düzenli Kurallı İfadeler
 
 Normal İfadeler (bazen regex'e, regex'e veya re'ye kısaltılır) metindeki kalıpları eşleştirmek için kullanılan bir araçtır. Python'da, re modülümüz var. Düzenli ifadeler için uygulamalar geniş kapsamlıdır, ancak oldukça karmaşıktırlar, bu yüzden belirli bir görev için bir regex kullanmayı düşünürken, alternatifleri düşünün ve son çare olarak regex ifadelere gelin.
@@ -746,6 +748,7 @@ You failed to match wha.t.`1an?ug{}ly.email.com
 
 <br>
 
+<a id="D6"></a>
 ## 6 İstisna işleme
 
 Programlama yaparken hatalar meydana gelir. Bu sadece bir yaşam gerçeğidir. Belki de kullanıcı kötü girdi verdi. Belki bir ağ kaynağı mevcut değildi. Belki de program belleği bitti. Ya da programcı bir hata yapmış olabilir! 
@@ -804,6 +807,7 @@ Orada bu çok zor değildi! Bunu herhangi bir istisna ile yapabilirsiniz.
 
 <br>
 
+<a id="D7"></a>
 ## 7 Sets
 
 Setleri, çift kayıt içermeyen listelerdir. Paragrafta kullanılan kelimelerin listesini toplamak istediğinizi varsayalım:
@@ -960,6 +964,7 @@ print(A.difference(B))
 
 <br>
 
+<a id="D8"></a>
 ## 8 Serileştirme
 
 Python, JSON'u kodlamak ve kodunu çözmek için yerleşik JSON kitaplıkları sağlar. 
@@ -1051,6 +1056,7 @@ print(decoded_salaries["Me"])
 
 <br>
 
+<a id="D9"></a>
 ## 9 Kısmi Fonksiyonlar
 
 functools kütüphanesinden kısmi fonksiyoni kullanarak python'da kısmi fonksiyonlar oluşturabilirsiniz. 
@@ -1128,6 +1134,7 @@ print(p(8))
 
 <br>
 
+<a id="D10"></a>
 ## 10 Kod İçgözlemi
 
 Kod İçgözlemi, ne olduklarını, ne yaptıklarını ve ne bildiklerini bilmek için sınıfları, fonksiyonlari ve anahtar kelimeleri -**classes, functions and keywords**- tahlil etme yeteneğidir.
@@ -1191,6 +1198,7 @@ print(dir(Vehicle))
 
 <br>
 
+<a id="D11"></a>
 ## 11 Closures
 
 Closures, bellekte bulunmasalar bile çevrelediği etki alanı ile ilgili değerleri hatırlayan bir fonksiyon öbeğidir. Hadi adım adım ulaşalım
