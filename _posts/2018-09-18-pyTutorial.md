@@ -135,13 +135,12 @@ img.resize {
 
 <br>
 
-+ 1 [Generators](#D1)
-    - &nbsp;&nbsp;&nbsp;&nbsp; 1.1&nbsp;[Birinci Sınıf Öbekler](#D11)
-    - &nbsp;&nbsp;&nbsp;&nbsp; 1.2&nbsp;[İç Fonksiyonlar](#D12)
-    - &nbsp;&nbsp;&nbsp;&nbsp; 1.3&nbsp;[Fonksiyonlardan Dönen Fonksiyonlar](#D13)
-    - &nbsp;&nbsp;&nbsp;&nbsp; 1.4&nbsp;[Fonksiyonlar hakkında bilmeniz gerekenler](#D14)
-       - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.4.1&nbsp;[Fonksiyonları diğer fonksiyonlar içinde tanımlayın](#D141)
-
++ 1 [Iterables](#D1)
++ 2 [Generators](#D1)
++ 3 [List İçlemi](#D1)
++ 4 [Çoklu Fonksiyon İçlem İfadeleri](#D1)
++ 5 [Generators](#D1)
++ 6 [List İçlemi](#D1)
 <br>
 
 ## 1 Iterables
@@ -577,7 +576,7 @@ print(newlist)
 {% endhighlight %}
 <br>
 
-## 3 Çoklu Fonksiyon İçlem İfadeleri
+## 4 Çoklu Fonksiyon İçlem İfadeleri
 
 Python'daki her fonksiyon, normal olarak bildirilirse, önceden tanımlanmış bir sayıda içlem  alır:
 
@@ -682,7 +681,7 @@ Awesome!
 
 <br>
 
-## 3 Düzenli Kurallı İfadeler
+## 5 Düzenli Kurallı İfadeler
 
 Normal İfadeler (bazen regex'e, regex'e veya re'ye kısaltılır) metindeki kalıpları eşleştirmek için kullanılan bir araçtır. Python'da, re modülümüz var. Düzenli ifadeler için uygulamalar geniş kapsamlıdır, ancak oldukça karmaşıktırlar, bu yüzden belirli bir görev için bir regex kullanmayı düşünürken, alternatifleri düşünün ve son çare olarak regex ifadelere gelin.
 
@@ -737,7 +736,7 @@ You failed to match wha.t.`1an?ug{}ly.email.com
 
 <br>
 
-## 4 İstisna işleme
+## 6 İstisna işleme
 
 Programlama yaparken hatalar meydana gelir. Bu sadece bir yaşam gerçeğidir. Belki de kullanıcı kötü girdi verdi. Belki bir ağ kaynağı mevcut değildi. Belki de program belleği bitti. Ya da programcı bir hata yapmış olabilir! 
 
@@ -795,7 +794,7 @@ Orada bu çok zor değildi! Bunu herhangi bir istisna ile yapabilirsiniz.
 
 <br>
 
-## 5 Sets
+## 7 Sets
 
 Setleri, çift kayıt içermeyen listelerdir. Paragrafta kullanılan kelimelerin listesini toplamak istediğinizi varsayalım:
 
@@ -951,7 +950,7 @@ print(A.difference(B))
 
 <br>
 
-## 5 Serileştirme
+## 8 Serileştirme
 
 Python, JSON'u kodlamak ve kodunu çözmek için yerleşik JSON kitaplıkları sağlar. 
 
@@ -1042,7 +1041,7 @@ print(decoded_salaries["Me"])
 
 <br>
 
-## 6 Kısmi Fonksiyonlar
+## 9 Kısmi Fonksiyonlar
 
 functools kütüphanesinden kısmi fonksiyoni kullanarak python'da kısmi fonksiyonlar oluşturabilirsiniz. 
 
@@ -1119,7 +1118,7 @@ print(p(8))
 
 <br>
 
-## 6 Kod İçgözlemi
+## 10 Kod İçgözlemi
 
 Kod İçgözlemi, ne olduklarını, ne yaptıklarını ve ne bildiklerini bilmek için sınıfları, fonksiyonlari ve anahtar kelimeleri -**classes, functions and keywords**- tahlil etme yeteneğidir.
 
@@ -1182,7 +1181,7 @@ print(dir(Vehicle))
 
 <br>
 
-## 7 Closures
+## 11 Closures
 
 Closures, bellekte bulunmasalar bile çevrelediği etki alanı ile ilgili değerleri hatırlayan bir fonksiyon öbeğidir. Hadi adım adım ulaşalım
 
