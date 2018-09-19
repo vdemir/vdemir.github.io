@@ -262,7 +262,7 @@ Daha sonra kodunuzun çalıştırıldığı her seferinde **for** generator u ku
 
 Şimdi zor kısmı:
 
-**for** ilk kez, fonksiyonunuzdan oluşturulan generator öbeğini çağırır, başlangıçtan **yield**'ya ulaşana kadar, işlevinizdeki kodu çalıştıracaktır, daha sonra çevrimin ilk değerini döndürür. Ardından, her bir çağrı, fonksiyonda yazdığınız çevrimi bir kez daha çalıştıracak ve geri dönüş değeri olmayana kadar bir sonraki değeri döndürecektir.
+**for** ilk kez, fonksiyonunuzdan oluşturulan generator öbeğini çağırır, başlangıçtan **yield**'ya ulaşana kadar, fonksiyoninizdeki kodu çalıştıracaktır, daha sonra çevrimin ilk değerini döndürür. Ardından, her bir çağrı, fonksiyonda yazdığınız çevrimi bir kez daha çalıştıracak ve geri dönüş değeri olmayana kadar bir sonraki değeri döndürecektir.
 
 Fonksiyon çalıştığında generator boş olarak kabul edilir, ancak artık **yield** hedefe ulaşmaz. Döngü sonunda sona ermiş  ya da artık “**if / else**” yerine getirmediğiniz için olabilir.
  
@@ -1044,9 +1044,9 @@ print(decoded_salaries["Me"])
 
 ## 6 Kısmi Fonksiyonlar
 
-functools kütüphanesinden kısmi işlevi kullanarak python'da kısmi fonksiyonlar oluşturabilirsiniz. 
+functools kütüphanesinden kısmi fonksiyoni kullanarak python'da kısmi fonksiyonlar oluşturabilirsiniz. 
 
-Kısmi fonksiyonlar, x parametresiyle bir işlevi daha sınırlı işlev için daha az parametre ve sabit değerler kümesi olan bir işleve dönüştürmeyi sağlar
+Kısmi fonksiyonlar, x parametresiyle bir fonksiyoni daha sınırlı fonksiyon için daha az parametre ve sabit değerler kümesi olan bir fonksiyone dönüştürmeyi sağlar
 
 İçe aktarma gerekli:
 
@@ -1084,7 +1084,7 @@ print(dbl(4))
 
 Önemli bir not: varsayılan değerler, değişkenleri soldan değiştirmeye başlar. 2, x'in yerini alacak. dbl(4) çağrıldığında y, 4'e eşit olacak. Bu örnekte bir fark oluşmaz, ancak aşağıdaki örnekte yer almaktadır.
 
-partial() öğesini çağırarak ve func() içindeki ilk üç değişkeni değiştirerek sağlanan işlevi düzenleyin. Ardından, çıkışın 60'a eşit olması için sadece bir giriş değişkeni kullanarak yeni kısmi işlevle yazdırın.
+partial() öğesini çağırarak ve func() içindeki ilk üç değişkeni değiştirerek sağlanan fonksiyoni düzenleyin. Ardından, çıkışın 60'a eşit olması için sadece bir giriş değişkeni kullanarak yeni kısmi fonksiyonle yazdırın.
 
 <br>
 {% highlight python linenos=table %}
@@ -1143,7 +1143,7 @@ __name__
 
 {% endhighlight %}
 
-Çoğu zaman en önemlisi yardım işlevidir, çünkü diğer işlevlerin ne yaptığını bulmak için kullanabilirsiniz.
+Çoğu zaman en önemlisi yardım fonksiyonidir, çünkü diğer fonksiyonlerin ne yaptığını bulmak için kullanabilirsiniz.
 
 Verilen Araç nesnesinin tüm öznitelliklerinin bir listesini yazdırın.
 
@@ -1179,6 +1179,24 @@ print(dir(Vehicle))
 
 
 {% endhighlight %}
+
+<br>
+
+## 7 Closures
+
+Closures, bellekte bulunmasalar bile çevrelediği etki alanı ile ilgili değerleri hatırlayan bir fonksiyon öbeğidir.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
