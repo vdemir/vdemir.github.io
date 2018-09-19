@@ -1246,7 +1246,7 @@ print_msg(9)
 <br>
 nonlocal anahtar kelime olmadan, çıktı '3 9' olurdu, ancak nonlocal kullanımı ile '3 3' alırız, yani 'number' değişkeni değiştirilir. 
 
-Şimdi, iç içe geçmiş fonksiyonu çağırmak yerine fonksiyon öbeğini nasıl iade ederiz? (İşlevlerin bile nesneler olduğunu unutmayın. (Python.))
+Şimdi, iç içe geçmiş fonksiyonu çağırmak yerine fonksiyon öbeği nasıl dönüş yapar? (fonksiyonların bile nesneler olduğunu unutmayın. (Python.))
 
 
 <br>
