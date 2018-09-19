@@ -1125,6 +1125,23 @@ Kod İçgözlemi, ne olduklarını, ne yaptıklarını ve ne bildiklerini bilmek
 
 Python, kod içgözlemi için çeşitli fonksiyonlar ve yardımcı uygulamalar sunar.
 
+<br>
+
+{% highlight python %}
+
+help()
+dir() 
+hasattr() 
+id() 
+type() 
+repr() 
+callable() 
+issubclass() 
+isinstance() 
+__doc__ 
+__name__
+
+{% endhighlight %}
 
 
 
