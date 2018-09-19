@@ -1322,3 +1322,25 @@ print(multiplywith5(9))
 
 {% endhighlight %}
 
+<br>
+
+<a id="D12"></a>
+## 12 Python dekoratörü yazmayı öğrenmek için gerek duyduğunuz 5 sebep
+
+Python dekoratörler kullanımı çok kolaydır. Bir Python işlevinin nasıl yazılacağını bilen herkes bir dekoratör kullanmayı öğrenebilir:
+
+{% highlight python %}
+
+@somedecorator
+def some_function():
+    print("Check it out, I'm using decorators!")
+
+{% endhighlight %}
+
+
+
+
+
+
+
+
