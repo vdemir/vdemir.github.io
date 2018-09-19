@@ -1159,7 +1159,7 @@ __name__
 
 {% endhighlight %}
 
-Çoğu zaman en önemlisi yardım fonksiyonidir, çünkü diğer fonksiyonlerin ne yaptığını bulmak için kullanabilirsiniz.
+Çoğu zaman en önemlisi yardım fonksiyonidir, çünkü diğer fonksiyonların ne yaptığını bulmak için kullanabilirsiniz.
 
 Verilen Vehicle öbeğinin tüm öznitelliklerinin bir listesini yazdırın.
 
