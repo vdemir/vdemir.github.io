@@ -1244,7 +1244,7 @@ print_msg(9)
 
 {% endhighlight %}
 <br>
-nonlocal anahtar kelime olmadan, çıktı '3 9' olurdu, ancak nonlocal kullanımı ile '3 3' alırız, yani 'number' değişkeni değiştirilir. 
+nonlocal anahtar kelime olmadan, çıktı **3 9** olurdu, ancak nonlocal kullanımı ile **3 3** alırız, yani **number** değişkeni değiştirilir. 
 
 Şimdi, iç içe geçmiş fonksiyonu çağırmak yerine fonksiyon öbeği nasıl dönüş yapar? (fonksiyonların bile öbekler olduğunu unutmayın. (Python.))
 
@@ -1274,7 +1274,11 @@ Burn the Sun!
 
 {% endhighlight %}
 
+**transmit_to_space()**ifadesinin yürütülmesi tamamlanmış olsa da, mesaj oldukça korunmuştur. Verilerin, diğer orijinal işlevlerin sona ermesinden sonra bile bir koda eklendiği bu teknik, python 
 
+ADVANTAGE'de kapanmalar olarak adlandırılır. Kapanışlar, global değişkenlerin kullanılmasını engelleyebilir ve bir tür veri gizlemesi sağlar. Bir sınıftaki birkaç yöntem, bunun yerine kapanışları kullanın). 
+
+Ayrıca, Python'daki dekoratörler, kapakların yaygın kullanımını sağlıyor.
 
 
 
