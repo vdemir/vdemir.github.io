@@ -1440,11 +1440,90 @@ Burada, belirli argümanlar alarak, rota denilen bir yöntemle, uygulama adlı k
 
 Dekoratörlerin bu şekilde kullanılması da Python'da görünür. Örneğin, nesne sistemini tamamen kullanarak classmethod ve özellik dekoratörleri dayanır:
 
+{% highlight python %}
 
+class WeatherSimulation:
+    def __init__(self, **params):
+         self.params = params
 
+    @classmethod
+    def for_winter(cls, **other_params):
+        params = {'month': 'Jan', 'temp': '0'}
+        params.update(other_params)
+        return cls(**params)
 
+    @property
+    def progress(self):
+        return self.completed_iterations() / self.total_iterations()
 
+{% endhighlight %}
 
+Bu sınıfın üç farklı def ifadesi vardır. Ama onların semantik birbirinden farklıdır: Yapıcı normal yöntem 
+for_winter fabrikasının bir tür sağlayan bir classmethod olduğunu ve 
+classmethod ve 
+property dekoratörler basitliğinden 
+ilerleme olduğunu 
+salt okunur, dinamik özellik kolaylaştırır 
+
+Python'un nesne semantiklerini günlük kullanımda genişletmek.
+
+Dinlemek Yeniden kullanılamayan kodu yeniden kullanma
+
+Python, etkileyici bir işlevsel sözdizimi, işlevsel programlama desteği ve tam özellikli bir nesne sistemi ile kodun kolayca yeniden kullanılabilir bir formata dönüştürülmesi için çok güçlü araçlar sunar. Bununla birlikte, yalnızca bunlar tarafından yakalanamayan bazı kod yeniden kullanım modelleri vardır. 
+
+Flakey API ile çalışmayı düşünün. HTTP üzerinden JSON bilen bir şeye istekte bulunursunuz ve zamanın% 99,9'unu doğru şekilde çalışıyor. Ancak… tüm isteklerin küçük bir kısmı sunucunun dahili bir hata vermesine neden olacak ve isteği yeniden denemeniz gerekecektir. Bu durumda, bazı yeniden deneme mantığını uygularsınız.
+
+{% highlight python %}
+
+resp = None
+while True:
+    resp = make_api_call()
+    if resp.status_code == 500 and tries < MAX_TRIES:
+        tries += 1
+        continue
+    break
+process_response(resp)
+{% endhighlight %}
+
+Şimdi make_api_call () gibi düzinelerce fonksiyonunuz olduğunu ve kod tabanı üzerinde çağrıldığını hayal edin. Her yerde döngü yaparken bunu uygulayacak mısın? Yeni bir API çağrısı işlevini her eklediğinizde tekrar yapacak mısınız? Bu tarz bir model, boilerplate kodunun olmamasını zorlaştırır. Dekoratörleri kullanmadıkça. Sonra oldukça basit:
+
+{% highlight python %}
+
+# The decorated function returns a Response object,
+# which has a status_code attribute. 200 means
+# success; 500 indicates a server-side error.
+
+def retry(func):
+    def retried_func(*args, **kwargs):
+        MAX_TRIES = 3
+        tries = 0
+        while True:
+            resp = func(*args, **kwargs)
+            if resp.status_code == 500 and tries < MAX_TRIES:
+                tries += 1
+                continue
+            break
+        return resp
+    return retried_func
+
+This gives you an easy-to-use @retry decorator:
+
+@retry
+def make_api_call():
+    # ....
+{% endhighlight %}
+
+Kariyerinizi artırma
+
+Öncelikle dekoratörler yazmak kolay değildir. Bu roket bilimi değil, öğrenmeye yetecek kadar çaba sarf eder ve ilgili nüansları gözden geçirir, birçok geliştiricinin asla ustalaşma zorluğuna gitmeyeceği. Ve bu senin yararına çalışır. Dekoratörleri iyi yazmayı ve gerçek problemleri çözen dekoratörler yazmayı öğrenen takımınız olduğunda, diğer geliştiriciler bunları kullanacaktır. Çünkü bunları yazmanın zor işi bittiğinde, dekoratörler kullanımı çok kolaydır. Bu, yazdığınız kodun olumlu etkisini büyük ölçüde büyütebilir. Ve bu da sana bir kahraman olabilir. 
+
+VİDEO 
+Gelişmiş Python Programlama 
+Gelişmiş Python Programlama 
+Steve Holden tarafından Shop şimdi 
+Uzak ve geniş seyahat ettikçe, Python'u daha etkin kullanmak için yüzlerce çalışan yazılım mühendisini eğitin, ekipler sürekli olarak yazım dekoratörlerini Gelişmiş Python programlama atölyelerimde öğrendikleri en değerli ve önemli araçlar. İşte bu yüzden gelecek olan Python'un önemli bir parçasıdır: 25 ve 26 Mayıs 2016'da Temel Bilgiler çevrimiçi kursunun devamı. 
+
+Dekoratörleri nasıl yazmayı öğrendiğinizden bağımsız olarak, neler yapabileceğiniz konusunda heyecan duyabilirsiniz. Onları ve nasıl olacağını hiç şaka değil - Sonsuza kadar Python kodunu yazdığınız şekilde değiştirin!
 
 
 
