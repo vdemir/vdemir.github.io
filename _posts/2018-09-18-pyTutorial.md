@@ -1716,10 +1716,30 @@ a_stand_alone_function()
 
 <br>
 
+### dekoratörlerin sırrını çözmek
+
+<br>
+
+Önceki örnek, dekoratör sözdizimini kullanarak:
+
+<br>
+
+{% highlight python %}
+
+@my_shiny_new_decorator
+def another_stand_alone_function():
+    print("Leave me alone")
+
+another_stand_alone_function()
+#outputs:  
+#Before the function runs
+#Leave me alone
+#After the function runs
 
 
+{% endhighlight %}
 
-
+<br>
 
 
 
