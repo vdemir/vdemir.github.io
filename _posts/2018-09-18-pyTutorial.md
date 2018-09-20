@@ -1325,205 +1325,28 @@ print(multiplywith5(9))
 <br>
 
 <a id="D12"></a>
-## 12 Python dekoratörü yazmayı öğrenmek için gerek duyduğunuz 5 sebep
+## 12 Python Dekoratörlerini Örneklerle Öğrenme
 
-Python dekoratörler kullanımı çok kolaydır. Bir Python işlevinin nasıl yazılacağını bilen herkes bir dekoratör kullanmayı öğrenebilir:
+### tarif
 
-{% highlight python %}
+Bir dekoratör, bir işlevi, yöntemi veya sınıf tanımını değiştirmek için kullanılan herhangi bir kalınabilir Python nesnesidir. Bir dekoratör, tanımlanmış olan orijinal nesneyi geçirir ve sonra değiştirilmiş bir nesneyi döndürür; bu daha sonra tanıma isimle bağlanır.
 
-@somedecorator
-def some_function():
-    print("Check it out, I'm using decorators!")
 
-{% endhighlight %}
 
-Fakat dekoratörler yazmak tamamen farklı bir beceri setidir. Ve önemsiz değil; anlamak zorundasın:
 
--  closures
--  birinci sınıf içlemler olarak fonksiyonlarla nasıl çalışılır
--  değişken içlemler
--  içlem açma, hatta
--  Python'un kaynak kodunu nasıl yüklediğiyle ilgili bazı ayrıntılar.
 
-Bunların tümü, anlamak ve ustalaşmak için önemli bir zaman alır. Ve öğrenmek için zaten bir şeylerin var. Senin zamanın buna değer mi?
 
-Benim için cevap 'bin kez EVET! oldu, Ve olasılıklar da senin için olacak. Dekoratör yazmanın temel faydaları nelerdir? Kolay ve güçlü bir şekilde ne yapmanıza izin veriyorlar, günlük gelişiminizde?
 
-Analytics, logging, and instrumentation
 
-Özellikle büyük uygulamalarla, genellikle neler olup bittiğini ölçmemiz ve farklı etkinlikleri ölçen metrikleri kaydetmemiz gerekir. Bu gibi kayda değer olayları kendi fonksiyonlarında veya yordamlarında kapsülleyerek, bir dekoratör bu ihtiyacı çok kolay ve kolay bir şekilde ele alabilir.
 
-{% highlight python %}
 
-from myapp.log import logger
 
-def log_order_event(func):
-    def wrapper(*args, **kwargs):
-        logger.info("Ordering: %s", func.__name__)
-        order = func(*args, **kwargs)
-        logger.debug("Order result: %s", order.result)
-        return order
-    return wrapper
 
-@log_order_event
-def order_pizza(*toppings):
-    # let's get some pizza!
 
-{% endhighlight %}
 
-Aynı yaklaşım sayıları veya diğer ölçümleri kaydetmek için kullanılabilir.
 
-Doğrulama ve çalışma zamanı denetimleri
 
-Python’un type sistemi güçlü bir şekilde yazılmıştır, ancak çok dinamiktir. Tüm faydalarına rağmen, bazı hataların yavaşça içeri süzülebileceği anlamına gelir, daha statik olarak yazılan diller (Java gibi) derleme zamanında yakalanır. Ötesine baktığımızda, içeri veya dışarı giden verilere daha karmaşık, özel kontroller uygulamak isteyebilirsiniz. Dekoratörler, tüm bunları kolayca halledebilir ve aynı anda birçok fonksiyona uygulayabilir.
 
-Bunu düşünün: her biri (diğer alanlar arasında) 'özet' adlı bir alan içeren bir sözlük döndüren bir dizi fonksiyona sahipsiniz. Bu özetin değeri 80 karakterden uzun olmamalıdır; ihlal edildiğinde, bu bir hatadır. İşte bu olursa, bir ValueError'ı yükselten bir dekoratör:
-
-{% highlight python %}
-
-def validate_summary(func):
-    def wrapper(*args, **kwargs):
-        data = func(*args, **kwargs)
-        if len(data["summary"]) > 80:
-            raise ValueError("Summary too long")
-        return data
-    return wrapper
-
-@validate_summary
-def fetch_customer_data():
-    # ...
-
-@validate_summary
-def query_orders(criteria):
-    # ...
-
-@validate_summary
-def create_invoice(params):
-    # ..
-
-{% endhighlight %}
-
-Creating frameworks
-
-Dekoratörleri yazarken, bunları kullanmanın basit sözdiziminden faydalanabilirsiniz. Bu, kullanımı kolay olan dile semantik eklemenizi sağlar. Python'un sözdizimini kendi başına genişletebilmek için bir sonraki en iyi şey. 
-
-Aslında, birçok popüler açık kaynak altyapısı bunu kullanıyor. Webapp framework Flask, URL'leri HTTP isteğini işleyen işlevlere yönlendirmek için kullanır:
-
-{% highlight python %}
-
-# For a RESTful todo-list API.
-@app.route("/tasks/", methods=["GET"])
-def get_all_tasks():
-    tasks = app.store.get_all_tasks()
-    return make_response(json.dumps(tasks), 200)
-
-@app.route("/tasks/", methods=["POST"])
-def create_task():
-    payload = request.get_json(force=True)
-    task_id = app.store.create_task(
-        summary = payload["summary"],
-        description = payload["description"],
-    )
-    task_info = {"id": task_id}
-    return make_response(json.dumps(task_info), 201)
-
-@app.route("/tasks/<int:task_id>/")
-def task_details(task_id):
-    task_info = app.store.task_details(task_id)
-    if task_info is None:
-        return make_response("", 404)
-    return json.dumps(task_info)
-
-{% endhighlight %}
-
-Burada, belirli argümanlar alarak, rota denilen bir yöntemle, uygulama adlı küresel bir nesneniz var. Bu yol yöntemi, işleyici işlevine uygulanan bir dekoratör döndürür. Kaputun altındakiler oldukça karmaşık ve karmaşıktır, ancak Flask kullanan kişinin bakış açısından, tüm bu karmaşıklık tamamen gizlidir. 
-
-Dekoratörlerin bu şekilde kullanılması da Python'da görünür. Örneğin, nesne sistemini tamamen kullanarak classmethod ve özellik dekoratörleri dayanır:
-
-{% highlight python %}
-
-class WeatherSimulation:
-    def __init__(self, **params):
-         self.params = params
-
-    @classmethod
-    def for_winter(cls, **other_params):
-        params = {'month': 'Jan', 'temp': '0'}
-        params.update(other_params)
-        return cls(**params)
-
-    @property
-    def progress(self):
-        return self.completed_iterations() / self.total_iterations()
-
-{% endhighlight %}
-
-Bu sınıfın üç farklı def ifadesi vardır. Ama onların semantik birbirinden farklıdır: Yapıcı normal yöntem 
-for_winter fabrikasının bir tür sağlayan bir classmethod olduğunu ve 
-classmethod ve 
-property dekoratörler basitliğinden 
-ilerleme olduğunu 
-salt okunur, dinamik özellik kolaylaştırır 
-
-Python'un nesne semantiklerini günlük kullanımda genişletmek.
-
-Dinlemek Yeniden kullanılamayan kodu yeniden kullanma
-
-Python, etkileyici bir işlevsel sözdizimi, işlevsel programlama desteği ve tam özellikli bir nesne sistemi ile kodun kolayca yeniden kullanılabilir bir formata dönüştürülmesi için çok güçlü araçlar sunar. Bununla birlikte, yalnızca bunlar tarafından yakalanamayan bazı kod yeniden kullanım modelleri vardır. 
-
-Flakey API ile çalışmayı düşünün. HTTP üzerinden JSON bilen bir şeye istekte bulunursunuz ve zamanın% 99,9'unu doğru şekilde çalışıyor. Ancak… tüm isteklerin küçük bir kısmı sunucunun dahili bir hata vermesine neden olacak ve isteği yeniden denemeniz gerekecektir. Bu durumda, bazı yeniden deneme mantığını uygularsınız.
-
-{% highlight python %}
-
-resp = None
-while True:
-    resp = make_api_call()
-    if resp.status_code == 500 and tries < MAX_TRIES:
-        tries += 1
-        continue
-    break
-process_response(resp)
-{% endhighlight %}
-
-Şimdi make_api_call () gibi düzinelerce fonksiyonunuz olduğunu ve kod tabanı üzerinde çağrıldığını hayal edin. Her yerde döngü yaparken bunu uygulayacak mısın? Yeni bir API çağrısı işlevini her eklediğinizde tekrar yapacak mısınız? Bu tarz bir model, boilerplate kodunun olmamasını zorlaştırır. Dekoratörleri kullanmadıkça. Sonra oldukça basit:
-
-{% highlight python %}
-
-# The decorated function returns a Response object,
-# which has a status_code attribute. 200 means
-# success; 500 indicates a server-side error.
-
-def retry(func):
-    def retried_func(*args, **kwargs):
-        MAX_TRIES = 3
-        tries = 0
-        while True:
-            resp = func(*args, **kwargs)
-            if resp.status_code == 500 and tries < MAX_TRIES:
-                tries += 1
-                continue
-            break
-        return resp
-    return retried_func
-
-This gives you an easy-to-use @retry decorator:
-
-@retry
-def make_api_call():
-    # ....
-{% endhighlight %}
-
-Kariyerinizi artırma
-
-Öncelikle dekoratörler yazmak kolay değildir. Bu roket bilimi değil, öğrenmeye yetecek kadar çaba sarf eder ve ilgili nüansları gözden geçirir, birçok geliştiricinin asla ustalaşma zorluğuna gitmeyeceği. Ve bu senin yararına çalışır. Dekoratörleri iyi yazmayı ve gerçek problemleri çözen dekoratörler yazmayı öğrenen takımınız olduğunda, diğer geliştiriciler bunları kullanacaktır. Çünkü bunları yazmanın zor işi bittiğinde, dekoratörler kullanımı çok kolaydır. Bu, yazdığınız kodun olumlu etkisini büyük ölçüde büyütebilir. Ve bu da sana bir kahraman olabilir. 
-
-VİDEO 
-Gelişmiş Python Programlama 
-Gelişmiş Python Programlama 
-Steve Holden tarafından Shop şimdi 
-Uzak ve geniş seyahat ettikçe, Python'u daha etkin kullanmak için yüzlerce çalışan yazılım mühendisini eğitin, ekipler sürekli olarak yazım dekoratörlerini Gelişmiş Python programlama atölyelerimde öğrendikleri en değerli ve önemli araçlar. İşte bu yüzden gelecek olan Python'un önemli bir parçasıdır: 25 ve 26 Mayıs 2016'da Temel Bilgiler çevrimiçi kursunun devamı. 
-
-Dekoratörleri nasıl yazmayı öğrendiğinizden bağımsız olarak, neler yapabileceğiniz konusunda heyecan duyabilirsiniz. Onları ve nasıl olacağını hiç şaka değil - Sonsuza kadar Python kodunu yazdığınız şekilde değiştirin!
 
 
 
