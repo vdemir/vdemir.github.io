@@ -1374,14 +1374,36 @@ def my_function(args):
 
 <br>
 
+Bunun aynı olduğunu unutmayın:
 
+<br>
 
+{% highlight python %}
 
+@mydecorator
+def my_function(args):
+    ...
 
+{% endhighlight %}
 
+<br>
 
+Sözdizimsel şeker '@' daha özlüdür ve okumak daha kolay olsa da.
 
+Dekoratörler istiflenebilir ve içten dışarıya çalıştırılabilir:
 
+<br>
+
+{% highlight python %}
+
+@second_decorator
+@first_decorator
+def my_function(args):
+    ...
+
+{% endhighlight %}
+
+<br>
 
 
 
