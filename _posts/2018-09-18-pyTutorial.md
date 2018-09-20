@@ -1339,16 +1339,25 @@ Bir nesneye dinamik olarak ek sorumluluklar ekleyin. Dekoratörler, işlevselli�
 
 İki yaygın kullanım durumu, daha sonra ele alacağım web çerçevelerinde önbelleğe alma ve erişim denetimleridir.
 
-### Ne zaman kullanılmalı?
+### ne zaman kullanılmalı?
 
-Birden çok nesneye ortak davranış eklemek istiyorsanız, dekoratörler kullanarak onu soyutlamayı düşünün. Kodunuzu daha çok DRY yapacak ve kapsülleyecek. Fonksiyonun ana hedefi ile doğrudan ilgili olmayan işlevselliği soyutlamanın güzel bir yoludur. Ekibiniz daha çok yeniden kullanılabilir kodunuz için teşekkür eder. 
+Birden çok öbeğe ortak davranış eklemek istiyorsanız, dekoratörler kullanarak onu soyutlamayı düşünün. Kodunuzu daha çok DRY yapacak ve kapsülleyecek. Fonksiyonun ana hedefi ile doğrudan ilgili olmayan işlevselliği soyutlamanın güzel bir yoludur. Ekibiniz daha çok yeniden kullanılabilir kodunuz için teşekkür eder. 
 
 Aaron Maxwell bu bağlamda güzel bir makale yazdı: Python dekoratörler yazmayı öğrenmek için gerek duyduğunuz 5 neden.
 
 
-
-
-
+<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="{{ site.baseurl }}/images/python/Python’s object model explained.png" alt="Decorators" class="resize" />
+  <p><small>Python &bull; Decorators.</small></p>
+</div> 
+  
+<style>
+img.resize {
+  		max-width:100%;
+  		max-height:100%;
+         }
+	
+</style>
 
 
 
