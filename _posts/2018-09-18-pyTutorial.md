@@ -1750,9 +1750,76 @@ Dekoratörler, decorator design pattern ninin sadece pythonic bir çeşididir. G
 Tabii ki, dekoratörler biriktirebilirsiniz:
 
 
+<br>
 
+{% highlight python linenos=table %}
 
+def bread(func):
+    def wrapper():
+        print("</''''''\>")
+        func()
+        print("<\______/>")
+    return wrapper
 
+def ingredients(func):
+    def wrapper():
+        print("#tomatoes#")
+        func()
+        print("~salad~")
+    return wrapper
 
+def sandwich(food="--ham--"):
+    print(food)
+
+sandwich()
+#outputs: --ham--
+sandwich = bread(ingredients(sandwich))
+sandwich()
+#outputs:
+#</''''''\>
+# #tomatoes#
+# --ham--
+# ~salad~
+#<\______/>
+
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+--ham--
+</''''''\>
+#tomatoes#
+--ham--
+~salad~
+<\______/>
+
+{% endhighlight %}
+
+<br>
+
+Python dekoratör sözdizimini kullanma:
+
+<br>
+
+{% highlight python %}
+
+@bread
+@ingredients
+def sandwich(food="--ham--"):
+    print(food)
+
+sandwich()
+#outputs:
+#</''''''\>
+# #tomatoes#
+# --ham--
+# ~salad~
+#<\______/>
+
+{% endhighlight %}
+
+<br>
 
 
