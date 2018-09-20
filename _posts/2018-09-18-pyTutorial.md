@@ -1629,7 +1629,7 @@ doSomethingBefore(talk)
 {% endhighlight %}
 <br>
 
-Eh, sadece dekoratörleri anlamak için gereken her şey var. Görüyorsunuz, dekoratörler “wrappers” dır, bu da fonksiyonlarını değiştirmeden dekore ettikleri fonksiyondan önce ve sonra kodu çalıştırmanıza izin verdikleri anlamına gelir.
+Eh, sadece dekoratörleri anlamak için gereken her şey var. Görüyorsunuz, dekoratörler **wrappers** dır, bu da fonksiyonlarını değiştirmeden dekore ettikleri fonksiyondan önce ve sonra kodu çalıştırmanıza izin verdikleri anlamına gelir.
 
 <br>
 
@@ -1697,7 +1697,7 @@ After the function runs
 
 <br>
 
-Şimdi, muhtemelen a_stand_alone_function çağırdığınızda, a_stand_alone_function_decorated yerine çağrılır. Bu kolay, my_shiny_new_decorator tarafından döndürülen işlevle birlikte a_stand_alone_function üzerine yazmanız yeterli:
+Şimdi, muhtemelen **a_stand_alone_function** çağırdığınızda, **a_stand_alone_function_decorated** yerine çağrılır. Bu kolay, **my_shiny_new_decorator** tarafından döndürülen işlevle birlikte **a_stand_alone_function** üzerine yazmanız yeterli:
 
 <br>
 
@@ -1741,7 +1741,7 @@ another_stand_alone_function()
 
 <br>
 
-Evet, hepsi bu kadar basit. @decorator sadece bir kısayol:
+Evet, hepsi bu kadar basit. **@decorator** sadece bir kısayol:
 
 **another_stand_alone_function = my_shiny_new_decorator(another_stand_alone_function)**
 
