@@ -1611,7 +1611,7 @@ yes...
 
 Fazlası var! 
 
-Bir işlevi döndürebilirseniz, birini parametre olarak geçirebilirsiniz:
+Bir fonksiyonu döndürebilirseniz, birini parametre olarak geçirebilirsiniz:
 
 <br>
 
