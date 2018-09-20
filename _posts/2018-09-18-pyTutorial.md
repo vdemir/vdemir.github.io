@@ -2467,7 +2467,7 @@ I am the decorated function and only knows about my arguments: Leslie Howard
 
 <br>
 
-Gördüğünüz gibi, bu hileyi kullanarak argümanları herhangi bir işlev gibi dekoratöre aktarabilirsiniz. İsterseniz * args, ** kwargs kullanabilirsiniz. Ancak, dekoratörlerin sadece bir kez çağrıldığını unutmayın. Sadece Python betiği içe aktardığında. Sonra argümanları dinamik olarak ayarlayamazsınız. 'İçe aktarma x' yaptığınızda, işlev zaten dekore edilmiştir, böylece hiçbir şeyi değiştiremezsiniz.
+Gördüğünüz gibi, bu hileyi kullanarak argümanları herhangi bir işlev gibi dekoratöre aktarabilirsiniz. İsterseniz * args, ** kwargs kullanabilirsiniz. Ancak, dekoratörlerin sadece bir kez çağrıldığını unutmayın. Sadece Python, betiği içe aktardığında. Sonra argümanları dinamik olarak ayarlayamazsınız. "import x" yaptığınızda, işlev zaten dekore edilmiştir, böylece hiçbir şeyi değiştiremezsiniz.
 
 
 
