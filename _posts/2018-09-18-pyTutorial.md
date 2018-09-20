@@ -1406,10 +1406,10 @@ def my_function(args):
 <br>
 
 Bu oldukça kafa karıştırıcı olabilir, bu yüzden SO üzerinde iyi bir örnek buldum:
-
+ 
 <br>
 
-{% highlight python %}
+{% highlight python linenos=table %}
 
 def makebold(fn):
     def wrapped():
@@ -1429,10 +1429,16 @@ def hello():
 print hello()  ## returns "<b><i>hello world</i></b>"
 
 {% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+<b><i>hello world</i></b>
+
+{% endhighlight %}
 
 <br>
-
-
 
 
 
