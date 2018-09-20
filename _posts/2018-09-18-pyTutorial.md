@@ -1631,7 +1631,9 @@ doSomethingBefore(talk)
 
 Eh, sadece dekoratörleri anlamak için gereken her şey var. Görüyorsunuz, dekoratörler “wrappers” dır, bu da fonksiyonlarını değiştirmeden dekore ettikleri fonksiyondan önce ve sonra kodu çalıştırmanıza izin verdikleri anlamına gelir.
 
+<br>
 
+### hünerli dekoratörler
 
 
 
