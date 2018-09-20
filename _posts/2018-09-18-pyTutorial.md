@@ -1697,4 +1697,30 @@ After the function runs
 
 <br>
 
+Şimdi, muhtemelen a_stand_alone_function çağırdığınızda, a_stand_alone_function_decorated yerine çağrılır. Bu kolay, my_shiny_new_decorator tarafından döndürülen işlevle birlikte a_stand_alone_function üzerine yazmanız yeterli:
+
+<br>
+
+{% highlight python %}
+
+a_stand_alone_function = my_shiny_new_decorator(a_stand_alone_function)
+a_stand_alone_function()
+#outputs:
+#Before the function runs
+#I am a stand alone function, don't you dare modify me
+#After the function runs
+
+# That’s EXACTLY what decorators do!
+
+{% endhighlight %}
+
+<br>
+
+
+
+
+
+
+
+
 
