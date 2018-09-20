@@ -1356,6 +1356,10 @@ img.resize {
 	
 </style>
 
+
+<br>
+
+
 ### yazım kuralları
 
 Python bir fonksiyonu (veya sınıfı) **@** simgesiyle ve ardından dekoratörle süslemenizi sağlar.
