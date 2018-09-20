@@ -1377,6 +1377,72 @@ Doğrulama ve çalışma zamanı denetimleri
 
 Python’un type sistemi güçlü bir şekilde yazılmıştır, ancak çok dinamiktir. Tüm faydalarına rağmen, bazı hataların yavaşça içeri süzülebileceği anlamına gelir, daha statik olarak yazılan diller (Java gibi) derleme zamanında yakalanır. Ötesine baktığımızda, içeri veya dışarı giden verilere daha karmaşık, özel kontroller uygulamak isteyebilirsiniz. Dekoratörler, tüm bunları kolayca halledebilir ve aynı anda birçok fonksiyona uygulayabilir.
 
+Bunu düşünün: her biri (diğer alanlar arasında) 'özet' adlı bir alan içeren bir sözlük döndüren bir dizi fonksiyona sahipsiniz. Bu özetin değeri 80 karakterden uzun olmamalıdır; ihlal edildiğinde, bu bir hatadır. İşte bu olursa, bir ValueError'ı yükselten bir dekoratör:
+
+{% highlight python %}
+
+def validate_summary(func):
+    def wrapper(*args, **kwargs):
+        data = func(*args, **kwargs)
+        if len(data["summary"]) > 80:
+            raise ValueError("Summary too long")
+        return data
+    return wrapper
+
+@validate_summary
+def fetch_customer_data():
+    # ...
+
+@validate_summary
+def query_orders(criteria):
+    # ...
+
+@validate_summary
+def create_invoice(params):
+    # ..
+
+{% endhighlight %}
+
+Creating frameworks
+
+Dekoratörleri yazarken, bunları kullanmanın basit sözdiziminden faydalanabilirsiniz. Bu, kullanımı kolay olan dile semantik eklemenizi sağlar. Python'un sözdizimini kendi başına genişletebilmek için bir sonraki en iyi şey. 
+
+Aslında, birçok popüler açık kaynak altyapısı bunu kullanıyor. Webapp framework Flask, URL'leri HTTP isteğini işleyen işlevlere yönlendirmek için kullanır:
+
+{% highlight python %}
+
+# For a RESTful todo-list API.
+@app.route("/tasks/", methods=["GET"])
+def get_all_tasks():
+    tasks = app.store.get_all_tasks()
+    return make_response(json.dumps(tasks), 200)
+
+@app.route("/tasks/", methods=["POST"])
+def create_task():
+    payload = request.get_json(force=True)
+    task_id = app.store.create_task(
+        summary = payload["summary"],
+        description = payload["description"],
+    )
+    task_info = {"id": task_id}
+    return make_response(json.dumps(task_info), 201)
+
+@app.route("/tasks/<int:task_id>/")
+def task_details(task_id):
+    task_info = app.store.task_details(task_id)
+    if task_info is None:
+        return make_response("", 404)
+    return json.dumps(task_info)
+
+{% endhighlight %}
+
+Burada, belirli argümanlar alarak, rota denilen bir yöntemle, uygulama adlı küresel bir nesneniz var. Bu yol yöntemi, işleyici işlevine uygulanan bir dekoratör döndürür. Kaputun altındakiler oldukça karmaşık ve karmaşıktır, ancak Flask kullanan kişinin bakış açısından, tüm bu karmaşıklık tamamen gizlidir. 
+
+Dekoratörlerin bu şekilde kullanılması da Python'da görünür. Örneğin, nesne sistemini tamamen kullanarak classmethod ve özellik dekoratörleri dayanır:
+
+
+
+
 
 
 
