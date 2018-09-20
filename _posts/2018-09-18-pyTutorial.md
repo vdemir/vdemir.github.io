@@ -1615,7 +1615,7 @@ Bir işlevi döndürebilirseniz, birini parametre olarak geçirebilirsiniz:
 
 <br>
 
-{% highlight python linenos=table %}
+{% highlight python %}
 
 def doSomethingBefore(func): 
     print("I do something before then I call the function you gave me")
