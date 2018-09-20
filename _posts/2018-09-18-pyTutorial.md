@@ -1339,7 +1339,7 @@ Bir nesneye dinamik olarak ek sorumluluklar ekleyin. Dekoratörler, işlevselli�
 
 İki yaygın kullanım durumu, daha sonra ele alacağım web çerçevelerinde önbelleğe alma ve erişim denetimleridir.
 
-Ne zaman kullanılmalı?
+### Ne zaman kullanılmalı?
 
 
 
