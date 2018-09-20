@@ -1822,4 +1822,33 @@ sandwich()
 
 <br>
 
+Dekoratörleri belirlediğiniz sıra önemlidir:
+
+<br>
+
+{% highlight python %}
+
+@ingredients
+@bread
+def strange_sandwich(food="--ham--"):
+    print(food)
+
+strange_sandwich()
+#outputs:
+##tomatoes#
+#</''''''\>
+# --ham--
+#<\______/>
+# ~salad~
+
+{% endhighlight %}
+
+<br>
+
+
+
+
+
+
+
 
