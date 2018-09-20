@@ -1333,6 +1333,24 @@ print(multiplywith5(9))
 
 Bir dekoratör, bir fonksiyonu, yordamı veya sınıf tanımını değiştirmek için kullanılan herhangi bir istenebilen Python öbeğidir. Bir dekoratör, tanımlanmış olan orijinal öbeği geçirir ve sonra değiştirilmiş bir öbeği döndürür; bu daha sonra tanımdaki isme bağlanır.
 
+GoF'in Tasarım Desenleri bir dekoratörün amacını şöyle tanımlar:
+
+Bir nesneye dinamik olarak ek sorumluluklar ekleyin. Dekoratörler, işlevselliği uzatarak alt sınıflamaya esnek bir alternatif sunar.
+
+İki yaygın kullanım durumu, daha sonra ele alacağım web çerçevelerinde önbelleğe alma ve erişim denetimleridir.
+
+Ne zaman kullanılmalı?
+
+
+
+
+
+
+
+
+
+
+
 
 
 
