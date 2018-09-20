@@ -2084,10 +2084,57 @@ I am 28, what did you think?
 
 <br>
 
+### fonksiyon içlemleri dekoratöre geçirme
 
+<br>
 
+Harika, şimdi argümanları dekoratörün kendisine aktarma hakkında ne söylerdin? 
 
+Bir dekoratör argüman olarak bir işlevi kabul etmesi gerektiğinden, bu biraz bükülmüş olabilir. Bu nedenle, dekore edilmiş işlevin argümanlarını doğrudan dekoratöre geçiremezsiniz. 
 
+Çözüme acele etmeden önce biraz hatırlatma yazalım:
+
+<br>
+
+{% highlight python linenos=table %}
+
+# Decorators are ORDINARY functions
+def my_decorator(func):
+    print("I am an ordinary function")
+    def wrapper():
+        print("I am function returned by the decorator")
+        func()
+    return wrapper
+
+# Therefore, you can call it without any "@"
+
+def lazy_function():
+    print("zzzzzzzz")
+
+decorated_function = my_decorator(lazy_function)
+#outputs: I am an ordinary function
+
+# It outputs "I am an ordinary function", because that’s just what you do:
+# calling a function. Nothing magic.
+
+@my_decorator
+def lazy_function():
+    print("zzzzzzzz")
+
+#outputs: I am an ordinary function
+
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+I am an ordinary function
+I am an ordinary function
+ 
+{% endhighlight %}
+
+<br>
 
 
 
