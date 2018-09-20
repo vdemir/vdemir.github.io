@@ -2333,9 +2333,9 @@ I am the decorated function.
 
 <br>
 
+Hey, onu gördün mü? '@' Sözdizimi ile bir işlev çağrısı kullandık! :-)
 
-
-
+Yani, fonksiyon içlemli dekoratörlere dönelim. Eğer dekoratörü anında üretmek için fonksiyonlar kullanabilirsek, fonksiyon içlemlerini bu fonksiyona iletebiliriz, değil mi?
 
 
 
