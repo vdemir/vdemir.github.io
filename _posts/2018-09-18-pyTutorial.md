@@ -1741,6 +1741,18 @@ another_stand_alone_function()
 
 <br>
 
+Evet, hepsi bu kadar basit. @decorator sadece bir kısayol:
+
+another_stand_alone_function = my_shiny_new_decorator(another_stand_alone_function)
+
+Dekoratörler, decorator design pattern ninin sadece pythonic bir çeşididir. Geliştirme kolaylaştırmak için (like iterators) Python'da gömülü birkaç klasik tasarım modeli vardır.
+
+
+
+
+
+
+
 
 
 
