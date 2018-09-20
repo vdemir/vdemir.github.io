@@ -1341,10 +1341,7 @@ Bir nesneye dinamik olarak ek sorumluluklar ekleyin. Dekoratörler, işlevselli�
 
 ### ne zaman kullanılmalı?
 
-Birden çok öbeğe ortak davranış eklemek istiyorsanız, dekoratörler kullanarak onu soyutlamayı düşünün. Kodunuzu daha çok DRY yapacak ve kapsülleyecek. Fonksiyonun ana hedefi ile doğrudan ilgili olmayan işlevselliği soyutlamanın güzel bir yoludur. Ekibiniz daha çok yeniden kullanılabilir kodunuz için teşekkür eder. 
-
-Aaron Maxwell bu bağlamda güzel bir makale yazdı: Python dekoratörler yazmayı öğrenmek için gerek duyduğunuz 5 neden.
-
+Birden çok öbeğe ortak davranış eklemek istiyorsanız, dekoratörler kullanarak onu soyutlamayı düşünün. Kodunuzu daha çok DRY yapacak ve kapsülleyecek. Fonksiyonun ana hedefi ile doğrudan ilgili olmayan işlevselliği soyutlamanın güzel bir yoludur. Ekibiniz daha çok yeniden kullanılabilir kodunuz için teşekkür eder.
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/python/Python’s object model explained.png" alt="Decorators" class="resize" />
@@ -1359,9 +1356,9 @@ img.resize {
 	
 </style>
 
+### yazım kuralları
 
-
-
+Python bir fonksiyonu (veya sınıfı) **@** simgesiyle ve ardından dekoratörle süslemenizi sağlar.
 
 
 
