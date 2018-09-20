@@ -1799,7 +1799,7 @@ sandwich()
 
 <br>
 
-Python dekoratör sözdizimini kullanma:
+Python dekoratör sözdizimini kullanarak:
 
 <br>
 
