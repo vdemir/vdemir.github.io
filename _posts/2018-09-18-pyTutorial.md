@@ -1327,7 +1327,9 @@ print(multiplywith5(9))
 <a id="D12"></a>
 ## 12 Python Dekoratörlerini Örneklerle Öğrenme
 
-### tarif
+<br>
+
+### tarifi
 
 Bir dekoratör, bir fonksiyonu, yordamı veya sınıf tanımını değiştirmek için kullanılan herhangi bir istenebilen Python öbeğidir. Bir dekoratör, tanımlanmış olan orijinal öbeği geçirir ve sonra değiştirilmiş bir öbeği döndürür; bu daha sonra tanımdaki isme bağlanır.
 
