@@ -1265,7 +1265,7 @@ nonlocal anahtar kelime olmadan, çıktı **3 9** olurdu, ancak nonlocal kullan�
 
 Şimdi, iç içe geçmiş fonksiyonu çağırmak yerine fonksiyon öbeği içinde nasıl döndürürüz? (fonksiyonların bile öbekler olduğunu unutmayın. (Python.))
 
-Ve işlevi şu şekilde çağırıyoruz:
+Ve fonksiyonu şu şekilde çağırıyoruz:
 
 <br>
 
@@ -1329,7 +1329,7 @@ print(multiplywith5(9))
 
 ### tarif
 
-Bir dekoratör, bir işlevi, yöntemi veya sınıf tanımını değiştirmek için kullanılan herhangi bir kalınabilir Python nesnesidir. Bir dekoratör, tanımlanmış olan orijinal nesneyi geçirir ve sonra değiştirilmiş bir nesneyi döndürür; bu daha sonra tanıma isimle bağlanır.
+Bir dekoratör, bir fonksiyonu, yordamı veya sınıf tanımını değiştirmek için kullanılan herhangi bir istenebilen Python öbeğidir. Bir dekoratör, tanımlanmış olan orijinal öbeği geçirir ve sonra değiştirilmiş bir öbeği döndürür; bu daha sonra tanımdaki isme bağlanır.
 
 
 
