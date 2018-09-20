@@ -2277,6 +2277,71 @@ Daha da kısaltalım:
 
 {% highlight python linenos=table %}
 
+def decorator_maker_with_arguments(decorator_arg1, decorator_arg2):
+
+    print("I make decorators! And I accept arguments: {0}, {1}".format(decorator_arg1, decorator_arg2))
+
+    def my_decorator(func):
+        # The ability to pass arguments here is a gift from closures.
+        # If you are not comfortable with closures, you can assume its ok,
+        # or read: https://stackoverflow.com/questions/13857/can-you-explain-closures-as-they-relate-to-python
+        print("I am the decorator. Somehow you passed me arguments: {0}, {1}".format(decorator_arg1, decorator_arg2))
+
+        # Don't confuse decorator arguments and function arguments!
+        def wrapped(function_arg1, function_arg2) :
+            print("I am the wrapper around the decorated function.\n"
+                  "I can access all the variables\n"
+                  "\t- from the decorator: {0} {1}\n"
+                  "\t- from the function call: {2} {3}\n"
+                  "Then I can pass them to the decorated function"
+                  .format(decorator_arg1, decorator_arg2,
+                          function_arg1, function_arg2))
+            return func(function_arg1, function_arg2)
+
+        return wrapped
+
+    return my_decorator
+
+@decorator_maker_with_arguments("Leonard", "Sheldon")
+def decorated_function_with_arguments(function_arg1, function_arg2):
+    print("I am the decorated function and only knows about my arguments: {0}"
+           " {1}".format(function_arg1, function_arg2))
+
+decorated_function_with_arguments("Rajesh", "Howard")
+#outputs:
+#I make decorators! And I accept arguments: Leonard Sheldon
+#I am the decorator. Somehow you passed me arguments: Leonard Sheldon
+#I am the wrapper around the decorated function. 
+#I can access all the variables 
+#   - from the decorator: Leonard Sheldon 
+#   - from the function call: Rajesh Howard 
+#Then I can pass them to the decorated function
+#I am the decorated function and only knows about my arguments: Rajesh Howard
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+I make decorators! I am executed only once: when you make me create a decorator.
+As a decorator maker, I return a decorator
+I am a decorator! I am executed only when you decorate a function.
+As the decorator, I return the wrapped function.
+I am the wrapper around the decorated function. I am called when you call the decorated function. As the wrapper, I return the RESULT of the decorated function.
+I am the decorated function.
+ 
+{% endhighlight %}
+
+<br>
+
+Hey, onu gördün mü? '@' Sözdizimi ile bir işlev çağrısı kullandık! :-)
+
+Yani, fonksiyon içlemli dekoratörlere dönelim. Eğer dekoratörü anında üretmek için fonksiyonlar kullanabilirsek, fonksiyon içlemlerini bu fonksiyona iletebiliriz, değil mi?
+
+<br>
+
+{% highlight python linenos=table %}
+
 def decorator_maker():
 
     print("I make decorators! I am executed only once: "
@@ -2322,22 +2387,18 @@ decorated_function()
 
 {% highlight python %}
 
-I make decorators! I am executed only once: when you make me create a decorator.
-As a decorator maker, I return a decorator
-I am a decorator! I am executed only when you decorate a function.
-As the decorator, I return the wrapped function.
-I am the wrapper around the decorated function. I am called when you call the decorated function. As the wrapper, I return the RESULT of the decorated function.
-I am the decorated function.
+I make decorators! And I accept arguments: Leonard, Sheldon
+I am the decorator. Somehow you passed me arguments: Leonard, Sheldon
+I am the wrapper around the decorated function.
+I can access all the variables
+	- from the decorator: Leonard Sheldon
+	- from the function call: Rajesh Howard
+Then I can pass them to the decorated function
+I am the decorated function and only knows about my arguments: Rajesh Howard
  
 {% endhighlight %}
 
 <br>
-
-Hey, onu gördün mü? '@' Sözdizimi ile bir işlev çağrısı kullandık! :-)
-
-Yani, fonksiyon içlemli dekoratörlere dönelim. Eğer dekoratörü anında üretmek için fonksiyonlar kullanabilirsek, fonksiyon içlemlerini bu fonksiyona iletebiliriz, değil mi?
-
-
 
 
 
