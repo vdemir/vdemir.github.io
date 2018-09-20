@@ -2400,9 +2400,72 @@ I am the decorated function and only knows about my arguments: Rajesh Howard
 
 <br>
 
+İşte: fonksiyon içlemleri ile bir dekoratör. fonksiyon içlemleri değişken olarak ayarlanabilir:
+
+<br>
+
+{% highlight python linenos=table %}
+
+def decorator_maker():
+
+    print("I make decorators! I am executed only once: "
+          "when you make me create a decorator.")
+
+    def my_decorator(func):
+
+        print("I am a decorator! I am executed only when you decorate a function.")
+
+        def wrapped():
+            print("I am the wrapper around the decorated function. "
+                  "I am called when you call the decorated function. "
+                  "As the wrapper, I return the RESULT of the decorated function.")
+            return func()
+
+        print("As the decorator, I return the wrapped function.")
+
+        return wrapped
+
+    print("As a decorator maker, I return a decorator")
+    return my_decorator
 
 
+c1 = "Penny"
+c2 = "Leslie"
 
+@decorator_maker_with_arguments("Leonard", c1)
+def decorated_function_with_arguments(function_arg1, function_arg2):
+    print("I am the decorated function and only knows about my arguments:"
+           " {0} {1}".format(function_arg1, function_arg2))
+
+decorated_function_with_arguments(c2, "Howard")
+#outputs:
+#I make decorators! And I accept arguments: Leonard Penny
+#I am the decorator. Somehow you passed me arguments: Leonard Penny
+#I am the wrapper around the decorated function. 
+#I can access all the variables 
+#   - from the decorator: Leonard Penny 
+#   - from the function call: Leslie Howard 
+#Then I can pass them to the decorated function
+#I am the decorated function and only know about my arguments: Leslie Howard
+
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+I make decorators! And I accept arguments: Leonard, Penny
+I am the decorator. Somehow you passed me arguments: Leonard, Penny
+I am the wrapper around the decorated function.
+I can access all the variables
+	- from the decorator: Leonard Penny
+	- from the function call: Leslie Howard
+Then I can pass them to the decorated function
+I am the decorated function and only knows about my arguments: Leslie Howard
+ 
+{% endhighlight %}
+
+<br>
 
 
 
