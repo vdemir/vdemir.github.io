@@ -2580,7 +2580,7 @@ Hello Universe and everything
 
 <br>
 
-Biliyorum, bu hissi en son hissettiğinizde, bir adamı dinledikten sonra: 'özyineyi anlamadan önce, özyineyi anlamanız gerekir'. Ama şimdi, bunu anlamak konusunda kendini iyi hissetmiyor musun?
+Biliyorum, 'özçağrıyı anlamadan önce, özçağrıyı anlamanız gerekir' diyen bir adam dinledikten sonra en son bu duyguya sahiptiniz. Ama şimdi, bunu anlamak konusunda kendini iyi hissetmiyor musun?
 
 
 
