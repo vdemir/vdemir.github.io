@@ -1898,4 +1898,10 @@ print(say())
 
 <br>
 
+Artık mutlu olabilirsiniz ya da beyninizi biraz daha yakabilir ve dekoratörlerin gelişmiş kullanımlarını görebilirsiniz.
+
+
+
+
+
 
