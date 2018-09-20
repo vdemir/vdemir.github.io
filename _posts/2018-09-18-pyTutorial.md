@@ -2136,12 +2136,7 @@ I am an ordinary function
 
 <br>
 
-
-
-
-
-
-
+Tam olarak aynıdır. **my_decorator** çağrılır. Böylece, **@my_decorator** olduğunda, Python'a 'değişken **my_decorator** tarafından etiketlenmiş' işlevini çağırmasını söylüyorsunuz.
 
 
 
