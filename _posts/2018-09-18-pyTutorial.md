@@ -1503,9 +1503,49 @@ Yes!
 
 <br>
 
+Bunu aklında tut. Kısa bir süre sonra tekrar döneceğiz. 
 
+Python işlevlerinin bir başka ilginç özelliği, başka bir işlevin içinde tanımlanabilmeleridir!
 
+<br>
 
+{% highlight python linenos=table %}
+
+def talk():
+
+    # You can define a function on the fly in "talk" ...
+    def whisper(word="yes"):
+        return word.lower()+"..."
+
+    # ... and use it right away!
+    print(whisper())
+
+# You call "talk", that defines "whisper" EVERY TIME you call it, then
+# "whisper" is called in "talk". 
+talk()
+# outputs: 
+# "yes..."
+
+# But "whisper" DOES NOT EXIST outside "talk":
+
+try:
+    print(whisper())
+except NameError, e:
+    print(e)
+    #outputs : "name 'whisper' is not defined"*
+    #Python's functions are objects
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+yes...
+NameError: name 'whisper' is not defined on line 19
+
+{% endhighlight %}
+
+<br>
 
 
 
