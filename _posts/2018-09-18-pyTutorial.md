@@ -2582,7 +2582,7 @@ Hello Universe and everything
 
 Biliyorum, 'özçağrıyı anlamadan önce, özçağrıyı anlamanız gerekir' diyen bir adam dinledikten sonra en son bu duyguya sahiptiniz. Ama şimdi, bunu anlamak konusunda kendini iyi hissetmiyor musun?
 
-
+### En iyi uygulamalar: dekoratörler
 
 
 
