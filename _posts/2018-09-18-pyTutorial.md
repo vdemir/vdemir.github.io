@@ -1360,6 +1360,19 @@ img.resize {
 
 Python bir fonksiyonu (veya sınıfı) **@** simgesiyle ve ardından dekoratörle süslemenizi sağlar.
 
+Örneğin:
+
+<br>
+
+{% highlight python %}
+
+@mydecorator
+def my_function(args):
+    ...
+
+{% endhighlight %}
+
+<br>
 
 
 
