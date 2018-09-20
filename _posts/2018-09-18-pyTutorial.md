@@ -2469,8 +2469,17 @@ I am the decorated function and only knows about my arguments: Leslie Howard
 
 Gördüğünüz gibi, bu hileyi kullanarak argümanları herhangi bir işlev gibi dekoratöre aktarabilirsiniz. İsterseniz * args, ** kwargs kullanabilirsiniz. Ancak, dekoratörlerin sadece bir kez çağrıldığını unutmayın. Sadece Python, betiği içe aktardığında. Sonra argümanları dinamik olarak ayarlayamazsınız. "import x" yaptığınızda, işlev zaten dekore edilmiştir, böylece hiçbir şeyi değiştiremezsiniz.
 
+### Pratik yapalım: decorating a decorator
 
+Tamam, bir bonus olarak, herhangi bir dekoratörün herhangi bir bağımsız değişkeni kabul etmesi için size bir pasaj vereceğim. Sonuçta, argümanları kabul etmek için, başka bir işlev kullanarak dekoratörü yarattık. 
 
+Dekoratörü sardık. 
+
+Son zamanlarda bu sarılmış işlevi gördük başka bir şey? 
+
+Ah evet, dekoratörler! 
+
+Haydi biraz eğlenelim ve dekoratörler için bir dekoratör yazalım:
 
 
 
