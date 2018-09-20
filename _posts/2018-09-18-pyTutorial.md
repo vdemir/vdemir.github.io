@@ -1609,7 +1609,25 @@ yes...
 
 <br>
 
+Fazlası var! 
 
+Bir işlevi döndürebilirseniz, birini parametre olarak geçirebilirsiniz:
+
+<br>
+
+{% highlight python linenos=table %}
+
+def doSomethingBefore(func): 
+    print("I do something before then I call the function you gave me")
+    print(func())
+
+doSomethingBefore(talk)
+#outputs: 
+#I do something before then I call the function you gave me
+#Yes!.
+
+{% endhighlight %}
+<br>
 
 
 
