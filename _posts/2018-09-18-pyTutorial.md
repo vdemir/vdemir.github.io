@@ -2206,4 +2206,77 @@ I am the decorated function.
 
 <br>
 
+Burada sürpriz yok. 
+
+Aynı şeyi tam olarak yapalım, ancak tüm sinir bozucu ara değişkenleri atlayın:
+
+
+<br>
+
+{% highlight python linenos=table %}
+
+def decorator_maker():
+
+    print("I make decorators! I am executed only once: "
+          "when you make me create a decorator.")
+
+    def my_decorator(func):
+
+        print("I am a decorator! I am executed only when you decorate a function.")
+
+        def wrapped():
+            print("I am the wrapper around the decorated function. "
+                  "I am called when you call the decorated function. "
+                  "As the wrapper, I return the RESULT of the decorated function.")
+            return func()
+
+        print("As the decorator, I return the wrapped function.")
+
+        return wrapped
+
+    print("As a decorator maker, I return a decorator")
+    return my_decorator
+
+ 
+def decorated_function():
+    print("I am the decorated function.")
+decorated_function = decorator_maker()(decorated_function)
+ 
+decorated_function()
+
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+I make decorators! I am executed only once: when you make me create a decorator.
+As a decorator maker, I return a decorator
+I am a decorator! I am executed only when you decorate a function.
+As the decorator, I return the wrapped function.
+I am the wrapper around the decorated function. I am called when you call the decorated function. As the wrapper, I return the RESULT of the decorated function.
+I am the decorated function.
+ 
+{% endhighlight %}
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
