@@ -146,6 +146,7 @@ img.resize {
 + 9 [Kısmi Fonksiyonlar](#D9)
 + 10 [Kod İçgözlemi](#D10)
 + 11 [Closures](#D11)
++ 12 [Python Dekoratörleri](#D12)
 
  
 
@@ -1395,7 +1396,7 @@ print(multiplywith5(9))
 <br>
 
 <a id="D12"></a>
-## 12 Python Dekoratörlerini Örneklerle Öğrenme
+## 12 Python Dekoratörleri
 
 <br>
 
