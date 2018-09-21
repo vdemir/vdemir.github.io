@@ -2823,7 +2823,7 @@ Bu gerçekten büyük bir oyun alanı.
 
 <br>
 
-<a id="D11"></a>
+<a id="D13"></a>
 ## 13 Python İstisnası İşleme: Öğrenme İçin Hızlı Bir Kılavuz
 
 Python istisna işlemeyi öğrenmek için bu öğreticiyi okuyun. Python istisna işlemeyi öğrenmek için bu öğreticiyi okuyun. Programlarınızda **try, except**  ve son ifadeleri nasıl kullanacağınızı anlamanıza yardımcı olmalıdır. Hemen başlamak için verilen örnekleri gözden geçirin.
@@ -2837,6 +2837,8 @@ Bu hatalardan bazıları programın aniden sonlandırılmasına neden olabilir. 
 Her şeyden önce, bir hata ve istisna arasındaki farkı anlamalıyız. Sonuç olarak, size Python istisna işleminin esaslarını öğreteceğiz.
 
 ### Python İstisna İşleme: Hata Vs. İstisna
+
+<br>
 
 #### Hata Nedir?
 
