@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Python Tutorial
+title:  Python Eğiticisi
 date:   2018-09-18 12:00:00
 last_updated: 2018-19-15 12:00:00
 keywords: linux, python
