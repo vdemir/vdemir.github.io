@@ -2584,7 +2584,11 @@ Biliyorum, 'özçağrıyı anlamadan önce, özçağrıyı anlamanız gerekir' d
 
 ### En iyi uygulamalar: dekoratörler
 
-
+-  Dekoratörler Python 2.4'te tanıtıldı, bu yüzden kodunuzun> = 2.4'te çalıştırılacağından emin olun.
+-  Dekoratörler fonksiyon çağrısını yavaşlatır. Bunu aklında tut.
+-  Bir işlev süslenmişse süslülük özellğini kaldıramazsınız. (Kaldırılabilen dekoratörler yaratma yetileri vardır, ancak kimse bunları kullanmaz.) Böylece bir işlev süslendiğinde, tüm kodlar için dekore edilmiştir.
+-  Dekoratörler, hata ayıklamalarını zorlaştıracak işlevleri sarar. (Bu Python'dan daha iyi olur> = 2.5; aşağıya bakın.)
+￼
 
 
 
