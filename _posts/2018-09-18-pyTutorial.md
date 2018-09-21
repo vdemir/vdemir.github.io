@@ -2717,10 +2717,10 @@ print(reverse_string("A man, a plan, a canoe, pasta"))
 #wrapper 0.0
 #wrapper has been used: 1x 
 #ablE was I ere I saw elbA
-#reverse_string ('A man, a plan, a canoe, pasta, heros, rajahs, a coloratura, maps, snipe, percale, macaroni, a gag, a banana bag, a tan, a tag, a banana bag again (or a camel), a crepe, pins, Spam, a rut, a Rolo, cash, a jar, sore hats, a peon, a canal: Panama!',) {}
+#reverse_string ('A man, a plan, a canoe, pasta',) {}
 #wrapper 0.0
 #wrapper has been used: 2x
-#!amanaP :lanac a ,noep a ,stah eros ,raj a ,hsac ,oloR a ,tur a ,mapS ,snip ,eperc a ,)lemac a ro( niaga gab ananab a ,gat a ,nat a ,gab ananab a ,gag a ,inoracam ,elacrep ,epins ,spam ,arutaroloc a ,shajar ,soreh ,atsap ,eonac a ,nalp a ,nam A
+#atsap ,eonac a ,nalp a ,nam A
 {% endhighlight %}
 <br>
 <h2 class="python3">Python</h2>
@@ -2728,13 +2728,14 @@ print(reverse_string("A man, a plan, a canoe, pasta"))
 {% highlight python %}
 
 reverse_string ('Able was I ere I saw Elba',) {}
-wrapper 6.199999999999956e-05
+wrapper 6.500000000000256e-05
 wrapper has been used: 1x
-<reversed object at 0x7f643814cf28>
+<reversed object at 0x7f003989ef28>
 reverse_string ('A man, a plan, a canoe, pasta',) {}
-wrapper 1.8000000000000654e-05
+wrapper 1.4999999999997654e-05
 wrapper has been used: 2x
-<reversed object at 0x7f643814cf28>
+<reversed object at 0x7f003989ef28>
+
 
 {% endhighlight %}
 
