@@ -2976,3 +2976,20 @@ else:
 
 <br>
 
+Yukarıdaki kod aşağıdaki çıktıyı üretir.
+
+<br>
+
+{% highlight python %}
+
+Error: can't find file or read data
+
+{% endhighlight %}
+
+<br>
+
+
+
+
+
+
