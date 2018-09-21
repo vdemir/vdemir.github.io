@@ -3041,9 +3041,15 @@ else:
 
 <br>
 
+### Try-Finally ile İstisnalar Nasıl Ele Geçirilir?
 
+#### Try-Finally Bildirimi Nedir?
 
+Ayrıca, Python istisnasının ele alınmasını, son olarak denemenin yardımı ile de etkinleştirebiliriz. 
 
+Try bloğu ile, “nihayet” bloğunu tanımlama seçeneğine de sahibiz. Bu fıkra, yürütmek istediğimiz ifadeleri tanımlamaya izin verir, ancak try bloğunun bir istisna oluşturup oluşturmadığı önemli değildir. 
 
+Bu özellik genellikle dış kaynak sağlarken resim içinde gelir. 
 
+İşte burada yardım için kodlama snippet'i.
 
