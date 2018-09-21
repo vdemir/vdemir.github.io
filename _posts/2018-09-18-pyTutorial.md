@@ -2850,7 +2850,7 @@ Derleme zamanında gerçekleşir. Bir örnek görelim.
 
 {% highlight python %}
 
-n [2]: if a<5
+In [2]: if a<5
   File "<stdin>", line 1
     if a<5
          ^
