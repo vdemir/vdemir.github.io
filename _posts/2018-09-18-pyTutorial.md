@@ -2730,7 +2730,11 @@ reverse_string ('Able was I ere I saw Elba',) {}
 wrapper 6.199999999999956e-05
 wrapper has been used: 1x
 <reversed object at 0x7f643814cf28>
-reverse_string ('A man, a plan, a canoe, pasta, heros, rajahs, a coloratura, maps, snipe, percale, macaroni, a gag, a banana bag, a tan, a tag, a banana bag again (or a camel), a crepe, pins, Spam, a rut, a Rolo, cash, a jar, sore hats, a peon, a canal: Panama!',) {}
+reverse_string ('A man, a plan, a canoe, pasta, heros, 
+rajahs, a coloratura, maps, snipe, percale, macaroni, 
+a gag, a banana bag, a tan, a tag, a banana bag again (or a camel), 
+a crepe, pins, Spam, a rut, a Rolo, cash, a jar, sore hats, 
+a peon, a canal: Panama!',) {}
 wrapper 1.8000000000000654e-05
 wrapper has been used: 2x
 <reversed object at 0x7f643814cf28>
