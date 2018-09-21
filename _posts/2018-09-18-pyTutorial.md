@@ -2944,7 +2944,35 @@ else:
 
 <br>
 
+Yukarıdaki kod aşağıdaki çıktıyı üretir.
 
+<br>
 
+{% highlight python %}
 
+Write operation is performed successfully on the file.
+
+{% endhighlight %}
+
+<br>
+
+READ modunda bir dosya açmaya çalıştığımız başka bir örnek verelim. 
+
+Üzerinde bir WRITE işlemi yapacağız. Uygulama üzerine, bir istisna atar.
+
+<br>
+
+{% highlight python %}
+
+try:
+   fob = open("test", "r")
+   fob.write("It's my test file to verify exception handling in Python!!")
+except IOError:
+   print "Error: can\'t find the file or read data"
+else:
+   print "Write operation is performed successfully on the file"
+
+{% endhighlight %}
+
+<br>
 
