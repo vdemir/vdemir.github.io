@@ -2834,9 +2834,15 @@ Kodun en iyisinin bile çalışma zamanında beklenmedik şekilde davranabilece�
 
 Bu hatalardan bazıları programın aniden sonlandırılmasına neden olabilir. Python istisnasının ele alınmasıyla, yukarıdaki sorunları yönetebilir ve kodumuzun aralıklı hatalarını önleyebiliriz.
 
+Her şeyden önce, bir hata ve istisna arasındaki farkı anlamalıyız. Sonuç olarak, size Python istisna işleminin esaslarını öğreteceğiz.
 
+### Python İstisna İşleme: Hata Vs. İstisna
 
+#### Hata Nedir?
 
+Hata, programda yanlış giden, örneğin sözdizimsel bir hata gibi bir şeydir. 
+
+Derleme zamanında gerçekleşir. Bir örnek görelim.
 
 
 
