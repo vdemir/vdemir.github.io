@@ -1292,7 +1292,7 @@ print (c1(), c1(), c1(), c2(), c2())
 {% endhighlight %}
 
 <br>
-Öbekler, ekli yordamlarla veridir, değişken veri kapanları veriye eklenmiş fonksiyonlardır.
+Öbekler, ekli yordamlarla veridir, veri kapanları veriye eklenmiş fonksiyonlardır.
 <br>
 <div class="alert alert-info" role="info">
 <p><strong>Not:</strong> Python 3'e nonlocal eklendiğini, python 2.x'in tam okuma-yazma kapatmalarına sahip olmadığına dikkat edin (yani, değişkenler üzerinde kapatılmış olabilir, ancak değerlerini değiştiremezsiniz).</p>
