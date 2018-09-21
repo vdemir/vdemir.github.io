@@ -147,6 +147,7 @@ img.resize {
 + 10 [Kod İçgözlemi](#D10)
 + 11 [Closures](#D11)
 + 12 [Python Dekoratörleri](#D12)
++ 13 [Python Exception İşleme](#D13)
 
  
 
@@ -2819,4 +2820,25 @@ Python'un kendisi birkaç dekoratörler sunar: property, staticmethod, vb.
 -  Eşzamanlı olmayan işlev çağrıları yapmak.
 
 Bu gerçekten büyük bir oyun alanı.
+
+<br>
+
+<a id="D11"></a>
+## 13 Python İstisnası İşleme: Öğrenme İçin Hızlı Bir Kılavuz
+
+Python istisna işlemeyi öğrenmek için bu öğreticiyi okuyun. Python istisna işlemeyi öğrenmek için bu öğreticiyi okuyun. Programlarınızda **try, except**  ve son ifadeleri nasıl kullanacağınızı anlamanıza yardımcı olmalıdır. Hemen başlamak için verilen örnekleri gözden geçirin.
+
+İstisna yönetimi, sağlam ve kararlı uygulamalar oluşturmak için çok önemlidir. Programcıları temiz, okunabilir ve hatasız bir kod yazmaya teşvik eder. 
+
+Kodun en iyisinin bile çalışma zamanında beklenmedik şekilde davranabileceğini kabul edersiniz. Eksik bir konfigürasyon veya yürütme ortamında bir değişiklik nedeniyle veya kullanıcı yanlış girdiyle başlamış olabilir. 
+
+Bu hatalardan bazıları programın aniden sonlandırılmasına neden olabilir. Python istisnasının ele alınmasıyla, yukarıdaki sorunları yönetebilir ve kodumuzun aralıklı hatalarını önleyebiliriz.
+
+
+
+
+
+
+
+
 
