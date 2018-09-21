@@ -2708,7 +2708,7 @@ def counter(func):
 @benchmark
 @logging
 def reverse_string(string):
-    return str(reversed(string))
+    return ''.join(reversed(string))
 
 print(reverse_string("Able was I ere I saw Elba"))
 print(reverse_string("A man, a plan, a canoe, pasta"))
@@ -2729,16 +2729,20 @@ print(reverse_string("A man, a plan, a canoe, pasta"))
 {% highlight python %}
 
 reverse_string ('Able was I ere I saw Elba',) {}
-wrapper 6.500000000000256e-05
+wrapper 6.400000000000156e-05
 wrapper has been used: 1x
-<reversed object at 0x7f003989ef28>
+ablE was I ere I saw elbA
 reverse_string ('A man, a plan, a canoe, pasta',) {}
-wrapper 1.4999999999997654e-05
+wrapper 1.6000000000002124e-05
 wrapper has been used: 2x
-<reversed object at 0x7f003989ef28>
-
+atsap ,eonac a ,nalp a ,nam A
 
 {% endhighlight %}
 
 <br>
+Tabii ki dekoratörler ile iyi olan şey, onları hemen hemen her şeyi yeniden yazmadan kullanabilmenizdir. DRY dedim:
+
+
+
+
 
