@@ -2860,9 +2860,15 @@ SyntaxError: invalid syntax
 
 <br>
 
-İstisna Nedir?
+#### İstisna Nedir?
 
+Hatalar çalışma zamanında da ortaya çıkar ve bunları istisna olarak biliriz. Bir istisna, bir programın yürütülmesi sırasında gerçekleşen ve programın talimatlarının normal akışını bozan bir olaydır. 
 
+Genel olarak, bir Python betiği, başa çıkamayacağı bir hata durumuyla karşılaştığında, bir istisna ortaya çıkarır. 
+
+Bir Python betiği bir istisna oluşturduğunda, bir istisna nesnesi oluşturur. 
+
+Genellikle, betik hemen istisnayı ele alır. Eğer böyle olmazsa, o zaman program, nerede olduğu ile birlikte hatanın bir izini sonlandıracak ve yazdıracaktır.
 
 
 
