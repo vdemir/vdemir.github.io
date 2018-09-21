@@ -1328,7 +1328,7 @@ print(closure()) # 4
 Bir kapanma **closure** denir çünkü dış (sabit) değişken 'üzerinden kapanır'. Bu sadece bir işlev değil, işlevin oluşturulduğu ortamın bir muhafazasıdır. Aşağıdaki örnekte, x'i değiştirdikten sonra g closure kapağını çağırmak, g içinde x'in değerini de değiştirecektir, çünkü g, x üzerinden kapanır:
 <br>
 <div class="alert alert-info" role="info">
-<p><strong>Not:</strong> Python 3'e nonlocal eklendiğini, python 2.x'in tam okuma-yazma kapatmalarına sahip olmadığına dikkat edin (yani, değişkenler üzerinde kapatılmış olabilir, ancak değerlerini değiştiremezsiniz).</p>
+<p><strong>Not:</strong> Python 3'e nonlocal eklendiğini, python 2.x'in tam okuma-yazma kapatmalarına sahip olmadığına dikkat edin (yani, değişkenler üzerinden kapatılmış olabilir, ancak değerlerini değiştiremezsiniz).</p>
 </div>
 
 <br>
