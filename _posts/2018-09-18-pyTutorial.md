@@ -2742,7 +2742,10 @@ atsap ,eonac a ,nalp a ,nam A
 <br>
 Tabii ki dekoratörler ile iyi olan şey, onları hemen hemen her şeyi yeniden yazmadan kullanabilmenizdir. DRY dedim:
 
+Python'un kendisi birkaç dekoratörler sunar: property, staticmethod, vb.
 
+-  Django, önbelleğe alma ve görüntüleme izinlerini yönetmek için dekoratörler kullanır.
+-  Eşzamanlı olmayan işlev çağrıları yapmak.
 
-
+Bu gerçekten büyük bir oyun alanı.
 
