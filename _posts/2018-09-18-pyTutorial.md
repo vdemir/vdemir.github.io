@@ -2846,7 +2846,19 @@ Hata, programda yanlış giden, örneğin sözdizimsel bir hata gibi bir şeydir
 
 Derleme zamanında gerçekleşir. Bir örnek görelim.
 
+<br>
 
+{% highlight python %}
+
+if a<5
+File "<interactive input>", line 1
+    if a < 5
+           ^
+SyntaxError: invalid syntax
+
+{% endhighlight %}
+
+<br>
 
 
 
