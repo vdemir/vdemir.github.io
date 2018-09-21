@@ -1279,7 +1279,7 @@ c1 = make_counter()
 c2 = make_counter()
 
 print (c1(), c1(), c1(), c2(), c2())
-# -> 1 2 1 2
+# -> 1 2 3 1 2
 
 {% endhighlight %}
 <br>
