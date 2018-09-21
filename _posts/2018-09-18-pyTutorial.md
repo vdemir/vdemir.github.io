@@ -2692,7 +2692,8 @@ def logging(func):
 
 def counter(func):
     """
-    A decorator that counts and prints the number of times a function has been executed
+    A decorator that counts and prints the number of times 
+    a function has been executed
     """
     def wrapper(*args, **kwargs):
         wrapper.count = wrapper.count + 1
@@ -2709,7 +2710,7 @@ def reverse_string(string):
     return str(reversed(string))
 
 print(reverse_string("Able was I ere I saw Elba"))
-print(reverse_string("A man, a plan, a canoe, pasta, heros, rajahs, a coloratura, maps, snipe, percale, macaroni, a gag, a banana bag, a tan, a tag, a banana bag again (or a camel), a crepe, pins, Spam, a rut, a Rolo, cash, a jar, sore hats, a peon, a canal: Panama!"))
+print(reverse_string("A man, a plan, a canoe, pasta"))
 
 #outputs:
 #reverse_string ('Able was I ere I saw Elba',) {}
@@ -2730,11 +2731,7 @@ reverse_string ('Able was I ere I saw Elba',) {}
 wrapper 6.199999999999956e-05
 wrapper has been used: 1x
 <reversed object at 0x7f643814cf28>
-reverse_string ('A man, a plan, a canoe, pasta, heros, 
-rajahs, a coloratura, maps, snipe, percale, macaroni, 
-a gag, a banana bag, a tan, a tag, a banana bag again (or a camel), 
-a crepe, pins, Spam, a rut, a Rolo, cash, a jar, sore hats, 
-a peon, a canal: Panama!',) {}
+reverse_string ('A man, a plan, a canoe, pasta',) {}
 wrapper 1.8000000000000654e-05
 wrapper has been used: 2x
 <reversed object at 0x7f643814cf28>
