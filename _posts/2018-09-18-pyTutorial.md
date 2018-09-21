@@ -1767,7 +1767,7 @@ After the function runs
 
 <br>
 
-Şimdi, muhtemelen **a_stand_alone_function** çağırdığınızda, **a_stand_alone_function_decorated** yerine çağrılır. Bu kolay, **my_shiny_new_decorator** tarafından döndürülen işlevle birlikte **a_stand_alone_function** üzerine yazmanız yeterli:
+Şimdi, muhtemelen "a_stand_alone_function" çağırdığınızda, "a_stand_alone_function_decorated" yerine çağrılır. Bu kolay, "my_shiny_new_decorator" tarafından döndürülen işlevle birlikte "a_stand_alone_function" üzerine yazmanız yeterli:
 
 <br>
 
@@ -1813,7 +1813,7 @@ another_stand_alone_function()
 
 Evet, hepsi bu kadar basit. **@decorator** sadece bir kısayol:
 
-**another_stand_alone_function = my_shiny_new_decorator(another_stand_alone_function)**
+"another_stand_alone_function = my_shiny_new_decorator(another_stand_alone_function)"
 
 Dekoratörler, decorator design pattern ninin sadece pythonic bir çeşididir. Geliştirme kolaylaştırmak için (like iterators) Python'da gömülü birkaç klasik tasarım modeli vardır.
 
