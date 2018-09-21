@@ -94,7 +94,7 @@ img.resize {
   }
  strong {
     font-family: 'Life Savers', serif;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     font-feature-settings: "liga" on;
     color: #3d3d3d;
   }
