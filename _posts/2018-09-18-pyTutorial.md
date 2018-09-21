@@ -1396,7 +1396,7 @@ print(multiplywith5(9))
 <br>
 
 <a id="D12"></a>
-## 12 Python Dekoratörleri
+## 12 Python Dekoratörlerini Örneklerle Öğrenme
 
 <br>
 
