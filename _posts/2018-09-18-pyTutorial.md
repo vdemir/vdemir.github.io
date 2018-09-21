@@ -2860,5 +2860,12 @@ SyntaxError: invalid syntax
 
 <br>
 
+İstisna Nedir?
+
+
+
+
+
+
 
 
