@@ -2894,6 +2894,6 @@ Try bloğunun içinde, bir istisna oluşturabilecek kodu yazarsınız.
 
 Ve istisnaları ele geçiren veya yakalayan kod, istisna dışı maddeye koyarız.
 
+#### Python İstisnası İşleme Sözdizimi
 
-
-
+Aşağıda, bir Python try-except-else bloğunun sözdizimi verilmiştir.
