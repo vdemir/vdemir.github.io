@@ -2884,6 +2884,16 @@ ZeroDivisionError: division by zero
 
 <br>
 
+### Try-Except İle İstisnalar Nasıl Kullanılır?
+
+#### Try-Except deyimi nedir?
+
+Python programlarında istisna işlemlerini sağlamak için try-except ifadesini kullanırız. 
+
+Try bloğunun içinde, bir istisna oluşturabilecek kodu yazarsınız. 
+
+Ve istisnaları ele geçiren veya yakalayan kod, istisna dışı maddeye koyarız.
+
 
 
 
