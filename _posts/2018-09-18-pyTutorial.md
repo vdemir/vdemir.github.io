@@ -1293,6 +1293,39 @@ print (c1(), c1(), c1(), c2(), c2())
 
 <br>
 Öbekler, ekli yordamlarla veridir, veri kapanları veriye eklenmiş fonksiyonlardır.
+
+<br>
+
+{% highlight python linenos=table %}
+
+x = 0
+
+def f():
+    def g(): 
+        return x * 2
+    return g
+
+
+closure = f()
+print(closure()) # 0
+x = 2
+print(closure()) # 4
+
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+0
+4
+
+{% endhighlight %}
+
+<br>
+
+
+Bir kapanma closure denir çünkü dış değişken ('sabit') 'kapanır'. Bu sadece bir işlev değil, işlevin oluşturulduğu ortamın bir muhafazasıdır. Aşağıdaki örnekte, x'i değiştirdikten sonra g closure kapağını çağırmak, g içinde x'in değerini de değiştirecektir, çünkü g, x üzerinden kapanır:
 <br>
 <div class="alert alert-info" role="info">
 <p><strong>Not:</strong> Python 3'e nonlocal eklendiğini, python 2.x'in tam okuma-yazma kapatmalarına sahip olmadığına dikkat edin (yani, değişkenler üzerinde kapatılmış olabilir, ancak değerlerini değiştiremezsiniz).</p>
