@@ -3015,5 +3015,35 @@ else:
 
 <br>
 
+#### İstisna İle Birden Çok Özel Durumun Kullanılması
+
+Aynı istisna dışında, birden fazla istisna tanımlayabiliriz. Bu, Python yorumlayıcısının eşleşen bir istisna bulması durumunda, istisnai şartlar altında yazılan kodun çalıştırılacağı anlamına gelir. 
+
+Kısaca, fıkra hariç bu şekilde tanımladığımızda, aynı kod parçasının farklı istisnalar atmasını bekliyoruz. Ayrıca, her durumda aynı eylemi almak istiyoruz. 
+
+Lütfen aşağıdaki örneğe bakınız.
+
+<br>
+
+{% highlight python %}
+
+try:
+   You do your operations here;
+   ......................
+except(Exception1[, Exception2[,...ExceptionN]]]):
+   If there is any exception from the given exception list,
+   then execute this block.
+   ......................
+else:
+   If there is no exception then execute this block
+
+{% endhighlight %}
+
+<br>
+
+
+
+
+
 
 
