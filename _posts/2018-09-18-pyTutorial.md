@@ -2589,8 +2589,76 @@ Biliyorum, 'özçağrıyı anlamadan önce, özçağrıyı anlamanız gerekir' d
 -  Bir işlev süslenmişse süslülük özellğini kaldıramazsınız. (Kaldırılabilen dekoratörler yaratma yetileri vardır, ancak kimse bunları kullanmaz.) Böylece bir işlev süslendiğinde, tüm kodlar için dekore edilmiştir.
 -  Dekoratörler, hata ayıklamalarını zorlaştıracak işlevleri sarar. (Bu Python'dan daha iyi olur> = 2.5; aşağıya bakın.)
 ￼
+(Eğlenceli gerçek: functools.wraps() bir dekoratör!)
+
+<br>
+
+{% highlight python linenos=table %}
+
+# For debugging, the stacktrace prints you the function __name__
+def foo():
+    print("foo")
+
+print(foo.__name__)
+#outputs: foo
+
+# With a decorator, it gets messy    
+def bar(func):
+    def wrapper():
+        print("bar")
+        return func()
+    return wrapper
+
+@bar
+def foo():
+    print("foo")
+
+print(foo.__name__)
+#outputs: wrapper
+
+# "functools" can help for that
+
+import functools
+
+def bar(func):
+    # We say that "wrapper", is wrapping "func"
+    # and the magic begins
+    @functools.wraps(func)
+    def wrapper():
+        print("bar")
+        return func()
+    return wrapper
+
+@bar
+def foo():
+    print("foo")
+
+print(foo.__name__)
+#outputs: foo
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+foo
+wrapper
+foo
+
+{% endhighlight %}
+
+<br>
+
+### Dekoratörler nasıl yararlı olabilir?
+
+<br>
+
+Şimdi büyük soru: Dekoratörleri ne için kullanabilirim? 
+
+Güzel ve güçlü görünüyorsun, ama pratik bir örnek harika olurdu. Eh, 1000 olasılık var. Klasik kullanımlar, harici(değiştiremezsin) bir kütüphaneden veya hata ayıklamadan(bunu geçici olarak değiştirmek istemezsiniz) bir fonksiyon davranışını genişletmektedir.
 
 
+Bir DRY’nın içinde çeşitli işlevleri genişletmek için bunları kullanabilirsiniz:
 
 
 
