@@ -2988,8 +2988,32 @@ Error: can't find file or read data
 
 <br>
 
+#### İstisnai Her Türlü İstisnaları İşleme
 
+Çıplak bir “istisna” maddesi kullanırsak, her türlü istisnaları yakalardı. 
 
+Bununla birlikte, ne iyi bir programlama pratiği ne de başka biri bunu önermiyor. 
+
+Böyle bir Python try-except bloğunun her tür istisnayı ele alabilmesidir. Ancak, programcının istisnaya neden olan sorunu bulmasına yardımcı olmaz. 
+
+Tüm istisnaları nasıl yakalayacağınızı görmek için aşağıdaki kodu inceleyebilirsiniz.
+
+<br>
+
+{% highlight python %}
+
+try:
+   You do your operations here;
+   ......................
+except:
+   If there is any exception, then execute this block.
+   ......................
+else:
+   If there is no exception then execute this block.
+
+{% endhighlight %}
+
+<br>
 
 
 
