@@ -2698,7 +2698,8 @@ def counter(func):
     def wrapper(*args, **kwargs):
         wrapper.count = wrapper.count + 1
         res = func(*args, **kwargs)
-        print("{0} has been used: {1}x".format(func.__name__, wrapper.count))
+        print("{0} has been used: {1}x"
+                 .format(func.__name__, wrapper.count))
         return res
     wrapper.count = 0
     return wrapper
