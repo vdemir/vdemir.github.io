@@ -1261,7 +1261,7 @@ print_msg(9)
 
 {% endhighlight %}
 <br>
-nonlocal anahtar kelime olmadan, çıktı **3 9** olurdu, ancak nonlocal kullanımı ile **3 3** alırız, yani **number** değişkeni değiştirilir. 
+nonlocal anahtar kelime olmadan, çıktı **3  9** olurdu, ancak nonlocal kullanımı ile **3  3** alırız, yani **number** değişkeni değiştirilir. 
 
 Şimdi, iç içe geçmiş fonksiyonu çağırmak yerine fonksiyon öbeği içinde nasıl döndürürüz? (fonksiyonların bile öbekler olduğunu unutmayın. (Python.))
 
@@ -1298,7 +1298,7 @@ Avantaj: **Closure**, global değişkenlerin kullanılmasını önleyebilir ve b
  
 Ayrıca, Python'daki süslü fonksiyonlar,  closure kapatıcıların yaygın kullanımını sağlıyor.
 
-Closure kapatıcıları kullanarak birden çok çarpım fonksiyonunu elde etmek için fonksiyonlar yapmak için iç içe bir döngü ve bir python closure kapatıcı yapın. Bu closure kapatıcıları kullanarak **multiply_with_5()** veya **multiply_with_4()** fonksiyonlarını oluşturmak için fonksiyonlar oluşturabilir.
+Closure kapatıcıları kullanarak birden çok çarpım fonksiyonunu elde eden fonksiyonlar yapmak için iç içe bir döngü ve bir python closure kapatıcı yapın. Bu closure kapatıcıları kullanarak **multiply_with_5()** veya **multiply_with_4()** fonksiyonlarını oluşturan fonksiyonlar oluşturabilir.
 
 <br>
 
