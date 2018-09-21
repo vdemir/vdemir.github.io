@@ -1263,6 +1263,42 @@ print_msg(9)
 <br>
 nonlocal anahtar kelime olmadan, çıktı **3  9** olurdu, ancak nonlocal kullanımı ile **3  3** alırız, yani **number** değişkeni değiştirilir. 
 
+<br>
+
+{% highlight python linenos=table %}
+
+def make_counter():
+    i = 0
+    def counter(): # counter() is a closure
+        nonlocal i
+        i += 1
+        return i
+    return counter
+
+c1 = make_counter()
+c2 = make_counter()
+
+print (c1(), c1(), c1(), c2(), c2())
+# -> 1 2 1 2
+
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+1 2 3 1 2
+
+{% endhighlight %}
+
+<br>
+
+<div class="alert alert-info" role="info">
+<p><strong>Not:</strong> Python 3'e nonlocal eklendiğini, python 2.x'in tam okuma-yazma kapatmalarına sahip olmadığına dikkat edin (yani, değişkenler üzerinde kapatılmış olabilir, ancak değerlerini değiştiremezsiniz).</p>
+</div>
+
+<br>
+
 Şimdi, iç içe geçmiş fonksiyonu çağırmak yerine fonksiyon öbeği içinde nasıl döndürürüz? (fonksiyonların bile öbekler olduğunu unutmayın. (Python.))
 
 Ve fonksiyonu şu şekilde çağırıyoruz:
