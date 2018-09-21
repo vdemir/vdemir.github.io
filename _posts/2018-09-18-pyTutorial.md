@@ -2850,10 +2850,10 @@ Derleme zamanında gerçekleşir. Bir örnek görelim.
 
 {% highlight python %}
 
-if a<5
-File "<interactive input>", line 1
-    if a < 5
-           ^
+n [2]: if a<5
+  File "<stdin>", line 1
+    if a<5
+         ^
 SyntaxError: invalid syntax
 
 {% endhighlight %}
@@ -2870,7 +2870,19 @@ Bir Python betiği bir istisna oluşturduğunda, bir istisna nesnesi oluşturur.
 
 Genellikle, betik hemen istisnayı ele alır. Eğer böyle olmazsa, o zaman program, nerede olduğu ile birlikte hatanın bir izini sonlandıracak ve yazdıracaktır.
 
+<br>
 
+{% highlight python %}
+
+In [1]: 1 / 0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    1 / 0
+ZeroDivisionError: division by zero
+
+{% endhighlight %}
+
+<br>
 
 
 
