@@ -2897,3 +2897,54 @@ Ve istisnaları ele geçiren veya yakalayan kod, istisna dışı maddeye koyarı
 #### Python İstisnası İşleme Sözdizimi
 
 Aşağıda, bir Python try-except-else bloğunun sözdizimi verilmiştir.
+
+<br>
+
+{% highlight python %}
+
+try:
+	You do your operations here;
+	......................
+except ExceptionI:
+	If there is ExceptionI, then execute this block.
+except ExceptionII:
+	If there is ExceptionII, then execute this block.
+	......................
+else:
+	If there is no exception then execute this block.
+
+{% endhighlight %}
+
+<br>
+
+İşte Python try ifadesini etkili bir şekilde kullanmak için bir kontrol listesi.
+
+-  Tek bir deneme ifadesi, gereksinime bağlı olarak birden çok istisna ifadesine sahip olabilir. Bu durumda, bir try bloğu farklı türde istisnalar atabilecek ifadeler içerir.
+-  Tüm olası istisnai durumları ele alabilen genel bir istisna maddesi de ekleyebiliriz.
+-  İstisnai maddeden sonra bir başka maddeyi bile ekleyebiliriz. Try bloğundaki kod bir istisna oluşturmuyorsa, diğer bloktaki talimatlar yürütülür.
+
+Python İstisna İşleme Örnekleri
+
+Python try-except kullanımını anlamak için örnek bir kod alalım.
+
+<br>
+
+{% highlight python %}
+
+try:
+   fob = open("test", "w")
+   fob.write("This is my test file for exception handling!!")
+except IOError:
+   print "Error: can\'t find the file or read data"
+else:
+   print "Write operation is performed successfully on the file"
+   fob.close()
+
+{% endhighlight %}
+
+<br>
+
+
+
+
+
