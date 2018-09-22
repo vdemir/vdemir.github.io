@@ -3045,11 +3045,85 @@ else:
 
 #### Try-Finally Bildirimi Nedir?
 
-Ayrıca Python istisna işlemlerini try-finally  ifadesinin yardımıyla etkinleştirebiliriz.
+Ayrıca Python istisna işlemlerini try-finally ifadesinin yardımıyla etkinleştirebiliriz.
 
-Try bloğu ile, “nihayet” bloğunu tanımlama seçeneğine de sahibiz. Bu fıkra, yürütmek istediğimiz ifadeleri tanımlamaya izin verir, ancak try bloğunun bir istisna oluşturup oluşturmadığı önemli değildir. 
+Try bloğu ile, “finally” bloğunu tanımlama seçeneğine de sahibiz. Bu fıkra, yürütmek istediğimiz ifadeleri tanımlamaya izin verir, ancak try bloğunun bir istisna oluşturup oluşturmadığı önemli değildir. 
 
 Bu özellik genellikle dış kaynak sağlarken resim içinde gelir. 
 
 İşte burada yardım için kodlama snippet'i.
+
+<br>
+
+{% highlight python %}
+
+try:
+   You do your operations here;
+   ......................
+   Due to any exception, this may be skipped.
+finally:
+   This would always be executed.
+   ......................
+
+{% endhighlight %}
+
+<br>
+
+Examples
+
+Bir kritik nokta, her bir try bloğu ile ya bir “except” ya da “finally” cümlesi tanımlayabilmemizdir. Bunları birlikte kullanamazsın. Ayrıca, “else” maddesini “finally” cümlesiyle birlikte kullanmamalısınız.
+
+Daha fazla netlik elde etmek için bir örnek verelim.
+
+<br>
+
+{% highlight python %}
+
+try:
+    fob = open('test', 'w')
+    fob.write("It's my test file to verify try-finally in exception handling!!"
+              )
+    print 'try block executed'
+finally:
+    fob.close()
+    print 'finally block executed'
+
+{% endhighlight %}
+
+<br>
+
+İstisna oluşmazsa, aşağıdaki çıktıyı görürsünüz.
+
+<br>
+
+{% highlight python %}
+
+try:
+    fob = open('test', 'w')
+    fob.write("It's my test file to verify try-finally in exception handling!!"
+              )
+    print ('try block executed')
+finally:
+    fob.close()
+    print ('finally block executed')
+
+{% endhighlight %}
+
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+try block executed
+finally block executed
+
+{% endhighlight %}
+
+<br>
+
+
+
+
+
+
 
