@@ -3090,9 +3090,6 @@ finally:
 
 {% endhighlight %}
 
-<br>
-
-İstisna oluşmazsa, aşağıdaki çıktıyı görürsünüz.
 
 <br>
 
@@ -3109,7 +3106,11 @@ finally:
 
 {% endhighlight %}
 
+
 <br>
+
+İstisna oluşmazsa, aşağıdaki çıktıyı görürsünüz.
+
 <h2 class="python3">Python</h2>
 
 {% highlight python %}
