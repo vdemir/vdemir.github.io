@@ -3145,7 +3145,7 @@ except IOError:
 
 <br>
 
-İstisna oluşmazsa, aşağıdaki çıktıyı görürsünüz.
+Bu durumda, interpreter bir istisna oluşturacak ve aşağıdaki çıktı gösterilecektir.
 
 <h2 class="python3">Python</h2>
 
