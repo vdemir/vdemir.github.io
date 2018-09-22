@@ -3142,5 +3142,5 @@ Error: can't find file or read data
 
 <br>
 
-
+Bir kod, bir try bloğunda bir istisna oluşturduğunda, yürütme hemen “finally” bloğuna geçer. “finally” bloğundaki tüm ifadeler çalıştırıldıktan sonra istisna, yürütme için “except” bloğuna devam eder. Fakat “try-except” ifadesinin bir sonraki yüksek tabakasını sunmalıdır.
 
