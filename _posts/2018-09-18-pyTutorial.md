@@ -3144,3 +3144,23 @@ Error: can't find file or read data
 
 Bir kod, bir try bloğunda bir istisna oluşturduğunda, yürütme hemen “finally” bloğuna geçer. “finally” bloğundaki tüm ifadeler çalıştırıldıktan sonra istisna, yürütme için “except” bloğuna devam eder. Fakat “try-except” ifadesinin bir sonraki yüksek tabakasını sunmalıdır.
 
+### Argümanlar ile İstisnaya Yükseltme
+
+#### raise nedir
+raise anahtar kelimesini kullanarak bir istisna oluşturabiliriz. 
+
+Ayrıca isteğe bağlı olarak değerleri istisna geçirebilir ve neden oluştuğunu belirtebiliriz.
+
+#### raise sözdizimini 
+
+<br>
+{% highlight python %}
+
+raise [Exception [, args [, traceback]]]
+
+{% endhighlight %}
+
+<br>
+
+
+
