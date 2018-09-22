@@ -3122,9 +3122,41 @@ finally block executed
 
 <br>
 
+Dosyayı (READ) modunda açtığımızı ve üzerinde bir yazma işlemi yapmaya çalıştığımızı varsayalım. Böyle bir durumda, aşağıdaki kod istisnayı ele almaya yardımcı olacaktır.
+
+<br>
+
+{% highlight python %}
+
+try:
+    fob = open('test', 'r')
+    try:
+        fob.write("It's my test file to verify try-finally in exception handling!!"
+                  )
+        print ('try block executed')
+    finally:
+        fob.close()
+        print ('finally block executed to close the file')
+except IOError:
+    print ("Error: can\'t find file or read data")
+
+{% endhighlight %}
 
 
+<br>
 
+İstisna oluşmazsa, aşağıdaki çıktıyı görürsünüz.
+
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+finally block executed to close the file
+Error: can't find file or read data
+
+{% endhighlight %}
+
+<br>
 
 
 
