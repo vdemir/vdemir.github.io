@@ -3162,5 +3162,36 @@ raise [Exception [, args [, traceback]]]
 
 <br>
 
+Nerede,
 
+-  “Exception” altında - adını belirtin.
+-  “args” isteğe bağlıdır ve istisna argümanının değerini temsil eder.
+-  Son argüman olan “traceback” de isteğe bağlıdır ve eğer varsa, istisna için kullanılan traceback nesnesidir.
+
+Bunu açıklığa kavuşturmak için bir örnek verelim.
+
+#### Raise Örneği
+
+<br>
+{% highlight python %}
+try:
+    num = a / 0
+    print(num)
+except:
+    print("An Error Occurred")
+         raise ValueError("This is not a positive number!!")
+
+{% endhighlight %}
+
+<br>
+
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+ValueError: This is not a positive number!!
+
+{% endhighlight %}
+
+<br>
 
