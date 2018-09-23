@@ -3322,10 +3322,10 @@ Python Yerleşik İstisnaları
 | EOFError  | Giriş yoksa veya dosya tanıtıcısı EOF'de.  |
 | Exception  | Tüm istisnalar için temel sınıftır.  |
 | EnvironmentError  | Python ortamının dışında oluşan hatalar için.  |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
+| FloatingPointError  | Kayan nokta işlemi başarısız olduğunda oluşur.  |
+| GeneratorExit  | Bir generator <close()> method yordamı çağrılırsa.  |
+| ImportError  | İçe aktarılan modül mevcut olmadığında oluşur.  |
+| IOError  |   |
 |   |   |
 |   |   |
 |   |   |
