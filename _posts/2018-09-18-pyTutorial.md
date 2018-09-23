@@ -3341,7 +3341,10 @@ Python Yerleşik İstisnaları
 | SyntaxError  | Python sözdizimindeki hatalar için.  |
 | IndentationError  | Girinti uygun değilse oluşur.  |
 | TabError  | Tutarsız sekmeler ve boşluklar için.  |
-| UnboundLocalError  |   |
+| SystemError  | Tercüman bir iç hata algıladığında.  |
+| SystemExit  | <sys.exit()> işlevi onu yükseltir.  |
+| TypeError  |   |
+| UnboundLocalError  | Tercüman bir iç hata algıladığında.  |
 | UnicodeError  |   |
 | ValueError  |   |
 | ZeroDivisionError  |   |
