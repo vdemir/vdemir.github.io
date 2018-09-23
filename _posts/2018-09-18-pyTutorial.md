@@ -3195,3 +3195,21 @@ ValueError: This is not a positive number!!
 
 <br>
 
+### Python'da Özel İstisnalar Yaratın
+
+#### Özel İstisna Nedir?
+
+Özel bir istisna, programcının kendini yarattığı bir istisnadır. 
+
+Yeni bir sınıf ekleyerek yapar. Buradaki hile, özel istisna sınıfını temel istisna sınıfından türetmektir. 
+
+Yerleşik istisnaların çoğunun da denk düşen bir sınıfı vardır.
+
+#### Python'da İstisna Sınıfı Oluşturun
+
+
+
+
+
+
+
