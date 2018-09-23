@@ -3312,6 +3312,42 @@ Congratulations! You guessed it correctly.
 
 Böylece, bu programda **Error** olarak adlandırılan bir taban sınıfını tanımladığımızı görebilirsiniz. Temel sınıftan türetilen iki istisna (“**InputTooSmallError**” ve “**InputTooLargeError**”) kaldırır. Python programlamasında kullanıcı tanımlı istisnaları tanımlamanın standart yolu.
 
+Python Yerleşik İstisnaları
+
+| istisna  | Hata Nedeni  |
+|---|---|
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
 
 
 
