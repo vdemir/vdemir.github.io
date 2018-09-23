@@ -3325,17 +3325,17 @@ Python Yerleşik İstisnaları
 | FloatingPointError  | Kayan nokta işlemi başarısız olduğunda oluşur.  |
 | GeneratorExit  | Bir generator <close()> method yordamı çağrılırsa.  |
 | ImportError  | İçe aktarılan modül mevcut olmadığında oluşur.  |
-| IOError  |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
+| IOError  | Bir giriş / çıkış işlemi başarısız olursa.  |
+| IndexError  | Bir dizinin indeksi aralık dışında olduğunda.  |
+| KeyError  | Belirtilen anahtar sözlüğünde mevcut değilse.  |
+| KeyboardInterrupt  | Kullanıcı bir interrupt tuşuna bastığında (Ctrl + c veya delete).  |
+| MemoryError  | Bir işlem hafıza dışına taşarsa.  |
+| NameError  | Bir değişken yerel veya global kapsamda mevcut olmadığında.  |
+| NotImplementedError  | Soyut bir yordam mevcut değilse.  |
+| OSError  | Bir sistem işlemi başarısız olduğunda.  |
+| OverflowError  | Bir aritmetik işlemin sonucu değer aralığını aşarsa oluşur.  |
+| ReferenceError  |   |
+| RuntimeError  |   |
 |   |   |
 |   |   |
 |   |   |
