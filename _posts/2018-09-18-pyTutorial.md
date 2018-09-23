@@ -3343,7 +3343,7 @@ Python Yerleşik İstisnaları
 | TabError  | Tutarsız sekmeler ve boşluklar için.  |
 | SystemError  | Tercüman bir iç hata algıladığında.  |
 | SystemExit  | <sys.exit()> işlevi onu yükseltir.  |
-| TypeError  |   |
+| TypeError  | Bir işlev yanlış türde bir nesne kullanıyorsa.  |
 | UnboundLocalError  | Tercüman bir iç hata algıladığında.  |
 | UnicodeError  | Unicode kodlama veya kod çözme hatası için.  |
 | ValueError  | Bir işlev geçersiz değerler aldığında.  |
