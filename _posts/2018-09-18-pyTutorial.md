@@ -3336,15 +3336,15 @@ Python Yerleşik İstisnaları
 | OverflowError  | Bir aritmetik işlemin sonucu değer aralığını aşarsa oluşur.  |
 | ReferenceError  | Zayıf referans proxy'si, toplanan bir çöp referansına eriştiğinde.  |
 | RuntimeError  | Oluşturulan hata herhangi bir kategoriye girmiyorsa.  |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
+| StandardError  | <StopIteration> ve <SystemExit> hariç tüm yerleşik istisnalar için bir temel sınıftır.  |
+| StopIteration  |   |
+| SyntaxError  |   |
+| IndentationError  |   |
+| TabError  |   |
+| UnboundLocalError  |   |
+| UnicodeError  |   |
+| ValueError  |   |
+| ZeroDivisionError  |   |
 |   |   |
 |   |   |
 |   |   |
