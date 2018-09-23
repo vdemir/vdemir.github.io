@@ -3207,7 +3207,35 @@ Yerleşik istisnaların çoğunun da denk düşen bir sınıfı vardır.
 
 #### Python'da İstisna Sınıfı Oluşturun
 
+<br>
+{% highlight python %}
 
+class UserDefinedError(Exception):
+     pass
+
+{% endhighlight %}
+
+<br>
+
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+In [4]: raise UserDefinedError
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    raise UserDefinedError
+UserDefinedError
+
+In [5]: raise UserDefinedError("An error occurred")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+    raise UserDefinedError("An error occurred")
+UserDefinedError: An error occurred
+
+{% endhighlight %}
+
+<br>
 
 
 
