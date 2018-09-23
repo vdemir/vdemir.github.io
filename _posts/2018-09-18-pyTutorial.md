@@ -3243,4 +3243,70 @@ Bir örnek alalım.
 
 #### Misal
 
+Bu örnekte, bir programda kullanıcı tanımlı bir istisnayı ve yakalama hatalarını nasıl yükselteceğimizi göstereceğiz. 
+
+Bu program, kullanıcının yalnızca kayıtlı alfabeyi girene kadar tekrar tekrar bir alfabe girmesini ister. 
+
+Yardım için, program kullanıcıya doğru bir ipucu verir, böylece doğru alfabeyi bulabilir. Ayrıca, tahminin kayıtlı alfabeden daha yüksek veya daha az olup olmadığını kontrol edebilir.
+
+<br>
+{% highlight python %}
+
+#define Python user-defined exceptions
+class Error(Exception):
+   """Base class for other exceptions"""
+   pass
+ 
+class InputTooSmallError(Error):
+   """Raised when the entered alpahbet is smaller than the actual one"""
+   pass
+ 
+class InputTooLargeError(Error):
+   """Raised when the entered alpahbet is larger than the actual one"""
+   pass
+
+#our main program
+#user guesses an alphabet until he/she gets it right
+ 
+#you need to guess this alphabet
+alphabet = 'm'
+ 
+while True:
+   try:
+       apb =  input("Enter an alphabet: ")
+       if apb < alphabet:
+           raise InputTooSmallError
+       elif apb > alphabet:
+           raise InputTooLargeError
+       break
+   except InputTooSmallError:
+       print("The entered alphabet is too small, try again!")
+       print('')
+   except InputTooLargeError:
+       print("The entered alphabet is too large, try again!")
+       print('')
+ 
+print("Congratulations! You guessed it correctly.")
+
+{% endhighlight %}
+
+<br>
+
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+Enter an alphabet:  f
+The entered alphabet is too small, try again!
+
+Enter an alphabet:  n
+The entered alphabet is too large, try again!
+
+Enter an alphabet:  m
+Congratulations! You guessed it correctly.
+
+{% endhighlight %}
+
+<br>
+
 
