@@ -3318,10 +3318,10 @@ Python Yerleşik İstisnaları
 |---|---|
 | AirthmeticError  | Sayısal hesaplamadaki hatalar içindir.  |
 | AssertionError  | Eğer assert ifadesi başarısız olursa.  |
-|   |   |
-|   |   |
-|   |   |
-|   |   |
+| AttributeError  | Bir özellik ataması veya referans başarısız olduğunda.  |
+| EOFError  | Giriş yoksa veya dosya tanıtıcısı EOF'de.  |
+| Exception  | Tüm istisnalar için temel sınıftır.  |
+| EnvironmentError  | Python ortamının dışında oluşan hatalar için.  |
 |   |   |
 |   |   |
 |   |   |
