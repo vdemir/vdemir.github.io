@@ -3317,7 +3317,7 @@ Python Yerleşik İstisnaları
 | istisna  | Hata Nedeni  |
 |---|---|
 | AirthmeticError  | Sayısal hesaplamadaki hatalar içindir.  |
-|   |   |
+| AssertionError  | Eğer assert ifadesi başarısız olursa.  |
 |   |   |
 |   |   |
 |   |   |
