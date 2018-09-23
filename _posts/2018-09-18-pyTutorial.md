@@ -3337,10 +3337,10 @@ Python Yerleşik İstisnaları
 | ReferenceError  | Zayıf referans proxy'si, toplanan bir çöp referansına eriştiğinde.  |
 | RuntimeError  | Oluşturulan hata herhangi bir kategoriye girmiyorsa.  |
 | StandardError  | <StopIteration> ve <SystemExit> hariç tüm yerleşik istisnalar için bir temel sınıftır.  |
-| StopIteration  |   |
-| SyntaxError  |   |
-| IndentationError  |   |
-| TabError  |   |
+| StopIteration  | <next()> işlevinin iade edilmek üzere başka bir öğesi yoktur.  |
+| SyntaxError  | Python sözdizimindeki hatalar için.  |
+| IndentationError  | Girinti uygun değilse oluşur.  |
+| TabError  | Tutarsız sekmeler ve boşluklar için.  |
 | UnboundLocalError  |   |
 | UnicodeError  |   |
 | ValueError  |   |
