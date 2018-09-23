@@ -3349,9 +3349,11 @@ Böylece, bu programda **Error** olarak adlandırılan bir taban sınıfını ta
 | ValueError  | Bir işlev geçersiz değerler aldığında.  |
 | ZeroDivisionError  | İkinci bölünme operandı veya modulo işlemi sıfırdır.  |
 
+### Özet - Python İstisnası İşleme Kavramları
 
+Çoğu zaman, okuyucularımıza işlerinde yardımcı olabilecek bir konu keşfetmeyi amaçlıyoruz. Bu yüzden bu eğitimi Python Kural Dışı Durum Tespitinde ele aldık. 
 
-
+Bu gönderi, Python'un temel bir kavramını öğrenmede size yardımcı olsaydı sizden haber almak harika olurdu. Deneyiminiz hakkında bize bilgi verin.
 
 
 
