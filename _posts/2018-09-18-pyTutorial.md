@@ -3334,8 +3334,8 @@ Python Yerleşik İstisnaları
 | NotImplementedError  | Soyut bir yordam mevcut değilse.  |
 | OSError  | Bir sistem işlemi başarısız olduğunda.  |
 | OverflowError  | Bir aritmetik işlemin sonucu değer aralığını aşarsa oluşur.  |
-| ReferenceError  |   |
-| RuntimeError  |   |
+| ReferenceError  | Zayıf referans proxy'si, toplanan bir çöp referansına eriştiğinde.  |
+| RuntimeError  | Oluşturulan hata herhangi bir kategoriye girmiyorsa.  |
 |   |   |
 |   |   |
 |   |   |
