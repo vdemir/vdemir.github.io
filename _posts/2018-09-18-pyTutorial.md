@@ -3345,12 +3345,9 @@ Python Yerleşik İstisnaları
 | SystemExit  | <sys.exit()> işlevi onu yükseltir.  |
 | TypeError  |   |
 | UnboundLocalError  | Tercüman bir iç hata algıladığında.  |
-| UnicodeError  |   |
-| ValueError  |   |
-| ZeroDivisionError  |   |
-|   |   |
-|   |   |
-|   |   |
+| UnicodeError  | Unicode kodlama veya kod çözme hatası için.  |
+| ValueError  | Bir işlev geçersiz değerler aldığında.  |
+| ZeroDivisionError  | İkinci bölünme operandı veya modulo işlemi sıfırdır.  |
 
 
 
