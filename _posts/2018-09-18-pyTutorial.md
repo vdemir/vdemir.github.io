@@ -3237,7 +3237,7 @@ UserDefinedError: An error occurred
 
 <br>
 
-
+Yukarıdaki ufak kod parçasında, kullanıcı tanımlı bir istisna sınıfı oluşturduğumuzu görebilirsiniz, “UserDefinedError.” Bu, ana Exception sınıfını ebeveyn olarak kullanıyor. Bu nedenle, kullanıcı tanımlı yeni istisna sınıfı, diğer istisna sınıflarının yaptığı gibi istisnalar oluşturacaktır, yani isteğe bağlı bir hata mesajıyla “yükseltme” ifadesini çağırarak.
 
 
 
