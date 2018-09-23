@@ -3289,7 +3289,8 @@ while True:
 print("Congratulations! You guessed it correctly.")
 
 {% endhighlight %}
-
+<br>
+Bu programı farklı girişler sağlayarak test edelim.
 <br>
 
 <h2 class="python3">Python</h2>
