@@ -3334,7 +3334,7 @@ Böylece, bu programda **Error** olarak adlandırılan bir taban sınıfını ta
 | KeyboardInterrupt  | Kullanıcı bir interrupt tuşuna bastığında (Ctrl + c veya delete).  |
 | MemoryError  | Bir işlem hafıza dışına taşarsa.  |
 | NameError  | Bir değişken yerel veya global kapsamda mevcut olmadığında.  |
-| NotImplementedError &nbsp;&nbsp;  | Soyut bir yordam mevcut değilse.  |
+| NotImplementedError  | Soyut bir yordam mevcut değilse.  |
 | OSError  | Bir sistem işlemi başarısız olduğunda.  |
 | OverflowError  | Bir aritmetik işlemin sonucu değer aralığını aşarsa oluşur.  |
 | ReferenceError  | Zayıf referans proxy'si, toplanan bir çöp referansına eriştiğinde.  |
