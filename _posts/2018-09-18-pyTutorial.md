@@ -3496,8 +3496,8 @@ sb.implicit()
 
 {% highlight python %}
 
-Alex Karlos
-Alex Karlos, A102
+Super-Class with Implicit function
+Super-Class with Implicit function
 
 {% endhighlight %}
 
