@@ -3406,7 +3406,19 @@ Var olan bir sınıfa çok az veya hiç değişiklik yapmadan yeni bir sınıf t
 
 Yukarıdaki diyagramda, türetilmiş sınıfın özellikleri ile birlikte türetilmiş sınıfta temel sınıfın özellikleri de bulunmaktadır. Bu temel sınıf özelliklerine, kalıtım kavramı nedeniyle sınıf elde etmek için erişilebilir.
 
+<br>
 
+{% highlight python %}
+
+class BaseClass1
+ #Body of base class
+
+class DerivedClass(BaseClass1):
+ #body of derived - class
+
+{% endhighlight %}
+
+<br>
 
 
 
