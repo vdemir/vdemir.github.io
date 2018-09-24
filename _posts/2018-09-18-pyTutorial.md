@@ -3317,6 +3317,7 @@ Böylece, bu programda **Error** olarak adlandırılan bir taban sınıfını ta
 ### Python Yerleşik İstisnaları
 
 <br>
+
 | istisna  | Hata Nedeni  |
 |---|---|
 | AirthmeticError  | Sayısal hesaplamadaki hatalar içindir.  |
