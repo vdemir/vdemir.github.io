@@ -3251,7 +3251,7 @@ Bu program, kullanıcının yalnızca kayıtlı alfabeyi girene kadar tekrar tek
 Yardım için, program kullanıcıya doğru bir ipucu verir, böylece doğru alfabeyi bulabilir. Ayrıca, tahminin kayıtlı alfabeden daha yüksek veya daha az olup olmadığını kontrol edebilir.
 
 <br>
-{% highlight python %}
+{% highlight python  linenos=table %}
 
 #define Python user-defined exceptions
 class Error(Exception):
