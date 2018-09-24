@@ -3395,7 +3395,14 @@ Kalıtım, soyutlama, kapsülleme ve çokbiçimlilik OOP (Object Oriented Progra
 
 Var olan bir sınıfa çok az veya hiç değişiklik yapmadan yeni bir sınıf tanımlamak için kullanılan nesne yönelimli programlamanın bir özelliğidir. Yeni sınıf, türetilmiş sınıf veya alt sınıf olarak adlandırılır ve bu türetilmiş sınıfın miras aldığı sınıf temel sınıf veya üst sınıftır. Türetilmiş sınıf, temel sınıftan oluşur ve ek olarak bazı ek özellikler içerebilir. Bu miras kavramı, kodun yeniden kullanılmasına yardımcı olur.
 
+<br>
 
+<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="{{ site.baseurl }}/images/python/object-oriented-programming.jpg" alt="Decorators" class="resize" />
+  <p><small>Kalıtım &bull; Python .</small></p>
+</div> 
+
+<br>
 
 
 
