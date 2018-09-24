@@ -3333,7 +3333,7 @@ Böylece, bu programda **Error** olarak adlandırılan bir taban sınıfını ta
 | KeyboardInterrupt  | Kullanıcı bir interrupt tuşuna bastığında (Ctrl + c veya delete).  |
 | MemoryError  | Bir işlem hafıza dışına taşarsa.  |
 | NameError  | Bir değişken yerel veya global kapsamda mevcut olmadığında.  |
-| NotImplementedError  | Soyut bir yordam mevcut değilse.  |
+| NotImplementedError &nbsp;&nbsp;  | Soyut bir yordam mevcut değilse.  |
 | OSError  | Bir sistem işlemi başarısız olduğunda.  |
 | OverflowError  | Bir aritmetik işlemin sonucu değer aralığını aşarsa oluşur.  |
 | ReferenceError  | Zayıf referans proxy'si, toplanan bir çöp referansına eriştiğinde.  |
@@ -3352,6 +3352,7 @@ Böylece, bu programda **Error** olarak adlandırılan bir taban sınıfını ta
 | ZeroDivisionError  | İkinci bölünme operandı veya modulo işlemi sıfırdır.  |
 
 <br>
+
 ### Özet - Python İstisnası İşleme Kavramları
 
 Çoğu zaman, okuyucularımıza işlerinde yardımcı olabilecek bir konu keşfetmeyi amaçlıyoruz. Bu yüzden bu eğitimi Python Kural Dışı Durum Tespitinde ele aldık. 
