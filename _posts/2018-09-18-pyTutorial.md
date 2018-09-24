@@ -3472,6 +3472,36 @@ interpreter, nesnesi tanımlanmış olan sınıfta (türetilmiş) bulunmadığı
 
 Python Kalıtımında örtük eylemler oluşur. Python Kalıtımında bir programcı, ebeveyde bir işlevi tanımlar ancak çocukta tanımlamaz. Bu tür kalıtım aşağıda basit bir örnekle gösterilmektedir:
 
+<br>
+
+{% highlight python linenos=table %}
+
+class super (object) :
+
+    def implicit(self) :
+        print ("Super-Class with Implicit function")
+
+class sub(super) :
+    pass
+
+su = super()
+sb = sub()
+
+su.implicit()
+sb.implicit()
+
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+Alex Karlos
+Alex Karlos, A102
+
+{% endhighlight %}
+
+<br>
 
 
 
