@@ -3503,5 +3503,7 @@ Super-Class with Implicit function
 
 <br>
 
+Yukarıdaki kodda, temel sınıfın hem nesneler hem de türetilmiş sınıfları, temel sınıfın işlevini çağırabilir. Ayrıca, 'alt' sınıfı altındaki 'pasif' ifadesi, Python'a programcının 'alt' sınıfı altında yaratılan boş bir blok istediğini söylemek için kullanılır, ancak içinde tanımlanacak yeni bir şey olmadığını söyler. 
 
+Yukarıdaki program ayrıca şunu gösterir: - eğer temel sınıfta (burada 'super'') herhangi bir işlev koyarsak, o zaman tüm türetilmiş sınıflar (burada sınıf 'sub') ayrıca özellikleri temel sınıftan otomatik olarak alacaktır. yani, tüm davranışı ana sınıftan devralır.
 
