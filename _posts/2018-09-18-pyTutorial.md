@@ -3353,6 +3353,29 @@ Böylece, bu programda **Error** olarak adlandırılan bir taban sınıfını ta
 | ValueError  | Bir işlev geçersiz değerler aldığında.  |
 | ZeroDivisionError  | İkinci bölünme operandı veya modulo işlemi sıfırdır.  |
 
+
+<br>
+
+{% highlight python linenos=table %}
+
+(a,b) = (6,0)
+try:
+    g = a/b
+except ZeroDivisionError as s:
+    k = s
+    print (k)
+#Output will be: integer division or modulo by zero
+
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+division by zero
+
+{% endhighlight %}
+
 <br>
 
 ### Özet - Python İstisnası İşleme Kavramları
