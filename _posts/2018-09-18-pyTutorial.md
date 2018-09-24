@@ -3393,14 +3393,6 @@ Bu gönderi, Python'un temel bir kavramını öğrenmede size yardımcı olsayd�
 Kalıtım, soyutlama, kapsülleme ve çokbiçimlilik OOP (Object Oriented Programming) tarafından sağlanan dört temel kavramdır. Kalıtım, programcıların yeni bir sınıfa izin vermelerini sağlayan OOP'un güçlü bir özelliğidir- veya mevcut sınıf/sınıfların tüm özelliklerini ve yordamlarını kalıtımla kazanır. Hepimizin bildiği gibi, bu sınıf; bir öbeğin ayrıntılı bir tasarısı veya şablonudur. Her öbek bir sınıftan inşa edilmiştir ve 'kalıtım' kavramı bu ayrıntılı tasarılar arasında bir ilişki oluşturmak için kullanılır.
 
 
-
-
-
-
-
-
-Kalıtım, programcıların yeni bir sınıfın var olan sınıf / sınıfların tüm özelliklerini ve yöntemlerini almasını sağlamalarını sağlayan OOP'un güçlü bir özelliğidir. Hepimizin bildiği gibi, bu sınıf bir nesnenin bir planı veya şablonudır. Her nesne bir sınıftan inşa edilmiştir ve 'kalıtım' kavramı bu planlar arasında bir ilişki yaratmak için kullanılır. 
-
 Var olan bir sınıfa çok az veya hiç değişiklik yapmadan yeni bir sınıf tanımlamak için kullanılan nesne yönelimli programlamanın bir özelliğidir. Yeni sınıf, türetilmiş sınıf veya alt sınıf olarak adlandırılır ve bu türetilmiş sınıfın miras aldığı sınıf temel sınıf veya üst sınıftır. Türetilmiş sınıf, temel sınıftan oluşur ve ek olarak bazı ek özellikler içerebilir. Bu miras kavramı, kodun yeniden kullanılmasına yardımcı olur.
 
 
