@@ -3312,8 +3312,10 @@ Congratulations! You guessed it correctly.
 
 Böylece, bu programda **Error** olarak adlandırılan bir taban sınıfını tanımladığımızı görebilirsiniz. Temel sınıftan türetilen iki istisna (“**InputTooSmallError**” ve “**InputTooLargeError**”) kaldırır. Python programlamasında kullanıcı tanımlı istisnaları tanımlamanın standart yolu.
 
+<br>
 ### Python Yerleşik İstisnaları
 
+<br>
 | istisna  | Hata Nedeni  |
 |---|---|
 | AirthmeticError  | Sayısal hesaplamadaki hatalar içindir.  |
@@ -3349,6 +3351,7 @@ Böylece, bu programda **Error** olarak adlandırılan bir taban sınıfını ta
 | ValueError  | Bir işlev geçersiz değerler aldığında.  |
 | ZeroDivisionError  | İkinci bölünme operandı veya modulo işlemi sıfırdır.  |
 
+<br>
 ### Özet - Python İstisnası İşleme Kavramları
 
 Çoğu zaman, okuyucularımıza işlerinde yardımcı olabilecek bir konu keşfetmeyi amaçlıyoruz. Bu yüzden bu eğitimi Python Kural Dışı Durum Tespitinde ele aldık. 
