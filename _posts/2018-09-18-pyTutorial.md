@@ -3426,4 +3426,43 @@ Programcılar bu tip nesne yönelimli kavramları kullandıklarında ve kodları
 - Çocuk sınıfı üzerinde gerçekleştirilen işlemler, ebeveyn sınıfında gerçekleştirilen eylemleri geçersiz kılar.
 - Çocuk sınıfında yapılan herhangi bir şey, üst sınıftaki eylemi değiştirir.
 
+<br>
 
+{% highlight python linenos=table %}
+
+class Person:
+
+    def __init__(self, first, last):
+        self.firstn = first
+        self.lastn = last
+
+    def Name(self):
+        return self.firstn + " " + self.lastn
+
+class Emp(Person):
+
+    def __init__(self, first, last, staffnum):
+        Person.__init__(self,first, last)
+        self.staffno = staffnum
+
+    def GetEmp(self):
+        return self.Name() + ", " +  self.staffno
+
+a = Person("Alex", "Karlos")
+b = Emp("Alex", "Karlos", "A102")
+
+print(a.Name())
+print(b.GetEmp())
+
+{% endhighlight %}
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+Alex Karlos
+Alex Karlos, A102
+
+{% endhighlight %}
+
+<br>
