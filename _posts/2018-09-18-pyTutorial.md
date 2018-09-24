@@ -3174,12 +3174,13 @@ Bunu açıklığa kavuşturmak için bir örnek verelim.
 
 <br>
 {% highlight python %}
+
 try:
-    num = a / 0
-    print(num)
-except:
-    print("An Error Occurred")
-         raise ValueError("This is not a positive number!!")
+    print (1/0)
+
+except ZeroDivisionError:
+    print ("You can't divide by zero, you're silly.")
+
 
 {% endhighlight %}
 
@@ -3189,7 +3190,7 @@ except:
 
 {% highlight python %}
 
-ValueError: This is not a positive number!!
+You can't divide by zero, you're silly.
 
 {% endhighlight %}
 
