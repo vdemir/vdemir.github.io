@@ -3420,10 +3420,10 @@ class DerivedClass(BaseClass1):
 
 <br>
 
+Programcılar bu tip nesne yönelimli kavramları kullandıklarında ve kodları yeniden kullandıklarında, ebeveyn ve çocuk sınıfının birbiriyle etkileşimde bulunabilmesinin üç yolu vardır. Bunlar:
 
-
-
-
-
+- Çocuk sınıfına herhangi bir şey, sadece ana sınıftaki bir eylemdir.
+- Çocuk sınıfı üzerinde gerçekleştirilen işlemler, ebeveyn sınıfında gerçekleştirilen eylemleri geçersiz kılar.
+- Çocuk sınıfında yapılan herhangi bir şey, üst sınıftaki eylemi değiştirir.
 
 
