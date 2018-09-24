@@ -3470,7 +3470,7 @@ Alex Karlos, A102
 Yukarıdaki durumda, türetilmiş sınıfın öbeği oluşturulur ve bir nokta (.) operatörü kullanılarak türetilmiş sınıfın yanı sıra temel sınıfın işlevlerinin her ikisini de çağırmak için kullanılır.
 interpreter, nesnesi tanımlanmış olan sınıfta (türetilmiş) bulunmadığında, o zaman temel sınıftaki bu öznitelliği kontrol etmeye devam eder. Bu süreç, temel sınıfın kendisi başka bir sınıftan türetilmişse, bir özyineleme devam eder.
 
-
+Python Kalıtımında örtük eylemler oluşur. Python Kalıtımında bir programcı, ebeveyde bir işlevi tanımlar ancak çocukta tanımlamaz. Bu tür kalıtım aşağıda basit bir örnekle gösterilmektedir:
 
 
 
