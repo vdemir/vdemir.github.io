@@ -3404,5 +3404,14 @@ Var olan bir sınıfa çok az veya hiç değişiklik yapmadan yeni bir sınıf t
 
 <br>
 
+Yukarıdaki diyagramda, türetilmiş sınıfın özellikleri ile birlikte türetilmiş sınıfta temel sınıfın özellikleri de bulunmaktadır. Bu temel sınıf özelliklerine, kalıtım kavramı nedeniyle sınıf elde etmek için erişilebilir.
+
+
+
+
+
+
+
+
 
 
