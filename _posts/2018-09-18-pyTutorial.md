@@ -3501,3 +3501,15 @@ Burada tüm parçalar aşağıda açıklanmıştır:
 -  **string**: dizgenin başlatılmasında deseni aramak ve eşleştirmek için kullanılır.
 -  **flags**: Programcılar bitsel operatörü kullanarak farklı bayrakları belirleyebilir '|' (OR)
 
+<br>
+
+{% highlight python %}
+
+import re#simple structure of re.match()
+matchObject = re.match(pattern, input_str, flags=0)
+
+{% endhighlight %}
+
+<br>
+
+
