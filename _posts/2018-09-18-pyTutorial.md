@@ -1144,12 +1144,12 @@ print(dir(Vehicle))
 
 {% endhighlight %}
 
+<a id="D11"></a>
 <br>
 <div class="alert alert-success" role="success">
 <p><strong>11 Closures</strong></p>
 </div>
 <br>
-<a id="D11"></a>
 
 Closures, bellekte bulunmasalar bile çevrelediği etki alanı ile ilgili değerleri hatırlayan bir fonksiyon öbeğidir. Hadi adım adım ulaşalım
 
@@ -2771,12 +2771,12 @@ Python'un kendisi birkaç dekoratörler sunar: property, staticmethod, vb.
 
 Bu gerçekten büyük bir oyun alanı.
 
+<a id="D13"></a>
 <br>
 <div class="alert alert-success" role="success">
 <p><strong>13 Python İstisnası İşleme: Öğrenme İçin Hızlı Bir Kılavuz</strong></p>
 </div>
 <br>
-<a id="D13"></a>
 
 Python istisna işlemeyi öğrenmek için bu öğreticiyi okuyun. Python istisna işlemeyi öğrenmek için bu öğreticiyi okuyun. Programlarınızda **try, except**  ve son ifadeleri nasıl kullanacağınızı anlamanıza yardımcı olmalıdır. Hemen başlamak için verilen örnekleri gözden geçirin.
 
