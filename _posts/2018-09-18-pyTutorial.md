@@ -73,9 +73,11 @@ img.resize {
 
  
 
-<br>
 <a id="D1"></a>
-## 1 Iterables
+<br>
+<div class="alert alert-light" role="info">
+<p><strong>1 Iterables</strong></p>
+</div>
 <br>
 Bu bir Python **yield** anahtar kelimesi ile ilgilidir. **yield**, **generator** ve **iterable** ne olduğunu açıklar.
 
