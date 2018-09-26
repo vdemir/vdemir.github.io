@@ -672,10 +672,12 @@ You failed to match wha.t.`1an?ug{}ly.email.com
 {% endhighlight %}
 
 
-<br>
-
 <a id="D6"></a>
-## 6 İstisna işleme
+<br>
+<div class="alert alert-success" role="success">
+<p><strong>6 İstisna işleme</strong></p>
+</div>
+<br>
 
 Programlama yaparken hatalar meydana gelir. Bu sadece bir yaşam gerçeğidir. Belki de kullanıcı kötü girdi verdi. Belki bir ağ kaynağı mevcut değildi. Belki de program belleği bitti. Ya da programcı bir hata yapmış olabilir! 
 
