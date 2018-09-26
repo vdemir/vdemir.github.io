@@ -98,30 +98,6 @@ img.resize {
     font-feature-settings: "liga" on;
     color: #3d3d3d;
   }
- h1 {
-    font-family: 'Life Savers', serif;
-    font-size: 3.5vw;
-    font-feature-settings: "liga" on;
-    color: #3d3d3d;
-  }
- h4 {
-    font-family: 'Life Savers', serif;
-    font-size: 1.65vw;
-    font-feature-settings: "liga" on;
-    color: #3d3d3d;
-  }
- h2 {
-    font-family: 'Life Savers', serif;
-    font-size: 2.5vw;
-    font-feature-settings: "liga" on;
-    color: #3d3d3d;
-  }
- h3 {
-    font-family: 'Life Savers', serif;
-    font-size: 1.95vw;
-    font-feature-settings: "liga" on;
-    color: #3d3d3d;
-  }
 </style>
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
@@ -3506,4 +3482,12 @@ Super-Class with Implicit function
 Yukarıdaki kodda, temel sınıfın hem nesneler hem de türetilmiş sınıfları, temel sınıfın işlevini çağırabilir. Ayrıca, 'alt' sınıfı altındaki 'pasif' ifadesi, Python'a programcının 'alt' sınıfı altında yaratılan boş bir blok istediğini söylemek için kullanılır, ancak içinde tanımlanacak yeni bir şey olmadığını söyler. 
 
 Yukarıdaki program ayrıca şunu gösterir: - eğer temel sınıfta (burada 'super'') herhangi bir işlev koyarsak, o zaman tüm türetilmiş sınıflar (burada sınıf 'sub') ayrıca özellikleri temel sınıftan otomatik olarak alacaktır. yani, tüm davranışı ana sınıftan devralır.
+
+
+<br>
+
+### Python Düzenli ifadeler
+
+Düzenli ifadeler, kod, elektronik tablolar, belgeler veya günlük dosyaları gibi metinden bilgi almak için çok kullanışlı bir tekniktir. Düzenli ifadeyi uygularken akılda tutulması gereken ilk şey, her şeyin esas olarak bir karakter olması ve programcıların belirli bir karakter dizisi / dizgisiyle eşleşmesi için desen yazmalarıdır.
+
 
