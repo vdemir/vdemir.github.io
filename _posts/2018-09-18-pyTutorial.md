@@ -25,13 +25,6 @@ img.resize {
   		max-width:100%;
   		max-height:100%;
          }
-	.box {
-		color: orange;
-		font-size: 3vw;
-		padding: 5vw;
-		margin: 5vw;
-		border-style: solid;
-	}
 	.pop {
                 font-family: 'Life Savers', serif;
                 font-feature-settings: "liga" on;
