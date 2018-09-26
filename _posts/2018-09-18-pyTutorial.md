@@ -3494,9 +3494,9 @@ re.match (pattern, string, flags=0)
 
 <br>
 
+Burada tüm parçalar aşağıda açıklanmıştır:
 
-
-
+-  match(): bir yordamdır
 
 
 
