@@ -746,11 +746,12 @@ for i in range(8):
 
 Orada bu çok zor değildi! Bunu herhangi bir istisna ile yapabilirsiniz.
 
-
-<br>
-
 <a id="D7"></a>
-## 7 Sets
+<br>
+<div class="alert alert-success" role="success">
+<p><strong>7 Sets</strong></p>
+</div>
+<br>
 
 Setler, çift kayıt içermeyen listelerdir. Paragrafta kullanılan kelimelerin listesini toplamak istediğinizi varsayalım:
 
@@ -905,9 +906,11 @@ print(A.difference(B))
 {% endhighlight %}
 
 <br>
-
+<div class="alert alert-success" role="success">
+<p><strong>8 Serileştirme</strong></p>
+</div>
+<br>
 <a id="D8"></a>
-## 8 Serileştirme
 
 Python, JSON'u kodlamak ve kodunu çözmek için yerleşik JSON kitaplıkları sağlar. 
 
@@ -997,9 +1000,11 @@ print(decoded_salaries["Me"])
 {% endhighlight %}
 
 <br>
-
+<div class="alert alert-success" role="success">
+<p><strong>9 Kısmi Fonksiyonlar</strong></p>
+</div>
+<br>
 <a id="D9"></a>
-## 9 Kısmi Fonksiyonlar
 
 functools kütüphanesinden kısmi fonksiyonu kullanarak python'da kısmi fonksiyonlar oluşturabilirsiniz. 
 
@@ -1073,11 +1078,12 @@ print(p(8))
 
 {% endhighlight %}
 
-
 <br>
-
+<div class="alert alert-success" role="success">
+<p><strong>10 Kod İçgözlemi</strong></p>
+</div>
+<br>
 <a id="D10"></a>
-## 10 Kod İçgözlemi
 
 Kod İçgözlemi, ne olduklarını, ne yaptıklarını ve ne bildiklerini bilmek için sınıfları, fonksiyonlari ve anahtar kelimeleri -**classes, functions and keywords**- tahlil etme yeteneğidir.
 
@@ -1139,9 +1145,11 @@ print(dir(Vehicle))
 {% endhighlight %}
 
 <br>
-
+<div class="alert alert-success" role="success">
+<p><strong>11 Closures</strong></p>
+</div>
+<br>
 <a id="D11"></a>
-## 11 Closures
 
 Closures, bellekte bulunmasalar bile çevrelediği etki alanı ile ilgili değerleri hatırlayan bir fonksiyon öbeğidir. Hadi adım adım ulaşalım
 
@@ -1335,9 +1343,11 @@ print(multiplywith5(9))
 {% endhighlight %}
 
 <br>
-
+<div class="alert alert-success" role="success">
+<p><strong>12 Python Dekoratörlerini Örneklerle Öğrenme</strong></p>
+</div>
+<br>
 <a id="D12"></a>
-## 12 Python Dekoratörlerini Örneklerle Öğrenme
 
 <br>
 
