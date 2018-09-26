@@ -3472,4 +3472,16 @@ Yukarıdaki program ayrıca şunu gösterir: - eğer temel sınıfta (burada 'su
 
 Düzenli ifadeler, kod, elektronik tablolar, belgeler veya günlük dosyaları gibi metinden bilgi almak için çok kullanışlı bir tekniktir. Düzenli ifadeyi uygularken akılda tutulması gereken ilk şey, her şeyin esas olarak bir karakter olması ve programcıların belirli bir karakter dizisi / dizgisiyle eşleşmesi için desen yazmalarıdır.
 
+Düzenli ifadeler, programcıların bir desende tutulan özel sözdizimini kullanarak diğer karakter veya dizge dizileri veya dizeler kümesi bulmalarına yardımcı olan özel sıradaki karakterlerdir. Python, her Python yüklemesiyle dolu olan standart Python kitaplığı aracılığıyla düzenli ifadeleri destekler.
+
+
+
+
+
+
+
+
+
+
+
 
