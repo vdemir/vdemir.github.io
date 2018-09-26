@@ -3483,3 +3483,21 @@ Düzenli dizgiler yerine ham dizelerin kullanılması önerilir. Programcılar P
 ### Python'daki Raw Dizeler
 
 Bu yöntem, düzenli ifadenin Python'daki belirli bir dizeyle eşleşip eşleşmediğini test etmek için kullanılır. The re.match(). Fonksiyon, desenin 'none' değerini döndürmez veya eşleşmenin bulunduğu dizenin bir kısmı hakkında ek bilgi içermez.
+
+<br>
+
+{% highlight python %}
+
+re.match (pattern, string, flags=0)
+
+{% endhighlight %}
+
+<br>
+
+
+
+
+
+
+
+
