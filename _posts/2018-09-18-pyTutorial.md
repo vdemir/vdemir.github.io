@@ -29,7 +29,7 @@ img.resize {
        .python3 {
                 font-family: 'Life Savers', serif;
                 font-feature-settings: "liga" on;;
-		font-size: 1.75vw;
+		font-size: 1.55vw;
     		background-color: #E3F2FD;
     		color:#01579B;
     		border-color:#1abc9c;
