@@ -98,6 +98,26 @@ img.resize {
     font-feature-settings: "liga" on;
     color: #3d3d3d;
   }
+ h1 {
+    font-family: 'Life Savers', serif;
+    font-size: 3.5vw;
+    color: #3d3d3d;
+  }
+ h4 {
+    font-family: 'Life Savers', serif;
+    font-size: 1.65vw;
+    color: #3d3d3d;
+  }
+ h2 {
+    font-family: 'Life Savers', serif;
+    font-size: 2.5vw;
+    color: #3d3d3d;
+  }
+ h3 {
+    font-family: 'Life Savers', serif;
+    font-size: 1.95vw;
+    color: #3d3d3d;
+  }
 </style>
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
