@@ -3519,17 +3519,38 @@ A Program by USING re.match:
 {% highlight python %}
 
 import re
-list = [ "mouse", "cat", "dog", "no-match"]
-# Loop starts here
-for elements in list:
-    m = re.match("(d\w+) \W(d/w+)" , elements)
-# Check for matching
-if m:
-    print (m.groups())
+
+phone = "2004-959-559 # This is Phone Number"
+
+# Delete Python-style comments
+num = re.sub(r'#.*$', "", phone)
+print "Phone Num : ", num
+
+# Remove anything other than digits
+num = re.sub(r'\D', "", phone)
+print "Phone Num : ", num
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+Phone Num :  2004-959-559 
+Phone Num :  2004959559
 
 {% endhighlight %}
 
 <br>
-
 Yukarıdaki örnekte, kalıp hangi dizeleri eşleştirebileceğini tanımlamak için meta-karakter kullanır. Burada '\w', kelime karakteri & + (plus) sembolü, bir veya daha fazla anlamına gelir.
+
+Düzenli ifadelerin çoğu kontrol tekniği, 'desenler' kullanıldığında rol alır.
+
+
+
+
+
+
+
 
