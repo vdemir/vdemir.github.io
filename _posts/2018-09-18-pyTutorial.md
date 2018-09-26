@@ -616,10 +616,12 @@ Awesome!
 
 {% endhighlight %}
 
-<br>
-
 <a id="D5"></a>
-## 5 Düzenli Kurallı İfadeler
+<br>
+<div class="alert alert-success" role="success">
+<p><strong>5 Düzenli Kurallı İfadeler</strong></p>
+</div>
+<br>
 
 Normal İfadeler (bazen regex'e, regex'e veya re'ye kısaltılır) metindeki kalıpları eşleştirmek için kullanılan bir araçtır. Python'da, re modülümüz var. Düzenli ifadeler için uygulamalar geniş kapsamlıdır, ancak oldukça karmaşıktırlar, bu yüzden belirli bir görev için bir regex kullanmayı düşünürken, alternatifleri düşünün ve son çare olarak regex ifadelere gelin.
 
