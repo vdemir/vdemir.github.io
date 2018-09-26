@@ -2772,9 +2772,11 @@ Python'un kendisi birkaç dekoratörler sunar: property, staticmethod, vb.
 Bu gerçekten büyük bir oyun alanı.
 
 <br>
-
+<div class="alert alert-success" role="success">
+<p><strong>13 Python İstisnası İşleme: Öğrenme İçin Hızlı Bir Kılavuz</strong></p>
+</div>
+<br>
 <a id="D13"></a>
-## 13 Python İstisnası İşleme: Öğrenme İçin Hızlı Bir Kılavuz
 
 Python istisna işlemeyi öğrenmek için bu öğreticiyi okuyun. Python istisna işlemeyi öğrenmek için bu öğreticiyi okuyun. Programlarınızda **try, except**  ve son ifadeleri nasıl kullanacağınızı anlamanıza yardımcı olmalıdır. Hemen başlamak için verilen örnekleri gözden geçirin.
 
