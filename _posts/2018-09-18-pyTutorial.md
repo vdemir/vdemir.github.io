@@ -1078,12 +1078,12 @@ print(p(8))
 
 {% endhighlight %}
 
+<a id="D10"></a>
 <br>
 <div class="alert alert-success" role="success">
 <p><strong>10 Kod İçgözlemi</strong></p>
 </div>
 <br>
-<a id="D10"></a>
 
 Kod İçgözlemi, ne olduklarını, ne yaptıklarını ve ne bildiklerini bilmek için sınıfları, fonksiyonlari ve anahtar kelimeleri -**classes, functions and keywords**- tahlil etme yeteneğidir.
 
