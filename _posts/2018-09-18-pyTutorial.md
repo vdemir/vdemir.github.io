@@ -677,7 +677,7 @@ You failed to match wha.t.`1an?ug{}ly.email.com
 <a id="D6"></a>
 <br>
 <div class="alert alert-success" role="success">
-<p><strong>6 İstisna işleme</strong></p>
+<p><strong>6   İstisna işleme</strong></p>
 </div>
 <br>
 
