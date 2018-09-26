@@ -510,10 +510,13 @@ print(newlist)
 
 [34, 44, 68, 44, 12]
 {% endhighlight %}
-<br>
 
 <a id="D4"></a>
-## 4 Çoklu Fonksiyon İçlem İfadeleri
+<br>
+<div class="alert alert-success" role="success">
+<p><strong>4 Çoklu Fonksiyon İçlem İfadeleri</strong></p>
+</div>
+<br>
 
 Python'daki her fonksiyon, normal olarak bildirilirse, önceden tanımlanmış bir sayıda içlem  alır:
 
