@@ -3522,14 +3522,14 @@ import re
 list = [ "mouse", "cat", "dog", "no-match"]
 # Loop starts here
 for elements in list:
-    m = re.match("(d\w+) \W(d/w+)" , element)
+    m = re.match("(d\w+) \W(d/w+)" , elements)
 # Check for matching
 if m:
-    print (m . groups ( ))
+    print (m.groups())
 
 {% endhighlight %}
 
 <br>
 
-
+Yukarıdaki örnekte, kalıp hangi dizeleri eşleştirebileceğini tanımlamak için meta-karakter kullanır. Burada '\w', kelime karakteri & + (plus) sembolü, bir veya daha fazla anlamına gelir.
 
