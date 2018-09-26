@@ -70,6 +70,7 @@ img.resize {
 + 11 [Closures](#D11)
 + 12 [Python Dekoratörleri](#D12)
 + 13 [Python Exception İşleme](#D13)
++ 13 [Python Düzenli ifadeler](#D14)
 
  
 
@@ -3459,8 +3460,13 @@ Yukarıdaki kodda, temel sınıfın hem nesneler hem de türetilmiş sınıflar�
 
 Yukarıdaki program ayrıca şunu gösterir: - eğer temel sınıfta (burada 'super'') herhangi bir işlev koyarsak, o zaman tüm türetilmiş sınıflar (burada sınıf 'sub') ayrıca özellikleri temel sınıftan otomatik olarak alacaktır. yani, tüm davranışı ana sınıftan devralır.
 
-
+<a id="D14"></a>
 <br>
+<div class="alert alert-success" role="success">
+<p><strong>14 Python Düzenli ifadeler</strong></p>
+</div>
+<br>
+
 
 ### Python Düzenli ifadeler
 
