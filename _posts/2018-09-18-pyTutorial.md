@@ -3512,4 +3512,24 @@ matchObject = re.match(pattern, input_str, flags=0)
 
 <br>
 
+A Program by USING re.match:
+
+<br>
+
+{% highlight python %}
+
+import re
+list = [ "mouse", "cat", "dog", "no-match"]
+# Loop starts here
+for elements in list:
+    m = re.match("(d\w+) \W(d/w+)" , element)
+# Check for matching
+if m:
+    print (m . groups ( ))
+
+{% endhighlight %}
+
+<br>
+
+
 
