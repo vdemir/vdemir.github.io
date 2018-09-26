@@ -905,12 +905,12 @@ print(A.difference(B))
 
 {% endhighlight %}
 
+<a id="D8"></a>
 <br>
 <div class="alert alert-success" role="success">
 <p><strong>8 Serileştirme</strong></p>
 </div>
 <br>
-<a id="D8"></a>
 
 Python, JSON'u kodlamak ve kodunu çözmek için yerleşik JSON kitaplıkları sağlar. 
 
@@ -999,12 +999,12 @@ print(decoded_salaries["Me"])
 
 {% endhighlight %}
 
+<a id="D9"></a>
 <br>
 <div class="alert alert-success" role="success">
 <p><strong>9 Kısmi Fonksiyonlar</strong></p>
 </div>
 <br>
-<a id="D9"></a>
 
 functools kütüphanesinden kısmi fonksiyonu kullanarak python'da kısmi fonksiyonlar oluşturabilirsiniz. 
 
@@ -1342,12 +1342,12 @@ print(multiplywith5(9))
 
 {% endhighlight %}
 
+<a id="D12"></a>
 <br>
 <div class="alert alert-success" role="success">
 <p><strong>12 Python Dekoratörlerini Örneklerle Öğrenme</strong></p>
 </div>
 <br>
-<a id="D12"></a>
 
 <br>
 
