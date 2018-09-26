@@ -52,8 +52,9 @@ img.resize {
 </div> 
 
 <br>
-
-<div class="pop">Python Eğitici Rehber</div> 
+<div class="alert alert-info" role="info">
+<p><strong>Not:</strong> Python Eğitici Rehber</p>
+</div>
 
 <br>
 
