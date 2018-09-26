@@ -3496,8 +3496,8 @@ re.match (pattern, string, flags=0)
 
 Burada tüm parçalar aşağıda açıklanmıştır:
 
--  match(): bir yordamdır
--  pattern: Bu, hangi dizelerin eşleştirilebileceğini tanımlamak için meta-karakterler kullanan normal ifadedir.
--  string: dizgenin başlatılmasında deseni aramak ve eşleştirmek için kullanılır.
--  flags: Programcılar bitsel operatörü kullanarak farklı bayrakları belirleyebilir '|' (OR)
+-  **match()**: bir yordamdır
+-  **pattern**: Bu, hangi dizelerin eşleştirilebileceğini tanımlamak için meta-karakterler kullanan normal ifadedir.
+-  **string**: dizgenin başlatılmasında deseni aramak ve eşleştirmek için kullanılır.
+-  **flags**: Programcılar bitsel operatörü kullanarak farklı bayrakları belirleyebilir '|' (OR)
 
