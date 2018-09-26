@@ -340,9 +340,12 @@ StopIteration
 <br>
 Bir kaynağa erişimi kontrol etmek gibi çeşitli şeyler için yararlı olabilir.
 
-<br>
 <a id="D2"></a>
-## 2 Generators
+<br>
+<div class="alert alert-success" role="success">
+<p><strong>2 Generators</strong></p>
+</div>
+<br>
 
 generator uygulanması çok kolaydır, ancak anlaması biraz zor. 
 
