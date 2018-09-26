@@ -55,7 +55,7 @@ img.resize {
 <div class="alert alert-info" role="info">
 <p><strong>Python Eğitici Rehber</strong></p>
 </div>
-<h2><a class="w3-btn w3-margin-bottom">Python Eğitici Rehber</a></h2>
+<h2>Python Eğitici Rehber</h2>
 <br>
 
 + 1 [Iterables](#D1)
