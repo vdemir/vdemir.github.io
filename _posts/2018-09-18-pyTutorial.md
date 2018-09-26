@@ -24,14 +24,7 @@ lang: tr
 img.resize {
   		max-width:100%;
   		max-height:100%;
-         }
-	.pop {
-                font-family: 'Life Savers', serif;
-                font-feature-settings: "liga" on;
-		font-size: 4vw;
-		text-decoration: overline;
-		text-decoration-color: orange;
-	}
+         } 
 
        .python3 {
                 font-family: 'Life Savers', serif;
