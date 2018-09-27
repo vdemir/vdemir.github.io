@@ -1276,7 +1276,7 @@ print(closure()) # 4
 <br>
 
 
-Bir kapanma **closure** denir çünkü dış (sabit) değişken 'üzerinden kapanır'. Bu sadece bir işlev değil, işlevin oluşturulduğu ortamın bir muhafazasıdır. Aşağıdaki örnekte, x'i değiştirdikten sonra g closure kapağını çağırmak, g içinde x'in değerini de değiştirecektir, çünkü g, x üzerinden kapanır:
+Bir kapanma **closure** denir çünkü dış (sabit) değişken 'üzerinden kapanır'. Bu sadece bir fonksiyon değil, işlevin oluşturulduğu ortamın bir muhafazasıdır. Aşağıdaki örnekte, x'i değiştirdikten sonra g closure kapağını çağırmak, g içinde x'in değerini de değiştirecektir, çünkü g, x üzerinden kapanır:
 <br>
 <div class="alert alert-info" role="info">
 <p><strong>Not:</strong> Python 3'e nonlocal eklendiğini, python 2.x'in tam okuma-yazma kapatmalarına sahip olmadığına dikkat edin (yani, değişkenler üzerinden kapatılmış olabilir, ancak değerlerini değiştiremezsiniz).</p>
@@ -2113,7 +2113,7 @@ I am 28, what did you think?
 
 Harika, şimdi argümanları dekoratörün kendisine aktarma hakkında ne söylerdin? 
 
-Bir dekoratör argüman olarak bir işlevi kabul etmesi gerektiğinden, bu biraz bükülmüş olabilir. Bu nedenle, dekore edilmiş işlevin argümanlarını doğrudan dekoratöre geçiremezsiniz. 
+Bir dekoratör argüman olarak bir fonksiyonu kabul etmesi gerektiğinden, bu biraz bükülmüş olabilir. Bu nedenle, dekore edilmiş işlevin argümanlarını doğrudan dekoratöre geçiremezsiniz. 
 
 Çözüme acele etmeden önce biraz hatırlatma yazalım:
 
@@ -2357,7 +2357,7 @@ I am the decorated function.
 
 <br>
 
-Hey, onu gördün mü? '@' Sözdizimi ile bir işlev çağrısı kullandık! :-)
+Hey, onu gördün mü? '@' Sözdizimi ile bir fonksiyon çağrısı kullandık! :-)
 
 Yani, fonksiyon içlemli dekoratörlere dönelim. Eğer dekoratörü anında üretmek için fonksiyonlar kullanabilirsek, fonksiyon içlemlerini bu fonksiyona iletebiliriz, değil mi?
 
@@ -2490,15 +2490,15 @@ I am the decorated function and only knows about my arguments: Leslie Howard
 
 <br>
 
-Gördüğünüz gibi, bu hileyi kullanarak argümanları herhangi bir işlev gibi dekoratöre aktarabilirsiniz. İsterseniz * args, ** kwargs kullanabilirsiniz. Ancak, dekoratörlerin sadece bir kez çağrıldığını unutmayın. Sadece Python, betiği içe aktardığında. Sonra argümanları dinamik olarak ayarlayamazsınız. "import x" yaptığınızda, işlev zaten dekore edilmiştir, böylece hiçbir şeyi değiştiremezsiniz.
+Gördüğünüz gibi, bu hileyi kullanarak argümanları herhangi bir fonksiyon gibi dekoratöre aktarabilirsiniz. İsterseniz * args, ** kwargs kullanabilirsiniz. Ancak, dekoratörlerin sadece bir kez çağrıldığını unutmayın. Sadece Python, betiği içe aktardığında. Sonra argümanları dinamik olarak ayarlayamazsınız. "import x" yaptığınızda, fonksiyon zaten dekore edilmiştir, böylece hiçbir şeyi değiştiremezsiniz.
 
 ### Pratik yapalım: decorating a decorator
 
-Tamam, bir bonus olarak, herhangi bir dekoratörün herhangi bir bağımsız değişkeni kabul etmesi için size bir pasaj vereceğim. Sonuçta, argümanları kabul etmek için, başka bir işlev kullanarak dekoratörü yarattık. 
+Tamam, bir bonus olarak, herhangi bir dekoratörün herhangi bir bağımsız değişkeni kabul etmesi için size bir pasaj vereceğim. Sonuçta, argümanları kabul etmek için, başka bir fonksiyon kullanarak dekoratörü yarattık. 
 
 Dekoratörü sardık. 
 
-Son zamanlarda bu sarılmış işlevi gördük başka bir şey? 
+Son zamanlarda bu sarılmış fonksiyonu gördük başka bir şey? 
 
 Ah evet, dekoratörler! 
 
@@ -2609,7 +2609,7 @@ Biliyorum, 'özçağrıyı anlamadan önce, özçağrıyı anlamanız gerekir' d
 
 -  Dekoratörler Python 2.4'te tanıtıldı, bu yüzden kodunuzun> = 2.4'te çalıştırılacağından emin olun.
 -  Dekoratörler fonksiyon çağrısını yavaşlatır. Bunu aklında tut.
--  Bir işlev süslenmişse süslülük özellğini kaldıramazsınız. (Kaldırılabilen dekoratörler yaratma yetileri vardır, ancak kimse bunları kullanmaz.) Böylece bir işlev süslendiğinde, tüm kodlar için dekore edilmiştir.
+-  Bir fonksiyon süslenmişse süslülük özellğini kaldıramazsınız. (Kaldırılabilen dekoratörler yaratma yetileri vardır, ancak kimse bunları kullanmaz.) Böylece bir fonksiyon süslendiğinde, tüm kodlar için dekore edilmiştir.
 -  Dekoratörler, hata ayıklamalarını zorlaştıracak işlevleri sarar. (Bu Python'dan daha iyi olur> = 2.5; aşağıya bakın.)
 ￼
 (Eğlenceli gerçek: functools.wraps() bir dekoratör!)
@@ -2768,7 +2768,7 @@ Tabii ki dekoratörler ile iyi olan şey, onları hemen hemen her şeyi yeniden 
 Python'un kendisi birkaç dekoratörler sunar: property, staticmethod, vb.
 
 -  Django, önbelleğe alma ve görüntüleme izinlerini yönetmek için dekoratörler kullanır.
--  Eşzamanlı olmayan işlev çağrıları yapmak.
+-  Eşzamanlı olmayan fonksiyon çağrıları yapmak.
 
 Bu gerçekten büyük bir oyun alanı.
 
@@ -3299,11 +3299,11 @@ Böylece, bu programda **Error** olarak adlandırılan bir taban sınıfını ta
 | IndentationError  | Girinti uygun değilse oluşur.  |
 | TabError  | Tutarsız sekmeler ve boşluklar için.  |
 | SystemError  | Tercüman bir iç hata algıladığında.  |
-| SystemExit  | <sys.exit()> işlevi onu yükseltir.  |
-| TypeError  | Bir işlev yanlış türde bir nesne kullanıyorsa.  |
+| SystemExit  | <sys.exit()> fonksiyonu onu yükseltir.  |
+| TypeError  | Bir fonksiyon yanlış türde bir nesne kullanıyorsa.  |
 | UnboundLocalError  | Tercüman bir iç hata algıladığında.  |
 | UnicodeError  | Unicode kodlama veya kod çözme hatası için.  |
-| ValueError  | Bir işlev geçersiz değerler aldığında.  |
+| ValueError  | Bir fonksiyon geçersiz değerler aldığında.  |
 | ZeroDivisionError  | İkinci bölünme operandı veya modulo işlemi sıfırdır.  |
 
 
@@ -3423,7 +3423,7 @@ Alex Karlos, A102
 Yukarıdaki durumda, türetilmiş sınıfın öbeği oluşturulur ve bir nokta (.) operatörü kullanılarak türetilmiş sınıfın yanı sıra temel sınıfın işlevlerinin her ikisini de çağırmak için kullanılır.
 interpreter, nesnesi tanımlanmış olan sınıfta (türetilmiş) bulunmadığında, o zaman temel sınıftaki bu öznitelliği kontrol etmeye devam eder. Bu süreç, temel sınıfın kendisi başka bir sınıftan türetilmişse, bir özyineleme devam eder.
 
-Python Kalıtımında örtük eylemler oluşur. Python Kalıtımında bir programcı, ebeveynde bir işlevi tanımlar ancak çocukta tanımlamaz. Bu tür kalıtım aşağıda basit bir örnekle gösterilmektedir:
+Python Kalıtımında örtük eylemler oluşur. Python Kalıtımında bir programcı, ebeveynde bir fonksiyonu tanımlar ancak çocukta tanımlamaz. Bu tür kalıtım aşağıda basit bir örnekle gösterilmektedir:
 
 <br>
 
@@ -3458,7 +3458,7 @@ Super-Class with Implicit function
 
 Yukarıdaki kodda, temel sınıfın hem nesneler hem de türetilmiş sınıfları, temel sınıfın işlevini çağırabilir. Ayrıca, 'alt' sınıfı altındaki 'pasif' ifadesi, Python'a programcının 'alt' sınıfı altında yaratılan boş bir blok istediğini söylemek için kullanılır, ancak içinde tanımlanacak yeni bir şey olmadığını söyler. 
 
-Yukarıdaki program ayrıca şunu gösterir: - eğer temel sınıfta (burada 'super'') herhangi bir işlev koyarsak, o zaman tüm türetilmiş sınıflar (burada sınıf 'sub') ayrıca özellikleri temel sınıftan otomatik olarak alacaktır. yani, tüm davranışı ana sınıftan devralır.
+Yukarıdaki program ayrıca şunu gösterir: - eğer temel sınıfta (burada 'super'') herhangi bir fonksiyon koyarsak, o zaman tüm türetilmiş sınıflar (burada sınıf 'sub') ayrıca özellikleri temel sınıftan otomatik olarak alacaktır. yani, tüm davranışı ana sınıftan devralır.
 
 <a id="D14"></a>
 <br>
@@ -3551,6 +3551,11 @@ Düzenli ifadelerin çoğu kontrol tekniği, 'desenler' kullanıldığında rol 
 ### search Fonksiyonu
 
 Bir eşlemeden farklı bir şekilde çalışır. Her ikisi de desen kullanıyor olsa da; fakat 'search' bunu dizideki tüm olası başlangıç ​​noktalarında dener. Giriş dizesi boyunca tarar ve herhangi bir yerde eşleşmeye çalışır.
+
+Bu fonksiyon, isteğe bağlı bayraklarla dizgede RE modelinin ilk oluşumunu arar.
+re.search fonksiyonu başarıda bir eşleme match öbeğini, başarısızlık durumunda none değerini döndürür.
+
+- 
 
 <br>
 
