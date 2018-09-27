@@ -3599,7 +3599,44 @@ search:  dyne
 
 ### split Fonksiyonu
 
-re.split(), sınırlayıcıyı belirten bir modeli kabul eder. Bunu kullanarak, desen ve ayrı metin verilerini eşleştirebiliriz. split(), doğrudan düzenli ifade olmayan bir dizede & işleyici de kullanılabilir.
+re.split(), sonlayıcı belirten bir deseni kabul eder. Bunu kullanarak, desen ve ayrı metin verilerini eşleştirebiliriz. split(), doğrudan düzenli ifade olmayan bir dizede ve işleyici de kullanılabilir.
+
+split() nasıl kullanılacağını gösteren program:
+
+<br>
+
+{% highlight python linenos=table %}
+
+import re
+value = "two 2  four 4  six 6"
+#separate those non-digit characters
+res = re.split ("\D+" , value)
+# print the result
+for elements in res :
+    print (elements)
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+2
+4
+6
+
+{% endhighlight %}
+
+<br>
+
+Yukarıdaki programda, \D+ bir veya daha fazla rakam olmayan karakteri temsil eder.
+
+
+
+
+
+
 
 
 
