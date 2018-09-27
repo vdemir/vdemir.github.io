@@ -3571,6 +3571,8 @@ Yukarıdaki örnekte, kalıp hangi dizeleri eşleştirebileceğini tanımlamak i
 
 Düzenli ifadelerin çoğu kontrol tekniği, 'desenler' kullanıldığında rol alır.
 
+<br>
+
 ### search Fonksiyonu
 
 Bir eşlemeden farklı bir şekilde çalışır. Her ikisi de desen kullanıyor olsa da; fakat 'search' bunu dizideki tüm olası başlangıç ​​noktalarında dener. Giriş dizesi boyunca tarar ve herhangi bir yerde eşleşmeye çalışır.
