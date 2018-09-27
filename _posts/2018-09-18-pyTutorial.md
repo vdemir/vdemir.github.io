@@ -3493,7 +3493,6 @@ re.match (pattern, string, flags=0)
 {% endhighlight %}
 
 <br>
-
 Burada tüm parçalar aşağıda açıklanmıştır:
 
 -  **match()**: bir yordamdır
@@ -3501,6 +3500,11 @@ Burada tüm parçalar aşağıda açıklanmıştır:
 -  **string**: dizgenin başlatılmasında deseni aramak ve eşleştirmek için kullanılır.
 -  **flags**: Programcılar bitsel operatörü kullanarak farklı bayrakları belirleyebilir '|' (OR)
 
+re.search fonksiyonu başarıda bir eşleme match öbeğini, başarısızlık durumunda none değerini döndürür. Eşleşen ifadeyi almak için group(num) ve groups() eşleştirme nesnesini kullanırız.
+
+Eşleştirme Öbek Yordamları ve Tanımlaması:
+-  **group(num=0)**: Bu yordam tüm eşleşmeyi (veya belirli alt grup no) döndürür
+-  **groups()**: Bu yordam, bir tuple(değişken grubunda) eşleşen tüm alt grupları döndürür
 <br>
 
 {% highlight python %}
@@ -3553,12 +3557,6 @@ Düzenli ifadelerin çoğu kontrol tekniği, 'desenler' kullanıldığında rol 
 Bir eşlemeden farklı bir şekilde çalışır. Her ikisi de desen kullanıyor olsa da; fakat 'search' bunu dizideki tüm olası başlangıç ​​noktalarında dener. Giriş dizesi boyunca tarar ve herhangi bir yerde eşleşmeye çalışır.
 
 Bu fonksiyon, isteğe bağlı bayraklarla dizgede RE modelinin ilk oluşumunu arar.
-re.search fonksiyonu başarıda bir eşleme match öbeğini, başarısızlık durumunda none değerini döndürür.
-
-Eşleştirme Öbek Yordamları ve Tanımlaması:
-
--    **group(num=0)**: Bu yordam tüm eşleşmeyi (veya belirli alt grup no) döndürür
--    **groups()**: Bu yordam, bir tuple(değişken grubunda) eşleşen tüm alt grupları döndürür
 
 <br>
 
