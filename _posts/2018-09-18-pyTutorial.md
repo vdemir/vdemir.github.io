@@ -3547,7 +3547,7 @@ Yukarıdaki örnekte, kalıp hangi dizeleri eşleştirebileceğini tanımlamak i
 
 Düzenli ifadelerin çoğu kontrol tekniği, 'desenler' kullanıldığında rol alır.
 
-
+### search Fonksiyonu
 
 
 
