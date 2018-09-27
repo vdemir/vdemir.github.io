@@ -3508,6 +3508,23 @@ Eşleştirme Öbek Yordamları ve Tanımlaması:
 -  **group(num=0)**: Bu yordam tüm eşleşmeyi (veya belirli alt grup no) döndürür
 -  **groups()**: Bu yordam, bir tuple(değişken grubunda) eşleşen tüm alt grupları döndürür
 
+### Python Flags
+
+Birçok Python Regex Metodu ve Regex işlevi, Flags olarak adlandırılan isteğe bağlı bir argümanı alır. Bu bayraklar, verilen Regex modelinin anlamını değiştirebilir. Bunları anlamak için bu Bayrakların bir veya iki örneğini göreceğiz.
+
+<br>
+
+| Regex Bayrakları için Sözdizimi  | Bu bayrak ne yapar  |
+|---|---|
+| [re.M]  | Başlangıç/bitiş her satırı dikkate al  |
+| [re.I]  | Durumu görmezden geliyor  |
+| [re.S]  | [.] Yapmak |
+| [re.U]  | { \w,\W,\b,\B} Unicode kurallarını takip eder  |
+| [re.L]  | {\w,\W,\b,\B} yerel ayarları takip eder  |
+| [re.X]  | Regex'te yoruma izin verir  |
+
+<br>
+
 <br>
 
 {% highlight python %}
