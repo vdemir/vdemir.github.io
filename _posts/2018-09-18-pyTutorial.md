@@ -3514,7 +3514,7 @@ Birçok Python Regex Metodu ve Regex işlevi, Flags olarak adlandırılan isteğ
 
 <br>
 
-| Regex Bayrakları için Sözdizimi  | Bu bayrak ne yapar  |
+| [ Regex Bayrakları için Sözdizimi ]  | Bu bayrak ne yapar  |
 |---|---|
 | [re.M]  | Başlangıç/bitiş her satırı dikkate al  |
 | [re.I]  | Durumu görmezden geliyor  |
