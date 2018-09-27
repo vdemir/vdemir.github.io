@@ -3480,9 +3480,9 @@ Düzenli ifadeler, programcıların bir desende tutulan özel sözdizimini kulla
 
 Düzenli dizgiler yerine ham dizelerin kullanılması önerilir. Programcılar Python'da düzenli ifadeler yazdıklarında, dizgede özel bir önek 'r' ve ters eğik çizgi ve özel meta-karakterler ile ham dizgileri başlatırlar, bu da onları doğrudan düzenli ifade motoruyla geçirmemizi sağlar.
 
-### Python'daki Raw Dizeler
+### match Fonksiyonu
 
-Bu yöntem, düzenli ifadenin Python'daki belirli bir dizeyle eşleşip eşleşmediğini test etmek için kullanılır. The re.match(). Fonksiyon, desenin 'none' değerini döndürmez veya eşleşmenin bulunduğu dizenin bir kısmı hakkında ek bilgi içermez.
+Bu yordam, düzenli ifadenin Python'daki belirli bir dizeyle eşleşip eşleşmediğini test etmek için kullanılır. The re.match(). Fonksiyon, desenin 'none' değerini döndürmez veya eşleşmenin bulunduğu dizenin bir kısmı hakkında ek bilgi içermez.
 
 <br>
 
