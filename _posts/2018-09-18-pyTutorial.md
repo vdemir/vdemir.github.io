@@ -3597,9 +3597,9 @@ search:  dyne
 
 <br>
 
+### split Fonksiyonu
 
-
-
+re.split(), sınırlayıcıyı belirten bir modeli kabul eder. Bunu kullanarak, desen ve ayrı metin verilerini eşleştirebiliriz. split(), doğrudan düzenli ifade olmayan bir dizede & işleyici de kullanılabilir.
 
 
 
