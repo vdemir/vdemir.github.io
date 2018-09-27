@@ -3480,6 +3480,8 @@ Düzenli ifadeler, programcıların bir desende tutulan özel sözdizimini kulla
 
 Düzenli dizgiler yerine ham dizelerin kullanılması önerilir. Programcılar Python'da düzenli ifadeler yazdıklarında, dizgede özel bir önek 'r' ve ters eğik çizgi ve özel meta-karakterler ile ham dizgileri başlatırlar, bu da onları doğrudan düzenli ifade motoruyla geçirmemizi sağlar.
 
+Burada tüm parçalar aşağıda açıklanmıştır:
+ 
 -  **match()**: bir yordamdır
 -  **pattern**: Bu, hangi dizelerin eşleştirilebileceğini tanımlamak için meta-karakterler kullanan normal ifadedir.
 -  **string**: dizgenin başlatılmasında deseni aramak ve eşleştirmek için kullanılır.
@@ -3524,8 +3526,6 @@ re.match (pattern, string, flags=0)
 
 <br>
 
-Burada tüm parçalar aşağıda açıklanmıştır:
- 
 {% highlight python %}
 
 import re#simple structure of re.match()
