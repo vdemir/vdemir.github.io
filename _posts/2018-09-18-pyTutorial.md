@@ -3575,7 +3575,7 @@ if g:
     print("search: ", g.group(1))
 s = re.match("(vi.*)", value)
 if s:
-    print("match:", m.group(1))
+    print("match:", s.group(1))
 
 {% endhighlight %}
  
