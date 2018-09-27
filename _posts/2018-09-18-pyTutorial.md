@@ -3512,8 +3512,6 @@ Eşleştirme Öbek Yordamları ve Tanımlaması:
 
 Birçok Python Regex Metodu ve Regex işlevi, Flags olarak adlandırılan isteğe bağlı bir argümanı alır. Bu bayraklar, verilen Regex modelinin anlamını değiştirebilir. Bunları anlamak için bu Bayrakların bir veya iki örneğini göreceğiz.
 
-<br>
-
 | [ Regex flags için Sözdizimi ]  | Bu bayrak ne yapar  |
 |---|---|
 | [re.M]  | Başlangıç/bitiş her satırı dikkate al  |
