@@ -3480,23 +3480,6 @@ Düzenli ifadeler, programcıların bir desende tutulan özel sözdizimini kulla
 
 Düzenli dizgiler yerine ham dizelerin kullanılması önerilir. Programcılar Python'da düzenli ifadeler yazdıklarında, dizgede özel bir önek 'r' ve ters eğik çizgi ve özel meta-karakterler ile ham dizgileri başlatırlar, bu da onları doğrudan düzenli ifade motoruyla geçirmemizi sağlar.
 
-### match Fonksiyonu
-
-Bu yordam, düzenli ifadenin Python'daki belirli bir dizeyle eşleşip eşleşmediğini test etmek için kullanılır. The re.match(). Fonksiyon, desenin 'none' değerini döndürmez veya eşleşmenin bulunduğu dizenin bir kısmı hakkında ek bilgi içermez.
-
- Eşleme işlevi, RE desenini isteğe bağlı bayraklarla dizeye eşleştirmek için kullanılır. Bu yöntemde "w+" ve "\W" ifadesi 'g' harfi ile başlayan kelimelerle eşleşecek ve bundan sonra 'g' ile başlatılmayan bir şey tanımlanmayacaktır. Listedeki veya dizideki her elemanın eşleşmesini kontrol etmek için, forloop'u çalıştırıyoruz.
-
-<br>
-
-{% highlight python %}
-
-re.match (pattern, string, flags=0)
-
-{% endhighlight %}
-
-<br>
-Burada tüm parçalar aşağıda açıklanmıştır:
-
 -  **match()**: bir yordamdır
 -  **pattern**: Bu, hangi dizelerin eşleştirilebileceğini tanımlamak için meta-karakterler kullanan normal ifadedir.
 -  **string**: dizgenin başlatılmasında deseni aramak ve eşleştirmek için kullanılır.
@@ -3507,6 +3490,8 @@ re.search fonksiyonu başarıda bir eşleme match öbeğini, başarısızlık du
 Eşleştirme Öbek Yordamları ve Tanımlaması:
 -  **group(num=0)**: Bu yordam tüm eşleşmeyi (veya belirli alt grup no) döndürür
 -  **groups()**: Bu yordam, bir tuple(değişken grubunda) eşleşen tüm alt grupları döndürür
+
+<br>
 
 ### Python Flags
 
@@ -3523,8 +3508,24 @@ Birçok Python Regex Metodu ve Regex işlevi, Flags olarak adlandırılan isteğ
 
 <br>
 
+### match Fonksiyonu
+
+Bu yordam, düzenli ifadenin Python'daki belirli bir dizeyle eşleşip eşleşmediğini test etmek için kullanılır. The re.match(). Fonksiyon, desenin 'none' değerini döndürmez veya eşleşmenin bulunduğu dizenin bir kısmı hakkında ek bilgi içermez.
+
+ Eşleme işlevi, RE desenini isteğe bağlı bayraklarla dizeye eşleştirmek için kullanılır. Bu yöntemde "w+" ve "\W" ifadesi 'g' harfi ile başlayan kelimelerle eşleşecek ve bundan sonra 'g' ile başlatılmayan bir şey tanımlanmayacaktır. Listedeki veya dizideki her elemanın eşleşmesini kontrol etmek için, forloop'u çalıştırıyoruz.
+
 <br>
 
+{% highlight python %}
+
+re.match (pattern, string, flags=0)
+
+{% endhighlight %}
+
+<br>
+
+Burada tüm parçalar aşağıda açıklanmıştır:
+ 
 {% highlight python %}
 
 import re#simple structure of re.match()
