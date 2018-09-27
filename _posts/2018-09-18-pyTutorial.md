@@ -3557,8 +3557,8 @@ re.search fonksiyonu başarıda bir eşleme match öbeğini, başarısızlık du
 
 Eşleştirme Öbek Yordamları ve Tanımlaması
 
-- group(num=0): Bu yordam tüm eşleşmeyi (veya belirli alt grup no) döndürür
-- groups(): Bu yordam, bir tuple(değişken grubunda) eşleşen tüm alt grupları döndürür
+- **group(num=0)**: Bu yordam tüm eşleşmeyi (veya belirli alt grup no) döndürür
+- **groups()**: Bu yordam, bir tuple(değişken grubunda) eşleşen tüm alt grupları döndürür
 
 <br>
 
