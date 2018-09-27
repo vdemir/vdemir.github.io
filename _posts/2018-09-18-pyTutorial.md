@@ -3513,6 +3513,7 @@ matchObject = re.match(pattern, input_str, flags=0)
 <br>
 
 A Program by USING re.match:
+
 <br>
 
 {% highlight python linenos=table %}
@@ -3543,6 +3544,62 @@ matchObj.group(2) :  smarter
 {% endhighlight %}
 
 <br>
+Yukarıdaki örnekte, kalıp hangi dizeleri eşleştirebileceğini tanımlamak için meta-karakter kullanır. Burada '\w', kelime karakteri & + (plus) sembolü, bir veya daha fazla anlamına gelir.
+
+Düzenli ifadelerin çoğu kontrol tekniği, 'desenler' kullanıldığında rol alır.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br>
 
 {% highlight python %}
@@ -3570,12 +3627,6 @@ Phone Num :  2004-959-559
 Phone Num :  2004959559
 
 {% endhighlight %}
-
-<br>
-Yukarıdaki örnekte, kalıp hangi dizeleri eşleştirebileceğini tanımlamak için meta-karakter kullanır. Burada '\w', kelime karakteri & + (plus) sembolü, bir veya daha fazla anlamına gelir.
-
-Düzenli ifadelerin çoğu kontrol tekniği, 'desenler' kullanıldığında rol alır.
-
 
 
 
