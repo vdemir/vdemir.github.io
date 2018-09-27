@@ -3555,10 +3555,10 @@ Bir eşlemeden farklı bir şekilde çalışır. Her ikisi de desen kullanıyor 
 Bu fonksiyon, isteğe bağlı bayraklarla dizgede RE modelinin ilk oluşumunu arar.
 re.search fonksiyonu başarıda bir eşleme match öbeğini, başarısızlık durumunda none değerini döndürür.
 
-Eşleştirme Öbek Yordamları ve Tanımlaması
+Eşleştirme Öbek Yordamları ve Tanımlaması:
 
-- **group(num=0)**: Bu yordam tüm eşleşmeyi (veya belirli alt grup no) döndürür
-- **groups()**: Bu yordam, bir tuple(değişken grubunda) eşleşen tüm alt grupları döndürür
+-    **group(num=0)**: Bu yordam tüm eşleşmeyi (veya belirli alt grup no) döndürür
+-    **groups()**: Bu yordam, bir tuple(değişken grubunda) eşleşen tüm alt grupları döndürür
 
 <br>
 
