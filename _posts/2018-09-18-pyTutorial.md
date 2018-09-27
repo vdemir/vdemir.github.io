@@ -3697,48 +3697,14 @@ careerguru99@hotmail.com
 users@yahoomail.com
 
 {% endhighlight %}
-
+ 
 <br>
 
+### sub Fonksiyonu
 
+Bir kalıbı araştırmaya ve yeni bir alt dizeyle değiştirmeye yardımcı olur. Desen bulunamazsa, dize değişmeden döndürülür.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+re.sub(pattern, repl, string):
 
 <br>
 
@@ -3768,9 +3734,34 @@ Phone Num :  2004959559
 
 {% endhighlight %}
 
+<br>
 
+### compile Fonksiyonu
 
+Düzenli bir ifade şablonunu desen eşleştirmesi için kullanılabilen desen nesnelerine birleştirebiliriz. Ayrıca yeniden yazmadan bir modelin tekrar aranmasına yardımcı olur.
 
+<br>
 
+{% highlight python linenos=table %}
 
+import re
+pattern=re.compile('AV')
+result=pattern.findall('AV Analytics Vidhya AV')
+print (result)
+result2=pattern.findall('AV is largest analytics community of India')
+print (result2)
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+['AV', 'AV']
+['AV']
+
+{% endhighlight %}
+ 
+<br>
 
