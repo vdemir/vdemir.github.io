@@ -3543,17 +3543,52 @@ matchObj.group(2) :  smarter
 {% endhighlight %}
 
 <br>
+
 Yukarıdaki örnekte, kalıp hangi dizeleri eşleştirebileceğini tanımlamak için meta-karakter kullanır. Burada '\w', kelime karakteri & + (plus) sembolü, bir veya daha fazla anlamına gelir.
 
 Düzenli ifadelerin çoğu kontrol tekniği, 'desenler' kullanıldığında rol alır.
 
 ### search Fonksiyonu
 
+Bir eşlemeden farklı bir şekilde çalışır. Her ikisi de desen kullanıyor olsa da; fakat 'search' bunu dizideki tüm olası başlangıç ​​noktalarında dener. Giriş dizesi boyunca tarar ve herhangi bir yerde eşleşmeye çalışır.
 
+<br>
 
+{% highlight python %}
 
+re.search( pattern, strings, flags=0)
 
+{% endhighlight %}
 
+<br>
+
+Programın nasıl kullanıldığını göstermesi:
+
+<br>
+
+{% highlight python linenos=table %}
+
+import re
+value = "cyberdyne"
+g = re.search("(dy.*)",  value)
+if g:
+    print("search: ", g.group(1))
+s = re.match("(vi.*)", value)
+if s:
+    print("match:", m.group(1))
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+search:  dyne
+
+{% endhighlight %}
+
+<br>
 
 
 
