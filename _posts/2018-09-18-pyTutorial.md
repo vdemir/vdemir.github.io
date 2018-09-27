@@ -793,7 +793,7 @@ print(b)
 {% endhighlight %}
 
 <br>
-Her iki etkinliğe hangi üyelerin katıldıklarını öğrenmek için **intersection** yöntemini kullanabilirsiniz:
+Her iki etkinliğe hangi üyelerin katıldıklarını öğrenmek için **intersection** yordamını kullanabilirsiniz:
 
 <br>
 {% highlight python linenos=table %}
@@ -816,7 +816,7 @@ print(b.intersection(a))
 {% endhighlight %}
 
 <br>
-Etkinliklerden yalnızca birine hangi üyelerin katıldıklarını öğrenmek için **symmetric_difference** yöntemini kullanın:
+Etkinliklerden yalnızca birine hangi üyelerin katıldıklarını öğrenmek için **symmetric_difference** yordamını kullanın:
 
 <br>
 {% highlight python linenos=table %}
@@ -839,7 +839,7 @@ print(b.symmetric_difference(a))
 {% endhighlight %}
 
 <br>
-Hangi üyelerin yalnızca bir etkinliğe katıldığını ve diğerine katılmadığını öğrenmek için **difference** yöntemini kullanın:
+Hangi üyelerin yalnızca bir etkinliğe katıldığını ve diğerine katılmadığını öğrenmek için **difference** yordamını kullanın:
 
 <br>
 {% highlight python linenos=table %}
@@ -3484,6 +3484,8 @@ Düzenli dizgiler yerine ham dizelerin kullanılması önerilir. Programcılar P
 
 Bu yordam, düzenli ifadenin Python'daki belirli bir dizeyle eşleşip eşleşmediğini test etmek için kullanılır. The re.match(). Fonksiyon, desenin 'none' değerini döndürmez veya eşleşmenin bulunduğu dizenin bir kısmı hakkında ek bilgi içermez.
 
+ Eşleme işlevi, RE desenini isteğe bağlı bayraklarla dizeye eşleştirmek için kullanılır. Bu yöntemde "w+" ve "\W" ifadesi 'g' harfi ile başlayan kelimelerle eşleşecek ve bundan sonra 'g' ile başlatılmayan bir şey tanımlanmayacaktır. Listedeki veya dizideki her elemanın eşleşmesini kontrol etmek için, forloop'u çalıştırıyoruz.
+
 <br>
 
 {% highlight python %}
@@ -3632,11 +3634,53 @@ for elements in res :
 
 Yukarıdaki programda, \D+ bir veya daha fazla rakam olmayan karakteri temsil eder.
 
+<br>
 
+### findall Fonksiyonu
 
+Re.findall() modülü, dosyanın satırları üzerinde yinelemek istediğinizde kullanılır, tüm eşleşmelerin listesini tek bir adımda döndürür. Örneğin, burada bir e-posta adresleri listesi var ve tüm e-posta adreslerinin listeden çıkarılmasını istiyoruz, re.findall yordamını kullanıyoruz. Tüm e-posta adreslerini listeden bulabilirsiniz.
 
+<br>
 
+{% highlight python linenos=table %}
 
+import re
+
+list = ["guru99 get", "guru99 give", "guru Selenium"]
+for element in list:
+    z = re.match("(g\w+)\W(g\w+)", element)
+if z:
+    print((z.groups()))
+    
+patterns = ['software testing', 'guru99']
+text = 'software testing is fun?'
+for pattern in patterns:
+    print('Looking for "%s" in "%s" ->' % (pattern, text), end=' ')
+    if re.search(pattern, text):
+        print('found a match!')
+else:
+    print('no match')
+abc = 'guru99@google.com, careerguru99@hotmail.com, users@yahoomail.com'
+emails = re.findall(r'[\w\.-]+@[\w\.-]+', abc)
+for email in emails:
+    print(email)
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+Looking for "software testing" in "software testing is fun?" -> found a match!
+Looking for "guru99" in "software testing is fun?" -> no match
+guru99@google.com
+careerguru99@hotmail.com
+users@yahoomail.com
+
+{% endhighlight %}
+
+<br>
 
 
 
