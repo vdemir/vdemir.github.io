@@ -3512,7 +3512,7 @@ matchObject = re.match(pattern, input_str, flags=0)
 
 <br>
 
-A Program by USING re.match:
+re.match kullanan bir program :
 
 <br>
 
