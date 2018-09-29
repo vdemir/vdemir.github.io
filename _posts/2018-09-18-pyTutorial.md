@@ -3789,6 +3789,8 @@ Bağımsız olarak yönetilebilen ve işletim sisteminin ayırt edici bir parça
 -  User-space or User küçük yürütme birimleri
 
 
+<br>
+
 ### En Küçük Yürütme Birimi Neden Kullanılır?
 
 Uygulama programlamada iş parçacığı önemli bir rol oynar. Tüm GUI programları ve web sunucuları birlikte işlenir. Küçük Yürütme Birimi kullanmanın başlıca nedenleri şunlardır:
