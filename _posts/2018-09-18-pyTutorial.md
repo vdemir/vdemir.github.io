@@ -3781,17 +3781,19 @@ Programcılar basit bir Python programını çalıştırdıklarında, yürütme 
 
 Ancak, çok iş parçacıklı programlama durumunda, programınıza ikinci bir parmağınızı koymak gibi. Her iki parmak da aynı şekilde hareket eder ve aynı anda yürütülür. 
 
-### En küçük yürütme birimi nelerdir?
+### En Küçük Yürütme Birimi Nelerdir?
 
 Bağımsız olarak yönetilebilen ve işletim sisteminin ayırt edici bir parçası olan küçük bir program talimat dizisinin yürütülmesidir. Modern işletim sistemi, bir zaman paylaşımı tekniği kullanarak çoklu programları yönetir. Python'da iki farklı tür küçük yürütme birimi vardır. Bunlar:
 
-- 
--  
+-  Kernel Küçük Yürütme Birimleri
+-  User-space or User küçük yürütme birimleri
 
 
+### En Küçük Yürütme Birimi Neden Kullanılır?
 
+Uygulama programlamada iş parçacığı önemli bir rol oynar. Tüm GUI programları ve web sunucuları birlikte işlenir. Küçük Yürütme Birimi kullanmanın başlıca nedenleri şunlardır:
 
-
+-  **Paralel Hesaplama**: Eğer herhangi bir kullanıcı çok işlemcili makineye sahipse, iş parçacığı işlem hızındaki artış hedefi ile paralel işlem yapılmasına izin verebilir.
 
 
 
