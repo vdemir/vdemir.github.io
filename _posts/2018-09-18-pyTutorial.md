@@ -3812,5 +3812,15 @@ Python iş parçacığına erişmenin iki yolu vardır. Bunlar kullanarak:
 
 'tread' modülünün daha az kullanıldığından ve dolayısıyla da  kullanıcıların 'threading' modülünü kullanmaya başladıkları dikkate alınmalıdır.
 
+### Threading Faydaları 
+
+-  Tek bir işlem için, aynı veri alanını işlemek ve paylaşmak için birden fazla iş parçacığı kullanılabilir ve bilgi paylaşarak birbirleriyle iletişim kurabilir.
+
+
+
+
+
+
+
 
 
