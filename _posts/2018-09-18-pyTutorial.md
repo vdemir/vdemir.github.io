@@ -3777,7 +3777,11 @@ print (result2)
 
 ### Python Çoklu Parçacıklı Programlama
 
+Programcılar basit bir Python programını çalıştırdıklarında, yürütme ilk satırda başlar ve satır-by-line ilerler. Ayrıca, işlevler ve döngüler, program yürütme işleminin atlanmasının nedeni olabilir, ancak çalışma prosedürlerini görmenin nispeten kolaydır ve hangi satır daha sonra gerçekleştirilecektir. Programcılar parmaklarını koyabilir ve icra edilecek kod satırlarını izleyebilirler; Bu tek iş parçacıklı programlama denir. 
 
+Ancak, çok iş parçacıklı programlama durumunda, programınıza ikinci bir parmağınızı koymak gibi. Her iki parmak da aynı şekilde hareket eder ve aynı anda yürütülür. 
+
+### Konular nelerdir?
 
 
 
