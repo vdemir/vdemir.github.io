@@ -3738,7 +3738,7 @@ Phone Num :  2004959559
 
 ### compile Fonksiyonu
 
-Düzenli bir ifade şablonunu desen eşleştirmesi için kullanılabilen desen nesnelerine birleştirebiliriz. Ayrıca yeniden yazmadan bir modelin tekrar aranmasına yardımcı olur.
+Düzenli bir ifade desenini, desen eşleştirmesi için kullanılabilen desen nesnelerine birleştirebiliriz. Ayrıca yeniden yazmadan bir modelin tekrar aranmasına yardımcı olur.
 
 <br>
 
@@ -3764,4 +3764,29 @@ print (result2)
 {% endhighlight %}
  
 <br>
+
+
+<a id="D15"></a>
+<br>
+<div class="alert alert-success" role="success">
+<p><strong>15 Python Çoklu Parçacıklı Programlama</strong></p>
+</div>
+<br>
+
+
+### Python Çoklu Parçacıklı Programlama
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
