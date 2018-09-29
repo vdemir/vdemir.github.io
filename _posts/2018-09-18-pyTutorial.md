@@ -3795,6 +3795,10 @@ Uygulama programlamada iş parçacığı önemli bir rol oynar. Tüm GUI program
 
 -  **Paralel Hesaplama**: Eğer herhangi bir kullanıcı çok işlemcili makineye sahipse, iş parçacığı işlem hızındaki artış hedefi ile paralel işlem yapılmasına izin verebilir.
 
+-  **Standardizasyon**: Programlama hızını artırdığı için tüm programlama dilleri için standart bir yaklaşım haline gelmiştir.
 
+-  **Paralel I/O (Giriş/Çıkış)**: Giriş ve çıkış hızı hakkında konuştuğumuzda, CPU'da nispeten yavaştır. Her i/o işlemlerini birden fazla birbirinden ayrı küçük yürütme birimine yerleştirerek, programcılar birbirleriyle ve hesaplama hızıyla paralel olarak gerçekleştirilen işlemleri kullanabilirler.
+
+-  **Eşzamansız Olaylar**: Birden çok iş parçacıklı uygulama, eşzamansız eylemlerle ilgilenebilir. Örneğin, bir programda, programcılar, bir sonraki harekatın fareyi kullanmak mı yoksa klavyeyi mi kullanacağını bilmiyor olabilirler. Her bir eylem için ayrı bir küçük yürütme birimi ekleyerek, yani hem fare hem de klavye için iki küçük yürütme birimi, programlayıcılar bloke edici olmayan I/O işlemlerini kullanmak için daha temiz ve verimli bir uygulama kodlayabilir.
 
 
