@@ -3815,11 +3815,15 @@ Python iş parçacığına erişmenin iki yolu vardır. Bunlar kullanarak:
 ### Threading Faydaları 
 
 -  Tek bir işlem için, aynı veri alanını işlemek ve paylaşmak için birden fazla iş parçacığı kullanılabilir ve bilgi paylaşarak birbirleriyle iletişim kurabilir.
+- Daha az bellek yükü kullanırlar ve dolayısıyla hafif işlem olarak adlandırılırlar.
+- Bir iş parçacığı kullanıldığında, bir program girişe duyarlı kalabilir.
+- Küçük yürütme birimleri global değişkenin belleğini paylaşabilir ve işleyebilir.
 
+ Bir iş parçacığında, üç farklı bölüm vardır. Başlangıç, bir yürütme parçası ve bir sonuca sahiptir. Ayrıca, iş parçacığının veya işlemin şu anda çalıştığını gösteren bir yönlendirme işaretçisi vardır ve bu nedenle iş parçacığı aynı anda birkaç program bloğunu çalıştırabilir. 
 
+### Yeni Küçük Bir Yürütme Birimi Kullanmak
 
-
-
+Bir modül Thread kullanılarak ayrı bir iş parçacığı içinde işlevler yürütmek için ulaşılabilir. Bunu yapmak için programcılar işlevi kullanabilir - thread.start_new_thread().
 
 
 
