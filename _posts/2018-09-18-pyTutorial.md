@@ -3808,9 +3808,9 @@ Uygulama programlamada iş parçacığı önemli bir rol oynar. Tüm GUI program
 
 Python iş parçacığına erişmenin iki yolu vardır. Bunlar kullanarak:
 
+-  py module
 
-
-
+'tread' modülünün daha az kullanıldığından ve dolayısıyla da  kullanıcıların 'threading' modülünü kullanmaya başladıkları dikkate alınmalıdır.
 
 
 
