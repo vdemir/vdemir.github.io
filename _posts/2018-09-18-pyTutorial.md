@@ -3938,7 +3938,7 @@ for x in range(5):
 Bir kez çalıştırırsanız, küçük yürütme birimlerinin durması gerekmez.
 Küçük yürütme birimleri, her x saniyede yinelenen küçük yürütme birimlerinin işlevselliğini zamanlamış olabilir
 
-
+### Zamanlanmış küçük yürütme birimleri
 
 
 
