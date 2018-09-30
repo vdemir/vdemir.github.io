@@ -72,7 +72,7 @@ img.resize {
 + 13 [Python Exception İşleme](#D13)
 + 14 [Python Düzenli ifadeler](#D14)
 + 15 [Python Çoklu Parçacıklı Programlama](#D15)
-
++ 16 [Python Llisteleri](#D16)
  
 
 <a id="D1"></a>
@@ -4017,5 +4017,18 @@ Waiting for client 2...
 {% endhighlight %}
  
 <br>
+
+
+<a id="D16"></a>
+<br>
+<div class="alert alert-success" role="success">
+<p><strong>16 Python Listeleri</strong></p>
+</div>
+<br>
+
+
+
+
+
 
 
