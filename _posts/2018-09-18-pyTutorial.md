@@ -4118,8 +4118,31 @@ print(l)     # prints all elements
  
 <br>
 
+Listenin azalan sırada olmasını istiyorsanız, reverse() işlevini kullanın.
 
+<br>
 
+{% highlight python linenos=table %}
 
+l = [ "Drake", "Derp", "Derek", "Dominique" ]
+ 
+print(l)     # prints all elements
+l.sort()    # sorts the list in alphabetical order
+l.reverse() # reverse order.
+print(l)     # prints all elements
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+['Drake', 'Derp', 'Derek', 'Dominique']
+['Drake', 'Dominique', 'Derp', 'Derek']
+
+{% endhighlight %}
+ 
+<br>
 
 
