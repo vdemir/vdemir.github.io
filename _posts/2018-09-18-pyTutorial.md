@@ -3823,8 +3823,17 @@ Python iş parçacığına erişmenin iki yolu vardır. Bunlar kullanarak:
 
 ### Yeni Küçük Bir Yürütme Birimi Kullanmak
 
-Bir modül Thread kullanılarak ayrı bir iş parçacığı içinde işlevler yürütmek için ulaşılabilir. Bunu yapmak için programcılar işlevi kullanabilir - thread.start_new_thread().
+Bir Thread modül kullanılarak ayrı bir küçük yürütme biriminde işlevler yürütmek için gerçekleştirilebilir. Bunu yapmak için programcılar - thread.start_new_thread() işlevi kullanabilir.
 
+<br>
+
+{% highlight python %}
+
+thread.start_new_thread(function, args[, kwargs])
+
+{% endhighlight %}
+ 
+<br>
 
 
 
