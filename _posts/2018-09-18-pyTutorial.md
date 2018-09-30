@@ -4090,3 +4090,36 @@ print(l)               # print all elements.
  
 <br>
 
+### Sıralama listesi
+
+Listeyi sort() işlevini kullanarak sıralayabiliriz.
+
+<br>
+
+{% highlight python linenos=table %}
+
+l = [ "Drake", "Derp", "Derek", "Dominique" ]
+ 
+print(l)     # prints all elements
+l.sort()    # sorts the list in alphabetical order
+print(l)     # prints all elements
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+['Drake', 'Derp', 'Derek', 'Dominique']
+['Derek', 'Derp', 'Dominique', 'Drake']
+
+{% endhighlight %}
+ 
+<br>
+
+
+
+
+
+
