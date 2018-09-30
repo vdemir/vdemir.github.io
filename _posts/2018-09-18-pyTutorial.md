@@ -3879,7 +3879,7 @@ Coders:  4
 Daha önce açıklandığı gibi, threading modülü, küçük yürütme birimini uygulamak için kullanılan bir threading sınıfına sahiptir ve bu sınıf ayrıca, programcılar tarafından multi-threaded programlamada kullanılan bazı öntanımlı yordamlar içerir. Bunlar:
 
 -  **run()**: Bu iş parçacığının girdisi olarak davranır
--  **start()**: run() arayarak en küçük yürütme birimi başlatmak için kullanılır kullanılır 
+-  **start()**: run() yordamını çağırarak en küçük bir yürütme birimi başlatmak için kullanılır 
 - **isAlive()**: hala çalışıp çalışmadığını doğrulamak için kullanılır
 - **getName()**: bir iş parçacığının adını döndürmek için kullanılır
 - **setName()**: iş parçacığının adını ayarlamak için kullanılır
