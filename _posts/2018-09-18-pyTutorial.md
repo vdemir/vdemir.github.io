@@ -3874,3 +3874,14 @@ Coders:  4
 <br>
 
 
+### Threading Sınıf Yordamı
+
+Daha önce açıklandığı gibi, threading modülü, küçük yürütme birimini uygulamak için kullanılan bir threading sınıfına sahiptir ve bu sınıf ayrıca, programcılar tarafından multi-threaded programlamada kullanılan bazı öntanımlı yordamlar içerir. Bunlar:
+
+
+
+
+
+
+
+
