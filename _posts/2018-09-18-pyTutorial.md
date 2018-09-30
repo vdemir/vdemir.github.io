@@ -4058,9 +4058,35 @@ Derp
  
 <br>
 
+### Ekle/Kaldır
 
+Listeyi değiştirmek için append() ve remove() işlevlerini kullanabiliriz.
 
+<br>
 
+{% highlight python linenos=table %}
 
+l = [ "Drake", "Derp", "Derek", "Dominique" ]
+ 
+print(l)                # prints all elements
+l.append("Victoria")   # add element.
+print(l)                # print all elements
+l.remove("Derp")       # remove element.
+l.remove("Drake")      # remove element.
+print(l)               # print all elements.
 
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+['Drake', 'Derp', 'Derek', 'Dominique']
+['Drake', 'Derp', 'Derek', 'Dominique', 'Victoria']
+['Derek', 'Dominique', 'Victoria']
+
+{% endhighlight %}
+ 
+<br>
 
