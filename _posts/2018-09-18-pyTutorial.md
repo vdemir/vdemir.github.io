@@ -3884,7 +3884,7 @@ Daha önce açıklandığı gibi, threading modülü, küçük yürütme birimin
 - **getName()**: bir iş parçacığının adını döndürmek için kullanılır
 - **setName()**: iş parçacığının adını ayarlamak için kullanılır
 
-Python'da Python 2'deki thread modülünü veya Python 3'teki _thread modülünü kullanarak küçük bir yürütme birimi oluşturabilirsiniz. Threading modülünü etkileşimde bulunmak için kullanacağız.
+Python'da Python 2'deki **thread** modülünü veya Python 3'teki **_thread** modülünü kullanarak küçük bir yürütme birimi oluşturabilirsiniz. Threading modülünü etkileşimde bulunmak için kullanacağız.
 
 Bir küçük yürütme birimi olan thread, normal bir işlemden farklı özelliklere sahip bir işletim sistemi işlemidir:
 
