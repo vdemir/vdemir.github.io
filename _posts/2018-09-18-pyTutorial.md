@@ -3792,9 +3792,9 @@ Bağımsız olarak yönetilebilen ve işletim sisteminin ayırt edici bir parça
 
 ### En Küçük Yürütme Birimi Neden Kullanılır?
 
-Uygulama programlamada iş parçacığı önemli bir rol oynar. Tüm GUI programları ve web sunucuları birlikte işlenir. Küçük Yürütme Birimi kullanmanın başlıca nedenleri şunlardır:
+Uygulama programlamada en küçük yürütme birimi önemli bir rol oynar. Tüm GUI programları ve web sunucuları birlikte işlenir. Küçük Yürütme Birimi kullanmanın başlıca nedenleri şunlardır:
 
--  **Paralel Hesaplama**: Eğer herhangi bir kullanıcı çok işlemcili makineye sahipse, iş parçacığı işlem hızındaki artış hedefi ile paralel işlem yapılmasına izin verebilir.
+-  **Paralel Hesaplama**: Eğer herhangi bir kullanıcı çok işlemcili makineye sahipse, en küçük yürütme birimi işlem hızındaki artış hedefi ile paralel işlem yapılmasına izin verebilir.
 
 -  **Standardizasyon**: Programlama hızını artırdığı için tüm programlama dilleri için standart bir yaklaşım haline gelmiştir.
 
@@ -3814,12 +3814,12 @@ Python iş parçacığına erişmenin iki yolu vardır. Bunlar kullanarak:
 
 ### Threading Faydaları 
 
--  Tek bir işlem için, aynı veri alanını işlemek ve paylaşmak için birden fazla iş parçacığı kullanılabilir ve bilgi paylaşarak birbirleriyle iletişim kurabilir.
+-  Tek bir işlem için, aynı veri alanını işlemek ve paylaşmak için birden fazla en küçük yürütme birimi kullanılabilir ve bilgi paylaşarak birbirleriyle iletişim kurabilir.
 - Daha az bellek yükü kullanırlar ve dolayısıyla hafif işlem olarak adlandırılırlar.
-- Bir iş parçacığı kullanıldığında, bir program girişe duyarlı kalabilir.
+- Bir en küçük yürütme birimi kullanıldığında, bir program girişe duyarlı kalabilir.
 - Küçük yürütme birimleri global değişkenin belleğini paylaşabilir ve işleyebilir.
 
- Bir iş parçacığında, üç farklı bölüm vardır. Başlangıç, bir yürütme parçası ve bir sonuca sahiptir. Ayrıca, iş parçacığının veya işlemin şu anda çalıştığını gösteren bir yönlendirme işaretçisi vardır ve bu nedenle iş parçacığı aynı anda birkaç program bloğunu çalıştırabilir. 
+ Bir iş parçacığında, üç farklı bölüm vardır. Başlangıç, bir yürütme parçası ve bir sonuca sahiptir. Ayrıca, iş parçacığının veya işlemin şu anda çalıştığını gösteren bir yönlendirme işaretçisi vardır ve bu nedenle en küçük yürütme birimi aynı anda birkaç program bloğunu çalıştırabilir. 
 
 ### Yeni Küçük Bir Yürütme Birimi Kullanmak
 
@@ -3835,7 +3835,7 @@ thread.start_new_thread(function, args[, kwargs])
  
 <br>
 
-Burada, ilk kısım daha önce anlatıldığı gibi bir yöntemdir ve bu yöntem yeni iş parçacıkları oluşturmanın daha hızlı ve daha etkili bir yoludur. Çocuk iş parçacığı başlatıldığında işlev, bir args listesi geçirir. İşlevi bir değer döndürdüğünde iş parçacığı sonlandırılır. Yukarıdaki sözdizimindeki 'args' argümanlar dizisidir.
+Burada, ilk kısım daha önce anlatıldığı gibi bir yöntemdir ve bu yöntem yeni iş parçacıkları oluşturmanın daha hızlı ve daha etkili bir yoludur. Çocuk en küçük yürütme birimi başlatıldığında işlev, bir args listesi geçirir. İşlevi bir değer döndürdüğünde en küçük yürütme birimi sonlandırılır. Yukarıdaki sözdizimindeki 'args' argümanlar dizisidir.
 
 
 ### Python Kullanan Threading Programı
@@ -3879,9 +3879,21 @@ Coders:  4
 Daha önce açıklandığı gibi, threading modülü, küçük yürütme birimini uygulamak için kullanılan bir threading sınıfına sahiptir ve bu sınıf ayrıca, programcılar tarafından multi-threaded programlamada kullanılan bazı öntanımlı yordamlar içerir. Bunlar:
 
 -  run(): Bu iş parçacığının girdisi olarak davranır
--  start(): run() arayarak iş parçacığı başlatmak için kullanılır kullanılır 
+-  start(): run() arayarak en küçük yürütme birimi başlatmak için kullanılır kullanılır 
 - isAlive(): hala çalışıp çalışmadığını doğrulamak için kullanılır
 - getName(): bir iş parçacığının adını döndürmek için kullanılır
 - setName(): iş parçacığının adını ayarlamak için kullanılır
+
+Python'da Python 2'deki thread modülünü veya Python 3'teki _thread modülünü kullanarak küçük bir yürütme birimi oluşturabilirsiniz. Threading modülünü etkileşimde bulunmak için kullanacağız.
+
+Bir küçük yürütme birimi olan thread, normal bir işlemden farklı özelliklere sahip bir işletim sistemi işlemidir:
+
+- en küçük yürütme birimi bir işlemin bir alt kümesi olarak vardır
+- en küçük yürütme birimi bellek ve kaynakları paylaşır
+- işlemler farklı bir adres alanına sahiptir (bellekte)
+
+
+
+
 
 
