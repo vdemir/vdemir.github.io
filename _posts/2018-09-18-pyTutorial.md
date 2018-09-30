@@ -3946,7 +3946,6 @@ Python'da, Timer sınıfı Thread sınıfının bir alt sınıfıdır. Bu benzer
 
 {% highlight python linenos=table %}
 
-#!/usr/bin/env python
 from threading import *
  
 def hello():
