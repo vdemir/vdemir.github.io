@@ -4026,6 +4026,38 @@ Waiting for client 2...
 </div>
 <br>
 
+Listeler bir dizidir ve temel bir veri yapısıdır. Bir liste dizeleri (metin) ve sayıları içerebilir. Bir liste, diğer programlama dillerindeki bir diziye benzer, ancak ek işlevselliklere sahiptir.
+
+### Python Listesi
+
+Listeleri parantez [] ile tanımlarız. Verilere erişmek için aynı parantezler kullanılır. 
+Örnek liste kullanımı:
+
+<br>
+
+{% highlight python linenos=table %}
+
+l = [ "Drake", "Derp", "Derek", "Dominique" ]
+ 
+print(l)     # prints all elements
+print(l[0])  # print first element
+print(l[1])  # prints second element
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+['Drake', 'Derp', 'Derek', 'Dominique']
+Drake
+Derp
+
+{% endhighlight %}
+ 
+<br>
+
 
 
 
