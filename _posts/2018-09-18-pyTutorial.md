@@ -3892,7 +3892,7 @@ Bir küçük yürütme birimi olan thread, normal bir işlemden farklı özellik
 - en küçük yürütme birimi bellek ve kaynakları paylaşır
 - işlemler farklı bir adres alanına sahiptir (bellekte)
 
-
+Ne zaman threading kullanırsınız? Genellikle bir fonksiyonun programınızla aynı anda gerçekleşmesini istersiniz. Sunucu yazılımı oluşturursanız, sunucunun yalnızca bir bağlantıyı değil, aynı zamanda birçok bağlantıyı dinlemesini de istersiniz. Kısacası, thread'ler, programların aynı anda birden çok görevi yürütmesini sağlar.
 
 
 
