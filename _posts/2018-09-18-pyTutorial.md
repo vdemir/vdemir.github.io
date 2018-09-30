@@ -3970,3 +3970,53 @@ hello, world
 {% endhighlight %}
  
 <br>
+
+### Küçük yürütme birimleri kullanarak yinelenen işlevsellik 
+
+İşlenmemiş küçük yürütme birimlerini aşağıdaki gibi yürütebiliriz:
+
+<br>
+
+{% highlight python linenos=table %}
+
+from threading import *
+import time
+ 
+def handleClient1():
+    while(True):
+        print ("Waiting for client 1...")
+        time.sleep(5) # wait 5 seconds      
+ 
+def handleClient2():
+    while(True):
+        print ("Waiting for client 2...")
+        time.sleep(5) # wait 5 seconds
+ 
+# create threads
+t = Timer(5.0, handleClient1)
+t2 = Timer(3.0, handleClient2)
+ 
+# start threads
+t.start()
+t2.start()
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+Waiting for client 2...
+Waiting for client 1...
+Waiting for client 2...
+Waiting for client 1...
+Waiting for client 2...
+Waiting for client 1...
+Waiting for client 2...
+....
+{% endhighlight %}
+ 
+<br>
+
+
