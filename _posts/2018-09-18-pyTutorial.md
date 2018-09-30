@@ -3835,5 +3835,10 @@ thread.start_new_thread(function, args[, kwargs])
  
 <br>
 
+Burada, ilk kısım daha önce anlatıldığı gibi bir yöntemdir ve bu yöntem yeni iş parçacıkları oluşturmanın daha hızlı ve daha etkili bir yoludur. Çocuk iş parçacığı başlatıldığında işlev, bir args listesi geçirir. İşlevi bir değer döndürdüğünde iş parçacığı sonlandırılır. Yukarıdaki sözdizimindeki 'args' argümanlar dizisidir.
+
+
+
+
 
 
