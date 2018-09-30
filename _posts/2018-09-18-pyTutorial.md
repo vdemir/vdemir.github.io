@@ -3894,6 +3894,57 @@ Bir küçük yürütme birimi olan thread, normal bir işlemden farklı özellik
 
 Ne zaman threading kullanırsınız? Genellikle bir fonksiyonun programınızla aynı anda gerçekleşmesini istersiniz. Sunucu yazılımı oluşturursanız, sunucunun yalnızca bir bağlantıyı değil, aynı zamanda birçok bağlantıyı dinlemesini de istersiniz. Kısacası, thread'ler, programların aynı anda birden çok görevi yürütmesini sağlar.
 
+### Python threading
+
+Bir thread programı oluşturalım. Bu programda, her birinin id kimliğini çıkaracak 10 küçük yürütme birimini başlatacağız.
+
+<br>
+
+{% highlight python linenos=table %}
+
+import threading
+ 
+# Our thread class
+class MyThread (threading.Thread):
+ 
+    def __init__(self,x):
+        self.__x = x
+        threading.Thread.__init__(self)
+ 
+    def run (self):
+          print (self.__x)
+ 
+# Start 10 threads.
+for x in range(10):
+    MyThread(x).start()
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+{% endhighlight %}
+ 
+<br>
+
+
+
+
+
+
 
 
 
