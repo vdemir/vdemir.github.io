@@ -3942,4 +3942,31 @@ Küçük yürütme birimleri, her x saniyede yinelenen küçük yürütme biriml
 
 Python'da, Timer sınıfı Thread sınıfının bir alt sınıfıdır. Bu benzer davranır anlamına gelir. Zamanlanmış küçük yürütme birimleri oluşturmak için timer sınıfını kullanabiliriz. Zamanlayıcılar, normal küçük yürütme birimleri gibi .start() yordam çağrısı ile başlatılır. Aşağıdaki program 5 saniye sonra başlayan bir küçük yürütme birimi oluşturur.
 
+<br>
 
+{% highlight python linenos=table %}
+
+#!/usr/bin/env python
+from threading import *
+ 
+def hello():
+    print ("hello, world")
+ 
+# create thread
+t = Timer(5.0, hello)
+ 
+# start thread after 10 seconds
+t.start()
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+hello, world
+
+{% endhighlight %}
+ 
+<br>
