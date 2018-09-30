@@ -3878,11 +3878,11 @@ Coders:  4
 
 Daha önce açıklandığı gibi, threading modülü, küçük yürütme birimini uygulamak için kullanılan bir threading sınıfına sahiptir ve bu sınıf ayrıca, programcılar tarafından multi-threaded programlamada kullanılan bazı öntanımlı yordamlar içerir. Bunlar:
 
--  run(): Bu iş parçacığının girdisi olarak davranır
--  start(): run() arayarak en küçük yürütme birimi başlatmak için kullanılır kullanılır 
-- isAlive(): hala çalışıp çalışmadığını doğrulamak için kullanılır
-- getName(): bir iş parçacığının adını döndürmek için kullanılır
-- setName(): iş parçacığının adını ayarlamak için kullanılır
+-  **run()**: Bu iş parçacığının girdisi olarak davranır
+-  **start()**: run() arayarak en küçük yürütme birimi başlatmak için kullanılır kullanılır 
+- **isAlive()**: hala çalışıp çalışmadığını doğrulamak için kullanılır
+- **getName()**: bir iş parçacığının adını döndürmek için kullanılır
+- **setName()**: iş parçacığının adını ayarlamak için kullanılır
 
 Python'da Python 2'deki thread modülünü veya Python 3'teki _thread modülünü kullanarak küçük bir yürütme birimi oluşturabilirsiniz. Threading modülünü etkileşimde bulunmak için kullanacağız.
 
