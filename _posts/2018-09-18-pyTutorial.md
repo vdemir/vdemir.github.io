@@ -3915,7 +3915,7 @@ class MyThread (threading.Thread):
           print (self.__x)
  
 # Start 10 threads.
-for x in range(10):
+for x in range(5):
     MyThread(x).start()
 
 {% endhighlight %}
@@ -3930,11 +3930,6 @@ for x in range(10):
 2
 3
 4
-5
-6
-7
-8
-9
 
 {% endhighlight %}
  
