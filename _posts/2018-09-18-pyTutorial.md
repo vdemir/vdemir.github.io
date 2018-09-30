@@ -3838,7 +3838,39 @@ thread.start_new_thread(function, args[, kwargs])
 Burada, ilk kısım daha önce anlatıldığı gibi bir yöntemdir ve bu yöntem yeni iş parçacıkları oluşturmanın daha hızlı ve daha etkili bir yoludur. Çocuk iş parçacığı başlatıldığında işlev, bir args listesi geçirir. İşlevi bir değer döndürdüğünde iş parçacığı sonlandırılır. Yukarıdaki sözdizimindeki 'args' argümanlar dizisidir.
 
 
+### Python Kullanan Threading Programı
 
+<br>
 
+{% highlight python linenos=table %}
+
+import threading
+
+def coder(number):
+    print ('Coders: ' , number)
+    return
+
+threads = []
+for k in range(5):
+    t = threading.Thread(target=coder, args=(k,))
+    threads.append(t)
+    t.start()
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+Coders:  0
+Coders:  1
+Coders:  2
+Coders:  3
+Coders:  4
+
+{% endhighlight %}
+ 
+<br>
 
 
