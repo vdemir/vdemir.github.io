@@ -73,6 +73,7 @@ img.resize {
 + 14 [Python Düzenli ifadeler](#D14)
 + 15 [Python Çoklu Parçacıklı Programlama](#D15)
 + 16 [Python Llisteleri](#D16)
++ 17 [Python If Bildirimleri](#D17)
  
 
 <a id="D1"></a>
@@ -4303,3 +4304,13 @@ Correct
 
 
 Bazen **or** operatörünü kullanmak isteyebilirsiniz.
+
+
+
+
+
+
+
+
+
+
