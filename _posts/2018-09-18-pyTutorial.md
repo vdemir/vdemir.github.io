@@ -4361,6 +4361,42 @@ print(f(3))
  
 <br>
 
+Fonksiyonun bir parametresi vardır, x. Dönüş değeri, fonksiyonun döndürdüğü değerdir. Tüm işlevlerin bir şeyler döndürmesi gerekmez.
+
+### Parametreler
+
+Birden çok değişkeni geçebiliriz:
+
+<br>
+
+{% highlight python linenos=table %}
+
+def f(x,y):
+    print('You called f(x,y) with the value x = ' + str(x) + ' and y = ' + str(y))
+    print('x * y = ' + str(x*y))
+ 
+f(3,2)
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+You called f(x,y) with the value x = 3 and y = 2
+x * y = 6
+
+{% endhighlight %}
+ 
+<br>
+
+
+
+
+
+
+
 
 
 
