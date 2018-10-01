@@ -4260,7 +4260,44 @@ Good
  
 <br>
 
+Okumak zorlaşabilir, 4 veya 6 koşulu birleştirmeyi düşünebilirsiniz. Neyse ki Python'un bunun için bir çözümü var, **and** anahtar kelimeyi kullanarak koşulları birleştirebiliriz.
 
+<br>
 
+{% highlight python linenos=table %}
 
+age = 14
+
+while True: 
+    print ("Guess my age, you have 1 chances!")
+    guess = int(input("Guess: "))
+    if guess > 10 and guess < 20:
+      print("In range")
+      if guess != age:
+          print("Wrong!")
+      else:
+          print("Correct")
+          break
+    else:
+       print("Out of range")
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+Guess my age, you have 1 chances!
+Guess:  12
+In range
+Wrong!
+Guess my age, you have 1 chances!
+Guess:  14
+In range
+Correct
+
+{% endhighlight %}
+ 
+<br>
 
