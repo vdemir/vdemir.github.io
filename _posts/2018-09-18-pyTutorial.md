@@ -4301,3 +4301,5 @@ Correct
  
 <br>
 
+
+Bazen **or** operatörünü kullanmak isteyebilirsiniz.
