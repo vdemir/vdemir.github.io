@@ -4232,3 +4232,13 @@ Koşullu operatörler hakkında bir kelime
 
 Atama operatörünü (=) eşittir operatörle (==) karıştırmayın.
 
+**İç içe koymak**
+
+
+
+
+
+
+
+
+
