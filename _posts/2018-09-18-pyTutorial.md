@@ -4230,5 +4230,5 @@ Koşullu operatörler hakkında bir kelime
 | >  | daha büyük  |
 | <	  | daha küçük  |
 
-
+Atama operatörünü (=) eşittir operatörle (==) karıştırmayın.
 
