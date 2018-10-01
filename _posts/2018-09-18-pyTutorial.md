@@ -4234,9 +4234,31 @@ Atama operatörünü (=) eşittir operatörle (==) karıştırmayın.
 
 **İç içe koymak**
 
+Birden fazla koşul yapmanın en basit yolu yuvalamadır:
 
+<br>
 
+{% highlight python linenos=table %}
 
+a = 12 
+b = 33
+ 
+if a > 10:
+    if b > 20:
+        print("Good")
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+Good
+
+{% endhighlight %}
+ 
+<br>
 
 
 
