@@ -4192,16 +4192,14 @@ Bir değişken, kullanıcı tarafından her zaman tanımlanmayabilir, bu küçü
 {% highlight python linenos=table %}
 
 age = 24
-
-while True: 
-    print ("Guess my age, you have 1 chances!")
-    guess = int(input("Guess: "))
  
-    if guess != age:
-        print("Wrong!")
-    else:
-        print("Correct")
-        break
+print "Guess my age, you have 1 chances!"
+guess = int(raw_input("Guess: "))
+ 
+if guess != age:
+    print("Wrong!")
+else:
+    print("Correct")
 
 {% endhighlight %}
  
@@ -4217,4 +4215,20 @@ Correct
 {% endhighlight %}
  
 <br>
+
+### Koşullu Operatörler
+
+Koşullu operatörler hakkında bir kelime
+
+	
+
+
+| Operator  | Tanımlama  |
+|---|---|
+| !=  | eşit değil  |
+| ==  | eş değerde olmak  |
+| >  | daha büyük  |
+| <	  | daha küçük  |
+
+
 
