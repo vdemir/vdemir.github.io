@@ -4017,8 +4017,6 @@ Waiting for client 2...
 {% endhighlight %}
  
 <br>
-
-
 <a id="D16"></a>
 <br>
 <div class="alert alert-success" role="success">
@@ -4144,5 +4142,46 @@ print(l)     # prints all elements
 {% endhighlight %}
  
 <br>
+
+<br>
+<a id="D17"></a>
+<br>
+<div class="alert alert-success" role="success">
+<p><strong>17 Python If Bildirimleri</strong></p>
+</div>
+<br>
+
+Python'da, if ifadeleri olarak bilinen koşullu ifadeleri tanımlayabilirsiniz. 
+Belirli koşullar sağlandığında bir kod bloğu yürütülür.
+
+<br>
+
+### If Bildirimleri
+
+Bu uygulamayı düşünün, x değerine bağlı olarak ilk veya ikinci kodu yürütür.
+
+<br>
+
+{% highlight python linenos=table %}
+
+x = 3
+if x < 10:
+   print("x smaller than 10")
+else:
+   print("x is bigger than 10 or equal")
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+x smaller than 10
+
+{% endhighlight %}
+ 
+<br>
+
 
 
