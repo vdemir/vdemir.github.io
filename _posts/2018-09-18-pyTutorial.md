@@ -74,7 +74,7 @@ img.resize {
 + 15 [Python Çoklu Parçacıklı Programlama](#D15)
 + 16 [Python Llisteleri](#D16)
 + 17 [Python If Bildirimleri](#D17)
- 
++ 18 [Python Fonksiyonlar](#D18)
 
 <a id="D1"></a>
 <br>
@@ -4141,8 +4141,6 @@ print(l)     # prints all elements
 ['Drake', 'Dominique', 'Derp', 'Derek']
 
 {% endhighlight %}
- 
-<br>
 
 <br>
 <a id="D17"></a>
@@ -4305,7 +4303,13 @@ Correct
 
 Bazen **or** operatörünü kullanmak isteyebilirsiniz.
 
-
+<br>
+<a id="D18"></a>
+<br>
+<div class="alert alert-success" role="success">
+<p><strong>18 Python Fonksiyonlar</strong></p>
+</div>
+<br>
 
 
 
