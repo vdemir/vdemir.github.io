@@ -4332,3 +4332,38 @@ def function(parameters):
 {% endhighlight %}
  
 <br>
+
+**def anahtar kelime**, Python'a bir parça yeniden kullanılabilir kodun (bir function) olduğunu bildirir. Bir programın birçok işlevi olabilir.
+
+### Pratik Örnek
+
+Fonksiyon(parametreleri) kullanarak fonksiyonu çağırabiliriz.
+
+<br>
+
+{% highlight python linenos=table %}
+
+def f(x):
+    return(x*x)
+ 
+print(f(3))
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+9
+
+{% endhighlight %}
+ 
+<br>
+
+
+
+
+
+
+
