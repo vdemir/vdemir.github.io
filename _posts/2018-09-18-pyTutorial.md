@@ -4311,10 +4311,24 @@ Bazen **or** operatörünü kullanmak isteyebilirsiniz.
 </div>
 <br>
 
+Bir işlev, programınızda herhangi bir yerde çağrılabilen yeniden kullanılabilir koddur. İşlevler kodunuzun okunabilirliğini artırır: Birisinin uzun talimat listesi yerine işlevleri kullanarak kodu anlaması daha kolaydır. 
 
+Bunun üzerine, test edilebilirlik ve genişletilebilirliği geliştiren fonksiyonlar yeniden kullanılabilir veya değiştirilebilir.
 
+<br>
 
+### İşlev Tanımı
 
+Bu sözdizimini işlev olarak tanımlamak için kullanırız:
 
+<br>
 
+{% highlight python %}
 
+def function(parameters):
+    instructions
+    return value
+
+{% endhighlight %}
+ 
+<br>
