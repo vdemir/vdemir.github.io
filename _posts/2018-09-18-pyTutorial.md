@@ -4183,5 +4183,38 @@ x smaller than 10
  
 <br>
 
+**Küçük bir oyun:**
 
+Bir değişken, kullanıcı tarafından her zaman tanımlanmayabilir, bu küçük oyunu düşünün:
+
+<br>
+
+{% highlight python linenos=table %}
+
+age = 24
+
+while True: 
+    print ("Guess my age, you have 1 chances!")
+    guess = int(input("Guess: "))
+ 
+    if guess != age:
+        print("Wrong!")
+    else:
+        print("Correct")
+        break
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+Guess my age, you have 1 chances!
+Guess:  24
+Correct
+
+{% endhighlight %}
+ 
+<br>
 
