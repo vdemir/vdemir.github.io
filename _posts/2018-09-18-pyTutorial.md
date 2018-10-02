@@ -1279,7 +1279,7 @@ print(closure()) # 4
 <br>
 
 
-Bir kapanma **closure** denir çünkü dış (sabit) değişken 'üzerinden kapanır'. Bu sadece bir fonksiyon değil, işlevin oluşturulduğu ortamın bir muhafazasıdır. Aşağıdaki örnekte, x'i değiştirdikten sonra g closure kapağını çağırmak, g içinde x'in değerini de değiştirecektir, çünkü g, x üzerinden kapanır:
+Bir kapanma **closure** denir çünkü dış (sabit) değişken 'üzerinden kapanır'. Bu sadece bir fonksiyon değil, fonksiyonun oluşturulduğu ortamın bir muhafazasıdır. Aşağıdaki örnekte, x'i değiştirdikten sonra g closure kapağını çağırmak, g içinde x'in değerini de değiştirecektir, çünkü g, x üzerinden kapanır:
 <br>
 <div class="alert alert-info" role="info">
 <p><strong>Not:</strong> Python 3'e nonlocal eklendiğini, python 2.x'in tam okuma-yazma kapatmalarına sahip olmadığına dikkat edin (yani, değişkenler üzerinden kapatılmış olabilir, ancak değerlerini değiştiremezsiniz).</p>
@@ -1531,7 +1531,7 @@ Yes!
 
 Bunu aklında tut. Kısa bir süre sonra tekrar döneceğiz. 
 
-Python işlevlerinin bir başka ilginç özelliği, başka bir işlevin içinde tanımlanabilmeleridir!
+Python işlevlerinin bir başka ilginç özelliği, başka bir fonksiyonun içinde tanımlanabilmeleridir!
 
 <br>
 
@@ -2116,7 +2116,7 @@ I am 28, what did you think?
 
 Harika, şimdi argümanları dekoratörün kendisine aktarma hakkında ne söylerdin? 
 
-Bir dekoratör argüman olarak bir fonksiyonu kabul etmesi gerektiğinden, bu biraz bükülmüş olabilir. Bu nedenle, dekore edilmiş işlevin argümanlarını doğrudan dekoratöre geçiremezsiniz. 
+Bir dekoratör argüman olarak bir fonksiyonu kabul etmesi gerektiğinden, bu biraz bükülmüş olabilir. Bu nedenle, dekore edilmiş fonksiyonun argümanlarını doğrudan dekoratöre geçiremezsiniz. 
 
 Çözüme acele etmeden önce biraz hatırlatma yazalım:
 
@@ -3459,7 +3459,7 @@ Super-Class with Implicit function
 
 <br>
 
-Yukarıdaki kodda, temel sınıfın hem nesneler hem de türetilmiş sınıfları, temel sınıfın işlevini çağırabilir. Ayrıca, 'alt' sınıfı altındaki 'pasif' ifadesi, Python'a programcının 'alt' sınıfı altında yaratılan boş bir blok istediğini söylemek için kullanılır, ancak içinde tanımlanacak yeni bir şey olmadığını söyler. 
+Yukarıdaki kodda, temel sınıfın hem nesneler hem de türetilmiş sınıfları, temel sınıfın fonksiyonunu çağırabilir. Ayrıca, 'alt' sınıfı altındaki 'pasif' ifadesi, Python'a programcının 'alt' sınıfı altında yaratılan boş bir blok istediğini söylemek için kullanılır, ancak içinde tanımlanacak yeni bir şey olmadığını söyler. 
 
 Yukarıdaki program ayrıca şunu gösterir: - eğer temel sınıfta (burada 'super'') herhangi bir fonksiyon koyarsak, o zaman tüm türetilmiş sınıflar (burada sınıf 'sub') ayrıca özellikleri temel sınıftan otomatik olarak alacaktır. yani, tüm davranışı ana sınıftan devralır.
 
@@ -4092,7 +4092,7 @@ print(l)               # print all elements.
 
 ### Sıralama listesi
 
-Listeyi sort() işlevini kullanarak sıralayabiliriz.
+Listeyi sort() fonksiyonunu kullanarak sıralayabiliriz.
 
 <br>
 
@@ -4118,7 +4118,7 @@ print(l)     # prints all elements
  
 <br>
 
-Listenin azalan sırada olmasını istiyorsanız, reverse() işlevini kullanın.
+Listenin azalan sırada olmasını istiyorsanız, reverse() fonksiyonunu kullanın.
 
 <br>
 
@@ -4391,6 +4391,8 @@ x * y = 6
 {% endhighlight %}
  
 <br>
+
+
 <a id="D19"></a>
 <br>
 <div class="alert alert-success" role="success">
@@ -4402,11 +4404,38 @@ x * y = 6
  
 Değişkenler sadece tanımlandıkları alana ulaşabilirler, buna kapsam adı verilir. Değişkenlerin kullanılabileceği kod alanı olarak düşünün. Python global değişkenleri (tüm programda kullanılabilir) ve yerel değişkenleri destekler.
 
+Varsayılan olarak, bir fonksiyonda bildirilen tüm değişkenler yerel değişkenlerdir. Bir fonksiyonun genel değişkenine erişmek için, ‘global variable’ açıkça tanımlamak gerekir.
+
+**Örnek**
+ 
+Aşağıda yerel değişkenlerin ve kapsamın kullanımını inceleyeceğiz. Bu işe yaramaz:
+
+<br>
+
+{% highlight python linenos=table %}
+
+def f(x,y):
+    print('You called f(x,y) with the value x = ' + str(x) + ' and y = ' + str(y))
+    print('x * y = ' + str(x*y))
+    z = 4 # cannot reach z, so THIS WON'T WORK
+ 
+z = 3
+f(3,2)
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+You called f(x,y) with the value x = 3 and y = 2
+x * y = 6
 
 
-
-
-
+{% endhighlight %}
+ 
+<br>
 
 
 
