@@ -4532,7 +4532,7 @@ Bir değişkene herhangi bir yere ulaşılabiliyorsa, kod global değişken olar
 
 **Amaç:** Birkaç yürütme birimini yönetin.
 
-
+Küçük yürütme birimlerini kullanmak, bir programın aynı işlem alanında aynı anda birden çok işlemi çalıştırmasına izin verir.
 
 
 
