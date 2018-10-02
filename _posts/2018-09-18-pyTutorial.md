@@ -4521,3 +4521,5 @@ print(result)
 {% endhighlight %}
  
 <br>
+
+Bir değişkene herhangi bir yere ulaşılabiliyorsa, kod global değişken olarak adlandırılır. Bir değişken sadece kapsam içinde biliniyorsa, buna yerel bir değişken deriz.
