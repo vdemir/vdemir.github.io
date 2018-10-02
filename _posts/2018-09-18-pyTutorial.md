@@ -4466,9 +4466,30 @@ x * y = 6
  
 <br>
 
+Bunu daha detaylı inceleyelim:
 
+<br>
 
+{% highlight python linenos=table %}
 
+def f(x,y,z):
+    return x+y+z # this will return the sum because all variables are passed as parameters
+ 
+sum = f(3,2,1)
+print(sum)
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+6
+
+{% endhighlight %}
+ 
+<br>
 
 
 
