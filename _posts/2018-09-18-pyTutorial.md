@@ -75,6 +75,7 @@ img.resize {
 + 16 [Python Llisteleri](#D16)
 + 17 [Python If Bildirimleri](#D17)
 + 18 [Python Fonksiyonlar](#D18)
++ 19 [Python bildirim kapsamı](#D19)
 
 <a id="D1"></a>
 <br>
@@ -4390,9 +4391,16 @@ x * y = 6
 {% endhighlight %}
  
 <br>
+<a id="D19"></a>
+<br>
+<div class="alert alert-success" role="success">
+<p><strong>19 Python Scope Alanı</strong></p>
+</div>
+<br>
 
-
-
+**Kapsam**
+ 
+Değişkenler sadece tanımlandıkları alana ulaşabilirler, buna kapsam adı verilir. Değişkenlerin kullanılabileceği kod alanı olarak düşünün. Python global değişkenleri (tüm programda kullanılabilir) ve yerel değişkenleri destekler.
 
 
 
