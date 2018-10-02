@@ -4391,8 +4391,6 @@ x * y = 6
 {% endhighlight %}
  
 <br>
-
-
 <a id="D19"></a>
 <br>
 <div class="alert alert-success" role="success">
@@ -4523,3 +4521,20 @@ print(result)
 <br>
 
 Bir değişkene herhangi bir yere ulaşılabiliyorsa, kod global değişken olarak adlandırılır. Bir değişken sadece kapsam içinde biliniyorsa, buna yerel bir değişken deriz.
+
+<br>
+<a id="D20"></a>
+<br>
+<div class="alert alert-success" role="success">
+<p><strong>20 threading - bir işlem içinde eşzamanlı işlemleri yönetme</strong></p>
+</div>
+<br>
+
+**Amaç:** Birkaç yürütme birimini yönetin.
+
+
+
+
+
+
+
