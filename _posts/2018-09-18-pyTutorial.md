@@ -4661,3 +4661,66 @@ Thread-1 Exiting
  
 <br>
 
+Çoğu program, hata ayıklamak için **print** kullanmaz. logging modülü, %(threadName)s biçimlendirici kodunu kullanarak her günlük mesajına thread adını katmayı destekler. log mesajlarına thread  isimleri dahil etmek, bu mesajları kaynağına geri göndermeyi mümkün kılar.
+
+<br>
+
+{% highlight python linenos=table %}
+
+import threading
+import time
+
+
+import logging
+import threading
+import time
+
+
+def worker():
+    logging.debug('Starting')
+    time.sleep(0.2)
+    logging.debug('Exiting')
+
+
+def my_service():
+    logging.debug('Starting')
+    time.sleep(0.3)
+    logging.debug('Exiting')
+
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='[%(levelname)s] (%(threadName)-10s) %(message)s',
+)
+
+t = threading.Thread(name='my_service', target=my_service)
+w1 = threading.Thread(name='worker1', target=worker)
+w2 = threading.Thread(target=worker)  # use default name
+
+w1.start()
+w2.start()
+t.start()
+
+{% endhighlight %}
+ 
+<br>
+
+logging aynı zamanda thread-safe dir, bu yüzden farklı thread den gelen mesajlar çıktıda ayrı tutulur.
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+[DEBUG] (worker1   ) Starting
+[DEBUG] (Thread-1  ) Starting
+[DEBUG] (my_service) Starting
+[DEBUG] (worker1   ) Exiting
+[DEBUG] (Thread-1  ) Exiting
+[DEBUG] (my_service) Exiting
+
+{% endhighlight %}
+ 
+<br>
+
+
+
+
