@@ -4693,9 +4693,9 @@ logging.basicConfig(
     format='[%(levelname)s] (%(threadName)-10s) %(message)s',
 )
 
-t = threading.Thread(name='my_service', target=my_service)
 w1 = threading.Thread(name='worker1', target=worker)
 w2 = threading.Thread(target=worker)  # use default name
+t = threading.Thread(name='my_service', target=my_service)
 
 w1.start()
 w2.start()
