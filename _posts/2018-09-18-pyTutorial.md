@@ -4678,7 +4678,7 @@ import time
 
 def worker():
     logging.debug('Starting')
-    time.sleep(0.2)
+    time.sleep(0.5)
     logging.debug('Exiting')
 
 
@@ -4713,9 +4713,9 @@ logging aynı zamanda thread-safe dir, bu yüzden farklı thread den gelen mesaj
 [DEBUG] (worker1   ) Starting
 [DEBUG] (Thread-1  ) Starting
 [DEBUG] (my_service) Starting
+[DEBUG] (my_service) Exiting
 [DEBUG] (worker1   ) Exiting
 [DEBUG] (Thread-1  ) Exiting
-[DEBUG] (my_service) Exiting
 
 {% endhighlight %}
  
