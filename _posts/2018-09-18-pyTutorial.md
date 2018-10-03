@@ -4613,5 +4613,55 @@ Worker: 4
  
 <br>
 
+**Güncel Thread Belirleniyor**
 
+thread tanımlamak veya adlandırmak için içlemler kullanmak hantal ve gereksizdir. Her Thread örneği, thread oluşturulduğunda değiştirilebilen varsayılan bir değere ile bir ada sahiptir. thread ları adlandırma, farklı işlemlerle uğraşan çoklu hizmet iş parçacıklı sunucu işlemlerinde kullanışlıdır.
+
+<br>
+
+{% highlight python linenos=table %}
+
+import threading
+import time
+
+
+def worker():
+    print(threading.current_thread().getName(), 'Starting')
+    time.sleep(0.2)
+    print(threading.current_thread().getName(), 'Exiting')
+
+
+def my_service():
+    print(threading.current_thread().getName(), 'Starting')
+    time.sleep(0.3)
+    print(threading.current_thread().getName(), 'Exiting')
+
+
+t = threading.Thread(name='my_service', target=my_service)
+w = threading.Thread(name='worker', target=worker)
+w2 = threading.Thread(target=worker)  # use default name
+
+w.start()
+w2.start()
+t.start()
+
+{% endhighlight %}
+ 
+<br>
+
+Hata ayıklama çıkışı, her satırdaki geçerli thread parçacığının adını içerir. 'Thread-1' satırları, Thread parçacığı adı sütununda adsız thread parçacığı w2'ye karşılık gelir.
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+worker Starting
+Thread-1 Starting
+my_service Starting
+worker Exiting
+Thread-1 Exiting
+my_service Exiting
+
+{% endhighlight %}
+ 
+<br>
 
