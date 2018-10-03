@@ -4534,6 +4534,46 @@ Bir değişkene herhangi bir yere ulaşılabiliyorsa, kod global değişken olar
 
 Küçük yürütme birimlerini kullanmak, bir programın aynı işlem alanında aynı anda birden çok işlemi çalıştırmasına izin verir.
 
+**Thread Öbekleri**
+
+Bir Thread küçük yürütme birimi kullanmanın en kolay yolu, onu bir hedef işlevle başlatmak ve çalışmaya başlamasına izin vermek için start() işlevini çağırmaktır.
+
+<br>
+
+{% highlight python linenos=table %}
+
+import threading
+
+
+def worker():
+    """thread worker function"""
+    print('Worker')
+
+
+threads = []
+for i in range(5):
+    t = threading.Thread(target=worker)
+    threads.append(t)
+    t.start()
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+Worker
+Worker
+Worker
+Worker
+Worker
+
+{% endhighlight %}
+ 
+<br>
+
+
 
 
 
