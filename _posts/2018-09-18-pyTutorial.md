@@ -4621,13 +4621,9 @@ thread tanımlamak veya adlandırmak için içlemler kullanmak hantal ve gereksi
 
 {% highlight python linenos=table %}
 
-import threading
-import time
-
-
 def worker():
     print(threading.current_thread().getName(), 'Starting')
-    time.sleep(0.2)
+    time.sleep(0.5)
     print(threading.current_thread().getName(), 'Exiting')
 
 
@@ -4638,10 +4634,10 @@ def my_service():
 
 
 t = threading.Thread(name='my_service', target=my_service)
-w = threading.Thread(name='worker', target=worker)
+w1 = threading.Thread(name='worker1', target=worker)
 w2 = threading.Thread(target=worker)  # use default name
 
-w.start()
+w1.start()
 w2.start()
 t.start()
 
@@ -4654,12 +4650,12 @@ Hata ayıklama çıkışı, her satırdaki geçerli thread parçacığının ad�
 
 {% highlight python %}
 
-worker Starting
+worker1 Starting
 Thread-1 Starting
 my_service Starting
-worker Exiting
-Thread-1 Exiting
 my_service Exiting
+worker1 Exiting
+Thread-1 Exiting
 
 {% endhighlight %}
  
