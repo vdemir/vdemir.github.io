@@ -4559,6 +4559,8 @@ for i in range(5):
 {% endhighlight %}
  
 <br>
+
+Çıktı, her birinde 'Worker' ile beş satırdır.
 <h2 class="python3">Python</h2>
 
 {% highlight python %}
@@ -4573,8 +4575,43 @@ Worker
  
 <br>
 
+Bir thread üretebilmek ve ne iş yapılacağını anlatmak için argümanlar iletmek yararlıdır. Herhangi bir öbek türü, thread parçacığına içlem olarak iletilebilir. Bu örnek, thread parçacığının yazdırdığı bir sayıyı geçirir.
+
+<br>
+
+{% highlight python linenos=table %}
+
+import threading
+
+def worker(num):
+    """thread worker function"""
+    print('Worker: %s' % num)
 
 
+threads = []
+for i in range(5):
+    t = threading.Thread(target=worker, args=(i,))
+    threads.append(t)
+    t.start()
+
+{% endhighlight %}
+ 
+<br>
+
+Tam sayı içlemi artık her bir thread parçacığı tarafından basılan mesaja dahil edilmiştir.
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+Worker: 0
+Worker: 1
+Worker: 2
+Worker: 3
+Worker: 4
+
+{% endhighlight %}
+ 
+<br>
 
 
 
