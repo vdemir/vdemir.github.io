@@ -3827,7 +3827,7 @@ Python iş parçacığına erişmenin iki yolu vardır. Bunlar kullanarak:
 - Bir en küçük yürütme birimi kullanıldığında, bir program girişe duyarlı kalabilir.
 - Küçük yürütme birimleri global değişkenin belleğini paylaşabilir ve işleyebilir.
 
- Bir iş parçacığında, üç farklı bölüm vardır. Başlangıç, bir yürütme parçası ve bir sonuca sahiptir. Ayrıca, iş parçacığının veya işlemin şu anda çalıştığını gösteren bir yönlendirme işaretçisi vardır ve bu nedenle en küçük yürütme birimi aynı anda birkaç program bloğunu çalıştırabilir. 
+ Bir iş parçacığında, üç farklı bölüm vardır. Başlangıç, bir yürütme parçası ve bir sonuca sahiptir. Ayrıca, küçük yürütme biriminin veya işlemin şu anda çalıştığını gösteren bir yönlendirme işaretçisi vardır ve bu nedenle en küçük yürütme birimi aynı anda birkaç program bloğunu çalıştırabilir. 
 
 ### Yeni Küçük Bir Yürütme Birimi Kullanmak
 
@@ -3886,11 +3886,11 @@ Coders:  4
 
 Daha önce açıklandığı gibi, threading modülü, küçük yürütme birimini uygulamak için kullanılan bir threading sınıfına sahiptir ve bu sınıf ayrıca, programcılar tarafından multi-threaded programlamada kullanılan bazı öntanımlı yordamlar içerir. Bunlar:
 
--  **run()**: Bu iş parçacığının girdisi olarak davranır
+-  **run()**: Bu küçük yürütme biriminin girdisi olarak davranır
 -  **start()**: run() yordamını çağırarak en küçük bir yürütme birimi başlatmak için kullanılır 
 - **isAlive()**: hala çalışıp çalışmadığını doğrulamak için kullanılır
-- **getName()**: bir iş parçacığının adını döndürmek için kullanılır
-- **setName()**: iş parçacığının adını ayarlamak için kullanılır
+- **getName()**: bir küçük yürütme biriminin adını döndürmek için kullanılır
+- **setName()**: küçük yürütme biriminin adını ayarlamak için kullanılır
 
 Python'da Python 2'deki **thread** modülünü veya Python 3'teki **_thread** modülünü kullanarak küçük bir yürütme birimi oluşturabilirsiniz. Threading modülünü etkileşimde bulunmak için kullanacağız.
 
@@ -4730,3 +4730,63 @@ logging aynı zamanda thread-safe dir, bu yüzden farklı thread den gelen mesaj
 **Daemon vs. Non-Daemon küçük yürütme birimleri**
 
 Bu noktaya kadar, örnek programlar, tüm küçük yürütme birimleri işlerini tamamlayana kadar kesin olarak çıkmayı beklemiştir. Bazen programlar, bir küçük yürütme birimini, ana programın çıkmasını engellemeden çalışan bir program olarak meydana getirir. Daemon küçük yürütme birimini kullanmak, küçük yürütme birimini kesmenin kolay bir yolunun bulunmadığı veya işinin ortasında küçük yürütme biriminin ölmesine izin vermediği veya veri kaybına neden olmayan servisler için kullanışlıdır(örneğin, bir servis izleme aracı için “kalp atışı” üreten bir küçük yürütme birimi). Bir küçük yürütme birimini bir daemon olarak işaretlemek için, oluştururken daemon=True geçirin veya set_daemon() ile True yöntemini çağırın. öntanımlı durum, küçük yürütme birimlerinin daemon olmamasıdır.
+
+<br>
+
+{% highlight python linenos=table %}
+
+import threading
+import time
+import logging
+
+
+def daemon():
+    logging.debug('Starting')
+    time.sleep(0.2)
+    logging.debug('Exiting')
+
+
+def non_daemon():
+    logging.debug('Starting')
+    logging.debug('Exiting')
+
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='(%(threadName)-10s) %(message)s',
+)
+
+d = threading.Thread(name='daemon', target=daemon, daemon=True)
+
+t = threading.Thread(name='non-daemon', target=non_daemon)
+
+d.start()
+t.start()
+
+{% endhighlight %}
+ 
+<br>
+
+Çıkış, daemon küçük yürütme biriminin sleep() çağrısı uyandırılmadan önce non_daemon küçük yürütme birimlerinin (main thread dahil) tümü çıkış yaptığı için, çıktı daemon küçük yürütme biriminden gelen 'Exiting' iletisini içermez. 
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+(daemon    ) Starting
+(non-daemon) Starting
+(non-daemon) Exiting
+
+{% endhighlight %}
+ 
+<br>
+
+
+
+
+
+
+
+
+
+
+
