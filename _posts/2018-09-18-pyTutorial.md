@@ -4726,6 +4726,7 @@ logging aynı zamanda thread-safe dir, bu yüzden farklı thread den gelen mesaj
 {% endhighlight %}
  
 <br>
-Daemon vs. Non-Daemon Threads
 
+**Daemon vs. Non-Daemon Threads**
 
+Bu noktaya kadar, örnek programlar, tüm threads parçacıkları işlerini tamamlayana kadar kesin olarak çıkmayı beklemiştir. Bazen programlar bir thread parçacığını ana programın çıkmasını engellemeden çalışan bir program olarak meydana getirir. Daemon iplerini kullanmak, küçük yürütme birimini kesmenin kolay bir yolunun bulunmadığı veya işinin ortasında küçük yürütme biriminin ölmesine izin vermediği veya veri kaybına neden olmayan servisler için kullanışlıdır(örneğin, bir servis izleme aracı için “kalp atışı” üreten bir küçük yürütme birimi). Bir küçük yürütme birimini bir daemon olarak işaretlemek için, oluştururken daemon=True geçirin veya set_daemon() ile True yöntemini çağırın. default, küçük yürütme birimlerinin daemon olmamasıdır.
