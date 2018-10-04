@@ -4720,14 +4720,6 @@ logging aynı zamanda thread-safe dir, bu yüzden farklı thread den gelen mesaj
 {% endhighlight %}
  
 <br>
-<style>
-  body { text-align: center; padding: 150px; }
-  h1 { font-size: 50px; }
-  body { font: 20px Helvetica, sans-serif; color: #333; }
-  article { display: block; text-align: left; width: 650px; margin: 0 auto; }
-  a { color: #dc8100; text-decoration: none; }
-  a:hover { color: #333; text-decoration: none; }
-</style>
 
 Daemon vs. Non-Daemon Threads
 
