@@ -4723,7 +4723,7 @@ logging aynı zamanda thread-safe dir, bu yüzden farklı thread den gelen mesaj
 <style>
   body { text-align: center; padding: 150px; }
   h1 { font-size: 30px; }
-  body { font: 10px Helvetica, sans-serif; color: #333; }
+  body { font: 15px Helvetica, sans-serif; color: #333; }
   article { display: block; text-align: left; width: 450px; margin: 0 auto; }
   a { color: #dc8100; text-decoration: none; }
   a:hover { color: #333; text-decoration: none; }
