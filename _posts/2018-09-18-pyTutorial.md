@@ -4768,7 +4768,7 @@ t.start()
  
 <br>
 
-Çıkış, **daemon** yürütme biriminin sleep() çağrısı uyandırılmadan önce **non_daemon** yürütme birimlerinin (main thread dahil) tümü çıkış yaptığı için, çıktı **daemon** yürütme biriminden gelen **'Exiting'** iletisini içermez. 
+**daemon** yürütme birimi sleep() çağrısı uyandırılmadan önce **non_daemon** yürütme birimlerinin tümü (ana yürütme birimi dahil) çıkış yaptığı için, çıktı **daemon** yürütme biriminden gelen **'Exiting'** iletisini içermez. 
 <h2 class="python3">Python</h2>
 
 {% highlight python %}
