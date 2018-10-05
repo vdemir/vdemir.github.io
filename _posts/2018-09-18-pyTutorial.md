@@ -4781,7 +4781,7 @@ t.start()
  
 <br>
 
-Bir **daemon thread** iş parçacığı işini tamamlayana kadar beklemek için join() yordamını kullanır.
+Bir **daemon thread** iş parçacığı işini tamamlayana kadar beklemek için **join()** yordamını kullanır.
 
 
 
