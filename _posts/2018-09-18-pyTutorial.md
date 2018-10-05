@@ -4764,14 +4764,11 @@ t = threading.Thread(name='non-daemon', target=non_daemon)
 d.start()
 t.start()
 
-d.join()
-t.join()
-
 {% endhighlight %}
  
 <br>
 
- Daemon thread'in **join()** kullanarak çıkmasını beklemek, **'Exiting'** mesajını üretme şansına sahip olduğu anlamına gelir.
+**daemon** yürütme birimi sleep() çağrısı uyandırılmadan önce **non_daemon** yürütme birimlerinin tümü (ana yürütme birimi dahil) çıkış yaptığı için, yanıt **daemon** yürütme biriminden gelen **'Exiting'** iletisini içermez. 
 <h2 class="python3">Python</h2>
 
 {% highlight python %}
@@ -4779,7 +4776,6 @@ t.join()
 (daemon    ) Starting
 (non-daemon) Starting
 (non-daemon) Exiting
-(daemon    ) Exiting
 
 {% endhighlight %}
  
@@ -4819,11 +4815,14 @@ t = threading.Thread(name='non-daemon', target=non_daemon)
 d.start()
 t.start()
 
+d.join()
+t.join()
+
 {% endhighlight %}
  
 <br>
 
-**daemon** yürütme birimi sleep() çağrısı uyandırılmadan önce **non_daemon** yürütme birimlerinin tümü (ana yürütme birimi dahil) çıkış yaptığı için, yanıt **daemon** yürütme biriminden gelen **'Exiting'** iletisini içermez. 
+ Daemon thread'in **join()** kullanarak çıkmasını beklemek, **'Exiting'** mesajını üretme şansına sahip olduğu anlamına gelir.
 <h2 class="python3">Python</h2>
 
 {% highlight python %}
@@ -4831,10 +4830,12 @@ t.start()
 (daemon    ) Starting
 (non-daemon) Starting
 (non-daemon) Exiting
+(daemon    ) Exiting
 
 {% endhighlight %}
  
 <br>
+
 
 
 
