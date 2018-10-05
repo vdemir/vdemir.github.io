@@ -82,6 +82,7 @@ img.resize {
 + 17 [Python If Bildirimleri](#D17)
 + 18 [Python Fonksiyonlar](#D18)
 + 19 [Python bildirim kapsamı](#D19)
++ 20 [Python threading](#D20)
 
 <a id="D1"></a>
 <br>
