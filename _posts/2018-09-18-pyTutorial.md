@@ -77,7 +77,7 @@ img.resize {
 + 12 [Python Dekoratörleri](#D12)
 + 13 [Python Exception İşleme](#D13)
 + 14 [Python Düzenli ifadeler](#D14)
-+ 15 [Python Çoklu Parçacıklı Programlama](#D15)
++ 15 [Python Çoklu Parçacıklı Programlama- threading](#D15)
 + 16 [Python Llisteleri](#D16)
 + 17 [Python If Bildirimleri](#D17)
 + 18 [Python Fonksiyonlar](#D18)
