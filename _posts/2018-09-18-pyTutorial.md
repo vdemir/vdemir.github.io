@@ -4815,6 +4815,62 @@ t = threading.Thread(name='non-daemon', target=non_daemon)
 d.start()
 t.start()
 
+d.join(0.1)
+print('d.isAlive()', d.isAlive())
+t.join()
+
+{% endhighlight %}
+ 
+<br>
+Zaman aşımı, daemon thread uyuduğu süreden daha az olduğu için, **join()** geri döndükten sonra thread hala **'alive'** olur.
+
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+d.isAlive() True
+(daemon    ) Starting
+(non-daemon) Starting
+(non-daemon) Exiting
+
+{% endhighlight %}
+ 
+<br>
+
+Varsayılan olarak, **join()** süresiz olarak bloklar. Ayrıca, thread yürütme biriminin etkisiz hale gelmesini beklemek için saniye sayısını temsil eden bir float değeri iletmek de mümkündür. Eğer thread yürütme birimi zaman aşımı süresi içinde tamamlanmazsa, **join()** yine de döner.
+
+<br>
+
+{% highlight python linenos=table %}
+
+import threading
+import time
+import logging
+
+
+def daemon():
+    logging.debug('Starting')
+    time.sleep(0.2)
+    logging.debug('Exiting')
+
+
+def non_daemon():
+    logging.debug('Starting')
+    logging.debug('Exiting')
+
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='(%(threadName)-10s) %(message)s',
+)
+
+d = threading.Thread(name='daemon', target=daemon, daemon=True)
+
+t = threading.Thread(name='non-daemon', target=non_daemon)
+
+d.start()
+t.start()
+
 d.join()
 t.join()
 
@@ -4835,11 +4891,6 @@ t.join()
 {% endhighlight %}
  
 <br>
-
-
-
-
-
 
 
 
