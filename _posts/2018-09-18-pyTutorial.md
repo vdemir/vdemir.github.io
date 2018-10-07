@@ -4836,7 +4836,7 @@ d.isAlive() True
 {% endhighlight %}
  
 <br>
-
+Aşağıdaki örnek, join() yöordamının kullanımını gösterir.
 <br>
 
 {% highlight python linenos=table %}
@@ -4848,7 +4848,7 @@ print (s.join( seq ))
 {% endhighlight %}
  
 <br>
-
+Bu yordam, seq dizisindeki dizelerin birleştirilmesi olan bir dizge döndürür. Öğeler arasındaki ayırıcı, bu yordamı sağlayan dizedir.
 <h2 class="python3">Python</h2>
 
 {% highlight python %}
