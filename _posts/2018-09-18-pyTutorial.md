@@ -4841,9 +4841,26 @@ Aşağıdaki örnek, join() yöordamının kullanımını gösterir.
 
 {% highlight python linenos=table %}
 
-s = "-";
-seq = ("a", "b", "c"); # This is sequence of strings.
-print (s.join( seq ))
+import threading
+import time
+
+class Kiki(threading.Thread):
+    def __init__(self, time):
+        super(Kiki, self).__init__()
+        self.time = time
+        self.start()
+
+    def run(self):
+        print (self.time, " seconds start!")
+        for i in range(0,self.time):
+            time.sleep(1)
+            print ("1 sec of ", self.time)
+        print (self.time, " seconds finished!")
+
+
+t1 = Kiki(3)
+t1.join(4)
+print ("t1.join() finished" )
 
 {% endhighlight %}
  
@@ -4853,7 +4870,12 @@ Bu yordam, seq dizisindeki dizelerin birleştirilmesi olan bir dizge döndürür
 
 {% highlight python %}
 
-a-b-c
+3  seconds start!
+1 sec of  3
+1 sec of  3
+1 sec of  3
+3  seconds finished!
+t1.join() finished
 
 {% endhighlight %}
  
