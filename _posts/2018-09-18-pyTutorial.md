@@ -4864,7 +4864,7 @@ print ("t1.join() finished" )
 {% endhighlight %}
  
 <br>
-Bu çalışıyor! Ama sırayla çalışır. self.start()'yı __init__'ye koyabilirim, ama self.join()'yi değil. Her küçük yürütme birimi başladıktan sonra yapılması gerekenler.
+Bu çalışıyor! Ama sırayla çalışır. self.start()'yı **__init__**'ye koyabilirim, ama self.join()'yi değil. Her küçük yürütme birimi başladıktan sonra yapılması gerekenler.
 
 join(), küçük yürütme biriminizin bitmesini bekleyen ana küçük yürütme birimidir. Aksi halde, küçük yürütme biriminiz kendi başına çalışır.
 
