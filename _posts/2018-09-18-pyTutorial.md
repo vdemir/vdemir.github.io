@@ -4781,7 +4781,7 @@ t.start()
  
 <br>
 
-Bir **daemon thread** iş parçacığı işini tamamlayana kadar beklemek için **join()** yordamını kullanır.
+Bir **daemon thread** küçük yürütme birimi işini tamamlayana kadar beklemek için **join()** yordamını kullanır.
 
 <br>
 
@@ -4844,9 +4844,9 @@ Aşağıdaki örnek, join() yöordamının kullanımını gösterir.
 import threading
 import time
 
-class Kiki(threading.Thread):
+class Threads(threading.Thread):
     def __init__(self, time):
-        super(Kiki, self).__init__()
+        super(Threads, self).__init__()
         self.time = time
         self.start()
 
@@ -4858,14 +4858,18 @@ class Kiki(threading.Thread):
         print (self.time, " seconds finished!")
 
 
-t1 = Kiki(3)
-t1.join(4)
+t1 = Threads(3)
+t1.join()
 print ("t1.join() finished" )
-
 {% endhighlight %}
  
 <br>
-Bu yordam, seq dizisindeki dizelerin birleştirilmesi olan bir dizge döndürür. Öğeler arasındaki ayırıcı, bu yordamı sağlayan dizedir.
+Bu çalışıyor! Ama sırayla çalışır. self.start()'yı __init__'ye koyabilirim, ama self.join()'yi değil. Her küçük yürütme birimi başladıktan sonra yapılması gerekenler.
+
+join(), küçük yürütme biriminizin bitmesini bekleyen ana küçük yürütme birimidir. Aksi halde, küçük yürütme biriminiz kendi başına çalışır.
+
+Bu yüzden join()'yı ana küçük yürütme birimi üzerinde 'beklet' olarak düşünmenin bir yolu, join()'nin çağrıldığı zaman ana küçük yürütme birimi hemen serbest bırakılır.
+
 <h2 class="python3">Python</h2>
 
 {% highlight python %}
