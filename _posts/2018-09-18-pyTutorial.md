@@ -4880,7 +4880,7 @@ with join
 
 +-+--+---+------------------***********+###      main-thread
 	
-         |		    |
+         |		       |
          +....join()        |       child-thread(short)
       
       |                     |
