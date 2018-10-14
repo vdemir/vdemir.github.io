@@ -4876,20 +4876,20 @@ Bu nedenle, herhangi bir değişiklik görmemenizin nedeni, ana yürütme birimi
 
 Örneğin, bir grup sayfayı aynı anda tek bir büyük sayfada birleştirmek için indirmek isterseniz, küçük yürütme birimi kullanarak eşzamanlı yüklemeler başlatabilirsiniz, ancak son sayfa/yürütme birimi bitene kadar beklemeniz gerekebilir. Bu, **join()** kullandığınız zamandır.
 
-with join
+join ile
 
-+-+--+---+------------------***********+###          main-thread
++-+--+---+------------------***********+###          ana-yürütme birimi
 	
          |		       |
-         +....join()       |     child-thread(short)
+         +....join()       |     child-yürütme birimi(kısa)
       
       |                    |
-      +.........join()......     child-thread(long)
+      +.........join()......     child-yürütme birimi(uzun)
     
     |
-    +,,,,,,,,,,,,,,,,,,,,,,,,,,, child-thread(long+daemonized)
+    +,,,,,,,,,,,,,,,,,,,,,,,,,,, child-yürütme birimi(uzun+daemonized)
 
-**'-'** main-thread/parent-thread/main-program execution
+**'-'** ana-yürütme birimi/ebeveyn-yürütme birimi/ana-program çalışması
 
 **'.'** child-thread execution
 
