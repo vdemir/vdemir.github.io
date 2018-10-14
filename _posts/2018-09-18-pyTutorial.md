@@ -4868,7 +4868,9 @@ Bu çalışıyor! Ama sırayla çalışır. **self.start()**'yı **__init__**'ye
 
 **join()**, küçük yürütme biriminizin bitmesini bekleyen ana küçük yürütme birimidir. Aksi halde, küçük yürütme biriminiz kendi başına çalışır.
 
-Bu yüzden **join()**'yı ana küçük yürütme birimi üzerinde 'beklet' olarak düşünmenin bir yolu, **join()**'nin çağrıldığı zaman ana küçük yürütme birimi hemen serbest bırakılır.
+Dolayısıyla, **join()** ana yürütme birimi üzerinde 'dur-bekle' olarak düşünmenin bir yolu, **join()** çağrıldığında ana yürütme birimi hemen serbest bırakılır.
+
+**t1.join()** ana parçayı tutuyor. **t1.join()** işinin tamamlanmasından önce üç iş parçacığı tamamlanır ve ana iş parçacığı yazdırmayı yürütmek için hareket eder.
 
 <h2 class="python3">Python</h2>
 
