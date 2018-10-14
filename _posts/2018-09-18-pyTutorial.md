@@ -4891,7 +4891,7 @@ join ile
 
 **'-'** ana-yürütme birimi/ebeveyn-yürütme birimi/ana-program çalışması
 
-**'.'** child-thread execution
+**'.'** cocuk-yürütme birimi çalışması
 
 **'#'** optional parent-thread execution after join()-blocked parent-thread could 
     continue
