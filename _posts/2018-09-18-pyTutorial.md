@@ -4877,6 +4877,7 @@ Bu nedenle, herhangi bir değişiklik görmemenizin nedeni, ana yürütme birimi
 Örneğin, bir grup sayfayı aynı anda tek bir büyük sayfada birleştirmek için indirmek isterseniz, küçük yürütme birimi kullanarak eşzamanlı yüklemeler başlatabilirsiniz, ancak son sayfa/yürütme birimi bitene kadar beklemeniz gerekebilir. Bu, **join()** kullandığınız zamandır.
 
 with join
+
 +---+---+------------------***********+###      main-thread
 
         +...........join()                      child-thread(short)
