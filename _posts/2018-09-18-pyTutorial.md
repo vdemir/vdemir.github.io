@@ -4878,11 +4878,11 @@ Bu nedenle, herhangi bir değişiklik görmemenizin nedeni, ana yürütme birimi
 
 with join
 
-+---+---+------------------***********+###      main-thread
++-+--+---+------------------***********+###      main-thread
 
-        +...........join()                      child-thread(short)
-    +......................join()......         child-thread(long)
-+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,     child-thread(long+daemonized)
+          +...........join()                      child-thread(short)
+      +......................join()......         child-thread(long)
+  +,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,     child-thread(long+daemonized)
 
 **'-'** main-thread/parent-thread/main-program execution
 
