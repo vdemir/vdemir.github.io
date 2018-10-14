@@ -4879,7 +4879,7 @@ Bu nedenle, herhangi bir değişiklik görmemenizin nedeni, ana yürütme birimi
 with join
 
 +-+--+---+------------------***********+###      main-thread
-
+	|
          +...........join()                      child-thread(short)
 
       +......................join()......        child-thread(long)
