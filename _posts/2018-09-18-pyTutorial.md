@@ -4884,7 +4884,7 @@ with join
 
       +......................join()......        child-thread(long)
 
-    +,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,              child-thread(long+daemonized)
+    +,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,          child-thread(long+daemonized)
 
 **'-'** main-thread/parent-thread/main-program execution
 
