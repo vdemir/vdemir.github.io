@@ -4889,6 +4889,7 @@ with join
 '#' optional parent-thread execution after join()-blocked parent-thread could 
     continue
 '*' main-thread 'sleeping' in join-method, waiting for child-thread to finish
+
 ',' daemonized thread - 'ignores' lifetime of other threads;
     terminates when main-programs exits; is normally meant for 
     join-independent tasks
