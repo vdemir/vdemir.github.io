@@ -4878,7 +4878,7 @@ Bu nedenle, herhangi bir değişiklik görmemenizin nedeni, ana yürütme birimi
 
 with join
 
-+-+--+---+**------------------***********+**###      main-thread
++-+--+---+------------------***********+###      main-thread
 	
          |		       |
          +....join()       |       child-thread(short)
