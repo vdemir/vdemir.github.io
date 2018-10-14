@@ -4874,16 +4874,18 @@ Dolayısıyla, **join()** ana yürütme birimi üzerinde 'dur-bekle' olarak dü�
 
 Bu nedenle, herhangi bir değişiklik görmemenizin nedeni, ana yürütme biriminizin **join()**'nızdan sonra hiçbir şey yapmamasıdır. **join()**'nın (sadece) ana yürütme biriminin yürütme akışıyla ilgili olduğunu söyleyebilirdiniz.
 
-Örneğin, bir grup sayfayı aynı anda tek bir büyük sayfada birleştirmek için indirmek isterseniz, iş parçacığı kullanarak eşzamanlı yüklemeler başlatabilirsiniz, ancak son sayfa / iş parçacığı bitene kadar beklemeniz gerekebilir. Bu, join() kullandığınız zamandır.
+Örneğin, bir grup sayfayı aynı anda tek bir büyük sayfada birleştirmek için indirmek isterseniz, küçük yürütme birimi kullanarak eşzamanlı yüklemeler başlatabilirsiniz, ancak son sayfa/yürütme birimi bitene kadar beklemeniz gerekebilir. Bu, **join()** kullandığınız zamandır.
 
 with join
 +---+---+------------------***********+###      main-thread
-    |   |                             |
-    |   +...........join()            |         child-thread(short)
+
+        +...........join()                      child-thread(short)
     +......................join()......         child-thread(long)
 
 '-' main-thread/parent-thread/main-program execution
+
 '.' child-thread execution
+
 '#' optional parent-thread execution after join()-blocked parent-thread could 
     continue
 '*' main-thread 'sleeping' in join-method, waiting for child-thread to finish
