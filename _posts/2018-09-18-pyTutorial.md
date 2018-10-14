@@ -4891,13 +4891,13 @@ join ile
 
 **'-'** ana-yürütme birimi/ebeveyn-yürütme birimi/ana-program çalışması
 
-**'.'** çocuk-yürütme birimi çalışması
+**'.'** ana-yürütme birimi çalışması
 
 **'#'** join() sonrası isteğe bağlı ebeveyn-yürütme birimi-engellenmiş ebeveyn-yürütme birimi 
 
 devam edebilir
 
-**'*'** main-thread 'sleeping' in join-method, waiting for child-thread to finish
+**'*'** join-yordamı içinde ana-yürütme birimi 'sleeping' , çocuk-yürütme birimi bitirmek için bekliyor
 
 **','** daemonized thread - 'ignores' lifetime of other threads;
     terminates when main-programs exits; is normally meant for 
