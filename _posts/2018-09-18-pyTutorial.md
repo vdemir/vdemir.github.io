@@ -4897,7 +4897,7 @@ join ile
 
 devam edebilir
 
-**'*'** join-yordamı içinde ana-yürütme birimi 'sleeping' , çocuk-yürütme birimi bitirmek için bekliyor
+**'*'** join-yordamı içinde ana-yürütme birimi 'uyuyor' , bitirmek için çocuk-yürütme birimi bekliyor
 
 **','** daemonized thread - 'ignores' lifetime of other threads;
     terminates when main-programs exits; is normally meant for 
