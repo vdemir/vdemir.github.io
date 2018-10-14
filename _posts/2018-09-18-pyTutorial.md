@@ -4880,14 +4880,14 @@ with join
 
 +-+--+---+------------------***********+###      main-thread
 	
-         |			      |
-         +....join()           |        child-thread(short)
+         |		    |
+         +....join()        |       child-thread(short)
       
-      |                               |
-      +.............join()......        child-thread(long)
+      |                     |
+      +.........join()......        child-thread(long)
     
     |
-    +,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,    child-thread(long+daemonized)
+    +,,,,,,,,,,,,,,,,,,,,,,,,,,,    child-thread(long+daemonized)
 
 **'-'** main-thread/parent-thread/main-program execution
 
