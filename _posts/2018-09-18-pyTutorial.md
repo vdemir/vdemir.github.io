@@ -4880,10 +4880,10 @@ with join
 
 +-+--+---+------------------***********+###      main-thread
 	
-         |
+         |			      |
          +...........join()                      child-thread(short)
       
-      |
+      |                              |
       +......................join()......        child-thread(long)
     
     |
