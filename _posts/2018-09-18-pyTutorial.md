@@ -4881,20 +4881,21 @@ join ile
 +-+--+---+------------------***********+###          ana-yürütme birimi
 	
          |		       |
-         +....join()       |     child-yürütme birimi(kısa)
+         +....join()       |     çocuk-yürütme birimi(kısa)
       
       |                    |
-      +.........join()......     child-yürütme birimi(uzun)
+      +.........join()......     çocuk-yürütme birimi(uzun)
     
     |
-    +,,,,,,,,,,,,,,,,,,,,,,,,,,, child-yürütme birimi(uzun+daemonized)
+    +,,,,,,,,,,,,,,,,,,,,,,,,,,, çocuk-yürütme birimi(uzun+daemonized)
 
 **'-'** ana-yürütme birimi/ebeveyn-yürütme birimi/ana-program çalışması
 
-**'.'** cocuk-yürütme birimi çalışması
+**'.'** çocuk-yürütme birimi çalışması
 
-**'#'** optional parent-thread execution after join()-blocked parent-thread could 
-    continue
+**'#'** join() sonrası isteğe bağlı ebeveyn-yürütme birimi-engellenmiş ebeveyn-yürütme birimi 
+
+devam edebilir
 
 **'*'** main-thread 'sleeping' in join-method, waiting for child-thread to finish
 
