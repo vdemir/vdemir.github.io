@@ -4870,7 +4870,28 @@ Bu çalışıyor! Ama sırayla çalışır. **self.start()**'yı **__init__**'ye
 
 Dolayısıyla, **join()** ana yürütme birimi üzerinde 'dur-bekle' olarak düşünmenin bir yolu, **join()** çağrıldığında ana yürütme birimi hemen serbest bırakılır.
 
-**t1.join()** ana parçayı tutuyor. **t1.join()** işinin tamamlanmasından önce üç iş parçacığı tamamlanır ve ana iş parçacığı yazdırmayı yürütmek için hareket eder.
+**t1.join()** ana yürütme birimini tutuyor.
+
+Bu nedenle, herhangi bir değişiklik görmemenizin nedeni, ana yürütme biriminizin **join()**'nızdan sonra hiçbir şey yapmamasıdır. **join()**'nın (sadece) ana yürütme biriminin yürütme akışıyla ilgili olduğunu söyleyebilirdiniz.
+
+Örneğin, bir grup sayfayı aynı anda tek bir büyük sayfada birleştirmek için indirmek isterseniz, iş parçacığı kullanarak eşzamanlı yüklemeler başlatabilirsiniz, ancak son sayfa / iş parçacığı bitene kadar beklemeniz gerekebilir. Bu, join() kullandığınız zamandır.
+
+with join
++---+---+------------------***********+###      main-thread
+    |   |                             |
+    |   +...........join()            |         child-thread(short)
+    +......................join()......         child-thread(long)
+
+'-' main-thread/parent-thread/main-program execution
+'.' child-thread execution
+'#' optional parent-thread execution after join()-blocked parent-thread could 
+    continue
+'*' main-thread 'sleeping' in join-method, waiting for child-thread to finish
+',' daemonized thread - 'ignores' lifetime of other threads;
+    terminates when main-programs exits; is normally meant for 
+    join-independent tasks
+
+
 
 <h2 class="python3">Python</h2>
 
