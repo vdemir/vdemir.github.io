@@ -4890,17 +4890,17 @@ join ile
     +,,,,,,,,,,,,,,,,,,,,,,,,,,, çocuk-yürütme birimi(uzun+daemonized)
 
 
-**'---'** ana-yürütme birimi/ebeveyn-yürütme birimi/ana-program çalışması
+'---' ana-yürütme birimi/ebeveyn-yürütme birimi/ana-program çalışması
 
-**'...'** ana-yürütme birimi çalışması
+'...' ana-yürütme birimi çalışması
 
-**'###'** join() sonrası isteğe bağlı ebeveyn-yürütme birimi-engellenmiş ebeveyn-yürütme birimi 
+'###' join() sonrası isteğe bağlı ebeveyn-yürütme birimi-engellenmiş ebeveyn-yürütme birimi 
 
 devam edebilir
 
 '***' join-yordamı içinde ana-yürütme birimi 'uyuyor' , bitirmek için çocuk-yürütme birimi bekliyor
 
-**',,,'** daemonized thread - 'ignores' lifetime of other threads;
+',,,' daemonized thread - 'ignores' lifetime of other threads;
     terminates when main-programs exits; is normally meant for 
     join-independent tasks
 
