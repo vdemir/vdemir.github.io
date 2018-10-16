@@ -4894,9 +4894,9 @@ join ile
 
 '...' ana-yürütme birimi çalışması
 
-'###' join() sonrası isteğe bağlı ebeveyn-yürütme birimi-engellenmiş ebeveyn-yürütme birimi 
+'###' join() sonrası isteğe bağlı ebeveyn-yürütme birimi
 
-devam edebilir
+engellenmiş ebeveyn-yürütme birimi devam edebilir
 
 '***' join-yordamı içinde ana-yürütme birimi 'uyuyor' , bitirmek için çocuk-yürütme birimi bekliyor
 
