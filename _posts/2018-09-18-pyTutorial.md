@@ -4929,4 +4929,10 @@ join()
 
 **Yordama Genel Bakış:**
 
+join yordamı çağrıldığında, çağrılan thread, çağrıldığı thread öbeği sonlandırılıncaya kadar engellenir.
+
+
+
+
+
 
