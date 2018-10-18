@@ -3201,7 +3201,7 @@ UserDefinedError: An error occurred
 
 <br>
 
-Yukarıdaki ufak kod parçasında, kullanıcı tanımlı bir istisna sınıfı oluşturduğumuzu görebilirsiniz, “**UserDefinedError.**” Bu, ana Exception sınıfını ebeveyn olarak kullanıyor. Bu nedenle, kullanıcı tanımlı yeni istisna sınıfı, diğer istisna sınıflarının yaptığı gibi istisnalar oluşturacaktır, yani isteğe bağlı bir hata mesajıyla “**raise**” ifadesini çağırarak.
+Yukarıdaki ufak kod parçasında, kullanıcı tanımlı bir istisna sınıfı oluşturduğumuzu görebilirsiniz, “**UserDefinedError.**” Bu, ana Exception sınıfını üst olarak kullanıyor. Bu nedenle, kullanıcı tanımlı yeni istisna sınıfı, diğer istisna sınıflarının yaptığı gibi istisnalar oluşturacaktır, yani isteğe bağlı bir hata mesajıyla “**raise**” ifadesini çağırarak.
 
 Bir örnek alalım.
 
@@ -3383,11 +3383,11 @@ class DerivedClass(BaseClass1):
 
 <br>
 
-Programcılar bu tip nesne yönelimli kavramları kullandıklarında ve kodları yeniden kullandıklarında, ebeveyn ve çocuk sınıfının birbiriyle etkileşimde bulunabilmesinin üç yolu vardır. Bunlar:
+Programcılar bu tip nesne yönelimli kavramları kullandıklarında ve kodları yeniden kullandıklarında, üst ve alt sınıfının birbiriyle etkileşimde bulunabilmesinin üç yolu vardır. Bunlar:
 
-- Çocuk sınıfına herhangi bir şey, sadece ana sınıftaki bir eylemdir.
-- Çocuk sınıfı üzerinde gerçekleştirilen işlemler, ebeveyn sınıfında gerçekleştirilen eylemleri geçersiz kılar.
-- Çocuk sınıfında yapılan herhangi bir şey, üst sınıftaki eylemi değiştirir.
+- Alt sınıfında yapılan herhangi bir şey, sadece ana sınıftaki bir eylemdir.
+- Alt sınıfı üzerinde gerçekleştirilen işlemler, üst sınıfında gerçekleştirilen eylemleri geçersiz kılar.
+- Alt sınıfında yapılan herhangi bir şey, üst sınıftaki eylemi değiştirir.
 
 <br>
 
@@ -3433,7 +3433,7 @@ Alex Karlos, A102
 Yukarıdaki durumda, türetilmiş sınıfın öbeği oluşturulur ve bir nokta (.) operatörü kullanılarak türetilmiş sınıfın yanı sıra temel sınıfın işlevlerinin her ikisini de çağırmak için kullanılır.
 interpreter, nesnesi tanımlanmış olan sınıfta (türetilmiş) bulunmadığında, o zaman temel sınıftaki bu öznitelliği kontrol etmeye devam eder. Bu süreç, temel sınıfın kendisi başka bir sınıftan türetilmişse, bir özyineleme devam eder.
 
-Python Kalıtımında örtük eylemler oluşur. Python Kalıtımında bir programcı, ebeveynde bir fonksiyonu tanımlar ancak çocukta tanımlamaz. Bu tür kalıtım aşağıda basit bir örnekle gösterilmektedir:
+Python Kalıtımında örtük eylemler oluşur. Python Kalıtımında bir programcı, üstte bir fonksiyonu tanımlar ancak altta tanımlamaz. Bu tür kalıtım aşağıda basit bir örnekle gösterilmektedir:
 
 <br>
 
@@ -3844,7 +3844,7 @@ thread.start_new_thread(function, args[, kwargs])
  
 <br>
 
-Burada, ilk kısım daha önce anlatıldığı gibi bir yöntemdir ve bu yöntem yeni iş parçacıkları oluşturmanın daha hızlı ve daha etkili bir yoludur. Çocuk en küçük yürütme birimi başlatıldığında işlev, bir args listesi geçirir. İşlevi bir değer döndürdüğünde en küçük yürütme birimi sonlandırılır. Yukarıdaki sözdizimindeki 'args' argümanlar dizisidir.
+Burada, ilk kısım daha önce anlatıldığı gibi bir yöntemdir ve bu yöntem yeni iş parçacıkları oluşturmanın daha hızlı ve daha etkili bir yoludur. Alt en küçük yürütme birimi başlatıldığında işlev, bir args listesi geçirir. İşlevi bir değer döndürdüğünde en küçük yürütme birimi sonlandırılır. Yukarıdaki sözdizimindeki 'args' argümanlar dizisidir.
 
 
 ### Python Kullanan Threading Programı
@@ -4881,24 +4881,24 @@ join ile
 +-+--+---+------------------***********+###          ana-yürütme birimi
 	
          |		       |
-         +....join()       |     çocuk-yürütme birimi(kısa)
+         +....join()       |     alt-yürütme birimi(kısa)
       
       |                    |
-      +.........join()......     çocuk-yürütme birimi(uzun)
+      +.........join()......     alt-yürütme birimi(uzun)
     
     |
-    +,,,,,,,,,,,,,,,,,,,,,,,,,,, çocuk-yürütme birimi(uzun+daemonized)
+    +,,,,,,,,,,,,,,,,,,,,,,,,,,, alt-yürütme birimi(uzun+daemonized)
 
 
-'---' ana-yürütme birimi/ebeveyn-yürütme birimi/ana-program çalışması
+'---' ana-yürütme birimi/üst-yürütme birimi/ana-program çalışması
 
 '...' ana-yürütme birimi çalışması
 
-'###' join() sonrası isteğe bağlı ebeveyn-yürütme birimi
+'###' join() sonrası isteğe bağlı üst-yürütme birimi
 
-engellenmiş ebeveyn-yürütme birimi devam edebilir
+engellenmiş üst-yürütme birimi devam edebilir
 
-'***' join-yordamı içinde ana-yürütme birimi 'uyuyor' , bitirmek için çocuk-yürütme birimi bekliyor
+'***' join-yordamı içinde ana-yürütme birimi 'uyuyor' , bitirmek için alt-yürütme birimi bekliyor
 
 ',,,' daemonized thread - 'ignores' lifetime of other threads;
     terminates when main-programs exits; is normally meant for 
@@ -4931,7 +4931,7 @@ join()
 
 join yordamı çağrıldığında, çağrılan thread, çağrıldığı thread öbeği sonlandırılıncaya kadar engellenir.
 
-
+Örneğin, join() bir ana yürütme biriminden çağrıldığında, ana yürütme birimi, join'nin çağrıldığı alt iş parçacığı çıkana kadar bekler.  join() yordamının önemi, eğer join() çağrılmamışsa, ana yürütme birimi alt programından önce çıkabilmekte, bu da programların belirsiz davranışlarına yol açacak ve programın çalışmasını ve programın çalıştığı verilerin bütünlüğünü etkileyecektir.
 
 
 
