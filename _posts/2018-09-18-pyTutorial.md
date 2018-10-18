@@ -4920,3 +4920,13 @@ t1.join() finished
 {% endhighlight %}
  
 <br>
+
+
+**Python Thread - Join Method**
+
+**Yordam Adı:**
+join()
+
+**Yordama Genel Bakış:**
+
+
