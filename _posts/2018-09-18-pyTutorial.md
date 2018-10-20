@@ -4929,10 +4929,10 @@ join()
 
 **Yordama Genel Bakış:**
 
-join yordamı çağrıldığında, çağrılan                                                                                                                                                                                                                              küçük yürütme birimi, çağrıldığı küçük yürütme birimi öbeği sonlandırılıncaya kadar engellenir.
+**join** yordamı çağrıldığında, çağrılan                                                                                                                                                                                                                              küçük yürütme birimi, çağrıldığı küçük yürütme birimi öbeği sonlandırılıncaya kadar engellenir.
 
 Örneğin, **join**() bir ana yürütme biriminden çağrıldığında, ana yürütme birimi, **join**'nin çağrıldığı alt yürütme biriminden çıkana kadar bekler.  **join**() yordamının önemi, eğer join() çağrılmamışsa, ana yürütme birimi alt yürütme biriminden önce çıkabilmekte, bu da programların belirsiz davranışlarına yol açacak ve programın çalışmasını ve programın çalıştığı verilerin bütünlüğünü etkileyecektir.
 
+**join**() yordamı da bir zaman aşımı değeri olarak belirtilebilir.
 
-
-
+Örneğin, sunuculara ağ bağlantılarını yapan bir küçük yürütme biriminin, bağlantı tesisini öngörülen sayıda saniyeler içinde tamamlaması beklenir. Zaman aşımı değeri geçildiğinde, çağrılan küçük yürütme birimi tıkanma durumundan gelir ve bir yapılandırma dosyasından bir dizi yedekleme sunucusuna bağlanmayı dener.
