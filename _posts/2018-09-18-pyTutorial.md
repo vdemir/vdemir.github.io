@@ -4943,6 +4943,6 @@ Bu gibi durumlarda, küçük yürütme biriminin çağrılması aksiyon öbeğin
 
 **İstisnalar**
 
-
+Aynı konu üzerinde **join**() aranması bir kilitlenme ile sonuçlanacaktır. Bu nedenle, **join**() aynı küçük yürütme birimi üzerinde çağrıldığında bir RuntimeError ortaya çıkar. Henüz başlatılmamış bir küçük yürütme birimi üzerinde **join**() çağrısı da bir RuntimeError neden olur.
 
 
