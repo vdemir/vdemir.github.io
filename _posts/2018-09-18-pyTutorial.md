@@ -4952,26 +4952,18 @@ Aynı konu üzerinde **join**() aranması bir kilitlenme ile sonuçlanacaktır. 
 {% highlight python linenos=table %}
 
 from threading import Thread
-
 from threading import Event
-
 import time
-
-   
 
 class ConnectionThread(Thread):
 
     myStopEvent = 0
-
-   
 
     def __init__(self,args):
 
         Thread.__init__(self)
 
         self.myStopEvent = args
-
- 
 
     # The run method is overridden to define the thread body
 
@@ -4985,13 +4977,9 @@ class ConnectionThread(Thread):
 
                 break;
 
-                   
-
             print("ChildThread:Sleep count %d"%(i))
 
             time.sleep(3)          
-
- 
 
         print ("ChildThread:Exiting")
 
@@ -4999,7 +4987,7 @@ class ConnectionThread(Thread):
 
 aStopEvent = Event()
 
-ConnectionThread = ConnectionThread(aStopEvent)           
+ConnectionThread = ConnectionThread(aStopEvent)
 
 ConnectionThread.start()
 
