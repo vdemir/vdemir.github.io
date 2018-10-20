@@ -4943,6 +4943,107 @@ Bu gibi durumlarda, küçük yürütme biriminin çağrılması aksiyon öbeğin
 
 **İstisnalar**
 
-Aynı konu üzerinde **join**() aranması bir kilitlenme ile sonuçlanacaktır. Bu nedenle, **join**() aynı küçük yürütme birimi üzerinde çağrıldığında bir RuntimeError ortaya çıkar. Henüz başlatılmamış bir küçük yürütme birimi üzerinde **join**() çağrısı da bir RuntimeError neden olur.
+Aynı konu üzerinde **join**() aranması bir kilitlenme ile sonuçlanacaktır. Bu nedenle, **join**() aynı küçük yürütme birimi üzerinde çağrıldığında bir **RuntimeError** ortaya çıkar. Henüz başlatılmamış bir küçük yürütme birimi üzerinde **join**() çağrısı da bir **RuntimeError** neden olur.
+
+Örnek:
+
+<br>
+
+{% highlight python linenos=table %}
+
+from threading import Thread
+
+from threading import Event
+
+import time
+
+   
+
+class ConnectionThread(Thread):
+
+    myStopEvent = 0
+
+   
+
+    def __init__(self,args):
+
+        Thread.__init__(self)
+
+        self.myStopEvent = args
+
+ 
+
+    # The run method is overridden to define the thread body
+
+    def run(self):
+
+        for i in range(1,10):
+
+            if(self.myStopEvent.wait(0)):
+
+                print ("ChildThread:Asked to stop")
+
+                break;
+
+                   
+
+            print("ChildThread:Sleep count %d"%(i))
+
+            time.sleep(3)          
+
+ 
+
+        print ("ChildThread:Exiting")
+
+           
+
+aStopEvent = Event()
+
+ConnectionThread = ConnectionThread(aStopEvent)           
+
+ConnectionThread.start()
+
+print("Main thread: Starting to wait for 5 seconds")
+
+ConnectionThread.join(5)
+
+print("Main thread: I cant't wait for more than 5 seconds for the child thread;Will ask child thread to stop")
+
+aStopEvent.set()   #ask(signal) the child thread to stop
+
+ConnectionThread.join() # wait for the child thread to stop
+
+print("Main thread: Now I do something else to compensate the child thread task and exit")
+
+print("Main thread: Exiting")
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+ChildThread:Sleep count 1
+Main thread: Starting to wait for 5 seconds
+ChildThread:Sleep count 2
+Main thread: I cant't wait for more than 5 seconds for the child thread;Will ask child thread to stop
+ChildThread:Asked to stop
+ChildThread:Exiting
+Main thread: Now I do something else to compensate the child thread task and exit
+Main thread: Exiting
+
+
+{% endhighlight %}
+
+<br>
+
+
+
+
+
+
+
+
 
 
