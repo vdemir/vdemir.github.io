@@ -4935,13 +4935,13 @@ join()
 
 **join**() yordamı da bir zaman aşımı değeri olarak belirtilebilir.
 
-Örneğin, sunuculara ağ bağlantılarını yapan bir küçük yürütme biriminin, bağlantı tesisini öngörülen sayıda saniyeler içinde tamamlaması beklenir. Zaman aşımı değeri geçildiğinde, çağrılan küçük yürütme birimi tıkanma durumundan gelir ve bir yapılandırma dosyasından bir dizi yedekleme sunucusuna bağlanmayı dener.
+Örneğin, sunuculara ağ bağlantılarını yapan bir küçük yürütme biriminin, bağlantı tesisini öngörülen sayıda saniyeler içinde tamamlaması beklenir. Zaman aşımı değeri geçildiğinde, çağrılan küçük yürütme birimi tıkanma durumundan döner ve bir yapılandırma dosyasından bir dizi yedekleme sunucusuna bağlanmayı dener.
 
 Bu gibi durumlarda, küçük yürütme biriminin çağrılması aksiyon öbeğinden bir sinyal gönderebilir ve çağrılan küçük yürütme biriminin durmasını isteyebilir.
 
+**join**() yordamı, bir küçük yürütme birimi öbeğinden birkaç kez çağrılabilir.
 
-
-
+**İstisnalar**
 
 
 
