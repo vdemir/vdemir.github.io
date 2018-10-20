@@ -3832,13 +3832,13 @@ Python iş parçacığına erişmenin iki yolu vardır. Bunlar kullanarak:
 
 ### Yeni Küçük Bir Yürütme Birimi Kullanmak
 
-Bir Thread modül kullanılarak ayrı bir küçük yürütme biriminde işlevler yürütmek için gerçekleştirilebilir. Bunu yapmak için programcılar - thread.start_new_thread() işlevi kullanabilir.
+Bir Thread modül kullanılarak ayrı bir küçük yürütme biriminde işlevler yürütmek için gerçekleştirilebilir. Bunu yapmak için programcılar - küçük yürütme birimi.start_new_thread() işlevi kullanabilir.
 
 <br>
 
 {% highlight python %}
 
-thread.start_new_thread(function, args[, kwargs])
+küçük yürütme birimi.start_new_thread(function, args[, kwargs])
 
 {% endhighlight %}
  
@@ -3893,19 +3893,19 @@ Daha önce açıklandığı gibi, threading modülü, küçük yürütme birimin
 - **getName()**: bir küçük yürütme biriminin adını döndürmek için kullanılır
 - **setName()**: küçük yürütme biriminin adını ayarlamak için kullanılır
 
-Python'da Python 2'deki **thread** modülünü veya Python 3'teki **_thread** modülünü kullanarak küçük bir yürütme birimi oluşturabilirsiniz. Threading modülünü etkileşimde bulunmak için kullanacağız.
+Python'da Python 2'deki **küçük yürütme birimi** modülünü veya Python 3'teki **_thread** modülünü kullanarak küçük bir yürütme birimi oluşturabilirsiniz. Threading modülünü etkileşimde bulunmak için kullanacağız.
 
-Bir küçük yürütme birimi olan thread, normal bir işlemden farklı özelliklere sahip bir işletim sistemi işlemidir:
+Bir küçük yürütme birimi olan küçük yürütme birimi, normal bir işlemden farklı özelliklere sahip bir işletim sistemi işlemidir:
 
 - en küçük yürütme birimi bir işlemin bir alt kümesi olarak vardır
 - en küçük yürütme birimi bellek ve kaynakları paylaşır
 - işlemler farklı bir adres alanına sahiptir (bellekte)
 
-Ne zaman threading kullanırsınız? Genellikle bir fonksiyonun programınızla aynı anda gerçekleşmesini istersiniz. Sunucu yazılımı oluşturursanız, sunucunun yalnızca bir bağlantıyı değil, aynı zamanda birçok bağlantıyı dinlemesini de istersiniz. Kısacası, thread'ler, programların aynı anda birden çok görevi yürütmesini sağlar.
+Ne zaman threading kullanırsınız? Genellikle bir fonksiyonun programınızla aynı anda gerçekleşmesini istersiniz. Sunucu yazılımı oluşturursanız, sunucunun yalnızca bir bağlantıyı değil, aynı zamanda birçok bağlantıyı dinlemesini de istersiniz. Kısacası, küçük yürütme birimi'ler, programların aynı anda birden çok görevi yürütmesini sağlar.
 
 ### Python threading
 
-Bir thread programı oluşturalım. Bu programda, her birinin id kimliğini çıkaracak 10 küçük yürütme birimini başlatacağız.
+Bir küçük yürütme birimi programı oluşturalım. Bu programda, her birinin id kimliğini çıkaracak 10 küçük yürütme birimini başlatacağız.
 
 <br>
 
@@ -3913,7 +3913,7 @@ Bir thread programı oluşturalım. Bu programda, her birinin id kimliğini çı
 
 import threading
  
-# Our thread class
+# Our küçük yürütme birimi class
 class MyThread (threading.Thread):
  
     def __init__(self,x):
@@ -3960,10 +3960,10 @@ from threading import *
 def hello():
     print ("hello, world")
  
-# create thread
+# create küçük yürütme birimi
 t = Timer(5.0, hello)
  
-# start thread after 10 seconds
+# start küçük yürütme birimi after 10 seconds
 t.start()
 
 {% endhighlight %}
@@ -4553,7 +4553,7 @@ import threading
 
 
 def worker():
-    """thread worker function"""
+    """küçük yürütme birimi worker function"""
     print('Worker')
 
 
@@ -4582,7 +4582,7 @@ Worker
  
 <br>
 
-Bir thread üretebilmek ve ne iş yapılacağını anlatmak için argümanlar iletmek yararlıdır. Herhangi bir öbek türü, thread parçacığına içlem olarak iletilebilir. Bu örnek, thread parçacığının yazdırdığı bir sayıyı geçirir.
+Bir küçük yürütme birimi üretebilmek ve ne iş yapılacağını anlatmak için argümanlar iletmek yararlıdır. Herhangi bir öbek türü, küçük yürütme birimi parçacığına içlem olarak iletilebilir. Bu örnek, küçük yürütme birimi parçacığının yazdırdığı bir sayıyı geçirir.
 
 <br>
 
@@ -4591,7 +4591,7 @@ Bir thread üretebilmek ve ne iş yapılacağını anlatmak için argümanlar il
 import threading
 
 def worker(num):
-    """thread worker function"""
+    """küçük yürütme birimi worker function"""
     print('Worker: %s' % num)
 
 
@@ -4605,7 +4605,7 @@ for i in range(5):
  
 <br>
 
-Tam sayı içlemi artık her bir thread parçacığı tarafından basılan mesaja dahil edilmiştir.
+Tam sayı içlemi artık her bir küçük yürütme birimi parçacığı tarafından basılan mesaja dahil edilmiştir.
 <h2 class="python3">Python</h2>
 
 {% highlight python %}
@@ -4622,7 +4622,7 @@ Worker: 4
 
 **Güncel Thread Belirleniyor**
 
-thread tanımlamak veya adlandırmak için içlemler kullanmak hantal ve gereksizdir. Her Thread örneği, thread oluşturulduğunda değiştirilebilen varsayılan bir değere ile bir ada sahiptir. thread ları adlandırma, farklı işlemlerle uğraşan çoklu hizmet iş parçacıklı sunucu işlemlerinde kullanışlıdır.
+küçük yürütme birimi tanımlamak veya adlandırmak için içlemler kullanmak hantal ve gereksizdir. Her Thread örneği, küçük yürütme birimi oluşturulduğunda değiştirilebilen varsayılan bir değere ile bir ada sahiptir. küçük yürütme birimi ları adlandırma, farklı işlemlerle uğraşan çoklu hizmet iş parçacıklı sunucu işlemlerinde kullanışlıdır.
 
 <br>
 
@@ -4652,7 +4652,7 @@ t.start()
  
 <br>
 
-Hata ayıklama çıkışı, her satırdaki geçerli thread parçacığının adını içerir. 'Thread-1' satırları, Thread parçacığı adı sütununda adsız thread parçacığı w2'ye karşılık gelir.
+Hata ayıklama çıkışı, her satırdaki geçerli küçük yürütme birimi parçacığının adını içerir. 'Thread-1' satırları, Thread parçacığı adı sütununda adsız küçük yürütme birimi parçacığı w2'ye karşılık gelir.
 <h2 class="python3">Python</h2>
 
 {% highlight python %}
@@ -4668,7 +4668,7 @@ Thread-1 Exiting
  
 <br>
 
-Çoğu program, hata ayıklamak için **print** kullanmaz. logging modülü, %(threadName)s biçimlendirici kodunu kullanarak her günlük mesajına thread adını katmayı destekler. log mesajlarına thread  isimleri dahil etmek, bu mesajları kaynağına geri göndermeyi mümkün kılar.
+Çoğu program, hata ayıklamak için **print** kullanmaz. logging modülü, %(threadName)s biçimlendirici kodunu kullanarak her günlük mesajına küçük yürütme birimi adını katmayı destekler. log mesajlarına küçük yürütme birimi  isimleri dahil etmek, bu mesajları kaynağına geri göndermeyi mümkün kılar.
 
 <br>
 
@@ -4712,7 +4712,7 @@ t.start()
  
 <br>
 
-logging aynı zamanda thread-safe dir, bu yüzden farklı thread den gelen mesajlar çıktıda ayrı tutulur.
+logging aynı zamanda küçük yürütme birimi-safe dir, bu yüzden farklı küçük yürütme birimi den gelen mesajlar çıktıda ayrı tutulur.
 <h2 class="python3">Python</h2>
 
 {% highlight python %}
@@ -4781,7 +4781,7 @@ t.start()
  
 <br>
 
-Bir **daemon thread** küçük yürütme birimi işini tamamlayana kadar beklemek için **join()** yordamını kullanır.
+Bir **daemon küçük yürütme birimi** küçük yürütme birimi işini tamamlayana kadar beklemek için **join()** yordamını kullanır.
 
 <br>
 
@@ -4822,7 +4822,7 @@ t.join()
 {% endhighlight %}
  
 <br>
-Zaman aşımı timeout, daemon thread uyuduğu süreden daha az olduğu için, **join()** geri döndükten sonra thread hala **'alive'** olur.
+Zaman aşımı timeout, daemon küçük yürütme birimi uyuduğu süreden daha az olduğu için, **join()** geri döndükten sonra küçük yürütme birimi hala **'alive'** olur.
 
 <h2 class="python3">Python</h2>
 
@@ -4900,7 +4900,7 @@ engellenmiş üst-yürütme birimi devam edebilir
 
 '***' join-yordamı içinde ana-yürütme birimi 'uyuyor' , bitirmek için alt-yürütme birimi bekliyor
 
-',,,' daemonized thread - 'ignores' lifetime of other threads;
+',,,' daemonized küçük yürütme birimi - 'ignores' lifetime of other threads;
     terminates when main-programs exits; is normally meant for 
     join-independent tasks
 
@@ -4929,9 +4929,9 @@ join()
 
 **Yordama Genel Bakış:**
 
-join yordamı çağrıldığında, çağrılan thread, çağrıldığı thread öbeği sonlandırılıncaya kadar engellenir.
+join yordamı çağrıldığında, çağrılan                                                                                                                                                                                                                              küçük yürütme birimi, çağrıldığı küçük yürütme birimi öbeği sonlandırılıncaya kadar engellenir.
 
-Örneğin, join() bir ana yürütme biriminden çağrıldığında, ana yürütme birimi, join'nin çağrıldığı alt iş parçacığı çıkana kadar bekler.  join() yordamının önemi, eğer join() çağrılmamışsa, ana yürütme birimi alt programından önce çıkabilmekte, bu da programların belirsiz davranışlarına yol açacak ve programın çalışmasını ve programın çalıştığı verilerin bütünlüğünü etkileyecektir.
+Örneğin, **join**() bir ana yürütme biriminden çağrıldığında, ana yürütme birimi, **join**'nin çağrıldığı alt yürütme biriminden çıkana kadar bekler.  **join**() yordamının önemi, eğer join() çağrılmamışsa, ana yürütme birimi alt yürütme biriminden önce çıkabilmekte, bu da programların belirsiz davranışlarına yol açacak ve programın çalışmasını ve programın çalıştığı verilerin bütünlüğünü etkileyecektir.
 
 
 
