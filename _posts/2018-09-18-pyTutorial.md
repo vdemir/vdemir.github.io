@@ -4982,11 +4982,13 @@ ConnectionThread.start()
 print("Ana yürütme birimi: 5 saniye beklemeye başla")
 ConnectionThread.join(5)
 
-print("Ana yürütme birimi: Alt küçük yürütme birimi için 5 saniyeden fazla bekleyemem;Küçük yürütme biriminin durmasını ister misin?")
+print("Ana yürütme birimi: Alt yürütme birimi için 5 saniyeden fazla bekleyemem.")
+print("Yürütme biriminin durmasını ister misin?")
 aStopEvent.set()   #alt küçük yürütme birimi durdurmak için (sinyal)sor
 ConnectionThread.join() # alt küçük yürütme biriminin durmasını bekle
 
-print("Ana yürütme birimi: Şimdi alt küçük yürütme biriminin görevini telafi etmek ve çıkmak için başka bir şey yapıyorum")
+print("Ana yürütme birimi: Şimdi alt küçük yürütme biriminin görevini telafi etmek ")
+print("ve çıkmak için başka bir şey yapıyorum")
 
 print("Ana yürütme birimi: Çıkılıyor")
 
@@ -5000,11 +5002,14 @@ print("Ana yürütme birimi: Çıkılıyor")
 AltYürütmeBirimi: 1 Uyku sayısı
 Ana yürütme birimi: 5 saniye beklemeye başla
 AltYürütmeBirimi: 2 Uyku sayısı
-Ana yürütme birimi: Alt küçük yürütme birimi için 5 saniyeden fazla bekleyemem;Küçük yürütme biriminin durmasını ister misin?
+Ana yürütme birimi: Alt yürütme birimi için 5 saniyeden fazla bekleyemem.
+Yürütme biriminin durmasını ister misin?
 AltYürütmeBirimi:Durdurulması istendi
 AltYürütmeBirimi:Çıkılıyor
-Ana yürütme birimi: Şimdi alt küçük yürütme biriminin görevini telafi etmek ve çıkmak için başka bir şey yapıyorum
+Ana yürütme birimi: Şimdi alt küçük yürütme biriminin görevini telafi etmek 
+ve çıkmak için başka bir şey yapıyorum
 Ana yürütme birimi: Çıkılıyor
+
 
 
 
