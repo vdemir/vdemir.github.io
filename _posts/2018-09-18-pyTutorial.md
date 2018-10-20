@@ -4965,7 +4965,7 @@ class ConnectionThread(Thread):
 
         self.myStopEvent = args
 
-    # The run method is overridden to define the thread body
+    # küçük yürütme birimi gövdesini tanımlamak için run yordamı geçersiz kılınır.
 
     def run(self):
 
@@ -4973,35 +4973,26 @@ class ConnectionThread(Thread):
 
             if(self.myStopEvent.wait(0)):
 
-                print ("ChildThread:Asked to stop")
+                print ("AltYürütmeBirimi:Durdurulması istendi")
 
                 break;
 
-            print("ChildThread:Sleep count %d"%(i))
+            print("AltYürütmeBirimi: %d Uyku sayısı"%(i))
 
             time.sleep(3)          
 
-        print ("ChildThread:Exiting")
+        print ("AltYürütmeBirimi:Çıkılıyor")
 
 aStopEvent = Event()
-
 ConnectionThread = ConnectionThread(aStopEvent)
-
 ConnectionThread.start()
-
-print("Main thread: Starting to wait for 5 seconds")
-
+print("Ana yürütme birimi: 5 saniye beklemeye başla")
 ConnectionThread.join(5)
-
-print("Main thread: I cant't wait for more than 5 seconds for the child thread;Will ask child thread to stop")
-
-aStopEvent.set()   #ask(signal) the child thread to stop
-
-ConnectionThread.join() # wait for the child thread to stop
-
-print("Main thread: Now I do something else to compensate the child thread task and exit")
-
-print("Main thread: Exiting")
+print("Ana yürütme birimi: Alt küçük yürütme birimi için 5 saniyeden fazla bekleyemem;Küçük yürütme biriminin durmasını ister misin?")
+aStopEvent.set()   #alt küçük yürütme birimi durdurmak için (sinyal)sor
+ConnectionThread.join() # alt küçük yürütme biriminin durmasını bekle
+print("Ana yürütme birimi: Şimdi alt küçük yürütme biriminin görevini telafi etmek ve çıkmak için başka bir şey yapıyorum")
+print("Ana yürütme birimi: Çıkılıyor")
 
 {% endhighlight %}
  
@@ -5011,13 +5002,13 @@ print("Main thread: Exiting")
 {% highlight python %}
 
 ChildThread:Sleep count 1
-Main thread: Starting to wait for 5 seconds
+Main küçük yürütme birimi: Starting to wait for 5 seconds
 ChildThread:Sleep count 2
-Main thread: I cant't wait for more than 5 seconds for the child thread;Will ask child thread to stop
+Main küçük yürütme birimi: I cant't wait for more than 5 seconds for the child küçük yürütme birimi;Will ask child küçük yürütme birimi to stop
 ChildThread:Asked to stop
 ChildThread:Exiting
-Main thread: Now I do something else to compensate the child thread task and exit
-Main thread: Exiting
+Main küçük yürütme birimi: Now I do something else to compensate the child küçük yürütme birimi task and exit
+Main küçük yürütme birimi: Exiting
 
 
 {% endhighlight %}
