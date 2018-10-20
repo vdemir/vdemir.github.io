@@ -4983,8 +4983,6 @@ class ConnectionThread(Thread):
 
         print ("ChildThread:Exiting")
 
-           
-
 aStopEvent = Event()
 
 ConnectionThread = ConnectionThread(aStopEvent)
