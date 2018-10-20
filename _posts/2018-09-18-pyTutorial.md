@@ -4956,29 +4956,21 @@ from threading import Event
 import time
 
 class ConnectionThread(Thread):
-
     myStopEvent = 0
-
     def __init__(self,args):
-
         Thread.__init__(self)
-
         self.myStopEvent = args
 
     # küçük yürütme birimi gövdesini tanımlamak için run yordamı geçersiz kılınır.
 
     def run(self):
-
         for i in range(1,10):
-
             if(self.myStopEvent.wait(0)):
 
                 print ("AltYürütmeBirimi:Durdurulması istendi")
-
                 break;
 
             print("AltYürütmeBirimi: %d Uyku sayısı"%(i))
-
             time.sleep(3)          
 
         print ("AltYürütmeBirimi:Çıkılıyor")
@@ -4986,12 +4978,16 @@ class ConnectionThread(Thread):
 aStopEvent = Event()
 ConnectionThread = ConnectionThread(aStopEvent)
 ConnectionThread.start()
+
 print("Ana yürütme birimi: 5 saniye beklemeye başla")
 ConnectionThread.join(5)
+
 print("Ana yürütme birimi: Alt küçük yürütme birimi için 5 saniyeden fazla bekleyemem;Küçük yürütme biriminin durmasını ister misin?")
 aStopEvent.set()   #alt küçük yürütme birimi durdurmak için (sinyal)sor
 ConnectionThread.join() # alt küçük yürütme biriminin durmasını bekle
+
 print("Ana yürütme birimi: Şimdi alt küçük yürütme biriminin görevini telafi etmek ve çıkmak için başka bir şey yapıyorum")
+
 print("Ana yürütme birimi: Çıkılıyor")
 
 {% endhighlight %}
@@ -5001,14 +4997,15 @@ print("Ana yürütme birimi: Çıkılıyor")
 
 {% highlight python %}
 
-ChildThread:Sleep count 1
-Main küçük yürütme birimi: Starting to wait for 5 seconds
-ChildThread:Sleep count 2
-Main küçük yürütme birimi: I cant't wait for more than 5 seconds for the child küçük yürütme birimi;Will ask child küçük yürütme birimi to stop
-ChildThread:Asked to stop
-ChildThread:Exiting
-Main küçük yürütme birimi: Now I do something else to compensate the child küçük yürütme birimi task and exit
-Main küçük yürütme birimi: Exiting
+AltYürütmeBirimi: 1 Uyku sayısı
+Ana yürütme birimi: 5 saniye beklemeye başla
+AltYürütmeBirimi: 2 Uyku sayısı
+Ana yürütme birimi: Alt küçük yürütme birimi için 5 saniyeden fazla bekleyemem;Küçük yürütme biriminin durmasını ister misin?
+AltYürütmeBirimi:Durdurulması istendi
+AltYürütmeBirimi:Çıkılıyor
+Ana yürütme birimi: Şimdi alt küçük yürütme biriminin görevini telafi etmek ve çıkmak için başka bir şey yapıyorum
+Ana yürütme birimi: Çıkılıyor
+
 
 
 {% endhighlight %}
