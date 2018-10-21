@@ -5019,7 +5019,7 @@ run()
 
 **Yordama Genel Bakış:**
 
-**run** yordamı küçük yürütme birimini belirler. **run** yordamı iki yolla kod alır. Biri **run** yordamının bir alt sınıfta geçersiz kılındığı zamandır. Bir diğeri, kaldırabilen bir öbeğin, Thread sınıfının yapıcısı aracılığıyla bir hedef olarak geçirildiği zamandır. Her iki şekilde de, bir python küçük yürütme birimini **run**() yordamı formüle edilebilir.
+**run** yordamı küçük yürütme birimini gövdesini belirler. **run** yordamı iki yolla kod alır. Biri **run** yordamının bir alt sınıfta geçersiz kılındığı zamandır. Bir diğeri, kaldırabilen bir öbeğin, **Thread** sınıfının kurucusu aracılığıyla bir hedef olarak geçirildiği zamandır. Her iki şekilde de, bir python yürütme birimini **run**() yordamı formüle edilebilir.
 
 <br>
 
