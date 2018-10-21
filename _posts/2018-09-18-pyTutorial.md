@@ -4945,7 +4945,7 @@ Bu gibi durumlarda, küçük yürütme biriminin çağrılması aksiyon öbeğin
 
 Aynı konu üzerinde **join**() aranması bir kilitlenme ile sonuçlanacaktır. Bu nedenle, **join**() aynı küçük yürütme birimi üzerinde çağrıldığında bir **RuntimeError** ortaya çıkar. Henüz başlatılmamış bir küçük yürütme birimi üzerinde **join**() çağrısı da bir **RuntimeError** neden olur.
 
-Örnek:
+**Örnek**:
 
 <br>
 
@@ -5010,17 +5010,71 @@ Ana yürütme birimi: Şimdi alt küçük yürütme biriminin görevini telafi e
 ve çıkmak için başka bir şey yapıyorum
 Ana yürütme birimi: Çıkılıyor
 
-
-
-
 {% endhighlight %}
 
 <br>
 
+**Yordam Adı:**
+run()
 
+**Yordama Genel Bakış:**
 
+**run** yordamı küçük yürütme birimini belirler. **run** yordamı iki yolla kod alır. Biri **run** yordamının bir alt sınıfta geçersiz kılındığı zamandır. Bir diğeri, kaldırabilen bir öbeğin, Thread sınıfının yapıcısı aracılığıyla bir hedef olarak geçirildiği zamandır. Her iki şekilde de, bir python küçük yürütme birimini **run**() yordamı formüle edilebilir.
 
+<br>
 
+{% highlight python linenos=table %}
+
+from threading import Thread;
+
+# A class that generates Square Numbers
+
+class SuqareNumberSeriesThread(Thread):
+
+    myCount = 0
+
+    #Initialisation value received and assigned to myCount 
+
+    def __init__(self,args):
+
+        Thread.__init__(self)
+
+        self.myCount = args
+
+    # The run method is overridden to define the thread body
+
+    def run(self):
+
+        for i in range(1,self.myCount):
+
+            print(i*i);           
+
+SquareGenerator = SuqareNumberSeriesThread(args=(10))
+
+SquareGenerator.start()
+
+SquareGenerator.join()
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+1
+4
+9
+16
+25
+36
+49
+64
+81
+
+{% endhighlight %}
+
+<br>
 
 
 
