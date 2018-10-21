@@ -5036,23 +5036,17 @@ class SuqareNumberSeriesThread(Thread):
     #Initialisation value received and assigned to myCount 
 
     def __init__(self,args):
-
         Thread.__init__(self)
-
         self.myCount = args
 
     # The run method is overridden to define the thread body
 
     def run(self):
-
         for i in range(1,self.myCount):
-
             print(i*i);           
 
 SquareGenerator = SuqareNumberSeriesThread(args=(10))
-
 SquareGenerator.start()
-
 SquareGenerator.join()
 
 {% endhighlight %}
