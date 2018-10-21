@@ -5019,7 +5019,8 @@ run()
 
 **Yordama Genel Bakış:**
 
-**run** yordamı küçük yürütme birimini gövdesini belirler. **run** yordamı iki yolla kod alır. Biri **run** yordamının bir alt sınıfta geçersiz kılındığı zamandır. Bir diğeri, kaldırabilen bir öbeğin, **Thread** sınıfının kurucusu aracılığıyla bir hedef olarak geçirildiği zamandır. Her iki şekilde de, bir python yürütme birimini **run**() yordamı formüle edilebilir.
+**run** yordamı küçük bir yürütme biriminin gövdesini belirler. 
+**run** yordamı iki yolla kod alır. Biri **run** yordamının bir alt sınıfta geçersiz kılındığı zamandır. Bir diğeri, kaldırabilen bir öbeğin, **Thread** sınıfının kurucusu aracılığıyla bir hedef olarak geçirildiği zamandır. Her iki şekilde de, bir python yürütme birimini **run**() yordamı formüle edilebilir.
 
 <br>
 
@@ -5070,7 +5071,15 @@ SquareGenerator.join()
 
 <br>
 
+**Yordam Adı:**
+start()
 
+**Yordama Genel Bakış:**
+
+Bir python yürütme birimini başlatır.
+Küçük bir yürütme biriminin, işletim sistemi bağlamında yürütülmeden önce başlatılması gerektiğinden, bazı kesirli delta süresinden sonra bir küçük bir yürütme birimi başlatılır.
+
+**İstisnalar**
 
 
 
