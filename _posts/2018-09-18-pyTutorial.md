@@ -5077,7 +5077,7 @@ start()
 **Yordama Genel Bakış:**
 
 Bir python yürütme birimini başlatır.
-Küçük bir yürütme biriminin, işletim sistemi bağlamında yürütülmeden önce başlatılması gerektiğinden, bazı kesirli delta süresinden sonra bir küçük bir yürütme birimi başlatılır.
+Küçük bir yürütme biriminin, işletim sistemi bağlamında yürütülmeden önce başlatılması gerektiğinden, bazı kesirli delta süresinden sonra küçük bir yürütme birimi başlatılır.
 
 **İstisnalar**
 
