@@ -5082,5 +5082,62 @@ Küçük bir yürütme biriminin, işletim sistemi bağlamında yürütülmeden 
 **İstisnalar**
 
 **start**() yordamı birden daha fazla kez çağrıldığında, bir RunTimeError yükseltir. 
-Gerekirse, tekrar küçük bir alt yürütme biriminin başka bir özdeşini oluşturun.
+Gerekirse, küçük bir alt yürütme biriminin başka bir özdeşini tekrar oluşturun.
+
+**Örnek**
+
+<br>
+
+{% highlight python linenos=table %}
+
+import random
+from threading import Thread
+
+# Sayımlar üreten bir fonksiyon 1 ila 100 arasında rastgele sayılar.
+# Bu işlev küçük bir alt yürütme birimi olarak çalıştırılacaktır.
+
+def RandomNumberGenerator(Count):
+
+    print("%d Random numbers between and 100"%(Count))
+    for i in range(0,Count):
+
+        print(random.randint(Count, 100))
+
+#Rastgele Sayı Üreteci küçük bir yürütme birimi oluşturun.
+
+RandomNumberThread = Thread(target=RandomNumberGenerator(10))
+
+#Rastgele Sayı Üreteci küçük bir yürütme birimi başlatın.
+
+RandomNumberThread.start()
+RandomNumberThread.join()
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+10 Random numbers between and 100
+63
+91
+57
+53
+38
+90
+97
+19
+91
+19
+
+{% endhighlight %}
+
+<br>
+
+
+
+
+
+
 
