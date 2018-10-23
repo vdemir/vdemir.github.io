@@ -5119,17 +5119,17 @@ RandomNumberThread.join()
 
 {% highlight python %}
 
-10 Random numbers between and 100
-43
+1 ile 100 arasındaki 10 rasgele sayı
+15
+80
+33
+9
+14
 10
-91
-74
-5
-60
-82
-96
-4
-65
+36
+18
+31
+24
 
 {% endhighlight %}
 
