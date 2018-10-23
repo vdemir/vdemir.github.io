@@ -5103,11 +5103,11 @@ def RandomNumberGenerator(Count):
 
         print(random.randint(1, 100))
 
-#Rastgele Sayı Üreteci küçük bir yürütme birimi oluşturun.
+#Rastgele Sayı Üreten küçük bir yürütme birimi oluşturun.
 
 RandomNumberThread = Thread(target=RandomNumberGenerator(10))
 
-#Rastgele Sayı Üreteci küçük bir yürütme birimi başlatın.
+#Rastgele Sayı Üreten küçük bir yürütme birimi başlatın.
 
 RandomNumberThread.start()
 RandomNumberThread.join()
