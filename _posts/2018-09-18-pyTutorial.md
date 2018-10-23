@@ -5081,5 +5081,6 @@ Küçük bir yürütme biriminin, işletim sistemi bağlamında yürütülmeden 
 
 **İstisnalar**
 
-
+**start**() yordamı birden daha fazla kez çağrıldığında, bir RunTimeError yükseltir. 
+Gerekirse, tekrar küçük bir alt yürütme biriminin başka bir özdeşini oluşturun.
 
