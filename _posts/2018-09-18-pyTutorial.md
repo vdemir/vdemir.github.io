@@ -5098,10 +5098,10 @@ from threading import Thread
 
 def RandomNumberGenerator(Count):
 
-    print("%d Random numbers between and 100"%(Count))
+    print(" 1 ile 100 arasındaki %d rasgele sayı"%(Count))
     for i in range(0,Count):
 
-        print(random.randint(Count, 100))
+        print(random.randint(1, 100))
 
 #Rastgele Sayı Üreteci küçük bir yürütme birimi oluşturun.
 
@@ -5120,16 +5120,16 @@ RandomNumberThread.join()
 {% highlight python %}
 
 10 Random numbers between and 100
-63
+43
+10
 91
-57
-53
-38
-90
-97
-19
-91
-19
+74
+5
+60
+82
+96
+4
+65
 
 {% endhighlight %}
 
