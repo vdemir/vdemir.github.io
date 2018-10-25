@@ -5086,8 +5086,6 @@ Gerekirse, küçük bir alt yürütme biriminin başka bir özdeşini tekrar olu
 
 **Örnek**
 
-<br>
-
 {% highlight python linenos=table %}
 
 import random
@@ -5135,8 +5133,10 @@ RandomNumberThread.join()
 
 <br>
 
+**Daemon Threads:**
+Bir python küçük yürütme birimi öbeğinde ayarlanan bu özellik küçük bir yürütme birimini daemonic yapar. Bir arka plan küçük bir yürütme birimi ana yürütme biriminin çıkmasını engellemez ve arka planda çalışmaya devam eder. Aşağıdaki örnekte, daemon yürütme biriminden print ifadeleri ana yürütme birimi çıkışı olarak konsola yazdırılmayacaktır.
 
-
+**Örnek:**
 
 
 
