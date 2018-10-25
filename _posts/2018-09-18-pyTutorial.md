@@ -5134,10 +5134,51 @@ RandomNumberThread.join()
 <br>
 
 **Daemon Threads:**
-Bir python küçük yürütme birimi öbeğinde ayarlanan bu özellik küçük bir yürütme birimini daemonic yapar. Bir arka plan küçük bir yürütme birimi ana yürütme biriminin çıkmasını engellemez ve arka planda çalışmaya devam eder. Aşağıdaki örnekte, daemon yürütme biriminden print ifadeleri ana yürütme birimi çıkışı olarak konsola yazdırılmayacaktır.
+Bir python yürütme birimi öbeğinde ayarlanan bu özellik bir yürütme birimini daemonic yapar. Bir arka plan yürütme birimi ana yürütme biriminin çıkmasını engellemez ve arka planda çalışmaya devam eder. Aşağıdaki örnekte, daemon yürütme biriminden print ifadeleri ana yürütme birimi çıktısı olarak konsola yazdırılmayacaktır.
 
 **Örnek:**
 
+{% highlight python linenos=table %}
+
+from threading import Thread;
+import os
+import time
+
+# class defining Daemon Thread
+
+class DaemonThread(Thread):
+    # Daemon Thread constructor
+    def __init__(self):
+        Thread.__init__(self)
+
+    # Daemon Thread run method
+    def run(self):
+
+        for i in range(1,10):
+            print("I am the daemon thread. I keep on running bg...hehe")
+            time.sleep(2)
+
+# Main thread
+aDaemonThread = DaemonThread()
+aDaemonThread.daemon = False
+aDaemonThread.start()
+print("My Daemon will take care")
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+I am the daemon thread. I keep on running bg...hehe
+My Daemon will take care
+I am the daemon thread. I keep on running bg...hehe
+I am the daemon thread. I keep on running bg...hehe
+.......
+{% endhighlight %}
+
+<br>
 
 
 
