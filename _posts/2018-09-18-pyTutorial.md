@@ -5132,6 +5132,7 @@ RandomNumberThread.join()
 {% endhighlight %}
 
 <br>
+**Python Thread - Daemon Property**
 
 **Daemon Threads:**
 Bir python yürütme birimi öbeğinde ayarlanan bu özellik bir yürütme birimini daemonic yapar. Bir arka plan yürütme birimi ana yürütme biriminin çıkmasını engellemez ve arka planda çalışmaya devam eder. Aşağıdaki örnekte, daemon yürütme biriminden print ifadeleri ana yürütme birimi çıktısı olarak konsola yazdırılmayacaktır.
