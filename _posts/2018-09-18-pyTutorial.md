@@ -5156,14 +5156,14 @@ class DaemonThread(Thread):
     def run(self):
 
         for i in range(1,10):
-            print("I am the daemon thread. I keep on running bg...hehe")
+            print("Ben daemon yürütme birimiyim. Ben koşmaya devam ediyorum ... hehe")
             time.sleep(2)
 
 # Main thread
 aDaemonThread = DaemonThread()
 aDaemonThread.daemon = False
 aDaemonThread.start()
-print("My Daemon will take care")
+print("Benim Daemon'um ilgilenecek.")
 
 {% endhighlight %}
  
@@ -5172,10 +5172,10 @@ print("My Daemon will take care")
 
 {% highlight python %}
 
-I am the daemon thread. I keep on running bg...hehe
-My Daemon will take care
-I am the daemon thread. I keep on running bg...hehe
-I am the daemon thread. I keep on running bg...hehe
+Ben daemon yürütme birimiyim. Ben koşmaya devam ediyorum ... hehe
+Benim Daemon'um ilgilenecek.
+Ben daemon yürütme birimiyim. Ben koşmaya devam ediyorum ... hehe
+Ben daemon yürütme birimiyim. Ben koşmaya devam ediyorum ... hehe
 .......
 {% endhighlight %}
 
