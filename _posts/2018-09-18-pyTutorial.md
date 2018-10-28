@@ -5446,7 +5446,7 @@ t.join()
 {% endhighlight %}
  
 <br>
-Zaman aşımı timeout, daemon küçük yürütme birimi uyuduğu süreden daha az olduğu için, **join()** geri döndükten sonra yürütme birimi hala **'alive'** olur.
+Zaman aşımı, daemon yürütme biriminin uyuduğu süreden daha az olduğu için, **join()** geri döndükten sonra yürütme birimi hala **'alive'** olur.
 
 <br>
 <div class="alert alert-info" role="info">
