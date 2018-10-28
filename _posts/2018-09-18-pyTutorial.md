@@ -4024,115 +4024,6 @@ Waiting for client 1...
 Waiting for client 2...
 ....
 {% endhighlight %}
-
-
-
-**Daemon vs. Non-Daemon küçük yürütme birimleri**
-
-Bu noktaya kadar, örnek programlar, tüm küçük yürütme birimleri işlerini tamamlayana kadar kesin olarak çıkmayı beklemiştir. Bazen programlar, bir küçük yürütme birimini, ana programın çıkmasını engellemeden çalışan bir program olarak meydana getirir. Daemon küçük yürütme birimini kullanmak, küçük yürütme birimini kesmenin kolay bir yolunun bulunmadığı veya işinin ortasında küçük yürütme biriminin ölmesine izin vermediği veya veri kaybına neden olmayan servisler için kullanışlıdır(örneğin, bir servis izleme aracı için “kalp atışı” üreten bir küçük yürütme birimi). Bir küçük yürütme birimini bir daemon olarak işaretlemek için, oluştururken daemon=True geçirin veya set_daemon() ile True yöntemini çağırın. öntanımlı durum, küçük yürütme birimlerinin daemon olmamasıdır.
-
-<br>
-
-{% highlight python linenos=table %}
-
-import threading
-import time
-import logging
-
-
-def daemon():
-    logging.debug('Starting')
-    time.sleep(0.2)
-    logging.debug('Exiting')
-
-
-def non_daemon():
-    logging.debug('Starting')
-    logging.debug('Exiting')
-
-
-logging.basicConfig(
-    level=logging.DEBUG,
-    format='(%(threadName)-10s) %(message)s',
-)
-
-d = threading.Thread(name='daemon', target=daemon, daemon=True)
-
-t = threading.Thread(name='non-daemon', target=non_daemon)
-
-d.start()
-t.start()
-
-{% endhighlight %}
- 
-<br>
-
-**daemon** yürütme birimi sleep() çağrısı uyandırılmadan önce **non_daemon** yürütme birimlerinin tümü (ana yürütme birimi dahil) çıkış yaptığı için, yanıt **daemon** yürütme biriminden gelen **'Exiting'** iletisini içermez. 
-<h2 class="python3">Python</h2>
-
-{% highlight python %}
-
-(daemon    ) Starting
-(non-daemon) Starting
-(non-daemon) Exiting
-
-{% endhighlight %}
- 
-<br>
-
-Bir **daemon küçük yürütme birimi** küçük yürütme birimi işini tamamlayana kadar beklemek için **join()** yordamını kullanır.
-
-<br>
-
-{% highlight python linenos=table %}
-
-import threading
-import time
-import logging
-
-
-def daemon():
-    logging.debug('Starting')
-    time.sleep(0.2)
-    logging.debug('Exiting')
-
-
-def non_daemon():
-    logging.debug('Starting')
-    logging.debug('Exiting')
-
-
-logging.basicConfig(
-    level=logging.DEBUG,
-    format='(%(threadName)-10s) %(message)s',
-)
-
-d = threading.Thread(name='daemon', target=daemon, daemon=True)
-
-t = threading.Thread(name='non-daemon', target=non_daemon)
-
-d.start()
-t.start()
-
-d.join(0.1)
-print('d.isAlive()', d.isAlive())
-t.join()
-
-{% endhighlight %}
- 
-<br>
-Zaman aşımı timeout, daemon küçük yürütme birimi uyuduğu süreden daha az olduğu için, **join()** geri döndükten sonra küçük yürütme birimi hala **'alive'** olur.
-
-<h2 class="python3">Python</h2>
-
-{% highlight python %}
-
-d.isAlive() True
-(daemon    ) Starting
-(non-daemon) Starting
-(non-daemon) Exiting
-
-{% endhighlight %}
  
 <br>
 Aşağıdaki örnek, join() yöordamının kullanımını gösterir.
@@ -5185,3 +5076,111 @@ logging aynı zamanda thread-safe dir, bu yüzden farklı yürütme birimlerinde
  
 <br>
 
+
+**Daemon vs. Non-Daemon küçük yürütme birimleri**
+
+Bu noktaya kadar, örnek programlar, tüm küçük yürütme birimleri işlerini tamamlayana kadar kesin olarak çıkmayı beklemiştir. Bazen programlar, bir küçük yürütme birimini, ana programın çıkmasını engellemeden çalışan bir program olarak meydana getirir. Daemon küçük yürütme birimini kullanmak, küçük yürütme birimini kesmenin kolay bir yolunun bulunmadığı veya işinin ortasında küçük yürütme biriminin ölmesine izin vermediği veya veri kaybına neden olmayan servisler için kullanışlıdır(örneğin, bir servis izleme aracı için “kalp atışı” üreten bir küçük yürütme birimi). Bir küçük yürütme birimini bir daemon olarak işaretlemek için, oluştururken daemon=True geçirin veya set_daemon() ile True yöntemini çağırın. öntanımlı durum, küçük yürütme birimlerinin daemon olmamasıdır.
+
+<br>
+
+{% highlight python linenos=table %}
+
+import threading
+import time
+import logging
+
+
+def daemon():
+    logging.debug('Starting')
+    time.sleep(0.2)
+    logging.debug('Exiting')
+
+
+def non_daemon():
+    logging.debug('Starting')
+    logging.debug('Exiting')
+
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='(%(threadName)-10s) %(message)s',
+)
+
+d = threading.Thread(name='daemon', target=daemon, daemon=True)
+
+t = threading.Thread(name='non-daemon', target=non_daemon)
+
+d.start()
+t.start()
+
+{% endhighlight %}
+ 
+<br>
+
+**daemon** yürütme birimi sleep() çağrısından uyandırmadan önce **non_daemon** yürütme birimlerinin tümü (ana yürütme birimi dahil) çıkış yaptığı için, yanıt **daemon** yürütme biriminden gelen **'Exiting'** mesajını içermez. 
+
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+(daemon    ) Starting
+(non-daemon) Starting
+(non-daemon) Exiting
+
+{% endhighlight %}
+ 
+<br>
+
+Bir **daemon yürütme birimi**  çalışmasını tamamlayana kadar beklemek için **join()** yordamını kullanır.
+
+<br>
+
+{% highlight python linenos=table %}
+
+import threading
+import time
+import logging
+
+
+def daemon():
+    logging.debug('Starting')
+    time.sleep(0.2)
+    logging.debug('Exiting')
+
+
+def non_daemon():
+    logging.debug('Starting')
+    logging.debug('Exiting')
+
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='(%(threadName)-10s) %(message)s',
+)
+
+d = threading.Thread(name='daemon', target=daemon, daemon=True)
+
+t = threading.Thread(name='non-daemon', target=non_daemon)
+
+d.start()
+t.start()
+
+d.join(0.1)
+print('d.isAlive()', d.isAlive())
+t.join()
+
+{% endhighlight %}
+ 
+<br>
+Zaman aşımı timeout, daemon küçük yürütme birimi uyuduğu süreden daha az olduğu için, **join()** geri döndükten sonra küçük yürütme birimi hala **'alive'** olur.
+
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+d.isAlive() True
+(daemon    ) Starting
+(non-daemon) Starting
+(non-daemon) Exiting
+
+{% endhighlight %}
