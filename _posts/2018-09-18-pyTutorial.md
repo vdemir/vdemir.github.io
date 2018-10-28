@@ -81,7 +81,10 @@ for i in mylist:
      print(i)
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -102,7 +105,10 @@ for i in mylist:
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -128,7 +134,10 @@ for i in mygenerator:
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -159,7 +168,10 @@ for i in mygenerator:
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -191,7 +203,10 @@ Kodunuz açıklandı:
 ### Generator:
 
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -222,7 +237,10 @@ Kodunuz açıklandı:
 ### Caller:
 
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -269,7 +287,10 @@ print(a)
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -311,7 +332,10 @@ wall_street_atm = hsbc.create_atm() # it's even true for new ATMs
 print(next(corner_street_atm))
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -360,7 +384,10 @@ for random_number in lottery():
 {% endhighlight %}
 
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -390,7 +417,10 @@ a, b = b, a
 print(a,b)
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -421,7 +451,10 @@ if type(fib()) == types.GeneratorType:
             break
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -467,7 +500,10 @@ print("words:",words)
 print("word_lengths:", word_lengths)
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -497,7 +533,10 @@ newlist = [int(x) for x in numbers if x > 0]
 print(newlist)
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -534,7 +573,10 @@ foo(1,2,3,4,5)
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -562,7 +604,10 @@ print("Result: %d" %(result))
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -604,7 +649,10 @@ if bar(1,2,3,magicnumber = 7) == True:
     print("Awesome!")
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -657,7 +705,10 @@ pattern = r"\"?([-a-zA-Z0-9.`?{}]+@\w+\.\w+)\"?"
 test_email(pattern)
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -716,7 +767,10 @@ for i in range(8):
         do_stuff_with_number(0)
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -747,7 +801,10 @@ Setler, çift kayıt içermeyen listelerdir. Paragrafta kullanılan kelimelerin 
 print(set("my name is Eric and Eric is my name".split()))
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -769,7 +826,10 @@ print(b)
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -792,7 +852,10 @@ print(b.intersection(a))
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -815,7 +878,10 @@ print(b.symmetric_difference(a))
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -838,7 +904,10 @@ print(b.difference(a))
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -860,7 +929,10 @@ print(a.union(b))
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -884,7 +956,10 @@ print(A.difference(B))
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -920,7 +995,10 @@ print(json_string)
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -943,7 +1021,10 @@ print(pickle.loads(pickled_string))
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -976,7 +1057,10 @@ print(decoded_salaries["Me"])
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -1023,7 +1107,10 @@ print(dbl(4))
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -1057,7 +1144,10 @@ print(p(8))
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -1117,7 +1207,10 @@ class Vehicle:
 print(dir(Vehicle))
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -1160,7 +1253,10 @@ print(transmit_to_space("Test message"))
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -1189,7 +1285,10 @@ print_msg(9)
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -1220,7 +1319,10 @@ print (c1(), c1(), c1(), c2(), c2())
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -1250,7 +1352,10 @@ print(closure()) # 4
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -1290,7 +1395,10 @@ fun2()
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -1321,7 +1429,10 @@ print(multiplywith5(9))
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -1443,7 +1554,10 @@ print hello()  ## returns "<b><i>hello world</i></b>"
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -1499,7 +1613,10 @@ print(scream())
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -1545,7 +1662,10 @@ except NameError, e:
     #Python's functions are objects
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -1606,7 +1726,10 @@ print(getTalk("whisper")())
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -1692,7 +1815,10 @@ a_stand_alone_function_decorated()
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -1793,7 +1919,10 @@ sandwich()
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -1896,7 +2025,10 @@ print(say())
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -1943,7 +2075,10 @@ print_full_name("Peter", "Venkman")
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -1988,7 +2123,10 @@ l.sayYourAge(-3)
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -2068,7 +2206,10 @@ m.sayYourAge()
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -2134,7 +2275,10 @@ def lazy_function():
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -2200,7 +2344,10 @@ decorated_function()
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -2265,7 +2412,10 @@ decorated_function()
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -2328,7 +2478,10 @@ decorated_function_with_arguments("Rajesh", "Howard")
 #I am the decorated function and only knows about my arguments: Rajesh Howard
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -2392,7 +2545,10 @@ decorated_function()
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -2459,7 +2615,10 @@ decorated_function_with_arguments(c2, "Howard")
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -2578,7 +2737,10 @@ decorated_function("Universe and", "everything")
 # Whoooot!
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -2646,7 +2808,10 @@ print(foo.__name__)
 #outputs: foo
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -2733,7 +2898,10 @@ print(reverse_string("A man, a plan, a canoe, pasta"))
 #atsap ,eonac a ,nalp a ,nam A
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -3034,7 +3202,10 @@ finally:
 
 İstisna oluşmazsa, aşağıdaki çıktıyı görürsünüz.
 
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -3070,7 +3241,10 @@ except IOError:
 
 Bu durumda, interpreter bir istisna oluşturacak ve aşağıdaki çıktı gösterilecektir.
 
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -3125,7 +3299,10 @@ except ZeroDivisionError:
 
 <br>
 
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -3157,7 +3334,10 @@ class UserDefinedError(Exception):
 
 <br>
 
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -3233,7 +3413,10 @@ print("Congratulations! You guessed it correctly.")
 Bu programı farklı girişler sağlayarak test edelim.
 <br>
 
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -3307,7 +3490,10 @@ except ZeroDivisionError as s:
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -3395,7 +3581,10 @@ print(b.GetEmp())
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -3431,7 +3620,10 @@ sb.implicit()
 
 {% endhighlight %}
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -3542,7 +3734,10 @@ else:
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -3593,7 +3788,10 @@ if s:
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -3624,7 +3822,10 @@ for elements in res :
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -3672,7 +3873,10 @@ for email in emails:
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -3711,7 +3915,10 @@ print "Phone Num : ", num
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -3740,7 +3947,10 @@ print (result2)
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -3844,7 +4054,10 @@ for k in range(5):
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -3906,7 +4119,10 @@ for x in range(5):
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -3945,7 +4161,10 @@ t.start()
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -3987,7 +4206,10 @@ t2.start()
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -4072,7 +4294,10 @@ engellenmiş üst-yürütme birimi devam edebilir
 
 
 
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -4161,7 +4386,10 @@ print("Ana yürütme birimi: Çıkılıyor")
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -4219,7 +4447,10 @@ SquareGenerator.join()
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -4279,7 +4510,10 @@ RandomNumberThread.join()
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -4334,7 +4568,10 @@ print("Benim Daemon'um ilgilenecek.")
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -4377,7 +4614,10 @@ print(l[1])  # prints second element
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -4409,7 +4649,10 @@ print(l)               # print all elements.
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -4438,7 +4681,10 @@ print(l)     # prints all elements
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -4465,7 +4711,10 @@ print(l)     # prints all elements
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -4504,7 +4753,10 @@ else:
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -4535,7 +4787,10 @@ else:
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -4581,7 +4836,10 @@ if a > 10:
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -4615,7 +4873,10 @@ while True:
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -4683,7 +4944,10 @@ print(f(3))
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -4712,7 +4976,10 @@ f(3,2)
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -4754,7 +5021,10 @@ f(3,2)
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -4783,7 +5053,10 @@ f(3,2)
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -4810,7 +5083,10 @@ print(sum)
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -4841,7 +5117,10 @@ print(result)
 {% endhighlight %}
  
 <br>
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -4892,7 +5171,10 @@ for i in range(5):
 <br>
 
 Çıktı, her birinde 'Worker' ile beş satırdır.
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -4930,7 +5212,10 @@ for i in range(5):
 <br>
 
 Tam sayı içlemi artık her bir küçük yürütme birimi parçacığı tarafından basılan mesaja dahil edilmiştir.
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -4977,7 +5262,10 @@ t.start()
 <br>
 
 Hata ayıklama çıkışı, her satırdaki geçerli küçük yürütme birimi parçacığının adını içerir. 'Thread-1' satırları, Thread parçacığı adı sütununda adsız küçük yürütme birimi parçacığı w2'ye karşılık gelir.
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -5037,7 +5325,10 @@ t.start()
 <br>
 
 logging aynı zamanda thread-safe dir, bu yüzden farklı yürütme birimlerinden gelen mesajlar çıktıda ayrı tutulur.
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
@@ -5096,7 +5387,10 @@ t.start()
 
 **daemon** yürütme birimi sleep() çağrısından uyandırmadan önce **non_daemon** yürütme birimlerinin tümü (ana yürütme birimi dahil) çıkış yaptığı için, yanıt **daemon** yürütme biriminden gelen **'Exiting'** mesajını içermez. 
 
-<h2 class="python3">Python</h2>
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
 
 {% highlight python %}
 
