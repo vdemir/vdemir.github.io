@@ -4024,7 +4024,464 @@ Waiting for client 1...
 Waiting for client 2...
 ....
 {% endhighlight %}
+
+
+
+**Daemon vs. Non-Daemon küçük yürütme birimleri**
+
+Bu noktaya kadar, örnek programlar, tüm küçük yürütme birimleri işlerini tamamlayana kadar kesin olarak çıkmayı beklemiştir. Bazen programlar, bir küçük yürütme birimini, ana programın çıkmasını engellemeden çalışan bir program olarak meydana getirir. Daemon küçük yürütme birimini kullanmak, küçük yürütme birimini kesmenin kolay bir yolunun bulunmadığı veya işinin ortasında küçük yürütme biriminin ölmesine izin vermediği veya veri kaybına neden olmayan servisler için kullanışlıdır(örneğin, bir servis izleme aracı için “kalp atışı” üreten bir küçük yürütme birimi). Bir küçük yürütme birimini bir daemon olarak işaretlemek için, oluştururken daemon=True geçirin veya set_daemon() ile True yöntemini çağırın. öntanımlı durum, küçük yürütme birimlerinin daemon olmamasıdır.
+
+<br>
+
+{% highlight python linenos=table %}
+
+import threading
+import time
+import logging
+
+
+def daemon():
+    logging.debug('Starting')
+    time.sleep(0.2)
+    logging.debug('Exiting')
+
+
+def non_daemon():
+    logging.debug('Starting')
+    logging.debug('Exiting')
+
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='(%(threadName)-10s) %(message)s',
+)
+
+d = threading.Thread(name='daemon', target=daemon, daemon=True)
+
+t = threading.Thread(name='non-daemon', target=non_daemon)
+
+d.start()
+t.start()
+
+{% endhighlight %}
  
+<br>
+
+**daemon** yürütme birimi sleep() çağrısı uyandırılmadan önce **non_daemon** yürütme birimlerinin tümü (ana yürütme birimi dahil) çıkış yaptığı için, yanıt **daemon** yürütme biriminden gelen **'Exiting'** iletisini içermez. 
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+(daemon    ) Starting
+(non-daemon) Starting
+(non-daemon) Exiting
+
+{% endhighlight %}
+ 
+<br>
+
+Bir **daemon küçük yürütme birimi** küçük yürütme birimi işini tamamlayana kadar beklemek için **join()** yordamını kullanır.
+
+<br>
+
+{% highlight python linenos=table %}
+
+import threading
+import time
+import logging
+
+
+def daemon():
+    logging.debug('Starting')
+    time.sleep(0.2)
+    logging.debug('Exiting')
+
+
+def non_daemon():
+    logging.debug('Starting')
+    logging.debug('Exiting')
+
+
+logging.basicConfig(
+    level=logging.DEBUG,
+    format='(%(threadName)-10s) %(message)s',
+)
+
+d = threading.Thread(name='daemon', target=daemon, daemon=True)
+
+t = threading.Thread(name='non-daemon', target=non_daemon)
+
+d.start()
+t.start()
+
+d.join(0.1)
+print('d.isAlive()', d.isAlive())
+t.join()
+
+{% endhighlight %}
+ 
+<br>
+Zaman aşımı timeout, daemon küçük yürütme birimi uyuduğu süreden daha az olduğu için, **join()** geri döndükten sonra küçük yürütme birimi hala **'alive'** olur.
+
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+d.isAlive() True
+(daemon    ) Starting
+(non-daemon) Starting
+(non-daemon) Exiting
+
+{% endhighlight %}
+ 
+<br>
+Aşağıdaki örnek, join() yöordamının kullanımını gösterir.
+<br>
+
+{% highlight python linenos=table %}
+
+import threading
+import time
+
+class Threads(threading.Thread):
+    def __init__(self, time):
+        super(Threads, self).__init__()
+        self.time = time
+        self.start()
+
+    def run(self):
+        print (self.time, " seconds start!")
+        for i in range(0,self.time):
+            time.sleep(1)
+            print ("1 sec of ", self.time)
+        print (self.time, " seconds finished!")
+
+
+t1 = Threads(3)
+t1.join()
+print ("t1.join() finished" )
+{% endhighlight %}
+ 
+<br>
+Bu çalışıyor! Ama sırayla çalışır. **self.start()**'yı **__init__**'ye koyabilirim, ama **self.join()**'yi değil. Her küçük yürütme birimi başladıktan sonra yapılması gerekenler.
+
+**join()**, küçük yürütme biriminizin bitmesini bekleyen ana küçük yürütme birimidir. Aksi halde, küçük yürütme biriminiz kendi başına çalışır.
+
+Dolayısıyla, **join()** ana yürütme birimi üzerinde 'dur-bekle' olarak düşünmenin bir yolu, **join()** çağrıldığında ana yürütme birimi hemen serbest bırakılır.
+
+**t1.join()** ana yürütme birimini tutuyor.
+
+Bu nedenle, herhangi bir değişiklik görmemenizin nedeni, ana yürütme biriminizin **join()**'nızdan sonra hiçbir şey yapmamasıdır. **join()**'nın (sadece) ana yürütme biriminin yürütme akışıyla ilgili olduğunu söyleyebilirdiniz.
+
+Örneğin, bir grup sayfayı aynı anda tek bir büyük sayfada birleştirmek için indirmek isterseniz, küçük yürütme birimi kullanarak eşzamanlı yüklemeler başlatabilirsiniz, ancak son sayfa/yürütme birimi bitene kadar beklemeniz gerekebilir. Bu, **join()** kullandığınız zamandır.
+
+join ile
+
++-+--+---+------------------***********+###          ana-yürütme birimi
+	
+         |		       |
+         +....join()       |     alt-yürütme birimi(kısa)
+      
+      |                    |
+      +.........join()......     alt-yürütme birimi(uzun)
+    
+    |
+    +,,,,,,,,,,,,,,,,,,,,,,,,,,, alt-yürütme birimi(uzun+daemonized)
+
+
+'---' ana-yürütme birimi/üst-yürütme birimi/ana-program çalışması
+
+'...' ana-yürütme birimi çalışması
+
+'###' join() sonrası isteğe bağlı üst-yürütme birimi
+
+engellenmiş üst-yürütme birimi devam edebilir
+
+'***' join-yordamı içinde ana-yürütme birimi 'uyuyor' , bitirmek için alt-yürütme birimi bekliyor
+
+',,,' daemonized küçük yürütme birimi - 'ignores' lifetime of other threads;
+    terminates when main-programs exits; is normally meant for 
+    join-independent tasks
+
+
+
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+3  seconds start!
+1 sec of  3
+1 sec of  3
+1 sec of  3
+3  seconds finished!
+t1.join() finished
+
+{% endhighlight %}
+ 
+<br>
+
+
+**Python Thread - Join Method**
+
+**Yordam Adı:**
+join()
+
+**Yordama Genel Bakış:**
+
+**join** yordamı çağrıldığında, çağrılan                                                                                                                                                                                                                              küçük yürütme birimi, çağrıldığı küçük yürütme birimi öbeği sonlandırılıncaya kadar engellenir.
+
+Örneğin, **join**() bir ana yürütme biriminden çağrıldığında, ana yürütme birimi, **join**'nin çağrıldığı alt yürütme biriminden çıkana kadar bekler.  **join**() yordamının önemi, eğer join() çağrılmamışsa, ana yürütme birimi alt yürütme biriminden önce çıkabilmekte, bu da programların belirsiz davranışlarına yol açacak ve programın çalışmasını ve programın çalıştığı verilerin bütünlüğünü etkileyecektir.
+
+**join**() yordamı da bir zaman aşımı değeri olarak belirtilebilir.
+
+Örneğin, sunuculara ağ bağlantılarını yapan bir küçük yürütme biriminin, bağlantı tesisini öngörülen sayıda saniyeler içinde tamamlaması beklenir. Zaman aşımı değeri geçildiğinde, çağrılan küçük yürütme birimi tıkanma durumundan döner ve bir yapılandırma dosyasından bir dizi yedekleme sunucusuna bağlanmayı dener.
+
+Bu gibi durumlarda, küçük yürütme biriminin çağrılması aksiyon öbeğinden bir sinyal gönderebilir ve çağrılan küçük yürütme biriminin durmasını isteyebilir.
+
+**join**() yordamı, bir küçük yürütme birimi öbeğinden birkaç kez çağrılabilir.
+
+**İstisnalar**
+
+Aynı konu üzerinde **join**() aranması bir kilitlenme ile sonuçlanacaktır. Bu nedenle, **join**() aynı küçük yürütme birimi üzerinde çağrıldığında bir **RuntimeError** ortaya çıkar. Henüz başlatılmamış bir küçük yürütme birimi üzerinde **join**() çağrısı da bir **RuntimeError** neden olur.
+
+**Örnek**:
+
+<br>
+
+{% highlight python linenos=table %}
+
+from threading import Thread
+from threading import Event
+import time
+
+class ConnectionThread(Thread):
+    myStopEvent = 0
+    def __init__(self,args):
+        Thread.__init__(self)
+        self.myStopEvent = args
+
+    # küçük yürütme birimi gövdesini tanımlamak için run yordamı geçersiz kılınır.
+
+    def run(self):
+        for i in range(1,10):
+            if(self.myStopEvent.wait(0)):
+
+                print ("AltYürütmeBirimi:Durdurulması istendi")
+                break;
+
+            print("AltYürütmeBirimi: %d Uyku sayısı"%(i))
+            time.sleep(3)          
+
+        print ("AltYürütmeBirimi:Çıkılıyor")
+
+aStopEvent = Event()
+ConnectionThread = ConnectionThread(aStopEvent)
+ConnectionThread.start()
+
+print("Ana yürütme birimi: 5 saniye beklemeye başla")
+ConnectionThread.join(5)
+
+print("Ana yürütme birimi: Alt yürütme birimi için 5 saniyeden fazla bekleyemem.")
+print("Yürütme biriminin durmasını ister misin?")
+aStopEvent.set()   #alt küçük yürütme birimi durdurmak için (sinyal)sor
+ConnectionThread.join() # alt küçük yürütme biriminin durmasını bekle
+
+print("Ana yürütme birimi: Şimdi alt küçük yürütme biriminin görevini telafi etmek ")
+print("ve çıkmak için başka bir şey yapıyorum")
+
+print("Ana yürütme birimi: Çıkılıyor")
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+AltYürütmeBirimi: 1 Uyku sayısı
+Ana yürütme birimi: 5 saniye beklemeye başla
+AltYürütmeBirimi: 2 Uyku sayısı
+Ana yürütme birimi: Alt yürütme birimi için 5 saniyeden fazla bekleyemem.
+Yürütme biriminin durmasını ister misin?
+AltYürütmeBirimi:Durdurulması istendi
+AltYürütmeBirimi:Çıkılıyor
+Ana yürütme birimi: Şimdi alt küçük yürütme biriminin görevini telafi etmek 
+ve çıkmak için başka bir şey yapıyorum
+Ana yürütme birimi: Çıkılıyor
+
+{% endhighlight %}
+
+<br>
+
+**Yordam Adı:**
+run()
+
+**Yordama Genel Bakış:**
+
+**run** yordamı küçük bir yürütme biriminin gövdesini belirler. 
+**run** yordamı iki yolla kod alır. Biri **run** yordamının bir alt sınıfta geçersiz kılındığı zamandır. Bir diğeri, kaldırabilen bir öbeğin, **Thread** sınıfının kurucusu aracılığıyla bir hedef olarak geçirildiği zamandır. Her iki şekilde de, bir python yürütme birimini **run**() yordamı formüle edilebilir.
+
+<br>
+
+{% highlight python linenos=table %}
+
+from threading import Thread;
+
+# A class that generates Square Numbers
+
+class SuqareNumberSeriesThread(Thread):
+
+    myCount = 0
+
+    #Initialisation value received and assigned to myCount 
+
+    def __init__(self,args):
+        Thread.__init__(self)
+        self.myCount = args
+
+    # The run method is overridden to define the thread body
+
+    def run(self):
+        for i in range(1,self.myCount):
+            print(i*i);           
+
+SquareGenerator = SuqareNumberSeriesThread(args=(10))
+SquareGenerator.start()
+SquareGenerator.join()
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+1
+4
+9
+16
+25
+36
+49
+64
+81
+
+{% endhighlight %}
+
+<br>
+
+**Yordam Adı:**
+start()
+
+**Yordama Genel Bakış:**
+
+Bir python yürütme birimini başlatır.
+Küçük bir yürütme biriminin, işletim sistemi bağlamında yürütülmeden önce başlatılması gerektiğinden, bazı kesirli delta süresinden sonra küçük bir yürütme birimi başlatılır.
+
+**İstisnalar**
+
+**start**() yordamı birden daha fazla kez çağrıldığında, bir RunTimeError yükseltir. 
+Gerekirse, küçük bir alt yürütme biriminin başka bir özdeşini tekrar oluşturun.
+
+**Örnek**
+
+{% highlight python linenos=table %}
+
+import random
+from threading import Thread
+
+# Sayımlar üreten bir fonksiyon 1 ila 100 arasında rastgele sayılar.
+# Bu işlev küçük bir alt yürütme birimi olarak çalıştırılacaktır.
+
+def RandomNumberGenerator(Count):
+
+    print(" 1 ile 100 arasındaki %d rasgele sayı"%(Count))
+    for i in range(0,Count):
+
+        print(random.randint(1, 100))
+
+#Rastgele Sayı Üreten küçük bir yürütme birimi oluşturun.
+
+RandomNumberThread = Thread(target=RandomNumberGenerator(10))
+
+#Rastgele Sayı Üreten küçük bir yürütme birimi başlatın.
+
+RandomNumberThread.start()
+RandomNumberThread.join()
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+1 ile 100 arasındaki 10 rasgele sayı
+15
+80
+33
+9
+14
+10
+36
+18
+31
+24
+
+{% endhighlight %}
+
+<br>
+**Python Thread - Daemon Property**
+
+**Daemon Threads:**
+Bir python yürütme birimi öbeğinde ayarlanan bu özellik bir yürütme birimini daemonic yapar. Bir arka plan yürütme birimi ana yürütme biriminin çıkmasını engellemez ve arka planda çalışmaya devam eder. Aşağıdaki örnekte, daemon yürütme biriminden print ifadeleri ana yürütme birimi çıktısı olarak konsola yazdırılmayacaktır.
+
+**Örnek:**
+
+{% highlight python linenos=table %}
+
+from threading import Thread;
+import os
+import time
+
+# class defining Daemon Thread
+
+class DaemonThread(Thread):
+    # Daemon Thread constructor
+    def __init__(self):
+        Thread.__init__(self)
+
+    # Daemon Thread run method
+    def run(self):
+
+        for i in range(1,10):
+            print("Ben daemon yürütme birimiyim. Ben koşmaya devam ediyorum ... hehe")
+            time.sleep(2)
+
+# Main thread
+aDaemonThread = DaemonThread()
+aDaemonThread.daemon = False
+aDaemonThread.start()
+print("Benim Daemon'um ilgilenecek.")
+
+{% endhighlight %}
+ 
+<br>
+<h2 class="python3">Python</h2>
+
+{% highlight python %}
+
+Ben daemon yürütme birimiyim. Ben koşmaya devam ediyorum ... hehe
+Benim Daemon'um ilgilenecek.
+Ben daemon yürütme birimiyim. Ben koşmaya devam ediyorum ... hehe
+Ben daemon yürütme birimiyim. Ben koşmaya devam ediyorum ... hehe
+.......
+{% endhighlight %}
+
+<br>
+
+
+
 <br>
 <a id="D16"></a>
 <br>
@@ -4712,7 +5169,7 @@ t.start()
  
 <br>
 
-logging aynı zamanda küçük yürütme birimi-safe dir, bu yüzden farklı küçük yürütme birimi den gelen mesajlar çıktıda ayrı tutulur.
+logging aynı zamanda thread-safe dir, bu yüzden farklı yürütme birimlerinden gelen mesajlar çıktıda ayrı tutulur.
 <h2 class="python3">Python</h2>
 
 {% highlight python %}
@@ -4727,459 +5184,4 @@ logging aynı zamanda küçük yürütme birimi-safe dir, bu yüzden farklı kü
 {% endhighlight %}
  
 <br>
-
-**Daemon vs. Non-Daemon küçük yürütme birimleri**
-
-Bu noktaya kadar, örnek programlar, tüm küçük yürütme birimleri işlerini tamamlayana kadar kesin olarak çıkmayı beklemiştir. Bazen programlar, bir küçük yürütme birimini, ana programın çıkmasını engellemeden çalışan bir program olarak meydana getirir. Daemon küçük yürütme birimini kullanmak, küçük yürütme birimini kesmenin kolay bir yolunun bulunmadığı veya işinin ortasında küçük yürütme biriminin ölmesine izin vermediği veya veri kaybına neden olmayan servisler için kullanışlıdır(örneğin, bir servis izleme aracı için “kalp atışı” üreten bir küçük yürütme birimi). Bir küçük yürütme birimini bir daemon olarak işaretlemek için, oluştururken daemon=True geçirin veya set_daemon() ile True yöntemini çağırın. öntanımlı durum, küçük yürütme birimlerinin daemon olmamasıdır.
-
-<br>
-
-{% highlight python linenos=table %}
-
-import threading
-import time
-import logging
-
-
-def daemon():
-    logging.debug('Starting')
-    time.sleep(0.2)
-    logging.debug('Exiting')
-
-
-def non_daemon():
-    logging.debug('Starting')
-    logging.debug('Exiting')
-
-
-logging.basicConfig(
-    level=logging.DEBUG,
-    format='(%(threadName)-10s) %(message)s',
-)
-
-d = threading.Thread(name='daemon', target=daemon, daemon=True)
-
-t = threading.Thread(name='non-daemon', target=non_daemon)
-
-d.start()
-t.start()
-
-{% endhighlight %}
- 
-<br>
-
-**daemon** yürütme birimi sleep() çağrısı uyandırılmadan önce **non_daemon** yürütme birimlerinin tümü (ana yürütme birimi dahil) çıkış yaptığı için, yanıt **daemon** yürütme biriminden gelen **'Exiting'** iletisini içermez. 
-<h2 class="python3">Python</h2>
-
-{% highlight python %}
-
-(daemon    ) Starting
-(non-daemon) Starting
-(non-daemon) Exiting
-
-{% endhighlight %}
- 
-<br>
-
-Bir **daemon küçük yürütme birimi** küçük yürütme birimi işini tamamlayana kadar beklemek için **join()** yordamını kullanır.
-
-<br>
-
-{% highlight python linenos=table %}
-
-import threading
-import time
-import logging
-
-
-def daemon():
-    logging.debug('Starting')
-    time.sleep(0.2)
-    logging.debug('Exiting')
-
-
-def non_daemon():
-    logging.debug('Starting')
-    logging.debug('Exiting')
-
-
-logging.basicConfig(
-    level=logging.DEBUG,
-    format='(%(threadName)-10s) %(message)s',
-)
-
-d = threading.Thread(name='daemon', target=daemon, daemon=True)
-
-t = threading.Thread(name='non-daemon', target=non_daemon)
-
-d.start()
-t.start()
-
-d.join(0.1)
-print('d.isAlive()', d.isAlive())
-t.join()
-
-{% endhighlight %}
- 
-<br>
-Zaman aşımı timeout, daemon küçük yürütme birimi uyuduğu süreden daha az olduğu için, **join()** geri döndükten sonra küçük yürütme birimi hala **'alive'** olur.
-
-<h2 class="python3">Python</h2>
-
-{% highlight python %}
-
-d.isAlive() True
-(daemon    ) Starting
-(non-daemon) Starting
-(non-daemon) Exiting
-
-{% endhighlight %}
- 
-<br>
-Aşağıdaki örnek, join() yöordamının kullanımını gösterir.
-<br>
-
-{% highlight python linenos=table %}
-
-import threading
-import time
-
-class Threads(threading.Thread):
-    def __init__(self, time):
-        super(Threads, self).__init__()
-        self.time = time
-        self.start()
-
-    def run(self):
-        print (self.time, " seconds start!")
-        for i in range(0,self.time):
-            time.sleep(1)
-            print ("1 sec of ", self.time)
-        print (self.time, " seconds finished!")
-
-
-t1 = Threads(3)
-t1.join()
-print ("t1.join() finished" )
-{% endhighlight %}
- 
-<br>
-Bu çalışıyor! Ama sırayla çalışır. **self.start()**'yı **__init__**'ye koyabilirim, ama **self.join()**'yi değil. Her küçük yürütme birimi başladıktan sonra yapılması gerekenler.
-
-**join()**, küçük yürütme biriminizin bitmesini bekleyen ana küçük yürütme birimidir. Aksi halde, küçük yürütme biriminiz kendi başına çalışır.
-
-Dolayısıyla, **join()** ana yürütme birimi üzerinde 'dur-bekle' olarak düşünmenin bir yolu, **join()** çağrıldığında ana yürütme birimi hemen serbest bırakılır.
-
-**t1.join()** ana yürütme birimini tutuyor.
-
-Bu nedenle, herhangi bir değişiklik görmemenizin nedeni, ana yürütme biriminizin **join()**'nızdan sonra hiçbir şey yapmamasıdır. **join()**'nın (sadece) ana yürütme biriminin yürütme akışıyla ilgili olduğunu söyleyebilirdiniz.
-
-Örneğin, bir grup sayfayı aynı anda tek bir büyük sayfada birleştirmek için indirmek isterseniz, küçük yürütme birimi kullanarak eşzamanlı yüklemeler başlatabilirsiniz, ancak son sayfa/yürütme birimi bitene kadar beklemeniz gerekebilir. Bu, **join()** kullandığınız zamandır.
-
-join ile
-
-+-+--+---+------------------***********+###          ana-yürütme birimi
-	
-         |		       |
-         +....join()       |     alt-yürütme birimi(kısa)
-      
-      |                    |
-      +.........join()......     alt-yürütme birimi(uzun)
-    
-    |
-    +,,,,,,,,,,,,,,,,,,,,,,,,,,, alt-yürütme birimi(uzun+daemonized)
-
-
-'---' ana-yürütme birimi/üst-yürütme birimi/ana-program çalışması
-
-'...' ana-yürütme birimi çalışması
-
-'###' join() sonrası isteğe bağlı üst-yürütme birimi
-
-engellenmiş üst-yürütme birimi devam edebilir
-
-'***' join-yordamı içinde ana-yürütme birimi 'uyuyor' , bitirmek için alt-yürütme birimi bekliyor
-
-',,,' daemonized küçük yürütme birimi - 'ignores' lifetime of other threads;
-    terminates when main-programs exits; is normally meant for 
-    join-independent tasks
-
-
-
-<h2 class="python3">Python</h2>
-
-{% highlight python %}
-
-3  seconds start!
-1 sec of  3
-1 sec of  3
-1 sec of  3
-3  seconds finished!
-t1.join() finished
-
-{% endhighlight %}
- 
-<br>
-
-
-**Python Thread - Join Method**
-
-**Yordam Adı:**
-join()
-
-**Yordama Genel Bakış:**
-
-**join** yordamı çağrıldığında, çağrılan                                                                                                                                                                                                                              küçük yürütme birimi, çağrıldığı küçük yürütme birimi öbeği sonlandırılıncaya kadar engellenir.
-
-Örneğin, **join**() bir ana yürütme biriminden çağrıldığında, ana yürütme birimi, **join**'nin çağrıldığı alt yürütme biriminden çıkana kadar bekler.  **join**() yordamının önemi, eğer join() çağrılmamışsa, ana yürütme birimi alt yürütme biriminden önce çıkabilmekte, bu da programların belirsiz davranışlarına yol açacak ve programın çalışmasını ve programın çalıştığı verilerin bütünlüğünü etkileyecektir.
-
-**join**() yordamı da bir zaman aşımı değeri olarak belirtilebilir.
-
-Örneğin, sunuculara ağ bağlantılarını yapan bir küçük yürütme biriminin, bağlantı tesisini öngörülen sayıda saniyeler içinde tamamlaması beklenir. Zaman aşımı değeri geçildiğinde, çağrılan küçük yürütme birimi tıkanma durumundan döner ve bir yapılandırma dosyasından bir dizi yedekleme sunucusuna bağlanmayı dener.
-
-Bu gibi durumlarda, küçük yürütme biriminin çağrılması aksiyon öbeğinden bir sinyal gönderebilir ve çağrılan küçük yürütme biriminin durmasını isteyebilir.
-
-**join**() yordamı, bir küçük yürütme birimi öbeğinden birkaç kez çağrılabilir.
-
-**İstisnalar**
-
-Aynı konu üzerinde **join**() aranması bir kilitlenme ile sonuçlanacaktır. Bu nedenle, **join**() aynı küçük yürütme birimi üzerinde çağrıldığında bir **RuntimeError** ortaya çıkar. Henüz başlatılmamış bir küçük yürütme birimi üzerinde **join**() çağrısı da bir **RuntimeError** neden olur.
-
-**Örnek**:
-
-<br>
-
-{% highlight python linenos=table %}
-
-from threading import Thread
-from threading import Event
-import time
-
-class ConnectionThread(Thread):
-    myStopEvent = 0
-    def __init__(self,args):
-        Thread.__init__(self)
-        self.myStopEvent = args
-
-    # küçük yürütme birimi gövdesini tanımlamak için run yordamı geçersiz kılınır.
-
-    def run(self):
-        for i in range(1,10):
-            if(self.myStopEvent.wait(0)):
-
-                print ("AltYürütmeBirimi:Durdurulması istendi")
-                break;
-
-            print("AltYürütmeBirimi: %d Uyku sayısı"%(i))
-            time.sleep(3)          
-
-        print ("AltYürütmeBirimi:Çıkılıyor")
-
-aStopEvent = Event()
-ConnectionThread = ConnectionThread(aStopEvent)
-ConnectionThread.start()
-
-print("Ana yürütme birimi: 5 saniye beklemeye başla")
-ConnectionThread.join(5)
-
-print("Ana yürütme birimi: Alt yürütme birimi için 5 saniyeden fazla bekleyemem.")
-print("Yürütme biriminin durmasını ister misin?")
-aStopEvent.set()   #alt küçük yürütme birimi durdurmak için (sinyal)sor
-ConnectionThread.join() # alt küçük yürütme biriminin durmasını bekle
-
-print("Ana yürütme birimi: Şimdi alt küçük yürütme biriminin görevini telafi etmek ")
-print("ve çıkmak için başka bir şey yapıyorum")
-
-print("Ana yürütme birimi: Çıkılıyor")
-
-{% endhighlight %}
- 
-<br>
-<h2 class="python3">Python</h2>
-
-{% highlight python %}
-
-AltYürütmeBirimi: 1 Uyku sayısı
-Ana yürütme birimi: 5 saniye beklemeye başla
-AltYürütmeBirimi: 2 Uyku sayısı
-Ana yürütme birimi: Alt yürütme birimi için 5 saniyeden fazla bekleyemem.
-Yürütme biriminin durmasını ister misin?
-AltYürütmeBirimi:Durdurulması istendi
-AltYürütmeBirimi:Çıkılıyor
-Ana yürütme birimi: Şimdi alt küçük yürütme biriminin görevini telafi etmek 
-ve çıkmak için başka bir şey yapıyorum
-Ana yürütme birimi: Çıkılıyor
-
-{% endhighlight %}
-
-<br>
-
-**Yordam Adı:**
-run()
-
-**Yordama Genel Bakış:**
-
-**run** yordamı küçük bir yürütme biriminin gövdesini belirler. 
-**run** yordamı iki yolla kod alır. Biri **run** yordamının bir alt sınıfta geçersiz kılındığı zamandır. Bir diğeri, kaldırabilen bir öbeğin, **Thread** sınıfının kurucusu aracılığıyla bir hedef olarak geçirildiği zamandır. Her iki şekilde de, bir python yürütme birimini **run**() yordamı formüle edilebilir.
-
-<br>
-
-{% highlight python linenos=table %}
-
-from threading import Thread;
-
-# A class that generates Square Numbers
-
-class SuqareNumberSeriesThread(Thread):
-
-    myCount = 0
-
-    #Initialisation value received and assigned to myCount 
-
-    def __init__(self,args):
-        Thread.__init__(self)
-        self.myCount = args
-
-    # The run method is overridden to define the thread body
-
-    def run(self):
-        for i in range(1,self.myCount):
-            print(i*i);           
-
-SquareGenerator = SuqareNumberSeriesThread(args=(10))
-SquareGenerator.start()
-SquareGenerator.join()
-
-{% endhighlight %}
- 
-<br>
-<h2 class="python3">Python</h2>
-
-{% highlight python %}
-
-1
-4
-9
-16
-25
-36
-49
-64
-81
-
-{% endhighlight %}
-
-<br>
-
-**Yordam Adı:**
-start()
-
-**Yordama Genel Bakış:**
-
-Bir python yürütme birimini başlatır.
-Küçük bir yürütme biriminin, işletim sistemi bağlamında yürütülmeden önce başlatılması gerektiğinden, bazı kesirli delta süresinden sonra küçük bir yürütme birimi başlatılır.
-
-**İstisnalar**
-
-**start**() yordamı birden daha fazla kez çağrıldığında, bir RunTimeError yükseltir. 
-Gerekirse, küçük bir alt yürütme biriminin başka bir özdeşini tekrar oluşturun.
-
-**Örnek**
-
-{% highlight python linenos=table %}
-
-import random
-from threading import Thread
-
-# Sayımlar üreten bir fonksiyon 1 ila 100 arasında rastgele sayılar.
-# Bu işlev küçük bir alt yürütme birimi olarak çalıştırılacaktır.
-
-def RandomNumberGenerator(Count):
-
-    print(" 1 ile 100 arasındaki %d rasgele sayı"%(Count))
-    for i in range(0,Count):
-
-        print(random.randint(1, 100))
-
-#Rastgele Sayı Üreten küçük bir yürütme birimi oluşturun.
-
-RandomNumberThread = Thread(target=RandomNumberGenerator(10))
-
-#Rastgele Sayı Üreten küçük bir yürütme birimi başlatın.
-
-RandomNumberThread.start()
-RandomNumberThread.join()
-
-{% endhighlight %}
- 
-<br>
-<h2 class="python3">Python</h2>
-
-{% highlight python %}
-
-1 ile 100 arasındaki 10 rasgele sayı
-15
-80
-33
-9
-14
-10
-36
-18
-31
-24
-
-{% endhighlight %}
-
-<br>
-**Python Thread - Daemon Property**
-
-**Daemon Threads:**
-Bir python yürütme birimi öbeğinde ayarlanan bu özellik bir yürütme birimini daemonic yapar. Bir arka plan yürütme birimi ana yürütme biriminin çıkmasını engellemez ve arka planda çalışmaya devam eder. Aşağıdaki örnekte, daemon yürütme biriminden print ifadeleri ana yürütme birimi çıktısı olarak konsola yazdırılmayacaktır.
-
-**Örnek:**
-
-{% highlight python linenos=table %}
-
-from threading import Thread;
-import os
-import time
-
-# class defining Daemon Thread
-
-class DaemonThread(Thread):
-    # Daemon Thread constructor
-    def __init__(self):
-        Thread.__init__(self)
-
-    # Daemon Thread run method
-    def run(self):
-
-        for i in range(1,10):
-            print("Ben daemon yürütme birimiyim. Ben koşmaya devam ediyorum ... hehe")
-            time.sleep(2)
-
-# Main thread
-aDaemonThread = DaemonThread()
-aDaemonThread.daemon = False
-aDaemonThread.start()
-print("Benim Daemon'um ilgilenecek.")
-
-{% endhighlight %}
- 
-<br>
-<h2 class="python3">Python</h2>
-
-{% highlight python %}
-
-Ben daemon yürütme birimiyim. Ben koşmaya devam ediyorum ... hehe
-Benim Daemon'um ilgilenecek.
-Ben daemon yürütme birimiyim. Ben koşmaya devam ediyorum ... hehe
-Ben daemon yürütme birimiyim. Ben koşmaya devam ediyorum ... hehe
-.......
-{% endhighlight %}
-
-<br>
-
-
 
