@@ -5078,7 +5078,7 @@ logging aynı zamanda thread-safe dir, bu yüzden farklı yürütme birimlerinde
 
 **Daemon(artalan süreci)** :Bilgisayarda arka planda çalışan, ihtiyaç duyulduğunda kullanılan bir program ya da hizmet
 
-**Artalan süreci vs. artalan süreci olmayan yürütme birimleri**
+**Artalan süreci ile artalan süreci olmayan yürütme birimleri**
 
 Bu noktaya kadar, örnek programlar, tüm küçük yürütme birimleri işlerini tamamlayana kadar kesin olarak çıkmayı beklemiştir. Bazen programlar, bir küçük yürütme birimini, ana programın çıkmasını engellemeden çalışan bir program olarak meydana getirir. Daemon küçük yürütme birimini kullanmak, küçük yürütme birimini kesmenin kolay bir yolunun bulunmadığı veya işinin ortasında küçük yürütme biriminin ölmesine izin vermediği veya veri kaybına neden olmayan servisler için kullanışlıdır(örneğin, bir servis izleme aracı için “kalp atışı” üreten bir küçük yürütme birimi). Bir küçük yürütme birimini bir daemon olarak işaretlemek için, oluştururken daemon=True geçirin veya set_daemon() ile True yöntemini çağırın. öntanımlı durum, küçük yürütme birimlerinin daemon olmamasıdır.
 
