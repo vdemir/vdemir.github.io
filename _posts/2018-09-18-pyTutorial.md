@@ -5464,7 +5464,7 @@ d.isAlive() True
 
 <br>
 <div class="alert alert-dark" role="dark">
-<p><strong>Tüm Konuları Sıralamak</strong></p>
+<p><strong>Tüm Yürütme Birimlerini Sıralamak</strong></p>
 </div>
 
 
