@@ -5463,7 +5463,7 @@ d.isAlive() True
 {% endhighlight %}
 
 <br>
-<div class="alert alert-light" role="light">
+<div class="alert alert-dark" role="dark">
 <p><strong>Tüm Konuları Sıralamak</strong></p>
 </div>
 
