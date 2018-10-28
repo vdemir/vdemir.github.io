@@ -5150,11 +5150,11 @@ t.join()
  
 <br>
 Zaman aşımı timeout, daemon küçük yürütme birimi uyuduğu süreden daha az olduğu için, **join()** geri döndükten sonra yürütme birimi hala **'alive'** olur.
+
 <br>
 <div class="alert alert-info" role="info">
 <p><strong>Python</strong></p>
 </div>
-<br>
 
 {% highlight python %}
 
