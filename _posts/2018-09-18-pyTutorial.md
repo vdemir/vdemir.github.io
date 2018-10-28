@@ -5076,6 +5076,7 @@ logging aynı zamanda thread-safe dir, bu yüzden farklı yürütme birimlerinde
  
 <br>
 
+**Daemon(artalan süreci)** :Bilgisayarda arka planda çalışan, ihtiyaç duyulduğunda kullanılan bir program ya da hizmet
 
 **Artalan süreci vs. artalan süreci olmayan yürütme birimleri**
 
