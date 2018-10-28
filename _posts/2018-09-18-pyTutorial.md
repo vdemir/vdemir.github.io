@@ -5173,7 +5173,7 @@ t.join()
 {% endhighlight %}
  
 <br>
-Zaman aşımı timeout, daemon küçük yürütme birimi uyuduğu süreden daha az olduğu için, **join()** geri döndükten sonra küçük yürütme birimi hala **'alive'** olur.
+Zaman aşımı timeout, daemon küçük yürütme birimi uyuduğu süreden daha az olduğu için, **join()** geri döndükten sonra yürütme birimi hala **'alive'** olur.
 
 <h2 class="python3">Python</h2>
 
@@ -5185,3 +5185,17 @@ d.isAlive() True
 (non-daemon) Exiting
 
 {% endhighlight %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
