@@ -3348,7 +3348,7 @@ for-loop = 1.444 s
  
 <br><br>
 <div class="teaser clearfix"></div>
-<script src="{{ sitebase.url }}/scripts/dcl-react.js.gz"></script>
+<script src="//cdn.datacamp.com/dcl-react.js.gz"></script>
 <h3  id="C16"><a class="w3-btn w3-margin-bottom">Just python 3.5.2 'Run'.</a></h3>
 <div data-datacamp-exercise data-lang="python" data-height="auto">
       <code data-type="pre-exercise-code"></code>
