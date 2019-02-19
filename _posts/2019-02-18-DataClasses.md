@@ -24,6 +24,7 @@ lang: tr
 <p><strong>Python Data Classes</strong></p>
 </div>
 <br>
+## A brief tour of Python 3.7 data classes
  A Brand-new feature in Python 3.7 is “Data Classes”. Data classes are a way of automating the generation of boiler-plate code for classes which store multiple properties.
 
 They also carry the benefit of using Python 3’s new type hinting.
