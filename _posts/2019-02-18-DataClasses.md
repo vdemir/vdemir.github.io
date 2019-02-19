@@ -62,7 +62,31 @@ example2 = SimpleDataObject(1, 'b')
 print(example == example2)  # True
 {% endhighlight %}
 
+This __init__ method will have a signature of (field_a: int, field_b: str) -> None. You can see this by just typing print(inspect.signature(example.__init__))
 
+Type hinting
+Quite importantly, the type hints are merely hints. So giving the wrong types doesn’t issue a warning or attempt a conversion.
+
+Because type hinting is required (otherwise the field is ignored), if you don’t have a specific type, use the Any type from the typing module.
+
+
+{% highlight python %}
+from dataclasses import dataclass
+
+
+@dataclass
+class SimpleDataObject(object):
+  '''
+  In this case,
+  __init__, __repr__, __eq__,  will all be generated automatically.
+  '''
+  
+  field_a: int
+  field_b: str
+
+example = SimpleDataObject('a', 'b')
+print(example)  # Gives SimpleDataObject(field_a='a', field_b='b')
+{% endhighlight %}
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
