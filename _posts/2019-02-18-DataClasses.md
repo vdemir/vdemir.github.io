@@ -29,9 +29,9 @@ Ayrıca Python 3’ün yeni tür ipuçlarını kullanmanın avantajını da taş
 
 Dataclasses come in the new dataclasses module within the standard library in Python 3.7 and there are 2 important things you’ll need.
 
-The dataclass decorator, for decorating a data class
-The field method, for configuring fields
-Default magic methods
+1. The dataclass decorator, for decorating a data class
+2. The field method, for configuring fields
+## Default magic methods
 In the default setting, any dataclass will implement __init__, __repr__, __str__ and __eq__ for you.
 
 The __init__ method will have keyword-arguments with the same type annotations that are specified on the class.
