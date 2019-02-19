@@ -33,9 +33,9 @@ __“Data Classes”__  Python 3.7'deki standart kitaplık içindeki  __“datac
 ## Öntanımlı büyülü yordamlar
 Varsayılan ayarla,  herhangi bir dataclass  __init__, __repr__, __str__ ve __eq__ komut yordamlarını sizin için uygulayacak.
 
-The __init__ method will have keyword-arguments with the same type annotations that are specified on the class.
+__init__ yordamı, sınıfta belirtilen aynı tip açıklamalarla anahtar sözcük ifadelerine sahip olacak.
 
-The __eq__ method will compare all dataclass attributes in order.
+The __eq__ yordamı, tüm dataclass özniteliklerini sırayla karşılaştıracaktır.
 
 All fields are declared at the top of the class and type hinting is required. 
 
