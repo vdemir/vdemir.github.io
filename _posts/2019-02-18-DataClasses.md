@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Python Eğiticisi
+title:  Python Data Classes
 date:   2019-02-18 12:00:00
 last_updated: 2019-02-18 12:00:00
 keywords: linux, python
