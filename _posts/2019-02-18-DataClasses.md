@@ -23,7 +23,7 @@ lang: tr
 ## Python 3.7 “Data Classes” veri sınıfları
 Python 3.7'deki yepyeni bir özellik __“Data Classes”__ dır. __“Data Classes”__ , birden fazla özellik barındıran sınıflar için klişe kod üretimini otomatikleştirmenin bir yoludur.
 
-Ayrıca Python 3’ün yeni tür ipuçlarını kullanmanın avantajını da taşıyorlar.
+Ayrıca Python 3’ün yeni tür etiketlerini kullanmanın avantajını da taşıyorlar.
 
 __“Data Classes”__ Veri sınıfları Python 3.7'deki standart kitaplık içindeki yeni __“dataclasses”__ veri sınıfları modülü ile sağlanır ve ihtiyacınız olacak 2 önemli şey içerir.
  
