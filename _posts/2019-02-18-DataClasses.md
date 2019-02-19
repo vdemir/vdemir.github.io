@@ -20,7 +20,7 @@ lang: tr
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
  
   
-## Python 3.7 “Data Classes” veri sınıfları
+## Python 3.7 “Data Classes”
 Python 3.7'deki yepyeni bir özellik __“Data Classes”__ dır. __“Data Classes”__ , birden fazla özellik barındıran sınıflar için klişe kod üretimini otomatikleştirmenin bir yoludur.
 
 Ayrıca Python 3’ün yeni tür etiketlerini kullanmanın avantajını da taşıyorlar.
