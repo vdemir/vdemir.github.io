@@ -17,13 +17,17 @@ lang: tr
 
 <!-- syntax highlighting CSS -->
  
-
-<title>Data Classes</title> 
+ 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <!-- Opsiyonel tema -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
  
- 
+
+<br>
+<div class="alert alert-success" role="success">
+<p><strong>Python Data Classes</strong></p>
+</div>
+<br>
  A Brand-new feature in Python 3.7 is “Data Classes”. Data classes are a way of automating the generation of boiler-plate code for classes which store multiple properties.
 
 They also carry the benefit of using Python 3’s new type hinting.
