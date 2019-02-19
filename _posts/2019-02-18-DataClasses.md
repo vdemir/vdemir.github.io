@@ -64,7 +64,7 @@ print(example == example2)  # True
 
 This __init__ method will have a signature of (field_a: int, field_b: str) -> None. You can see this by just typing print(inspect.signature(example.__init__))
 
-Type hinting
+## Type hinting
 Quite importantly, the type hints are merely hints. So giving the wrong types doesn’t issue a warning or attempt a conversion.
 
 Because type hinting is required (otherwise the field is ignored), if you don’t have a specific type, use the Any type from the typing module.
