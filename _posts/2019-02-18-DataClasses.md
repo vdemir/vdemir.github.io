@@ -34,7 +34,13 @@ Dataclasses come in the new dataclasses module within the standard library in Py
 The dataclass decorator, for decorating a data class
 The field method, for configuring fields
 Default magic methods
- 
+In the default setting, any dataclass will implement __init__, __repr__, __str__ and __eq__ for you.
+
+The __init__ method will have keyword-arguments with the same type annotations that are specified on the class.
+
+The __eq__ method will compare all dataclass attributes in order.
+
+All fields are declared at the top of the class and type hinting is required. 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
