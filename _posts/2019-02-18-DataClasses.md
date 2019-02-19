@@ -42,7 +42,7 @@ The __eq__ method will compare all dataclass attributes in order.
 
 All fields are declared at the top of the class and type hinting is required. 
 
-{% highlight bash %}
+{% highlight python %}
 from dataclasses import dataclass
 
 @dataclass
