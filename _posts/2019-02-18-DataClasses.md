@@ -137,7 +137,7 @@ import sys
 
 
 def get_argv():
-    return sys.argv[1]
+    return sys.argv[0]
 
 
 @dataclass
@@ -146,7 +146,7 @@ class SimpleDataObject(object):
   field_b: str = field(default_factory=get_argv)
 
 example = SimpleDataObject(field_a = 'a')
-print(example)  # python3.7 dataclass_4.py test, gives: SimpleDataObject(field_a='a', field_b='test')
+print(example)  # python3.7 dataclass_4.py test, gives: SimpleDataObject(field_a='a', field_b='dataclass_4.py')
 
 
 {% endhighlight %}
