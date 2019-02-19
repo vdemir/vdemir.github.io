@@ -41,6 +41,29 @@ The __init__ method will have keyword-arguments with the same type annotations t
 The __eq__ method will compare all dataclass attributes in order.
 
 All fields are declared at the top of the class and type hinting is required. 
+
+{% highlight bash %}
+from dataclasses import dataclass
+
+@dataclass
+class SimpleDataObject(object):
+  '''
+  In this case,
+  __init__, __repr__, __eq__,  will all be generated automatically.
+  '''
+  
+  field_a: int
+  field_b: str
+
+example = SimpleDataObject(1, 'b')
+print(example)  # SimpleDataObject(field_a=1, field_b='b')
+
+example2 = SimpleDataObject(1, 'b')
+print(example == example2)  # True
+{% endhighlight %}
+
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
