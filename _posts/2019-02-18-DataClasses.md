@@ -193,7 +193,7 @@ class SimpleDataObject(SimpleBaseObject):
 
 Although, because you can’t declare a non-default field after a default one, you can’t mix default and non-default fields between base and child classes.
 
-
+[Try it online!](https://tio.run/##K6gsycjPM/7/P60oP1chJbEkMTknsbg4tVghM7cgv6gEIcTF5YBgg0mFgPzMvBIrLgUgqLBSSMvJTywBcyqROVVQjoKtgoGeARdXAZAB1qhhqGeqo2CkZ6rJVVAE4hdo/v8PAA "Python 3 – Try It Online")
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
