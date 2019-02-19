@@ -161,7 +161,7 @@ import sys
 
 
 def get_argv():
-    return sys.argv[1]
+    return sys.argv[0]
 
 
 @dataclass
@@ -173,7 +173,7 @@ class SimpleDataObject(object):
       self.field_b = self.field_b.upper()
 
 example = SimpleDataObject(field_a = 'a')
-print(example)  # Now SimpleDataObject(field_a='a', field_b='TEST')
+print(example)  # Now SimpleDataObject(field_a='a', field_b='dataclass_4.py')
 {% endhighlight %}
 
 ## Inheritance
