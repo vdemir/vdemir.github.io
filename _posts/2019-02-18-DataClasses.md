@@ -25,7 +25,7 @@ Python 3.7'deki yepyeni bir özellik “Data Classes” dır. “Data Classes”
 
 Ayrıca Python 3’ün yeni tür ipuçlarını kullanmanın avantajını da taşıyorlar.
 
-“Data Classes” Veri sınıfları Python 3.7'deki standart kitaplık içindeki yeni __“dataclasses”__ veri sınıfları modülü ile sağlanır ve ihtiyacınız olacak 2 önemli şey içerir.
+__“Data Classes”__ Veri sınıfları Python 3.7'deki standart kitaplık içindeki yeni __“dataclasses”__ veri sınıfları modülü ile sağlanır ve ihtiyacınız olacak 2 önemli şey içerir.
  
 1. Bir veri sınıfını dekore etmek için __“dataclass decorator”__ süslü fonksiyonları
 2. Alanları yapılandırmak için __“field”__ komut yordamı
