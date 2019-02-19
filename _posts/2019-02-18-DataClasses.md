@@ -20,7 +20,7 @@ lang: tr
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
  
   
-## A brief tour of Python 3.7 data classes 
+## Python 3.7 veri sınıfları
 Python 3.7'deki yepyeni bir özellik “Data Classes” dır. Veri sınıfları, birden fazla özellik barındıran sınıflar için klişe kod üretimini otomatikleştirmenin bir yoludur.
 
 Ayrıca Python 3’ün yeni tür ipuçlarını kullanmanın avantajını da taşıyorlar.
