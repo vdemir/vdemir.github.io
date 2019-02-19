@@ -28,7 +28,7 @@ Ayrıca Python 3’ün yeni tür ipuçlarını kullanmanın avantajını da taş
 “Data Classes” Veri sınıfları Python 3.7'deki standart kitaplık içindeki yeni “dataclasses” veri sınıfları modülü ile sağlanır ve ihtiyacınız olacak 2 önemli şey içerir.
  
 1.Bir veri sınıfını dekore etmek için “dataclass decorator” süslü fonksiyonları
-2.Alanları yapılandırmak için field komut yordamı
+2.Alanları yapılandırmak için “field” komut yordamı
 
 ## Default magic methods
 In the default setting, any dataclass will implement __init__, __repr__, __str__ and __eq__ for you.
