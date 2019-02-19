@@ -20,9 +20,8 @@ lang: tr
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
  
   
-## A brief tour of Python 3.7 data classes
- A Brand-new feature in Python 3.7 is “Data Classes”. Data classes are a way of automating the generation of boiler-plate code for classes which store multiple properties.
-
+## A brief tour of Python 3.7 data classes 
+Python 3.7'deki yepyeni bir özellik “Data Classes” dır. Veri sınıfları, birden fazla özellik barındıran sınıflar için klişe kod üretimini otomatikleştirmenin bir yoludur.
 They also carry the benefit of using Python 3’s new type hinting.
 
 
