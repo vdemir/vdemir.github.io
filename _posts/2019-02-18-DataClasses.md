@@ -157,6 +157,46 @@ print(example)  # python3.7 dataclass_4.py test, gives: SimpleDataObject(field_a
 ## Post-Init Processing
 You can declare a __post_init__ method, which will run after the auto-generated __init__.
 
+
+{% highlight python %}
+from dataclasses import dataclass, field
+import sys
+
+
+def get_argv():
+    return sys.argv[1]
+
+
+@dataclass
+class SimpleDataObject(object): 
+  field_a: str
+  field_b: str = field(default_factory=get_argv)
+
+  def __post_init__(self):
+      self.field_b = self.field_b.upper()
+
+example = SimpleDataObject(field_a = 'a')
+print(example)  # Now SimpleDataObject(field_a='a', field_b='TEST')
+{% endhighlight %}
+
+## Inheritance
+Inheritance works as you would expect. You need to wrap the classes in dataclass for the inherited and the base class definitions.
+
+
+{% highlight python %}
+@dataclass
+class SimpleBaseObject(object):
+    field_0: str
+
+@dataclass
+class SimpleDataObject(SimpleBaseObject):
+  field_a: str
+  field_b: str
+{% endhighlight %}
+
+Although, because you can’t declare a non-default field after a default one, you can’t mix default and non-default fields between base and child classes.
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
