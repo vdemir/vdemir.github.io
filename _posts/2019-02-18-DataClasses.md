@@ -88,6 +88,30 @@ example = SimpleDataObject('a', 'b')
 print(example)  # Gives SimpleDataObject(field_a='a', field_b='b')
 {% endhighlight %}
 
+## Mutability
+The dataclass decorator has a frozen argument, which is False by default. If specified, fields will be “frozen”, ie read-only and if eq is set to True, which it is by default then the __hash__ magic will be implemented and object instances will be hashable so you can use them as dictionary keys or within a set.
+
+
+{% highlight python %}
+from dataclasses import dataclass
+
+@dataclass(frozen=True)
+class ImmutableSimpleDataObject(object):
+  '''
+  In this case,
+  __init__, __repr__, __lt__, __eq__, __gt__ will all be generated automatically.
+  '''
+  
+  field_a: int
+  field_b: str
+
+example = {ImmutableSimpleDataObject(1, 'b'), ImmutableSimpleDataObject(2, 'c')}
+print(example)
+
+# Gives : {ImmutableSimpleDataObject(field_a=1, field_b='b'), ImmutableSimpleDataObject(field_a=2, field_b='c')}
+
+{% endhighlight %}
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
