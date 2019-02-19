@@ -30,7 +30,7 @@ __“Data Classes”__  Python 3.7'deki standart kitaplık içindeki  __“datac
 1. Bir veri sınıfını dekore etmek için __“dataclass decorator”__ süslü fonksiyonları
 2. Alanları yapılandırmak için __“field”__ komut yordamı
 
-## Öntanımlı büyülü yordamlar
+## Öntanımlı sihirli yordamlar
 Varsayılan ayarla,  herhangi bir dataclass  __init__, __repr__, __str__ ve __eq__ komut yordamlarını sizin için uygulayacak.
 
 __init__ yordamı, sınıfta belirtilen aynı tip açıklamalarla anahtar sözcük ifadelerine sahip olacak.
