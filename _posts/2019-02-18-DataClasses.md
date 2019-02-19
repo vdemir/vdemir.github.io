@@ -14,16 +14,12 @@ comments: false
 published: true
 lang: tr
 ---
-
-<!-- syntax highlighting CSS -->
- 
  
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <!-- Opsiyonel tema -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
  
-
-<br>
+ 
 <div class="alert alert-success" role="success">
 <p><strong>Python Data Classes</strong></p>
 </div>
