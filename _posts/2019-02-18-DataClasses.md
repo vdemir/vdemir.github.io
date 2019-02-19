@@ -1,15 +1,15 @@
 ---
 layout: post
 title:  Python Eğiticisi
-date:   2018-09-18 12:00:00
-last_updated: 2018-19-15 12:00:00
+date:   2019-02-18 12:00:00
+last_updated: 2019-02-18 12:00:00
 keywords: linux, python
-summary: "Python Eğitici Kısa Rehber"
+summary: "Python Data Classes"
 excerpt: This post is about Python.
 categorie: Programlama
 tags:   Python Linux Programlama
 categories: [Python, Programlama]
-permalink: /pyTutorial/
+permalink: /DataClasses/
 comments: false
 published: true
 lang: tr
@@ -18,7 +18,7 @@ lang: tr
 <!-- syntax highlighting CSS -->
  
 
-<title>Bootstrap 101 Şablon</title>
+<title>Data Classes</title>
     <!-- Bootstrap --> 
     <!-- En son derlenmiş ve minimize edilmiş CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
