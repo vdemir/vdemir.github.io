@@ -112,7 +112,7 @@ print(example)
 
 {% endhighlight %}
 
-Customizing the fields
+## Customizing the fields
 The core type in dataclasses is the Field type, which belongs to a dataclass.
 
 By default, just setting a class attribute will instantiate a Field on your class as shown in previous examples.
@@ -154,7 +154,8 @@ print(example)  # python3.7 dataclass_4.py test, gives: SimpleDataObject(field_a
 
 {% endhighlight %}
 
-
+## Post-Init Processing
+You can declare a __post_init__ method, which will run after the auto-generated __init__.
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
