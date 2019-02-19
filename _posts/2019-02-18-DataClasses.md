@@ -112,6 +112,50 @@ print(example)
 
 {% endhighlight %}
 
+Customizing the fields
+The core type in dataclasses is the Field type, which belongs to a dataclass.
+
+By default, just setting a class attribute will instantiate a Field on your class as shown in previous examples.
+
+If you need to customise the behaviour, you can use the field factory inside the dataclasses module.
+
+The parameters to field() are:
+
+default: If provided, this will be the default value for this field. This is needed because the field call itself replaces the normal position of the default value.
+default_factory: A 0-argument callable that will be called when a default value is needed for this field.
+init: Included as a parameter to the generated __init__ method.
+repr: Included in the string returned by the generated __repr__ method.
+compare: Included in the generated equality and comparison methods (__eq__, __gt__, et al.).
+hash: Included in the generated __hash__ method.
+There is also another argument, metadata which is not in use yet.
+
+Similar to keyword arguments, fields with default values must be declared last.
+
+Demonstrating the default factory argument,
+
+
+{% highlight python %}
+from dataclasses import dataclass, field
+import sys
+
+
+def get_argv():
+    return sys.argv[1]
+
+
+@dataclass
+class SimpleDataObject(object):
+  field_a: str
+  field_b: str = field(default_factory=get_argv)
+
+example = SimpleDataObject(field_a = 'a')
+print(example)  # python3.7 dataclass_4.py test, gives: SimpleDataObject(field_a='a', field_b='test')
+
+
+{% endhighlight %}
+
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
