@@ -3,12 +3,12 @@ layout: post
 title:  Python 3.7 Virtual Env
 date:   2019-02-26 12:00:00
 last_updated: 2019-02-26 12:00:00
-keywords: linux, python
+keywords: linux, python3, VirtualEnv
 summary: "Python 3.7 Virtual Env"
 excerpt: This post is about Virtual.
 categorie: Programlama
-tags:   Python Linux
-categories: [Python]
+tags:   Python3 Linux VirtualEnv
+categories: [Python3]
 permalink: /VirtualEnv/
 comments: false
 published: true
@@ -19,7 +19,7 @@ lang: tr
 <!-- Opsiyonel tema -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 
-[![Installing Python Setup Tools & Virtual Env]({{base.url}}/images/venv/venv1.jpg)]()
+[![Installing Python Setup Tools & Virtual Env]({{base.url}}/images/venv/venv1.jpg)]
 
 ## Python 3.7 “Virtual Env”
 The venv module provides support for creating lightweight “virtual environments” with their own site directories, optionally isolated from system site directories. Each virtual environment has its own Python binary (which matches the version of the binary that was used to create this environment) and can have its own independent set of installed Python packages in its site directories.
