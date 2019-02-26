@@ -23,7 +23,7 @@ lang: tr
 ## Python 3.7 “Virtual Env”
 The venv module provides support for creating lightweight “virtual environments” with their own site directories, optionally isolated from system site directories. Each virtual environment has its own Python binary (which matches the version of the binary that was used to create this environment) and can have its own independent set of installed Python packages in its site directories.
 
-venv is available by default in Python 3.3 and later, and installs pip and setuptools into created virtual environments in Python 3.4 and later.
+- venv is available by default in Python 3.3 and later, and installs pip and setuptools into created virtual environments in Python 3.4 and later.
 
 {% highlight bash %}
 Using venv:
@@ -311,7 +311,7 @@ if __name__ == '__main__':
 {% endhighlight %}
 </div>
 
-A script which below demonstrates how to extend Python 3.3's EnvBuilder, by installing setuptools and pip in created venvs. This functionality is not provided as an integral part of Python 3.3 because, while setuptools and pip are very popular, they are third-party packages. The script needs Python 3.3 or later; invoke it using "python pyvenvex.py -h"…
+- A script which below demonstrates how to extend Python 3.3's EnvBuilder, by installing setuptools and pip in created venvs. This functionality is not provided as an integral part of Python 3.3 because, while setuptools and pip are very popular, they are third-party packages. The script needs Python 3.3 or later; invoke it using "python pyvenvex.py -h"…
 
 
 
