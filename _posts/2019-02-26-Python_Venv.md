@@ -70,7 +70,7 @@ Common installation tools such as Setuptools and pip work as expected with virtu
 
 https://docs.python.org/3/library/venv.html
 
-An example of extending EnvBuilder
+### An example of extending EnvBuilder
 
 The following script shows how to extend EnvBuilder by implementing a subclass which installs setuptools and pip into a created virtual environment:
 
