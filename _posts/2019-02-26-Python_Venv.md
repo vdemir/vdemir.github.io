@@ -12,7 +12,7 @@ categories: [Python3]
 permalink: /VirtualEnv/
 comments: false
 published: true
-lang: tr
+lang: en
 ---
  
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
