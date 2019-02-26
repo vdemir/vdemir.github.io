@@ -12,6 +12,7 @@ lang: tr
 
 <br>
 <input type="text" id="search" placeholder="Type to search">
+
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
 {% include content_page/paging.html %}
