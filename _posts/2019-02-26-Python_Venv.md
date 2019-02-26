@@ -69,10 +69,7 @@ A virtual environment is a directory tree which contains Python executable files
 Common installation tools such as Setuptools and pip work as expected with virtual environments. In other words, when a virtual environment is active, they install Python packages into the virtual environment without needing to be told to do so explicitly.
 
 
-| Python3 | README |
-| ------ | ------ |
-| venv | [https://docs.python.org/3/library/venv.html][PlDb] |
-
+* [Python3 venv](https://docs.python.org/3/library/venv.html)
 
 ### An example of extending EnvBuilder
 
