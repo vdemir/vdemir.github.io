@@ -70,7 +70,9 @@ Common installation tools such as Setuptools and pip work as expected with virtu
 
 https://docs.python.org/3/library/venv.html
 
-A script which below demonstrates how to extend Python 3.3's EnvBuilder, by installing setuptools and pip in created venvs. This functionality is not provided as an integral part of Python 3.3 because, while setuptools and pip are very popular, they are third-party packages. The script needs Python 3.3 or later; invoke it using "python pyvenvex.py -h"…
+An example of extending EnvBuilder
+
+The following script shows how to extend EnvBuilder by implementing a subclass which installs setuptools and pip into a created virtual environment:
 
 <script>
 function myFunction() {
@@ -305,6 +307,7 @@ if __name__ == '__main__':
 {% endhighlight %}
 </div>
 
+A script which below demonstrates how to extend Python 3.3's EnvBuilder, by installing setuptools and pip in created venvs. This functionality is not provided as an integral part of Python 3.3 because, while setuptools and pip are very popular, they are third-party packages. The script needs Python 3.3 or later; invoke it using "python pyvenvex.py -h"…
 
 
 
