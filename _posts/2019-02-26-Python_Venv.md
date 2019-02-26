@@ -83,7 +83,7 @@ function myFunction() {
 </script>
 
 
-<button  onclick="myFunction()">decorators.py - [Göster]/[Gizle]</button> 
+<button  onclick="myFunction()">pyvenvex.py - [Göster]/[Gizle]</button> 
 
 <div id="id01" style="display:none">
 
