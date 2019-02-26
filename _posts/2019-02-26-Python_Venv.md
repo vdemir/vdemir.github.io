@@ -19,7 +19,7 @@ lang: en
 <!-- Opsiyonel tema -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 
-[![Installing Python Setup Tools & Virtual Env]({{base.url}}/images/venv/venv1.jpg)]
+![Installing Python Setup Tools & Virtual Env]({{base.url}}/images/venv/venv1.jpg)
 
 ## Python 3.7 “Virtual Env”
 The venv module provides support for creating lightweight “virtual environments” with their own site directories, optionally isolated from system site directories. Each virtual environment has its own Python binary (which matches the version of the binary that was used to create this environment) and can have its own independent set of installed Python packages in its site directories.
