@@ -313,7 +313,7 @@ if __name__ == '__main__':
 
 
 
-
+[![Django App in Minutes]({{base.url}}/images/venv/venv1.jpg)](http://vdemir.github.io/Django_App)
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
