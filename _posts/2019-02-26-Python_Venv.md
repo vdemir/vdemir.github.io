@@ -7,7 +7,7 @@ keywords: linux, python3, VirtualEnv
 summary: "Python 3.7 Virtual Env"
 excerpt: This post is about Virtual.
 categorie: Programlama
-tags:   Python3 Linux VirtualEnv
+tags:   Python3 Linux VirtualEnv Doc
 categories: [Python3]
 permalink: /VirtualEnv/
 comments: false

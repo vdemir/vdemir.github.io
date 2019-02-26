@@ -7,7 +7,7 @@ keywords: linux, python
 summary: "Python Eğitici Kısa Rehber"
 excerpt: This post is about Python.
 categorie: Programlama
-tags:   Python Linux Programlama
+tags:   Python Linux Programlama Doc
 categories: [Python, Programlama]
 permalink: /pyTutorial/
 comments: false
