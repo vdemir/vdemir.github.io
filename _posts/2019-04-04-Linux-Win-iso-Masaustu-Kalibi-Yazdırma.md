@@ -40,11 +40,13 @@ A Linux program to create a Windows USB stick installer from a real Windows DVD 
 
 
 ## Generic method
+
+{% highlight bash %}
 $ autoreconf --force --install # Most non-Debian derived distros will need this
 $ ./configure --prefix=/usr
 $ make
 $ sudo make install
-
+{% endhighlight %}
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="https://raw.githubusercontent.com/slacka/WoeUSB/master/dev/woeusbgui-screenshot.png" alt="programs" class="resize" />
