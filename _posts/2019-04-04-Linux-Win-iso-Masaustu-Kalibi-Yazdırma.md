@@ -38,9 +38,9 @@ BIOS önyüklemesinde GPT için ilk bölüm 8MB biçimlendirilmemiş ve 'bios_gr
 
 
 
-## Build & Install WoeUSB
+## Woeusb'yi Oluştur Ve Yükle
 
-A Linux program to create a Windows USB stick installer from a real Windows DVD or image.
+Gerçek bir Windows DVD veya görüntüden bir Windows USB stick yükleyici oluşturmak için bir Linux programı.
 
 
 | Sürüm                  |  Çıkış Tarihi |  İndirme Bağlantısı |
@@ -65,10 +65,9 @@ $ sudo make install
 {% endhighlight %}
 
 
-This package contains two programs:
+Bu paket iki program içerir:
 
-woeusb: A command-line utility that enables you to create your own bootable Windows installation USB storage device from an existing Windows Installation disc or disk image
-woeusbgui: A GUI wrapper of woeusb based on WxWidgets
+woeusb: varolan bir Windows Yükleme diskinden veya disk görüntüsünden kendi önyüklenebilir Windows yükleme USB depolama aygıtınızı oluşturmanızı sağlayan bir komut satırı yardımcı programı.
 
 <style>
 img.resize {
