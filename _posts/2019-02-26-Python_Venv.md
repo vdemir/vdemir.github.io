@@ -18,7 +18,6 @@ lang: en
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <!-- Opsiyonel tema -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
-
 ![Installing Python Setup Tools & Virtual Env]({{base.url}}/images/venv/venv1.jpg)
 
 ## Python 3.7 “Virtual Env”
