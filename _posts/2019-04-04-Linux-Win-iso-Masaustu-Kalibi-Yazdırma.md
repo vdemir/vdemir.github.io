@@ -29,7 +29,7 @@ lang: tr
 
 
 
-## List of Win10
+## List of Win10iso
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/assets/usbwriter/woeusb.png" alt="programs" class="resize" />
