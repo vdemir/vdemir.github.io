@@ -13,6 +13,10 @@ lang: tr
 <!-- Opsiyonel tema -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 
+
+BIOS önyüklemesinde GPT için ilk bölüm 8MB biçimlendirilmemiş ve 'bios_grub' bayrak setine ihtiyacınız var.
+
+
 ## İndirmeler
 
 İndirmeyi başlatmak için aşağıdan bir bağlantı seçin. 
