@@ -317,6 +317,15 @@ Install via pip3
 
 pip3 install InstagramApi, schedule
 
+<script>
+function myFunction() {
+    if (document.getElementById('id02').style.display === 'none') {
+        document.getElementById('id02').style.display='block';
+    } else {
+        document.getElementById('id02').style.display='none';
+    }
+}
+</script>
 
 <button  onclick="myFunction()">Instadroid.py - [Göster]/[Gizle]</button> 
 
