@@ -50,6 +50,10 @@ A Linux program to create a Windows USB stick installer from a real Windows DVD 
 
 
 
+<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="https://raw.githubusercontent.com/slacka/WoeUSB/master/dev/woeusbgui-screenshot.png" alt="programs" class="resize" />
+  <p><small>WoeUSB &bull; Win10.</small></p>
+</div>
 
 ## Generic method
 
@@ -61,12 +65,8 @@ $ sudo make install
 {% endhighlight %}
 
 
+ 
 
-<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="https://raw.githubusercontent.com/slacka/WoeUSB/master/dev/woeusbgui-screenshot.png" alt="programs" class="resize" />
-  <p><small>WoeUSB &bull; Win10.</small></p>
-</div> 
-  
 <style>
 img.resize {
   max-width:100%;
