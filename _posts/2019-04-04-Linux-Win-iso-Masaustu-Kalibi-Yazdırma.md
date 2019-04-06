@@ -12,12 +12,42 @@ lang: tr
 ## İndirmeler
 İndirmeyi başlatmak için aşağıdan bir bağlantı seçin. 
 
-https://www.microsoft.com/TR-TR/software-download/windows10ISO
+
+| Sürüm                  |  Çıkış Tarihi |  İndirme Bağlantısı |
+|------------------------|---------------|---------------------|
+| windows10ISO         |  24.10.2018   |  [windows10ISO](https://www.microsoft.com/TR-TR/software-download/windows10ISO)|
+
 
 ## Build & Install WoeUSB
 A Linux program to create a Windows USB stick installer from a real Windows DVD or image.
 
-https://github.com/slacka/WoeUSB
+
+
+
+| Sürüm                  |  Çıkış Tarihi |  İndirme Bağlantısı |
+|------------------------|---------------|---------------------|
+| WoeUSB         |  14.10.2018   |  [WoeUSB](https://github.com/slacka/WoeUSB)|
+
+<html>
+        <title>Table Example</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th, td {
+                border: 1px solid #ccc;
+                padding: 10px;
+            }
+            table.alt tr:nth-child(even) {
+                background-color: #eee;
+            }
+            table.alt tr:nth-child(odd) {
+                background-color: #fff;
+            }            
+        </style>
+ </html> 
+
 
 ## Generic method
 $ autoreconf --force --install # Most non-Debian derived distros will need this
