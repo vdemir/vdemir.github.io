@@ -17,7 +17,7 @@ lang: tr
 BIOS önyüklemesinde GPT için ilk bölüm 8MB biçimlendirilmemiş ve 'bios_grub' bayrak setine ihtiyacınız var.
 
 
-## İndirmeler
+### İndirmeler
 
 İndirmeyi başlatmak için aşağıdan bir bağlantı seçin. 
 
@@ -29,7 +29,7 @@ BIOS önyüklemesinde GPT için ilk bölüm 8MB biçimlendirilmemiş ve 'bios_gr
 
 
 
-## Win10 iso listesi
+### Win10 iso listesi
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/assets/usbwriter/woeusb.png" alt="programs" class="resize" />
@@ -38,7 +38,7 @@ BIOS önyüklemesinde GPT için ilk bölüm 8MB biçimlendirilmemiş ve 'bios_gr
 
 
 
-## Woeusb'yi Oluştur Ve Yükle
+### Woeusb'yi Oluştur Ve Yükle
 
 Gerçek bir Windows DVD veya görüntüden bir Windows USB stick yükleyici oluşturmak için bir Linux programı.
 
@@ -55,7 +55,7 @@ Gerçek bir Windows DVD veya görüntüden bir Windows USB stick yükleyici olu�
   <p><small>WoeUSB &bull; Win10.</small></p>
 </div>
 
-## Genel yöntem
+### Genel yöntem
 
 {% highlight bash %}
 $ autoreconf --force --install # Most non-Debian derived distros will need this
