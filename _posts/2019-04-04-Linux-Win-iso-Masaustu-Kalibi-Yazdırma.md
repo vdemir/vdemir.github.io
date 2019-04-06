@@ -61,7 +61,10 @@ $ sudo make install
 {% endhighlight %}
 
 
- 
+This package contains two programs:
+
+woeusb: A command-line utility that enables you to create your own bootable Windows installation USB storage device from an existing Windows Installation disc or disk image
+woeusbgui: A GUI wrapper of woeusb based on WxWidgets
 
 <style>
 img.resize {
