@@ -311,7 +311,55 @@ if __name__ == '__main__':
 
 - A script which below demonstrates how to extend Python 3.3's EnvBuilder, by installing setuptools and pip in created venvs. This functionality is not provided as an integral part of Python 3.3 because, while setuptools and pip are very popular, they are third-party packages. The script needs Python 3.3 or later; invoke it using "python pyvenvex.py -h"…
 
+## Pip Installation Instructions
 
+Install via pip3
+
+pip3 install InstagramApi, schedule
+
+
+<button  onclick="myFunction()">Instadroid.py - [Göster]/[Gizle]</button> 
+
+<div id="id01" style="display:none">
+
+ {% highlight python  linenos=table %}
+#Instadroid.py for testing auto-post and scheduling post via python
+
+#import
+from InstagramAPI import InstagramAPI # Instagram API -> https://github.com/LevPasha/Instagram-API-python
+from random import randint # random number for random picture
+import schedule # Schedule -> https://github.com/dbader/schedule
+import time
+import os 
+
+#login
+usr = "jeruselam.github.io" # username
+pwd = "20552055v!Vv"    # password
+API = InstagramAPI(usr,pwd)
+API.login() # login
+
+#caption#istanbullovers #tagsforhearts #igistanbul #instagramTurkiye #instagramtr #istanbullife #igturkey #istanbullove #instagramturkey #eskisehir #istanbuldayasam #denizli #tr #lifeinism #alanya #TC #samsun #eskişehir #gaziantep #mersin #adana #konya #trabzon #ankara #turkey #turkiye #izmir #bursa #antalya #bodrum 
+caption = ""
+
+def random_picture(): # we require you to rename your picture as number :3
+     pic = randint(1,3288) # random number 1 - 3
+     auto_post(pic)
+     
+def auto_post(pic):
+    picname = str(pic)+".jpg" # picture name
+    strcon = r'/picture' # concat picture directory
+    def_path = os.getcwd()+strcon # get current directory
+    photo_path = def_path+"/"+picname
+    API.uploadPhoto(photo_path, caption)
+    
+schedule.every(59).minutes.do(random_picture) # every ? minutes
+#schedule.every(4).hours.do(random_picture) # every ? hours
+
+while True:
+    schedule.run_pending() # waiting for schedule
+    time.sleep(9) # countdown 1 second
+{% endhighlight %}
+</div>
 
 [![Django App in Minutes]({{base.url}}/images/venv/venv2.jpg)](http://vdemir.github.io/Django_App)
 
