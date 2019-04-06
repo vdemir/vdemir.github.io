@@ -320,7 +320,7 @@ pip3 install InstagramApi, schedule
 
 <button  onclick="myFunction()">Instadroid.py - [Göster]/[Gizle]</button> 
 
-<div id="id01" style="display:none">
+<div id="id02" style="display:none">
 
  {% highlight python  linenos=table %}
 #Instadroid.py for testing auto-post and scheduling post via python
