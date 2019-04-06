@@ -22,7 +22,7 @@ lang: tr
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/assets/usbwriter/woeusb.png" alt="programs" class="resize" />
-  <p><small>Xfce &bull; DeskTop.</small></p>
+  <p><small>Win10 &bull; DeskTop.</small></p>
 </div>
 
 
@@ -46,8 +46,8 @@ $ sudo make install
 
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="https://github.com/slacka/WoeUSB/blob/master/dev/woeusbgui-screenshot.png" alt="programs" class="resize" />
-  <p><small>Xfce &bull; DeskTop.</small></p>
+  <img src="https://raw.githubusercontent.com/slacka/WoeUSB/master/dev/woeusbgui-screenshot.png" alt="programs" class="resize" />
+  <p><small>WoeUSB &bull; Win10.</small></p>
 </div> 
   
 <style>
