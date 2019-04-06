@@ -19,10 +19,13 @@ lang: tr
 
  
 ## List of Win
+
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/assets/usbwriter/woeusb.png" alt="programs" class="resize" />
   <p><small>Xfce &bull; DeskTop.</small></p>
 </div>
+
+
 
 ## Build & Install WoeUSB
 A Linux program to create a Windows USB stick installer from a real Windows DVD or image.
@@ -32,25 +35,7 @@ A Linux program to create a Windows USB stick installer from a real Windows DVD 
 |------------------------|---------------|---------------------|
 | WoeUSB         |  14.10.2018   |  [WoeUSB](https://github.com/slacka/WoeUSB)|
 
-<html>
-        <title>Table Example</title>
-        <style>
-            table {
-                border-collapse: collapse;
-                width: 100%;
-            }
-            th, td {
-                border: 1px solid #ccc;
-                padding: 10px;
-            }
-            table.alt tr:nth-child(even) {
-                background-color: #eee;
-            }
-            table.alt tr:nth-child(odd) {
-                background-color: #fff;
-            }            
-        </style>
- </html> 
+
 
 
 ## Generic method
@@ -72,4 +57,23 @@ img.resize {
 }
 </style>
  
- 
+
+<html>
+        <title>Table Example</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th, td {
+                border: 1px solid #ccc;
+                padding: 10px;
+            }
+            table.alt tr:nth-child(even) {
+                background-color: #eee;
+            }
+            table.alt tr:nth-child(odd) {
+                background-color: #fff;
+            }            
+        </style>
+ </html> 
