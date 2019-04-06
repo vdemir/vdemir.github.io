@@ -17,11 +17,15 @@ lang: tr
 |------------------------|---------------|---------------------|
 | windows10ISO         |  24.10.2018   |  [windows10ISO](https://www.microsoft.com/TR-TR/software-download/windows10ISO)|
 
+ 
+## List of Win
+<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="{{ site.baseurl }}/assets/usbwriter/woeusb.png" alt="programs" class="resize" />
+  <p><small>Xfce &bull; DeskTop.</small></p>
+</div>
 
 ## Build & Install WoeUSB
 A Linux program to create a Windows USB stick installer from a real Windows DVD or image.
-
-
 
 
 | Sürüm                  |  Çıkış Tarihi |  İndirme Bağlantısı |
@@ -68,9 +72,4 @@ img.resize {
 }
 </style>
  
-## List of Win
-<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/assets/usbwriter/woeusb.png" alt="programs" class="resize" />
-  <p><small>Xfce &bull; DeskTop.</small></p>
-</div> 
  
