@@ -14,8 +14,10 @@ lang: tr
 
 https://www.microsoft.com/TR-TR/software-download/windows10ISO
 
-Build & Install WoeUSB
+## Build & Install WoeUSB
+A Linux program to create a Windows USB stick installer from a real Windows DVD or image.
 
+https://github.com/slacka/WoeUSB
 
 ## Generic method
 $ autoreconf --force --install # Most non-Debian derived distros will need this
@@ -24,10 +26,8 @@ $ make
 $ sudo make install
 
 
-***Snapshots***
-
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/Pisi-Linux-Xfce_1.png" alt="programs" class="resize" />
+  <img src="https://github.com/slacka/WoeUSB/blob/master/dev/woeusbgui-screenshot.png" alt="programs" class="resize" />
   <p><small>Xfce &bull; DeskTop.</small></p>
 </div> 
   
@@ -38,6 +38,9 @@ img.resize {
 }
 </style>
  
-
-{% include dist.html %}
+## List of Win
+<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="{{ site.baseurl }}/assets/usbwriter/woeusb.png" alt="programs" class="resize" />
+  <p><small>Xfce &bull; DeskTop.</small></p>
+</div> 
  
