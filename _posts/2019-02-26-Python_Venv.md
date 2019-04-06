@@ -311,7 +311,7 @@ if __name__ == '__main__':
 
 - A script which below demonstrates how to extend Python 3.3's EnvBuilder, by installing setuptools and pip in created venvs. This functionality is not provided as an integral part of Python 3.3 because, while setuptools and pip are very popular, they are third-party packages. The script needs Python 3.3 or later; invoke it using "python pyvenvex.py -h"…
 
-## Pip Installation Instructions
+### Pip Installation Instructions
 
 Install via pip3
 
