@@ -17,7 +17,8 @@ lang: tr
 |------------------------|---------------|---------------------|
 | windows10ISO         |  24.10.2018   |  [windows10ISO](https://www.microsoft.com/TR-TR/software-download/windows10ISO)|
 
- 
+
+
 ## List of Win
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
