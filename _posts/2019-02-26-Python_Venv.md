@@ -317,7 +317,7 @@ Install via pip3
 pip3 install InstagramApi, schedule
 
 <script>
-function myFunction() {
+function myFunction2() {
     if (document.getElementById('id02').style.display === 'none') {
         document.getElementById('id02').style.display='block';
     } else {
@@ -326,7 +326,7 @@ function myFunction() {
 }
 </script>
 
-<button  onclick="myFunction()">Instadroid.py - [Göster]/[Gizle]</button> 
+<button  onclick="myFunction2()">Instadroid.py - [Göster]/[Gizle]</button> 
 
 <div id="id02" style="display:none">
 
