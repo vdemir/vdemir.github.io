@@ -55,7 +55,7 @@ Gerçek bir Windows DVD veya görüntüden bir Windows USB stick yükleyici olu�
   <p><small>WoeUSB &bull; Win10.</small></p>
 </div>
 
-## Generic method
+## Genel yöntem
 
 {% highlight bash %}
 $ autoreconf --force --install # Most non-Debian derived distros will need this
