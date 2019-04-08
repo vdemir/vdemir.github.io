@@ -17,45 +17,28 @@ description: "
         
 "
 ---
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+<script src="https://slideshow.triptracker.net/slide.js"></script>
 <script>
-function checkJquery(callback) {
-  if (typeof(jQuery) == 'undefined') {
-    var script = document.createElement('script');
-    script.src = 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js';
-    document.getElementsByTagName('head')[0].appendChild(script);
-    script.onload = function(){
-      callback();
-    }
-  } else {
-    callback();
-  }
-}
+  var viewer = new PhotoViewer();
+  viewer.add('//vdemir.github.io/assets/kuran/kuran_0000.jpg');
+  viewer.add('//vdemir.github.io/assets/kuran/kuran_0000.jpg');
+  viewer.add('//vdemir.github.io/assets/kuran/kuran_0000.jpg');
+  viewer.add('//vdemir.github.io/assets/kuran/kuran_0000.jpg');
+  viewer.add('//vdemir.github.io/assets/kuran/kuran_0000.jpg');
+  viewer.add('//vdemir.github.io/assets/kuran/kuran_0000.jpg');
+  viewer.add('//vdemir.github.io/assets/kuran/kuran_0000.jpg');
+  viewer.add('//vdemir.github.io/assets/kuran/kuran_0000.jpg');
+  viewer.add('//vdemir.github.io/assets/kuran/kuran_0000.jpg');
+</script>
+<a href="javascript:void(viewer.show(0))">Slideshow</a>
 
-function checkBxslider(callback) {
-  if (typeof($.bxSlider) == 'undefined') {
-    var script = document.createElement('script');
-    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js';
-    document.getElementsByTagName('head')[0].appendChild(script);
-    script.onload = function(){
-      callback();
-    }
-  } else {
-    callback();
-  }
-}
 
-function loadBxsliderCss() {
-  var link = document.createElement('link');
-  link.rel = 'stylesheet';
-  link.type = 'text/css';
-  link.href = 'https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css'
-  link.media = 'all';
-  document.getElementsByTagName('head')[0].appendChild(link);
-}
-
-function sliderInit() {
-  $(function() {
-    $('[data-slider-id="cwviln"]').html('<div class="slider">
 <li><img src="/assets/kuran/kuran_0000.jpg" /></li>
 <li><img src="/assets/kuran/kuran_0001.jpg" /></li>
 <li><img src="/assets/kuran/kuran_0002.jpg" /></li>
@@ -1302,26 +1285,5 @@ function sliderInit() {
 <li><img src="/assets/kuran/kuran_1243.jpg" /></li>
 <li><img src="/assets/kuran/kuran_1244.jpg" /></li>
 <li><img src="/assets/kuran/kuran_1245.jpg" /></li>
-<li><img src="/assets/kuran/kuran_1246.jpg" /></li>');
-    $('.slider').bxSlider({"auto":false,"mode":"horizontal","pager":true,"speed":500,"controls":true,"pagerType":"full","startSlide":0,"randomStart":false,"slideMargin":0,"autoControls":false});
-  });
-}
-
-loadBxsliderCss();
-
-checkJquery(function(){
-  checkBxslider(function(){
-    sliderInit();
-  });
-});
-
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-36499930-14', 'auto');
-ga('send', 'pageview');
-</script>
- 
+<li><img src="/assets/kuran/kuran_1246.jpg" /></li>
 
