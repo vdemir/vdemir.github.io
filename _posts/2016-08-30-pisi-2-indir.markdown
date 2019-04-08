@@ -47,6 +47,19 @@ $(document).ready(function() {
     <img src="img/cS-2.jpg" />
   </li>
 </ul>
+
+<script>
+$(document).ready(function() {
+    $('#adaptive').lightSlider({
+        adaptiveHeight:true,
+        item:1,
+        slideMargin:0,
+        loop:true
+    });
+});
+</script>
+
+
 <script src="https://slideshow.triptracker.net/slide.js"></script>
 <script>
   var viewer = new PhotoViewer();
