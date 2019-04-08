@@ -20,9 +20,33 @@ description: "
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link type="text/css" rel="stylesheet" href="https://raw.githubusercontent.com/sachinchoolur/lightGallery/master/dist/css/lightgallery.min.css" />
+<script src="https://raw.githubusercontent.com/sachinchoolur/lightGallery/master/dist/js/lightgallery.min.js"></script>
 
-
-
+$(document).ready(function() {
+    $('#imageGallery').lightSlider({
+        gallery:true,
+        item:1,
+        loop:true,
+        thumbItem:9,
+        slideMargin:0,
+        enableDrag: false,
+        currentPagerPosition:'left',
+        onSliderLoad: function(el) {
+            el.lightGallery({
+                selector: '#imageGallery .lslide'
+            });
+        }   
+    });  
+  });
+<ul id="imageGallery">
+  <li data-thumb="/assets/kuran/kuran_0000.jpg" data-src="/assets/kuran/kuran_0000.jpg">
+    <img src="img/cS-1.jpg" />
+  </li>
+  <li data-thumb="/assets/kuran/kuran_0001.jpg" data-src="/assets/kuran/kuran_0001.jpg">
+    <img src="img/cS-2.jpg" />
+  </li>
+</ul>
 <script src="https://slideshow.triptracker.net/slide.js"></script>
 <script>
   var viewer = new PhotoViewer();
