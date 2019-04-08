@@ -22,6 +22,11 @@ description: "
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
 
+
+<div data-slider-id="cwviln"></div>
+<script type="text/javascript" src="https://app.sliderui.com/sliders/cwviln.js"></script>
+
+
 <script>
   $(document).ready(function(){
     $('.slider').bxSlider();
