@@ -33,4 +33,12 @@ description: "
   <li><img src="/assets/photo/kelimemealliquran_0013.jpg" /></li>
   <li><img src="/assets/photo/kelimemealliquran_0014.jpg" /></li>
 </ul>
+<script>
+  $( function() {
+    $( "#slider" ).slider();
+  } );
+  </script>
+ 
+<div id="slider"></div>
+ 
 
