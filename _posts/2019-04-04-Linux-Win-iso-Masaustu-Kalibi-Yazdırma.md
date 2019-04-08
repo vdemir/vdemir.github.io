@@ -123,7 +123,7 @@ img.resize {
 <script>
 // If absolute URL from the remote server is provided, configure the CORS
 // header on that server.
-var url = 'https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/web/compressed.tracemonkey-pldi-09.pdf';
+var url = 'https://archive.org/download/kelimemealliquran/kelimemealliquran.pdf';
 
 // Loaded via <script> tag, create shortcut to access PDF.js exports.
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
@@ -222,7 +222,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 </script>
 
 
-<iframe src="http://mozilla.github.io/pdf.js/web/viewer.html?file=http://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf" width="500px" height="400px" />
+<iframe src="http://mozilla.github.io/pdf.js/web/viewer.html?file=https://archive.org/download/kelimemealliquran/kelimemealliquran.pdf" width="500px" height="400px" />
 
 
 
