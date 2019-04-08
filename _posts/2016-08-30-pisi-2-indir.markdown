@@ -22,7 +22,7 @@ description: "
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link type="text/css" rel="stylesheet" href="https://raw.githubusercontent.com/sachinchoolur/lightGallery/master/dist/css/lightgallery.min.css" />
 <script src="https://raw.githubusercontent.com/sachinchoolur/lightGallery/master/dist/js/lightgallery.min.js"></script>
-
+<script>
 $(document).ready(function() {
     $('#imageGallery').lightSlider({
         gallery:true,
@@ -47,6 +47,7 @@ $(document).ready(function() {
     <img src="img/cS-2.jpg" />
   </li>
 </ul>
+</script>
 
 <script>
 $(document).ready(function() {
