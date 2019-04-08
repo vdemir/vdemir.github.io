@@ -17,7 +17,7 @@ description: "
         
 "
 ---
-
+<script>
 function checkJquery(callback) {
   if (typeof(jQuery) == 'undefined') {
     var script = document.createElement('script');
