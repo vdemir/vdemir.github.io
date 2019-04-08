@@ -125,7 +125,7 @@ img.resize {
 
 <canvas id="the-canvas"></canvas>
 
-
+<script>
 // If absolute URL from the remote server is provided, configure the CORS
 // header on that server.
 var url = 'https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/web/compressed.tracemonkey-pldi-09.pdf';
@@ -224,7 +224,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
   // Initial/first page rendering
   renderPage(pageNum);
 });
-
+</script>
 
 
 
