@@ -39,7 +39,7 @@ function checkJquery(callback) {
 function checkBxslider(callback) {
   if (typeof($.bxSlider) == 'undefined') {
     var script = document.createElement('script');
-    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.min.js';
+    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js';
     document.getElementsByTagName('head')[0].appendChild(script);
     script.onload = function(){
       callback();
@@ -53,7 +53,7 @@ function loadBxsliderCss() {
   var link = document.createElement('link');
   link.rel = 'stylesheet';
   link.type = 'text/css';
-  link.href = 'https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.min.css'
+  link.href = 'https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css'
   link.media = 'all';
   document.getElementsByTagName('head')[0].appendChild(link);
 }
