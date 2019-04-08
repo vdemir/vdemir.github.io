@@ -101,12 +101,6 @@ img.resize {
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
-<div id="example1"></div>
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>
-<script>PDFObject.embed("/assets/pdf/intermediatepythongithubio.pdf", "#example1");</script>
-
 <style>
 #the-canvas {
   border:1px solid black;
@@ -228,7 +222,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 </script>
 
 
-
+<iframe src="http://mozilla.github.io/pdf.js/web/viewer.html?file=http://mozilla.github.io/pdf.js/web/compressed.tracemonkey-pldi-09.pdf" width="500px" height="400px" />
 
 
 
