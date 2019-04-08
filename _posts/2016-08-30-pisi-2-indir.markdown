@@ -1,0 +1,151 @@
+---
+layout: work
+title:  "Pisi Linux 2.0 Beta 2 Çıktı!"
+lang: tr
+encoding: utf-8
+date:   2016-08-30 22:15:04
+category: work
+sequence: 1
+image: Pisi_linux_20.jpg
+active: work
+description: "
+            <p></p>
+            <p>Pisi Linux 2.0 Beta 2 Çıktı!</p>
+            <p>Pisi Linux Ekibi sizlere sunmaktan gurur duyar! </p>
+            <p>Takımımız, son sürüm olan Pisi-Linux-Beta' den sonra, sizlere daha iyi ve kararlı bir Pisi Linux sunabilmek için bir çok hata üzerine çalıştı. Yeni sürümümüz;</p> 
+            Pisi Linux 2.0-Beta2-30-AUGUST !
+        
+"
+---
+
+<div class='col-md-9 col-sm-12'>
+    <ul id='work-slider' class='bxslider'>            
+        <li>
+            <img src="{{site.baseurl}}/images/800x600-2-1.jpg" alt="Deck 1" class='img-responsive img-border' />
+        </li>
+        <li>
+            <img src="{{site.baseurl}}/images/800x600-2-2.jpg" alt="Deck 2" class='img-responsive img-border' />
+        </li>
+        <li>
+            <img src="{{site.baseurl}}/images/800x600-2-3.jpg" alt="Deck 3" class='img-responsive img-border' />
+        </li>
+        <li>
+            <img src="{{site.baseurl}}/images/800x600-2-4.jpg" alt="Deck 4" class='img-responsive img-border' />
+        </li>            
+        <li>
+            <img src="{{site.baseurl}}/images/800x600-2-5.jpg" alt="Deck 1" class='img-responsive img-border' />
+        </li>
+    </ul>
+</div>
+<div class='col-md-3 col-sm-4 col-xs-12 animated'>
+    <h5 class='sub-title'>
+        Özet Bilgiler
+    </h5>
+    <ul class='list-unstyled'>
+        <li>
+            <p>
+                <strong> Proje Amaçları</strong> 
+                <br>
+                Açık Kaynak ve Özgür Yazılım Linux Dağıtımı               
+            </p>                
+        </li>
+        <li>
+            <p>
+                <strong> Çıkış Tarih </strong> 
+                <br>
+                30 Ağustos 2016
+            </p>                
+        </li>
+    </ul>
+
+    <h5 class='sub-title'>
+        Geliştiriciler
+    </h5>
+    <ul class='list-unstyled'>
+        <li>
+            <strong> Pisi Linux Takımı </strong> 
+        </li>
+    </ul>
+
+    <h5 class='sub-title'>
+        Yenilikler
+    </h5>
+    <ul class='list-unstyled'>
+        <li><i class="fa fa-check" aria-hidden="true"></i>
+            Pisi Linux Hoşgeldiniz Uygulaması
+        </li>
+        <li><i class="fa fa-check" aria-hidden="true"></i>
+            Yeni Kaptan Uygulaması
+        </li>
+        <li><i class="fa fa-check" aria-hidden="true"></i>
+            Yeni Paket Yöneticisi
+        </li>
+        <li><i class="fa fa-check" aria-hidden="true"></i>
+            Yeni Kurulum Aracı (Calamares)
+        </li>
+    </ul>
+</div>
+<div class='col-md-9 col-sm-8 col-xs-12 animated'>
+    <h5 class='sub-title'>
+        Sürüm Notları
+    </h5>
+    <p>Pisi Linux Ekibi sizlere sunmaktan gurur duyar!</p>
+
+    <p>  Karşınızda; Pisi-Linux-2.0-Beta2-30-AUGUST-KDE5!</p>
+
+    <p>   Takımımız, son sürüm olan Pisi-Linux-Beta' den sonra, sizlere daha iyi ve kararlı bir Pisi Linux sunabilmek için bir çok hata üzerine çalıştı.</p>
+
+    <p>Yeni sürümümüz Pisi Linux 2.0-Beta2-30-AUGUST-KDE5
+    <p>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Kernel Sürümü: 4.7.2</p>
+    <p>   
+            <i class="fa fa-check" aria-hidden="true"></i> 
+            GRUB2 Sürümü: 2.02_beta2</p>
+    <p>    
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Display Server Sürümü: X.org 1.18.3</p>
+    <p>    
+            <i class="fa fa-check" aria-hidden="true"></i>
+            KDE Plasma Sürümü: 5.7.2</p>
+    <p>    
+            <i class="fa fa-check" aria-hidden="true"></i>
+            QT Sürümü: 5.6.0</p>
+    <p>    
+            <i class="fa fa-check" aria-hidden="true"></i>
+            GCC Sürümü: 5.3.0</p>
+    <p>    
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Firefox Sürümü: 47.0</p>
+    <p>    
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Chromium-Browser Sürümü: 53.0.2785.101</p>
+    <p>    
+            <i class="fa fa-check" aria-hidden="true"></i>
+            GIMP Sürümü: 2.8.16</p>
+    <p>    
+            <i class="fa fa-check" aria-hidden="true"></i>
+            MPV-Player Sürümü: 0.17.0</p>
+    <p>    
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Vokoscreen Sürümü: 2.5.0</p>
+    <p>    
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Qt Creator Sürümü: 3.5.1</p>
+    <p>   Ve son olarak, Pisi-Linux-2.0-Beta-KDE5-Beta2 systemd olmadan geliyor.</p>
+    </p>
+    <ul class='list-unstyled list-primary'>
+        <li>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Temiz ve Modern Mimari
+        </li>
+        <li>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Kullanıcı Dostu Meteryaller
+        </li>
+        <li>
+            <i class="fa fa-check" aria-hidden="true"></i>
+            Çözüme yönelik öz verili çalışmalar
+        </li>
+    </ul>
+</div>
