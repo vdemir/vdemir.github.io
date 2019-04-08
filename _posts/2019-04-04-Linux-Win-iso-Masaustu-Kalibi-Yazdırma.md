@@ -226,7 +226,16 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 
 
 
-
+<script type="text/javascript"
+	src="https://slideshow.triptracker.net/slide.js"></script>
+<script type="text/javascript">
+<!--
+  var viewer = new PhotoViewer();
+  viewer.add('/assets/photo/kelimemealliquran_0012.jpg');
+  viewer.add('/assets/photo/kelimemealliquran_0013.jpg');
+  viewer.add('/assets/photo/kelimemealliquran_0014.jpg');
+//--></script>
+<a href="javascript:void(viewer.show(0))">Slideshow</a>
 
 
 
