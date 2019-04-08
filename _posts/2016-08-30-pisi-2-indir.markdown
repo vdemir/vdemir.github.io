@@ -19,21 +19,48 @@ description: "
 ---
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
 
+function checkJquery(callback) {
+  if (typeof(jQuery) == 'undefined') {
+    var script = document.createElement('script');
+    script.src = 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js';
+    document.getElementsByTagName('head')[0].appendChild(script);
+    script.onload = function(){
+      callback();
+    }
+  } else {
+    callback();
+  }
+}
 
-<div data-slider-id="cwviln"></div>
-<script type="text/javascript" src="https://app.sliderui.com/sliders/cwviln.js"></script>
+function checkBxslider(callback) {
+  if (typeof($.bxSlider) == 'undefined') {
+    var script = document.createElement('script');
+    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.min.js';
+    document.getElementsByTagName('head')[0].appendChild(script);
+    script.onload = function(){
+      callback();
+    }
+  } else {
+    callback();
+  }
+}
 
+function loadBxsliderCss() {
+  var link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = 'https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.12/jquery.bxslider.min.css'
+  link.media = 'all';
+  document.getElementsByTagName('head')[0].appendChild(link);
+}
 
-<script>
-  $(document).ready(function(){
-    $('.slider').bxSlider();
-  });
-</script>
- {% for element in site.data.elements %}
-<ul class="bxslider">
+function sliderInit() {
+  $(function() {
+    $('[data-slider-id="cwviln"]').html('<div class="slider">
 <li><img src="/assets/kuran/kuran_0000.jpg" /></li>
 <li><img src="/assets/kuran/kuran_0001.jpg" /></li>
 <li><img src="/assets/kuran/kuran_0002.jpg" /></li>
@@ -1280,9 +1307,26 @@ description: "
 <li><img src="/assets/kuran/kuran_1243.jpg" /></li>
 <li><img src="/assets/kuran/kuran_1244.jpg" /></li>
 <li><img src="/assets/kuran/kuran_1245.jpg" /></li>
-<li><img src="/assets/kuran/kuran_1246.jpg" /></li>
-</ul> 
-{% endfor %}
+<li><img src="/assets/kuran/kuran_1246.jpg" /></li>');
+    $('.slider').bxSlider({"auto":false,"mode":"horizontal","pager":true,"speed":500,"controls":true,"pagerType":"full","startSlide":0,"randomStart":false,"slideMargin":0,"autoControls":false});
+  });
+}
+
+loadBxsliderCss();
+
+checkJquery(function(){
+  checkBxslider(function(){
+    sliderInit();
+  });
+});
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-36499930-14', 'auto');
+ga('send', 'pageview');
 
 <script>
   $( function() {
