@@ -19,16 +19,13 @@ description: "
 ---
 
 
-<link rel="stylesheet" href='{{ "/css/font-awesome.min.css" | prepend: site.baseurl }}'>
-<link rel="stylesheet" href='{{ "/css/icofont.min.css" | prepend: site.baseurl }}'>
-<link rel="stylesheet" href='{{ "/css/font.min.css" | prepend: site.baseurl }}'>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
         
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src='{{"/js/bootstrap.min.js" | prepend: site.baseurl}}'></script>
-<script src='{{"/js/jquery.bxslider.min.js" | prepend: site.baseurl}}'></script>
-<script src='{{"/js/scroll.reveal.min.js" | prepend: site.baseurl}}'></script>
-<script src='{{"/js/custom.min.js" | prepend: site.baseurl}}'></script>
+<script src='{{"/scripts/photo/js/bootstrap.min.js" | prepend: site.baseurl}}'></script>
+<script src='{{"/scripts/photo/js/jquery.bxslider.min.js" | prepend: site.baseurl}}'></script>
+<script src='{{"/scripts/photo/js/scroll.reveal.min.js" | prepend: site.baseurl}}'></script>
+<script src='{{"/scripts/photo/js/custom.min.js" | prepend: site.baseurl}}'></script>
 
 <div class='col-md-9 col-sm-12'>
     <ul id='work-slider' class='bxslider'>            
