@@ -107,10 +107,11 @@ img.resize {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.1.1/pdfobject.min.js"></script>
 <script>PDFObject.embed("/assets/pdf/intermediatepythongithubio.pdf", "#example1");</script>
 
-
+<style>
 #the-canvas {
   border:1px solid black;
 }
+</style>
 
 <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
 
