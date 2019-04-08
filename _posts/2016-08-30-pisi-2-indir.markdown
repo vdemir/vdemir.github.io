@@ -28,11 +28,15 @@ description: "
   });
 </script>
 
+{% for post in site.posts offset:1 limit:3 %}
 <ul class="bxslider">
   <li><img src="/assets/photo/kelimemealliquran_0012.jpg" /></li>
   <li><img src="/assets/photo/kelimemealliquran_0013.jpg" /></li>
   <li><img src="/assets/photo/kelimemealliquran_0014.jpg" /></li>
 </ul>
+{% endfor %}
+
+
 <script>
   $( function() {
     $( "#slider" ).slider();
