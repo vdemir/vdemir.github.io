@@ -32,7 +32,7 @@ description: "
     $('.slider').bxSlider();
   });
 </script>
- 
+ {% for element in site.data.elements %}
 <ul class="bxslider">
 <li><img src="/assets/kuran/kuran_0000.jpg" /></li>
 <li><img src="/assets/kuran/kuran_0001.jpg" /></li>
@@ -1282,7 +1282,7 @@ description: "
 <li><img src="/assets/kuran/kuran_1245.jpg" /></li>
 <li><img src="/assets/kuran/kuran_1246.jpg" /></li>
 </ul> 
-
+{% endfor %}
 
 <script>
   $( function() {
