@@ -222,7 +222,7 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 </script>
 
 
-<iframe src="http://mozilla.github.io/pdf.js/web/viewer.html?file=https://archive.org/download/kelimemealliquran/kelimemealliquran.pdf" width="1000px" height="1000px" />
+<iframe src="http://mozilla.github.io/pdf.js/web/viewer.html?file=https://archive.org/download/kelimemealliquran/kelimemealliquran.pdf" width="800px" height="800px" />
 
 
 
