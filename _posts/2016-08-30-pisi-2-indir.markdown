@@ -27,14 +27,14 @@ description: "
 <script>
   var viewer = new PhotoViewer();
   viewer.add('//vdemir.github.io/assets/kuran/kuran_0000.jpg');
-  viewer.add('//vdemir.github.io/assets/kuran/kuran_0000.jpg');
-  viewer.add('//vdemir.github.io/assets/kuran/kuran_0000.jpg');
-  viewer.add('//vdemir.github.io/assets/kuran/kuran_0000.jpg');
-  viewer.add('//vdemir.github.io/assets/kuran/kuran_0000.jpg');
-  viewer.add('//vdemir.github.io/assets/kuran/kuran_0000.jpg');
-  viewer.add('//vdemir.github.io/assets/kuran/kuran_0000.jpg');
-  viewer.add('//vdemir.github.io/assets/kuran/kuran_0000.jpg');
-  viewer.add('//vdemir.github.io/assets/kuran/kuran_0000.jpg');
+  viewer.add('//vdemir.github.io/assets/kuran/kuran_0001.jpg');
+  viewer.add('//vdemir.github.io/assets/kuran/kuran_0002.jpg');
+  viewer.add('//vdemir.github.io/assets/kuran/kuran_0003.jpg');
+  viewer.add('//vdemir.github.io/assets/kuran/kuran_0004.jpg');
+  viewer.add('//vdemir.github.io/assets/kuran/kuran_0005.jpg');
+  viewer.add('//vdemir.github.io/assets/kuran/kuran_0006.jpg');
+  viewer.add('//vdemir.github.io/assets/kuran/kuran_0007.jpg');
+  viewer.add('//vdemir.github.io/assets/kuran/kuran_0008.jpg');
 </script>
 <a href="javascript:void(viewer.show(0))">Slideshow</a>
 
