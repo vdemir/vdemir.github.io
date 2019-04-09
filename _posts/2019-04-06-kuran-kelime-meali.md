@@ -16,7 +16,7 @@ lang: tr
 
  
 <div align="right">
-<a href="{{ site.baseurl }}/viewer/viewer.html"><img src="{{ site.baseurl }}/images/pdf.png" alt="viewer" width="99" height="99"></a></div>
+<a href="{{ site.baseurl }}/viewer/viewer.html"><img src="{{ site.baseurl }}/images/pdf.png" alt="viewer" width="69" height="69"></a></div>
 
 {% assign maxRelated = 1246 %}
 {% assign maxRelatedCounter = 1 %}
