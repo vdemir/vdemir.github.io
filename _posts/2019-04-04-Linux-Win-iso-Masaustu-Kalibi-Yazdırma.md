@@ -100,11 +100,4 @@ img.resize {
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-
- 
-<script src="node-modules/@lcluber/pdfvjs/dist/pdfv.iife.min.js"></script>
-<canvas id="pdfViewer"></canvas>
-var viewer = new PDFv.Viewer();
-viewer.getDocument('vdemir.github.io/assets/kuran/kuran-kelime-meali.pdf').then(function() {
-  viewer.display('pdfViewer', viewer.numPages);// render the last page of the document
-});
+{% include pdf-viewer/viewer.html %}
