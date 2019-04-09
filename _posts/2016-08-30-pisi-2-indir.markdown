@@ -170,7 +170,7 @@ function showSlides(n) {
 }
 </script>
  
-
+[!]({{base.url}}/assets/kuran/kuran_0000.jpg)
 
 <li><img src="{{ site.baseurl }}/assets/kuran/kuran_0000.jpg" /></li>
 <li><img src="{{ site.baseurl }}/assets/kuran/kuran_0001.jpg" /></li>
