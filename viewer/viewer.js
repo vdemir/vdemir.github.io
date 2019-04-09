@@ -4223,7 +4223,7 @@
         kind: OptionKind.VIEWER + OptionKind.PREFERENCE
       },
       defaultUrl: {
-        value: 'compressed.tracemonkey-pldi-09.pdf',
+        value: 'kuran.pdf',
         kind: OptionKind.VIEWER
       },
       defaultZoomValue: {
