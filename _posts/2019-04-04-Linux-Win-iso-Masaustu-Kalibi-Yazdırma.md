@@ -101,6 +101,24 @@ img.resize {
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
-<p>(If you have .xls or .xlsx files, just save as &quot;OpenDocument Format&quot; in your office suite to be able to use it with ViewerJS)</p>
-<h2 id="portable-document-format-pdf-">Portable Document Format (.pdf)</h2>
-<iframe src = "vdemir.github.io/ViewerJS/kuran-kelime-meali.pdf" width='700' height='500' allowfullscreen webkitallowfullscreen></iframe>
+<script src="https://vdemir.github.io/scripts/pdfobject.js"></script>
+<script>
+var options = {
+	pdfOpenParams: {
+		navpanes: 0,
+		toolbar: 0,
+		statusbar: 0,
+		view: "FitV",
+		pagemode: "thumbs",
+		page: 2
+	},
+	forcePDFJS: true,
+	PDFJS_URL: "../pdfjs/web/viewer.html"
+};
+
+var myPDF = PDFObject.embed("vdemir.github.io/assets/kuran/kuran-kelime-meali.pdf", "#pdf", options);
+
+var el = document.querySelector("#results");
+el.setAttribute("class", (myPDF) ? "success" : "fail");
+el.innerHTML = (myPDF) ? "PDFObject was successful!" : "Uh-oh, the embed didn't work.";
+</script>
