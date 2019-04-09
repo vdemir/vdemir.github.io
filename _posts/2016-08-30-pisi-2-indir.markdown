@@ -13,11 +13,21 @@ lang: tr
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <!-- Opsiyonel tema -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
- 
+
+
+
+{% assign maxRelated = 1246 %}
+{% assign maxRelatedCounter = 1 %}
+
+
 {% assign image_files = site.static_files | where: "image", true %}
 {% for myimage in image_files %}
-![image]({{base.url}}/assets/kuran/{{ myimage.name }}){:class="img-responsive"}
+![image]({{base.url}}/assets/kuran/maxRelatedCounter.jpg){:class="img-responsive"}
   {{ myimage.path }}
+{% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+      {% if maxRelatedCounter >= maxRelated %}
+        {% break %}
+      {% endif %}
 {% endfor %}
 
 
