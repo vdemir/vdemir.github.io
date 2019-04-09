@@ -133,7 +133,7 @@ img.resize {
 <script>
 / If absolute URL from the remote server is provided, configure the CORS
 // header on that server.
-var url = 'https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/web/compressed.tracemonkey-pldi-09.pdf';
+var url = 'https://vdemir.github.io/assets/kuran/kuran-kelime-meali.pdf';
 
 // Loaded via <script> tag, create shortcut to access PDF.js exports.
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
