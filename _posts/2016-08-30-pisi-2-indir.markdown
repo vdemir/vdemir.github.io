@@ -170,7 +170,7 @@ function showSlides(n) {
 }
 </script>
  
-![image]({{base.url}}/assets/kuran/kuran_0000.jpg){: width=200px}
+![image]({{base.url}}/assets/kuran/kuran1.jpg){: width=200px}
 
 <li><img src="{{ site.baseurl }}/assets/kuran/kuran_0000.jpg" /></li>
 <li><img src="{{ site.baseurl }}/assets/kuran/kuran_0001.jpg" /></li>
