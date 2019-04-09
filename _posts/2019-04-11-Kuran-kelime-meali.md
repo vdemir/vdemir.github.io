@@ -9,5 +9,5 @@ published: true
 lang: tr
 ---
 
-<form action="{{ site.baseurl }}/search/">
+<form action="{{ site.baseurl }}/viewer">
 </form>
