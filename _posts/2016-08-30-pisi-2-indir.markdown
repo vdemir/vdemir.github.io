@@ -23,7 +23,7 @@ lang: tr
 {% assign image_files = site.static_files | where: "image", true %}
 {% for myimage in image_files %}
 ![image]({{base.url}}/assets/kuran/{{ maxRelatedCounter }}.jpg){:class="img-responsive"}
-  {{ maxRelatedCounter }}{{ file.modified_time }}
+  {{ maxRelatedCounter }}
 {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
         {% break %}
