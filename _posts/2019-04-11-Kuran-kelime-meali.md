@@ -8,8 +8,14 @@ comments: false
 published: true
 lang: tr
 ---
- 
+
 <html>
+
+  <link rel="stylesheet" href="viewer.css">
+  <!-- This snippet is used in production (included from viewer.html) -->
+  <link rel="resource" type="application/l10n" href="locale/locale.properties">
+  <script src="pdf.js"></script>
+  <script src="viewer.js"></script>
 <body tabindex="1" class="loadingInProgress">
   <div id="outerContainer">
 
