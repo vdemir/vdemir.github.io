@@ -9,4 +9,4 @@ published: true
 lang: tr
 ---
 
-<form action="{{ site.baseurl }}/viewer"></form>
+{% {{ site.baseurl }} viewer/viewer.html %}
