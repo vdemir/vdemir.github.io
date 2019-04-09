@@ -14,7 +14,9 @@ lang: tr
 <!-- Opsiyonel tema -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 
-
+ 
+<div align="right">
+<a href="{{ site.baseurl }}/viewer/viewer.html"><img src="{{ site.baseurl }}/images/pdf.png" alt="viewer" width="88" height="31"></a></div>
 
 {% assign maxRelated = 1246 %}
 {% assign maxRelatedCounter = 1 %}
