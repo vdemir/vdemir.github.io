@@ -112,4 +112,6 @@ img.resize {
 <a href="javascript:void(viewer.show(0))">Slideshow</a>
 
 
+<embed src="vdemir.github.io/assets/kuran/kuran-kelime-meali.pdf" type="application/pdf" width="100%" height="600px" />
+
 
