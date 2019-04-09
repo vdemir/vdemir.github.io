@@ -202,7 +202,6 @@ PDFJS.getDocument(pdfurl).then(function(livePdf_) {
 
 
 
-<div id="content">Clcik here to Scroll ↓</div>
 <a href="#" id="live-back-top" title="Back to top">↑</a>
 
 
