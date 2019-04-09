@@ -101,9 +101,9 @@ img.resize {
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
+<script src="https://unpkg.com/pdfjs-dist@2.0.943/build/pdf.min.js"></script>
 
-
-<script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
+ 
 
 <h1>PDF.js Previous/Next example</h1>
 
