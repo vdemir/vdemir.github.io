@@ -1,24 +1,18 @@
 ---
-layout: work
-title:  "Pisi Linux 2.0 Beta 2 Çıktı!"
+layout: post
+title:  Kuran Kelime Meali
+date:   2019-04-14 12:00:00
+tags:   Kelime
+categories: [Kelime, Sözlük ]
+comments: false
+published: true
 lang: tr
-encoding: utf-8
-date:   2016-08-30 22:15:04
-category: work
-sequence: 1
-image: Pisi_linux_20.jpg
-active: work
-description: "
-            <p></p>
-            <p>Pisi Linux 2.0 Beta 2 Çıktı!</p>
-            <p>Pisi Linux Ekibi sizlere sunmaktan gurur duyar! </p>
-            <p>Takımımız, son sürüm olan Pisi-Linux-Beta' den sonra, sizlere daha iyi ve kararlı bir Pisi Linux sunabilmek için bir çok hata üzerine çalıştı. Yeni sürümümüz;</p> 
-            Pisi Linux 2.0-Beta2-30-AUGUST !
-        
-"
 ---
 
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- Opsiyonel tema -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
  
 ![image]({{base.url}}/assets/kuran/kuran1.jpg){: width=200px}"
 ![image]({{base.url}}/assets/kuran/kuran2.jpg){: width=200px}"
@@ -1265,3 +1259,9 @@ description: "
 ![image]({{base.url}}/assets/kuran/kuran1243.jpg){: width=200px}"
 ![image]({{base.url}}/assets/kuran/kuran1244.jpg){: width=200px}"
 ![image]({{base.url}}/assets/kuran/kuran1245.jpg){: width=200px}"
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
