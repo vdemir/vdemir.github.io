@@ -100,7 +100,54 @@ img.resize {
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<div id="example1"></div>
+
+<style>
+
+<div id="@charset "UTF-8";
+
+* { box-sizing: border-box; }
+
+body {
+	font: 16px sans-serif;
+	color: #454545;
+    /*background: rgb(218,244,249);*/
+    background: #fff;
+	margin: 0;
+	padding: 3rem 2rem 2rem 2rem;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 1.4rem;
+	color: #555;
+}
+
+.pdfobject-com {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2016;
+}
+
+.pdfobject-com a:link, .pdfobject-com a:visited {
+	color: #fff;
+	font-weight: bold;
+	display: block;
+	padding: .25rem 1rem;
+	background: #6699FF;
+	text-decoration: none;
+}
+
+.pdfobject-com a:hover, .pdfobject-com a:visited:hover {
+	color: #FFF;
+	background: #FF3366;
+	text-decoration: none;
+}
+
+.pdfobject-com a:before {
+     content: "\2190";
+     margin-right: .25rem;
+}example1"></div>
 <script src="https://vdemir.github.io/scripts/pdfobject.js"></script>
 <script>PDFObject.embed("vdemir.github.io/assets/kuran/kuran-kelime-meali.pdf", "#example1");</script>
 <script>
@@ -116,6 +163,7 @@ var options = {
 	forcePDFJS: true,
 	PDFJS_URL: "../pdfjs/web/viewer.html"
 };
+</style>
 
 var myPDF = PDFObject.embed("vdemir.github.io/assets/kuran/kuran-kelime-meali.pdf", "#pdf", options);
 
