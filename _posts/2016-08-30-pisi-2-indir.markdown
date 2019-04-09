@@ -14,7 +14,7 @@ lang: tr
 <!-- Opsiyonel tema -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
  
-![image]({{base.url}}/assets/kuran/kuran1.jpg){=300x300}
+![image]({{base.url}}/assets/kuran/kuran1.jpg){:class="img-responsive"}
 ![image]({{base.url}}/assets/kuran/kuran2.jpg){: width=300px}
 ![image]({{base.url}}/assets/kuran/kuran3.jpg){: width=300px}
 ![image]({{base.url}}/assets/kuran/kuran4.jpg){: width=300px}
