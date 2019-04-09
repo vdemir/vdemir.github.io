@@ -148,8 +148,8 @@ h1 {
      content: "\2190";
      margin-right: .25rem;
 }example1"></div>
-<script src="https://vdemir.github.io/scripts/pdfobject.js"></script>
-<script>PDFObject.embed("vdemir.github.io/assets/kuran/kuran-kelime-meali.pdf", "#example1");</script>
+
+<script src="https://pdfobject.com/js/pdfobject.min.js"></script>
 <script>
 var options = {
 	pdfOpenParams: {
@@ -161,7 +161,7 @@ var options = {
 		page: 2
 	},
 	forcePDFJS: true,
-	PDFJS_URL: "../pdfjs/web/viewer.html"
+	PDFJS_URL: "https://raw.githubusercontent.com/mozilla/pdf.js/master/web/viewer.html"
 };
 </style>
 
