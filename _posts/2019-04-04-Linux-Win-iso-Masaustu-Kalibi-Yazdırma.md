@@ -105,9 +105,9 @@ img.resize {
 <script src="https://slideshow.triptracker.net/slide.js"></script>
 <script>
   var viewer = new PhotoViewer();
-  viewer.add('//vdemir.github.io/assets/photo/kelimemealliquran_0012.jpg');
-  viewer.add('//vdemir.github.io/assets/photo/kelimemealliquran_0013.jpg');
-  viewer.add('//vdemir.github.io/assets/photo/kelimemealliquran_0014.jpg');
+  viewer.add('//vdemir.github.io/assets/kuran/kuran012.jpg');
+  viewer.add('//vdemir.github.io/assets/kuran/kuran012.jpg');
+  viewer.add('//vdemir.github.io/assets/kuran/kuran012.jpg');
 </script>
 <a href="javascript:void(viewer.show(0))">Slideshow</a>
 
