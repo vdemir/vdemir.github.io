@@ -14,7 +14,7 @@ lang: tr
 <!-- Opsiyonel tema -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
  
-![image]({{base.url}}/assets/kuran/kuran1.jpg){: width=200px}"
+![image]({{base.url}}/assets/kuran/kuran1.jpg){: width=100px}"
 ![image]({{base.url}}/assets/kuran/kuran2.jpg){: width=200px}"
 ![image]({{base.url}}/assets/kuran/kuran3.jpg){: width=200px}"
 ![image]({{base.url}}/assets/kuran/kuran4.jpg){: width=200px}"
@@ -25,7 +25,7 @@ lang: tr
 ![image]({{base.url}}/assets/kuran/kuran9.jpg){: width=200px}"
 ![image]({{base.url}}/assets/kuran/kuran10.jpg){: width=200px}"
 ![image]({{base.url}}/assets/kuran/kuran11.jpg){: width=200px}"
-![image]({{base.url}}/assets/kuran/kuran12.jpg){: width=200px}"
+![image]({{base.url}}/assets/kuran/kuran12.jpg){: width=100px}"
 ![image]({{base.url}}/assets/kuran/kuran13.jpg){: width=200px}"
 ![image]({{base.url}}/assets/kuran/kuran14.jpg){: width=200px}"
 ![image]({{base.url}}/assets/kuran/kuran15.jpg){: width=200px}"
