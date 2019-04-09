@@ -10,7 +10,5 @@ lang: tr
 ---
 
 {% include pdf-viewer/viewer.html %}
-
-
-{% include dist.html %}
+ 
  
