@@ -46,3 +46,8 @@ exclude:
 - Gemfile
 - Gemfile.lock
 include: ['.htaccess']
+defaults:
+  - scope:
+      path: "assets/kuran"
+    values:
+      image: true
