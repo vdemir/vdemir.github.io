@@ -127,12 +127,12 @@ img {
 <div class="container">
   <div class="mySlides">
     <div class="numbertext">1 / 6</div>
-    <img src="{{ site.url }}/assets/kuran/kuran_0000.jpg" style="width:100%">
-    <img src="{{ site.url }}/assets/kuran/kuran_0001.jpg" style="width:100%">
-    <img src="{{ site.url }}/assets/kuran/kuran_0002.jpg" style="width:100%">
-    <img src="{{ site.url }}/assets/kuran/kuran_0003.jpg" style="width:100%">
-    <img src="{{ site.url }}/assets/kuran/kuran_0004.jpg" style="width:100%">
-    <img src="{{ site.url }}/assets/kuran/kuran_0005.jpg" style="width:100%">
+    <img src="{{ site.url }}/assets/kuran/kuran1.jpg" style="width:100%">
+    <img src="{{ site.url }}/assets/kuran/kuran2.jpg" style="width:100%">
+    <img src="{{ site.url }}/assets/kuran/kuran3.jpg" style="width:100%">
+    <img src="{{ site.url }}/assets/kuran/kuran4.jpg" style="width:100%">
+    <img src="{{ site.url }}/assets/kuran/kuran5.jpg" style="width:100%">
+    <img src="{{ site.url }}/assets/kuran/kuran6.jpg" style="width:100%">
   </div> 
 
   <div class="caption-container">
