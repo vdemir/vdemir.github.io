@@ -103,6 +103,8 @@ img.resize {
 
 <script src="https://unpkg.com/pdfjs-dist@2.0.943/build/pdf.min.js"></script>
 
+
+<script src="https://unpkg.com/pdfjs-dist@2.0.943/build/pdf.worker.min.js"></script>
  
 
 <h1>PDF.js Previous/Next example</h1>
