@@ -101,17 +101,6 @@ img.resize {
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
-
-<script src="https://slideshow.triptracker.net/slide.js"></script>
-<script>
-  var viewer = new PhotoViewer();
-  viewer.add('//vdemir.github.io/assets/kuran/kuran012.jpg');
-  viewer.add('//vdemir.github.io/assets/kuran/kuran013.jpg');
-  viewer.add('//vdemir.github.io/assets/kuran/kuran014.jpg');
-</script>
-<a href="javascript:void(viewer.show(0))">Slideshow</a>
-
-
-<embed src="vdemir.github.io/assets/kuran/kuran-kelime-meali.pdf" type="application/pdf" width="100%" height="600px" />
-
-
+<p>(If you have .xls or .xlsx files, just save as &quot;OpenDocument Format&quot; in your office suite to be able to use it with ViewerJS)</p>
+<h2 id="portable-document-format-pdf-">Portable Document Format (.pdf)</h2>
+<iframe src = "/ViewerJS/#../demodoc.pdf" width='700' height='500' allowfullscreen webkitallowfullscreen></iframe>
