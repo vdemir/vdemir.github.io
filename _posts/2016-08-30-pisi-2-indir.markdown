@@ -117,9 +117,7 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
-</style>
-</head>
-<body>
+</style> 
 
 <div class="slideshow-container">
 
@@ -169,9 +167,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
-
-</body>
-</html> 
+ 
 
 
 <li><img src="/assets/kuran/kuran_0000.jpg" /></li>
