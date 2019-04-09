@@ -9,6 +9,5 @@ published: true
 lang: tr
 ---
 
-<form action="{{ site.baseurl }}/search/" method="get">
-	<input type="search" name="q" placeholder="Ne bilmek istiyorsun?" data-search-input id="goog-wm-qt" ><input type="submit" value="Ara" id="goog-wm-sb" />
+<form action="{{ site.baseurl }}/search/">
 </form>
