@@ -103,4 +103,4 @@ img.resize {
 
 <p>(If you have .xls or .xlsx files, just save as &quot;OpenDocument Format&quot; in your office suite to be able to use it with ViewerJS)</p>
 <h2 id="portable-document-format-pdf-">Portable Document Format (.pdf)</h2>
-<iframe src = "/ViewerJS/#../demodoc.pdf" width='700' height='500' allowfullscreen webkitallowfullscreen></iframe>
+<iframe src = "vdemir.github.io/ViewerJS/kuran-kelime-meali.pdf" width='700' height='500' allowfullscreen webkitallowfullscreen></iframe>
