@@ -100,8 +100,9 @@ img.resize {
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-
+<div id="example1"></div>
 <script src="https://vdemir.github.io/scripts/pdfobject.js"></script>
+<script>PDFObject.embed("vdemir.github.io/assets/kuran/kuran-kelime-meali.pdf", "#example1");</script>
 <script>
 var options = {
 	pdfOpenParams: {
