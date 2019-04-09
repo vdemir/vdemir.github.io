@@ -147,8 +147,9 @@ h1 {
 .pdfobject-com a:before {
      content: "\2190";
      margin-right: .25rem;
-}example1"></div>
+}
 
+</style>
 <script src="https://pdfobject.com/js/pdfobject.min.js"></script>
 <script>
 var options = {
@@ -163,7 +164,6 @@ var options = {
 	forcePDFJS: true,
 	PDFJS_URL: "https://raw.githubusercontent.com/mozilla/pdf.js/master/web/viewer.html"
 };
-</style>
 
 var myPDF = PDFObject.embed("vdemir.github.io/assets/kuran/kuran-kelime-meali.pdf", "#pdf", options);
 
