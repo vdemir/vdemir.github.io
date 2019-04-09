@@ -106,132 +106,98 @@ img.resize {
 
 <script src="https://unpkg.com/pdfjs-dist@2.0.943/build/pdf.worker.min.js"></script>
  
+<script src="http://mozilla.github.io/pdf.js/build/pdf.js"></script>
 
-<h1>PDF.js Previous/Next example</h1>
+
+<body>
+<h1>PDF.js previous/Next example</h1>
 
 <div>
-  <button id="prev">Previous</button>
-  <button id="next">Next</button>
-  &nbsp; &nbsp;
-  <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+<hr/>
+	<canvas id="live-canvas"></canvas>
+  <button id="prevlive">previous</button>
+  <button id="livenext">next</button>
+<br/>
+	<span>Page: <span id="live_number"></span> / <span id="total_count"></span></span>
 </div>
-
-<canvas id="the-canvas"></canvas>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</body>
 
 <script>
-/ If absolute URL from the remote server is provided, configure the CORS
-// header on that server.
-var url = 'https://vdemir.github.io/assets/kuran/kuran-kelime-meali.pdf';
+var pdfurl = 'http://cdn.mozilla.net/pdfjs/tracemonkey.pdf';
+PDFJS.workerSrc = 'http://mozilla.github.io/pdf.js/build/pdf.worker.js';
 
-// Loaded via <script> tag, create shortcut to access PDF.js exports.
-var pdfjsLib = window['pdfjs-dist/build/pdf'];
+var livePdf = null,
+pdfnumber = 1,
+pageRendering = false,
+nympsystem = null,
+scale = 0.8,
+canvas = document.getElementById('live-canvas'),
+ctx = canvas.getContext('2d');
 
-// The workerSrc property shall be specified.
-pdfjsLib.GlobalWorkerOptions.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.worker.js';
-
-var pdfDoc = null,
-    pageNum = 1,
-    pageRendering = false,
-    pageNumPending = null,
-    scale = 0.8,
-    canvas = document.getElementById('the-canvas'),
-    ctx = canvas.getContext('2d');
-
-/**
- * Get page info from document, resize canvas accordingly, and render page.
- * @param num Page number.
- */
-function renderPage(num) {
+function renderPage(number) {
   pageRendering = true;
-  // Using promise to fetch the page
-  pdfDoc.getPage(num).then(function(page) {
-    var viewport = page.getViewport({scale: scale});
+  livePdf.getPage(number).then(function(page) {
+    var viewport = page.getViewport(scale);
     canvas.height = viewport.height;
     canvas.width = viewport.width;
 
-    // Render PDF page into canvas context
     var renderContext = {
       canvasContext: ctx,
       viewport: viewport
     };
     var renderTask = page.render(renderContext);
 
-    // Wait for rendering to finish
     renderTask.promise.then(function() {
       pageRendering = false;
-      if (pageNumPending !== null) {
-        // New page rendering is pending
-        renderPage(pageNumPending);
-        pageNumPending = null;
+      if (nympsystem !== null) {
+        renderPage(nympsystem);
+        nympsystem = null;
       }
     });
   });
 
-  // Update page counters
-  document.getElementById('page_num').textContent = num;
+  document.getElementById('live_number').textContent = pdfnumber;
 }
 
-/**
- * If another page rendering in progress, waits until the rendering is
- * finised. Otherwise, executes rendering immediately.
- */
-function queueRenderPage(num) {
+function queueRenderPage(number) {
   if (pageRendering) {
-    pageNumPending = num;
+    nympsystem = number;
   } else {
-    renderPage(num);
+    renderPage(number);
   }
 }
 
-/**
- * Displays previous page.
- */
-function onPrevPage() {
-  if (pageNum <= 1) {
+function onprevlivePage() {
+  if (pdfnumber <= 1) {
     return;
   }
-  pageNum--;
-  queueRenderPage(pageNum);
+  pdfnumber--;
+  queueRenderPage(pdfnumber);
 }
-document.getElementById('prev').addEventListener('click', onPrevPage);
+document.getElementById('prevlive').addEventListener('click', onprevlivePage);
 
-/**
- * Displays next page.
- */
-function onNextPage() {
-  if (pageNum >= pdfDoc.numPages) {
+function livelivenextPage() {
+  if (pdfnumber >= livePdf.numberPages) {
     return;
   }
-  pageNum++;
-  queueRenderPage(pageNum);
+  pdfnumber++;
+  queueRenderPage(pdfnumber);
 }
-document.getElementById('next').addEventListener('click', onNextPage);
+document.getElementById('livenext').addEventListener('click', livelivenextPage);
 
-/**
- * Asynchronously downloads PDF.
- */
-pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
-  pdfDoc = pdfDoc_;
-  document.getElementById('page_count').textContent = pdfDoc.numPages;
+PDFJS.getDocument(pdfurl).then(function(livePdf_) {
+  livePdf = livePdf_;
+  document.getElementById('total_count').textContent = livePdf.numberPages;
 
-  // Initial/first page rendering
-  renderPage(pageNum);
+  renderPage(pdfnumber);
 });
 </script>
+<style>
+#live-canvas {
+  border:1px solid black;
+}
+</style>
+
 
 
 
