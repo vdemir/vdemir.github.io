@@ -259,7 +259,7 @@ if ($('#live-back-top').length) {
 
 
 
-<iframe src="http://docs.google.com/gview?url=http://domain.com/pdf.pdf&embedded=true" 
+<iframe src="http://docs.google.com/gview?url=vdemir.github.io/assets/kuran/kuran-kelime-meali.pdf&embedded=true" 
 style="width:600px; height:500px;" frameborder="0"></iframe>
 
 <iframe 
@@ -271,7 +271,11 @@ style="width:600px; height:500px;" frameborder="0"></iframe>
   width="100%" 
   height="600px" 
   src="http://example.com/pdf.js/web/viewer.html?file=http%3A%2F%2Fexample.com%2Fembed.pdf" 
-  data-src="http://example.com/embed.pdf">
-  http://example.com/embed.pdf
+  data-src="vdemir.github.io/assets/kuran/kuran-kelime-meali.pdf">
+  vdemir.github.io/assets/kuran/kuran-kelime-meali.pdf
 </iframe>
 
+<div style="text-align:center">
+<h4>Pdf viewer testing</h4>
+<iframe src="https://docs.google.com/viewer?url=http://vdemir.github.io/assets/kuran/kuran-kelime-meali.pdf&embedded=true" frameborder="0" height="500px" width="100%"></iframe>
+  </div>
