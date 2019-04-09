@@ -106,8 +106,8 @@ img.resize {
 <script>
   var viewer = new PhotoViewer();
   viewer.add('//vdemir.github.io/assets/kuran/kuran012.jpg');
-  viewer.add('//vdemir.github.io/assets/kuran/kuran012.jpg');
-  viewer.add('//vdemir.github.io/assets/kuran/kuran012.jpg');
+  viewer.add('//vdemir.github.io/assets/kuran/kuran013.jpg');
+  viewer.add('//vdemir.github.io/assets/kuran/kuran014.jpg');
 </script>
 <a href="javascript:void(viewer.show(0))">Slideshow</a>
 
