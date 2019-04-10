@@ -20,6 +20,10 @@ lang: tr
 
 <a href="{{ site.baseurl }}/viewer/viewer.html" target="_blank"><img src="{{ site.baseurl }}/images/pdf.png" alt="viewer" width="69" height="69"></a></div>
 
+<a href="{{ site.baseurl }}/viewer/viewer.html" target="_blank" class="btn btn-default">Kuranda_Temel_Kavramlar_7b</a>
+
+
+
 {% assign maxRelated = 1246 %}
 {% assign maxRelatedCounter = 1 %}
 
