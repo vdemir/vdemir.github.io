@@ -374,6 +374,7 @@ while True:
 {% endhighlight %}
 </div>
 
+{% highlight bash %}
 a=3687
 for i in *.jpg; do
   new=$(printf "%01d.jpg" "$a") #04 pad to length of 4
@@ -385,7 +386,7 @@ done
 for i in `cat list.txt`; do
   wget https://archive.org/download/kelimemealliquran/kelimemealliquran_jp2.zip/kelimemealliquran_jp2%2Fkelimemealliquran_${i}.jpg
 done
-
+{% endhighlight %}
 
 [![Django App in Minutes]({{base.url}}/images/venv/venv2.jpg)](http://vdemir.github.io/Django_App)
 
