@@ -15,10 +15,10 @@ lang: tr
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 
  <div align="left">
-<a href="{{ site.baseurl }}/viewer/viewer2.html"><img src="{{ site.baseurl }}/images/pdf.png" alt="viewer2" width="69" height="69"></a></div>
+<a href="{{ site.baseurl }}/viewer/viewer2.html" target="_blank"><img src="{{ site.baseurl }}/images/pdf.png" alt="viewer2" width="69" height="69"></a></div>
 <div align="left">
 
-<a href="{{ site.baseurl }}/viewer/viewer.html"><img src="{{ site.baseurl }}/images/pdf.png" alt="viewer" width="69" height="69"></a></div>
+<a href="{{ site.baseurl }}/viewer/viewer.html" target="_blank"><img src="{{ site.baseurl }}/images/pdf.png" alt="viewer" width="69" height="69"></a></div>
 
 {% assign maxRelated = 1246 %}
 {% assign maxRelatedCounter = 1 %}
