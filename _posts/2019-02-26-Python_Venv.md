@@ -15,13 +15,9 @@ published: true
 lang: en
 ---
  
- 
- 
-
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <!-- Opsiyonel tema -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css">
- 
 
 ![Installing Python Setup Tools & Virtual Env]({{base.url}}/images/venv/venv1.jpg)
 
