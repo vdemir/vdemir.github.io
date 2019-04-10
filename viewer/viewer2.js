@@ -4223,7 +4223,7 @@
         kind: OptionKind.VIEWER + OptionKind.PREFERENCE
       },
       defaultUrl: {
-        value: 'kuran.pdf',
+        value: 'Kuranda_Temel_Kavramlar_7b.pdf',
         kind: OptionKind.VIEWER
       },
       defaultZoomValue: {
