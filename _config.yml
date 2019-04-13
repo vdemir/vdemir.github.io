@@ -51,3 +51,11 @@ defaults:
       path: "assets/kuran"
     values:
       image: true
+
+# Plugins
+plugins_dir: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  
