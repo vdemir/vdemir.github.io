@@ -24,14 +24,24 @@ gem dosyalarının kurulumunu gerçekleştiriyoruz. Paket kurulumunu tamamladık
 Dizin içerisine önceden hazırladığımız dosyalarıda atabiliriz. Dizin içerisinde iken son komutumuz ise  ```sudo jekyll serve```
 
 {% highlight bash %}
+sudo pisi it git
+git config --global user.email "user.email"
+git config --global user.name "user.name"
+git config credential.helper 'cache --timeout=29600'
+
+git add -A &&  git commit -m "2091" && git push origin master
 sudo pisi it -c system.devel		/*devel paket bileşenlerinin kurulumu*/
 sudo pisi it rubygems
 sudo pisi it ruby-devel
 sudo pisi it rubygems		/*devel paket bileşenlerinin kurulumu*/
-sudo pisi it git
+
 sudo gem install jekyll			/*jekyll kurulumu*/
+sudo gem update jekyll
 sudo gem install bundler
-sudo bundle install
+sudo bundle update
+bundle install
+bundle exec jekyll build
+
 sudo jekyll new my-awesome-site		/*yeni sitenin oluşturulması*/
 bundle exec jekyll build		/*sitenin hatasız derlemesi*/
 sudo jekyll serve			/*local server üzerinde denenmesi*/
