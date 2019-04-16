@@ -29,7 +29,6 @@ git config --global user.email "user.email"
 git config --global user.name "user.name"
 git config credential.helper 'cache --timeout=29600'
 
-git add -A &&  git commit -m "2091" && git push origin master
 sudo pisi it -c system.devel		/*devel paket bileşenlerinin kurulumu*/
 sudo pisi it rubygems
 sudo pisi it ruby-devel
@@ -40,10 +39,10 @@ sudo gem update jekyll
 sudo gem install bundler
 sudo bundle update
 bundle install
-bundle exec jekyll build
 
 sudo jekyll new my-awesome-site		/*yeni sitenin oluşturulması*/
 bundle exec jekyll build		/*sitenin hatasız derlemesi*/
+git add -A &&  git commit -m "commit" && git push origin master
 sudo jekyll serve			/*local server üzerinde denenmesi*/
 {% endhighlight %}
 
