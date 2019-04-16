@@ -27,6 +27,8 @@ Dizin içerisine önceden hazırladığımız dosyalarıda atabiliriz. Dizin iç
 sudo pisi it -c system.devel		/*devel paket bileşenlerinin kurulumu*/
 sudo pisi it rubygems
 sudo pisi it ruby-devel
+sudo pisi it rubygems		/*devel paket bileşenlerinin kurulumu*/
+sudo pisi it git
 sudo gem install jekyll			/*jekyll kurulumu*/
 sudo gem install bundler
 sudo bundle install
