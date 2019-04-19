@@ -14,14 +14,13 @@ lang: tr
   <p><small>Jekyll &bull; Linux.</small></p>
 </div> 
   
-Pisi Linux dağıtımında ve benzer şekilde diğer linux dağıtımlarında Jekyll ile blog yapımı nasıldır? Öncelikle Jekyll'in tanımını yaparak başlayalım. Jekyll, düz metinlerinizi statik blog ve web sitesi formuna  dönüştürmenizi sağlayan site üretecidir.
+Pisi Linux dağıtımında ve benzer şekilde diğer linux dağıtımlarında Jekyll ile blog sitesi nasıl  yapılır? Öncelikle Jekyll'in tanımını yaparak başlayalım. Jekyll, düz metinlerinizi statik blog ve web sitesi formuna dönüştürmenizi sağlayan statik site üretecidir.
 
-Kuruluma başlamadan önce hazırlık aşamasını tamamlamalıyız. Jekyll kurulumu için ```rubygems``` ve ```ruby-devel``` paketlerine ihtiyaç var. Önce bu paketlerin kurulumunu tamamlıyoruz. Ayrıca ```gem install``` komutu ile ```jekyll``` , ```therubyracer``` ve ```rdiscount```
-gem dosyalarının kurulumunu gerçekleştiriyoruz. Paket kurulumunu tamamladıktan sonra sıra geldi web sayfamız için gereken dosyaların oluşacağı dizini hazırlamaya bunun için de bir komut işletiyoruz. 
+Kuruluma başlamadan önce hazırlık aşamasını tamamlıyoruz. Jekyll kurulumu için ```rubygems``` ve ```ruby-devel``` paketlerine ihtiyaç var. Önce bu paketlerin kurulumunu tamamlıyoruz. Ayrıca ```gem install``` komutu ile ```jekyll``` kurulumunu gerçekleştiriyoruz. Paket kurulumunu tamamladıktan sonra sıra geldi web sayfamız için gereken dosyaların oluşacağı dizini hazırlamaya bunun için de bir komut işletiyoruz. 
 
 ```sudo jekyll new my-awesome-site```
 
-Dizin içerisine önceden hazırladığımız dosyalarıda atabiliriz. Dizin içerisinde iken son komutumuz ise  ```sudo jekyll serve```
+Dizin içerisine önceden hazırladığımız dosyalarıda atabiliriz. Dizin içerisinde iken servis komutumuz  ```sudo jekyll serve```
 
 {% highlight bash %}
 sudo pisi it git
@@ -30,9 +29,8 @@ git config --global user.name "user.name"
 git config credential.helper 'cache --timeout=29600'
 
 sudo pisi it -c system.devel		/*devel paket bileşenlerinin kurulumu*/
-sudo pisi it rubygems
-sudo pisi it ruby-devel
-sudo pisi it rubygems		/*devel paket bileşenlerinin kurulumu*/
+sudo pisi it ruby-devel		/*devel paket bileşenlerinin kurulumu*/
+sudo pisi it rubygems       /*gem bileşenlerinin kurulumu*/
 
 sudo gem install jekyll			/*jekyll kurulumu*/
 sudo gem update jekyll
@@ -46,9 +44,9 @@ git add -A &&  git commit -m "commit" && git push origin master
 sudo jekyll serve			/*local server üzerinde denenmesi*/
 {% endhighlight %}
 
-Sonuçta; statik sitemizi yada bloğumuzu web tarayıcı adres çubuğuna ```http://localhost:4000/``` yazarak görüntüleyebiliyoruz.
+Sonuç olarak statik web sitemizi yada bloğumuzu web tarayıcı adres çubuğuna ```http://localhost:4000/``` yazarak görüntüleyebiliyoruz.
 
-Bloğunuzda kullanabileceğiniz resimleri düzenlemek için ```Gimp``` ve siteyi host eden GitHub sitesine commit yapmak için ```git``` paketlerine de ihtiyacınız olacaktır.
+Bloğunuzda kullanabileceğiniz resimleri düzenlemek için ```Gimp``` ve siteyi host eden GitHub sitesine commit yapmak için ```git``` paketlerinin de kurulumuna ihtiyacınız olacaktır.
 
 ***Snapshots***
 
