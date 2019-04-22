@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Kuran Kelime Meali
+title:  HTTrack Website Copier
 date:   2019-04-14 12:00:00
 tags:   Kelime
 categories: [Kelime, Sözlük ]
