@@ -39,7 +39,7 @@ comments:
   provider: "disqus"
   disqus:
     shortname: "vdemir-github-io"
-auto: true
+# auto: true
 source: .
 destination: _site
 exclude:
