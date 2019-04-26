@@ -13,7 +13,7 @@ lang: tr
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <!-- Opsiyonel tema -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css">
-
+wget -q -O - "http://wordpress.org/latest.tar.gz" | tar -xzf - -C /var/www
 <h2>Download HTTrack Website Copier 3.49-2</h2>
 
 <ul>
@@ -391,31 +391,6 @@ cd httrack
 </td>
 </tr>
 </table>
-
-<table width="76%" border="0" align="center" cellspacing="0" cellpadding="0">
-	<tr>
-	<td id="footer"><small>&copy; 2019 Xavier Roche &amp; other contributors - Web Design: Leto Kauler.</small></td>
-<td align="right">
-<a href="http://endsoftpatents.org/innovating-without-patents" target="_new" title="This site is innovating without patents!">
-<img border="0" alt="End Software Patents" style="border-width:0" src="/esp_chicklet.png">
-</a></td>
-	</tr>
-</table>
-
-<!-- Google Analytics -->
-<script type="text/javascript">
- var _gaq = _gaq || [];
- _gaq.push(['_setAccount', 'UA-10546883-1']);
- _gaq.push(['_trackPageview']);
- _gaq.push(['_trackPageLoadTime']);
-
- (function() {
-   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
- })();
-</script>
-<!-- Google Analytics -->
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
