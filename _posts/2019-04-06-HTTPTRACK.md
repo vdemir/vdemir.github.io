@@ -2,8 +2,8 @@
 layout: post
 title:  HTTrack Website Copier
 date:   2019-04-14 12:00:00
-tags:   Kelime
-categories: [Kelime, Sözlük ]
+tags:   Programlama
+categories: [Programlama ]
 comments: false
 published: true
 lang: tr
