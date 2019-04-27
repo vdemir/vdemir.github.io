@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  İnternet Site Yükleyici
-date:   2019-04-14 12:00:00
+date:   2019-04-24 12:00:00
 tags:   Programlama
 categories: [Programlama ]
 comments: false
