@@ -11,14 +11,16 @@ lang: tr
 
 
 
-<div class="theme-switch-wrapper">
-<label class="theme-switch" for="checkbox">
-   <input type="checkbox" id="checkbox" />
-   <div class="slider round"></div>
+<nav>
+  <div class="theme-switch-wrapper">
+       <label class="theme-switch" for="checkbox">
+    <input type="checkbox" id="checkbox" />
+    <div class="slider round"></div>
   </label>
-   <em>Enable Dark Mode!</em>
-</div>
+    <em>Enable Dark Mode!</em>
+  </div>
 
+</nav>  
 <style>
 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700|Sansita+One);
