@@ -42,7 +42,172 @@ excerpt: Günlük Blog Yazıları
 <form action="{{ site.baseurl }}/search/" method="get">
 	<input type="search" name="q" placeholder="Ne bilmek istiyorsun?" data-search-input id="goog-wm-qt" ><input type="submit" value="Ara" id="goog-wm-sb" />
 </form>
-<div align="right">
+<div align="right"><!-- toggle mode -->
+<div class="icon">
+   <i class="fa fa-sun-o" aria-hidden="true"></i> &nbsp; &nbsp;
+   <i class="fa fa-moon-o" aria-hidden="true"></i>
+</div>
+<div>
+  <div class="toggle-mode">
+   <div class="theme-switch-wrapper">
+   <i class="fa fa-sun-o" aria-hidden="true"></i><label class="theme-switch">
+   <input type="checkbox" id="switch-style" data-toggle="toggle">
+   <div class="slider"></div>
+   </label>
+   </div>
+   </div>
+</div>
+<style>
+
+
+
+@import
+
+ :root {
+    --primary-color: #302AE6;
+    --secondary-color: #536390;
+    --heading-color: #292922;
+}
+
+[data-theme="dark"] {
+    --primary-color: #9A97F3;
+    --secondary-color: #818cab;
+    --font-color: #e1e1ff;
+    --bg-color: #161625;
+    --heading-color: #818cab;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+  font-size: calc(1rem + 0.25vh);
+}
+
+h1 {
+    color: var(--heading-color);
+    font-size: 2rem;
+    margin-bottom: 1vh;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  font-weight: bold;
+  &:hover, &:focus {
+      border-bottom: 3px solid currentColor;
+  }
+}
+
+section {
+  max-width: 68%;
+  margin: 0 auto;
+}
+
+.post-meta {
+  font-size: 1rem;
+  font-style: italic;
+  display: block;
+  margin-bottom: 4vh;
+  color: var(--secondary-color);
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 0;
+}
+
+/*slider switch css */
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;
+
+  em {
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+}
+.theme-switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+}
+
+.theme-switch input {
+  display:none;
+}
+
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: .4s;
+  width: 26px;
+}
+
+input:checked + .slider {
+  background-color: #66bb6a;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+</style>
+
+<script>
+const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+const currentTheme = localStorage.getItem('theme');
+
+if (currentTheme) {
+    document.documentElement.setAttribute('data-theme', currentTheme);
+
+    if (currentTheme === 'dark') {
+        toggleSwitch.checked = true;
+    }
+}
+
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+    }
+    else {        document.documentElement.setAttribute('data-theme', 'light');
+          localStorage.setItem('theme', 'light');
+    }    
+}
+
+toggleSwitch.addEventListener('change', switchTheme, false);
+
+</script>
+
 <a href="{{ site.baseurl }}/humans.txt"><img src="{{ site.baseurl }}/images/humanstxt-isolated-blank.gif" alt="Humans.txt" width="88" height="31"></a></div>
 {% endif %}
 
