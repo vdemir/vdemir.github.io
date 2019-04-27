@@ -20,7 +20,7 @@ lang: tr
     <em>Enable Dark Mode!</em>
   </div>
 
-</nav>  
+</nav>
 <section>
     <article class="post">
       <h1>The Principles of Good Design</h1>
