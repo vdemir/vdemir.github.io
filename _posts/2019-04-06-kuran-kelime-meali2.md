@@ -10,40 +10,170 @@ lang: tr
 ---
 
 
+
+<div class="theme-switch-wrapper">
+<label class="theme-switch" for="checkbox">
+   <input type="checkbox" id="checkbox" />
+   <div class="slider round"></div>
+  </label>
+   <em>Enable Dark Mode!</em>
+</div>
+
+<style>
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700|Sansita+One);
+
+ :root {
+    --primary-color: #302AE6;
+    --secondary-color: #536390;
+    --font-color: #424242;
+    --bg-color: #fff;
+    --heading-color: #292922;
+}
+
+[data-theme="dark"] {
+    --primary-color: #9A97F3;
+    --secondary-color: #818cab;
+    --font-color: #e1e1ff;
+    --bg-color: #161625;
+    --heading-color: #818cab;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  max-width: 90%;
+  margin: 0 auto;
+  font-size: calc(1rem + 0.25vh);
+}
+
+h1 {
+    color: var(--heading-color);
+    font-family: "Sansita One", serif;
+    font-size: 2rem;
+    margin-bottom: 1vh;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  font-weight: bold;
+  &:hover, &:focus {
+      border-bottom: 3px solid currentColor;
+  }
+}
+
+section {
+  max-width: 68%;
+  margin: 0 auto;
+}
+
+.post-meta {
+  font-size: 1rem;
+  font-style: italic;
+  display: block;
+  margin-bottom: 4vh;
+  color: var(--secondary-color);
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 0;
+}
+
+/*slider switch css */
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;
+
+  em {
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+}
+.theme-switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+}
+
+.theme-switch input {
+  display:none;
+}
+
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: .4s;
+  width: 26px;
+}
+
+input:checked + .slider {
+  background-color: #66bb6a;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+</style>
+
+<script>
+const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+const currentTheme = localStorage.getItem('theme');
+
+if (currentTheme) {
+    document.documentElement.setAttribute('data-theme', currentTheme);
+
+    if (currentTheme === 'dark') {
+        toggleSwitch.checked = true;
+    }
+}
+
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+    }
+    else {        document.documentElement.setAttribute('data-theme', 'light');
+          localStorage.setItem('theme', 'light');
+    }    
+}
+
+toggleSwitch.addEventListener('change', switchTheme, false);
+
+</script>
+
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <!-- Opsiyonel tema -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css">
+wget -q -O - "http://wordpress.org/latest.tar.gz" | tar -xzf - -C /var/www
 
-
- <div align="left">
-<a href="{{ site.baseurl }}/viewer/viewer2.html" target="_blank"><img src="{{ site.baseurl }}/images/pdf.png" alt="viewer2" width="49" height="49"></a>
-<a href="{{ site.baseurl }}/viewer/viewer2.html" target="_blank" class="btn btn-default">Kuranda_Temel_Kavramlar_7b</a></div>
-
-<br>
-
-<div align="left">
-<a href="{{ site.baseurl }}/viewer/viewer.html" target="_blank"><img src="{{ site.baseurl }}/images/pdf.png" alt="viewer" width="49" height="49"></a><a href="{{ site.baseurl }}/viewer/viewer.html" target="_blank" class="btn btn-default">Kuran Kelime Meali</a></div>
-
-
-<br>
-
-
-{% assign maxRelated = 1246 %}
-{% assign maxRelatedCounter = 1 %}
-
-
-{% assign image_files = site.static_files | where: "image", true %}
-{% for myimage in image_files %}
-![image]({{base.url}}/assets/kuran/{{ maxRelatedCounter }}.jpg){:class="img-responsive"}
-  {{ maxRelatedCounter }}
-{% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
-      {% if maxRelatedCounter >= maxRelated %}
-        {% break %}
-      {% endif %}
-{% endfor %}
-
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
