@@ -20,7 +20,6 @@ body {
   text-align: center;
   max-width: 90%;
   margin: 0 auto;
-  font-size: calc(1rem + 0.25vh);
 }
 
 h1 {
@@ -69,7 +68,7 @@ nav {
 }
 .theme-switch {
   display: inline-block;
-  height: 21px;
+  height: 19px;
   position: relative;
   width: 60px;
 }
