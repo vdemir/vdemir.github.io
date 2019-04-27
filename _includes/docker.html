@@ -1,4 +1,3 @@
-
 <div id="Page1" class="page" style="display:none"> 
 <h2 id='about'>docker kurulumunun denetlenmesi</h2> <hr/>
 <br>
@@ -24,4 +23,5 @@ sudo docker run --net="host" -v /home/$USER:/home/$USER -v /var/cache/pisi/archi
 <br>
 <pre><code data-language='bash'>sudo docker stop container_name</code></pre>
 <pre><code data-language='bash'>sudo docker rm container_name</code></pre>
+<pre><code data-language='bash'>sudo docker system prune -a --volumes</code></pre>
 </div>
