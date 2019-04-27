@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  HTTrack Website Copier
+title:  İnternet Site Yükleyici
 date:   2019-04-14 12:00:00
 tags:   Programlama
 categories: [Programlama ]
