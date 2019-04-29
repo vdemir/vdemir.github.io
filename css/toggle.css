@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700|Sansita+One);
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic,700|Acre+One);
   
  :root {
     --primary-color: #302AE6;
@@ -17,7 +17,7 @@
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Arimo", sans-serif;
   background-color: var(--bg-color);
   color: var(--font-color);
   max-width: 90%;
@@ -27,7 +27,7 @@ body {
 
 h1 {
     color: var(--heading-color);
-    font-family: "Sansita One", serif;
+    font-family: "Acre One", serif;
     font-size: 2rem;
     margin-bottom: 1vh;
 }
