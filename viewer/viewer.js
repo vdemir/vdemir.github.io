@@ -4223,7 +4223,7 @@
         kind: OptionKind.VIEWER + OptionKind.PREFERENCE
       },
       defaultUrl: {
-        value: 'kuran.pdf',
+        value: 'N_10.pdf',
         kind: OptionKind.VIEWER
       },
       defaultZoomValue: {
