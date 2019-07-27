@@ -36,6 +36,7 @@ sudo gem install jekyll			/*jekyll kurulumu*/
 sudo gem update jekyll
 sudo gem install bundler
 sudo bundle update
+gem update --system
 bundle install
 
 sudo jekyll new my-awesome-site		/*yeni sitenin oluşturulması*/
