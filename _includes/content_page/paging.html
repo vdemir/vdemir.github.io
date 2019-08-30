@@ -34,14 +34,15 @@ tr:nth-child(even) {
 <span onclick="show('Page10');"><a  class="waves-effect waves-light btn">10</a></span> 
 <span onclick="show('Page11');"><a  class="waves-effect waves-light btn">11</a></span> 
 <span onclick="show('Page12');"><a  class="waves-effect waves-light btn">LIST ONE</a></span>
-<span onclick="show('Page13');"><a  class="waves-effect waves-light btn">WORDS</a></span>  
+<span onclick="show('Page13');"><a  class="waves-effect waves-light btn">WORDS</a></span>
+<span onclick="show('Page14');"><a  class="waves-effect waves-light btn">4000</a></span>
 <span onclick="show('PageList');"><a  class="waves-effect waves-light btn">LIST</a></span> 
 <span onclick="show('PageSpeech');"><a  class="waves-effect waves-light btn">Speech</a></span>
 </p>
 </div>
 <div class="teaser clearfix"></div>
 <div id="Page1" class="page" style="display:none">
-	{% include cvstohtml/index.html %}
+	{% include content_page/content_page1.html %}
 </div>
  
 <div class="teaser clearfix"></div>
@@ -102,6 +103,11 @@ tr:nth-child(even) {
 <div class="teaser clearfix"></div>
 <div id="Page13" class="page" style="display:none">
     	{% include content_page/content_page13.html %}
+</div>
+ 
+<div class="teaser clearfix"></div>
+<div id="Page14" class="page" style="display:none">
+    	{% include content_page/data.html %}
 </div>
  
 <div class="teaser clearfix"></div>
