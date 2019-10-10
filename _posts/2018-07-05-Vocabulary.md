@@ -15,6 +15,12 @@ lang: tr
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
+{% include content_page/paging.html %}
+
+<div class="teaser clearfix"></div>
+
+{% include content_page/speech-to-webtext.html %}
+
 <script charset="utf-8">var $rows = $('#tg-nBN6M tr');
 $('#search').keyup(function() {
     var val = $.trim($(this).val()).replace(/ +/g, ' ').toLowerCase();
@@ -24,13 +30,6 @@ $('#search').keyup(function() {
         return !~text.indexOf(val);
     }).hide();
 });</script>
-
-{% include content_page/paging.html %}
-
-<div class="teaser clearfix"></div>
-
-{% include content_page/speech-to-webtext.html %}
-
 
 <br>
 <div class="resize" style="margin: 0; text-align: center;">
