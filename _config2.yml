@@ -10,7 +10,7 @@ description:
   meta: Günce - Daily is a minimalist blog with focus on readability and content.
 
   # Description of your site. This will show up on the front page.
-  subtitle: Günce - Daily is a minimalist blog with focus on readability and content. <a href=https://github.com/vdemir/ on Github</a>.
+  subtitle: Günce - Daily is a minimalist blog with focus on readability and content. <a href="https://github.com/vdemir/ on Github</a>.
 
 title             : Günlük Blog Yazıları
 lang              : tr_TR
@@ -18,17 +18,17 @@ keywords          : C,Language,Programming
 image             : siteicon.png
 logo              : siteicon.png
 search            : true
-baseurl           : 
+baseurl           : ""
 url               : https://vdemir.github.io
 author:
-  name            : Günce
+  name            : "Günce"
   url             : https://vdemir.github.io
   email           : jeruselam@yandex.com
-  bio             : Just another tattooed, time traveling designer.
-  picture         : 
+  bio             : "Just another tattooed, time traveling designer."
+  picture         : ""
 
-yandex-_site_verification     : b642748cb18cbd1c
-google_site_verification     : zFuwF6tlf7YemTRN-ZOvl5lG1rjuI9qEomPbr_5vAu8
+yandex-_site_verification     : "b642748cb18cbd1c"
+google_site_verification     : "zFuwF6tlf7YemTRN-ZOvl5lG1rjuI9qEomPbr_5vAu8"
 
 social:
   name: Vedat Demir
@@ -36,9 +36,9 @@ social:
     - https://github.com/vdemir
 timezone: Europe/Istanbul # add your own locale timezone
 comments:
-  provider: disqus
+  provider: "disqus"
   disqus:
-    shortname: vdemir-github-io
+    shortname: "vdemir-github-io"
 # auto: true
 source: .
 destination: _site
@@ -48,7 +48,7 @@ exclude:
 include: ['.htaccess']
 defaults:
   - scope:
-      path: assets/kuran
+      path: "assets/kuran"
     values:
       image: true
 
