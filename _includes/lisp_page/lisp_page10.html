@@ -375,19 +375,22 @@ lispy&gt; eval (head {(+ 1 2) (+ 10 20)})
 
 <h2>Reference</h2> <hr/>
 
-<div class="panel-group alert alert-warning" id="accordion">
-  <div class="panel panel-default">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-          q_expressions.c
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse">
-      <div class="panel-body">
-<pre><code data-language='c'>#include "mpc.h"
+<script>
+function myFunction2() {
+    if (document.getElementById('id02').style.display === 'none') {
+        document.getElementById('id02').style.display='block';
+    } else {
+        document.getElementById('id02').style.display='none';
+    }
+}
+</script>
+
+<button  onclick="myFunction2()">Instadroid.py - [Göster]/[Gizle]</button> 
+
+<div id="id02" style="display:none">
+
+ {% highlight python  linenos=table %}
+#include "mpc.h"
 
 #ifdef _WIN32
 
@@ -757,11 +760,6 @@ int main(int argc, char** argv) {
   mpc_cleanup(6, Number, Symbol, Sexpr, Qexpr, Expr, Lispy);
   
   return 0;
-}</code></pre>
-      </div>
-    </div>
-  </div>
 
 
-</div>
-  </div>
+{% endhighlight %}
