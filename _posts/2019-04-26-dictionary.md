@@ -1,26 +1,15 @@
 ---
 layout: post
-title:  İnternet Site Yükleyici
+title:  Sözlük
 date:   2019-04-14 12:00:00
-tags:   Programlama
-categories: [Programlama ]
+tags:   dictionary
+categories: [Sözlük ]
 comments: false
 published: true
 lang: tr
 ---
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#aaa;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaa;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaa;color:#fff;background-color:#f38630;}
-.tg .tg-ldhx{font-size:11px;font-family:"Trebuchet MS", Helvetica, sans-serif !important;;background-color:#646809}
-.tg .tg-j2zy{background-color:#FCFBE3;vertical-align:top}
-.tg .tg-4q7z{background-color:#3531ff}
-.tg .tg-5sm1{background-color:#036400;vertical-align:top}
-.tg .tg-71hr{background-color:#329a9d}
-.tg .tg-z2zr{background-color:#FCFBE3}
-.tg .tg-yw4l{vertical-align:top}
-.tg-sort-header::-moz-selection{background:0 0}.tg-sort-header::selection{background:0 0}.tg-sort-header{cursor:pointer}.tg-sort-header:after{content:'';float:right;margin-top:7px;border-width:0 5px 5px;border-style:solid;border-color:#404040 transparent;visibility:hidden}.tg-sort-header:hover:after{visibility:visible}.tg-sort-asc:after,.tg-sort-asc:hover:after,.tg-sort-desc:after{visibility:visible;opacity:.4}.tg-sort-desc:after{border-bottom:none;border-width:5px 5px 0}@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;}}</style>
+
 
 <table class="table table-bordered table-hover table-condensed">
 <thead><tr><th title="Field #1">no</th>
