@@ -16,8 +16,8 @@ lang: tr
 
 
  <div align="left">
-<a href="{{ site.baseurl }}/viewer/viewer2.html" target="_blank"><img src="{{ site.baseurl }}/images/pdf.png" alt="viewer2" width="49" height="49"></a>
-<a href="{{ site.baseurl }}/viewer/viewer2.html" target="_blank" class="btn btn-default">Kuranda_Temel_Kavramlar_7b</a></div>
+<a href="https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/viewer/Kuranda_Temel_Kavramlar_7b.pdf" target="_blank"><img src="{{ site.baseurl }}/images/pdf.png" alt="viewer2" width="49" height="49"></a>
+<a href="https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/viewer/Kuranda_Temel_Kavramlar_7b.pdf" target="_blank" class="btn btn-default">Kuranda_Temel_Kavramlar_7b</a></div>
 
 <br>
 
