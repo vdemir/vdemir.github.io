@@ -22,7 +22,7 @@ lang: tr
 <br>
 
 <div align="left">
-<a href="{{ site.baseurl }}/viewer/viewer.html" target="_blank"><img src="{{ site.baseurl }}/images/pdf.png" alt="viewer" width="49" height="49"></a><a href="{{ site.baseurl }}/viewer/viewer.html" target="_blank" class="btn btn-default">Kuran Kelime Meali</a></div>
+<a href="https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/viewer/kuran.pdf" target="_blank"><img src="{{ site.baseurl }}/images/pdf.png" alt="viewer" width="49" height="49"></a><a href="https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/viewer/kuran.pdf" target="_blank" class="btn btn-default">Kuran Kelime Meali</a></div>
 
 
 <br>
