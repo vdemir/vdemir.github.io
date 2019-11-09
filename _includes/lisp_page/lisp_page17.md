@@ -139,8 +139,8 @@ Because there is no special method of evaluating Q-Expressions, we don't need to
     {1 2 3 4}
     lispy> {1 2 (+ 5 6) 4}
     {1 2 (+ 5 6) 4}
-    lispy> {{2 3 4} {1}}
-    {{2 3 4} {1}}
+    lispy> {(2 3 4) (1)}
+    {(2 3 4) (1)}
     lispy>
     
 
@@ -401,7 +401,7 @@ Finally Q-Expressions should be fully supported in our language. Compile and run
     {1}
     lispy> tail {tail tail tail}
     {tail tail}
-    lispy> eval (tail {tail tail {5 6 7}})
+    lispy> eval (tail {tail tail {5 6 7)})
     {6 7}
     lispy> eval (head {(+ 1 2) (+ 10 20)})
     3
