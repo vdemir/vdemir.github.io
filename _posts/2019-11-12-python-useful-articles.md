@@ -44,21 +44,7 @@ function closepop() { $("#pop").popover("hide"); }</script>    <script>
 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#w6-collapse" aria-controls="w6-collapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 <div id="w6-collapse" class="collapse navbar-collapse">
 <ul id="w7" class="navbar-nav mr-auto nav"><li class="nav-item"><a class="nav-link" href="/https://plugins.krajee.com/" title="Krajee Plugins Home Page"><i class="fas fa-home"></i> Home</a></li>
-<li class="dropdown nav-item"><a id="pluginsMenu" class="nav-link dropdown-toggle active" href="#" title="Krajee Yii2 Demos" role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown"><i class="fas fa-fw fa-link"></i> Plugins</a><div id="w8" class="dropdown-menu"><h6 class="dropdown-header">Bootstrap</h6>
-<a class="dropdown-item" href="/https://plugins.krajee.com/markdown-editor" title="Krajee Bootstrap Markdown Editor Plugin"><i class="fas fa-fw fa-edit"></i> Markdown Editor <span class="badge badge-success">New</span></a>
-<a class="dropdown-item active" href="/https://plugins.krajee.com/file-input" title="Krajee Bootstrap File Input Plugin"><i class="fas fa-fw fa-folder-open"></i> File Input</a>
-<a class="dropdown-item" href="/https://plugins.krajee.com/star-rating" title="Krajee Bootstrap Star Rating Plugin"><i class="fas fa-fw fa-star"></i> Star Rating</a>
-<a class="dropdown-item" href="/https://plugins.krajee.com/tabs-x" title="Krajee Bootstrap Tabs Extended Plugin"><i class="fas fa-fw fa-folder"></i> Tabs X</a>
-<a class="dropdown-item" href="/https://plugins.krajee.com/popover-x" title="Krajee Bootstrap Popover Extended Plugin"><i class="fas fa-fw fa-comment"></i> Popover X</a>
-<a class="dropdown-item" href="/https://plugins.krajee.com/checkbox-x" title="Krajee Bootstrap Checkbox Extended Plugin"><i class="fas fa-fw fa-check-square"></i> Checkbox X</a>
-<div class="dropdown-divider"></div>
-<h6 class="dropdown-header">Other</h6>
-<a class="dropdown-item" href="/https://plugins.krajee.com/dependent-dropdown" title="Krajee Dependent Dropdown Plugin"><i class="fas fa-fw fa-list"></i> Dependent Dropdown</a>
-<a class="dropdown-item" href="/https://plugins.krajee.com/strength-meter" title="Krajee Strength Meter Plugin"><i class="fas fa-fw fa-lock"></i> Strength Meter</a>
-<a class="dropdown-item" href="/https://plugins.krajee.com/php-date-formatter" title="Krajee PHP Date Formatter Library"><i class="fas fa-fw fa-calendar"></i> PHP Date Formatter</a></div></li>
-<li class="dropdown nav-item"><a id="resourcesMenu" class="nav-link dropdown-toggle" href="#" title="Other Krajee Resources" role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown"><i class="fas fa-fw fa-certificate"></i> Resources</a><div id="w9" class="dropdown-menu"><a class="dropdown-item" href="https://demos.krajee.com" title="Krajee Yii2 Demos"><i class="fas fa-fw fa-play"></i> Yii2 Demos</a>
-<a class="dropdown-item" href="https://webtips.krajee.com" title="Krajee Web Tips &amp; Resources"><i class="fas fa-fw fa-fire"></i> Web Tips</a>
-<a class="dropdown-item" href="https://kartikv.krajee.com" title="Weblog of Kartik Visweswaran"><i class="fas fa-fw fa-edit"></i> Kartik's Weblog</a></div></li>
+
 <li class="nav-item"><a class="nav-link text-danger" href="https://webtips.krajee.com/tag/bootstrap-fileinput" title="Bootstrap Fileinput web tips" target="_blank"><i class="fas fa-bell kv-animated-bell"></i> Tips</a></li></ul><form class="form-inline kv-navbar-form" id="kv-gs-form" role="search">
     <div class="input-group">
         <input id="kv-gs-query" type="text" class="form-control" placeholder="Search Krajee Plugins ..." autocomplete="off">
