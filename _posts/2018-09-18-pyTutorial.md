@@ -5541,3 +5541,6 @@ Aynı sınıf ile araba öbeklerinin iki farklı tipini oluşturudk. araba öbe�
 
 Burada, sihirli anahtar "self" sınıfın eşleneğini ifade eder. Verilen ifadeler ile özdeğerleri bağlar.
 
+Yordamlara ve özniteliklere erişmek için sınıf içinde "self"in kullanımı.
+
+
