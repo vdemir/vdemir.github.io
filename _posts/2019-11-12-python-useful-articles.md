@@ -15,8 +15,8 @@ lang: tr
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-param" content="_csrf">
 <meta name="csrf-token" content="WEfDrt-MWPWZ2KjKHeFLbgPPpXrZJehu-Wx_h_WGK9saNqvxjLkew8OQzI9cvik6YJr2GesVvyejOkzTr-tMsQ==">
-    <link rel="shortcut icon" href="/assets/Bootstrap/harun-yahya-truth.png" type="image/x-icon">
-    <link rel="icon" href="/assets/Bootstrap/harun-yahya-truth.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/Bootstrap/krajee-logo.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/Bootstrap/krajee-logo.ico" type="image/x-icon">
     <title>Bootstrap File Input Resumable Uploads Demo - &copy; Kartik</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet">
@@ -40,7 +40,7 @@ function closepop() { $("#pop").popover("hide"); }</script>    <script>
 <body onload="prettyPrint()">
 <div id="top-navbar">
     <nav id="w6" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top pt-0 pb-0">
-<a class="navbar-brand" href="https://www.krajee.com" title="Krajee.com - Web Development Evolved"><img alt="Krajee" class="krajee-logo" src="https://plugins.krajee.comhttps://plugins.krajee.com/assets/prod/img/krajee-logo.png"></a>
+<a class="navbar-brand" href="https://www.krajee.com" title="Krajee.com - Web Development Evolved"><img alt="Krajee" class="krajee-logo" src="https://plugins.krajee.com/assets/prod/img/krajee-logo.png"></a>
 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#w6-collapse" aria-controls="w6-collapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 <div id="w6-collapse" class="collapse navbar-collapse">
 <ul id="w7" class="navbar-nav mr-auto nav"><li class="nav-item"><a class="nav-link" href="/" title="Krajee Plugins Home Page"><i class="fas fa-home"></i> Home</a></li>
