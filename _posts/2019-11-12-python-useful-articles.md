@@ -15,8 +15,8 @@ lang: tr
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-param" content="_csrf">
 <meta name="csrf-token" content="WEfDrt-MWPWZ2KjKHeFLbgPPpXrZJehu-Wx_h_WGK9saNqvxjLkew8OQzI9cvik6YJr2GesVvyejOkzTr-tMsQ==">
-    <link rel="shortcut icon" href="Bootstrap/krajee-logo.ico" type="image/x-icon">
-    <link rel="icon" href="Bootstrap/krajee-logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="Bootstrap/harun-yahya-truth.png" type="image/x-icon">
+    <link rel="icon" href="Bootstrap/harun-yahya-truth.png" type="image/x-icon">
     <title>Bootstrap File Input Resumable Uploads Demo - &copy; Kartik</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet">
