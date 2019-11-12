@@ -40,7 +40,7 @@ function closepop() { $("#pop").popover("hide"); }</script>    <script>
 <body onload="prettyPrint()">
 <div id="top-navbar">
     <nav id="w6" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top pt-0 pb-0">
-<a class="navbar-brand" href="https://www.krajee.com" title="Krajee.com - Web Development Evolved"><img alt="Krajee" class="krajee-logo" src="https://plugins.krajee.com/assets/prod/img/krajee-logo.png"></a>
+<a class="navbar-brand" href="https://www.krajee.com" title="Krajee.com - Web Development Evolved"><img alt="Krajee" class="krajee-logo" src="/assets/Bootstrap/harun-yahya-truth.png"></a>
 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#w6-collapse" aria-controls="w6-collapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 <div id="w6-collapse" class="collapse navbar-collapse">
 <ul id="w7" class="navbar-nav mr-auto nav"><li class="nav-item"><a class="nav-link" href="/" title="Krajee Plugins Home Page"><i class="fas fa-home"></i> Home</a></li>
