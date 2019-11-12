@@ -44,8 +44,7 @@ function closepop() { $("#pop").popover("hide"); }</script>    <script>
 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#w6-collapse" aria-controls="w6-collapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 <div id="w6-collapse" class="collapse navbar-collapse">
 <ul id="w7" class="navbar-nav mr-auto nav"><li class="nav-item"><a class="nav-link" href="/https://plugins.krajee.com/" title="Krajee Plugins Home Page"><i class="fas fa-home"></i> Home</a></li>
-
-<li class="nav-item"><a class="nav-link text-danger" href="https://webtips.krajee.com/tag/bootstrap-fileinput" title="Bootstrap Fileinput web tips" target="_blank"><i class="fas fa-bell kv-animated-bell"></i> Tips</a></li></ul><form class="form-inline kv-navbar-form" id="kv-gs-form" role="search">
+</ul><form class="form-inline kv-navbar-form" id="kv-gs-form" role="search">
     <div class="input-group">
         <input id="kv-gs-query" type="text" class="form-control" placeholder="Search Krajee Plugins ..." autocomplete="off">
         <span class="input-group-btn" title="Submit"><button type="submit" class="btn btn-outline-info"><i class="fa fa-search"></i></button></span>
