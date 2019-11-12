@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: news
 title:  Python Useful Articles
 date:   2019-04-14 12:00:00
 tags:   books
