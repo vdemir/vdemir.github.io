@@ -42,7 +42,6 @@
    <meta name="robots" content="index,follow">
    <meta name="readability-verification" content="e3fb0316180ffe5e0e35411b93161b5083c1b0e7">
 {% include analytics.html %}
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
    {% if site.google.verify %}<!-- Webmaster Tools verfication -->
@@ -50,8 +49,9 @@
    {% if site.bing-verify %}<meta name="msvalidate.01" content="{{ site.bing-verify }}">{% endif %}
 
  
-   <!-- scroll CSS -->
-   <link rel="stylesheet" href="{{ site.baseurl }}/css/scroll.css" type="text/css" >
+   <!-- scroll CSS
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+   <link rel="stylesheet" href="{{ site.baseurl }}/css/scroll.css" type="text/css" > -->
 
    <!-- syntax highlighting CSS
    <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css" type="text/css" > -->
@@ -59,14 +59,14 @@
    <!-- Homepage CSS 
    <link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css" type="text/css" media="screen" >-->
 
- <!-- fontawesome CSS-->
+ <!-- fontawesome CSS
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous"> 
 
 
 <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/v4-shims.js"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>-->
 
- <!-- Typekit CSS-->
+ <!-- Typekit CSS
 <link rel="stylesheet" href="https://use.typekit.net/enh8ddt.css">
 <script>
   (function(d) {
@@ -77,7 +77,7 @@
     },
     h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
   })(document);
-</script>
+</script>-->
  <!-- Typekit -->
 <!--    <script src="https://use.typekit.net/enh8ddt.js"></script>
    <script>try{Typekit.load({ async: true });}catch(e){}</script>
@@ -85,14 +85,14 @@
    <script>try{Typekit.load();}catch(e){}</script> -->
    <!-- Paging --> 
    <script src="{{ site.baseurl }}/scripts/paging.js"></script>
-   <!-- Cookie --> 
-   <script src="{{ site.baseurl }}/scripts/cookie.js"></script>
+   <!-- Cookie  
+   <script src="{{ site.baseurl }}/scripts/cookie.js"></script>-->
 {% if page.comments != false %}
 <script id="dsq-count-scr" src="//vdemir-github-io.disqus.com/count.js" async></script>{% endif %}
-   <!-- scrolling --> 
-   <script src="{{ site.baseurl }}/scripts/scroll.js"></script>
-   <!-- timer --> 
-   <script src="{{ site.baseurl }}/scripts/timer.js"></script>
+   <!-- scrolling
+   <script src="{{ site.baseurl }}/scripts/scroll.js"></script> --> 
+   <!-- timer 
+   <script src="{{ site.baseurl }}/scripts/timer.js"></script> -->
 <div class="site">
 
   <!-- timer 
@@ -101,27 +101,5 @@
   </div> -->
   {{ content }}
 <div class="teaser clearfix"></div>
-  <div class="footer">
-<br/> 
-    <div class="contact">
-
-{% if page.title == 'Günce' %}      
-      <a href="https://github.com/vdemir" title="Github" target="_blank"><i class="fab fa-github fa-4x " aria-hidden="true"></i></a>
-
-      <a href="https://www.youtube.com/channel/UCghWuRqdO-HXsxRxBn4dHHQ/videos" title="YouTube" target="_blank"><i class="fab fa-youtube fa-4x " aria-hidden="true"></i></a>
-
-      <a href="https://feeds.feedburner.com/github/hxLf" title="RSS" target="_blank"><i class="fas fa-rss fa-4x " aria-hidden="true"></i></a>
-
-      <a href="https://jigsaw.w3.org/css-validator/validator?uri=vdemir.github.io" title="Valid CSS!" target="_blank"><i class="fab fa-css3-alt fa-4x " aria-hidden="true"></i></a>
-
-      <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.tr" title="Creative Commons License" target="_blank"><i class="fas fa-closed-captioning fa-4x " aria-hidden="true"></i></a>
-{% endif %} 
-    </div>
-{% if page.title != 'Günce' %}   
-<a href="{{ site.baseurl }}/" title="Home"><i class="fas fa-home fa-3x " aria-hidden="true" style="color:gray;"></i></a>{% endif %}
-
-
-    </div>
-</div>
 </body>
 </html>
