@@ -5467,7 +5467,30 @@ d.isAlive() True
 <p><strong>Tüm Yürütme Birimlerini Sıralamak</strong></p>
 </div>
 
+<br>
+<div class="alert alert-dark" role="dark">
+<p><strong>Python sınıflarında _init_ ve self  method(yordamlarını) anlamak</strong></p>
+</div>
 
+Python sınıflarında __init__ ve self yordamlarını anlamadan önce bir class(sınıf) ve object(öbek) nedir fikrine sahipsek çok yararlıdır.
+
+Class :
+Sınıf, ortaklaşa bazı özellik veya niteliklere sahip olan şeyler kümesi veya kategorisidir ve diğerlerinden tür, tip veya niteliğe göre farklılaşır. Teknik açıdan sınıfın, katı tutumlu bireysel nesneler için bir taslak olduğunu söyleyebiliriz.
+
+
+Object :
+
+Object(öbek), sınıfın örneklemlerinden biridir. Sınıfta tanımlanan fonksiyonelliği uygulayabilir.
+
+
+{% highlight python %}
+
+d.isAlive() True
+(daemon    ) Starting
+(non-daemon) Starting
+(non-daemon) Exiting
+
+{% endhighlight %}
 
 
 
