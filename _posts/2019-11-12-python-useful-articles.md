@@ -20,9 +20,9 @@ lang: tr
     <title>Bootstrap File Input Resumable Uploads Demo - &copy; Kartik</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet">
-<link href="Bootstrap/all-krajee.min.css?ver=201903112143" rel="stylesheet">
-<link href="Bootstrap/fileinput.css?ver=201909132002" rel="stylesheet">
-<link href="Bootstrap/dropdown.min.css" rel="stylesheet">
+<link href="https://plugins.krajee.com/assets/prod/all-krajee.min.css?ver=201903112143" rel="stylesheet">
+<link href="https://plugins.krajee.com/assets/1d958cec/css/fileinput.css?ver=201909132002" rel="stylesheet">
+<link href="https://plugins.krajee.com/assets/fc69cbca/css/dropdown.min.css" rel="stylesheet">
 <script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script>
 <script src="https://buttons.github.io/buttons.js" async></script>
 <script>(adsbygoogle=window.adsbygoogle||[]).push({google_ad_client:'ca-pub-4718928441117602',enable_page_level_ads:true});
@@ -40,7 +40,7 @@ function closepop() { $("#pop").popover("hide"); }</script>    <script>
 <body onload="prettyPrint()">
 <div id="top-navbar">
     <nav id="w6" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top pt-0 pb-0">
-<a class="navbar-brand" href="https://www.krajee.com" title="Krajee.com - Web Development Evolved"><img alt="Krajee" class="krajee-logo" src="https://plugins.krajee.comBootstrap/img/krajee-logo.png"></a>
+<a class="navbar-brand" href="https://www.krajee.com" title="Krajee.com - Web Development Evolved"><img alt="Krajee" class="krajee-logo" src="https://plugins.krajee.comhttps://plugins.krajee.com/assets/prod/img/krajee-logo.png"></a>
 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#w6-collapse" aria-controls="w6-collapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 <div id="w6-collapse" class="collapse navbar-collapse">
 <ul id="w7" class="navbar-nav mr-auto nav"><li class="nav-item"><a class="nav-link" href="/https://plugins.krajee.com/" title="Krajee Plugins Home Page"><i class="fas fa-home"></i> Home</a></li>
@@ -428,15 +428,15 @@ $(document).ready(function() {
 <style>
 #kv-gs-query{border-color:#fff}#kv-gs-query:focus{border-color:#80bdff}.gsc-control-cse{padding:0;margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}.gsc-adBlock{margin:0 0 0 -5px}.gsc-above-wrapper-area,.gsc-thumbnail-inside,.gsc-url-top{padding:0}.gs-result .gs-title,.gs-result .gs-title *{color:#007bff;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects}.gs-result .gs-title :hover,.gs-result .gs-title:hover{color:#0056b3;text-decoration:underline}.gsc-result .gs-title{height:1.4em}.gsc-result-info{padding-left:0}.gsc-results .gsc-cursor-box{margin:5px 0 0}.gsc-results .gsc-cursor-box .gsc-cursor-page{display:block;padding:.5rem .75rem;margin:0 0 0 -1px;line-height:1.25;color:#007bff;background-color:#fff;border:1px solid #ddd;float:left}.gsc-results .gsc-cursor-box .gsc-cursor-page:focus,.gsc-results .gsc-cursor-box .gsc-cursor-page:hover{color:#0056b3;text-decoration:none;background-color:#e9ecef;border-color:#ddd}.gsc-results .gsc-cursor-box .gsc-cursor-current-page{color:#fff;background-color:#007bff;border-color:#007bff}.gsc-cursor-page:first-child{margin-left:0;border:1px solid #ddd;border-top-left-radius:.25rem;border-bottom-left-radius:.25rem}.gsc-cursor-page:last-child{border-bottom-right-radius:.25rem;border-top-right-radius:.25rem}.gs-error-result .gs-snippet,.gs-no-results-result .gs-snippet{margin:0;padding:15px 20px;border-radius:.25rem;color:#856404;background-color:#fff3cd;border-color:#ffeeba}.gsc-selected-option-container{border-radius:.25rem}
 </style><script id="dsq-count-scr" src="//krajee.disqus.com/count.js" async></script>
-<script src="Bootstrap/purify.min.js"></script>
+<script src="https://plugins.krajee.com/assets/1d958cec/js/plugins/purify.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-<script src="Bootstrap/all-krajee.min.js?ver=201903112143"></script>
-<script src="Bootstrap/sortable.min.js"></script>
-<script src="Bootstrap/piexif.min.js"></script>
-<script src="Bootstrap/fileinput.js?ver=201909132002"></script>
-<script src="Bootstrap/theme.min.js?ver=201908311938"></script>
-<script src="Bootstrap/dropdown.min.js"></script>
+<script src="https://plugins.krajee.com/assets/prod/all-krajee.min.js?ver=201903112143"></script>
+<script src="https://plugins.krajee.com/assets/1d958cec/js/plugins/sortable.min.js"></script>
+<script src="https://plugins.krajee.com/assets/1d958cec/js/plugins/piexif.min.js"></script>
+<script src="https://plugins.krajee.com/assets/1d958cec/js/fileinput.js?ver=201909132002"></script>
+<script src="https://plugins.krajee.com/assets/1d958cec/themes/fas/theme.min.js?ver=201908311938"></script>
+<script src="https://plugins.krajee.com/assets/fc69cbca/js/dropdown.min.js"></script>
 <script>jQuery(function ($) {
     $("#input-res-1").fileinput({
         uploadUrl: "/site/upload-file-chunks",
