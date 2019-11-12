@@ -5472,7 +5472,7 @@ d.isAlive() True
 <p><strong>Python sınıflarında _init_ ve self  method(yordamlarını) anlamak</strong></p>
 </div>
 
-Python sınıflarında __init__ ve self yordamlarını anlamadan önce bir class(sınıf) ve object(öbek) nedir fikrine sahipsek çok yararlıdır.
+Python sınıflarında ____init____ ve self yordamlarını anlamadan önce bir class(sınıf) ve object(öbek) nedir fikrine sahipsek çok yararlıdır.
 
 Class :
 Sınıf, ortaklaşa bazı özellik veya niteliklere sahip olan şeyler kümesi veya kategorisidir ve diğerlerinden tür, tip veya niteliğe göre farklılaşır. Teknik açıdan sınıfın, katı tutumlu bireysel nesneler için bir taslak olduğunu söyleyebiliriz.
