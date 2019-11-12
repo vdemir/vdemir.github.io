@@ -9,7 +9,8 @@ published: true
 lang: tr
 ---
 
-<!-- saved from url=(0052)http://vdemir.github.io/books/2019/04/14/python-useful-articles.html -->
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://plugins.krajee.com/file-krajee-explorer-demo -->
 <html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -48,7 +49,7 @@ function closepop() { $("#pop").popover("hide"); }</script>    <script>
 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#w6-collapse" aria-controls="w6-collapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 <div id="w6-collapse" class="collapse navbar-collapse">
 <ul id="w7" class="navbar-nav mr-auto nav"><li class="nav-item"><a class="nav-link" href="https://plugins.krajee.com/" title="Krajee Plugins Home Page"><i class="fas fa-home"></i> Home</a></li>
-<li class="dropdown nav-item"><a id="pluginsMenu" class="nav-link dropdown-toggle active" href="http://vdemir.github.io/books/2019/04/14/python-useful-articles.html#" title="Krajee Yii2 Demos" role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown"><i class="fas fa-fw fa-link"></i> Plugins</a><div id="w8" class="dropdown-menu"><h6 class="dropdown-header">Bootstrap</h6>
+<li class="dropdown nav-item"><a id="pluginsMenu" class="nav-link dropdown-toggle active" href="https://plugins.krajee.com/file-krajee-explorer-demo#" title="Krajee Yii2 Demos" role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown"><i class="fas fa-fw fa-link"></i> Plugins</a><div id="w8" class="dropdown-menu"><h6 class="dropdown-header">Bootstrap</h6>
 <a class="dropdown-item" href="https://plugins.krajee.com/markdown-editor" title="Krajee Bootstrap Markdown Editor Plugin"><i class="fas fa-fw fa-edit"></i> Markdown Editor <span class="badge badge-success">New</span></a>
 <a class="dropdown-item active" href="https://plugins.krajee.com/file-input" title="Krajee Bootstrap File Input Plugin"><i class="fas fa-fw fa-folder-open"></i> File Input</a>
 <a class="dropdown-item" href="https://plugins.krajee.com/star-rating" title="Krajee Bootstrap Star Rating Plugin"><i class="fas fa-fw fa-star"></i> Star Rating</a>
@@ -60,7 +61,7 @@ function closepop() { $("#pop").popover("hide"); }</script>    <script>
 <a class="dropdown-item" href="https://plugins.krajee.com/dependent-dropdown" title="Krajee Dependent Dropdown Plugin"><i class="fas fa-fw fa-list"></i> Dependent Dropdown</a>
 <a class="dropdown-item" href="https://plugins.krajee.com/strength-meter" title="Krajee Strength Meter Plugin"><i class="fas fa-fw fa-lock"></i> Strength Meter</a>
 <a class="dropdown-item" href="https://plugins.krajee.com/php-date-formatter" title="Krajee PHP Date Formatter Library"><i class="fas fa-fw fa-calendar"></i> PHP Date Formatter</a></div></li>
-<li class="dropdown nav-item"><a id="resourcesMenu" class="nav-link dropdown-toggle" href="http://vdemir.github.io/books/2019/04/14/python-useful-articles.html#" title="Other Krajee Resources" role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown"><i class="fas fa-fw fa-certificate"></i> Resources</a><div id="w9" class="dropdown-menu"><a class="dropdown-item" href="https://demos.krajee.com/" title="Krajee Yii2 Demos"><i class="fas fa-fw fa-play"></i> Yii2 Demos</a>
+<li class="dropdown nav-item"><a id="resourcesMenu" class="nav-link dropdown-toggle" href="https://plugins.krajee.com/file-krajee-explorer-demo#" title="Other Krajee Resources" role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown"><i class="fas fa-fw fa-certificate"></i> Resources</a><div id="w9" class="dropdown-menu"><a class="dropdown-item" href="https://demos.krajee.com/" title="Krajee Yii2 Demos"><i class="fas fa-fw fa-play"></i> Yii2 Demos</a>
 <a class="dropdown-item" href="https://webtips.krajee.com/" title="Krajee Web Tips &amp; Resources"><i class="fas fa-fw fa-fire"></i> Web Tips</a>
 <a class="dropdown-item" href="https://kartikv.krajee.com/" title="Weblog of Kartik Visweswaran"><i class="fas fa-fw fa-edit"></i> Kartik's Weblog</a></div></li>
 <li class="nav-item"><a class="nav-link text-danger" href="https://webtips.krajee.com/tag/bootstrap-fileinput" title="Bootstrap Fileinput web tips" target="_blank"><i class="fas fa-bell kv-animated-bell"></i> Tips</a></li></ul><form class="form-inline kv-navbar-form" id="kv-gs-form" role="search">
@@ -73,7 +74,7 @@ function closepop() { $("#pop").popover("hide"); }</script>    <script>
         <span class="text-white" style="font-size:8px">Custom Search</span>
     </div>
         <div onclick="window.location.hash=&#39;#comments&#39;" title="Comments for this page" class="btn btn-link text-info" style="cursor:pointer;padding:5px 2px 5px 5px">
-        <span class="icon-animated-vertical"><i class="fa fa-lg fa-comments"></i></span> <a class="badge badge-info" href="http://vdemir.github.io/books/2019/04/14/python-useful-articles.html#disqus_thread">15</a>
+        <span class="icon-animated-vertical"><i class="fa fa-lg fa-comments"></i></span> <a class="badge badge-info" href="https://plugins.krajee.com/file-krajee-explorer-demo#disqus_thread">15</a>
     </div>
     </form></div>
 </nav></div>
@@ -82,12 +83,12 @@ function closepop() { $("#pop").popover("hide"); }</script>    <script>
     <div id="sidebar-wrapper">
         <ul id="sidebar" class="nav sidebar-nav flex-column flex-nowrap">
             <li class="sidebar-brand">
-                <a class="nav-link" id="menu-toggle" href="http://vdemir.github.io/books/2019/04/14/python-useful-articles.html#" title="Contents: Bootstrap File Input Krajee Explorer Theme Demo" onclick="togSideMenu(event)">
+                <a class="nav-link" id="menu-toggle" href="https://plugins.krajee.com/file-krajee-explorer-demo#" title="Contents: Bootstrap File Input Krajee Explorer Theme Demo" onclick="togSideMenu(event)">
                     <span class="main-icon"><i class="fas fa-bars"></i></span>bootstrap-fileinput                </a>
             </li>
-            <li><a class="navigate nav-link active" href="http://vdemir.github.io/books/2019/04/14/python-useful-articles.html#top" title="Top of page"><span class="sub-icon"><i class="fas fa-arrow-circle-up"></i></span> — Top —</a></li>
-                            <li><a class="nav-link" href="http://vdemir.github.io/books/2019/04/14/python-useful-articles.html#krajee-explorer-1" title="Basic Usage"><span class="sub-icon"><i class="fas fa-play-circle"></i></span> Basic Usage</a></li><li><a class="nav-link" href="http://vdemir.github.io/books/2019/04/14/python-useful-articles.html#krajee-explorer-2" title="Advanced Usage"><span class="sub-icon"><i class="fas fa-play-circle"></i></span> Advanced Usage</a></li><li><a class="nav-link" href="http://vdemir.github.io/books/2019/04/14/python-useful-articles.html#krajee-explorer-3" title="Hidden Thumbnails"><span class="sub-icon"><i class="fas fa-play-circle"></i></span> Hidden Thumbnails <span class="badge badge-success" title="New features available"><span style="margin-left:-20px">NEW</span></span></a></li>                        <li><a class="nav-link" href="http://vdemir.github.io/books/2019/04/14/python-useful-articles.html#comments" title="Comments &amp; Discussion"><span class="sub-icon"><i class="fas fa-comment"></i></span> Comments &amp; Discussion</a></li>
-            <li><a class="navigate nav-link" href="http://vdemir.github.io/books/2019/04/14/python-useful-articles.html#bottom" title="Bottom of page"><span class="sub-icon"><i class="fas fa-arrow-circle-down"></i></span> — Bottom —</a></li>
+            <li><a class="navigate nav-link active" href="https://plugins.krajee.com/file-krajee-explorer-demo#top" title="Top of page"><span class="sub-icon"><i class="fas fa-arrow-circle-up"></i></span> — Top —</a></li>
+                            <li><a class="nav-link" href="https://plugins.krajee.com/file-krajee-explorer-demo#krajee-explorer-1" title="Basic Usage"><span class="sub-icon"><i class="fas fa-play-circle"></i></span> Basic Usage</a></li><li><a class="nav-link" href="https://plugins.krajee.com/file-krajee-explorer-demo#krajee-explorer-2" title="Advanced Usage"><span class="sub-icon"><i class="fas fa-play-circle"></i></span> Advanced Usage</a></li><li><a class="nav-link" href="https://plugins.krajee.com/file-krajee-explorer-demo#krajee-explorer-3" title="Hidden Thumbnails"><span class="sub-icon"><i class="fas fa-play-circle"></i></span> Hidden Thumbnails <span class="badge badge-success" title="New features available"><span style="margin-left:-20px">NEW</span></span></a></li>                        <li><a class="nav-link" href="https://plugins.krajee.com/file-krajee-explorer-demo#comments" title="Comments &amp; Discussion"><span class="sub-icon"><i class="fas fa-comment"></i></span> Comments &amp; Discussion</a></li>
+            <li><a class="navigate nav-link" href="https://plugins.krajee.com/file-krajee-explorer-demo#bottom" title="Bottom of page"><span class="sub-icon"><i class="fas fa-arrow-circle-down"></i></span> — Bottom —</a></li>
             <li><div class="kv-sidenav-ad"><div id="w10" style="margin-left: -5px; width: 310px;"><iframe src="./Bootstrap File Input Krajee Explorer Theme Demo - © Kartik_files/saved_resource.html" scrolling="no" frameborder="0" style="width: 310px; height: 1060px; border-width: 0px; margin: 0px; padding: 0px;"></iframe></div></div></li>
         </ul>
     </div>
@@ -107,7 +108,7 @@ function closepop() { $("#pop").popover("hide"); }</script>    <script>
                             <li class="nav-item"><a class="nav-link" href="http://github.com/kartik-v/bootstrap-fileinput" title="bootstrap-fileinput github repository"><span class="fas fa-cloud"></span> Source</a></li>
 <li class="nav-item"><a class="nav-link" href="https://plugins.krajee.com/file-input" title="bootstrap-fileinput documentation"><span class="fas fa-book"></span> Docs</a></li>
 <li class="nav-item"><a class="nav-link" href="https://plugins.krajee.com/file-input/demo#krajee-explorer" title="bootstrap-fileinput demonstration"><span class="fas fa-play"></span> Demo</a></li>
-<li class="nav-item"><a class="nav-link active" href="http://vdemir.github.io/books/2019/04/14/python-useful-articles.html" title="Krajee Explorer Theme"><span class="fas fa-play"></span> Krajee E…</a></li>
+<li class="nav-item"><a class="nav-link active" href="https://plugins.krajee.com/file-krajee-explorer-demo" title="Krajee Explorer Theme"><span class="fas fa-play"></span> Krajee E…</a></li>
                         </ul>
                     </div>
                 </div>
@@ -175,7 +176,7 @@ contribution.&lt;/p&gt;&lt;/div&gt;" data-original-title="    &lt;b&gt;Why donat
     <div class="bs-section">
     	<div class="page-header bs-header">
 		<h1 id="krajee-explorer-1" class="display-4">
-            <a class="kv-anchor" title="" href="http://vdemir.github.io/books/2019/04/14/python-useful-articles.html#krajee-explorer-1" data-toggle="tooltip" data-original-title="Permalink"><span class="fa fa-link"></span></a>
+            <a class="kv-anchor" title="" href="https://plugins.krajee.com/file-krajee-explorer-demo#krajee-explorer-1" data-toggle="tooltip" data-original-title="Permalink"><span class="fa fa-link"></span></a>
                                 Basic Usage                <small></small>
             
 		</h1>
@@ -291,7 +292,7 @@ contribution.&lt;/p&gt;&lt;/div&gt;" data-original-title="    &lt;b&gt;Why donat
 			</div><div class="bs-section">
     	<div class="page-header bs-header">
 		<h1 id="krajee-explorer-2" class="display-4">
-            <a class="kv-anchor" title="" href="http://vdemir.github.io/books/2019/04/14/python-useful-articles.html#krajee-explorer-2" data-toggle="tooltip" data-original-title="Permalink"><span class="fa fa-link"></span></a>
+            <a class="kv-anchor" title="" href="https://plugins.krajee.com/file-krajee-explorer-demo#krajee-explorer-2" data-toggle="tooltip" data-original-title="Permalink"><span class="fa fa-link"></span></a>
                                 Advanced Usage                <small></small>
             
 		</h1>
@@ -486,7 +487,7 @@ contribution.&lt;/p&gt;&lt;/div&gt;" data-original-title="    &lt;b&gt;Why donat
 			</div><div class="bs-section">
     	<div class="page-header bs-header">
 		<h1 id="krajee-explorer-3" class="display-4">
-            <a class="kv-anchor" title="" href="http://vdemir.github.io/books/2019/04/14/python-useful-articles.html#krajee-explorer-3" data-toggle="tooltip" data-original-title="Permalink"><span class="fa fa-link"></span></a>
+            <a class="kv-anchor" title="" href="https://plugins.krajee.com/file-krajee-explorer-demo#krajee-explorer-3" data-toggle="tooltip" data-original-title="Permalink"><span class="fa fa-link"></span></a>
                                 Hidden Thumbnail Content                <small></small>
             
 		</h1>
@@ -667,7 +668,7 @@ contribution.&lt;/p&gt;&lt;/div&gt;" data-original-title="    &lt;b&gt;Why donat
                 <div id="comments">
                     <div class="page-header bs-header">
                         <h1 id="comments-heading" class="display-4">
-                            <a class="kv-anchor" title="" href="http://vdemir.github.io/books/2019/04/14/python-useful-articles.html#comments" data-toggle="tooltip" data-original-title="Permalink">
+                            <a class="kv-anchor" title="" href="https://plugins.krajee.com/file-krajee-explorer-demo#comments" data-toggle="tooltip" data-original-title="Permalink">
                                 <span class="fas fa-link"></span></a>
                             Comments &amp; Discussion
                         </h1>
@@ -692,7 +693,7 @@ contribution.&lt;/p&gt;&lt;/div&gt;" data-original-title="    &lt;b&gt;Why donat
 	<!--[if (gt IE 8)]><!-->
 	<script type="text/javascript">
         var disqus_config = function() {
-			this.page.url = 'http://vdemir.github.io/books/2019/04/14/python-useful-articles.html';
+			this.page.url = 'https://plugins.krajee.com/file-krajee-explorer-demo';
 		};
         (function () {
             var d = document, s = d.createElement('script');
