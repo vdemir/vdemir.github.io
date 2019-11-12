@@ -20,9 +20,9 @@ lang: tr
     <title>Bootstrap File Input Resumable Uploads Demo - &copy; Kartik</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet">
-<link href="/assets/Bootstrap/all-krajee.min.css?ver=201903112143" rel="stylesheet">
-<link href="/assets/Bootstrap/fileinput.css?ver=201909132002" rel="stylesheet">
-<link href="/assets/Bootstrap/dropdown.min.css" rel="stylesheet">
+<link href="https://plugins.krajee.com/assets/prod/all-krajee.min.css?ver=201903112143" rel="stylesheet">
+<link href="https://plugins.krajee.com/assets/1d958cec/css/fileinput.css?ver=201909132002" rel="stylesheet">
+<link href="https://plugins.krajee.com/assets/fc69cbca/css/dropdown.min.css" rel="stylesheet">
 <script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script>
 <script src="https://buttons.github.io/buttons.js" async></script>
 <script>(adsbygoogle=window.adsbygoogle||[]).push({google_ad_client:'ca-pub-4718928441117602',enable_page_level_ads:true});
@@ -40,7 +40,7 @@ function closepop() { $("#pop").popover("hide"); }</script>    <script>
 <body onload="prettyPrint()">
 <div id="top-navbar">
     <nav id="w6" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top pt-0 pb-0">
-<a class="navbar-brand" href="https://www.krajee.com" title="Krajee.com - Web Development Evolved"><img alt="Krajee" class="krajee-logo" src="https://plugins.krajee.com/assets/prod/img/krajee-logo.png"></a>
+<a class="navbar-brand" href="https://www.krajee.com" title="Krajee.com - Web Development Evolved"><img alt="Krajee" class="krajee-logo" src="https://plugins.krajee.comhttps://plugins.krajee.com/assets/prod/img/krajee-logo.png"></a>
 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#w6-collapse" aria-controls="w6-collapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 <div id="w6-collapse" class="collapse navbar-collapse">
 <ul id="w7" class="navbar-nav mr-auto nav"><li class="nav-item"><a class="nav-link" href="/" title="Krajee Plugins Home Page"><i class="fas fa-home"></i> Home</a></li>
@@ -120,7 +120,7 @@ function closepop() { $("#pop").popover("hide"); }</script>    <script>
 <li class="breadcrumb-item active">Resumable Uploads</li>
 </ol>                    </div>
                     <div class="col-lg-7 kv-buttons">
-                        <a class="github-button" href="https://github.com/kartik-v/bootstrap-fileinput/subscription" title="Watch" data-show-count="true" aria-label="Watch kartik-v/bootstrap-fileinput on GitHub">Watch</a> <a class="github-button" href="https://github.com/kartik-v/bootstrap-fileinput" data-show-count="true" title="Watch" aria-label="Star kartik-v/bootstrap-fileinput on GitHub">Star</a> <a class="github-button" href="https://github.com/kartik-v/bootstrap-fileinput/fork" data-show-count="true" aria-label="Fork kartik-v/bootstrap-fileinput on GitHub">Fork</a> <a class="github-button" href="https://github.com/kartik-v/bootstrap-fileinput/issues" data-show-count="true" aria-label="Issue kartik-v/bootstrap-fileinput on GitHub">Issue</a> <a class="github-button" href="https://github.com/kartik-v" data-show-count="true" aria-label="Follow @kartik-v on GitHub">@kartik-v</a>                    </div>
+                        <a class="github-button" href="https://github.com/kartik-v/bootstrap-fileinput/subscription" title="Watch" data-show-count="true" aria-label="Watch kartik-v/bootstrap-fileinput on GitHub">Watch</a> <a class="github-button" href="https://github.com/kartik-v/bootstrap-fileinput" data-show-count="true" title="aria-label="Star kartik-v/bootstrap-fileinput on GitHub">Star</a> <a class="github-button" href="https://github.com/kartik-v/bootstrap-fileinput/fork" data-show-count="true" aria-label="Fork kartik-v/bootstrap-fileinput on GitHub">Fork</a> <a class="github-button" href="https://github.com/kartik-v/bootstrap-fileinput/issues" data-show-count="true" aria-label="Issue kartik-v/bootstrap-fileinput on GitHub">Issue</a> <a class="github-button" href="https://github.com/kartik-v" data-show-count="true" aria-label="Follow @kartik-v on GitHub">@kartik-v</a>                    </div>
                 </div>
             </div>
             <div class="adblock-msg alert alert-danger" style="display:none;">
