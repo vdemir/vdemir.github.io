@@ -15,14 +15,14 @@ lang: tr
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-param" content="_csrf">
 <meta name="csrf-token" content="WEfDrt-MWPWZ2KjKHeFLbgPPpXrZJehu-Wx_h_WGK9saNqvxjLkew8OQzI9cvik6YJr2GesVvyejOkzTr-tMsQ==">
-    <link rel="shortcut icon" href="/assets/Bootstrap/krajee-logo.ico" type="image/x-icon">
-    <link rel="icon" href="/assets/Bootstrap/krajee-logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/https://vdemir.github.io/assets/Bootstrap/krajee-logo.ico" type="image/x-icon">
+    <link rel="icon" href="/https://vdemir.github.io/assets/Bootstrap/krajee-logo.ico" type="image/x-icon">
     <title>Bootstrap File Input Resumable Uploads Demo - &copy; Kartik</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet">
-<link href="/assets/Bootstrap/all-krajee.min.css?ver=201903112143" rel="stylesheet">
-<link href="/assets/Bootstrap/fileinput.css?ver=201909132002" rel="stylesheet">
-<link href="/assets/Bootstrap/dropdown.min.css" rel="stylesheet">
+<link href="/https://vdemir.github.io/assets/Bootstrap/all-krajee.min.css?ver=201903112143" rel="stylesheet">
+<link href="/https://vdemir.github.io/assets/Bootstrap/fileinput.css?ver=201909132002" rel="stylesheet">
+<link href="/https://vdemir.github.io/assets/Bootstrap/dropdown.min.css" rel="stylesheet">
 <script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script>
 <script src="https://buttons.github.io/buttons.js" async></script>
 <script>(adsbygoogle=window.adsbygoogle||[]).push({google_ad_client:'ca-pub-4718928441117602',enable_page_level_ads:true});
@@ -43,19 +43,19 @@ function closepop() { $("#pop").popover("hide"); }</script>    <script>
 <a class="navbar-brand" href="https://www.krajee.com" title="Krajee.com - Web Development Evolved"><img alt="Krajee" class="krajee-logo" src="/assets/Bootstrap/harun-yahya-truth.png"></a>
 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#w6-collapse" aria-controls="w6-collapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 <div id="w6-collapse" class="collapse navbar-collapse">
-<ul id="w7" class="navbar-nav mr-auto nav"><li class="nav-item"><a class="nav-link" href="/" title="Krajee Plugins Home Page"><i class="fas fa-home"></i> Home</a></li>
+<ul id="w7" class="navbar-nav mr-auto nav"><li class="nav-item"><a class="nav-link" href="/https://vdemir.github.io/" title="Krajee Plugins Home Page"><i class="fas fa-home"></i> Home</a></li>
 <li class="dropdown nav-item"><a id="pluginsMenu" class="nav-link dropdown-toggle active" href="#" title="Krajee Yii2 Demos" role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown"><i class="fas fa-fw fa-link"></i> Plugins</a><div id="w8" class="dropdown-menu"><h6 class="dropdown-header">Bootstrap</h6>
-<a class="dropdown-item" href="/markdown-editor" title="Krajee Bootstrap Markdown Editor Plugin"><i class="fas fa-fw fa-edit"></i> Markdown Editor <span class="badge badge-success">New</span></a>
-<a class="dropdown-item active" href="/file-input" title="Krajee Bootstrap File Input Plugin"><i class="fas fa-fw fa-folder-open"></i> File Input</a>
-<a class="dropdown-item" href="/star-rating" title="Krajee Bootstrap Star Rating Plugin"><i class="fas fa-fw fa-star"></i> Star Rating</a>
-<a class="dropdown-item" href="/tabs-x" title="Krajee Bootstrap Tabs Extended Plugin"><i class="fas fa-fw fa-folder"></i> Tabs X</a>
-<a class="dropdown-item" href="/popover-x" title="Krajee Bootstrap Popover Extended Plugin"><i class="fas fa-fw fa-comment"></i> Popover X</a>
-<a class="dropdown-item" href="/checkbox-x" title="Krajee Bootstrap Checkbox Extended Plugin"><i class="fas fa-fw fa-check-square"></i> Checkbox X</a>
+<a class="dropdown-item" href="/https://vdemir.github.io/markdown-editor" title="Krajee Bootstrap Markdown Editor Plugin"><i class="fas fa-fw fa-edit"></i> Markdown Editor <span class="badge badge-success">New</span></a>
+<a class="dropdown-item active" href="/https://vdemir.github.io/file-input" title="Krajee Bootstrap File Input Plugin"><i class="fas fa-fw fa-folder-open"></i> File Input</a>
+<a class="dropdown-item" href="/https://vdemir.github.io/star-rating" title="Krajee Bootstrap Star Rating Plugin"><i class="fas fa-fw fa-star"></i> Star Rating</a>
+<a class="dropdown-item" href="/https://vdemir.github.io/tabs-x" title="Krajee Bootstrap Tabs Extended Plugin"><i class="fas fa-fw fa-folder"></i> Tabs X</a>
+<a class="dropdown-item" href="/https://vdemir.github.io/popover-x" title="Krajee Bootstrap Popover Extended Plugin"><i class="fas fa-fw fa-comment"></i> Popover X</a>
+<a class="dropdown-item" href="/https://vdemir.github.io/checkbox-x" title="Krajee Bootstrap Checkbox Extended Plugin"><i class="fas fa-fw fa-check-square"></i> Checkbox X</a>
 <div class="dropdown-divider"></div>
 <h6 class="dropdown-header">Other</h6>
-<a class="dropdown-item" href="/dependent-dropdown" title="Krajee Dependent Dropdown Plugin"><i class="fas fa-fw fa-list"></i> Dependent Dropdown</a>
-<a class="dropdown-item" href="/strength-meter" title="Krajee Strength Meter Plugin"><i class="fas fa-fw fa-lock"></i> Strength Meter</a>
-<a class="dropdown-item" href="/php-date-formatter" title="Krajee PHP Date Formatter Library"><i class="fas fa-fw fa-calendar"></i> PHP Date Formatter</a></div></li>
+<a class="dropdown-item" href="/https://vdemir.github.io/dependent-dropdown" title="Krajee Dependent Dropdown Plugin"><i class="fas fa-fw fa-list"></i> Dependent Dropdown</a>
+<a class="dropdown-item" href="/https://vdemir.github.io/strength-meter" title="Krajee Strength Meter Plugin"><i class="fas fa-fw fa-lock"></i> Strength Meter</a>
+<a class="dropdown-item" href="/https://vdemir.github.io/php-date-formatter" title="Krajee PHP Date Formatter Library"><i class="fas fa-fw fa-calendar"></i> PHP Date Formatter</a></div></li>
 <li class="dropdown nav-item"><a id="resourcesMenu" class="nav-link dropdown-toggle" href="#" title="Other Krajee Resources" role="button" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown"><i class="fas fa-fw fa-certificate"></i> Resources</a><div id="w9" class="dropdown-menu"><a class="dropdown-item" href="https://demos.krajee.com" title="Krajee Yii2 Demos"><i class="fas fa-fw fa-play"></i> Yii2 Demos</a>
 <a class="dropdown-item" href="https://webtips.krajee.com" title="Krajee Web Tips &amp; Resources"><i class="fas fa-fw fa-fire"></i> Web Tips</a>
 <a class="dropdown-item" href="https://kartikv.krajee.com" title="Weblog of Kartik Visweswaran"><i class="fas fa-fw fa-edit"></i> Kartik's Weblog</a></div></li>
@@ -104,9 +104,9 @@ function closepop() { $("#pop").popover("hide"); }</script>    <script>
                     <div class="col-lg-5 kv-title-pills">
                         <ul class="nav nav-pills">
                             <li class="nav-item"><a class="nav-link" href="http://github.com/kartik-v/bootstrap-fileinput" title="bootstrap-fileinput github repository"><span class="fas fa-cloud"></span> Source</a></li>
-<li class="nav-item"><a class="nav-link" href="/file-input" title="bootstrap-fileinput documentation"><span class="fas fa-book"></span> Docs</a></li>
-<li class="nav-item"><a class="nav-link" href="/file-input/demo#resumable-uploads" title="bootstrap-fileinput demonstration"><span class="fas fa-play"></span> Demo</a></li>
-<li class="nav-item"><a class="nav-link active" href="/file-resumable-uploads-demo" title="Resumable Uploads"><span class="fas fa-play"></span> Resumabl&hellip;</a></li>
+<li class="nav-item"><a class="nav-link" href="/https://vdemir.github.io/file-input" title="bootstrap-fileinput documentation"><span class="fas fa-book"></span> Docs</a></li>
+<li class="nav-item"><a class="nav-link" href="/https://vdemir.github.io/file-input/demo#resumable-uploads" title="bootstrap-fileinput demonstration"><span class="fas fa-play"></span> Demo</a></li>
+<li class="nav-item"><a class="nav-link active" href="/https://vdemir.github.io/file-resumable-uploads-demo" title="Resumable Uploads"><span class="fas fa-play"></span> Resumabl&hellip;</a></li>
                         </ul>
                     </div>
                 </div>
@@ -114,9 +114,9 @@ function closepop() { $("#pop").popover("hide"); }</script>    <script>
             <div class="kv-crumb-bar">
                 <div class="row">
                     <div class="col-lg-5 kv-crumbs">
-                        <ol class="breadcrumb"><li class="breadcrumb-item"><a href="/">Home</a></li>
-<li class="breadcrumb-item"><a href="/file-input">Bootstrap File Input</a></li>
-<li class="breadcrumb-item"><a href="/file-input/demo#resumable-uploads">Demos</a></li>
+                        <ol class="breadcrumb"><li class="breadcrumb-item"><a href="/https://vdemir.github.io/">Home</a></li>
+<li class="breadcrumb-item"><a href="/https://vdemir.github.io/file-input">Bootstrap File Input</a></li>
+<li class="breadcrumb-item"><a href="/https://vdemir.github.io/file-input/demo#resumable-uploads">Demos</a></li>
 <li class="breadcrumb-item active">Resumable Uploads</li>
 </ol>                    </div>
                     <div class="col-lg-7 kv-buttons">
@@ -156,7 +156,7 @@ contribution.</p></div>">
         </ins>
         <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>            </div>
                         <div class="text-justify">
-                <p class="lead">Configuring advanced resumable / chunk  ajax based uploads for the <b>bootstrap-fileinput</b> plugin. Refer the <a href="/file-input#ajax-resumable">resumable uploads section</a> for overview on setting up resumable / chunk uploads including a sample server code (PHP example) for processing the file chunks on the server.</p>                <div class="bs-callout bs-callout-warning">
+                <p class="lead">Configuring advanced resumable / chunk  ajax based uploads for the <b>bootstrap-fileinput</b> plugin. Refer the <a href="/https://vdemir.github.io/file-input#ajax-resumable">resumable uploads section</a> for overview on setting up resumable / chunk uploads including a sample server code (PHP example) for processing the file chunks on the server.</p>                <div class="bs-callout bs-callout-warning">
                     <h4>Tip</h4>
                     <p>Not seeing the updated content on this page! Hard refresh your browser to clean cache for this page (e.g. <kbd>SHIFT-F5</kbd> on Windows Chrome)</p>
                 </div>
@@ -189,7 +189,7 @@ contribution.</p></div>">
             
 		</h1>
 	</div>
-    	<p>This example shows a basic resumable upload setup to upload large sized files as smaller chunks. You can select multiple files in this example. You need to set <samp><a href="/file-input/plugin-options#enableResumableUpload">enableResumableUpload</a></samp> to <code>true</code> for enabling resumable uploads. The <samp><a href="/file-input/plugin-options#uploadUrl">uploadUrl</a></samp> will receive each file chunk for processing. The maximum file count that can be selected simultaneously for upload is set to <code>5</code>. The default chunk size settings are used (i.e. <code>2048 KB</code> or <code>2 MB</code> per chunk). The example also shows configuration of <code>showZoom</code> within <samp><a href="/file-input/plugin-options#fileActionSettings">fileActionSettings</a></samp> as a callback function (whereby the zoom button in the file thumbnails is displayed only for specific selected file types i.e. <code>pdf</code> and <code>image</code>).</p><p>Note that once you click upload, only the pause button is shown for pausing and resuming the upload from the last position. The cancel button is by default not displayed.</p><p>Refer the <a href="/file-input#ajax-resumable">resumable uploads section</a> for overview on setting up resumable / chunk uploads including a sample server code (PHP example) for processing the file chunks on the server.</p>						<div class="bs-example">
+    	<p>This example shows a basic resumable upload setup to upload large sized files as smaller chunks. You can select multiple files in this example. You need to set <samp><a href="/https://vdemir.github.io/file-input/plugin-options#enableResumableUpload">enableResumableUpload</a></samp> to <code>true</code> for enabling resumable uploads. The <samp><a href="/https://vdemir.github.io/file-input/plugin-options#uploadUrl">uploadUrl</a></samp> will receive each file chunk for processing. The maximum file count that can be selected simultaneously for upload is set to <code>5</code>. The default chunk size settings are used (i.e. <code>2048 KB</code> or <code>2 MB</code> per chunk). The example also shows configuration of <code>showZoom</code> within <samp><a href="/https://vdemir.github.io/file-input/plugin-options#fileActionSettings">fileActionSettings</a></samp> as a callback function (whereby the zoom button in the file thumbnails is displayed only for specific selected file types i.e. <code>pdf</code> and <code>image</code>).</p><p>Note that once you click upload, only the pause button is shown for pausing and resuming the upload from the last position. The cancel button is by default not displayed.</p><p>Refer the <a href="/https://vdemir.github.io/file-input#ajax-resumable">resumable uploads section</a> for overview on setting up resumable / chunk uploads including a sample server code (PHP example) for processing the file chunks on the server.</p>						<div class="bs-example">
                 <div>
 				<label for="input-res-1">File Gallery</label>
 <div class="file-loading">
@@ -227,7 +227,7 @@ $(document).ready(function() {
             
 		</h1>
 	</div>
-    	<p>A variation of scenario # 1, where the plugin includes an option to test the status of a partially uploaded earlier file and resume upload from the previously uploaded point. To test this example, first <a href='http://kartik-v.github.io/bootstrap-fileinput-samples/samples/SampleJPGImage30MB.jpg'>download this 30MB sample image file</a> to your client and try to upload (without changing the file name). The <code>testUrl</code> within <samp><a href="/file-input/plugin-options#resumableUploadOptions">resumableUploadOptions</a></samp> will validate the <code>chunksUploaded</code> as an array list of 14 chunk indices already uploaded. The upload will recalibrate and resume from <code>~52%</code> progress onwards. For this example, the <code>chunkSize</code> is set to <code>1024 KB</code> (i.e. <code>1 MB</code>) within <samp><a href="/file-input/plugin-options#resumableUploadOptions">resumableUploadOptions</a></samp>. The example also enables the cancel button for cancelling/aborting uploads by setting <samp><a href="/file-input/plugin-options#showCancel">showCancel</a></samp> to explicitly true. Note that only image files are allowed for this example by setting <samp><a href="/file-input/plugin-options#allowedFileTypes">allowedFileTypes</a></samp> and the <code>accept</code> attribute within the native file input markup. Note also that you may not be able to preview the content of the 30 MB image file for this example, as it is controlled by the <samp><a href="/file-input/plugin-options#maxFilePreviewSize">maxFilePreviewSize</a></samp> (which defaults to <code>25600 KB</code> i.e. <code>25 MB</code>).</p><p>Refer the <a href="/file-input#ajax-resumable">resumable uploads section</a> for overview on setting up resumable / chunk uploads including a sample server code (PHP example) for processing the file chunks on the server.</p>						<div class="bs-example">
+    	<p>A variation of scenario # 1, where the plugin includes an option to test the status of a partially uploaded earlier file and resume upload from the previously uploaded point. To test this example, first <a href='http://kartik-v.github.io/bootstrap-fileinput-samples/samples/SampleJPGImage30MB.jpg'>download this 30MB sample image file</a> to your client and try to upload (without changing the file name). The <code>testUrl</code> within <samp><a href="/https://vdemir.github.io/file-input/plugin-options#resumableUploadOptions">resumableUploadOptions</a></samp> will validate the <code>chunksUploaded</code> as an array list of 14 chunk indices already uploaded. The upload will recalibrate and resume from <code>~52%</code> progress onwards. For this example, the <code>chunkSize</code> is set to <code>1024 KB</code> (i.e. <code>1 MB</code>) within <samp><a href="/https://vdemir.github.io/file-input/plugin-options#resumableUploadOptions">resumableUploadOptions</a></samp>. The example also enables the cancel button for cancelling/aborting uploads by setting <samp><a href="/https://vdemir.github.io/file-input/plugin-options#showCancel">showCancel</a></samp> to explicitly true. Note that only image files are allowed for this example by setting <samp><a href="/https://vdemir.github.io/file-input/plugin-options#allowedFileTypes">allowedFileTypes</a></samp> and the <code>accept</code> attribute within the native file input markup. Note also that you may not be able to preview the content of the 30 MB image file for this example, as it is controlled by the <samp><a href="/https://vdemir.github.io/file-input/plugin-options#maxFilePreviewSize">maxFilePreviewSize</a></samp> (which defaults to <code>25600 KB</code> i.e. <code>25 MB</code>).</p><p>Refer the <a href="/https://vdemir.github.io/file-input#ajax-resumable">resumable uploads section</a> for overview on setting up resumable / chunk uploads including a sample server code (PHP example) for processing the file chunks on the server.</p>						<div class="bs-example">
                 <div>
 				<label for="input-res-2">File Gallery</label>
 <div class="file-loading">
@@ -271,7 +271,7 @@ $(document).ready(function() {
             
 		</h1>
 	</div>
-    	<p>A variation of scenario 1 to show few other ways to configure the plugin for resumable uploads. You can set <samp><a href="/file-input/plugin-options#uploadExtraData">uploadExtraData</a></samp>  to send and receive additional data and information. For example, this scenario sends an <code>uploadToken</code> via <samp><a href="/file-input/plugin-options#uploadExtraData">uploadExtraData</a></samp> to validate the rights/accesses for the upload. This example shows how to use the plugin resumable events like <samp><a href="/file-input/plugin-events#fileuploaded">fileuploaded</a></samp>, <samp><a href="/file-input/plugin-events#fileuploaderror">fileuploaderror</a></samp>, and <samp><a href="/file-input/plugin-events#filebatchuploadcomplete">filebatchuploadcomplete</a></samp>. Check the browser console for data received via these events. This example also shows how you can have an <samp><a href="/file-input/plugin-options#initialPreview">initialPreview</a></samp> and <samp><a href="/file-input/plugin-options#initialPreviewConfig">initialPreviewConfig</a></samp> configured for displaying initially uploaded files. It also uses an icon only preview for this example via the <samp><a href="/file-input/plugin-options#preferIconicPreview">preferIconicPreview</a></samp>, <samp><a href="/file-input/plugin-options#previewFileIconSettings">previewFileIconSettings</a></samp>, and <samp><a href="/file-input/plugin-options#previewFileExtSettings">previewFileExtSettings</a></samp> settings.</p><p>Refer the <a href="/file-input#ajax-resumable">resumable uploads section</a> for overview on setting up resumable / chunk uploads including a sample server code (PHP example) for processing the file chunks on the server.</p>						<div class="bs-example">
+    	<p>A variation of scenario 1 to show few other ways to configure the plugin for resumable uploads. You can set <samp><a href="/https://vdemir.github.io/file-input/plugin-options#uploadExtraData">uploadExtraData</a></samp>  to send and receive additional data and information. For example, this scenario sends an <code>uploadToken</code> via <samp><a href="/https://vdemir.github.io/file-input/plugin-options#uploadExtraData">uploadExtraData</a></samp> to validate the rights/accesses for the upload. This example shows how to use the plugin resumable events like <samp><a href="/https://vdemir.github.io/file-input/plugin-events#fileuploaded">fileuploaded</a></samp>, <samp><a href="/https://vdemir.github.io/file-input/plugin-events#fileuploaderror">fileuploaderror</a></samp>, and <samp><a href="/https://vdemir.github.io/file-input/plugin-events#filebatchuploadcomplete">filebatchuploadcomplete</a></samp>. Check the browser console for data received via these events. This example also shows how you can have an <samp><a href="/https://vdemir.github.io/file-input/plugin-options#initialPreview">initialPreview</a></samp> and <samp><a href="/https://vdemir.github.io/file-input/plugin-options#initialPreviewConfig">initialPreviewConfig</a></samp> configured for displaying initially uploaded files. It also uses an icon only preview for this example via the <samp><a href="/https://vdemir.github.io/file-input/plugin-options#preferIconicPreview">preferIconicPreview</a></samp>, <samp><a href="/https://vdemir.github.io/file-input/plugin-options#previewFileIconSettings">previewFileIconSettings</a></samp>, and <samp><a href="/https://vdemir.github.io/file-input/plugin-options#previewFileExtSettings">previewFileExtSettings</a></samp> settings.</p><p>Refer the <a href="/https://vdemir.github.io/file-input#ajax-resumable">resumable uploads section</a> for overview on setting up resumable / chunk uploads including a sample server code (PHP example) for processing the file chunks on the server.</p>						<div class="bs-example">
                 <div>
 				<label for="input-res-3">File Gallery</label>
 <div class="file-loading">
@@ -454,7 +454,7 @@ $(document).ready(function() {
         <footer class="footer">
             <div id="bottom" class="kv-container">
                 <div class="footer-right">
-                    &copy; Kartik Visweswaran 2019                    <small><br>Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a> | <a href="/site/privacy">Privacy Policy</a></small>
+                    &copy; Kartik Visweswaran 2019                    <small><br>Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a> | <a href="/https://vdemir.github.io/site/privacy">Privacy Policy</a></small>
                 </div>
                 <div class="footer-left">
                     <div id="w12" class="kv-social-bar"><a class="text-info" href="https://www.facebook.com/KrajeeSolutions" title="Join us on Facebook"><i class='fab fa-3x fa-facebook-square'></i></a>
