@@ -5527,10 +5527,15 @@ class Car(object):
 {% endhighlight %}
 
 
+Arabaların farklı tiplerini oluşturmaya başlayalım.
 
 
+{% highlight python %}
 
+maruthi_suzuki = Car("ertiga", "black", "suzuki", 60)
+audi = Car("A6", "red", "audi", 80)
 
+{% endhighlight %}
 
 
 
