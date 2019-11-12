@@ -9,7 +9,6 @@ published: true
 lang: tr
 ---
 
-<!DOCTYPE html>
 <!-- saved from url=(0052)http://vdemir.github.io/books/2019/04/14/python-useful-articles.html -->
 <html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
