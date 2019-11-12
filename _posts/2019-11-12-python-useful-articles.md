@@ -40,10 +40,10 @@ function closepop() { $("#pop").popover("hide"); }</script>    <script>
 <body onload="prettyPrint()">
 <div id="top-navbar">
     <nav id="w6" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top pt-0 pb-0">
-<a class="navbar-brand" href="https://www.krajee.com" title="Krajee.com - Web Development Evolved"><img alt="Krajee" class="krajee-logo" src="Bootstrap/krajee-logo.png"></a>
+<a class="navbar-brand" href="https://www.http://vdemir.github.io" title="http://vdemir.github.io - Web Development Evolved"><img alt="Krajee" class="krajee-logo" src="Bootstrap/harun-yahya-truth.png"></a>
 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#w6-collapse" aria-controls="w6-collapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 <div id="w6-collapse" class="collapse navbar-collapse">
-<ul id="w7" class="navbar-nav mr-auto nav"><li class="nav-item"><a class="nav-link" href="/https://plugins.krajee.com/" title="Krajee Plugins Home Page"><i class="fas fa-home"></i> Home</a></li>
+<ul id="w7" class="navbar-nav mr-auto nav"><li class="nav-item"><a class="nav-link" href="/https://plugins.http://vdemir.github.io/" title="Krajee Plugins Home Page"><i class="fas fa-home"></i> Home</a></li>
 </ul><form class="form-inline kv-navbar-form" id="kv-gs-form" role="search">
     <div class="input-group">
         <input id="kv-gs-query" type="text" class="form-control" placeholder="Search Krajee Plugins ..." autocomplete="off">
@@ -57,7 +57,7 @@ function closepop() { $("#pop").popover("hide"); }</script>    <script>
          class="btn btn-link text-info" style="cursor:pointer;padding:5px 2px 5px 5px">
         <span class="icon-animated-vertical"><i class="fa fa-lg fa-comments"></i></span> <a
                 class="badge badge-info"
-                href="https://plugins.krajee.com/file-resumable-uploads-demo#disqus_thread">&hellip;</a>
+                href="https://plugins.http://vdemir.github.io/file-resumable-uploads-demo#disqus_thread">&hellip;</a>
     </div>
     </form></div>
 </nav></div>
@@ -89,9 +89,9 @@ function closepop() { $("#pop").popover("hide"); }</script>    <script>
                     <div class="col-lg-5 kv-title-pills">
                         <ul class="nav nav-pills">
                             <li class="nav-item"><a class="nav-link" href="http://github.com/kartik-v/bootstrap-fileinput" title="bootstrap-fileinput github repository"><span class="fas fa-cloud"></span> Source</a></li>
-<li class="nav-item"><a class="nav-link" href="/https://plugins.krajee.com/file-input" title="bootstrap-fileinput documentation"><span class="fas fa-book"></span> Docs</a></li>
-<li class="nav-item"><a class="nav-link" href="/https://plugins.krajee.com/file-input/demo#resumable-uploads" title="bootstrap-fileinput demonstration"><span class="fas fa-play"></span> Demo</a></li>
-<li class="nav-item"><a class="nav-link active" href="/https://plugins.krajee.com/file-resumable-uploads-demo" title="Resumable Uploads"><span class="fas fa-play"></span> Resumabl&hellip;</a></li>
+<li class="nav-item"><a class="nav-link" href="/https://plugins.http://vdemir.github.io/file-input" title="bootstrap-fileinput documentation"><span class="fas fa-book"></span> Docs</a></li>
+<li class="nav-item"><a class="nav-link" href="/https://plugins.http://vdemir.github.io/file-input/demo#resumable-uploads" title="bootstrap-fileinput demonstration"><span class="fas fa-play"></span> Demo</a></li>
+<li class="nav-item"><a class="nav-link active" href="/https://plugins.http://vdemir.github.io/file-resumable-uploads-demo" title="Resumable Uploads"><span class="fas fa-play"></span> Resumabl&hellip;</a></li>
                         </ul>
                     </div>
                 </div>
@@ -108,7 +108,7 @@ function closepop() { $("#pop").popover("hide"); }</script>    <script>
             
 		</h1>
 	</div>
-    	<p>This example shows a basic resumable upload setup to upload large sized files as smaller chunks. You can select multiple files in this example. You need to set <samp><a href="/https://plugins.krajee.com/file-input/plugin-options#enableResumableUpload">enableResumableUpload</a></samp> to <code>true</code> for enabling resumable uploads. The <samp><a href="/https://plugins.krajee.com/file-input/plugin-options#uploadUrl">uploadUrl</a></samp> will receive each file chunk for processing. The maximum file count that can be selected simultaneously for upload is set to <code>5</code>. The default chunk size settings are used (i.e. <code>2048 KB</code> or <code>2 MB</code> per chunk). The example also shows configuration of <code>showZoom</code> within <samp><a href="/https://plugins.krajee.com/file-input/plugin-options#fileActionSettings">fileActionSettings</a></samp> as a callback function (whereby the zoom button in the file thumbnails is displayed only for specific selected file types i.e. <code>pdf</code> and <code>image</code>).</p><p>Note that once you click upload, only the pause button is shown for pausing and resuming the upload from the last position. The cancel button is by default not displayed.</p><p>Refer the <a href="/https://plugins.krajee.com/file-input#ajax-resumable">resumable uploads section</a> for overview on setting up resumable / chunk uploads including a sample server code (PHP example) for processing the file chunks on the server.</p>						<div class="bs-example">
+    	<p>This example shows a basic resumable upload setup to upload large sized files as smaller chunks. You can select multiple files in this example. You need to set <samp><a href="/https://plugins.http://vdemir.github.io/file-input/plugin-options#enableResumableUpload">enableResumableUpload</a></samp> to <code>true</code> for enabling resumable uploads. The <samp><a href="/https://plugins.http://vdemir.github.io/file-input/plugin-options#uploadUrl">uploadUrl</a></samp> will receive each file chunk for processing. The maximum file count that can be selected simultaneously for upload is set to <code>5</code>. The default chunk size settings are used (i.e. <code>2048 KB</code> or <code>2 MB</code> per chunk). The example also shows configuration of <code>showZoom</code> within <samp><a href="/https://plugins.http://vdemir.github.io/file-input/plugin-options#fileActionSettings">fileActionSettings</a></samp> as a callback function (whereby the zoom button in the file thumbnails is displayed only for specific selected file types i.e. <code>pdf</code> and <code>image</code>).</p><p>Note that once you click upload, only the pause button is shown for pausing and resuming the upload from the last position. The cancel button is by default not displayed.</p><p>Refer the <a href="/https://plugins.http://vdemir.github.io/file-input#ajax-resumable">resumable uploads section</a> for overview on setting up resumable / chunk uploads including a sample server code (PHP example) for processing the file chunks on the server.</p>						<div class="bs-example">
                 <div>
 				<label for="input-res-1">File Gallery</label>
 <div class="file-loading">
@@ -146,7 +146,7 @@ $(document).ready(function() {
             
 		</h1>
 	</div>
-    	<p>A variation of scenario # 1, where the plugin includes an option to test the status of a partially uploaded earlier file and resume upload from the previously uploaded point. To test this example, first <a href='http://kartik-v.github.io/bootstrap-fileinput-samples/samples/SampleJPGImage30MB.jpg'>download this 30MB sample image file</a> to your client and try to upload (without changing the file name). The <code>testUrl</code> within <samp><a href="/https://plugins.krajee.com/file-input/plugin-options#resumableUploadOptions">resumableUploadOptions</a></samp> will validate the <code>chunksUploaded</code> as an array list of 14 chunk indices already uploaded. The upload will recalibrate and resume from <code>~52%</code> progress onwards. For this example, the <code>chunkSize</code> is set to <code>1024 KB</code> (i.e. <code>1 MB</code>) within <samp><a href="/https://plugins.krajee.com/file-input/plugin-options#resumableUploadOptions">resumableUploadOptions</a></samp>. The example also enables the cancel button for cancelling/aborting uploads by setting <samp><a href="/https://plugins.krajee.com/file-input/plugin-options#showCancel">showCancel</a></samp> to explicitly true. Note that only image files are allowed for this example by setting <samp><a href="/https://plugins.krajee.com/file-input/plugin-options#allowedFileTypes">allowedFileTypes</a></samp> and the <code>accept</code> attribute within the native file input markup. Note also that you may not be able to preview the content of the 30 MB image file for this example, as it is controlled by the <samp><a href="/https://plugins.krajee.com/file-input/plugin-options#maxFilePreviewSize">maxFilePreviewSize</a></samp> (which defaults to <code>25600 KB</code> i.e. <code>25 MB</code>).</p><p>Refer the <a href="/https://plugins.krajee.com/file-input#ajax-resumable">resumable uploads section</a> for overview on setting up resumable / chunk uploads including a sample server code (PHP example) for processing the file chunks on the server.</p>						<div class="bs-example">
+    	<p>A variation of scenario # 1, where the plugin includes an option to test the status of a partially uploaded earlier file and resume upload from the previously uploaded point. To test this example, first <a href='http://kartik-v.github.io/bootstrap-fileinput-samples/samples/SampleJPGImage30MB.jpg'>download this 30MB sample image file</a> to your client and try to upload (without changing the file name). The <code>testUrl</code> within <samp><a href="/https://plugins.http://vdemir.github.io/file-input/plugin-options#resumableUploadOptions">resumableUploadOptions</a></samp> will validate the <code>chunksUploaded</code> as an array list of 14 chunk indices already uploaded. The upload will recalibrate and resume from <code>~52%</code> progress onwards. For this example, the <code>chunkSize</code> is set to <code>1024 KB</code> (i.e. <code>1 MB</code>) within <samp><a href="/https://plugins.http://vdemir.github.io/file-input/plugin-options#resumableUploadOptions">resumableUploadOptions</a></samp>. The example also enables the cancel button for cancelling/aborting uploads by setting <samp><a href="/https://plugins.http://vdemir.github.io/file-input/plugin-options#showCancel">showCancel</a></samp> to explicitly true. Note that only image files are allowed for this example by setting <samp><a href="/https://plugins.http://vdemir.github.io/file-input/plugin-options#allowedFileTypes">allowedFileTypes</a></samp> and the <code>accept</code> attribute within the native file input markup. Note also that you may not be able to preview the content of the 30 MB image file for this example, as it is controlled by the <samp><a href="/https://plugins.http://vdemir.github.io/file-input/plugin-options#maxFilePreviewSize">maxFilePreviewSize</a></samp> (which defaults to <code>25600 KB</code> i.e. <code>25 MB</code>).</p><p>Refer the <a href="/https://plugins.http://vdemir.github.io/file-input#ajax-resumable">resumable uploads section</a> for overview on setting up resumable / chunk uploads including a sample server code (PHP example) for processing the file chunks on the server.</p>						<div class="bs-example">
                 <div>
 				<label for="input-res-2">File Gallery</label>
 <div class="file-loading">
@@ -190,7 +190,7 @@ $(document).ready(function() {
             
 		</h1>
 	</div>
-    	<p>A variation of scenario 1 to show few other ways to configure the plugin for resumable uploads. You can set <samp><a href="/https://plugins.krajee.com/file-input/plugin-options#uploadExtraData">uploadExtraData</a></samp>  to send and receive additional data and information. For example, this scenario sends an <code>uploadToken</code> via <samp><a href="/https://plugins.krajee.com/file-input/plugin-options#uploadExtraData">uploadExtraData</a></samp> to validate the rights/accesses for the upload. This example shows how to use the plugin resumable events like <samp><a href="/https://plugins.krajee.com/file-input/plugin-events#fileuploaded">fileuploaded</a></samp>, <samp><a href="/https://plugins.krajee.com/file-input/plugin-events#fileuploaderror">fileuploaderror</a></samp>, and <samp><a href="/https://plugins.krajee.com/file-input/plugin-events#filebatchuploadcomplete">filebatchuploadcomplete</a></samp>. Check the browser console for data received via these events. This example also shows how you can have an <samp><a href="/https://plugins.krajee.com/file-input/plugin-options#initialPreview">initialPreview</a></samp> and <samp><a href="/https://plugins.krajee.com/file-input/plugin-options#initialPreviewConfig">initialPreviewConfig</a></samp> configured for displaying initially uploaded files. It also uses an icon only preview for this example via the <samp><a href="/https://plugins.krajee.com/file-input/plugin-options#preferIconicPreview">preferIconicPreview</a></samp>, <samp><a href="/https://plugins.krajee.com/file-input/plugin-options#previewFileIconSettings">previewFileIconSettings</a></samp>, and <samp><a href="/https://plugins.krajee.com/file-input/plugin-options#previewFileExtSettings">previewFileExtSettings</a></samp> settings.</p><p>Refer the <a href="/https://plugins.krajee.com/file-input#ajax-resumable">resumable uploads section</a> for overview on setting up resumable / chunk uploads including a sample server code (PHP example) for processing the file chunks on the server.</p>						<div class="bs-example">
+    	<p>A variation of scenario 1 to show few other ways to configure the plugin for resumable uploads. You can set <samp><a href="/https://plugins.http://vdemir.github.io/file-input/plugin-options#uploadExtraData">uploadExtraData</a></samp>  to send and receive additional data and information. For example, this scenario sends an <code>uploadToken</code> via <samp><a href="/https://plugins.http://vdemir.github.io/file-input/plugin-options#uploadExtraData">uploadExtraData</a></samp> to validate the rights/accesses for the upload. This example shows how to use the plugin resumable events like <samp><a href="/https://plugins.http://vdemir.github.io/file-input/plugin-events#fileuploaded">fileuploaded</a></samp>, <samp><a href="/https://plugins.http://vdemir.github.io/file-input/plugin-events#fileuploaderror">fileuploaderror</a></samp>, and <samp><a href="/https://plugins.http://vdemir.github.io/file-input/plugin-events#filebatchuploadcomplete">filebatchuploadcomplete</a></samp>. Check the browser console for data received via these events. This example also shows how you can have an <samp><a href="/https://plugins.http://vdemir.github.io/file-input/plugin-options#initialPreview">initialPreview</a></samp> and <samp><a href="/https://plugins.http://vdemir.github.io/file-input/plugin-options#initialPreviewConfig">initialPreviewConfig</a></samp> configured for displaying initially uploaded files. It also uses an icon only preview for this example via the <samp><a href="/https://plugins.http://vdemir.github.io/file-input/plugin-options#preferIconicPreview">preferIconicPreview</a></samp>, <samp><a href="/https://plugins.http://vdemir.github.io/file-input/plugin-options#previewFileIconSettings">previewFileIconSettings</a></samp>, and <samp><a href="/https://plugins.http://vdemir.github.io/file-input/plugin-options#previewFileExtSettings">previewFileExtSettings</a></samp> settings.</p><p>Refer the <a href="/https://plugins.http://vdemir.github.io/file-input#ajax-resumable">resumable uploads section</a> for overview on setting up resumable / chunk uploads including a sample server code (PHP example) for processing the file chunks on the server.</p>						<div class="bs-example">
                 <div>
 				<label for="input-res-3">File Gallery</label>
 <div class="file-loading">
@@ -321,9 +321,9 @@ $(document).ready(function() {
                     </div>
                     <div class="bs-callout bs-callout-info">
                         <h4><i class="fas fa-exclamation-circle"></i> Note</h4>
-                        <p>You can now visit the <a href="https://webtips.krajee.com/questions">Krajee Webtips Q & A forum</a> 
+                        <p>You can now visit the <a href="https://webtips.http://vdemir.github.io/questions">Krajee Webtips Q & A forum</a> 
                         for searching OR asking questions OR helping programmers with answers on these extensions and plugins. 
-                        For asking a question <a href="https://webtips.krajee.com/ask-question">click here</a>. Select the 
+                        For asking a question <a href="https://webtips.http://vdemir.github.io/ask-question">click here</a>. Select the 
                         appropriate <b>question category</b> (i.e. <i>Krajee Plugins</i>) and choose this current page plugin 
                         in the <b>question related to</b> field.</p>
                         <p>
@@ -339,7 +339,7 @@ $(document).ready(function() {
 	<!--[if (gt IE 8)]><!-->
 	<script type="text/javascript">
         var disqus_config = function() {
-			this.page.url = 'https://plugins.krajee.com/file-resumable-uploads-demo';
+			this.page.url = 'https://plugins.http://vdemir.github.io/file-resumable-uploads-demo';
 		};
         (function () {
             var d = document, s = d.createElement('script');
@@ -373,7 +373,7 @@ $(document).ready(function() {
         <footer class="footer">
             <div id="bottom" class="kv-container">
                 <div class="footer-right">
-                    &copy; Kartik Visweswaran 2019                    <small><br>Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a> | <a href="/https://plugins.krajee.com/site/privacy">Privacy Policy</a></small>
+                    &copy; Kartik Visweswaran 2019                    <small><br>Powered by <a href="http://www.yiiframework.com/" rel="external">Yii Framework</a> | <a href="/https://plugins.http://vdemir.github.io/site/privacy">Privacy Policy</a></small>
                 </div>
                 <div class="footer-left">
                     <div id="w12" class="kv-social-bar"><a class="text-info" href="https://www.facebook.com/KrajeeSolutions" title="Join us on Facebook"><i class='fab fa-3x fa-facebook-square'></i></a>
@@ -398,7 +398,7 @@ $(document).ready(function() {
             m.parentNode.insertBefore(a, m)
         })(window, document, 'script', '//www.google-analytics.com/analytics.js', '__gaTracker');
 
-        __gaTracker('create', 'UA-52095950-1', 'krajee.com');
+        __gaTracker('create', 'UA-52095950-1', 'http://vdemir.github.io');
                 __gaTracker('send', 'pageview');
         	</script>
 <noscript><div class="alert alert-danger">You must enable Javascript on your browser for the site to work optimally and display sections completely.</div></noscript>    </div>
