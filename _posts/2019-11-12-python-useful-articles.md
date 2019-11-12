@@ -9,7 +9,6 @@ published: true
 lang: tr
 ---
 
-<!DOCTYPE html>
 <!-- saved from url=(0054)https://plugins.krajee.com/file-resumable-uploads-demo -->
 <html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
