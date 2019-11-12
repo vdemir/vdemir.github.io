@@ -5546,3 +5546,31 @@ Yordamlara ve özniteliklere erişmek için sınıf içinde "self"in kullanımı
 
 Durum: Genişlik (b = 120), uzunluk (l = 160) olan dikdörtgen bir alanın maliyetini öğrenin. Her 1 kare birim  (2000) rupiye malolur.
 
+
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
+
+
+{% highlight python %}class Rectangle:
+   def __init__(self, length, breadth, unit_cost=0):
+       self.length = length
+       self.breadth = breadth
+       self.unit_cost = unit_cost
+   
+   def get_perimeter(self):
+       return 2 * (self.length + self.breadth)
+   
+   def get_area(self):
+       return self.length * self.breadth
+   
+   def calculate_cost(self):
+       area = self.get_area()
+       return area * self.unit_cost
+# breadth = 120 cm, length = 160 cm, 1 cm^2 = Rs 2000
+r = Rectangle(160, 120, 2000)
+print("Area of Rectangle: %s cm^2" % (r.get_area()))
+print("Cost of rectangular field: Rs. %s " %(r.calculate_cost()))
+
+{% endhighlight %}
