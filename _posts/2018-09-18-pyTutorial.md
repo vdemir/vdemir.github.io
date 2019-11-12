@@ -5537,6 +5537,6 @@ audi = Car("A6", "red", "audi", 80)
 
 {% endhighlight %}
 
-
+Aynı sınıf ile araba öbeklerinin iki farklı tipini oluşturudk. araba öbeğini oluşturuken aktardığımız ifadeler "ertiga","black","suzuki",60 bu ifadeler öbeğe atamak için ____init____ method yordamına aktarılacak.
 
 
