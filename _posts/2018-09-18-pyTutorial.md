@@ -5544,4 +5544,5 @@ Burada, sihirli anahtar "self" sınıfın eşleneğini ifade eder. Verilen ifade
 Yordamlara ve özniteliklere erişmek için sınıf içinde "self"in kullanımı.
 
 
-Durum: Genişlik (b = 120), uzunluk (l = 160) olan dikdörtgen bir alanın maliyetini öğrenin. Her 1 kare birim için x (2000) rupiye malolur.
+Durum: Genişlik (b = 120), uzunluk (l = 160) olan dikdörtgen bir alanın maliyetini öğrenin. Her 1 kare birim  (2000) rupiye malolur.
+
