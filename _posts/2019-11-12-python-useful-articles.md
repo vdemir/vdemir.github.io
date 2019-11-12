@@ -111,32 +111,6 @@ function closepop() { $("#pop").popover("hide"); }</script>    <script>
                     </div>
                 </div>
             </div>
-            <div class="kv-crumb-bar">
-                <div class="row">
-                    <div class="col-lg-5 kv-crumbs">
-                        <ol class="breadcrumb"><li class="breadcrumb-item"><a href="/https://plugins.krajee.com/">Home</a></li>
-<li class="breadcrumb-item"><a href="/https://plugins.krajee.com/file-input">Bootstrap File Input</a></li>
-<li class="breadcrumb-item"><a href="/https://plugins.krajee.com/file-input/demo#resumable-uploads">Demos</a></li>
-<li class="breadcrumb-item active">Resumable Uploads</li>
-</ol>                    </div>
-                    <div class="col-lg-7 kv-buttons">
-                        <a class="github-button" href="https://github.com/kartik-v/bootstrap-fileinput/subscription" title="Watch" data-show-count="true" aria-label="Watch kartik-v/bootstrap-fileinput on GitHub">Watch</a> <a class="github-button" href="https://github.com/kartik-v/bootstrap-fileinput" data-show-count="true" title="aria-label="Star kartik-v/bootstrap-fileinput on GitHub">Star</a> <a class="github-button" href="https://github.com/kartik-v/bootstrap-fileinput/fork" data-show-count="true" aria-label="Fork kartik-v/bootstrap-fileinput on GitHub">Fork</a> <a class="github-button" href="https://github.com/kartik-v/bootstrap-fileinput/issues" data-show-count="true" aria-label="Issue kartik-v/bootstrap-fileinput on GitHub">Issue</a> <a class="github-button" href="https://github.com/kartik-v" data-show-count="true" aria-label="Follow @kartik-v on GitHub">@kartik-v</a>                    </div>
-                </div>
-            </div>
-            <div class="my-2">
-                <form action="https://www.paypal.com/cgi-bin/webscr" class="form-inline justify-content-center text-muted small" method="post" target="_top">
-    <input type="hidden" name="cmd" value="_s-xclick">
-    <input type="hidden" name="hosted_button_id" value="DTP3NZQ6G2AYU">
-    <span class="mx-1">Thankful to Krajee!</span>
-        <button class="btn btn-sm btn-warning" type="submit" title="Donate to Krajee via Paypal"><i class="fas fa-lg fa-hand-holding-usd"></i> DONATE</button>
-    <input type="hidden" name="currency_code" value="USD">
-    <span class="mx-1">to get more out of us. 
-        <button id="pop" type="button" class="btn btn-sm btn-info kv-paypal" style="padding:1px 5px;font-size:12px" 
-            title="    <b>Why donate?</b>
-    <button type='button' class='close' onclick='closepop()' style='margin-top:-5px'>&times;</button>" data-html="true" data-animation="true" data-toggle="popover" data-placement="right" data-content="<div class='small text-justify'><p>We strive hard in creating high quality JQuery plugins for the community as <b>free</b> open source code, and maintaining this demonstration site.</p><p>Any donation would help us maintain our resources better and help improve our plugins or create new ones.</p><p>Even, if it does not fulfil our 
-resource needs, it will still be a nice way to thank us and buy us a <i class='fas fa-coffee'></i>.</p><p>We accept donations through 
-<a href='https://www.paypal.com' target='_blank'>PayPal</a>. You can also <a href='http://krajee.com/contact/'>send us your details</a> for us to acknowledge your 
-contribution.</p></div>">
             <i class="fas fa-info-circle"></i> Learn
         </button>
     </span>
