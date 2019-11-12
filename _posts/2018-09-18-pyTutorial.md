@@ -5481,6 +5481,9 @@ Sınıf, ortaklaşa bazı özellik veya niteliklere sahip olan şeyler kümesi v
 Object :
 Object(öbek), sınıfın eşleneklerinden biridir. Sınıfta tanımlanan işlevselliği uygulayabilir.
 
+self :
+self sınıfın eşleneğini ifade eder. self anahtarını kullanarak python da sınıfın methods(yordam) ve attributes(niteliklerine) erişebiliriz.
+
 
 {% highlight python %}
 
