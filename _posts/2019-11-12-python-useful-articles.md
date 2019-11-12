@@ -123,12 +123,7 @@ function closepop() { $("#pop").popover("hide"); }</script>    <script>
                         <a class="github-button" href="https://github.com/kartik-v/bootstrap-fileinput/subscription" title="Watch" data-show-count="true" aria-label="Watch kartik-v/bootstrap-fileinput on GitHub">Watch</a> <a class="github-button" href="https://github.com/kartik-v/bootstrap-fileinput" data-show-count="true" title="aria-label="Star kartik-v/bootstrap-fileinput on GitHub">Star</a> <a class="github-button" href="https://github.com/kartik-v/bootstrap-fileinput/fork" data-show-count="true" aria-label="Fork kartik-v/bootstrap-fileinput on GitHub">Fork</a> <a class="github-button" href="https://github.com/kartik-v/bootstrap-fileinput/issues" data-show-count="true" aria-label="Issue kartik-v/bootstrap-fileinput on GitHub">Issue</a> <a class="github-button" href="https://github.com/kartik-v" data-show-count="true" aria-label="Follow @kartik-v on GitHub">@kartik-v</a>                    </div>
                 </div>
             </div>
-            <div class="adblock-msg alert alert-danger" style="display:none;">
-	<button class="close text-right pull-right float-right">&times;</button>
-	<div style="float:left;font-size:18px;margin-right:20px"><i class="fa fa-exclamation-triangle fa-4x"></i></div><h4>Oops!</h4>
-	Your browser seems to have an ad-blocking plugin enabled. It is recommended if you can add this domain to your adblocker's whitelist to enable a seamless viewing experience
-	of the jQuery plugin demos on this site. If you still feel that you find specific content intrusive or inappropriate, please <a href="mailto:feedback@krajee.com" class="btn btn-sm btn-danger"><i class="glyphicon glyphicon-envelope"></i> mail us</a>
-</div>            <div class="my-2">
+            <div class="my-2">
                 <form action="https://www.paypal.com/cgi-bin/webscr" class="form-inline justify-content-center text-muted small" method="post" target="_top">
     <input type="hidden" name="cmd" value="_s-xclick">
     <input type="hidden" name="hosted_button_id" value="DTP3NZQ6G2AYU">
