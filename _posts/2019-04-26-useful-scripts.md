@@ -11,7 +11,7 @@ lang: tr
 ---
 
 <a href="https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/istihza/python3.pdf" target="_blank">python3 PDF</a>
-<a href="https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/pythn/Learning-Tips.pdf" target="_blank">python3 PDF</a>
+<a href="https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/pythn/Learning-Tips.pdf" target="_blank">Learning Python Programming with 11 Beginner Tips</a>
 
 
   https://www.johnvansickle.com/ffmpeg/
