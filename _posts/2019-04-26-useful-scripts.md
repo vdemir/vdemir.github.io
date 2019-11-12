@@ -11,6 +11,8 @@ lang: tr
 ---
 
 <a href="https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/istihza/python3.pdf" target="_blank">python3 PDF</a>
+<a href="https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/pythn/Learning-Tips.pdf" target="_blank">python3 PDF</a>
+
 
   https://www.johnvansickle.com/ffmpeg/
 ffmpeg -f concat -i list.txt -c copy merged.mp4 (list.txt: file 'EIrZ0cvW4AIBT6Z.mp4')
