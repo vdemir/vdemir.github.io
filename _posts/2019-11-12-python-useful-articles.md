@@ -18,7 +18,7 @@ lang: tr
     <link rel="shortcut icon" href="/assets/Bootstrap/harun-yahya-truth.png" type="image/x-icon">
     <link rel="icon" href="/assets/Bootstrap/harun-yahya-truth.png" type="image/x-icon">
     <title>Bootstrap File Input Resumable Uploads Demo - &copy; Kartik</title>
-    <link href="https://stackpath.bootstrapcdn.com/assets/Bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet">
 <link href="/assets/Bootstrap/all-krajee.min.css?ver=201903112143" rel="stylesheet">
 <link href="/assets/Bootstrap/fileinput.css?ver=201909132002" rel="stylesheet">
@@ -511,7 +511,7 @@ $(document).ready(function() {
 </style><script id="dsq-count-scr" src="//krajee.disqus.com/count.js" async></script>
 <script src="https://plugins.krajee.com/assets/1d958cec/js/plugins/purify.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/assets/Bootstrap/4.3.1/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 <script src="https://plugins.krajee.com/assets/prod/all-krajee.min.js?ver=201903112143"></script>
 <script src="https://plugins.krajee.com/assets/1d958cec/js/plugins/sortable.min.js"></script>
 <script src="https://plugins.krajee.com/assets/1d958cec/js/plugins/piexif.min.js"></script>
