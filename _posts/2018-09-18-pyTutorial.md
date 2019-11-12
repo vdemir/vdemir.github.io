@@ -5491,6 +5491,11 @@ ____init____ :
 
 Bir NFS oyunu oluşturduğumuzu düşünün. Bununiçin bir arabaya sahip olabiliriz. Araba "color", "company", "speed_limit" gibi. ve "change_gear", "start", "accelarate", "move" gibi methods(yordamlar).
 
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
+
 
 {% highlight python %}
 
