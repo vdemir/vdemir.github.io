@@ -72,7 +72,7 @@ function closepop() { $("#pop").popover("hide"); }</script>    <script>
          class="btn btn-link text-info" style="cursor:pointer;padding:5px 2px 5px 5px">
         <span class="icon-animated-vertical"><i class="fa fa-lg fa-comments"></i></span> <a
                 class="badge badge-info"
-                href="https://vdemir.github.iohttps://plugins.krajee.com/file-resumable-uploads-demo#disqus_thread">&hellip;</a>
+                href="https://vdemir.github.io/file-resumable-uploads-demo#disqus_thread">&hellip;</a>
     </div>
     </form></div>
 </nav></div>
@@ -420,7 +420,7 @@ $(document).ready(function() {
 	<!--[if (gt IE 8)]><!-->
 	<script type="text/javascript">
         var disqus_config = function() {
-			this.page.url = 'https://plugins.krajee.com/file-resumable-uploads-demo';
+			this.page.url = 'http://vdemir.github.io/file-resumable-uploads-demo';
 		};
         (function () {
             var d = document, s = d.createElement('script');
@@ -458,11 +458,11 @@ $(document).ready(function() {
                 </div>
                 <div class="footer-left">
                     <div id="w12" class="kv-social-bar"><a class="text-info" href="https://vdemir.github.iohttps://www.facebook.com/KrajeeSolutions" title="Join us on Facebook"><i class='fab fa-3x fa-facebook-square'></i></a>
-<a class="text-primary" href="https://vdemir.github.iohttp://twitter.com/KrajeeSolutions" title="Join us on Twitter"><i class='fab fa-3x fa-twitter-square'></i></a>
-<a class="text-danger" href="https://vdemir.github.iohttp://google.com/+KrajeeSolutions" title="Join us on Google+"><i class='fab fa-3x fa-google-plus-square'></i></a>
-<a class="text-info" href="https://vdemir.github.iohttp://in.linkedin.com/in/KrajeeSolutions" title="Join us on LinkedIn"><i class='fab fa-3x fa-linkedin'></i></a>
-<a class="text-muted" href="https://vdemir.github.iohttp://github.com/kartik-v" title="Join us on GitHub"><i class='fab fa-3x fa-github-square'></i></a>
-<a class="btn btn-primary" href="https://vdemir.github.iohttp://vk.com/KrajeeSolutions" title="Join us on VKontakte" style="margin-top:-26px;padding:5px;border-radius:8px"><i class='fab fa-vk' style='font-size:1.6em'></i></a></div>                </div>
+<a class="text-primary" href="http://twitter.com/KrajeeSolutions" title="Join us on Twitter"><i class='fab fa-3x fa-twitter-square'></i></a>
+<a class="text-danger" href="http://google.com/+KrajeeSolutions" title="Join us on Google+"><i class='fab fa-3x fa-google-plus-square'></i></a>
+<a class="text-info" href="http://in.linkedin.com/in/KrajeeSolutions" title="Join us on LinkedIn"><i class='fab fa-3x fa-linkedin'></i></a>
+<a class="text-muted" href="http://github.com/kartik-v" title="Join us on GitHub"><i class='fab fa-3x fa-github-square'></i></a>
+<a class="btn btn-primary" href="http://vk.com/KrajeeSolutions" title="Join us on VKontakte" style="margin-top:-26px;padding:5px;border-radius:8px"><i class='fab fa-vk' style='font-size:1.6em'></i></a></div>                </div>
             </div>
         </footer>
                 	<script>
@@ -509,15 +509,15 @@ $(document).ready(function() {
 <style>
 #kv-gs-query{border-color:#fff}#kv-gs-query:focus{border-color:#80bdff}.gsc-control-cse{padding:0;margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}.gsc-adBlock{margin:0 0 0 -5px}.gsc-above-wrapper-area,.gsc-thumbnail-inside,.gsc-url-top{padding:0}.gs-result .gs-title,.gs-result .gs-title *{color:#007bff;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects}.gs-result .gs-title :hover,.gs-result .gs-title:hover{color:#0056b3;text-decoration:underline}.gsc-result .gs-title{height:1.4em}.gsc-result-info{padding-left:0}.gsc-results .gsc-cursor-box{margin:5px 0 0}.gsc-results .gsc-cursor-box .gsc-cursor-page{display:block;padding:.5rem .75rem;margin:0 0 0 -1px;line-height:1.25;color:#007bff;background-color:#fff;border:1px solid #ddd;float:left}.gsc-results .gsc-cursor-box .gsc-cursor-page:focus,.gsc-results .gsc-cursor-box .gsc-cursor-page:hover{color:#0056b3;text-decoration:none;background-color:#e9ecef;border-color:#ddd}.gsc-results .gsc-cursor-box .gsc-cursor-current-page{color:#fff;background-color:#007bff;border-color:#007bff}.gsc-cursor-page:first-child{margin-left:0;border:1px solid #ddd;border-top-left-radius:.25rem;border-bottom-left-radius:.25rem}.gsc-cursor-page:last-child{border-bottom-right-radius:.25rem;border-top-right-radius:.25rem}.gs-error-result .gs-snippet,.gs-no-results-result .gs-snippet{margin:0;padding:15px 20px;border-radius:.25rem;color:#856404;background-color:#fff3cd;border-color:#ffeeba}.gsc-selected-option-container{border-radius:.25rem}
 </style><script id="dsq-count-scr" src="//krajee.disqus.com/count.js" async></script>
-<script src="https://plugins.krajee.com/assets/1d958cec/js/plugins/purify.min.js"></script>
+<script src="http://vdemir.github.io/assets/1d958cec/js/plugins/purify.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-<script src="https://plugins.krajee.com/assets/prod/all-krajee.min.js?ver=201903112143"></script>
-<script src="https://plugins.krajee.com/assets/1d958cec/js/plugins/sortable.min.js"></script>
-<script src="https://plugins.krajee.com/assets/1d958cec/js/plugins/piexif.min.js"></script>
-<script src="https://plugins.krajee.com/assets/1d958cec/js/fileinput.js?ver=201909132002"></script>
-<script src="https://plugins.krajee.com/assets/1d958cec/themes/fas/theme.min.js?ver=201908311938"></script>
-<script src="https://plugins.krajee.com/assets/fc69cbca/js/dropdown.min.js"></script>
+<script src="http://vdemir.github.io/assets/prod/all-krajee.min.js?ver=201903112143"></script>
+<script src="http://vdemir.github.io/assets/1d958cec/js/plugins/sortable.min.js"></script>
+<script src="http://vdemir.github.io/assets/1d958cec/js/plugins/piexif.min.js"></script>
+<script src="http://vdemir.github.io/assets/1d958cec/js/fileinput.js?ver=201909132002"></script>
+<script src="http://vdemir.github.io/assets/1d958cec/themes/fas/theme.min.js?ver=201908311938"></script>
+<script src="http://vdemir.github.io/assets/fc69cbca/js/dropdown.min.js"></script>
 <script>jQuery(function ($) {
     $("#input-res-1").fileinput({
         uploadUrl: "/site/upload-file-chunks",
