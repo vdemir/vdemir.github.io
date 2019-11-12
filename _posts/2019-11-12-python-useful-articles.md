@@ -115,31 +115,6 @@ function closepop() { $("#pop").popover("hide"); }</script>    <script>
         </button>
     </span>
 </form>            </div>
-            <div class="text-center" style="overflow:hidden">
-                
-        <!-- Leaderboard -->
-        <ins class="adsbygoogle"
-             style="display:inline-block;width:728px;height:90px"
-             data-ad-client="ca-pub-4718928441117602"
-             data-ad-slot="4893266174">
-        </ins>
-        <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>            </div>
-                        <div class="text-justify">
-                <p class="lead">Configuring advanced resumable / chunk  ajax based uploads for the <b>bootstrap-fileinput</b> plugin. Refer the <a href="/https://plugins.krajee.com/file-input#ajax-resumable">resumable uploads section</a> for overview on setting up resumable / chunk uploads including a sample server code (PHP example) for processing the file chunks on the server.</p>                <div class="bs-callout bs-callout-warning">
-                    <h4>Tip</h4>
-                    <p>Not seeing the updated content on this page! Hard refresh your browser to clean cache for this page (e.g. <kbd>SHIFT-F5</kbd> on Windows Chrome)</p>
-                </div>
-            </div>
-                        <div class="text-center">
-    <div style="padding:4px">
-        <!-- Horizontal Medium Link -->
-        <ins class="adsbygoogle"
-             style="display:inline-block;width:468px;height:15px"
-             data-ad-client="ca-pub-4718928441117602"
-             data-ad-slot="4827070579">
-        </ins>
-        <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>
-</div>
 <div class="mx-auto" style="width:340px;height:300px">
     <div class="kv-ad-large">
         <!-- Large Rectangle -->
