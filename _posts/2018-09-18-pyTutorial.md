@@ -5484,13 +5484,40 @@ Object(öbek), sınıfın eşleneklerinden biridir. Sınıfta tanımlanan işlev
 self :
 self sınıfın eşleneğini ifade eder. self anahtarını kullanarak python da sınıfın methods(yordam) ve attributes(niteliklerine) erişebiliriz.
 
+__init__ :
+"__init__" python sınıflarında rezerve edilmiş bir metod (yordam)dır. Nesne yönelimli kavramlarda bir constructor(kurucu) olarak bilinir. Bir object(komut öbeği) sınıftan oluşturulduğunda çağrılır ve bir sınıfın özdeğerlerinin atanmasını sınıfa bırakır. 
+
+"__init__ " nasıl kullanabiliriz?
+
+Bir NFS oyunu oluşturduğumuzu düşünün. Bununiçin bir arabaya sahip olabiliriz. Araba "color", "company", "speed_limit" gibi. ve "change_gear", "start", "accelarate", "move" gibi methods(yordamlar).
+
 
 {% highlight python %}
 
-d.isAlive() True
-(daemon    ) Starting
-(non-daemon) Starting
-(non-daemon) Exiting
+class Car(object):
+  """
+    blueprint for car
+  """
+
+  def __init__(self, model, color, company, speed_limit):
+    self.color = color
+    self.company = company
+    self.speed_limit = speed_limit
+    self.model = model
+
+  def start(self):
+    print("started")
+
+  def stop(self):
+    print("stopped")
+
+  def accelarate(self):
+    print("accelarating...")
+    "accelarator functionality here"
+
+  def change_gear(self, gear_type):
+    print("gear changed")
+    " gear related functionality here"
 
 {% endhighlight %}
 
