@@ -115,16 +115,6 @@ function closepop() { $("#pop").popover("hide"); }</script>    <script>
         </button>
     </span>
 </form>            </div>
-<div class="mx-auto" style="width:340px;height:300px">
-    <div class="kv-ad-large">
-        <!-- Large Rectangle -->
-        <ins class="adsbygoogle"
-             style="display:inline-block;width:336px;height:280px"
-             data-ad-client="ca-pub-4718928441117602"
-             data-ad-slot="5811596173">
-        </ins>
-        <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>
-</div>
 <div class="bs-section">
     	<div class="page-header bs-header">
 		<h1 id="resumable-uploads-1" class="display-4">
