@@ -5484,7 +5484,7 @@ Object(öbek), sınıfın eşleneklerinden biridir. Sınıfta tanımlanan işlev
 self :
 self sınıfın eşleneğini ifade eder. self anahtarını kullanarak python da sınıfın methods(yordam) ve attributes(niteliklerine) erişebiliriz.
 
-__init__ :
+____init____ :
 "____init____" python sınıflarında rezerve edilmiş bir metod (yordam)dır. Nesne yönelimli kavramlarda bir constructor(kurucu) olarak bilinir. Bir object(komut öbeği) sınıftan oluşturulduğunda çağrılır ve bir sınıfın özdeğerlerinin atanmasını sınıfa bırakır. 
 
 "____init____ " nasıl kullanabiliriz?
