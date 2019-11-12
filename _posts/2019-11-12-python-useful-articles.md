@@ -15,14 +15,14 @@ lang: tr
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-param" content="_csrf">
 <meta name="csrf-token" content="WEfDrt-MWPWZ2KjKHeFLbgPPpXrZJehu-Wx_h_WGK9saNqvxjLkew8OQzI9cvik6YJr2GesVvyejOkzTr-tMsQ==">
-    <link rel="shortcut icon" href="https://plugins.krajee.com/images/krajee-logo.ico" type="image/x-icon">
-    <link rel="icon" href="https://plugins.krajee.com/images/krajee-logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/Bootstrap/harun-yahya-truth.png" type="image/x-icon">
+    <link rel="icon" href="/Bootstrap/harun-yahya-truth.png" type="image/x-icon">
     <title>Bootstrap File Input Resumable Uploads Demo - &copy; Kartik</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet">
 <link href="/Bootstrap/all-krajee.min.css?ver=201903112143" rel="stylesheet">
-<link href="https://plugins.krajee.com/assets/1d958cec/css/fileinput.css?ver=201909132002" rel="stylesheet">
-<link href="https://plugins.krajee.com/assets/fc69cbca/css/dropdown.min.css" rel="stylesheet">
+<link href="/Bootstrap/fileinput.css?ver=201909132002" rel="stylesheet">
+<link href="/Bootstrap/dropdown.min.css" rel="stylesheet">
 <script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script>
 <script src="https://buttons.github.io/buttons.js" async></script>
 <script>(adsbygoogle=window.adsbygoogle||[]).push({google_ad_client:'ca-pub-4718928441117602',enable_page_level_ads:true});
