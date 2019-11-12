@@ -5485,9 +5485,9 @@ self :
 self sınıfın eşleneğini ifade eder. self anahtarını kullanarak python da sınıfın methods(yordam) ve attributes(niteliklerine) erişebiliriz.
 
 __init__ :
-"__init__" python sınıflarında rezerve edilmiş bir metod (yordam)dır. Nesne yönelimli kavramlarda bir constructor(kurucu) olarak bilinir. Bir object(komut öbeği) sınıftan oluşturulduğunda çağrılır ve bir sınıfın özdeğerlerinin atanmasını sınıfa bırakır. 
+"____init____" python sınıflarında rezerve edilmiş bir metod (yordam)dır. Nesne yönelimli kavramlarda bir constructor(kurucu) olarak bilinir. Bir object(komut öbeği) sınıftan oluşturulduğunda çağrılır ve bir sınıfın özdeğerlerinin atanmasını sınıfa bırakır. 
 
-"__init__ " nasıl kullanabiliriz?
+"____init____ " nasıl kullanabiliriz?
 
 Bir NFS oyunu oluşturduğumuzu düşünün. Bununiçin bir arabaya sahip olabiliriz. Araba "color", "company", "speed_limit" gibi. ve "change_gear", "start", "accelarate", "move" gibi methods(yordamlar).
 
