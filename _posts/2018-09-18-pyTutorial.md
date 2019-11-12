@@ -5537,6 +5537,7 @@ audi = Car("A6", "red", "audi", 80)
 
 {% endhighlight %}
 
-Aynı sınıf ile araba öbeklerinin iki farklı tipini oluşturudk. araba öbeğini oluşturuken aktardığımız ifadeler "ertiga","black","suzuki",60 bu ifadeler öbeğe atamak için ____init____ method yordamına aktarılacak.
+Aynı sınıf ile araba öbeklerinin iki farklı tipini oluşturudk. araba öbeğini oluşturuken aktardığımız ifadeler "ertiga","black","suzuki",60 bu ifadeler öbeğe atanmak için ____init____ method yordamına aktarılacak.
 
+Burada, sihirli anahtar "self" sınıfın eşleneğini ifade eder. Verilen ifadeler ile özdeğerleri bağlar.
 
