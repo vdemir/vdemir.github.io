@@ -14,6 +14,10 @@ lang: tr
 <a href="https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/pythn/Learning-Tips.pdf" target="_blank">Learning Python Programming with 11 Beginner Tips</a>
 
 
+[Modern JavaScript Tutorial](https://javascript.info)
+
+ 
+
   https://www.johnvansickle.com/ffmpeg/
 ffmpeg -f concat -i list.txt -c copy merged.mp4 (list.txt: file 'EIrZ0cvW4AIBT6Z.mp4')
 
