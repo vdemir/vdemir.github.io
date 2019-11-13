@@ -5577,3 +5577,32 @@ print("Cost of rectangular field: Rs. %s " %(r.calculate_cost()))
 
 
 Daha önce tartıştığımız gibi “self”, aynı obeği veya sınıfın eşleneğini temsil eder. Görüyorsanız, "get_area" yönteminin içinde "length" özdeğerin değerini almak için "self.length" komutunu kullandık. "length" özdeğeri, öbek oluşturma sırasında öbeğe (sınıfın eşleneğine) bağlanır. "self" sınıf içindeki nesneyi temsil eder. "self", "r = Rectangle (160, 120, 2000)" ifadesindeki "r" gibi çalışır. "Def get_area (self):" metod yapısını görüyorsanız, "self" i metodda bir parametre olarak kullandık çünkü metodu çağırdığımızda nesne (sınıfın örneği) otomatik olarak diğer argümanlarla birlikte ilk argüman olarak geçer. yöntem. Başka bir argüman sağlanmazsa, yalnızca "öz" yöntemine iletilir. Sınıf içindeki yöntemi çağırmak için "self" kullanmamızın nedeni budur ("self.get_area ()"). sınıf tanımının dışındaki ("r.get_area ()") yöntemi çağırmak için nesnesini (sınıf örneği) kullanırız. "r", "r.get_area ()" yöntemini çağırdığımızda sınıfın örneğidir, "r" örneği kendi yerine ilk argüman olarak iletilir.
+
+
+
+self.__class__.__name__ represents the name of the class : self « Class « Python Tutorial
+
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
+
+
+{% highlight python %}class class FooClass(object):
+  version = 0.1           
+  def __init__(self, nm='John Doe'):
+         self.name = nm      
+         print'Created a class instance for', nm
+  def showname(self):
+         print 'Your name is', self.name
+         print 'My name is', self.__class__.__name__
+  def showver(self):
+         print self.version  
+  def addMe2Me(self, x):  
+         return x + x
+
+foo1 = FooClass()
+foo1 = FooClass('Jane Smith')
+foo1.showname()
+
+{% endhighlight %}
