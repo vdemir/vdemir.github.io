@@ -5588,7 +5588,9 @@ self.__class__.__name__ represents the name of the class : self « Class « Pyth
 </div>
 
 
-{% highlight python %}class class FooClass(object):
+{% highlight python %}
+
+class FooClass(object):
   version = 0.1           
   def __init__(self, nm='John Doe'):
          self.name = nm      
@@ -5606,3 +5608,54 @@ foo1 = FooClass('Jane Smith')
 foo1.showname()
 
 {% endhighlight %}
+
+
+
+
+How to Declare Classes : self « Class « Python Tutorial
+
+
+<br>
+<div class="alert alert-info" role="info">
+<p><strong>Python</strong></p>
+</div>
+
+
+{% highlight python %}
+
+# __init__() is a constructor.
+# self is an instance's handle to itself. 
+# Other OO languages often use an identifier called this.
+
+# class ClassName (base_class[es]):
+#   static_member_declarations
+#   method_declarations
+
+
+class FooClass(object):
+    version = 0.1              
+    def __init__(self, nm='A'):
+           self.name = nm      
+           print'Created a class instance for', nm
+    def showname(self):
+           print 'Your name is', self.name
+           print 'My name is', self.__class__.__name__
+    def showver(self):
+           print self.version  
+    def addMe2Me(self, x):     
+           return x + x
+           
+foo1 = FooClass()
+
+foo1.showname()
+foo1.showver()
+print foo1.addMe2Me(5)
+print foo1.addMe2Me('xyz')
+
+{% endhighlight %}
+
+
+
+
+
+
