@@ -40,11 +40,20 @@ An expression could invoke recursive functions or entire subprograms, for exampl
 </div>
 
 
+<script>
+function myFunction() {
+    if (document.getElementById('id0').style.display === 'none') {
+        document.getElementById('id0').style.display='block';
+    } else {
+        document.getElementById('id0').style.display='none';
+    }
+}
+</script>
 <div class="teaser clearfix"></div>
 
-<button  onclick="myFunction2()">Bir ifade örneği</button> 
+<button  onclick="myFunction()">Bir ifade örneği</button> 
 
-<div id="id02" style="display:none">
+<div id="id0" style="display:none">
 
  {% highlight text  linenos=table %}
 Bir ifade, örneğin özyinelemeli işlevleri veya tüm alt programlarını çağırabilir.
