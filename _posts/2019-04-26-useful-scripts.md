@@ -58,7 +58,7 @@ function myFunction() {
 
  {% highlight text  linenos=table %}
 - Bir ifade, örneğin özyinelemeli işlevleri veya tüm alt programlarını çağırabilir.
-- Günbatımının ılımlı kalitesi, tanınmayacak kadar tanıdık bir manzarayı değiştirdi.
+- Günbatımının akıl almaz kalitesi, tanınmayacak kadar tanıdık bir manzarayı değiştirdi.
 {% endhighlight %}
 </div>
 
