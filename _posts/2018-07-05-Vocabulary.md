@@ -19,6 +19,41 @@ lang: tr
 
 <div class="teaser clearfix"></div>
 
+<script>
+function myFunction2() {
+    if (document.getElementById('id02').style.display === 'none') {
+        document.getElementById('id02').style.display='block';
+    } else {
+        document.getElementById('id02').style.display='none';
+    }
+}
+</script>
+
+<button  onclick="myFunction2()">Sentences with the word</button> 
+
+<div id="id02" style="display:none">
+
+ {% highlight text  linenos=table %}
+An expression could invoke recursive functions or entire subprograms, for example.
+{% endhighlight %}
+</div>
+
+
+<div class="teaser clearfix"></div>
+
+<button  onclick="myFunction2()">Bir ifade örneği</button> 
+
+<div id="id02" style="display:none">
+
+ {% highlight text  linenos=table %}
+Bir ifade, örneğin özyinelemeli işlevleri veya tüm alt programlarını çağırabilir.
+{% endhighlight %}
+</div>
+
+
+<div class="teaser clearfix"></div>
+
+
 {% include content_page/speech-to-webtext.html %}
 
 <script charset="utf-8">var $rows = $('#tg-nBN6M tr');

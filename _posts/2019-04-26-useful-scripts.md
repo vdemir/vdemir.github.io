@@ -17,8 +17,8 @@ lang: tr
 
 [Modern JavaScript Tutorial](https://javascript.info)
 [CodingUnit Programming Tutorials](https://www.codingunit.com/)
-
- 
+[Hands-On Linux Administration on Azure](https://www.codingunit.com/)
+https://azure.microsoft.com/en-us/resources/whitepapers/
 
   https://www.johnvansickle.com/ffmpeg/
 ffmpeg -f concat -i list.txt -c copy merged.mp4 (list.txt: file 'EIrZ0cvW4AIBT6Z.mp4')
