@@ -36,6 +36,7 @@ function myFunction2() {
 
  {% highlight text  linenos=table %}
 - An expression could invoke recursive functions or entire subprograms, for example.
+- The numinous quality of the sunset changed a familiar landscape beyond recognition.
 {% endhighlight %}
 </div>
 
@@ -57,6 +58,7 @@ function myFunction() {
 
  {% highlight text  linenos=table %}
 - Bir ifade, örneğin özyinelemeli işlevleri veya tüm alt programlarını çağırabilir.
+- Günbatımının ılımlı kalitesi, tanınmayacak kadar tanıdık bir manzarayı değiştirdi.
 {% endhighlight %}
 </div>
 
