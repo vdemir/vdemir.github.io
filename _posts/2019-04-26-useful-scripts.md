@@ -34,8 +34,8 @@ function myFunction2() {
 
 <div id="id02" style="display:none">
 
- {% highlight  linenos=table %}
- -An expression could invoke recursive functions or entire subprograms, for example.
+ {% highlight text  linenos=table %}
+An expression could invoke recursive functions or entire subprograms, for example.
 {% endhighlight %}
 </div>
 
@@ -55,8 +55,8 @@ function myFunction() {
 
 <div id="id0" style="display:none">
 
- {% highlight  linenos=table %}
- -Bir ifade, örneğin özyinelemeli işlevleri veya tüm alt programlarını çağırabilir.
+ {% highlight text  linenos=table %}
+Bir ifade, örneğin özyinelemeli işlevleri veya tüm alt programlarını çağırabilir.
 {% endhighlight %}
 </div>
 
