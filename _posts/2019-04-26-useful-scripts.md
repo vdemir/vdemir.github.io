@@ -11,18 +11,11 @@ lang: tr
 ---
 
 
-*  
-
-
-
-
-<a href="https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/istihza/python3.pdf" target="_blank">python3 PDF</a>
-<a href="https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/pythn/Learning-Tips.pdf" target="_blank">Learning Python Programming with 11 Beginner Tips</a>
-
-
+*  [python3 isthza](https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/istihza/python3.pdf)
+*  [Learning Python Programming with 11 Beginner Tips](https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/pythn/Learning-Tips.pdf)
 *  [Modern JavaScript Tutorial](https://javascript.info)
-[CodingUnit Programming Tutorials](https://www.codingunit.com/)
-[Hands-On Linux Administration on Azure](https://www.codingunit.com/)
+*  [CodingUnit Programming Tutorials](https://www.codingunit.com/)
+*  [Hands-On Linux Administration on Azure](https://www.codingunit.com/)
 
 
 <div class="teaser clearfix"></div>
