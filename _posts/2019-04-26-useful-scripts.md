@@ -41,6 +41,7 @@ function myFunction2() {
  - In such cases, luck plays a part and it might well decide the outcome of the match.
  - An expression could invoke recursive functions or entire subprograms, for example.
  - The numinous quality of the sunset changed a familiar landscape beyond recognition.
+ - Both types of curriculum encompass listening comprehension, speaking, reading, writing, and grammar components.
 {% endhighlight %}
 </div>
 
@@ -66,7 +67,8 @@ function myFunction() {
  - Yetkililer, bazı gazetecilerin soruşturma sonucuna peşin hüküm verdiğinden şikayet ediyor.
  - Bu gibi durumlarda şans bir rol oynar ve maçın sonucuna iyi karar verebilir.
  - Bir ifade, örneğin özyinelemeli işlevleri veya tüm alt programlarını çağırabilir.
-- Günbatımının akıl almaz kalitesi, tanınmayacak kadar tanıdık bir manzarayı değiştirdi.
+ - Günbatımının akıl almaz kalitesi, tanınmayacak kadar tanıdık bir manzarayı değiştirdi.
+ - Her iki tür müfredat da dinleme, anlama, konuşma, okuma, yazma ve gramer bileşenlerini içerir.
 {% endhighlight %}
 </div>
 
