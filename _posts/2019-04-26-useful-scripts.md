@@ -35,12 +35,12 @@ function myFunction2() {
 <div id="id02" style="display:none">
 
  {% highlight text  linenos=table %}
-- Australian engineers brought significant innovation to gold and metalliferous mining.
-- The threat of a thunderstorm made it necessary to cancel the picnic.
-- Officials complain that some reporters have prejudged the outcome of the investigation.
-- In such cases, luck plays a part and it might well decide the outcome of the match.
-- An expression could invoke recursive functions or entire subprograms, for example.
-- The numinous quality of the sunset changed a familiar landscape beyond recognition.
+ - Australian engineers brought significant innovation to gold and metalliferous mining.
+ - The threat of a thunderstorm made it necessary to cancel the picnic.
+ - Officials complain that some reporters have prejudged the outcome of the investigation.
+ - In such cases, luck plays a part and it might well decide the outcome of the match.
+ - An expression could invoke recursive functions or entire subprograms, for example.
+ - The numinous quality of the sunset changed a familiar landscape beyond recognition.
 {% endhighlight %}
 </div>
 
@@ -61,11 +61,11 @@ function myFunction() {
 <div id="id0" style="display:none">
 
  {% highlight text  linenos=table %}
-- Avusturalyalı mühendisler altın ve metal zengin madenciliğine önemli yenilikler getirdi.
-- Fırtına tehdidi pikniği iptal etmeyi gerekli kıldı.
-Yetkililer, bazı gazetecilerin soruşturma sonucuna peşin hüküm verdiğinden şikayet ediyor.
-- Bu gibi durumlarda şans bir rol oynar ve maçın sonucuna iyi karar verebilir.
-- Bir ifade, örneğin özyinelemeli işlevleri veya tüm alt programlarını çağırabilir.
+ - Avusturalyalı mühendisler altın ve metal zengin madenciliğine önemli yenilikler getirdi.
+ - Fırtına tehdidi pikniği iptal etmeyi gerekli kıldı.
+ - Yetkililer, bazı gazetecilerin soruşturma sonucuna peşin hüküm verdiğinden şikayet ediyor.
+ - Bu gibi durumlarda şans bir rol oynar ve maçın sonucuna iyi karar verebilir.
+ - Bir ifade, örneğin özyinelemeli işlevleri veya tüm alt programlarını çağırabilir.
 - Günbatımının akıl almaz kalitesi, tanınmayacak kadar tanıdık bir manzarayı değiştirdi.
 {% endhighlight %}
 </div>
