@@ -35,8 +35,6 @@ function myFunction2() {
 <div id="id02" style="display:none">
 
  {% highlight text  linenos=table %}
- 
- 
 - Australian engineers brought significant innovation to gold and metalliferous mining.
 - The threat of a thunderstorm made it necessary to cancel the picnic.
 - Officials complain that some reporters have prejudged the outcome of the investigation.
@@ -63,9 +61,9 @@ function myFunction() {
 <div id="id0" style="display:none">
 
  {% highlight text  linenos=table %}
- - Avusturalyalı mühendisler altın ve metal zengin madenciliğine önemli yenilikler getirdi.
- - Fırtına tehdidi pikniği iptal etmeyi gerekli kıldı.
- - Bu gibi durumlarda şans bir rol oynar ve maçın sonucuna iyi karar verebilir.
+- Avusturalyalı mühendisler altın ve metal zengin madenciliğine önemli yenilikler getirdi.
+- Fırtına tehdidi pikniği iptal etmeyi gerekli kıldı.
+- Bu gibi durumlarda şans bir rol oynar ve maçın sonucuna iyi karar verebilir.
 - Bir ifade, örneğin özyinelemeli işlevleri veya tüm alt programlarını çağırabilir.
 - Günbatımının akıl almaz kalitesi, tanınmayacak kadar tanıdık bir manzarayı değiştirdi.
 {% endhighlight %}
