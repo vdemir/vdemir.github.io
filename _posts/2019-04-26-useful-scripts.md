@@ -34,10 +34,8 @@ function myFunction2() {
 
 <div id="id02" style="display:none">
 
- {% highlight text  linenos=table %}
 - An expression could invoke recursive functions or entire subprograms, for example.
 - The numinous quality of the sunset changed a familiar landscape beyond recognition.
-{% endhighlight %}
 </div>
 
 
