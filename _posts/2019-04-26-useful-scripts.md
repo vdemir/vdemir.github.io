@@ -13,7 +13,11 @@ lang: tr
 
 ## Python
  
-*  [AUTOMATE THE BORING STUFFWITH PYTHON](https://vdemir.github.io/viewer/web/viewer.html?file=https://bitbucket.org/zekid/entertainment-sources/raw/80207aee0d55ba11fc05440226e19a21c9650b14/automate-the-boring-stuff-with-python-2015-.pdf)
+*  [AUTOMATE THE BORING STUFFWITH PYTHON](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/pythn/automate-the-boring-stuff-with-python-2015-.pdf)
+*  [C Programming](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/pythn/C Programming Absolute Beginner.pdf)
+*  [Coding Projects in Python](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/pythn/C Programming Absolute Beginner.pdf)
+*  [Learn Python in One Day and Learn It Well](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/pythn/Learn Python in One Day.pdf)
+*  [Python Tricks: The Book](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/pythn/Python Tricks: A Buffet of Awesome Python Features.pdf)
 
 *  [python3 isthza](https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/istihza/python3.pdf)
 *  [Learning Python Programming with 11 Beginner Tips](https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/pythn/Learning-Tips.pdf)
