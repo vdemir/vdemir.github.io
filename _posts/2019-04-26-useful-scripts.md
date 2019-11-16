@@ -26,6 +26,47 @@ lang: tr
 
 <script>
 function myFunction2() {
+    if (document.getElementById('id03').style.display === 'none') {
+        document.getElementById('id03').style.display='block';
+    } else {
+        document.getElementById('id03').style.display='none';
+    }
+}
+</script>
+
+<button  onclick="myFunction3()">Meaning of the word</button> 
+
+<div id="id03" style="display:none">
+
+ {% highlight text  linenos=table %}
+ - threat:tehdit, tehlike; tehdit etmek
+ - complain: şikayet etmek, yakınmak
+ - slander: iftira etmek
+ - comprehebd: anlamak, kavramak
+ - thaw: karı ve buzu eritmek
+ - slip: kayma; ayak kayması; srçmek; ufak hata
+ - aspect: görünüş, manzara; yüz, cephe, hat
+ - wonder: hayran olmak, şüphe ve meraka düşmek
+ - rather than: tercihen
+ - significant: manalı, ehemniyetli
+ - outcome: netice, sonuç
+ - comprehension: anlama, kavramak
+ - curriculum: müfredat, öğretim programı
+ - encompass: kapsamak, kuşatmak
+ - enhance: arttırmak
+ - arguably: muhtemelen
+ - prominent: öne çıkan
+ - altering: değişim
+ - as involved as: oldukça meşgul
+ - exhaustive: teferruatlı, kapsamlı
+ - counterparts: benzerleri, tamamlayıcıları
+{% endhighlight %}
+</div>
+
+<div class="teaser clearfix"></div>
+
+<script>
+function myFunction2() {
     if (document.getElementById('id02').style.display === 'none') {
         document.getElementById('id02').style.display='block';
     } else {
