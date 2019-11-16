@@ -11,6 +11,10 @@ lang: tr
 ---
 
 
+## Python
+ 
+*  [AUTOMATE THE BORING STUFFWITH PYTHON](https://vdemir.github.io/viewer/web/viewer.html?file=https://bitbucket.org/zekid/entertainment-sources/raw/80207aee0d55ba11fc05440226e19a21c9650b14/automate-the-boring-stuff-with-python-2015-.pdf)
+
 *  [python3 isthza](https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/istihza/python3.pdf)
 *  [Learning Python Programming with 11 Beginner Tips](https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/pythn/Learning-Tips.pdf)
 *  [Modern JavaScript Tutorial](https://javascript.info)
