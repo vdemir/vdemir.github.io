@@ -25,7 +25,7 @@ lang: tr
 <div class="teaser clearfix"></div>
 
 <script>
-function myFunction2() {
+function myFunction3() {
     if (document.getElementById('id03').style.display === 'none') {
         document.getElementById('id03').style.display='block';
     } else {
