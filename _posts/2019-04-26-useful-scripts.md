@@ -118,7 +118,7 @@ function myFunction() {
  - Bu gibi durumlarda şans bir rol oynar ve maçın sonucuna iyi karar verebilir.
  - Bir ifade, örneğin özyinelemeli işlevleri veya tüm alt programlarını çağırabilir.
  - Günbatımının akıl almaz kalitesi, tanıdık bir manzarayı tanınmayacak kadar değiştirdi.
- - Her iki tür müfredat da dinleme, anlama, konuşma, okuma, yazma ve gramer bileşenlerini içerir.
+ - Her iki tür müfredat da dinleme, anlama, konuşma, okuma, yazma ve gramer bileşenlerini kapsar.
 {% endhighlight %}
 </div>
 
