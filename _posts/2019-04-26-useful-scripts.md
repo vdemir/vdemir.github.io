@@ -43,12 +43,13 @@ function myFunction3() {
 <div id="id03" style="display:none">
 
  {% highlight text  linenos=table %}
- - threat:tehdit, tehlike; tehdit etmek
+ - invoke: yardıma çağırmak
+ - threat: tehdit, tehlike; tehdit etmek
  - complain: şikayet etmek, yakınmak
  - slander: iftira etmek
  - comprehebd: anlamak, kavramak
  - thaw: karı ve buzu eritmek
- - slip: kayma; ayak kayması; srçmek; ufak hata
+ - slip: kayma; ayak kayması; sürçmek; ufak hata
  - aspect: görünüş, manzara; yüz, cephe, hat
  - wonder: hayran olmak, şüphe ve meraka düşmek
  - rather than: tercihen
