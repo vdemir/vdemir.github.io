@@ -117,7 +117,7 @@ function myFunction() {
  - Yetkililer, bazı gazetecilerin soruşturma sonucuna peşin hüküm verdiğinden şikayet ediyor.
  - Bu gibi durumlarda şans bir rol oynar ve maçın sonucuna iyi karar verebilir.
  - Bir ifade, örneğin özyinelemeli işlevleri veya tüm alt programlarını çağırabilir.
- - Günbatımının akıl almaz kalitesi, tanınmayacak kadar tanıdık bir manzarayı değiştirdi.
+ - Günbatımının akıl almaz kalitesi, tanıdık bir manzarayı tanınmayacak kadar değiştirdi.
  - Her iki tür müfredat da dinleme, anlama, konuşma, okuma, yazma ve gramer bileşenlerini içerir.
 {% endhighlight %}
 </div>
