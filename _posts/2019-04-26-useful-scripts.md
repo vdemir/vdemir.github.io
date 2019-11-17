@@ -123,7 +123,7 @@ function myFunction() {
 </div>
 
 
-*  [Spoken English Learning Quickly](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/lg/spoken-english-laerning-quikly.pdf)
+*  [Spoken English Learning Quickly](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/lg/spoken-english-laerning-quickly.pdf)
 
 https://azure.microsoft.com/en-us/resources/whitepapers/
 
