@@ -11,7 +11,8 @@ lang: tr
 ---
 
 
-## Python
+ 
+*  [Build Your Own Lisp](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/lisp-c/Build-Your-Own-Lisp.pdf)
  
 *  [AUTOMATE THE BORING STUFFWITH PYTHON](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/pythn/automate-the-boring-stuff-with-python-2015-.pdf)
 *  [C Programming](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/pythn/C Programming Absolute Beginner.pdf)
