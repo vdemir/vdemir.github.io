@@ -151,6 +151,11 @@ cd httrack
 *wget -q -O - "http://wordpress.org/latest.tar.gz" | tar -xzf - -C /var/www*
 
 soffice --headless --convert-to pdf *.doc
+git add -A &&  git commit -m "2091" && git push origin master
+youtube-dl https://youtu.be/Qp50cAdGwRA
 
 
+git clone https://github.com/xroche/httrack.git --recurse
+cd httrack
 
+./configure && make -j8 && make install DESTDIR=/home/zekid/Downloads/
