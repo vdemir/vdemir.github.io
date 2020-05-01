@@ -20,12 +20,12 @@ lang: tr
  
  Some Common Prefixes:
 PREFIX	MEANING	EXAMPLES
-a-	not, without	achromatic, asymmetric, asymptomatic, atyptical
-ab-	away, from	abduct, abnormal
-acro-	high or top	acrobat, acronym, acrophobia
-ambi-	both	ambidextrous, ambiguous, ambivalence
-amphi-	both, on two sides	amphibian, amphitheater
-ante-	before	anterior, antediluvian (before the flood)
+- a-	not, without	achromatic, asymmetric, asymptomatic, atyptical
+- ab-	away, from	abduct, abnormal
+- acro-	high or top	acrobat, acronym, acrophobia
+- ambi-	both	ambidextrous, ambiguous, ambivalence
+- amphi-	both, on two sides	amphibian, amphitheater
+- ante-	before	anterior, antediluvian (before the flood)
 anti-	against, opposite	antibody, antisocial, antifreeze, antivirus
 aqua-	water	aquamarine, aquarium
 arch-	highest, worst	archangel, archenemy, archetype
