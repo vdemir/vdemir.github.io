@@ -187,7 +187,7 @@ SUFFIX	MEANING	EXAMPLES
 - -y	full of, denoting a condition, or a diminutive	glory, hungry, messy, jealousy, sleepy, victory
 
 
-Adjectives Vocabulary 
+###  Adjectives Vocabulary 
 
 A
 
