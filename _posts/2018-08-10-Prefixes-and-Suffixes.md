@@ -134,6 +134,58 @@ PREFIX	MEANING	EXAMPLES
 - up-	greater, higher	upgrade, uplift, upturn
 - with-	against	withdraw, withhold, without, withstand
 
+###  Common Suffixes
+
+A suffix is a group of letters placed after the root of a word. For example, the word flavorless consists of the root word "flavor" combined with the suffix "-less" [which means "without"]; the word "flavorless" means "having no flavor."
+
+Some Common Suffixes:
+SUFFIX	MEANING	EXAMPLES
+- -able	able to, having the quality of	capable, comfortable, flammable, payable, portable, presentable, taxable
+- -acy	state or quality	lunacy, privacy
+- -age	action or process, rank, fee, place	drainage, orphanage, leverage, marriage, mileage, peerage, postage, spillage, suffrage, village, voyage, wreckage
+- -al	relating to	annual, arrival, comical, disposal, educational, historical, refusal , regional, rehearsal, reversal, social, tidal
+- -an	related to	Lutheran, Ohioan
+- -ance	state or quality of, denoting an action	allegiance, appearance, perseverance, maintenance, utterance
+- -ant	being	arrogant, deodorant, expectant, important, miscreant, propellant
+- -ary	like, connected with	adversary, budgetary, dictionary, dignitary, honorary, library, primary
+- -ate	denoting a group or status, or forming an adjective	electorate, duplicate, mandate, separate
+- -ation	denoting an action or an instance of	exploration, hesitation, plantation
+- -cide	to kill	homocide, insecticide
+- -ence	state or quality of, denoting an action	impertinence, reference, reminiscence
+- -ent	being or state, occurance of an action	coefficient, convenient, dissident, student
+- -er	comparative, a person performing an action	bigger, foreigner, philosopher, smaller, stronger, voter
+- -esque	reminiscent of	arabesque, grotesque, picturesque, statuesque
+- -est	superlative	strongest, tiniest, widest
+- -ful	full of	beautiful, grateful, hopeful, peaceful, sorrowful, watchful, wishful
+- -fy	producing, transforming or causing	deify, horrify, speechify
+- -graph	written	autograph, paragraph, photograph, seismograph
+- -ian	forming an adjective	antediluvian, Christian, guardian, historian, Russian
+- -ible	capable of being	audible, edible, potable, reversible, terrible
+- -ic	relating to	aquatic, chronic, fantastic, Islamic, lyric, mechanic, scenic, tactic
+- -ier	denoting an occupation or interest	cashier, glazier
+- -ile	tending to	fragile, futile, juvenile, percentile, senile
+- -ily	forming an adverb	angrily, eerily, happily, lazily
+- -ing	denoting an action, a material, or a gerund	acting, eating, padding, showing
+- -ish	having the characteristics of, somewhat	boyish, peckish, selfish, Spanish
+- -ism	a belief or practice	activism, baptism, hypnotism, racism
+- -ist	one that does	Buddhist, cellist, dentist, feminist, florist, scientist
+- -itis	an inflammatory disease	arthritis, laryngitis, tonsillitis
+- -ive	tending to, having the nature of	active, cooperative, corrosive, sensitive, supportive
+- -ize	to make or become, to treat in a manner	demonize, fossilize, pasteurize, carbonize
+- -less	without, not affected by	clueless, endless, fearless, flavorless, friendless, sleepless, tireless
+- -ly	forming an adjective	clearly, closely, hourly
+- -ment	the results of an action	amusement, entertainment, excitement, treatment
+- -ness	denoting a state or condition	kindness, sadness, wilderness
+- -oid	resembling	android, ovoid
+- -ology	the study of	biology, geology, theology
+- -or	condition, state, a person doing an action	candor, elevator, governor, major, minor, sensor, terror, valor
+- -ose	having the quality of	comatose, verbose
+- -ous	characterized by	adventurous, aqueous, curious, dangerous, generous, mountainous
+- -ship	denoting a condition, quality, skill or group	companionship, citizenship, fellowship, workmanship, membership
+- -tude	in the state of	fortitude, multitude, solitude
+- -ure	an action or process, a collective	exposure, legislature, procedure, scripture
+- -y	full of, denoting a condition, or a diminutive	glory, hungry, messy, jealousy, sleepy, victory
+
 
  *You may be followed at {{ site.url }} .
 
