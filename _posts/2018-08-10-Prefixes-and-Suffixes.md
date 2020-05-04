@@ -186,6 +186,49 @@ SUFFIX	MEANING	EXAMPLES
 - -ure	an action or process, a collective	exposure, legislature, procedure, scripture
 - -y	full of, denoting a condition, or a diminutive	glory, hungry, messy, jealousy, sleepy, victory
 
+Noun
+
+- -age action or process marriage, voyage, pilgrimage
+- -ence state or quality of violence, absence, reticence
+- -ant one who servant, immigrant, assistant
+- -arium place for aquarium, planetarium, auditorium
+- -tion state or quality of starvation, inspiration, tension
+- -cy state or quality of accuracy, bankruptcy, conspiracy
+- -dom state or quality of freedom, boredom, wisdom
+- -eer person engineer, puppeteer, auctioneer
+- -ectomy surgical removal of tonsillectomy, appendectomy
+- -ent one who superintendent, resident, regent
+- -eur one who chauffeur, masseur
+- -hood state or quality of childhood, falsehood, neighborhood
+- -i plural alumni, foci, syllabi
+- -ism doctrine of capitalism, socialism, patriotism
+- -wright one who works with playwright, shipwright
+- -ology study of biology, etymology, psychology
+
+Adjective 
+
+- -able Is, can be comfortable, durable, perishable
+- -acious inclined to be audacious, loquacious, spacious
+- -ant inclined to be vigilant, pleasant, defiant
+- -ative inclined to be demonstrative, talkative, pejorative
+- -ic characteristic of comic, poetic, historic
+- -y characteristic of fruity, sunny, chewy
+
+Verb 
+
+- -ble repeated action stumble, squabble, mumble
+- -ed past tense wanted, hated, looted
+- -en made of strengthen, fasten, frighten
+- -ify to make terrify, falsify, vilify
+-ize to make standardize, computerize, pulverize
+
+Adverb 
+
+- -ly resembling slowly, kindly, seriously
+- -ward direction forward, backward, onward
+- -ways manner sideways, crossways
+
+
 
 *  [A BIG List of Prefixes and Suffixes and Their Meanings](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/GRM/Prefixes-and-Suffixes.pdf)
 
