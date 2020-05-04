@@ -187,6 +187,9 @@ SUFFIX	MEANING	EXAMPLES
 - -y	full of, denoting a condition, or a diminutive	glory, hungry, messy, jealousy, sleepy, victory
 
 
+*  [A BIG List of Prefixes and Suffixes and Their Meanings](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/GRM/Prefixes-and-Suffixes.pdf)
+
+
  *You may be followed at {{ site.url }} .
 
 <style>
