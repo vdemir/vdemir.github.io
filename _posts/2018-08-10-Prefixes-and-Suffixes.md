@@ -232,6 +232,9 @@ Adverb
 
 *  [A BIG List of Prefixes and Suffixes and Their Meanings](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/GRM/Prefixes-and-Suffixes.pdf)
 
+*  [List of Words With Silent Letters in English](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/GRM/Silent-Letter.pdf)
+
+*  [Types of Adverb 🦠 Adverb Examples [All You Need]](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/GRM/Types-of-Adverb.pdf)
 
  *You may be followed at {{ site.url }} .
 
