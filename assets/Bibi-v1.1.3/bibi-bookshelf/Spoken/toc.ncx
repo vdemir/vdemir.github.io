@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
+  <head>
+    <meta content="68182b4f-2b8e-4110-bc64-0da352804b7f" name="dtb:uid"/>
+    <meta content="2" name="dtb:depth"/>
+    <meta content="calibre (3.21.0)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Spoken English: Flourish Your Language.epub</text>
+  </docTitle>
+  <navMap>
+    <navPoint class="chapter" id="num_1" playOrder="1">
+      <navLabel>
+        <text>COVER</text>
+      </navLabel>
+      <content src="index_split_000.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_2" playOrder="2">
+      <navLabel>
+        <text>TITLE PAGE</text>
+      </navLabel>
+      <content src="index_split_000.html#p2"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_3" playOrder="3">
+      <navLabel>
+        <text>ISBN 9788182473485</text>
+      </navLabel>
+      <content src="index_split_000.html#p3"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_4" playOrder="4">
+      <navLabel>
+        <text>PREFACE</text>
+      </navLabel>
+      <content src="index_split_000.html#p4"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_5" playOrder="5">
+      <navLabel>
+        <text>CONTENTS</text>
+      </navLabel>
+      <content src="index_split_000.html#p6"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_6" playOrder="6">
+      <navLabel>
+        <text>1 CONTRACTIONS</text>
+      </navLabel>
+      <content src="index_split_000.html#p9"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_7" playOrder="7">
+      <navLabel>
+        <text>2 PRONUNCIATION</text>
+      </navLabel>
+      <content src="index_split_000.html#p25"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_8" playOrder="8">
+      <navLabel>
+        <text>3 VOWELS</text>
+      </navLabel>
+      <content src="index_split_000.html#p43"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_9" playOrder="9">
+      <navLabel>
+        <text>4 STRESS IN ENGLISH LANGUAGE</text>
+      </navLabel>
+      <content src="index_split_000.html#p50"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_10" playOrder="10">
+      <navLabel>
+        <text>5 LIST OF ENGLISH SYMBOLS</text>
+      </navLabel>
+      <content src="index_split_000.html#p64"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_11" playOrder="11">
+      <navLabel>
+        <text>6 CONVERSATION</text>
+      </navLabel>
+      <content src="index_split_000.html#p72"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_12" playOrder="12">
+      <navLabel>
+        <text>7 COMMON ERRORS</text>
+      </navLabel>
+      <content src="index_split_000.html#p101"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_13" playOrder="13">
+      <navLabel>
+        <text>8 TONGUE TWISTERS</text>
+      </navLabel>
+      <content src="index_split_000.html#p115"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_14" playOrder="14">
+      <navLabel>
+        <text>9 PHRASAL VERBS</text>
+      </navLabel>
+      <content src="index_split_000.html#p119"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_15" playOrder="15">
+      <navLabel>
+        <text>10 PREPOSITIONAL VERBS</text>
+      </navLabel>
+      <content src="index_split_000.html#p193"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_16" playOrder="16">
+      <navLabel>
+        <text>11 CLICHE</text>
+      </navLabel>
+      <content src="index_split_000.html#p195"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_17" playOrder="17">
+      <navLabel>
+        <text>12 SLANGS</text>
+      </navLabel>
+      <content src="index_split_000.html#p209"/>
+    </navPoint>
+  </navMap>
+</ncx>
