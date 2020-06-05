@@ -132,7 +132,7 @@ https://azure.microsoft.com/en-us/resources/whitepapers/
 ffmpeg -f concat -i list.txt -c copy merged.mp4 (list.txt: file 'EIrZ0cvW4AIBT6Z.mp4')
 
 
-  
+  ffmpeg -re -i 3qRQ5kmwq6HS2HjQ.mp4 -c:v libx264 -b:v 2M -c:a copy -strict -2 -flags +global_header -bsf:a aac_adtstoasc -bufsize 2100k -f flv rtmp://a.rtmp.youtube.com/live2/
 sudo find . -name "*.mp3"|sed 's/\.\///;'|sort>List.lst
 
 ffmpeg -framerate 1/10 -i file%d.jpeg -i input.mp3  -c:a copy  -r 30 -s 720x480 -y test.mp4
