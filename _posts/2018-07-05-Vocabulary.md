@@ -15,6 +15,8 @@ lang: tr
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
+*   <a href="https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/lang/ListofVerbsNounsAdjectives&Adverbs.pdf" target="_blank" target="_blank" target="_blank">List of Verbs, Nouns Adjectives & Adverbs</a>
+
 {% include content_page/paging.html %}
 
 
@@ -22,7 +24,6 @@ lang: tr
 <div class="teaser clearfix"></div>
 
 
-*   <a href="https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/lang/ListofVerbsNounsAdjectives&Adverbs.pdf" target="_blank" target="_blank" target="_blank">List of Verbs, Nouns Adjectives & Adverbs</a>
 
 {% include content_page/speech-to-webtext.html %}
 
