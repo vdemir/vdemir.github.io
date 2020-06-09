@@ -22,6 +22,8 @@ lang: tr
 <div class="teaser clearfix"></div>
 
 
+*   <a href="https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/lang/ListofVerbsNounsAdjectives&Adverbs.pdf" target="_blank" target="_blank" target="_blank">List of Verbs, Nouns Adjectives & Adverbs</a>
+
 {% include content_page/speech-to-webtext.html %}
 
 <script charset="utf-8">var $rows = $('#tg-nBN6M tr');
