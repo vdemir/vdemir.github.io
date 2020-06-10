@@ -24025,7 +24025,7 @@ lang: tr
 <td>Firefighters often work in danger zones.</td>
 </tr>
 </tbody></table>
-
+<!-- 
 ffmpeg -framerate 1/10 -i file%d.jpeg -i input.mp3  -c:a copy  -r 30 -s 720x480 -y test.mp4
 
 ffmpeg -i video.mp4 -i audio.mp3 -codec copy -shortest output.mp4
@@ -24034,23 +24034,23 @@ git clone https://github.com/xroche/httrack.git --recurse
 cd httrack
 ./configure && make -j8 && make install DESTDIR=/
 
-*wget -q -O - "http://wordpress.org/latest.tar.gz" | tar -xzf - -C /var/www*
+*wget -q -O - "http://wordpress.org/latest.tar.gz" | tar -xzf - -C /var/www* -->
  
 
 
-<!-- toggle mode -->
+<!-- toggle mode
 <div>
    <label class="theme-switch">
    <input type="checkbox" id="switch-style" data-toggle="toggle">
    <div class="slider"></div>
    </label>
  
-</div>
-<!-- toggle  CSS -->
-<link rel="stylesheet" href="{{ site.baseurl }}/css/toggle.css" type="text/css" >
+</div> -->
+<!-- toggle  CSS
+<link rel="stylesheet" href="{{ site.baseurl }}/css/toggle.css" type="text/css" > -->
 
-<!-- toggle  jS -->
-<script defer src="{{ site.baseurl }}/scripts/toggle.js"></script>
+<!-- toggle  jS
+<script defer src="{{ site.baseurl }}/scripts/toggle.js"></script> -->
 
 
  
