@@ -159,3 +159,6 @@ git clone https://github.com/xroche/httrack.git --recurse
 cd httrack
 
 ./configure && make -j8 && make install DESTDIR=/home/zekid/Downloads/
+
+for i in {1..118}; do ffmpeg -i $i.mp4 -r 0.0033 -vf scale=-1:220 -frames:v 1 -vcodec png capture-$i.png; done
+
