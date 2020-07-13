@@ -10,6 +10,19 @@ published: true
 lang: tr
 ---
 
+<form action="http://www.dictionaryone.com/dic.php" method="post" target="_parent" style="margin-bottom:0;margin-top:0">
+<table align="center" bgColor="#ccccff" border="0" cellPadding="0" cellSpacing="0">
+<tr><td><img style="display:block;border:none;margin:0" src="http://www.dictionaryone.com/g1.gif" width="8" height="8"></td>
+<td></td><td><img style="display:block;border:none;margin:0" src="http://www.dictionaryone.com/g2.gif" width="8" height="8"></td></tr>
+<tr><td></td><td>
+<table bgColor="#ccccff" border="0" cellPadding="0" cellSpacing="0">
+<tr><td align="center" valign="top" width="100%" height="22"><a href="http://www.dictionaryone.com/" style="font-family:Verdana;font-size:17px;color:#778899;font-weight:bold;text-decoration:none">Dictionary</a></td></tr><tr><td align="center">
+<input type="text" style="font-family:arial;font-size:13px;width:127px;font-weight:bold;padding-left:5px" name="word_form" value="">
+</td></tr><tr><td align="center" style="padding-top:3px">
+<input style="font-family:arial;font-size:13px" type="submit" value="Search">
+</td></tr></table>
+</td><td></td></tr>
+<tr><td>
 
  
 *  [Build Your Own Lisp](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/lisp-c/Build-Your-Own-Lisp.pdf)
