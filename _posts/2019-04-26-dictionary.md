@@ -24104,40 +24104,40 @@ lang: tr
 
 <tr>
 <td align="right">3008</td>
-<td></td>
+<td>Denoting /dɪnˈoʊtɪŋ/ <a href="https://howjsay.com/mp3/denoting.mp3" target="_blank"> Listen</a></td>
 
 
-<td></td>
+<td>Be a sign or indication of.</td>
 <td></td>
 </tr>
 
 
 <tr>
 <td align="right">3009</td>
-<td></td>
+<td>Sense /sɛns/ <a href="https://howjsay.com/mp3/sense.mp3" target="_blank"> Listen</a> </td>
 
 
-<td></td>
+<td>A general conscious awareness.</td>
 <td></td>
 </tr>
 
 
 <tr>
 <td align="right">3010</td>
-<td></td>
+<td>Conscious /kˈɑnʃəs/</td>
 
 
-<td></td>
+<td>Intentionally conceived. </td>
 <td></td>
 </tr>
 
 
 <tr>
 <td align="right">30011</td>
-<td></td>
+<td>Aware /əwˈɛr/ </td>
 
 
-<td></td>
+<td>(sometimes followed by 'of') having or showing knowledge or understanding or realization or perception.</td>
 <td></td>
 </tr>
 
