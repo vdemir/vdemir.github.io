@@ -12,8 +12,7 @@ lang: tr
 
 
 
-<img style="display:block;border:none;margin:0" src="http://www.dictionaryone.com/g3.gif" width="8" height="8"></td><td></td>
-<td><img style="display:block;border:none;margin:0" src="http://www.dictionaryone.com/g4.gif" width="8" height="8"></td></tr></table></form>
+
 <style type="text/css">
 .tftable {font-size:12px;color:#333333;width:100%;border-width: 1px;border-color: #729ea5;border-collapse: collapse;}
 .tftable th {font-size:12px;background-color:#acc8cc;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;}
