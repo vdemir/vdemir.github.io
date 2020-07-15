@@ -24054,9 +24054,7 @@ lang: tr
 
 <tr>
 <td align="right">3000</td>
-<td>Regard   /rəgˈɑrd/  /rɪgˈɑrd/ <audio controls>
-  <source src="https://howjsay.com/mp3/capable.mp3" />
-</audio></td>
+<td>Regard   /rəgˈɑrd/  /rɪgˈɑrd/<a href="https://howjsay.com/mp3/regard.mp3" target="_blank"> Listen</a></td>
 
 
 <td>Deem to be.</td>
