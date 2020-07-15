@@ -24144,30 +24144,30 @@ lang: tr
 
 <tr>
 <td align="right">30012</td>
-<td></td>
+<td>Perceive /pərsˈiv/</td>
 
 
-<td></td>
+<td>To become aware of through the senses.</td>
 <td></td>
 </tr>
 
 
 <tr>
 <td align="right">30013</td>
-<td></td>
+<td>Through /θru/ adverb</td>
 
 
-<td></td>
+<td>From beginning to end.</td>
 <td></td>
 </tr>
 
 
 <tr>
 <td align="right">30014</td>
-<td></td>
+<td>Through /θru/ adjective</td>
 
 
-<td></td>
+<td>Having finished or arrived at completion.</td>
 <td></td>
 </tr>
 
