@@ -24074,7 +24074,7 @@ lang: tr
 
 <tr>
 <td align="right">3005</td>
-<td>Claim /kleɪm/</td>
+<td>Claim /kleɪm/<a href="https://howjsay.com/mp3/claim.mp3" target="_blank"> Listen</a></td>
 
 
 <td>Assert or affirm strongly</td>
@@ -24084,10 +24084,10 @@ lang: tr
 
 <tr>
 <td align="right">3006</td>
-<td></td>
+<td>Demand /dɪmˈænd/ <a href="https://howjsay.com/mp3/demand.mp3" target="_blank"> Listen</a></td>
 
 
-<td></td>
+<td>Request urgently and forcefully.</td>
 <td></td>
 </tr>
 
