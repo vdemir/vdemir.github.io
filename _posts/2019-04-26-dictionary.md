@@ -24174,10 +24174,119 @@ lang: tr
 
 <tr>
 <td align="right">30015</td>
-<td></td>
+<td>Completion /kəmplˈiʃən/ </td>
 
 
+<td>A concluding action. </td>
 <td></td>
+</tr>
+
+<tr>
+<td align="right">30015</td>
+<td>Conclude /kənklˈud/ </td>
+
+
+<td>Decide by reasoning </td>
+<td></td>
+</tr>
+
+
+<tr>
+<td align="right">30015</td>
+<td>Proceed   /prəsˈid/  /proʊsˈid/  /pərsˈid/ </td>
+
+
+<td>Continue talking.  </td>
+<td></td>
+</tr>
+
+
+<tr>
+<td align="right">30015</td>
+<td> </td>
+
+
+<td> </td>
+<td></td>
+</tr>
+
+
+<tr>
+<td align="right">30015</td>
+<td> </td>
+
+
+<td> </td>
+<td></td>
+</tr>
+
+
+<tr>
+<td align="right">30015</td>
+<td> </td>
+
+
+<td> </td>
+<td></td>
+</tr>
+
+
+<tr>
+<td align="right">30015</td>
+<td> </td>
+
+
+<td> </td>
+<td></td>
+</tr>
+
+
+<tr>
+<td align="right">30015</td>
+<td> </td>
+
+
+<td> </td>
+<td></td>
+</tr>
+
+
+<tr>
+<td align="right">30015</td>
+<td> </td>
+
+
+<td> </td>
+<td></td>
+</tr>
+
+
+<tr>
+<td align="right">30015</td>
+<td> </td>
+
+
+<td> </td>
+<td></td>
+</tr>
+
+
+<tr>
+<td align="right">30015</td>
+<td> </td>
+
+
+<td> </td>
+<td></td>
+</tr>
+
+
+<tr>
+<td align="right">30015</td>
+<td> </td>
+
+
+<td> </td>
 <td></td>
 </tr>
 
