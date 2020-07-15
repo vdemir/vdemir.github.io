@@ -24094,10 +24094,10 @@ lang: tr
 
 <tr>
 <td align="right">3007</td>
-<td></td>
+<td>Establish /ɪstˈæblɪʃ/ /istˈæblɪʃ/</td>
 
 
-<td></td>
+<td>Set up or found.</td>
 <td></td>
 </tr>
 
