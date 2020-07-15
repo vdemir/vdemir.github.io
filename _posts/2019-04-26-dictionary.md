@@ -24063,11 +24063,121 @@ lang: tr
 
 
 <tr>
-<td align="right">3000</td>
-<td>Affirm   /əfˈərm/<a href="https://howjsay.com/mp3/affirm.mp3" target="_blank"> Listen</a></td>
+<td align="right">3004</td>
+<td>Affirm /əfˈərm/<a href="https://howjsay.com/mp3/affirm.mp3" target="_blank"> Listen</a></td>
 
 
 <td>Establish or strengthen as with new evidence or facts.</td>
+<td></td>
+</tr>
+
+
+<tr>
+<td align="right">3005</td>
+<td>Claim /kleɪm/</td>
+
+
+<td>Assert or affirm strongly</td>
+<td></td>
+</tr>
+
+
+<tr>
+<td align="right">3006</td>
+<td></td>
+
+
+<td></td>
+<td></td>
+</tr>
+
+
+<tr>
+<td align="right">3007</td>
+<td></td>
+
+
+<td></td>
+<td></td>
+</tr>
+
+
+<tr>
+<td align="right">3008</td>
+<td></td>
+
+
+<td></td>
+<td></td>
+</tr>
+
+
+<tr>
+<td align="right">3009</td>
+<td></td>
+
+
+<td></td>
+<td></td>
+</tr>
+
+
+<tr>
+<td align="right">3010</td>
+<td></td>
+
+
+<td></td>
+<td></td>
+</tr>
+
+
+<tr>
+<td align="right">30011</td>
+<td></td>
+
+
+<td></td>
+<td></td>
+</tr>
+
+
+<tr>
+<td align="right">30012</td>
+<td></td>
+
+
+<td></td>
+<td></td>
+</tr>
+
+
+<tr>
+<td align="right">30013</td>
+<td></td>
+
+
+<td></td>
+<td></td>
+</tr>
+
+
+<tr>
+<td align="right">30014</td>
+<td></td>
+
+
+<td></td>
+<td></td>
+</tr>
+
+
+<tr>
+<td align="right">30015</td>
+<td></td>
+
+
+<td></td>
 <td></td>
 </tr>
 
