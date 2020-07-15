@@ -24054,12 +24054,12 @@ lang: tr
 
 <tr>
 <td align="right">3000</td>
-<td><audio controls>
+<td>Regard   /rəgˈɑrd/  /rɪgˈɑrd/ <audio controls>
   <source src="https://howjsay.com/mp3/capable.mp3" />
 </audio></td>
 
 
-<td></td>
+<td>Deem to be.</td>
 <td></td>
 </tr>
 
