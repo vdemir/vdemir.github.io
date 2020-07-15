@@ -24044,7 +24044,7 @@ lang: tr
 
 <tr>
 <td align="right">3000</td>
-<td>Capable /kˈeɪpəbəl/<a href="https://howjsay.com/mp3/capable.mp3" target="_blank"> Listen</a></td>
+<td>Capable /kˈeɪpəbəl/<a href="https://howjsay.com/mp3/capable.mp3" target="_blank">   Listen</a></td>
 
 
 <td>adjective (usually followed by 'of') having capacity or ability.  </td>
@@ -24064,10 +24064,10 @@ lang: tr
 
 <tr>
 <td align="right">3000</td>
-<td></td>
+<td>Affirm   /əfˈərm/<a href="https://howjsay.com/mp3/affirm.mp3" target="_blank"> Listen</a></td>
 
 
-<td></td>
+<td>Establish or strengthen as with new evidence or facts.</td>
 <td></td>
 </tr>
 
