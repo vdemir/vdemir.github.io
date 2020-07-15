@@ -24033,7 +24033,7 @@ lang: tr
 
 
 <tr>
-<td align="right">3000</td>
+<td align="right">3001</td>
 <td></td>
 
 
@@ -24043,7 +24043,7 @@ lang: tr
 
 
 <tr>
-<td align="right">3000</td>
+<td align="right">3002</td>
 <td>Capable /kˈeɪpəbəl/<a href="https://howjsay.com/mp3/capable.mp3" target="_blank">   Listen</a></td>
 
 
@@ -24053,7 +24053,7 @@ lang: tr
 
 
 <tr>
-<td align="right">3000</td>
+<td align="right">3003</td>
 <td>Regard   /rəgˈɑrd/  /rɪgˈɑrd/<a href="https://howjsay.com/mp3/regard.mp3" target="_blank"> Listen</a></td>
 
 
