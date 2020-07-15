@@ -24094,7 +24094,7 @@ lang: tr
 
 <tr>
 <td align="right">3007</td>
-<td>Establish /ɪstˈæblɪʃ/ /istˈæblɪʃ/</td>
+<td>Establish /ɪstˈæblɪʃ/ /istˈæblɪʃ/ <a href="https://howjsay.com/mp3/establish.mp3" target="_blank"> Listen</a></td>
 
 
 <td>Set up or found.</td>
