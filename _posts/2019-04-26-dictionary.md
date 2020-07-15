@@ -24020,6 +24020,8 @@ lang: tr
 <td>To zip something means to close it with a zipper.</td>
 <td>She zipped her backpack closed after putting her books inside it.</td>
 </tr>
+
+
 <tr>
 <td align="right">3000</td>
 <td>zone</td>
@@ -24028,6 +24030,28 @@ lang: tr
 <td>A zone is an area that has different qualities from the ones around it.</td>
 <td>Firefighters often work in danger zones.</td>
 </tr>
+
+
+<tr>
+<td align="right">3000</td>
+<td></td>
+
+
+<td></td>
+<td></td>
+</tr>
+
+
+<tr>
+<td align="right">3000</td>
+<td>Capable   /kˈeɪpəbəl/   Listen ￼</td>
+
+
+<td>adjective (usually followed by 'of') having capacity or ability.  </td>
+<td></td>
+</tr>
+
+
 </tbody></table>
 <!-- 
 ffmpeg -framerate 1/10 -i file%d.jpeg -i input.mp3  -c:a copy  -r 30 -s 720x480 -y test.mp4
