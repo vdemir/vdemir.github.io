@@ -24064,9 +24064,7 @@ lang: tr
 
 <tr>
 <td align="right">3000</td>
-<td><<embed src="https://howjsay.com/mp3/capable.mp3" 
-       align="baseline" border="0" width="145" 
-       height="60" autostart="false" loop="true">/td>
+<td></td>
 
 
 <td></td>
