@@ -10,17 +10,13 @@ lang: tr
 ---
 
 
-
-
-
-<style type="text/css">
-.tftable {font-size:12px;color:#333333;width:100%;border-width: 1px;border-color: #729ea5;border-collapse: collapse;}
-.tftable th {font-size:12px;background-color:#acc8cc;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;text-align:left;}
+<style>
+.tftable {font-size:14px;color:#333333;width:70%;border-width: 1px;border-color: #729ea5;border-collapse: collapse;margin-left: auto;margin-right: auto;}
+.tftable th {font-size:13px;background-color:#acc8cc;border-width: 1px;padding: 9px;border-style: solid;border-color: #729ea5;text-align:left;}
 .tftable tr {background-color:#d4e3e5;}
-.tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;}
+.tftable td {font-size:14px;border-width: 1px;padding: 9px;border-style: solid;border-color: #729ea5;}
 .tftable tr:hover {background-color:#ffffff;}
 </style>
-
 
 
 <script>
