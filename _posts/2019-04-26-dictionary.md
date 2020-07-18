@@ -24,7 +24,7 @@ lang: tr
 
 
 <script>
-function searchTable2() {
+function searchTable() {
     var input, filter, found, table, tr, td, i, j;
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
@@ -48,7 +48,7 @@ function searchTable2() {
 </script>
 
 <div class="tftable">
-<input id='myInput' onkeyup='searchTable2()' type='text' placeholder="Search">
+<input id='myInput' onkeyup='searchTable()' type='text' placeholder="Search">
 </div>
 
 
