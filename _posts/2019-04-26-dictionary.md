@@ -50,10 +50,10 @@ function searchTable() {
 
 
 <table class="tftable"  id="myTable" border="1">
-<thead><tr><th title="Field #1">no</th>
-<th title="Field #2">word</th>
-<th title="Field #3">mean</th>
-<th title="Field #4">sencence</th>
+<thead><tr><th>no</th>
+<th>word</th>
+<th>mean</th>
+<th>sencence</th>
 </tr></thead>
 <tbody><tr>
 <td align="right">1</td>
