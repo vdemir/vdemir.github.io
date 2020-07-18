@@ -22,7 +22,38 @@ lang: tr
 </style>
 
 
-<table class="tftable" border="1">
+
+<script>
+function searchTable2() {
+    var input, filter, found, table, tr, td, i, j;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("myTable");
+    tr = table.getElementsByTag("tr");
+    for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTag("td");
+        for (j = 0; j < td.length; j++) {
+            if (td[j].innerHTML.toUpperCase().indexOf(filter) > -1) {
+                found = true;
+            }
+        }
+        if (found) {
+            tr[i].style.display = "";
+            found = false;
+        } else {
+            tr[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+<div class="tftable">
+<input id='myInput' onkeyup='searchTable2()' type='text' placeholder="Search">
+</div>
+
+
+
+<table class="tftable"  id="myTable" border="1">
 <thead><tr><th title="Field #1">no</th>
 <th title="Field #2">word</th>
 <th title="Field #3">mean</th>
