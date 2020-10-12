@@ -21,6 +21,11 @@ lang: tr
 <div style="clear:both"></div>
 
 <div class="by_year">
+		<h3 style="margin: 5px 0 5px 0; padding: 0;"><a>The Prize in Economic Sciences Nobel 2020</a></h3>
+	<h6 style="margin: 0 0 5px 0; padding: 0;"><a>Paul Milgrom and Robert B. Wilson</a></h6>
+<p>They have used their insights to design new auction formats for goods and services that are difficult to sell in a traditional way, such as radio frequencies.</p>
+</div>
+<div class="by_year">
 		<h3><a>The Prize in Economic Sciences Nobel 2018</a></h3>
 <p>The 2018 Prize in Economic Sciences has not been awarded yet. It will be announced on Monday 8 October, 11:45 a.m. at the earliest.</p>
 </div>
