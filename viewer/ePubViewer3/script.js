@@ -15,7 +15,7 @@ window.onerror = function (msg, url, line, column, err) {
     if (msg.indexOf("Object expected") > -1 && url.indexOf("epub") > -1) return;
     document.querySelector(".app .error").classList.remove("hidden");
     document.querySelector(".app .error .error-title").innerHTML = "Error";
-    document.querySelector(".app .error .error-description").innerHTML = "Please try reloading the page or using a different browser (Chrome or Firefox), and if the error still persists, <a href=\"https://github.com/geek1011/ePubViewer/issues\">report an issue</a>.";
+    document.querySelector(".app .error .error-description").innerHTML = "Please try reloading the page or using a different browser (Chrome or Firefox), and if the error still persists, <a href=\"https://github.com/pgaskin/ePubViewer/issues\">report an issue</a>.";
     document.querySelector(".app .error .error-info").innerHTML = msg;
     document.querySelector(".app .error .error-dump").innerHTML = JSON.stringify({
         error: err.toString(),
@@ -203,7 +203,7 @@ App.prototype.fatal = function (msg, err, usersFault) {
     console.error(msg, err);
     document.querySelector(".app .error").classList.remove("hidden");
     document.querySelector(".app .error .error-title").innerHTML = "Error";
-    document.querySelector(".app .error .error-description").innerHTML = usersFault ? "" : "Please try reloading the page or using a different browser, and if the error still persists, <a href=\"https://github.com/geek1011/ePubViewer/issues\">report an issue</a>.";
+    document.querySelector(".app .error .error-description").innerHTML = usersFault ? "" : "Please try reloading the page or using a different browser, and if the error still persists, <a href=\"https://github.com/pgaskin/ePubViewer/issues\">report an issue</a>.";
     document.querySelector(".app .error .error-info").innerHTML = msg + ": " + err.toString();
     document.querySelector(".app .error .error-dump").innerHTML = JSON.stringify({
         error: err.toString(),
@@ -343,7 +343,7 @@ App.prototype.onBookCoverLoaded = function (url) {
     }
     this.state.book.archive.createUrl(url).then(url => {
         this.qs(".cover").src = url;
-    }).catch(this.fatal.bind(this, "error loading cover"));
+    }).catch(console.warn.bind(console));
 };
 
 App.prototype.onKeyUp = function (event) {
@@ -598,66 +598,77 @@ App.prototype.doDictionary = function (word) {
     this.qs(".dictionary-wrapper").classList.remove("hidden");
     this.qs(".dictionary").innerHTML = "";
 
-    let definitionEl = this.qs(".dictionary").appendChild(document.createElement("div"));
-    definitionEl.classList.add("definition");
+    let ldefinitionEl = this.qs(".dictionary").appendChild(document.createElement("div"));
+    ldefinitionEl.classList.add("definition");
 
-    let wordEl = definitionEl.appendChild(document.createElement("div"));
-    wordEl.classList.add("word");
-    wordEl.innerText = word;
+    let lwordEl = ldefinitionEl.appendChild(document.createElement("div"));
+    lwordEl.classList.add("word");
+    lwordEl.innerText = word;
 
-    let meaningsEl = definitionEl.appendChild(document.createElement("div"));
-    meaningsEl.classList.add("meanings");
-    meaningsEl.innerHTML = "Loading";
+    let lmeaningsEl = ldefinitionEl.appendChild(document.createElement("div"));
+    lmeaningsEl.classList.add("meanings");
+    lmeaningsEl.innerHTML = "Loading";
 
     fetch(`https://dict.geek1011.net/word/${encodeURIComponent(word)}`).then(resp => {
         if (resp.status >= 500) throw new Error(`Dictionary not available`);
+        if (resp.status == 404) throw new Error(`Word not found`);
         return resp.json();
     }).then(obj => {
         if (obj.status == "error") throw new Error(`ApiError: ${obj.result}`);
         return obj.result;
-    }).then(word => {
-        console.log("dictLookup", word);
-        meaningsEl.innerHTML = "";
-        wordEl.innerText = [word.word].concat(word.alternates || []).join(", ").toLowerCase();
-        
-        if (word.info && word.info.trim() != "") {
-            let infoEl = meaningsEl.appendChild(document.createElement("div"));
-            infoEl.classList.add("info");
-            infoEl.innerText = word.info;
-        }
-        
-        (word.meanings || []).map((meaning, i) => {
-            let meaningEl = meaningsEl.appendChild(document.createElement("div"));
-            meaningEl.classList.add("meaning");
+    }).then(obj => {
+        console.log("dictLookup", obj);
 
-            let meaningTextEl = meaningEl.appendChild(document.createElement("div"));
-            meaningTextEl.classList.add("text");
-            meaningTextEl.innerText = `${i + 1}. ${meaning.text}`;
+        ldefinitionEl.parentElement.removeChild(ldefinitionEl);
 
-            if (meaning.example && meaning.example.trim() != "") {
-                let meaningExampleEl = meaningEl.appendChild(document.createElement("div"));
-                meaningExampleEl.classList.add("example");
-                meaningExampleEl.innerText = meaning.example;
+        [obj].concat(obj.additional_words || []).concat(obj.referenced_words || []).map(word => {
+            let definitionEl = this.qs(".dictionary").appendChild(document.createElement("div"));
+            definitionEl.classList.add("definition");
+
+            let wordEl = definitionEl.appendChild(document.createElement("div"));
+            wordEl.classList.add("word");
+            wordEl.innerText = [word.word].concat(word.alternates || []).join(", ").toLowerCase();
+
+            let meaningsEl = definitionEl.appendChild(document.createElement("div"));
+            meaningsEl.classList.add("meanings");
+
+            if (word.info && word.info.trim() != "") {
+                let infoEl = meaningsEl.appendChild(document.createElement("div"));
+                infoEl.classList.add("info");
+                infoEl.innerText = word.info;
+            }
+
+            (word.meanings || []).map((meaning, i) => {
+                let meaningEl = meaningsEl.appendChild(document.createElement("div"));
+                meaningEl.classList.add("meaning");
+
+                let meaningTextEl = meaningEl.appendChild(document.createElement("div"));
+                meaningTextEl.classList.add("text");
+                meaningTextEl.innerText = `${i + 1}. ${meaning.text}`;
+
+                if (meaning.example && meaning.example.trim() != "") {
+                    let meaningExampleEl = meaningEl.appendChild(document.createElement("div"));
+                    meaningExampleEl.classList.add("example");
+                    meaningExampleEl.innerText = meaning.example;
+                }
+            });
+
+            (word.notes || []).map(note => {
+                let noteEl = meaningsEl.appendChild(document.createElement("div"));
+                noteEl.classList.add("note");
+                noteEl.innerText = note;
+            });
+        
+            if (word.credit && word.credit.trim() != "") {
+                let creditEl = meaningsEl.appendChild(document.createElement("div"));
+                creditEl.classList.add("credit");
+                creditEl.innerText = word.credit;
             }
         });
-        
-        if (word.credit && word.credit.trim() != "") {
-            let creditEl = meaningsEl.appendChild(document.createElement("div"));
-            creditEl.classList.add("credit");
-            creditEl.innerText = word.credit;
-        }
     }).catch(err => {
         try {
             console.error("dictLookup", err);
-            if (err.toString().toLowerCase().indexOf("not in dictionary") > -1) {
-                meaningsEl.innerHTML = "Word not in dictionary.";
-                return;
-            }
-            if (err.toString().toLowerCase().indexOf("not available") > -1 || err.toString().indexOf("networkerror") > -1 || err.toString().indexOf("failed to fetch") > -1) {
-                meaningsEl.innerHTML = "Dictionary not available.";
-                return;
-            }
-            meaningsEl.innerHTML = `Dictionary not available: ${err.toString()}`;
+            lmeaningsEl.innerText = err.toString();
         } catch (err) {}
     });
 };
@@ -758,7 +769,7 @@ try {
 } catch (err) {
     document.querySelector(".app .error").classList.remove("hidden");
     document.querySelector(".app .error .error-title").innerHTML = "Error";
-    document.querySelector(".app .error .error-description").innerHTML = "Please try reloading the page or using a different browser (Chrome or Firefox), and if the error still persists, <a href=\"https://github.com/geek1011/ePubViewer/issues\">report an issue</a>.";
+    document.querySelector(".app .error .error-description").innerHTML = "Please try reloading the page or using a different browser (Chrome or Firefox), and if the error still persists, <a href=\"https://github.com/pgaskin/ePubViewer/issues\">report an issue</a>.";
     document.querySelector(".app .error .error-dump").innerHTML = JSON.stringify({
         error: err.toString(),
         stack: err.stack

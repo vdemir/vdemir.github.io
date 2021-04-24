@@ -1,0 +1,165 @@
+// ================================================================================
+// + Slider
+// --------------------------------------------------------------------------------
+
+div#bibi-slider {
+	& {
+		box-shadow: $Slider_BoxShadow;
+		&:after {
+			border-color: $Slider_BorderColor;
+			background: $Slider_Background;
+		}
+		&, &:after { transition: $Slider_Transition__Close; }
+	}
+	html.slider-opened & {
+		box-shadow: $Slider_BoxShadow__SliderOpened;
+		&:after { background: $Slider_Background__SliderOpened; }
+		&, &:after { transition: $Slider_Transition__Open; }
+	}
+	html.slider-opened.appearance-horizontal & {
+		height: $Slider_Size !important;
+		&:after { border-top-color: $Slider_BorderColor__SliderOpened; }
+	}
+	html.slider-opened.appearance-vertical & {
+		width: $Slider_Size !important;
+		&:after { border-left-color: $Slider_BorderColor__SliderOpened; }
+	}
+}
+
+
+// - . History
+// --------------------------------------------------------------------------------
+
+div#bibi-slider-history {
+	html:not(.slider-opened) & { transition: $Slider_Transition__Close; }
+	html.slider-opened       & { transition: $Slider_Transition__Open;  }
+	.bibi-buttongroup { // ul
+		.bibi-buttonbox { // li
+			.bibi-button#bibi-slider-history-button {
+				@include size($Slider-History-Button-Icon_Size);
+				html.appearance-vertical & { top:   $Slider-History-Button-Icon_Margin; }
+				html.appearance-ltr      & { left:  $Slider-History-Button-Icon_Margin; }
+				html.appearance-rtl      & { right: $Slider-History-Button-Icon_Margin; }
+			}
+		}
+	}
+}
+
+
+// - . Thumb
+// --------------------------------------------------------------------------------
+
+div#bibi-slider-thumb {
+	&:before,
+	&:after {
+		html.slider-opened       & { transition: $Slider_Transition__Open; }
+		html:not(.slider-opened) & { transition: $Slider_Transition__Close; }
+	}
+	&:before { background: $Slider-Thumb_BackgroundColor; }
+	html:not(.slider-opened):not(.touch)  &:hover:before { background-color: $Slider-Thumb_BackgroundColor__Hover; }
+	html:not(.slider-opened):not(.touch) &:active:before { background-color: $Slider-Thumb_BackgroundColor__Active; }
+	&:after {
+		@include offset($Slider-Thumb_Size__SliderOpened * -1);
+		@include min-size($Slider-Thumb_Size__SliderOpened);
+		html.appearance-horizontal & { @include size(100%, $Slider-Thumb_Size__SliderOpened); }
+		html.appearance-vertical   & { @include size($Slider-Thumb_Size__SliderOpened, 100%); }
+		border-radius: $Slider-Thumb_Size__SliderOpened * .5;
+		border: $Slider-Thumb_Border__SliderOpened;
+		background: $Slider-Thumb_BackgroundColor__SliderOpened;
+		box-shadow: 0 0 0 $Slider-Thumb-Halo_Width__SliderOpened $Slider-Thumb-Halo_Color__SliderOpened;
+	}
+	&.min:after {
+		border: $Slider-Thumb_Border__SliderOpened__Min;
+		background: $Slider-Thumb_BackgroundColor__SliderOpened__Min;
+	}
+}
+
+
+// - . Rail
+// --------------------------------------------------------------------------------
+
+div#bibi-slider-rail {
+	& {
+		background: $Slider-Rail-FullLength_Color__SliderOpened;
+	}
+	html.slider-opened.appearance-horizontal & { height: $Slider-Rail-FullLength_Width__SliderOpened; }
+	html.slider-opened.appearance-vertical   & { width: $Slider-Rail-FullLength_Width__SliderOpened; }
+	div#bibi-slider:hover                    & { background: $Slider-Rail-FullLength_Color__SliderOpened__Hover; }
+}
+
+div#bibi-slider-rail-groove {
+	& {
+		background: $Slider-Rail-Groove_Color__SliderOpened;
+	}
+	html.slider-opened.appearance-horizontal & { height: $Slider-Rail-Groove_Width__SliderOpened; }
+	html.slider-opened.appearance-vertical   & { width: $Slider-Rail-Groove_Width__SliderOpened; }
+	div#bibi-slider:hover                    & { background: $Slider-Rail-Groove_Color__SliderOpened__Hover; }
+}
+
+div#bibi-slider-rail-progress {
+	& {
+		background: $Slider-Rail-Progress_Color__SliderOpened;
+	}
+	html.slider-opened.appearance-horizontal & { height: $Slider-Rail-Progress_Width__SliderOpened; }
+	html.slider-opened.appearance-vertical   & { width:  $Slider-Rail-Progress_Width__SliderOpened; }
+	html.slider-opened.appearance-ltr        & { border-radius: 0 ($Slider-Rail-Progress_Width__SliderOpened * .5) ($Slider-Rail-Progress_Width__SliderOpened * .5) 0; }
+	html.slider-opened.appearance-rtl        & { border-radius: ($Slider-Rail-Progress_Width__SliderOpened * .5) 0 0 ($Slider-Rail-Progress_Width__SliderOpened * .5); }
+	html.slider-opened.appearance-ttb        & { border-radius: 0 0 ($Slider-Rail-Progress_Width__SliderOpened * .5) ($Slider-Rail-Progress_Width__SliderOpened * .5); }
+	div#bibi-slider:hover                    & { background: $Slider-Rail-Progress_Color__SliderOpened__Hover; }
+}
+
+
+// - Edgebar Box
+// --------------------------------------------------------------------------------
+
+div#bibi-slider-edgebar-box {
+	& {
+		html.slider-opened.appearance-horizontal & {
+			top: 1px + $Slider_PaddingStart__SliderOpened;
+			height: calc(100% - #{ 1px + $Slider_PaddingStart__SliderOpened  + $Slider_PaddingEnd__SliderOpened   });
+		}
+		html.slider-opened.appearance-vertical & {
+			left: 1px + $Slider_PaddingStart__SliderOpened;
+			width:  calc(100% - #{ 1px + $Slider_PaddingStart__SliderOpened  + $Slider_PaddingEnd__SliderOpened   });
+		}
+	}
+	div#bibi-slider:not(.bibi-slider-with-history) & {
+		html.slider-opened.appearance-horizontal & {
+			width:  calc(100% - #{       $Slider_PaddingBefore__SliderOpened + $Slider_PaddingAfter__SliderOpened });
+		}
+		html.slider-opened.appearance-ltr & {
+			left: $Slider_PaddingBefore__SliderOpened;
+		}
+		html.slider-opened.appearance-rtl & {
+			right: $Slider_PaddingBefore__SliderOpened;
+		}
+		html.slider-opened.appearance-vertical & {
+			top: $Slider_PaddingBefore__SliderOpened;
+			height: calc(100% - #{       $Slider_PaddingBefore__SliderOpened + $Slider_PaddingAfter__SliderOpened });
+		}
+	}
+	div#bibi-slider.bibi-slider-with-history & {
+		html.slider-opened.appearance-horizontal & {
+			width:  calc(100% - #{       $Slider_PaddingBefore__SliderOpened__WithHistory + $Slider_PaddingAfter__SliderOpened });
+		}
+		html.slider-opened.appearance-ltr & {
+			left: $Slider_PaddingBefore__SliderOpened__WithHistory;
+		}
+		html.slider-opened.appearance-rtl & {
+			right: $Slider_PaddingBefore__SliderOpened__WithHistory;
+		}
+		html.slider-opened.appearance-vertical & {
+			top: $Slider_PaddingBefore__SliderOpened__WithHistory;
+			height: calc(100% - #{       $Slider_PaddingBefore__SliderOpened__WithHistory + $Slider_PaddingAfter__SliderOpened });
+		}
+	}
+}
+
+
+// - Edgebar
+// --------------------------------------------------------------------------------
+
+div#bibi-slider-edgebar {
+	border-radius: $Slider-Edgebar_BorderRadius;
+	background: $Slider-Edgebar_Background;
+}

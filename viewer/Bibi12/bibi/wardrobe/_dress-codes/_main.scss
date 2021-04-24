@@ -1,0 +1,22 @@
+// ================================================================================
+// + Main
+// --------------------------------------------------------------------------------
+
+@mixin ItemBox-Loading() { // [NOTE] It is for `::before` pseudo element. You can use an image by `background` instead of string.
+	content: "Loading...";
+	@include size(100%, 2em);
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: rgb(192,192,192);
+}
+
+@mixin Main__SubpanelOpened() {
+	background: $HTML_Background;
+	filter: brightness(87.5%);
+}
+
+@mixin Main-Book__SubpanelOpened() {
+	opacity: .75;
+}

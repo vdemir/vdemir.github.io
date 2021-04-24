@@ -1,0 +1,15 @@
+/__archives
+/__dist
+/__src/bibi/wardrobe/DRESS-TEMPLATE-*
+
+/archives
+/bib
+/dev-bib
+
+node_modules
+npm-debug.log
+
+._*
+.DS_Store
+Icon
+Thumbs.db

@@ -1,0 +1,358 @@
+// ================================================================================
+// + Slider
+// --------------------------------------------------------------------------------
+
+div#bibi-slider {
+	& {
+		overflow: hidden;
+		position: relative;
+		box-sizing: border-box;
+		display: block;
+		position: absolute;
+		z-index: $INVARIABLE__Slider_ZIndex;
+		cursor: pointer;
+		// @____Bibi:Dress__('-') box-shadow: $Slider_BoxShadow;
+		will-change: height;
+		&:after {
+			content: "";
+			display: block;
+			box-sizing: border-box;
+			position: absolute;
+			z-index: 0;
+			border-style: solid;
+			border-width: 0;
+			// @____Bibi:Dress__('-') border-color: $Slider_BorderColor;
+			@include size(100%);
+			// @____Bibi:Dress__('-') background: $Slider_Background;
+		}
+		// @____Bibi:Dress__('-') &, &:after { transition: $Slider_Transition__Close; }
+	}
+	html.appearance-horizontal & {
+		@include offset(auto, 0, 0, 0);
+		@include size(
+			100%,
+			$TEMPORARY__Scrollbar-Track_Size // TO BE OVERWRITTEN
+		);
+		&:after { border-top-width: 1px; }
+	}
+	html.appearance-horizontal.panel-opened & { height: 0; }
+	html.appearance-vertical & {
+		@include offset(0, 0, 0, auto);
+		@include size(
+			$TEMPORARY__Scrollbar-Track_Size, // TO BE OVERWRITTEN
+			100%
+		);
+		&:after { border-left-width: 1px; }
+	}
+	html.appearance-vertical.panel-opened & { width: 0; }
+	html.slider-opened & {
+		overflow: visible;
+		// @____Bibi:Dress__('-') box-shadow: $Slider_BoxShadow__SliderOpened;
+		// @____Bibi:Dress__('-') &:after { background: $Slider_Background__SliderOpened; }
+		// @____Bibi:Dress__('-') &, &:after { transition: $Slider_Transition__Open; }
+	}
+	html.slider-opened.appearance-horizontal & {
+		// @____Bibi:Dress__('-') height: $Slider_Size !important;
+		// @____Bibi:Dress__('-') &:after { border-top-color: $Slider_BorderColor__SliderOpened; }
+	}
+	html.slider-opened.appearance-vertical & {
+		// @____Bibi:Dress__('-') width: $Slider_Size !important;
+		// @____Bibi:Dress__('-') &:after { border-left-color: $Slider_BorderColor__SliderOpened; }
+	}
+	html.slider-sliding &,
+	html.busy & { transition: none; }
+	html.waiting &,
+	html.busy &,
+	html.panel-opened & { display: none; }
+	overscroll-behavior-x: none;
+	overscroll-behavior-y: none;
+}
+
+
+// - . History
+// --------------------------------------------------------------------------------
+
+div#bibi-slider-history {
+	div#bibi-slider:not(.bibi-slider-with-history) & { display: none; }
+	html:not(.slider-opened) & {
+		transform: scale(0);
+		// @____Bibi:Dress__('-') transition: $Slider_Transition__Close;
+	}
+	html.slider-opened & {
+		// @____Bibi:Dress__('-') transition: $Slider_Transition__Open;
+	}
+	.bibi-buttongroup { // ul
+		.bibi-buttonbox { // li
+			.bibi-button#bibi-slider-history-button {
+				position: absolute;
+				z-index: 1;
+				margin: auto;
+				// @____Bibi:Dress__('-') @include size($Slider-History-Button-Icon_Size);
+				html.appearance-vertical & {
+					left: 0; right: 0;
+					bottom: auto;
+					// @____Bibi:Dress__('-') top: $Slider-History-Button-Icon_Margin;
+				}
+				html.appearance-horizontal & {
+					top: 0; bottom: 0;
+				}
+				html.appearance-ltr & {
+					right: auto;
+					// @____Bibi:Dress__('-') left: $Slider-History-Button-Icon_Margin;
+				}
+				html.appearance-rtl & {
+					left: auto;
+					// @____Bibi:Dress__('-') right: $Slider-History-Button-Icon_Margin;
+				}
+				span.bibi-button-label {
+					position: absolute;
+					@include offset(0);
+					overflow: hidden;
+					@include size(0);
+					color: transparent;
+				}
+			}
+		}
+	}
+}
+
+
+// - . Thumb
+// --------------------------------------------------------------------------------
+
+div#bibi-slider-thumb {
+	display: block;
+	box-sizing: border-box;
+	position: absolute;
+	z-index: 100000;
+	html.appearance-horizontal & {
+		top: 0; bottom: 0;
+		height: $TEMPORARY__Scrollbar-Thumb_Size; // TO BE OVERWRITTEN
+	}
+	html.appearance-vertical & {
+		left: 0; right: 0;
+		width:  $TEMPORARY__Scrollbar-Thumb_Size; // TO BE OVERWRITTEN
+	}
+	html.slider-opened.appearance-horizontal & { height: 100%; cursor: col-resize; }
+	html.slider-opened.appearance-vertical   & { width:  100%; cursor: row-resize; }
+	margin: auto;
+	//pointer-events: none;
+	background: transparent;
+	will-change: width, height, transform, left, top;
+	&:before,
+	&:after {
+		content: "";
+		display: block;
+		box-sizing: border-box;
+		position: absolute;
+		z-index: 10;
+		margin: auto;
+		// @____Bibi:Dress__('-') html.slider-opened       & { transition: $Slider_Transition__Open;  }
+		// @____Bibi:Dress__('-') html:not(.slider-opened) & { transition: $Slider_Transition__Close; }
+	}
+	&:before {
+		@include offset($TEMPORARY__Scrollbar-Thumb_Size * -1); // TO BE OVERWRITTEN
+		@include size(100%);
+		border-radius: $TEMPORARY__Scrollbar-Thumb_Size * 0.5; // TO BE OVERWRITTEN
+		html.appearance-horizontal & { min-width:  $TEMPORARY__Scrollbar-Thumb_Size; } // TO BE OVERWRITTEN
+		html.appearance-vertical   & { min-height: $TEMPORARY__Scrollbar-Thumb_Size; } // TO BE OVERWRITTEN
+		// @____Bibi:Dress__('-') background: $Slider-Thumb_BackgroundColor;
+		html.slider-opened & { transform: scale(0); opacity: 0; }
+	}
+	// @____Bibi:Dress__('-') html:not(.slider-opened):not(.touch) &:hover:before  { background-color: $Slider-Thumb_BackgroundColor__Hover; }
+	// @____Bibi:Dress__('-') html:not(.slider-opened):not(.touch) &:active:before { background-color: $Slider-Thumb_BackgroundColor__Active; }
+	&:after {
+		// @____Bibi:Dress__('-') @include offset($Slider-Thumb_Size__SliderOpened * -1);
+		// @____Bibi:Dress__('-') html.appearance-horizontal & { @include size(100%, $Slider-Thumb_Size__SliderOpened); }
+		// @____Bibi:Dress__('-') html.appearance-vertical   & { @include size($Slider-Thumb_Size__SliderOpened, 100%); }
+		// @____Bibi:Dress__('-') @include min-size($Slider-Thumb_Size__SliderOpened);
+		// @____Bibi:Dress__('-') border-radius: $Slider-Thumb_Size__SliderOpened * .5;
+		// @____Bibi:Dress__('-') border: $Slider-Thumb_Border__SliderOpened;
+		// @____Bibi:Dress__('-') background: $Slider-Thumb_BackgroundColor__SliderOpened;
+		// @____Bibi:Dress__('-') box-shadow: 0 0 0 $Slider-Thumb-Halo_Width__SliderOpened $Slider-Thumb-Halo_Color__SliderOpened;
+		html:not(.slider-opened) & { transform: scale(0); opacity: 0; }
+	}
+	&.min:after {
+		// @____Bibi:Dress__('-') border: $Slider-Thumb_Border__SliderOpened__Min;
+		// @____Bibi:Dress__('-') background: $Slider-Thumb_BackgroundColor__SliderOpened__Min;
+	}
+}
+
+
+// - . Rail
+// --------------------------------------------------------------------------------
+
+div#bibi-slider-rail,
+div#bibi-slider-rail-groove,
+div#bibi-slider-rail-progress {
+	& {
+		box-sizing: border-box;
+		position: absolute;
+		pointer-events: none;
+		transition: background-color linear .33s;
+	}
+}
+
+div#bibi-slider-rail {
+	& {
+		z-index: 10000;
+		@include offset(0);
+		margin: auto;
+		// @____Bibi:Dress__('-') background: $Slider-Rail-FullLength_Color__SliderOpened;
+	}
+	html.appearance-horizontal & { @include size(100%, 0); }
+	html.appearance-vertical   & { @include size(0, 100%); }
+	// @____Bibi:Dress__('-') html.slider-opened.appearance-horizontal & { height: $Slider-Rail-FullLength_Width__SliderOpened; }
+	// @____Bibi:Dress__('-') html.slider-opened.appearance-vertical   & { width: $Slider-Rail-FullLength_Width__SliderOpened; }
+	// @____Bibi:Dress__('-') div#bibi-slider:hover                    & { background: $Slider-Rail-FullLength_Color__SliderOpened__Hover; }
+}
+
+div#bibi-slider-rail-groove,
+div#bibi-slider-rail-progress {
+	& {
+		@include size(0);
+	}
+}
+
+div#bibi-slider-rail-groove {
+	& {
+		// @____Bibi:Dress__('-') border-top-color: $Slider-Rail-Groove_Color__SliderOpened;
+	}
+	html.appearance-horizontal & { @include offset(-100%); margin: auto; }
+	html.appearance-vertical &   { @include offset(-100%); margin: auto; }
+	// @____Bibi:Dress__('-') html.slider-opened.appearance-horizontal & { border-top: $Slider-Rail-Groove_Width__SliderOpened; }
+	// @____Bibi:Dress__('-') html.slider-opened.appearance-vertical   & { width: $Slider-Rail-Groove_Width__SliderOpened; }
+	// @____Bibi:Dress__('-') div#bibi-slider:hover                    & { background: $Slider-Rail-Groove_Color__SliderOpened__Hover; }
+}
+
+div#bibi-slider-rail-progress {
+	& {
+		// @____Bibi:Dress__('-') background: $Slider-Rail-Progress_Color__SliderOpened;
+		will-change: width, height;
+	}
+	html.appearance-rtl & { @include offset(-100%, 0, -100%, auto); margin: auto 0; transform-origin: 100% 50%; }
+	html.appearance-ltr & { @include offset(-100%, auto, -100%, 0); margin: auto 0; transform-origin:   0  50%; }
+	html.appearance-ttb & { @include offset(0, -100%, auto, -100%); margin: 0 auto; transform-origin:  50%  0 ; }
+	// @____Bibi:Dress__('-') html.slider-opened.appearance-horizontal & { height: $Slider-Rail-Progress_Width__SliderOpened; }
+	// @____Bibi:Dress__('-') html.slider-opened.appearance-vertical   & { width:  $Slider-Rail-Progress_Width__SliderOpened; }
+	// @____Bibi:Dress__('-') html.slider-opened.appearance-ltr        & { border-radius: 0 ($Slider-Rail-Progress_Width__SliderOpened * .5) ($Slider-Rail-Progress_Width__SliderOpened * .5) 0; }
+	// @____Bibi:Dress__('-') html.slider-opened.appearance-rtl        & { border-radius: ($Slider-Rail-Progress_Width__SliderOpened * .5) 0 0 ($Slider-Rail-Progress_Width__SliderOpened * .5); }
+	// @____Bibi:Dress__('-') html.slider-opened.appearance-ttb        & { border-radius: 0 0 ($Slider-Rail-Progress_Width__SliderOpened * .5) ($Slider-Rail-Progress_Width__SliderOpened * .5); }
+	// @____Bibi:Dress__('-') div#bibi-slider:hover                    & { background: $Slider-Rail-Progress_Color__SliderOpened__Hover; }
+}
+
+
+// - Edgebar Box
+// --------------------------------------------------------------------------------
+
+div#bibi-slider-edgebar-box {
+	& {
+		box-sizing: border-box;
+		position: absolute;
+		@include offset(0);
+		z-index: 10;
+		margin: auto;
+		background: transparent;
+		will-change: width, height;
+		html.appearance-horizontal & {
+			@include offset(1px, 0, auto, 0);
+			height: calc(100% -    1px                                                 );
+			width:  calc(100% - #{       $TEMPORARY__Scrollbar-Thumb_Size * 0.5      * 2 });
+		}
+		html.appearance-vertical & {
+			@include offset(0, auto, 0, 1px);
+			width:  calc(100% -    1px                                                 );
+			height: calc(100% - #{       $TEMPORARY__Scrollbar-Thumb_Size * 0.5      * 2 });
+		}
+		html.slider-opened.appearance-horizontal & {
+			// @____Bibi:Dress__('-') top: 1px + $Slider_PaddingStart__SliderOpened;
+			bottom: auto;
+			// @____Bibi:Dress__('-') height: calc(100% - #{ 1px + $Slider_PaddingStart__SliderOpened  + $Slider_PaddingEnd__SliderOpened   });
+		}
+		html.slider-opened.appearance-ltr & {
+			right: auto;
+		}
+		html.slider-opened.appearance-rtl & {
+			left: auto;
+		}
+		html.slider-opened.appearance-vertical & {
+			// @____Bibi:Dress__('-') left: 1px + $Slider_PaddingStart__SliderOpened;
+			right: auto;
+			bottom: auto;
+			// @____Bibi:Dress__('-') width:  calc(100% - #{ 1px + $Slider_PaddingStart__SliderOpened  + $Slider_PaddingEnd__SliderOpened   });
+		}
+	}
+	div#bibi-slider:not(.bibi-slider-with-history) & {
+		html.slider-opened.appearance-horizontal & {
+			// @____Bibi:Dress__('-') width:  calc(100% - #{       $Slider_PaddingBefore__SliderOpened + $Slider_PaddingAfter__SliderOpened });
+		}
+		html.slider-opened.appearance-ltr & {
+			// @____Bibi:Dress__('-') left: $Slider_PaddingBefore__SliderOpened;
+		}
+		html.slider-opened.appearance-rtl & {
+			// @____Bibi:Dress__('-') right: $Slider_PaddingBefore__SliderOpened;
+		}
+		html.slider-opened.appearance-vertical & {
+			// @____Bibi:Dress__('-') top: $Slider_PaddingBefore__SliderOpened;
+			// @____Bibi:Dress__('-') height: calc(100% - #{       $Slider_PaddingBefore__SliderOpened + $Slider_PaddingAfter__SliderOpened });
+		}
+	}
+	div#bibi-slider.bibi-slider-with-history & {
+		html.slider-opened.appearance-horizontal & {
+			// @____Bibi:Dress__('-') width:  calc(100% - #{       $Slider_PaddingBefore__SliderOpened__WithHistory + $Slider_PaddingAfter__SliderOpened });
+		}
+		html.slider-opened.appearance-ltr & {
+			// @____Bibi:Dress__('-') left: $Slider_PaddingBefore__SliderOpened__WithHistory;
+		}
+		html.slider-opened.appearance-rtl & {
+			// @____Bibi:Dress__('-') right: $Slider_PaddingBefore__SliderOpened__WithHistory;
+		}
+		html.slider-opened.appearance-vertical & {
+			// @____Bibi:Dress__('-') top: $Slider_PaddingBefore__SliderOpened__WithHistory;
+			// @____Bibi:Dress__('-') height: calc(100% - #{       $Slider_PaddingBefore__SliderOpened__WithHistory + $Slider_PaddingAfter__SliderOpened });
+		}
+	}
+}
+
+
+// - Edgebar
+// --------------------------------------------------------------------------------
+
+div#bibi-slider-edgebar {
+	box-sizing: border-box;
+	position: absolute;
+	z-index: 10;
+	@include offset(0);
+	@include size(100%);
+	margin: auto;
+	will-change: width, height;
+}
+
+
+// - Edgebar
+// --------------------------------------------------------------------------------
+
+div#bibi-slider-edgebar {
+	// @____Bibi:Dress__('-') background: $Slider-Edgebar_Background;
+}
+
+
+// - . History
+// --------------------------------------------------------------------------------
+
+div#bibi-slider-history {
+	ul {
+		li {
+			span.bibi-button {
+				span.bibi-button-iconbox {
+					span.bibi-icon {
+					}
+					span.bibi-icon-historyback {
+					}
+				}
+				span.bibi-button-label {
+				}
+			}
+		}
+	}
+}
