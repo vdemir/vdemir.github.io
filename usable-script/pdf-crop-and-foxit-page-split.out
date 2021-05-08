@@ -1,0 +1,34 @@
+72 points == 1 inch == 25.4 millimeters
+
+Assuming you have a page size of A4. Then the media dimensions are:
+
+595 points width  == 210 millimeters
+842 points height == 297 millimeters
+
+Assuming you want to crop off:
+
+   left edge: 24 points == 1/3 inch ~=  8.5 millimeters
+  right edge: 36 points == 1/2 inch ~= 12.7 millimeters
+    top edge: 48 points == 2/3 inch ~= 17.0 millimeters
+ bottom edge: 72 points ==   1 inch ~= 25.4 millimeters
+ 
+ 
+B5 Ekstra, Yatay (276 × 201 mm)
+
+782,36  569,76
+
+gs                               \
+  -o cropped.pdf                 \
+  -sDEVICE=pdfwrite              \
+  -c "[/CropBox [0 0 391 570]" \
+  -c " /PAGES pdfmark"           \
+  -f o1.pdf
+  
+  
+  
+gs                               \
+  -o cropped2.pdf                 \
+  -sDEVICE=pdfwrite              \
+  -c "[/CropBox [ 391 0 782 570]" \
+  -c " /PAGES pdfmark"           \
+  -f o1.pdf
