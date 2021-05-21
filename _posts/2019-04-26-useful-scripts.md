@@ -14,14 +14,14 @@ lang: tr
  
 *  [Build Your Own Lisp](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/lisp-c/Build-Your-Own-Lisp.pdf)
  
-*  [AUTOMATE THE BORING STUFFWITH PYTHON](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/pythn/automate-the-boring-stuff-with-python-2015-.pdf)
-*  [C Programming](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/pythn/C Programming Absolute Beginner.pdf)
-*  [Coding Projects in Python](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/pythn/C Programming Absolute Beginner.pdf)
-*  [Learn Python in One Day and Learn It Well](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/pythn/Learn Python in One Day.pdf)
-*  [Python Tricks: The Book](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/pythn/Python Tricks: A Buffet of Awesome Python Features.pdf)
+*  [AUTOMATE THE BORING STUFFWITH PYTHON](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/prog/pyt/automate-the-boring-stuff-with-python-2015-.pdf)
+*  [C Programming](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/prog/clang/C Programming Absolute Beginner.pdf)
+
+*  [Learn Python in One Day and Learn It Well](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/prog/pyt/Learn Python in One Day.pdf)
+*  [Python Tricks: The Book](https://vdemir.github.io/viewer/web/viewer.html?file=/assets/prog/pyt/Python Tricks: A Buffet of Awesome Python Features.pdf)
 
 *  [python3 isthza](https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/istihza/python3.pdf)
-*  [Learning Python Programming with 11 Beginner Tips](https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/pythn/Learning-Tips.pdf)
+*  [Learning Python Programming with 11 Beginner Tips](https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/prog/pyt/Learning-Tips.pdf)
 *  [Modern JavaScript Tutorial](https://javascript.info)
 *  [CodingUnit Programming Tutorials](https://www.codingunit.com/)
 *  [Hands-On Linux Administration on Azure](https://www.codingunit.com/)
