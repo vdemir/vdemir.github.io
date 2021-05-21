@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  Sözlük
+title:  dictionary
 date:   2019-04-14 12:00:00
 tags:   dictionary
-categories: [Sözlük ]
+categories: [dictionary ]
 comments: false
 published: true
 lang: tr
