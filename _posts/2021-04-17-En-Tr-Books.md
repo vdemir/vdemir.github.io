@@ -57,7 +57,7 @@ lang: en
 <tr><td>PDF</td><td>1999</td><td>C traps and Pirfalls</td><td><a href="https://disk.yandex.com.tr/i/IJsKcNls_EpVgQ" target="_blank">LiNK</a></td><td>C traps and Pirfalls</td></tr>
 
 
-<tr><td>PDF</td><td>1999</td><td>Masonik E</td><td><a https://b-ok.as/book/13218393/ec5731" target="_blank">LiNK</a></td><td>Masonik</td></tr>
+<tr><td>PDF</td><td>1999</td><td>Masonik E</td><td><a href="https://b-ok.as/book/13218393/ec5731" target="_blank">LiNK</a></td><td>Masonik</td></tr>
 
 <tr><td>PDF</td><td>1999</td><td>Masonik part1</td><td><a href="https://disk.yandex.com.tr/i/oINNHxlF05XhMQ" target="_blank">LiNK</a></td><td>Masonik</td></tr>
 
