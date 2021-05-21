@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  English Turkish Dictionary
+title:  English Turkish Books
 date:   2021-04-17 12:00:00
-tags:   dictionary
-categories: [Dictionary]
+tags:   pdf, books
+categories: [books]
 comments: false
 published: true
 lang: en
