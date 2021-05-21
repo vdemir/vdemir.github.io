@@ -3,7 +3,7 @@ layout: post
 title:  English Turkish Books
 date:   2021-04-17 12:00:00
 tags:   Books
-categories: [books]
+categories: [Books]
 comments: false
 published: true
 lang: en
