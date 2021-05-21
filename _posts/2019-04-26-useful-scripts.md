@@ -3,8 +3,8 @@ layout: post
 title: Useful Scripts
 date:   2019-09-26 13:52:00
 excerpt: "Kullanışlı Betikler"
-tags:   Python3 Programlama 
-categories: Python
+tags:   script 
+categories: script
 comments: false
 published: true
 lang: tr
