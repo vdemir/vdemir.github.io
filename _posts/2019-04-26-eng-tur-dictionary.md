@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Dictionary
+title:  ENG-TUR Dictionary
 date:   2019-04-14 12:00:00
 tags:   Dictionary
 categories: [Dictionary ]
@@ -34,7 +34,7 @@ table, th, td {
 </tfoot> 
 <tbody style='background:#ff0;'> 
  <tr> 
- <td>Eng-Tur</td> 
+ <td>Eng-Tur Dictionary</td> 
  <td><a href="//readordownloadbooks.bitbucket.io/viewer/web/viewer.html?file=//readordownloadbooks.bitbucket.io/Eng-Tur.pdf" target="_blank">LiNK</a></td> 
  </tr>  
 </tbody> 
