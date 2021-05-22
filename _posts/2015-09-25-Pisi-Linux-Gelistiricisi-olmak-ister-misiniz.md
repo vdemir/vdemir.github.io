@@ -11,7 +11,7 @@ lang: tr
 
 Pisi Linux geliştiricisi olmak gerçekten çok kolaydır çünkü herkesin mutlaka yeteneğine göre yapabileceği bir iş var. Pisi Linux tarafında da işler bundan pek farklı işlemiyor. Her ne kadar gönüllülük esas olsada herkes mutlaka ilgi alanına giren bir işte katkı sağlayabilir. Pisi Linux devinim içinde olan ve yazılım güncellemeleri konusuna azami özen gösteren bir dağıtımdır. Devam edecek ...
 
-Geliştirici olmak isteyen ve yazılım konusuna ilgi duyan, tasarım kabiliyeti olan arkadaşlar [Davetiye1](http://samibabat.com/project/slack/invite/) yada [Davetiye2](http://samibabat.com/apps/slack/invite/)sayfasından kendi posta adreslerini yazarak kolayca üye olabilirler.
+Geliştirici olmak isteyen ve yazılım konusuna ilgi duyan, tasarım kabiliyeti olan arkadaşlar [Davetiye1](http://samibabat.com/project/slack/invite/) yada [Davetiye2](https://github.com/Sam0bt/php-slack-invite)sayfasından kendi posta adreslerini yazarak kolayca üye olabilirler.
 
 ***Snapshots***
 
