@@ -19,8 +19,8 @@ lang: en
 </style>
 
 
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
-<a href="https://harun-yahya.github.io/index.html" ><h1><i class="fas fa-external-link-square-alt"></i> LIBRARY</h1></a>
+<div>
+<a href="https://harun-yahya.github.io/index.html" ><h1> LIBRARY</h1></a>
 </div>
   
 
