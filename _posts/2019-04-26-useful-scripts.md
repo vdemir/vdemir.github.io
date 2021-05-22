@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Useful Scripts
+title: Useful Programming Material
 date:   2019-09-26 13:52:00
 excerpt: "Kullanışlı Betikler"
-tags:   script 
-categories: script
+tags:   Programming 
+categories: Programming
 comments: false
 published: true
 lang: tr

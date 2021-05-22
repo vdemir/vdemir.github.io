@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  dictionary
+title:  Dictionary
 date:   2019-04-14 12:00:00
-tags:   dictionary
-categories: [dictionary ]
+tags:   Dictionary
+categories: [Dictionary ]
 comments: false
 published: true
 lang: tr
