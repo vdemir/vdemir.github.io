@@ -23,9 +23,9 @@ lang: en
             <a href="https://harun-yahya.github.io/index.html" ><h1><i class="fas fa-external-link-square-alt"></i> LIBRARY</h1></a>
              </div>
   
-  </br>  </br>  </br> </br>  </br>  </br>
-	<div class="seriesNote">
-	<ul><table class="table table-hover">
+
+	
+	<table class="table table-hover">
   <thead>
     <tr>
       <th scope="col">No</th>
@@ -115,6 +115,5 @@ lang: en
     </tr>
   </tbody>
 </table> 
-</ul>
-</div>
+
 
