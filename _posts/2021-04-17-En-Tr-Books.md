@@ -19,7 +19,7 @@ lang: en
  
 <table class="tftable" border="1">
 <tr><th>TÜR</th><th>TARİH</th><th>BAŞLIK</th><th>iNDiR</th><th>KAPSAM</th></tr>
-
+<!--
 <tr><td>PDF</td><td>1999</td><td>English Turkish Dictionary</td><td><a href="https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/ingilizce1/A-B-C-D.pdf" target="_blank">LiNK</a></td><td>A-B-C-D</td>
 
 
@@ -31,7 +31,7 @@ lang: en
 
 
 
-<tr><td>PDF</td><td>1999</td><td>English Turkish Dictionary</td><td><a href="https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/ingilizce1/S-T-U-W-Y-Z.pdf" target="_blank">LiNK</a></td><td>English</td></tr>
+<tr><td>PDF</td><td>1999</td><td>English Turkish Dictionary</td><td><a href="https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/ingilizce1/S-T-U-W-Y-Z.pdf" target="_blank">LiNK</a></td><td>English</td></tr>-->
 
 <tr><td>PDF</td><td>1999</td><td>Mastermind</td><td><a href="https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/ingilizce1/Mastermind.pdf" target="_blank">LiNK</a></td><td>S-T-U-W-Y-Z</td></tr>
 
