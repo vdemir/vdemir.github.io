@@ -27,8 +27,6 @@ img.resize {
 }
 </style>
 
-
-
 {% include dist.html %}
 
  
