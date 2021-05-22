@@ -19,7 +19,7 @@ lang: en
 .tftable tr:hover {background-color:#ffffff;}
 </style>
  
-<table class="tftable" border="1">
+<table class="tftable" border="1"> <tbody>
 <tr><th>CORPUS</th><th>PUBLISHED DATE</th><th>TITLE</th><th>READ</th><th>DESCRIPTION</th></tr>
 
 <tr><td>PDF</td><td>MAY, 2016</td><td>by HARUN YAHYA</td><td><a href="https://harun-yahya.github.io/HELPING-HAND-FOR-REFUGEES.html" target="_blank">A HELPING HAND FOR REFUGEES</a>
