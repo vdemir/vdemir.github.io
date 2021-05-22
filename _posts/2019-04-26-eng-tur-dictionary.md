@@ -6,7 +6,7 @@ tags:   Dictionary
 categories: [Dictionary ]
 comments: false
 published: true
-lang: tr
+lang: tr, en
 ---
  
 <style>
