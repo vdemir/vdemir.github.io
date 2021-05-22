@@ -20,12 +20,12 @@ lang: en
 
 
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <a href="https://harun-yahya.github.io/index.html" ><h1><i class="fas fa-external-link-square-alt"></i> LIBRARY</h1></a>
-             </div>
+<a href="https://harun-yahya.github.io/index.html" ><h1><i class="fas fa-external-link-square-alt"></i> LIBRARY</h1></a>
+</div>
   
 
 	
-	<table class="table table-hover">
+	<table  class="tftable" border="1">
   <thead>
     <tr>
       <th scope="col">No</th>
