@@ -3,7 +3,7 @@ layout: post
 title: Nobel Ödülleri - İktisat Bilimi
 date:   2018-08-12 15:52:00
 tags:   Nobel Ekonomi Bilim
-comments: true
+comments: false
 published: true
 lang: tr
 ---

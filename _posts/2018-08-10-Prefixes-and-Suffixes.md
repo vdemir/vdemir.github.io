@@ -5,7 +5,7 @@ date:   2018-08-10 13:52:00
 excerpt: "Önek ve Sonek"
 tags:   Kelime Telâffuz
 categories: Dil
-comments: true
+comments: false
 published: true
 lang: tr
 ---
