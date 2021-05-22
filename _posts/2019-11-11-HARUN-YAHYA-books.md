@@ -21,8 +21,8 @@ lang: en
 	<ul><table class="table table-hover">
   <thead>
     <tr>
-      <th scope="col">Sıra</th>
-      <th scope="col">Kitap</th>
+      <th scope="col">No</th>
+      <th scope="col">Book</th>
     </tr>
   </thead>
   <tbody> 
@@ -33,7 +33,7 @@ lang: en
     <tr>
       <th scope="row">2</th>
       <td><a href="/A-CALL-FOR-UNITY.html" target="_blank">A CALL FOR UNITY</a></td>
-    </tr> 	
+    </tr>
     <tr>
       <th scope="row">3</th>
       <td><a href="/A-CALL-FOR-A-UNITY.html" target="_blank">A CALL FOR UNIT</a></td>
