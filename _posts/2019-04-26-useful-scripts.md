@@ -6,7 +6,7 @@ excerpt: "Kullanışlı Betikler"
 tags:   Programming 
 categories: Programming
 comments: false
-published: true
+published: false
 lang: tr
 ---
 
