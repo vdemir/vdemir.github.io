@@ -19,9 +19,9 @@ lang: en
 .tftable tr:hover {background-color:#ffffff;}
 </style>
  
-<table class="tftable" border="1"> <tbody>
+<table class="tftable" border="1"> 
 <tr><th>CORPUS</th><th>PUBLISHED DATE</th><th>TITLE</th><th>READ</th><th>DESCRIPTION</th></tr>
-
+<tbody>
 <tr><td><img src="https://harun-yahya.github.io/images/BOOKS/HELPING-HAND-FOR-REFUGEES.jpg" alt="A HELPING HAND FOR REFUGEES" border=3 height=100 width=300></img></td><td>MAY, 2016</td><td>by HARUN YAHYA</td><td><a href="https://harun-yahya.github.io/HELPING-HAND-FOR-REFUGEES.html" target="_blank">A HELPING HAND FOR REFUGEES</a>
 </td><td>Helping refugees purges the human soul of parsimony and selfishness. Therefore, as in the time of our Prophet (saas), those who assist refugees and place material means at their disposal today, by God's leave enjoy a strengthening of faith and maturity of moral values. Because by using all the means at their disposal for God's sake, those who help refugees show that they attach no value to any material things in the life of this world. By making all kinds of sacrifice for the comfort and ease of their brothers in faith, they free themselves of all selfish feelings in their lower selves</td></tr>
 <tr><td>PDF</td><td>2018-2020</td><td>by HARUN YAHYA</td><td><a href="https://harun-yahya.github.io/A-CALL-FOR-UNITY.html" target="_blank">A CALL FOR UNITY</a>
