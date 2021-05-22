@@ -22,8 +22,6 @@ lang: en
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <a href="https://harun-yahya.github.io/index.html" ><h1><i class="fas fa-external-link-square-alt"></i> LIBRARY</h1></a>
              </div>
-  </nav>
-  <!-- End Of Navbar -->
   
   </br>  </br>  </br> </br>  </br>  </br>
 	<div class="seriesNote">
