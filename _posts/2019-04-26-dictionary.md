@@ -24319,47 +24319,6 @@ function searchTable() {
 
 </tbody></table>
 
-<form action="http://www.dictionaryone.com/dic.php" method="post" target="_parent" style="margin-bottom:0;margin-top:0">
-<table align="center" bgColor="#ccccff" border="0" cellPadding="0" cellSpacing="0">
-<tr><td><img style="display:block;border:none;margin:0" src="http://www.dictionaryone.com/g1.gif" width="8" height="8"></td>
-<td></td><td><img style="display:block;border:none;margin:0" src="http://www.dictionaryone.com/g2.gif" width="8" height="8"></td></tr>
-<tr><td></td><td>
-<table bgColor="#ccccff" border="0" cellPadding="0" cellSpacing="0">
-<tr><td align="center" valign="top" width="100%" height="22"><a href="http://www.dictionaryone.com/" style="font-family:Verdana;font-size:17px;color:#778899;font-weight:bold;text-decoration:none">Dictionary</a></td></tr><tr><td align="center">
-<input type="text" style="font-family:arial;font-size:13px;width:127px;font-weight:bold;padding-left:5px" name="word_form" value="">
-</td></tr><tr><td align="center" style="padding-top:3px">
-<input style="font-family:arial;font-size:13px" type="submit" value="Search">
-</td></tr></table>
-</td><td></td></tr>
-<tr><td><img style="display:block;border:none;margin:0" src="http://www.dictionaryone.com/g3.gif" width="8" height="8"></td><td></td>
-<td><img style="display:block;border:none;margin:0" src="http://www.dictionaryone.com/g4.gif" width="8" height="8"></td></tr></table></form>
-
-<!-- 
-ffmpeg -framerate 1/10 -i file%d.jpeg -i input.mp3  -c:a copy  -r 30 -s 720x480 -y test.mp4
-
-ffmpeg -i video.mp4 -i audio.mp3 -codec copy -shortest output.mp4
-
-git clone https://github.com/xroche/httrack.git --recurse
-cd httrack
-./configure && make -j8 && make install DESTDIR=/
-
-*wget -q -O - "http://wordpress.org/latest.tar.gz" | tar -xzf - -C /var/www* -->
- 
-
-
-<!-- toggle mode
-<div>
-   <label class="theme-switch">
-   <input type="checkbox" id="switch-style" data-toggle="toggle">
-   <div class="slider"></div>
-   </label>
- 
-</div> -->
-<!-- toggle  CSS
-<link rel="stylesheet" href="{{ site.baseurl }}/css/toggle.css" type="text/css" > -->
-
-<!-- toggle  jS
-<script defer src="{{ site.baseurl }}/scripts/toggle.js"></script> -->
 
 
  
