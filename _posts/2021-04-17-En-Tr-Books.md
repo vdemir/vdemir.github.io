@@ -59,7 +59,13 @@ lang: en
 
 <tr><td>PDF</td><td>1999</td><td>Masonik E</td><td><a href="https://b-ok.as/book/13218393/ec5731" target="_blank">LiNK</a></td><td>Masonik</td></tr>
 
-<tr><td>PDF</td><td>1999</td><td>Masonik part1</td><td><a href="https://disk.yandex.com.tr/i/oINNHxlF05XhMQ" target="_blank">LiNK</a></td><td>Masonik</td></tr>
+
+ <tr> 
+ <td>Masonların Esrârı - Leo Taxil</td> 
+ <td><a href="//readordownloadbooks.bitbucket.io/viewer/web/viewer.html?file=//readordownloadbooks.bitbucket.io/Leo-Taxil.pdf" target="_blank">LiNK</a></td> 
+ </tr> 
+
+<!--<tr><td>PDF</td><td>1999</td><td>Masonik part1</td><td><a href="https://disk.yandex.com.tr/i/oINNHxlF05XhMQ" target="_blank">LiNK</a></td><td>Masonik</td></tr>
 
 <tr><td>PDF</td><td>1999</td><td>Masonik part2</td><td><a href="https://disk.yandex.com.tr/i/jEPBjN9SbY3-ag" target="_blank">LiNK</a></td><td>Masonik</td></tr>
 
@@ -72,7 +78,7 @@ lang: en
 
 <tr><td>PDF</td><td>1999</td><td>Masonik part4</td><td><a href="https://disk.yandex.com.tr/i/-29ReAYPcZ4T5g" target="_blank">LiNK</a></td><td>Masonik</td></tr>
 
-<tr><td>PDF</td><td>1999</td><td>Masonik part5</td><td><a href="https://disk.yandex.com.tr/i/gZ0BoISvUdVeTA" target="_blank">LiNK</a></td><td>Masonik</td></tr>
+<tr><td>PDF</td><td>1999</td><td>Masonik part5</td><td><a href="https://disk.yandex.com.tr/i/gZ0BoISvUdVeTA" target="_blank">LiNK</a></td><td>Masonik</td></tr>-->
 
 <tr><td>PDF</td><td>1999</td><td>Masonik</td><td><a href="https://disk.yandex.com.tr/i/kC9dJaZJckAulQ" target="_blank">LiNK</a></td><td>Masonik</td></tr>
 
