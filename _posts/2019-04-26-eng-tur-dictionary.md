@@ -19,7 +19,7 @@ table, th, td {
 }
 </style> 
 
-
+<img src="/static/img/en-tr-sozluk.jpg" alt="English-Turkish Dictionary" title="English-Turkish Dictionary" width="460" height="345">
 <table> 
 <thead style='background:#b8b8f8;'> 
  <tr> 
