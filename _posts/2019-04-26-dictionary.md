@@ -5,7 +5,7 @@ date:   2019-04-14 12:00:00
 tags:   Dictionary
 categories: [Dictionary ]
 comments: false
-published: true
+published: false
 lang: tr
 ---
 
