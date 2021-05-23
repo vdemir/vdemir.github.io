@@ -12,9 +12,9 @@ lang: fr
 
 LA MATIERE :L'AUTRE NOM DE L'ILLUSION
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000124.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000124.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000096.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000096.jpg)
 
 A L'ATTENTION DU LECTEUR
 
@@ -36,9 +36,9 @@ peut affecter et troubler le cœur.
 
 **www.harunyahya.tv-www.harunyahya.fr**
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000147.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000147.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000142.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000142.jpg)
 
 A PROPOS DE LAUTEUR
 
@@ -90,7 +90,7 @@ la foi, telles
 
 que l'exis-
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000186.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000186.jpg)
 
 tence d’Allah, Son unicité, l'au-delà, et en exposant les fondations faibles et les idéologies perverses des systèmes irréligieux.
 
@@ -108,11 +108,11 @@ Il convient de garder à l'esprit un point essentiel : la raison des cruautés i
 
 Les livres d'Harun Yahya, qui assument le rôle principal dans cet effort, constitueront par la volonté d’Allah un moyen par lequel les gens atteindront au 21ème siècle la paix, la justice et le bonheur promis dans le Coran.
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000116.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000116.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000087.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000087.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000047.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000047.jpg)
 
 T A B L E D E S
 
@@ -136,7 +136,7 @@ POURQUOI CONNAITRE LA VERITE SUR LA VERITABLE
 
 NATURE DE LA MATIERE EST-IL SI IMPORTANT ? . . . . . .67
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000068.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000068.jpg)
 
 LE TEMPS EST AUSSI UNE PERCEPTION . . . . . . . . . . . . . .88
 
@@ -156,15 +156,15 @@ LA VERITE DE LA MATIERE . . . . . . . . . . . . . . . . . . . . . .146
 
 NOTES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .150
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000094.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000094.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000028.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000028.jpg)
 
 AVANT-PROPOS
 
 Ce qui est expliqué dans ce livre est une vérité essentielle qui a surpris de nombreuses personnes et a changé leur vision de la vie. Cette vérité peut être résumée ainsi : "Tous les événements et objets que nous rencontrons dans notre vie – les bâtiments, les gens, les villes, les voitures, les lieux – en fait, nous ne sommes en contact direct avec aucun de ce que nous voyons, tenons, touchons, sentons, goûtons et entendons. Nous ne sommes en contact direct qu’avec la vision et les perceptions créées dans notre cerveau." La matière existe à l’extérieur de nous, mais nous ne pouvons jamais connaître l’original de cette matière.
 
-On nous apprend dès l'école que ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION et ces sensations existent dans un monde à l’extérieur de notre cerveau, c’est pourquoi nous imaginons que nous voyons et percevons les originaux de ces derniers. Cependant, la réalité est bien différente; nous ne voyons jamais les matériaux qui existent vraiment et nous ne touchons jamais la matière elle-même. En d'autres termes, alors que (tandis que) nous imaginons que nous sommes en contact direc avec la matière à l’extérieur de nous, nous ne voyons ou percevons que leur image (vision) et leur copie créées dans notre cerveau.
+On nous apprend dès l'école que ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION et ces sensations existent dans un monde à l’extérieur de notre cerveau, c’est pourquoi nous imaginons que nous voyons et percevons les originaux de ces derniers. Cependant, la réalité est bien différente; nous ne voyons jamais les matériaux qui existent vraiment et nous ne touchons jamais la matière elle-même. En d'autres termes, alors que (tandis que) nous imaginons que nous sommes en contact direc avec la matière à l’extérieur de nous, nous ne voyons ou percevons que leur image (vision) et leur copie créées dans notre cerveau.
 
 Ceci n'est pas une spéculation philosophique. C'est un fait em-
 
@@ -190,13 +190,13 @@ plique nécessairement de répondre à ces deux
 
 questions ; "Etant donné que tout au long de notre
 
-vie nous sommes en contact direct avec les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION
+vie nous sommes en contact direct avec les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION
 
 qui se produisent dans nos cerveaux, alors qu'est-
 
 ce qui crée ces visions ? Et qu'est-ce qui perçoit ces
 
-images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION dans nos cerveaux alors qu'il n'a pas d'or-
+images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION dans nos cerveaux alors qu'il n'a pas d'or-
 
 gane visuel et les apprécie, ressent de la fébrilité et
 
@@ -210,7 +210,7 @@ sont en ré a lité des vi sions et des sen ti ments for més dans notre cer vea
 
 10
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000138.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000138.jpg)
 
 Ha run Yah ya
 
@@ -256,7 +256,7 @@ En con clu sion, le fait que la ma tière soit une il lu sion fa bri quée par n
 
 Ad nan Ok tar 11
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000025.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000025.jpg)
 
 LA MATIERE EXISTE A L'EXTERIEUR DE NOTRE CORPS,
 
@@ -368,7 +368,7 @@ L’ORIGINAL D’UN LIVRE
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000032.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000032.jpg)
 
 Ha run Yah ya
 
@@ -379,7 +379,7 @@ Lorsque vous regardez par la fenêtre, vous pensez voir une image avec vos yeux,
 
 Pour mieux comprendre ce concept, nous devons saisir comment notre système visuel fonctionne.
 
-L'œil a pour mission de transformer la lumière en signaux électriques grâce aux cellules rétiniennes. Ce signal électrique atteint ensuite le centre de vision dans notre cerveau. Les signaux forment alors l'image de ce que vous voyez quand vous regardez par la fenêtre. En d'autres termes, ce que vous voyez est créé dans votre cerveau. Vous percevez l'image renvoyée par votre cerveau, non celle vue à partir de votre fenêtre. Par exemple, sur l'image à votre droite, la lumière qui vient de l'extérieur est projetée dans les yeux de la personne. Cette lumière est transmise au minuscule centre visuel situé à l'arrière du cerveau, après avoir été transformée en signaux électriques par les cellules oculaires. Ce sont ces signaux électriques qui forment l'image dans le cerveau. En réalité, si nous ouvrons le cerveau, nous pourrions constater qu'il n'existe aucune image. Cependant, une certaine conscience dans notre esprit reçoit les signaux électriques sous forme d'images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION. Le cerveau perçoit alors les signaux électriques sous forme d'images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION, pourtant celui-ci n'a ni œil, ni cellule oculaire, ni rétine. Mais alors, à qui appartient cette conscience dans le cerveau ?
+L'œil a pour mission de transformer la lumière en signaux électriques grâce aux cellules rétiniennes. Ce signal électrique atteint ensuite le centre de vision dans notre cerveau. Les signaux forment alors l'image de ce que vous voyez quand vous regardez par la fenêtre. En d'autres termes, ce que vous voyez est créé dans votre cerveau. Vous percevez l'image renvoyée par votre cerveau, non celle vue à partir de votre fenêtre. Par exemple, sur l'image à votre droite, la lumière qui vient de l'extérieur est projetée dans les yeux de la personne. Cette lumière est transmise au minuscule centre visuel situé à l'arrière du cerveau, après avoir été transformée en signaux électriques par les cellules oculaires. Ce sont ces signaux électriques qui forment l'image dans le cerveau. En réalité, si nous ouvrons le cerveau, nous pourrions constater qu'il n'existe aucune image. Cependant, une certaine conscience dans notre esprit reçoit les signaux électriques sous forme d'images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION. Le cerveau perçoit alors les signaux électriques sous forme d'images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION, pourtant celui-ci n'a ni œil, ni cellule oculaire, ni rétine. Mais alors, à qui appartient cette conscience dans le cerveau ?
 
 On peut se poser la même question à propos du livre que vous êtes en train de lire. La lumière qui arrive à vos yeux est convertie en signaux électriques et atteint votre cerveau, c’est à ce moment précis que la vision de ce livre se forme. En d'autres termes, le livre que vous êtes en train en ce moment de lire n'est pas à l'extérieur, il est en fait à l'intérieur de vous, dans le centre visuel situé à l'arrière de votre cerveau.
 
@@ -387,9 +387,9 @@ Puisque vous ressentez la rigidité du livre dans vos mains, vous pourriez pense
 
 Mais en réalité, vous ne pouvez jamais toucher la vraie nature de ce livre. Même si vous pensez que vous touchez ce livre, c'est votre cerveau qui perçoit les sensations tactiles. Ce livre existe en tant que matière en dehors de votre cerveau. Mais vous confrontez simplement l'image de ce livre à l'intérieur de votre cerveau. Cependant, vous ne devriez pas être leurré par le fait que ce livre a été écrit par un auteur, Ad nan Ok tar 13
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000177.png)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000177.png)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000153.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000153.jpg)
 
 Quelqu'un qui re garde le pay sage à
 
@@ -443,7 +443,7 @@ Nous pouvons donc conclure que tout ce que nous voyons, touchons et entendons n'
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000183.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000183.jpg)
 
 Ha run Yah ya
 
@@ -483,11 +483,11 @@ Observons main te nant nos or ga nes sen so riels et la ma nière dont nous per 
 
 Ad nan Ok tar 15
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000185.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000185.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000075.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000075.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000090.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000090.jpg)
 
 Mouvement
 
@@ -507,7 +507,7 @@ Goût
 
 Odorat
 
-Nous vivons notre vie entière au sein de notre cerveau. Les gens que nous voyons, les fleurs que nous sentons, la musique que nous écoutons, les fruits que nous savourons, l’humidité sur nos mains… Nous savons les formes (versions) de tout ceci présentes dans notre cerveau. En réalité, ni les couleurs, ni les sons, ni les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION existent dans notre cerveau. Les seules choses présentes dans le cerveau sont les signaux électriques. Cela signifie que nous vivons dans un monde formé de signaux électriques dans notre cerveau. Ce n'est ni une option, ni une hypothèse, mais l’explication scientifique de la manière dont on perçoit le monde.
+Nous vivons notre vie entière au sein de notre cerveau. Les gens que nous voyons, les fleurs que nous sentons, la musique que nous écoutons, les fruits que nous savourons, l’humidité sur nos mains… Nous savons les formes (versions) de tout ceci présentes dans notre cerveau. En réalité, ni les couleurs, ni les sons, ni les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION existent dans notre cerveau. Les seules choses présentes dans le cerveau sont les signaux électriques. Cela signifie que nous vivons dans un monde formé de signaux électriques dans notre cerveau. Ce n'est ni une option, ni une hypothèse, mais l’explication scientifique de la manière dont on perçoit le monde.
 
 Ce ne sont pas nos yeux qui voient, mais c’est plu tôt notre cer veau En rai son de l'é du ca tion que nous avons reçue tout au long de notre vie, nous ima gi nons que nous voyons le monde avec nos yeux. Finalement, nous ar ri vons gé né ra le ment à la con clu sion sui vante ; nos yeux sont une fe nê tre sur le monde. Mais, la science nous prouve que nous ne voyons pas avec nos yeux.
 
@@ -519,7 +519,7 @@ for ma tion que nous avons ap prise au col lège, il est alors plus fa cile de c
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000018.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000018.jpg)
 
 Ha run Yah ya
 
@@ -539,7 +539,7 @@ Nous re ce vons de mi nus cu les ima ges dé for mées et in ver sées dans les 
 
 Ad nan Ok tar 17
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000002.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000002.jpg)
 
 Une per sonne qui ob serve un en fant en train de jouer avec une balle ne le voit pas avec ses yeux. Les yeux sont seu le ment res pon sa bles d’a che mi ner la lu mière à l’ar rière des yeux. Lorsque la lu mière at teint la ré tine, une vi -
 
@@ -549,13 +549,13 @@ tie en cou rant élec tri que, qui est en suite trans mit vers le cen tre de la 
 
 Toutes ces constatations nous mènent à la même conclusion. Au cours de notre vie, nous avons toujours supposé que le monde existait en dehors de nous. Cependant, le monde est à l'intérieur de nous. Bien que nous croyions que le monde se trouve à l'extérieur de nous, il se situe dans la plus petite partie de notre cerveau. Par exemple, le dirigeant d'une société peut considérer qu’il est en direct contact avec l’existence extérieure de l'im-meuble de son entreprise, sa voiture dans le parking, sa maison en bord de mer, son yacht et toutes les personnes qui travaillent pour lui, ses avocats, sa famille et ses amis, tous ces éléments sont à l'extérieur de son corps.
 
-Cependant, il confronte seulement les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION de toutes ces choses qui se forment dans son crâne, dans une partie minuscule de son cerveau. Il ne sait jamais les originaux des matières dans le monde extérieur.
+Cependant, il confronte seulement les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION de toutes ces choses qui se forment dans son crâne, dans une partie minuscule de son cerveau. Il ne sait jamais les originaux des matières dans le monde extérieur.
 
 Il n'est pas cons cient de cette ré a lité et même s'il la con nais sait, il n'y pen se rait pas. S'il se tient fiè re ment près de sa voi ture de luxe der nier cri, et qu'un grain de pous sière ou une par ti cule por tée par le vent pé nè tre dans son œil, il va peut-être se frot ter dou ce ment l'œil qui le dé mange, et en le rou vrant cons ta ter que "les cho ses ma té -
 
 riel les" sont à l'en vers ou se sont dé pla cées sur les côtés. Il va alors se ren dre compte que les cho ses ma té riel les vues dans son en vi ron ne ment ne sont pas sta bles.
 
-Ce qui est démontré ici, c’est que chaque personne durant sa vie est spectateur de tout ce qui lui arrive à l'intérieur de son cerveau et à aucun moment ne peut être en contact direct avec les différents objets matériels qui soi-disant créent son expérience. Les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION que nous voyons dans notre cerveau sont des copies des objets qui existent à l'extérieur de nous. Nous ne pouvons jamais savoir les originaux de ces copies.
+Ce qui est démontré ici, c’est que chaque personne durant sa vie est spectateur de tout ce qui lui arrive à l'intérieur de son cerveau et à aucun moment ne peut être en contact direct avec les différents objets matériels qui soi-disant créent son expérience. Les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION que nous voyons dans notre cerveau sont des copies des objets qui existent à l'extérieur de nous. Nous ne pouvons jamais savoir les originaux de ces copies.
 
 Bien que ma té ria liste, mé de cin et jour na liste al le mand Hoimar Von Ditfurth re con naît ce fait scien ti fi que -
 
@@ -571,11 +571,11 @@ Par exem ple, lors que vous jetez un coup d'œil à la pièce où vous êtes ass
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000073.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000073.jpg)
 
 TOUT CE QUE NOUS VOYONS ET POSSEDONS SONT EN
 
-REALITE DES images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION FORMEES DANS NOTRE CERVEAU
+REALITE DES images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION FORMEES DANS NOTRE CERVEAU
 
 Lorsqu'une per sonne se frotte l’œil, elle voit l’i mage de sa voi ture qui monte ou qui des cend. C’est la preuve que l’ob ser va teur ne voit pas la voi ture ré elle, mais seu le ment son image dans son cer veau.
 
@@ -589,7 +589,7 @@ Imaginez-vous de vant un bar be cue al lumé. Vous pou vez vous as seoir et con 
 
 LES COULEURS N'EXISTENT PAS ; SEULE L’ENERGIE EXISTE
 
-Bien que tout ce que nous expériençons est une totalité (somme) des perceptions qui se forment à l’intérieur de notre cerveau, certains gens prétendent que les originaux des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION qu’ils voient les originaux de ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION qui existent en dehors de notre cerveau. Ils ne seront cependant jamais capables de prouver leurs dires. Comme on a mentionné avant, la lumière, les sons et les couleurs n'existent pas en dehors de notre esprit. La lumière existe uniquement à l’extérieur sous forme d’ondes d’énergie et de paquets d’énergie. Nous ne devenons conscients de la lumière que lorsqu'elle atteint la rétine. De même pour le son. Les sonorités sont des ondes d’énergie. Le son se forme quand ces ondes d’énergie at-teignent nos oreilles et sont ensuite transmises à notre cerveau. Il n'y a pas de couleurs non plus à l’extérieur. Lorsque nous disons cela, certains s’imaginent probablement d’une vision en noir, blanc et gris, alors que même le noir, le blanc et le gris représentent des couleurs. A l’extérieur de notre cerveau, ces couleurs n'existent pas non plus. Des ondes d’énergie de puissance et de force différentes existent. Ces ondes d’énergie sont ensuite converties en couleurs à travers les cellules dans l’œil et le cerveau.
+Bien que tout ce que nous expériençons est une totalité (somme) des perceptions qui se forment à l’intérieur de notre cerveau, certains gens prétendent que les originaux des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION qu’ils voient les originaux de ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION qui existent en dehors de notre cerveau. Ils ne seront cependant jamais capables de prouver leurs dires. Comme on a mentionné avant, la lumière, les sons et les couleurs n'existent pas en dehors de notre esprit. La lumière existe uniquement à l’extérieur sous forme d’ondes d’énergie et de paquets d’énergie. Nous ne devenons conscients de la lumière que lorsqu'elle atteint la rétine. De même pour le son. Les sonorités sont des ondes d’énergie. Le son se forme quand ces ondes d’énergie at-teignent nos oreilles et sont ensuite transmises à notre cerveau. Il n'y a pas de couleurs non plus à l’extérieur. Lorsque nous disons cela, certains s’imaginent probablement d’une vision en noir, blanc et gris, alors que même le noir, le blanc et le gris représentent des couleurs. A l’extérieur de notre cerveau, ces couleurs n'existent pas non plus. Des ondes d’énergie de puissance et de force différentes existent. Ces ondes d’énergie sont ensuite converties en couleurs à travers les cellules dans l’œil et le cerveau.
 
 La physique quantique est une autre branche de la science qui montre que les propos de ceux qui disent qu’ils voient l’original de la matière ne sont pas justifiés. La découverte la plus importante révélée par la physique quantique et qui laisse les matérialistes sans voix est le fait que la matière est vide à 99,9999999%. Au cours de ses études en physique et psychologie, Peter Russell fait souvent des commentaires sur la conscience humaine. Dans un essai adapté de son livre De la science à Allah (From Science to God), Russell explique la vérité de cette manière :
 
@@ -609,9 +609,9 @@ En réalité, Allah crée la matière à travers une vision dotée de ces qualit
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000118.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000118.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000040.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000040.jpg)
 
 Ha run Yah ya
 
@@ -627,7 +627,7 @@ Alors que nous par lons des pro grès de la science en ma tière de vi sion, nou
 
 mière que nous re ce vons de l'ex té rieur pro vo que des mou ve ments des cel lu les ocu lai res, et ils for ment une trame à par tir de la quelle notre ex pé rience vi suelle ap pa raît. Cependant, il y a un autre point que nous de vons abor der : La lu mière, telle que nous la per ce vons, ne ré side pas à l'ex té rieur de notre cer -
 
-"DES COPIES D’images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION" EXTREMEMENT REALISTES SE FORMENT
+"DES COPIES D’images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION" EXTREMEMENT REALISTES SE FORMENT
 
 DANS LE CERVEAU
 
@@ -731,7 +731,7 @@ l’âme à la quelle Allah a in suf flé Son es prit.
 
 Ad nan Ok tar 21
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000165.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000165.jpg)
 
 L’intérieur du cer veau
 
@@ -763,7 +763,7 @@ Depuis notre nais sance, nous vi vons dans un en vi ron ne ment et un monde tout
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000164.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000164.jpg)
 
 Ha run Yah ya
 
@@ -863,11 +863,11 @@ trans forme cette éner gie en cou leurs.
 
 Ad nan Ok tar 23
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000060.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000060.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000005.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000005.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000071.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000071.jpg)
 
 Sur l’i mage ci-des sus, la zone verte sur la gau che sem ble plus som bre que la zone verte sur la droite. En fait, les tons de ces deux verts sont exac te ment les mêmes. Les cou leurs rouge et orange à côté des ban des ver tes nous font croire que les deux cou leurs ver tes ont des tons dif fé rents. Cela sou li gne une fois de plus le fait que nous ne voyons pas le monde ma té riel ori gi -
 
@@ -923,7 +923,7 @@ dif fé rents.
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000166.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000166.jpg)
 
 Ha run Yah ya
 
@@ -955,7 +955,7 @@ lant du bruis se ment des feuilles au va carme des avions à ré ac tion. Lorsqu
 
 Ad nan Ok tar 25
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000144.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000144.jpg)
 
 TOUS LES SONS SONT FORMES DANS NOTRE CERVEAU
 
@@ -965,7 +965,7 @@ IL N'Y A PAS DE SONS DANS LE MONDE EXTERIEUR
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000180.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000180.jpg)
 
 Ha run Yah ya
 
@@ -995,7 +995,7 @@ Ceux-ci sont alors per çus sous forme de par fum par le cer veau. Ainsi, tou te
 
 pré tons comme bon nes ou mau vai ses ne sont que des per cep tions pro dui tes dans le cer veau après que Ad nan Ok tar 27
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000137.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000137.jpg)
 
 LES SENTEURS QUE NOUS PERCEVONS DANS L'OBSCURITE
 
@@ -1015,9 +1015,9 @@ riel. Bien que cha cun des sens sem ble se pro duire avec dif fé rents ef fets 
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000030.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000030.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000103.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000103.jpg)
 
 Ha run Yah ya
 
@@ -1091,7 +1091,7 @@ C’est là un grand miracle d’Allah.
 
 Ad nan Ok tar 29
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000008.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000008.jpg)
 
 TOUTES LES ODEURS SE FORMENT AU SEIN DE NOTRE CERVEAU
 
@@ -1099,11 +1099,11 @@ TOUTES LES ODEURS SE FORMENT AU SEIN DE NOTRE CERVEAU
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000007.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000007.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000050.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000050.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000098.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000098.jpg)
 
 Ha run Yah ya
 
@@ -1217,7 +1217,7 @@ tant que goûts. Le goût que vous res sen tez lors que vous
 
 Ad nan Ok tar 31
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000079.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000079.jpg)
 
 man gez un gâ teau, un ya ourt, un ci tron ou un fruit, est, en ré a lité, un pro ces sus qui va in ter pré ter les si gnaux élec tri ques dans le cer veau.
 
@@ -1271,7 +1271,7 @@ Cette personne visualise l'image de la tasse de thé dans son esprit, en imagine
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000109.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000109.jpg)
 
 Harun Yahya
 
@@ -1279,7 +1279,7 @@ TOUS LES GOUTS PRENNENT FORME DANS NOTRE CERVEAU
 
 Adnan Oktar 33
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000112.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000112.jpg)
 
 mises par nos sens à notre cerveau. Cette vérité essentielle, qui
 
@@ -1329,7 +1329,7 @@ Des que nous rappelons un objet, un visage ou une scène,
 
 nous n’obtenons pas sa reproduction exacte mais plutôt une
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000041.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000041.jpg)
 
 Ha run Yah ya
 
@@ -1339,7 +1339,7 @@ EGALEMENT DANS LE CERVEAU
 
 Adnan Oktar 35
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000061.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000061.jpg)
 
 Le fait que vous sentez le livre
 
@@ -1421,7 +1421,7 @@ ques à l'in té rieur du cer veau.
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000088.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000088.jpg)
 
 Ha run Yah ya
 
@@ -1429,9 +1429,9 @@ Ha run Yah ya
 
 \* De la même ma nière, per sonne n'a pu goû ter l'o ri gi nal de la men the. Le goût que l'on res sent comme de la men the n'est qu'une per cep tion qui se forme dans le cer veau. C'est parce que la per sonne ne peut ni tou cher, ni voir, ni sen tir, ni goû ter l'o ri gi nal de la men the.
 
-Pour finir, au cours de nos vies, nous vivons avec des perceptions, les copies des originaux qui nous sont présentées. Cependant, ces copies sont si réalistes que nous ne nous réalisons jamais qu'elles ne sont que des copies reproduites dans notre cerveau. Par exemple, levez la tête et regardez autour de vous. Vous voyez que vous vous trouvez dans une pièce meublée. Lorsque vous touchez les accoudoirs du fauteuil dans lequel vous êtes assis, vous sentez la dureté du fauteuil comme s'il s'agissait vraiment de l'original. La réalité des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION qui vous sont présentées et leur extraordinaire réalisme suffisent amplement à vous convaincre, vous et des milliards d'autres personnes que ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION sont "les originaux des matières extérieures".
+Pour finir, au cours de nos vies, nous vivons avec des perceptions, les copies des originaux qui nous sont présentées. Cependant, ces copies sont si réalistes que nous ne nous réalisons jamais qu'elles ne sont que des copies reproduites dans notre cerveau. Par exemple, levez la tête et regardez autour de vous. Vous voyez que vous vous trouvez dans une pièce meublée. Lorsque vous touchez les accoudoirs du fauteuil dans lequel vous êtes assis, vous sentez la dureté du fauteuil comme s'il s'agissait vraiment de l'original. La réalité des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION qui vous sont présentées et leur extraordinaire réalisme suffisent amplement à vous convaincre, vous et des milliards d'autres personnes que ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION sont "les originaux des matières extérieures".
 
-Bien que la plupart des personnes aient appris que les perceptions que nous avons de ce monde se forment dans notre cerveau en cours de biologie au lycée, ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION sont si réalistes qu'elles ont du mal à croire qu'elles sont en contact direct seulement avec des copies dans leur cerveau. Pour la simple et bonne raison que la restitution de chaque image dans notre cerveau est
+Bien que la plupart des personnes aient appris que les perceptions que nous avons de ce monde se forment dans notre cerveau en cours de biologie au lycée, ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION sont si réalistes qu'elles ont du mal à croire qu'elles sont en contact direct seulement avec des copies dans leur cerveau. Pour la simple et bonne raison que la restitution de chaque image dans notre cerveau est
 
 d'un réalisme et d'une parfaite précision.
 
@@ -1461,7 +1461,7 @@ n'y a rien qui puisse le prouver.
 
 Le spectateurn’ a affaire qu’aux
 
-images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION formées dans son
+images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION formées dans son
 
 cerveau. Par exemple, une per-
 
@@ -1505,7 +1505,7 @@ com posé de li pi des et de pro té i nes ?
 
 Ad nan Ok tar 37
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000194.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000194.jpg)
 
 VOUS NE POURREZ JAMAIS SORTIR DE L’ESPACE
 
@@ -1529,7 +1529,7 @@ Imaginez une rue bondée, des magasins, des bâtiments, des voitures, un concert
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000190.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000190.jpg)
 
 Ha run Yah ya
 
@@ -1537,13 +1537,13 @@ cette image qu'ils perçoivent comme réelle n'est pas l'original existant dans 
 
 Les éléments qui rendent l'image si réaliste sont sa perspective, sa profondeur, sa couleur, ainsi que son ombre et sa lumière. Ces éléments sont employés avec un tel art qu'ils vont former dans notre cerveau une image tridimensionnelle, aux couleurs vives et éclatantes. Lorsqu'une infinité de détails s'ajoute à cette image, c’est tout un nouveau monde qui se révèle à nous, et sans même y réfléchir, nous sup-posons toute notre vie que ce monde est réel, bien qu'il ne soit qu'une interprétation sensorielle dans notre esprit.
 
-Maintenant imaginez que vous conduisez une voiture. Le volant se trouve devant vous à bout de bras et à 100 m environ devant se situent des feux. La voiture devant est à 10 m environ, et à l'horizon se profilent des montagnes, à plusieurs kilomètres de distance selon vous. Mais, toutes ces notions sont erronées. Ni la voiture, ni les montagnes ne sont aussi éloignées que vous le supposez. En fait, la totalité de l'image, comme sur une pellicule de film, existe en deux dimensions, sur une seule surface à l'intérieur du cerveau. Les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION reflétées sur l'œil sont bidimensionnelles, comme celles sur un écran de télévision. Dans ces conditions, comment la perception de profondeur et de distance peut-elle se former ?
+Maintenant imaginez que vous conduisez une voiture. Le volant se trouve devant vous à bout de bras et à 100 m environ devant se situent des feux. La voiture devant est à 10 m environ, et à l'horizon se profilent des montagnes, à plusieurs kilomètres de distance selon vous. Mais, toutes ces notions sont erronées. Ni la voiture, ni les montagnes ne sont aussi éloignées que vous le supposez. En fait, la totalité de l'image, comme sur une pellicule de film, existe en deux dimensions, sur une seule surface à l'intérieur du cerveau. Les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION reflétées sur l'œil sont bidimensionnelles, comme celles sur un écran de télévision. Dans ces conditions, comment la perception de profondeur et de distance peut-elle se former ?
 
 Lorsque l'on parle de distance, il s'agit de vision tridimension-
 
 nelle. Ce qui permet de percevoir la distance et la profondeur
 
-dans les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION, ce sont les effets de perspectives, les ombres et le mouvement. Cette forme de perception appelée perception spatiale par la science de la vision est créée par des systèmes haute-
+dans les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION, ce sont les effets de perspectives, les ombres et le mouvement. Cette forme de perception appelée perception spatiale par la science de la vision est créée par des systèmes haute-
 
 ment complexes. Ce système peut être simplement expliqué de
 
@@ -1551,13 +1551,13 @@ cette façon : la vision qui atteint l'œil est bidimensionnelle. C'est-à-dire,
 
 La profondeur et la distance résultent du fait que les yeux voient
 
-deux images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION différentes en même temps. L'image qui est perçue
+deux images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION différentes en même temps. L'image qui est perçue
 
 par un œil diffère de celle qui est perçue par l'autre en termes
 
 d'angle et de lumière. Le cerveau assemble ces deux différentes
 
-images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION pour former la profondeur et la distance.
+images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION pour former la profondeur et la distance.
 
 Pour mieux comprendre ceci, nous pouvons nous livrer à une
 
@@ -1575,7 +1575,7 @@ les yeux et tout en continuant à vous concentrer sur votre index
 
 droit, portez votre index gauche au plus prés de votre œil. Vous
 
-noterez que votre doigt le plus proche a créé deux images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION. En effet
+noterez que votre doigt le plus proche a créé deux images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION. En effet
 
 maintenant il s'est formé une autre profondeur au niveau du doigt
 
@@ -1589,7 +1589,7 @@ nombreuses différences dans la vision perçue par chaque œil.
 
 Pour réaliser un film en trois dimensions, on utilise cette tech-
 
-nique ; les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION prises à partir de deux angles différents sont
+nique ; les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION prises à partir de deux angles différents sont
 
 placées sur le même écran. Le spectateur porte des lunettes spé-
 
@@ -1611,7 +1611,7 @@ unique, comme sur une photographie.
 
 Ad nan Ok tar 39
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000136.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000136.jpg)
 
 TOUS LES OBJETS QUE VOUS PERCEVEZ COMME ELOIGNES
 
@@ -1621,7 +1621,7 @@ SONT EN REALITE DANS VOTRE CERVEAU
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000192.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000192.jpg)
 
 Ha run Yah ya
 
@@ -1649,7 +1649,7 @@ dons un paysage, les arbres au loin semblent petits, alors que ceux qui sont pro
 
 La méthode utilisée par les artistes peintres dans leurs travaux
 
-s'applique également pour les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION qui se forment dans notre
+s'applique également pour les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION qui se forment dans notre
 
 cerveau. Profondeur, lumière et ombre sont créées de la même façon
 
@@ -1659,11 +1659,11 @@ Nous réagissons comme si la profondeur de champ et la distance
 
 étaient réelles, comme si une troisième dimension existait.
 
-Cependant, toutes les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION sont comme les petits carrés qui com-
+Cependant, toutes les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION sont comme les petits carrés qui com-
 
 posent une bobine de film. Le cortex visuel dans le cerveau est ex-
 
-trêmement petit ! Les distances, les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION comme les maisons au
+trêmement petit ! Les distances, les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION comme les maisons au
 
 loin, les étoiles, la lune, le soleil, les avions et les oiseaux dans le ciel -
 
@@ -1701,11 +1701,11 @@ le cer veau.
 
 Ad nan Ok tar 41
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000163.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000163.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000016.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000016.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000119.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000119.jpg)
 
 L’un des élé ments si gni fi ca tifs qui con tri bue au sen ti ment de pro fon deur est la dif fé ren tia tion de tis sus. Les tis sus les plus pro ches sont per çus en dé tails tan dis que les plus éloi gnés ap pa rais sent moins clai re ment. L’image sur le côté mon tre ainsi un tissu en trois di men sions créé sur un pa pier avec l’im pres sion de pro fon deur qui sem ble gau fré à cause de l’u sage de cou -
 
@@ -1745,7 +1745,7 @@ est-elle en vous ?
 
 Une des raisons qui fait que nous ne com-
 
-prenons pas que les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION vues sont en fait
+prenons pas que les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION vues sont en fait
 
 perçues par notre cerveau, c’est que nous
 
@@ -1779,7 +1779,7 @@ image est également produite par le même sys-
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000101.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000101.jpg)
 
 CREER UNE IMAGE AVEC UNE PROFONDEUR SUR
 
@@ -1789,17 +1789,17 @@ Ces ima ges sont pour vues d’une pro fon deur tout à fait ré a liste. Une vi
 
 tine est bi di men sion nelle. Cependant, les ima ges qui at tei gnent cha cun de nos yeux de vien nent une seule image, de sorte que notre cer veau per çoit une image tri di men sion nelle en pro fon deur.
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000146.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000146.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000132.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000132.jpg)
 
 tème de perceptions. Lorsque vous mettez votre main sur votre jambe, vous éprouvez une sensation kinesthésique dans le cerveau. Ceci signifie que vous voyez votre corps dans le cerveau, et vous percevez dans votre cerveau votre corps par le toucher.
 
 Si votre corps est une image perçue par votre cerveau, est-ce que la pièce est aussi à l'intérieur de votre cerveau ou êtes-vous dans la pièce ? La réponse évidente à ceci est "La pièce est à l'intérieur de vous." Et vous voyez l'image de votre corps à l'intérieur de cette pièce, elle-même dans le cerveau.
 
-Expliquons ceci à l'aide d'un exemple. Vous appelez l'ascenseur. Lorsqu'il arrive, votre voisin qui vit à l'étage supérieur, est à l'intérieur. Vous entrez dans l'ascenseur. En réalité, êtes-vous dans l'ascenseur ou l'ascenseur est-il à l'intérieur de vous ? La réponse est la suivante : l'ascenseur, les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION de votre voisin et de votre corps se forment à l'intérieur de votre cerveau.
+Expliquons ceci à l'aide d'un exemple. Vous appelez l'ascenseur. Lorsqu'il arrive, votre voisin qui vit à l'étage supérieur, est à l'intérieur. Vous entrez dans l'ascenseur. En réalité, êtes-vous dans l'ascenseur ou l'ascenseur est-il à l'intérieur de vous ? La réponse est la suivante : l'ascenseur, les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION de votre voisin et de votre corps se forment à l'intérieur de votre cerveau.
 
-En conclusion, nous ne sommes pas à l'"intérieur". Tout est à l'intérieur de nous ; tout se passe dans le cerveau. Le soleil, la lune, les étoiles ou un avion dans le ciel à des milliers de kilomètres ne peuvent pas changer cette vérité. Le soleil et la lune, comme le livre que vous tenez ne sont que des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION copies qui se forment dans le minuscule centre visuel situé dans le cerveau.
+En conclusion, nous ne sommes pas à l'"intérieur". Tout est à l'intérieur de nous ; tout se passe dans le cerveau. Le soleil, la lune, les étoiles ou un avion dans le ciel à des milliers de kilomètres ne peuvent pas changer cette vérité. Le soleil et la lune, comme le livre que vous tenez ne sont que des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION copies qui se forment dans le minuscule centre visuel situé dans le cerveau.
 
 Des sens produits artificiellement
 
@@ -1811,9 +1811,9 @@ trait les pul sions – res sen ties comme un en sem ble or donné de pi co te m
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000173.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000173.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000131.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000131.jpg)
 
 Ha run Yah ya
 
@@ -1877,11 +1877,11 @@ pour mieux se pro té ger.
 
 Ad nan Ok tar 45
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000176.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000176.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000044.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000044.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000188.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000188.jpg)
 
 der rière un mur. En outre, ses vi sions res sem blent tel le ment à la ré a lité qu'elle est prise de peur et de pa -
 
@@ -1919,7 +1919,7 @@ qu'il ressent dans son rêve.
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000162.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000162.jpg)
 
 Harun Yahya
 
@@ -1941,7 +1941,7 @@ Alors, com ment prou ver que notre vie ré elle n'est pas un rêve ? Disposons-n
 
 Adnan Oktar 47
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000024.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000024.jpg)
 
 Une per sonne en plein som meil dans son lit con for ta ble
 
@@ -1971,7 +1971,7 @@ En di sant : "Malheur à nous ! Qui nous a res sus ci tés de là où nous dor m
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000172.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000172.jpg)
 
 Quelqu’un peut rêver qu'on est en train de se disputer avec
 
@@ -2033,7 +2033,7 @@ sûr, n'était qu'un rêve. Et s'il était à cet instant précis dans
 
 un rêve différent, dont il se réveillera bientôt ?
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000001.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000001.jpg)
 
 D’autres examples des mondes montrés superficiellement
 
@@ -2083,7 +2083,7 @@ un en vi ron ne ment très ré a liste, mais né -
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000034.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000034.jpg)
 
 Ha run Yah ya
 
@@ -2111,7 +2111,7 @@ fé rents et mar chent dans une rue noire de monde. Lorsque le héros, in flu en
 
 teur se fige. C’est à ce mo ment-là que cette per sonne prend cons cience que le monde dans le quel il croit être une ré a lité n'est en fait qu'une sim ple image.
 
-En conclusion, il est possible en principe de générer des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION de synthèse, autrement dit, un monde virtuel à l'aide de stimuli artificiels. De ce fait, nous ne pouvons pas affirmer que ce que nous voyons dans "l'image de la vie" est sûrement "l'original". Nos sensations pourraient bien avoir une origine très différente.
+En conclusion, il est possible en principe de générer des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION de synthèse, autrement dit, un monde virtuel à l'aide de stimuli artificiels. De ce fait, nous ne pouvons pas affirmer que ce que nous voyons dans "l'image de la vie" est sûrement "l'original". Nos sensations pourraient bien avoir une origine très différente.
 
 La vé rité fon da men tale ré vé lée par l'hyp nose
 
@@ -2123,7 +2123,7 @@ son nes et dif fé ren tes scè nes, elle en tend, sent et goûte une mul ti tud
 
 fon des, on peut ob ser ver cer tains types de symp tô mes chez la per sonne hyp no ti sée, telle l'aug men ta tion Ad nan Ok tar 51
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000012.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000012.jpg)
 
 LES MONDES FORMES DANS
 
@@ -2161,7 +2161,7 @@ dans des en vi ron ne -
 
 ments vir tuels.
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000077.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000077.jpg)
 
 Cette tech no lo gie
 
@@ -2183,7 +2183,7 @@ at ter rir grâce à cet
 
 équi pe ment.
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000169.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000169.jpg)
 
 OPERATION VIRTUELLE DANS UNE SALLE D’OPERATION VIRTUELLE
 
@@ -2223,9 +2223,9 @@ tions dans un en vi ron ne ment
 
 vir tuel sur des pa tients vir tuels.
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000120.png)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000120.png)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000134.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000134.jpg)
 
 LE SUJET DE LA REALITE DE LA MATIERE DANS LES FILMS
 
@@ -2265,7 +2265,7 @@ Soudainement il se re trouve pro pulsé en 1937. Les voi tu res, les édi fi ces
 
 Plus tard, ce personnage se rend compte que ce qu'il a vécu n'était qu'un programme informatique et qu’il n’a été en contact direct qu’avec une illusion des voitures, des bâtiments et même de ses amis qu’il croyait être réels. En réalité, sa vie appartient à une année plus ultérieure que l’an 2000 et il observe toute sa vie à travers un simulateur. Le film tente d’illustrer qu'il est difficile de distinguer la vie supposée réelle de l’imagination.
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000104.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000104.jpg)
 
 1
 
@@ -2303,7 +2303,7 @@ Ce per son nage re fuse d’ad met tre la vé rité car ce qu'il voit est trop p
 
 mande : "Ce n'est pas vrai ?". La ré ponse qu'il re çoit : "Qu'y a-t-il de réel ? Comment dé fi nis-tu le réel ? Si tu par les de tes sens, ce que tu res sens, goû tes, sens ou vois, alors tout ce dont tu par les n'est que si gnaux élec tri ques in ter pré tés par ton cer veau."
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000168.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000168.jpg)
 
 15
 
@@ -2341,7 +2341,7 @@ Une autre scène du film The Matrix. Le per son nage de la scène sait que sa vi
 
 ti que. Il men tionne que le bœuf qu'il mange n'existe pas en ré a lité, mais qu'il en ap pré cie tout de même le goût.
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000133.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000133.jpg)
 
 Dans le film Total re call, Arnold Schwarzenegger com prend que la vie qu'il croit être ré elle n'est en fait qu'un pro gramme té lé -
 
@@ -2373,9 +2373,9 @@ lante. Au bout d'un mo ment, une clo que (telle une brû lure au se cond degré)
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000148.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000148.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000081.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000081.jpg)
 
 Ha run Yah ya
 
@@ -2431,9 +2431,9 @@ sion ?
 
 Ad nan Ok tar 59
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000067.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000067.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000152.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000152.jpg)
 
 Certaines ma la dies de la peau peu vent être soi gnées grâce à
 
@@ -2491,7 +2491,7 @@ Il est ten tant de dire ce qui doit être évité, de dire que les yeux pro dui 
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000003.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000003.jpg)
 
 DANS LE SILENCE ABSOLU DE VOTRE CERVEAU,
 
@@ -2567,7 +2567,7 @@ Un matérialiste sera dans l'incapacité de fournir une réponse satisfaisante �
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000058.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000058.jpg)
 
 Ha run Yah ya
 
@@ -2643,9 +2643,9 @@ sée, les pro ces sus de prise de dé ci sion, le bon heur, l'ex ci ta tion, le 
 
 liste, Francis Crick ré sume cette af fir ma tion ma té ria liste comme suit : Ad nan Ok tar 63
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000066.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000066.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000086.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000086.jpg)
 
 Vos joies et vos dou leurs, vos mé moi res et vos am bi tions, votre sens de l'i den tité per son nelle et votre vo lonté de li berté, ne sont en fait pas plus que le com por te ment d'un vaste en sem ble de cel lu les ner veu ses et de leurs mo -
 
@@ -2739,7 +2739,7 @@ Lashley attire l'attention à ce conflit dans une seule question. Cependant, il 
 
 \- Que veut-dire "la conscience est dans les neurons de nos cerveaux" ? Les neurons comme les autres cellules, sont faits de membrane cellulaire, mitochondrie, ADN et ribosomes. Donc selon les matérialistes oû est la conscience dans ces choses ? S'ils supposent que la conscience est le résultat des réactions Ad nan Ok tar 65
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000187.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000187.jpg)
 
 chimiques entre les neurons et les signaux élec-
 
@@ -2799,7 +2799,7 @@ La réalité est que, l’être humain est une créature qui possède un esprit 
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000171.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000171.jpg)
 
 Ha run Yah ya
 
@@ -2807,7 +2807,7 @@ POURQUOI CONNAITRE LA VERITABLE NATURE DE LA
 
 MATIERE EST-IL SI IMPORTANT ?
 
-Le fait que ce que les personnes voient, entendent, touchent, sentent et imaginent être des entités absolues ne se compose en réalité que de perceptions, et que nous ne sommes en contact direct qu’avec les copies des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION est tout aussi surprenant que le fait de constater que l'univers a été créé à partir de rien, que l'existence est éternelle et qu'après la mort nous connaîtrons à nouveau la vie pour l'éternité. Allah crée et façonne l'univers à chaque instant avec toute la précision et les détails qui le caractérisent. D'ailleurs, cette création est si parfaite que de nombreuses personnes qui ont vécu sur la terre jusqu'ici n'ont pas compris que l'univers et tout ce qu'elles voient ne sont qu'illusion, et que ceci n'a aucun lien avec la véritable nature de la matière.
+Le fait que ce que les personnes voient, entendent, touchent, sentent et imaginent être des entités absolues ne se compose en réalité que de perceptions, et que nous ne sommes en contact direct qu’avec les copies des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION est tout aussi surprenant que le fait de constater que l'univers a été créé à partir de rien, que l'existence est éternelle et qu'après la mort nous connaîtrons à nouveau la vie pour l'éternité. Allah crée et façonne l'univers à chaque instant avec toute la précision et les détails qui le caractérisent. D'ailleurs, cette création est si parfaite que de nombreuses personnes qui ont vécu sur la terre jusqu'ici n'ont pas compris que l'univers et tout ce qu'elles voient ne sont qu'illusion, et que ceci n'a aucun lien avec la véritable nature de la matière.
 
 En ce 21ème siè cle, cette vé rité est de ve nue d'au tant plus évi dente que les dé cou ver tes scien ti fi ques ont dé fi ni ti ve ment éta bli le fait que nous ne som mes en ré a lité ja mais en con tact di rect avec la ma tière.
 
@@ -2865,7 +2865,7 @@ Rien, vrai ment, ne se cache d’Al lah de ce qui existe sur la terre ou dans le
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000182.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000182.jpg)
 
 Ha run Yah ya
 
@@ -2933,7 +2933,7 @@ Le grand sa vant mu sul man Moheïddine Ibn ‘Arabi ex pli que que nos ac tions
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000127.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000127.jpg)
 
 Ha run Yah ya
 
@@ -2979,7 +2979,7 @@ ter ou à com pren dre cette ré a lité au jourd'hui, ver ront tout sous sa vé
 
 sus ci tés après leur mort. Ils se ren dront alors compte l'i nu ti lité de leur puis sance : Ad nan Ok tar 71
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000167.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000167.jpg)
 
 Tout ce qu'ac com plit un in di vidu, tous ses suc cès et tous ses ta lents ap par tien nent à Allah. Cette ré a lité ne varie pas selon qu'il s’a gisse d’un grand en tre pre neur, de l’homme le plus riche au monde, d’un ar tiste cé lé bré ou d’un scien ti -
 
@@ -3011,7 +3011,7 @@ vel angle. Ils pour ront alors mener une vie to ta le ment dif fé rente. Leur r
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000158.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000158.jpg)
 
 Ha run Yah ya
 
@@ -3021,7 +3021,7 @@ tière une poi gnée, et les cieux se ront pliés dans sa \[main\] droite. Gloir
 
 Comprendre la ré a lité de la ma tière éli mine les am bi tions de ce mon de Jusqu'ici nous avons décrit l'une des vérités les plus profondes qu'il nous ait été donné d'entendre dans notre vie entière. Nous avons montré que le monde matériel entier est réellement une ombre, ce qui constitue la clé de la compréhension de l'existence d’Allah, de Sa création et du fait qu'Il soit le seul Etre absolu. Par ailleurs, nous avons établi une démonstration rigoureusement scientifique de l'impuissance des êtres humains et de la manifestation de l'art magnifique divin. Cette connaissance rend les gens des croyants assurés ainsi il sera impossible pour eux de ne pas croire. C’est principalement pour cette raison que certains choisissent d'éviter cette vérité.
 
-Les choses expliquées ici sont aussi vraies qu'une loi physique ou une formule chimique. Quand cela est nécessaire, les êtres humains peuvent résoudre les problèmes mathématiques les plus difficiles et comprendre de nombreux problèmes complexes. Or ces mêmes individus, lorsqu'ils sont informés que tout au long de leur vie qu’ils n’ont experiencé que les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION formées dans leur esprit et qu'ils n'ont aucune connexion avec l’original de la matière , ne font pas preuve du désir de vouloir comprendre. Il s'agit d'un cas exagéré de l'incapacité de comprendre, parce que l'idée discutée n'est pas plus difficile que la réponse aux questions "Combien font deux fois deux ?" ou "Quel âge avez-vous ?" Si vous demandez à un scientifique ou à un professeur en neurologie où ils voient le monde, ils vous répondront qu'ils le voient dans leur cerveau. Les manuels de biologie du lycée le mentionnent. En dépit de son évidence, la perception du monde matériel dans l'esprit et ses conséquences peuvent être négligées. Il est nécessaire de souligner que l'un des plus importants faits scientifiques prouvés est si soigneusement caché aux yeux du public.
+Les choses expliquées ici sont aussi vraies qu'une loi physique ou une formule chimique. Quand cela est nécessaire, les êtres humains peuvent résoudre les problèmes mathématiques les plus difficiles et comprendre de nombreux problèmes complexes. Or ces mêmes individus, lorsqu'ils sont informés que tout au long de leur vie qu’ils n’ont experiencé que les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION formées dans leur esprit et qu'ils n'ont aucune connexion avec l’original de la matière , ne font pas preuve du désir de vouloir comprendre. Il s'agit d'un cas exagéré de l'incapacité de comprendre, parce que l'idée discutée n'est pas plus difficile que la réponse aux questions "Combien font deux fois deux ?" ou "Quel âge avez-vous ?" Si vous demandez à un scientifique ou à un professeur en neurologie où ils voient le monde, ils vous répondront qu'ils le voient dans leur cerveau. Les manuels de biologie du lycée le mentionnent. En dépit de son évidence, la perception du monde matériel dans l'esprit et ses conséquences peuvent être négligées. Il est nécessaire de souligner que l'un des plus importants faits scientifiques prouvés est si soigneusement caché aux yeux du public.
 
 Un individu n’éprouve que les im-
 
@@ -3031,13 +3031,13 @@ pense, de ce qu’il possède, de sa maison, de sa
 
 voiture, de sa famille, de son travail et de ses amis qui se produisant dans le cerveau. Il ne peut jamais savoir les formes originales de ceux-ci dans le monde extérieur. Quiconque comprend cela comprendra que
 
-Celui Qui créa ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION dans son cerveau n'est autre qu’Allah, à Qui tout appartient. C’est pourquoi ceux qui sont émotionnellement attachés à la vie de ce monde craignent autant cette réalité.
+Celui Qui créa ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION dans son cerveau n'est autre qu’Allah, à Qui tout appartient. C’est pourquoi ceux qui sont émotionnellement attachés à la vie de ce monde craignent autant cette réalité.
 
 Ad nan Ok tar 73
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000082.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000082.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000159.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000159.jpg)
 
 Les hommes craignent d'accepter ce fait, alors qu'habituellement ils le font volontiers, parce que la vérité à propos de la matière chamboulera totalement leur perception de la vie. Ceux qui croient que la matière et l'ego sont des êtres absolus découvriront un jour qu’ils ne furent en contact direct qu’avec la réfléction de tout ce à quoi ils travaillent et ce qu'ils protègent (leurs conjoints, leurs enfants, leurs biens, leurs personnalités). Les hommes ont très peur, aussi font-ils semblant de ne pas comprendre. Ils essaient avec détermination de réfuter les faits pourtant à la portée d'un élève de primaire. Cela s'explique essentiellement par leur crainte de perdre ce que ce monde leur offre.
 
@@ -3093,7 +3093,7 @@ seu le ment des im pul sions élec tri ques pro ve nant de ces cho -
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000056.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000056.jpg)
 
 Ha run Yah ya
 
@@ -3115,9 +3115,9 @@ tions et de bons qu'il ne peut en comp ter. Leur ac cu mu la tion lui pro cure u
 
 sa cré toute sa vie.
 
-Un jour tandis qu'il était sur un yacht avec ses amis, quelqu'un vient lui dire : "Tout ce que vous voyez en ce moment – toutes ces personnes, ce yacht, la mer, les usines, les maisons, les employés qui sursautent à votre commandement …. Vous n’entrez en contact direct qu’avec leurs images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION formées dans votre cerveau. Vous ne voyez jamais les originaux de ces apparences. Si les nerfs allant vers votre cerveau étaient sectionnés, ce yacht, ces personnes, leurs voix, leurs conversations, l'odeur de la mer, le goût de votre jus de fruit, tout cesserait d'exister en un instant.
+Un jour tandis qu'il était sur un yacht avec ses amis, quelqu'un vient lui dire : "Tout ce que vous voyez en ce moment – toutes ces personnes, ce yacht, la mer, les usines, les maisons, les employés qui sursautent à votre commandement …. Vous n’entrez en contact direct qu’avec leurs images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION formées dans votre cerveau. Vous ne voyez jamais les originaux de ces apparences. Si les nerfs allant vers votre cerveau étaient sectionnés, ce yacht, ces personnes, leurs voix, leurs conversations, l'odeur de la mer, le goût de votre jus de fruit, tout cesserait d'exister en un instant.
 
-Toutes ces choses ainsi que tout ce que vous possédez sont dans votre esprit. Il n'y a pas de différence avec les maisons, les voitures, les yachts, les usines et les entreprises que vous possédez dans vos rêves. C’est comme si vous rêviez d'aller en Europe dans votre avion privé et que vous réveilliez le matin pour découvrir qu'il n'y a pas d'avion et que vous êtes non pas en Europe, mais dans votre lit. Si un jour vous vous réveilliez du sommeil qu'est la vie ; comment pouvez-vous être sûr que vous n'entrerez pas d'un endroit complètement différent pour observer des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION de cette vie ?"
+Toutes ces choses ainsi que tout ce que vous possédez sont dans votre esprit. Il n'y a pas de différence avec les maisons, les voitures, les yachts, les usines et les entreprises que vous possédez dans vos rêves. C’est comme si vous rêviez d'aller en Europe dans votre avion privé et que vous réveilliez le matin pour découvrir qu'il n'y a pas d'avion et que vous êtes non pas en Europe, mais dans votre lit. Si un jour vous vous réveilliez du sommeil qu'est la vie ; comment pouvez-vous être sûr que vous n'entrerez pas d'un endroit complètement différent pour observer des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION de cette vie ?"
 
 Cet homme riche ré a gira fer me ment à ce qui vient de lui être dit. Même si ces faits lui étaient pré sen tés avec des preu ves scien ti fi ques, même s'il avait com pris, il n'ac cep te rait pas la vé rité. Dans son es prit, ac cep -
 
@@ -3147,7 +3147,7 @@ Quant aux œuvres des né ga teurs, elles sont sem bla bles à un mi rage du dé
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000055.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000055.jpg)
 
 Une per sonne qui pos -
 
@@ -3197,7 +3197,7 @@ L’individu qui compte son ar gent avec sa tis fac tion compte en ré a lité d
 
 mé dia te ment afin de ne pas per dre tout ce qu'il pos sède et l’es time qu'il sus cite. Cependant, il peut tout aussi bien rêver être le pro pri é taire de tou tes ces cho ses sans nour rir de dou tes sur leur ré a lité. Si on ve nait à lui an non cer dans son rêve qu'il n'est pas le pro pri é taire réel de ces cho ses, il ne l’ac cep te rait pas. En re van che quand il se ré veillera, il com pren dra enfin que cela fai sait par tie de son ima gi na tion.
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000092.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000092.jpg)
 
 LA SITUATION DE L’INDIVIDU NON CONSCIENT
 
@@ -3297,7 +3297,7 @@ pli fiée. Si elle choi sit de con sa crer à cou rir après des buts il lu soi 
 
 tive. Ma for tune ne m'a servi à rien. Mon au to rité est ané an tie et m'a quitté !" (Sourate al-Haqqah, 27-29) Ceux qui voient la na ture ré elle de la ma tière per dent leur ar ro gance Ceux qui prennent conscience de cette vérité simple se montrent contrariés. Lorsqu'ils comprennent qu’ils sont en contact direct seulement avec les copies de leurs usines, leurs maisons, leurs voitures, leurs propriétés, leurs partenaires, leurs familles et leurs positions sociales dans leur cerveau, leur impuissance Ad nan Ok tar 79
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000175.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000175.jpg)
 
 face à Allah est claire. Ils savent que leurs propres personnes et tout ce qu'ils possèdent, et l'univers entier sont une illusion et que par conséquent, ils ne sont rien. Tout ce qu'il reste alors, c’est l'esprit du "je". Parce qu’Allah leur a accordé cet esprit, ils croient en Allah et se soumettent à Lui, même s'ils ne croyaient pas auparavant.
 
@@ -3339,7 +3339,7 @@ rend compte que sa fierté n'a pas de sens.
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000170.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000170.jpg)
 
 Ha run Yah ya
 
@@ -3395,7 +3395,7 @@ de leur vie dans leur crâne.
 
 Les sou cis et les dif fi cul tés sont comme les ima ges d'un rêve
 
-Certains savent que les évènements sont des apparitions dans le cerveau, mais ont tendance à oublier que cela est vrai pour tous les phénomènes. Cependant, à chaque second (moment) de sa vie, l’être humain expérience les copies des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION dans le cerveau. Ainsi l'homme d'affaires qui fait faillite reçoit les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION de son entreprise et de ses employés dans son cerveau. De même pour tout ce qu'il a vendu et même l'argent collecté. Quand il perd son argent, il perd l'image de cet argent. En perdant son entreprise et ses biens, il perd l'image dans son cerveau de son entreprise et de son patrimoine. Quand à celui qui se fait dérober sa voiture, il perd l'apparition d'une voiture dans son esprit. Il ne peut donc plus voir l'image de la voiture qu'il pensait posséder. En réalité, il n'a jamais été connecté à l'original de cette apparition, à aucun moment de sa vie.
+Certains savent que les évènements sont des apparitions dans le cerveau, mais ont tendance à oublier que cela est vrai pour tous les phénomènes. Cependant, à chaque second (moment) de sa vie, l’être humain expérience les copies des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION dans le cerveau. Ainsi l'homme d'affaires qui fait faillite reçoit les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION de son entreprise et de ses employés dans son cerveau. De même pour tout ce qu'il a vendu et même l'argent collecté. Quand il perd son argent, il perd l'image de cet argent. En perdant son entreprise et ses biens, il perd l'image dans son cerveau de son entreprise et de son patrimoine. Quand à celui qui se fait dérober sa voiture, il perd l'apparition d'une voiture dans son esprit. Il ne peut donc plus voir l'image de la voiture qu'il pensait posséder. En réalité, il n'a jamais été connecté à l'original de cette apparition, à aucun moment de sa vie.
 
 Ce genre d'in ci dents, mais aussi tous les au tres pro blè mes que con nais sent les hom mes au cours de leur exis tence, sont dans le cer veau. Prenons l'exem ple d'un in di vidu qui vit dans un pays dé chiré par les con -
 
@@ -3407,11 +3407,11 @@ ti tuent des sons for més dans le cer veau.
 
 Par con sé quent, les évé ne ments -sour ces de dif fi cul tés, d'in quié tu des et de crain tes- sont des il lu sions se pro dui sant dans le cer veau. La per sonne cons ciente de la na ture de ces il lu sions ne laisse pas libre cours à son an xiété et ne se plaint pas non plus lors qu'elle ren con tre des pro blè mes. Même face à l'en nemi le plus agres sif et le plus dan ge reux, elle maî tri sera sa peur et son dé ses poir, car elle sait qu'elle est en pré sence d'il lu sion dans son cer veau. Elle sait donc que tous ces élé ments né fas tes sont une ap pa ri tion for mée par Allah et qu’Al lah les créa dans un but pré cis. Peu im porte ce qu'elle croise dans sa vie, cette per sonne est en paix, grâce à sa sou mis sion et sa con fiance en Allah. Dans cer tains ver sets du Coran, Allah ré vèle qu'il n'y a ni crainte ni tris tesse pour les croyants. L'un de ces ver sets suit : Ceux qui di sent : "Notre Seigneur est Allah" et qui en suite se tien nent sur le droit che min, ils ne doi vent avoir au cune crainte et ne se ront point af fli gés. (Sourate al-Ahqaf, 13) Ad nan Ok tar 81
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000033.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000033.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000039.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000039.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000141.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000141.jpg)
 
 Aussi in sur mon ta ble sem ble être la dif fi culté, il faut se rap pe ler que tout se pro duit au sein du cer veau. Tout comme la per sonne qui se rap pelle son passé dans la pau vreté par exem ple, le mo ment pré sent a éga le ment lieu dans le cer veau.
 
@@ -3427,7 +3427,7 @@ L’Autre nom de l'il lu sion
 
 Ha run Yah ya
 
-Une personne sachant que, tout au long de sa vie, il est en contact direct avec les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION de tous les événements qu’il voit et de tous les voix qu’il entend qui sont créées par Allah dans son cerveau, au lieu de se laisser envahir par la peur, l'anxiété et la panique fera confiance à l'infinie miséricorde et compassion du Créateur à l'origine de ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION.
+Une personne sachant que, tout au long de sa vie, il est en contact direct avec les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION de tous les événements qu’il voit et de tous les voix qu’il entend qui sont créées par Allah dans son cerveau, au lieu de se laisser envahir par la peur, l'anxiété et la panique fera confiance à l'infinie miséricorde et compassion du Créateur à l'origine de ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION.
 
 L'état de l'en vi ron ne ment lors que la na ture ré elle de la ma tière est di vul guée Ceux qui sa vent qu'ils n'ont pas liens avec les cho ses ma té riel les ré el les et qu'ils sont uni que ment en pré sence d'i ma ges pré sen tées par Allah, mo di fient to ta le ment leur mode de vie, leur per cep tion des cho -
 
@@ -3459,7 +3459,7 @@ liste :
 
 Ad nan Ok tar 83
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000070.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000070.jpg)
 
 Tout au long de sa vie, Lénine dit à ses disciples le mensonge (la fausseté, la falsification) que la matière était une réalité absolue. En réalité, il faisait ses discours les plus passionnés à des impressions d’individus formés dans son cerveau, tandis que les disciples dont il tirait sa force étaient également des impressions dans son cerveau.
 
@@ -3519,7 +3519,7 @@ liste con fronté à la ques tion. Les ma té ria lis tes en Turquie ont subi pa
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000102.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000102.jpg)
 
 Ha run Yah ya
 
@@ -3561,7 +3561,7 @@ phie à la ra cine, sans dis cus sion pos si ble. La ma tière sur la quelle ils
 
 A travers l'histoire, les matérialistes ont laissé un héritage de dénégation et de méthodes de dénégation. Par exemple, nombre de matérialistes ont recours aux mots de Lénine cités plus haut pour empêcher leurs associés d'écouter ou de lire quoique ce soit qui se rapporte à cette réalité. Or, le fait que la science ait clairement expliqué la nature de la matière conjugué à la rapidité de diffusion des informations grâce aux technologies d'Internet a anéanti leurs efforts. Les individus s'informent sur la question et arrivent à la comprendre. Ceux qui se disaient encore récemment matérialistes sont surpris d'apprendre la vérité à propos de la matière et de la vie dans ce monde. Il s'agit là d'un piège extraordinaire préparé par Allah pour les négateurs. Ces derniers ont perpétuellement tenté de piéger avec leur esprit fermé la véritable religion en fabriquant des idoles matérielles d’une manière égarée dans le but de renier Allah. Allah, en retour, a fait en sorte que leurs fausses idoles leur soient ôtées des mains et qu'ils tombent dans leurs propres pièges. Allah révèle avoir répondu aux pièges installés par les négateurs : Ad nan Ok tar 85
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000059.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000059.jpg)
 
 … Ils com plo tè rent, mais Allah a fait échouer leur com plot, et Allah est le meilleur en stra ta gè mes.
 
@@ -3573,9 +3573,9 @@ Dans le Coran, Allah dépeint la condition finale des négateurs :
 
 Voudraient-ils our dir quel que com plot ? Mais ce sont les im pies qui en se raient les vic ti mes ! (Sourate at-Tur, 42)
 
-Les matérialistes n'ont pas encore compris que pas à pas ils se dirigent vers la plus grave défaite de l'histoire. Lorsqu'ils ont découvert que toutes les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION sont des perceptions dans le cerveau, ils n'ont pas été capables de prédire que cela allait causer l'effondrement du fondement de leur croyance. Si, au terme de ses recherches, le scientifique matérialiste découvre que les choses ne sont pas telles qu’il avait imaginé être et qu’il était plutôt en contact direct avec les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION formées dans son cerveau, ses propres mains contribuent au revers infligé à la croyance matérialiste. Dans un verset, Allah nous rappelle que les négateurs tomberont d'eux-mêmes dans leurs propres pièges :
+Les matérialistes n'ont pas encore compris que pas à pas ils se dirigent vers la plus grave défaite de l'histoire. Lorsqu'ils ont découvert que toutes les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION sont des perceptions dans le cerveau, ils n'ont pas été capables de prédire que cela allait causer l'effondrement du fondement de leur croyance. Si, au terme de ses recherches, le scientifique matérialiste découvre que les choses ne sont pas telles qu’il avait imaginé être et qu’il était plutôt en contact direct avec les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION formées dans son cerveau, ses propres mains contribuent au revers infligé à la croyance matérialiste. Dans un verset, Allah nous rappelle que les négateurs tomberont d'eux-mêmes dans leurs propres pièges :
 
-Ainsi, Nous avons placé dans cha que cité de grands cri mi nels qui y our dis sent des com plots. Mais ils ne com plo tent que con tre eux-mêmes et ils n'en sont pas cons cients. (Sourate al-Anam, 123) La prise de conscience de ce fait est, sans aucun doute, la pire chose qui aurait pu arriver aux matérialistes. Que tout ce qu'ils soient en contact direct ne soit que les copies des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION de tout ce qu’ils possèdent équivaut, en leurs termes, une mort dans la vie.
+Ainsi, Nous avons placé dans cha que cité de grands cri mi nels qui y our dis sent des com plots. Mais ils ne com plo tent que con tre eux-mêmes et ils n'en sont pas cons cients. (Sourate al-Anam, 123) La prise de conscience de ce fait est, sans aucun doute, la pire chose qui aurait pu arriver aux matérialistes. Que tout ce qu'ils soient en contact direct ne soit que les copies des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION de tout ce qu’ils possèdent équivaut, en leurs termes, une mort dans la vie.
 
 Face à cette ré a lité, il ne reste plus qu’Al lah et eux. Dans ce ver set, Allah sou li gne la so li tude de cha -
 
@@ -3607,7 +3607,7 @@ peut pas échap per à la vé rité.
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000021.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000021.jpg)
 
 Ha run Yah ya
 
@@ -3653,11 +3653,11 @@ mar qua ble hors de la por tée des au tres.
 
 Ad nan Ok tar 87
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000054.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000054.jpg)
 
 LE TEMPS EST AUSSI UNE PERCEPTION
 
-Jusqu'ici on a expliqué que nous ne pouvons jamais atteindre l’original de la matière bien qu’il a une existence absolue et on a également expliqué que chaque personne n’expérience que les copies des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION dans son cerveau. Cette réalité tire son importance dans la mesure où elle contribue à l'augmentation de la crainte et de l'amour pour Allah, à la propagation de la spiritualité et des bonnes valeurs morales ainsi qu'à l'effondrement du matérialisme.
+Jusqu'ici on a expliqué que nous ne pouvons jamais atteindre l’original de la matière bien qu’il a une existence absolue et on a également expliqué que chaque personne n’expérience que les copies des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION dans son cerveau. Cette réalité tire son importance dans la mesure où elle contribue à l'augmentation de la crainte et de l'amour pour Allah, à la propagation de la spiritualité et des bonnes valeurs morales ainsi qu'à l'effondrement du matérialisme.
 
 Il existe, par ailleurs, un autre concept que les matérialistes jugent éternel et absolu : le temps. Comme la matière, le temps est une perception et n'est certainement pas éternel. Il fut créé à un moment donné. En plus d'avoir été prouvé par des éléments scientifiques, ce fait est révélé dans plusieurs versets coraniques.
 
@@ -3677,17 +3677,17 @@ Le physicien Julian Barbour définie le temps de cette manière :
 
 En résumé, le temps est composé de quelques informations enfouies dans la mémoire dans le cerveau.
 
-Il découle de la comparaison d'images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION. Si quelqu'un était dépourvu de mémoire, il vivrait seulement dans le temps présent. Etant donné que son cerveau est incapable de faire ces interprétations, il ne peut pas avoir le sens du temps.
+Il découle de la comparaison d'images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION. Si quelqu'un était dépourvu de mémoire, il vivrait seulement dans le temps présent. Etant donné que son cerveau est incapable de faire ces interprétations, il ne peut pas avoir le sens du temps.
 
 88 La ma tière :
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000091.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000091.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000126.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000126.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000095.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000095.jpg)
 
 Ha run Yah ya
 
@@ -3775,7 +3775,7 @@ Le physicien Julian Barbour provoqua un grand remous dans le monde scientifique 
 
 Ad nan Ok tar 89
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000117.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000117.jpg)
 
 Le passé d’une personne est
 
@@ -3805,7 +3805,7 @@ Parce que notre cerveau fonctionne en arrangeant les événements en séquence, 
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000181.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000181.jpg)
 
 Ha run Yah ya
 
@@ -3869,29 +3869,29 @@ nos calculs n'ont pas de sens.
 
 Ad nan Ok tar 91
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000155.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000155.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000010.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000010.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000014.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000014.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000022.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000022.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000089.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000089.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000143.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000143.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000083.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000083.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000036.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000036.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000130.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000130.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000114.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000114.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000000.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000000.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000017.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000017.jpg)
 
 Parce que chaque événe-
 
@@ -3979,7 +3979,7 @@ Expliquons maintenant avec une expérience imaginée par Einstein. Prenons deux 
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000085.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000085.jpg)
 
 Ha run Yah ya
 
@@ -4053,7 +4053,7 @@ Nous pouvons comparer notre vie à une bande vidéo où il n'est pas possible d'
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000020.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000020.jpg)
 
 Ha run Yah ya
 
@@ -4073,7 +4073,7 @@ PRESENT
 
 Ad nan Ok tar 95
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000193.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000193.jpg)
 
 Le passé d’un individu
 
@@ -4153,7 +4153,7 @@ Allah accorda au Prophète Mohammed (pbsl) des informations à propos de ce qui 
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000026.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000026.jpg)
 
 Ha run Yah ya
 
@@ -4221,7 +4221,7 @@ soumettent pas à leur destin.
 
 Ad nan Ok tar 97
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000084.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000084.jpg)
 
 ALLAH SAIT ET VOIT NOTRE PASSE
 
@@ -4243,7 +4243,7 @@ Dans un autre verset, Allah dit : "Nous avons créé toute chose avec mesure." (
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000064.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000064.jpg)
 
 Ha run Yah ya
 
@@ -4271,7 +4271,7 @@ le terrain vague.
 
 Ad nan Ok tar 99
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000151.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000151.jpg)
 
 Toute chose ex-
 
@@ -4337,9 +4337,9 @@ Suivent d'autres exemples :
 
 Alors chaque âme viendra accompagnée d'un conducteur et d'un témoin. (Sourate Qaf, 21) Et le ciel se fendra et sera fragile, ce jour-là. (Sourate al-Haqqah, 16) Ad nan Ok tar 101
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000128.png)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000128.png)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000145.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000145.jpg)
 
 Et les rétribuera pour ce qu'ils auront enduré, en leur donnant le paradis et des vêtements de soie, ils y seront accoudés sur des divans, n'y voyant ni soleil ni froid glacial. (Sourate al-Insan, 12-13) L'enfer sera pleinement visible à celui qui regardera... (Sourate an-Nazi’at, 36) Aujourd'hui, donc, ce sont ceux qui ont cru qui rient des infidèles (Sourate al-Mutaffifin, 34) Et les criminels verront le feu. Ils seront alors convaincus qu'ils y tomberont et n'en trouveront pas d'échap-patoire. (Sourate al-Kahf, 53)
 
@@ -4351,7 +4351,7 @@ Tu ne te trouveras dans aucune situation, tu ne réciteras aucun passage du Cora
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000140.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000140.jpg)
 
 Harun Yahya
 
@@ -4363,7 +4363,7 @@ Ceux qui ne comprennent pas tout à fait que nous ne sommes jamais en contact di
 
 Ainsi, pour certains, le fait que la matière est une illusion signifie que la matière n'existe pas. Pour d'autres, la matière existe en tant qu'illusion uniquement lorsqu'on la regarde ; sinon, elle n'existe pas.
 
-Aucune de ces idées n'est juste.Tout d'abord, dire que la matière n'existe pas ou que les hommes, les arbres ou les oiseaux n'existent pas est complètement incorrect. Tous ces êtres existent grâce à la création d’Allah. Depuis le début de ce livre nous tentons d'expliquer qu’Allah créa toutes ces choses sous forme d'images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION ou de perception pour nous. Autrement dit, une fois qu’Allah les a créées, Il ne leur a pas donné une existence indépendante concrète. Chaque chose continue à être créée à chaque instant.
+Aucune de ces idées n'est juste.Tout d'abord, dire que la matière n'existe pas ou que les hommes, les arbres ou les oiseaux n'existent pas est complètement incorrect. Tous ces êtres existent grâce à la création d’Allah. Depuis le début de ce livre nous tentons d'expliquer qu’Allah créa toutes ces choses sous forme d'images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION ou de perception pour nous. Autrement dit, une fois qu’Allah les a créées, Il ne leur a pas donné une existence indépendante concrète. Chaque chose continue à être créée à chaque instant.
 
 Que nous les voyons ou non, toutes ces choses sont éternelles dans la mémoire d’Allah. Toutes les choses qui ont existé avant nous et qui existeront après nous ont déjà été créées par Allah en un instant unique. Nous avons expliqué dans le chapitre précédent que le temps est une illusion. Allah créa le temps, mais Il n'est pas limité par le temps. Par conséquent, les choses qui existeront pour nous à l'avenir ont été créées en un moment auprès d’Allah et existent actuellement. En revanche, il ne nous est pas possible de les voir, car nous sommes limité par le temps.
 
@@ -4373,7 +4373,7 @@ Imaginons que vous tapez du pied dans une pierre alors que vous marchez. L'insta
 
 Adnan Oktar 103
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000135.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000135.jpg)
 
 CHAQUE INSTANT DE NOTRE VIE EST CONSERVE
 
@@ -4383,21 +4383,21 @@ AUPRES D’ALLAH. RIEN N'EST PERDU, TOUT RESTE VIVANT.
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000006.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000006.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000042.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000042.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000065.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000065.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000123.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000123.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000161.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000161.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000093.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000093.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000043.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000043.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000045.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000045.jpg)
 
 Harun Yahya
 
@@ -4419,9 +4419,9 @@ Chacun des états du papillon que vous pouvez observer sur l’image – de l’
 
 Adnan Oktar 105
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000113.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000113.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000046.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000046.jpg)
 
 Le passé et le futur sont en réalité vécus dans le présent
 
@@ -4467,9 +4467,9 @@ l’eau en cet instant précis aussi.
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000154.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000154.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000189.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000189.jpg)
 
 Harun Yahya
 
@@ -4497,25 +4497,25 @@ imaginer.
 
 Adnan Oktar 107
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000184.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000184.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000108.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000108.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000099.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000099.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000029.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000029.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000156.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000156.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000027.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000027.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000023.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000023.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000072.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000072.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000031.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000031.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000076.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000076.jpg)
 
 Chaque instant est dissimulé comme un seul instant dans la mémoire d’Allah - à partir du moment où la graine tombe d’un bananier, au moment où les bananes sont cueillies de l’arbre, conditionnées et envoyées au marché, puis vendues, ramenées à la maison et placées dans un panier à fruits. Chaque instant est vécu de façon vivante auprès d’Allah. Aucune étape de la vie de la banane n'est détruite aux yeux d’Allah, mais elle reste dissimulée auprès de Lui à jamais.
 
@@ -4527,11 +4527,11 @@ Pas un moment, pas un événement, pas une chose existante n'a jamais cessé d'e
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000179.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000179.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000037.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000037.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000013.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000013.jpg)
 
 Harun Yahya
 
@@ -4555,7 +4555,7 @@ Il est essentiel de bien com-
 
 prendre ce point : aucune de ces
 
-images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION ne ressemble à un souvenir
+images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION ne ressemble à un souvenir
 
 ou un rêve. Toutes sont vivantes
 
@@ -4567,7 +4567,7 @@ nous donne pas ces perceptions,
 
 nous les assimilons au passé. Allah
 
-peut nous montrer ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION à
+peut nous montrer ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION à
 
 tout instant. En nous accordant les
 
@@ -4603,7 +4603,7 @@ Luqman, 16)
 
 Adnan Oktar 109
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000129.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000129.jpg)
 
 L’HOMME VOIT CHAQUE MOMENT
 
@@ -4611,9 +4611,9 @@ AU MOMENT OU IL SE PRODUIT,
 
 COMME LES PHOTOGRAMMES D’UN FILM
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000111.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000111.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000051.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000051.jpg)
 
 Harun Yahya
 
@@ -4643,7 +4643,7 @@ pogée de leur splendeur et de leur opulence seront visibles. Le passionné de l
 
 Allah promet, dans un verset, que les gens du paradis auront tout ce qu'ils désirent :
 
-…Vous y aurez ce que vos âmes désireront et ce que vous réclamerez. (Sourate Fussilat, 31) Par conséquent, si les habitants du paradis souhaitent voir des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION et des évènements terrestres, Allah satisfera leur demande. C’est la grande rétribution réservée aux fidèles serviteurs d’Allah.
+…Vous y aurez ce que vos âmes désireront et ce que vous réclamerez. (Sourate Fussilat, 31) Par conséquent, si les habitants du paradis souhaitent voir des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION et des évènements terrestres, Allah satisfera leur demande. C’est la grande rétribution réservée aux fidèles serviteurs d’Allah.
 
 L'importance de la question pour les êtres humains
 
@@ -4685,7 +4685,7 @@ Une peinture achevée aux alentours de 1340 montre le meurtre de Thomas à Becke
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000011.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000011.jpg)
 
 Harun Yahya
 
@@ -4753,7 +4753,7 @@ l’homme se poursuit dans la mémoire d’Allah.
 
 Adnan Oktar 113
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000110.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000110.jpg)
 
 REPONSES AUX OBJECTIONS
 
@@ -4765,35 +4765,35 @@ Nombreuses personnes parmi ceux qui ont compris le problème ont exprimé leur �
 
 En revanche, d'autres s'entêtent à nier cette extraordinaire vérité en mettant en avant des objections.
 
-Pour être convaincants, ils doivent démontrer scientifiquement que les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION et les sons ne sont pas formés dans le cerveau. Pourtant qu'ils soient scientifiques, professeurs en neurologie, spécialistes du cerveau, psychologues, psychiatres ou professeurs en biologie, aucune de leurs objections ne peuvent réfuter que les perceptions sont formées dans notre cerveau. Il s'agit d'un fait établi scientifiquement.
+Pour être convaincants, ils doivent démontrer scientifiquement que les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION et les sons ne sont pas formés dans le cerveau. Pourtant qu'ils soient scientifiques, professeurs en neurologie, spécialistes du cerveau, psychologues, psychiatres ou professeurs en biologie, aucune de leurs objections ne peuvent réfuter que les perceptions sont formées dans notre cerveau. Il s'agit d'un fait établi scientifiquement.
 
 Malgré cela, certains tentent de se débarrasser de la question en jouant sur les mots ou en adoptant un ton scientifique exagéré. Ils essaient d'éviter la vérité à chaque fois qu'une affirmation commence par
 
-"Puisque les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION se forment dans notre cerveau…" Un exemple clair est la réponse des scientifiques à la question de savoir si les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION se forment dans notre cerveau.
+"Puisque les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION se forment dans notre cerveau…" Un exemple clair est la réponse des scientifiques à la question de savoir si les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION se forment dans notre cerveau.
 
-L'un de ces scientifiques répond : "Non, les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION ne se forment pas dans le cerveau. Les signaux entrant forment une représentation de l'expérience visuelle."
+L'un de ces scientifiques répond : "Non, les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION ne se forment pas dans le cerveau. Les signaux entrant forment une représentation de l'expérience visuelle."
 
 Examinons la méthode de ce scientifique qui s'emploie à ignorer la vérité. A la question qui lui est posée, il commence par répondre avec un "non" définitif. Il continue ensuite en disant que les signaux forment une image représentative qui nous permet de voir ce que nous voyons. Donc en réalité, il répond à la question par l'affirmative. Bien sûr que l'image dans le cerveau est "représentative". Notre cerveau ne pourra jamais contenir une table réelle, le soleil ou le ciel. L'image que nous percevons est une représentation, ou une copie. En disant que "nous voyons le monde", nous percevons en réalité "ce monde représentatif" ou cette "copie" ou ce "monde imaginaire". Ces expressions font référence à la même chose. Un scientifique répond à la question de savoir si nous voyons dans notre cerveau un monde représentatif :
 
 "Absolument pas. Ce que nous voyons dans notre cerveau est une copie du monde." Autrement dit, il rejette dans un premier temps la question qui lui est posée, puis il propose une explication assez confuse pour confirmer que nous pouvons voir dans notre cerveau. Cette méthode tortueuse est utilisée par quelques scientifiques qui craignent qu'en acceptant cette vérité ils ne soient forcés d'abandonner la matière, qui est selon eux la seule chose qui existe.
 
-Les autres sont incapables de réfuter que les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION se forment dans notre cerveau. Mais en raison de leur hésitation, ils offrent une réponse flottante : "Oui, je vois le monde entier dans mon cerveau. Le cerveau 114 La ma tière :
+Les autres sont incapables de réfuter que les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION se forment dans notre cerveau. Mais en raison de leur hésitation, ils offrent une réponse flottante : "Oui, je vois le monde entier dans mon cerveau. Le cerveau 114 La ma tière :
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000100.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000100.jpg)
 
 Harun Yahya
 
-traite simplement les signaux entrants et lance l'activité neuronale. C’est ainsi que nous pouvons voir et entendre." Le thème réel de la discussion se rapporte à l'endroit où l'image se forme, une fois que le cerveau a effectué tout son traitement. La réponse fournie par ce scientifique n'est pas une réponse, mais une brève explication de l'étape qui précède la formation d'une image. Le cerveau traite les signaux, mais il ne les renvoie pas vers les yeux ou les oreilles. C’est pourquoi ce ne sont pas les yeux qui voient ni les oreilles qui entendent. Que fait donc le cerveau après avoir traité les signaux entrants ? Où est stockée l'information traitée ? Où se transforment-elles en images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION ou en sons ? Qui perçoit ces données sous la forme d'images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION ou de sons ? Lorsque ces scientifiques sont interrogés, ils tentent d'éviter la vérité en donnant de longues explications alambiquées. En réalité, il est tout à fait surprenant qu'un débat soit animé autour d'une vérité aussi évidente.
+traite simplement les signaux entrants et lance l'activité neuronale. C’est ainsi que nous pouvons voir et entendre." Le thème réel de la discussion se rapporte à l'endroit où l'image se forme, une fois que le cerveau a effectué tout son traitement. La réponse fournie par ce scientifique n'est pas une réponse, mais une brève explication de l'étape qui précède la formation d'une image. Le cerveau traite les signaux, mais il ne les renvoie pas vers les yeux ou les oreilles. C’est pourquoi ce ne sont pas les yeux qui voient ni les oreilles qui entendent. Que fait donc le cerveau après avoir traité les signaux entrants ? Où est stockée l'information traitée ? Où se transforment-elles en images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION ou en sons ? Qui perçoit ces données sous la forme d'images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION ou de sons ? Lorsque ces scientifiques sont interrogés, ils tentent d'éviter la vérité en donnant de longues explications alambiquées. En réalité, il est tout à fait surprenant qu'un débat soit animé autour d'une vérité aussi évidente.
 
-Cependant ces façons de contourner la question sont assez faibles et invalides. Jusqu’à ce que celui qui s’oppose à cette réalité décrite ici présente des preuves scientifiques qui réfutent le fait que les perceptions sont formées dans nos cerveaux, ses propos n’auront aucune valeur. Les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION et tous nos sens se forment dans notre cerveau. C’est un fait. Pourtant, bien que certains parviennent à intégrer ce concept, mais ils continuent à nierinsistent encore par ignorance (d’une manière ignorante) pour nier à leurs yeux le fait qu’Allah est Celui Qui façonne ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION. Voilà ce qu'ils disent : "Je ne veux même pas y penser" ou "J’ai du mal à imaginer que je ne pourrais jamais voir la véritable matière" ou "Ma vie n'a plus de sens". Il est tout à fait déconcertant pour ces individus d'imaginer que rien n'existe en dehors d’Allah.
+Cependant ces façons de contourner la question sont assez faibles et invalides. Jusqu’à ce que celui qui s’oppose à cette réalité décrite ici présente des preuves scientifiques qui réfutent le fait que les perceptions sont formées dans nos cerveaux, ses propos n’auront aucune valeur. Les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION et tous nos sens se forment dans notre cerveau. C’est un fait. Pourtant, bien que certains parviennent à intégrer ce concept, mais ils continuent à nierinsistent encore par ignorance (d’une manière ignorante) pour nier à leurs yeux le fait qu’Allah est Celui Qui façonne ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION. Voilà ce qu'ils disent : "Je ne veux même pas y penser" ou "J’ai du mal à imaginer que je ne pourrais jamais voir la véritable matière" ou "Ma vie n'a plus de sens". Il est tout à fait déconcertant pour ces individus d'imaginer que rien n'existe en dehors d’Allah.
 
 Mais ils ne peuvent pas prouver que le processus de vision passe par leurs yeux ni que les originaux de ce qu'ils voient existent quelque part en dehors d'eux-mêmes.
 
-Cependant, il faut noter qu’apprendre cette vérité vitale concernant l’essence de la matière n’est pas du tout une situation inconfortable. Par contre, c’est un moyen pour percevoir profondement le pouvoir et la puissance d’Allah, saisir mieux Son art de création supérieur, aimer Allah et par conséquent toutes les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION autour de lui en tenant en compte qu’ils sont tous des manifestations d’Allah, prendre plus de plaisir d’eux et vivre avec une signification plus profondément. En bref, c’est une grande et précieuse bénédiction. Cependant, certains gens qui n’arrivent pas à comprendre la profondeur de la foi peuvent trouver difficile d’accepter cette vérité. Mais ces gens ne peuvent jamais dire "je vois tout ce que je vois avec mes yeux" ou bien "ceux que je vois sont les originaux des matières”. Parce qu’ils n’ont aucune preuve qui puisse prouver ces assertions, et ils n’auront jamais.
+Cependant, il faut noter qu’apprendre cette vérité vitale concernant l’essence de la matière n’est pas du tout une situation inconfortable. Par contre, c’est un moyen pour percevoir profondement le pouvoir et la puissance d’Allah, saisir mieux Son art de création supérieur, aimer Allah et par conséquent toutes les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION autour de lui en tenant en compte qu’ils sont tous des manifestations d’Allah, prendre plus de plaisir d’eux et vivre avec une signification plus profondément. En bref, c’est une grande et précieuse bénédiction. Cependant, certains gens qui n’arrivent pas à comprendre la profondeur de la foi peuvent trouver difficile d’accepter cette vérité. Mais ces gens ne peuvent jamais dire "je vois tout ce que je vois avec mes yeux" ou bien "ceux que je vois sont les originaux des matières”. Parce qu’ils n’ont aucune preuve qui puisse prouver ces assertions, et ils n’auront jamais.
 
-Même les matérialistes les plus déterminés reconnaissent que les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION sont perçues dans le cerveau.
+Même les matérialistes les plus déterminés reconnaissent que les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION sont perçues dans le cerveau.
 
 Ce chapitre répondra principalement aux objections émises contre cette vérité. Vous verrez que les réponses sont relativement évidentes si elles sont examinées de façon honnête et dénuée de préjugés.
 
@@ -4801,15 +4801,15 @@ Objection : "Lorsque vous voyez un bus se dirigeant vers vous, vous l'évitez. C
 
 Réponse : Cette question traduit une erreur de compréhension de la portée du terme "perception".
 
-Selon eux, la notion est limitée à la vue alors qu'en réalité, toutes les sensations du toucher, de la solidité, de la douleur, de la chaleur, de l'humidité ou de la fraîcheur se forment dans le cerveau, tout comme les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION visuelles se forment. Un individu qui sent le métal froid de la porte du bus lorsqu'il descend, éprouve cette sensation de froid dans son cerveau. La sensation du toucher naît dans une région particulière du cerveau grâce à des signaux nerveux transmis par la peau en contact. Ce n'est pas la peau qui donne la sensation, comme cela fut démontré scientifiquement. Quant au bus qui heurte quelqu'un, lorsque la sensation du toucher est plus violente et plus douloureuse, ils s'imaginent que ce point ne s'applique plus. La violence du coup ou de la douleur est pourtant bien perçue par le cerveau.
+Selon eux, la notion est limitée à la vue alors qu'en réalité, toutes les sensations du toucher, de la solidité, de la douleur, de la chaleur, de l'humidité ou de la fraîcheur se forment dans le cerveau, tout comme les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION visuelles se forment. Un individu qui sent le métal froid de la porte du bus lorsqu'il descend, éprouve cette sensation de froid dans son cerveau. La sensation du toucher naît dans une région particulière du cerveau grâce à des signaux nerveux transmis par la peau en contact. Ce n'est pas la peau qui donne la sensation, comme cela fut démontré scientifiquement. Quant au bus qui heurte quelqu'un, lorsque la sensation du toucher est plus violente et plus douloureuse, ils s'imaginent que ce point ne s'applique plus. La violence du coup ou de la douleur est pourtant bien perçue par le cerveau.
 
-Pour mieux comprendre, prenons le cas des rêves. Imaginons qu'un individu rêve qu'il se fait heurter par un bus, il ouvre plus tard les yeux dans un hôpital, il subit une opération, il entend les médecins parler, il ressent l'angoisse de sa famille auprès de lui, il souffre d'une douleur terrible. Dans son rêve, il perçoit les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION, les sons, le toucher, la douleur, la lumière, les couleurs très clairement et distincte-Adnan Oktar 115
+Pour mieux comprendre, prenons le cas des rêves. Imaginons qu'un individu rêve qu'il se fait heurter par un bus, il ouvre plus tard les yeux dans un hôpital, il subit une opération, il entend les médecins parler, il ressent l'angoisse de sa famille auprès de lui, il souffre d'une douleur terrible. Dans son rêve, il perçoit les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION, les sons, le toucher, la douleur, la lumière, les couleurs très clairement et distincte-Adnan Oktar 115
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000063.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000063.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000074.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000074.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000115.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000115.jpg)
 
 Certains acceptent que lorsqu'ils touchent un bus, ils sentent
 
@@ -4857,7 +4857,7 @@ inverse." Un coup violent, une forte gifle ou la
 
 douleur causée par les dents d'un chien n'indiquent nullement qu'on a affaire à la matière même. Comme nous l'avons vu plus haut, ces mêmes situations peuvent être vécues en rêve, sans pour autant avoir d'équivalents physiques. Par ailleurs, la violence d'une sensation n'ôte rien au fait que la sensation s'opère dans le cerveau. Il s'agit d'un fait scientifique prouvé.
 
-Beaucoup estiment qu'un bus roulant à toute vitesse ou un accident montrent particulièrement l'existence physique de la matière en raison du réalisme des sensations ressenties. Les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION qui les entourent, l'autoroute par exemple, la perfection des couleurs, des formes et des ombres, la vivacité des sons, des odeurs et des sensations du toucher ainsi que la teneur logique de l'image en trompent plus d'un. Ce réalisme fait croire aux individus que ces perceptions sont réelles, palpables. Pourtant aussi parfaites et complètes sont les perceptions dans l'esprit, elles n'en demeurent pas moins uniquement des sensations. Si quelqu'un est heurté par une voiture alors qu'il marche le long d'une route ou se retrouve pris au
+Beaucoup estiment qu'un bus roulant à toute vitesse ou un accident montrent particulièrement l'existence physique de la matière en raison du réalisme des sensations ressenties. Les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION qui les entourent, l'autoroute par exemple, la perfection des couleurs, des formes et des ombres, la vivacité des sons, des odeurs et des sensations du toucher ainsi que la teneur logique de l'image en trompent plus d'un. Ce réalisme fait croire aux individus que ces perceptions sont réelles, palpables. Pourtant aussi parfaites et complètes sont les perceptions dans l'esprit, elles n'en demeurent pas moins uniquement des sensations. Si quelqu'un est heurté par une voiture alors qu'il marche le long d'une route ou se retrouve pris au
 
 piège d'une maison effondrée suite à un séisme, ou se
 
@@ -4889,17 +4889,17 @@ Harun Yahya
 
 ou trébuche et dégringole les escaliers, il ne fait que ressentir ces situations dans son esprit, sans faire face à l'aspect concret et réel de ce qui se produit.
 
-Lorsque quelqu'un passe sous un bus, le bus dans son esprit passe sur le corps dans son esprit. La mort ou les blessures qui en résultent ne modifient pas la réalité. Quand les sensations cessent avec la mort, Allah remplace les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION que cet individu visionnait dans son cerveau par des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION relevant de l'au-delà. C’est pourquoi ceux qui refusent de reconnaître cette vérité maintenant finiront bien par en saisir pleinement le sens au moment de leur mort.
+Lorsque quelqu'un passe sous un bus, le bus dans son esprit passe sur le corps dans son esprit. La mort ou les blessures qui en résultent ne modifient pas la réalité. Quand les sensations cessent avec la mort, Allah remplace les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION que cet individu visionnait dans son cerveau par des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION relevant de l'au-delà. C’est pourquoi ceux qui refusent de reconnaître cette vérité maintenant finiront bien par en saisir pleinement le sens au moment de leur mort.
 
-Objection : "Il est vrai que je perçois tous les objets dans mon esprit, mais je ne peux pas croire que tous sont des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION copies.
+Objection : "Il est vrai que je perçois tous les objets dans mon esprit, mais je ne peux pas croire que tous sont des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION copies.
 
-Réponse : Le fait que nous percevions le monde entier dans notre cerveau a clairement été établi par la science. Toute personne équilibrée ne peut prétendre le contraire. Pourtant, certains ne comprennent pas une chose : si nous percevons les choses dans notre cerveau, alors ne pourrons-nous jamais connaître les originaux des objects qui existent en dehors de notre cerveau. Ce doute est, il faut le reconnaître, valide : nous ne pourrons jamais être sûr que ce que perçoit notre cerveau soit l’original de la matière extérieure, pour la simple raison que nous n'aurons jamais l'occasion de sortir de notre esprit et de voir ce qui se trouve en dehors. Il est donc impossible pour nous d'affirmer comment sont les équivalents extérieurs des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION formées dans notre cerveau. Personne, pas un individu lambda, ni un neurologue, ni un chirurgien, ni un philosophe, ne sera jamais capable de s'extérioriser de son cerveau pour savoir comment est-elle la matière à l'extérieur.
+Réponse : Le fait que nous percevions le monde entier dans notre cerveau a clairement été établi par la science. Toute personne équilibrée ne peut prétendre le contraire. Pourtant, certains ne comprennent pas une chose : si nous percevons les choses dans notre cerveau, alors ne pourrons-nous jamais connaître les originaux des objects qui existent en dehors de notre cerveau. Ce doute est, il faut le reconnaître, valide : nous ne pourrons jamais être sûr que ce que perçoit notre cerveau soit l’original de la matière extérieure, pour la simple raison que nous n'aurons jamais l'occasion de sortir de notre esprit et de voir ce qui se trouve en dehors. Il est donc impossible pour nous d'affirmer comment sont les équivalents extérieurs des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION formées dans notre cerveau. Personne, pas un individu lambda, ni un neurologue, ni un chirurgien, ni un philosophe, ne sera jamais capable de s'extérioriser de son cerveau pour savoir comment est-elle la matière à l'extérieur.
 
-Tout ce qu'une personne sait de sa vie découle des perceptions de son cerveau nées de signaux électriques. Autrement dit, nous vivons constamment dans les mondes apparaissant dans notre cerveau. Les oiseaux que nous voyons dans le ciel, la voiture qui disparaît de notre vue au bout de la rue, les objets qui ornent notre salon, les livres dans nos mains, nos amis, nos relations et tout le reste demeurent des copies reproduites par notre cerveau. Personne ne peut sortir en dehors de cette vie vie qui se forme dans son cerveau. Ni la science ni la technologie ne peuvent nous assister dans cette voie. En effet, les inventions du scientifique restent des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION au sein de son esprit. Ce qu'il réussit à créer pour voir le monde extérieur est cantonné à son cerveau.
+Tout ce qu'une personne sait de sa vie découle des perceptions de son cerveau nées de signaux électriques. Autrement dit, nous vivons constamment dans les mondes apparaissant dans notre cerveau. Les oiseaux que nous voyons dans le ciel, la voiture qui disparaît de notre vue au bout de la rue, les objets qui ornent notre salon, les livres dans nos mains, nos amis, nos relations et tout le reste demeurent des copies reproduites par notre cerveau. Personne ne peut sortir en dehors de cette vie vie qui se forme dans son cerveau. Ni la science ni la technologie ne peuvent nous assister dans cette voie. En effet, les inventions du scientifique restent des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION au sein de son esprit. Ce qu'il réussit à créer pour voir le monde extérieur est cantonné à son cerveau.
 
 Personne ne peut déterminer à quoi ressemble la matière parce que personne n'a jamais été en contact direct avec un élément original. Depuis le premier homme jusqu'à aujourd'hui, aucun être humain n’a pu entendre l'original d'un son, ni voir l'original d'un objet, ni apprécier l'odeur originale d'une rose.
 
-Objection : " La douleur d'une coupure de couteau et le sang qui coule ne sont pas des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION. Qui plus est, mon ami présent a assisté à la scène."
+Objection : " La douleur d'une coupure de couteau et le sang qui coule ne sont pas des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION. Qui plus est, mon ami présent a assisté à la scène."
 
 Réponse : Nous nous sommes déjà penchés sur ce type d'objection dans le point précédent. Etant donné l'importance du sujet, il ne peut être que bénéfique de revenir sur la réponse.
 
@@ -4909,9 +4909,9 @@ Même si quelqu'un intervenait au moment où il se coupe la main dans son rêve 
 
 Adnan Oktar 117
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000038.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000038.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000035.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000035.jpg)
 
 Quand les nerfs menant au cerveau sont sectionnés, aucune image ne se forme.
 
@@ -4919,7 +4919,7 @@ Quand les nerfs menant au cerveau sont sectionnés, aucune image ne se forme.
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000178.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000178.jpg)
 
 Harun Yahya
 
@@ -4939,7 +4939,7 @@ nante. Ceci étant, le ressenti de la douleur n'altère
 
 rien au fait que nous voyons toute notre vie comme
 
-des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION dans notre cerveau.
+des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION dans notre cerveau.
 
 Ceux qui persistent en disant qu’ils sont en con-
 
@@ -4951,9 +4951,9 @@ Dans le monde de perceptions dans lequel nous vivons, ce type
 
 d'individus entendent le discours : "Ces choses sont des perceptions et vous ne pourrez jamais atteindre les sources originales de ces perceptions." Malgré tout, ils persistent dans leur refus de la vérité.
 
-N'oublions pas toutefois que personne après avoir subi une blessure à la main ne s'exclame : "Ce n'est qu'une image !" et reste assise à ne rien faire. Allah créa des effets rattachés aux images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION que nous percevons. Donc celui qui se blesse à la main nettoie sa plaie, la panse ou se rend chez le médecin.
+N'oublions pas toutefois que personne après avoir subi une blessure à la main ne s'exclame : "Ce n'est qu'une image !" et reste assise à ne rien faire. Allah créa des effets rattachés aux images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION que nous percevons. Donc celui qui se blesse à la main nettoie sa plaie, la panse ou se rend chez le médecin.
 
-Cependant, il n’est en contact direct qu'avec les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION de toutes ces interventions formées dans son cerveau.
+Cependant, il n’est en contact direct qu'avec les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION de toutes ces interventions formées dans son cerveau.
 
 Objection : "Est-ce que dire que nous ne sommes en contact direct qu’avec l’illusion de la matière est compatible avec l'Islam ?"
 
@@ -5001,19 +5001,19 @@ Harun Yahya
 
 ne peut pas naître d'elle-même : elle a besoin d'un support et donc d'un Créateur, Allah le Tout-Puissant Quila fait vivre.
 
-La nature permanente et intacte de l'image est la preuve parlante de la continuité de la création d’Allah. En fait, un verset dit que la terre et le ciel (donc l'univers) ne sont pas fixes et invariables. Ils existent uniquement en vertu de la création divine et cesserons d'exister quand la création cessera : Allah retient les cieux et la terre pour qu'ils ne s'affaissent pas. Et s'ils s'affaissaient, nul autre après Lui ne pourra les retenir. Il est indulgent et pardonneur. (Sourate Fatir, 41) Dans la sourate an-Naml, verset 64, Allah révèle qu'Il "commence la création, puis la refait". Dans un autre verset, Il attire notre attention sur le fait qu'à tout instant des hommes sont créés : Est-ce qu'ils assignent comme associés ce qui ne crée rien et qui eux-mêmes sont créés ? (Sourate al-Araf, 191) Autrement dit, l'aspect permanent et intact des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION que nous voyons n'est pas à attribuer à leur existence fixe, mais à la création d’Allah à tout instant. Donc la manifestation de la création continue d’Allah est palpable tout le temps, dans tout ce qu'une personne voit ou ressent.
+La nature permanente et intacte de l'image est la preuve parlante de la continuité de la création d’Allah. En fait, un verset dit que la terre et le ciel (donc l'univers) ne sont pas fixes et invariables. Ils existent uniquement en vertu de la création divine et cesserons d'exister quand la création cessera : Allah retient les cieux et la terre pour qu'ils ne s'affaissent pas. Et s'ils s'affaissaient, nul autre après Lui ne pourra les retenir. Il est indulgent et pardonneur. (Sourate Fatir, 41) Dans la sourate an-Naml, verset 64, Allah révèle qu'Il "commence la création, puis la refait". Dans un autre verset, Il attire notre attention sur le fait qu'à tout instant des hommes sont créés : Est-ce qu'ils assignent comme associés ce qui ne crée rien et qui eux-mêmes sont créés ? (Sourate al-Araf, 191) Autrement dit, l'aspect permanent et intact des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION que nous voyons n'est pas à attribuer à leur existence fixe, mais à la création d’Allah à tout instant. Donc la manifestation de la création continue d’Allah est palpable tout le temps, dans tout ce qu'une personne voit ou ressent.
 
 Cette vérité contribue à rendre plus claire la manifestation des attributs d’Allah dans l'univers.
 
-Prenons l'exemple d'un individu qui sait que dans un jardin, il n’est en contact direct qu’avec les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION de tous les fruits, toutes les fleurs et tous les arbres lui sont présentées dans son esprit se rappellera qu’Allah est le Fournisseur (Al-Razzaq), Celui Qui lui accorde d'innombrables beautés et bienfaits et Qui lui montrent ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION. Quant à l'individu qui dispose d'une maison agréable tout en étant conscient de la véritable nature des meubles, des antiquités, de l'or et de l'argent, c’est-à-dire qui réalise qu’il est en contact direct avec les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION de toutes ces choses dans son cerveau, il ne cherchera jamais à se vanter de son patrimoine. Tout comme le Prophète Salomon, il identifie Allah, le Donateur (Al-Wahhab) comme étant Celui Qui lui dévoile la beauté de ces biens et Qui l'enrichit. Ou lorsque quelqu'un parvient à convaincre quelqu'un d'autre de l'existence et de l'unicité d’Allah, qu'Il est le seul Etre absolu, ainsi que l'existence de l'enfer et du paradis, il témoigne de la manifestation de l'attribut d’Allah en tant que Guide (Al-Hadi) vers le droit chemin.
+Prenons l'exemple d'un individu qui sait que dans un jardin, il n’est en contact direct qu’avec les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION de tous les fruits, toutes les fleurs et tous les arbres lui sont présentées dans son esprit se rappellera qu’Allah est le Fournisseur (Al-Razzaq), Celui Qui lui accorde d'innombrables beautés et bienfaits et Qui lui montrent ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION. Quant à l'individu qui dispose d'une maison agréable tout en étant conscient de la véritable nature des meubles, des antiquités, de l'or et de l'argent, c’est-à-dire qui réalise qu’il est en contact direct avec les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION de toutes ces choses dans son cerveau, il ne cherchera jamais à se vanter de son patrimoine. Tout comme le Prophète Salomon, il identifie Allah, le Donateur (Al-Wahhab) comme étant Celui Qui lui dévoile la beauté de ces biens et Qui l'enrichit. Ou lorsque quelqu'un parvient à convaincre quelqu'un d'autre de l'existence et de l'unicité d’Allah, qu'Il est le seul Etre absolu, ainsi que l'existence de l'enfer et du paradis, il témoigne de la manifestation de l'attribut d’Allah en tant que Guide (Al-Hadi) vers le droit chemin.
 
-Nous devons nous rappeler qu'il est un fait scientifique que chacun puisse voir des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION, entendre des sons, ressentent des états physiques dans leur cerveau. Nous ne pourrons jamais savoir, au moyen de nos perceptions, ce qu'il y a en dehors de notre cerveau. Nous pouvons être surs cependant qu'une force existe grâce à laquelle nous voyons ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION et entendons ces sons, les créant dans un rapport de cause à effet. Cette Force est Allah. S'il n'avait pas créé ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION pour nous, il n'y aurait pas de vie dans ce monde. De cette manière, la création d’Allah et la manifestation de Ses attributs se poursuivent perpétuellement. Ainsi Allah continue à créer pour quiconque le lit, ce livre et les mots qu'il contient, ainsi que les couleurs des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION.
+Nous devons nous rappeler qu'il est un fait scientifique que chacun puisse voir des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION, entendre des sons, ressentent des états physiques dans leur cerveau. Nous ne pourrons jamais savoir, au moyen de nos perceptions, ce qu'il y a en dehors de notre cerveau. Nous pouvons être surs cependant qu'une force existe grâce à laquelle nous voyons ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION et entendons ces sons, les créant dans un rapport de cause à effet. Cette Force est Allah. S'il n'avait pas créé ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION pour nous, il n'y aurait pas de vie dans ce monde. De cette manière, la création d’Allah et la manifestation de Ses attributs se poursuivent perpétuellement. Ainsi Allah continue à créer pour quiconque le lit, ce livre et les mots qu'il contient, ainsi que les couleurs des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION.
 
-C’est bien là l'illustration de l'attribut divin de Créateur (Al-Khaliq) et de la force de Sa création. A chaque instant Allah montre à des milliards d'individus sur terre des milliards d'images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION distinctes.
+C’est bien là l'illustration de l'attribut divin de Créateur (Al-Khaliq) et de la force de Sa création. A chaque instant Allah montre à des milliards d'individus sur terre des milliards d'images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION distinctes.
 
 Chacune d'entre elles est créée sans la moindre pause, en parfaite harmonie et dans le détail le plus fin.
 
-Chacun voit les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION sans la moindre erreur de détail. Il suffit de penser à ce miracle pour saisir la portée infinie de la puissance d’Allah et l'idée qu'Il soit le seul Souverain de l'univers.
+Chacun voit les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION sans la moindre erreur de détail. Il suffit de penser à ce miracle pour saisir la portée infinie de la puissance d’Allah et l'idée qu'Il soit le seul Souverain de l'univers.
 
 En affirmant que la matière fut créée sur le plan de la perception, Imam Rabbani explique que les noms d’Allah se manifestent également sur le plan de la perception :
 
@@ -5021,7 +5021,7 @@ En affirmant que la matière fut créée sur le plan de la perception, Imam Rabb
 
 Celui qui saisit la portée de cette vérité ne peut s'enfler de fierté à cause de son succès, de sa richesse, des ses biens ou de ses titres. Puisqu'à chaque instant, en tout lieu, il sait qu'il y a la manifestation du Adnan Oktar 121
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000125.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000125.jpg)
 
 TOUTES LES BELLES CHOSES SONT L’ŒUVRE D’ALLAH
 
@@ -5031,7 +5031,7 @@ autour de nous sont les manifestations de l’attribut d’Allah,
 
 le Donateur généreux (Al-Wahhab).
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000107.png)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000107.png)
 
 Harun Yahya
 
@@ -5095,13 +5095,13 @@ Tout ce qui est créé par Allah existe même si nous le voyons ou non. En tout 
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000049.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000049.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000122.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000122.jpg)
 
 Harun Yahya
 
-Dire " Nous sommes en contact direct avec les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION
+Dire " Nous sommes en contact direct avec les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION
 
 de tous les êtres dans notre cerveau" ne revient pas à
 
@@ -5157,9 +5157,9 @@ L'origine de tout son amour est l'amour d’Allah. Dans le verset du Coran: "…
 
 Adnan Oktar 125
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000174.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000174.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000004.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000004.jpg)
 
 Le musulman qui éprouve de l’amour, de l’affection et de l’intérêt pour les choses créées par Allah, ressent ces sentiments pour la création d’Allah, le pouvoir et l’art qu'elle contient. Il sait que la beauté d’une chose vivante appartient en réalité à Allah.
 
@@ -5169,7 +5169,7 @@ Parmi les hommes, il en est qui prennent, en dehors d’Allah, des égaux à Lui
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000157.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000157.jpg)
 
 Harun Yahya
 
@@ -5223,9 +5223,9 @@ pouvons aimer.
 
 Adnan Oktar 127
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000019.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000019.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000106.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000106.jpg)
 
 dre de leurs amis d'être réels et permanents. En s'intéressant de près à ce sujet, l'individu comprendra que son propre corps n'est qu'une image diffusée par Allah en son âme.
 
@@ -5237,13 +5237,13 @@ Objection : "Conclure que l'univers est un ensemble de perceptions revient à ab
 
 Réponse : Ce type d'objections est généralement mis en avant par les matérialistes et utilisé pour montrer à leurs propres yeux que ce sujet s'oppose à la science et tend à la réfuter, ce qui est clairement faux.
 
-Allah nous montre les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION que nous vivons en nous-mêmes comme si elles étaient unies par un réseau de relations de cause à effet, toutes reliées par des règles. Les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION du jour et de la nuit qui naissent dans notre cerveau sont liées au soleil et aux mouvements de la terre. Lorsque l'image du soleil est au zénith, nous savons qu'il est midi et lorsqu'elle décline, nous assistons à la tombée de la nuit. En créant les perceptions ayant trait à l'univers, Allah les créa avec une relation de cause à effet. Nous ne connaissons pas le jour une fois que le soleil est couché. La science est l'observation et l'étude de cette relation de cause à effet créé par Allah dans notre esprit.
+Allah nous montre les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION que nous vivons en nous-mêmes comme si elles étaient unies par un réseau de relations de cause à effet, toutes reliées par des règles. Les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION du jour et de la nuit qui naissent dans notre cerveau sont liées au soleil et aux mouvements de la terre. Lorsque l'image du soleil est au zénith, nous savons qu'il est midi et lorsqu'elle décline, nous assistons à la tombée de la nuit. En créant les perceptions ayant trait à l'univers, Allah les créa avec une relation de cause à effet. Nous ne connaissons pas le jour une fois que le soleil est couché. La science est l'observation et l'étude de cette relation de cause à effet créé par Allah dans notre esprit.
 
 Le lever et le
 
 coucher du soleil
 
-sont des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION qui
+sont des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION qui
 
 se forment dans l’e-
 
@@ -5265,13 +5265,13 @@ plaisir.
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000053.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000053.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000069.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000069.jpg)
 
 Harun Yahya
 
-Allah montre les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION qu'Il crée
+Allah montre les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION qu'Il crée
 
 en les liant par des causes et des
 
@@ -5303,11 +5303,11 @@ recherche sci-
 
 entifique.
 
-Prenons maintenant un autre exemple. Dans l'illusion de notre esprit, chaque fois que nous lâchons un stylo, il tombe à terre. Suite à l'étude de la relation de cause à effet gouvernant ce genre d'occurrences, nous découvrons "la loi de la gravité". Allah nous présente des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION en les reliant à des causes et des règles particulières. La création de ces causes et de ces règles est à attribuer au fait que la vie fut créée comme lieu d'épreuves. La science est le résultat de la recherche consacrée à l'ordre au sein duquel fonctionnent les lois et l'ensemble de perceptions constituant l'univers. C’est pourquoi il est essentiel d'étudier la science, les règles qui semblent gouverner les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION extraordinaires créées par Allah.
+Prenons maintenant un autre exemple. Dans l'illusion de notre esprit, chaque fois que nous lâchons un stylo, il tombe à terre. Suite à l'étude de la relation de cause à effet gouvernant ce genre d'occurrences, nous découvrons "la loi de la gravité". Allah nous présente des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION en les reliant à des causes et des règles particulières. La création de ces causes et de ces règles est à attribuer au fait que la vie fut créée comme lieu d'épreuves. La science est le résultat de la recherche consacrée à l'ordre au sein duquel fonctionnent les lois et l'ensemble de perceptions constituant l'univers. C’est pourquoi il est essentiel d'étudier la science, les règles qui semblent gouverner les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION extraordinaires créées par Allah.
 
-En conclusion, rien ne justifie l'idée matérialiste selon laquelle le fait d'accepter que nous ne sommes pas en contact direct avec l’original de la matière équivaut au rejet de la science. Au contraire, ceux qui sont conscients de la véritable nature de la matière voient dans la science un moyen crucial de comprendre l'ensemble d'images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION et de secrets relégués en eux.
+En conclusion, rien ne justifie l'idée matérialiste selon laquelle le fait d'accepter que nous ne sommes pas en contact direct avec l’original de la matière équivaut au rejet de la science. Au contraire, ceux qui sont conscients de la véritable nature de la matière voient dans la science un moyen crucial de comprendre l'ensemble d'images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION et de secrets relégués en eux.
 
-Cette conception de la science et celle des matérialistes sont relativement différentes. Les lois de la nature découvertes par l'observation de la totalité des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION en question sont les lois d’Allah, Qui est l'Auteur de cet ensemble. Du point de vue des matérialistes, qui pensent de façon erronée que la matière a une existence absolue, les lois de la nature découlent de la matière même et sont à l'origine de leurs créations. Face à la vérité, cette perspective s'écroule totalement.
+Cette conception de la science et celle des matérialistes sont relativement différentes. Les lois de la nature découvertes par l'observation de la totalité des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION en question sont les lois d’Allah, Qui est l'Auteur de cet ensemble. Du point de vue des matérialistes, qui pensent de façon erronée que la matière a une existence absolue, les lois de la nature découlent de la matière même et sont à l'origine de leurs créations. Face à la vérité, cette perspective s'écroule totalement.
 
 Nous ne devons pas non plus oublier qu’Allah possède le pouvoir de créer toutes ces perceptions sans le besoin d'une cause ou d'une loi. Allah créa ainsi la rose sans avoir besoin de graines, Il créa la pluie sans avoir besoin des nuages, Il créa l'ombre, le jour et la nuit sans avoir besoin du soleil. Allah nous fait ce rappel :
 
@@ -5317,7 +5317,7 @@ Puis Nous lui fîmes du soleil son indice, puis Nous la saisissons vers Nous ave
 
 Adnan Oktar 129
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000052.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000052.jpg)
 
 Allah souligne qu'Il créa d'abord l'ombre, puis le soleil pour
 
@@ -5341,7 +5341,7 @@ associé à chaque chose une explication. Le jour est à
 
 rattacher au soleil, la pluie aux nuages. Ces élé-
 
-ments sont des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION créées par Allah de façon in-
+ments sont des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION créées par Allah de façon in-
 
 dividuelle dans notre esprit. En créant la cause
 
@@ -5367,17 +5367,17 @@ les preuves de Son existence dans la nature et de
 
 dire d'autre par que le monde physique (mis en avant comme preuve de son existence) n'existe pas ?
 
-Réponse : Certains gens qui n’ont pas bien compris l’essence de la matière supposent érronément que la déclaration "Nous ne pouvons pas être en contact direct avec l’original du monde matériel, tout ce que nous pouvons être en contact direct est les copies des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION dans nos esprits" signifie "Rien n’existe".
+Réponse : Certains gens qui n’ont pas bien compris l’essence de la matière supposent érronément que la déclaration "Nous ne pouvons pas être en contact direct avec l’original du monde matériel, tout ce que nous pouvons être en contact direct est les copies des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION dans nos esprits" signifie "Rien n’existe".
 
-Toutefois, dire de la matière qu'elle est un ensemble de perceptions ou d'images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION perçues dans notre cerveau ne revient pas à dire que la matière n'existe pas. Il y a un univers physique, mais nous ne pouvons jamais connaître son original. Nous ne pouvons avoir affaire qu’à sa copie, à savoir l’illusion dans notre esprit.
+Toutefois, dire de la matière qu'elle est un ensemble de perceptions ou d'images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION perçues dans notre cerveau ne revient pas à dire que la matière n'existe pas. Il y a un univers physique, mais nous ne pouvons jamais connaître son original. Nous ne pouvons avoir affaire qu’à sa copie, à savoir l’illusion dans notre esprit.
 
 Le fait que nous soyons en rapport qu’avec l’illusion de la matière est une preuve irrévocable de l'existence d’Allah. Dans la mesure où rien de ce qui existe sur le plan perceptif ne peut se créer soi-même, il y a un Créateur Allah le Tout-Puissant Qui anime ces êtres. Donc le fait que l'univers physique ne soit qu'une image est une preuve concrète de l'existence et de l'unicité d’Allah. C’est pourquoi, il n'y a pas de contradiction entre le fait que nous soyons en contact direct avec l’image de la matière et que les êtres vivants prouvent l'existence d’Allah. Au contraire, l'un est la conséquence logique de l'autre.
 
-Allah créa tout ce qui existe Cependant, nous ne connaîssons que leurs perceptions et images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION dans nos esprits. L'examen des propriétés de ces objets-images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION démontre la supériorité de la création d’Allah, de Son art et Son infinie science. Dire que la matière est un ensemble de perceptions et étudier les propriétés de ces perceptions pour y déceler la grandeur et la puissance d’Allah n'est certainement pas contradictoire.
+Allah créa tout ce qui existe Cependant, nous ne connaîssons que leurs perceptions et images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION dans nos esprits. L'examen des propriétés de ces objets-images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION démontre la supériorité de la création d’Allah, de Son art et Son infinie science. Dire que la matière est un ensemble de perceptions et étudier les propriétés de ces perceptions pour y déceler la grandeur et la puissance d’Allah n'est certainement pas contradictoire.
 
 Certains s'imaginent qu’Allah existe uniquement aussi longtemps que des êtres pensent à Lui (Allah est bien au-dessus de ce qu'ils Lui imputent.) et expriment, par conséquent, un certain nombre d'objections.
 
-Or, si Allah le souhaitait Il pourrait éliminer toutes ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION créées par Lui et détruire tout ce qui existe, sans qu'Il ne cesse d'exister, parce qu'Il est infini et intemporel. Plusieurs versets attirent l'attention sur la capacité d’Allah à détruire ce qu'Il souhaite au moment voulu :
+Or, si Allah le souhaitait Il pourrait éliminer toutes ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION créées par Lui et détruire tout ce qui existe, sans qu'Il ne cesse d'exister, parce qu'Il est infini et intemporel. Plusieurs versets attirent l'attention sur la capacité d’Allah à détruire ce qu'Il souhaite au moment voulu :
 
 S'il voulait, il vous ferait disparaître, ò gens, et en ferait venir d'autres. Car Allah en est très capable. (Sourate an-Nisa', 133)
 
@@ -5387,7 +5387,7 @@ O hommes, vous êtes les indigents ayant besoin d’Allah, et c'est Allah, Lui Q
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000191.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000191.jpg)
 
 Harun Yahya
 
@@ -5399,15 +5399,15 @@ Tout ce qui est sur elle doit disparaître, seule subsistera la face de ton Seig
 
 Objection : "Si nous acceptons cette explication, il ne peut donc pas y avoir de notions de licite et d'illicite."
 
-Réponse : Il s'agit là d'une idée totalement irréaliste. Le fait que nous ne pouvions pas être en contact direct avec le monde physique ne nous épargne pas du secret des épreuves. Bien que nous ne connaîssons jamais l’original de la matière, n'influe en rien sur ce qu’Allah a interdit ou rendu licite. Par exemple, Allah a notamment interdit la consommation de la viande de porc. Manger en disant "Je n’ai affaire qu’à la perception du porc" est explicitement une malhonnêteté et une déraison. De même dire "Je ne connaîs que les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION de ces personnes dans mon esprit, alors je peux leur mentir"n’est pas quelque chose qu’une personne qui craint Allah et qui comprend cette réalité pourrait faire. Les limites, les commandements et les interdictions édictées par Allah doivent être respectées. Notre discussion ne lève aucune interdiction. Il reste de notre devoir de prier cinq fois par jour et de distribuer des aumônes par exemple. Le fait que les aumônes distribuées existent dans l'esprit des destinataires de l'aumône ne nous exempte pas de cette obligation. Allah fit du monde entier un ensemble de perceptions au sein desquelles nous restons responsables d'appliquer la révélation du Coran.
+Réponse : Il s'agit là d'une idée totalement irréaliste. Le fait que nous ne pouvions pas être en contact direct avec le monde physique ne nous épargne pas du secret des épreuves. Bien que nous ne connaîssons jamais l’original de la matière, n'influe en rien sur ce qu’Allah a interdit ou rendu licite. Par exemple, Allah a notamment interdit la consommation de la viande de porc. Manger en disant "Je n’ai affaire qu’à la perception du porc" est explicitement une malhonnêteté et une déraison. De même dire "Je ne connaîs que les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION de ces personnes dans mon esprit, alors je peux leur mentir"n’est pas quelque chose qu’une personne qui craint Allah et qui comprend cette réalité pourrait faire. Les limites, les commandements et les interdictions édictées par Allah doivent être respectées. Notre discussion ne lève aucune interdiction. Il reste de notre devoir de prier cinq fois par jour et de distribuer des aumônes par exemple. Le fait que les aumônes distribuées existent dans l'esprit des destinataires de l'aumône ne nous exempte pas de cette obligation. Allah fit du monde entier un ensemble de perceptions au sein desquelles nous restons responsables d'appliquer la révélation du Coran.
 
 Dans le passé, cette vérité fut déformée de sorte à éliminer les notions de licite et d'illicite. Ce système de croyances distordu a certainement servi à la satisfaction des intérêts personnels de ses inventeurs. Il n'en demeure pas moins que leur conclusion était incorrecte.
 
-En somme, quiconque juge la situation de façon honnête verra clairement que, dans le but de nous éprouver, interagir avec la matière elle-même n'est pas nécessaire. Allah créa ces épreuves à l'intérieur d'un monde d'images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION. Rien ne suggère qu’on doit connaître l’original de la matière pour que l'individu Adnan Oktar 131
+En somme, quiconque juge la situation de façon honnête verra clairement que, dans le but de nous éprouver, interagir avec la matière elle-même n'est pas nécessaire. Allah créa ces épreuves à l'intérieur d'un monde d'images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION. Rien ne suggère qu’on doit connaître l’original de la matière pour que l'individu Adnan Oktar 131
 
 puisse distinguer le bien du mal, le licite de l'illicite. C’est l'âme qui importe avant tout, car c’est elle qui sera châtiée ou rétribuée dans l'au-delà. C’est pourquoi, le fait que nous faisons face à une illusion de la matière dans notre esprit ne doit pas nous empêcher d'agir dans le licite et d'éviter l'illicite tout en obéissant à nos devoirs religieux.
 
-Ceux qui prétendent ne pas être responsables des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION, diront lorsqu'ils seront envoyés en enfer qu'ils ne se croyaient pas responsables. Bien quel'enfer est une image, tout comme le monde en est une, ses tourments seront soufferts à jamais.
+Ceux qui prétendent ne pas être responsables des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION, diront lorsqu'ils seront envoyés en enfer qu'ils ne se croyaient pas responsables. Bien quel'enfer est une image, tout comme le monde en est une, ses tourments seront soufferts à jamais.
 
 Objection : "Tout le monde dit que les feuilles de l'arbre sont vertes. Puisque tout le monde décrit l'arbre de la même manière, cela signifie qu'il n'existe pas seulement dans mon esprit."
 
@@ -5435,9 +5435,9 @@ Partager les mêmes définitions ou donner les mêmes noms aux couleurs ne garan
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000150.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000150.jpg)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000121.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000121.jpg)
 
 Harun Yahya
 
@@ -5465,7 +5465,7 @@ Au cours d'un match de foot, des milliers de personnes présentes dans le stade 
 
 Objection : "Nous percevons le monde extérieur tel qu'il est réellement, puisque notre comporte-Adnan Oktar 133
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000057.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000057.jpg)
 
 Quelqu'un qui se promène dans la campagne
 
@@ -5475,7 +5475,7 @@ prit, tout en humant l’air frais dans son esprit
 
 aussi. Trois personnes admirant des fleurs se
 
-forment trois images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION différentes de celles-ci.
+forment trois images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION différentes de celles-ci.
 
 Cela ne permet pas de prouver qu’ils voient les
 
@@ -5491,13 +5491,13 @@ Or, le point discuté ici est très différent de ce que suppose cet individu. U
 
 Ne pas se jeter dans le vide une fois arrivé au bord d'une falaise ne sous-entend pas que nous sommes en contact direct avec l’original de la matière dans le monde extérieur. Lorsque nous marchons droit et nous nous arrêtons au bord d'un ravin, nous marchons sur un chemin dessiné dans notre cerveau et voyons le bord de la falaise dans notre cerveau. Même si nous chutons du bord de la falaise, notre perception reste cantonnée à notre cerveau. C’est précisément le même phénomène qui se produit quand une voiture heurte quelqu'un ou quand un chien nous mord. La douleur des blessures ou des os brisés suite à la chute se ressent dans notre cerveau.
 
-Objection : Allah nous montre ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION afin de nous éprouver. Mais pourquoi Allah, le Créateur de toutes les actions, nous soumet-Il à une telle épreuve ?"
+Objection : Allah nous montre ces images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION afin de nous éprouver. Mais pourquoi Allah, le Créateur de toutes les actions, nous soumet-Il à une telle épreuve ?"
 
 134 La ma tière :
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000105.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000105.jpg)
 
 Harun Yahya
 
@@ -5507,7 +5507,7 @@ UN MATCH DIFFERENT DANS SON CERVEAU
 
 Celui qui pénètre dans un stade pour regarder un match
 
-Pourtant il se forme autant d’images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION que de spectateurs.
+Pourtant il se forme autant d’images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION que de spectateurs.
 
 s’imagine qu'il regarde le même match que tout le monde,
 
@@ -5553,7 +5553,7 @@ Et, de Sa science, ils n'embrassent que ce qu'Il veut. (Sourate al-Baqarah, 255)
 
 Peu importe les situations, Allah est notre Seigneur et Protecteur. Il est donc de notre devoir de placer notre confiance en Lui, Auteur de tant de bienfaits et de se montrer satisfait de tout ce qu'Il crée.
 
-Dans le passé, certains ont compris la vérité à propos de l'essence de la matière, mais ont produit des idées déviantes parce que leur foi en Allah et leur entendement du Coran étaient faibles. Ils ont ainsi énoncé que dans la mesure où tout n'était qu'illusion, le culte religieux était inutile. Certes tout n'est qu'une perception présentée par Allah. Il est vrai par ailleurs qu’Allah nous oblige à obéir au Coran. Notre devoir est d'appliquer Ses commandements, que notre vie soit faite d'images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION ou non.
+Dans le passé, certains ont compris la vérité à propos de l'essence de la matière, mais ont produit des idées déviantes parce que leur foi en Allah et leur entendement du Coran étaient faibles. Ils ont ainsi énoncé que dans la mesure où tout n'était qu'illusion, le culte religieux était inutile. Certes tout n'est qu'une perception présentée par Allah. Il est vrai par ailleurs qu’Allah nous oblige à obéir au Coran. Notre devoir est d'appliquer Ses commandements, que notre vie soit faite d'images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION ou non.
 
 Dans le Coran, Allah souligne le manque d'informations fournies à propos de l'âme. Allah fit de cette image une épreuve dans un but donné :
 
@@ -5561,19 +5561,19 @@ Très certainement, Nous vous éprouverons par un peu de peur, de faim et de dim
 
 Objection : "D'après ce que nous avons vu jusqu'à présent, notre perception se poursuivra même après la mort. Durera-t-elle éternellement ? Le paradis et l'enfer sont-ils également un ensemble de perceptions ?"
 
-Réponse : Allah créa les hommes de sorte qu'ils ne peuvent percevoir le monde qu'au moyen d'images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION présentées à leur âme. En d'autres termes, nous pouvons seulement voir les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION qui nous présentées dans nos cerveaux et ne pouvons aucunement voir ni toucher ce qu'il y a à l'extérieur. Cependant, après la mort Allah créera l'individu sous une forme différente. Cette création sera également sous forme d'image, c'est-à-dire que nous verrons une image du paradis toujours dans notre cerveau. Cette création sera également une image, en d’autres mots nous verrons une image de paradis dans nos esprits, , bien que nous ne puissions jamais savoir comment cette nouvelle création sera.
+Réponse : Allah créa les hommes de sorte qu'ils ne peuvent percevoir le monde qu'au moyen d'images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION présentées à leur âme. En d'autres termes, nous pouvons seulement voir les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION qui nous présentées dans nos cerveaux et ne pouvons aucunement voir ni toucher ce qu'il y a à l'extérieur. Cependant, après la mort Allah créera l'individu sous une forme différente. Cette création sera également sous forme d'image, c'est-à-dire que nous verrons une image du paradis toujours dans notre cerveau. Cette création sera également une image, en d’autres mots nous verrons une image de paradis dans nos esprits, , bien que nous ne puissions jamais savoir comment cette nouvelle création sera.
 
 Néanmoins, le fait que le paradis et l'enfer soient ressentis comme des perceptions n'affecte en rien la jouissance tirée de l'un, ni la souffrance infligée dans l'autre. Tout comme nous éprouvons de la douleur lorsque nous nous brûlons la main, nous ressentirons pleinement la réalité des perceptions dans l'au-delà.
 
 Les impressions de douleurs, par exemple, ont été créées de manière à les rendre tout à fait réalistes, comme les autres perceptions. La violence d'une douleur peut même provoquer la perte de connaissance.
 
-Certaines images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION rendent certaines personnes mal à l'aise, même s'il ne s'agit que de perceptions dans le cerveau. Qu'une odeur, un son ou une vision désagréable soient perçus dans l'esprit n'ôte rien à l'inconfort qu'ils provoquent chez l’individu. Par conséquent, même si l'enfer sera présenté à l'âme comme une perception, cela n'allège en rien les tourments qui y seront affligés. Allah crée la vie dans ce monde de façon si claire et convaincante que les hommes la prennent pour une "réalité définitive", aussi a-t-Il le pouvoir d'en faire autant dans l'au-delà. Allah révèle dans plusieurs versets que les châtiments de l'enfer seront extrêmement pénibles :
+Certaines images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION rendent certaines personnes mal à l'aise, même s'il ne s'agit que de perceptions dans le cerveau. Qu'une odeur, un son ou une vision désagréable soient perçus dans l'esprit n'ôte rien à l'inconfort qu'ils provoquent chez l’individu. Par conséquent, même si l'enfer sera présenté à l'âme comme une perception, cela n'allège en rien les tourments qui y seront affligés. Allah crée la vie dans ce monde de façon si claire et convaincante que les hommes la prennent pour une "réalité définitive", aussi a-t-Il le pouvoir d'en faire autant dans l'au-delà. Allah révèle dans plusieurs versets que les châtiments de l'enfer seront extrêmement pénibles :
 
 Mon châtiment est certes le châtiment douloureux. (Sourate al-Hijr, 50) Nous ferons certes goûter à ceux qui ne croient pas un dur châtiment, et les rétribuerons certes d'une punition pire que leurs méfaits. Ainsi, la rétribution des ennemis d’Allah sera le feu où ils auront une demeure éternelle, comme punition pour avoir nié Nos versets. (Sourate Fussilat, 27-28) Il en va de même pour le paradis. Tout ce qu'une personne apprécie et tout ce qui lui procure du plaisir se définit par une perception formée dans le cerveau. Une discussion plaisante avec son meilleur ami est une réalité qui se produit dans le cerveau. Admirer le paysage d'une magnifique coulée d'eau ou écouter le bruit de l'eau qui coule font partie des visions et des sons inscrits dans notre esprit. Cela ne nous empêche 136 La ma tière :
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000048.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000048.jpg)
 
 Harun Yahya
 
@@ -5587,7 +5587,7 @@ pas pourtant d'apprécier ce que nous voyons ou entendons. C’est pourquoi Alla
 
 Leur Seigneur leur annonce de Sa part, miséricorde et agrément et des jardins où il y aura pour eux un délice permanent, où ils demeureront éternellement. Certes il y a auprès d’Allah une énorme récompense (Sourate at-Tawbah, 21-22)
 
-Quant à celui dont la balance sera lourde, il sera dans une vie agréable. (Sourate al-Qari’a, 6-7) En outre, de savoir qu’Allah est Celui Qui lui autorise à voir ces agréables images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION augmentera son plaisir. Si un individu cueille dans un arbre une pomme d'une forme agréable et d'une odeur prometteuse et se rappelle d'attribuer cette odeur et cette forme à Allah, il tirera davantage de plaisir dans cette image que les autres. Allah préparera des images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION différentes du paradis pour chaque croyant, car chacun y ob-tiendra tout ce à quoi son âme aspire le plus. Dans ce monde et dans l'au-delà, le seul Ami, Protecteur et Créateur de l'homme est Allah. Tous les prophètes, apôtres, pieux croyants, houris et autres qu'il verra à ses côtés au paradis sont des êtres qui constituent la manifestation la plus claire de l'amitié, de l'amour et de la proximité d’Allah.
+Quant à celui dont la balance sera lourde, il sera dans une vie agréable. (Sourate al-Qari’a, 6-7) En outre, de savoir qu’Allah est Celui Qui lui autorise à voir ces agréables images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION augmentera son plaisir. Si un individu cueille dans un arbre une pomme d'une forme agréable et d'une odeur prometteuse et se rappelle d'attribuer cette odeur et cette forme à Allah, il tirera davantage de plaisir dans cette image que les autres. Allah préparera des images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION différentes du paradis pour chaque croyant, car chacun y ob-tiendra tout ce à quoi son âme aspire le plus. Dans ce monde et dans l'au-delà, le seul Ami, Protecteur et Créateur de l'homme est Allah. Tous les prophètes, apôtres, pieux croyants, houris et autres qu'il verra à ses côtés au paradis sont des êtres qui constituent la manifestation la plus claire de l'amitié, de l'amour et de la proximité d’Allah.
 
 Il est assez évident qu’Allah nous permet de recevoir la totalité de ces perceptions tout au long de notre vie. La personne honnête qui s'en rend compte ne doute pas de Sa justice, ni de Sa parfaite création.
 
@@ -5613,7 +5613,7 @@ Retourne vers ton Seigneur, satisfaite et agréée. (Sourate al-Fajr, 28) 138 La
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000078.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000078.jpg)
 
 Harun Yahya
 
@@ -5683,7 +5683,7 @@ Moïse (psl) dit : "La connaissance de leur sort est auprès de mon Seigneur, da
 
 Naturellement, la nature ergoteuse et négatrice ne se limite pas à Pharaon et aux autres hauts personnages de l'histoire. Beaucoup sont aujourd'hui prêts à lancer une polémique sur des sujets qui heurtent leurs intérêts, en particulier la religion. Ils se refusent à comprendre que le sujet est évident s'il est traité avec une dose d'honnêteté. Leurs attitudes et leurs questions dénotent précisément le contraire. Les thèmes du destin ou de la nature de la matière en particulier, font partie des sujets que beaucoup préfèrent ignorer.
 
-Aussi les questions posées dans ce sens sont motivées par la volonté de se convaincre qu'il ne s'agit pas de la vérité au lieu d'un désir sincère de s'enquérir de la vérité. Qu'est-ce qui transparaît par exemple de ce genre de question : "Si tout n'est qu'images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION, alors quel est le but d'accomplir les devoirs religieux ?" Ils suggèrent que le fait d'avoir été créé en tant qu'image devrait empêcher l'homme de prier ou le fait que la nourriture n'est qu'une image n'empêche en rien la consommation d'aliments illicites. Leurs intentions se cantonnent au lancer d'objections sans prendre en compte la matière. Leur seule motivation est de refuser la vérité.
+Aussi les questions posées dans ce sens sont motivées par la volonté de se convaincre qu'il ne s'agit pas de la vérité au lieu d'un désir sincère de s'enquérir de la vérité. Qu'est-ce qui transparaît par exemple de ce genre de question : "Si tout n'est qu'images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION, alors quel est le but d'accomplir les devoirs religieux ?" Ils suggèrent que le fait d'avoir été créé en tant qu'image devrait empêcher l'homme de prier ou le fait que la nourriture n'est qu'une image n'empêche en rien la consommation d'aliments illicites. Leurs intentions se cantonnent au lancer d'objections sans prendre en compte la matière. Leur seule motivation est de refuser la vérité.
 
 En revanche, les croyants reconnaissent immédiatement la vérité lorsqu'ils la voient et s'y conforment.
 
@@ -5691,7 +5691,7 @@ Ils disent : "Nous avons entendu et obéis" comme dans le Coran. En présence de
 
 Adnan Oktar 141
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000160.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000160.jpg)
 
 CEUX QUI REFUSENT LA VERITE CONTINUERONT
 
@@ -5729,7 +5729,7 @@ C’est pourquoi nous ne devons pas être surpris si certains refusent d'accepte
 
 Adnan Oktar 143
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000080.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000080.jpg)
 
 CONCLUSION : LA VERITE EST INEVITABLE
 
@@ -5747,9 +5747,9 @@ Et ne mêlez pas le faux à la vérité. Ne cachez pas sciemment la vérité. (S
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000009.png)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000009.png)
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000062.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000062.jpg)
 
 Harun Yahya
 
@@ -5771,7 +5771,7 @@ Comme le souligne ce verset, quand la vérité vient remplacer le mensonge, la m
 
 Adnan Oktar 145
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000097.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000097.jpg)
 
 LE GRAND EMOI DE CEUX QUI DECOUVRENT
 
@@ -5793,21 +5793,21 @@ matière est si puissante que personne n'est pas sensibilisé à la question ne 
 
 J’observe la distance. Ensuite, je réfléchis. Même l'endroit que je crois être le plus loin est en moi, dans mon cerveau, à l'intérieur, comme une image en quelques sortes. L'homme est une créature extraordinaire. Allah l'a créé avec une science si splendide que je ne sais pas exactement comment la décrire ni comment en parler. Laissez-moi dire en tous les cas une chose : je souhaite que vous et votre œuvre trouverez la faveur d’Allah pour nous avoir divulgué un savoir si immense. E. M. Istanbul, Turquie J’ai lu votre récit du secret derrière la matière à la fin du Mensonge de l'évolution avec un grand intérêt et une profonde émotion. Dans un premier temps, j’ai compris la théorie, mais ne l'ai pas mise en application.
 
-Ensuite, tout s'est soudainement mis en place tandis que je réfléchissais à la question. Je fus emporté par une excitation bouleversante. Je me suis dit : "Mon Allah, c’est une chose étonnante !" Pareille chose ne m'avait jamais traversé l'esprit. Ils disaient que la vie était comme un rêve. Je pensais qu'il s'agissait simplement d'une mé-taphore. De tels individus ne l'entendaient pas au sens strict du terme, mais comme un semblant. Qui sait ce qu'ils feraient s'ils savaient que c’était vrai ? C’est une situation extraordinaire. Pourtant tous les lecteurs restent relativement calmes. Je me demande s'ils ont tout à fait compris. Comment peuvent-ils garder leur calme face à une telle découverte ? Je comprends maintenant la mort, l'au-delà, la résurrection, la vie au paradis et tout tellement mieux. Dans le Coran, Allah dit : "Il Nous est aisé de vous créer à nouveau." Tout se clarifie dans mon esprit. Tout ceux avec qui je discute de ce sujet ont du mal à comprendre. Comment puis-je le leur expliquer simplement et clairement ? D'autres à qui j’ai décrit ma découverte se sont véritablement emballés. Je me demande si j’ai tort d'expliquer de façon aussi directe ? Ne vaudrait-il pas mieux de d'abord expliquer l'amour d’Allah, de rappeler Sa compassion et Sa miséricorde, Sa volonté de faire accéder les hommes à ce qu'il y a de meilleur, de la meilleure façon qui soit ? Qu'en pensez-vous ? S. U. Edirne, Turquie Depuis l'école primaire, on m'a toujours dit que les sens se forment à l'intérieur du cerveau. Il s'agissait d'un fait que je connaissais très bien. Je l'ai expliqué clairement si souvent pendant les examens de biologie, mais je n'avais encore jamais vu le véritable visage de la matière. Je disais que les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION se formaient dans le cerveau, mais que la matière existait loin, en dehors de moi. Elle était là-bas et je la voyais. Ma pensée était confuse :je pensais que l’image que je vois se forme là où se trouvent mes yeux et aussi dans mon cerveau, et que la matière existait de façon absolue, juste là devant moi. En réalité, je n'y avaispas réfléchi trop profondément. Or la matière apparaît en un seul endroit. J’associe cet endroit et la matière. C’est comme si je suis devant un fin rideau, mais celui qui observe n'est pas clair, le néant ou une âme. Pourtant, il y a un pouvoir qui perçoit tout, un néant qui n'occupe aucune place, pourtant une conscience qui perçoit les cinq sens. Comptez-vous écrire un ouvrage plus détaillé sur le sujet ? Par ailleurs, vos livres ne sont pas disponibles dans la province où je vis ?
+Ensuite, tout s'est soudainement mis en place tandis que je réfléchissais à la question. Je fus emporté par une excitation bouleversante. Je me suis dit : "Mon Allah, c’est une chose étonnante !" Pareille chose ne m'avait jamais traversé l'esprit. Ils disaient que la vie était comme un rêve. Je pensais qu'il s'agissait simplement d'une mé-taphore. De tels individus ne l'entendaient pas au sens strict du terme, mais comme un semblant. Qui sait ce qu'ils feraient s'ils savaient que c’était vrai ? C’est une situation extraordinaire. Pourtant tous les lecteurs restent relativement calmes. Je me demande s'ils ont tout à fait compris. Comment peuvent-ils garder leur calme face à une telle découverte ? Je comprends maintenant la mort, l'au-delà, la résurrection, la vie au paradis et tout tellement mieux. Dans le Coran, Allah dit : "Il Nous est aisé de vous créer à nouveau." Tout se clarifie dans mon esprit. Tout ceux avec qui je discute de ce sujet ont du mal à comprendre. Comment puis-je le leur expliquer simplement et clairement ? D'autres à qui j’ai décrit ma découverte se sont véritablement emballés. Je me demande si j’ai tort d'expliquer de façon aussi directe ? Ne vaudrait-il pas mieux de d'abord expliquer l'amour d’Allah, de rappeler Sa compassion et Sa miséricorde, Sa volonté de faire accéder les hommes à ce qu'il y a de meilleur, de la meilleure façon qui soit ? Qu'en pensez-vous ? S. U. Edirne, Turquie Depuis l'école primaire, on m'a toujours dit que les sens se forment à l'intérieur du cerveau. Il s'agissait d'un fait que je connaissais très bien. Je l'ai expliqué clairement si souvent pendant les examens de biologie, mais je n'avais encore jamais vu le véritable visage de la matière. Je disais que les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION se formaient dans le cerveau, mais que la matière existait loin, en dehors de moi. Elle était là-bas et je la voyais. Ma pensée était confuse :je pensais que l’image que je vois se forme là où se trouvent mes yeux et aussi dans mon cerveau, et que la matière existait de façon absolue, juste là devant moi. En réalité, je n'y avaispas réfléchi trop profondément. Or la matière apparaît en un seul endroit. J’associe cet endroit et la matière. C’est comme si je suis devant un fin rideau, mais celui qui observe n'est pas clair, le néant ou une âme. Pourtant, il y a un pouvoir qui perçoit tout, un néant qui n'occupe aucune place, pourtant une conscience qui perçoit les cinq sens. Comptez-vous écrire un ouvrage plus détaillé sur le sujet ? Par ailleurs, vos livres ne sont pas disponibles dans la province où je vis ?
 
 Puis-je en informer les éditeurs ? Avec mes vœux respectueux pour votre succès. Y. C. Kayseri, Turquie J’ai expliqué ce sujet à un certain nombre de mes amis. Bien qu'ils soient diplômés d'université, ils sont incapables de concevoir cette vérité. "Cesse donc de dire n'importe quoi !", me disent-ils. "OK, l'image se forme peut-être dans le cerveau. Mais tu es là juste en face de moi" disent-ils en mettant leurs mains sur mes épaules. Je leur décris comment cette conversation et leur geste se produisent dans le cerveau. Je leur dis même que si les nerfs connectés au cerveau étaient sectionnés, ils seraient incapables de les voir ou les toucher. Ils ne comprennent toujours pas. Cet échec à comprendre s'assimile à "l'émergence d'une vérité métaphysique diagnostique ", parce qu'ils sont incapables de saisir ce concept. Pourtant quand je l'ai expliqué à mon neveu, un élève d'école primaire et il l'a tout de suite compris. Je me demande si leur entendement a délibérément été empêché. Ou s'ils n'ont pas d'identité personnelle. Est-ce possible ? Le Coran parle de ceux dont les yeux et les oreilles sont scellées. Est-il possible que ces personnes n'aient pas la conscience de voir et d'entendre ? Pourriez-vous revenir sur ces questions dans la prochaine édition de votre livre ? Je vous remercie d'avance. E.A. Istanbul, Turquie
 
 Cher Harun Yahya, j’apprécie particulièrement lire tout ce qui a un trait à la philosophie, aussi j’ai lu Le secret au-delà de la matière avec un grand plaisir. Il a déjà été expliqué à plusieurs reprises dans le passé que la matière est une illusion. Pourtant les hommes n'ont probablement pas eu le temps de considérer les perceptions qui les persuadent qu’ils voient l’original dela matièrecar sinon ils auraient saisi cette vérité évidente. Cependant, aujourd'hui ils ont davantage d'occasions de voir cette vérité. Les études et les Adnan Oktar 147
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000015.png)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000015.png)
 
-recherches portant sur la structure de l'œil, les nerfs véhiculant les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION vers l'œil, le centre de vision dans le cerveau et d'autres questions similaires ont rendu cette vérité plus accessible à l'entendement. Par ailleurs, le développement de la physique, des films en trois dimensions, la télévision et la vidéo fournissent des exemples plus probants. Selon moi, ce sujet est amené à prédominer dans le monde au cours de ce siècle.
+recherches portant sur la structure de l'œil, les nerfs véhiculant les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION vers l'œil, le centre de vision dans le cerveau et d'autres questions similaires ont rendu cette vérité plus accessible à l'entendement. Par ailleurs, le développement de la physique, des films en trois dimensions, la télévision et la vidéo fournissent des exemples plus probants. Selon moi, ce sujet est amené à prédominer dans le monde au cours de ce siècle.
 
 Comme vous le savez, la physique quantique est déjà en train de clamer cette vérité haute et forte. J’imagine que ce serait plus facile si les hommes n'avaient pas tendance à se retirer dans une crainte enfantine de la vérité, et si la douleur de l'anéantissement de l'amour porté à ce monde pouvait être surmontée. Je nepense pas que fuir la vérité, enfouir sa tête dans le sable et ignorer les faits soient des attitudes compatibles avec l'honneur humain. Il y a beaucoup d'autres choses que j’aimerais encore dire, mais je ne souhaite pas prendre votre temps. Avec mes meilleurs souhaits, T. E. Richmond.
 
 Pourquoi la télévision, la radio et les journaux ne nous disent-ils pas que la matière est une illusion ? Cette vérité établie devrait être évaluée par des scientifiques renommés sur les plateaux de télévisions lors d'émis-sions ou de débats. Je me demande ce que certains trouveraient à y objecter. J’ai entendu des récits de personnes n'ayant pas réussi à comprendre ce concept, et cela m'étonne. Comment un adulte peut-il ne pas comprendre quelque chose d'aussi évident ? Ces quelques individus peuvent se détourner, mais c’est la nation dans son ensemble qui prendra la décision finale. Non seulement la nation apprendra, mais elle verra aussi la logique ou plutôt l'illogisme de ceux qui ne saisissent pas cette vérité. Mon opinion est que le thème est essentiel en Islam. J’espère que cette importance s'accentuera avec le temps… K.I. Samsun, Turquie Votre description de la matière m'a profondément affecté. Elle va au-delà des pouvoirs de la raison humaine.
 
-Il ne s'agit pas d'une chose qui se comprend absolument. C’est étrange d'imaginer que même cette lettre que je vous écris est une image. Une image rencontre une image et elles communiquent. C’est véritablement une situation étonnante. Selon moi, quiconque fait l'effort de lire sur ce sujet comprendra… W. B. F. Angleterre Ma perception de la vie a changé depuis que j’ai lu le chapitre, dans votre livre, à propos du secret au-delà de la matière. L'autre jour, par exemple, je me suis mis en colère contre quelqu'un et j’étais sur le point de hausser ma voix d'un ton. Ensuite je me suis rendu compte que tout était limité à mon cerveau. Je me suis alors immédiatement calmé et ma colère s'est dissipée. Cela me paraît comme une vieille femme qui se mettrait en colère contre le méchant dans un film turc. Ces vérités, qui impliquent un changement majeur, doivent être transmises de façon plus large à d'autres communautés et vous devez donc nous fournir un nouveau livre. Si vous décidiez sortir un nouveau, pourriez-vous m'en informer ? M. V. Aydin, Turquie J’ai lu Le secret au-delà de la matière. Est-ce que tout se produit réellement dans mon cerveau ? Mon cerveau n'est-il pas lui aussi une image ? C’est ce que je ne parviens pas à comprendre. Les écoles et la télévision devraient enseigner à tout le monde cette découverte. Je voudrais rentrer dans les détails de la matière. Que sug-gérez-vous ? Je vous serais très reconnaissant de m'aider. K. B. Antalya, Turquie Je suis ophtalmologue. L'autre jour, un patient m'a demandé comment on peut voir. Les premières questions étaient techniques, mais ensuite il commença à poser des questions qui titillèrent ma réflexion, du type qui voit les images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION qui sont dans le cerveau. J’étais profondément ébranlé. Je crois à l'existence d’Allah et de l'âme, pourtant l'idée d'expliquer l'existence de l'âme de façon si scientifique et claire ne m'a jamais traversé l'esprit, bien que cela corresponde à mon domaine d'expertise. J’ai lu ce que vous avez écrit à propos de la matière sur votre site internet. Existe-t-il d'autres sources ? Ou pouvez-vous nous recommander d'autres livres ? Même s'il s'agirait d'une source étrangère, ce n'est pas un problème. J’estime qu'il s'agit d'un sujet très important, qui vaut la peine d'être étudié et médité. Non seulement ce que j’ai lu permet d'élargir mon horizon, mais en plus cela me pousse à remettre en question beaucoup de choses dans la vie. C’est important. F. N. G. Eskisehir, Turquie Hier, j’ai visionné le CD de Le secret au-delà de la matière. J’ai essayé de mieux comprendre et je pense avoir réussi. Il y a questions auxquelles je souhaite trouver des réponses. S'il vous plait aidez-moi. M. H. Izmir, Turquie
+Il ne s'agit pas d'une chose qui se comprend absolument. C’est étrange d'imaginer que même cette lettre que je vous écris est une image. Une image rencontre une image et elles communiquent. C’est véritablement une situation étonnante. Selon moi, quiconque fait l'effort de lire sur ce sujet comprendra… W. B. F. Angleterre Ma perception de la vie a changé depuis que j’ai lu le chapitre, dans votre livre, à propos du secret au-delà de la matière. L'autre jour, par exemple, je me suis mis en colère contre quelqu'un et j’étais sur le point de hausser ma voix d'un ton. Ensuite je me suis rendu compte que tout était limité à mon cerveau. Je me suis alors immédiatement calmé et ma colère s'est dissipée. Cela me paraît comme une vieille femme qui se mettrait en colère contre le méchant dans un film turc. Ces vérités, qui impliquent un changement majeur, doivent être transmises de façon plus large à d'autres communautés et vous devez donc nous fournir un nouveau livre. Si vous décidiez sortir un nouveau, pourriez-vous m'en informer ? M. V. Aydin, Turquie J’ai lu Le secret au-delà de la matière. Est-ce que tout se produit réellement dans mon cerveau ? Mon cerveau n'est-il pas lui aussi une image ? C’est ce que je ne parviens pas à comprendre. Les écoles et la télévision devraient enseigner à tout le monde cette découverte. Je voudrais rentrer dans les détails de la matière. Que sug-gérez-vous ? Je vous serais très reconnaissant de m'aider. K. B. Antalya, Turquie Je suis ophtalmologue. L'autre jour, un patient m'a demandé comment on peut voir. Les premières questions étaient techniques, mais ensuite il commença à poser des questions qui titillèrent ma réflexion, du type qui voit les images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION qui sont dans le cerveau. J’étais profondément ébranlé. Je crois à l'existence d’Allah et de l'âme, pourtant l'idée d'expliquer l'existence de l'âme de façon si scientifique et claire ne m'a jamais traversé l'esprit, bien que cela corresponde à mon domaine d'expertise. J’ai lu ce que vous avez écrit à propos de la matière sur votre site internet. Existe-t-il d'autres sources ? Ou pouvez-vous nous recommander d'autres livres ? Même s'il s'agirait d'une source étrangère, ce n'est pas un problème. J’estime qu'il s'agit d'un sujet très important, qui vaut la peine d'être étudié et médité. Non seulement ce que j’ai lu permet d'élargir mon horizon, mais en plus cela me pousse à remettre en question beaucoup de choses dans la vie. C’est important. F. N. G. Eskisehir, Turquie Hier, j’ai visionné le CD de Le secret au-delà de la matière. J’ai essayé de mieux comprendre et je pense avoir réussi. Il y a questions auxquelles je souhaite trouver des réponses. S'il vous plait aidez-moi. M. H. Izmir, Turquie
 
 Lorsque j’ai lu "Le secret au-delà de la matière", j’ai pensé que tout s'inscrivait dans un scénario écrit spécialement pour moi. Je veux dire par là que c’était comme si j’étais dans un film du type Truman Show ou Matrix. Je me sentais comme si je vivais dans une machine spécialement conçue pour moi. Je me suis retrouvé dans une série d'états lorsque j’ai regardé les choses sous cet angle. Vous vous êtes penchés sur la matière de façon plus profonde que quiconque auparavant. E. H. Toronto
 
@@ -5815,7 +5815,7 @@ Lorsque j’ai lu "Le secret au-delà de la matière", j’ai pensé que tout s'
 
 L’Autre nom de l'il lu sion
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000139.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000139.jpg)
 
 Harun Yahya
 
@@ -5863,7 +5863,7 @@ NOTES
 
 9- www.hhmi.org/senses/a/a110.htm
 
-10- Michael I. Posner, Marcus E. Raichle, images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION of Mind, Scientific American Library, New York, 1999, p. 88
+10- Michael I. Posner, Marcus E. Raichle, images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION of Mind, Scientific American Library, New York, 1999, p. 88
 
 11- Bertrand Russell, ABC of Relativity, George Allen and Unwin, Londres, 1964, pp. 161-162
 
@@ -5957,4 +5957,4 @@ Harun Yahya
 
 Adnan Oktar 151
 
-![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-LLUSION/000149.jpg)
+![](images/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION/000149.jpg)
