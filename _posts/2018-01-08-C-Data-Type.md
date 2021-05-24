@@ -2,11 +2,15 @@
 layout: post
 title:  C'de Data Type
 date:   2018-01-15 13:53:00
+excerpt: "C, Programming"
 tags:   C Programlama Linux
-comments: true
+categories: Programming
+comments: false
 published: true
 lang: tr
 ---
+
+
 
 <p class="meta">15 Ocak 2018 - Türkiye</p>
 {% include CSS.html %}
