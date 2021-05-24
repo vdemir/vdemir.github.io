@@ -11,7 +11,7 @@
     <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}Daily</title>
 
     <meta property="og:url" content="{{ site.url }}{{ page.url | remove_first:'index.html' }}">
-    <meta property="og:site_name" content="blog.your-domain.com">
+    <meta property="og:site_name" content="{{ site.url }}">
 
     {% if page.title %}
     <meta property="og:title" content="{{ page.title }}">
