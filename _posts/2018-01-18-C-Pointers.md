@@ -2,11 +2,15 @@
 layout: post
 title:  C'de Pointer İşaretçiler
 date:   2018-01-16 13:52:00
+excerpt: "C, Programming"
 tags:   C Programlama Linux
+categories: Programming
 comments: false
 published: true
 lang: tr
 ---
+
+
 
 <p class="meta">16 Ocak 2018 - Türkiye</p>
 {% include CSS.html %}
