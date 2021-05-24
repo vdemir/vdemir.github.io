@@ -4,8 +4,9 @@ title:  Kendi Lisp'nizi Oluşturun - Diller
 date:   2018-01-04 16:52:00
 tags:   C Programlama Lisp
 comments: true
-published: true
-lang: tr
+published: false
+lang: en
+robots: noindex
 ---
  
 <p class="meta">8 Ocak 2018 - Türkiye</p>

@@ -4,8 +4,9 @@ title:  Kendi Lisp'nizi Oluşturun - Functions
 date:   2018-01-08 16:58:00
 tags:   C Programlama Lisp
 comments: true
-published: true
-lang: tr
+published: false
+lang: en
+robots: noindex
 ---
  
 
