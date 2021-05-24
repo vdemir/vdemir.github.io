@@ -4763,7 +4763,7 @@ The original Arabic verse is as below:
 
 **Wa iz akhaza rabbuka mim bani a\_dama min zuhu\_rihim zurriyyatahum wa asyhadahum 'ala\_ anfusihim, alastu bi rabbikum, qa\_lu\_ bala\_ - syahidna\_ - an taqu\_lu\_ yaumal qiya\_mati inna\_ kunna\_ 'an ha\_za\_ ga\_filin(a).**
 
-![](Aspose.Words.85cbc8d4-c5a7-4a8d-911b-14bd16130c49.001.png "arapcaayet 7\_172")
+![arapcaayet](/static/img/mastermindAspose.Words.85cbc8d4-c5a7-4a8d-911b-14bd16130c49.001.png "arapcaayet 7\_172")
 
 **Wa iz akhaza:** And when (He) took out
 
