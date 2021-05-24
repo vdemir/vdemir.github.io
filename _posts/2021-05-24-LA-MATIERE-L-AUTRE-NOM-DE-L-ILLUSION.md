@@ -3,7 +3,7 @@ layout: post
 title:  LA MATIERE :L'AUTRE NOM DE L'ILLUSION
 date:   2021-05-14 12:00:00
 tags:   Books
-categories: [Books ]
+categories: [Books]
 comments: false
 published: true
 lang: fr
