@@ -10,11 +10,6 @@ lang: en
 ---
 
 
-
-
-
-
-
 How Do Images Come
 To Be Seen As Matter?
 
@@ -26,9 +21,6 @@ FOR ILLUSION
 
 
 HARUN YAHYA
-
-
-
 
 
 First English Edition published in February 2002
