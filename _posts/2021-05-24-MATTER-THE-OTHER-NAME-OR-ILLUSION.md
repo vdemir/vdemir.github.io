@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  MATTER THE OTHER NAME FOR ILLUSION
+title:  MATTER: THE OTHER NAME FOR ILLUSION
 date:   2021-05-24 12:00:00
 tags:   Books
 categories: [Books ]
