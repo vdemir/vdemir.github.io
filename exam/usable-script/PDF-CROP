@@ -1,0 +1,36 @@
+gs     -o cropped.pdf  -sDEVICE=pdfwrite   -c "[/CropBox [0 0 391 570]"   -c " /PAGES pdfmark"    -f out.pdf
+
+
+gs                                 -o cropped2.pdf                   -sDEVICE=pdfwrite                -c "[/CropBox [ 391 0 782 570]"   -c " /PAGES pdfmark"             -f o1.pdf
+
+
+     -dDEVICEWIDTHPOINTS=w -dDEVICEHEIGHTPOINTS=h 
+     Where w be the desired paper width and h be the desired paper height in points (units of 1/72 of an inch).
+     
+     You can set the used page size with -gNNNNxMMMM where NNMN is the width in pixels at 720 dpi (720 pixels == 1 inch), and MMMM is the height in pixels at 720 dpi.
+
+Or you can set the custom size in PostScript points (72 points == 1 inch) with -dDEVICEWIDTHPOINTS=w -dDEVICEHEIGHTPOINTS=h.
+
+If I'm not wrong, 9.36 inch ≈= 674 points and 12.67 inch ≈= 912 points.
+
+You'll also have to apply -dPDFFitPage in order to fit your input onto the page.
+
+So you could use either
+
+gs                          \
+   -o output.pdf            \
+   -sDEVICE=pdfwrite        \
+   -dDEVICEWIDTHPOINTS=674  \
+   -dDEVICEHEIGHTPOINTS=912 \
+   -dPDFFitPage             \
+    input.ps
+    
+    gs -sDEVICE=pdfwrite -r720 -g4308x6066 -dPDFFitPage -o out.pdf c.pdf
+
+167 × 17 mm 
+
+    gs -sDEVICE=pdfwrite -dCompatibilityLevel=2.0 -dNOPAUSE -dQUIET -dBATCH  -dFirstPage=1 -dLastPage=120 -sOutputFile=figure.pdf Seyyid-Muhammed-Hakkı-Sırlar-Hazinesi-Celal-Yıldırım.pdf
+
+
+
+
