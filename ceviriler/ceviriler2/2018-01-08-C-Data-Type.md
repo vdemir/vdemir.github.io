@@ -4,7 +4,7 @@ title:  C'de Data Type
 date:   2018-01-15 13:53:00
 tags:   C Programlama Linux
 comments: true
-published: true
+published: false
 lang: tr
 ---
 

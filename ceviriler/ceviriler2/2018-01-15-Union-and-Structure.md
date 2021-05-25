@@ -4,7 +4,7 @@ title:  C'de Union ve Struct Yapıları
 date:   2018-01-16 13:52:00
 tags:   C Programlama Linux
 comments: true
-published: true
+published: false
 lang: tr
 ---
 

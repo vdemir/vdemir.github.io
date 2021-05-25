@@ -4,7 +4,7 @@ title:  C Preprocessor Bildirimleri
 date:   2018-01-03 12:52:00
 tags:   C Programlama Linux GCC
 comments: true
-published: true
+published: false
 lang: tr
 ---
  

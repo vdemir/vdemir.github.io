@@ -4,7 +4,7 @@ title:  Dinamik Bellek
 date:   2018-01-04 14:52:00
 tags:   C Programlama Linux GCC
 comments: true
-published: true
+published: false
 lang: tr
 ---
  
