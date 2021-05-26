@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Python Data Classes
+description: Python 3’ün yeni tür etiketlerini kullanmanın avantajını da taşıyorlar.
 date:   2019-02-18 12:00:00
 last_updated: 2019-02-18 12:00:00
 keywords: linux, python
