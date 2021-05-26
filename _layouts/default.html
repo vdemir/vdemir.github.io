@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 
-<html lang="tr" prefix="og: http://ogp.me/ns#">
+<html lang="tr" prefix="og: https://ogp.me/ns# article: https://ogp.me/ns/article#"">
 <head>
     <meta charset="utf-8">
    <link rel='author' href='/humans.txt' type='text/plain'>
    <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/images/icon.png">
-
+<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
     <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
 
     <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}Daily</title>
