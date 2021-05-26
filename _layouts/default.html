@@ -106,7 +106,7 @@
 <br/> 
     <div class="contact">
 
-{% if page.title =! '' %}      
+{% if page.author.name != 'Günce' %}      
       <a href="https://github.com/vdemir" title="Github" target="_blank"><i class="fab fa-github fa-4x " aria-hidden="true"></i></a>
 
       <a href="https://www.youtube.com/channel/UCghWuRqdO-HXsxRxBn4dHHQ/videos" title="YouTube" target="_blank"><i class="fab fa-youtube fa-4x " aria-hidden="true"></i></a>
@@ -118,7 +118,7 @@
       <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.tr" title="Creative Commons License" target="_blank"><i class="fas fa-closed-captioning fa-4x " aria-hidden="true"></i></a>
 {% endif %} 
     </div>
-{% if page.title != 'Günce' %}   
+{% if page.author.name != 'Günce' %}   
 <a href="{{ site.baseurl }}/" title="Home"><i class="fas fa-home fa-3x " aria-hidden="true" style="color:gray;"></i></a>{% endif %}
 
 
