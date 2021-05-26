@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Pisi Linux Renkli Çıkartmalar Hazır
+description: Pisi Linux tanıtımı için tasarlanan renkli çıkartma örnekleri GIMP kullanılarak hazırlandı
 date:   2015-09-26 08:00:00
 tags:   Pisi Linux Etiket
 categories: [Pisi Linux]
