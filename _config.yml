@@ -10,7 +10,7 @@ description:
   meta: Günce - Daily is a minimalist blog with focus on readability and content.
 
   # Description of your site. This will show up on the front page.
-  subtitle: Günce - Daily is a minimalist blog with focus on readability and content. <a href=http://github.com/vdemir/ on Github</a>.
+  subtitle: Günce - Daily is a minimalist blog with focus on readability and content. <a href=https://github.com/vdemir/ on Github</a>.
 
 title             : Günlük Blog Yazıları.. Proglamlama konusunda Tükçe kaynak oluşturmak amacıyla.. Çeşitli konularda paylaşılan yazılar..
 lang              : tr_TR
@@ -19,10 +19,10 @@ image             : siteicon.png
 logo              : siteicon.png
 search            : true
 baseurl           : 
-url               : http://vdemir.github.io
+url               : https://vdemir.github.io
 author:
   name            : Günce
-  url             : http://vdemir.github.io
+  url             : https://vdemir.github.io
   email           : jeruselam@yandex.com
   bio             : Just another tattooed, time traveling designer.
   picture         : 
@@ -33,7 +33,7 @@ google_site_verification     : zFuwF6tlf7YemTRN-ZOvl5lG1rjuI9qEomPbr_5vAu8
 social:
   name: Vedat Demir
   links:
-    - http://github.com/vdemir
+    - https://github.com/vdemir
 timezone: Europe/Istanbul # add your own locale timezone
 comments:
   provider: disqus
