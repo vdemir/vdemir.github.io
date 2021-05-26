@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Python Eğiticisi
+description: Programlamaya yeni başlayanlar için Python Eğitici Rehber olarak hazırlanmaktadır.
 date:   2018-09-18 12:00:00
 last_updated: 2018-19-15 12:00:00
 keywords: linux, python
