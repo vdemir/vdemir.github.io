@@ -384,7 +384,7 @@ for i in `cat list.txt`; do
 done
 {% endhighlight %}
 
-[![Django App in Minutes]({{base.url}}/images/venv/venv2.jpg)](http://vdemir.github.io/Django_App)
+[![Django App in Minutes]({{base.url}}/images/venv/venv2.jpg)](https://vdemir.github.io/Django_App)
 
 
 
