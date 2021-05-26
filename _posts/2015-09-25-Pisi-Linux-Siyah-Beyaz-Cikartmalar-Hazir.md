@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Pisi Linux Siyah-Beyaz Çıkartmalar Hazır
+description: Pisi Linux tanıtımı için tasarlanan siyah-beyaz çıkartma örnekleri GIMP kullanılarak hazırlandı
 date:   2015-09-25 15:00:00
 tags:   Pisi Linux Etiket
 categories: [Pisi Linux]

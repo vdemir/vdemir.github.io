@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Linux ile Win10 iso Kalıbı Yazdırmak
+description: BIOS önyüklemesinde GPT için ilk bölüm 8MB biçimlendirilmemiş ve 'bios_grub' bayrak setine ihtiyacınız var
 date:   2019-04-04 12:00:00
 tags:   Linux
 categories: [Linux]
