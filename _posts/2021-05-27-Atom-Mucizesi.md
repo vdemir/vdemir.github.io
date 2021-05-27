@@ -1,18 +1,11 @@
 ---
 layout: post
 title:  "ATOM MUCİZESİ"
-description: "Görkemli boyutlarıyla insan aklının kavrama sınırlarını zorlayan evren,
-var olduğu ilk andan itibaren hassas dengeler üzerinde ve büyük bir
-düzen içerisinde, hiç şaşmadan işlemektedir."
+description: "Görkemli boyutlarıyla insan aklının kavrama sınırlarını zorlayan evren, var olduğu ilk andan itibaren hassas dengeler üzerinde ve büyük bir düzen içerisinde,  hiç şaşmadan işlemektedir."
 date:   2021-05-27 12:00:00
-last_updated: Aug 29, 2021
 excerpt: "Kitapta zaman zaman karşınıza Allah'ın yaratmasındaki mükemmelliği
 vurgulamak için kullandığımız "tasarım" kelimesi çıkacak. Bu kelimenin
-hangi maksatla kullanıldığının doğru anlaşılması çok önemli. Allah'ın
-tüm evrende kusursuz bir tasarım yaratmış olması, Rabbimiz'in önce plan
-yaptığı daha sonra yarattığı anlamına gelmez. Bilinmelidir ki, yerlerin
-ve göklerin Rabbi olan Allah'ın yaratmak için herhangi bir 'tasarım'
-yapmaya ihtiyacı yoktur. "
+hangi maksatla kullanıldığının doğru anlaşılması çok önemli. "
 keywords: ATOM MUCİZESİ, HARUN YAHYA
 tags:  Kitap
 categories: [Kitap]
