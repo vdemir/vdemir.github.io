@@ -55,10 +55,10 @@ lang: tr
 </style>
 
 <div class="container">
-            <a href="https://harun-yahya.github.io/TURKISH/HTML/ATOM-MUCIZESI.html" >
-  <img src="/assets/cover/ATOM-MUCIZESI.jpg" alt="Avatar" class="image" style="width:100%"></a>
+            
+  <img src="/assets/cover/ATOM-MUCIZESI.jpg" alt="Avatar" class="image" style="width:100%">
   <div class="middle">
-    <div class="text">ATOM MUCİZESİ</div>
+    <div class="text"><a href="https://harun-yahya.github.io/TURKISH/ATOM-MUCIZESI.html" >ATOM MUCİZESİ</a></div>
   </div>
 </div>
 
