@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  LA MATIERE :L'AUTRE NOM DE L'ILLUSION
+title:  LA MATIERE L'AUTRE NOM DE L'ILLUSION
 description: Dans tous les livres de l'auteur, les questions liées à la foi sont
 expliquées à la lumière des versets coraniques et les gens sont invités
 à connaître la parole de Dieu et à vivre selon Ses préceptes. Tous les
