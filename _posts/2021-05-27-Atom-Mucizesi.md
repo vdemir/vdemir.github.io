@@ -22,7 +22,7 @@ lang: tr
 .image {
   opacity: 1;
   display: block;
-  width: 100%;
+  width: 70%;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
