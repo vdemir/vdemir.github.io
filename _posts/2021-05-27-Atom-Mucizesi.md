@@ -54,8 +54,6 @@ lang: tr
 }
 </style>
 
-<h2>Fade in a Box</h2>
-
 <div class="container">
             <a href="https://harun-yahya.github.io/TURKISH/HTML/ATOM-MUCIZESI.html" >
   <img src="/assets/cover/ATOM-MUCIZESI.jpg" alt="Avatar" class="image" style="width:100%"></a>
