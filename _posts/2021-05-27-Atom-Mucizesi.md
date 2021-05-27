@@ -13,6 +13,58 @@ lang: tr
 ---
 
 
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+</style>
+
+<h2>Fade in a Box</h2>
+
+<div class="container">
+            <a href="https://harun-yahya.github.io/TURKISH/HTML/ATOM-MUCIZESI.html" >
+  <img src="/assets/cover/ATOM-MUCIZESI.jpg" alt="Avatar" class="image" style="width:100%"></a>
+  <div class="middle">
+    <div class="text">John Doe</div>
+  </div>
+</div>
+
+
 ATOM MUCİZESİ
 
 HARUN YAHYA
