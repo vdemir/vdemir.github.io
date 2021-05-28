@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Prefetching, preloading, prebrowsing"
-date:   2021-05-24 12:00:00
+date:   2021-05-29 12:00:00
 last_updated: Aug 29, 2021
 description: İnternet sayfalarının ilk açılış gösterimi düşünüldüğünde, sayfanın daha hızlı yüklenmesi ve kullanıcıların hedeflerini olabildiğince çabuk tamamlaması için (İnternet) metin sunucuda birleştirme, küçültme, önbelleğe alma veya gzipleme gibi şeyler düşünürüz. 
 excerpt: Prefetching (önceden getirme), preloading (önceden yükleme), prebrowsing (ön göz atma)
