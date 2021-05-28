@@ -17,31 +17,25 @@ Prefetching (önceden getirme), preloading (önceden yükleme), prebrowsing (ön
 
 İnternet sayfalarının ilk açılış gösterimi düşünüldüğünde, sayfanın daha hızlı yüklenmesi ve kullanıcıların hedeflerini olabildiğince çabuk tamamlaması için (internet) metin sunucuda birleştirme, küçültme, önbelleğe alma veya gzipleme gibi şeyler düşünürüz. 
 
-
 Kaynakların önceden getirilmesi (prefetching), başka bir performans artırıcı tekniktir. (internet) metin sunucuya, kullanıcının gelecekte hangi varlıklara ihtiyaç duyabileceğini -ihtiyaç duymadan önce-söylemek için kullanabiliriz. 
-
 
 > Önceden getirme, (internet) metin sunucuya kesinlikle gidecek veya gelecekte kullanılabilecek kaynaklar hakkında ipucu vermenin bir yoludur, bazı ipuçları mevcut sayfa için, diğerleri ise gelecekteki olası sayfalar için geçerlidir. 
 
-
 > Geliştiriciler olarak, uygulamalarımızı (internet) metin sunucudan daha iyi biliyoruz. Bu bilgileri, temel kaynaklar hakkında (internet) metin sunucuyu bilgilendirmek için kullanabiliriz. 
-
-
-This practice of guessing what users need before they need it is has been called _prebrowsing_. It’s not just a single technique though, it breaks down into a number of different techniques: `dns-prefetch`, `subresource`, the standard `prefetch`, `preconnect`, and `prerender`.
-
 
 Kullanıcıların ihtiyaç duymadan önce neye ihtiyaç duyduklarını tahmin etme tekniğine _prebrowsing_ denir. Bu sadece tek bir teknik olsa da, bir dizi farklı tekniğe ayrılır: "dns-prefetch", "subresource", standart "prefetch", "preconnect" ve "prerender". 
 
 ### DNS prefetching
-
-This notifies the client that there are assets we’ll need later from a specific URL so the browser can resolve the DNS as quickly as possible. Say we need a resource, like an image or an audio file, from the URL `example.com`. In the `<head>` of the document we’d write:
 
 Bu, (internet) metin sunucuya daha sonra belirli bir URL'den ihtiyaç duyacağımız varlıklar olduğunu bildirir, böylece (internet) metin sunucu DNS'yi olabildiğince çabuk çözebilir. "example.com" URL'sinden bir resim veya ses dosyası gibi bir kaynağa ihtiyacımız olduğunu varsayalım. Belgenin "<head>" kısmına şunu yazardık: 
 
 
     <linkrel="dns-prefetch"href="//example.com">
 
-Then, when we request a file from it, we’ll no longer have to wait for the DNS lookup. This is particularly useful if we’re using code from third parties or resources from social networks where we might be loading a widget from a `<script>`.
+
+Artık, ondan bir dosya istediğimizde, artık DNS araştırması için beklememiz gerekmeyecek. Bu, özellikle üçüncü tarafların kodlarını veya bir 'script' öğesinden sosyal ağlardaki kaynakları kullandığımız bir pencere öğesi yükleyebileceğimiz zaman kullanışlıdır. 
+
+
 
 In his [epic front-end performance post](http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers/#section:dns-prefetching), Harry Roberts suggests using this technique:
 
