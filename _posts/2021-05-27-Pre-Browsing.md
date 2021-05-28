@@ -14,6 +14,7 @@ lang: tr
 ---
 
 
+{% include CSS.html %}
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/pre-browsing.png" alt="programs" class="img-responsive" width="470px" height="313px"/>
