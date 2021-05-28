@@ -55,7 +55,7 @@ defaults:
       image: true
 
 # Plugins
-plugins_dir: 
+plugins: 
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
