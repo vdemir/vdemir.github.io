@@ -11,6 +11,11 @@ categories: [Books]
 comments: false
 published: true
 lang: en
+sitemap:
+  lastmod: 2021-05-23
+  priority: 0.7
+  changefreq: 'monthly'
+  exclude: 'no'
 ---
 
 **MASTERMIND: THE TRUTH OF THE BRITISH DEEP STATE REVEALED**
