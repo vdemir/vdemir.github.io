@@ -35,9 +35,7 @@ Artık, ondan bir dosya istediğimizde, artık DNS araştırması için beklemem
 
 > Bu basit satır, destekleyici (İnternet) metin sunuculara, o etki alanı için gerçekten ihtiyaç duyulmadan çok daha önce DNS'yi getirmeye başlamalarını söyleyecektir. Bu, (İnternet) metin sunucu öğesini isteyen komut dosyası öğesine gerçekten ulaştığında, DNS arama işleminin önceden devam edeceği anlamına gelir. (İnternet) metin sunucuya küçük bir avantaj sağlar. 
 
-
-
-This might seem like such a tiny performance improvement as to not matter very much, but this is not necessarily the case – [Chrome does something similar all the time](https://docs.google.com/presentation/d/18zlAdKAxnc51y_kj-6sWLmnjl6TLnaru_WH0LJTjP-o/present?slide=id.g120f70e9a_041). It’ll automatically preresolve the DNS (and sometimes even prerender the page) if you type just a small part of the domain into the URL bar, thus shaving crucial milliseconds off each request.
+Bu, çok da önemli olmayacak kadar küçük bir performans iyileştirmesi gibi görünebilir, ancak durum böyle değildir - [Chrome her zaman benzer bir şey yapar] (https://docs.google.com/presentation/d/18zlAdKAxnc51y_kj-6sWLmnjl6TLnaru_WH0LJTjP-o). Alanın yalnızca küçük bir bölümünü URL çubuğuna yazarsanız, DNS'yi otomatik olarak önceden çözer (ve hatta bazen sayfayı önceden oluşturur), böylece her istekte çok önemli milisaniyeler kısalır. 
 
 ### Preconnect
 
