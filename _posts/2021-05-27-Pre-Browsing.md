@@ -9,7 +9,7 @@ keywords: Prefetch, preload
 tags:  Web
 categories: [Web ]
 comments: false
-published: false
+published: true
 lang: tr
 ---
 
