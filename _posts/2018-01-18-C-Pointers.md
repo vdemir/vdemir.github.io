@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  C'de Pointer İşaretçiler
+description: Bu yazıda işaretçiler hakkında bilgi edineceksiniz; onlar nedir, onları nasıl kullanırsınız ve onlarla çalışırken karşılaşabileceğiniz yaygın hatalar nelerdir.
 date:   2018-01-16 13:52:00
 excerpt: "C, Programming"
 tags:   C Programlama Linux
