@@ -6,8 +6,8 @@ last_updated: Aug 29, 2021
 description: İnternet sayfalarının ilk açılış gösterimi düşünüldüğünde, sayfanın daha hızlı yüklenmesi ve kullanıcıların hedeflerini olabildiğince çabuk tamamlaması için (internet) metin sunucuda birleştirme, küçültme, önbelleğe alma veya gzipleme gibi şeyler düşünürüz. 
 excerpt: Prefetching (önceden getirme), preloading (önceden yükleme), prebrowsing (ön göz atma)
 keywords: Prefetch, preload
-tags:  Books
-categories: [Books ]
+tags:  Web
+categories: [Web ]
 comments: false
 published: false
 lang: tr
