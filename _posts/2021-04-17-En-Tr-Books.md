@@ -104,7 +104,7 @@ lang: en
 
 <tr><td>PDF</td><td>1999</td><td>LIBRARY FRENCH</td><td><a href="https://fliphtml5.com/bookcase/rblwg" target="_blank">LiNK</a></td><td>FRENCH </td></tr>
 
-
+<!--
 
 <tr><td>PDF</td><td>1999</td><td>YENİ MASONİK DÜZEN</td><td><a href="https://www.yumpu.com/tr/document/view/65589913/yeni-masonik-duzen" target="_blank">LiNK</a></td><td>YENİ MASONİK DÜZEN</td></tr>
 
@@ -116,7 +116,7 @@ lang: en
 
 
 <tr><td>PDF</td><td>1999</td><td>upload-exp-4-4-2022</td><td><a href="https://www.dosyaupload.com/folder/4124/english?sharekey=b1e2h_2bmbij6fg0oc7mnpw9qz9mf5br7ptoow-85gscv7cijk347-exyoibut0_" target="_blank">LiNK</a></td><td>union2025-english-file</td></tr>
-
+-->
 
 <tr><td>PDF</td><td>1999</td><td>flipbook</td><td><a href="https://xyz.pageflip.online/a-helping-hand-for-refugees-ciy" target="_blank">LiNK</a></td><td>union2024@protonmail.com</td></tr>
 
