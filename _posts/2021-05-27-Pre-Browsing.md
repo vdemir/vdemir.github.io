@@ -34,6 +34,12 @@ Kullanıcıların ihtiyaç duymadan önce neye ihtiyaç duyduklarını tahmin et
 
 ### DNS prefetching
 
+
+<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="{{ site.baseurl }}/images/pre-fetch.png" alt="programs" class="img-responsive" width="470px" height="313px"/>
+  <p><small>Browsers &bull; Dnsmasq.</small></p>
+</div>
+
 Bu, (İnternet) metin sunucuya daha sonra belirli bir URL'den ihtiyaç duyacağımız varlıklar olduğunu bildirir, böylece (İnternet) metin sunucu DNS'yi olabildiğince çabuk çözebilir. "example.com" URL'sinden bir resim veya ses dosyası gibi bir kaynağa ihtiyacımız olduğunu varsayalım. Belgenin "<head>" kısmına şunu yazardık: 
 
     <linkrel="dns-prefetch"href="//example.com">
