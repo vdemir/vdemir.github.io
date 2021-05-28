@@ -1,12 +1,7 @@
 ---
 layout: post
 title:  LA MATIERE L'AUTRE NOM DE L'ILLUSION
-description: Dans tous les livres de l'auteur, les questions liées à la foi sont
-expliquées à la lumière des versets coraniques et les gens sont invités
-à connaître la parole de Dieu et à vivre selon Ses préceptes. Tous les
-sujets qui concernent les versets de Dieu sont expliqués de telle façon
-à ne laisser planer ni doute, ni questionnement dans l'esprit du
-lecteur.
+description: Dans tous les livres de l'auteur, les questions liées à la foi sont expliquées à la lumière des versets coraniques et les gens sont invités à connaître la parole de Dieu et à vivre selon Ses préceptes. Tous les sujets qui concernent les versets de Dieu sont expliqués de telle façon à ne laisser planer ni doute, ni questionnement dans l'esprit du lecteur.
 keywords: LA MATIERE L'AUTRE NOM DE L'ILLUSION, HARUN YAHYA
 date:   2021-05-14 12:00:00
 tags:   Books
