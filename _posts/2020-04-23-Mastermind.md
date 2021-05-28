@@ -1,8 +1,8 @@
 ﻿---
 layout: post
-title:  "MASTERMIND: THE TRUTH OF THE BRITISH DEEP STATE REVEALED"
+title:  MASTERMIND THE TRUTH OF THE BRITISH DEEP STATE REVEALED
 description: The constant clashes, conflicts and wars that mar today's world are actually supposed to be happening now, in these End Times, as the Prophet Muhammad (pbuh) told us 1,400 years ago. However, since God creates everything to be dependent on causes, the current volatile environment of our age has its own causes and the duty of the *dajjal* (the antichrist) is creating these causes, so that the confrontation between good and evil can take place.
-summary: "The constant clashes, conflicts and wars that mar today's world are actually supposed to be happening now, in these End Times, as the Prophet Muhammad (pbuh) told us 1,400 years ago. However, since God creates everything to be dependent on causes, the current volatile environment of our age has its own causes and the duty of the *dajjal* (the antichrist) is creating these causes, so that the confrontation between good and evil can take place.
+summary: The constant clashes, conflicts and wars that mar today's world are actually supposed to be happening now, in these End Times, as the Prophet Muhammad (pbuh) told us 1,400 years ago. However, since God creates everything to be dependent on causes, the current volatile environment of our age has its own causes and the duty of the *dajjal* (the antichrist) is creating these causes, so that the confrontation between good and evil can take place.
 date:   2020-04-23 12:00:00
 last_updated: Aug 29, 2021
 excerpt: MASTERMIND: THE TRUTH OF THE BRITISH DEEP STATE REVEALED
