@@ -3,7 +3,7 @@ layout: post
 title:  "Prefetching, preloading, prebrowsing"
 date:   2021-05-24 12:00:00
 last_updated: Aug 29, 2021
-description: İnternet sayfalarının ilk açılış gösterimi düşünüldüğünde, sayfanın daha hızlı yüklenmesi ve kullanıcıların hedeflerini olabildiğince çabuk tamamlaması için (internet) metin sunucuda birleştirme, küçültme, önbelleğe alma veya gzipleme gibi şeyler düşünürüz. 
+description: İnternet sayfalarının ilk açılış gösterimi düşünüldüğünde, sayfanın daha hızlı yüklenmesi ve kullanıcıların hedeflerini olabildiğince çabuk tamamlaması için (İnternet) metin sunucuda birleştirme, küçültme, önbelleğe alma veya gzipleme gibi şeyler düşünürüz. 
 excerpt: Prefetching (önceden getirme), preloading (önceden yükleme), prebrowsing (ön göz atma)
 keywords: Prefetch, preload
 tags:  Web
@@ -15,29 +15,27 @@ lang: tr
 
 Prefetching (önceden getirme), preloading (önceden yükleme), prebrowsing (ön göz atma)
 
-İnternet sayfalarının ilk açılış gösterimi düşünüldüğünde, sayfanın daha hızlı yüklenmesi ve kullanıcıların hedeflerini olabildiğince çabuk tamamlaması için (internet) metin sunucuda birleştirme, küçültme, önbelleğe alma veya gzipleme gibi şeyler düşünürüz. 
+İnternet sayfalarının ilk açılış gösterimi düşünüldüğünde, sayfanın daha hızlı yüklenmesi ve kullanıcıların hedeflerini olabildiğince çabuk tamamlaması için (İnternet) metin sunucuda birleştirme, küçültme, önbelleğe alma veya gzipleme gibi şeyler düşünürüz. 
 
-Kaynakların önceden getirilmesi (prefetching), başka bir performans artırıcı tekniktir. (internet) metin sunucuya, kullanıcının gelecekte hangi varlıklara ihtiyaç duyabileceğini -ihtiyaç duymadan önce-söylemek için kullanabiliriz. 
+Kaynakların önceden getirilmesi (prefetching), başka bir performans artırıcı tekniktir. (İnternet) metin sunucuya, kullanıcının gelecekte hangi varlıklara ihtiyaç duyabileceğini -ihtiyaç duymadan önce-söylemek için kullanabiliriz. 
 
-> Önceden getirme, (internet) metin sunucuya kesinlikle gidecek veya gelecekte kullanılabilecek kaynaklar hakkında ipucu vermenin bir yoludur, bazı ipuçları mevcut sayfa için, diğerleri ise gelecekteki olası sayfalar için geçerlidir. 
+> Önceden getirme, (İnternet) metin sunucuya kesinlikle gidecek veya gelecekte kullanılabilecek kaynaklar hakkında ipucu vermenin bir yoludur, bazı ipuçları mevcut sayfa için, diğerleri ise gelecekteki olası sayfalar için geçerlidir. 
 
-> Geliştiriciler olarak, uygulamalarımızı (internet) metin sunucudan daha iyi biliyoruz. Bu bilgileri, temel kaynaklar hakkında (internet) metin sunucuyu bilgilendirmek için kullanabiliriz. 
+> Geliştiriciler olarak, uygulamalarımızı (İnternet) metin sunucudan daha iyi biliyoruz. Bu bilgileri, temel kaynaklar hakkında (İnternet) metin sunucuyu bilgilendirmek için kullanabiliriz. 
 
 Kullanıcıların ihtiyaç duymadan önce neye ihtiyaç duyduklarını tahmin etme tekniğine _prebrowsing_ denir. Bu sadece tek bir teknik olsa da, bir dizi farklı tekniğe ayrılır: "dns-prefetch", "subresource", standart "prefetch", "preconnect" ve "prerender". 
 
 ### DNS prefetching
 
-Bu, (internet) metin sunucuya daha sonra belirli bir URL'den ihtiyaç duyacağımız varlıklar olduğunu bildirir, böylece (internet) metin sunucu DNS'yi olabildiğince çabuk çözebilir. "example.com" URL'sinden bir resim veya ses dosyası gibi bir kaynağa ihtiyacımız olduğunu varsayalım. Belgenin "<head>" kısmına şunu yazardık: 
+Bu, (İnternet) metin sunucuya daha sonra belirli bir URL'den ihtiyaç duyacağımız varlıklar olduğunu bildirir, böylece (İnternet) metin sunucu DNS'yi olabildiğince çabuk çözebilir. "example.com" URL'sinden bir resim veya ses dosyası gibi bir kaynağa ihtiyacımız olduğunu varsayalım. Belgenin "<head>" kısmına şunu yazardık: 
 
     <linkrel="dns-prefetch"href="//example.com">
 
-Artık, ondan bir dosya istediğimizde, artık DNS araştırması için beklememiz gerekmeyecek. Bu, özellikle üçüncü tarafların kodlarını veya bir 'script' öğesinden sosyal ağlardaki kaynakları kullandığımız bir pencere öğesi yükleyebileceğimiz zaman kullanışlıdır. 
+Artık, ondan bir dosya istediğimizde, artık DNS araştırması için beklememiz gerekmeyecek. Bu, özellikle üçüncü tarafların kodlarını veya bir 'script' öğesinden sosyal ağlardaki kaynakları kullandığımız bir öğe yükleyebileceğimizden kullanışlıdır.
+
+> Bu basit satır, destekleyici (İnternet) metin sunuculara, o etki alanı için gerçekten ihtiyaç duyulmadan çok daha önce DNS'yi getirmeye başlamalarını söyleyecektir. Bu, (İnternet) metin sunucu öğesini isteyen komut dosyası öğesine gerçekten ulaştığında, DNS arama işleminin önceden devam edeceği anlamına gelir. (İnternet) metin sunucuya küçük bir avantaj sağlar. 
 
 
-
-In his [epic front-end performance post](http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers/#section:dns-prefetching), Harry Roberts suggests using this technique:
-
-> That simple line will tell supportive browsers to start prefetching the DNS for that domain a fraction before it’s actually needed. This means that the DNS lookup process will already be underway by the time the browser hits the script element that actually requests the widget. It just gives the browser a small head start.
 
 This might seem like such a tiny performance improvement as to not matter very much, but this is not necessarily the case – [Chrome does something similar all the time](https://docs.google.com/presentation/d/18zlAdKAxnc51y_kj-6sWLmnjl6TLnaru_WH0LJTjP-o/present?slide=id.g120f70e9a_041). It’ll automatically preresolve the DNS (and sometimes even prerender the page) if you type just a small part of the domain into the URL bar, thus shaving crucial milliseconds off each request.
 
