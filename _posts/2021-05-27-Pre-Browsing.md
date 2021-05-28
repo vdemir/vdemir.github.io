@@ -13,6 +13,13 @@ published: false
 lang: tr
 ---
 
+
+
+<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="{{ site.baseurl }}/images/pre-browsing.png" alt="programs" class="img-responsive" width="470px" height="313px"/>
+  <p><small>Browsers &bull; Dnsmasq.</small></p>
+</div>
+
 Prefetching (önceden getirme), preloading (önceden yükleme), prebrowsing (ön göz atma)
 
 İnternet sayfalarının ilk açılış gösterimi düşünüldüğünde, sayfanın daha hızlı yüklenmesi ve kullanıcıların hedeflerini olabildiğince çabuk tamamlaması için (İnternet) metin sunucuda birleştirme, küçültme, önbelleğe alma veya gzipleme gibi şeyler düşünürüz. 
