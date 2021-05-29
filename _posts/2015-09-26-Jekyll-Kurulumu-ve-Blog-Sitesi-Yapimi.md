@@ -45,7 +45,7 @@ git add -A &&  git commit -m "commit" && git push origin master
 sudo jekyll serve			/*local server üzerinde denenmesi*/
 {% endhighlight %}
 
-Sonuç olarak statik web sitemizi yada bloğumuzu web tarayıcı adres çubuğuna ```http://localhost:4000/``` yazarak görüntüleyebiliyoruz.
+Sonuç olarak statik İnternet sitemizi yada bloğumuzu İnternet metin sunucunun adres çubuğuna ```http://localhost:4000/``` yazarak görüntüleyebiliyoruz.
 
 Bloğunuzda kullanabileceğiniz resimleri düzenlemek için ```Gimp``` ve siteyi host eden GitHub sitesine commit yapmak için ```git``` paketlerinin kurulumuna da ihtiyacınız olacaktır.
 
