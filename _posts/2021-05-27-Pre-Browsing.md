@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Prefetching, preloading, prebrowsing"
+title:  "Prefetching, Preloading, Prerendering"
 date:   2021-05-29 12:00:00
 last_updated: Aug 29, 2021
 description: İnternet sayfalarının ilk açılış gösterimi düşünüldüğünde, sayfanın daha hızlı yüklenmesi ve kullanıcıların hedeflerini olabildiğince çabuk tamamlaması için (İnternet) metin sunucuda birleştirme, küçültme, önbelleğe alma veya gzipleme gibi şeyler düşünürüz. 
@@ -27,7 +27,7 @@ Prefetching (önceden getirme), preloading (önceden yükleme), prebrowsing (ön
 
 İnternet sayfalarının ilk açılış gösterimi düşünüldüğünde, sayfanın daha hızlı yüklenmesi ve kullanıcıların hedeflerini olabildiğince çabuk tamamlaması için (İnternet) metin sunucuda birleştirme, küçültme, önbelleğe alma veya gzipleme gibi şeyler düşünürüz. 
 
-Kaynakların önceden getirilmesi (prefetching), başka bir performans artırıcı tekniktir. İnternet metin sunucuya, kullanıcının gelecekte hangi varlıklara ihtiyaç duyabileceğini -ihtiyaç duymadan önce-söylemek için kullanabiliriz. 
+Kaynakların önceden getirilmesi (prefetching), başka bir performans artırıcı tekniktir. İnternet metin sunucuya, kullanıcının gelecekte hangi varlıklara ihtiyaç duyabileceğini -ihtiyaç duymadan önce söylemek için kullanabiliriz. 
 
 > Önceden getirme, İnternet metin sunucuya kesinlikle gidecek veya gelecekte kullanılabilecek kaynaklar hakkında ipucu vermenin bir yoludur, bazı ipuçları mevcut sayfa için, diğerleri ise gelecekteki olası sayfalar için geçerlidir. 
 
