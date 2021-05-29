@@ -48,7 +48,7 @@ Bu yerelleştirme, İnternet metin sunucuya daha sonra belirli bir URL'den ihtiy
 
 Artık, ondan bir dosya istediğimizde, DNS araştırması için beklememiz gerekmeyecek. Bu  yerelleştirme, özellikle üçüncü taraf kodları veya bir '<script>' öğesinde sosyal ağlardaki kaynaklar için kullandığımız bir öğeyi yükleyeleceğimizde kullanışlıdır.
 
-Bu basit satır, destekleyici İnternet metin sunuculara, o etki alanı için gerçekten ihtiyaç duyulmadan çok daha önce DNS'yi getirmeye başlamalarını söyleyecektir. Bu, (İnternet) metin sunucu öğesini isteyen komut dosyası öğesine gerçekten ulaştığında, DNS arama işleminin önceden devam edeceği anlamına gelir. (İnternet) metin sunucuya küçük bir avantaj sağlar. 
+Bu basit satır, destekleyen İnternet metin sunuculara, etki alanı içinde gerçekten ihtiyaç duyulmadan çok daha önce DNS'yi getirmeye başlamalarını söyleyecektir. Bu istek, İnternet metin sunucu, komut dosyası öğesine gerçekten ulaştığında, DNS arama işleminin önceden başlatıldığı anlamına gelir. İnternet metin sunucuya küçük bir avantaj sağlar. 
 
 Bu, çok da önemli olmayacak kadar küçük bir performans iyileştirmesi gibi görünebilir, ancak durum böyle değildir - [Chrome her zaman benzer bir şey yapar] (https://docs.google.com/presentation/d/18zlAdKAxnc51y_kj-6sWLmnjl6TLnaru_WH0LJTjP-o). Alanın yalnızca küçük bir bölümünü URL çubuğuna yazarsanız, DNS'yi otomatik olarak önceden çözer (ve hatta bazen sayfayı önceden oluşturur), böylece her istekte çok önemli milisaniyeler kısalır. 
 
