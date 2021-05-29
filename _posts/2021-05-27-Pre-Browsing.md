@@ -4,7 +4,7 @@ title:  "Prefetching, Preloading, Prerendering"
 date:   2021-05-29 12:00:00
 last_updated: Aug 29, 2021
 description: İnternet sayfalarının ilk açılış gösterimi düşünüldüğünde, sayfanın daha hızlı yüklenmesi ve kullanıcıların hedeflerini olabildiğince çabuk tamamlaması için (İnternet) metin sunucuda birleştirme, küçültme, önbelleğe alma veya gzipleme gibi şeyler düşünürüz. 
-excerpt: Prefetching (önceden getirme), preloading (önceden yükleme), prerendering (önceden oluşturma)
+excerpt: Prefetching (sayfayı önceden getirme), preloading (sayfayı önceden yükleme), prerendering (sayfayı önceden oluşturma)
 keywords: Prefetch, preload
 tags:  Web Article Metot
 categories: [Web ]
