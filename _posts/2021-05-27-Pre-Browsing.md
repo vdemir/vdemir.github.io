@@ -20,7 +20,7 @@ Prefetching (önceden getirme), preloading (önceden yükleme), prebrowsing (ön
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/Pre-Browsing/pre-browsing.png" alt="programs" class="img-responsive" width="640px" height="360px"/>
-  <p><small>pre &bull; browsing.</small></p>
+  <p><small>The pre* &bull; browsing.</small></p>
 </div>
 
 Prefetching (önceden getirme), preloading (önceden yükleme), prebrowsing (ön göz atma)
