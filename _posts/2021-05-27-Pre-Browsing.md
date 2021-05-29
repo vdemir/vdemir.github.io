@@ -38,7 +38,7 @@ Kullanıcıların ihtiyaç duymadan önce neye ihtiyaç duyduklarını tahmin et
 ### DNS prefetching
 
 
-<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+<div class='pull-right alert alert-info' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/Pre-Browsing/dns-prefetch.png" alt="programs" class="img-responsive" width="470px" height="313px"/>
   <p><small>DNS &bull; prefetching.</small></p>
 </div>
