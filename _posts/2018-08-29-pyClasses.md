@@ -6,11 +6,11 @@ date:   2018-08-29 15:52:00
 last_updated: 2018-09-05 15:52:00
 keywords: linux, python, programlama
 summary: "Python 3 Sınıflar ve Nesneler."
-excerpt: This post is about Python 3 Classes
+excerpt: Python'daki hemen hemen her şey, öznitelikleri ve yordamları ile bir nesnedir. 
 categories: Programlama
 tags:   Linux Programlama Python
 permalink: /PyClasses/
-categories: [Python 3, Programlama]
+categories: [Python, Programlama]
 comments: false
 published: true
 lang: tr

@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: Metot"
-tag: Metot
+title: "Tag: Metod"
+tag: Metod
 robots: noindex
 ---
