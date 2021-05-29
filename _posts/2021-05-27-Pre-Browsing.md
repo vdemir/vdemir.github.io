@@ -39,7 +39,7 @@ Kullanıcıların ihtiyaç duymadan önce neye ihtiyaç duyduklarını tahmin et
 
 
 <div class='pull-right alert alert-info' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/Pre-Browsing/dns-prefetch.png" alt="programs" class="img-responsive" width="470px" height="313px"/>
+  <img src="{{ site.baseurl }}/images/Pre-Browsing/dns-prefetch.png" alt="programs" class="img-responsive" width="1280px" height="720px"/>
   <p><small>DNS &bull; prefetching.</small></p>
 </div>
 
