@@ -19,7 +19,7 @@ lang: tr
 Prefetching (hazır duruma getirme), preloading (önceden yükleme), prerendering (önceden oluşturma)
 
 
-![The pre* &bull; browsing.](/images/Pre-Browsing/pre-browsing.png "The pre* &bull; browsing."){:height="80%" width="80%"}
+![The pre* &bull; browsing.](/images/Pre-Browsing/pre-browsing.png "The pre* &bull; browsing."){:height="95%" width="95%"}
 
 İnternet sayfalarının ilk açılış gösterimi düşünüldüğünde, sayfanın daha hızlı yüklenmesi ve kullanıcıların hedeflerini olabildiğince çabuk tamamlaması için İnternet metin sunucusunda ki birleştirme, küçültme, önbelleğe alma veya gzipleme gibi şeyleri düşünürüz. 
 
