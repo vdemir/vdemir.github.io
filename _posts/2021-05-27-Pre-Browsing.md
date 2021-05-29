@@ -4,7 +4,7 @@ title:  "Prefetching, preloading, prebrowsing"
 date:   2021-05-29 12:00:00
 last_updated: Aug 29, 2021
 description: İnternet sayfalarının ilk açılış gösterimi düşünüldüğünde, sayfanın daha hızlı yüklenmesi ve kullanıcıların hedeflerini olabildiğince çabuk tamamlaması için (İnternet) metin sunucuda birleştirme, küçültme, önbelleğe alma veya gzipleme gibi şeyler düşünürüz. 
-excerpt: Prefetching (önceden getirme), preloading (önceden yükleme), prebrowsing (ön göz atma)
+excerpt: Prefetching (önceden getirme), preloading (önceden yükleme), prebrowsing (önceden göz atma)
 keywords: Prefetch, preload
 tags:  Web Article Metot
 categories: [Web ]
@@ -16,7 +16,7 @@ lang: tr
 
 {% include CSS.html %}
 
-Prefetching (önceden getirme), preloading (önceden yükleme), prebrowsing (önlikli göz atma)
+Prefetching (önceden getirme), preloading (önceden yükleme), prebrowsing (önceden göz atma)
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/Pre-Browsing/pre-browsing.png" alt="programs" class="img-responsive" width="640px" height="360px"/>
