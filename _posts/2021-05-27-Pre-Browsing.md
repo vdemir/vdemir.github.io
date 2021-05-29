@@ -27,11 +27,11 @@ Prefetching (önceden getirme), preloading (önceden yükleme), prebrowsing (ön
 
 İnternet sayfalarının ilk açılış gösterimi düşünüldüğünde, sayfanın daha hızlı yüklenmesi ve kullanıcıların hedeflerini olabildiğince çabuk tamamlaması için (İnternet) metin sunucuda birleştirme, küçültme, önbelleğe alma veya gzipleme gibi şeyler düşünürüz. 
 
-Kaynakların önceden getirilmesi (prefetching), başka bir performans artırıcı tekniktir. (İnternet) metin sunucuya, kullanıcının gelecekte hangi varlıklara ihtiyaç duyabileceğini -ihtiyaç duymadan önce-söylemek için kullanabiliriz. 
+Kaynakların önceden getirilmesi (prefetching), başka bir performans artırıcı tekniktir. İnternet metin sunucuya, kullanıcının gelecekte hangi varlıklara ihtiyaç duyabileceğini -ihtiyaç duymadan önce-söylemek için kullanabiliriz. 
 
-> Önceden getirme, (İnternet) metin sunucuya kesinlikle gidecek veya gelecekte kullanılabilecek kaynaklar hakkında ipucu vermenin bir yoludur, bazı ipuçları mevcut sayfa için, diğerleri ise gelecekteki olası sayfalar için geçerlidir. 
+> Önceden getirme, İnternet metin sunucuya kesinlikle gidecek veya gelecekte kullanılabilecek kaynaklar hakkında ipucu vermenin bir yoludur, bazı ipuçları mevcut sayfa için, diğerleri ise gelecekteki olası sayfalar için geçerlidir. 
 
-> Geliştiriciler olarak, uygulamalarımızı (İnternet) metin sunucudan daha iyi biliyoruz. Bu bilgileri, temel kaynaklar hakkında (İnternet) metin sunucuyu bilgilendirmek için kullanabiliriz. 
+> Geliştiriciler olarak, uygulamalarımızı İnternet metin sunucudan daha iyi biliyoruz. Bu bilgileri, temel kaynaklar hakkında İnternet metin sunucuyu bilgilendirmek için kullanabiliriz. 
 
 Kullanıcıların ihtiyaç duymadan önce neye ihtiyaç duyduklarını tahmin etme tekniğine _prebrowsing_ denir. Bu sadece tek bir teknik olsa da, bir dizi farklı tekniğe ayrılır: "dns-prefetch", "subresource", standart "prefetch", "preconnect" ve "prerender". 
 
@@ -43,13 +43,13 @@ Kullanıcıların ihtiyaç duymadan önce neye ihtiyaç duyduklarını tahmin et
   <p><small>DNS &bull; prefetching.</small></p>
 </div>
 
-Bu, (İnternet) metin sunucuya daha sonra belirli bir URL'den ihtiyaç duyacağımız varlıklar olduğunu bildirir, böylece (İnternet) metin sunucu DNS'yi olabildiğince çabuk çözebilir. "example.com" URL'sinden bir resim veya ses dosyası gibi bir kaynağa ihtiyacımız olduğunu varsayalım. Belgenin "<head>" kısmına şunu yazardık: 
+Bu, İnternet metin sunucuya daha sonra belirli bir URL'den ihtiyaç duyacağımız varlıklar olduğunu bildirir böylece İnternet metin sunucu, DNS'yi olabildiğince çabuk çözebilir. "example.com" URL'sinden bir resim veya ses dosyası gibi bir kaynağa ihtiyacımız olduğunu varsayalım. Belgenin "<head>" kısmına şunu yazardık: 
 
     <linkrel="dns-prefetch"href="//example.com">
 
-Artık, ondan bir dosya istediğimizde, artık DNS araştırması için beklememiz gerekmeyecek. Bu, özellikle üçüncü tarafların kodlarını veya bir <pre> '<script>' </pre> öğesinden sosyal ağlardaki kaynakları kullandığımız bir öğe yükleyebileceğimizden kullanışlıdır.
+Artık, ondan bir dosya istediğimizde, artık DNS araştırması için beklememiz gerekmeyecek. Bu, özellikle üçüncü tarafların kodlarını veya bir 'script' öğesinden sosyal ağlardaki kaynakları kullandığımız bir öğe yükleyebileceğimizden kullanışlıdır.
 
-> Bu basit satır, destekleyici (İnternet) metin sunuculara, o etki alanı için gerçekten ihtiyaç duyulmadan çok daha önce DNS'yi getirmeye başlamalarını söyleyecektir. Bu, (İnternet) metin sunucu öğesini isteyen komut dosyası öğesine gerçekten ulaştığında, DNS arama işleminin önceden devam edeceği anlamına gelir. (İnternet) metin sunucuya küçük bir avantaj sağlar. 
+> Bu basit satır, destekleyici İnternet metin sunuculara, o etki alanı için gerçekten ihtiyaç duyulmadan çok daha önce DNS'yi getirmeye başlamalarını söyleyecektir. Bu, (İnternet) metin sunucu öğesini isteyen komut dosyası öğesine gerçekten ulaştığında, DNS arama işleminin önceden devam edeceği anlamına gelir. (İnternet) metin sunucuya küçük bir avantaj sağlar. 
 
 Bu, çok da önemli olmayacak kadar küçük bir performans iyileştirmesi gibi görünebilir, ancak durum böyle değildir - [Chrome her zaman benzer bir şey yapar] (https://docs.google.com/presentation/d/18zlAdKAxnc51y_kj-6sWLmnjl6TLnaru_WH0LJTjP-o). Alanın yalnızca küçük bir bölümünü URL çubuğuna yazarsanız, DNS'yi otomatik olarak önceden çözer (ve hatta bazen sayfayı önceden oluşturur), böylece her istekte çok önemli milisaniyeler kısalır. 
 
