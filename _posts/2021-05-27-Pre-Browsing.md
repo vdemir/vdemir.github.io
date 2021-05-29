@@ -24,9 +24,9 @@ Prefetching (hazır duruma getirme), preloading (önceden yükleme), prerenderin
 </div>
 
 
-İnternet sayfalarının ilk açılış gösterimi düşünüldüğünde, sayfanın daha hızlı yüklenmesi ve kullanıcıların hedeflerini olabildiğince çabuk tamamlaması için (İnternet) metin sunucuda birleştirme, küçültme, önbelleğe alma veya gzipleme gibi şeyler düşünürüz. 
+İnternet sayfalarının ilk açılış gösterimi düşünüldüğünde, sayfanın daha hızlı yüklenmesi ve kullanıcıların hedeflerini olabildiğince çabuk tamamlaması için İnternet metin sunucusunda ki birleştirme, küçültme, önbelleğe alma veya gzipleme gibi şeyleri düşünürüz. 
 
-Kaynakların önceden hazır duruma getirilmesi (prefetching), başka bir performans artırıcı tekniktir. İnternet metin sunucuya, kullanıcının gelecekte hangi varlıklara ihtiyaç duyabileceğini -ihtiyaç duymadan önce söylemek için kullanabiliriz. 
+Kaynakların önceden hazır duruma getirilmesi (prefetching), başka bir performans artırıcı tekniktir. İnternet metin sunucusuna, kullanıcının gelecekte hangi varlıklara ihtiyaç duyabileceğini -ihtiyaç duymadan önce söylemek için kullanabiliriz. 
 
 > Önceden getirme, İnternet metin sunucuya kesinlikle gidecek veya gelecekte kullanılabilecek kaynaklar hakkında ipucu vermenin bir yoludur, bazı ipuçları mevcut sayfa için, diğerleri ise gelecekteki olası sayfalar için geçerlidir. 
 
