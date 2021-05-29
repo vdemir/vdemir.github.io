@@ -114,7 +114,7 @@ Bu yerelleştirme, İnternet metin sunucuya daha sonra belirli bir URL'den ihtiy
 
     <link rel="dns-prefetch" href="//example.com">
 
-Artık, ondan bir dosya istediğimizde, DNS araştırması için beklememiz gerekmeyecek. Bu  yerelleştirme, özellikle üçüncü taraf kodları veya bir '<script>' öğesinde sosyal ağlardaki kaynaklar için kullandığımız bir öğeyi yükleyeleceğimizde kullanışlıdır.
+Artık, ondan bir dosya istediğimizde, DNS araştırması için beklememiz gerekmeyecek. Bu  yerelleştirme, özellikle üçüncü taraf kodları veya bir <'script'> öğesinde sosyal ağlardaki kaynaklar için kullandığımız bir öğeyi yükleyeleceğimizde kullanışlıdır.
 
 Bu basit satır, destekleyen İnternet metin sunuculara, etki alanı içinde gerçekten ihtiyaç duyulmadan çok daha önce DNS'yi getirmeye başlamalarını söyleyecektir. Bu istek, İnternet metin sunucu, komut dosyası öğesine gerçekten ulaştığında, DNS arama işleminin önceden başlatıldığı anlamına gelir. İnternet metin sunucuya küçük bir avantaj sağlar. 
 
