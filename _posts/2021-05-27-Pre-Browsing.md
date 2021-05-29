@@ -4,7 +4,7 @@ title:  "Prefetching, Preloading, Prerendering"
 date:   2021-05-29 12:00:00
 last_updated: Aug 29, 2021
 description: İnternet sayfalarının ilk açılış gösterimi düşünüldüğünde, sayfanın daha hızlı yüklenmesi ve kullanıcıların hedeflerini olabildiğince çabuk tamamlaması için (İnternet) metin sunucuda birleştirme, küçültme, önbelleğe alma veya gzipleme gibi şeyler düşünürüz. 
-excerpt: Prefetching (sayfayı önceden getirme), preloading (sayfayı önceden yükleme), prerendering (sayfayı önceden oluşturma)
+excerpt: Prefetching (hazır duruma getirme), preloading (sayfayı önceden yükleme), prerendering (sayfayı önceden oluşturma)
 keywords: Prefetch, preload
 tags:  Web Article Metot
 categories: [Web ]
@@ -16,7 +16,7 @@ lang: tr
 
 {% include CSS.html %}
 
-Prefetching (önceden getirme), preloading (önceden yükleme), prerendering (önceden oluşturma)
+Prefetching (hazır duruma getirme), preloading (önceden yükleme), prerendering (önceden oluşturma)
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/Pre-Browsing/pre-browsing.png" alt="programs" class="img-responsive" width="640px" height="360px"/>
@@ -26,7 +26,7 @@ Prefetching (önceden getirme), preloading (önceden yükleme), prerendering (ö
 
 İnternet sayfalarının ilk açılış gösterimi düşünüldüğünde, sayfanın daha hızlı yüklenmesi ve kullanıcıların hedeflerini olabildiğince çabuk tamamlaması için (İnternet) metin sunucuda birleştirme, küçültme, önbelleğe alma veya gzipleme gibi şeyler düşünürüz. 
 
-Kaynakların önceden getirilmesi (prefetching), başka bir performans artırıcı tekniktir. İnternet metin sunucuya, kullanıcının gelecekte hangi varlıklara ihtiyaç duyabileceğini -ihtiyaç duymadan önce söylemek için kullanabiliriz. 
+Kaynakların önceden hazır duruma getirilmesi (prefetching), başka bir performans artırıcı tekniktir. İnternet metin sunucuya, kullanıcının gelecekte hangi varlıklara ihtiyaç duyabileceğini -ihtiyaç duymadan önce söylemek için kullanabiliriz. 
 
 > Önceden getirme, İnternet metin sunucuya kesinlikle gidecek veya gelecekte kullanılabilecek kaynaklar hakkında ipucu vermenin bir yoludur, bazı ipuçları mevcut sayfa için, diğerleri ise gelecekteki olası sayfalar için geçerlidir. 
 
