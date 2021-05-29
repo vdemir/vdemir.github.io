@@ -19,7 +19,7 @@ lang: tr
 Prefetching (hazır duruma getirme), preloading (önceden yükleme), prerendering (önceden oluşturma)
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/Pre-Browsing/pre-browsing.png" alt="programs" class="img-responsive" width="640px" height="360px"/>
+  <img src="{{ site.baseurl }}/images/Pre-Browsing/pre-browsing.png" alt="prebrowsing" title="prebrowsing" class="img-responsive" width="576px" height="324px"/>
   <p><small>The pre* &bull; browsing.</small></p>
 </div>
 
