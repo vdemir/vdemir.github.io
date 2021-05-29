@@ -57,8 +57,8 @@ int main()
     scanf("%s", &stud.name);
     printf("Ogrencinin numarasini giriniz:");
     scanf("%d", &stud.roll);
-    display(stud);   //  Yapisal degiskene ait sapmayi arguman olarak kabul etmek
-    return 0;
+    display(stud);   //  Yapisal degiskene ait sapmayi
+    return 0;       //   arguman olarak kabul etmek
 }
 void display(struct student stu){
   printf("Cevap\nIsim: %s",stu.name);
