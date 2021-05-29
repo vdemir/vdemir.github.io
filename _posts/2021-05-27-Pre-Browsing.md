@@ -23,7 +23,7 @@ Prefetching (önceden getirme), preloading (önceden yükleme), prerendering (ö
   <p><small>The pre* &bull; browsing.</small></p>
 </div>
 
-Prefetching (önceden getirme), preloading (önceden yükleme), prebrowsing (ön göz atma)
+Prefetching (önceden getirme), preloading (önceden yükleme), prerendering (önceden oluşturma)
 
 İnternet sayfalarının ilk açılış gösterimi düşünüldüğünde, sayfanın daha hızlı yüklenmesi ve kullanıcıların hedeflerini olabildiğince çabuk tamamlaması için (İnternet) metin sunucuda birleştirme, küçültme, önbelleğe alma veya gzipleme gibi şeyler düşünürüz. 
 
