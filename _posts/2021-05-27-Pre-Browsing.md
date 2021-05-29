@@ -44,7 +44,7 @@ Kullanıcıların ihtiyaç duymadan önce neye ihtiyaç duyduklarını tahmin et
 
 Bu, İnternet metin sunucuya daha sonra belirli bir URL'den ihtiyaç duyacağımız varlıklar olduğunu bildirir böylece İnternet metin sunucu, DNS'yi olabildiğince çabuk çözebilir. "example.com" URL'sinden bir resim veya ses dosyası gibi bir kaynağa ihtiyacımız olduğunu varsayalım. Belgenin "<head>" kısmına şunu yazardık: 
 
-    <link rel="dns-prefetch"href="//example.com">
+    <link rel="dns-prefetch" href="//example.com">
 
 Artık, ondan bir dosya istediğimizde, artık DNS araştırması için beklememiz gerekmeyecek. Bu, özellikle üçüncü tarafların kodlarını veya bir 'script' öğesinden sosyal ağlardaki kaynakları kullandığımız bir öğe yükleyebileceğimizden kullanışlıdır.
 
@@ -56,7 +56,7 @@ Bu, çok da önemli olmayacak kadar küçük bir performans iyileştirmesi gibi 
 
 Much like the DNS prefetch method, preconnect will resolve the DNS but it will also make the TCP handshake, and optional TLS negotiation. It can be used like this:
 
-    <link rel="preconnect"href="https://css-tricks.com">
+    <link rel="preconnect" href="https://example.com">
 
 For more information, [Ilya Grigorik wrote a great post](https://www.igvita.com/2015/08/17/eliminating-roundtrips-with-preconnect/) about this handy resource hint:
 
