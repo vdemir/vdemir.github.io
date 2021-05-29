@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Prefetching, Preloading, Prerendering yerelleştirme tavsiyeleri"
+title:  "Prefetching, Preloading, Prerendering yerelleştirme"
 date:   2021-05-29 12:00:00
 last_updated: Aug 29, 2021
 description: İnternet sayfalarının ilk açılış gösterimi düşünüldüğünde, sayfanın daha hızlı yüklenmesi ve kullanıcıların hedeflerini olabildiğince çabuk tamamlaması için (İnternet) metin sunucuda birleştirme, küçültme, önbelleğe alma veya gzipleme gibi şeyler düşünürüz. 
