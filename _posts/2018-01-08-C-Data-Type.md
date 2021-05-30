@@ -12,8 +12,6 @@ lang: tr
 ---
 
 
-
-<p class="meta">15 Ocak 2018 - Türkiye</p>
 {% include CSS.html %}
 
 ## Data Tipleri
