@@ -14,7 +14,7 @@ lang: tr
 
 
 {% include CSS.html %}
-C Programlamada Pointers İşaretçiler
+C Programlamada "**Pointer**" İşaretçileri
 -------------
 
 Bu yazıda işaretçiler hakkında bilgi edineceksiniz; onlar nedir, onları nasıl kullanırsınız ve onlarla çalışırken karşılaşabileceğiniz yaygın hatalar nelerdir.
