@@ -65,12 +65,12 @@ Address: 2686778
 
 Yukarıdaki kaynak kodda, değer: `5`, bellek yerel adresi: `2686778`'de saklanır. `var`, sadece o yere verilen isimdir.
 
-'**Pointer**' İşaretçi Değişkenler
+**Pointer** İşaretçi Değişkenler
 -----------------
 
 C'de sadece başka bir değişkenin adresini saklamanızı sağlayan özel bir değişken vardır. Pointer değişkeni veya basitçe pointer işaretçi olarak adlandırılır.
 
-'**Pointer**' İşaretçinin Beyanı
+'*Pointer** İşaretçinin Beyanı
 ~~~
 data_type* pointer_variable_name;
 int* p;
