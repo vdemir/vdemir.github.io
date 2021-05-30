@@ -18,7 +18,6 @@ lang: tr
 
 Prefetching (hazır duruma getirme), preloading (önceden yükleme), prerendering (önceden oluşturma)
 
-
 ![The pre* &bull; browsing.](/images/Pre-Browsing/pre-browsing.png "The pre* &bull; browsing."){:height="95%" width="95%"}
 
 İnternet sayfalarının ilk açılış gösterimi düşünüldüğünde, sayfanın daha hızlı yüklenmesi ve kullanıcıların hedeflerini olabildiğince çabuk tamamlaması için İnternet metin sunucusunda ki birleştirme, küçültme, önbelleğe alma veya gzipleme gibi şeyleri düşünürüz. 
@@ -34,10 +33,7 @@ Kullanıcıların ihtiyaç duymadan önce neye ihtiyaç duyduklarını tahmin et
 ### DNS prefetching
 
 
-<div class='pull-right alert alert-info' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/Pre-Browsing/dns-prefetch.png" alt="dns-prefetch" title="dns-prefetch" class="img-responsive" width="576px" height="324px"/>
-  <p><small>DNS &bull; prefetching.</small></p>
-</div>
+![DNS &bull; prefetching.](/images/Pre-Browsing/dns-prefetch.png "DNS &bull; prefetching."){:height="95%" width="95%"}
 
 Bu yerelleştirme, İnternet metin sunucuya daha sonra belirli bir URL'den ihtiyaç duyacağımız varlıklar olduğunu bildirir böylece İnternet metin sunucu, DNS'yi olabildiğince çabuk çözebilir. "example.com" URL'sinden bir resim veya ses dosyası gibi bir kaynağa ihtiyacımız olduğunu varsayalım. Belgenin "<head>" kısmına şunu yazardık: 
 
