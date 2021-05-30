@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  C'de Data Type
+description: C'deki data tipleri, değişkenlerin veya farklı türdeki fonksiyonları bildirilmesi için kullanılan geniş bir sistemi ifade eder.
 date:   2018-01-15 13:53:00
 excerpt: "C, Programming"
 tags:   C Programlama Linux
