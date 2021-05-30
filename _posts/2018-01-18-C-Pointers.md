@@ -20,13 +20,13 @@ C Programlamada Pointers İşaretçiler
 Bu yazıda işaretçiler hakkında bilgi edineceksiniz; onlar nedir, onları nasıl kullanırsınız ve onlarla çalışırken karşılaşabileceğiniz yaygın hatalar nelerdir.
 
 
-![Pointers &bull; İşaretçi Av Köpeği Yavrusu.](/images/pointer-treinamento.jpg "Pointers &bull; İşaretçi Av Köpeği Yavrusu."){:height="97%" width="97%"}
+![Pointers &bull; İşaretçi Av Köpeği Yavrusu.](/images/pointer/pointer-treinamento.jpg "Pointers &bull; İşaretçi Av Köpeği Yavrusu."){:height="97%" width="97%"}
 
 Pointer işaretçiler, Java ve Python gibi diğer popüler programlama dillerinden farklı olarak C ve (C ++) programlamanın güçlü özelliklerindendir. 
 
 Pointer işaretçiler, C programında belleğe erişmek ve adresi işletmek için kullanılır.
 
-![Pointers &bull; İşaretçi ile belleğe erişmek.](/images/PointersF.png "Pointers &bull; İşaretçi ile belleğe erişmek."){:height="97%" width="97%"}
+![Pointers &bull; İşaretçi ile belleğe erişmek.](/images/pointer/PointersF.png "Pointers &bull; İşaretçi ile belleğe erişmek."){:height="97%" width="97%"}
 
 C'de Bellek Adresi
 ------------
@@ -143,7 +143,7 @@ Value of c:2
 <br>
 **Not:** Bu kodu kullanırken farklı adres değeri elde edebilirsiniz.
 
-![Pointers &bull; C programlamada işaretçilerin işlenmesi.](/images/pointers.jpg "Pointers &bull; C programlamada işaretçilerin işlenmesi."){:height="97%" width="97%"}
+![Pointers &bull; C programlamada işaretçilerin işlenmesi.](/images/pointer/pointers.jpg "Pointers &bull; C programlamada işaretçilerin işlenmesi."){:height="97%" width="97%"}
 
 **Program ve şekil açıklaması**
 
