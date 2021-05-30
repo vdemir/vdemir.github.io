@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "ATOM MUCİZESİ"
+title:  "Atom Mucizesi"
 description: Görkemli boyutlarıyla insan aklının kavrama sınırlarını zorlayan evren, var olduğu ilk andan itibaren hassas dengeler üzerinde ve büyük bir düzen içerisinde,  hiç şaşmadan işlemektedir
 excerpt: Kitapta zaman zaman karşınıza Allah'ın yaratmasındaki mükemmelliği vurgulamak için kullandığımız "tasarım" kelimesi çıkacak. Bu kelimenin hangi maksatla kullanıldığının doğru anlaşılması çok önemli
 date:   2021-05-27 12:00:00
-keywords: ATOM MUCİZESİ, HARUN YAHYA
+keywords: Atom Mucizesi Haun Yahya
 tags:  Kitap
 categories: [Kitap]
 comments: false
@@ -61,6 +61,10 @@ lang: tr
     <div class="text"><a href="https://harun-yahya.github.io/TURKISH/ATOM-MUCIZESI.html" >ATOM MUCİZESİ</a></div>
   </div>
 </div>
+
+![ATOM MUCİZESİ](/assets/cover/ATOM-MUCIZESI.jpg "HARUN YAHYA"){:height="97%" width="97%"}
+
+[ATOM MUCİZESİ]: https://harun-yahya.github.io/TURKISH/ATOM-MUCIZESI.html "HARUN YAHYA"
 
 
 **ATOM MUCİZESİ**
