@@ -9,8 +9,6 @@ published: true
 lang: tr
 ---
 
-<p class="meta">16 Ocak 2018 - Türkiye</p>
-
 {% include CSS.html %}
 
 ### C programlamada struct yapıyı bir fonksiyona nasıl geçiririm?
