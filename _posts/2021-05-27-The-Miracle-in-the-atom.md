@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "THE MIRACLE IN THE ATOM"
-date:   2021-05-24 12:00:00
-last_updated: Aug 29, 2021
+title:  The Miracle in The Atom
 description: In the world in which we live, mankind is caught up in a continuous search for the answers to many questions like "what?", "how?" and "in what way?", and can make but little headway in answering them. It is unlikely for man to make his way to the truth unless he asks himself the question why? about the extraordinary order and balance with which he interacts.
 excerpt: Why? Once the answer is found, this question is the key to a gate that leads one to a completely different world. It is, at the same time, a slim line that separates those who know from those who don't.
-keywords: THE MIRACLE IN THE ATOM, HARUN YAHYA
+keywords: The Miracle in The Atom Harun Yahya
+date:   2021-05-24 12:00:00
+last_updated: Aug 29, 2021
 tags:  Books
 categories: [Books ]
 comments: false
