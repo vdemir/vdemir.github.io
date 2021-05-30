@@ -6,7 +6,7 @@ date:   2018-01-18 13:52:00
 excerpt: "C, Programming"
 tags:   C Programlama Linux
 categories: Programming
-permalink: /ceviriler/ceviriler2/
+permalink: /ceviriler/ceviriler2/2018-01-18-C-Pointers.html
 comments: false
 published: true
 lang: tr
