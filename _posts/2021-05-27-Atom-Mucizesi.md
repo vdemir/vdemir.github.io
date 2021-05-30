@@ -62,10 +62,9 @@ lang: tr
   </div>
 </div>
 
-![ATOM MUCİZESİ](/assets/cover/ATOM-MUCIZESI.jpg "HARUN YAHYA"){:height="97%" width="97%"}
+![ATOM MUCİZESİ](/assets/cover/ATOM-MUCIZESI.jpg "HARUN YAHYA"){:height="57%" width="97%"}
 
 [ATOM MUCİZESİ]: https://harun-yahya.github.io/TURKISH/ATOM-MUCIZESI.html "HARUN YAHYA"
-[ATOM MUCİZESİ]
 
 **ATOM MUCİZESİ**
 
