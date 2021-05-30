@@ -13,8 +13,6 @@ lang: tr
 ---
 
 
-
-<p class="meta">16 Ocak 2018 - Türkiye</p>
 {% include CSS.html %}
 C Programlamada Pointers İşaretçiler
 -------------
