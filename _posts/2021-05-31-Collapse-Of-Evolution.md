@@ -1,8 +1,6 @@
 ---
 layout: post
-title:  "The Collapse Of The Evolution in 50 Themes"
-date:   2021-05-31 12:00:00
-last_updated: Aug 29, 2021
+title:  The Collapse Of The Evolution in 50 Themes
 description: The theory of evolution claims that unconscious, unreasoning, inanimate
 atoms such as phosphorus and carbon assembled themselves together by
 chance. As a result of such natural phenomena as lightning, volcanic
@@ -16,6 +14,8 @@ chance.
 keywords: The Collapse Of The Evolution in 50 Themes by HARUN YAHYA
 tags:  Article Books
 categories: [Books ]
+date:   2021-05-31 12:00:00
+last_updated: Aug 29, 2021
 comments: false
 published: true
 lang: tr
