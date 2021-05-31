@@ -71,9 +71,12 @@ _Note: although prefetching assets used to be a little difficult to test, Chrome
 
 ### Subresources (see note)
 
-Another prefetching technique helps identify the resources that are the highest priority and should be requested before prefetched items. For example, in Chrome and Opera we could add the following to the `head` of our document:
 
+Başka bir önceden getirme -prefetching- tekniği, en yüksek öncelikli olan ve önceden getirilmesi gereken öğelerden talep edilen kaynakları belirlemeye yardımcı olur. Örneğin, Chrome ve Opera'da belgemizin `head` kısmına aşağıdakini ekleyebilirdik:
+ 
     <linkrel="subresource"href="styles.css">
+
+![Subresources](/images/Pre-Browsing/Subresources.png "Subresources"){:height="97%" width="97%"}
 
 [According to the Chromium docs](https://www.chromium.org/spdy/link-headers-and-server-hint/link-rel-subresource), it works like this:
 
