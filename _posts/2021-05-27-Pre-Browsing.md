@@ -74,7 +74,7 @@ _Note: although prefetching assets used to be a little difficult to test, Chrome
 
 Başka bir önceden getirme -prefetching- tekniği, en yüksek öncelikli olan ve önceden getirilmesi gereken öğelerden talep edilen kaynakları belirlemeye yardımcı olur. Örneğin, Chrome ve Opera'da belgemizin `head` kısmına aşağıdakini ekleyebilirdik:
  
-    <linkrel="subresource"href="styles.css">
+    <link rel="subresource" href="styles.css">
 
 ![Subresources](/images/Pre-Browsing/Subresources.png "Subresources"){:height="97%" width="97%"}
 
