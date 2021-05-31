@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Collapse Of The Evolution in 50 Themes"
-date:   2021-05-29 12:00:00
+date:   2021-05-31 12:00:00
 last_updated: Aug 29, 2021
 description: The theory of evolution claims that unconscious, unreasoning, inanimate
 atoms such as phosphorus and carbon assembled themselves together by
