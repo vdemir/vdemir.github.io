@@ -1,16 +1,9 @@
 ---
 layout: post
 title:  The Collapse Of The Evolution in 50 Themes
-description: The theory of evolution claims that unconscious, unreasoning, inanimate
-atoms such as phosphorus and carbon assembled themselves together by
-chance. As a result of such natural phenomena as lightning, volcanic
-eruptions, ultraviolet rays and radiation, these atoms organized
-themselves in such a flawless way as to give rise to proteins, cells—and
-thereafter, fish, rabbits, lions, birds, human beings and all manner of
-life forms.
+description: The theory of evolution claims that unconscious, unreasoning, inanimate atoms such as phosphorus and carbon assembled themselves together by chance. As a result of such natural phenomena as lightning, volcanic eruptions, ultraviolet rays and radiation, these atoms organized themselves in such a flawless way as to give rise to proteins, cells—and thereafter, fish, rabbits, lions, birds, human beings and all manner of life forms.
 excerpt: The theory of evolution claims that unconscious, unreasoning, inanimate
-atoms such as phosphorus and carbon assembled themselves together by
-chance. 
+atoms such as phosphorus and carbon assembled themselves together by chance. 
 keywords: The Collapse Of The Evolution in 50 Themes by HARUN YAHYA
 tags:  Article Books
 categories: [Books ]
