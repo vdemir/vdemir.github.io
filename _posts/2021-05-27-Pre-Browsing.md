@@ -78,7 +78,7 @@ Başka bir önceden getirme -prefetching- tekniği, en yüksek öncelikli olan v
 
 ![Subresources](/images/Pre-Browsing/Subresources.png "Subresources"){:height="97%" width="97%"}
 
-[According to the Chromium docs](https://www.chromium.org/spdy/link-headers-and-server-hint/link-rel-subresource), it works like this:
+[Preload docs](https://w3c.github.io/preload/), it works like this:
 
 > “LINK rel=subresource” provides a new link relation type with different semantics from LINK rel=prefetch. While rel=prefetch provides a low-priority download of resources to be used on subsequent pages, rel=subresource enables early loading of resources within the current page.
 
