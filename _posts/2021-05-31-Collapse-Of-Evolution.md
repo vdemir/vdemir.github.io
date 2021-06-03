@@ -14,7 +14,6 @@ lang: tr
 ---
 
 
-{% include CSS.html %}
 
 **THE COLLAPSE OF THE THEORY OF EVOLUTION IN 50 THEMES**
 
