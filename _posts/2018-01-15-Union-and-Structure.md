@@ -42,12 +42,14 @@ int main()
 ~~~
 
 ## Çıktı
+
 ~~~bash
 size of union = 32
 size of structure = 40
 ~~~
 
-## struct yapılara union yapıdan daha fazla bellek tahsis edilir
+## **struct yapılara union yapıdan daha fazla bellek tahsis edilir**
+
 
 Yukarıdaki örnekte görüldüğü gibi, ```union``` ve ```struct``` yapı arasında bellek ayırmada bir fark vardır.
 
@@ -61,6 +63,7 @@ Ancak, bir ```union``` değişkenini depolamak için gereken bellek, ```union```
 ![Alternative text](/images/memory-allocation-union.jpg "union değişkeni belleği")
 
 ## Aynı anda yalnızca bir union üyesine erişilebilir
+
 
 ```struct``` durumunda, üyelerinin tümüne her an erişilebilir.
 
@@ -91,6 +94,7 @@ int main()
 ~~~
 
 ## Çıktı
+
 ~~~bash
 Enter name 
 Hillary
