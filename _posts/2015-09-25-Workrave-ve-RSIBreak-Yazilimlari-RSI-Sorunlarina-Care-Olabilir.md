@@ -16,19 +16,11 @@ Boynu, omuzları, sırtı, beli , kol ve dirseği ve omurganın çeşitli yerler
 
 Pisi Linux ve diğer linux dağıtımlarında kullanabileceğiniz birkaç yazılım bu tip rahatsızlıkları önleyip ve tedaviye yardımcı olabilir. Örneğin ```Workrave``` ve ```RSIBreak``` yazılımları belli aralıklarla kullanıcılara mola verdirerek, egzersiz yapmalarını sağlamakta ve rahatsızlıkları önlemeye veya tedaviye yardımcı olmaktadır.
 
+* * *
 
 ***Snapshots***
 
-<div class="resize" style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/snapshot9.bmp" alt="programs" class="resize"  />
-  <p><small>Workrave &bull; RSIBreak.</small></p>
-</div>
+![Workrave &bull; RSIBreak.](/images/snapshot9.bmp "Workrave &bull; RSIBreak."){:height="97%" width="97%"}
 
- 
-<style>
-img.resize {
-  max-width:100%;
-  max-height:100%;
-}
-</style>
+
  
