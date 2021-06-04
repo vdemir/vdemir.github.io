@@ -12,7 +12,6 @@ lang: tr
 ---
 
 
-{% include CSS.html %}
 
 ## Data Tipleri
 
