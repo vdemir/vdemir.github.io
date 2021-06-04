@@ -31,8 +31,7 @@ Pisi Linux 1.2 serisinin için mevcut olan Xfce paketleri ile kurulabilen bir ka
 | Pisi Linux 2.0Alfa5    |  30.08.2015   |  [Pisi Linux 2.0Alfa5](https://openload.co/f/vuimrNgPjSE/Pisi-Linux-2.0-Alfa5-KDE5-KaraKedi-x86_64.iso) (Test)
 | Pisi Linux 1.2 Xfce    |  21.09.2015   |  [Pisi Linux 1.2](https://openload.co/f/R6JeYpGW3BM/Pisi-Linux-1.2-XFCE-x86_64.iso)|
 
-<html>
-        <title>Table Example</title>
+
         <style>
             table {
                 border-collapse: collapse;
@@ -49,5 +48,5 @@ Pisi Linux 1.2 serisinin için mevcut olan Xfce paketleri ile kurulabilen bir ka
                 background-color: #fff;
             }            
         </style>
- </html> 
+
 
