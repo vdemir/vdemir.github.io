@@ -17,8 +17,6 @@ Pisi Linux web sitesi statik öğelerin olduğu yeni içeriğiyle tasarlanmaya b
 
 ![Pisi &bull; Web.](/images/web-site.png "Pisi &bull; Web."){:height="97%" width="97%"}
 
-
-
 * * *
 
 ### Pisi Linux dağıtımının kararlı sürümleri:
