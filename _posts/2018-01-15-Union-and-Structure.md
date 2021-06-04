@@ -10,7 +10,8 @@ published: true
 lang: tr
 ---
 
-## union ve struct arasındaki kullanım farkı
+**union ve struct arasındaki kullanım farkı**
+
 ```union``` pek çok açıdan ```struct``` yapıya benzer olsa da, aralarındaki farkı anlamak çok önemlidir.
 
 Birincil fark, bu örnekle gösterilebilir:
