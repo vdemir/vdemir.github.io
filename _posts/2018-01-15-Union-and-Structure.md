@@ -62,7 +62,7 @@ Ancak, bir ```union``` değişkenini depolamak için gereken bellek, ```union```
 
 ![Alternative text](/images/memory-allocation-union.jpg "union değişkeni belleği")
 
-## Aynı anda yalnızca bir union üyesine erişilebilir
+## **Aynı anda yalnızca bir union üyesine erişilebilir**
 
 
 ```struct``` durumunda, üyelerinin tümüne her an erişilebilir.
@@ -93,7 +93,7 @@ int main()
 }
 ~~~
 
-## Çıktı
+## **Çıktı**
 
 ~~~bash
 Enter name 
@@ -104,7 +104,7 @@ Displaying
 Name: f%Bary
 Salary: 1234.2
 ~~~
-***
+
 
 Not: İsim için farklı çöp değeri veya ```empty string``` (boş dize) alabilirsiniz.
 
