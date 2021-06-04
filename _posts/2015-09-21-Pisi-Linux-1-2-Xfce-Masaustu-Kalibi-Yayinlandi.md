@@ -17,7 +17,7 @@ Pisi Linux 1.2 serisinin için mevcut olan Xfce paketleri ile kurulabilen bir ka
 ![Xfce &bull; DeskTop](/images/Pisi-Linux-Xfce_1.png "Xfce &bull; DeskTop"){:height="97%" width="97%"}
 
 
-
+* * *
 
 ### Pisi Linux dağıtımının kararlı sürümleri:
 
