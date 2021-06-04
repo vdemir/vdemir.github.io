@@ -12,7 +12,6 @@ published: true
 lang: tr
 ---
 
-{% include CSS.html %}
 
 ### C programlamada struct yapıyı bir fonksiyona nasıl geçiririm?
 
