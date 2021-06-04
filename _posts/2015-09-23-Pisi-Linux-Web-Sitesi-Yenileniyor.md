@@ -15,17 +15,8 @@ Pisi Linux web sitesi statik öğelerin olduğu yeni içeriğiyle tasarlanmaya b
 
 ***Snapshots***
 
-<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/web-site.png" alt="programs" class="resize" />
-  <p><small>Pisi &bull; Web.</small></p>
-</div> 
-  
-<style>
-img.resize {
-  max-width:100%;
-  max-height:100%;
-}
-</style>
+![Pisi &bull; Web.](/images/web-site.png "Pisi &bull; Web."){:height="97%" width="97%"}
+
 
 
 * * *
