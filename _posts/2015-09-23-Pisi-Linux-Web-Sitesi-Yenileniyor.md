@@ -28,5 +28,5 @@ img.resize {
 </style>
 
 
-{% include dist.html %}
+{% include dist.md %}
  

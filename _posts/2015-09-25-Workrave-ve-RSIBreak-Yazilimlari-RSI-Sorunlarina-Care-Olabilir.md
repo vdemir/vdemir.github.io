@@ -31,7 +31,4 @@ img.resize {
   max-height:100%;
 }
 </style>
-
-
-{% include dist.html %}
  
