@@ -32,7 +32,7 @@ Pisi Linux 1.2 serisinin için mevcut olan Xfce paketleri ile kurulabilen bir ka
 | Pisi Linux 1.2 Xfce    |  21.09.2015   |  [Pisi Linux 1.2](https://openload.co/f/R6JeYpGW3BM/Pisi-Linux-1.2-XFCE-x86_64.iso)|
 
 
-        <style>
+<style>
             table {
                 border-collapse: collapse;
                 width: 100%;
