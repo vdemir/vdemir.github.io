@@ -14,18 +14,8 @@ Pisi Linux 1.2 serisinin için mevcut olan Xfce paketleri ile kurulabilen bir ka
 
 ***Snapshots***
 
-<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/Pisi-Linux-Xfce_1.png" alt="programs" class="resize" />
-  <p><small>Xfce &bull; DeskTop.</small></p>
-</div> 
-  
-<style>
-img.resize {
-  max-width:100%;
-  max-height:100%;
-}
-</style>
- 
+![Xfce &bull; DeskTop](/images/Pisi-Linux-Xfce_1.png "Xfce &bull; DeskTop"){:height="97%" width="97%"}
+
 
 {% include dist.md %}
  
