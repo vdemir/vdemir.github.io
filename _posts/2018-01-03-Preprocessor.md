@@ -4,12 +4,10 @@ title:  C Preprocessor Bildirimleri
 date:   2018-01-03 12:52:00
 tags:   C Programlama Linux GCC
 comments: true
-published: false
+published: true
 lang: tr
 ---
  
-
-3 Ocak 2018 - Türkiye
 
 C Preprocessor Önişlemci bildirimleri compiler derleyicinin bir parçası değildir ancak C programlama dilinin gücünü genişletir. Tüm önişlemci direktifleri bir # sembolü ile başlar. Önişleme adımı, programın kaynak kodunun derlenmesinden önce başlar ve asıl derleme öncesi gerekli ön-işlemlerin yapılmasını derleyiciye bildirir.
 
