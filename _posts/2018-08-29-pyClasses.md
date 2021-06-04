@@ -16,9 +16,6 @@ published: true
 lang: tr
 ---
 
-<link rel="stylesheet" href="{{ sitebase.url }}/css/w3.css">
-<link rel="stylesheet" href="{{ sitebase.url }}/css/code.css">
-  
 <style>
 img.resize {
   max-width:100%;
