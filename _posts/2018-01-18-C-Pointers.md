@@ -13,7 +13,6 @@ lang: tr
 ---
 
 
-{% include CSS.html %}
 C Programlamada "**Pointer**" İşaretçileri
 -------------
 

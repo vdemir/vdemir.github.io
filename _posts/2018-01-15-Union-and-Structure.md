@@ -10,8 +10,6 @@ published: true
 lang: tr
 ---
 
-{% include CSS.html %}
-
 ## union ve struct arasındaki kullanım farkı
 ```union``` pek çok açıdan ```struct``` yapıya benzer olsa da, aralarındaki farkı anlamak çok önemlidir.
 
