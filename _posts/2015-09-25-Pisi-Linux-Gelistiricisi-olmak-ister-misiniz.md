@@ -16,17 +16,9 @@ Geliştirici olmak isteyen ve yazılım konusuna ilgi duyan, tasarım kabiliyeti
 
 ***Snapshots***
 
-<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/snapshot10.bmp" alt="programs" class="resize" />
-  <p><small>PisiLinux &bull; Developer.</small></p>
-</div> 
-  
-<style>
-img.resize {
-  max-width:100%;
-  max-height:100%;
-}
-</style>
+
+![PisiLinux &bull; Developer.](/images/snapshot10.bmp "PisiLinux &bull; Developer."){:height="97%" width="97%"}
+
 
 * * *
 
