@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: UygÇatı"
-tag: UygÇatı
+title: "Tag: WebÇatı"
+tag: WebÇatı
 robots: noindex
 ---
