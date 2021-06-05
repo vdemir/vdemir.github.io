@@ -25,8 +25,8 @@ Pisi Linux tanıtımı için tasarlanan siyah-beyaz çıkartma örnekleri GIMP k
 
 ### Pisi Linux dağıtımının kararlı sürümleri:
 
-
-
+| Pisi Linux dağıtımının kararlı sürümleri                     |
+|--------------------------------------------------------------|
 | Sürüm                  |  Çıkış Tarihi |  İndirme Bağlantısı |
 |------------------------|---------------|---------------------|
 | Pisi Linux 1.0         |  14.08.2014   |  [Pisi Linux 1.0](https://sourceforge.net/projects/pisilinux/files/1.0/)|
