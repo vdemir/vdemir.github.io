@@ -3,6 +3,7 @@ layout: post
 title:  Pisi Linux Geliştiricisi olmak ister misiniz?
 description: Pisi Linux geliştiricisi olmak gerçekten çok kolaydır çünkü herkesin mutlaka yeteneğine göre yapabileceği bir iş var
 date:   2015-09-26 02:17:00
+last_updated: 2021-06-05 18:57:00
 tags:   Pisi Linux Dağıtım
 categories: [Pisi Linux]
 comments: false
