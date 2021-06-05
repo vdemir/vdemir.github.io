@@ -26,13 +26,11 @@ C Preprocessor Önişlemci bildirimleri compiler derleyicinin bir parçası değ
 ![Preprocessor]({{ site.baseurl }}/images/C-PreProcessor.jpg)
 
 ## Önişlemci Talimat Tipleri
-<div class="alert alert-success">
-<ul><em>
-<li> Macro Talimatları</li>
-<li>Şartlı Derleme Talimatları</li>
-<li>Dosya Dahil Etme Talimatları</li>
-</em>
-</ul></div>
+
+_*   Macro Talimatları
+*   Şartlı Derleme Talimatları
+*   Dosya Dahil Etme Talimatları_
+
 *[Macro]Büyük Ölçekte Geçerli Değer Yerleştirme
 
 
