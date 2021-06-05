@@ -11,10 +11,9 @@ published: true
 lang: tr
 ---
 
-<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/snapshot12.bmp" alt="programs" class="resize" />
-  <p><small>Jekyll &bull; Linux.</small></p>
-</div> 
+
+![Jekyll &bull; Linux.](/images/snapshot12.bmp "Jekyll &bull; Linux."){:height="97%" width="97%"}
+
   
 Pisi Linux dağıtımında ve benzer şekilde diğer linux dağıtımlarında Jekyll ile blog sitesi nasıl  yapılır? Öncelikle Jekyll'in tanımını yaparak başlayalım. Jekyll, düz metinlerinizi statik blog ve web sitesi formuna dönüştürmenizi sağlayan statik site üretecidir.
 
@@ -53,16 +52,9 @@ Bloğunuzda kullanabileceğiniz resimleri düzenlemek için ```Gimp``` ve siteyi
 
 ***Snapshots***
 
-<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/snapshot12.bmp" alt="programs" class="resize" />
-  <p><small>Jekyll &bull; Linux.</small></p>
-</div> 
-  
-<style>
-img.resize {
-  max-width:100%;
-  max-height:100%;
-}
-</style>
+
+
+![Jekyll &bull; Linux.](/images/snapshot12.bmp "Jekyll &bull; Linux."){:height="97%" width="97%"}
+
 
 
