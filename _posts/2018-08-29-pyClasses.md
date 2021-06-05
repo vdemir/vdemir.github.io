@@ -16,13 +16,6 @@ published: true
 lang: tr
 ---
 
-<style>
-img.resize {
-  max-width:100%;
-  max-height:100%;
-}
-</style>
-
 
 ![Python &bull; Sınıflar.](/images/python/python-classes2.jpg "Python &bull; Sınıflar."){:height="97%" width="97%"}
 
