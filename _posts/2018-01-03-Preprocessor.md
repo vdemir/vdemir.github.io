@@ -16,13 +16,11 @@ C Preprocessor Önişlemci bildirimleri compiler derleyicinin bir parçası değ
 </p><a name='more'></a>
 ![Preprocessor]({{ site.baseurl }}/images/IncludeLibrary.png)
 ## Önişlemci Bildirimleri Hakkında Önemli Hususlar
-<div class="alert alert-info">
-<ul><em>
-  <li>Önişlemci talimatları, kaynak kodunun derlenmesinden önce uygulanır.</li>
-  <li>Tüm önişlemci talimatları bir # simgesi ile başlar.</li>
-  <li>Önişlemci talimatları noktalı virgülle bitmez.</li>
-</em></ul>
-</div>
+
+_*   Önişlemci talimatları, kaynak kodunun derlenmesinden önce uygulanır.
+*   Tüm önişlemci talimatları bir # simgesi ile başlar.
+*   Önişlemci talimatları noktalı virgülle bitmez._
+
 ![Preprocessor]({{ site.baseurl }}/images/C-PreProcessor.jpg)
 
 ## Önişlemci Talimat Tipleri
