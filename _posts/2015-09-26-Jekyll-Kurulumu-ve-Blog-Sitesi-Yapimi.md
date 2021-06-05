@@ -5,6 +5,7 @@ description: Pisi Linux dağıtımında ve benzer şekilde diğer linux dağıt�
 date:   2015-09-26 12:00:00
 tags:   Jekyll Linux Web Programlama
 categories: Programlama
+permalink: /uyg2015/09/26/Jekyll-Kurulumu-ve-Blog-Sitesi-Yapimi.html
 comments: false
 published: true
 lang: tr
