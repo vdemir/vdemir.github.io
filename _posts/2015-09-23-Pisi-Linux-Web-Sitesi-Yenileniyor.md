@@ -3,6 +3,7 @@ layout: post
 title:      Pisi Linux Web Sitesi Yenileniyor
 description: Pisi Linux web sitesi statik öğelerin olduğu yeni içeriğiyle tasarlanmaya başlandı
 date:       2015-09-23 12:00:00
+last_updated: 2021-06-05 18:57:00
 tags:       Pisi Linux Dağıtım Web
 categories: [Pisi Linux]
 comments: false

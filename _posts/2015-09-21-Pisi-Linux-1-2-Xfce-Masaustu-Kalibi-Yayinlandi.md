@@ -3,6 +3,7 @@ layout: post
 title:  Pisi Linux 1.2 Xfce Masaüstü Kalıbı Yayınlandı
 description: Pisi Linux 1.2 serisinin için mevcut olan Xfce paketleri ile kurulabilen bir kalıp hazırlandı ve yayınlandı.
 date:   2015-09-23 12:00:00
+last_updated: 2021-06-05 18:57:00
 tags:   Pisi Linux Xfce Dağıtım
 categories: [Pisi Linux]
 comments: false
