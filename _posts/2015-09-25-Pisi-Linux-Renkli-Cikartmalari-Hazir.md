@@ -15,10 +15,10 @@ Pisi Linux tanıtımı için tasarlanan renkli çıkartma örnekleri GIMP kullan
 
 ***Snapshots***
 
-![_config.yml]({{ site.baseurl }}/assets/Pisi-Linux-600x600-renkli-1.png)
-![_config.yml]({{ site.baseurl }}/assets/Pisi-Linux-600x600-renkli-2.png)
-![_config.yml]({{ site.baseurl }}/assets/Pisi-Linux-600x600-renkli-3.png)
-![_config.yml]({{ site.baseurl }}/assets/Pisi-Linux-600x600-renkli-4.png)
+![Pisi Linux]({{ site.baseurl }}/assets/Pisi-Linux-600x600-renkli-1.png)
+![Pisi Linux]({{ site.baseurl }}/assets/Pisi-Linux-600x600-renkli-2.png)
+![Pisi Linux]({{ site.baseurl }}/assets/Pisi-Linux-600x600-renkli-3.png)
+![Pisi Linux]({{ site.baseurl }}/assets/Pisi-Linux-600x600-renkli-4.png)
 
 
 
