@@ -32,7 +32,7 @@ lang: tr
 
 {% assign image_files = site.static_files | where: "image", true %}
 {% for myimage in image_files %}
-![image]({{base.url}}/assets/kuran/{{ maxRelatedCounter }}.jpg){:class="img-responsive"}
+![Kuran]({{base.url}}/assets/kuran2/{{ maxRelatedCounter }}.jpg  "Kuran: Kelime Meali"){:height="77%" width="77%"}
   {{ maxRelatedCounter }}
 {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
