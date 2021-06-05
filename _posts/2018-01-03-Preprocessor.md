@@ -107,18 +107,25 @@ _Örneğin_
 İkinci satır önişlemciye myHeaderFile.h dosyasını geçerli dizinden almasını ve myHeaderFile.h dosyasının içeriğini eklemesini söyler.
 
 ## #define önişlemci bildirimleri
+
 <p class="myParagraph">
 Bu basit bir büyük ölçekte geçerli yerleştirmedir. Sabitin tüm tekrarlamalarını yerlerine koyar ve bir ifadeyle değiştirir. 
 </p>
 ~~~
+
 #define identifier value
+
 ~~~
-<ul>
-<li><b>#define</b> : Metin[text] yerleştirme için kullanılan önişlemci bildirimidir. </li><br/>
-<li><b>identifier</b> : Programda kullanılan ve değeri ile değiştirilecek bir tanımlayıcıdır. </li><br/>
-<li><b>value</b> : Tanımlayıcı için değiştirilecek değerdir.</li><br/>
-</ul>
-<i>Örneğin</i><br/>
+
+*   **#define** : Metin\[text\] yerleştirme için kullanılan önişlemci bildirimidir.
+  
+*   **identifier** : Programda kullanılan ve değeri ile değiştirilecek bir tanımlayıcıdır.
+  
+*   **value** : Tanımlayıcı için değiştirilecek değerdir.
+  
+
+_Örneğin_
+
 ~~~
 #define PIE 3.141
 #define ZERO 0
