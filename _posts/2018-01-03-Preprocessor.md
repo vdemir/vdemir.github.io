@@ -102,10 +102,9 @@ _Örneğin_
 #include <string.h>          // Standard ÜstBilgi Dosyası
 #include "myHeaderFile.h"    // Kullanıcı Tanımlı ÜstBilgi Dosyası
 ~~~
-<p class="myParagraph">
-İlk satır Önişlemciye bu satırı string.h başlık dosyasının içeriğiyle değiştirmesini söyler.<br/>
+
+İlk satır Önişlemciye bu satırı string.h başlık dosyasının içeriğiyle değiştirmesini söyler.
 İkinci satır önişlemciye myHeaderFile.h dosyasını geçerli dizinden almasını ve myHeaderFile.h dosyasının içeriğini eklemesini söyler.
-</p>
 
 ## #define önişlemci bildirimleri
 <p class="myParagraph">
