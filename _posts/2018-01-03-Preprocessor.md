@@ -10,29 +10,33 @@ lang: tr
 ---
  
 
-C Preprocessor Önişlemci bildirimleri compiler derleyicinin bir parçası değildir ancak C programlama dilinin gücünü genişletir. Tüm önişlemci direktifleri bir # sembolü ile başlar. Önişleme adımı, programın kaynak kodunun derlenmesinden önce başlar ve asıl derleme öncesi gerekli ön-işlemlerin yapılmasını derleyiciye bildirir.
-
+<p class="myParagraph">
+C Preprocessor Önişlemci bildirimleri compiler derleyicinin bir parçası değildir ancak C programlama dilinin gücünü genişletir. Tüm önişlemci direktifleri bir # sembolü ile başlar.
+Önişleme adımı, programın kaynak kodunun derlenmesinden önce başlar ve asıl derleme öncesi gerekli ön-işlemlerin yapılmasını derleyiciye bildirir.
+</p><a name='more'></a>
 ![Preprocessor]({{ site.baseurl }}/images/IncludeLibrary.png)
-
 ## Önişlemci Bildirimleri Hakkında Önemli Hususlar
-
-_*   Önişlemci talimatları, kaynak kodunun derlenmesinden önce uygulanır.
-*   Tüm önişlemci talimatları bir # simgesi ile başlar.
-*   Önişlemci talimatları noktalı virgülle bitmez._
-
+<div class="alert alert-info">
+<ul><em>
+  <li>Önişlemci talimatları, kaynak kodunun derlenmesinden önce uygulanır.</li>
+  <li>Tüm önişlemci talimatları bir # simgesi ile başlar.</li>
+  <li>Önişlemci talimatları noktalı virgülle bitmez.</li>
+</em></ul>
+</div>
 ![Preprocessor]({{ site.baseurl }}/images/C-PreProcessor.jpg)
 
 ## Önişlemci Talimat Tipleri
-
-_*   Macro Talimatları
-*   Şartlı Derleme Talimatları
-*   Dosya Dahil Etme Talimatları_
-
+<div class="alert alert-success">
+<ul><em>
+<li> Macro Talimatları</li>
+<li>Şartlı Derleme Talimatları</li>
+<li>Dosya Dahil Etme Talimatları</li>
+</em>
+</ul></div>
 *[Macro]Büyük Ölçekte Geçerli Değer Yerleştirme
 
 
 ## Önişlemci talimatlarının bir listesi aşağıdadır
-
 <table class="table table-bordered table-striped">
    <thead>
       <tr>
@@ -92,40 +96,32 @@ _*   Macro Talimatları
 
 
 ## #include önişlemci bildirimleri
-
-#include Önişlemci Bildirimleri, C Programında üstbilgi(\*.h) dosyasını eklemek için kullanılır. Yol belirtilmemişse, geçerli dizindeki üstbilgi(\*.h) dosyasını denetler. Kullanıcı tanımlı üstbilgi(\*.h) dosyasını eklemek için açılı parantez<> yerine çift tırnak"" işareti kullanıyoruz.
-
-_Örneğin_
-
-
+<p class="myParagraph">
+#include Önişlemci Bildirimleri, C Programında üstbilgi(*.h) dosyasını eklemek için kullanılır. Yol belirtilmemişse, geçerli dizindeki üstbilgi(*.h) dosyasını denetler. Kullanıcı tanımlı üstbilgi(*.h) dosyasını eklemek için açılı parantez<> yerine çift tırnak"" işareti kullanıyoruz.
+</p>
+<i>Örneğin</i><br/>
 ~~~c
 #include <string.h>          // Standard ÜstBilgi Dosyası
 #include "myHeaderFile.h"    // Kullanıcı Tanımlı ÜstBilgi Dosyası
 ~~~
-
-İlk satır Önişlemciye bu satırı string.h başlık dosyasının içeriğiyle değiştirmesini söyler.
+<p class="myParagraph">
+İlk satır Önişlemciye bu satırı string.h başlık dosyasının içeriğiyle değiştirmesini söyler.<br/>
 İkinci satır önişlemciye myHeaderFile.h dosyasını geçerli dizinden almasını ve myHeaderFile.h dosyasının içeriğini eklemesini söyler.
+</p>
 
 ## #define önişlemci bildirimleri
-
 <p class="myParagraph">
 Bu basit bir büyük ölçekte geçerli yerleştirmedir. Sabitin tüm tekrarlamalarını yerlerine koyar ve bir ifadeyle değiştirir. 
 </p>
 ~~~
-
 #define identifier value
-
 ~~~
-
-*   **#define** : Metin\[text\] yerleştirme için kullanılan önişlemci bildirimidir.
-  
-*   **identifier** : Programda kullanılan ve değeri ile değiştirilecek bir tanımlayıcıdır.
-  
-*   **value** : Tanımlayıcı için değiştirilecek değerdir.
-  
-
-_Örneğin_
-
+<ul>
+<li><b>#define</b> : Metin[text] yerleştirme için kullanılan önişlemci bildirimidir. </li><br/>
+<li><b>identifier</b> : Programda kullanılan ve değeri ile değiştirilecek bir tanımlayıcıdır. </li><br/>
+<li><b>value</b> : Tanımlayıcı için değiştirilecek değerdir.</li><br/>
+</ul>
+<i>Örneğin</i><br/>
 ~~~
 #define PIE 3.141
 #define ZERO 0
