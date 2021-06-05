@@ -50,11 +50,6 @@ Sonuç olarak statik İnternet sitemizi yada bloğumuzu İnternet metin sunucumu
 
 Bloğunuzda kullanabileceğiniz resimleri düzenlemek için ```Gimp``` ve siteyi host eden GitHub sitesine commit yapmak için ```git``` paketlerinin kurulumuna da ihtiyacınız olacaktır.
 
-***Snapshots***
-
-
-
-![Jekyll &bull; Linux.](/images/snapshot12.bmp "Jekyll &bull; Linux."){:height="97%" width="97%"}
 
 
 
