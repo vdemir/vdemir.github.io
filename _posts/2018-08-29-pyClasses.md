@@ -23,10 +23,9 @@ img.resize {
 }
 </style>
 
-<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/python/python-classes2.jpg" alt="programs" class="resize" />
-  <p><small>Python &bull; Sınıflar.</small></p>
-</div>
+
+![Python &bull; Sınıflar.](/images/python/python-classes2.jpg "Python &bull; Sınıflar."){:height="97%" width="97%"}
+
 
 <div class="w3-panel w3-card w3-light-grey">
   <div class="w3-container w3-white">
