@@ -10,11 +10,10 @@ lang: tr
 ---
  
 
-<p class="myParagraph">
-C Preprocessor Önişlemci bildirimleri compiler derleyicinin bir parçası değildir ancak C programlama dilinin gücünü genişletir. Tüm önişlemci direktifleri bir # sembolü ile başlar.
-Önişleme adımı, programın kaynak kodunun derlenmesinden önce başlar ve asıl derleme öncesi gerekli ön-işlemlerin yapılmasını derleyiciye bildirir.
-</p><a name='more'></a>
+C Preprocessor Önişlemci bildirimleri compiler derleyicinin bir parçası değildir ancak C programlama dilinin gücünü genişletir. Tüm önişlemci direktifleri bir # sembolü ile başlar. Önişleme adımı, programın kaynak kodunun derlenmesinden önce başlar ve asıl derleme öncesi gerekli ön-işlemlerin yapılmasını derleyiciye bildirir.
+
 ![Preprocessor]({{ site.baseurl }}/images/IncludeLibrary.png)
+
 ## Önişlemci Bildirimleri Hakkında Önemli Hususlar
 
 _*   Önişlemci talimatları, kaynak kodunun derlenmesinden önce uygulanır.
