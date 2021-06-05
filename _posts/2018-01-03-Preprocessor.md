@@ -32,6 +32,7 @@ _*   Macro Talimatları
 
 
 ## Önişlemci talimatlarının bir listesi aşağıdadır
+
 <table class="table table-bordered table-striped">
    <thead>
       <tr>
@@ -91,10 +92,12 @@ _*   Macro Talimatları
 
 
 ## #include önişlemci bildirimleri
-<p class="myParagraph">
-#include Önişlemci Bildirimleri, C Programında üstbilgi(*.h) dosyasını eklemek için kullanılır. Yol belirtilmemişse, geçerli dizindeki üstbilgi(*.h) dosyasını denetler. Kullanıcı tanımlı üstbilgi(*.h) dosyasını eklemek için açılı parantez<> yerine çift tırnak"" işareti kullanıyoruz.
-</p>
-<i>Örneğin</i><br/>
+
+#include Önişlemci Bildirimleri, C Programında üstbilgi(\*.h) dosyasını eklemek için kullanılır. Yol belirtilmemişse, geçerli dizindeki üstbilgi(\*.h) dosyasını denetler. Kullanıcı tanımlı üstbilgi(\*.h) dosyasını eklemek için açılı parantez<> yerine çift tırnak"" işareti kullanıyoruz.
+
+_Örneğin_
+
+
 ~~~c
 #include <string.h>          // Standard ÜstBilgi Dosyası
 #include "myHeaderFile.h"    // Kullanıcı Tanımlı ÜstBilgi Dosyası
