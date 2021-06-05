@@ -14,9 +14,15 @@ lang: tr
 
 
  <div align="left">
-<a href="https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/kuran1/Kuranda_Temel_Kavramlar_7b.pdf" target="_blank"><img src="{{ site.baseurl }}/images/pdf.png" alt="viewer2" width="49" height="49"></a>
+<img src="{{ site.baseurl }}/images/pdf.png" alt="viewer2" width="49" height="49"></a>
+
+
 <a href="https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/kuran1/Kuranda_Temel_Kavramlar_7b.pdf" target="_blank" class="btn btn-default">Kuranda_Temel_Kavramlar_7b</a></div>
 
+
+
+![Kuran]({{ site.baseurl }}/images/pdf.png  "Kuran: Kelime Meali"){:height="100%" width="100%"}
+![Kuranda Temel Kavramlar 7b]({{base.url}}/viewer/web/viewer.html?file=https://vdemir.github.io/assets/kuran1/Kuranda_Temel_Kavramlar_7b.pdf  "Kuranda_Temel_Kavramlar_7b"){:height="87%" width="87%"}
 <br>
 
 <div align="left">
@@ -32,7 +38,7 @@ lang: tr
 
 {% assign image_files = site.static_files | where: "image", true %}
 {% for myimage in image_files %}
-![Kuran]({{base.url}}/assets/kuran2/{{ maxRelatedCounter }}.jpg  "Kuran: Kelime Meali"){:height="77%" width="77%"}
+![Kuran]({{base.url}}/assets/kuran2/{{ maxRelatedCounter }}.jpg  "Kuran: Kelime Meali"){:height="87%" width="87%"}
   {{ maxRelatedCounter }}
 {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
