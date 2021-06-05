@@ -16,11 +16,11 @@ lang: tr
 
 
 ![Kuran]({{ site.baseurl }}/images/pdf.png  "Kuran: Kelime Meali"){:height="10%" width="10%"}
-![Kuranda Temel Kavramlar 7b]({{ site.url }}/viewer/web/viewer.html?file={{ site.url }}/assets/kuran1/Kuranda_Temel_Kavramlar_7b.pdf  "Kuranda_Temel_Kavramlar_7b"){:height="87%" width="87%"}
+![Kuranda Temel Kavramlar 7b](https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/kuran1/Kuranda_Temel_Kavramlar_7b.pdf  "Kuranda_Temel_Kavramlar_7b"){:height="87%" width="87%"}
 <br>
 
 <div align="left">
-<a href="https://vdemir.github.io/viewer/web/viewer.html?file={{ site.url }}/assets/kuran1/kuran.pdf" target="_blank"><img src="{{ site.baseurl }}/images/pdf.png" alt="viewer" width="49" height="49"></a><a href="https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/kuran1/kuran.pdf" target="_blank" class="btn btn-default">Kuran Kelime Meali</a></div>
+<a href="https://vdemir.github.io/viewer/web/viewer.html?file={{ site.url }}/assets/kuran1/kuran.pdf" target="_blank"><img src="{{ site.url }}/images/pdf.png" alt="viewer" width="49" height="49"></a><a href="https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/kuran1/kuran.pdf" target="_blank" class="btn btn-default">Kuran Kelime Meali</a></div>
 
 
 <br>
