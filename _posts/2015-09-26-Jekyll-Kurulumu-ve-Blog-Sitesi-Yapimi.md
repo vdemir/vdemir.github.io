@@ -12,9 +12,6 @@ lang: tr
 ---
 
 
-![Jekyll &bull; Linux.](/images/snapshot12.bmp "Jekyll &bull; Linux."){:height="97%" width="97%"}
-
-  
 Pisi Linux dağıtımında ve benzer şekilde diğer linux dağıtımlarında Jekyll ile blog sitesi nasıl  yapılır? Öncelikle Jekyll'in tanımını yaparak başlayalım. Jekyll, düz metinlerinizi statik blog ve web sitesi formuna dönüştürmenizi sağlayan statik site üretecidir.
 
 Kuruluma başlamadan önce hazırlık aşamasını geçelim. Jekyll kurulumu için ```rubygems``` ve ```ruby-devel``` paketlerine ihtiyaç var. Önce bu paketlerin kurulumunu tamamlıyoruz. Ayrıca ```gem install``` komutu ile ```jekyll``` kurulumunu gerçekleştiriyoruz. Paket kurulumunu tamamladıktan sonra sıra geldi web sayfamız için gereken dosyaların oluşacağı dizini hazırlamaya bunun için de bir komut işletiyoruz. 
@@ -50,6 +47,11 @@ Sonuç olarak statik İnternet sitemizi yada bloğumuzu İnternet metin sunucumu
 
 Bloğunuzda kullanabileceğiniz resimleri düzenlemek için ```Gimp``` ve siteyi host eden GitHub sitesine commit yapmak için ```git``` paketlerinin kurulumuna da ihtiyacınız olacaktır.
 
+***Snapshots***
+
+
+
+![Jekyll &bull; Linux.](/images/snapshot12.bmp "Jekyll &bull; Linux."){:height="97%" width="97%"}
 
 
 
