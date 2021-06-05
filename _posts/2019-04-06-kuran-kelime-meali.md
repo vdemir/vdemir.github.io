@@ -15,7 +15,7 @@ lang: tr
 
 
 
-![Kuran]({{ site.baseurl }}/images/pdf.png  "Kuran: Kelime Meali"){:height="100%" width="100%"}
+![Kuran]({{ site.baseurl }}/images/pdf.png  "Kuran: Kelime Meali"){:height="10%" width="10%"}
 ![Kuranda Temel Kavramlar 7b]({{base.url}}/viewer/web/viewer.html?file=https://vdemir.github.io/assets/kuran1/Kuranda_Temel_Kavramlar_7b.pdf  "Kuranda_Temel_Kavramlar_7b"){:height="87%" width="87%"}
 <br>
 
