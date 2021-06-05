@@ -13,12 +13,6 @@ lang: tr
 
 
 
- <div align="left">
-<img src="{{ site.baseurl }}/images/pdf.png" alt="viewer2" width="49" height="49"></a>
-
-
-<a href="https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/kuran1/Kuranda_Temel_Kavramlar_7b.pdf" target="_blank" class="btn btn-default">Kuranda_Temel_Kavramlar_7b</a></div>
-
 
 
 ![Kuran]({{ site.baseurl }}/images/pdf.png  "Kuran: Kelime Meali"){:height="100%" width="100%"}
