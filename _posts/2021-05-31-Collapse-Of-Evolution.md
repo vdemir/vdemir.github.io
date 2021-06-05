@@ -10,7 +10,7 @@ date:   2021-05-31 12:00:00
 last_updated: Aug 29, 2021
 comments: false
 published: true
-lang: tr
+lang: en
 ---
 
 
