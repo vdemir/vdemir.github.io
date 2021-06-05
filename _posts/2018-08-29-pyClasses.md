@@ -574,10 +574,10 @@ Bir yordam çağrıldığında tam olarak ne olur? **f()** fonksiyon tanımı bi
 Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey vardır ki, özdeş öbek fonksiyonun ilk ifadesi olarak geçirilir. Örneğimizde, **x.f()** çağrısı tam olarak **MyClass.f(x)** öğesine eşdeğerdir. Genel olarak, n argümanlı bir listeden bir yordamı çağırmak, ilk argümandan önce yordamın özdeş öbeğini ekleyerek oluşturulan bir argüman listesine karşılık fonksiyonu çağırmaya eşdeğerdir. Eğer isim geçerli bir sınıf özniteliğini işaret ederse ki bir fonksiyon öbeğidir, bir yordam öbeği özdeş öbek paketlenerek oluşturulur ve fonksiyon öbeği sadece soyut bir öbek ile birlikte bulunur: bu yordam öbeğidir. Yordam öbeği bir argüman listesi ile çağrıldığında yeni bir argüman listesi, argüman listesi ve özdeş öbekten inşa edilir ve fonksiyon öbeği yeni bir argüman listesi ile çağrılır.
 <br><br>
  
-<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/python-oop.jpg" alt="programs" class="resize" />
-  <p><small>Python &bull; Sınıflar.</small></p>
-</div>
+
+![Python &bull; Sınıflar.](/images/python-oop.jpg "Python &bull; Sınıflar."){:height="97%" width="97%"}
+
+
 
 <div class="teaser clearfix"></div>
 <h3 id="C8">Python Öznitelikler ve Yordamlar</h3><hr>
@@ -731,10 +731,8 @@ print (Example.staticVariable) # now 7
 Bana oldukça basit görünüyor. Sadece kafa karışıklığı gerçek olabilir, sınıfınızda aynı ad altında iki farklı değişkeniniz olabilir (bir statik ve bir sıradan). Ama bu davranışı tamamen önlemek için (kendi iyiliğiniz için) tavsiye ederim.
 
 
-<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/python-logo23.jpg" alt="programs" class="resize" />
-  <p><small>Python &bull; Sınıflar.</small></p>
-</div>
+![Python &bull; Sınıflar.](/images/python-logo23.jpg "Python &bull; Sınıflar."){:height="97%" width="97%"}
+
 
 <br>
 <h3 id="C86"> Statik ve Sınıf Yordamlar</h3>
@@ -1626,10 +1624,8 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
 <br>
 
  
-<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/qppr.png" alt="programs" class="resize" />
-  <p><small>Python &bull; Sınıflar.</small></p>
-</div>
+
+![Python &bull; Sınıflar.](/images/qppr.png "Python &bull; Sınıflar."){:height="97%" width="97%"}
 
 <h3 id="C18">Python Programları</h3><hr>
 
