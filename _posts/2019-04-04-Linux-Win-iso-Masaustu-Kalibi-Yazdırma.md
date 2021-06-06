@@ -52,8 +52,8 @@ Gerçek bir Windows DVD veya görüntüden bir Windows USB stick yükleyici olu�
 ### Genel yöntem
 
 {% highlight bash %}
-$ autoreconf --force --install # Most non-Debian derived distros will need this
-$ ./configure --prefix=/usr
+$ chmod +x path/to/woeusb-N.N.N.bash # Fix executable the file permission
+$ sudo path/to/woeusb-N.N.N.bash # run the program via the path
 $ make
 $ sudo make install
 {% endhighlight %}
