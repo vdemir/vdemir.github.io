@@ -13,7 +13,7 @@ lang: tr
 ---
 
 
-![ATOM MUCİZESİ](/assets/cover/ATOM-MUCIZESI.jpg "HARUN YAHYA"){:height="51%" width="51%"}
+![ATOM MUCİZESİ](/assets/cover/ATOM-MUCIZESI.jpg "HARUN YAHYA"){:height="41%" width="41%"}
 
 [ATOM MUCİZESİ](https://harun-yahya.github.io/TURKISH/ATOM-MUCIZESI.html) 
 
