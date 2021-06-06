@@ -45,7 +45,7 @@ Gerçek bir Windows DVD veya görüntüden bir Windows USB stick yükleyici olu�
 
 
 
-![WoeUSB &bull; Win10.](https://raw.githubusercontent.com/slacka/WoeUSB/master/dev/woeusbgui-screenshot.png){:height="97%" width="97%"}
+![WoeUSB &bull; Win10.](https://raw.githubusercontent.com/WoeUSB/WoeUSB-ng/master/.github/woeusb-logo.png){:height="97%" width="97%"}
 
 
 ### Genel yöntem
