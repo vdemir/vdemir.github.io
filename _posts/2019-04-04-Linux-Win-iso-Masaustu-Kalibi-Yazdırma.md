@@ -54,8 +54,8 @@ Gerçek bir Windows DVD veya görüntüden bir Windows USB stick yükleyici olu�
 ### **Genel yöntem**
 ***
 {% highlight bash %}
-$ chmod +x path/to/woeusb-N.N.N.bash # Fix executable the file permission
-$ sudo path/to/woeusb-N.N.N.bash # run the program via the path
+$ chmod +x woeusb-N.N.N.bash # Fix woeusb-*.bash executable the file permission
+$ sudo woeusb-N.N.N.bash # run the program woeusb-*.bash via the path
 {% endhighlight %}
 
 
