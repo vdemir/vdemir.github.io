@@ -25,14 +25,6 @@ Published by
 
 **GLOBAL PUBLISHING**
 
-Talatpasa Mah. Emirgazi Caddesi
-
-Ibrahim Elmas Ismerkezi
-
-A Blok Kat 4 Okmeydani - Istanbul/Turkey
-
-Phone: +90 212 222 00 88
-
 By Harun Yahya
 
 Translated by Carl Nino Rossini

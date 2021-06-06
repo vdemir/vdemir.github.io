@@ -68,17 +68,8 @@ A catalog record of this book is available from the British Library
 
 ISBN 1-84200-023-3
 
-Printed and bound by:
 
-Secil Ofset in İstanbul
-
-Address: Yüzyıl Mahallesi MAS-SIT Matbaacılar Sitesi
-
-4\. Cadde No:77 Bağcılar- İstanbul / TURKEY
-
-\+90 212 629 06 15
-
-<span class="underline">www.harunyahya.com</span>
+<span class="underline">www.harun-yahya.net</span>
 
 **CONTENTS**
 
@@ -3220,7 +3211,7 @@ Miracles of the Qur'an.
 
 HARUN YAHYA ON THE INTERNET
 
-www.harunyahya.com
+www.harun-yahya.net
 
 www.islamdenouncesantisemitism.com
 
