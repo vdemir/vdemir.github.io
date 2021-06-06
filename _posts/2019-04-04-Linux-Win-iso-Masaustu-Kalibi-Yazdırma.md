@@ -33,7 +33,7 @@ BIOS önyüklemesinde GPT için ilk bölüm 8MB biçimlendirilmemiş ve 'bios_gr
 ### **Win10 iso listesi**
 ***
 
-![Win10 &bull; DeskTop.](assets/images/usbwriter/woeusb.png "Win10 &bull; DeskTop."){:height="57%" width="57%"}
+![Win10 &bull; DeskTop.](assets/usbwriter/woeusb.png "Win10 &bull; DeskTop."){:height="57%" width="57%"}
 
 
 ### **Woeusb'yi Oluştur Ve Yükle**
