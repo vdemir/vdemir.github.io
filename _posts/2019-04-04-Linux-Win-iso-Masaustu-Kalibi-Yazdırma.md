@@ -40,7 +40,7 @@ Gerçek bir Windows DVD veya görüntüden bir Windows USB stick yükleyici olu�
 
 | Sürüm                  |  Çıkış Tarihi |  İndirme Bağlantısı |
 |------------------------|---------------|---------------------|
-| WoeUSB         |  14.10.2018   |  [WoeUSB](https://github.com/slacka/WoeUSB)|
+| WoeUSB 5.1.2           |  23.05.2021   |  [WoeUSB](https://github.com/WoeUSB/WoeUSB)|
 
 
 
@@ -62,13 +62,6 @@ Bu paket iki program içerir:
 
 woeusb: varolan bir Windows Yükleme diskinden veya disk görüntüsünden kendi önyüklenebilir Windows yükleme USB depolama aygıtınızı oluşturmanızı sağlayan bir komut satırı yardımcı programı.
 
-<style>
-img.resize {
-  max-width:100%;
-  max-height:100%;
-}
-</style>
- 
 
 <html>
         <title>Table Example</title>
@@ -90,8 +83,6 @@ img.resize {
         </style>
  </html> 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 <!--https://snipcart.com/
 https://github.com/CloudCannon/fur-jekyll-template
