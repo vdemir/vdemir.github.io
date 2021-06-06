@@ -3,6 +3,7 @@ layout: post
 title:  C'de Struct Yapı ve Fonksiyon
 description: Bu yazıda, struct yapıları bir fonksiyon işlevine argüman olarak geçirmek için alakalı örnekler bulacaksınız ve bunları programınızda kullanabilirsiniz.
 date:   2018-01-16 13:52:00
+last_updated: 2021-06-05 18:57:00
 excerpt: "C, Programming"
 tags:   C Programlama Linux
 categories: Programming
@@ -54,7 +55,7 @@ int main()
 {
     struct student stud;
     printf("Ogrencinin ismini giriniz: ");
-    scanf("%s", &stud.name);
+    scanf("%s", stud.name);
     printf("Ogrencinin numarasini giriniz:");
     scanf("%d", &stud.roll);
     display(stud);   //  Yapisal degiskene ait sapmayi
@@ -67,4 +68,4 @@ void display(struct student stu){
 ~~~
 
 
-<script src="//onlinegdb.com/embed/js/E4uhCvvyk?theme=dark"></script>
+<script src="//onlinegdb.com/embed/js/9MsV6XHiu?theme=dark"></script>
