@@ -10,7 +10,6 @@ tags:   Books
 categories: [Books]
 comments: false
 published: true
-permalink: /books/2020/04/23/Mastermind.html
 lang: en
 sitemap:
   lastmod: 2021-05-23
