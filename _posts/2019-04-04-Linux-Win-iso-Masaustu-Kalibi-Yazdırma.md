@@ -43,7 +43,7 @@ Gerçek bir Windows DVD veya görüntüden bir Windows USB stick yükleyici olu�
 
 | Sürüm                  |  Çıkış Tarihi |  İndirme Bağlantısı |
 |------------------------|---------------|---------------------|
-| WoeUSB 5.1.2           |  23.05.2021   |  [WoeUSB](https://github.com/WoeUSB/WoeUSB)|
+| WoeUSB 5.1.2           |  23.05.2021   |  [WoeUSB](https://github.com/WoeUSB/WoeUSB/releases/tag/v5.1.2)|
 
 
 
