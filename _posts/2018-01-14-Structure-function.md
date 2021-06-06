@@ -65,3 +65,6 @@ void display(struct student stu){
   printf("\nNumara: %d\n",stu.roll);
 }
 ~~~
+
+
+<script src="//onlinegdb.com/embed/js/E4uhCvvyk?theme=dark"></script>
