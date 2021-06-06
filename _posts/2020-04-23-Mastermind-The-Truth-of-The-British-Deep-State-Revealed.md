@@ -30,22 +30,6 @@ Published by:
 
 **ARAŞTIRMA PUBLISHING**
 
-Kayışdağı Mah. Değirmen Sok. No: 3
-
-Ataşehir - İstanbul / Turkey
-
-Tel: +90.216.6600059
-
-Printed by: Doğa Basım
-
-İleri Matbaacılık San. Tic. Ltd. Şti.
-
-İkitelli Org. Sanayi Bölgesi, Turgut Özal Cad.
-
-Çelik Yenal Endüstri Merkezi No: 117/ 2A-2B
-
-İkitelli - İstanbul / Tel: +90.212.4070900
-
 All translations from the Qur'an are from
 
 The Noble Qur'an: a New Rendering of its Meaning in English
