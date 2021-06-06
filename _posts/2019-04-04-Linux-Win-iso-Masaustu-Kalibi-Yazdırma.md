@@ -29,11 +29,8 @@ BIOS önyüklemesinde GPT için ilk bölüm 8MB biçimlendirilmemiş ve 'bios_gr
 
 ### Win10 iso listesi
 
-<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/assets/usbwriter/woeusb.png" alt="programs" class="resize" />
-  <p><small>Win10 &bull; DeskTop.</small></p>
-</div>
 
+![Win10 &bull; DeskTop.](/images/usbwriter/woeusb.png "Win10 &bull; DeskTop."){:height="97%" width="97%"}
 
 
 ### Woeusb'yi Oluştur Ve Yükle
@@ -48,10 +45,8 @@ Gerçek bir Windows DVD veya görüntüden bir Windows USB stick yükleyici olu�
 
 
 
-<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="https://raw.githubusercontent.com/slacka/WoeUSB/master/dev/woeusbgui-screenshot.png" alt="programs" class="resize" />
-  <p><small>WoeUSB &bull; Win10.</small></p>
-</div>
+![WoeUSB &bull; Win10.](https://raw.githubusercontent.com/slacka/WoeUSB/master/dev/woeusbgui-screenshot.png){:height="97%" width="97%"}
+
 
 ### Genel yöntem
 
