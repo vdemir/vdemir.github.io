@@ -18,1096 +18,2081 @@ lang: tr
 [ATOM MUCİZESİ](https://harun-yahya.github.io/TURKISH/ATOM-MUCIZESI.html) 
 
 
-<p><strong>ATOM MUCİZESİ</strong></p>
-<p><strong>HARUN YAHYA &ndash; ADNAN OKTAR</strong></p>
-<p><strong>YAZAR HAKKINDA</strong></p>
-<p>Harun Yahya m&uuml;stear ismini kullanan yazar Adnan Oktar, 1956 yılında Ankara'da doğdu. İlk, orta ve lise &ouml;ğrenimini Ankara'da tamamladı. Daha sonra İstanbul Mimar Sinan &Uuml;niversitesi G&uuml;zel Sanatlar Fak&uuml;ltesi'nde ve İstanbul &Uuml;niversitesi Felsefe B&ouml;l&uuml;m&uuml;'nde &ouml;ğrenim g&ouml;rd&uuml;. 1980'li yıllardan bu yana, imani, bilimsel ve siyasi konularda pek &ccedil;ok eser hazırladı. Bunların yanı sıra, yazarın evrimcilerin sahtekarlıklarını, iddialarının ge&ccedil;ersizliğini ve Darwinizm'in kanlı ideolojilerle olan karanlık bağlantılarını ortaya koyan &ccedil;ok &ouml;nemli eserleri bulunmaktadır.</p>
-<p>Harun Yahya'nın eserleri yaklaşık 40.000 resmin yer aldığı toplam 55.000 sayfalık bir k&uuml;lliyattır ve bu k&uuml;lliyat 73 farklı dile &ccedil;evrilmiştir.</p>
-<p>Yazarın m&uuml;stear ismi, inkarcı d&uuml;ş&uuml;nceye karşı m&uuml;cadele eden iki peygamberin hatıralarına h&uuml;rmeten, isimlerini yad etmek i&ccedil;in Harun ve Yahya isimlerinden oluşturulmuştur. Yazar tarafından kitapların kapağında Resulullah (sav)'in m&uuml;hr&uuml;n&uuml;n kullanılmış olmasının sembolik anlamı ise, kitapların i&ccedil;eriği ile ilgilidir. Bu m&uuml;h&uuml;r, Kuran-ı Kerim'in Allah'ın son kitabı ve son s&ouml;z&uuml;, Peygamberimiz (sav)'in de hatem-&uuml;l enbiya olmasını remzetmektedir. Yazar da, yayınladığı t&uuml;m &ccedil;alışmalarında, Kuran'ı ve Resulullah (sav)'in s&uuml;nnetini kendine rehber edinmiştir. Bu suretle, inkarcı d&uuml;ş&uuml;nce sistemlerinin t&uuml;m temel iddialarını tek tek &ccedil;&uuml;r&uuml;tmeyi ve dine karşı y&ouml;neltilen itirazları tam olarak susturacak "son s&ouml;z"&uuml; s&ouml;ylemeyi hedeflemektedir. &Ccedil;ok b&uuml;y&uuml;k bir hikmet ve kemal sahibi olan Resulullah (sav)'in m&uuml;hr&uuml;, bu son s&ouml;z&uuml; s&ouml;yleme niyetinin bir duası olarak kullanılmıştır.</p>
-<p>Yazarın t&uuml;m &ccedil;alışmalarındaki ortak hedef, Kuran'ın tebliğini d&uuml;nyaya ulaştırmak, b&ouml;ylelikle insanları Allah'ın varlığı, birliği ve ahiret gibi temel imani konular &uuml;zerinde d&uuml;ş&uuml;nmeye sevk etmek ve inkarcı sistemlerin &ccedil;&uuml;r&uuml;k temellerini ve sapkın uygulamalarını g&ouml;zler &ouml;n&uuml;ne sermektir.</p>
-<p>Nitekim Harun Yahya'nın eserleri Hindistan'dan Amerika'ya, İngiltere'den Endonezya'ya, Polonya'dan Bosna Hersek'e, İspanya'dan Brezilya'ya, Malezya'dan İtalya'ya, Fransa'dan Bulgaristan'a ve Rusya'ya kadar d&uuml;nyanın daha pek &ccedil;ok &uuml;lkesinde beğeniyle okunmaktadır. İngilizce, Fransızca, Almanca, İtalyanca, İspanyolca, Portekizce, Urduca, Arap&ccedil;a, Arnavut&ccedil;a, Rus&ccedil;a, Boşnak&ccedil;a, Uygurca, Endonezyaca, Malayca, Bengoli, Sırp&ccedil;a, Bulgarca, &Ccedil;ince, Kishwahili (Tanzanya'da kullanılıyor), Hausa (Afrika'da yaygın olarak kullanılıyor), Dhivehi (Maldivlerde kullanılıyor), Danimarkaca ve İsve&ccedil;ce gibi pek &ccedil;ok dile &ccedil;evrilen eserler, yurt dışında geniş bir okuyucu kitlesi tarafından takip edilmektedir.</p>
-<p>D&uuml;nyanın d&ouml;rt bir yanında olağan&uuml;st&uuml; takdir toplayan bu eserler pek &ccedil;ok insanın iman etmesine, pek &ccedil;oğunun da imanında derinleşmesine vesile olmaktadır. Kitapları okuyan, inceleyen her kişi, bu eserlerdeki hikmetli, &ouml;zl&uuml;, kolay anlaşılır ve samimi &uuml;slubun, akılcı ve ilmi yaklaşımın farkına varmaktadır. Bu eserler s&uuml;ratli etki etme, kesin netice verme, itiraz edilemezlik, &ccedil;&uuml;r&uuml;t&uuml;lemezlik &ouml;zellikleri taşımaktadır. Bu eserleri okuyan ve &uuml;zerinde ciddi bi&ccedil;imde d&uuml;ş&uuml;nen insanların, artık materyalist felsefeyi, ateizmi ve diğer sapkın g&ouml;r&uuml;ş ve felsefelerin hi&ccedil;birini samimi olarak savunabilmeleri m&uuml;mk&uuml;n değildir. Bundan sonra savunsalar da ancak duygusal bir inatla savunacaklardır, &ccedil;&uuml;nk&uuml; fikri dayanakları &ccedil;&uuml;r&uuml;t&uuml;lm&uuml;şt&uuml;r. &Ccedil;ağımızdaki t&uuml;m inkarcı akımlar, Harun Yahya K&uuml;lliyatı karşısında fikren mağlup olmuşlardır.</p>
-<p>Kuşkusuz bu &ouml;zellikler, Kuran'ın hikmet ve anlatım &ccedil;arpıcılığından kaynaklanmaktadır. Yazarın kendisi bu eserlerden dolayı bir &ouml;v&uuml;nme i&ccedil;inde değildir, yalnızca Allah'ın hidayetine vesile olmaya niyet etmiştir. Ayrıca bu eserlerin basımında ve yayınlanmasında herhangi bir maddi kazan&ccedil; hedeflenmemektedir.</p>
-<p>Bu ger&ccedil;ekler g&ouml;z &ouml;n&uuml;nde bulundurulduğunda, insanların g&ouml;rmediklerini g&ouml;rmelerini sağlayan, hidayetlerine vesile olan bu eserlerin okunmasını teşvik etmenin de, &ccedil;ok &ouml;nemli bir hizmet olduğu ortaya &ccedil;ıkmaktadır.</p>
-<p>Bu değerli eserleri tanıtmak yerine, insanların zihinlerini bulandıran, fikri karmaşa meydana getiren, kuşku ve teredd&uuml;tleri dağıtmada, imanı kurtarmada g&uuml;&ccedil;l&uuml; ve keskin bir etkisi olmadığı genel tecr&uuml;be ile sabit olan kitapları yaymak ise, emek ve zaman kaybına neden olacaktır. İmanı kurtarma amacından ziyade, yazarının edebi g&uuml;c&uuml;n&uuml; vurgulamaya y&ouml;nelik eserlerde bu etkinin elde edilemeyeceği a&ccedil;ıktır. Bu konuda kuşkusu olanlar varsa, Harun Yahya'nın eserlerinin tek amacının dinsizliği &ccedil;&uuml;r&uuml;tmek ve Kuran ahlakını yaymak olduğunu, bu hizmetteki etki, başarı ve samimiyetin a&ccedil;ık&ccedil;a g&ouml;r&uuml;ld&uuml;ğ&uuml;n&uuml; okuyucuların genel kanaatinden anlayabilirler.</p>
-<p>Bilinmelidir ki, d&uuml;nya &uuml;zerindeki zul&uuml;m ve karmaşaların, M&uuml;sl&uuml;manların &ccedil;ektikleri eziyetlerin temel sebebi dinsizliğin fikri hakimiyetidir. Bunlardan kurtulmanın yolu ise, dinsizliğin fikren mağlup edilmesi, iman hakikatlerinin ortaya konması ve Kuran ahlakının, insanların kavrayıp yaşayabilecekleri şekilde anlatılmasıdır. D&uuml;nyanın g&uuml;nden g&uuml;ne daha fazla i&ccedil;ine &ccedil;ekilmek istendiği zul&uuml;m, fesat ve kargaşa ortamı dikkate alındığında bu hizmetin elden geldiğince hızlı ve etkili bir bi&ccedil;imde yapılması gerektiği a&ccedil;ıktır. Aksi halde &ccedil;ok ge&ccedil; kalınabilir.</p>
-<p>Bu &ouml;nemli hizmette &ouml;nc&uuml; rol&uuml; &uuml;stlenmiş olan Harun Yahya K&uuml;lliyatı, Allah'ın izniyle, 21. y&uuml;zyılda d&uuml;nya insanlarını Kuran'da tarif edilen huzur ve barışa, doğruluk ve adalete, g&uuml;zellik ve mutluluğa taşımaya bir vesile olacaktır.</p>
-<p><strong>OKUYUCUYA</strong></p>
-<p> Bu kitapta ve diğer &ccedil;alışmalarımızda evrim teorisinin &ccedil;&ouml;k&uuml;ş&uuml;ne &ouml;zel bir yer ayrılmasının nedeni, bu teorinin her t&uuml;rl&uuml; din aleyhtarı felsefenin temelini oluşturmasıdır. Yaratılışı ve dolayısıyla Allah'ın varlığını inkar eden Darwinizm, 150 yıldır pek &ccedil;ok insanın imanını kaybetmesine ya da kuşkuya d&uuml;şmesine neden olmuştur. Dolayısıyla bu teorinin bir aldatmaca olduğunu g&ouml;zler &ouml;n&uuml;ne sermek &ccedil;ok &ouml;nemli bir imani g&ouml;revdir. Bu &ouml;nemli hizmetin t&uuml;m insanlarımıza ulaştırılabilmesi ise zorunludur. Kimi okuyucularımız belki tek bir kitabımızı okuma imkanı bulabilir. Bu nedenle her kitabımızda bu konuya &ouml;zet de olsa bir b&ouml;l&uuml;m ayrılması uygun g&ouml;r&uuml;lm&uuml;şt&uuml;r.</p>
-<p> Belirtilmesi gereken bir diğer husus, bu kitapların i&ccedil;eriği ile ilgilidir. Yazarın t&uuml;m kitaplarında imani konular, Kuran ayetleri doğrultusunda anlatılmakta, insanlar Allah'ın ayetlerini &ouml;ğrenmeye ve yaşamaya davet edilmektedirler. Allah'ın ayetleri ile ilgili t&uuml;m konular, okuyanın aklında hi&ccedil;bir ş&uuml;phe veya soru işareti bırakmayacak şekilde a&ccedil;ıklanmaktadır.</p>
-<p> Bu anlatım sırasında kullanılan samimi, sade ve akıcı &uuml;slup ise kitapların yediden yetmişe herkes tarafından rahat&ccedil;a anlaşılmasını sağlamaktadır. Bu etkili ve yalın anlatım sayesinde, kitaplar "bir solukta okunan kitaplar" deyimine tam olarak uymaktadır. Dini reddetme konusunda kesin bir tavır sergileyen insanlar dahi, bu kitaplarda anlatılan ger&ccedil;eklerden etkilenmekte ve anlatılanların doğruluğunu inkar edememektedirler.</p>
-<p> Bu kitap ve yazarın diğer eserleri, okuyucular tarafından bizzat okunabileceği gibi, karşılıklı bir sohbet ortamı şeklinde de okunabilir. Bu kitaplardan istifade etmek isteyen bir grup okuyucunun kitapları birarada okumaları, konuyla ilgili kendi tefekk&uuml;r ve tecr&uuml;belerini de birbirlerine aktarmaları a&ccedil;ısından yararlı olacaktır.</p>
-<p> Bunun yanında, sadece Allah'ın rızası i&ccedil;in yazılmış olan bu kitapların tanınmasına ve okunmasına katkıda bulunmak da b&uuml;y&uuml;k bir hizmet olacaktır. &Ccedil;&uuml;nk&uuml; yazarın t&uuml;m kitaplarında ispat ve ikna edici y&ouml;n son derece g&uuml;&ccedil;l&uuml;d&uuml;r. Bu sebeple dini anlatmak isteyenler i&ccedil;in en etkili y&ouml;ntem, bu kitapların diğer insanlar tarafından da okunmasının teşvik edilmesidir.</p>
-<p>Kitapların arkasına yazarın diğer eserlerinin tanıtımlarının eklenmesinin ise &ouml;nemli sebepleri vardır. Bu sayede kitabı eline alan kişi, yukarıda s&ouml;z ettiğimiz &ouml;zellikleri taşıyan ve okumaktan hoşlandığını umduğumuz bu kitapla aynı vasıflara sahip daha bir&ccedil;ok eser olduğunu g&ouml;recektir. İmani ve siyasi konularda yararlanabileceği zengin bir kaynak birikiminin bulunduğuna şahit olacaktır.</p>
-<p> Bu eserlerde, diğer bazı eserlerde g&ouml;r&uuml;len, yazarın şahsi kanaatlerine, ş&uuml;pheli kaynaklara dayalı izahlara, mukaddesata karşı gereken adaba ve saygıya dikkat edilmeyen &uuml;sluplara, burkuntu veren &uuml;mitsiz, ş&uuml;pheci ve ye'se s&uuml;r&uuml;kleyen anlatımlara rastlayamazsınız.</p>
-<p>Bu kitapta kullanılan ayetler, Ali Bula&ccedil;'ın hazırladığı<br /> "Kur'an-ı Kerim ve T&uuml;rk&ccedil;e Anlamı" isimli mealden alınmıştır.</p>
-<p>Birinci Baskı: Kasım 1999 / İkinci Baskı: Mart 2006 <br /> &Uuml;&ccedil;&uuml;nc&uuml; Baskı: Mayıs 2007 / D&ouml;rd&uuml;nc&uuml; Baskı: Aralık 2013</p>
-<p><strong>ARAŞTIRMA YAYINCILIK</strong></p>
-<p>Kayışdağı Mah. Değirmen Sok. No: 3</p>
-<p>Ataşehir - İstanbul Tel: (0 216) 660 00 59</p>
-<p>Baskı: Milsan Basın San. A.Ş.</p>
-<p>Cemal Ulusoy Cad.38/A Bah&ccedil;elievler - İstanbul</p>
-<p>Tel: (0 212) 471 71 50 / milsanbasin@gmail.com / Mat sertifika: 12169</p>
-<p><strong>www.harunyahya.org - www.harunyahya.net</strong></p>
-<p><strong>İ&Ccedil;İNDEKİLER</strong></p>
-<p>GİRİŞ 8</p>
-<p>1. B&Ouml;L&Uuml;M: Atomun Oluşum Ser&uuml;veni 10</p>
-<p>2. B&Ouml;L&Uuml;M: Atomun Yapısı 38</p>
-<p>3. B&Ouml;L&Uuml;M: Maddeye Giden <br /> İkinci Basamak: Molek&uuml;ller 68</p>
-<p>4. B&Ouml;L&Uuml;M: Canlanan Atomlar 92</p>
-<p>5. B&Ouml;L&Uuml;M: Atomun G&uuml;c&uuml; 104</p>
-<p>SONU&Ccedil; 118</p>
-<p>6. B&Ouml;L&Uuml;M: Evrim Yanılgısı 122</p>
-<p><strong>GİRİŞ</strong></p>
-<p>İnsanoğlu i&ccedil;inde yaşadığı d&uuml;nyada "ne", "nasıl" ve "ne şekilde" gibi pek &ccedil;ok sorunun cevabını aramakta, ancak bu soruların ardından olduk&ccedil;a kısa bir yol katedebilmektedir. İnsanın i&ccedil; i&ccedil;e yaşadığı olağan&uuml;st&uuml; d&uuml;zen ve denge hakkında kendisine 'neden?' sorusunu sormadığı s&uuml;rece ger&ccedil;eğe ulaşacak bir mesafe katetmesi m&uuml;mk&uuml;n değildir.</p>
-<p>Bu kitapta, canlı-cansız her şeyin temeli olan "atom" konusunu ele alacağız. Atom hakkında nelerin, nasıl ve ne şekilde ger&ccedil;ekleştiğini inceledikten sonra, "neden" sorusunun cevaplarını arayacağız. Bizi, peşinde olduğumuz mutlak ger&ccedil;eğe ulaştıracak olan işte bu son sorunun cevabı olacaktır.</p>
-<p>19. y&uuml;zyılın ilk yarısından bu yana &ccedil;ok sayıda bilimadamı atomun sırlarını ortaya &ccedil;ıkarabilmek i&ccedil;in gece g&uuml;nd&uuml;z &ccedil;alıştılar. Atomun şekli, hareketi, yapısı ve diğer &ouml;zelliklerini g&uuml;n ışığına &ccedil;ıkaran bu &ccedil;alışmalar, maddeyi ezeli ve ebedi bir varlık olarak kabul eden klasik fiziği temellerinden yıktı ve modern fiziğin temellerini attı. Bu &ccedil;alışmalar aynı zamanda beraberinde bir&ccedil;ok soruyu da g&uuml;ndeme getirdi.</p>
-<p>Bu sorulara yanıt arayan pek &ccedil;ok fizik&ccedil;i, &ccedil;alışmalarının sonucunda t&uuml;m evrende olduğu gibi atomda da kusursuz bir d&uuml;zen, şaşmaz bir denge ve m&uuml;kemmel bir tasarım olduğu ger&ccedil;eğinde birleştiler.</p>
-<p>Bu ger&ccedil;ek, 14 asır &ouml;nce Allah Katından indirilmiş olan Kuran'da da a&ccedil;ıklanmıştır. Kuran ayetlerinden a&ccedil;ık&ccedil;a anlaşıldığı gibi t&uuml;m evren, m&uuml;kemmel bir d&uuml;zen i&ccedil;inde işlemektedir. &Ccedil;&uuml;nk&uuml; yer, g&ouml;k ve ikisi arasında bulunanlar, sonsuz bir g&uuml;&ccedil; ve akıl sahibi olan Allah tarafından yaratılmıştır.</p>
-<p>Allah&rsquo;ın yarattığı her şey olağan&uuml;st&uuml; m&uuml;kemmelliktedir ve kusursuz bir d&uuml;zen i&ccedil;inde işlemektedir. Asıl şaşılması gereken konu, bazı insanların kendi v&uuml;cutları da dahil olmak &uuml;zere g&ouml;rd&uuml;kleri, duydukları ve bildikleri her yerde karşılarına &ccedil;ıkan sonsuz sayıdaki mucizeden etkilenmemeleri ve bu olağan&uuml;st&uuml; detayların "neden" kendilerine g&ouml;sterildiği sorusunun cevabını d&uuml;ş&uuml;nmemekte ısrar etmeleridir.</p>
-<p>Okumakta olduğunuz "Atom Mucizesi" adlı bu kitap, bilimsel bir konuyu incelemesine karşın, alışageldiğiniz bilimsel kitaplardan farklı bir ama&ccedil;la karşınıza &ccedil;ıkmaktadır. Bu &ccedil;alışma, hem canlıların hem de cansızların yapı taşı olmak gibi son derece eşsiz bir &ouml;zelliğe sahip olan "atom"u, "ne", "nasıl" ve "ne şekilde" sorularının cevaplarıyla ele alarak, "neden" sorusunun yanıtına kapı a&ccedil;maktadır. Bu kapıdan ge&ccedil;ildiğinde ise, Allah'ın aklının, bilgisinin &uuml;st&uuml;nl&uuml;ğ&uuml; ve yaratışının t&uuml;m varlıkları sarıp kuşattığı a&ccedil;ık&ccedil;a g&ouml;zler &ouml;n&uuml;ne serilmektedir.</p>
-<p><strong>Allah... O'ndan başka İlah yoktur. Diridir, kaimdir. O'nu uyuklama ve uyku tutmaz. G&ouml;klerde ve yerde ne varsa hepsi O'nundur. İzni olmaksızın O'nun Katında şefaatte bulunacak kimdir? O, &ouml;nlerindekini ve arkalarındakini bilir. (Onlar ise) Dilediği kadarının dışında, O'nun ilminden hi&ccedil;bir şeyi kavrayıp-kuşatamazlar. O'nun k&uuml;rs&uuml;s&uuml;, b&uuml;t&uuml;n g&ouml;kleri ve yeri kaplayıp-kuşatmıştır. Onların korunması O'na g&uuml;&ccedil; gelmez. O, pek y&uuml;cedir, pek b&uuml;y&uuml;kt&uuml;r. (Bakara Suresi, 255)</strong></p>
-<p><strong>AKILLI TASARIM yani YARATILIŞ</strong></p>
-<p>Kitapta zaman zaman karşınıza Allah'ın yaratmasındaki m&uuml;kemmelliği vurgulamak i&ccedil;in kullandığımız "tasarım" kelimesi &ccedil;ıkacak. Bu kelimenin hangi maksatla kullanıldığının doğru anlaşılması &ccedil;ok &ouml;nemli. Allah'ın t&uuml;m evrende kusursuz bir tasarım yaratmış olması, Rabbimiz'in &ouml;nce plan yaptığı daha sonra yarattığı anlamına gelmez. Bilinmelidir ki, yerlerin ve g&ouml;klerin Rabbi olan Allah'ın yaratmak i&ccedil;in herhangi bir 'tasarım' yapmaya ihtiyacı yoktur. Allah'ın tasarlaması ve yaratması aynı anda olur. Allah bu t&uuml;r eksikliklerden m&uuml;nezzehtir. Allah'ın, bir şeyin ya da bir işin olmasını dilediğinde, onun olması i&ccedil;in yalnızca "Ol" demesi yeterlidir. Kuran'da Allah ş&ouml;yle buyurmaktadır:</p>
-<p><strong>G&ouml;kleri ve yeri (bir &ouml;rnek edinmeksizin) yaratandır. O, bir işin olmasına karar verirse, ona yalnızca "Ol" der, o da hemen oluverir. (Bakara Suresi, 117)</strong></p>
-<p><strong>1. B&Ouml;L&Uuml;M: <br /> ATOMUN OLUŞUM SER&Uuml;VENİ</strong></p>
-<p>G&ouml;rkemli boyutlarıyla insan aklının kavrama sınırlarını zorlayan evren, var olduğu ilk andan itibaren hassas dengeler &uuml;zerinde ve b&uuml;y&uuml;k bir d&uuml;zen i&ccedil;erisinde, hi&ccedil; şaşmadan işlemektedir. Bu muazzam evrenin nasıl var olduğu, nereye doğru gittiği, i&ccedil;indeki d&uuml;zen ve dengeyi sağlayan kanunların nasıl işlediği ise her devirde insanların merak konusu olmuştur ve halen de olmaya devam etmektedir. Bilimadamları bu konularla ilgili sayısız araştırmalar yapmış, pek &ccedil;ok tez ve teori &uuml;retmişlerdir. Evrendeki d&uuml;zen ve tasarımı akıl ve vicdanlarıyla değerlendiren bilimadamları i&ccedil;in var olan kusursuzluğu a&ccedil;ıklamak &ccedil;ok kolay olmuştur. &Ccedil;&uuml;nk&uuml; bu kusursuz tasarımın t&uuml;m evrene hakim olan &uuml;st&uuml;n g&uuml;&ccedil; sahibi Allah tarafından yaratıldığı, d&uuml;ş&uuml;nen ve akleden insanlar i&ccedil;in a&ccedil;ık&ccedil;a g&ouml;zler &ouml;n&uuml;ne serilmiş bir ger&ccedil;ektir. Allah bu a&ccedil;ık ger&ccedil;eği Kuran ayetlerinde de bildirmektedir:</p>
-<p><strong>Ş&uuml;phesiz g&ouml;klerin ve yerin yaratılışında, gece ile g&uuml;nd&uuml;z&uuml;n art arda gelişinde temiz akıl sahipleri i&ccedil;in ger&ccedil;ekten ayetler vardır. (Al-i İmran Suresi, 190)</strong></p>
-<p>Fakat yaratılış delillerine g&ouml;zlerini kapamaya &ccedil;alışan bilimadamları, yıllardır ardı arkası kesilmeyen bu sorulara cevap vermekte &ccedil;ok b&uuml;y&uuml;k zorluklar &ccedil;ekmektedirler. Bilimsel ger&ccedil;eklerle taban tabana zıt olan teorilerini savunmak i&ccedil;in demagojilere, hi&ccedil;bir bilimsel dayanağı olmayan ger&ccedil;ek dışı kuramlara, &ccedil;ok zorda kalınca ise sahtekarlıklara bile sığınmaktan bile &ccedil;ekinmemektedirler. Fakat 21. y&uuml;zyılın eşiğinde olduğumuz şu g&uuml;nlerde bilimsel alanda yaşanan her t&uuml;rl&uuml; gelişme bizi tek bir ger&ccedil;eğe g&ouml;t&uuml;rmektedir: Evren &uuml;st&uuml;n bir g&uuml;&ccedil; ve sonsuz ilim sahibi olan Allah tarafından yoktan var edilmiştir.</p>
-<p><strong>Evrenin Yaratılışı</strong></p>
-<p>"Evren nasıl var oldu?" sorusu insanların y&uuml;zyıllardır cevap aradıkları bir sorudur. Tarih boyunca binlerce evren modeli sunulmuş, binlerce kuram &uuml;retilmiştir. Fakat bu teoriler incelendiği zaman hepsinin temelde iki farklı modelden birini savunduğu g&ouml;r&uuml;l&uuml;r. Bunlardan birincisi artık hi&ccedil;bir bilimsel dayanağı ve ge&ccedil;erliliği kalmamış olan sonsuz evren, yani evrenin bir başlangıcının olmadığı fikri, ikincisi ise şu an t&uuml;m bilim &ccedil;evreleri tarafından kabul g&ouml;ren evrenin b&uuml;y&uuml;k bir patlama ile yoktan yaratıldığı ger&ccedil;eğidir.</p>
-<p>Artık ge&ccedil;erliliğini yitirmiş olan ilk model, evrenin sınırsız olduğunu, sonsuzdan beri var olduğunu, sonsuza kadar da varlığını ve şu anki durumunu koruyacağını savunmaktaydı. Bu sonsuz evren fikri, eski Yunan'da gelişmiş, daha sonra da R&ouml;nesans'la birlikte yeniden canlanan materyalist felsefenin bir &uuml;r&uuml;n&uuml; olarak Batı bilim d&uuml;nyasına girmişti. R&ouml;nesansın &ouml;z&uuml;nde eski Yunan d&uuml;ş&uuml;n&uuml;rlerinin eserlerini incelemek yatıyordu. B&ouml;ylece materyalist felsefe ve bu felsefenin savunduğu sonsuz evren anlayışı, felsefi ve ideolojik kaygılarla tozlu raflardan &ccedil;ıkarılıp, bilimsel bir ger&ccedil;ekmiş gibi insanlara sunuldu.</p>
-<p>Karl Marx, Friedrich Engels gibi materyalistlerin, maddeci ideolojilerine &ccedil;ok &ouml;nemli bir zemin hazırlayan bu fikri b&uuml;y&uuml;k bir hevesle sahiplenmeleri, bu modelin, i&ccedil;inde bulunduğumuz y&uuml;zyıla taşınmasında en &ouml;nemli etkenlerden birini oluşturdu.</p>
-<p>20. y&uuml;zyılın ilk yarısına kadar g&uuml;ndemde olan bu "sonsuz evren" modeline g&ouml;re, evren i&ccedil;in herhangi bir başlangı&ccedil; veya son s&ouml;z konusu değildi. Evren yoktan var edilmediği gibi, hi&ccedil;bir zaman da yok olmayacaktı. Materyalist felsefenin de temelini oluşturan bu teoriye g&ouml;re evrenin durağan (statik) bir yapısı vardı. Oysa daha sonraları elde edilen bilimsel bulgular bu teorinin t&uuml;m&uuml;yle yanlış ve bilim dışı olduğunu ortaya &ccedil;ıkardı. Evren sonsuzdan beri s&uuml;regelmiyordu; bir başlangıcı vardı ve yoktan var edilmişti.</p>
-<p>Evrenin sonsuz olduğu, yani bir başlangıcı olmadığı fikri her zaman i&ccedil;in dinsizliğin ve Allah'ı inkar etme yanılgısına d&uuml;şen ideolojilerin &ccedil;ıkış noktası olmuştur. &Ccedil;&uuml;nk&uuml; onlara g&ouml;re evrenin bir başlangıcının olmaması, aynı zamanda bir Yaratıcı'nın da olmadığı anlamına geliyordu. Ama bilim &ccedil;ok ge&ccedil;meden materyalistlerin bu iddialarının ge&ccedil;ersizliğini ve evrenin B&uuml;y&uuml;k Patlama (Big Bang) olarak adlandırılan bir patlama ile yoktan var edilerek başladığını, delilleriyle ortaya koydu. Yoktan var edilmenin ise tek bir anlamı vardı: "Yaratılış". Yani t&uuml;m evren sonsuz kudret sahibi olan Allah tarafından yaratılmıştı.</p>
-<p>&Uuml;nl&uuml; İngiliz astronom Sir Fred Hoyle da bu teoriden rahatsız olanlar arasında sayılıyordu. Hoyle, "steady-state" (sabit durum) adındaki teorisiyle evrenin genişlediğini kabul etmekle birlikte, evrenin boyut ve zaman a&ccedil;ısından sonsuz olduğunu iddia ediyordu. Bu modele g&ouml;re, evren genişledik&ccedil;e madde, gerektiği miktarda, birdenbire, kendi kendine var olmaya başlıyordu. "Sonsuz evren" fikrini desteklemek i&ccedil;in son derece zorlama a&ccedil;ıklamalarla ortaya atılan bu teori, bilimsel olarak ispatlanan Big Bang kuramıyla taban tabana zıttı. Onlar bu ger&ccedil;eğe karşı direnmeye devam ettiler, ama t&uuml;m bilimsel gelişmeler onları yalanlıyor ve ger&ccedil;ekleri birer birer y&uuml;zlerine vuruyordu.</p>
-<p><strong>Evrenin Genişlemesi ve Big Bang Ger&ccedil;eği</strong></p>
-<p>20. yy. ile birlikte astronomi alanında &ccedil;ok b&uuml;y&uuml;k gelişmeler yaşanmaya başlandı. İlk olarak 1922 yılında Rus fizik&ccedil;i Alexandre Friedmann evrenin durağan bir yapıya sahip olmadığını keşfetti. Einstein'in genel g&ouml;recelik kuramından yola &ccedil;ıkan Friedmann, en ufak bir etkileşimin evrenin genişlemesine veya b&uuml;z&uuml;şmesine yol a&ccedil;acağını hesapladı. Bel&ccedil;ika'nın en &uuml;nl&uuml; g&ouml;k bilimcilerinden Georges Lemaitre ise bu hesabın &ouml;nemini fark eden ilk kişi oldu. Onun bu hesaplamalardan yaptığı &ccedil;ıkarım, evrenin bir başlangıcı olduğu ve bu başlangı&ccedil;tan itibaren s&uuml;rekli genişlediğiydi. Lemaitre'in s&ouml;ylediği &ccedil;ok &ouml;nemli bir şey daha vardı: Ona g&ouml;re bu başlangı&ccedil; anındaki patlamadan arta kalan bir radyasyon olmalıydı ve bu saptanabilirdi. Lemaitre ilk başlarda bilimsel &ccedil;evrelerde &ccedil;ok b&uuml;y&uuml;k destek bulmayan bu a&ccedil;ıklamalarının doğruluğundan emindi. Zaten evrenin genişlediğine dair başka kanıtlar da birer birer ortaya &ccedil;ıkıyordu. Bu sıralarda Edwin Hubble isimli Amerikalı astronom kullandığı dev teleskopla g&ouml;ky&uuml;z&uuml;n&uuml; incelerken yıldızların, uzaklıklarına bağlı olarak kızıl renge doğru kayan bir ışık yaydıklarını saptadı. Hubble, California Mount Wilson g&ouml;zlem evinde yaptığı bu buluşuyla sabit durum teorisini ortaya atan ve yıllardır savunan t&uuml;m bilim adamlarına da meydan okuyor, mevcut evren anlayışını temelden sarsıyordu.</p>
-<p>Hubble'ın bu tespiti, g&ouml;zlemin yapıldığı noktaya doğru hareket eden ışıkların tayfının mor y&ouml;ne doğru, g&ouml;zlemin yapıldığı noktadan uzaklaşan ışıkların tayfının da kızıl y&ouml;ne doğru kaydığı fiziksel ger&ccedil;eğine dayanıyordu. Yani California Mount Wilson g&ouml;zlem evinden izlenen g&ouml;k cisimleri d&uuml;nyamızdan uzaklaşmaktaydılar. Bu g&ouml;zlemlerin devamı yıldız ve galaksilerin sadece bizden değil, birbirlerinden de uzaklaştıklarını ortaya koyuyordu. T&uuml;m bu g&ouml;k cisimlerinin birbirlerinden uzaklaşmaları evrenin genişlemekte olduğunu bir kez daha kanıtlıyordu. Bu gelişmelerle ilgili ilgin&ccedil; bir saptamayı David Filkin'in "Stephen Hawking's Universe" isimli kitabından aktaralım:</p>
-<p>"&hellip; Lemaitre iki yıla kalmadan ummaya cesaret edemediği bir haber aldı. Hubble galaksilerden gelen ışığın kızıla doğru kaydıklarını g&ouml;zlemlemişti ve Doppler etkisine g&ouml;re bu evrenin genişlediği demekti. Artık yalnızca bir zaman sorunuydu. Einstein zaten Hubble'ın &ccedil;alışmalarıyla ilgileniyordu ve Mount Wilson G&ouml;zlem evinde kendisini ziyaret etmek niyetindeydi. Lemaitre de aynı sıralarda California Teknoloji Enstit&uuml;s&uuml;'nde bir konferans vermeyi ayarladı ve Einstein ile Hubble'ı birlikte bir k&ouml;şeye sıkıştırmayı başardı. Kendisinin "ilk atom" kuramını adım adım anlatarak t&uuml;m evrenin "d&uuml;n&uuml; olmayan bir g&uuml;nde" yaratıldığını s&ouml;yledi. Gereken b&uuml;t&uuml;n matematik hesaplarını yapmıştı. Lemaitre s&ouml;z&uuml;n&uuml; bitirdiğinde kulaklarına inanamadı. Einstein ayağa kalkmış ve o anda duyduklarının "o g&uuml;ne kadar dinlediği en g&uuml;zel ve en tatmin edici yorum" olduğunu bildirmiş" ve "kozmolojik sabiti yaratmanın yaşamının en b&uuml;y&uuml;k hatası olduğunu" itiraf etmişti.<sup>1 </sup></p>
-<p>İşte d&uuml;nyanın gelmiş ge&ccedil;miş en &ouml;nemli bilim adamı sayılan Einstein'ı ayağa fırlatan bu ger&ccedil;ek evrenin bir başlangıcı olduğu ger&ccedil;eğiydi.</p>
-<p>Evrenin genişlemesiyle ilgili yapılan g&ouml;zlemler arttık&ccedil;a yeni iddialar da birbirini izliyordu. Bu ger&ccedil;ekten yola &ccedil;ıkan bilimadamları, Lemaitre'in de s&ouml;ylediği gibi, zamanda geriye doğru gittiklerinde s&uuml;rekli k&uuml;&ccedil;&uuml;len, k&uuml;&ccedil;&uuml;len ve sonunda bir nokta kadar kalan bir evren modeliyle karşı karşıya kaldılar. Matematiksel hesaplamalar, evrenin t&uuml;m maddesini i&ccedil;inde barındıran bu "tek nokta"nın, korkun&ccedil; &ccedil;ekim g&uuml;c&uuml; nedeniyle "sıfır hacme" sahip olacağını g&ouml;sterdi. Evren, sıfır hacme sahip bu noktanın patlamasıyla ortaya &ccedil;ıkmıştı ve bu patlamaya "Big Bang" (B&uuml;y&uuml;k Patlama) adı verildi.</p>
-<p>Big Bang'in g&ouml;sterdiği &ouml;nemli bir ger&ccedil;ek vardı: Sıfır hacim "yokluk" anlamına geldiğine g&ouml;re, evren "yok" iken "var" hale gelmişti. Bu ise, evrenin bir başlangıcı olduğu anlamına geliyor ve b&ouml;ylece materyalizmin "evren sonsuzdan beri vardır" varsayımını ge&ccedil;ersiz kılıyordu.</p>
-<p><strong>Delilleriyle B&uuml;y&uuml;k Patlama</strong></p>
-<p>Evrenin b&uuml;y&uuml;k bir patlama sonrasında oluşmaya başladığı ger&ccedil;eğinin kesinlik kazanması &uuml;zerine astrofizik&ccedil;iler araştırmalarını hızlandırdılar. George Gamov'a g&ouml;re evrenin bu patlama ile oluşması durumunda, patlamadan arta kalan ve evrenin her yanına eşit şekilde dağılmış bulunan bir radyasyonun olması gerekiyordu.</p>
-<p>Bu varsayımı takip eden yıllarda t&uuml;m bilimsel buluşlar b&uuml;t&uuml;n&uuml;yle Big Bang'i doğrular şekilde birbirini izledi. 1965 yılında Arno Penzias ve Robert Wilson adlı iki araştırmacı bu dalgaları bir rastlantı sonucunda keşfettiler. "Kozmik Fon Radyasyonu" adı verilen bu radyasyon, uzaydaki belli bir kaynaktan yayılan herhangi bir radyasyondan farklıydı. Olağan&uuml;st&uuml; bir eş y&ouml;nl&uuml;l&uuml;k sergiliyordu. Başka bir ifade ile yerel k&ouml;kenli değildi, yani belirli bir kaynağı yoktu, evrenin t&uuml;m&uuml;ne dağılmış bir radyasyondu. B&ouml;ylece uzun s&uuml;redir evrenin her yerinden eşit &ouml;l&ccedil;&uuml;de ısı dalgası şeklinde tesbit edilen bu radyasyonun, Big Bang'in ilk d&ouml;nemlerinden kalma olduğu ortaya &ccedil;ıktı. &Uuml;stelik bu rakam bilim adamlarının &ouml;nceden &ouml;ng&ouml;rd&uuml;kleri rakama &ccedil;ok yakındı. Penzias ve Wilson, Big Bang'in bu ispatını deneysel olarak ilk g&ouml;steren kişiler oldukları i&ccedil;in Nobel &Ouml;d&uuml;l&uuml; kazandılar.</p>
-<p>George Smoot ve NASA'daki ekibinin, Penzias ve Wilson'ın &ouml;l&ccedil;&uuml;mlerini doğrulaması uzaya g&ouml;nderilen COBE uydusu sayesinde, yalnızca sekiz dakika s&uuml;rd&uuml;. Uyduda bulunan hassas tarayıcıların elde ettikleri sonu&ccedil;lar Big Bang i&ccedil;in yeni bir zaferi de beraberinde getiriyordu. Tarayıcılar Big Bang'in ilk anlarındaki sıcak ve yoğun ortamın kalıntılarının ger&ccedil;ekliğini doğruluyorlardı. COBE Big Bang'in doğruluğunu delilleriyle onaylamıştı ve bilim &ccedil;evreleri bu a&ccedil;ık ger&ccedil;eği kabul etmek durumundaydılar.</p>
-<p>Bir başka delil ise uzaydaki hidrojen ve helyum gazlarının miktarının hesaplanmasıyla ortaya &ccedil;ıktı. Buna g&ouml;re evrendeki hidrojen-helyum gazlarının oranı, Big Bang'den arta kalan hidrojen-helyum oranının teorik olarak hesaplanan miktarıyla b&uuml;y&uuml;k bir benzerlik g&ouml;steriyordu.</p>
-<p>Bu delillerin ortaya &ccedil;ıkması, Big Bang'in bilim d&uuml;nyasında kesin kabul g&ouml;rmesiyle sonu&ccedil;landı. &Uuml;nl&uuml; bilim dergisi Scientific American, 1994 yılının Ekim ayı sayısında "Big Bang modeli y&uuml;zyılımızın kabul g&ouml;rm&uuml;ş tek modeli" diyordu.</p>
-<p>Uzun yıllar boyunca "sonsuz evren" fikrini savunan isimlerden de itiraflar birer birer geliyordu. Fred Hoyle ile birlikte uzun yıllar sabit durum teorisini savunan Dennis Sciama, Big Bang ger&ccedil;eği karşısında d&uuml;şt&uuml;kleri i&ccedil;ler acısı durumu ş&ouml;yle anlatır:</p>
-<p>Sabit durum teorisini savunanlarla, onu test eden ve bence onu &ccedil;&uuml;r&uuml;tmeyi uman g&ouml;zlemciler arasında, bir d&ouml;nem &ccedil;ok sert &ccedil;ekişme vardı. Bu d&ouml;nemde ben de bir rol &uuml;stlenmiştim. &Ccedil;&uuml;nk&uuml; ger&ccedil;ekliğine inandığım i&ccedil;in değil, ger&ccedil;ek olmasını istediğim i&ccedil;in 'sabit durum' teorisini savunuyordum. Teorinin ge&ccedil;ersizliğini savunan kanıtlar ortaya &ccedil;ıkmaya başladık&ccedil;a Fred Hoyle bu kanıtları karşılamada lider rol &uuml;stlenmişti. Ben de yanında yer almış, bu d&uuml;şmanca kanıtlara nasıl cevap verilebileceği konusunda fikir y&uuml;r&uuml;t&uuml;yordum. Ama kanıtlar biriktik&ccedil;e artık oyunun bittiği ve sabit durum teorisinin bir kenara bırakılması ger&ccedil;eği ortaya &ccedil;ıkıyordu.<sup>2</sup></p>
-<p><strong>Allah Evreni Yoktan Var Etmiştir</strong></p>
-<p>Gelişen bilimin ortaya &ccedil;ıkardığı t&uuml;m delillerle birlikte "sonsuz evren" kavramı da tarihe karışmış oluyordu. Bunun arkasından ise daha &ouml;nemli sorular ortaya &ccedil;ıkıyordu. Bu b&uuml;y&uuml;k patlamadan &ouml;nce ne vardı? "Yok" olan evreni "var" hale getiren g&uuml;&ccedil; neydi?</p>
-<p>B&uuml;y&uuml;k patlama &ouml;ncesinde ne olduğu sorusuna verilecek tek bir cevap vardır. Bu da elbette ki g&ouml;kleri ve yeri b&uuml;y&uuml;k bir d&uuml;zen i&ccedil;inde yaratan, &uuml;st&uuml;n g&uuml;&ccedil; ve kudret sahibi Allah'tır. Pek &ccedil;ok bilimadamı, inan&ccedil;lı olsun ya da olmasın, bu ger&ccedil;eği kabul etmek zorundadır. Bilimsel platformlarda bu ger&ccedil;eği kabul etmeseler bile, c&uuml;mleleri arasına sıkışan itirafları onları ele vermektedir. &Ouml;rneğin &ouml;nceleri ateist olan fakat sonradan Allah&rsquo;ın varlığını kabul eden tanınmış felsefecilerden Anthony Flew, ge&ccedil;mişte itiraflarda bulunmanın insan ruhuna iyi geldiğini s&ouml;yleyip, konuşmasına ş&ouml;yle devam etmiştir:</p>
-<p>İtiraflarda bulunmanın insan ruhuna iyi geldiğini s&ouml;ylerler. Ben de bir itirafta bulunacağım: Big Bang modeli, bir ateist a&ccedil;ısından olduk&ccedil;a sıkıntı vericidir. &Ccedil;&uuml;nk&uuml; bilim, dini kaynaklar tarafından savunulan bir iddiayı ispat etmiştir: Evrenin bir başlangıcı olduğu iddiasını. <sup>3 </sup></p>
-<p>İngiliz materyalist fizik&ccedil;i H. P. Lipson gibi bazı bilim adamları ise Big Bang teorisini ister istemez kabul etmek zorunda olduklarını itiraf eder:</p>
-<p>Bence, bu noktadan daha da ileri gitmek ve tek kabul edilebilir a&ccedil;ıklamanın yaratılış olduğunu onaylamak zorundayız. Bunun ben dahil &ccedil;oğu fizik&ccedil;i i&ccedil;in son derece itici olduğunun farkındayım, ama eğer deneysel kanıtlar bir teoriyi destekliyorsa, bu teoriyi sırf hoşumuza gitmediği i&ccedil;in reddetmemeliyiz.<sup>4</sup></p>
-<p>Sonu&ccedil; olarak bilim, materyalist bilim adamlarının &ouml;n&uuml;ne isteseler de istemeseler de tek bir ger&ccedil;eği koymaktadır: Madde ve zaman, sonsuz g&uuml;&ccedil; sahibi olan, g&ouml;kleri, yeri ve ikisi arasındakileri kusursuzca var eden bir Yaratıcı, her şeye kadir olan Allah tarafından yaratılmıştır.</p>
-<p><strong>Allah, yedi g&ouml;ğ&uuml; ve yerden de onların benzerini yarattı. Emir, bunların arasında durmadan iner; sizin ger&ccedil;ekten Allah'ın her şeye g&uuml;&ccedil; yetirdiğini ve ger&ccedil;ekten Allah'ın ilmiyle her şeyi kuşattığını bilmeniz, &ouml;ğrenmeniz i&ccedil;in. (Talak Suresi, 12)</strong></p>
-<p><strong>Kuran'daki İşaretler</strong></p>
-<p>Big Bang modeli, insanlığın evreni tanımasına yardımcı olurken, &ccedil;ok &ouml;nemli bir işlev daha ger&ccedil;ekleştirmiştir. &Ouml;nceki sayfalarda s&ouml;zlerini aktardığımız, &ouml;nceleri ateist olan fakat sonradan yaratılışı kabul eden &uuml;nl&uuml; felsefeci Anthony Flew'un ifadesiyle, Big Bang ile birlikte "bilim, dini kaynaklar tarafından savunulan bir iddiayı ispat etmiştir."</p>
-<p>Bu ger&ccedil;ek, "evrenin yoktan yaratıldığı ger&ccedil;eği"dir. Bu, bilimin keşfinden binlerce yıl &ouml;nce, Allah'ın insanlara yol g&ouml;sterici olarak indirdiği mukaddes kitaplarda bildirilmiştir.</p>
-<p>T&uuml;m İlahi kaynakların i&ccedil;inde tahrifata uğramamış yegane kitap olan Kuran'da ise, hem evrenin yoktan yaratılışı, hem de bu yaratılışın bi&ccedil;imi konusunda bilgiler verilmektedir. 14 asır &ouml;nce vahyedilmiş olan bu bilgiler 20. y&uuml;zyıl biliminin bulgularıyla tamamen paraleldir.</p>
-<p>&Ouml;ncelikle evrenin "yok" iken "var" hale geldiği, Kuran'da ş&ouml;yle haber verilir:</p>
-<p><strong>(Allah) g&ouml;kleri ve yeri bir &ouml;rnek edinmeksizin yaratandır... (Enam Suresi, 101) </strong></p>
-<p>G&uuml;n&uuml;m&uuml;zden tam 14 asır &ouml;nce insanların evrenle ilgili bilgilerinin son derece kısıtlı olduğu zamanlarda yine Kuran'da bildirilen bir başka ger&ccedil;ek de, aynı Big Bang teorisinin ortaya koyduğu gibi, t&uuml;m evrenin, &ccedil;ok k&uuml;&ccedil;&uuml;k bir hacimde bir arada iken ayrılıp genişlemesiyle ortaya &ccedil;ıkmış olduğudur:</p>
-<p><strong>O inkar edenler g&ouml;rm&uuml;yorlar mı ki, (başlangı&ccedil;ta) g&ouml;klerle yer birbiriyle bitişik iken, Biz onları ayırdık ve her canlı şeyi sudan yarattık. Yine de onlar inanmayacaklar mı? (Enbiya Suresi, 30)</strong></p>
-<p>&Uuml;stteki ayetin Arap&ccedil;a orijinalinde &ccedil;ok &ouml;nemli bir kelime se&ccedil;imi vardır. Ayetin "birbiriyle bitişik" olarak terc&uuml;me edilen "ratk" kelimesi, Arap&ccedil;a s&ouml;zl&uuml;klerde "birbiriyle i&ccedil; i&ccedil;e, ayrılmaz durumda, kaynaşmış" anlamlarına gelir. Yani tam bir b&uuml;t&uuml;n oluşturan iki madde i&ccedil;in kullanılır. Ayetteki "ayırdık" ifadesi ise Arap&ccedil;a "fatk" fiilidir ki, bu fiil ratk halindeki bir nesnenin yarıp, par&ccedil;alayıp dışarı &ccedil;ıkması anlamına gelir. &Ouml;rneğin tohumun filizlenerek topraktan dışarı &ccedil;ıkması bu fiille ifade edilir.</p>
-<p>Bu bilgiyle ayete tekrar bakalım. Ayette g&ouml;klerle yerin ratk durumunda olduğundan bahsedilmektedir. Ardından bu ikisi fatk fiili ile ayrılmışlardır. Yani biri diğerini yararak dışarı &ccedil;ıkmıştır. Ger&ccedil;ekten de Big Bang'in ilk anını hatırladığımızda, kozmik yumurta denilen noktanın evrenin t&uuml;m maddesini i&ccedil;erdiğini g&ouml;r&uuml;r&uuml;z. Yani her şey, bir başka deyişle t&uuml;m "g&ouml;kler ve yer" bu noktanın i&ccedil;inde, ratk halindedirler. Ardından bu kozmik yumurta şiddetle patlamış, bu yolla maddeler fatk olmuş, yani yumurtayı yarıp dışarı &ccedil;ıkarak t&uuml;m evreni oluşturmuşlardır.</p>
-<p>Kuran'da bildirilen bir başka ger&ccedil;ek ise, bilim tarafından ancak 1920'lerin sonunda fark edilen evrenin genişlemesi ger&ccedil;eğidir. Yukarıda bahsettiğimiz gibi Hubble'ın, yıldızların ışık tayflarının kızıla kaymasını fark etmesiyle ilk kez ortaya &ccedil;ıkan bu ger&ccedil;ek, Kuran'da ş&ouml;yle bildirilir:</p>
-<p><strong>Biz g&ouml;ğ&uuml; 'b&uuml;y&uuml;k bir kudretle' bina ettik ve ş&uuml;phesiz Biz, (onu) genişleticiyiz. (Zariyat Suresi, 47)</strong></p>
-<p>Kısacası modern bilimin bulguları bir yandan materyalist dogmayı ge&ccedil;ersiz kılarken, &ouml;te yandan da Kuran ayetleri ile haber verilen ger&ccedil;ekleri bir kez daha tasdik etmektedir. &Ccedil;&uuml;nk&uuml; evren materyalistlerin sandığı gibi, maddenin i&ccedil;indeki birtakım tesad&uuml;fler ile değil, Allah'ın yaratmasıyla var olmuştur ve Allah'tan gelen bilgi, kuşkusuz evrenin k&ouml;keni hakkındaki en doğru bilgidir.</p>
-<p><strong>Maddenin An An Yaratılışı</strong></p>
-<p>Big Bang teorisinin de bir kez daha ortaya koyduğu gibi, Allah evreni yokluktan var etmiştir. Bu b&uuml;y&uuml;k patlama, her y&ouml;n&uuml;yle insanı d&uuml;ş&uuml;nd&uuml;ren, tesad&uuml;flerle izah edilemeyecek ince hesaplar ve detaylarla doludur.</p>
-<p>Patlamanın her anındaki sıcaklık, atom par&ccedil;acıklarının sayısı, o anda devreye giren kuvvetler ve bu kuvvetlerin şiddetleri &ccedil;ok hassas değerlere sahip olmalıdır. Bu değerlerin birinin bile sağlanamaması durumunda, bug&uuml;n i&ccedil;inde yaşadığımız evren var olamazdı. Kastettiğimiz değerlerin herhangi birinin matematiksel olarak "0"a yakın bir miktarda dahi değişmesi, bu sonu hazırlamaya yeterlidir.</p>
-<p>Kısacası evren ve onun yapı taşı olan atomlar B&uuml;y&uuml;k Patlama anından hemen sonra Allah'ın yarattığı bu dengeler sayesinde yoktan var olmaya başlamıştır. Bilim adamları bu oluşum sırasında meydana gelen olayların m&uuml;kemmel zamanlamalarını ve bu zamanlamalarda devrede olan fizik kurallarının d&uuml;zenini anlamak i&ccedil;in sayısız &ccedil;alışmalar yapmışlardır. Bug&uuml;n artık bu konuda &ccedil;alışma yapan t&uuml;m bilimadamlarının kabul ettiği ger&ccedil;ekler şunlardır:</p>
-<ul>
-<li>
-<p>"0" anı: Ne maddenin, ne de zamanın var olmadığı ve patlamanın ger&ccedil;ekleştiği bu "an", fizikte t (zaman) = 0 anı olarak kabul edilmektedir. Yani t=0 anında hi&ccedil;bir şey yoktur. Yaratılmanın başladığı bu "an"dan &ouml;nceyi tarif edebilmek i&ccedil;in, o anda var olan fizik kurallarını bilmemiz gerekir. &Ccedil;&uuml;nk&uuml; şu an var olan fizik kanunları patlamanın ilk anlarında ge&ccedil;erli değildir.</p>
-</li>
-</ul>
-<p>Fiziğin tanımlayabildiği olaylar en k&uuml;&ccedil;&uuml;k zaman birimi olan 10<sup>-43</sup> saniyeden itibaren başlar. Bu, insan aklının asla kavrayamayacağı bir zaman dilimidir. Peki acaba, hayal bile edemediğimiz, bu k&uuml;&ccedil;&uuml;k zaman aralığında neler olmuştur? Fizik&ccedil;iler bu anda meydana gelen olayları t&uuml;m detaylarıyla a&ccedil;ıklayabilecek bir teoriyi şu ana kadar geliştirememişlerdir.<sup>5</sup></p>
-<p>&Ccedil;&uuml;nk&uuml; bilim adamlarının ellerinde hesap yapabilmeleri i&ccedil;in gereken malzeme yoktur. Matematik ve fizik kurallarının tanımları bu sınırda tıkanıp kalmıştır. Yani her bir detayı &ccedil;ok hassas dengeler &uuml;zerine kurulmuş bu patlamanın &ouml;ncesi de, bu ilk anları da fiziğin ve insanın kavrama g&uuml;c&uuml;n&uuml;n &ouml;tesinde bir yaratılışa sahiptir...</p>
-<p>Zamanın olmadığı bir andan başlayan bu yaratılış an an madde evreninin ve fizik kurallarının ortaya &ccedil;ıkmasını sağlamıştır. Şimdi bu patlamada &ccedil;ok kısa s&uuml;re i&ccedil;erisinde b&uuml;y&uuml;k bir hassasiyetle meydana gelen olaylara bir g&ouml;z atalım:</p>
-<p>Yukarıda da belirttiğimiz gibi fizikte her şey 10<sup>-43</sup> saniye sonrasından itibaren hesaplanabilir ve ancak bu andan sonra enerji ve zaman tarif edilebilir. Yaratılışın bu anında, sıcaklık değeri 10<sup>32</sup> (100.000.000.000.000.000.-000.000.000.000.000) K&rsquo;dir. Bir kıyaslama yapacak olursak, g&uuml;neşin sıcaklığı milyonlarla (10<sup>8</sup>), g&uuml;neşten &ccedil;ok b&uuml;y&uuml;k yıldızların sıcaklığı ise ancak milyarlarla (10<sup>11</sup>) ifade edilir. Şu an tespit edebildiğimiz en y&uuml;ksek sıcaklık milyar derecelerle sınırlıyken, 10<sup>-43</sup> anındaki sıcaklığın ne derece y&uuml;ksek olduğu konusunda bir kıyas yapabilmek m&uuml;mk&uuml;nd&uuml;r.</p>
-<ul>
-<li>
-<p>10<sup>-43</sup> saniyelik bu d&ouml;nemden bir aşama ileri gidip saniyenin 10<sup>-37 </sup>olduğu zamana geliriz. Bu iki s&uuml;re arasındaki aralık bir-iki saniye gibi bir an değildir. Saniyenin katrilyon kere katrilyonda biri kadar bir zaman aralığından bahsedilmektedir. Sıcaklık yine olağan&uuml;st&uuml; y&uuml;ksek olup 10<sup>29 </sup>(100.000.000.-000.000.000.000.000.000.000) K değerindedir. Bu aşamada hen&uuml;z atomlar yaratılmamıştır.<sup>6</sup></p>
-</li>
-<li>
-<p>Bir adım daha atıp 10<sup>-2</sup> saniyelik d&ouml;neme giriyoruz. Bu aralık, bir saniyenin y&uuml;zde birini ifade etmektedir. Bu zaman dilimi i&ccedil;inde sıcaklık 100 milyar derecedir. Bu d&ouml;nemde "ilk evren" şekillenmeye başlamıştır. Daha atom &ccedil;ekirdeğini oluşturan proton ve n&ouml;tron gibi par&ccedil;acıklar g&ouml;r&uuml;n&uuml;rde yoktur. Ortada sadece elektron ve onun zıttı olan pozitron (anti-elektron) vardır. &Ccedil;&uuml;nk&uuml; evrenin o anki sıcaklığı ve hızı sadece bu par&ccedil;acıkların oluşmasına izin verir. Yokluğun ardından patlama ger&ccedil;ekleşeli daha 1 saniye bile ge&ccedil;meden, elektron ve pozitronlar oluşmuştur.</p>
-</li>
-</ul>
-<p>Bu andan sonra oluşacak her atom par&ccedil;acığının hangi anda ortaya &ccedil;ıkacağı &ccedil;ok &ouml;nemlidir. &Ccedil;&uuml;nk&uuml; şu andaki fizik kurallarının ortaya &ccedil;ıkması i&ccedil;in her par&ccedil;acık &ouml;zel bir anda ortaya &ccedil;ıkmak zorundadır. Hangi par&ccedil;anın &ouml;nce oluşacağı &ccedil;ok b&uuml;y&uuml;k bir &ouml;nem taşımaktadır. Bu sıralama ya da zamanlamadaki en ufak bir oynama sonucunda, evrenin bug&uuml;nk&uuml; haline gelmesi m&uuml;mk&uuml;n olmazdı.</p>
-<p>Şimdi burada durup biraz d&uuml;ş&uuml;nelim.</p>
-<p>B&uuml;y&uuml;k Patlama teorisi, evreni oluşturan t&uuml;m maddenin yokluktan ortaya &ccedil;ıktığını g&ouml;stermesiyle Allah'ın varlığının bir delilini ortaya koymuş oldu. Ancak bununla kalmadı, B&uuml;y&uuml;k Patlama'nın ardından hen&uuml;z 1 saniye bile ge&ccedil;meden atomun yapıtaşlarının da yoktan var olduğunu g&ouml;sterdi. Bu par&ccedil;acıkların sahip olduğu inanılmaz denge ve d&uuml;zene dikkat etmek gerekir. İlerleyen sayfalarda daha detaylı anlatacağımız bu dengeler sayesinde evren bug&uuml;nk&uuml; durumundadır ve yine bu dengeler sayesinde bizler yaşamımızı rahat&ccedil;a s&uuml;rd&uuml;rebiliriz. Kısacası, b&uuml;y&uuml;k bir karmaşa ve d&uuml;zensizlik yaratması beklenebilecek bir patlamanın ardından m&uuml;kemmel bir d&uuml;zen, bizlerin "fizik kuralları" olarak adlandırdığı değişmeyen kanunlar ortaya &ccedil;ıkmıştır. Bu ise, B&uuml;y&uuml;k Patlama da dahil evrenin yaratılışından itibaren her anın kusursuzca tasarlandığını bizlere kanıtlamaktadır.</p>
-<p>Şimdi kaldığımız yerden gelişmeleri izlemeye devam edelim.</p>
-<p>Bir aşama sonra, 10<sup>-1</sup> saniye kadar bir zamanın ge&ccedil;tiği bir ana geliriz. Bu sırada sıcaklık 30 milyar derecedir. t=0 anından bu d&ouml;neme gelene kadar hen&uuml;z 1 saniye bile ge&ccedil;memiştir. Ancak atomun diğer par&ccedil;acıkları olan n&ouml;tron ve protonlar artık belirmeye başlamıştır. Daha sonraki b&ouml;l&uuml;mlerde kusursuz yapılarını inceleyeceğiniz n&ouml;tron ve protonlar, işte bu şekilde yokluktan "an"dan bile kısa bir s&uuml;re i&ccedil;erisinde yaratılmışlardır.</p>
-<ul>
-<li>
-<p>Patlamadan sonraki 1. saniyeye gelelim. Bu d&ouml;nemdeki k&uuml;tlesel yoğunluğun derecesine baktığımızda, yine olağan&uuml;st&uuml; b&uuml;y&uuml;k bir rakamla karşı karşıya olduğumuzu g&ouml;r&uuml;r&uuml;z. Yapılan hesaplamalara g&ouml;re bu d&ouml;nemdeki mevcut k&uuml;tlenin yoğunluk değeri, litre başına 3.8 milyar kilogramdır. Milyar kilogram olarak ifade edilen bu rakamı, aritmetik olarak tespit edebilmek ve bu rakamı kağıt &uuml;zerinde g&ouml;stermek kolaydır. Ancak, bu değeri tam olarak kavrayabilmek m&uuml;mk&uuml;n değildir. Bu rakamın b&uuml;y&uuml;kl&uuml;ğ&uuml;n&uuml; daha kolay ifade edebilmek i&ccedil;in &ccedil;ok basit bir &ouml;rnek verecek olursak; "Himalayalardaki Everest tepesi bu yoğunluğa sahip olsaydı, kazanacağı &ccedil;ekim kuvveti ile d&uuml;nyamızı bir anda yutabilirdi" diyebiliriz.<sup>7</sup></p>
-</li>
-<li>
-<p>Bir sonraki zaman diliminin en belirgin &ouml;zelliği ise sıcaklığın olduk&ccedil;a d&uuml;ş&uuml;k bir değere ulaşmış olmasıdır. Evren artık yaklaşık 14 saniyelik bir &ouml;mre sahiptir ve sıcaklık da 3 milyar derecedir ve &ccedil;ok m&uuml;thiş bir hızla genişlemeye devam etmektedir.</p>
-</li>
-</ul>
-<p>Hidrojen ve helyum &ccedil;ekirdekleri gibi kararlı atom &ccedil;ekirdeklerinin oluşmaya başladığı d&ouml;nem de işte bu d&ouml;nemdir. Yani bir proton ile bir n&ouml;tron ilk defa yan yana durabilecekleri bir ortam bulmuşlardır. K&uuml;tleleri var ile yok arası olan bu iki par&ccedil;acık olağan&uuml;st&uuml; bir &ccedil;ekim oluşturarak, o m&uuml;thiş yayılma hızına karşı koymaya başlamışlardır. Ortada son derece bilin&ccedil;li, kontroll&uuml; bir gidiş olduğu bellidir. İnanılmaz bir patlamanın ardından, b&uuml;y&uuml;k bir denge, hassas bir d&uuml;zen oluşmaktadır. Protonlar ve n&ouml;tronlar biraraya gelmeye, maddenin yapı taşı olan atomu oluşturmaya başlamışlardır. Oysa bu par&ccedil;acıkların, maddeyi oluşturabilmek i&ccedil;in gerekli hassas dengeleri sağlayabilecek bir g&uuml;ce ve bilince sahip olmaları elbette ki m&uuml;mk&uuml;n değildir.</p>
-<ul>
-<li>
-<p>Bu oluşumu takip eden d&ouml;nemde, evrenin sıcaklığı 1 milyar dereceye d&uuml;şm&uuml;şt&uuml;r. Bu sıcaklık g&uuml;neşimizin merkez sıcaklığının 60 katıdır. İlk d&ouml;nemden bu d&ouml;neme kadar ge&ccedil;en s&uuml;re sadece 3 dakika 2 saniyedir. Artık foton, proton, anti-proton, n&ouml;trino ve anti-n&ouml;trino gibi atom altı par&ccedil;acıklar &ccedil;oğunluktadır. Bu d&ouml;nemde var olan t&uuml;m par&ccedil;acıkların sayıları ve birbirleri ile olan etkileşimleri &ccedil;ok kritiktir. &Ouml;yle ki, herhangi bir par&ccedil;acığın sayısındaki en ufak bir farklılık, bunların belirlediği enerji d&uuml;zeyini bozacak ve enerjinin maddeye d&ouml;n&uuml;şmesini engelleyecektir.</p>
-</li>
-</ul>
-<p>&Ouml;rneğin elektron ve pozitronları ele alalım: Elektron ve pozitron bir araya geldiğinde enerji a&ccedil;ığa &ccedil;ıkar. Bu sebeple ikisinin de sayıları &ccedil;ok &ouml;nemlidir. Diyelim ki 10 birim elektron ve 8 birim pozitron karşı karşıya geliyor. Bu durumda, 10 birim elektronun 8 birimi, yine 8 birim pozitronla etkileşime girer ve b&ouml;ylece enerji a&ccedil;ığa &ccedil;ıkar. Sonu&ccedil;ta, 2 birim elektron serbest kalır. Elektron, evrenin yapı taşı olan atomu oluşturan par&ccedil;acıklardan biri olduğundan, evrenin var olabilmesi i&ccedil;in bu d&ouml;nemde gerekli miktarda elektron olması şarttır. Az &ouml;nceki &ouml;rnek &uuml;zerinde d&uuml;ş&uuml;nmeye devam edersek, karşı karşıya gelen elektron ve pozitronlardan, eğer pozitronların sayısı daha fazla olsaydı, sonu&ccedil;ta a&ccedil;ığa &ccedil;ıkan enerjiden elektron yerine pozitronlar arta kalacak ve madde evreni asla oluşamayacaktı. Pozitron ve elektronların sayısı eşit olsaydı, bu kez de ortaya sadece enerji &ccedil;ıkacak, maddesel evrene dair hi&ccedil;bir şey oluşmayacaktı. Oysa elektron sayısındaki bu fazlalık, sonradan evrendeki protonların sayısına eşit olacak şekilde &ccedil;ok hassas bir &ouml;l&ccedil;&uuml;yle ayarlanmıştır. &Ccedil;&uuml;nk&uuml; daha sonradan oluşacak olan atomda, elektron ve proton sayıları birbirine eşit olacaktır.</p>
-<p>İşte, B&uuml;y&uuml;k Patlama'dan sonra ortaya &ccedil;ıkan par&ccedil;acıkların sayısı bu kadar ince bir hesapla belirlenmiş ve sonu&ccedil;ta madde evreni oluşabilmiştir. Prof. Dr. Steven Weinberg bu par&ccedil;acıklar arasındaki etkileşimin ne derece kritik olduğunu şu s&ouml;zleriyle vurgulamaktadır:</p>
-<p>Evrende ilk birka&ccedil; dakikada ger&ccedil;ekten de kesin olarak eşit sayıda par&ccedil;acık ve karşıt par&ccedil;acık oluşmuş olsaydı, sıcaklık 1.000.000.000 derecenin altına d&uuml;şt&uuml;ğ&uuml;nde, bunların t&uuml;m&uuml; yok olur ve ışınım dışında hi&ccedil;bir şey kalmazdı. Bu olasılığa karşı &ccedil;ok iyi bir kanıt vardır: Var olmamız. Par&ccedil;acık ve karşı par&ccedil;acıkların yok olmasının ardından şimdiki evrenin maddesini sağlamak &uuml;zere geriye bir şeylerin kalabilmesi i&ccedil;in, pozitronlardan biraz daha &ccedil;ok elektron, karşı protonlardan biraz daha &ccedil;ok proton ve karşı n&ouml;tronlardan biraz daha &ccedil;ok n&ouml;tron var olmalıydı.<sup>8</sup></p>
-<ul>
-<li>
-<p>İlk d&ouml;nemden bu yana toplam 34 dakika 40 saniye ge&ccedil;miştir. Evrenimiz artık yarım saat yaşındadır. Sıcaklık milyar derecelerden d&uuml;şm&uuml;ş, 300 milyon dereceye ulaşmıştır. Elektronlarla pozitronlar birbirleriyle &ccedil;arpışarak enerji a&ccedil;ığa &ccedil;ıkarmayı s&uuml;rd&uuml;r&uuml;rler. Artık atomu oluşturacak olan par&ccedil;acıkların sayıları, madde evreninin oluşmasına imkan sağlayacak şekilde dengelenmiştir.</p>
-</li>
-</ul>
-<p>Patlamanın hızının nispeten yavaşlamasıyla birlikte neredeyse k&uuml;tlesi dahi olmayan bu par&ccedil;acıklar birbirlerinin etkisine girmeye başlarlar. İlk hidrojen atomu, bir elektronun bir protonun y&ouml;r&uuml;ngesine girmesiyle oluşur. Bu oluşumla birlikte evrende g&ouml;receğimiz temel kuvvetlerle tanışmış oluruz.</p>
-<p>İnsan kavrayışının &ccedil;ok &uuml;st&uuml;nde bir tasarım &uuml;r&uuml;n&uuml; olan ve yapıları &ccedil;ok hassas dengeler &uuml;zerine oturan bu par&ccedil;acıkların tesad&uuml;fler sonucu bir araya gelip, &uuml;stelik de hepsinin aynı davranışta bulunmaları kuşkusuz imkansızdır. Bu kusursuzluk, &uuml;zerinde araştırma yapan herkesi &ccedil;ok &ouml;nemli bir ger&ccedil;eğe g&ouml;t&uuml;r&uuml;r. Ortada &uuml;st&uuml;n bir "yaratılış" ve bu yaratılışın her anında eşsiz bir kontrol vardır. &Ccedil;&uuml;nk&uuml; patlama sonrasında meydana gelen her par&ccedil;acığın belirli bir zamanda, belirli bir ısıda ve belirli bir hızla oluşmaları gerekir. &Ouml;yleki bu haliyle, adeta kurulmuş bir saat gibi &ccedil;alışan bu sistem, &ccedil;alışmaya başlamadan &ouml;nce bu ince ayarlarıyla birlikte programlanmıştır. Yani b&uuml;y&uuml;k patlama ve onun sonucunda ortaya &ccedil;ıkan kusursuz evren, patlama başlamadan &ouml;nce tasarlanmış ve daha sonra harekete ge&ccedil;irilmiştir.</p>
-<p>Evreni d&uuml;zenleyen, tasarlayan ve kontrol eden, elbette ki her şeyin Yaratıcısı olan Y&uuml;ce Allah'tır.</p>
-<p>Bu yaratılış yalnızca atomda değil, evrenin b&uuml;y&uuml;k k&uuml;&ccedil;&uuml;k her k&uuml;tlesinde g&ouml;zlemlenebilir. Başlangı&ccedil;ta birbirinden ışık hızıyla kopup uzaklaşan bu par&ccedil;acıklardan yalnızca hidrojen atomları oluşmakla kalmamış, bug&uuml;nk&uuml; evrenin i&ccedil;erdiği b&uuml;t&uuml;n muazzam sistemler, diğer atomlar, molek&uuml;ller, gezegenler, g&uuml;neşler, g&uuml;neş sistemleri, galaksiler, kuasarlar, vs. muhteşem bir plan, &ouml;l&ccedil;&uuml; ve denge i&ccedil;inde sırayla meydana gelmişlerdir. Sadece bir atomun oluşması i&ccedil;in gereken par&ccedil;acıkların şans eseri bir araya gelmeleri, hassas dengeleri oluşturmaları dahi imkansızken, gezegenlerin, galaksilerin, kısacası evrendeki işleyişi sağlayan t&uuml;m sistemlerin hepsinin teker teker şans eseri oluşup dengelere kavuştuğunu iddia etmek tamamen akıl ve mantık dışı olur. Bu eşsiz tasarım, t&uuml;m evrenin Yaratıcısı olan Allah'a aittir.</p>
-<p>Oluşumu tek başına bir mucize olan hidrojen atomunu diğer atomların oluşması takip etmiştir. Ancak, burada hemen akla "diğer atomlar neye g&ouml;re oluştu, ni&ccedil;in t&uuml;m proton ve n&ouml;tronlar sadece hidrojen atomunu oluşturmadılar, par&ccedil;acıklar hangi atomdan ne kadar oluşturacaklarına nasıl karar verdiler?..." gibi sorular gelmektedir. Bu soruların cevabı bizi yine aynı sonuca g&ouml;t&uuml;rmektedir: Hidrojenin ve onu takip eden t&uuml;m atomların ortaya &ccedil;ıkışında b&uuml;y&uuml;k bir kudret, kontrol ve tasarım vardır. Bu kontrol ve tasarım insan aklının sınırlarını zorlayan, ortada a&ccedil;ık bir "yaratılış" olduğunu g&ouml;steren &ouml;zelliktedir. B&uuml;y&uuml;k Patlama ile ortaya &ccedil;ıkan fizik kuralları, aradan ge&ccedil;en yaklaşık 17 milyar yıllık zamanda herhangi bir değişikliğe uğramamıştır. &Uuml;stelik bu kurallar &ouml;yle ince hesaplar neticesinde var edilmişlerdir ki, bug&uuml;nk&uuml; değerlerinden milimetrik sapmalar bile t&uuml;m evrendeki yapıyı ve d&uuml;zeni alt &uuml;st edebilecek sonu&ccedil;lar doğurabilir. Bu noktada &uuml;nl&uuml; fizik&ccedil;i Prof. Stephen Hawking'in konuyla ilgili s&ouml;zleri ilgi &ccedil;ekicidir. Hawking, anlatılan olayların aslında kavrayabildiğimizden &ccedil;ok daha ince hesaplar &uuml;zerine kurulduğunu ş&ouml;yle a&ccedil;ıklamaktadır:</p>
-<p>Eğer Big Bang'ten bir saniye sonra genişleme oranı, 100.000 milyon kere milyonda bir değeri kadar az olsaydı, evren genişlemeyi bırakıp kendi i&ccedil;ine &ccedil;&ouml;kecekti.<sup>9</sup></p>
-<p>Bu derece ince hesaplar &uuml;zerine kurulmuş olan B&uuml;y&uuml;k Patlama, zamanın, mekanın ve maddenin kendiliğinden var olmadığını, herşeyin Allah tarafından yaratıldığını a&ccedil;ık&ccedil;a ortaya koymaktadır. &Ccedil;&uuml;nk&uuml; yukarıda anlatılan olayların, başıboş tesad&uuml;fler sonucu meydana gelmesi ve evrenin yapı taşı olan atomu oluşturması kesinlikle m&uuml;mk&uuml;n değildir.</p>
-<p>Nitekim bu konu ile ilgilenen pek &ccedil;ok bilim adamı evrenin yaratılışında sonsuz bir kuvvetin varlığını ve b&uuml;y&uuml;kl&uuml;ğ&uuml;n&uuml; kabul etmiş durumdadır. &Uuml;nl&uuml; astrofizik&ccedil;i Hugh Ross evrenin Yaratıcısı'nın t&uuml;m boyutların &uuml;zerinde olduğunu ş&ouml;yle a&ccedil;ıklar:</p>
-<p>Zaman, olayların meydana geldiği boyuttur. Eğer zaman, patlamayla birlikte ortaya &ccedil;ıkmışsa, o zaman evreni meydana getiren nedenin evrendeki zaman ve mekandan tamamen bağımsız olması gerekir. Bu bize Yaratıcı'nın evrendeki t&uuml;m boyutların &uuml;zerinde olduğunu g&ouml;steriyor. Aynı zamanda Yaratıcı'nın bazılarının savunduğu gibi evrenin kendisi olmadığını ve evreni kapladığını, sadece evrenin i&ccedil;indeki bir g&uuml;&ccedil; olmadığını kanıtlıyor.<sup>10</sup></p>
-<p>Big Bang'in en &ouml;nemli &ouml;zelliği, bu teoriyle insanların Allah'ın g&uuml;c&uuml;n&uuml; daha iyi anlama imkanı bulmalarıdır. İ&ccedil;inde barındırdığı t&uuml;m maddelerle birlikte bir evrenin yoktan meydana gelmesi Allah'ın g&uuml;c&uuml;n&uuml;n en b&uuml;y&uuml;k delillerindendir. Patlama sırasındaki enerjinin hassas dengesi ise, Allah'ın ilminin sonsuzluğunu d&uuml;ş&uuml;nd&uuml;rtmeye y&ouml;nelik &ccedil;ok b&uuml;y&uuml;k bir işarettir.</p>
-<p><strong>EVRENDEKİ TEMEL KUVVETLER</strong></p>
-<p>Evrendeki fizik kurallarının B&uuml;y&uuml;k Patlama'nın ardından ortaya &ccedil;ıktığından bahsetmiştik. Bu kurallar bug&uuml;n modern fiziğin kabul ettiği "d&ouml;rt temel kuvvet" &ccedil;evresinde toplanır. Bu kuvvetler evrendeki b&uuml;t&uuml;n d&uuml;zeni ve sistemi oluşturmak i&ccedil;in B&uuml;y&uuml;k Patlama'dan hemen sonra, ilk atom altı par&ccedil;acıkların oluşumuyla birlikte ve &ouml;zel olarak belirlenmiş zamanlarda ortaya &ccedil;ıkmışlardır. Atomlar, yani madde evreni, ancak bu kuvvetlerin etkisiyle var olabilmiş ve evrene &ccedil;ok d&uuml;zenli bir tasarımla dağılmışlardır. Bu kuvvetler yer&ccedil;ekimi kuvveti olarak bildiğimiz k&uuml;tle &ccedil;ekim kuvveti, elektromanyetik kuvvet, g&uuml;&ccedil;l&uuml; n&uuml;kleer kuvvet ve zayıf n&uuml;kleer kuvvettir. Bunların hepsi birbirinden farklı şiddete ve etki alanına sahiptir. G&uuml;&ccedil;l&uuml; ve zayıf n&uuml;kleer kuvvetler sadece atomun yapısını belirlerler. Diğer iki kuvvet, yani yer&ccedil;ekimi ve elektromanyetizma ise, atomların arasındaki ilişkiyi ve dolayısıyla t&uuml;m maddesel objeler arasındaki dengeyi belirlerler. Yery&uuml;z&uuml;ndeki bu kusursuz d&uuml;zen, bu kuvvetlerin &ccedil;ok hassas değerlerinin bir sonucudur. İlgin&ccedil; olan ise bu kuvvetlerin birbirleri ile karşılaştırıldıklarında ortaya &ccedil;ıkan tablodur. &Ccedil;&uuml;nk&uuml; Big Bang sonrasında ortaya &ccedil;ıkan ve evrene dağılan maddeler, aralarında u&ccedil;urumlar olan bu kuvvetlere g&ouml;re belirlenmiştir. Bu kuvvetlerin farklı değerlerini birbirlerine oranla ş&ouml;yle g&ouml;sterebiliriz:</p>
-<p><strong> G&uuml;&ccedil;l&uuml; n&uuml;kleer kuvvet : 15</strong></p>
-<p><strong> Zayıf n&uuml;kleer kuvvet : 7.03 x 10<sup>-3</sup></strong></p>
-<p><strong> Yer &ccedil;ekimi kuvveti : 5.90 x 10<sup>-39</sup></strong></p>
-<p><strong> Elektromanyetik kuvvet : 3.05 x 10<sup>-12</sup></strong></p>
-<p>Bu temel kuvvetler, m&uuml;kemmel bir g&uuml;&ccedil; dağılımı ile madde evreninin oluşmasına imkan verirler. Kuvvetler arasındaki bu oran o kadar hassas bir denge &uuml;zerine kuruludur ki, ancak ve ancak bu oranlarla par&ccedil;acıklar &uuml;zerinde gereken etkiyi yapabilirler.</p>
-<p><strong>1. &Ccedil;ekirdekteki Dev G&uuml;&ccedil;: G&uuml;&ccedil;l&uuml; N&uuml;kleer Kuvvet</strong></p>
-<p>Kitabın başından bu yana atomun an an nasıl yaratıldığını ve bu yaratılıştaki hassas dengeleri inceledik. &Ccedil;evremizde g&ouml;rd&uuml;ğ&uuml;m&uuml;z her şeyin, kendimiz de dahil olmak &uuml;zere atomlardan oluştuğunu ve bu atomların da pek &ccedil;ok par&ccedil;acıktan meydana geldiğini g&ouml;rd&uuml;k. Peki bir atomun &ccedil;ekirdeğini oluşturan t&uuml;m bu par&ccedil;acıkları bir arada tutan g&uuml;&ccedil; nedir? İşte &ccedil;ekirdeği bir arada tutan ve fizik kurallarının tanımlayabildiği en şiddetli kuvvet olan bu kuvvet, "g&uuml;&ccedil;l&uuml; n&uuml;kleer kuvvet"tir.</p>
-<p>Bu kuvvet atomun &ccedil;ekirdeğindeki protonların ve n&ouml;tronların dağılmadan bir arada durmalarını sağlar. Atomun &ccedil;ekirdeği bu şekilde oluşur. Bu kuvvetin şiddeti o kadar fazladır ki, &ccedil;ekirdeğin i&ccedil;indeki protonların ve n&ouml;tronların adeta birbirine yapışmasını sağlar. Bu y&uuml;zden bu kuvveti taşıyan &ccedil;ok k&uuml;&ccedil;&uuml;k par&ccedil;acıklara Latince'de "yapıştırıcı" anlamına gelen "gluon" denilmektedir. Bu yapışmanın şiddeti &ccedil;ok hassas ayarlanmıştır. Bu yapıştırıcının kuvveti protonların ve n&ouml;tronların birbirlerine istenilen mesafede bulunmalarını sağlamak i&ccedil;in &ouml;zel olarak tespit edilmiştir. S&ouml;z konusu kuvvet biraz daha yapıştırıcı olsa protonlar ve n&ouml;tronlar birbirlerinin i&ccedil;ine ge&ccedil;ecek, biraz daha az olsa dağılıp gideceklerdi. İşte bu kuvvet B&uuml;y&uuml;k Patlama'nın ilk saniyelerinden beri atomun &ccedil;ekirdeğinin oluşması i&ccedil;in gerekli olan yegane değere sahiptir.</p>
-<p>G&uuml;&ccedil;l&uuml; n&uuml;kleer kuvvetin a&ccedil;ığa &ccedil;ıktığı zaman ne kadar b&uuml;y&uuml;k tahrip g&uuml;c&uuml; olduğunu bize Hiroşima ve Nagazaki'deki tecr&uuml;beler g&ouml;stermiştir. İlerleyen b&ouml;l&uuml;mlerde daha ayrıntılı olarak inceleyeceğimiz atom bombalarının bu denli etkili olmasının tek sebebi atom &ccedil;ekirdeğinde saklanan bu g&uuml;c&uuml;n a&ccedil;ığa &ccedil;ıkmasıdır.</p>
-<p><strong>2. Atomun Emniyet Kemeri: Zayıf N&uuml;kleer Kuvvet</strong></p>
-<p>Şu an yery&uuml;z&uuml;ndeki d&uuml;zeni sağlayan en &ouml;nemli etkenlerden biri de atomun kendi i&ccedil;inde dengeli bir yapıya sahip olmasıdır. Bu denge sayesinde maddeler bir anda bozulmaya uğramaz ve insanlara zarar verebilecek ışınları yaymaz. Atom bu dengesini &ccedil;ekirdeğindeki protonlarla n&ouml;tronlar arasında var olan "zayıf n&uuml;kleer kuvvet" sayesinde elde eder. Bu kuvvet &ouml;zellikle i&ccedil;inde fazla n&ouml;tron ve proton bulunduran &ccedil;ekirdeklerin dengesini sağlamada &ouml;nemli bir rol oynar. Bu dengeyi sağlarken gerekirse bir n&ouml;tron protona d&ouml;n&uuml;şebilir.</p>
-<p>Bu işlem sonucunda &ccedil;ekirdekteki proton sayısı değiştiği i&ccedil;in, artık atom da değişmiş, farklı bir atom olmuştur. Burada sonu&ccedil; &ccedil;ok &ouml;nemlidir. Bir atom par&ccedil;alanmadan, başka bir atoma d&ouml;n&uuml;şm&uuml;ş ve varlığını korumaya devam etmiştir. İşte bu şekilde de canlılar kontrols&uuml;z bir şekilde &ccedil;evreye dağılıp insanlara zarar verecek par&ccedil;acıklardan gelebilecek tehlikelere karşı adeta bir emniyet kemeri gibi korunmuş olur.</p>
-<p><strong>3. Elektronları Y&ouml;r&uuml;ngede Tutan Kuvvet: Elektromanyetik Kuvvet</strong></p>
-<p>Bu kuvvetin keşfedilmesi fizik d&uuml;nyasında bir &ccedil;ığır a&ccedil;tı. Her cismin kendi yapısal &ouml;zelliğine g&ouml;re bir "elektrik y&uuml;k&uuml;" taşıdığı ve bu elektrik y&uuml;kleri arasında bir kuvvet olduğu &ouml;ğrenilmiş oldu. Bu kuvvet zıt elektrik y&uuml;kl&uuml; par&ccedil;acıkların birbirini &ccedil;ekmesini, aynı y&uuml;kl&uuml; par&ccedil;acıkların da birbirlerini itmelerini sağlar. Bu sayede bu kuvvet atomun &ccedil;ekirdeğindeki protonlarla &ccedil;evresindeki y&ouml;r&uuml;ngelerde dolaşan elektronların birbirlerini &ccedil;ekmelerini sağlar. İşte bu şekilde atomu oluşturacak iki ana unsur olan "&ccedil;ekirdek" ve "elektronlar" bir araya gelme fırsatı bulurlar.</p>
-<p>Bu kuvvetin şiddetindeki en ufak bir farklılık elektronların &ccedil;ekirdek etrafından dağılmasına ya da &ccedil;ekirdeğe yapışmasına neden olur. Her iki durumda da atomun, dolayısıyla madde evreninin oluşması imkansız hale gelir. Oysa bu kuvvet ilk ortaya &ccedil;ıktığı andan itibaren sahip olduğu değer sayesinde &ccedil;ekirdekteki protonlar elektronları atomun oluşması i&ccedil;in gereken en uygun şiddette &ccedil;eker.</p>
-<p><strong>4. Evreni Y&ouml;r&uuml;ngelerde Tutan Kuvvet: Yer&ccedil;ekimi Kuvveti</strong></p>
-<p>Bu kuvvet algılayabildiğimiz tek kuvvet olmasına rağmen, aynı zamanda da hakkında en az bilgi sahibi olduğumuz kuvvettir. Yer&ccedil;ekimi olarak bildiğimiz bu kuvvetin ger&ccedil;ek adı "k&uuml;tle &ccedil;ekim kuvveti"dir. Şiddeti diğer kuvvetlere g&ouml;re en d&uuml;ş&uuml;k kuvvet olmasına rağmen, &ccedil;ok b&uuml;y&uuml;k k&uuml;tlelerin birbirini &ccedil;ekmelerini sağlar. Evrendeki galaksilerin, yıldızların birbirlerinin y&ouml;r&uuml;ngelerinde kalmalarının nedeni bu kuvvettir. D&uuml;nyanın ve diğer gezegenlerin G&uuml;neş'in etrafında belirli bir y&ouml;r&uuml;ngede kalabilmelerinin nedeni de yine yer&ccedil;ekimi kuvvetidir. Bizler bu kuvvet sayesinde yery&uuml;z&uuml;nde y&uuml;r&uuml;yebiliriz. Bu kuvvetin değerlerinde bir azalma olursa yıldızlar yerinden kayar, d&uuml;nya y&ouml;r&uuml;ngesinden kopar, bizler d&uuml;nya &uuml;zerinden uzay boşluğuna dağılırız. En ufak bir artma olursa da yıldızlar birbirine &ccedil;arpar, d&uuml;nya g&uuml;neşe yapışır ve bizler de yer kabuğunun i&ccedil;ine gireriz. T&uuml;m bunlar &ccedil;ok uzak ihtimaller olarak g&ouml;r&uuml;lebilir, ama bu kuvvetin şu an sahip olduğu şiddetinin dışına &ccedil;ok kısa bir s&uuml;re dahi &ccedil;ıkması, bu sonlarla karşılaşmak i&ccedil;in yeterlidir.</p>
-<p>Bu konuda araştırma yapan b&uuml;t&uuml;n bilim adamları bahsettiğimiz temel kuvvetlerin b&uuml;y&uuml;k bir &ouml;zenle tespit edilmiş olmasının, evrenin varlığı i&ccedil;in vazge&ccedil;ilmez olduğunu kabul etmektedir.</p>
-<p>&Uuml;nl&uuml; molek&uuml;ler biyolog Michael Denton, Nature's Destiny: How the Laws of Biology Reveal Purpose in the Universe (Doğanın Kaderi: Biyoloji Kanunları Evrendeki Amacı Nasıl G&ouml;steriyor) adlı kitabında bu ger&ccedil;eği ş&ouml;yle vurgular:</p>
-<p>Eğer yer&ccedil;ekimi kuvveti bir trilyon kat daha g&uuml;&ccedil;l&uuml; olsaydı, o zaman evren &ccedil;ok daha k&uuml;&ccedil;&uuml;k bir yer olurdu ve &ouml;mr&uuml; de &ccedil;ok daha kısa s&uuml;rerdi. Ortalama bir yıldızın k&uuml;tlesi, şu anki G&uuml;neşimiz'den bir trilyon kat daha k&uuml;&ccedil;&uuml;k olurdu ve yaşama s&uuml;resi de bir yıl kadar olabilirdi. &Ouml;te yandan, eğer yer&ccedil;ekimi kuvveti birazcık bile daha g&uuml;&ccedil;s&uuml;z olsaydı, hi&ccedil;bir yıldız ya da galaksi asla oluşamazdı. Diğer kuvvetler arasındaki dengeler de son derece hassastır. Eğer g&uuml;&ccedil;l&uuml; n&uuml;kleer kuvvet birazcık bile daha zayıf olsaydı, o zaman evrendeki tek kararlı element hidrojen olurdu. Başka hi&ccedil;bir atom oluşamazdı. Eğer g&uuml;&ccedil;l&uuml; n&uuml;kleer kuvvet, elektromanyetik kuvvete g&ouml;re birazcık bile daha g&uuml;&ccedil;l&uuml; olsaydı, o zaman da evrendeki tek kararlı element, &ccedil;ekirdeğinde iki proton bulunduran bir atom olurdu. Bu durumda evrende hi&ccedil; hidrojen olmayacak, yıldızlar ve galaksiler oluşsalar bile, şu anki yapılarından &ccedil;ok farklı olacaklardı. A&ccedil;ık&ccedil;ası, eğer bu temel g&uuml;&ccedil;ler ve değişkenler şu anda sahip oldukları değerlere tamı tamına sahip olmasalar, hi&ccedil;bir yıldız, s&uuml;pernova, gezegen ve atom olmayacaktı. Hayat da olmayacaktı.<sup>11</sup></p>
-<p>&Uuml;nl&uuml; fizik&ccedil;i Paul Davies ise, evrendeki fizik yasalarının bu tespit edilmiş &ouml;l&ccedil;&uuml;leri karşısındaki hayranlığını ş&ouml;yle ifade eder:</p>
-<p>Ve insan kozmolojiyi araştırdık&ccedil;a, inanılmazlık giderek daha belirgin hale gelir. Evrenin başlangıcı hakkındaki son bulgular, genişlemekte olan evrenin, hayranlık uyandırıcı bir hassasiyetle d&uuml;zenlenmiş olduğunu ortaya koymaktadır.<sup>12</sup></p>
-<p>T&uuml;m evrende bu temel kuvvetlerin &uuml;zerine kurulmuş &uuml;st&uuml;n bir tasarım ve kusursuz bir d&uuml;zen h&uuml;k&uuml;m s&uuml;rmektedir. Bu d&uuml;zenin Sahibi elbette her şeyi kusursuzca yoktan var eden Allah'tır. En k&uuml;&ccedil;&uuml;k kuvvetle yıldızları y&ouml;r&uuml;ngelerinde tutan, en şiddetli kuvvetle k&uuml;&ccedil;&uuml;c&uuml;k atomun &ccedil;ekirdeğini kaynaştıran alemlerin Rabbi olan Allah'tır. B&uuml;t&uuml;n kuvvetler O'nun koyduğu "&ouml;l&ccedil;&uuml;"lere g&ouml;re hareket eder. Allah evrenin yaratılışındaki d&uuml;zene, "belli bir &ouml;l&ccedil;&uuml;yle" hesaplanmış dengelere bir Kuran ayetinde s&ouml;yle dikkat &ccedil;ekmiştir:</p>
-<p><strong>G&ouml;klerin ve yerin m&uuml;lk&uuml; O'nundur; &ccedil;ocuk edinmemiştir. O'na m&uuml;lk&uuml;nde ortak yoktur, her şeyi yaratmış, ona bir d&uuml;zen vermiş, belli bir &ouml;l&ccedil;&uuml;yle takdir etmiştir. (Furkan Suresi, 2)</strong></p>
-<p><strong>2. B&Ouml;L&Uuml;M<br /> ATOMUN YAPISI</strong></p>
-<p>Hava, su, dağlar, hayvanlar, bitkiler, v&uuml;cudunuz, oturduğunuz koltuk, kısacası en ağırından en hafifine kadar g&ouml;rd&uuml;ğ&uuml;n&uuml;z, dokunduğunuz, hissettiğiniz her şey atomlardan meydana gelmiştir. Elinizde tuttuğunuz kitabın her bir sayfası milyarlarca atomdan oluşur. Atomlar &ouml;yle k&uuml;&ccedil;&uuml;k par&ccedil;acıklardır ki, en g&uuml;&ccedil;l&uuml; mikroskoplarla dahi bir tanesini g&ouml;rmek m&uuml;mk&uuml;n değildir. Bir atomun &ccedil;apı ancak milimetrenin milyonda biri kadardır.</p>
-<p>Bu k&uuml;&ccedil;&uuml;kl&uuml;ğ&uuml; bir insanın g&ouml;z&uuml;nde canlandırması pek m&uuml;mk&uuml;n değildir. O y&uuml;zden bunu bir &ouml;rnekle a&ccedil;ıklamaya &ccedil;alışalım:</p>
-<p>Elinizde bir anahtar olduğunu d&uuml;ş&uuml;n&uuml;n. Kuşkusuz bu anahtarın i&ccedil;indeki atomları g&ouml;rebilmeniz m&uuml;mk&uuml;n değildir. Atomları mutlaka g&ouml;rmek istiyorum diyorsanız, elinizdeki anahtarı d&uuml;nyanın boyutlarına getirmeniz gerekecektir. Elinizdeki anahtar d&uuml;nya boyutunda b&uuml;y&uuml;rse, işte o zaman anahtarın i&ccedil;indeki her bir atom bir kiraz b&uuml;y&uuml;kl&uuml;ğ&uuml;ne ulaşır ve siz de onları g&ouml;rebilirsiniz.<sup>13</sup></p>
-<p>Yine bu k&uuml;&ccedil;&uuml;kl&uuml;ğ&uuml; kavrayabilmek ve her yerin nasıl atomlarla dolu olduğunu g&ouml;rebilmek i&ccedil;in bir &ouml;rnek daha verelim:</p>
-<p>Tek bir tuz tanesinin t&uuml;m atomlarını saymak istediğimizi d&uuml;ş&uuml;nelim. Saniyede bir milyar (1.000.000.000) tane sayacak kadar hızlı olduğumuzu da varsayalım. Bu dikkate değer beceriye karşın, bu ufacık tuz tanesi i&ccedil;indeki atom sayısını tam olarak tesbit edebilmek i&ccedil;in beşy&uuml;z yıldan fazla bir zamana ihtiyacımız olacaktır.<sup>14</sup></p>
-<p>Peki bu kadar k&uuml;&ccedil;&uuml;k bir yapının i&ccedil;inde ne vardır?</p>
-<p>Bu derece k&uuml;&ccedil;&uuml;k olmasına rağmen atomun i&ccedil;inde evrende g&ouml;rd&uuml;ğ&uuml;m&uuml;z sistemle kıyaslanabilecek kadar kusursuz, eşsiz ve kompleks bir sistem bulunmaktadır.</p>
-<p>Her atom, bir &ccedil;ekirdek ve &ccedil;ekirdeğin &ccedil;ok uzağındaki y&ouml;r&uuml;ngelerde d&ouml;n&uuml;p-dolaşan elektronlardan oluşmuştur. &Ccedil;ekirdeğin i&ccedil;inde ise proton ve n&ouml;tron ismi verilen başka par&ccedil;acıklar vardır.</p>
-<p>Bu b&ouml;l&uuml;mde, canlı-cansız her şeyin temelini oluşturan atomun olağan&uuml;st&uuml; yapısını ve atomların nasıl birleşerek molek&uuml;lleri, dolayısıyla maddeyi oluşturduğunu inceleyeceğiz.</p>
-<p><strong>&Ccedil;ekirdekte Saklı G&uuml;&ccedil;</strong></p>
-<p>&Ccedil;ekirdek, atomun tam merkezinde bulunmaktadır ve atomun niteliğine g&ouml;re belirli sayılarda proton ve n&ouml;trondan oluşmuştur. &Ccedil;ekirdeğin yarı&ccedil;apı, atomun yarı&ccedil;apının onbinde biri kadardır. Rakam olarak verirsek; atomun yarı&ccedil;apı 10<sup>-8</sup> (0,00000001) cm, &ccedil;ekirdeğin yarı&ccedil;apı ise 10<sup>-12 </sup>(0,000000000001) cm kadardır. Dolayısıyla &ccedil;ekirdeğin hacmi, atomun hacminin 10 milyarda biri eder.</p>
-<p>Bu b&uuml;y&uuml;kl&uuml;ğ&uuml; (daha doğrusu k&uuml;&ccedil;&uuml;kl&uuml;ğ&uuml;) yine g&ouml;z&uuml;m&uuml;zde canlandıramayacağımıza g&ouml;re, kiraz &ouml;rneğimizden devam edebiliriz. Biraz &ouml;nce bahsettiğimiz gibi elinizdeki anahtarı d&uuml;nya boyutlarına getirdiğinizde ortaya &ccedil;ıkan kiraz b&uuml;y&uuml;kl&uuml;ğ&uuml;ndeki atomların i&ccedil;inde &ccedil;ekirdeği arayalım. Ama bu arayış boşunadır, &ccedil;&uuml;nk&uuml; b&ouml;yle bir &ouml;l&ccedil;ekte bile &ccedil;ok daha k&uuml;&ccedil;&uuml;k olan &ccedil;ekirdeği g&ouml;zlemleme olanağımız kesinlikle yoktur. Ger&ccedil;ekten bir şey g&ouml;rebilmek istiyorsak yeniden &ouml;l&ccedil;&uuml; değiştirmek gerekecektir. Atomumuzu temsil eden kiraz yeniden b&uuml;y&uuml;y&uuml;p iki y&uuml;z metre y&uuml;ksekliğinde kocaman bir top olmalıdır. Bu akıl almaz boyuta karşın atomumuzun &ccedil;ekirdeği yine de &ccedil;ok k&uuml;&ccedil;&uuml;k bir toz tanesinden daha iri bir duruma gelmeyecektir.<sup>15</sup></p>
-<p>&Ouml;yle ki, &ccedil;ekirdeğin 10<sup>-13</sup> cm olan &ccedil;apı ile, atomun 10<sup>-8</sup> cm olan &ccedil;apını kıyasladığımızda ş&ouml;yle bir sonu&ccedil; ortaya &ccedil;ıkar: Atomu bir k&uuml;re şeklinde kabul ederek bu k&uuml;reyi tamamen &ccedil;ekirdekle doldurmak istediğimiz takdirde bu iş i&ccedil;in 10<sup>15</sup> (1.000.000.000.000.000) atom &ccedil;ekirdeği gerekecektir.<sup>16</sup></p>
-<p>Ancak bundan daha şaşırtıcı bir durum vardır: Boyutları atomun 10 milyarda biri olmasına rağmen, &ccedil;ekirdeğin k&uuml;tlesi atomun k&uuml;tlesinin % 99.95'ini oluşturmaktadır. Peki bir şey nasıl olur da bir yandan k&uuml;tlenin yaklaşık tamamını oluştururken, diğer yandan da hemen hemen hi&ccedil; yer kaplamaz?</p>
-<p>Bunun sebebi şudur: Atomun k&uuml;tlesini oluşturan yoğunluk t&uuml;m atoma eşit olarak dağılmamıştır, yani atomun b&uuml;t&uuml;n k&uuml;tlesi atomun &ccedil;ekirdeğinde birikmiştir. Diyelim ki, sizin 10 milyar metrekarelik bir eviniz var ve bu evin t&uuml;m eşyasını 1 metrekarelik bir odada toplamanız gerekiyor. Bunu yapabilir misiniz? Tabii ki yapamazsınız. Ancak atom &ccedil;ekirdeği d&uuml;nyada eşi-benzeri olmayan &ccedil;ok b&uuml;y&uuml;k bir g&uuml;&ccedil;le bunu yapabilmektedir. Bu g&uuml;c&uuml;n kaynağı &ouml;nceki b&ouml;l&uuml;mde ifade ettiğimiz evrendeki d&ouml;rt temel kuvvetten biri olan "G&uuml;&ccedil;l&uuml; N&uuml;kleer Kuvvet"dir.</p>
-<p>Bu kuvvetin doğadaki kuvvetlerin en g&uuml;&ccedil;l&uuml;s&uuml; olarak, bir atomun &ccedil;ekirdeğini bir arada tuttuğundan, onu dağılmaktan kurtardığından bahsetmiştik. &Ccedil;ekirdekteki protonların hepsi pozitif y&uuml;kl&uuml;d&uuml;r ve elektromanyetik kuvvet nedeniyle birbirlerini iterler.</p>
-<p>Kısacası g&ouml;zle g&ouml;remeyeceğimiz kadar k&uuml;&ccedil;&uuml;k bir atomun i&ccedil;inde, birbiriyle etkileşim halinde iki b&uuml;y&uuml;k kuvvet bulunur. Bu kuvvetlerin hassas değerleri sayesinde &ccedil;ekirdek bir b&uuml;t&uuml;n olarak kalabilir.</p>
-<p>Atomun boyutlarını ve evrendeki atom sayısını dikkate aldığımızda, ortada muazzam bir denge ve tasarım olduğunu g&ouml;rmemek m&uuml;mk&uuml;n değildir. &Ouml;yle ki, evrendeki temel kuvvetlerin &ccedil;ok &ouml;zel bir bi&ccedil;imde, b&uuml;y&uuml;k bir ilimle ve kudretle yaratıldığı &ccedil;ok a&ccedil;ıktır. İnkarcıların bu yaratılışı g&ouml;zardı edebilmek i&ccedil;in sığındıkları tek yol, t&uuml;m bunların "tesad&uuml;fler" sonucu oluştuğunu iddia etmekten &ouml;teye gidememektedir. Oysa olasılık hesapları evrendeki dengelerin "tesad&uuml;fen" oluşma ihtimalinin "sıfır" olduğunu bilimsel olarak kanıtlamaktadır. T&uuml;m bunlar, Allah'ın varlığının ve kusursuz yaratışının apa&ccedil;ık delilleridir.</p>
-<p>&hellip;<strong>Rabbim, ilim bakımından her şeyi kuşatmıştır. Yine de &ouml;ğ&uuml;t alıp-d&uuml;ş&uuml;nmeyecek misiniz? (Enam Suresi, 80)</strong></p>
-<p><strong>Atomdaki Boşluk </strong></p>
-<p>Daha &ouml;nce de &uuml;zerinde durduğumuz gibi, bir atomun &ccedil;ok b&uuml;y&uuml;k bir b&ouml;l&uuml;m&uuml; boşluktan oluşmaktadır. Burada her insanın aklına aynı soru gelir: B&ouml;yle b&uuml;y&uuml;k bir boşluk neden vardır? Şimdi ş&ouml;yle d&uuml;ş&uuml;nelim: Atom, en basit anlatımla i&ccedil;inde bir &ccedil;ekirdek ve onun &ccedil;evresinde d&ouml;nen elektronlardan oluşmaktadır. &Ccedil;ekirdekle elektronlar arasında başka hi&ccedil;bir şey yoktur. Bu, "hi&ccedil;bir şey olmayan" mikroskobik b&uuml;y&uuml;kl&uuml;k, aslında atom &ouml;l&ccedil;eğine g&ouml;re &ccedil;ok geniştir. Bu genişliği ş&ouml;yle &ouml;rneklendirebiliriz: &Ccedil;apı 1 cm. olan k&uuml;&ccedil;&uuml;k bir bilya, &ccedil;ekirdeğe en yakın elektronu temsil ederse, &ccedil;ekirdek bu bilyadan 1 km. &ouml;tede bulunacaktır.<sup>17</sup> Bu b&uuml;y&uuml;kl&uuml;ğ&uuml;n kafamızda daha iyi canlanabilmesi i&ccedil;in ş&ouml;yle bir &ouml;rnek verebiliriz:</p>
-<p>"Temel par&ccedil;acıklar arasında &ccedil;ok b&uuml;y&uuml;k bir boşluk egemendir. Eğer bir oksijen &ccedil;ekirdeğinin protonunu şu &ouml;n&uuml;mdeki masanın &uuml;st&uuml;nde duran bir toplu iğnenin başı gibi d&uuml;ş&uuml;n&uuml;rsem, o zaman &ccedil;evresinde d&ouml;nen elektron Hollanda, Almanya ve İspanya'dan ge&ccedil;en bir &ccedil;ember &ccedil;izer. (Bu satırların yazarı Fransa'da yaşamaktadır.) Onun i&ccedil;in, bedenimi oluşturan t&uuml;m atomlar birbirlerine değecek kadar bir araya gelseydi, artık beni g&ouml;remezdiniz. Zaten, artık beni &ccedil;ıplak g&ouml;zle hi&ccedil;bir zaman g&ouml;zlemleyemezdiniz: Neredeyse milimetrenin birka&ccedil; binde biri boyutunda ufacık bir toz kadar olurdum."<sup>18</sup></p>
-<p>İşte bu noktada evrende bilinen en b&uuml;y&uuml;k mekanla, en k&uuml;&ccedil;&uuml;k mekan arasında bir benzerlik ortaya &ccedil;ıktığını fark ederiz. &Ouml;yle ki, g&ouml;zlerimizi yıldızlara &ccedil;evirirsek, orada da atomdakine benzer bir boşlukla karşılaşırız. Yıldızlar arasında da, galaksiler arasında da milyarlarca kilometrelik boşluklar mevcuttur. Ama bu boşlukların her ikisinde de insan aklını zorlayan, anlama kapasitesini aşan bir d&uuml;zen hakimdir.</p>
-<p><strong>&Ccedil;ekirdeğin İ&ccedil;i: Proton ve N&ouml;tronlar </strong></p>
-<p>1932 yılına dek, &ccedil;ekirdeğin proton ve elektronlardan oluştuğu sanılıyordu. &Ccedil;ekirdeğin i&ccedil;inde protonla beraber elektronların değil n&ouml;tronların olduğu ancak o tarihte keşfedilebildi. (&Uuml;nl&uuml; bilim adamı Chadwick 1932 yılında &ccedil;ekirdeğin i&ccedil;inde n&ouml;tronun varlığını ispatladı ve bu keşfiyle Nobel &ouml;d&uuml;l&uuml; kazandı.) İşte insanoğlunun atomun ger&ccedil;ek yapısıyla tanışması bu kadar yakın tarihte ger&ccedil;ekleşti.</p>
-<p>Atom &ccedil;ekirdeğinin ne kadar k&uuml;&ccedil;&uuml;k boyutta olduğundan daha &ouml;nce bahsetmiştik. Atom &ccedil;ekirdeğinin i&ccedil;ine sığabilen bir protonun b&uuml;y&uuml;kl&uuml;ğ&uuml; ise 10<sup>-15</sup> metredir.</p>
-<p>Bu kadar k&uuml;&ccedil;&uuml;k bir par&ccedil;acığın insan hayatında pek bir &ouml;nemi olamayacağını d&uuml;ş&uuml;nebilirsiniz. Ancak, insan aklının kavramakta &ccedil;ok zorluk &ccedil;ektiği bir k&uuml;&ccedil;&uuml;kl&uuml;kte olan bu par&ccedil;acıklar aslında &ccedil;evrenizde g&ouml;rd&uuml;ğ&uuml;n&uuml;z her şeyin temelini oluşturur.</p>
-<p><strong>Evrendeki &Ccedil;eşitliliğin Kaynağı</strong></p>
-<p>Şu ana kadar tespit edilebilmiş 109 tane element vardır. T&uuml;m evren, d&uuml;nyamız, canlı-cansız b&uuml;t&uuml;n varlıklar, bu 109 elementin &ccedil;eşitli bi&ccedil;imlerde birleşmeleriyle oluşmuştur. Buraya kadar t&uuml;m elementlerin birbirinin benzeri atomlardan oluştuğunu g&ouml;rd&uuml;k; atomlar da birbirinin aynı par&ccedil;acıklardan oluşuyordu. Peki madem elementleri oluşturan b&uuml;t&uuml;n atomlar aynı par&ccedil;acıklardan oluşuyor, o halde elementleri farklı kılan, sınırsız &ccedil;eşitlilikte maddeyi oluşturan nedir?</p>
-<p>Elementleri temelde birbirlerinden farklı kılan şey, atomlarının &ccedil;ekirdeklerindeki proton sayılarıdır. En hafif element olan hidrojen atomunda bir proton, ikinci en hafif element olan helyum atomunda iki proton, altın atomunda 79 proton, oksijen atomunda 8 proton, demir atomunda 26 proton vardır. İşte altını demirden, demiri oksijenden ayıran &ouml;zellik, yalnızca atomlarının proton sayılarındaki bu farklılıktır. Soluduğumuz hava, v&uuml;cudumuz, herhangi bir bitki veya bir hayvan ya da uzaydaki bir gezegen, canlı-cansız, acı-tatlı, katı-sıvı her şey... Bunların hepsi sonu&ccedil;ta proton-n&ouml;tron-elektronlardan meydana gelirler.</p>
-<p><strong>Fiziksel Varlığın Sınırı: Kuarklar</strong></p>
-<p>G&uuml;n&uuml;m&uuml;zden 20 yıl &ouml;ncesine kadar atomları oluşturan en k&uuml;&ccedil;&uuml;k par&ccedil;acıkların protonlar ve n&ouml;tronlar oldukları sanılıyordu. Ancak &ccedil;ok yakın bir tarihte, atomun i&ccedil;inde bu par&ccedil;acıkları oluşturan &ccedil;ok daha k&uuml;&ccedil;&uuml;k par&ccedil;acıkların var olduğu keşfedildi.</p>
-<p>Bu buluştan sonra, atomun i&ccedil;indeki "alt par&ccedil;acıkları" ve onların kendilerine has hareketlerini incelemek &uuml;zere "Par&ccedil;acık Fiziği" isimli bir fizik dalı ortaya &ccedil;ıkmıştır. Par&ccedil;acık fiziğinin yaptığı araştırmalar şu ger&ccedil;eği a&ccedil;ığa &ccedil;ıkarmıştır: Atomu oluşturan proton ve n&ouml;tronlar da aslında "kuark" adı verilen daha alt par&ccedil;acıklardan oluşmaktadırlar.</p>
-<p>İnsan aklının kavrama sınırlarını aşan k&uuml;&ccedil;&uuml;kl&uuml;kteki protonu oluşturan kuarkların boyutu ise daha da hayret vericidir: 10<sup>-18</sup> (0,000000000000000001) metre.</p>
-<p>Protonun i&ccedil;inde bulunan kuarklar hi&ccedil;bir şekilde birbirlerinden &ccedil;ok fazla uzaklaştırılamazlar; &ccedil;&uuml;nk&uuml;, &ccedil;ekirdeğin i&ccedil;indeki par&ccedil;acıkları bir arada tutmaya yarayan "g&uuml;&ccedil;l&uuml; n&uuml;kleer kuvvet" burada da etki etmektedir. Bu kuvvet, kuarklar arasında adeta bir lastik bant gibi g&ouml;rev yapar. Kuarkların arası a&ccedil;ıldık&ccedil;a bu kuvvet b&uuml;y&uuml;r ve iki kuark birbirinden en fazla 1 metrenin katrilyonda biri kadar uzaklaşabilir. Kuarklar arasındaki bu lastik bağlar, g&uuml;&ccedil;l&uuml; n&uuml;kleer kuvveti taşıyan gluonlar sayesinde oluşur. Kuarklarla gluonlar birbirleriyle son derece g&uuml;&ccedil;l&uuml; bir iletişim halindedir. Ancak, bilim adamları bu iletişimin nasıl ger&ccedil;ekleştiğini halen keşfedememişlerdir.</p>
-<p>"Par&ccedil;acık Fiziği" alanında hi&ccedil; durmadan par&ccedil;acıklar d&uuml;nyasını aydınlatmak i&ccedil;in araştırmalar yapılmaktadır. Fakat insanoğlu, sahip olduğu akıl, bilin&ccedil; ve bilgiye rağmen kendisiyle birlikte her şeyi oluşturan &ouml;z&uuml; ancak yeni yeni keşfedebilmektedir. &Uuml;stelik bu &ouml;z&uuml;n i&ccedil;ine girdik&ccedil;e konu daha da detaylanmakta, insan kuark ismini verdiği par&ccedil;acığın 10<sup>-18</sup> m.lik sınırında takılmaktadır. Peki bu sınırın da altında ne vardır?</p>
-<p>Bug&uuml;n bilim adamları bu konu ile ilgili &ccedil;eşitli tezler &ouml;ne s&uuml;rerler, ama yukarıda da belirttiğimiz gibi bu sınır fiziksel evrenin son noktasıdır. Bunun altında bulunacak olan her şey madde ile değil, ancak enerji ile ifade edilebilir. Asıl &ouml;nemli olan nokta ise, insanın t&uuml;m teknolojik imkanlarına rağmen yeni keşfedebildiği bir mekanda &ccedil;ok b&uuml;y&uuml;k dengelerin, fizik kanunlarının zaten bir saat gibi işliyor olmasıdır. &Uuml;stelik bu mekan evrendeki t&uuml;m maddenin ve insanın da yapı taşını oluşturan atomun i&ccedil;idir.</p>
-<p>İnsan ise kendi v&uuml;cudundaki organlarda, sistemlerde her saniye işleyen bu kusursuz mekanizmadan yeni yeni haberdar olmaya başlamıştır. Bunları oluşturan h&uuml;crelerin mekanizmalarını &ouml;ğrenmesi ise ancak son birka&ccedil; on yıla dayanır. H&uuml;crenin temelindeki atomların, atomların i&ccedil;indeki proton ve n&ouml;tronların, ve bunların da i&ccedil;indeki kuarkların mekanizmalarındaki &uuml;st&uuml;n yaratılış ise, inan&ccedil;lı olsun ya da olmasın herkesi hayrete d&uuml;ş&uuml;recek bir m&uuml;kemmelliktedir. Burada asıl &uuml;zerinde d&uuml;ş&uuml;n&uuml;lmesi gereken konu ise, t&uuml;m bu kusursuz mekanizmaların insan yaşamındaki her saniye boyunca, insanın herhangi bir m&uuml;dahalesi olmadan, tamamen kontrol&uuml; dışında muntazam bir şekilde &ccedil;alışmasıdır. T&uuml;m bunların &uuml;st&uuml;n bir g&uuml;&ccedil; ve bilgi sahibi olan Allah tarafından var edildiği ve denetiminin de yine Allah'a ait olduğu, akıl ve vicdan sahibi her insan i&ccedil;in &ccedil;ok a&ccedil;ık bir ger&ccedil;ektir.</p>
-<p><strong>G&ouml;klerde ve yerde olan ne varsa O'ndan ister. O, her g&uuml;n bir iştedir.</strong></p>
-<p><strong>Şu halde Rabbinizin hangi nimetlerini yalanlayabilirsiniz? (Rahman Suresi, 29-30)</strong></p>
-<p><strong>Atomun Diğer Ucu: Elektronlar</strong></p>
-<p>Elektronlar tıpkı d&uuml;nyanın g&uuml;neş &ccedil;evresinde d&ouml;nerken, aynı zamanda kendi &ccedil;evresinde d&ouml;nmesi gibi, atom &ccedil;ekirdeğinin &ccedil;evresinde d&ouml;nen par&ccedil;acıklardır. Aynı, gezegenlerde olduğu gibi bu d&ouml;n&uuml;ş, bizim y&ouml;r&uuml;nge adını verdiğimiz yollarda, &ccedil;ok b&uuml;y&uuml;k bir d&uuml;zen i&ccedil;inde ve hi&ccedil; durmaksızın ger&ccedil;ekleşir. Fakat d&uuml;nyayla g&uuml;neşin b&uuml;y&uuml;kl&uuml;kleri arasındaki oran ile atomun i&ccedil;indeki oran &ccedil;ok farklıdır. Eğer elektronların b&uuml;y&uuml;kl&uuml;ğ&uuml; ile d&uuml;nyanın b&uuml;y&uuml;kl&uuml;ğ&uuml; arasında bir kıyas yapmak gerekirse, bir atomu d&uuml;nya kadar b&uuml;y&uuml;tsek, elektron sadece bir elma boyutuna gelecektir.<sup>19</sup></p>
-<p>En g&uuml;&ccedil;l&uuml; mikroskopların bile g&ouml;remeyeceği kadar k&uuml;&ccedil;&uuml;k bir alanda d&ouml;n&uuml;p-duran onlarca elektron, atomun i&ccedil;inde &ccedil;ok karışık bir trafik yaratır. Burada dikkat &ccedil;eken en &ouml;nemli nokta, &ccedil;ekirdeği elektrik y&uuml;k&uuml;nden oluşan bir zırh gibi kuşatan bu elektronların atomun i&ccedil;inde en ufak bir kazaya yol a&ccedil;mamalarıdır. &Uuml;stelik atomun i&ccedil;inde yaşanacak en ufak bir kaza atom i&ccedil;in felaket olabilir. Ama b&ouml;yle bir kaza asla ger&ccedil;ekleşmez; t&uuml;m işleyiş m&uuml;kemmel bir d&uuml;zen ve kusursuz bir sistem i&ccedil;inde devam eder. &Ccedil;ekirdeğin &ccedil;evresinde saniyede 1.000 km. gibi akıl almaz bir hızla hi&ccedil; durmadan d&ouml;nen elektronlar, birbirleriyle bir kez bile &ccedil;arpışmazlar. Birbirlerinden herhangi bir farkları bulunmayan bu elektronların farklı farklı y&ouml;r&uuml;ngelerde bulunmaları, son derece hayranlık uyandırıcıdır. K&uuml;tleleri ve hızları birbirlerinden farklı olsaydı &ccedil;ekirdeğin etrafında farklı y&ouml;r&uuml;ngelere dizilmeleri doğal karşılanabilirdi.</p>
-<p>Nitekim G&uuml;neş Sistemimiz'deki gezegenlerin dizilişi bu mantıktadır. Yani birbirinden k&uuml;tle ve hız olarak tamamen farklı olan gezegenler, doğal olarak G&uuml;neş'in etrafında farklı y&ouml;r&uuml;ngelere yerleşmişlerdir. Ama atomdaki elektronların durumu bu gezegenlerden tamamen farklıdır. Tıpatıp birbirlerinin benzeri olan elektronların ni&ccedil;in &ccedil;ekirdek etrafında farklı y&ouml;r&uuml;ngelere sahip oldukları, bu y&ouml;r&uuml;ngeleri nasıl şaşmadan takip ettikleri, akıl almaz k&uuml;&ccedil;&uuml;kl&uuml;kteki boyutlarda akıl almaz b&uuml;y&uuml;kl&uuml;kteki s&uuml;ratleriyle nasıl &ccedil;arpışmadıkları soruları bizleri tek bir noktaya g&ouml;t&uuml;r&uuml;r. Bu eşsiz d&uuml;zen ve hassas dengede karşımıza &ccedil;ıkan tek ger&ccedil;ek Allah'ın kusursuz yaratışıdır:</p>
-<p><strong>O Allah ki, yaratandır, (en g&uuml;zel bir bi&ccedil;imde) kusursuzca var edendir, 'şekil ve suret' verendir. En g&uuml;zel isimler O'nundur. G&ouml;klerde ve yerde olanların t&uuml;m&uuml; O'nu tesbih etmektedir. O, Aziz, Hakimdir. (Haşr Suresi, 24)</strong></p>
-<p>Elektronlar, n&ouml;tron ve protonların neredeyse ikibinde biri kadar ufak par&ccedil;acıklardır. Bir atomda, protonlarla eşit sayıda elektron bulunur ve her elektron her bir protonun taşıdığı artı (+) y&uuml;ke eşit değerde eksi (-) y&uuml;k taşır. &Ccedil;ekirdekteki toplam artı (+) y&uuml;k ile elektronların toplam eksi (-) y&uuml;k&uuml; birbirini dengeler ve atom n&ouml;tr olur.</p>
-<p>Elektronların, taşıdıkları elektrik y&uuml;k&uuml; itibariyle bazı fizik kurallarına uymaları gerekir. Bu fizik kuralları "aynı elektrik y&uuml;klerinin birbirini itmesi ve zıt y&uuml;klerin birbirlerini &ccedil;ekmesi"dir.</p>
-<p>İlk olarak, normal koşullarda hepsi eksi y&uuml;kl&uuml; olan elektronların bu kurala uyup birbirlerini itmeleri ve &ccedil;ekirdeğin etrafından dağılıp-gitmeleri gerekir. Ancak durum b&ouml;yle olmaz. Eğer, elektronlar &ccedil;ekirdeğin etrafından dağılsaydı, t&uuml;m evren boşlukta dolaşan, proton, n&ouml;tron ve elektronlardan ibaret olurdu. İkinci olarak; artı y&uuml;ke sahip olduğu i&ccedil;in &ccedil;ekirdeğin, eksi y&uuml;kl&uuml; elektronları kendine &ccedil;ekmesi ve elektronların da &ccedil;ekirdeğe yapışmaları gerekirdi. B&ouml;yle bir durumda da &ccedil;ekirdek b&uuml;t&uuml;n elektronları &ccedil;eker ve atom kendi i&ccedil;ine &ccedil;&ouml;kerdi.</p>
-<p>Ancak bu olumsuzlukların hi&ccedil;biri olmaz. Elektronların az &ouml;nce belirttiğimiz (1.000 km/s) olağan&uuml;st&uuml; ka&ccedil;ış hızları, bunların birbirlerine uyguladıkları itici kuvvet ve &ccedil;ekirdeğin elektronlara uyguladığı &ccedil;ekim kuvveti o kadar hassas değerler &uuml;zerine kurulmuştur ki, bu &uuml;&ccedil; zıt etken birbirini m&uuml;kemmel bir şekilde dengeler. Sonu&ccedil;ta atomdaki bu muazzam sistem dağılıp par&ccedil;alanmadan s&uuml;r&uuml;p gider. Atoma etki eden bu kuvvetlerden tek bir tanesinin, olması gerekenden biraz daha fazla veya biraz daha az olması atomun hi&ccedil;bir zaman var olmamasına neden olurdu.</p>
-<p>Bu etkenlerin yanı sıra, &ccedil;ekirdekteki protonları ve n&ouml;tronları birarada tutan n&uuml;kleer kuvvetler olmasaydı, eşit y&uuml;ke sahip olan protonlar değil kenetlenmek, birbirlerine yaklaşamayacaklardı bile. Aynı şekilde n&ouml;tronlar da &ccedil;ekirdeğe hi&ccedil;bir şekilde bağlanamayacaklardı. Bunun sonucunda &ccedil;ekirdek, dolayısıyla atom diye bir şey olmayacaktı.</p>
-<p>B&uuml;t&uuml;n bu ince hesaplar, tek bir atomun bile başıboş olmayıp, Allah'ın kusursuz denetiminde hareket ettiğinin bir g&ouml;stergesidir. Aksi takdirde i&ccedil;inde yaşadığımız evrenin daha başlamadan sonunun gelmesi ka&ccedil;ınılmaz olurdu. Daha başlangı&ccedil; anında bu s&uuml;re&ccedil; tersine d&ouml;ner, evren oluşamazdı. Ancak her şeyin Yaratıcısı, sonsuz g&uuml;&ccedil; ve ilim sahibi olan Allah, evrendeki t&uuml;m dengeler gibi, atomun i&ccedil;inde de &ccedil;ok hassas dengeler kurmuştur ve bu sayede atom, m&uuml;kemmel bir d&uuml;zen ile varlığını s&uuml;rd&uuml;rmektedir.</p>
-<p>Allah'ın yarattığı bu denge, bilim adamları tarafından yıllar boyunca araştırılarak &ccedil;&ouml;z&uuml;lmeye &ccedil;alışılmış ve sonunda g&ouml;zlenen olaylara sadece &ccedil;eşitli isimler takılmıştır: "elektromanyetik kuvvet", "g&uuml;&ccedil;l&uuml; n&uuml;kleer kuvvet", "zayıf n&uuml;kleer kuvvet", "k&uuml;tlesel &ccedil;ekim kuvveti"&hellip; Ancak, kitabın girişinde de değindiğimiz gibi, kimse "Neden?" sorusu &uuml;zerinde d&uuml;ş&uuml;nmemiştir. &Ouml;rneğin, neden bu kuvvetler belirli şiddetlere, belirli kurallara g&ouml;re hareket ederler? Neden bu kuvvetlerin etkili oldukları alanlar, takip ettikleri kurallar ve bu kuvvetlerin şiddetleri b&uuml;y&uuml;k bir uyum i&ccedil;indedir?</p>
-<p>B&uuml;t&uuml;n bu sorular karşısında bilim adamları &ccedil;aresiz kalmışlardır. &Ccedil;&uuml;nk&uuml; yapabildikleri sadece olayların hangi sırayla geliştiğini tahmin etmektir. Fakat yaptıkları araştırmaların sonucunda tartışmasız bir ger&ccedil;ek ortaya &ccedil;ıkmıştır. Evrenin her yerinde tek bir atomu dahi başıboş bırakmayan bir akıl ve irade sahibinin m&uuml;dahalesi g&ouml;r&uuml;l&uuml;r. Bu şekilde b&uuml;t&uuml;n kuvvetleri bir uyum i&ccedil;inde bir arada tutan tek bir g&uuml;&ccedil; vardır, o da g&uuml;c&uuml;n ve kudretin t&uuml;m&uuml;n&uuml; kendisinde barındıran Allah'tır. Allah dilediği anda dilediği yerde kudretini tecelli ettirmektedir. En k&uuml;&ccedil;&uuml;k atomundan u&ccedil;suz bucaksız galaksilere kadar t&uuml;m evren de ancak Allah'ın dilemesi ve her an ayakta tutması ile varlığını s&uuml;rd&uuml;rmektedir.</p>
-<p>Allah, Kuran'da Kendisi&rsquo;nden başka kuvvet olmadığını haber verirken, bunun bilincine varamayıp Kendi yarattığı aciz varlıkları (canlı olsun. cansız olsun), O'ndan bağımsız bir g&uuml;&ccedil; ve kuvvet sahibi sanarak o yaratıklara ilahi vasıflar y&uuml;kleyenlerin sonunu ş&ouml;yle bildirmektedir:</p>
-<p><strong>... O zulmedenler, azaba uğrayacakları zaman, muhakkak b&uuml;t&uuml;n kuvvetin t&uuml;m&uuml;yle Allah'ın olduğunu ve Allah'ın vereceği azabın ger&ccedil;ekten şiddetli olduğunu bir bilselerdi. (Bakara Suresi, 165)</strong></p>
-<p>Bug&uuml;ne kadar hi&ccedil;bir bilim adamı atomdaki, dolayısıyla evrendeki kuvvetlerin sebebini, kaynağını ve ni&ccedil;in belli durumlarda belli kuvvetlerin ortaya &ccedil;ıktığını izah edememiştir. Bilimin yaptığı sadece ger&ccedil;ekleri g&ouml;zlemlemek ve bunları &ouml;l&ccedil;&uuml;p birer "isim" takmaktır.</p>
-<p>Bu t&uuml;r "isim takmalar" bilim d&uuml;nyasında b&uuml;y&uuml;k buluşlar olarak değerlendirilir. Halbuki, bilim adamları evrende yeni bir denge oluşturmaya, yeni bir sistem kurmaya değil, sadece evrende var olan mevcut dengeyi kavramaya-&ccedil;&ouml;zmeye &ccedil;alışmaktadırlar. Yapılan şey de &ccedil;oğunlukla, Allah'ın evrendeki sayısız yaratılış harikasından birini bir ucundan g&ouml;zlemleyip buna bir isim vermekten ibarettir. Allah'ın yarattığı &uuml;st&uuml;n bir sistemi veya yapıyı tespit eden bir bilim adamı &ccedil;eşitli bilimsel &ouml;d&uuml;llere layık g&ouml;r&uuml;l&uuml;r, y&uuml;celtilir, insanlar ona hayranlık duyarlar. Bu durumda asıl y&uuml;celtilmesi gereken hi&ccedil; ş&uuml;phesiz o yapıyı yoktan var eden, akıl almaz derece hassas dengeler ve karmaşık hesaplarla donatan ve bunun gibi daha sayısız, olağan&uuml;st&uuml; harikaları yaratan, Rahman ve Rahim olan Allah'tır.</p>
-<p><strong>Allah, yedi g&ouml;ğ&uuml; ve yerden de onların benzerini yarattı. Emir, bunların arasında durmadan iner; sizin ger&ccedil;ekten Allah'ın her şeye g&uuml;&ccedil; yetirdiğini ve ger&ccedil;ekten Allah'ın ilmiyle her şeyi kuşattığını bilmeniz, &ouml;ğrenmeniz i&ccedil;in. (Talak Suresi, 12)</strong></p>
-<p><strong>Elektronların Y&ouml;r&uuml;ngesi</strong></p>
-<p>En g&uuml;&ccedil;l&uuml; mikroskopların bile g&ouml;remeyeceği kadar k&uuml;&ccedil;&uuml;k bir alanda d&ouml;n&uuml;p duran onlarca elektron, daha &ouml;nce de belirtildiği gibi atomun i&ccedil;inde son derece karışık bir trafik yaratırlar. Ancak bu trafik, en sistemli şehir trafiğiyle bile kıyas edilemeyecek kadar d&uuml;zenlidir ve elektronlar hi&ccedil;bir şekilde birbirleriyle &ccedil;arpışmazlar. &Ccedil;&uuml;nk&uuml; elektronların her birinin ayrı bir y&ouml;r&uuml;ngesi vardır ve bu y&ouml;r&uuml;ngeler hi&ccedil;bir zaman birbiriyle &ccedil;akışmaz.</p>
-<p>Atom &ccedil;ekirdeğinin &ccedil;evresinde 7 tane y&ouml;r&uuml;nge vardır. Asla değişmeyen bu 7 y&ouml;r&uuml;ngedeki elektron sayısı da bir matematiksel form&uuml;lle belirlenmiştir: 2n2. Atomların t&uuml;m y&ouml;r&uuml;ngelerinde bulunabilecek en fazla elektron sayısı işte bu form&uuml;lle sabitlenmiştir (form&uuml;ldeki "n" harfi, y&ouml;r&uuml;nge numarasını belirtir).</p>
-<p>Evreni oluşturan sınırsız sayıdaki atomun elektron y&ouml;r&uuml;ngelerinin asla şaşmadan 2n2 form&uuml;l&uuml;ne uyarak belirli bir sayıda kalmaları bir d&uuml;zenin g&ouml;stergesidir. Elektronlar inanılmaz hızlarda hareket etmelerine rağmen, atomun i&ccedil;inde herhangi bir kargaşanın &ccedil;ıkmaması da yine bu eşsiz d&uuml;zenin bir devamıdır. Bu, tesad&uuml;flerin asla a&ccedil;ıklayamayacağı bir d&uuml;zendir. Bu d&uuml;zenin var olabilmesinin tek a&ccedil;ıklaması Kuran'da bildirildiği gibi Allah'ın her şeyi kudretinin bir tecellisi olarak d&uuml;zen ve intizam i&ccedil;inde yaratmış olmasıdır. Allah yarattığı bu d&uuml;zeni Kuran ayetlerinde ş&ouml;yle haber vermiştir:</p>
-<p><strong>... Allah, her şey i&ccedil;in bir &ouml;l&ccedil;&uuml; kılmıştır. (Talak Suresi, 3)</strong></p>
-<p><strong>... her şeyi yaratmış, ona bir d&uuml;zen vermiş, belli bir &ouml;l&ccedil;&uuml;yle takdir etmiştir. (Furkan Suresi, 2)</strong></p>
-<p><strong>... O'nun Katında her şey bir miktar (&ouml;l&ccedil;&uuml;) iledir. O, gaybı da, m&uuml;şahede edileni de bilendir. Pek b&uuml;y&uuml;kt&uuml;r, y&uuml;cedir. (Rad Suresi, 8-9)</strong></p>
-<p><strong>Yere (gelince,) onu d&ouml;şeyip-yaydık, onda sarsılmaz-dağlar bıraktık ve onda her şeyden &ouml;l&ccedil;&uuml;s&uuml; belirlenmiş &uuml;r&uuml;nler bitirdik. (Hicr Suresi, 19)</strong></p>
-<p><strong>G&ouml;ky&uuml;z&uuml;, Onu da y&uuml;kseltti ve mizanı (&ouml;l&ccedil;&uuml;y&uuml;) koydu. (Rahman Suresi, 7)</strong></p>
-<p><strong>G&uuml;neş ve ay (belli) bir hesap iledir. (Rahman Suresi, 5)</strong></p>
-<p>Ayetlerden anlaşıldığı gibi alemlerin Rabbi olan Allah, her şeyi kusursuz bir &ouml;l&ccedil;&uuml;, hesap ve d&uuml;zen i&ccedil;inde yaratandır. Bu &ouml;l&ccedil;&uuml; ve hesap, atomun en k&uuml;&ccedil;&uuml;k par&ccedil;acığından uzaydaki devasa g&ouml;k cisimlerine, g&uuml;neş sistemlerine, galaksilere kadar, bunların arasındakiler de dahil, b&uuml;t&uuml;n varlıklar alemini i&ccedil;ine alır. Bu da Allah'ın sonsuz g&uuml;c&uuml;n&uuml;n, ilminin, sanatının ve hikmetinin bir sonucudur. Allah, yarattığı varlıklardaki ve sistemlerdeki m&uuml;kemmel &ouml;l&ccedil;&uuml;, d&uuml;zen, denge ve hesaplarla bu sıfatlarını insanlara tanıtır. Sonsuz kudretini g&ouml;zler &ouml;n&uuml;ne serer. İşte b&uuml;t&uuml;n bilimsel araştırmaların, hesaplamaların insanı ulaştırması gereken asıl ger&ccedil;ek budur.</p>
-<p><strong>Dalga mı, Par&ccedil;acık mı?</strong></p>
-<p>Elektronlar ilk keşfedildiklerinde, bunların tıpkı &ccedil;ekirdeğin i&ccedil;inde bulunan proton ve n&ouml;tron gibi par&ccedil;acıklar oldukları sanılıyordu. Ancak daha sonra yapılan deneylerde aynı ışık par&ccedil;acıkları yani fotonlar gibi dalga &ouml;zellikleri de g&ouml;sterdikleri ortaya &ccedil;ıktı.</p>
-<p>Işığın, tıpkı havuza atılan bir taşın su y&uuml;zeyinde yaptığı dalgalanmalar gibi yayıldığı bilinmektedir. Ancak ışık, bazen de sanki maddi par&ccedil;acık &ouml;zelliği taşımakta ve pencere camına vuran yağmur damlaları gibi kesik kesik, aralıklı darbeler halinde g&ouml;zlenmektedir. İşte aynı ikilem bu kez elektronda da yaşandı. Tabii bu durum bilim d&uuml;nyasında b&uuml;y&uuml;k bir kargaşa yarattı. Bu kargaşa &uuml;nl&uuml; Kuramsal Fizik Profes&ouml;r&uuml; Richard P. Feynman'ın s&ouml;zleriyle ş&ouml;yle &ccedil;&ouml;z&uuml;ld&uuml;:</p>
-<p>Elektronların ve ışığın nasıl davrandıklarını artık biliyoruz. Nasıl mı davranıyorlar? Par&ccedil;acık gibi davrandıklarını s&ouml;ylersem yanlış izlenime yol a&ccedil;mış olurum. Dalga gibi davranırlar desem, yine aynı şey. Onlar kendilerine &ouml;zg&uuml;, benzeri olmayan bir şekilde hareket ederler. Teknik olarak buna "kuantum mekaniksel bir davranış bi&ccedil;imi" diyebiliriz. Bu, daha &ouml;nce g&ouml;rd&uuml;ğ&uuml;n&uuml;z hi&ccedil;bir şeye benzemeyen bir davranış bi&ccedil;imidir... Bir atom, bir yayın ucuna asılmış sallanan bir ağırlık gibi davranmaz. K&uuml;&ccedil;&uuml;c&uuml;k gezegenlerin y&ouml;r&uuml;ngeler &uuml;zerinde hareket ettikleri minyat&uuml;r bir g&uuml;neş sistemi gibi de davranmaz. &Ccedil;ekirdeği saran bir bulut veya sis tabakasına da pek benzemez. Daha &ouml;nce g&ouml;rd&uuml;ğ&uuml;n&uuml;z hi&ccedil;bir şeye benzemeyen bir şekilde davranır. En azından bir basitleştirme yapabiliriz: Elektronlar bir anlamda tıpkı fotonlar gibi davranırlar; ikisi de "acayiptir", ama aynı şekilde. Nasıl davrandıklarını algılamak bir hayli hayal g&uuml;c&uuml; gerektirir; &ccedil;&uuml;nk&uuml; a&ccedil;ıklayacağımız şey bildiğimiz her şeyden farklıdır.<sup>21</sup></p>
-<p>Bilim adamları, elektronların bu şekilde davranmalarını hi&ccedil;bir şekilde a&ccedil;ıklayamadıkları i&ccedil;in &ccedil;&ouml;z&uuml;m olarak bu harekete yeni bir isim takmışlardır: "Kuantum Mekaniksel Hareket". Bu noktada g&ouml;r&uuml;len olağan&uuml;st&uuml;l&uuml;ğ&uuml; ve d&uuml;şt&uuml;ğ&uuml; hayreti yine Profes&ouml;r Feynman, <em>"&hellip;kendinize s&uuml;rekli "Ama bu nasıl olabilir?" diye sormayın; &ccedil;&uuml;nk&uuml; &ccedil;abanız boşunadır; şimdiye kadar hi&ccedil; kimsenin kurtulamadığı bir &ccedil;ıkmaz sokağa girersiniz. Bunun neden b&ouml;yle olabildiğini hi&ccedil; kimse bilmiyor."</em> s&ouml;zleriyle dile getirmektedir.<sup>22</sup></p>
-<p>Ancak, burada Feynman'ın bahsettiği "&ccedil;ıkmaz sokak" aslında &ccedil;ıkmaz değildir. Burada bazılarının bir t&uuml;rl&uuml; işin i&ccedil;inden &ccedil;ıkamamalarının sebebi, ortadaki a&ccedil;ık delillere rağmen bu inanılmaz sistemlerin ve dengelerin &uuml;st&uuml;n bir Yaratıcı tarafından var edildiğini kabul edememeleridir. Halbuki durum son derece a&ccedil;ıktır: Allah evreni yoktan var etmiş, olağan&uuml;st&uuml; dengelere dayalı ve &ouml;rneksiz olarak yaratmıştır. İ&ccedil;inden bir t&uuml;rl&uuml; &ccedil;ıkılamayan, anlaşılamayan ve bilim adamlarının her fırsatta "Ama bu nasıl olabilir?" diye kendi kendilerine sordukları sorunun cevabı, her şeyin Yaratıcısının Allah olduğu ve her şeyin O&rsquo;nun yalnızca "OL" demesiyle var olduğu ger&ccedil;eğinde yatmaktadır.</p>
-<p><strong>G&ouml;kleri ve yeri (bir &ouml;rnek edinmeksizin) yaratandır. O, bir işin olmasına karar verirse, ona yalnızca "OL" der, o da hemen oluverir. (Bakara Suresi, 117)</strong></p>
-<p><strong>Elektronların Kapısını A&ccedil;tığı Rengarenk D&uuml;nya</strong></p>
-<p>Kapkara bir d&uuml;nyada yaşamak nasıl olurdu, hi&ccedil; d&uuml;ş&uuml;nd&uuml;n&uuml;z m&uuml;? Bedeniniz, &ccedil;evrenizdeki insanlar, denizler, g&ouml;ky&uuml;z&uuml;, ağa&ccedil;lar, &ccedil;i&ccedil;ekler, kısacası her şeyin kapkara olduğunu g&ouml;z&uuml;n&uuml;zde bir canlandırın. B&ouml;yle bir yery&uuml;z&uuml;nde yaşamayı hi&ccedil; istemezdiniz &ouml;yle değil mi?</p>
-<p>Peki, yery&uuml;z&uuml;n&uuml; renkli kılan nedir? D&uuml;nyamızı olağan&uuml;st&uuml; g&uuml;zel kılan renkler nasıl oluşmaktadırlar?</p>
-<p>Maddenin yapısında bulunan bazı &ouml;zellikler bizim maddeyi renkli olarak algılamamıza yol a&ccedil;arlar. Evet; renkler, elektronların atom i&ccedil;indeki bazı hareketlerinin doğal bir sonucu olarak oluşur. Bu noktada "Elektronların hareketiyle renklerin ne ilgisi olabilir?" diye d&uuml;ş&uuml;nebilirsiniz. Bu ilişkiyi hemen kısaca a&ccedil;ıklayalım.</p>
-<p>Elektronlar sadece belirli y&ouml;r&uuml;ngelerde d&ouml;nerler. Bu y&ouml;r&uuml;ngelerin 7 tane olduğundan az &ouml;nce bahsetmiştik. Her bir y&ouml;r&uuml;nge belirli bir enerji seviyesine sahiptir. S&ouml;z konusu enerji seviyesi y&ouml;r&uuml;ngenin &ccedil;ekirdekten olan uzaklığına bağlı olarak değişir. Bir y&ouml;r&uuml;nge &ccedil;ekirdeğe ne kadar yakınsa elektronun enerjisi o kadar az, &ccedil;ekirdeğe ne kadar uzaksa enerjisi o kadar y&uuml;ksek olur.</p>
-<p>Elektronların y&ouml;r&uuml;ngelerinin her birinin altında da "alt y&ouml;r&uuml;ngeler" vardır. Elektronlar, bulundukları y&ouml;r&uuml;ngenin "alt y&ouml;r&uuml;ngeleri" arasında s&uuml;rekli olarak hareket ederler.</p>
-<p>Elektronun y&ouml;r&uuml;ngeler arasında seyahat etmesi i&ccedil;in dışardan enerji alması gerekir. Bu enerjinin kaynağı ise "foton"dur.</p>
-<p>Foton, en basit anlatımıyla "ışık par&ccedil;acığı"dır. Evrendeki yıldızların hepsi birer foton kaynağıdır, D&uuml;nyamız i&ccedil;inse en &ouml;nemli kaynak elbette ki G&uuml;neş'tir. Fotonlar G&uuml;neş'ten saniyede 300.000 km. hızla t&uuml;m uzaya dağılırlar.</p>
-<p>G&uuml;neş'ten d&uuml;nyaya gelen bu fotonlar yery&uuml;z&uuml;ndeki maddelerin atomlarına &ccedil;arptıklarında, atomların elektronlarında seyahatler başlar. Bu enerji desteği sayesinde seyahat yapabilen elektronlar, kendi y&ouml;r&uuml;ngelerine geri d&ouml;nd&uuml;klerinde g&ouml;z&uuml;m&uuml;ze gelen rengi oluşturacak fotonu dışarı yollarlar. Birka&ccedil; c&uuml;mlede &ouml;zetlediğimiz bu işlemlerin her biri hi&ccedil;bir aksama g&ouml;stermeden ilk yaratılıştan beri devam eder. Her bir aşaması &ccedil;ok b&uuml;y&uuml;k plan ve d&uuml;zen i&ccedil;inde işler. &Ouml;yleki elektronlar ve fotonlar arasındaki bu sistemin bir b&ouml;l&uuml;m&uuml;n&uuml;n bile işlememesi renksiz, hatta karanlık bir evrenin olmasına neden olurdu.</p>
-<p>Karanlık evren yerine renkli bir evrenin oluşabilmesı i&ccedil;in bir plan ve d&uuml;zen i&ccedil;inde işlemesi gereken bu aşamaları tekrar sıralayalım:</p>
-<ul>
-<li>
-<p>Yery&uuml;z&uuml;ne g&uuml;neşten gelen ışık, foton tanecikleri halinde yayılır. Yery&uuml;z&uuml;nde yayılan bu foton tanecikleri maddelerin atomlarına &ccedil;arpar.</p>
-</li>
-<li>
-<p>Fotonlar atomların i&ccedil;lerine pek ilerleyemez. Y&ouml;r&uuml;ngelerindeki elektronlara &ccedil;arparlar.</p>
-</li>
-<li>
-<p>Elektronlar kendilerine &ccedil;arpan bu fotonları yutarlar.</p>
-</li>
-<li>
-<p>Elektronlar yuttukları fotonların enerjisini de aldıkları i&ccedil;in daha y&uuml;ksek enerji seviyesine sahip olan bir y&ouml;r&uuml;ngeye ge&ccedil;erler.</p>
-</li>
-<li>
-<p>Bu elektronlar eski durumlarına geri d&ouml;nmek isterler.</p>
-</li>
-<li>
-<p>Kendi y&ouml;r&uuml;ngelerine geri d&ouml;nerken de dışarıya yine enerji y&uuml;kl&uuml; bir foton g&ouml;nderirler.</p>
-</li>
-<li>
-<p>İşte elektronlardan yansıyan bu fotonlar o cismin rengini belirler.</p>
-</li>
-</ul>
-<p>T&uuml;m bu işlemlerin sonucunda bir cismin rengi ger&ccedil;ekte o cisimden yansıyarak g&ouml;z&uuml;m&uuml;ze ulaşan bu ışık taneciklerinin bir karışımı olur. Genellikle kendi ışık yaymayan ve g&uuml;neşten aldığı ışığı yansıtan bir cismin rengi, hem aldığı ışığa, hem de bu ışık &uuml;zerinde yaptığı değişikliğe bağlıdır. Beyaz ışıkla aydınlatılan cisim "kırmızı" g&ouml;r&uuml;n&uuml;yorsa bunun sebebi g&uuml;neş ışığından kendisine gelen karışımın b&uuml;y&uuml;k b&ouml;l&uuml;m&uuml;n&uuml; soğurması ve yalnızca kırmızıyı yansıtmasıdır. Burada "soğurmak"tan kastedilen şudur:</p>
-<p>Yukarıda da belirttiğimiz gibi atomdaki her bir y&ouml;r&uuml;ngenin altında bir de alt y&ouml;r&uuml;ngeler vardır ve elektronlar bu alt y&ouml;r&uuml;ngeler arasında seyahat ederler. Her y&ouml;r&uuml;ngenin belli bir enerji seviyesi vardır ve elektronlar bulundukları alt y&ouml;r&uuml;ngenin enerji seviyesi kadar enerji taşırlar. Y&ouml;r&uuml;ngeler &ccedil;ekirdekten uzaklaştık&ccedil;a sahip oldukları enerji miktarları da artar. Elektron, bulunduğu alt y&ouml;r&uuml;ngeden yukarıdaki başka bir alt y&ouml;r&uuml;ngede, bir elektronluk boş yer olduğunda bir anda yok olur. Ve &uuml;st enerji seviyeli alt y&ouml;r&uuml;ngede ortaya &ccedil;ıkar. Yalnız elektronun bu hareketi yapabilmesi i&ccedil;in enerjisini ge&ccedil;iş yaptığı alt y&ouml;r&uuml;ngenin gerektirdiği enerjiye &ccedil;ıkartması gerekir. Elektron, enerjisini G&uuml;neş'ten gelen foton par&ccedil;acıklarını soğurarak (yutarak) artırır.</p>
-<p>Durumu birka&ccedil; &ouml;rnekle daha anlaşılır hale getirebiliriz: Bir Morpho Kelebeğini ele alalım. Kelebekteki pigmentler, b&uuml;t&uuml;n g&uuml;neş ışığını soğurup mavi rengi yansıtırlar. Yansıtılan bu renge ait ışık par&ccedil;acıkları, g&ouml;zdeki retinaya ulaştığında, mavi olarak algılanacak şekilde retinadaki koni h&uuml;creler tarafından elektrik sinyaline &ccedil;evrilir ve beyne g&ouml;nderilir. Ve mavi renk beyinde oluşur.</p>
-<p>Yani bir cismin rengi, ışık kaynağından gelen ışığın &ouml;zelliğine ve s&ouml;z konusu cismin bu ışığın ne kadarını dışarı yansıttığına bağlıdır. &Ouml;rneğin bir elbisenin rengi, g&uuml;neş ışığında veya bir mağazada bakıldığında aynı değildir. Bir cisim şayet beynimiz tarafından siyah olarak algılanıyorsa, demektir ki bu cisim G&uuml;neş'ten gelen b&uuml;t&uuml;n ışığı soğuruyor ve dışarı hi&ccedil; ışık yansıtmıyor. Aynı şekilde eğer cisim G&uuml;neş'ten gelen ışığın t&uuml;m&uuml;n&uuml; birden yansıtıyor ve hi&ccedil; ışık soğurmuyorsa beynimiz tarafından beyaz olarak algılanmaktadır. Bu durumda &uuml;zerinde dikkatle d&uuml;ş&uuml;n&uuml;lmesi gereken noktalar şunlardır:</p>
-<p>1. Cismin rengi, ışık kaynağından gelen ışığın &ouml;zelliklerine bağlıdır.</p>
-<p>2. Cismin rengi, kendi yapısındaki molek&uuml;llerin elektronlarının hareketine, bu elektronların hangi ışığı soğurup hangisini soğurmayacağına bağlıdır.</p>
-<p>3. Cismin rengi, retinaya &ccedil;arpan fotonu beynimizin nasıl algılayacağına bağlıdır.</p>
-<p>Bu noktada bir kere daha durup d&uuml;ş&uuml;nelim.</p>
-<p>G&ouml;zle g&ouml;r&uuml;lemeyecek kadar k&uuml;&ccedil;&uuml;k bir madde olan atomun &ccedil;ekirdeğinin etrafında inanılmaz bir s&uuml;ratle d&ouml;nen elektronlar, mevcut y&ouml;r&uuml;ngelerinden bir anda kaybolup alt-y&ouml;r&uuml;nge adı verilen bir başka mekana ge&ccedil;iyorlar. Bu ge&ccedil;iş i&ccedil;in alt-y&ouml;r&uuml;ngede boş bir yerin olması da şart. Bu esnada ihtiya&ccedil; duydukları enerjiyi foton soğurarak temin ediyorlar. Sonra asıl y&ouml;r&uuml;ngelerine geri d&ouml;n&uuml;yorlar. Bu hareket esnasında insan g&ouml;z&uuml;n&uuml;n algılayabileceği renkler oluşuyor. &Uuml;stelik sayıları trilyonlarla ifade edilebilecek kadar &ccedil;ok atom, her saniye hi&ccedil; durmadan bunu yapıyor. Bizler de bu sayede hi&ccedil; kesintisiz bir "g&ouml;r&uuml;nt&uuml;" elde ediyoruz.</p>
-<p>Bu m&uuml;thiş mekanizma, insan yapısı hi&ccedil;bir makinenin işleyişine benzetilemez. &Ouml;rneğin bir saat tek başına &ccedil;ok kompleks bir mekanizmaya sahiptir ve saatin doğru olarak &ccedil;alışabilmesi i&ccedil;in t&uuml;m par&ccedil;alarının (&ccedil;arklar, dişliler, vidalar, somunlar, vs.) doğru yerlerde, doğru bi&ccedil;imde bulunması şarttır. Bu mekanizmada en k&uuml;&ccedil;&uuml;k bir aksama, saatin işleyişine zarar verir. Fakat atomun yapısını ve elektronların yukarıda anlattığımız mekanizmasının işleyişini d&uuml;ş&uuml;n&uuml;nce, bir saatin yapısının basitliği a&ccedil;ık&ccedil;a ortaya &ccedil;ıkıyor. Dediğimiz gibi bu mekanizma insan eliyle yapılan hi&ccedil;bir sistemle kıyaslanamayacak kadar kompleks, m&uuml;kemmel ve kusursuzdur. Kuşkusuz akıllara durgunluk verecek kadar kompleks olan ve b&ouml;ylesine kusursuz işleyen bir sistem, materyalist bilim adamlarının iddia ettiği gibi kendi kendine, tesad&uuml;fler sonucunda ortaya &ccedil;ıkmış olamaz. Şimdi ş&ouml;yle bir soru soralım: Issız bir &ccedil;&ouml;lde ilerlerken yerde işleyen bir saat g&ouml;rseniz, bunun toz, toprak, kum ve taşlardan şans eseri oluştuğunu d&uuml;ş&uuml;n&uuml;r m&uuml;s&uuml;n&uuml;z? Bunu hi&ccedil; kimse d&uuml;ş&uuml;nmez, &ccedil;&uuml;nk&uuml; saatteki tasarım ve akıl her y&ouml;n&uuml;yle g&ouml;zler &ouml;n&uuml;ndedir. Oysa tek bir atomdaki tasarım ve akıl, yukarıda da s&ouml;ylediğimiz gibi insan yapısı herhangi bir mekanizmayla kıyaslanmayacak kadar &uuml;st&uuml;nd&uuml;r. Bu aklın sahibi de b&uuml;y&uuml;k ilim sahibi, her şeyi bilen, g&ouml;ren ve yaratan Allah'tır.</p>
-<p>Allah g&ouml;rd&uuml;ğ&uuml;m&uuml;z ve g&ouml;remediğimiz her yeri sonsuz bir sanatla yaratmış ve bizim haberimiz bile olmadığı halde sayısız sebebi bizim emrimize vermiştir. Daha &ouml;nceden hi&ccedil; bilmediğimiz, belki de &ouml;ğrenmeyi hi&ccedil; aklımıza getirmediğimiz renkler konusu, bilim ilerledik&ccedil;e t&uuml;m detayları ve kompleksliğiyle g&ouml;zlerimizin &ouml;n&uuml;ne serilmiştir. Bilimsel gelişme ve ilerlemelerin, akıl ve vicdan sahibi her insanın Allah'ın varlığına inanmasına vesile olacağı g&ouml;zardı edilemez bir ger&ccedil;ektir. Ancak t&uuml;m bunlara rağmen evrenin her noktasında şahit olunan &uuml;st&uuml;n sanatı ve aklı g&ouml;rmezlikten gelenler olabilmektedir. &Uuml;nl&uuml; bilim adamı Louis Pasteur bu konuyla ilgili ilgin&ccedil; bir tespit yapmıştır: "Bilimin azı Allah'tan uzaklaştırır, ama &ccedil;oğu, O'na g&ouml;t&uuml;r&uuml;r."<sup>23</sup></p>
-<p>İnsan, &ccedil;evresini saran yaratılış &ouml;rnekleri hakkında bilgisi arttık&ccedil;a, Allah'ın kendisini her y&ouml;nden kuşattığını, g&ouml;kten yere her işi onun d&uuml;zenlediğini, kontrol&uuml;n&uuml; elinde tuttuğunu, kendi canının bir g&uuml;n mutlaka alınacağını ve d&uuml;nyada yaptıklarından hesaba &ccedil;ekileceğini &ccedil;ok daha iyi kavrayabilir. İşte bizim de &ccedil;evremizde gelişen sayısız olayla ilgili bilgimiz arttık&ccedil;a her ge&ccedil;en g&uuml;n Allah'ın ilmine olan hayranlığımız da artmaktadır. Bu hayranlık ise Allah'ın sonsuz kudretini, g&uuml;c&uuml;n&uuml; m&uuml;mk&uuml;n olduğunca idrak etme ve dolayısıyla O'ndan gereği gibi korkup-sakınma yolunda &ccedil;ok &ouml;nemli bir adımdır. Allah Kuran&rsquo;da ş&ouml;yle bildirir:</p>
-<p><strong>Allah'ın g&ouml;ky&uuml;z&uuml;nden su indirdiğini g&ouml;rmedin mi? B&ouml;ylece Biz onunla, renkleri değişik olan meyveler &ccedil;ıkardık. Dağlardan da beyaz, kırmızı renkleri değişik ve siyah yollar (kıldık). İnsanlardan, hayvanlardan ve davarlardan da renkleri b&ouml;yle değişik olanlar vardır. Kulları i&ccedil;inde ise Allah'tan ancak alim olanlar 'i&ccedil;leri titreyerek-korkar'. Ş&uuml;phesiz Allah, &uuml;st&uuml;n ve g&uuml;&ccedil;l&uuml; olandır, bağışlayandır. (Fatır Suresi, 27-28)</strong></p>
-<p><strong>Par&ccedil;acıkların Programlanmış Hareketi</strong></p>
-<p>Buraya kadar, atomu oluşturan par&ccedil;acıkların &ouml;zelliklerini inceledik. Şimdi bu par&ccedil;acıkların, daha &ouml;nce bahsetmediğimiz ortak bir &ouml;zelliğini ele alacağız: "Spin D&ouml;n&uuml;ş&uuml;".</p>
-<p>Atomu oluşturan par&ccedil;acıkların kendi eksenleri etrafında olağan&uuml;st&uuml; bir hızla d&ouml;n&uuml;şlerine "spin" adı verilir. Evrendeki pek &ccedil;ok sistemde spin hareketi &ouml;nemli bir rol oynar. Atomun i&ccedil;indeki par&ccedil;acıklardan uzaydaki yıldızlara kadar b&uuml;t&uuml;n sistemler bu hareket &uuml;zerine kurulmuştur. Par&ccedil;acıkların spin hareketi ise ilk kez 1925 yılında fark edildi ve bu d&ouml;n&uuml;ş "Pauli Dışlama İlkesi" olarak anılmaya başlandı. Bu ilkeye g&ouml;re, iki benzer par&ccedil;acık aynı duruma sahip olamazlar, yani belirsizlik ilkesinin tanımladığı sınırlar i&ccedil;inde hem aynı konumda, hem de aynı hızda bulunamazlar. Bu kuralı şu şekilde a&ccedil;ıklayabiliriz: Bildiğiniz gibi atom son derece k&uuml;&ccedil;&uuml;k bir yapıdır ve o k&uuml;&ccedil;&uuml;k yapının i&ccedil;inde de &ccedil;ok kompleks bir trafik vardır. Eğer bu yapıyı oluşturan birbirine benzer par&ccedil;acıklar aynı hızda ve aynı y&ouml;nde hareket etselerdi ne olurdu, bir d&uuml;ş&uuml;nelim:</p>
-<p>&Ouml;nce, protonu oluşturan 3 kuarkı ele alalım. 3 kuark aynı anda, aynı hızda ve aynı y&ouml;nde hareket ettikleri takdirde, artık 3 kuark diye bir şey kalmaz, hepsi de tek bir kuark halini alırlar. B&ouml;yle bir durumda da protonların oluşması m&uuml;mk&uuml;n olmaz ve &ccedil;ekirdek, dolayısıyla atom oluşamaz. &Ccedil;&uuml;nk&uuml; kuark bir enerjiden ibarettir ve aynı y&ouml;nde ve aynı hızda hareket eden 3 ayrı enerji olabilmesi m&uuml;mk&uuml;n değildir. Bunların bir şekilde birbirlerinden ayrılmaları gerekir. Bu ayrım da ancak hareket farklılıklarıyla oluşabilmektedir. Ancak bu şartla, kuarklar (enerji paket&ccedil;ikleri), n&ouml;tronları ve protonları oluşturabilirler. Şayet, kuarkların hepsi aynı y&ouml;nde ve aynı hızda hareket etselerdi, ne protonlar, ne n&ouml;tronlar, ne de &ccedil;ekirdek oluşabilirdi. Sonu&ccedil; olarak, atomlar, molek&uuml;ller dolayısıyla da madde var olamazdı.</p>
-<p>G&ouml;r&uuml;ld&uuml;ğ&uuml; gibi, "spin" hareketi, şu ana kadar g&ouml;rd&uuml;ğ&uuml;m&uuml;z diğer t&uuml;m &ouml;zelliklerde olduğu gibi, evrenin oluşumunda son derece hayati bir &ouml;neme sahiptir. Stephen Hawking bu durumu ş&ouml;yle ifade etmiştir:</p>
-<p>"Eğer d&uuml;nya, dışlama ilkesi olmadan yaratılsaydı kuarklar, birbirinden ayrı ve kesin tanımlı proton ve n&ouml;tronları oluşturamazdı. Proton ve n&ouml;tronlar da elektronlarla birlikte atomları oluşturamazlardı. Hepsi, olduk&ccedil;a d&uuml;zg&uuml;n, yoğun bir '&ccedil;orba' oluşturmak &uuml;zere bir araya &ccedil;&ouml;kerdi".<sup>24</sup></p>
-<p>Bilim bug&uuml;n atom altı par&ccedil;acıkların bu olağan&uuml;st&uuml; hareketlerini keşfetmiştir, ama par&ccedil;acıkların neden b&ouml;yle hareket ettiklerini bir t&uuml;rl&uuml; a&ccedil;ıklayamamaktadır. Bu şuursuz par&ccedil;acıkların spin şeklinde hareket edebilmeleri i&ccedil;in, bu hareketlerinin sonucunda atomu oluşturacaklarını idrak edebilmeleri gerekir. Bu idrakin arkasından da ne şekilde hareket edeceklerine karar vermeleri, yani bir strateji belirlemeleri şarttır. Hangi par&ccedil;acığın, hangi y&ouml;nde ve hangi hızda hareket edeceği son derece detaylı bir şekilde belirlenmelidir. Daha sonra sıra bu stratejiyi evreni oluşturan sonsuz sayıdaki par&ccedil;acığa duyurmaya ve hepsinin bu stratejiye uymasını sağlamaya gelmektedir. Strateji t&uuml;m par&ccedil;acıklara duyurulur ve t&uuml;m par&ccedil;acıklar ne şekilde hareket etmeleri gerektiğini &ouml;ğrenirler.</p>
-<p>Şimdi, cevaplanması gereken &ccedil;ok &ouml;nemli bir soru vardır ki bu soru bizi en başa d&ouml;nd&uuml;rmektedir: Neden t&uuml;m par&ccedil;acıklar bu stratejiye uymakta, yani itaat etmektedirler? Neden bir par&ccedil;acık bile bu kurala itiraz etmemektedir? T&uuml;m bu par&ccedil;acıkların, burada saydıklarımızı uygulayabilecek şuur, akıl, irade ve zekaları mı vardır? Elbette hayır. K&uuml;tlesi bile olmayan, sadece enerjiden ibaret olan bu par&ccedil;acıkların, hi&ccedil; ş&uuml;phesiz ne kendilerine ait bir akılları, ne de m&uuml;stakil bir iradeleri olabilir. Burada karşımıza &ccedil;ıkan, Allah'ın sonsuz aklı, sonsuz g&uuml;c&uuml; ve sonsuz ilmidir. Allah, t&uuml;m bu par&ccedil;acıklara, boyun eğdirmiş ve b&ouml;ylece evreni yaratmıştır. Bir ayette bu ger&ccedil;ek bize ş&ouml;yle bildirilmektedir:</p>
-<p><strong>... Hayır, g&ouml;klerde ve yerde her ne varsa O'nundur, t&uuml;m&uuml; O'na g&ouml;n&uuml;lden boyun eğmişlerdir. (Bakara Suresi, 116)</strong></p>
-<p><strong>3. B&Ouml;L&Uuml;M:<br /> MADDEYE GİDEN İKİNCİ BASAMAK: MOLEK&Uuml;LLER</strong></p>
-<p>Sizce &ccedil;evrenizde g&ouml;rd&uuml;ğ&uuml;n&uuml;z cisimleri birbirinden farklı kılan şey nedir? Renklerini, bi&ccedil;imlerini, kokularını, tatlarını birbirinden farklılaştıran nedir? Neden bir madde yumuşakken diğeri sert, bir diğeri akışkandır? Buraya kadar okuduklarınızdan hareket ederek bu sorulara "atomların farklılığıdır" diye cevap verebilirsiniz. Ancak bu cevap yeterli değildir. &Ccedil;&uuml;nk&uuml; eğer bu farklılıkların sebebi atomlar olsaydı, o zaman birbirinden farklı &ouml;zellikler taşıyan milyarlarca atom olması gerekirdi. Ama ger&ccedil;ekte bu b&ouml;yle değildir. Bir&ccedil;ok madde aynı atomları i&ccedil;ermesine rağmen farklı g&ouml;r&uuml;n&uuml;r ve farklı &ouml;zellikler taşır. Bunun da nedeni atomların molek&uuml;lleri oluşturmak i&ccedil;in aralarında kurdukları farklı kimyasal bağlardır.</p>
-<p>Maddeye giden ilk basamak olan atomlardan sonra ikinci basamak molek&uuml;llerdir. Molek&uuml;ller, maddenin kimyasal &ouml;zelliklerini belirten en k&uuml;&ccedil;&uuml;k birimlerdir. Bu k&uuml;&ccedil;&uuml;k yapılar iki veya daha &ccedil;ok atomdan, bazıları da binlerce atom grubundan oluşur. Atomları, molek&uuml;l i&ccedil;inde elektromanyetik &ccedil;ekim kuvvetine dayalı kimyasal bağlar bir arada tutarlar. Yani bu bağlar atomların sahip oldukları elektrik y&uuml;klerini esas alarak kurulurlar. Atomların elektrik y&uuml;kleri de daha &ouml;nce belirttiğimiz gibi son y&ouml;r&uuml;ngelerinde taşıdıkları elektronlar tarafından belirlenir. Molek&uuml;llerin &ccedil;eşitli bi&ccedil;imlerde bir araya gelmeleriyle de &ccedil;evremizde g&ouml;rd&uuml;ğ&uuml;m&uuml;z madde &ccedil;eşitliliği ortaya &ccedil;ıkar. Bu noktada da maddenin &ccedil;eşitliliğinin ana merkezinde yer alan kimyasal bağların &ouml;nemi anlaşılır.</p>
-<p><strong>Kimyasal Bağlar</strong></p>
-<p>Yukarıda da belirtildiği gibi kimyasal bağlar, atomların dış y&ouml;r&uuml;ngelerindeki elektronların hareketleriyle oluşur. Her atom en dışta yer alan y&ouml;r&uuml;ngesini, alabileceği en fazla elektron sayısına tamamlama gayreti i&ccedil;indedir. Atomların son y&ouml;r&uuml;ngelerinde bulundurabilecekleri maksimum elektron sayısı 8&rsquo;dir. Bunu sağlarken atomlar ya en dış y&ouml;r&uuml;ngelerindeki elektronları 8&rsquo;e tamamlamak i&ccedil;in başka atomlardan elektron alırlar, ya da eğer en dış y&ouml;r&uuml;ngelerinde az sayıda elektron varsa, bunları bir başka atoma vererek &ouml;nceden tamamlanmış olan bir alt y&ouml;r&uuml;ngeyi en dış y&ouml;r&uuml;ngeleri haline getirirler. Atomların kendi aralarında yaptıkları bu elektron alıp verme eğilimi, birbirleri arasında yaptıkları kimyasal bağların temel itici g&uuml;c&uuml;n&uuml; oluşturur.</p>
-<p>Bu itici g&uuml;&ccedil;, yani atomların son y&ouml;r&uuml;ngelerindeki elektron sayılarını maksimuma tamamlama ama&ccedil;ları, bir atomun diğer atomlarla 3 &ccedil;eşit bağ kurabilmesini sağlar. Bunlar iyonik bağ, kovalent bağ ve metalik bağdır.</p>
-<p>Molek&uuml;ller arasında ise genel olarak "zayıf bağlar" başlığı altında toplanan &ouml;zel bağlar g&ouml;rev yapar. Bu bağlar atomların molek&uuml;lleri oluşturmak &uuml;zere kurdukları bağlardan daha zayıftır. &Ccedil;&uuml;nk&uuml; molek&uuml;llerin maddeyi meydana getirmek i&ccedil;in daha esnek yapılara ihtiya&ccedil;ları vardır.</p>
-<p>Bu bağların &ouml;zellikleri nedir ve nasıl kurulurlar, kısaca ele alalım.</p>
-<p><strong>İyonik Bağlar</strong></p>
-<p>Bu bağ ile birleşen atomlar son y&ouml;r&uuml;ngelerindeki elektron sayısını 8&rsquo;e tamamlamak i&ccedil;in birbirleriyle elektron alışverişinde bulunurlar. Son y&ouml;r&uuml;ngelerinde 4&rsquo;e kadar elektronu bulunan atomlar bu elektronları birleşecekleri yani bağ kuracakları atoma verirler. Son y&ouml;r&uuml;ngelerinde 4&rsquo;den fazla elektron bulunduran atomlar ise birleşecekleri yani bağ kuracakları atomlardan elektron alırlar. Bu tip bağ ile oluşan molek&uuml;ller kristal (k&uuml;bik) yapıya sahip olurlar. Yakından tanıdığımız sofra tuzu (NaCl) molek&uuml;lleri bu bağ ile oluşmuş maddelerden biridir. Peki atomların neden b&ouml;yle bir eğilimi vardır? Bu eğilim olmasa ne olurdu?</p>
-<p>Bug&uuml;ne kadar atomların bir araya gelmek i&ccedil;in aralarında kurdukları bağlar &ccedil;ok genel bi&ccedil;imde tarif edilebilmiştir. Ama atomların neden b&ouml;yle bir prensiple davrandıkları anlaşılamamıştır. Yoksa atomlar son y&ouml;r&uuml;ngelerindeki elektronların sayısının 8 olması gerektiğini kendileri mi tespit etmiştir? Tabii ki hayır. Bu &ouml;yle b&uuml;y&uuml;k bir tespittir ki, bir aklı, iradesi ve şuuru olmayan bir atomun kendisini aşmaktadır. &Ccedil;&uuml;nk&uuml; bu sayı maddenin ve dolayısıyla evrenin meydana gelmesi i&ccedil;in ilk basamak olan atomların birleşmelerindeki kilit noktadır. Eğer atomların bu prensipten kaynaklanan eğilimleri olmasaydı hayatımız i&ccedil;in gerekli olan bazı molek&uuml;ller oluşamazdı.</p>
-<p>Oysa atomlar ilk yaratıldıkları andan itibaren sahip oldukları bu eğilim sayesinde molek&uuml;llerin ve maddenin kusursuz bir bi&ccedil;imde meydana gelmesi i&ccedil;in hizmet ederler.</p>
-<p><strong>Kovalent Bağlar</strong></p>
-<p>Atomların arasındaki bağları inceleyen bilim adamları ilgin&ccedil; bir durumla karşılaştılar. Bazı atomlar bağ kurmak i&ccedil;in elektron alışverişinde bulunurken, bazıları da son y&ouml;r&uuml;ngelerindeki elektronları ortak kullanmaktaydılar. Daha sonra yapılan &ccedil;alışmalar da canlılık i&ccedil;in vazge&ccedil;ilmez &ouml;nem taşıyan bir&ccedil;ok molek&uuml;l&uuml;n bu bağlar sayesinde var olabildiğini ortaya koymuştur.</p>
-<p>Kovalent bağın daha iyi anlaşılabilmesi i&ccedil;in kolay bir &ouml;rnek verelim: Daha &ouml;nce elektron y&ouml;r&uuml;ngelerinden bahsederken de belirttiğimiz gibi atomların ilk y&ouml;r&uuml;ngelerinde en fazla 2 elektron taşınabilir. Hidrojen atomu tek bir elektrona sahiptir ve elektron sayısını 2&rsquo;ye &ccedil;ıkarıp kararlı bir atom olma eğilimindedir. Bu y&uuml;zden hidrojen atomu 2. bir hidrojen atomuyla kovalent bağ yapar. Yani, 2 hidrojen atomu da birbirlerinin tek elektronlarını 2. elektron olarak kullanır. B&ouml;ylece H<sub>2</sub> molek&uuml;l&uuml; oluşur.<sup>26</sup></p>
-<p><strong>Metalik Bağlar</strong></p>
-<p>Eğer &ccedil;ok sayıda atom, birbirlerinin elektronlarını ortaklaşa kullanarak birleşiyorlarsa, bu kez "metalik bağ" s&ouml;z konusudur. G&uuml;nl&uuml;k hayatta &ccedil;evremizde g&ouml;rd&uuml;ğ&uuml;m&uuml;z ya da kullandığımız pek &ccedil;ok ara&ccedil; ve gerecin ana maddesini oluşturan demir, bakır, &ccedil;inko, al&uuml;minyum, vs. gibi metaller, kendilerini oluşturan atomların birbirleri aralarında metalik bağlar yapmaları sonucunda, elle tutulur, g&ouml;zle g&ouml;r&uuml;l&uuml;r, kullanılabilir bir yapı kazanmışlardır.</p>
-<p>Atomların y&ouml;r&uuml;ngelerindeki elektronların neden b&ouml;yle bir eğilimi olduğu sorusunu ise bilim adamları cevaplayamamaktadır. Fakat canlı organizmalar ancak nedenini bilmediğimiz bu eğilim sayesinde var olabilirler.</p>
-<p>Acaba t&uuml;m bu bağlarla ka&ccedil; farklı bileşik oluşabilmektedir?</p>
-<p><strong>Bileşikler</strong></p>
-<p>Bileşik, birden fazla atomun belirli oranlarda kimyasal reaksiyonu sonucu biraraya gelmesiyle oluşan saf maddeye denir. Bileşiklerin en k&uuml;&ccedil;&uuml;k yapıtaşı molek&uuml;llerdir.</p>
-<p>Laboratuvarlarda her g&uuml;n yeni bileşikler oluşturulmaktadır. Şu an i&ccedil;in yaklaşık 2 milyon bileşikten bahsetmek m&uuml;mk&uuml;nd&uuml;r. En basit kimyasal bileşik, hidrojen molek&uuml;l&uuml; kadar ufak olabildiği gibi, milyonlarca atomdan oluşan bileşikler de vardır.<sup>28</sup></p>
-<p>Bir element acaba en fazla ka&ccedil; değişik bileşik oluşturabilir? Bu sorunun cevabı olduk&ccedil;a ilgin&ccedil;tir. &Ccedil;&uuml;nk&uuml; bir tarafta hi&ccedil;bir elementle birleşmeyen bazı elementler (soy gazlar) vardır. Diğer tarafta ise 1.700.000 bileşik oluşturabilen karbon atomu vardır. Toplam bileşik sayısının 2 milyon kadar olduğunu tekrar hatırlarsak, 109 elementin 108&rsquo;i toplam 300.000 bileşik yapmaktadırlar. Ancak karbon olağan&uuml;st&uuml; bir şekilde tek başına tam 1.700.000 bileşik yapabilmektedir.</p>
-<p><strong>Canlı Hayatının Temel Taşı: "Karbon" Atomu </strong></p>
-<p>Karbon, canlılar i&ccedil;in en hayati elementtir. &Ccedil;&uuml;nk&uuml; b&uuml;t&uuml;n canlı maddeler karbon bileşiklerinden oluşmuşlardır. Bizlerin varlığı i&ccedil;in bu kadar &ouml;nemli olan karbon atomunun &ouml;zelliklerini sayfalarca yazsak bitiremeyiz, nitekim kimya bilimi de hen&uuml;z bu &ouml;zelliklerin t&uuml;m&uuml;n&uuml; keşfedebilmiş değildir. Biz burada karbonun sadece &ccedil;ok &ouml;nemli birka&ccedil; &ouml;zelliğinden bahsedeceğiz.</p>
-<p>H&uuml;cre zarından ağa&ccedil; kabuğuna, g&ouml;z merceğinden bir geyiğin boynuzlarına, yumurta beyazından yılan zehirine kadar son derece farklı organik yapıların hepsi, karbon temelli bileşiklerden oluşur. Karbon, hidrojen, oksijen ve azot atomlarıyla &ccedil;ok farklı geometrik şekil ve sıralamalarda birleşerek, son derece farklı maddeler meydana getirir. Peki ama karbonun yaklaşık olarak 1.7 milyon kadar bileşik yapabilmesinin sebebi nedir?</p>
-<p>Karbonun en &ouml;nemli &ouml;zelliklerinden birisi, birbiri ardınca dizilerek &ccedil;ok kolay zincir oluşturabilmesidir. En kısa karbon zinciri 2 karbon atomundan oluşur. En uzun zincirin ka&ccedil; karbon atomundan oluştuğu konusunda ise kesin bir rakam verilememekle birlikte, yaklaşık olarak 70 halkalı bir zincirden bahsedilebilir. Karbon atomundan sonra en uzun zincir oluşturabilen atomun, 6 halka ile silisyum atomu olduğunu d&uuml;ş&uuml;n&uuml;rsek, karbon atomundaki olağan&uuml;st&uuml; durum daha iyi fark edilebilir.<sup>29</sup></p>
-<p>Karbonun bu kadar &ccedil;ok halkalı zincir yapabilmesinin sebebi, zincirlerinin sadece d&uuml;z &ccedil;izgi şeklinde olmamasıdır. Zincirler dallar halinde de olabilirler, &ccedil;okgenler de oluşturabilirler.</p>
-<p>Bu noktada, zincirin şeklinin &ouml;nemi &ccedil;ok b&uuml;y&uuml;kt&uuml;r. İki karbon bileşiğinde, karbon atomu sayısı aynı fakat bileşiklerin zincir bi&ccedil;imleri farklıysa, ortaya 2 ayrı madde &ccedil;ıkmaktadır. Ve b&ouml;ylece karbon atomunun, yukarıda saydığımız &ouml;zellikleri ile, canlı hayatı i&ccedil;in &ccedil;ok b&uuml;y&uuml;k &ouml;nemi olan molek&uuml;ller yaratılmaktadır.</p>
-<p>Karbon bileşiklerinin bazıları sadece birka&ccedil; atomdan oluşur. Bazıları ise binlerce hatta milyonlarca atomdan meydana gelir. B&uuml;t&uuml;n elementler i&ccedil;inde sadece karbon elementinin atomları bu denli uzun ve kalıcı bileşikler oluşturabilir. &Uuml;nl&uuml; kimyager David Burnie Life adlı kitabında bu elementin &ouml;zelliğini ş&ouml;yle ifade eder:</p>
-<p>"Karbon, &ccedil;ok olağan dışı bir elementtir... Karbon ve onun bu olağan dışı &ouml;zellikleri olmasa, D&uuml;nya'da yaşam olması m&uuml;mk&uuml;n g&ouml;z&uuml;kmemektedir." <sup>30</sup></p>
-<p>İngiliz kimyager Nevil Sidgwick&rsquo;de, Chemical Elements and Their Compounds (Kimyasal Elementler ve Bunların Bileşikleri) adlı eserinde karbonun canlılar i&ccedil;in ne denli &ouml;nemli olduğunu ş&ouml;yle vurgular:</p>
-<p>Karbon, yapabildiği bileşiklerin sayısı ve &ccedil;eşitliliği y&ouml;n&uuml;nden, diğer elementlerden tamamen farklı, &ouml;zg&uuml;n bir yapıdadır. Şimdiye dek karbonun yarım milyonun &uuml;zerinde farklı bileşiği ayrılmış ve tanımlanmıştır. Ama bu bile karbonun g&uuml;&ccedil;leri hakkında &ccedil;ok yetersiz bir bilgi verir, &ccedil;&uuml;nk&uuml; karbon t&uuml;m canlı maddelerin temelini oluşturur.<sup>31</sup></p>
-<p>Karbonun sadece hidrojen ile kurduğu farklı bağlar, "hidrokarbonlar" olarak bilinen b&uuml;y&uuml;k bir aileyi meydana getirir. Bu aile i&ccedil;inde; doğal gaz, sıvı petrol, gaz yağı, kerosen ve &ccedil;eşitli makina yağları vardır. Etilen ve propilen olarak bilinen hidrokarbonlar ise petrokimya end&uuml;strisinin temelidir. Başka hidrokarbonlar da benzen, toluen ve turpentin gibi bileşikler meydana getirir. Giysilerimizi g&uuml;velenmekten koruması i&ccedil;in dolaplara konan naftalin ise bir başka t&uuml;r hidrokarbondur. Klor veya florla birleşen hidrokarbonlar ise anestezi maddeleri, yangın s&ouml;nd&uuml;r&uuml;c&uuml;ler ve buzdolaplarında kullanılan freonlar gibi farklı maddeleri oluşturur.</p>
-<p>Yukarıdaki s&ouml;z&uuml;nde kimyager Sidwick&rsquo;in de belirttiği gibi i&ccedil;inde sadece 6 proton, 6 n&ouml;tron ve 6 elektron bulunduran bu atomun g&uuml;c&uuml;n&uuml; tam anlayabilme konusunda insan aklı yetersiz kalmaktadır. Dolayısıyla bu atomun canlılık i&ccedil;in &ouml;nemli olan herhangi bir &ouml;zelliğinin dahi tesad&uuml;fen oluşması imkansızdır. Kısacası herşeyi atomlarına kadar kuşatan Allah, karbon atomunu da canlıların bedenlerine uygun bir bi&ccedil;imde yaratmıştır.</p>
-<p><strong>G&ouml;klerde ve yerde ne varsa t&uuml;m&uuml; Allah'ındır. Allah, her şeyi kuşatandır. (Nisa Suresi, 126)</strong></p>
-<p><strong>Molek&uuml;ller Arası Bağlar: Zayıf Bağlar</strong></p>
-<p>Atomları birbirine bağlayan bağlar bu bağlara nisbeten &ccedil;ok daha kuvvetlidirler. Bu bağlar sayesinde milyonlarca hatta milyarlarca &ccedil;eşit molek&uuml;l oluşabilir.</p>
-<p>Peki maddeyi oluşturmak &uuml;zere molek&uuml;ller nasıl birleşirler?</p>
-<p>Molek&uuml;ller oluştuktan sonra bir dengeye sahip oldukları i&ccedil;in artık molek&uuml;ller arasında elektron alışverişi olmaz.</p>
-<p>Peki onları bir arada tutan şey nedir?</p>
-<p>Bu soruyu cevaplamaya &ccedil;alışan kimyacılar farklı teoriler &uuml;retmeye başlamışlardır. Yapılan araştırmalar molek&uuml;llerin i&ccedil;lerindeki atomların &ouml;zelliklerine g&ouml;re farklı şekillerde birleşebildiklerini ortaya &ccedil;ıkarmıştır.</p>
-<p>Bu bağlar canlıların kimyası olarak bilinen organik kimya i&ccedil;in &ccedil;ok &ouml;nemlidir. &Ccedil;&uuml;nk&uuml; canlılığı meydana getiren en &ouml;nemli molek&uuml;ller bu bağı kurma &ouml;zellikleri sayesinde ortaya &ccedil;ıkabilir. Protein &ouml;rneğini ele alalım. Canlılığın temel yapı taşı olan proteinlerin, &uuml;&ccedil; boyutlu kompleks şekilleri bu bağlar sayesinde meydana gelir. Yani canlılığın oluşması i&ccedil;in atomlar arasındaki g&uuml;&ccedil;l&uuml; kimyasal bağ kadar molek&uuml;ller arası zayıf kimyasal bağ da var olmalıdır. Elbette ki bu bağın kuvveti de belli bir &ouml;l&ccedil;&uuml;ye sahip olmalıdır.</p>
-<p>Protein &ouml;rneğinden devam edebiliriz. Proteinler aminoasit adlı molek&uuml;llerin birleşmesinden oluşan &ccedil;ok daha b&uuml;y&uuml;k molek&uuml;llerdir. Aminoasitleri meydana getiren atomlar kovalent bağ ile birleşirler. Zayıf bağlar da oluşan bu aminoasitleri &uuml;&ccedil; boyutlu dizilimi elde edecek şekilde birbirine bağlar. Proteinler ancak bu &uuml;&ccedil; boyutlu şekilleriyle var oldukları takdirde canlı organizmalarda fonksiyon g&ouml;sterebilirler. Bu y&uuml;zden eğer bu bağlar olmasaydı proteinler ve dolayısıyla canlılık var olamazdı.</p>
-<p>Bir &ccedil;eşit zayıf bağ olan "hidrojen" bağları da hayatımızda &ccedil;ok &ouml;nem taşıyan maddelerin baş akt&ouml;rleridir. &Ouml;rneğin yaşamın temeli olan "su"yu oluşturan molek&uuml;ller hidrojen bağlarıyla bağlıdırlar.</p>
-<p><strong>MUCİZE BİR MOLEK&Uuml;L: SU</strong></p>
-<p>D&uuml;nyamızın &uuml;&ccedil;te ikisi yaşam i&ccedil;in &ouml;zel olarak se&ccedil;ilmiş bir sıvıyla, "su"yla kaplıdır. Yery&uuml;z&uuml;nde yaşayan b&uuml;t&uuml;n canlıların bedenleri %50-%95 oranında bu &ccedil;ok &ouml;zel sıvıdan meydana gelir. Kaynama noktasına yakın sıcaklıktaki kaynaklarda yaşayan bakterilerden tutun da, erimekte olan buzulların &uuml;zerindeki bazı &ouml;zel yosunlara kadar, suyun olduğu her yerde ve her sıcaklıkta hayat vardır. Yağmurdan sonra yapraklar &uuml;zerinde kalan bir su damlacığında bile binlerce mikroskobik canlı doğar, &ccedil;oğalır ve &ouml;l&uuml;r.</p>
-<p>Hi&ccedil; su olmasa yery&uuml;z&uuml; nasıl g&ouml;r&uuml;n&uuml;rd&uuml;? Ş&uuml;phesiz her yer &ccedil;&ouml;lden ibaret olurdu, denizlerin yerlerinde dipsiz ve &uuml;rk&uuml;t&uuml;c&uuml; &ccedil;ukurlar yer alırdı. G&ouml;ky&uuml;z&uuml; de bulutsuz ve &ccedil;ok garip bir renkte g&ouml;r&uuml;l&uuml;rd&uuml;.</p>
-<p>Yery&uuml;z&uuml;ndeki hayatın temeli olan suyun oluşabilmesi ise aslında son derece zordur. &Ouml;ncelikle suyun bileşenleri olan hidrojen ve oksijen molek&uuml;llerini bir cam kabın i&ccedil;inde d&uuml;ş&uuml;nelim. Bunları o kabın i&ccedil;inde &ccedil;ok uzun bir s&uuml;re bırakalım. Bu gazlar kabın i&ccedil;inde y&uuml;zlerce yıl kalsalar, yine de su oluşturamayabilirler. Oluştursalar da &ccedil;ok yavaş olarak, mesela binlerce yıl gibi bir s&uuml;re sonra kabın dibinde &ccedil;ok az miktarda su meydana gelebilir.</p>
-<p>B&ouml;yle bir durumda suyun bu derece yavaş oluşmasının sebebi sıcaklıktır. Oda sıcaklığında oksijenle hidrojen &ccedil;ok yavaş tepkimeye girerler.</p>
-<p>Oksijen ve hidrojen, serbest halde iken H<sub>2</sub> ve O<sub>2</sub> molek&uuml;lleri halinde bulunur. Bu molek&uuml;llerin su molek&uuml;l&uuml;n&uuml; oluşturmak &uuml;zere birleşmeleri i&ccedil;in &ccedil;arpışmaları gerekir. Bu &ccedil;arpışma sonucunda, hidrojen ile oksijen molek&uuml;l&uuml;n&uuml; oluşturan bağlar zayıflar ve oksijen ile hidrojen atomlarının birleşmesine engel kalmaz. Sıcaklık, bu molek&uuml;llerin enerjisini, dolayısıyla hızlarını y&uuml;kselttiği i&ccedil;in &ccedil;arpışmaların sayısını da b&uuml;y&uuml;k &ouml;l&ccedil;&uuml;de artırır. B&ouml;ylece, tepkimenin hızlı ilerlemesini sağlar. Ancak, şu anda yery&uuml;z&uuml;nde suyun oluşmasını sağlayacak kadar y&uuml;ksek ısı yoktur. Suyun oluşması i&ccedil;in gerekli olan ısı, d&uuml;nya oluşurken sağlanmış ve d&uuml;nyanın d&ouml;rtte &uuml;&ccedil;l&uuml;k kısmını oluşturan su o zaman meydana gelmiştir. Artık bu su kaynakları buharlaşarak atmosfere y&uuml;kselmekte, orada da soğuyarak yağmur şeklinde yeniden yery&uuml;z&uuml;ne d&ouml;nmektedir. Yani mevcut miktara yeni bir ilave olmaz, sadece bir devir daim yaşanır.</p>
-<p><strong>Suyun mucizevi &ouml;zellikleri</strong></p>
-<p>Su, kimyasal olarak pek &ccedil;ok olağan&uuml;st&uuml; &ouml;zelliğe sahiptir. Her bir su molek&uuml;l&uuml; hidrojen ve oksijen atomlarının birleşmesiyle oluşmuştur. Biri yakıcı, diğeri de yanıcı olan iki gazın birleşerek bir sıvıyı, hem de suyu oluşturuyor olmaları olduk&ccedil;a ilgin&ccedil;tir.</p>
-<p>Şimdi kısaca kimyasal olarak suyun nasıl oluştuğuna bakalım. Suyun elektrik y&uuml;k&uuml; sıfır, yani n&ouml;trd&uuml;r. Ancak oksijen ve hidrojen atomlarının b&uuml;y&uuml;kl&uuml;klerinden dolayı su molek&uuml;l&uuml;n&uuml;n oksijen tarafı hafif&ccedil;e eksi, hidrojen tarafı ise hafif&ccedil;e artı y&uuml;kl&uuml;d&uuml;r. Birden fazla su molek&uuml;l&uuml; bir araya geldiğinde artı ve eksi y&uuml;kler birbirini &ccedil;ekerek "hidrojen bağı" denilen &ccedil;ok &ouml;zel bir bağ oluşturur. Hidrojen bağı &ccedil;ok zayıf bir bağdır ve &ouml;mr&uuml; aklımızın kavrayamayacağı kadar kısadır. Bir hidrojen bağının &ouml;mr&uuml;, yaklaşık olarak bir saniyenin y&uuml;z milyarda biri kadardır. Ama bağlardan biri kırıldığında hemen bir diğer bağ oluşur. B&ouml;ylece su molek&uuml;lleri birbirlerine yapışırlar ve diğer taraftan zayıf bir bağla birbirlerine bağlandıklarından akışkan olurlar.</p>
-<p>Hidrojen bağlarının suya kattığı bir başka &ouml;zellik de, suyun sıcaklık değişimlerine diren&ccedil; g&ouml;stermesidir. Havanın sıcaklığı aniden artsa bile suyun sıcaklığı yavaş yavaş artar, aynı şekilde havanın sıcaklığı aniden d&uuml;şse bile suyun sıcaklığı yavaş yavaş d&uuml;şer. Suyun sıcaklığının &ouml;nemli oranda oynayabilmesi i&ccedil;in &ccedil;ok b&uuml;y&uuml;k miktarlarda ısı değişikliğine ihtiya&ccedil; vardır. Suyun ısı enerjisinin bu derece y&uuml;ksek olmasının canlı hayatına sağladığı &ccedil;ok b&uuml;y&uuml;k faydalar vardır. Basit bir &ouml;rnek verecek olursak, v&uuml;cudumuzda &ccedil;ok b&uuml;y&uuml;k oranda su vardır. Su eğer havadaki ani sıcaklık iniş ve &ccedil;ıkışlarına aynı hızla uysaydı, aniden ateşimiz &ccedil;ıkardı veya aniden donardık.</p>
-<p>Aynı şekilde, suyun buharlaşmak i&ccedil;in de &ccedil;ok b&uuml;y&uuml;k bir ısı enerjisine ihtiyacı vardır. Su buharlaşırken, &ccedil;ok ısı enerjisi kullandığı i&ccedil;in suyun sıcaklığında eksilme olur. Yine insan v&uuml;cudundan bir &ouml;rnek verecek olursak; v&uuml;cudumuzun normal sıcaklığı 360 C&rsquo;dir ve dayanabileceğimiz en y&uuml;ksek v&uuml;cut sıcaklığı 420 C&rsquo;dir. Aradaki bu 60 C&rsquo;lik aralık &ccedil;ok k&uuml;&ccedil;&uuml;k bir aralıktır ve birka&ccedil; saat g&uuml;neş altında &ccedil;alışmak v&uuml;cut sıcaklığını bu kadar artırabilir. Ancak v&uuml;cudumuz terleyerek, yani i&ccedil;indeki suyu buharlaştırarak &ccedil;ok b&uuml;y&uuml;k miktarda ısı enerjisi harcar ve v&uuml;cut sıcaklığı d&uuml;şer. V&uuml;cudumuz otomatik olarak &ccedil;alışan b&ouml;yle bir mekanizmaya sahip olmasaydı, birka&ccedil; saat g&uuml;neş altında &ccedil;alışmak bile bizler i&ccedil;in &ouml;ld&uuml;r&uuml;c&uuml; olabilirdi.</p>
-<p>Hidrojen bağlarının suya kazandırdığı bir başka olağan&uuml;st&uuml; &ouml;zellik, suyun sıvı iken katı haline oranla daha yoğun olmasıdır. Halbuki, yery&uuml;z&uuml;ndeki maddelerin &ccedil;oğu katı iken sıvı haline oranla daha yoğundur. Ancak, su diğer maddelerin tersine donarken genleşir. Bunun sebebi hidrojen bağlarının su molek&uuml;llerinin birbirlerine sıkı şekilde bağlanmasını engellemesi ve arada bir&ccedil;ok boşluğun kalmasıdır. Su sıvı iken hidrojen bağları kırıldığından oksijen atomları birbirine yaklaşır ve daha yoğun bir yapı elde edilir.</p>
-<p>Bu durum aynı şekilde buzun sudan daha hafif olmasını da beraberinde getirir. Normalde herhangi bir metali eritip i&ccedil;ine aynı metalden birka&ccedil; katı par&ccedil;a atsanız, bu par&ccedil;alar hemen dibe &ccedil;&ouml;ker. Ancak suda durum farklıdır. Onbinlerce ton ağırlığındaki buz dağları suyun &uuml;zerinde mantar gibi y&uuml;zmektedirler. Peki suyun bu &ouml;zelliğinin ne gibi bir faydası olabilir?</p>
-<p>Bu soruyu bir ırmak &ouml;rneği ile cevaplayalım: Havalar &ccedil;ok soğuduğunda ırmaktaki suyun tamamı değil, sadece &uuml;st kısmı donar. Su, +40 C&rsquo;de en ağır halindedir ve bu dereceye ulaşan su hemen dibe &ccedil;&ouml;ker. Suyun &uuml;zerinde ise "katman halinde buz" oluşur. Bu katmanın altında su akmaya devam eder ve +40 C canlıların yaşayabileceği bir sıcaklık olduğu i&ccedil;in sudaki canlılar bu sayede hayatlarını s&uuml;rd&uuml;r&uuml;r.</p>
-<p>Allah&rsquo;ın suya vermiş olduğu t&uuml;m bu eşsiz &ouml;zellikler, yery&uuml;z&uuml;nde canlı hayatının var olabilmesini m&uuml;mk&uuml;n kılan &ouml;zelliklerdir. Kuran&rsquo;da Allah&rsquo;ın insanlara sunduğu bu b&uuml;y&uuml;k nimetin &ouml;nemi ş&ouml;yle bildirilmiştir:</p>
-<p><strong>Sizin i&ccedil;in g&ouml;kten su indiren O&rsquo;dur; i&ccedil;ecek ondan, ağa&ccedil; ondandır (ki) hayvanlarınızı onda otlatmaktasınız. Onunla sizin i&ccedil;in ekin, zeytin, hurmalıklar, &uuml;z&uuml;mler ve meyvelerin her t&uuml;rl&uuml;s&uuml;nden bitirir. Ş&uuml;phesiz bunda, d&uuml;ş&uuml;nebilen bir topluluk i&ccedil;in ayetler vardır. (Nahl Suresi, 10-11)</strong></p>
-<p><strong>Suyun İlgin&ccedil; Bir &Ouml;zelliği</strong></p>
-<p>Hepimizin de bildiği gibi su 1000 C sıcaklıkta kaynar ve 00 C sıcaklıkta donar. Ancak, normal şartlarda suyun 1000 C değil, +1800 C kaynaması gerekirdi. Neden mi?</p>
-<p>Periyodik tabloda aynı gruptaki elementlerin &ouml;zellikleri, hafif elementten ağır elemente doğru d&uuml;zenli olarak değişiklik g&ouml;sterir. Bu d&uuml;zenlilik, &ouml;zellikle hidrojen bileşiklerinde hakimdir. Periyodik tabloda oksijenin bulunduğu grupta bulunan elementlerin bileşikleri "hidrid" diye adlandırılır. Su, aslında "oksijen hidrid"dir. Bu gruptaki diğer elementlerin hidridleri su molek&uuml;l&uuml; ile aynı molek&uuml;l yapısına sahiptir.</p>
-<p>Bu bileşiklerin kaynama noktaları k&uuml;k&uuml;rtten başlayıp daha ağır olanlara doğru d&uuml;zenli bir şekilde değişir; ancak umulmadık bir şekilde suyun kaynama noktası bu dizinin dışına &ccedil;ıkar. Su (oksijen hidrid) olması gerekenden 800 C daha aşağıda kaynar. Bir diğer şaşırtıcı durum da suyun donma noktası ile ilgilidir: Yine periyodik sistemdeki d&uuml;zene g&ouml;re, suyun -1000 C sıcaklıkta katılaşması gerekir. Ancak su bu kuralı bozar ve olması gerekenden 1000 C yukarıda, yani 00 C de buz haline gelir. Bu noktada; ni&ccedil;in hidridlerden başka biri değil de, sadece suyun (oksijen hidrid) periyodik sistem kurallarına uymadığı sorusu akla gelmektedir.</p>
-<p>Gerek fizik kuralları, gerek kimya kuralları ya da kural olarak nitelendirdiğimiz ne varsa; insanların, evrendeki olağan&uuml;st&uuml; dengenin ve yaratılışın detaylarını a&ccedil;ıklama gayretinden başka şeyler değildirler. &Ouml;zellikle de 20. Y&uuml;zyılda yapılan t&uuml;m araştırmalar, evrendeki t&uuml;m fiziksel dengelerin insan yaşamı i&ccedil;in &ccedil;ok hassas bir bi&ccedil;imde ayarlandığını g&ouml;stermektedir. Araştırmalar evrende var olan t&uuml;m fizik, kimya ve biyoloji kanunlarının, atmosferin, g&uuml;neşin, atomların, molek&uuml;llerin insanın yaşamı i&ccedil;in tam olmaları gereken şekilde d&uuml;zenlendiklerini ortaya koymaktadır. Su da yukarıda saydığımız maddelerde olduğu gibi, başka hi&ccedil;bir sıvıyla kıyaslanamayacak kadar yaşama uygundur ve d&uuml;nyanın b&uuml;y&uuml;k bir b&ouml;l&uuml;m&uuml;, yaşam i&ccedil;in tam gerekli miktarda su ile doldurulmuştur. T&uuml;m bunların bir tesad&uuml;f olmayacağı ve ortada kusursuz bir d&uuml;zenin, tasarımın olduğu apa&ccedil;ıktır.</p>
-<p>Suyun insanı hayrete d&uuml;ş&uuml;ren fiziksel ve kimyasal &ouml;zellikleri, bu sıvının insan yaşamı i&ccedil;in &ouml;zel olarak yaratıldığını g&ouml;stermektedir. Allah suyla insanlara hayat vermiş ve yaşamlarını devam ettirmeleri i&ccedil;in gereksinim duydukları her şeyi de suyla topraktan bitirmiştir. Allah Kuran'da insanları bu konu &uuml;zerinde d&uuml;ş&uuml;nmeye &ccedil;ağırır:</p>
-<p><strong>O, g&ouml;kten su indirendir. Bununla her şeyin bitkisini bitirdik, ondan bir yeşillik &ccedil;ıkardık, ondan birbiri &uuml;st&uuml;ne bindirilmiş taneler t&uuml;retiyoruz. Ve hurma ağacının tomurcuğundan da yere sarkmış salkımlar, -birbirine benzeyen ve benzemeyen- &uuml;z&uuml;mlerden, zeytinden ve nardan bah&ccedil;eler (kılıyoruz.) Meyvesine, &uuml;r&uuml;n verdiğinde ve olgunluğa eriştiğinde bir bakıverin. Ş&uuml;phesiz inanacak bir topluluk i&ccedil;in bunda ger&ccedil;ekten ayetler vardır. (Enam Suresi, 99)</strong></p>
-<p><strong>Koruyucu Tavan: Ozon </strong></p>
-<p>Soluduğumuz hava, yani aşağı atmosfer b&uuml;y&uuml;k &ouml;l&ccedil;&uuml;de oksijen gazından oluşur. Burada oksijenden kastettiğimiz O<sub>2</sub> gazıdır. Yani aşağı atmosferdeki oksijen molek&uuml;lleri 2&rsquo;şer atomdan oluşmuştur. Ancak, oksijen molek&uuml;l&uuml; bazen 3&rsquo;er atomdan da (O<sub>3</sub>) oluşabilmektedir. Bu durumda bu molek&uuml;l artık oksijen değil "Ozon" olarak isimlendirilir, zira bu iki gaz birbirlerinden &ccedil;ok farklıdırlar.</p>
-<p>Hemen burada &uuml;zerinde durulması gereken bir nokta vardır: İki oksijen atomu birleşince oksijen gazı oluşmaktadır da, ni&ccedil;in &uuml;&ccedil; oksijen atomu birleşince ozon gazı diye farklı bir gaz oluşmaktadır? Sonu&ccedil;ta iki de olsa, &uuml;&ccedil; de olsa birleşen oksijen atomu değil midir? O zaman, neden ortaya iki farklı gaz &ccedil;ıkmaktadır? Bu soruyu cevaplamadan &ouml;nce, bu iki gazın ne y&ouml;nden farklı olduklarını ele alıp, bundan sonra cevap vermek daha yerinde olacaktır:</p>
-<p>Oksijen gazı (O<sub>2</sub>) aşağı atmosferde bulunur ve solunum yoluyla yery&uuml;z&uuml;ndeki t&uuml;m canlılara hayat verir. Ozon gazı (O<sub>3</sub>) ise, zehirli ve &ccedil;ok k&ouml;t&uuml; kokulu bir gazdır. Atmosferin en &uuml;st tabakalarında bulunur. Eğer, oksijen yerine ozon solumak zorunda olsak hi&ccedil;birimiz yaşayamazdık.</p>
-<p>Ozon, yukarı atmosferdedir; &ccedil;&uuml;nk&uuml; orada canlı yaşamı i&ccedil;in &ccedil;ok hayati bir fonksiyonu vardır. Atmosferin yaklaşık 20 km. yukarısında t&uuml;m d&uuml;nyayı bir kuşak gibi saran bir tabaka oluşturur. B&ouml;ylece g&uuml;neşten gelen kızıl &ouml;tesi ışınları emerek, yery&uuml;z&uuml;ne t&uuml;m g&uuml;&ccedil;leriyle ulaşmalarını engeller. Kızıl &ouml;tesi ışınlar &ccedil;ok y&uuml;ksek enerjiye sahip oldukları i&ccedil;in, eğer yery&uuml;z&uuml;ne doğrudan ulaşırlarsa, yery&uuml;z&uuml;ndeki her şey yanar ve d&uuml;nyada hayat var olamaz. İşte bu y&uuml;zden ozon tabakası atmosferde koruyucu bir zırh g&ouml;revi g&ouml;rmektedir.</p>
-<p>Yery&uuml;z&uuml;ndeki canlı hayatının var olabilmesi i&ccedil;in t&uuml;m bu canlıların solunum yapabilmeleri ve zararlı g&uuml;neş ışınlardan korunabilmeleri gerekmektedir. Ve bu sistemi oluşturan ancak ve ancak her atoma, her molek&uuml;le hakim olan Allah&rsquo;tır. Allah&rsquo;ın izni olmaksızın, hi&ccedil;bir g&uuml;&ccedil; bu atomları oksijen ve ozon gazı molek&uuml;lleri olarak farklı oranlarda bir araya getiremezdi.</p>
-<p><strong>Tattığımız Ve Kokladığımız Molek&uuml;ller</strong></p>
-<p>Tat ve koku duyuları, insanın d&uuml;nyasını g&uuml;zelleştiren algılardır. Bu duyulardan alınan zevk &ccedil;ok eski &ccedil;ağlardan beri merak konusu olmuş ve bunların aslında molek&uuml;ler etkileşimler oldukları &ccedil;ok yakın zamanlarda keşfedilmiştir.</p>
-<p>"Tat" ve "koku" dediğimiz kavramlar, aslında birbirinden farklı molek&uuml;llerin duyu organlarımızda yarattığı algılarından başka bir şey değildir. &Ouml;rneğin yiyeceklerin, i&ccedil;eceklerin, ya da &ccedil;evremizde g&ouml;rd&uuml;ğ&uuml;m&uuml;z &ccedil;eşitli meyve ve &ccedil;i&ccedil;ek kokularının hepsi u&ccedil;ucu molek&uuml;llerden ibarettir. Atomlar bir yandan canlı ve cansız maddeyi oluştururken, diğer taraftan da maddeye lezzet ve g&uuml;zellik katmaktadırlar. Peki ama bu nasıl ger&ccedil;ekleşmektedir?</p>
-<p>Vanilya kokusu, g&uuml;l kokusu gibi u&ccedil;ucu molek&uuml;ller, burnun epitelyum adı verilen b&ouml;lgesindeki titrek t&uuml;ylerinde bulunan alıcılara gelirler ve bu alıcılarla etkileşime girerler. Bu etkileşim beynimizde koku olarak algılanır. 2-3 cm<sup>2</sup>&rsquo;lik bir koku alma zarıyla kaplı burun boşluğumuzda şu ana kadar yedi tip farklı alıcı tespit edilebilmiştir. Bu alıcılardan her birine temel bir koku denk d&uuml;şer. Aynı şekilde insan dilinin &ouml;n tarafında da d&ouml;rt farklı tip kimyasal alıcı vardır. Bunlar da tuzlu, şekerli, ekşi ve acı tatlarına karşılık gelir. İşte t&uuml;m duyu organlarımızın alıcılarına gelen bu molek&uuml;ller beynimiz tarafından kimyasal sinyaller olarak algılanır.</p>
-<p>G&uuml;n&uuml;m&uuml;zde tat ve kokunun nasıl algılandığı, nasıl oluştuğu konusu anlaşılabilmiştir, ama bilim adamları neden bazı maddelerin &ccedil;ok, bazı maddelerin az koktuğu, neden bazılarının tatlarının hoş ve bazılarının da k&ouml;t&uuml; olduğu konusunda bir g&ouml;r&uuml;ş birliğine varamamışlardır.</p>
-<p>Bir d&uuml;ş&uuml;nelim. Hi&ccedil;bir kokunun, hi&ccedil;bir lezzetin var olmadığı bir d&uuml;nyada da yaşıyor olabilirdik. Oysa ki kahverengi ve sadece kendine has bir kokusu olan topraktan y&uuml;zlerce &ccedil;eşit, hoş kokulu ve lezzetli meyve, sebze ve binlerce renk, bi&ccedil;im ve kokuda &ccedil;i&ccedil;ek &ccedil;ıkmaktadır. Lezzet ve koku kavramını bilmediğimiz i&ccedil;in de, bu algılara sahip olmayı istemek aklımıza bile gelmezdi. O zaman bu atomlar bir yandan maddeyi oluşturmak i&ccedil;in olağan&uuml;st&uuml; bir şekilde bir araya gelirlerken, neden ayrıca tat ve koku oluşturmak &uuml;zere de bir araya gelirler? Tat ve kokunun var olması insanlar i&ccedil;in temel bir ihtiya&ccedil; değildir. Ama muhteşem bir sanatın &uuml;r&uuml;n&uuml; olarak d&uuml;nyamıza apayrı bir lezzet katmaktadırlar.</p>
-<p>Diğer canlılarla bir karşılaştırma yaparsak, kimi canlılar sadece ot, kimileri de daha farklı maddeler yer. Ş&uuml;phesiz ki bunların ne hoş kokuları, ne de hoş lezzetleri vardır, zaten olsa bile şuura sahip olmayan bu canlılar i&ccedil;in lezzetin bir &ouml;nemi yoktur. Bizler de gayet tabii, onlar gibi tek &ccedil;eşit gıda ile beslenebilirdik. &Ouml;mr&uuml;n&uuml;z&uuml;n sonuna kadar sadece tek bir &ccedil;eşit yemek yeseydiniz ve yalnızca su i&ccedil;seydiniz hayatınız ne kadar sıradan ve lezzetsiz olurdu değil mi? Bu a&ccedil;ıdan tat ve koku da diğer t&uuml;m nimetler gibi, sonsuz l&uuml;tuf ve ikram sahibi Allah'ın insana karşılıksız sunduğu g&uuml;zelliklerdendir. Yalnızca bu iki algının var olmaması dahi insanın hayatını b&uuml;y&uuml;k &ouml;l&ccedil;&uuml;de tatsızlaştırmaya yeterdi. Kendisine verilen t&uuml;m bu nimetlere karşılık, insana d&uuml;şen kuşkusuz kendisini her y&ouml;nden kuşatmış b&ouml;yle sonsuz bir ikram karşısında Allah&rsquo;ın dilediği gibi bir kul olmaya &ccedil;alışmaktır. B&ouml;yle bir tutum karşısında Rabbimiz kendisine, bu d&uuml;nyada yalnızca birer &ouml;rneğini sunduğu nimetlerin &ccedil;ok daha &uuml;st&uuml;nlerini sınırsız bir bi&ccedil;imde barındıran ebedi bir hayatı vaat etmektedir. Aksine nank&ouml;rl&uuml;k, umursuzluk yapılarak gaflet i&ccedil;inde ge&ccedil;irilen bir yaşamın karşılığı ise ş&uuml;phesiz yine adaletli bir karşılık olacaktır:</p>
-<p><strong>Rabbiniz ş&ouml;yle buyurmuştu:&rsquo;Andolsun, eğer ş&uuml;krederseniz ger&ccedil;ekten size arttırırım ve andolsun, eğer nank&ouml;rl&uuml;k ederseniz, ş&uuml;phesiz, Benim azabım pek şiddetlidir. (İbrahim Suresi, 7)</strong></p>
-<p><strong>Maddeyi Nasıl Algılıyoruz?</strong></p>
-<p>Buraya kadar okuduklarımız, madde adını verdiğimiz şeyin hi&ccedil; de zannettiğimiz gibi belirli bir renge, kokuya, şekle sahip bir b&uuml;t&uuml;n olmadığını ortaya koydu. Madde sandığımız şey, yani kendi bedenimiz, odamız, evimiz, hatta d&uuml;nya ve t&uuml;m evren ger&ccedil;ekte bir enerji yumağından başka birşey değildir. O zaman, &ccedil;evremizdeki bunca şeyi g&ouml;zle g&ouml;r&uuml;n&uuml;r ve elle tutulur kılan nedir?</p>
-<p>&Ccedil;evremizdekileri madde olarak algılamamızın sebebi, atomların y&ouml;r&uuml;ngelerindeki elektronların fotonlarla &ccedil;arpışmaları, atomların birbirlerini itmeleri veya &ccedil;ekmeleridir.</p>
-<p>Şu anda elinizde tuttuğunuzu sandığınız kitaba aslında dokunmuyorsunuz bile... Ger&ccedil;ekte, elinizin atomları kitabın atomlarını itmekte ve bu itmenin şiddetine g&ouml;re de dokunma hissiniz ger&ccedil;ekleşmektedir. &Ccedil;&uuml;nk&uuml; atomların yapısından bahsedilirken de belirtildiği gibi atomlar birbirlerine en fazla bir atomun &ccedil;apı kadar yaklaşabilirler. &Uuml;stelik birbirlerine bu kadar yaklaşabilen atomlar da ancak birbirleriyle reaksiyona giren atomlardır. Şu halde, aynı maddenin atomları bile birbirlerine kesinlikle dokunamazlarken bizler elimizle tuttuğumuz, sıktığımız veya tutup havaya kaldırdığımız maddeye asla dokunamayız. Kaldı ki, elimizdeki maddeye maksimum yaklaşmamız m&uuml;mk&uuml;n olsaydı bile, o zaman da bu maddeyle kimyasal reaksiyona girerdik. B&ouml;yle bir durumda ise insan veya başka bir canlının bir saniye bile varlığını s&uuml;rd&uuml;rmesi s&ouml;z konusu olamazdı. Canlı ayak bastığı, oturduğu veya dayandığı madde ile hemen kimyasal reaksiyona girer ve garip bir varlık haline d&ouml;n&uuml;ş&uuml;rd&uuml;.</p>
-<p>Bu durumda ortaya &ccedil;ıkan manzara son derece d&uuml;ş&uuml;nd&uuml;r&uuml;c&uuml;d&uuml;r: Ger&ccedil;ekte, % 99.95&rsquo;i boş olan ve neredeyse sadece enerjiden ibaret atomlardan oluşan bir d&uuml;nyada yaşıyoruz.<sup>38</sup> "Dokunuyoruz ve tutuyoruz" dediğimiz şeylere de aslında hi&ccedil;bir zaman dokunamıyoruz. Peki ya g&ouml;rd&uuml;ğ&uuml;m&uuml;z, duyduğumuz veya kokladığımız maddeyi ne derece algılıyoruz? Bu maddeler, ger&ccedil;ekte g&ouml;rd&uuml;ğ&uuml;m&uuml;z, duyduğumuz gibi midir? Kesinlikle hayır... Elektronlardan ve molek&uuml;llerden bahsederken bu konuyu ele almıştık. Burada tekrar hatırlayacak olursak; var dediğimiz ve g&ouml;rd&uuml;ğ&uuml;m&uuml;z maddeyi aslında doğrudan g&ouml;rmemiz asla m&uuml;mk&uuml;n değildir. &Ccedil;&uuml;nk&uuml; g&ouml;r&uuml;yoruz dediğimiz olay aslında G&uuml;neş'ten veya başka bir ışık kaynağından gelen ışık taneciklerinin (fotonlarının) maddeye &ccedil;arpması, bu maddenin gelen ışığın bir kısmını soğurması ve kalanını dışarı vermesi sonucunda maddeden yansıyarak g&ouml;z&uuml;m&uuml;ze &ccedil;arpan fotonların, beynimizde oluşturduğu birtakım g&ouml;r&uuml;nt&uuml;lerdir. Yani g&ouml;rd&uuml;ğ&uuml;m&uuml;z madde ancak bizim g&ouml;z&uuml;m&uuml;ze yansıyan fotonların taşıdığı bilgiden ibarettir. Peki bu bilgiler maddeyle ilgili bilginin ne kadarını bize yansıtır? Dışarıda var olan maddelerin ger&ccedil;ek halinin bize tam olarak yansıtıldığına dair elimizde hi&ccedil;bir kanıtımız yoktur.</p>
-<p><strong>4. B&Ouml;L&Uuml;M<br /> CANLANAN ATOMLAR</strong></p>
-<p>Buraya kadar maddenin nasıl yokluktan var olduğundan ve atomlardan bahsettik. Ve dedik ki, atomlar canlı-cansız her şeyin yapı taşıdır. Ancak şunu &ouml;nemle belirtmek gerekir ki, atomlar cansız varlıkların yanısıra canlı varlıkların da yapı taşlarıdır. Atomlar cansız par&ccedil;acıklar oldukları i&ccedil;in canlı maddenin yapıtaşı olmaları kuşkusuz son derece hayret vericidir. Bu durum aynı zamanda evrimci bilim adamlarının da hi&ccedil;bir şekilde a&ccedil;ıklayamadıkları bir konudur.</p>
-<p>Nasıl ki bir araya gelen taş par&ccedil;alarının canlı varlıkları oluşturması d&uuml;ş&uuml;n&uuml;lemezse, aynı şekilde cansız atomların da bir araya gelerek, kendi kendilerine canlı varlıkları oluşturmaları d&uuml;ş&uuml;n&uuml;lemez. Bir taş par&ccedil;asıyla bir kelebeği g&ouml;z&uuml;n&uuml;zde canlandırın. Biri cansız diğeri canlıdır. Ancak temeline indiğinizde aslında her ikisi de aynı atom altı par&ccedil;acıklardan oluşmaktadırlar.</p>
-<p>Cansız maddenin canlı maddeye kendi kendisine d&ouml;n&uuml;şemeyeceği ile ilgili ş&ouml;yle bir &ouml;rnek daha a&ccedil;ıklayıcı olabilir: Al&uuml;minyum u&ccedil;abilir mi? Hayır, peki eğer al&uuml;minyumu, plastik madde ve benzinle karıştırırsak u&ccedil;abilir mi? Tabii ki yine u&ccedil;amaz. Eğer bu maddeleri bir u&ccedil;ağı oluşturacak şekilde bir araya getirirseniz o zaman u&ccedil;abilirler. O halde u&ccedil;ağın u&ccedil;masını sağlayan nedir? Kanatlar mı? Motor mu? Pilot mu? Hayır, bunların hi&ccedil;biri tek başına u&ccedil;amazlar. Aslında, u&ccedil;ak hi&ccedil;bir u&ccedil;ma &ouml;zelliği olmayan par&ccedil;aların, &ouml;zel bir tasarımla bir araya getirilmeleriyle oluşmuştur. U&ccedil;ma &ouml;zelliği ne al&uuml;minyumdan, ne plastikten, ne de benzinden gelir. Bu maddelerin &ouml;zellikleri &ouml;nemlidir, ancak u&ccedil;ma &ouml;zelliği bu maddelerin &ccedil;ok &ouml;zel bir tasarımla bir araya getirilmeleriyle kazanılabilir. Canlı sistemler de aynı bu şekildedir. Bir canlı h&uuml;cresi de cansız atomların &ccedil;ok &ouml;zel bir tasarımla bir araya getirilmesiyle oluşmuştur. Canlı h&uuml;crelerinin b&uuml;y&uuml;me, &ccedil;oğalma ve benzeri &ouml;zellikleri, molek&uuml;llerinin niteliğinin değil m&uuml;kemmel bir tasarımın sonucudur. Bu noktada g&ouml;rd&uuml;ğ&uuml;m&uuml;z tasarım, Allah&rsquo;ın &ouml;l&uuml;den diriyi yaratmasından başka bir şey değildir:</p>
-<p><strong>"Taneyi ve &ccedil;ekirdeği yaran ş&uuml;phesiz Allah'tır. O, diriyi &ouml;l&uuml;den &ccedil;ıkarır, &ouml;l&uuml;y&uuml; de diriden &ccedil;ıkarır. İşte Allah budur. &Ouml;yleyse nasıl oluyor da &ccedil;evriliyorsunuz?" (Enam Suresi, 95)</strong></p>
-<p>Cansız bir maddeyi canlı bir varlığa ancak &uuml;st&uuml;n g&uuml;&ccedil; ve akıl sahibi Allah d&ouml;n&uuml;şt&uuml;rebilir, yani bir canlı ancak yaratılabilir. Canlı sistemler &ouml;ylesine kompleks yapılara sahiptirler ki, bug&uuml;n ulaşılan teknolojik imkanlara rağmen daha nasıl işledikleri bile tam olarak anlaşılamamıştır.</p>
-<p>Fakat 20. y&uuml;zyılda baş d&ouml;nd&uuml;r&uuml;c&uuml; bir hızla gelişen teknolojiyle birlikte olağan&uuml;st&uuml; ilerlemeler kaydeden bilimin sayesinde anlaşılan bir ger&ccedil;ek vardır. Canlılar son derece kompleks yapılara sahiptir. 19. y&uuml;zyılın ortalarında Evrim Teorisi ortaya atıldığında, ilkel mikroskoplarla y&uuml;r&uuml;t&uuml;len bilimsel araştırmalar h&uuml;crenin sadece basit bir lekeden ibaret olduğu izlenimini oluşturmuştu. 20. y&uuml;zyılda ise gelişmiş teknolojik aletler, elektron mikroskopları altında yapılan g&ouml;zlem ve araştırmalar canlıların yapı taşı olan h&uuml;crenin ancak m&uuml;kemmel bir tasarım sonucunda oluşabilecek, son derece kompleks bir yapıya sahip olduğunu ortaya &ccedil;ıkarmıştır. En &ouml;nemlisi de bu araştırmalar, canlılığın cansız maddeden kendi kendine oluşabilmesinin kesinlikle imkansız olduğunu g&ouml;stermiştir. Canlılığın kaynağı sadece canlılıktır. Bu ger&ccedil;ek deneysel olarak da ispatlanmıştır. <sup>39 </sup>İşte bu, evrimcilerin kesinlikle i&ccedil;inden &ccedil;ıkamadıkları bir sorundur. Bu y&uuml;zden b&uuml;y&uuml;k &ccedil;ıkmaz i&ccedil;indeki &uuml;nl&uuml; evrimci bilim adamları bilimsel deliller sunmak yerine g&ouml;z boyamaya y&ouml;nelik masallar anlatırlar. Maddenin kendi şuuru, yeteneği, iradesi olduğunu &ouml;ne s&uuml;ren son derece akıl ve bilim dışı iddialar &ouml;ne s&uuml;rerler. Ama bu sa&ccedil;ma masallara kendileri de inanmazlar ve cevaplanması gereken ana soruların bilimsel olarak cevaplanamadığını itiraf etmek zorunda kalırlar:</p>
-<p>"Yaşamın başlamasından &ouml;nce yerk&uuml;remizin &ccedil;orak ve ıssız olduğu bir d&ouml;nem vardı. Şimdi yery&uuml;z&uuml;nde hayat kaynaşıyor. Bu nasıl oldu acaba? Hayatın bulunmadığı durumda karbon temeline dayalı organik molek&uuml;ller nasıl oluştu? İlk canlı varlıklar nasıl g&uuml;n y&uuml;z&uuml; g&ouml;rd&uuml;ler? Yaşam nasıl bir evrim g&ouml;sterdi de, g&uuml;n&uuml;m&uuml;z&uuml;n insanları gibi yapılan ayrıntılarla bezenmiş ve karmaşık varlıklar ortaya &ccedil;ıktı? Kendi k&ouml;kenlerini araştıracak yetenekte yaratıklara nasıl ulaşıldı?"<sup>40</sup></p>
-<p>"Şu anda evrim teorisinin &ccedil;&ouml;z&uuml;lememiş esrarı, maddenin kaynağının ne olduğu, nasıl evrimleştiği, evrende ve d&uuml;nyadaki şu anki formunu ni&ccedil;in kazandığı ve ni&ccedil;in kendi kendisini kompleks canlı molek&uuml;l gruplarına &ccedil;evirebildiğidir."<sup>41</sup></p>
-<p>Yukarıdaki evrimci bilim adamının da itiraf ettiği gibi evrim teorisinin temel amacı, temel ilkesi canlıları Allah&rsquo;ın yarattığını reddetmektir. Ancak, evrenin her noktasında yaratılış ger&ccedil;eği son derece a&ccedil;ık bir şekilde g&ouml;r&uuml;lmesine ve her bir detayın asla tesad&uuml;flerle oluşamayacak m&uuml;kemmellikte bir tasarımın &uuml;r&uuml;n&uuml; olduğu ortaya &ccedil;ıkmasına rağmen, evrimciler bu ger&ccedil;eğe g&ouml;zlerini kapadıkları i&ccedil;in adeta bir kısır d&ouml;ng&uuml; i&ccedil;inde d&ouml;n&uuml;p durmaktadırlar.</p>
-<p>G&uuml;n&uuml;m&uuml;z&uuml;n en bilinen evrim teorisi savunucularından &uuml;nl&uuml; bilim adamı Richard Dawkins ise aşağıdaki s&ouml;zleriyle istatiksel olarak ama&ccedil;sız tesad&uuml;flerin her şeyi oluşturduğu inancının yanlış olduğunu ve bu imkansızlığın tek alternatifinin doğa&uuml;st&uuml; bir g&uuml;&ccedil; olduğunu itiraf etmektedir:</p>
-<p>"Bir şeyin ger&ccedil;ekleşmesindeki olasılık istatistiki olarak azaldık&ccedil;a, onun tesad&uuml;f eseri olamayacağına dair inancımız o kadar artar: Bu durumda eğer şans yoksa, buna tek alternatif "akıllı bir tasarımcı"nın varlığıdır."<sup>42</sup></p>
-<p>Fakat bu ger&ccedil;eğe inanmaktansa evrimci bilim adamları &ouml;l&uuml; maddenin yeteneklerinden, cansız maddenin kendisini canlı varlıklara d&ouml;n&uuml;şt&uuml;rd&uuml;ğ&uuml;nden bahsetmeyi tercih ederler. Ancak bu bilim adamları ger&ccedil;eği g&ouml;rmezden gelirken farkında olmadan kendilerini g&uuml;l&uuml;n&ccedil; duruma d&uuml;ş&uuml;rmektedirler. Kaldı ki cansız maddenin, yani atomların yetenekli olduklarını, bu yeteneklerini kullanarak kendilerini canlı sistemlere d&ouml;n&uuml;şt&uuml;rd&uuml;klerini iddia etmenin akılcılık ile en ufak bir ilgisi yoktur.</p>
-<p>Bu akıl dışı masalların ne derece ger&ccedil;ek&ccedil;i olduğuna şimdi anlatacağımız &ouml;rneği okuduktan sonra siz kendiniz karar vereceksiniz. Bakın evrimcilerin cansız ve şuursuz atomları canlı maddelere ve en &ouml;nemlisi de y&uuml;ksek bir şuur ve zeka sahibi insanlara d&ouml;n&uuml;şt&uuml;rme senaryosu nasıldır:</p>
-<p>B&uuml;y&uuml;k Patlama'nın ardından her nasılsa i&ccedil;lerinde &ccedil;ok hassas dengede kuvvetler bulunan atomlar kendi kendilerini var etmişlerdir. T&uuml;m evreni oluşturacak sayıdaki atomun bir kısmı uzaydaki yıldızları, gezegenleri oluştururken bir kısmı da d&uuml;nyayı oluşturmuştur. D&uuml;nyayı oluşturan atomlardan bir kısmı ilk başta taşı toprağı oluştururken daha sonra birdenbire canlıları oluşturmaya karar vermişlerdir! Bu atomlar &ouml;ncelikle &ccedil;ok kompleks bir yapısı olan h&uuml;crelere d&ouml;n&uuml;şm&uuml;şler sonra da oluşturdukları h&uuml;creleri ikiye b&ouml;lerek &ccedil;oğaltmışlar, sonra da konuşmaya, duymaya başlamışlardır. Ardından bu atomlar &uuml;niversite profes&ouml;rlerine d&ouml;n&uuml;şerek elektron mikroskopları altında kendilerini inceleyip tesad&uuml;fen meydana geldiklerini iddia etmişlerdir. Bir kısım atomlar bir araya gelerek k&ouml;pr&uuml;ler, g&ouml;kdelenler inşa eden m&uuml;hendisleri, bir kısmı bir araya gelerek uyduları, uzay ara&ccedil;larını, u&ccedil;akları imal etmişler, bir kısmı da fizik, kimya, biyoloji alanlarında uzmanlaşmışlardır. Karbon, magnezyum, fosfor, potasyum, demir gibi atomlar bir araya gelerek kapkara bir k&uuml;tle oluşturacaklarına olağan&uuml;st&uuml; komplekslikte ve sırları hala tam olarak keşfedilememiş olan m&uuml;kemmel beyinleri oluşturmuşlardır. Bu beyinler hi&ccedil;bir teknoloji ile ulaşılamamış m&uuml;kemmel netlikte 3 boyutlu g&ouml;r&uuml;nt&uuml;ler g&ouml;rmeye başlamışlardır. Atomların bir kısmı komedyenleri oluşturmuş ve de komedyenlerin yaptıkları esprilere g&uuml;lm&uuml;şlerdir. Yine atomların bir kısmı m&uuml;zik bestelemiş ve m&uuml;ziği dinleyerek zevk almışlardır...</p>
-<p>Bu hikayeyi daha uzatmak elbette m&uuml;mk&uuml;nd&uuml;r ama b&ouml;yle bir şeyin asla ger&ccedil;ekleşemeyeceğini g&ouml;stermek i&ccedil;in ş&ouml;yle bir deney d&uuml;zenleyelim, evrimcilerin savundukları, ama y&uuml;ksek sesle dile getiremedikleri iddiayı onlar adına <strong>"Darwin Form&uuml;l&uuml;"</strong> adıyla inceleyelim:</p>
-<p>Evrimciler, &ccedil;ok sayıda b&uuml;y&uuml;k varilin i&ccedil;ine canlılığın yapısında bulunan fosfor, azot, karbon, oksijen, demir, magnezyum gibi elementlerden bol miktarda koysunlar. Hatta normal şartlarda bulunmayan ancak bu karışımın i&ccedil;inde bulunmasını gerekli g&ouml;rd&uuml;kleri malzemeleri de bu varillere eklesinler. Karışımların i&ccedil;ine, istedikleri kadar amino asit, istedikleri kadar da (bir tekinin bile rastlantısal oluşma ihtimali 10<sup>-950</sup> olan) protein doldursunlar. Bu karışımlara istedikleri oranda ısı ve nem versinler. Bunları istedikleri gelişmiş cihazlarla karıştırsınlar. Varillerin başına da d&uuml;nyanın &ouml;nde gelen bilim adamlarını koysunlar. Bu uzmanlar babadan oğula, kuşaktan kuşağa aktararak n&ouml;betleşe milyarlarca, hatta trilyonlarca sene s&uuml;rekli varillerin başında beklesinler. Bir canlının oluşması i&ccedil;in hangi şartların var olması gerektiğine inanılıyorsa hepsini kullanmak serbest olsun. Ancak, ne yaparlarsa yapsınlar o varillerden kesinlikle bir canlı &ccedil;ıkartamazlar. Z&uuml;rafaları, aslanları, arıları, kanaryaları, b&uuml;lb&uuml;lleri, papağanları, atları, yunusları, g&uuml;lleri, orkideleri, zambakları, karanfilleri, muzları, portakalları, elmaları, hurmaları, domatesleri, kavunları, karpuzları, incirleri, zeytinleri, &uuml;z&uuml;mleri, şeftalileri, tavus kuşlarını, s&uuml;l&uuml;nleri, renk renk kelebekleri ve bunlar gibi milyonlarca canlı t&uuml;r&uuml;nden hi&ccedil;birini oluşturamazlar. Değil burada birka&ccedil;ını saydığımız bu canlı varlıkları, bunların tek bir h&uuml;cresini bile elde edemezler.</p>
-<p><strong>Madde, ancak Allah'ın &uuml;st&uuml;n yaratmasıyla hayat bulur. </strong>Bunun aksini iddia eden evrim teorisi ise, akla tamamen aykırı bir safsatadır. Evrimcilerin ortaya attığı iddialar &uuml;zerinde biraz bile d&uuml;ş&uuml;nmek, &uuml;stteki &ouml;rnekte olduğu gibi, bu ger&ccedil;eği a&ccedil;ık&ccedil;a g&ouml;sterir.</p>
-<p>Şimdi bir de şuursuz atomların kendi kendilerine hayatın temel taşı olan DNA molek&uuml;l&uuml;n&uuml; ve proteinleri oluşturup-oluşturamayacaklarına bir bakalım.</p>
-<p><strong>DNA&rsquo;nın Kompleks Yapısı</strong></p>
-<p>DNA (deoksiribon&uuml;kleik asit), h&uuml;cre &ccedil;ekirdeğinde bulunan, v&uuml;cudun t&uuml;m par&ccedil;alarının, v&uuml;cudun her t&uuml;rl&uuml; &ouml;zelliğinin bilgisini taşıyan şifreleri i&ccedil;erir. Şifre o kadar komplekstir ki, bilim adamları bu şifreyi ancak 1953&rsquo;l&uuml; yıllardan sonra biraz olsun &ccedil;&ouml;zebilmeyi başarmışlardır. DNA bir yandan ait olduğu canlıya dair t&uuml;m bilgileri i&ccedil;erirken diğer yandan da kendi kendisini aynen kopya ederek &ccedil;oğalabilmektedir. Sadece atomların bir araya gelmeleri yani molek&uuml;lleri oluşturmaları ile oluşan bir molek&uuml;l&uuml;n nasıl bilgi taşıdığı ve nasıl kendi kendisini kopyalayarak &ccedil;oğaldığı da cevaplanamayan sorulardan biridir.</p>
-<p>Proteinler ise hem canlıların yapı taşıdır hem de organizmanın pek &ccedil;ok hayati fonksiyonunda kilit rol oynar. &Ouml;rneğin bir hemoglobin proteini v&uuml;cudumuzun her yerine oksijen taşır, antikor proteinleri v&uuml;cuda giren mikropları etkisiz hale getirir, enzim proteinleri yediğimiz yemekleri enerji verecek maddeler haline gelecek bi&ccedil;imde sindirmemizi sağlar... DNA&rsquo;mızda yaklaşık 50 bin farklı tipte protein yapılabilmesini sağlayan tarifler bulunur. G&ouml;r&uuml;ld&uuml;ğ&uuml; gibi proteinler bir canlının varlığını s&uuml;rd&uuml;rebilmesi i&ccedil;in son derece hayati &ouml;neme sahiptir ve bu proteinlerden tek bir tanesinin bile eksikliğinde canlının varlığını s&uuml;rd&uuml;rmesi m&uuml;mk&uuml;n olmaz. Her biri dev molek&uuml;ller olan DNA ve proteinlerin kendi kendilerine, tesad&uuml;fler sonucu oluşmaları bilimsel olarak imkansızdır.</p>
-<p>DNA &ouml;zel bir dizilimden oluşan bir n&uuml;kleotidler serisidir; bir protein ise yine &ouml;zel dizilimlere sahip olan aminoasitler serisidir. Her şeyden &ouml;nce ne DNA molek&uuml;llerinin ne de binlerce &ccedil;eşitteki protein molek&uuml;l&uuml;n&uuml;n tesad&uuml;fler sonucu canlılık i&ccedil;in hayati olan uygun dizilimleri elde edebilmesi matematiksel olarak m&uuml;mk&uuml;n değildir. Olasılık hesapları en basit bir protein molek&uuml;llerinin dahi tesad&uuml;fler sonucu doğru dizilimi yakalamasının "0" ihtimal olduğunu ortaya koymaktadır (bkz. Evrim Aldatmacası, Harun Yahya). Bu matematiksel imkansızlığın yanı sıra bu molek&uuml;llerin tesad&uuml;fen oluşmasında &ouml;nemli bir de kimyasal engel vardır: Eğer DNA ve proteinler arasındaki ilişki zaman, tesad&uuml;f ve doğal s&uuml;re&ccedil;ler sonucunda gelişmiş olsaydı, DNA ve proteinler birbirleriyle kontrols&uuml;z olarak reaksiyona girme eğiliminde olurlardı. &Ccedil;&uuml;nk&uuml; asit ve bazların birbirleriyle reaksiyona girme eğilimleri &ccedil;ok y&uuml;ksektir. B&ouml;yle bir durumda da, tesad&uuml;fler rol oynayacak olsaydı DNA ve proteinler bug&uuml;nk&uuml; canlı varlıkları oluşturmak yerine, doğal reaksiyonlara girerek şeker-asit, amino fosforik asit gibi farklı molek&uuml;ller oluştururlardı.</p>
-<p>Kimyasal yapıları kolayca tepkimeye girmeye m&uuml;sait olan DNA ve proteinlerin, zamanla, tesad&uuml;fen canlı hayatını oluşturabilmeleri m&uuml;mk&uuml;n m&uuml;d&uuml;r? Hayır, kesinlikle m&uuml;mk&uuml;n değildir. Problem şudur: DNA ve proteinlerin muhtemel olarak girebileceği t&uuml;m kimyasal reaksiyonlar, canlı yaşamının oluşmasına izin vermeyen YANLIŞ reaksiyonlardır. Eğer zamana ve şansa kalsaydı, DNA ve proteinler canlı yaşamı oluşturmak ş&ouml;yle dursun, canlı yaşamını yok edecek şekilde reaksiyona girerlerdi.<sup>43</sup></p>
-<p>G&ouml;r&uuml;ld&uuml;ğ&uuml; gibi hi&ccedil;bir şekilde tesad&uuml;fen oluşması m&uuml;mk&uuml;n olmayan DNA ve proteinlerin var olduktan sonra da canlılığı oluşturmak &uuml;zere başıboş olmaları kesinlikle m&uuml;mk&uuml;n değildir. G&uuml;n&uuml;m&uuml;z&uuml;n &uuml;nl&uuml; d&uuml;ş&uuml;n&uuml;rlerinden Jean Guitton da "Tanrı ve Bilim" isimli kitabında bu imkansızlığı vurgulamış, canlılığın oluşmasının kesinlikle tesad&uuml;fler sonucu oluşamayacağını belirtmiştir:</p>
-<p>"Hangi &lsquo;rastlantı&rsquo; sonucu bazı atomlar birbirlerine yaklaşıp amino asitlerin ilk molek&uuml;llerini oluşturdular? Yine hangi rastlantıyla bu molek&uuml;ller bir araya toplanıp DNA denilen bu son derecede kompleks yapıyı kurdular? Biyoloji bilgini Fran&ccedil;ois Jacob gibi ben de şu basit soruyu soruyorum: ilk canlı h&uuml;crenin doğmasını sağlayacak ilk mesajı veren ilk DNA molek&uuml;l&uuml;n&uuml;n planlarını kim hazırladı?</p>
-<p>Eğer işe rastlantıyı sokan varsayımlarla yetinilirse bu sorular -ve daha bir&ccedil;oğu-, yanıtsız kalıyor; bunun i&ccedil;in, birka&ccedil; yıldan bu yana biyoloji bilginlerinin d&uuml;ş&uuml;nceleri değişmeye başladı. Tepedeki araştırmacılar Darwin yasalarını artık d&uuml;ş&uuml;nmeden, ezbere anlatmakla yetinmiyor, &ccedil;oğunlukla şaşırtıcı yeni kuramlar ortaya atıyorlar. Bunlar, a&ccedil;ık&ccedil;a maddeden &uuml;st&uuml;n, d&uuml;zenleyici bir ilkenin işin i&ccedil;ine karıştığına dayanan kuramlar." <sup>44</sup></p>
-<p>Jean Guitton&rsquo;un da belirttiği gibi 20. y&uuml;zyılda yapılan araştırmalar ve bilimsel keşifler ışığında bilim &ouml;yle bir noktaya varmıştır ki; Darwin&rsquo;in evrim teorisinin hi&ccedil;bir ge&ccedil;erliliğinin olmadığı artık kesin bir bilimsel ger&ccedil;ektir. Bu bilimsel ger&ccedil;ekten Amerikalı biyolog Michael Behe &uuml;nl&uuml; "Darwin&rsquo;in Kara Kutusu" kitabında ş&ouml;yle bahsetmektedir:</p>
-<p>"Bilim, yaşamın kimyasının nasıl şekillendiğini anlayabilmek i&ccedil;in olduk&ccedil;a b&uuml;y&uuml;k atılımlar yapmıştır. Fakat biyolojik sistemlerin molek&uuml;ler seviyedeki hassas d&uuml;zeni ve kompleksliği, bunların k&ouml;kenlerinin a&ccedil;ıklanması konusunda bilimi felce uğratmıştır. Bu nedenle kompleks biyomolek&uuml;ler sistemlerden herhangi birinin başlangıcı hakkında bir araştırma girişimi olmamıştır. Pek &ccedil;ok bilim adamı kendilerine fazlaca g&uuml;venerek, a&ccedil;ıklamaların &ccedil;oktan ellerinde olduğunu &ouml;ne s&uuml;rm&uuml;şt&uuml;r. Veya &ccedil;ok yakında bu a&ccedil;ıklamalara ulaşacaklarını s&ouml;ylemişler fakat profesyonel bilim literat&uuml;r&uuml;nde iddialarına bir destek bulamamışlardır. Daha &ouml;nemlisi, sistemlerin kendi yapıları incelendiğinde, yaşam mekanizmalarının Darwinci bir yaklaşımla asla a&ccedil;ıklanamayacağı ortadadır." <sup>45</sup></p>
-<p>Nasıl ki t&uuml;m evren yokluktan yaratıldıysa, canlı varlıklar da yoktan yaratılmıştır. Nasıl ki hi&ccedil;bir şey yokken, tesad&uuml;fen var olamazsa, aynı şekilde &ouml;l&uuml; maddeler de tesad&uuml;fen birleşerek canlı varlıkları oluşturamazlar. Ancak ve ancak sonsuz kudret, sonsuz akıl ve sonsuz ilim sahibi Allah&rsquo;ın g&uuml;c&uuml; bunları ger&ccedil;ekleştirmeye kadirdir:</p>
-<p><strong>"Ger&ccedil;ekten sizin Rabbiniz, altı g&uuml;nde g&ouml;kleri ve yeri yaratan, sonra arşa istiva eden Allah'tır. G&uuml;nd&uuml;z&uuml;, durmaksızın kendisini kovalayan geceyle &ouml;rten, g&uuml;neşe, aya ve yıldızlara Kendi buyruğuyla baş eğdirendir. Haberiniz olsun, yaratmak da, emir de (yalnızca) O'nundur. Alemlerin Rabbi olan Allah ne y&uuml;cedir." (Araf Suresi, 54)</strong></p>
-<p><strong>5. B&Ouml;L&Uuml;M<br /> ATOMUN G&Uuml;C&Uuml;</strong></p>
-<p>B&uuml;t&uuml;n evrenin, canlı-cansız her şeyin yapı taşı olan atomların, nasıl olağan&uuml;st&uuml; bir şekilde maddeyi oluşturduğunu artık biliyoruz. Son derece k&uuml;&ccedil;&uuml;k olan bu par&ccedil;acıklar, buraya kadar da g&ouml;r&uuml;ld&uuml;ğ&uuml; gibi, kendi i&ccedil;lerinde m&uuml;kemmel bir organizasyona sahiptirler. Ancak atomdaki mucizevi y&ouml;n bu kadarla kalmaz; atom aynı zamanda i&ccedil;inde &ccedil;ok muazzam bir enerjiyi de barındırır.</p>
-<p>Atomun i&ccedil;inde saklı olan g&uuml;&ccedil;, bir yandan insanlığa hizmet ederken, diğer yandan da insanlık i&ccedil;in &ccedil;ok b&uuml;y&uuml;k bir tehlike oluşturmaktadır. &Ouml;yle ki bu g&uuml;c&uuml;n k&ouml;t&uuml;ye kullanımıyla, 2. D&uuml;nya Savaşı sırasında Hiroşima ve Nagasaki&rsquo;de onbinlerce insan birka&ccedil; saniye gibi &ccedil;ok kısa bir s&uuml;re i&ccedil;inde hayatlarını kaybettiler. Yakın ge&ccedil;mişte de, Rusya'daki &Ccedil;ernobil N&uuml;kleer Santrali'nde meydana gelen bir kaza &ccedil;ok sayıda insanın &ouml;lmesine ya da sakat kalmasına yol a&ccedil;mıştı.</p>
-<p>Atomun g&uuml;c&uuml;n&uuml;n Hiroşima, Nagasaki ve &Ccedil;ernobil&rsquo;de yol a&ccedil;tığı felaketlerle ilgili detaylı bilgi vermeden &ouml;nce, atomdaki bu g&uuml;c&uuml;n ne olduğundan ve nasıl ortaya &ccedil;ıktığından kısaca bahsedelim.</p>
-<p><strong>&Ccedil;ekirdekte Saklı G&uuml;&ccedil;</strong></p>
-<p>Evrendeki temel kuvvetler b&ouml;l&uuml;m&uuml;nde atom &ccedil;ekirdeğinin i&ccedil;indeki protonları ve n&ouml;tronları birarada tutan kuvvetin, "G&uuml;&ccedil;l&uuml; N&uuml;kleer Kuvvet" olduğunu ifade etmiştik. İşte n&uuml;kleer enerji denilen muazzam g&uuml;&ccedil;, &ccedil;ekirdekteki bu kuvvetin serbest bırakılmasıyla ortaya &ccedil;ıkar. Bu enerjinin b&uuml;y&uuml;kl&uuml;ğ&uuml; elementin cinsine g&ouml;re değişir. &Ccedil;&uuml;nk&uuml;, her elementin &ccedil;ekirdeğindeki proton ve n&ouml;tron sayıları farklıdır. &Ccedil;ekirdek b&uuml;y&uuml;d&uuml;k&ccedil;e n&ouml;tron-proton sayıları ile bunları birarada tutan kuvvetin b&uuml;y&uuml;kl&uuml;ğ&uuml; de artar. B&uuml;y&uuml;k bir &ccedil;ekirdekte, protonların ve n&ouml;tronların birlikteliğini sağlayan bu kuvveti serbest bırakmak son derece zordur. Par&ccedil;acıklar, birbirlerinden ayrıldık&ccedil;a, tıpkı bir yay gibi, daha b&uuml;y&uuml;k bir kuvvetle bir araya gelmeye &ccedil;alışırlar.</p>
-<p>Bu kuvveti ayrıntıları ile incelemeden &ouml;nce, &ouml;zellikle &uuml;zerinde durulması gereken bir konu vardır: Bu kadar k&uuml;&ccedil;&uuml;k bir yere nasıl olup da bu kadar b&uuml;y&uuml;k bir kuvvet sığmaktadır. Bu &ouml;yle bir kuvvettir ki binlerce insanın yıllarca yaptığı araştırmalar sonucunda bulunmuştur. &Uuml;zerinde bir oynama yapılmadığı zaman kimseye bir zararı yoktur, ama insan m&uuml;dahalesiyle milyonları &ouml;ld&uuml;ren bir g&uuml;&ccedil; haline gelebilmektedir.</p>
-<p>Atomun &ccedil;ekirdeğinde bulunan ve milyonlarca kişinin hayatını tehlikeye sokabilecek olan bu olağan&uuml;st&uuml; kuvveti, "fisyon" (n&uuml;kleer par&ccedil;alanma) ve "f&uuml;zyon" (n&uuml;kleer kaynaşma) tepkimeleri diye adlandırılan iki teknik işlem a&ccedil;ığa &ccedil;ıkarmaktadır. Fisyon adıyla bilinen reaksiyon atom &ccedil;ekirdeğinin b&ouml;l&uuml;nmesi, f&uuml;zyon isimli reaksiyon ise iki &ccedil;ekirdeğin b&uuml;y&uuml;k bir g&uuml;&ccedil;le bir araya getirilip birleştirilmesi olayıdır. Her iki reaksiyonda da &ccedil;ok fazla miktarda enerji a&ccedil;ığa &ccedil;ıkmaktadır.</p>
-<p><strong>N&uuml;kleer Par&ccedil;alanma (Fisyon)</strong></p>
-<p>Fisyon adı verilen tepkime, evrendeki en kuvvetli g&uuml;&ccedil; olan "G&uuml;&ccedil;l&uuml; N&uuml;kleer Kuvvet" ile bir arada tutulan atom &ccedil;ekirdeğinin par&ccedil;alanmasıdır. Fisyon tepkimesi deneylerinde kullanılan ana madde "uranyum"dur. &Ccedil;&uuml;nk&uuml; uranyum atomu en ağır atomlardan biridir, bir diğer deyişle &ccedil;ekirdeğinde &ccedil;ok y&uuml;ksek sayıda proton ve n&ouml;tron bulunur.</p>
-<p>Fisyon deneylerinde bilim adamları uranyum &ccedil;ekirdeğine, b&uuml;y&uuml;k bir hızla n&ouml;tron g&ouml;ndermişler ve bunun sonunda &ccedil;ok ilgin&ccedil; bir durumla karşı karşıya kalmışlardır. N&ouml;tron uranyum &ccedil;ekirdeği tarafından soğurulduktan (yutulduktan) sonra, uranyum &ccedil;ekirdeği &ccedil;ok kararsız duruma gelmiştir. Burada &ccedil;ekirdeğin "kararsız" olması demek, &ccedil;ekirdek i&ccedil;indeki proton ve n&ouml;tron sayıları arasında fark oluşması ve bu nedenle &ccedil;ekirdekte bir dengesizliğin meydana gelmesi demektir. Bu durumda &ccedil;ekirdek, meydana gelen dengesizliği gidermek i&ccedil;in belli miktarda enerji yayarak par&ccedil;alara b&ouml;l&uuml;nmeye başlar. Ortaya &ccedil;ıkan enerjinin etkisiyle de &ccedil;ekirdek, b&uuml;y&uuml;k bir hızla i&ccedil;inde barındırdığı par&ccedil;aları fırlatmaya başlar.</p>
-<p>Deneylerden elde edilen bu sonu&ccedil;lardan sonra "reakt&ouml;r" adı verilen &ouml;zel ortamlarda, n&ouml;tronlar hızlandırılarak uranyum &uuml;zerine g&ouml;nderilir. Yalnız, n&ouml;tronlar uranyum &uuml;zerine gelişig&uuml;zel değil, &ccedil;ok ince hesaplar yapılarak g&ouml;nderilmektedir. &Ccedil;&uuml;nk&uuml;, uranyum atomunun &uuml;zerine g&ouml;nderilen herhangi bir n&ouml;tronun uranyuma hemen ve istenilen noktadan isabet etmesi gerekmektedir. Bu y&uuml;zden bu deneyler belli bir olasılık g&ouml;z &ouml;n&uuml;nde bulundurularak ger&ccedil;ekleştirilmektedir. Ne kadar b&uuml;y&uuml;k bir uranyum k&uuml;tlesi kullanılacağı, uranyum &uuml;zerine ne kadarlık bir n&ouml;tron demeti g&ouml;nderileceği, n&ouml;tronların uranyum k&uuml;tlesini hangi hızla ve ne kadar s&uuml;re bombardıman edeceği &ccedil;ok detaylı olarak hesaplanmaktadır.</p>
-<p>T&uuml;m bu hesaplar yapıldıktan ve uygun ortam hazırlandıktan sonra, hareket eden n&ouml;tron, uranyum k&uuml;tlesindeki atomların &ccedil;ekirdeklerine isabet edecek şekilde bombardıman edilir ve bu k&uuml;tledeki atomlardan en azından birinin &ccedil;ekirdeğinin iki par&ccedil;aya b&ouml;l&uuml;nmesi yeterlidir. Bu b&ouml;l&uuml;nmede &ccedil;ekirdeğin k&uuml;tlesinden ortalama iki ya da &uuml;&ccedil; n&ouml;tron a&ccedil;ığa &ccedil;ıkar. A&ccedil;ığa &ccedil;ıkan bu n&ouml;tronlar k&uuml;tlenin i&ccedil;indeki diğer uranyum &ccedil;ekirdeklerine &ccedil;arparak zincirleme reaksiyon başlatırlar. Her yeni b&ouml;l&uuml;nen &ccedil;ekirdek de ilk baştaki uranyum &ccedil;ekirdeği gibi davranır. B&ouml;ylece zincirleme &ccedil;ekirdek b&ouml;l&uuml;nmeleri ger&ccedil;ekleşir. Bu zincirleme hareketler sonucu &ccedil;ok sayıda uranyum &ccedil;ekirdeği par&ccedil;alandığı i&ccedil;in ortaya olağan&uuml;st&uuml; b&uuml;y&uuml;kl&uuml;kte bir enerji &ccedil;ıkar.</p>
-<p>İşte, onbinlerce insanın &ouml;l&uuml;m&uuml;ne yol a&ccedil;an Hiroşima ve Nagasaki felaketlerine, bu &ccedil;ekirdek b&ouml;l&uuml;nmeleri sebep olmuştur. 2. D&uuml;nya Savaşı sırasında, 1945 yılında Amerika&rsquo;nın Hiroşima&rsquo;ya attığı atom bombasında patlama anında ve hemen sonrasında yaklaşık 100.000 kişi &ouml;lm&uuml;şt&uuml;r. Hiroşima felaketinden 3 g&uuml;n sonra yine Amerika&rsquo;nın Nagasaki&rsquo;ye attığı bir diğer atom bombası y&uuml;z&uuml;nden patlama anında yaklaşık 40.000 kişi hayatını kaybetmiştir. &Ccedil;ekirdekten &ccedil;ıkan g&uuml;&ccedil; bir yandan insanların &ouml;l&uuml;m&uuml;ne sebep olurken, diğer yandan &ccedil;ok b&uuml;y&uuml;k bir yerleşim alanı harap olmuş, kalan b&ouml;lge halkında radyasyon nedeniyle nesiller boyu d&uuml;zeltilemeyecek genetik ve fizyolojik bozulmalar meydan gelmiştir.</p>
-<p>Peki d&uuml;nyamız, t&uuml;m atmosfer, bizler de dahil olmak &uuml;zere canlı-cansız her şey atomlardan oluşmuşken, atomların bu tip n&uuml;kleer tepkimelere girmelerini, her an ve her yerde yaşanabilecek Hiroşima ve Nagasaki gibi olayları ne engellemektedir?</p>
-<p>N&ouml;tronlar &ouml;yle yaratılmışlardır ki, doğada serbest halde -bir &ccedil;ekirdeğe bağlı olmadan- dolaştıklarında "beta bozunumu" diye adlandırılan bir bozulmaya uğrarlar. Bu bozulma y&uuml;z&uuml;nden doğada serbest n&ouml;trona rastlanmaz. Bu sebeple n&uuml;kleer tepkimeye girecek n&ouml;tronlar yapay yollarla elde edilir.</p>
-<p>İşte bu noktada ortaya &ccedil;ıkan, t&uuml;m evrenin Yaratıcısı olan Allah'ın her şeyi ince bir hesapla var etmiş olduğudur. Allah, atomu i&ccedil;indeki bu muazzam g&uuml;&ccedil; ile beraber yaratmıştır ve bu g&uuml;c&uuml; de olağan&uuml;st&uuml; bir şekilde kontrol altında tutmaktadır.</p>
-<p><strong>N&uuml;kleer kaynaşma (F&uuml;zyon)</strong></p>
-<p>N&uuml;kleer kaynaşma (f&uuml;zyon), par&ccedil;alanmanın tersine &ccedil;ok hafif iki &ccedil;ekirdeği birleştirerek daha ağır bir &ccedil;ekirdek oluşturmak ve bu şekilde a&ccedil;ığa &ccedil;ıkan bağ enerjisini kullanmaktır. Ama bunu denetim altında oluşturmak olduk&ccedil;a zor bir iştir. &Ccedil;&uuml;nk&uuml; &ccedil;ekirdekler pozitif elektrik y&uuml;k&uuml; taşır ve birbirlerine yaklaştırmak istenildiğinde &ccedil;ok şiddetli bir şekilde birbirlerini iterler. Bunların kaynaşmasını sağlamak i&ccedil;in aralarındaki itme kuvvetini yenebilecek b&uuml;y&uuml;kl&uuml;kte bir kuvvetin kullanılması gerekmektedir. Gereken bu kinetik enerji (hareket enerjisi), 20-30 milyon derecelik bir sıcaklığa eşdeğerdir.<sup>46</sup></p>
-<p>Bu olağan&uuml;st&uuml; y&uuml;ksek bir derecedir. Araştırmacılar senelerdir, t&uuml;kettiğinden daha fazla g&uuml;&ccedil; &uuml;reten sabit bir f&uuml;zyon &uuml;retmek i&ccedil;in &ccedil;alışmalarına rağmen, bug&uuml;ne kadar başarılı olamamışlardır.</p>
-<p>F&uuml;zyon tepkimeleri G&uuml;neş'te her an doğal olarak ger&ccedil;ekleşmektedir. G&uuml;neş'ten gelen ısı ve ışık, hidrojen &ccedil;ekirdeklerinin birleşerek helyuma d&ouml;n&uuml;şmesi ve bu d&ouml;n&uuml;ş&uuml;m sırasında kaybolan maddenin yerine enerji ortaya &ccedil;ıkması sayesinde meydana gelmektedir. G&uuml;neş saniyede 564 milyon ton hidrojeni 560 milyon ton helyuma &ccedil;evirir. Kalan 4 milyon ton gaz maddesi de enerjiye d&ouml;n&uuml;ş&uuml;r. D&uuml;nyamızdaki canlılık i&ccedil;in son derece hayati &ouml;neme sahip g&uuml;neş enerjisini meydana getiren bu m&uuml;thiş olay milyonlarca yıldır, hi&ccedil; durmadan devam etmektedir. Bu noktada, ş&ouml;yle bir soru aklımıza gelebilir. Eğer G&uuml;neş'te, saniyede 4 milyon ton kadar b&uuml;y&uuml;k bir miktar madde kaybediliyorsa, G&uuml;neş'in sonu ne zaman gelecektir?</p>
-<p>G&uuml;neş saniyede 4 milyon ton, dakikada ise 240 milyon ton madde kaybetmektedir. G&uuml;neş'in, 3 milyar yıldan beri bu hızla enerji &uuml;rettiğini varsayarsak, bu s&uuml;re i&ccedil;inde kaybetmiş olduğu k&uuml;tle 400.000 milyon kere milyon ton olacaktır ki, bu değer, yine de G&uuml;neş'in şimdiki toplam k&uuml;tlesinin 5000&rsquo;de biri kadardır. Bu miktar, 3 milyar yılda 5 kg&rsquo;lık bir taş yığınından 1 gram kum eksilmesi gibidir. Bundan da anlaşılacağı gibi G&uuml;neş'in k&uuml;tlesi &ouml;yle b&uuml;y&uuml;kt&uuml;r ki, bu k&uuml;tlenin t&uuml;kenmesi &ccedil;ok uzun bir zaman gerektirir.</p>
-<p>İnsanoğlu, G&uuml;neş'in yapısını ve i&ccedil;inde meydana gelen olayları ancak bu y&uuml;zyılda keşfetmiştir. Bundan &ouml;nce kimsenin n&uuml;kleer patlama, fisyon, f&uuml;zyon t&uuml;r&uuml; olaylardan haberi dahi yoktu. G&uuml;neş'in nasıl enerji &uuml;rettiğini kimse bilmiyordu. Ancak insanoğlu daha bunlardan habersizken G&uuml;neş, milyonlarca yıldır bu akıl almaz mekanizmasıyla yery&uuml;z&uuml;n&uuml;n ve hayatın enerji kaynağı olmaya devam ediyordu.</p>
-<p>İşte bu noktada şu ger&ccedil;eğe dikkat &ccedil;ekmek gerekir: D&uuml;nyamız muazzam b&uuml;y&uuml;kl&uuml;kte bir k&uuml;tleye sahip ve enerji kaynağı olan G&uuml;neş'ten o kadar hesaplı bir uzaklığa yerleştirilmiştir ki ne onun yakıcı, yok edici etkisine maruz kalır, ne de onun sağlayacağı faydalı enerjiden yoksun kalır. Aynı şekilde bu derece korkun&ccedil; bir g&uuml;ce ve enerjiye sahip olan G&uuml;neş de başta insan olmak &uuml;zere yery&uuml;z&uuml;ndeki t&uuml;m canlılığa en faydalı olacağı mesafe, g&uuml;&ccedil; ve b&uuml;y&uuml;kl&uuml;kte yaratılmıştır.</p>
-<p>Bu devasa k&uuml;tle ve i&ccedil;inde ger&ccedil;ekleşen akıl almaz n&uuml;kleer reaksiyonlar milyonlarca yıldır yery&uuml;z&uuml;yle m&uuml;kemmel bir uyum i&ccedil;inde ve en kontroll&uuml; bi&ccedil;imde faaliyetini s&uuml;rd&uuml;rmektedir. Bunun ne kadar olağan&uuml;st&uuml;, kontroll&uuml; ve dengeli bir sistem olduğunu anlamak i&ccedil;in, insanın kendi &uuml;rettiği basit bir n&uuml;kleer santrali bile kontrol altında tutmaktan aciz kaldığını hatırlamak yeterlidir. &Ouml;rneğin, 1986 yılında Rusya&rsquo;daki &Ccedil;ernobil reakt&ouml;r&uuml;nde meydana gelen n&uuml;kleer kazayı hi&ccedil;bir bilim adamı, hi&ccedil;bir teknolojik alet engelleyememiştir. &Ouml;yle ki bu n&uuml;kleer kazanın etkisinin 30-40 yıl s&uuml;receği s&ouml;ylenmektedir. Bilim adamları bu etkiyi engellemek i&ccedil;in b&ouml;lgeyi dev kalınlıkta betonlarla kapattıkları halde, ilerleyen g&uuml;nlerde betonlardan sızıntı olduğu haberleri alınmıştır. Değil n&uuml;kleer patlama, n&uuml;kleer bir sızıntı bile insan yaşamı i&ccedil;in son derece tehlikelidir ve bilim bu tehlike karşısında &ccedil;aresiz kalmaktadır.</p>
-<p>İşte bu noktada Allah&rsquo;ın sonsuz g&uuml;c&uuml; ve evrendeki her bir zerre (atom) ve bu zerrenin i&ccedil;indeki tanecikler (proton, n&ouml;tron...) &uuml;zerindeki hakimiyetini g&ouml;r&uuml;r&uuml;z. Allah'ın, yarattıkları &uuml;zerindeki bu g&uuml;c&uuml; ve hakimiyeti bir ayette ş&ouml;yle haber verilir:</p>
-<p><strong>Senin i&ccedil;inde olduğun herhangi bir durum, onun hakkında Kur'an'dan okuduğun herhangi bir şey ve sizin işlediğiniz herhangi bir iş yoktur ki, ona (iyice) daldığınızda, Biz sizin &uuml;zerinizde şahidler durmuş olmayalım. Yerde ve g&ouml;kte zerre ağırlığınca hi&ccedil;bir şey Rabbinden uzakta (saklı) kalmaz. Bunun daha k&uuml;&ccedil;&uuml;ğ&uuml; de, daha b&uuml;y&uuml;ğ&uuml; de yoktur ki, apa&ccedil;ık bir kitapta (kayıtlı) olmasın. (Yunus Suresi, 61)</strong></p>
-<p><strong>Atom Bombasının Etkileri: Hiroşima ve Nagasaki</strong></p>
-<p>II. D&uuml;nya Savaşı&rsquo;nın son yılında atılan atom bombaları, atomun i&ccedil;inde ne kadar b&uuml;y&uuml;k bir g&uuml;&ccedil; saklı olduğunu t&uuml;m d&uuml;nyanın g&ouml;zleri &ouml;n&uuml;ne sermiştir. Atılan her iki bomba da, y&uuml;zbinlerce insanın hayatlarını kaybetmesine, kalanların bir&ccedil;oğunda da hayatları boyunca d&uuml;zelmeyecek fiziksel arazlar meydana gelmesine sebep olmuştur.</p>
-<p>Patlamanın etkisi bombanın g&uuml;c&uuml;ne ve &ccedil;eşitli &ccedil;evresel koşullara bağlı olmasına rağmen, Nagazaki ve Hiroşima &ouml;rneklerine dayanarak birka&ccedil; saniye i&ccedil;erisinde y&uuml;zbinlerce insanın &ouml;lmesine yol a&ccedil;an atomun i&ccedil;indeki muazzam g&uuml;c&uuml;n, saniyesi saniyesine nasıl ortaya &ccedil;ıktığını ele alıp inceleyelim:</p>
-<p><strong>- Patlama anı... </strong></p>
-<p>Bir atom bombasının tıpkı Hiroşima ve Nagasaki&rsquo;de olduğu gibi 2.000 m. y&uuml;kseklikte patladığını varsayalım. Patlayıcı k&uuml;tleye fırlatılan ve ilk &ccedil;ekirdeği par&ccedil;alayan n&ouml;tron, daha &ouml;nce de bahsedildiği gibi k&uuml;tle i&ccedil;erisinde zincirleme tepkimeler oluşturur. Yani ilk par&ccedil;alanan &ccedil;ekirdekten dışarı fırlayan n&ouml;tronlar, başka &ccedil;ekirdeklere &ccedil;arpar ve bu yeni &ccedil;ekirdekleri de par&ccedil;alar. B&ouml;ylece hızla b&uuml;t&uuml;n &ccedil;ekirdekler zincirleme olarak par&ccedil;alanır ve &ccedil;ok kısa bir zaman aralığında patlama ger&ccedil;ekleşir. N&ouml;tronlar &ouml;yle hızlı hareket etmektedirler ki, saniyenin milyonda biri kadar bir zamanda bomba, k&uuml;tlesi yaklaşık 1.000 milyar kilokalorilik bir enerji a&ccedil;ığa &ccedil;ıkarır.</p>
-<p>Bombanın &ccedil;evrildiği gaz k&uuml;tlesinin sıcaklığı, bir anda birka&ccedil; milyon dereceye ve gaz basıncı da bir milyon atmosfere &ccedil;ıkar.</p>
-<p><strong>- Patlamadan saniyenin binde biri kadar sonra...</strong></p>
-<p>Patlamış olan gaz k&uuml;tlesinin &ccedil;apı b&uuml;y&uuml;r ve etrafa &ccedil;eşitli ışınlar yayılır. Bu ışınlar patlamanın "başlangı&ccedil; parlaması"nı oluşturur. Bu parlama onlarca kilometre &ccedil;apında bir alanda bulunabilecek herhangi bir kişide tam k&ouml;rl&uuml;ğe neden olabilir. &Ouml;yle ki bu parlak ışık (y&uuml;zey birimi başına), G&uuml;neş y&uuml;zeyinden yayılandan y&uuml;zlerce kat daha b&uuml;y&uuml;kt&uuml;r. Patlama anından başlayarak ge&ccedil;en zaman &ouml;ylesine kısadır ki, patlamanın yakınında bulunan bir kişi g&ouml;zlerini kapayabilecek zaman bile bulamamıştır.</p>
-<p>Şokun basın&ccedil; cephesi kapalı kapılarda ağır hasarlara yol a&ccedil;ar. Buna karşılık elektrik taşıma kuleleri, iki par&ccedil;adan oluşan k&ouml;pr&uuml;ler ve cam-&ccedil;elik yapılı g&ouml;kdelenler de hasar g&ouml;r&uuml;rler. Patlamanın yakınlarında da b&uuml;y&uuml;k oranda, pudraya benzer ince toz kalkar.</p>
-<p><strong>- Patlamadan 2 saniye sonra...</strong></p>
-<p>Parlayan k&uuml;tle ve onu &ccedil;evreleyen hava, bir ateş topu oluşturur. Y&uuml;zeyi hen&uuml;z son derece sıcak ve G&uuml;neş'inki kadar, hatta daha parlak olan bu ateş topundan yayılan ısı, 4-5 km &ccedil;apındaki bir alandaki t&uuml;m yanabilir maddeleri tutuşturmaya yeterlidir. Ateş topunun parlaklığı da, g&ouml;rme duyusuna, d&uuml;zelmeyecek derecede zarar verebilir. Burada ateş topunun &ccedil;evresinde, &ccedil;ok b&uuml;y&uuml;k bir hızla yer değiştiren şok dalgası gelişmiştir.</p>
-<p><strong>-Patlamadan 6 saniye sonra...</strong></p>
-<p>Bu anda şok dalgası yery&uuml;z&uuml;ne &ccedil;arpar ve ilk mekanik zararlara neden olur. Dalga, şiddetli bir hava basıncı yaratır ve bu basıncın şiddeti patlama merkezinden uzaklaştık&ccedil;a azalır. Bu noktadan yaklaşık 1.5 km. uzakta bile, ek basın&ccedil;, normal atmosfer basıncının yaklaşık iki katı olur. Bu basın&ccedil;ta insanların sağ kalabilme ihtimali %1&rsquo;dir.</p>
-<p><strong>- Patlamadan 13 saniye sonra...</strong></p>
-<p>Şok dalgası yerin y&uuml;zeyinde yayılır ve bunu, ateş topunun kovduğu havanın yer değiştirmesi nedeniyle oluşan patlama izler. Bu patlama yer boyunca 300-400 km/saatlik bir hızla yayılır.</p>
-<p>Bu arada ateş topu soğumuş ve hacmi k&uuml;&ccedil;&uuml;lm&uuml;şt&uuml;r. Havadan hafif olduğundan y&uuml;kselmeye başlar. Yukarıya doğru y&ouml;nelen bu hareket, yery&uuml;z&uuml;nde r&uuml;zgarın y&ouml;n&uuml;n&uuml;n tersine d&ouml;nmesine yol a&ccedil;ar ve şiddetli bir r&uuml;zgar, başlangı&ccedil;ta patlama merkezinden dışarı doğru eserken, şimdi merkeze doğru esmeye koyulur.</p>
-<p><strong>- Patlamadan 30 saniye sonra...</strong></p>
-<p>Ateş topu y&uuml;kseldik&ccedil;e, k&uuml;re bi&ccedil;imindeki şekli bozulur ve tipik bir mantar g&ouml;r&uuml;n&uuml;m&uuml;n&uuml; alır.</p>
-<p><strong>- Patlamadan 2 dakika sonra...</strong></p>
-<p>Mantar bi&ccedil;imli bulut şimdi 12.000 metrelik bir y&uuml;ksekliğe, yani atmosferin stratosfer tabakasının alt sınırına ulaşmıştır. Bu kadar y&uuml;ksek d&uuml;zeyde esen r&uuml;zgarlar, mantar bi&ccedil;imindeki bulutu azar azar dağıtır ve bulutu oluşturan maddeleri (genel olarak radyoaktif d&ouml;k&uuml;nt&uuml;leri) atmosfere sa&ccedil;ar. S&ouml;z konusu bu radyoaktif d&ouml;k&uuml;nt&uuml;ler, &ccedil;ok k&uuml;&ccedil;&uuml;k tanecikler olduklarından atmosferde daha y&uuml;ksek katmanlara da &ccedil;ıkabilirler. Bu d&ouml;k&uuml;nt&uuml;ler yery&uuml;z&uuml;ne d&uuml;şmeden evvel, atmosferin &uuml;st tabakalarında esen r&uuml;zgarlar tarafından d&uuml;nyanın &ccedil;evresinde birka&ccedil; kez d&ouml;nd&uuml;r&uuml;lebilir. B&ouml;ylece radyasyon d&ouml;k&uuml;nt&uuml;leri d&uuml;nyanın d&ouml;rt bir yanına dağılabilir.</p>
-<p><strong>Atomdan &Ccedil;ıkan Radyasyon</strong></p>
-<p>Radyasyon, uzayda saniyede 200.000 km. gibi &ccedil;ok y&uuml;ksek bir hızda hareket eden, gama ışınları, n&ouml;tronlar, elektronlar ve benzeri birka&ccedil; tip atom-altı par&ccedil;acıktan oluşur. Bu par&ccedil;acıklar, insan v&uuml;cuduna kolaylıkla n&uuml;fuz edebilir ve v&uuml;cudu oluşturan h&uuml;crelere hasar verebilirler. Bu hasar &ouml;l&uuml;mc&uuml;l bir kanserin ortaya &ccedil;ıkmasına neden olabilir ya da &uuml;reme h&uuml;creleri i&ccedil;inde yer alırsa, gelecek kuşakları etkileyecek genetik bozukluklara yol a&ccedil;abilir. Bu y&uuml;zden, bir radyasyon par&ccedil;acığının insana &ccedil;arpmasının sonu&ccedil;ları son derece ciddidir.</p>
-<p>Atom patlamalarında ortaya &ccedil;ıkan ışınlar canlılar &uuml;zerinde ya doğrudan doğruya ya da patlama sırasında ortaya &ccedil;ıkan par&ccedil;alanma &uuml;r&uuml;nleri yoluyla etki yapar.</p>
-<p>Bu par&ccedil;acık ya da ışınlardan biri madde i&ccedil;inde hızla yol alırken, karşısına &ccedil;ıkan atom ya da molek&uuml;llerle &ccedil;ok şiddetli bir şekilde &ccedil;arpışır. Bu &ccedil;arpışma, h&uuml;crenin hassas yapısı i&ccedil;in felaket olabilir. H&uuml;cre &ouml;lebilir ya da iyileşse bile, i&ccedil;inde belki haftalar, aylar, yıllar sonra kanser dediğimiz kontrol edilemeyen bir b&uuml;y&uuml;me başlar.</p>
-<p>Merkezi patlama noktasından aşağı yukarı 1.000 metre &ccedil;apındaki alan i&ccedil;erisinde radyasyon &ccedil;ok yoğundur. &Ouml;l&uuml;me yol a&ccedil;an &ouml;teki etkilerden kurtulanlar kanlarındaki akyuvarların hemen hepsini kaybeder, derilerde yaralar belirir, bunların hepsi birka&ccedil; g&uuml;nden iki &uuml;&ccedil; haftaya kadar varan kısa bir s&uuml;re i&ccedil;inde kanama nedeniyle &ouml;l&uuml;r. Patlama noktasından daha uzakta olanlar &uuml;zerinde ise radyasyonun etkisi değişiktir. Ateş topundan yayılan bu zararlı ışınlarla karşı karşıya kalan insan bedeninde 13, 16 ve 22 km. uzaklıklarda sırasıyla &uuml;&ccedil;&uuml;nc&uuml;, ikinci ve birinci dereceden yanıklar oluşur. Sindirim bozuklukları ve kanamalar daha hafiftir fakat asıl bozukluklar daha sonra ortaya &ccedil;ıkar. Sa&ccedil;ların d&ouml;k&uuml;lmesi, deri yanıkları, kansızlık, kısırlık, &ccedil;ocuk d&uuml;ş&uuml;rme, sakat &ccedil;ocuk doğurma... Bu vakalarda da on g&uuml;nden &uuml;&ccedil; aya kadar varan bir s&uuml;re i&ccedil;inde &ouml;l&uuml;m g&ouml;r&uuml;lebilir. Yıllar ge&ccedil;tikten sonra bile g&ouml;z bozuklukları (g&ouml;ze perde inmesi), kan kanseri (l&ouml;semi) ve ışınım kanseri meydana gelebilir.</p>
-<p>Hidrojen bombası, temelde n&uuml;kleer f&uuml;zyon reaksiyonuna dayanan ve &ccedil;ok y&uuml;ksek tahrip g&uuml;c&uuml;ne sahip n&uuml;kleer bir silahtır. Hidrojen bombasından a&ccedil;ığa &ccedil;ıkan enerji, aynı ağırlıktaki atom bombasına g&ouml;re yaklaşık 1000 kat daha fazladır. Hidrojen bombası patlamalarının en b&uuml;y&uuml;k tehlikelerinden biri radyoaktif tozların solunum, sindirim ve deri yoluyla v&uuml;cuda girmesidir. Bu tozlar bulaşmanın azlığına veya &ccedil;okluğuna g&ouml;re yukarıda saydığımız bozukluklara sebep olurlar.</p>
-<p>T&uuml;m bu sayılanlara, g&ouml;z&uuml;m&uuml;zle bile g&ouml;remediğimiz atomlar sebep olmaktadır. Atomlar gerektiğinde hayatı oluştururlarken, gerektiğinde de hayatı yok ederler. Atomun bu &ouml;zelliği bizlere ne kadar aciz olduğumuzu ve Allah&rsquo;ın kudretinin ne kadar &uuml;st&uuml;n olduğunu &ccedil;ok a&ccedil;ık bir şekilde g&ouml;stermektedir.</p>
-<p><strong>SONU&Ccedil;</strong></p>
-<p>Atomlardan meydana gelen bir v&uuml;cutla, havadaki atomları soluyor, besinlerdeki atomları yiyor, suyun atomlarını i&ccedil;iyorsunuz. G&ouml;rd&uuml;kleriniz ise g&ouml;z&uuml;n&uuml;zdeki atomlara ait elektronların fotonlarla &ccedil;arpışmasından başka bir şey değil. Peki dokunarak hissettikleriniz? Onlar da cildinizdeki atomların eşyalardaki atomları itmesinden ibaret...</p>
-<p>Elbette bug&uuml;n bir&ccedil;ok insan, bedeninin, evrenin, d&uuml;nyanın kısacası her şeyin atomlardan oluştuğunu bilmektedir. Ama belki de bug&uuml;ne kadar "atom" ismini verdiğimiz varlığın nasıl bir sisteme sahip olduğunu d&uuml;ş&uuml;nmemiştir. Veya d&uuml;ş&uuml;nd&uuml;yse bile nasıl oluştuğunu araştırmaya ihtiya&ccedil; duymamıştır; &ccedil;&uuml;nk&uuml; bunun yalnızca fizik&ccedil;ilerin işi olduğunu d&uuml;ş&uuml;nm&uuml;şt&uuml;r.</p>
-<p>Oysa insan bu kusursuz sistemle hayatı boyunca i&ccedil; i&ccedil;e yaşamaktadır. &Uuml;stelik bu &ouml;yle bir sistemdir ki, yalnızca oturduğumuz koltuğu oluşturan trilyonlarca atomdan her biri, &uuml;zerine kitap yazılabilecek bir d&uuml;zene sahiptir. Tek bir atomun oluşumunu, sistemini, g&uuml;c&uuml;n&uuml; anlatmak sayfalar alabilmektedir. Hatta teknoloji geliştik&ccedil;e ve evren hakkındaki bilgilerimiz arttık&ccedil;a bu sayfalar daha da &ccedil;oğalmaktadır.</p>
-<p>Peki t&uuml;m bu d&uuml;zen nasıl oluşmuştur? Big Bang'in ardından atomlar kendiliğinden ortaya &ccedil;ıkamaz. Uygun bir ortam tesad&uuml;f eseri oluşamaz ve bu atomlar rastgele birleşerek evreni i&ccedil;ine alan elementleri oluşturamazlar. Zira &ccedil;evrenizde g&ouml;rd&uuml;ğ&uuml;n&uuml;z her şey, hatta g&ouml;remediğiniz hava bile atomlardan oluşmaktadır. Ve bu atomlar arasında son derece karmaşık bir trafik vardır.</p>
-<p>O halde bu atomlar arası trafiği kim idare ediyor olabilir, siz mi? Varlığınızın sadece atomlardan oluştuğunu kabul ederseniz atomlarınızdan hangisi hangisini, hangi atomlarınız neyi idare ediyor? Diğer atomlardan farksız olan beyninizin atomları mı diğerlerini kontrol&uuml; altında tutuyor? Beyninizin atomlarının idareci olduğunu varsayarsak, şu sorulara cevap vermemiz gerekir:</p>
-<ul>
-<li>
-<p>Beyni oluşturan atomların t&uuml;m&uuml; idareci ise, aralarında nasıl ve neye g&ouml;re karar veriyorlar?</p>
-</li>
-<li>
-<p>Beyni oluşturan trilyonlarca atom, aralarında nasıl işbirliği yapıyorlar?</p>
-</li>
-<li>
-<p>Neden trilyonlarca atomdan biri bile alınan karara itiraz etmiyor?</p>
-</li>
-<li>
-<p>Atomlar aralarında nasıl iletişim kuruyorlar?</p>
-</li>
-</ul>
-<p>Bu sorular karşısında beyni oluşturan trilyonlarca atomun tamamının birden idareci olduğunu s&ouml;ylemenin ne kadar mantıksız bir &ccedil;ıkarım olacağı a&ccedil;ık&ccedil;a g&ouml;r&uuml;lmektedir.</p>
-<p>Peki bu trilyonlarca atomdan sadece biri idareci, diğerleri de onu takip ediyor diye d&uuml;ş&uuml;nmek doğru olabilir mi? Tek bir atomu idareci kabul edersek o zaman da akla hemen &ouml;ncelikle hangi atomun idareci olduğu ve bu atomu kimin se&ccedil;tiği soruları geliyor:</p>
-<ul>
-<li>
-<p>Bu atom beynin neresinde duruyor?</p>
-</li>
-<li>
-<p>Bu atomun diğerlerinden farkı ne?</p>
-</li>
-<li>
-<p>Neden diğer atomlar kayıtsız-şartsız bu atoma uyuyor?</p>
-</li>
-</ul>
-<p>Bu soruların cevabını vermeden hemen şunu belirtmemiz gerekir: Bahsedilen idareci atom da başka par&ccedil;acıklardan oluşmuştur. Bu par&ccedil;acıklar ni&ccedil;in ve neye g&ouml;re bu idareci atomu oluşturmak &uuml;zere bir araya geliyorlar? Bu par&ccedil;acıkları kim idare ediyor? Bu par&ccedil;acıkları idare eden bir başka irade var olduğuna g&ouml;re bu atomun idareci olduğunu savunmak ne derece doğru olur?</p>
-<p>İşte bu aşamada beynimizi oluşturan atomlardan birisinin idareci atom olabileceği iddiası kendiliğinden &ccedil;&uuml;r&uuml;mektedir. İnsanlar, hayvanlar, bitkiler, taş-toprak, hava, su, eşya, gezegenler, uzay boşluğu her şey atomlardan oluşmuşken, evrendeki bu sınırsız sayıdaki atom birbirleriyle nasıl tam bir uyum i&ccedil;erisinde varlıklarını s&uuml;rd&uuml;rmektedir? Bu sınırsız sayıdaki atomlardan hangisi, &uuml;stelik kendisi de bir&ccedil;ok par&ccedil;acıktan oluşmuşken idareci olabilir? B&ouml;yle bir şeyi iddia etmek ya da işi tesad&uuml;fe bağlamak ve alemleri yaratan Allah'ın varlığını reddetmek, <strong>"vicdanları kabul ettiği halde zul&uuml;m ve b&uuml;y&uuml;klenme dolayısıyla inkar etmek"</strong>ten (Neml Suresi, 14) başka bir şey değildir.</p>
-<p>D&uuml;ş&uuml;n&uuml;n ki, atomların &ccedil;eşitli bi&ccedil;imlerde bir araya gelmesiyle oluşan bir insan d&uuml;nyaya geliyor, atomlarla besleniyor, b&uuml;y&uuml;yor. Sonra atomlardan oluşan bir binada atomlardan oluşan kitapları okuyor. Sonra eline atomlardan oluşan ve &uuml;zerinde atom m&uuml;hendisi yazılı bir diploma veriyorlar. Ama sonra o &ccedil;ıkıp, "bu atomlar başıboş tesad&uuml;fler sonucunda biraraya gelmişlerdir ve i&ccedil;lerindeki olağan&uuml;st&uuml; sistem de tesad&uuml;fen oluşmuştur" gibi konuşmalar yapabiliyor. Eğer b&ouml;yleyse, kendisi bu konuşmayı yapacak şuuru, iradeyi ve zekayı nereden alıyor?</p>
-<p>İşte elinizdeki bu &ccedil;alışmanın neredeyse her sayfasında, canlı-cansız evrendeki her şeyi oluşturan atomun kendi kendine veya tesad&uuml;fen meydana gelmesinin imkansızlığını tekrar tekrar g&ouml;rd&uuml;k. T&uuml;m bu anlatılanlara rağmen bu oluşumun hala "tesad&uuml;fen" ger&ccedil;ekleştiğini veya "deneme-yanılma yoluyla" bug&uuml;nk&uuml; halini aldığını d&uuml;ş&uuml;nenlere s&ouml;yleyeceğimiz, Hz. İbrahim&rsquo;in inkarcılara s&ouml;ylediğinden farklı olmayacaktır:</p>
-<p><strong>Allah, kendisine m&uuml;lk verdi diye Rabbi konusunda İbrahim&rsquo;le tartışmaya gireni g&ouml;rmedin mi? Hani İbrahim: 'Benim Rabbim diriltir ve &ouml;ld&uuml;r&uuml;r&rsquo; demişti; o da: &lsquo;Ben de &ouml;ld&uuml;r&uuml;r ve diriltirim&rsquo; demişti. (O zaman) İbrahim: &lsquo;Ş&uuml;phe yok, Allah g&uuml;neşi doğudan getirir, (hadi) sen de onu batıdan getir&rsquo; deyince, o inkarcı b&ouml;ylece afallayıp kalmıştı. Allah zalimler topluluğunu hidayete erdirmez. (Bakara Suresi, 258)</strong></p>
-<p><strong>EK B&Ouml;L&Uuml;M<br /> EVRİM YANILGISI</strong></p>
-<p>Darwinizm, yani evrim teorisi, Yaratılış ger&ccedil;eğini reddetmek amacıyla ortaya atılmış, ancak başarılı olamamış bilim dışı bir safsatadan başka bir şey değildir. Canlılığın, cansız maddelerden tesad&uuml;fen oluştuğunu iddia eden bu teori, evrende ve canlılarda &ccedil;ok a&ccedil;ık bir d&uuml;zen bulunduğunun bilim tarafından ispat edilmesiyle ve evrimin hi&ccedil;bir zaman yaşanmadığını ortaya koyan 350 milyona yakın fosilin bulunmasıyla &ccedil;&uuml;r&uuml;m&uuml;şt&uuml;r. B&ouml;ylece Allah'ın t&uuml;m evreni ve canlıları yaratmış olduğu ger&ccedil;eği, bilim tarafından da kanıtlanmıştır. Bug&uuml;n evrim teorisini ayakta tutmak i&ccedil;in d&uuml;nya &ccedil;apında y&uuml;r&uuml;t&uuml;len propaganda, sadece bilimsel ger&ccedil;eklerin &ccedil;arpıtılmasına, taraflı yorumlanmasına, bilim g&ouml;r&uuml;nt&uuml;s&uuml; altında s&ouml;ylenen yalanlara ve yapılan sahtekarlıklara dayalıdır.</p>
-<p>Ancak bu propaganda ger&ccedil;eği gizleyememektedir. Evrim teorisinin bilim tarihindeki en b&uuml;y&uuml;k yanılgı olduğu, son 20-30 yıldır bilim d&uuml;nyasında giderek daha y&uuml;ksek sesle dile getirilmektedir. &Ouml;zellikle 1980'lerden sonra yapılan araştırmalar, Darwinist iddiaların tamamen yanlış olduğunu ortaya koymuş ve bu ger&ccedil;ek pek &ccedil;ok bilim adamı tarafından dile getirilmiştir. &Ouml;zellikle ABD'de, biyoloji, biyokimya, paleontoloji gibi farklı alanlardan gelen &ccedil;ok sayıda bilim adamı, Darwinizm'in ge&ccedil;ersizliğini g&ouml;rmekte, canlıların k&ouml;kenini Yaratılış ger&ccedil;eğiyle a&ccedil;ıklamaktadırlar.</p>
-<p>Evrim teorisinin &ccedil;&ouml;k&uuml;ş&uuml;n&uuml; ve Yaratılış'ın delillerini diğer pek &ccedil;ok &ccedil;alışmamızda b&uuml;t&uuml;n bilimsel detaylarıyla ele aldık ve almaya devam ediyoruz. Ancak konuyu, taşıdığı b&uuml;y&uuml;k &ouml;nem nedeniyle, burada da &ouml;zetlemekte yarar vardır.</p>
-<p><strong>Darwin'i Yıkan Zorluklar</strong></p>
-<p>Evrim teorisi, tarihi eski Yunan'a kadar uzanan pagan bir &ouml;ğreti olmakla birlikte, kapsamlı olarak 19. y&uuml;zyılda ortaya atıldı. Teoriyi bilim d&uuml;nyasının g&uuml;ndemine sokan en &ouml;nemli gelişme, Charles Darwin'in 1859 yılında yayınlanan <em>T&uuml;rlerin K&ouml;keni</em> adlı kitabıydı. Darwin bu kitapta d&uuml;nya &uuml;zerindeki farklı canlı t&uuml;rlerini Allah'ın ayrı ayrı yarattığı ger&ccedil;eğine kendince karşı &ccedil;ıkıyordu. Darwin'in yanılgılarına g&ouml;re, t&uuml;m t&uuml;rler ortak bir atadan geliyorlardı ve zaman i&ccedil;inde k&uuml;&ccedil;&uuml;k değişimlerle farklılaşmışlardı.</p>
-<p>Darwin'in teorisi, hi&ccedil;bir somut bilimsel bulguya dayanmıyordu; kendisinin de kabul ettiği gibi sadece bir "mantık y&uuml;r&uuml;tme" idi. Hatta Darwin'in kitabındaki "Teorinin Zorlukları" başlıklı uzun b&ouml;l&uuml;mde itiraf ettiği gibi, teori pek &ccedil;ok &ouml;nemli soru karşısında a&ccedil;ık veriyordu.</p>
-<p>Darwin, teorisinin &ouml;n&uuml;ndeki zorlukların gelişen bilim tarafından aşılacağını, yeni bilimsel bulguların teorisini g&uuml;&ccedil;lendireceğini umuyordu. Bunu kitabında sık sık belirtmişti. Ancak gelişen bilim, Darwin'in umutlarının tam aksine, teorinin temel iddialarını birer birer dayanaksız bırakmıştır.</p>
-<p>Darwinizm'in bilim karşısındaki yenilgisi, &uuml;&ccedil; temel başlıkta incelenebilir:</p>
-<p>1) Teori, hayatın yery&uuml;z&uuml;nde ilk kez nasıl ortaya &ccedil;ıktığını asla a&ccedil;ıklayamamaktadır.</p>
-<p>2) Teorinin &ouml;ne s&uuml;rd&uuml;ğ&uuml; "evrim mekanizmaları"nın, ger&ccedil;ekte evrimleştirici bir etkiye sahip olduğunu g&ouml;steren hi&ccedil;bir bilimsel bulgu yoktur.</p>
-<p>3) Fosil kayıtları, evrim teorisinin &ouml;ng&ouml;r&uuml;lerinin tam aksine bir tablo ortaya koymaktadır.</p>
-<p>Bu b&ouml;l&uuml;mde, bu &uuml;&ccedil; temel başlığı ana hatları ile inceleyeceğiz.</p>
-<p><strong>Aşılamayan İlk Basamak: Hayatın K&ouml;keni </strong></p>
-<p>Evrim teorisi, t&uuml;m canlı t&uuml;rlerinin, bundan yaklaşık 3.8 milyar yıl &ouml;nce d&uuml;nyada hayali şekilde tesad&uuml;fen ortaya &ccedil;ıkan tek bir canlı h&uuml;creden geldiklerini iddia etmektedir. Tek bir h&uuml;crenin nasıl olup da milyonlarca kompleks canlı t&uuml;r&uuml;n&uuml; oluşturduğu ve eğer ger&ccedil;ekten bu t&uuml;r bir evrim ger&ccedil;ekleşmişse neden bunun izlerinin fosil kayıtlarında bulunamadığı, teorinin a&ccedil;ıklayamadığı sorulardandır. Ancak t&uuml;m bunlardan &ouml;nce, iddia edilen evrim s&uuml;recinin ilk basamağı &uuml;zerinde durmak gerekir. S&ouml;z&uuml; edilen o "ilk h&uuml;cre" nasıl ortaya &ccedil;ıkmıştır?</p>
-<p>Evrim teorisi, Yaratılış'ı cahilce reddettiği i&ccedil;in, o "ilk h&uuml;cre"nin, hi&ccedil;bir plan ve d&uuml;zenleme olmadan, doğa kanunları i&ccedil;inde k&ouml;r tesad&uuml;flerin &uuml;r&uuml;n&uuml; olarak meydana geldiğini iddia eder. Yani teoriye g&ouml;re, cansız madde tesad&uuml;fler sonucunda ortaya canlı bir h&uuml;cre &ccedil;ıkarmış olmalıdır. Ancak bu, bilinen en temel biyoloji kanunlarına aykırı bir iddiadır.</p>
-<p><strong>"Hayat Hayattan Gelir"</strong></p>
-<p>Darwin, kitabında hayatın k&ouml;keni konusundan hi&ccedil; s&ouml;z etmemişti. &Ccedil;&uuml;nk&uuml; onun d&ouml;nemindeki ilkel bilim anlayışı, canlıların &ccedil;ok basit bir yapıya sahip olduklarını varsayıyordu. Orta&ccedil;ağ'dan beri inanılan "spontane jenerasyon" adlı teoriye g&ouml;re, cansız maddelerin tesad&uuml;fen biraraya gelip, canlı bir varlık oluşturabileceklerine inanılıyordu. Bu d&ouml;nemde b&ouml;ceklerin yemek artıklarından, farelerin de buğdaydan oluştuğu yaygın bir d&uuml;ş&uuml;nceydi. Bunu ispatlamak i&ccedil;in de ilgin&ccedil; deneyler yapılmıştı. Kirli bir pa&ccedil;avranın &uuml;zerine biraz buğday konmuş ve biraz beklendiğinde bu karışımdan farelerin oluşacağı sanılmıştı.</p>
-<p>Etlerin kurtlanması da hayatın cansız maddelerden t&uuml;reyebildiğine bir delil sayılıyordu. Oysa daha sonra anlaşılacaktı ki, etlerin &uuml;zerindeki kurtlar kendiliklerinden oluşmuyorlar, sineklerin getirip bıraktıkları g&ouml;zle g&ouml;r&uuml;lmeyen larvalardan &ccedil;ıkıyorlardı. Darwin'in <em>T&uuml;rlerin K&ouml;keni</em> adlı kitabını yazdığı d&ouml;nemde ise, bakterilerin cansız maddeden oluşabildikleri inancı, bilim d&uuml;nyasında yaygın bir kabul g&ouml;r&uuml;yordu.</p>
-<p>Oysa Darwin'in kitabının yayınlanmasından beş yıl sonra, &uuml;nl&uuml; Fransız biyolog Louis Pasteur, evrime temel oluşturan bu inancı kesin olarak &ccedil;&uuml;r&uuml;tt&uuml;. Pasteur yaptığı uzun &ccedil;alışma ve deneyler sonucunda vardığı sonucu ş&ouml;yle &ouml;zetlemişti: <strong>"Cansız maddelerin hayat oluşturabileceği iddiası artık kesin olarak tarihe g&ouml;m&uuml;lm&uuml;şt&uuml;r." </strong>(Sidney Fox, Klaus Dose, <em>Molecular Evolution and The Origin of Life</em>, New York: Marcel Dekker, 1977, s. 2.)</p>
-<p>Evrim teorisinin savunucuları, Pasteur'&uuml;n bulgularına karşı uzun s&uuml;re direndiler. Ancak gelişen bilim, canlı h&uuml;cresinin karmaşık yapısını ortaya &ccedil;ıkardık&ccedil;a, hayatın kendiliğinden oluşabileceği iddiasının ge&ccedil;ersizliği daha da a&ccedil;ık hale geldi.</p>
-<p><strong>20. Y&uuml;zyıldaki Sonu&ccedil;suz &Ccedil;abalar</strong></p>
-<p>20. y&uuml;zyılda hayatın k&ouml;keni konusunu ele alan ilk evrimci, &uuml;nl&uuml; Rus biyolog Alexander Oparin oldu. Oparin, 1930'lu yıllarda ortaya attığı birtakım tezlerle, canlı h&uuml;cresinin tesad&uuml;fen meydana gelebileceğini ispat etmeye &ccedil;alıştı. Ancak bu &ccedil;alışmalar başarısızlıkla sonu&ccedil;lanacak ve Oparin şu itirafı yapmak zorunda kalacaktı:<strong> "Maalesef h&uuml;crenin k&ouml;keni, evrim teorisinin t&uuml;m&uuml;n&uuml; i&ccedil;ine alan en karanlık noktayı oluşturmaktadır." </strong>(Alexander I. Oparin, <em>Origin of Life</em>, (1936) New York, Dover Publications, 1953 (Reprint), s. 196.)</p>
-<p>Oparin'in yolunu izleyen evrimciler, hayatın k&ouml;keni konusunu &ccedil;&ouml;z&uuml;me kavuşturacak deneyler yapmaya &ccedil;alıştılar. Bu deneylerin en &uuml;nl&uuml;s&uuml;, Amerikalı kimyacı Stanley Miller tarafından 1953 yılında d&uuml;zenlendi. Miller, ilkel d&uuml;nya atmosferinde olduğunu iddia ettiği gazları bir deney d&uuml;zeneğinde birleştirerek ve bu karışıma enerji ekleyerek, proteinlerin yapısında kullanılan birka&ccedil; organik molek&uuml;l (aminoasit) sentezledi.</p>
-<p>O yıllarda evrim adına &ouml;nemli bir aşama gibi tanıtılan bu deneyin ge&ccedil;erli olmadığı ve deneyde kullanılan atmosferin ger&ccedil;ek d&uuml;nya koşullarından &ccedil;ok farklı olduğu, ilerleyen yıllarda ortaya &ccedil;ıkacaktı. ("New Evidence on Evolution of Early Atmosphere and Life",<em> Bulletin of the American Meteorological Society</em>, c. 63, Kasım 1982, s. 1328-1330)</p>
-<p>Uzun s&uuml;ren bir sessizlikten sonra Miller'in kendisi de kullandığı atmosfer ortamının ger&ccedil;ek&ccedil;i olmadığını itiraf etti. (Stanley Miller, <em>Molecular Evolution of Life: Current Status of the Prebiotic Synthesis of Small Molecules</em>, 1986, s. 7.)</p>
-<p>Hayatın k&ouml;keni sorununu a&ccedil;ıklamak i&ccedil;in 20. y&uuml;zyıl boyunca y&uuml;r&uuml;t&uuml;len t&uuml;m evrimci &ccedil;abalar hep başarısızlıkla sonu&ccedil;landı. San Diego Scripps Enstit&uuml;s&uuml;'nden &uuml;nl&uuml; jeokimyacı Jeffrey Bada, evrimci <em>Earth</em> dergisinde 1998 yılında yayınlanan bir makalede bu ger&ccedil;eği ş&ouml;yle kabul eder:</p>
-<p>Bug&uuml;n, 20. y&uuml;zyılı geride bırakırken, hala, 20. y&uuml;zyıla girdiğimizde sahip olduğumuz en b&uuml;y&uuml;k &ccedil;&ouml;z&uuml;lmemiş problemle karşı karşıyayız: Hayat yery&uuml;z&uuml;nde nasıl başladı? (Jeffrey Bada, <em>Earth,</em> Şubat 1998, s. 40.)</p>
-<p><strong>Hayatın Kompleks Yapısı </strong></p>
-<p>Evrimcilerin hayatın k&ouml;keni konusunda bu denli b&uuml;y&uuml;k bir a&ccedil;maza girmelerinin başlıca nedeni, Darwinistlerin en basit zannettikleri canlı yapıların bile olağan&uuml;st&uuml; derecede kompleks &ouml;zelliklere sahip olmasıdır. Canlı h&uuml;cresi, insanoğlunun yaptığı b&uuml;t&uuml;n teknolojik &uuml;r&uuml;nlerden daha komplekstir. &Ouml;yle ki, bug&uuml;n d&uuml;nyanın en gelişmiş laboratuvarlarında bile cansız maddeler biraraya getirilerek canlı bir h&uuml;cre, hatta h&uuml;creye ait tek bir protein bile &uuml;retilememektedir.</p>
-<p>Bir h&uuml;crenin meydana gelmesi i&ccedil;in gereken şartlar, asla rastlantılarla a&ccedil;ıklanamayacak kadar fazladır. Ancak bunu detaylarıyla a&ccedil;ıklamaya bile gerek yoktur. Evrimciler daha h&uuml;cre aşamasına gelmeden &ccedil;ıkmaza girerler. &Ccedil;&uuml;nk&uuml; h&uuml;crenin yapı taşlarından biri olan proteinlerin tek bir tanesinin dahi tesad&uuml;fen meydana gelmesi ihtimali matematiksel olarak "0"dır.</p>
-<p>Bunun nedenlerinden başlıcası bir proteinin oluşması i&ccedil;in başka proteinlerin varlığının gerekmesidir ki bu, bir proteinin tesad&uuml;fen oluşma ihtimalini tamamen ortadan kaldırır. Dolayısıyla tek başına bu ger&ccedil;ek bile evrimcilerin tesad&uuml;f iddiasını en baştan yok etmek i&ccedil;in yeterlidir. Konunun &ouml;nemi a&ccedil;ısından &ouml;zetle a&ccedil;ıklayacak olursak,</p>
-<p><strong>1. Enzimler olmadan protein sentezlenemez ve enzimler de birer proteindir.</strong></p>
-<p><strong>2. Tek bir proteinin sentezlenmesi i&ccedil;in 100'e yakın proteinin hazır bulunması gerekmektedir. Dolayısıyla proteinlerin varlığı i&ccedil;in proteinler gerekir. </strong></p>
-<p><strong>3. Proteinleri sentezleyen enzimleri DNA &uuml;retir. DNA olmadan protein sentezlenemez. Dolayısıyla proteinlerin oluşabilmesi i&ccedil;in DNA da gerekir.</strong></p>
-<p><strong>4. Protein sentezleme işleminde h&uuml;credeki t&uuml;m organellerin &ouml;nemli g&ouml;revleri vardır. Yani proteinlerin oluşabilmesi i&ccedil;in, eksiksiz ve tam işleyen bir h&uuml;crenin t&uuml;m organelleri ile var olması gerekmektedir.</strong></p>
-<p>H&uuml;crenin &ccedil;ekirdeğinde yer alan ve genetik bilgiyi saklayan DNA molek&uuml;l&uuml; ise, inanılmaz bir bilgi bankasıdır. İnsan DNA'sının i&ccedil;erdiği bilginin, eğer kağıda d&ouml;k&uuml;lmeye kalkılsa, 500'er sayfadan oluşan 900 ciltlik bir k&uuml;t&uuml;phane oluşturacağı hesaplanmaktadır.</p>
-<p>Bu noktada &ccedil;ok ilgin&ccedil; bir ikilem daha vardır: DNA, yalnız birtakım &ouml;zelleşmiş proteinlerin (enzimlerin) yardımı ile eşlenebilir. Ama bu enzimlerin sentezi de ancak DNA'daki bilgiler doğrultusunda ger&ccedil;ekleşir. Birbirine bağımlı olduklarından, eşlemenin meydana gelebilmesi i&ccedil;in ikisinin de aynı anda var olmaları gerekir. Bu ise, hayatın kendiliğinden oluştuğu senaryosunu &ccedil;ıkmaza sokmaktadır. San Diego California &Uuml;niversitesi'nden &uuml;nl&uuml; evrimci Prof. Leslie Orgel, <em>Scientific American </em>dergisinin Ekim 1994 tarihli sayısında bu ger&ccedil;eği ş&ouml;yle itiraf eder:</p>
-<p>Son derece kompleks yapılara sahip olan proteinlerin ve n&uuml;kleik asitlerin (RNA ve DNA) aynı yerde ve aynı zamanda rastlantısal olarak oluşmaları aşırı derecede ihtimal dışıdır. Ama bunların birisi olmadan diğerini elde etmek de m&uuml;mk&uuml;n değildir. Dolayısıyla insan, yaşamın kimyasal yollarla ortaya &ccedil;ıkmasının asla m&uuml;mk&uuml;n olmadığı sonucuna varmak zorunda kalmaktadır. (Leslie E. Orgel, <em>The Origin of Life on Earth</em>, Scientific American, c. 271, Ekim 1994, s. 78.)</p>
-<p>Kuşkusuz eğer hayatın k&ouml;r tesad&uuml;fler neticesinde kendi kendine ortaya &ccedil;ıkması imkansız ise, bu durumda hayatın yaratıldığını kabul etmek gerekir. Bu ger&ccedil;ek, en temel amacı Yaratılış'ı reddetmek olan evrim teorisini a&ccedil;ık&ccedil;a ge&ccedil;ersiz kılmaktadır.</p>
-<p><strong>Evrimin Hayali Mekanizmaları</strong></p>
-<p>Darwin'in teorisini ge&ccedil;ersiz kılan ikinci b&uuml;y&uuml;k nokta, teorinin "evrim mekanizmaları" olarak &ouml;ne s&uuml;rd&uuml;ğ&uuml; iki kavramın da ger&ccedil;ekte hi&ccedil;bir evrimleştirici g&uuml;ce sahip olmadığının anlaşılmış olmasıdır.</p>
-<p>Darwin, ortaya attığı evrim iddiasını tamamen "doğal seleksiyon" mekanizmasına bağlamıştı. Bu mekanizmaya verdiği &ouml;nem, kitabının isminden de a&ccedil;ık&ccedil;a anlaşılıyordu: <em>T&uuml;rlerin K&ouml;keni, Doğal Seleksiyon Yoluyla...</em></p>
-<p>Doğal seleksiyon, doğal se&ccedil;me demektir. Doğadaki yaşam m&uuml;cadelesi i&ccedil;inde, doğal şartlara uygun ve g&uuml;&ccedil;l&uuml; canlıların hayatta kalacağı d&uuml;ş&uuml;ncesine dayanır. &Ouml;rneğin yırtıcı hayvanlar tarafından tehdit edilen bir geyik s&uuml;r&uuml;s&uuml;nde, daha hızlı koşabilen geyikler hayatta kalacaktır. B&ouml;ylece geyik s&uuml;r&uuml;s&uuml;, hızlı ve g&uuml;&ccedil;l&uuml; bireylerden oluşacaktır. Ama elbette bu mekanizma, geyikleri evrimleştirmez, onları başka bir canlı t&uuml;r&uuml;ne, &ouml;rneğin atlara d&ouml;n&uuml;şt&uuml;rmez.</p>
-<p>Dolayısıyla doğal seleksiyon mekanizması hi&ccedil;bir evrimleştirici g&uuml;ce sahip değildir. Darwin de bu ger&ccedil;eğin farkındaydı ve <em>T&uuml;rlerin K&ouml;keni </em>adlı kitabında <strong>"Faydalı değişiklikler oluşmadığı s&uuml;rece doğal seleksiyon hi&ccedil;bir şey yapamaz"</strong> demek zorunda kalmıştı. (Charles Darwin, <em>The Origin of Species: A Facsimile of the First Edition</em>, Harvard University Press, 1964, s. 184.)</p>
-<p><strong>Lamarck'ın Etkisi</strong></p>
-<p>Peki bu "faydalı değişiklikler" nasıl oluşabilirdi? Darwin, kendi d&ouml;neminin ilkel bilim anlayışı i&ccedil;inde, bu soruyu Lamarck'a dayanarak cevaplamaya &ccedil;alışmıştı. Darwin'den &ouml;nce yaşamış olan Fransız biyolog Lamarck'a g&ouml;re, canlılar yaşamları sırasında ge&ccedil;irdikleri fiziksel değişiklikleri sonraki nesle aktarıyorlar, nesilden nesile biriken bu &ouml;zellikler sonucunda yeni t&uuml;rler ortaya &ccedil;ıkıyordu. &Ouml;rneğin Lamarck'a g&ouml;re z&uuml;rafalar ceylanlardan t&uuml;remişlerdi, y&uuml;ksek ağa&ccedil;ların yapraklarını yemek i&ccedil;in &ccedil;abalarken nesilden nesile boyunları uzamıştı.</p>
-<p>Darwin de benzeri &ouml;rnekler vermiş, &ouml;rneğin <em>T&uuml;rlerin K&ouml;keni </em>adlı kitabında, yiyecek bulmak i&ccedil;in suya giren bazı ayıların zamanla balinalara d&ouml;n&uuml;şt&uuml;ğ&uuml;n&uuml; iddia etmişti. <em>(B. G. Ranganathan, Origins?, Pennsylvania: The Banner Of Truth Trust, 1988.)</em></p>
-<p>Ama Mendel'in keşfettiği ve 20.y&uuml;zyılda gelişen genetik bilimiyle kesinleşen kalıtım kanunları, kazanılmış &ouml;zelliklerin sonraki nesillere aktarılması efsanesini kesin olarak yıktı. B&ouml;ylece doğal seleksiyon "tek başına" ve dolayısıyla t&uuml;m&uuml;yle etkisiz bir mekanizma olarak kalmış oluyordu.</p>
-<p><strong>Neo-Darwinizm ve Mutasyonlar</strong></p>
-<p>Darwinistler ise bu duruma bir &ccedil;&ouml;z&uuml;m bulabilmek i&ccedil;in 1930'ların sonlarında, "Modern Sentetik Teori"yi ya da daha yaygın ismiyle neo-Darwinizm'i ortaya attılar. Neo-Darwinizm, doğal seleksiyonun yanına "faydalı değişiklik sebebi" olarak mutasyonları, yani canlıların genlerinde radyasyon gibi dış etkiler ya da kopyalama hataları sonucunda oluşan bozulmaları ekledi. Bug&uuml;n de hala bilimsel olarak ge&ccedil;ersiz olduğunu bilmelerine rağmen, Darwinistlerin savunduğu model neo-Darwinizm'dir. Teori, yery&uuml;z&uuml;nde bulunan milyonlarca canlı t&uuml;r&uuml;n&uuml;n, bu canlıların, kulak, g&ouml;z, akciğer, kanat gibi sayısız kompleks organlarının "mutasyonlara", yani genetik bozukluklara dayalı bir s&uuml;re&ccedil; sonucunda oluştuğunu iddia etmektedir. Ama teoriyi &ccedil;aresiz bırakan a&ccedil;ık bir bilimsel ger&ccedil;ek vardır: <strong>Mutasyonlar canlıları geliştirmezler, aksine her zaman i&ccedil;in canlılara zarar verirler.</strong></p>
-<p>Bunun nedeni &ccedil;ok basittir: DNA &ccedil;ok kompleks bir d&uuml;zene sahiptir. Bu molek&uuml;l &uuml;zerinde oluşan herhangi bir tesad&uuml;fi etki ancak zarar verir. Amerikalı genetik&ccedil;i B. G. Ranganathan bunu ş&ouml;yle a&ccedil;ıklar:</p>
-<p>Mutasyonlar k&uuml;&ccedil;&uuml;k, rasgele ve zararlıdırlar. &Ccedil;ok ender olarak meydana gelirler ve en iyi ihtimalle etkisizdirler. Bu &uuml;&ccedil; &ouml;zellik, mutasyonların evrimsel bir gelişme meydana getiremeyeceğini g&ouml;sterir. Zaten y&uuml;ksek derecede &ouml;zelleşmiş bir organizmada meydana gelebilecek rastlantısal bir değişim, ya etkisiz olacaktır ya da zararlı. Bir kol saatinde meydana gelecek rasgele bir değişim kol saatini geliştirmeyecektir. Ona b&uuml;y&uuml;k ihtimalle zarar verecek veya en iyi ihtimalle etkisiz olacaktır. Bir deprem bir şehri geliştirmez, ona yıkım getirir. (Charles Darwin, <em>The Origin of Species: A Facsimile of the First Edition</em>, Harvard University Press, 1964, s. 179.)</p>
-<p>Nitekim bug&uuml;ne kadar hi&ccedil;bir yararlı, yani genetik bilgiyi geliştiren mutasyon &ouml;rneği g&ouml;zlemlenmedi. T&uuml;m mutasyonların zararlı olduğu g&ouml;r&uuml;ld&uuml;. Anlaşıldı ki, evrim teorisinin "evrim mekanizması" olarak g&ouml;sterdiği mutasyonlar, ger&ccedil;ekte canlıları sadece tahrip eden, sakat bırakan genetik olaylardır. (İnsanlarda mutasyonun en sık g&ouml;r&uuml;len etkisi de kanserdir.) Elbette tahrip edici bir mekanizma "evrim mekanizması" olamaz. Doğal seleksiyon ise, Darwin'in de kabul ettiği gibi, "tek başına hi&ccedil;bir şey yapamaz." Bu ger&ccedil;ek bizlere doğada hi&ccedil;bir "evrim mekanizması" olmadığını g&ouml;stermektedir. Evrim mekanizması olmadığına g&ouml;re de, evrim denen hayali s&uuml;re&ccedil; yaşanmış olamaz.</p>
-<p><strong>Fosil Kayıtları: Ara Formlardan Eser Yok</strong></p>
-<p>Evrim teorisinin iddia ettiği senaryonun yaşanmamış olduğunun en a&ccedil;ık g&ouml;stergesi ise fosil kayıtlarıdır.</p>
-<p>Evrim teorisinin bilim dışı iddiasına g&ouml;re b&uuml;t&uuml;n canlılar birbirlerinden t&uuml;remişlerdir. &Ouml;nceden var olan bir canlı t&uuml;r&uuml;, zamanla bir diğerine d&ouml;n&uuml;şm&uuml;ş ve b&uuml;t&uuml;n t&uuml;rler bu şekilde ortaya &ccedil;ıkmışlardır. Teoriye g&ouml;re bu d&ouml;n&uuml;ş&uuml;m y&uuml;z milyonlarca yıl s&uuml;ren uzun bir zaman dilimini kapsamış ve kademe kademe ilerlemiştir.</p>
-<p>Bu durumda, iddia edilen uzun d&ouml;n&uuml;ş&uuml;m s&uuml;reci i&ccedil;inde sayısız "ara t&uuml;rler"in oluşmuş ve yaşamış olmaları gerekir.</p>
-<p>&Ouml;rneğin ge&ccedil;mişte, balık &ouml;zelliklerini taşımalarına rağmen, bir yandan da bazı s&uuml;r&uuml;ngen &ouml;zellikleri kazanmış olan yarı balık-yarı s&uuml;r&uuml;ngen canlılar yaşamış olmalıdır. Ya da s&uuml;r&uuml;ngen &ouml;zelliklerini taşırken, bir yandan da bazı kuş &ouml;zellikleri kazanmış s&uuml;r&uuml;ngen-kuşlar ortaya &ccedil;ıkmış olmalıdır. Bunlar, bir ge&ccedil;iş s&uuml;recinde oldukları i&ccedil;in de, sakat, eksik, kusurlu canlılar olmalıdır. Evrimciler ge&ccedil;mişte yaşamış olduklarına inandıkları bu hayali varlıklara "ara-ge&ccedil;iş formu" adını verirler.</p>
-<p>Eğer ger&ccedil;ekten bu t&uuml;r canlılar ge&ccedil;mişte yaşamışlarsa bunların sayılarının ve &ccedil;eşitlerinin milyonlarca hatta milyarlarca olması gerekir. Ve bu garip canlıların kalıntılarına mutlaka fosil kayıtlarında rastlanması gerekir. Darwin, <em>T&uuml;rlerin K&ouml;keni</em>'nde bunu ş&ouml;yle a&ccedil;ıklamıştır:</p>
-<p>Eğer teorim doğruysa, t&uuml;rleri birbirine bağlayan sayısız ara-ge&ccedil;iş &ccedil;eşitleri mutlaka yaşamış olmalıdır... Bunların yaşamış olduklarının kanıtları da sadece fosil kalıntıları arasında bulunabilir. (Charles Darwin, <em>The Origin of Species</em>, s. 172, 280.)</p>
-<p>Ancak bu satırları yazan Darwin, bu ara formların fosillerinin bir t&uuml;rl&uuml; bulunamadığının da farkındaydı. Bunun teorisi i&ccedil;in b&uuml;y&uuml;k bir a&ccedil;maz oluşturduğunu g&ouml;r&uuml;yordu. Bu y&uuml;zden, <em>T&uuml;rlerin K&ouml;keni </em>kitabının "Teorinin Zorlukları" (Difficulties on Theory) adlı b&ouml;l&uuml;m&uuml;nde ş&ouml;yle yazmıştı:</p>
-<p>Eğer ger&ccedil;ekten t&uuml;rler &ouml;b&uuml;r t&uuml;rlerden yavaş gelişmelerle t&uuml;remişse, neden sayısız ara ge&ccedil;iş formuna rastlamıyoruz? Neden b&uuml;t&uuml;n doğa bir karmaşa halinde değil de, tam olarak tanımlanmış ve yerli yerinde? Sayısız ara ge&ccedil;iş formu olmalı, fakat ni&ccedil;in yery&uuml;z&uuml;n&uuml;n sayılamayacak kadar &ccedil;ok katmanında g&ouml;m&uuml;l&uuml; olarak bulamıyoruz... Ni&ccedil;in her jeolojik yapı ve her tabaka b&ouml;yle bağlantılarla dolu değil?<em> (Charles Darwin, The Origin of Species, s. 172, 280) </em></p>
-<p><strong>Darwin'in Yıkılan Umutları</strong></p>
-<p>Ancak 19. y&uuml;zyılın ortasından bu yana d&uuml;nyanın d&ouml;rt bir yanında hummalı fosil araştırmaları yapıldığı halde bu ara ge&ccedil;iş formlarına rastlanamamıştır. Yapılan kazılarda ve araştırmalarda elde edilen b&uuml;t&uuml;n bulgular, evrimcilerin beklediklerinin aksine, canlıların yery&uuml;z&uuml;nde birdenbire, eksiksiz ve kusursuz bir bi&ccedil;imde ortaya &ccedil;ıktıklarını g&ouml;stermiştir.</p>
-<p>&Uuml;nl&uuml; İngiliz paleontolog (fosil bilimci) Derek W. Ager, bir evrimci olmasına karşın bu ger&ccedil;eği ş&ouml;yle itiraf eder:</p>
-<p>Sorunumuz şudur: Fosil kayıtlarını detaylı olarak incelediğimizde, t&uuml;rler ya da sınıflar seviyesinde olsun, s&uuml;rekli olarak aynı ger&ccedil;ekle karşılaşırız; kademeli evrimle gelişen değil, aniden yery&uuml;z&uuml;nde oluşan gruplar g&ouml;r&uuml;r&uuml;z. (Derek A. Ager, <em>"The Nature of the Fossil Record"</em>, Proceedings of the British Geological Association, c. 87, 1976, s. 133.)</p>
-<p>Yani fosil kayıtlarında, t&uuml;m canlı t&uuml;rleri, aralarında hi&ccedil;bir ge&ccedil;iş formu olmadan eksiksiz bi&ccedil;imleriyle aniden ortaya &ccedil;ıkmaktadırlar. Bu, Darwin'in &ouml;ng&ouml;r&uuml;lerinin tam aksidir. Dahası, bu canlı t&uuml;rlerinin yaratıldıklarını g&ouml;steren &ccedil;ok g&uuml;&ccedil;l&uuml; bir delildir. &Ccedil;&uuml;nk&uuml; bir canlı t&uuml;r&uuml;n&uuml;n, kendisinden evrimleştiği hi&ccedil;bir atası olmadan, bir anda ve kusursuz olarak ortaya &ccedil;ıkmasının tek a&ccedil;ıklaması, o t&uuml;r&uuml;n yaratılmış olmasıdır. Bu ger&ccedil;ek, &uuml;nl&uuml; evrimci biyolog Douglas Futuyma tarafından da kabul edilir:</p>
-<p>Yaratılış ve evrim, yaşayan canlıların k&ouml;keni hakkında yapılabilecek yegane iki a&ccedil;ıklamadır. Canlılar d&uuml;nya &uuml;zerinde ya tamamen m&uuml;kemmel ve eksiksiz bir bi&ccedil;imde ortaya &ccedil;ıkmışlardır ya da b&ouml;yle olmamıştır. Eğer b&ouml;yle olmadıysa, bir değişim s&uuml;reci sayesinde kendilerinden &ouml;nce var olan bazı canlı t&uuml;rlerinden evrimleşerek meydana gelmiş olmalıdırlar. Ama eğer eksiksiz ve m&uuml;kemmel bir bi&ccedil;imde ortaya &ccedil;ıkmışlarsa, o halde sonsuz g&uuml;&ccedil; sahibi bir akıl tarafından yaratılmış olmaları gerekir. (Douglas J. Futuyma,<em> Science on Trial</em>, New York: Pantheon Books, 1983. s. 197.)</p>
-<p>Fosiller ise, canlıların yery&uuml;z&uuml;nde eksiksiz ve m&uuml;kemmel bir <strong>bi&ccedil;imde ortaya &ccedil;ıktıklarını g&ouml;stermektedir. Yani "t&uuml;rlerin k&ouml;keni", Darwin'in sandığının aksine, evrim değil Yaratılıştır.</strong></p>
-<p><strong>İnsanın Evrimi Masalı</strong></p>
-<p>Evrim teorisini savunanların en &ccedil;ok g&uuml;ndeme getirdikleri konu, insanın k&ouml;keni konusudur. Bu konudaki Darwinist iddia, insanın s&ouml;zde maymunsu birtakım yaratıklardan geldiğini varsayar. 4-5 milyon yıl &ouml;nce başladığı varsayılan bu s&uuml;re&ccedil;te, insan ile hayali ataları arasında bazı "ara form"ların yaşadığı iddia edilir. Ger&ccedil;ekte t&uuml;m&uuml;yle hayali olan bu senaryoda d&ouml;rt temel "kategori" sayılır:</p>
-<p><em>1- Australopithecus</em></p>
-<p><em>2- Homo habilis</em></p>
-<p><em>3- Homo erectus</em></p>
-<p><em>4- Homo sapiens</em></p>
-<p>Evrimciler, insanların s&ouml;zde ilk maymunsu atalarına "g&uuml;ney maymunu" anlamına gelen <em>"Australopithecus" </em>ismini verirler. Bu canlılar ger&ccedil;ekte soyu t&uuml;kenmiş bir maymun t&uuml;r&uuml;nden başka bir şey değildir. Lord Solly Zuckerman ve Prof. Charles Oxnard gibi İngiltere ve ABD'den d&uuml;nyaca &uuml;nl&uuml; iki anatomistin <em>Australopithecus</em> &ouml;rnekleri &uuml;zerinde yaptıkları &ccedil;ok geniş kapsamlı &ccedil;alışmalar, bu canlıların sadece soyu t&uuml;kenmiş bir maymun t&uuml;r&uuml;ne ait olduklarını ve insanlarla hi&ccedil;bir benzerlik taşımadıklarını g&ouml;stermiştir. (Charles E. Oxnard, <em>"The Place of Australopithecines in Human Evolution: Grounds for Doubt"</em>, Nature, c. 258, s. 389. )</p>
-<p>Evrimciler insan evriminin bir sonraki safhasını da, "homo" yani insan olarak sınıflandırırlar. İddiaya g&ouml;re homo serisindeki canlılar, <em>Australopithecuslar</em>'dan daha gelişmişlerdir. Evrimciler, bu farklı canlılara ait fosilleri ardı ardına dizerek hayali bir evrim şeması oluştururlar. Bu şema hayalidir, &ccedil;&uuml;nk&uuml; ger&ccedil;ekte bu farklı sınıfların arasında evrimsel bir ilişki olduğu asla ispatlanamamıştır. Evrim teorisinin 20. y&uuml;zyıldaki en &ouml;nemli savunucularından biri olan Ernst Mayr, "<em>Homo sapiens</em>'e uzanan zincir ger&ccedil;ekte kayıptır" diyerek bunu kabul eder. (J. Rennie, <em>"Darwin's Current Bulldog: Ernst Mayr"</em>, Scientific American, Aralık 1992)</p>
-<p>Evrimciler "<em>Australopithecus </em>&gt; <em>Homo habilis</em> &gt; <em>Homo erectus</em> &gt; <em>Homo sapiens</em>" sıralamasını yazarken, bu t&uuml;rlerin her birinin, bir sonrakinin atası olduğu izlenimini verirler. Oysa paleoantropologların son bulguları, <em>Australopithecus</em>,<em> Homo habilis</em> ve <em>Homo erectus</em>'un d&uuml;nya'nın farklı b&ouml;lgelerinde aynı d&ouml;nemlerde yaşadıklarını g&ouml;stermektedir. (Alan Walker, <em>Science</em>, c. 207, 1980, s. 1103; A. J. Kelso, <em>Physical Antropology,</em> 1. baskı, New York: J. B. Lipincott Co., 1970, s. 221; M. D. Leakey, Olduvai Gorge, c. 3, Cambridge: Cambridge University Press, 1971, s. 272.)</p>
-<p>Dahası <em>Homo erectus</em> sınıflamasına ait insanların bir b&ouml;l&uuml;m&uuml; &ccedil;ok modern zamanlara kadar yaşamışlar, <em>Homo sapiens neandertalensis</em> ve <em>Homo sapiens sapiens</em> (insan) ile aynı ortamda yan yana bulunmuşlardır. (<em>Time</em>, Kasım 1996)</p>
-<p>Bu ise elbette bu sınıfların birbirlerinin ataları oldukları iddiasının ge&ccedil;ersizliğini a&ccedil;ık&ccedil;a ortaya koymaktadır. Harvard &Uuml;niversitesi paleontologlarından Stephen Jay Gould, kendisi de bir evrimci olmasına karşın, Darwinist teorinin i&ccedil;ine girdiği bu &ccedil;ıkmazı ş&ouml;yle a&ccedil;ıklar:</p>
-<p>Eğer birbiri ile paralel bir bi&ccedil;imde yaşayan &uuml;&ccedil; farklı hominid (insanımsı) &ccedil;izgisi varsa, o halde bizim soy ağacımıza ne oldu? A&ccedil;ıktır ki, bunların biri diğerinden gelmiş olamaz. Dahası, biri diğeriyle karşılaştırıldığında evrimsel bir gelişme trendi g&ouml;stermemektedirler. (S. J. Gould, <em>Natural History</em>, c. 85, 1976, s. 30.)</p>
-<p>Kısacası, medyada ya da ders kitaplarında yer alan hayali birtakım "yarı maymun, yarı insan" canlıların &ccedil;izimleriyle, yani sırf propaganda yoluyla ayakta tutulmaya &ccedil;alışılan insanın evrimi senaryosu, hi&ccedil;bir bilimsel temeli olmayan bir masaldan ibarettir. Bu konuyu uzun yıllar inceleyen, &ouml;zellikle <em>Australopithecus</em> fosilleri &uuml;zerinde 15 yıl araştırma yapan İngiltere'nin en &uuml;nl&uuml; ve saygın bilim adamlarından Lord Solly Zuckerman, bir evrimci olmasına rağmen, ortada maymunsu canlılardan insana uzanan ger&ccedil;ek bir soy ağacı olmadığı sonucuna varmıştır.</p>
-<p>Zuckerman bir de ilgin&ccedil; bir "bilim skalası" yapmıştır. Bilimsel olarak kabul ettiği bilgi dallarından, bilim dışı olarak kabul ettiği bilgi dallarına kadar bir yelpaze oluşturmuştur. Zuckerman'ın bu tablosuna g&ouml;re en "bilimsel" -yani somut verilere dayanan- bilgi dalları kimya ve fiziktir. Yelpazede bunlardan sonra biyoloji bilimleri, sonra da sosyal bilimler gelir. Yelpazenin en ucunda, yani en "bilim dışı" sayılan kısımda ise, Zuckerman'a g&ouml;re, telepati, altıncı his gibi "duyum &ouml;tesi algılama" kavramları ve bir de "insanın evrimi" vardır! Zuckerman, yelpazenin bu ucunu ş&ouml;yle a&ccedil;ıklar:</p>
-<p>Objektif ger&ccedil;ekliğin alanından &ccedil;ıkıp da, biyolojik bilim olarak varsayılan bu alanlara -yani duyum &ouml;tesi algılamaya ve insanın fosil tarihinin yorumlanmasına- girdiğimizde, evrim teorisine inanan bir kimse i&ccedil;in herşeyin m&uuml;mk&uuml;n olduğunu g&ouml;r&uuml;r&uuml;z. &Ouml;yle ki teorilerine kesinlikle inanan bu kimselerin &ccedil;elişkili bazı yargıları aynı anda kabul etmeleri bile m&uuml;mk&uuml;nd&uuml;r. (Solly Zuckerman, <em>Beyond The Ivory Tower</em>, New York: Toplinger Publications, 1970, s. 19.)</p>
-<p>İşte insanın evrimi masalı da, teorilerine k&ouml;r&uuml; k&ouml;r&uuml;ne inanan birtakım insanların buldukları bazı fosilleri &ouml;n yargılı bir bi&ccedil;imde yorumlamalarından ibarettir.</p>
-<p><strong>Darwin Form&uuml;l&uuml;!</strong></p>
-<p>Şimdiye kadar ele aldığımız t&uuml;m teknik delillerin yanında, isterseniz evrimcilerin nasıl sa&ccedil;ma bir inanışa sahip olduklarını bir de &ccedil;ocukların bile anlayabileceği kadar a&ccedil;ık bir &ouml;rnekle &ouml;zetleyelim.</p>
-<p>Evrim teorisi canlılığın tesad&uuml;fen oluştuğunu iddia etmektedir. Dolayısıyla bu akıl dışı iddiaya g&ouml;re cansız ve şuursuz atomlar biraraya gelerek &ouml;nce h&uuml;creyi oluşturmuşlardır ve sonrasında aynı atomlar bir şekilde diğer canlıları ve insanı meydana getirmişlerdir. Şimdi d&uuml;ş&uuml;nelim; canlılığın yapıtaşı olan karbon, fosfor, azot, potasyum gibi elementleri biraraya getirdiğimizde bir yığın oluşur. Bu atom yığını, hangi işlemden ge&ccedil;irilirse ge&ccedil;irilsin, tek bir canlı oluşturamaz. İsterseniz bu konuda bir "deney" tasarlayalım ve evrimcilerin aslında savundukları, ama y&uuml;ksek sesle dile getiremedikleri iddiayı onlar adına "Darwin Form&uuml;l&uuml;" adıyla inceleyelim:</p>
-<p>Evrimciler, &ccedil;ok sayıda b&uuml;y&uuml;k varilin i&ccedil;ine canlılığın yapısında bulunan fosfor, azot, karbon, oksijen, demir, magnezyum gibi elementlerden bol miktarda koysunlar. Hatta normal şartlarda bulunmayan ancak bu karışımın i&ccedil;inde bulunmasını gerekli g&ouml;rd&uuml;kleri malzemeleri de bu varillere eklesinler. Karışımların i&ccedil;ine, istedikleri kadar amino asit, istedikleri kadar da protein doldursunlar. Bu karışımlara istedikleri oranda ısı ve nem versinler. Bunları istedikleri gelişmiş cihazlarla karıştırsınlar. Varillerin başına da d&uuml;nyanın &ouml;nde gelen bilim adamlarını koysunlar. Bu uzmanlar babadan oğula, kuşaktan kuşağa aktararak n&ouml;betleşe milyarlarca, hatta trilyonlarca sene s&uuml;rekli varillerin başında beklesinler.</p>
-<p>Bir canlının oluşması i&ccedil;in hangi şartların var olması gerektiğine inanılıyorsa hepsini kullanmak serbest olsun. Ancak, ne yaparlarsa yapsınlar o varillerden kesinlikle bir canlı &ccedil;ıkartamazlar. Z&uuml;rafaları, aslanları, arıları, kanaryaları, b&uuml;lb&uuml;lleri, papağanları, atları, yunusları, g&uuml;lleri, orkideleri, zambakları, karanfilleri, muzları, portakalları, elmaları, hurmaları, domatesleri, kavunları, karpuzları, incirleri, zeytinleri, &uuml;z&uuml;mleri, şeftalileri, tavus kuşlarını, s&uuml;l&uuml;nleri, renk renk kelebekleri ve bunlar gibi milyonlarca canlı t&uuml;r&uuml;nden hi&ccedil;birini oluşturamazlar. Değil burada birka&ccedil;ını saydığımız bu canlı varlıkları, bunların tek bir h&uuml;cresini bile elde edemezler.</p>
-<p>Kısacası, bilin&ccedil;siz <strong>atomlar biraraya gelerek h&uuml;creyi oluşturamazlar.</strong> Sonra yeni bir karar vererek bir h&uuml;creyi ikiye b&ouml;l&uuml;p, sonra art arda başka kararlar alıp, elektron mikroskobunu bulan, sonra kendi h&uuml;cre yapısını bu mikroskop altında izleyen profes&ouml;rleri oluşturamazlar. <strong>Madde, ancak Y&uuml;ce Allah'ın &uuml;st&uuml;n yaratmasıyla hayat bulur.</strong></p>
-<p>Bunun aksini iddia eden evrim teorisi ise, akla tamamen aykırı bir safsatadır. Evrimcilerin ortaya attığı iddialar &uuml;zerinde biraz bile d&uuml;ş&uuml;nmek, &uuml;stteki &ouml;rnekte olduğu gibi, bu ger&ccedil;eği a&ccedil;ık&ccedil;a g&ouml;sterir.</p>
-<p><strong>G&ouml;z ve Kulaktaki Teknoloji</strong></p>
-<p>Evrim teorisinin kesinlikle a&ccedil;ıklama getiremeyeceği bir diğer konu ise g&ouml;z ve kulaktaki &uuml;st&uuml;n algılama kalitesidir.</p>
-<p>G&ouml;zle ilgili konuya ge&ccedil;meden &ouml;nce "Nasıl g&ouml;r&uuml;r&uuml;z?" sorusuna kısaca cevap verelim. Bir cisimden gelen ışınlar, g&ouml;zde retinaya ters olarak d&uuml;şer. Bu ışınlar, buradaki h&uuml;creler tarafından elektrik sinyallerine d&ouml;n&uuml;şt&uuml;r&uuml;l&uuml;r ve beynin arka kısmındaki g&ouml;rme merkezi denilen k&uuml;&ccedil;&uuml;c&uuml;k bir noktaya ulaşır. Bu elektrik sinyalleri bir dizi işlemden sonra beyindeki bu merkezde g&ouml;r&uuml;nt&uuml; olarak algılanır. Bu bilgiden sonra şimdi d&uuml;ş&uuml;nelim:</p>
-<p>Beyin ışığa kapalıdır. Yani beynin i&ccedil;i kapkaranlıktır, ışık beynin bulunduğu yere kadar giremez. G&ouml;r&uuml;nt&uuml; merkezi denilen yer kapkaranlık, ışığın asla ulaşmadığı, belki de hi&ccedil; karşılaşmadığınız kadar karanlık bir yerdir. Ancak siz bu zifiri karanlıkta ışıklı, pırıl pırıl bir d&uuml;nyayı seyretmektesiniz.</p>
-<p>&Uuml;stelik bu o kadar net ve kaliteli bir g&ouml;r&uuml;nt&uuml;d&uuml;r ki 21. y&uuml;zyıl teknolojisi bile her t&uuml;rl&uuml; imkana rağmen bu netliği sağlayamamıştır. &Ouml;rneğin şu anda okuduğunuz kitaba, kitabı tutan ellerinize bakın, sonra başınızı kaldırın ve &ccedil;evrenize bakın. Şu anda g&ouml;rd&uuml;ğ&uuml;n&uuml;z netlik ve kalitedeki bu g&ouml;r&uuml;nt&uuml;y&uuml; başka bir yerde g&ouml;rd&uuml;n&uuml;z m&uuml;? Bu kadar net bir g&ouml;r&uuml;nt&uuml;y&uuml; size d&uuml;nyanın bir numaralı televizyon şirketinin &uuml;rettiği en gelişmiş televizyon ekranı dahi veremez. 100 yıldır binlerce m&uuml;hendis bu netliğe ulaşmaya &ccedil;alışmaktadır. Bunun i&ccedil;in fabrikalar, dev tesisler kurulmakta, araştırmalar yapılmakta, planlar ve tasarımlar geliştirilmektedir. Yine bir TV ekranına bakın, bir de şu anda elinizde tuttuğunuz bu kitaba. Arada b&uuml;y&uuml;k bir netlik ve kalite farkı olduğunu g&ouml;receksiniz. &Uuml;stelik, TV ekranı size iki boyutlu bir g&ouml;r&uuml;nt&uuml; g&ouml;sterir, oysa siz &uuml;&ccedil; boyutlu, derinlikli bir perspektifi izlemektesiniz.</p>
-<p>Uzun yıllardır on binlerce m&uuml;hendis &uuml;&ccedil; boyutlu TV yapmaya, g&ouml;z&uuml;n g&ouml;rme kalitesine ulaşmaya &ccedil;alışmaktadırlar. Evet, &uuml;&ccedil; boyutlu bir televizyon sistemi yapabildiler ama onu da g&ouml;zl&uuml;k takmadan &uuml;&ccedil; boyutlu g&ouml;rmek m&uuml;mk&uuml;n değil, kaldı ki bu suni bir &uuml;&ccedil; boyuttur. Arka taraf daha bulanık, &ouml;n taraf ise kağıttan dekor gibi durur. Hi&ccedil;bir zaman g&ouml;z&uuml;n g&ouml;rd&uuml;ğ&uuml; kadar net ve kaliteli bir g&ouml;r&uuml;nt&uuml; oluşmaz. Kamerada da, televizyonda da mutlaka g&ouml;r&uuml;nt&uuml; kaybı meydana gelir.</p>
-<p>İşte evrimciler, bu kaliteli ve net g&ouml;r&uuml;nt&uuml;y&uuml; oluşturan mekanizmanın tesad&uuml;fen oluştuğunu iddia etmektedirler. Şimdi biri size, odanızda duran televizyon tesad&uuml;fler sonucunda oluştu, atomlar biraraya geldi ve bu g&ouml;r&uuml;nt&uuml; oluşturan aleti meydana getirdi dese ne d&uuml;ş&uuml;n&uuml;rs&uuml;n&uuml;z? Binlerce kişinin biraraya gelip yapamadığını şuursuz atomlar nasıl yapsın?</p>
-<p>G&ouml;z&uuml;n g&ouml;rd&uuml;ğ&uuml;nden daha ilkel olan bir g&ouml;r&uuml;nt&uuml;y&uuml; oluşturan alet tesad&uuml;fen oluşamıyorsa, g&ouml;z&uuml;n ve g&ouml;z&uuml;n g&ouml;rd&uuml;ğ&uuml; g&ouml;r&uuml;nt&uuml;n&uuml;n de tesad&uuml;fen oluşamayacağı &ccedil;ok a&ccedil;ıktır. Aynı durum kulak i&ccedil;in de ge&ccedil;erlidir. Dış kulak, &ccedil;evredeki sesleri kulak kep&ccedil;esi vasıtasıyla toplayıp orta kulağa iletir; orta kulak aldığı ses titreşimlerini g&uuml;&ccedil;lendirerek i&ccedil; kulağa aktarır; i&ccedil; kulak da bu titreşimleri elektrik sinyallerine d&ouml;n&uuml;şt&uuml;rerek beyne g&ouml;nderir. Aynen g&ouml;rmede olduğu gibi duyma işlemi de beyindeki duyma merkezinde ger&ccedil;ekleşir.</p>
-<p>G&ouml;zdeki durum kulak i&ccedil;in de ge&ccedil;erlidir, yani beyin, ışık gibi sese de kapalıdır, ses ge&ccedil;irmez. Dolayısıyla dışarısı ne kadar g&uuml;r&uuml;lt&uuml;l&uuml; de olsa beynin i&ccedil;i tamamen sessizdir. Buna rağmen en net sesler beyinde algılanır. Ses ge&ccedil;irmeyen beyninizde bir orkestranın senfonilerini dinlersiniz, kalabalık bir ortamın t&uuml;m g&uuml;r&uuml;lt&uuml;s&uuml;n&uuml; duyarsınız. Ama o anda hassas bir cihazla beyninizin i&ccedil;indeki ses d&uuml;zeyi &ouml;l&ccedil;&uuml;lse, burada keskin bir sessizliğin hakim olduğu g&ouml;r&uuml;lecektir.</p>
-<p>Net bir g&ouml;r&uuml;nt&uuml; elde edebilmek &uuml;midiyle teknoloji nasıl kullanılıyorsa, ses i&ccedil;in de aynı &ccedil;abalar onlarca yıldır s&uuml;rd&uuml;r&uuml;lmektedir. Ses kayıt cihazları, m&uuml;zik setleri, bir&ccedil;ok elektronik alet, sesi algılayan m&uuml;zik sistemleri bu &ccedil;alışmalardan bazılarıdır. Ancak, t&uuml;m teknolojiye, bu teknolojide &ccedil;alışan binlerce m&uuml;hendise ve uzmana rağmen kulağın oluşturduğu netlik ve kalitede bir sese ulaşılamamıştır. En b&uuml;y&uuml;k m&uuml;zik sistemi şirketinin &uuml;rettiği en kaliteli m&uuml;zik setini d&uuml;ş&uuml;n&uuml;n. Sesi kaydettiğinde mutlaka sesin bir kısmı kaybolur veya az da olsa mutlaka parazit oluşur veya m&uuml;zik setini a&ccedil;tığınızda daha m&uuml;zik başlamadan bir cızırtı mutlaka duyarsınız. Ancak insan v&uuml;cudundaki teknolojinin &uuml;r&uuml;n&uuml; olan sesler son derece net ve kusursuzdur. Bir insan kulağı, hi&ccedil;bir zaman m&uuml;zik setinde olduğu gibi cızırtılı veya parazitli algılamaz; ses ne ise tam ve net bir bi&ccedil;imde onu algılar. Bu durum, insan yaratıldığı g&uuml;nden bu yana b&ouml;yledir.</p>
-<p>Şimdiye kadar insanoğlunun yaptığı hi&ccedil;bir g&ouml;r&uuml;nt&uuml; ve ses cihazı, g&ouml;z ve kulak kadar hassas ve başarılı birer algılayıcı olamamıştır. Ancak g&ouml;rme ve işitme olayında, t&uuml;m bunların &ouml;tesinde, &ccedil;ok b&uuml;y&uuml;k bir ger&ccedil;ek daha vardır.</p>
-<p><strong>Beynin İ&ccedil;inde G&ouml;ren ve Duyan Şuur Kime Aittir?</strong></p>
-<p>Beynin i&ccedil;inde, ışıl ışıl renkli bir d&uuml;nyayı seyreden, senfonileri, kuşların cıvıltılarını dinleyen, g&uuml;l&uuml; koklayan kimdir?</p>
-<p>İnsanın g&ouml;zlerinden, kulaklarından, burnundan gelen uyarılar, elektrik sinyali olarak beyne gider. Biyoloji, fizyoloji veya biyokimya kitaplarında bu g&ouml;r&uuml;nt&uuml;n&uuml;n beyinde nasıl oluştuğuna dair bir&ccedil;ok detay okursunuz. Ancak, bu konu hakkındaki en &ouml;nemli ger&ccedil;eğe hi&ccedil;bir yerde rastlayamazsınız: Beyinde, bu elektrik sinyallerini g&ouml;r&uuml;nt&uuml;, ses, koku ve his olarak algılayan kimdir?</p>
-<p>Beynin i&ccedil;inde g&ouml;ze, kulağa, burna ihtiya&ccedil; duymadan t&uuml;m bunları algılayan bir şuur bulunmaktadır. Bu şuur kime aittir?</p>
-<p>Elbette bu şuur beyni oluşturan sinirler, yağ tabakası ve sinir h&uuml;crelerine ait değildir. İşte bu y&uuml;zden, herşeyin maddeden ibaret olduğunu zanneden Darwinist-materyalistler bu sorulara hi&ccedil;bir cevap verememektedirler. &Ccedil;&uuml;nk&uuml; bu şuur, Allah'ın yaratmış olduğu ruhtur. Ruh, g&ouml;r&uuml;nt&uuml;y&uuml; seyretmek i&ccedil;in g&ouml;ze, sesi duymak i&ccedil;in kulağa ihtiya&ccedil; duymaz. Bunların da &ouml;tesinde d&uuml;ş&uuml;nmek i&ccedil;in beyne ihtiya&ccedil; duymaz.</p>
-<p>Bu a&ccedil;ık ve ilmi ger&ccedil;eği okuyan her insanın, beynin i&ccedil;indeki birka&ccedil; santimetrek&uuml;pl&uuml;k, kapkaranlık mekana t&uuml;m kainatı &uuml;&ccedil; boyutlu, renkli, g&ouml;lgeli ve ışıklı olarak sığdıran Y&uuml;ce Allah'ı d&uuml;ş&uuml;n&uuml;p, O'ndan korkup, O'na sığınması gerekir.</p>
-<p><strong>Materyalist Bir İnan&ccedil;</strong></p>
-<p>Buraya kadar incelediklerimiz, evrim teorisinin bilimsel bulgularla a&ccedil;ık&ccedil;a &ccedil;elişen bir iddia olduğunu g&ouml;stermektedir. Teorinin hayatın k&ouml;keni hakkındaki iddiası bilime aykırıdır, &ouml;ne s&uuml;rd&uuml;ğ&uuml; evrim mekanizmalarının hi&ccedil;bir evrimleştirici etkisi yoktur ve fosiller teorinin gerektirdiği ara formların yaşamadıklarını g&ouml;stermektedir. Bu durumda, elbette, evrim teorisinin bilime aykırı bir d&uuml;ş&uuml;nce olarak bir kenara atılması gerekir. Nitekim tarih boyunca d&uuml;nya merkezli evren modeli gibi pek &ccedil;ok d&uuml;ş&uuml;nce, bilimin g&uuml;ndeminden &ccedil;ıkarılmıştır. Ama evrim teorisi ısrarla bilimin g&uuml;ndeminde tutulmaktadır. Hatta bazı insanlar teorinin eleştirilmesini "bilime saldırı" olarak g&ouml;stermeye bile &ccedil;alışmaktadırlar. Peki neden?..</p>
-<p>Bu durumun nedeni, evrim teorisinin bazı &ccedil;evreler i&ccedil;in, kendisinden asla vazge&ccedil;ilemeyecek dogmatik bir inanış oluşudur. Bu &ccedil;evreler, materyalist felsefeye k&ouml;r&uuml; k&ouml;r&uuml;ne bağlıdırlar ve Darwinizm'i de doğaya getirilebilecek yegane materyalist a&ccedil;ıklama olduğu i&ccedil;in benimsemektedirler.</p>
-<p>Bazen bunu a&ccedil;ık&ccedil;a itiraf da ederler. Harvard &Uuml;niversitesi'nden &uuml;nl&uuml; bir genetik&ccedil;i ve aynı zamanda &ouml;nde gelen bir evrimci olan Richard Lewontin, "&ouml;nce materyalist, sonra bilim adamı" olduğunu ş&ouml;yle itiraf etmektedir:</p>
-<p>Bizim materyalizme bir inancımız var, 'a priori' (&ouml;nceden kabul edilmiş, doğru varsayılmış) bir inan&ccedil; bu. Bizi d&uuml;nyaya materyalist bir a&ccedil;ıklama getirmeye zorlayan şey, bilimin y&ouml;ntemleri ve kuralları değil. Aksine, materyalizme olan 'a priori' bağlılığımız nedeniyle, d&uuml;nyaya materyalist bir a&ccedil;ıklama getiren araştırma y&ouml;ntemlerini ve kavramları kurguluyoruz. Materyalizm mutlak doğru olduğuna g&ouml;re de, İlahi bir a&ccedil;ıklamanın sahneye girmesine izin veremeyiz. (Richard Lewontin, <em>"The Demon-Haunted World"</em>, The New York Review of Books, 9 Ocak, 1997, s. 28.)</p>
-<p>Bu s&ouml;zler, Darwinizm'in, materyalist felsefeye bağlılık uğruna yaşatılan bir dogma olduğunun a&ccedil;ık ifadeleridir. Bu dogma, maddeden başka hi&ccedil;bir varlık olmadığını varsayar. Bu nedenle de cansız, bilin&ccedil;siz maddenin, hayatı var ettiğine inanır. Milyonlarca farklı canlı t&uuml;r&uuml;n&uuml;n; &ouml;rneğin kuşların, balıkların, z&uuml;rafaların, kaplanların, b&ouml;ceklerin, ağa&ccedil;ların, &ccedil;i&ccedil;eklerin, balinaların ve insanların maddenin kendi i&ccedil;indeki etkileşimlerle, yani yağan yağmurla, &ccedil;akan şimşekle, cansız maddenin i&ccedil;inden oluştuğunu kabul eder. Ger&ccedil;ekte ise bu, hem akla hem bilime aykırı bir kabuld&uuml;r. Ama Darwinistler kendilerince Allah'ın apa&ccedil;ık olan varlığını kabul etmemek i&ccedil;in, bu akıl ve bilim dışı kabul&uuml; cehaletle savunmaya devam etmektedirler.</p>
-<p>Canlıların k&ouml;kenine materyalist bir &ouml;n yargı ile bakmayan insanlar ise, şu a&ccedil;ık ger&ccedil;eği g&ouml;r&uuml;rler: T&uuml;m canlılar, &uuml;st&uuml;n bir g&uuml;&ccedil;, bilgi ve akla sahip olan bir Yaratıcının eseridirler. Yaratıcı, t&uuml;m evreni yoktan var eden, en kusursuz bi&ccedil;imde d&uuml;zenleyen ve t&uuml;m canlıları yaratıp şekillendiren Allah'tır.</p>
-<p><strong>Evrim Teorisi D&uuml;nya Tarihinin En Etkili B&uuml;y&uuml;s&uuml;d&uuml;r</strong></p>
-<p>Burada şunu da belirtmek gerekir ki, &ouml;n yargısız, hi&ccedil;bir ideolojinin etkisi altında kalmadan, sadece aklını ve mantığını kullanan her insan, bilim ve medeniyetten uzak toplumların hurafelerini andıran evrim teorisinin inanılması imkansız bir iddia olduğunu kolaylıkla anlayacaktır.</p>
-<p>Yukarıda da belirtildiği gibi, evrim teorisine inananlar, b&uuml;y&uuml;k bir varilin i&ccedil;ine bir&ccedil;ok atomu, molek&uuml;l&uuml;, cansız maddeyi dolduran ve bunların karışımından zaman i&ccedil;inde d&uuml;ş&uuml;nen, akleden, buluşlar yapan profes&ouml;rlerin, &uuml;niversite &ouml;ğrencilerinin, Einstein, Hubble gibi bilim adamlarının, Frank Sinatra, Charlton Heston gibi sanat&ccedil;ıların, bunun yanı sıra ceylanların, limon ağa&ccedil;larının, karanfillerin &ccedil;ıkacağına inanmaktadırlar. &Uuml;stelik, bu sa&ccedil;ma iddiaya inananlar bilim adamları, profes&ouml;rler, k&uuml;lt&uuml;rl&uuml;, eğitimli insanlardır. Bu nedenle evrim teorisi i&ccedil;in "d&uuml;nya tarihinin en b&uuml;y&uuml;k ve en etkili b&uuml;y&uuml;s&uuml;" ifadesini kullanmak yerinde olacaktır. &Ccedil;&uuml;nk&uuml;, d&uuml;nya tarihinde insanların bu derece aklını başından alan, akıl ve mantıkla d&uuml;ş&uuml;nmelerine imkan tanımayan, g&ouml;zlerinin &ouml;n&uuml;ne sanki bir perde &ccedil;ekip &ccedil;ok a&ccedil;ık olan ger&ccedil;ekleri g&ouml;rmelerine engel olan bir başka inan&ccedil; veya iddia daha yoktur. Bu, Afrikalı bazı kabilelerin totemlere, Sebe halkının G&uuml;neş'e tapmasından, Hz. İbrahim (as)'ın kavminin elleri ile yaptıkları putlara, Hz. Musa (as)'ın kavminin i&ccedil;inden bazı insanların altından yaptıkları buzağıya tapmalarından &ccedil;ok daha vahim ve akıl almaz bir k&ouml;rl&uuml;kt&uuml;r. Ger&ccedil;ekte bu durum, Allah'ın Kuran'da işaret ettiği bir akılsızlıktır. Allah, bazı insanların anlayışlarının kapanacağını ve ger&ccedil;ekleri g&ouml;rmekten aciz duruma d&uuml;şeceklerini bir&ccedil;ok ayetinde bildirmektedir. Bu ayetlerden bazıları ş&ouml;yledir:</p>
-<p><strong>Ş&uuml;phesiz, inkar edenleri uyarsan da, uyarmasan da, onlar i&ccedil;in fark etmez; inanmazlar. Allah, onların kalplerini ve kulaklarını m&uuml;h&uuml;rlemiştir; g&ouml;zlerinin &uuml;zerinde perdeler vardır. Ve b&uuml;y&uuml;k azap onlaradır. (Bakara Suresi, 6-7)</strong></p>
-<p>&hellip; <strong>Kalpleri vardır bununla kavrayıp-anlamazlar, g&ouml;zleri vardır bununla g&ouml;rmezler, kulakları vardır bununla işitmezler. Bunlar hayvanlar gibidir, hatta daha aşağılıktırlar. İşte bunlar gafil olanlardır. (Araf Suresi, 179)</strong></p>
-<p>Allah, Hicr Suresi'nde ise, bu insanların mucizeler g&ouml;rseler bile inanmayacak kadar b&uuml;y&uuml;lendiklerini ş&ouml;yle bildirmektedir:</p>
-<p><strong>Onların &uuml;zerlerine g&ouml;ky&uuml;z&uuml;nden bir kapı a&ccedil;sak, ordan yukarı y&uuml;kselseler de, mutlaka: "G&ouml;zlerimiz d&ouml;nd&uuml;r&uuml;ld&uuml;, belki biz b&uuml;y&uuml;lenmiş bir topluluğuz" diyeceklerdir. (Hicr Suresi, 14-15)</strong></p>
-<p>Bu kadar geniş bir kitlenin &uuml;zerinde bu b&uuml;y&uuml;n&uuml;n etkili olması, insanların ger&ccedil;eklerden bu kadar uzak tutulmaları ve 150 yıldır bu b&uuml;y&uuml;n&uuml;n bozulmaması ise, kelimelerle anlatılamayacak kadar hayret verici bir durumdur. &Ccedil;&uuml;nk&uuml;, bir veya birka&ccedil; insanın imkansız senaryolara, sa&ccedil;malık ve mantıksızlıklarla dolu iddialara inanmaları anlaşılabilir. Ancak d&uuml;nyanın d&ouml;rt bir yanındaki insanların, şuursuz ve cansız atomların ani bir kararla biraraya gelip; olağan&uuml;st&uuml; bir organizasyon, disiplin, akıl ve şuur g&ouml;sterip kusursuz bir sistemle işleyen evreni, canlılık i&ccedil;in uygun olan her t&uuml;rl&uuml; &ouml;zelliğe sahip olan D&uuml;nya gezegenini ve sayısız kompleks sistemle donatılmış canlıları meydana getirdiğine inanmasının, "b&uuml;y&uuml;"den başka bir a&ccedil;ıklaması yoktur.</p>
-<p>Nitekim, Allah Kuran'da, inkarcı felsefenin savunucusu olan bazı kimselerin, yaptıkları b&uuml;y&uuml;lerle insanları etkilediklerini Hz. Musa (as) ve Firavun arasında ge&ccedil;en bir olayla bizlere bildirmektedir. Hz. Musa (as), Firavun'a hak dini anlattığında, Firavun Hz. Musa (as)'a, kendi "bilgin b&uuml;y&uuml;c&uuml;leri" ile insanların toplandığı bir yerde karşılaşmasını s&ouml;yler. Hz. Musa (as), b&uuml;y&uuml;c&uuml;lerle karşılaştığında, b&uuml;y&uuml;c&uuml;lere &ouml;nce onların marifetlerini sergilemelerini emreder. Bu olayın anlatıldığı ayet ş&ouml;yledir:</p>
-<p><strong>(Musa:) "Siz atın" dedi. (Asalarını) atıverince, insanların g&ouml;zlerini b&uuml;y&uuml;leyiverdiler, onları dehşete d&uuml;ş&uuml;rd&uuml;ler ve (ortaya) b&uuml;y&uuml;k bir sihir getirmiş oldular. (Araf Suresi, 116)</strong></p>
-<p>G&ouml;r&uuml;ld&uuml;ğ&uuml; gibi Firavun'un b&uuml;y&uuml;c&uuml;leri yaptıkları "aldatmacalar"la -Hz. Musa (as) ve ona inananlar dışında- insanların hepsini b&uuml;y&uuml;leyebilmişlerdir. Ancak, onların attıklarına karşılık Hz. Musa (as)'ın ortaya koyduğu delil, onların bu b&uuml;y&uuml;s&uuml;n&uuml;, ayette bildirildiği gibi "uydurduklarını yutmuş" yani etkisiz kılmıştır:</p>
-<p><strong>Biz de Musa'ya: "Asanı fırlatıver" diye vahyettik. (O da fırlatıverince) bir de baktılar ki, o b&uuml;t&uuml;n uydurduklarını derleyip-toparlayıp yutuyor. B&ouml;ylece hak yerini buldu, onların b&uuml;t&uuml;n yapmakta oldukları ge&ccedil;ersiz kaldı. Orada yenilmiş oldular ve k&uuml;&ccedil;&uuml;k d&uuml;şm&uuml;şler olarak tersy&uuml;z &ccedil;evrildiler. (Araf Suresi, 117-119)</strong></p>
-<p>Ayetlerde de bildirildiği gibi, daha &ouml;nce insanları b&uuml;y&uuml;leyerek etkileyen bu kişilerin yaptıklarının bir sahtekarlık olduğunun anlaşılması ile, s&ouml;z konusu insanlar k&uuml;&ccedil;&uuml;k d&uuml;şm&uuml;şlerdir. G&uuml;n&uuml;m&uuml;zde de bir b&uuml;y&uuml;n&uuml;n etkisiyle, bilimsellik kılıfı altında son derece sa&ccedil;ma iddialara inanan ve bunları savunmaya hayatlarını adayanlar, eğer bu iddialardan vazge&ccedil;mezlerse ger&ccedil;ekler tam anlamıyla a&ccedil;ığa &ccedil;ıktığında ve "b&uuml;y&uuml; bozulduğunda" k&uuml;&ccedil;&uuml;k duruma d&uuml;şeceklerdir. Nitekim, yaklaşık 60 yaşına kadar evrimi savunan ve ateist bir felsefeci olan, ancak daha sonra ger&ccedil;ekleri g&ouml;ren Malcolm Muggeridge evrim teorisinin yakın gelecekte d&uuml;şeceği durumu ş&ouml;yle a&ccedil;ıklamaktadır:</p>
-<p><strong>Ben kendim, evrim teorisinin, &ouml;zellikle uygulandığı alanlarda, geleceğin tarih kitaplarındaki en b&uuml;y&uuml;k espri malzemelerinden biri olacağına ikna oldum.</strong> Gelecek kuşak, bu kadar &ccedil;&uuml;r&uuml;k ve belirsiz bir hipotezin inanılmaz bir saflıkla kabul edilmesini hayretle karşılayacaktır. (Malcolm Muggeridge, The End of Christendom, Grand Rapids: Eerdmans, 1980, s. 43)</p>
-<p>Bu gelecek, uzakta değildir aksine &ccedil;ok yakın bir gelecekte insanlar "tesad&uuml;fler"in ilah olamayacaklarını anlayacaklar ve evrim teorisi d&uuml;nya tarihinin en b&uuml;y&uuml;k aldatmacası ve en şiddetli b&uuml;y&uuml;s&uuml; olarak tanımlanacaktır. Bu şiddetli b&uuml;y&uuml;, b&uuml;y&uuml;k bir hızla d&uuml;nyanın d&ouml;rt bir yanında insanların &uuml;zerinden kalkmaya başlamıştır. Artık evrim aldatmacasının sırrını &ouml;ğrenen bir&ccedil;ok insan, bu aldatmacaya nasıl kandığını hayret ve şaşkınlıkla d&uuml;ş&uuml;nmektedir.</p>
-<p><strong>Dediler ki: "Sen Y&uuml;cesin, bize &ouml;ğrettiğinden başka bizim hi&ccedil;bir bilgimiz yok. Ger&ccedil;ekten Sen, herşeyi bilen, h&uuml;k&uuml;m ve hikmet sahibi olansın." (Bakara Suresi, 32)</strong></p>
-<p><strong>NOTLAR</strong></p>
-<p>1. Stephen Hawking&rsquo;in Evreni, David Filkin, BBC Books, Aksoy Yayıncılık, Aralık1998, s. 90</p>
-<p>2. Stephen Hawking, Evreni Kucaklayan Karınca, Alkım Kitap&ccedil;ılık ve Yayıncılık, 1993, s. 62-63</p>
-<p>3. Henry Margenau, Roy Abraham Vargesse. Cosmos, Bios, Theos. La Salla IL: OpeN Court Publishing, 1992, s. 241</p>
-<p>4. H. P. Lipson, "A Physicist Looks at Evolution", Physics Bulletin, vol. 138, 1980, s. 138</p>
-<p>5. Taşkın Tuna, Uzayın Sırları, Boğazi&ccedil;i Yayınları, s.185</p>
-<p>6. Colin A. Ronan, The Universe Explained, The Earth-Dwellers's Guide to the mysteries of Space, Henry Holtand Company, s. 178, 179</p>
-<p>7. Taşkın Tuna, Uzayın Sırları, Boğazi&ccedil;i Yayınları, s.186</p>
-<p>8. Steven Weinberg, İlk &Uuml;&ccedil; Dakika, (The First Three Minutes), T&Uuml;BİTAK Pop&uuml;ler Bilim Kitapları serisi, 1995, s. 84</p>
-<p>9. Stephen Hawking, Zamanın Kısa Tarihi, Milliyet, s.9</p>
-<p>10. Hugh Ross, The Creator and the Cosmos, How Greatest Scientific Discoveries of the Century Reveal God, Colorado: NavPress, revised edition, 1995, s. 76</p>
-<p>11. Michael Denton, Nature&rsquo;s Destiny:How The Laws of Biology Reveal Purpose in the Universe, The New York: The Free Press,1998, s.12-13</p>
-<p>12. Paul Davies, The Accidental Universe, Cambridge: Cambridge University Press, 1982, &Ouml;ns&ouml;z.</p>
-<p>13. Jean Guitton, Tanrı ve Bilim, Simavi Yayınları, 1993, s. 62</p>
-<p>14. Jean Guitton, Tanrı ve Bilim, Simavi Yayınları, 1993, s. 62</p>
-<p>15. Jean Guitton, Tanrı ve Bilim, Simavi Yayınları, 1993, s. 62</p>
-<p>16. &Uuml;mit Şimşek, Atom, Yeni Asya Yayınları, s.7</p>
-<p>17. Taşkın Tuna, Uzayın &Ouml;tesi, Boğazi&ccedil;i Yayınları, 1995, s. 53</p>
-<p>18. Jean Guitton, Tanrı ve Bilim, Simavi Yayınları, 1993, s. 62</p>
-<p>19. Taşkın Tuna, Uzayın &Ouml;tesi, Boğazi&ccedil;i Yayınları, 1995, s. 52</p>
-<p>20. Stephen Hawking'in Evreni, David Filkin, BBC Books, Aksoy Yayıncılık, s 142, 143</p>
-<p>21. Richard Feynman, Fizik Yasaları &Uuml;zerine, T&Uuml;BİTAK Yayınları, s. 150</p>
-<p>22. Richard Feynman, Fizik Yasaları &Uuml;zerine, T&Uuml;BİTAK Yayınları, s. 151</p>
-<p>23. Jean Guitton, Tanrı ve Bilim, Simavi Yayınları, s. 5</p>
-<p>24. Stephen Hawking, Zamanın Kısa Tarihi, Milliyet Yayınları, s. 117</p>
-<p>25. Martin Sherwood &amp; Christine Sulton, The Physical World, Oxford University Press, 1988, s. 81</p>
-<p>26. Martin Sherwood &amp; Christine Sulton, The Physical World, Oxford University Press, 1988, s. 82</p>
-<p>27. Martin Sherwood &amp; Christine Sulton, The Physical World, Oxford University Press, 1988, s. 79</p>
-<p>28. Vlasov Trifonov, 107 Kimya &Ouml;yk&uuml;s&uuml;, T&Uuml;BİTAK Yayınları, s. 117</p>
-<p>29. Vlasov Trifonov, 107 Kimya &Ouml;yk&uuml;s&uuml;, T&Uuml;BİTAK Yayınları, s. 118</p>
-<p>30. David Burnie, Life, Eyewitness Science, London: Dorling Kindersley, 1996, s.8</p>
-<p>31. Nevil V.Sidgwick, The Chemical Elements and Their Compounds, vol.1, Oxford: Oxford University Press, 1950, s.490</p>
-<p>32. Martin Sherwood &amp; Christine Sulton, The Physical World, Oxford University Press, 1988, s. 30</p>
-<p>33. Structure of Matter, The Time Inc. Book Company, s. 70, 1992</p>
-<p>34. Molecules, Scientific American Library, P.W. Atkins, s. 115</p>
-<p>35. Molecules, Scientific American Library, P.W. Atkins, s. 128</p>
-<p>36. Molecules, Scientific American Library, P.W. Atkins, s. 130</p>
-<p>37. Molecules, Scientific American Library, P.W. Atkins, s. 93</p>
-<p>38. Taşkın Tuna, Uzayın &Ouml;tesi, Boğazi&ccedil;i Yayınları, 1995, s. 166</p>
-<p>39. Henry M. Morris, Impact No. 111, Eyl&uuml;l 1982</p>
-<p>40. Prof.Dr. Carl Sagan, Cosmos, s.37</p>
-<p>41. Darlington C.D.,Evolution for Naturalists, (NY, John Wiley, 1980) s.15</p>
-<p>42. The Necessity of Darwinism, New Scientist, Vol 94, April 15, 1982, s. 130</p>
-<p>43. Dr. Gary Parker, Impact No: 62, Ağustos 1978</p>
-<p>44. Jean Guitton, Tanrı ve Bilim, s.38</p>
-<p>45. Michael Behe, Darwin&rsquo;s Black Box, s.8</p>
-<p>46. Th&eacute;ma Larousse, Tematik Ansiklopedi Bilim ve Teknoloji, Evren ve D&uuml;nya, Matematik, Fizik, Kimya, Teknoloji, s. 300</p>
-<p><strong>RESİM ALTI YAZILARI</strong></p>
-<p>s.12</p>
-<p>Sir Fred Hoyle</p>
-<p>s.13</p>
-<p>Evren b&uuml;y&uuml;k bir patlama ile yokluktan var olmuştur. Bu patlamanın ilk anından itibaren oluşan b&uuml;t&uuml;n par&ccedil;acıkların ve meydana &ccedil;ıkan b&uuml;t&uuml;n kuvvetlerin b&uuml;y&uuml;k bir uyum ve denge i&ccedil;inde dağılması sonucunda evrenin şu anki kusursuz sistemi oluşmuştur.</p>
-<p>s.14</p>
-<p>Georges Lemaitre</p>
-<p>Edwin Hubble</p>
-<p>Alpha Centauri yıldızlarının ışıklarının kızıl ve maviye kaymaları, bu yıldızların birbirlerinin y&ouml;r&uuml;ngelerinde hareket ettiklerini ortaya &ccedil;ıkarmıştır. Yapılan g&ouml;zlemler y&ouml;r&uuml;ngelerin 80 yılda tamamlandığını g&ouml;stermiştir.</p>
-<p>s.15</p>
-<p>Albert Einstein Edwin Hubble'ın g&ouml;zlem yaptığı Wilson g&ouml;zlemevine bir ziyaret sırasında.</p>
-<p>s.16</p>
-<p>Doppler etkisine g&ouml;re galaksi d&uuml;nyadan sabit bir uzaklıktaysa ışık dalgalarının spektrumu sabit g&ouml;z&uuml;kecektir (&uuml;stte), galaksi bizden uzaklaşıyorsa dalgalar uzayacak, kızıla kayacaktır (ortada), galaksi bize doğru yaklaşıyorsa dalgalar sıkışmış g&ouml;z&uuml;kecek ve maviye kayacaktır. (altta)</p>
-<p>George Gamov</p>
-<p>s.17</p>
-<p>Arno Penzias ve Robert Bob Wilson'un kozmik fon radyasyonunu ilk keşfettikleri Bell Laboratuvarı'ndaki dev boynuz anten.</p>
-<p>Penzias ve Wilson bu keşiflerinden dolayı 1978 yılında Nobel &ouml;d&uuml;l&uuml; aldılar.</p>
-<p>George Smoot</p>
-<p>s.18</p>
-<p>Evrenin b&uuml;y&uuml;k bir patlama sonucu oluştuğunu delillendiren COBE uydusunun fırlatılış anı</p>
-<p>s.24</p>
-<p>Ne maddenin, ne de zamanın var olmadığı ve patlamanın ger&ccedil;ekleştiği "0" anından sonra Evren ve onun yapı taşı olan atomlar &ccedil;ok b&uuml;y&uuml;k bir d&uuml;zen i&ccedil;inde yoktan var edilmişlerdir.</p>
-<p>3 DAKİKA</p>
-<p>Protonlar ve n&ouml;tronlar atom &ccedil;ekirdeğini meydana getirirler.</p>
-<p>s.25</p>
-<p>Atom</p>
-<p>Elektron</p>
-<p>N&ouml;trino</p>
-<p>Helyum &Ccedil;ekirdeği</p>
-<p>N&ouml;tron</p>
-<p>D&ouml;teryum &Ccedil;ekirdeği</p>
-<p>Proton</p>
-<p>Hadron</p>
-<p>Kuark</p>
-<p>Yer&ccedil;ekimi</p>
-<p>Elektromanyetizma</p>
-<p>Zayıf N&uuml;kleer Kuvvet</p>
-<p>G&uuml;&ccedil;l&uuml; N&uuml;kleer Kuvvet</p>
-<p>Antikuark</p>
-<p>Tekillik</p>
-<p>Birleşik Kuvvetler</p>
-<p>1. SANİYE</p>
-<p>Kuarklar proton, n&ouml;tron, elektron ve n&ouml;trinoları oluşturur</p>
-<p>10<sup>-6</sup> SANİYE</p>
-<p>Antimadde ve maddenin birbirlerini yok etmeleri</p>
-<p>10<sup>-35 </sup>ile 10<sup>-32</sup> SANİYE ARASI</p>
-<p>10<sup>-43</sup> SANİYE</p>
-<p>Planck zamanı</p>
-<p>s.26</p>
-<p>G&ouml;rmedin mi ki, ger&ccedil;ekten, g&ouml;klerde ve yerde olanlar, g&uuml;neş, ay, yıldızlar, dağlar, ağa&ccedil;lar, hayvanlar ve insanlardan bir&ccedil;oğu Allah'a secde etmektedirler. Bir&ccedil;oğu &uuml;zerine azap hak olmuştur. Allah kimi aşağılık kılarsa, artık onun i&ccedil;in bir y&uuml;celtici yoktur. Ş&uuml;phesiz Allah, dilediğini yapar. (Hac Suresi, 18)</p>
-<p>s.28</p>
-<p>Steven Weinberg</p>
-<p>s.29</p>
-<p>Hidrojen Atomu</p>
-<p>Helyum Atomu</p>
-<p>s.31</p>
-<p>Geceyi, g&uuml;nd&uuml;z&uuml;, g&uuml;neşi ve ayı sizin emrinize verdi; yıldızlar da O'nun emriyle emre hazır kılınmıştır. Ş&uuml;phesiz bunda, aklını kullanabilen bir topluluk i&ccedil;in ayetler vardır. (Nahl Suresi, 12)</p>
-<p>s.35</p>
-<p>Yer&ccedil;ekiminin olmadığı bir ortamda ancak &ouml;zel d&uuml;zenekler kullanılarak belli bir s&uuml;re kalınabilir. &Ccedil;&uuml;nk&uuml; canlılar ancak yer&ccedil;ekiminin var olduğu bir sistemde hayatını devam ettirebilir.</p>
-<p>s.36</p>
-<p>T&uuml;m evrende yer&ccedil;ekimi gibi temel kuvvetlerin &uuml;zerine kurulmuş &uuml;st&uuml;n bir tasarım ve kusursuz bir d&uuml;zen h&uuml;k&uuml;m s&uuml;rmektedir. Bu d&uuml;zenin Sahibi elbette her şeyi kusursuzca yoktan var eden Allah'tır. &Ccedil;ağdaş fizik ve astronominin en &ouml;nde gelen kurucusu ve "yaşamış en b&uuml;y&uuml;k bilim adamı" sayılan Isaac Newton (1642-1727) bu ger&ccedil;eği şu şekilde ifade eder:</p>
-<p>"G&uuml;neş sisteminin, gezegenlerin ve kuyruklu yıldızların harika sistemleri yalnızca akıllı ve g&uuml;&ccedil;l&uuml; bir varlığın kudretiyle s&uuml;rebilir. Bu varlık her şeyi y&ouml;netir, yalnızca d&uuml;nyanın ruhunu değil, her şeyi, O Allah'tır."</p>
-<p>s.40</p>
-<p>&Ccedil;ekirdek, proton ve elektronlardan oluşan atomun her par&ccedil;asını &uuml;&ccedil;l&uuml; bir kuark grubu meydana getirir.</p>
-<p>Atom</p>
-<p>s.41</p>
-<p>&Uuml;&ccedil;l&uuml; kuark grubu ve merkezinde bulunan iplik&ccedil;ikler</p>
-<p>s.42</p>
-<p>Manş Denizi</p>
-<p>Almanya</p>
-<p>&Ccedil;ek Cumhuriyeti</p>
-<p>Avusturya</p>
-<p>İsvi&ccedil;re</p>
-<p>Fransa</p>
-<p>Biskay K&ouml;rfezi</p>
-<p>Portekiz</p>
-<p>İspanya</p>
-<p>Balear Adaları</p>
-<p>Atomun protonu ile elektronları arasındaki boşluk, yukarıdaki haritada işaretli alan kadar geniştir.</p>
-<p>s.43</p>
-<p>karbon -14</p>
-<p>6 proton 8 n&ouml;tron</p>
-<p>N&ouml;tron</p>
-<p>Elektron</p>
-<p>Proton</p>
-<p>N&ouml;trino</p>
-<p>Foton</p>
-<p>nitrojen -14</p>
-<p>7 proton, 7 n&ouml;tron</p>
-<p>s.45</p>
-<p>topaz</p>
-<p>pirit</p>
-<p>titanyum</p>
-<p>al&ccedil;ı taşı</p>
-<p>sarı safir</p>
-<p>kalsit</p>
-<p>mavi safir</p>
-<p>talk</p>
-<p>topaz</p>
-<p>bakır</p>
-<p>zımpara taşı</p>
-<p>fl&uuml;orit</p>
-<p>demir</p>
-<p>galen</p>
-<p>quartz</p>
-<p>k&ouml;m&uuml;r</p>
-<p>baryum s&uuml;lfat</p>
-<p>elmas</p>
-<p>apatit</p>
-<p>feldispat</p>
-<p>kaya tuzu</p>
-<p>feldispat</p>
-<p>quartz</p>
-<p>altın</p>
-<p>Elementleri temelde birbirlerinden farklı kılan şey atomlarının &ccedil;ekirdeklerindeki proton sayılarıdır. Burada g&ouml;r&uuml;len maddeleri birbirinden bu denli değişik kılan işte bu farklılıktır.</p>
-<p>s.46</p>
-<p>Atomun &ccedil;ekirdeğindeki proton ve n&ouml;tronlar kuark adı verilen daha k&uuml;&ccedil;&uuml;k par&ccedil;acıkların biraraya gelmesiyle oluşurlar.</p>
-<p>s.47</p>
-<p>10<sup>-9</sup>m</p>
-<p>molek&uuml;l</p>
-<p>10<sup>-10</sup>m</p>
-<p>atom</p>
-<p>10<sup>-14</sup>m</p>
-<p>atom &ccedil;ekirdeği</p>
-<p>10<sup>-15</sup>m</p>
-<p>proton</p>
-<p>10<sup>-18</sup>m</p>
-<p>electron</p>
-<p>10<sup>-18</sup>m</p>
-<p>kuark</p>
-<p>Atomun yapısından kuark'ın yapısına: Modern hızlandırıcılar kullanılarak, atomu oluşturan en k&uuml;&ccedil;&uuml;k par&ccedil;acıkları incelemek m&uuml;mk&uuml;nd&uuml;r. &Uuml;stteki resim bu ilişkiyi boyutuna g&ouml;re g&ouml;steriyor.</p>
-<p>s.48</p>
-<p>Yandaki resimde elektronların dalga hareketine g&ouml;re &ccedil;izdikleri d&ouml;rt farklı y&ouml;r&uuml;nge tipi g&ouml;sterilmektedir. Elektronlar par&ccedil;acık &ouml;zelliğine g&ouml;re de gezegenlerin G&uuml;neş'in &ccedil;evresinde d&ouml;nmeleri gibi y&ouml;r&uuml;ngeler &ccedil;izerler. Fakat elektronların sahip oldukları bu farklı hareketler, onların tam olarak tanımlanmasını engellemektedr.</p>
-<p>s.50</p>
-<p>Elektronlar &ccedil;ekirdeğin &ccedil;evresinde, aynı gezegenlerin G&uuml;neş'in &ccedil;evresinde d&ouml;nmeleri gibi &ccedil;ok hassas bir &ouml;l&ccedil;&uuml;ye g&ouml;re d&ouml;nerler.</p>
-<p>s.51</p>
-<p>Ger&ccedil;ekten, gece ile g&uuml;nd&uuml;z&uuml;n art arda gelişinde ve Allah'ın g&ouml;klerde ve yerde yarattığı şeylerde korkup-sakınan bir topluluk i&ccedil;in elbette ayetler vardır. (Yunus Suresi, 6)</p>
-<p>s.52</p>
-<p>HIZLANDIRILAN PAR&Ccedil;ACIKLAR</p>
-<p>Hızlandırıcılar ve &Ccedil;arpıştırıcılar</p>
-<p>Maddenin temel yapı taşı olan par&ccedil;acıkları araştırmak, atomdan milyonlarca defa daha k&uuml;&ccedil;&uuml;k par&ccedil;acıkları incelemekle m&uuml;mk&uuml;nd&uuml;r. Bu &ccedil;ok k&uuml;&ccedil;&uuml;k par&ccedil;acıkları incelemek ise ancak &ccedil;ok k&uuml;&ccedil;&uuml;k ve kompleks par&ccedil;acık fiziği deney d&uuml;zenekleriyle ger&ccedil;ekleştirilebilir. &Ccedil;ok kompleks deneyler ise, &ccedil;ok y&ouml;nl&uuml; bilgisayar kullanımı ile kontrol edilebilir.</p>
-<p>Y&uuml;ksek enerji par&ccedil;acık fiziği maddenin temelinde bulunan yapı taşlarını ve bunların birbirleri arasındaki etkileşimlerini inceleyen bilim dalıdır. Son yıllarda y&uuml;ksek teknoloji olanakları kullanan deneysel &ccedil;alışmalar sayesinde maddenin yapısı hakkındaki bilgilerimiz hızla gelişmektedir. Par&ccedil;acık fiziğinin araştırmaları kilometrelerce uzunluktaki par&ccedil;acık hızlandırıcı laboratuvarlarında yapılır. Par&ccedil;acık hızlandırıcılarında y&uuml;kl&uuml; par&ccedil;acıklardan, &ccedil;oğunlukla proton ve elektronlar, elektromanyetik alan i&ccedil;inde hızlandırılır ve y&ouml;nlendirilir. Hızlandırılan par&ccedil;acıklar ya sabit hedefler ile ya da birbirleri ile &ccedil;arpıştırılır. Bu &ccedil;arpışmalar sonucunda ortaya &ccedil;ıkan par&ccedil;acıkların incelenmesi &ccedil;eşitli dedekt&ouml;r sistemleri ile ger&ccedil;ekleştirilir.</p>
-<p>1950'li yıllardan başlayarak hızla gelişen hızlandırıcı ve dedekt&ouml;r teknolojileri sayesinde &ccedil;ok y&uuml;ksek enerjili &ccedil;arpışmalar ger&ccedil;ekleştirilmiş ve bu &ccedil;arpışmaların gelişmiş detekt&ouml;r sistemlerininde incelenmesi ile maddenin temeli diye bildiğimiz proton ve n&ouml;tronların kuark ismini verdiğimiz par&ccedil;acıklardan oluşan bir alt yapısı olduğu anlaşılmıştır. Ulaşılan y&uuml;ksek enerjilerde yapılan &ouml;l&ccedil;&uuml;mler protonun yarı&ccedil;apının y&uuml;zde biri kadar olan uzaklıklarda maddenin yapısını araştırma olanağı sağlamıştır.</p>
-<p>Hızlandırıcı laboratuvarları, kurulmaları ve &ccedil;alıştırılmalarının &ccedil;ok masraflı oluşları nedeniyle d&uuml;nyada sayılı birka&ccedil; merkezde bulunmaktadır. En &ouml;nemlileri Cern (Cenevre), DESY (Hamburg), Fermilab-FNAL (Chicago) ve SLC (California) olarak sayılabilir. Y&uuml;ksek enerji fizik&ccedil;ileri bu merkezlerde b&uuml;y&uuml;k gruplar halinde deneysel &ccedil;alışmalara katılmakta ve atomun sırlarını araştırmaktadırlar. Bu laboratuvarlardan SLC'nin uzunluğu 3 km., CERN'in uzunluğu ise 27 km.dir. Ama devlik yarışında birincilik, ABD'nin Texas eyaletinin merkezinde kurulmakta ve &ccedil;ember &ccedil;apı 85 kilometreyi bulacak olan Amerikan projesi SSC'ye aittir&hellip; S&ouml;z konusu makinelerin maliyeti de (SSC i&ccedil;in bu rakam toplam 6 milyar dolar'dır) boyutlarıyla birlikte doğal olarak artmaktadır.<sup>20</sup></p>
-<p>s.53</p>
-<p>CERN par&ccedil;acık fiziği laboratuvarı yerin 100 metre altında ve 27 kilometre uzunluğunda inşa edilmiştir. Par&ccedil;acıklar bu uzun t&uuml;nelde &ouml;nce hızlandırılıp, daha sonra birbirleriyle &ccedil;arpıştırılırlar.</p>
-<p>CERN par&ccedil;acık fiziği laboratuvarı İsvi&ccedil;re-Fransa sınırında kurulmuş, 19 Avrupa &uuml;lkesinin &uuml;yeliği ile oluşan uluslararası nitelikte bir araştırma merkezidir. T&uuml;rkiye'nin de g&ouml;zlemci stat&uuml;s&uuml;nde bulunduğu bu laboratuvarın temel araştırma konusu maddenin temel yapısı ve bu yapıyı oluşturan temel par&ccedil;acıklardır. 3000'e yakın fizik&ccedil;i, m&uuml;hendis, teknisyen ve idari personelin &ccedil;alıştığı laboratuvarda 6000'in &uuml;st&uuml;nde &uuml;ye fizik&ccedil;i laboratuvara gelerek &ccedil;alışmalar yapabilmektedir.</p>
-<p>s.54</p>
-<p>ELEKTRONLAR İNSANLARIN HİZMETİNDE</p>
-<p>Elektrik, hayatımızın en &ouml;nemli par&ccedil;alarından biridir. Onsuz hi&ccedil;bir şey yaf y&uuml;k sahibi elektronların ve iyonların hareketi sonucu oluşan y&uuml;k akımıdır. G&uuml;nl&uuml;k hayatta kullandığımız televizyon, buzdolabı gibi aletler 1-2 amper elektrik &ccedil;eker. Peki bu &ouml;l&ccedil;&uuml; neyi ifade etmektedir?</p>
-<p>Saniyede 1 Amper'lik akım demek, bir kesitten saniyede 6 milyar kere milyar elektron ge&ccedil;işi demektir. Yıldırımda ise bu sayı 1 milyon kat daha fazladır.</p>
-<p>s.55</p>
-<p>Elektronlar atomun i&ccedil;inde son derece karmaşık bir y&ouml;r&uuml;nge izlerler. Bu k&uuml;&ccedil;&uuml;k alanda şehir trafiğinden &ccedil;ok daha kalabalık bir ortam oluşmasına rağmen, en ufak bir d&uuml;zensizlik yaşanmaz.</p>
-<p>s.56</p>
-<p>KURAN'DAN İŞARETLER</p>
-<p>Elektronların y&ouml;r&uuml;ngesi konusunu incelerken Kuran'da bu konuya işaret eden bir ayet hakkında da d&uuml;ş&uuml;nmek gerekir. Atom &ccedil;ekirdeğinin &ccedil;evresinde 7 y&ouml;r&uuml;nge vardır. Her y&ouml;r&uuml;ngenin &uuml;zerinde ise sayısı belli olan elektronlar bulunmaktadır. Kuran ayetlerinde g&ouml;ky&uuml;z&uuml;n&uuml;n ve yery&uuml;z&uuml;n&uuml;n tabakalarını oluşturan katmanları anlatmak i&ccedil;in kullanılan 7 kat g&ouml;k ifadesi, atomun g&ouml;ğ&uuml; olarak bilinen y&ouml;r&uuml;ngelere de işaret ediyor olabilir.</p>
-<p><strong>O, biri diğeriyle 'tam bir uyum' (mutabakat) i&ccedil;inde yedi g&ouml;k yaratmış olandır. Rahman (olan Allah)ın yaratmasında hi&ccedil;bir '&ccedil;elişki ve uygunsuzluk' (tefav&uuml;t) g&ouml;remezsin. İşte g&ouml;z&uuml;(n&uuml;) &ccedil;evirip-gezdir; herhangi bir &ccedil;atlaklık (bozukluk ve &ccedil;arpıklık) g&ouml;r&uuml;yor musun? (M&uuml;lk Suresi, 3)</strong></p>
-<p>Bu sayı hi&ccedil;bir zaman değişmez; ne altı olur ne de sekiz. Burada mucizevi olan şey, elektronun yedi y&ouml;r&uuml;ngesine işaret eden bu sayının ayetle tam bir uyum g&ouml;stermesidir.</p>
-<p>s.62</p>
-<p>Radyo Dalgaları</p>
-<p>mikro dalgalar</p>
-<p>kızıl &ouml;tesi ışınlar</p>
-<p>g&ouml;r&uuml;nebilir ışınlar</p>
-<p>mor &ouml;tesi ışınlar</p>
-<p>X Işınları</p>
-<p>gama Işınları</p>
-<p>G&uuml;neş'ten d&uuml;nyaya &ccedil;ok &ccedil;eşitli ışıklar gelmektedir. Yandaki elektromanyetik spektrumda g&ouml;r&uuml;ld&uuml;ğ&uuml; gibi, biz bu ışınlardan yalnızca &ccedil;ok k&uuml;&ccedil;&uuml;k bir kısmını algılayabilmekteyiz.</p>
-<p>s.63</p>
-<p>Renklerin oluşumundaki bu &uuml;st&uuml;n tasarım, bizleri tek bir ger&ccedil;eğe g&ouml;t&uuml;rmektedir: Evren, en k&uuml;&ccedil;&uuml;k par&ccedil;asından en b&uuml;y&uuml;ğ&uuml;ne kadar &ccedil;ok b&uuml;y&uuml;k bir uyum ve d&uuml;zen i&ccedil;inde yaratılmıştır. Renklerdeki sanat Allah'ın kusursuz yaratış delillerinden bir tanesidir.</p>
-<p>s.64</p>
-<p>G&uuml;neş'ten gelen fotonlar yery&uuml;z&uuml;ndeki maddelerin yapılarını etkileyerek, renkli bir d&uuml;nya g&ouml;rmemizi sağlar.</p>
-<p>s.67</p>
-<p>"Spin hareketi" basit olarak nesnenin kendi ekseni etrafında d&ouml;nmesi anlamına gelir. Evrendeki b&uuml;t&uuml;n sistemlerde spin hareketi &ccedil;ok &ouml;nemli bir rol oynar. Atomun i&ccedil;indeki par&ccedil;acıklardan uzaydaki yıldızlara kadar b&uuml;t&uuml;n sistemler bu hareket &uuml;zerine kurulmuştur. Spin hareketini d&uuml;nya &uuml;zerinde araştıran bilim adamları ellerindeki tekniklerle bu g&ouml;r&uuml;nt&uuml;leri yakalama imkanı elde etmişlerdir. Atomaltında ise bu hareketi g&ouml;r&uuml;nt&uuml;lemek, g&uuml;n&uuml;m&uuml;z teknolojisiyle hen&uuml;z m&uuml;mk&uuml;n olmamıştır.</p>
-<p>s.70</p>
-<p>Sodyum atomu son y&ouml;r&uuml;ngesindeki elektronu klor atomuna vererek, pozitif y&uuml;klenir. Elektronu alan klor ise negatif y&uuml;k sahibi olur. Bu iki y&uuml;k&uuml;n birbirini &ccedil;ekmesinin sonucunda da aralarında iyonik bağ oluşur.<sup>25</sup></p>
-<p>Sodyum Klor&uuml;r Molek&uuml;l&uuml; (NaCl)</p>
-<p>Na</p>
-<p>Cl</p>
-<p>Na+</p>
-<p>Cl+</p>
-<p>Sodyum Atomu</p>
-<p>Klor Atomu</p>
-<p>Sodyum İyonu</p>
-<p>Klor İyonu</p>
-<p>s.71</p>
-<p>Flor atomu</p>
-<p>Flor molek&uuml;l&uuml; (F<sub>2</sub>)</p>
-<p>Su molek&uuml;l&uuml; H<sub>2</sub>O</p>
-<p>Hidrojen Atomu</p>
-<p>Oksijen Atomu</p>
-<p>Bazı atomlar son y&ouml;r&uuml;ngelerindeki elektronları ortak kullanarak kovalent bağ ile yeni molek&uuml;ller oluştururlar.</p>
-<p>Elektron</p>
-<p>Kuvvet</p>
-<p>Al&uuml;minyum İyonu</p>
-<p>Metal atomları arasında farklı bir kimyasal bağ s&ouml;z konusudur. Her metal atomu kendi dış elektronunu genel bir havuza koyar. Bu elektronlar denizi, metallerin iletkenliğinin nedenidir.<sup>27</sup></p>
-<p>s.72</p>
-<p>hidrosfer</p>
-<p>litosfer</p>
-<p>Na 2.6%</p>
-<p>K 2.4%</p>
-<p>Fe 4.7%</p>
-<p>Evrenin Hammaddeleri ve Periyodik Cetvel: Doğada bulunan 92 adet ve laboratuvarlarda oluşturulan 17 adet farklı element &ldquo;Periyodik Cetvel&rdquo; diye adlandırılan bir tabloda, proton sayılarına g&ouml;re yerleştirilmişlerdir.</p>
-<p>İlk bakışta; Periyodik tablo birer, ikişer harfli alt ve &uuml;st k&ouml;şelerinde rakamlar yazan kutucuklardan ibaret gibi g&ouml;z&uuml;kebilir. Ama, bu tabloya, şu an solumakta olduğumuz hava ve bedenimiz dahil t&uuml;m evren sığmaktadır.</p>
-<p>s.73</p>
-<p>karbon atomu</p>
-<p>O 49.5%</p>
-<p>Si 25.8%</p>
-<p>Al 7.6%</p>
-<p>s.74</p>
-<p>&Uuml;&Ccedil; BENZER MOLEK&Uuml;L</p>
-<p>SONU&Ccedil;: &Uuml;&Ccedil; &Ccedil;OK FARKLI MADDE</p>
-<p>Molek&uuml;ller arasındaki birka&ccedil; atomluk bir farklılık bile, &ccedil;ok değişik sonu&ccedil;lar oluşturur. &Ouml;rneğin şimdi vereceğimiz iki molek&uuml;le dikkatle bir bakın. İkisi de birbirine &ccedil;ok benziyor, ancak karbon ve hidrojen sayılarında &ccedil;ok ufak farklılıklar var. Ama sonu&ccedil; iki zıt madde oluşturmaya yetiyor:</p>
-<p>C<sub>18</sub>H<sub>24</sub>O<sub>2</sub> ve C<sub>19</sub>H<sub>28</sub>O<sub>2</sub></p>
-<p>Bu molek&uuml;ller nedir, bir tahminde bulunabiliyor musunuz? Hemen s&ouml;yleyelim: Birincisi &Ouml;strojen, ikincisi ise testesteron&rsquo;dur. Yani biri kadınlık, diğeri de erkeklik hormonudur. Birka&ccedil; atomluk bir fark bile, hayret verici bi&ccedil;imde, cinsiyet farklılıklarına sebep olmaktadır.</p>
-<p>Şimdi, vereceğimiz form&uuml;le bir bakın:</p>
-<p>C<sub>6</sub>H<sub>12</sub>O<sub>2</sub></p>
-<p>Yukarıdaki molek&uuml;l, &ouml;strojen ve testesteron hormonları molek&uuml;llerine ne kadar da benziyor, değil mi ? Peki, bu molek&uuml;l nedir ? Başka bir hormon mu?</p>
-<p>Hemen cevaplayalım: Bu molek&uuml;l şeker molek&uuml;l&uuml;d&uuml;r.</p>
-<p>Aynı &ccedil;eşit elementlerden oluşan bu &uuml;&ccedil; molek&uuml;l &ouml;rneğinde, atom sayılarındaki farklılığın, ne derece farklı maddeler oluşturabildiği &ccedil;ok net olarak g&ouml;r&uuml;l&uuml;r. Bir tarafta cinsiyet oluşturan hormonlar, bir diğer tarafta da temel besin maddesi şeker var.</p>
-<p>s.75</p>
-<p>&Ccedil;ok değerli bir taş par&ccedil;ası olan elmas, doğada genelde grafit halinde bulunan karbonun bir t&uuml;revidir.</p>
-<p>s.76</p>
-<p><strong>Yan Yana Gelen Her Atom Hemen Reaksiyona Girseydi Ne Olurdu?</strong></p>
-<p>Az &ouml;nce t&uuml;m evrenin 109 farklı elementin atomlarının birbirleriyle reaksiyona girmeleri sonucu oluştuğunu s&ouml;ylemiştik. Burada, &uuml;zerinde dikkatle durulması gereken bir nokta vardır; o da, tepkimenin oluşabilmesi i&ccedil;in &ccedil;ok &ouml;nemli bir koşulun ger&ccedil;ekleşmesi gerektiğidir.</p>
-<p>&Ouml;rneğin, oksijenle hidrojen her bir araya geldiğinde su oluşmaz. Ya da demir havayla temas eder-etmez hemen paslanmaz. Eğer &ouml;yle olsaydı, katı ve parlak bir metal olan demir, birka&ccedil; dakika i&ccedil;inde yumuşak bir toz olan demir okside d&ouml;n&uuml;ş&uuml;r, yery&uuml;z&uuml;nde metal diye bir madde kalmaz ve d&uuml;nyanın d&uuml;zeni bozulurdu. Belirli bir mesafede yan yana gelen atomlar belirli koşullar oluşmadan hemen birleşseydi farklı iki maddenin atomları hemen tepkimeye girerlerdi. B&ouml;yle bir durumda ise, koltuğa oturmanız bile m&uuml;mk&uuml;n olmazdı. &Ccedil;&uuml;nk&uuml; koltuğu oluşturan atomlarla v&uuml;cudunuzu oluşturan atomlar hemen tepkimeye girer ve koltuk-insan arası bir varlık (!) olurdunuz. Ş&uuml;phesiz ki, b&ouml;yle bir d&uuml;nyada canlı hayatının varlığı s&ouml;z konusu bile olamazdı. Acaba, b&ouml;yle bir sonucun yaşanması nasıl engellenmektedir?</p>
-<p>Bir &ouml;rnekle a&ccedil;ıklamak gerekirse, hidrojen ve oksijen molek&uuml;lleri oda sıcaklığında &ccedil;ok yavaş tepkimeye girerler, yani "su" oda sıcaklığında &ccedil;ok yavaş oluşur. Ancak, ortamdaki sıcaklık arttığında molek&uuml;llerin enerjileri de artar ve tepkime hızlanır, yani su daha hızlı oluşur.</p>
-<p>Molek&uuml;llerin tepkimeye girebilmeleri i&ccedil;in gereken minimum enerji miktarı, "aktifleşme enerjisi" adı verilen enerji d&uuml;zeyidir. Su &ouml;rneğinde g&ouml;r&uuml;ld&uuml;ğ&uuml; gibi, hidrojen ve oksijen molek&uuml;llerinin tepkimeye girip suyu oluşturabilmeleri i&ccedil;in, enerjilerinin aktifleşme enerjisinden y&uuml;ksek olması gerekmektedir.</p>
-<p>D&uuml;ş&uuml;n&uuml;n ki, yery&uuml;z&uuml;ndeki sıcaklık biraz daha y&uuml;ksek olsaydı, atomlar &ccedil;ok &ccedil;abuk tepkimeye girerdi ve doğadaki denge de bozulurdu. Ancak tersi olsaydı, yani yery&uuml;z&uuml;ndeki sıcaklık daha d&uuml;ş&uuml;k olsaydı, bu durumda da atomlar tepkimeye girmekte &ccedil;ok ağır kalacaklar ve yine doğadaki dengeler bozulacaktı. Bundan da anlaşıldığı gibi D&uuml;nya&rsquo;nın G&uuml;neş'e uzaklığı tam olarak canlı hayatına uygun olacak bir noktadadır. Elbette ki canlılık i&ccedil;in gereken hassas dengeler bununla kısıtlı değildir. D&uuml;nyanın eksenindeki eğim, k&uuml;tlesi, y&uuml;zey genişliği, atmosferindeki gazların oranı, uydusu Ay ile arasındaki mesafe ve daha bir&ccedil;ok fakt&ouml;r, sadece ve sadece şu andaki değerleriyle mevcut olduğu takdirde canlıların hayatta kalması m&uuml;mk&uuml;n olmaktadır. Bu noktada ortaya &ccedil;ıkan, t&uuml;m bu fakt&ouml;rlerin birbiri ardınca tesad&uuml;flerle oluşamayacağı, hepsinin de canlıların t&uuml;m &ouml;zelliklerini bilen ve &uuml;st&uuml;n bir kudret sahibi olan Allah tarafından var edildikleri ger&ccedil;eğidir.</p>
-<p>Kuşkusuz bilimin bu noktada verdiği cevap, g&ouml;zlemlediği fizik kurallarına bir isim takmaktan ibarettir. En başta da belirttiğimiz gibi bu t&uuml;r olaylarda ne, nasıl, ne şekilde gibi soruların pek bir anlamı yoktur. Bu sorularla ulaşabildiğimiz yalnızca, zaten var olan bir kuralın detaylarıdır. Asıl sorulması gereken soru, bu kuralın neden ve kim tarafından var edildiğidir. Bu sorunun cevabı ise maddeci inan&ccedil;larına k&ouml;r&uuml; k&ouml;r&uuml;ne bağlı olan bilim adamları a&ccedil;ısından yine bir muammadır.</p>
-<p>İşte materyalistlerin cevap veremediği bu noktada, aklı ve vicdanıyla bakan bir g&ouml;z i&ccedil;in durum son derece a&ccedil;ıktır: Hi&ccedil;bir şekilde tesad&uuml;flerle a&ccedil;ıklanamayacak olan evrendeki kusursuz dengeler, &uuml;st&uuml;n bir aklın ve iradenin dilemesi sonucu ger&ccedil;ekleşmiştir. "Ş&uuml;phesiz, Allah her şeyin hesabını tam olarak yapandır" (Nisa Suresi, 86) ayetinde de belirtildiği gibi Allah her şeyi &ccedil;ok hassas bir hesap, d&uuml;zen ve denge &uuml;zerine yaratmıştır.</p>
-<p>s.77</p>
-<p>Amino asitlerin dizilimi ve &uuml;&ccedil; boyutlu şekli v&uuml;cuttaki proteinlerin g&ouml;revini/fonksiyonunu belirler.</p>
-<p>s.78</p>
-<p>G&ouml;rmedin mi, Allah, g&ouml;kten su indirdi, b&ouml;ylece yery&uuml;z&uuml; yemyeşil donatıldı. Ş&uuml;phesiz Allah, l&uuml;tfedicidir, her şeyden haberdardır. (Hac Suresi, 63)</p>
-<p>s.79</p>
-<p>su molek&uuml;l&uuml;</p>
-<p>hidrojen</p>
-<p>hidrojen</p>
-<p>oksijen</p>
-<p>H<sub>2</sub>O</p>
-<p>s.81</p>
-<p>Eğer suyun &uuml;stten donma &ouml;zelliği olmasaydı, denizlerin &ccedil;ok b&uuml;y&uuml;k bir b&ouml;l&uuml;m&uuml; t&uuml;m yıl boyunca donacak ve denizdeki canlı yaşamı &ccedil;ok b&uuml;y&uuml;k bir tehlikeye girecekti.</p>
-<p>s.82</p>
-<p>Donan suyun yoğunluğu sıvı haldeki sudan daha az olduğu i&ccedil;in buzlar suyun &uuml;st&uuml;nde y&uuml;zerler.</p>
-<p>s.83</p>
-<p>Bir sıvının y&uuml;zeyindeki molek&uuml;ller i&ccedil;e doğru gerilen bir ağ gibidir. Bu da sıvılardaki y&uuml;zey gerilimini oluşturur. Bu gerilim y&uuml;zey molek&uuml;llerinin birbirlerine yakınlaşmasını sağlar, bu da bir sivrisineğin bacaklarının bu gerilimi kırıp, i&ccedil;eri girmesini engeller. Suyun y&uuml;ksek y&uuml;zey gerilimi bir&ccedil;ok fizyolojik işlem i&ccedil;in hayati &ouml;nem taşır.<sup>32</sup></p>
-<p>s.85</p>
-<p>O<sub>3</sub></p>
-<p>1</p>
-<p>2</p>
-<p>3</p>
-<p>Klor</p>
-<p>O<sub>2</sub></p>
-<p>Klor Ozona Nasıl Zarar Verir?</p>
-<p>Klor &uuml;&ccedil; oksijen atomundan oluşan ozon molek&uuml;l&uuml;n&uuml; par&ccedil;alar. Ayrılan iki oksijen atomu oksijen (O<sub>2</sub>) molek&uuml;l&uuml;n&uuml; oluştururken, tek kalan oksijen atomu klorla birleşir. Klorla birleşen bu atom Hipoklorid adını alır. Hipoklorid serbest kalan bir oksijenle birleşip tekrar bir oksijen molek&uuml;l&uuml; oluşturur. Ve b&ouml;ylece klor atomu serbest kalır. Bu d&ouml;n&uuml;ş&uuml;m y&uuml;z&uuml;nden ozonun (O<sub>3</sub>) tabi yapısı bozulmuş olur. <sup>33</sup></p>
-<p>s.87</p>
-<p>PIPERIN</p>
-<p>Piperin, tropik asma Piper nigrum&rsquo;un yumuşak meyvesi olan siyah ve beyaz biberin aktif bir elementidir. Karabiber ham meyvenin fermentasyona bırakılması ve sonra da kurutulması ile elde edilir.</p>
-<p>Beyaz biber ise olgunlaşmış meyvenin kabuğu ve etinin ayrılması ve tohumlarının kurutulması yoluyla elde edilir. <sup>34</sup></p>
-<p>Para-HYDROXYPHENOL -2-BUTANON ve IONON</p>
-<p>Bu iki molek&uuml;l bir karışımda bir araya gelerek &ccedil;ok hoş bir kokunun oluşmasına neden olurlar. Olgun b&ouml;ğ&uuml;rtlen kokusunun nedeni butanon'dur. Yeni koparılan taze meyve kokusunun kaynağı aynı zamanda kurumuş saman ve menekşe kokusunun kaynağı olan ionon&rsquo;dan gelir. Ionon menekşe yağınının g&uuml;zel kokusudur.<sup>35</sup></p>
-<p>s.88</p>
-<p>FURYLMETHANETHIOL</p>
-<p>Bu molek&uuml;l kahve aromasının kokusunu verir. Kahvenin uyarıcı etkisi kafeindir. Kahvenin rengi, nitrojen i&ccedil;eren organik maddelerin ısınmasıyla kahverengileşme reaksiyonunu sonucu ortaya &ccedil;ıkar. &Ccedil;ekirdekler arasında ge&ccedil;ici olarak sıkışan molek&uuml;ller tat ve uyarmanın nedenidir.<sup>36</sup></p>
-<p>KERATIN</p>
-<p>Keratin ipek b&ouml;cekleri ve &ouml;r&uuml;mcekler tarafından salgılanan, katılaşmış &ccedil;ok değerli bir sıvıdır. İpek polipeptit zincirle birbirine bağlı amino asitlerden oluşmaktadır. Zincirler ise hidrojen bağları ile biribirilerine bağlıdırlar ve olduk&ccedil;a b&uuml;z&uuml;ş&uuml;k ancak neredeyse d&uuml;z levhalar halindedirler. &Ouml;r&uuml;mcek ağlarında da aynı ipek dokusuyla karşılaşırız.<sup>37</sup></p>
-<p>s.89</p>
-<p>&Uuml;stteki resim k&ouml;t&uuml; bir koku molek&uuml;l&uuml;ne, soldaki ise g&uuml;zel bir koku molek&uuml;l&uuml;ne aittir. G&ouml;r&uuml;ld&uuml;ğ&uuml; gibi g&uuml;zel koku ile &ccedil;irkin kokuyu birbirinden ayıran g&ouml;zle g&ouml;r&uuml;lemeyen alemdeki bu ufacık farklardır.</p>
-<p>s.94</p>
-<p>Yukarıda g&ouml;rm&uuml;ş olduğunuz, plastik, al&uuml;minyum, &ccedil;elik gibi maddeler u&ccedil;abilir mi? Hayır, t&uuml;m bunlar bir araya getirilse yine de u&ccedil;amazlar. Bir u&ccedil;ak hi&ccedil;bir u&ccedil;ma &ouml;zelliği olmayan par&ccedil;aların, &ouml;zel bir tasarımla bir araya getirilmeleriyle oluşmuştur. U&ccedil;ma &ouml;zelliği ne al&uuml;minyumdan, ne plastikten, ne de &ccedil;elikten gelir. Bu maddelerin &ouml;zellikleri &ouml;nemlidir, ancak u&ccedil;ma &ouml;zelliği bu maddelerin &ccedil;ok &ouml;zel bir tasarımla bir araya getirilmeleriyle kazanılabilir. Canlı sistemler de aynı bu şekildedir. Bir canlı h&uuml;cresi de cansız atomların &ccedil;ok &ouml;zel bir tasarımla bir araya getirilmesiyle oluşmuştur.</p>
-<p>s.95</p>
-<p>"Nasıl oluyor da Allah'ı inkar ediyorsunuz? Oysa &ouml;l&uuml; iken sizi O diriltti; sonra sizi yine &ouml;ld&uuml;recek, yine diriltecektir ve sonra O'na d&ouml;nd&uuml;r&uuml;leceksiniz." (Bakara Suresi, 28)</p>
-<p>s.96</p>
-<p>Yukarıdaki &ccedil;izimin ne kadar anlamsız olduğu a&ccedil;ıktır. G&uuml;n&uuml;m&uuml;zde herkes, doğadaki taşların veya kaya par&ccedil;alarının kendi kendilerine kurbağalara veya balıklara d&ouml;n&uuml;şmeyeceklerini bilir. Elbetteki cansız maddelerden canlılığın oluşması m&uuml;mk&uuml;n değildir. Bu da canlılığın cansız maddelerden tesad&uuml;fen oluştuğunu iddia eden evrim teorisini daha en başından &ccedil;&uuml;r&uuml;t&uuml;r.</p>
-<p>s.97</p>
-<p>ATOMLAR ATOMLARI İNCELERKEN</p>
-<p>Evrimci iddiaya g&ouml;re, tesad&uuml;fler sonucu oluşan atomlar, &uuml;niversite profes&ouml;rlerine d&ouml;n&uuml;şm&uuml;ş ve elektron mikroskopları altında kendilerini inceleyip tesad&uuml;fen meydana geldiklerini iddia etmişlerdir. Kuşkusuz b&ouml;yle bir iddia k&uuml;&ccedil;&uuml;k bir &ccedil;ocuk i&ccedil;in bile inandırıcı değildir.</p>
-<p>s.99</p>
-<p>Evrimcilerin istedikleri t&uuml;m şartlar sağlansa bir canlı oluşabilir mi? Elbette ki hayır. Bunu daha iyi anlamak i&ccedil;in ş&ouml;yle bir deney yapalım. &Uuml;sttekine benzer bir varile canlıların oluşumu i&ccedil;in gerekli olan b&uuml;t&uuml;n atomları, enzimleri, hormonları, proteinleri kısacası evrimcilerin istedikleri, gerekli g&ouml;rd&uuml;kleri t&uuml;m elementleri koyalım. Olabilecek her t&uuml;rl&uuml; kimyasal ve fiziksel y&ouml;ntemi kullanarak bu elementleri karıştıralım ve istedikleri kadar bekleyelim. Ne yapılırsa yapılsın, ne kadar beklenirse beklensin bu varilden canlı tek bir varlık bile &ccedil;ıkaramayacaklardır.</p>
-<p>s.101</p>
-<p>Canlı h&uuml;crelerine ait t&uuml;m bilgileri kusursuz bir şifreleme sistemiyle taşıyan DNA molek&uuml;l&uuml;, &ccedil;ok kompleks bir yapıya sahiptir. Bu molek&uuml;l&uuml;n kusursuz yapısı, evrimcilerin tesad&uuml;flerle oluştuğu iddiasını tamamen ge&ccedil;ersiz kılmaktadır</p>
-<p>"G&ouml;klerde ve yerde olanların t&uuml;m&uuml; Allah'ı tesbih etmiştir. O, &uuml;st&uuml;n ve g&uuml;&ccedil;l&uuml; (aziz) olandır, h&uuml;k&uuml;m ve hikmet sahibidir. G&ouml;klerin ve yerin m&uuml;lk&uuml; O'nundur. Diriltir ve &ouml;ld&uuml;r&uuml;r. O, her şeye g&uuml;&ccedil; yetirendir. (Hadid Suresi, 1-2)</p>
-<p>s.103</p>
-<p>"G&ouml;klerde ve yerde olan ne varsa, canlılar ve melekler Allah'a secde ederler ve onlar b&uuml;y&uuml;kl&uuml;k taslamazlar. &Uuml;stlerinden (her an bir azap g&ouml;ndermeye kadir olan) Rablerinden korkarlar ve emrolundukları şeyi yaparlar. (Nahl Suresi 49-50)</p>
-<p>s.106</p>
-<p>n&ouml;tron</p>
-<p>uranyum 235</p>
-<p>s.107</p>
-<p>baryum 142</p>
-<p>n&ouml;tron</p>
-<p>krypton 91</p>
-<p>n&ouml;tron</p>
-<p>Fisyon, atom &ccedil;ekirdeğinin par&ccedil;alanmasıdır. Resimde de g&ouml;r&uuml;ld&uuml;ğ&uuml; gibi, bir n&ouml;tronla &ccedil;arpıştırılan uranyum 235 atomu par&ccedil;alanıp, krypton 92 ve baryum 142 atomu oluşturur. Bu &ccedil;arpışma sonucunda gamma ışınları enerji olarak a&ccedil;ığa &ccedil;ıkar.</p>
-<p>s.110</p>
-<p>N&uuml;kleer kaynaşma (f&uuml;zyon), par&ccedil;alanmanın tersine &ccedil;ok hafif iki &ccedil;ekirdeği birleştirerek daha ağır bir &ccedil;ekirdek oluşturmak ve bu şekilde a&ccedil;ığa &ccedil;ıkan bağ enerjisini kullanmaktır. Yıldızların i&ccedil;indeki &ccedil;ekirdekler &ccedil;arpıştıklarında kaynaşırlar. B&ouml;ylece yeni &ccedil;ekirdekler oluşur ve ortaya n&ouml;trino, pozitron, n&ouml;tron, proton ve diğer atomaltı par&ccedil;acıklar enerji olarak a&ccedil;ığa &ccedil;ıkarlar. Yıldızlardaki b&uuml;y&uuml;k enerjinin kaynağı bu &ccedil;ekirdek kaynaşmalarıdır.</p>
-<p>N&ouml;trino</p>
-<p>Pozitron</p>
-<p>Proton reaksiyonu</p>
-<p>Helyum 3</p>
-<p>Helyum 4</p>
-<p>Helyum 3</p>
-<p>Helyum 4</p>
-<p>Helyum 3</p>
-<p>D&ouml;teryum Ağır Hidrojen</p>
-<p>Proton</p>
-<p>Pozitron</p>
-<p>s.111</p>
-<p>D&ouml;teryum</p>
-<p>D&ouml;teryum</p>
-<p>Helyum 3</p>
-<p>N&ouml;tron</p>
-<p>Enerji</p>
-<p>D&ouml;teryum</p>
-<p>D&ouml;teryum</p>
-<p>Trityum</p>
-<p>Proton</p>
-<p>Enerji</p>
-<p>D&ouml;teryum</p>
-<p>Trityum</p>
-<p>Helyum 4</p>
-<p>N&ouml;tron</p>
-<p>Enerji</p>
-<p>Resimde g&ouml;sterilen 3 farklı f&uuml;zyon reaksiyonu, enerji ve par&ccedil;acık oluşumuyla sonu&ccedil;lanır.</p>
-<p>Proton</p>
-<p>s.112</p>
-<p>Atomun &ccedil;ekirdeğinde saklı olan bu muazzam g&uuml;c&uuml;n a&ccedil;ığa &ccedil;ıkmasıyla, birka&ccedil; saniye i&ccedil;inde y&uuml;zbinlerce insan hayatını kaybetmiştir.</p>
-<p>s.113</p>
-<p>Patlama, arkasında &ccedil;ok kalıcı izler bırakmıştır.</p>
-<p>1986 yılında Rusya&rsquo;daki &Ccedil;ernobil reakt&ouml;r&uuml;nde meydana gelen n&uuml;kleer kazanın insanlar, t&uuml;m diğer canlılar ve bitkiler &uuml;zerinde &ccedil;ok kalıcı etkileri olmuştur. Bilim adamları bu etkilerin 30-40 yıl daha s&uuml;receğini s&ouml;yl&uuml;yorlar. N&uuml;kleer sızıntının engellenmesi i&ccedil;in alınan &ouml;nlemler bir sonu&ccedil; vermemiştir. Radyasyonun zararlı etkilerinin azaltılması i&ccedil;in &ccedil;alışmalar devam etmektedir.</p>
-<p>s.114</p>
-<p>Hiroşima'ya atılan bombadan sonra canlılık tamamen ortadan kalkmış, bomba arkasında &ccedil;ok b&uuml;y&uuml;k bir enkaz bırakmıştır.</p>
-<p>s.115</p>
-<p>Patlama sonrasında oluşan şiddetli r&uuml;zgar sonucunda radyasyon d&ouml;k&uuml;nt&uuml;leri &ccedil;ok geniş bir alana yayılmış ve arkasında k&uuml;l tabakası altında kalmış bir g&ouml;r&uuml;nt&uuml; bırakmıştır.</p>
-<p>s.116</p>
-<p>Elektron kaybeder</p>
-<p>Radyasyon</p>
-<p>Pozitif iyon</p>
-<p>Negatif iyon</p>
-<p>Elektron kazanır</p>
-<p>Radyasyon, atomun dış y&uuml;zeyindeki elektronlara &ccedil;arptığı zaman, pozitif iyonlar oluşturarak cok ciddi hasarlar verebilir. Elektronlar diğer n&ouml;tr atomlara bağlanarak negatif iyonlar oluştururlar.</p>
-<p>s.117</p>
-<p>"İnkar edenler, dediler ki: "Kıyamet-saati bize gelmez." De ki: "Hayır, gaybı bilen Rabbime andolsun, o muhakkak size gelecektir. G&ouml;klerde ve yerde zerre ağırlığınca hi&ccedil;bir şey O'ndan uzak (saklı) kalmaz. Bundan daha k&uuml;&ccedil;&uuml;k olanı da, daha b&uuml;y&uuml;k olanı da, istisnasız, mutlaka apa&ccedil;ık bir kitapta (yazılı)dır." (Sebe Suresi, 3)</p>
-<p>s.119</p>
-<p>D&uuml;nya</p>
-<p>Madde</p>
-<p>Atom</p>
-<p>Molek&uuml;l</p>
-<p>&Ccedil;ekirdek</p>
-<p>Atom</p>
-<p>&Ccedil;ekirdek</p>
-<p>Elektron</p>
-<p>N&ouml;tron</p>
-<p>Proton</p>
-<p>Proton</p>
-<p>Quarklar</p>
-<p>s.121</p>
-<p>Dış d&uuml;nyada g&ouml;rd&uuml;ğ&uuml;m&uuml;z her şey, rengarenk &ccedil;i&ccedil;ekler, kuşlar, g&ouml;ky&uuml;z&uuml;, dağlar, &ccedil;evremizdeki insanlar kısacası d&uuml;nyadaki her t&uuml;rl&uuml; detay sadece atomlardan oluşan bir d&uuml;nyadan bize geliyor.</p>
-<p>s.127</p>
-<p>En son evrimci kaynakların da kabul ettiği gibi, hayatın k&ouml;keni, hala evrim teorisi i&ccedil;in son derece b&uuml;y&uuml;k bir a&ccedil;mazdır.</p>
-<p>s.129</p>
-<p>Evrim teorisini ge&ccedil;ersiz kılan ger&ccedil;eklerden bir tanesi, canlılığın inanılmaz derecedeki kompleks yapısıdır. Canlı h&uuml;crelerinin &ccedil;ekirdeğinde yer alan DNA molek&uuml;l&uuml;, bunun bir &ouml;rneğidir. DNA, d&ouml;rt ayrı molek&uuml;l&uuml;n farklı diziliminden oluşan bir t&uuml;r bilgi bankasıdır. Bu bilgi bankasında canlıyla ilgili b&uuml;t&uuml;n fiziksel &ouml;zelliklerin şifreleri yer alır. İnsan DNA'sı kağıda d&ouml;k&uuml;ld&uuml;ğ&uuml;nde, ortaya yaklaşık 900 ciltlik bir ansiklopedi &ccedil;ıkacağı hesaplanmaktadır. Elbette b&ouml;ylesine olağan&uuml;st&uuml; bir bilgi, tesad&uuml;f kavramını kesin bi&ccedil;imde ge&ccedil;ersiz kılmaktadır.</p>
-<p>s.132</p>
-<p>Evrimciler y&uuml;zyılın başından beri sinekleri mutasyona uğratarak, faydalı mutasyon &ouml;rneği oluşturmaya &ccedil;alıştılar. Ancak on yıllarca s&uuml;ren bu &ccedil;abaların sonucunda elde edilen tek sonu&ccedil;, sakat, hastalıklı ve kusurlu sinekler oldu. En solda, normal bir meyve sineğinin kafası ve sağda mutasyona uğramış diğer bir meyve sineği.</p>
-<p>bacak</p>
-<p>anten</p>
-<p>g&ouml;zler</p>
-<p>ağız</p>
-<p>s.135</p>
-<p>Kretase d&ouml;nemine ait bu timsah fosili 65 milyon yıllıktır. G&uuml;n&uuml;m&uuml;zde yaşayan timsahlardan hi&ccedil;bir farkı yoktur.</p>
-<p>İtalya'da &ccedil;ıkarılmış bu mene balığı fosili 54 - 37 milyon yıllıktır.</p>
-<p>Bu 50 milyon yıllık &ccedil;ınar yaprağı fosili ABD &ccedil;ıkarılmıştır. 50 milyon yıldır &ccedil;ınar yaprakları hi&ccedil; değişmemiş , evrim ge&ccedil;irmemiştir.</p>
-<p>s.138</p>
-<p>SAHTE</p>
-<p>İnsanın evrimi masalını destekleyen hi&ccedil;bir fosil kalıntısı yoktur. Aksine, fosil kayıtları insanlar ile maymunlar arasında aşılamaz bir sınır olduğunu g&ouml;stermektedir. Bu ger&ccedil;ek karşısında evrimciler, ger&ccedil;ek dışı birtakım &ccedil;izim ve maketlere umut bağlamışlardır. Fosil kalıntılarının &uuml;zerine diledikleri maskeleri ge&ccedil;irir ve hayali yarı maymun yarı insan y&uuml;zler oluştururlar.</p>
-<p>s.140</p>
-<p>Evrimcilerin istedikleri t&uuml;m şartlar sağlansa bir canlı oluşabilir mi? Elbette ki hayır. Bunu daha iyi anlamak i&ccedil;in ş&ouml;yle bir deney yapalım. &Uuml;sttekine benzer bir varile canlıların oluşumu i&ccedil;in gerekli olan b&uuml;t&uuml;n atomları, enzimleri, hormonları, proteinleri kısacası evrimcilerin istedikleri, gerekli g&ouml;rd&uuml;kleri t&uuml;m elementleri koyalım.Olabilecek her t&uuml;rl&uuml; kimyasal ve fiziksel y&ouml;ntemi kullanarak bu elementleri karıştıralım ve istedikleri kadar bekleyelim. Ne yapılırsa yapılsın, ne kadar beklenirse beklensin bu varilden canlı tek bir varlık bile &ccedil;ıkaramayacaklardır.</p>
-<p>s.144</p>
-<p>Bir cisimden gelen uyarılar elektrik sinyaline d&ouml;n&uuml;şerek beyinde bir etki oluştururlar. G&ouml;r&uuml;yorum derken, aslında zihnimizdeki elektrik sinyallerinin etkisini seyrederiz. Beyin ışığa kapalıdır. Yani beynin i&ccedil;i kapkaranlıktır, ışık beynin bulunduğu yere kadar giremez. G&ouml;r&uuml;nt&uuml; merkezi denilen yer kapkaranlık, ışığın asla ulaşmadığı, belki de hi&ccedil; karşılaşmadığınız kadar karanlık bir yerdir. Ancak siz bu zifiri karanlıkta ışıklı, pırıl pırıl bir d&uuml;nyayı seyredersiniz.</p>
-<p>s.149</p>
-<p>Ge&ccedil;miş zamanlarda timsaha tapan insanların inanışları ne derece garip ve akıl almazsa g&uuml;n&uuml;m&uuml;zde Darwinistlerin inanışları da aynı derecede akıl almazdır. Darwinistler tesad&uuml;fleri ve cansız şuursuz atomları cahilce adeta yaratıcı g&uuml;&ccedil; olarak kabul ederler hatta bu batıl inanca bir dine bağlanır gibi bağlanırlar.</p>
-<p><strong>ARKA KAPAK YAZISI</strong></p>
-<p>Atomlardan meydana gelen bir v&uuml;cutla, havadaki atomları soluyor, besinlerdeki atomları yiyor, suyun atomlarını i&ccedil;iyorsunuz. G&ouml;rd&uuml;kleriniz ise g&ouml;z&uuml;n&uuml;zdeki atomlara ait elektronların fotonlarla &ccedil;arpışmasından başka birşey değil. Peki dokunarak hissettikleriniz? Onlar da cildinizdeki atomların eşyalardaki atomları itmesinden ibaret...</p>
-<p>Elbette bug&uuml;n bir&ccedil;ok insan, bedeninin, evrenin, d&uuml;nyanın kısacası her şeyin atomlardan oluştuğunu bilmektedir. Ama belki de bug&uuml;ne kadar &ldquo;atom&rdquo; ismini verdiğimiz varlığın nasıl bir sisteme sahip olduğunu d&uuml;ş&uuml;nmemiştir. Veya d&uuml;ş&uuml;nd&uuml;yse bile nasıl oluştuğunu araştırmaya ihtiya&ccedil; duymamıştır; &ccedil;&uuml;nk&uuml; bunun yalnızca fizik&ccedil;ilerin işi olduğunu d&uuml;ş&uuml;nm&uuml;şt&uuml;r.</p>
-<p>Oysa insan bu kusursuz sistemle hayatı boyunca i&ccedil; i&ccedil;e yaşamaktadır. &Uuml;stelik bu &ouml;yle bir sistemdir ki, yalnızca oturduğumuz koltuğu oluşturan trilyonlarca atomdan her biri, &uuml;zerine kitap yazılabilecek bir d&uuml;zenliliğe sahiptir. Tek bir atomun oluşumunu, sistemini, g&uuml;c&uuml;n&uuml; anlatmak sayfalar alabilmektedir.</p>
-<p>Elinizdeki bu kitapta canlı-cansız, evrendeki her şeyi oluşturan atomun kendi kendine veya tesad&uuml;fen meydana gelmesinin imkansızlığı ve Allah&rsquo;ın yaratışındaki kusursuzluk anlatılmaktadır.</p>
-<p><strong>YAZAR HAKKINDA:</strong><strong> </strong>Harun Yahya m&uuml;stear ismini kullanan Adnan Oktar, 1956 yılında Ankara'da doğdu. 1980'li yıllardan bu yana, imani, bilimsel ve siyasi konularda pek &ccedil;ok eser hazırladı. Bunların yanı sıra, yazarın evrimcilerin sahtekarlıklarını, iddialarının ge&ccedil;ersizliğini ve Darwinizm'in kanlı ideolojilerle olan karanlık bağlantılarını ortaya koyan &ccedil;ok &ouml;nemli eserleri bulunmaktadır.</p>
-<p>Yazarın t&uuml;m &ccedil;alışmalarındaki ortak hedef, Kuran'ın tebliğini d&uuml;nyaya ulaştırmak, b&ouml;ylelikle insanları Allah'ın varlığı, birliği ve ahiret gibi temel imani konular &uuml;zerinde d&uuml;ş&uuml;nmeye sevk etmek ve inkarcı sistemlerin &ccedil;&uuml;r&uuml;k temellerini ve sapkın uygulamalarını g&ouml;zler &ouml;n&uuml;ne sermektir. Nitekim yazarın, bug&uuml;ne kadar 73 ayrı dile &ccedil;evrilen 300&rsquo;den fazla eseri, d&uuml;nya &ccedil;apında geniş bir okuyucu kitlesi tarafından takip edilmektedir.</p>
-<p>Harun Yahya K&uuml;lliyatı, -Allah'ın izniyle- 21. y&uuml;zyılda d&uuml;nya insanlarını Kuran'da tarif edilen huzur ve barışa, doğruluk ve adalete, g&uuml;zellik ve mutluluğa taşımaya bir vesile olacaktır.</p>
+**ATOM MUCİZESİ**
+
+**HARUN YAHYA – ADNAN OKTAR**
+
+**YAZAR HAKKINDA**
+
+Harun Yahya müstear ismini kullanan yazar Adnan Oktar, 1956 yılında Ankara'da doğdu. İlk, orta ve lise öğrenimini Ankara'da tamamladı. Daha sonra İstanbul Mimar Sinan Üniversitesi Güzel Sanatlar Fakültesi'nde ve İstanbul Üniversitesi Felsefe Bölümü'nde öğrenim gördü. 1980'li yıllardan bu yana, imani, bilimsel ve siyasi konularda pek çok eser hazırladı. Bunların yanı sıra, yazarın evrimcilerin sahtekarlıklarını, iddialarının geçersizliğini ve Darwinizm'in kanlı ideolojilerle olan karanlık bağlantılarını ortaya koyan çok önemli eserleri bulunmaktadır.
+
+Harun Yahya'nın eserleri yaklaşık 40.000 resmin yer aldığı toplam 55.000 sayfalık bir külliyattır ve bu külliyat 73 farklı dile çevrilmiştir.
+
+Yazarın müstear ismi, inkarcı düşünceye karşı mücadele eden iki peygamberin hatıralarına hürmeten, isimlerini yad etmek için Harun ve Yahya isimlerinden oluşturulmuştur. Yazar tarafından kitapların kapağında Resulullah (sav)'in mührünün kullanılmış olmasının sembolik anlamı ise, kitapların içeriği ile ilgilidir. Bu mühür, Kuran-ı Kerim'in Allah'ın son kitabı ve son sözü, Peygamberimiz (sav)'in de hatem-ül enbiya olmasını remzetmektedir. Yazar da, yayınladığı tüm çalışmalarında, Kuran'ı ve Resulullah (sav)'in sünnetini kendine rehber edinmiştir. Bu suretle, inkarcı düşünce sistemlerinin tüm temel iddialarını tek tek çürütmeyi ve dine karşı yöneltilen itirazları tam olarak susturacak "son söz"ü söylemeyi hedeflemektedir. Çok büyük bir hikmet ve kemal sahibi olan Resulullah (sav)'in mührü, bu son sözü söyleme niyetinin bir duası olarak kullanılmıştır.
+
+Yazarın tüm çalışmalarındaki ortak hedef, Kuran'ın tebliğini dünyaya ulaştırmak, böylelikle insanları Allah'ın varlığı, birliği ve ahiret gibi temel imani konular üzerinde düşünmeye sevk etmek ve inkarcı sistemlerin çürük temellerini ve sapkın uygulamalarını gözler önüne sermektir.
+
+Nitekim Harun Yahya'nın eserleri Hindistan'dan Amerika'ya, İngiltere'den Endonezya'ya, Polonya'dan Bosna Hersek'e, İspanya'dan Brezilya'ya, Malezya'dan İtalya'ya, Fransa'dan Bulgaristan'a ve Rusya'ya kadar dünyanın daha pek çok ülkesinde beğeniyle okunmaktadır. İngilizce, Fransızca, Almanca, İtalyanca, İspanyolca, Portekizce, Urduca, Arapça, Arnavutça, Rusça, Boşnakça, Uygurca, Endonezyaca, Malayca, Bengoli, Sırpça, Bulgarca, Çince, Kishwahili (Tanzanya'da kullanılıyor), Hausa (Afrika'da yaygın olarak kullanılıyor), Dhivehi (Maldivlerde kullanılıyor), Danimarkaca ve İsveçce gibi pek çok dile çevrilen eserler, yurt dışında geniş bir okuyucu kitlesi tarafından takip edilmektedir.
+
+Dünyanın dört bir yanında olağanüstü takdir toplayan bu eserler pek çok insanın iman etmesine, pek çoğunun da imanında derinleşmesine vesile olmaktadır. Kitapları okuyan, inceleyen her kişi, bu eserlerdeki hikmetli, özlü, kolay anlaşılır ve samimi üslubun, akılcı ve ilmi yaklaşımın farkına varmaktadır. Bu eserler süratli etki etme, kesin netice verme, itiraz edilemezlik, çürütülemezlik özellikleri taşımaktadır. Bu eserleri okuyan ve üzerinde ciddi biçimde düşünen insanların, artık materyalist felsefeyi, ateizmi ve diğer sapkın görüş ve felsefelerin hiçbirini samimi olarak savunabilmeleri mümkün değildir. Bundan sonra savunsalar da ancak duygusal bir inatla savunacaklardır, çünkü fikri dayanakları çürütülmüştür. Çağımızdaki tüm inkarcı akımlar, Harun Yahya Külliyatı karşısında fikren mağlup olmuşlardır.
+
+Kuşkusuz bu özellikler, Kuran'ın hikmet ve anlatım çarpıcılığından kaynaklanmaktadır. Yazarın kendisi bu eserlerden dolayı bir övünme içinde değildir, yalnızca Allah'ın hidayetine vesile olmaya niyet etmiştir. Ayrıca bu eserlerin basımında ve yayınlanmasında herhangi bir maddi kazanç hedeflenmemektedir.
+
+Bu gerçekler göz önünde bulundurulduğunda, insanların görmediklerini görmelerini sağlayan, hidayetlerine vesile olan bu eserlerin okunmasını teşvik etmenin de, çok önemli bir hizmet olduğu ortaya çıkmaktadır.
+
+Bu değerli eserleri tanıtmak yerine, insanların zihinlerini bulandıran, fikri karmaşa meydana getiren, kuşku ve tereddütleri dağıtmada, imanı kurtarmada güçlü ve keskin bir etkisi olmadığı genel tecrübe ile sabit olan kitapları yaymak ise, emek ve zaman kaybına neden olacaktır. İmanı kurtarma amacından ziyade, yazarının edebi gücünü vurgulamaya yönelik eserlerde bu etkinin elde edilemeyeceği açıktır. Bu konuda kuşkusu olanlar varsa, Harun Yahya'nın eserlerinin tek amacının dinsizliği çürütmek ve Kuran ahlakını yaymak olduğunu, bu hizmetteki etki, başarı ve samimiyetin açıkça görüldüğünü okuyucuların genel kanaatinden anlayabilirler.
+
+Bilinmelidir ki, dünya üzerindeki zulüm ve karmaşaların, Müslümanların çektikleri eziyetlerin temel sebebi dinsizliğin fikri hakimiyetidir. Bunlardan kurtulmanın yolu ise, dinsizliğin fikren mağlup edilmesi, iman hakikatlerinin ortaya konması ve Kuran ahlakının, insanların kavrayıp yaşayabilecekleri şekilde anlatılmasıdır. Dünyanın günden güne daha fazla içine çekilmek istendiği zulüm, fesat ve kargaşa ortamı dikkate alındığında bu hizmetin elden geldiğince hızlı ve etkili bir biçimde yapılması gerektiği açıktır. Aksi halde çok geç kalınabilir.
+
+Bu önemli hizmette öncü rolü üstlenmiş olan Harun Yahya Külliyatı, Allah'ın izniyle, 21\. yüzyılda dünya insanlarını Kuran'da tarif edilen huzur ve barışa, doğruluk ve adalete, güzellik ve mutluluğa taşımaya bir vesile olacaktır.
+
+**OKUYUCUYA**
+
+ Bu kitapta ve diğer çalışmalarımızda evrim teorisinin çöküşüne özel bir yer ayrılmasının nedeni, bu teorinin her türlü din aleyhtarı felsefenin temelini oluşturmasıdır. Yaratılışı ve dolayısıyla Allah'ın varlığını inkar eden Darwinizm, 150 yıldır pek çok insanın imanını kaybetmesine ya da kuşkuya düşmesine neden olmuştur. Dolayısıyla bu teorinin bir aldatmaca olduğunu gözler önüne sermek çok önemli bir imani görevdir. Bu önemli hizmetin tüm insanlarımıza ulaştırılabilmesi ise zorunludur. Kimi okuyucularımız belki tek bir kitabımızı okuma imkanı bulabilir. Bu nedenle her kitabımızda bu konuya özet de olsa bir bölüm ayrılması uygun görülmüştür.
+
+ Belirtilmesi gereken bir diğer husus, bu kitapların içeriği ile ilgilidir. Yazarın tüm kitaplarında imani konular, Kuran ayetleri doğrultusunda anlatılmakta, insanlar Allah'ın ayetlerini öğrenmeye ve yaşamaya davet edilmektedirler. Allah'ın ayetleri ile ilgili tüm konular, okuyanın aklında hiçbir şüphe veya soru işareti bırakmayacak şekilde açıklanmaktadır.
+
+ Bu anlatım sırasında kullanılan samimi, sade ve akıcı üslup ise kitapların yediden yetmişe herkes tarafından rahatça anlaşılmasını sağlamaktadır. Bu etkili ve yalın anlatım sayesinde, kitaplar "bir solukta okunan kitaplar" deyimine tam olarak uymaktadır. Dini reddetme konusunda kesin bir tavır sergileyen insanlar dahi, bu kitaplarda anlatılan gerçeklerden etkilenmekte ve anlatılanların doğruluğunu inkar edememektedirler.
+
+ Bu kitap ve yazarın diğer eserleri, okuyucular tarafından bizzat okunabileceği gibi, karşılıklı bir sohbet ortamı şeklinde de okunabilir. Bu kitaplardan istifade etmek isteyen bir grup okuyucunun kitapları birarada okumaları, konuyla ilgili kendi tefekkür ve tecrübelerini de birbirlerine aktarmaları açısından yararlı olacaktır.
+
+ Bunun yanında, sadece Allah'ın rızası için yazılmış olan bu kitapların tanınmasına ve okunmasına katkıda bulunmak da büyük bir hizmet olacaktır. Çünkü yazarın tüm kitaplarında ispat ve ikna edici yön son derece güçlüdür. Bu sebeple dini anlatmak isteyenler için en etkili yöntem, bu kitapların diğer insanlar tarafından da okunmasının teşvik edilmesidir.
+
+Kitapların arkasına yazarın diğer eserlerinin tanıtımlarının eklenmesinin ise önemli sebepleri vardır. Bu sayede kitabı eline alan kişi, yukarıda söz ettiğimiz özellikleri taşıyan ve okumaktan hoşlandığını umduğumuz bu kitapla aynı vasıflara sahip daha birçok eser olduğunu görecektir. İmani ve siyasi konularda yararlanabileceği zengin bir kaynak birikiminin bulunduğuna şahit olacaktır.
+
+ Bu eserlerde, diğer bazı eserlerde görülen, yazarın şahsi kanaatlerine, şüpheli kaynaklara dayalı izahlara, mukaddesata karşı gereken adaba ve saygıya dikkat edilmeyen üsluplara, burkuntu veren ümitsiz, şüpheci ve ye'se sürükleyen anlatımlara rastlayamazsınız.
+
+Bu kitapta kullanılan ayetler, Ali Bulaç'ın hazırladığı  
+"Kur'an-ı Kerim ve Türkçe Anlamı" isimli mealden alınmıştır.
+
+Birinci Baskı: Kasım 1999 / İkinci Baskı: Mart 2006  
+Üçüncü Baskı: Mayıs 2007 / Dördüncü Baskı: Aralık 2013
+
+**ARAŞTIRMA YAYINCILIK**
+
+Kayışdağı Mah. Değirmen Sok. No: 3
+
+Ataşehir - İstanbul Tel: (0 216) 660 00 59
+
+Baskı: Milsan Basın San. A.Ş.
+
+Cemal Ulusoy Cad.38/A Bahçelievler - İstanbul
+
+Tel: (0 212) 471 71 50 / milsanbasin@gmail.com / Mat sertifika: 12169
+
+**www.harunyahya.org - www.harunyahya.net**
+
+**İÇİNDEKİLER**
+
+GİRİŞ 8
+
+1\. BÖLÜM: Atomun Oluşum Serüveni 10
+
+2\. BÖLÜM: Atomun Yapısı 38
+
+3\. BÖLÜM: Maddeye Giden  
+İkinci Basamak: Moleküller 68
+
+4\. BÖLÜM: Canlanan Atomlar 92
+
+5\. BÖLÜM: Atomun Gücü 104
+
+SONUÇ 118
+
+6\. BÖLÜM: Evrim Yanılgısı 122
+
+**GİRİŞ**
+
+İnsanoğlu içinde yaşadığı dünyada "ne", "nasıl" ve "ne şekilde" gibi pek çok sorunun cevabını aramakta, ancak bu soruların ardından oldukça kısa bir yol katedebilmektedir. İnsanın iç içe yaşadığı olağanüstü düzen ve denge hakkında kendisine 'neden?' sorusunu sormadığı sürece gerçeğe ulaşacak bir mesafe katetmesi mümkün değildir.
+
+Bu kitapta, canlı-cansız her şeyin temeli olan "atom" konusunu ele alacağız. Atom hakkında nelerin, nasıl ve ne şekilde gerçekleştiğini inceledikten sonra, "neden" sorusunun cevaplarını arayacağız. Bizi, peşinde olduğumuz mutlak gerçeğe ulaştıracak olan işte bu son sorunun cevabı olacaktır.
+
+19\. yüzyılın ilk yarısından bu yana çok sayıda bilimadamı atomun sırlarını ortaya çıkarabilmek için gece gündüz çalıştılar. Atomun şekli, hareketi, yapısı ve diğer özelliklerini gün ışığına çıkaran bu çalışmalar, maddeyi ezeli ve ebedi bir varlık olarak kabul eden klasik fiziği temellerinden yıktı ve modern fiziğin temellerini attı. Bu çalışmalar aynı zamanda beraberinde birçok soruyu da gündeme getirdi.
+
+Bu sorulara yanıt arayan pek çok fizikçi, çalışmalarının sonucunda tüm evrende olduğu gibi atomda da kusursuz bir düzen, şaşmaz bir denge ve mükemmel bir tasarım olduğu gerçeğinde birleştiler.
+
+Bu gerçek, 14 asır önce Allah Katından indirilmiş olan Kuran'da da açıklanmıştır. Kuran ayetlerinden açıkça anlaşıldığı gibi tüm evren, mükemmel bir düzen içinde işlemektedir. Çünkü yer, gök ve ikisi arasında bulunanlar, sonsuz bir güç ve akıl sahibi olan Allah tarafından yaratılmıştır.
+
+Allah’ın yarattığı her şey olağanüstü mükemmelliktedir ve kusursuz bir düzen içinde işlemektedir. Asıl şaşılması gereken konu, bazı insanların kendi vücutları da dahil olmak üzere gördükleri, duydukları ve bildikleri her yerde karşılarına çıkan sonsuz sayıdaki mucizeden etkilenmemeleri ve bu olağanüstü detayların "neden" kendilerine gösterildiği sorusunun cevabını düşünmemekte ısrar etmeleridir.
+
+Okumakta olduğunuz "Atom Mucizesi" adlı bu kitap, bilimsel bir konuyu incelemesine karşın, alışageldiğiniz bilimsel kitaplardan farklı bir amaçla karşınıza çıkmaktadır. Bu çalışma, hem canlıların hem de cansızların yapı taşı olmak gibi son derece eşsiz bir özelliğe sahip olan "atom"u, "ne", "nasıl" ve "ne şekilde" sorularının cevaplarıyla ele alarak, "neden" sorusunun yanıtına kapı açmaktadır. Bu kapıdan geçildiğinde ise, Allah'ın aklının, bilgisinin üstünlüğü ve yaratışının tüm varlıkları sarıp kuşattığı açıkça gözler önüne serilmektedir.
+
+**Allah... O'ndan başka İlah yoktur. Diridir, kaimdir. O'nu uyuklama ve uyku tutmaz. Göklerde ve yerde ne varsa hepsi O'nundur. İzni olmaksızın O'nun Katında şefaatte bulunacak kimdir? O, önlerindekini ve arkalarındakini bilir. (Onlar ise) Dilediği kadarının dışında, O'nun ilminden hiçbir şeyi kavrayıp-kuşatamazlar. O'nun kürsüsü, bütün gökleri ve yeri kaplayıp-kuşatmıştır. Onların korunması O'na güç gelmez. O, pek yücedir, pek büyüktür. (Bakara Suresi, 255)**
+
+**AKILLI TASARIM yani YARATILIŞ**
+
+Kitapta zaman zaman karşınıza Allah'ın yaratmasındaki mükemmelliği vurgulamak için kullandığımız "tasarım" kelimesi çıkacak. Bu kelimenin hangi maksatla kullanıldığının doğru anlaşılması çok önemli. Allah'ın tüm evrende kusursuz bir tasarım yaratmış olması, Rabbimiz'in önce plan yaptığı daha sonra yarattığı anlamına gelmez. Bilinmelidir ki, yerlerin ve göklerin Rabbi olan Allah'ın yaratmak için herhangi bir 'tasarım' yapmaya ihtiyacı yoktur. Allah'ın tasarlaması ve yaratması aynı anda olur. Allah bu tür eksikliklerden münezzehtir. Allah'ın, bir şeyin ya da bir işin olmasını dilediğinde, onun olması için yalnızca "Ol" demesi yeterlidir. Kuran'da Allah şöyle buyurmaktadır:
+
+**Gökleri ve yeri (bir örnek edinmeksizin) yaratandır. O, bir işin olmasına karar verirse, ona yalnızca "Ol" der, o da hemen oluverir. (Bakara Suresi, 117)**
+
+**1\. BÖLÜM:  
+ATOMUN OLUŞUM SERÜVENİ**
+
+Görkemli boyutlarıyla insan aklının kavrama sınırlarını zorlayan evren, var olduğu ilk andan itibaren hassas dengeler üzerinde ve büyük bir düzen içerisinde, hiç şaşmadan işlemektedir. Bu muazzam evrenin nasıl var olduğu, nereye doğru gittiği, içindeki düzen ve dengeyi sağlayan kanunların nasıl işlediği ise her devirde insanların merak konusu olmuştur ve halen de olmaya devam etmektedir. Bilimadamları bu konularla ilgili sayısız araştırmalar yapmış, pek çok tez ve teori üretmişlerdir. Evrendeki düzen ve tasarımı akıl ve vicdanlarıyla değerlendiren bilimadamları için var olan kusursuzluğu açıklamak çok kolay olmuştur. Çünkü bu kusursuz tasarımın tüm evrene hakim olan üstün güç sahibi Allah tarafından yaratıldığı, düşünen ve akleden insanlar için açıkça gözler önüne serilmiş bir gerçektir. Allah bu açık gerçeği Kuran ayetlerinde de bildirmektedir:
+
+**Şüphesiz göklerin ve yerin yaratılışında, gece ile gündüzün art arda gelişinde temiz akıl sahipleri için gerçekten ayetler vardır. (Al-i İmran Suresi, 190)**
+
+Fakat yaratılış delillerine gözlerini kapamaya çalışan bilimadamları, yıllardır ardı arkası kesilmeyen bu sorulara cevap vermekte çok büyük zorluklar çekmektedirler. Bilimsel gerçeklerle taban tabana zıt olan teorilerini savunmak için demagojilere, hiçbir bilimsel dayanağı olmayan gerçek dışı kuramlara, çok zorda kalınca ise sahtekarlıklara bile sığınmaktan bile çekinmemektedirler. Fakat 21\. yüzyılın eşiğinde olduğumuz şu günlerde bilimsel alanda yaşanan her türlü gelişme bizi tek bir gerçeğe götürmektedir: Evren üstün bir güç ve sonsuz ilim sahibi olan Allah tarafından yoktan var edilmiştir.
+
+**Evrenin Yaratılışı**
+
+"Evren nasıl var oldu?" sorusu insanların yüzyıllardır cevap aradıkları bir sorudur. Tarih boyunca binlerce evren modeli sunulmuş, binlerce kuram üretilmiştir. Fakat bu teoriler incelendiği zaman hepsinin temelde iki farklı modelden birini savunduğu görülür. Bunlardan birincisi artık hiçbir bilimsel dayanağı ve geçerliliği kalmamış olan sonsuz evren, yani evrenin bir başlangıcının olmadığı fikri, ikincisi ise şu an tüm bilim çevreleri tarafından kabul gören evrenin büyük bir patlama ile yoktan yaratıldığı gerçeğidir.
+
+Artık geçerliliğini yitirmiş olan ilk model, evrenin sınırsız olduğunu, sonsuzdan beri var olduğunu, sonsuza kadar da varlığını ve şu anki durumunu koruyacağını savunmaktaydı. Bu sonsuz evren fikri, eski Yunan'da gelişmiş, daha sonra da Rönesans'la birlikte yeniden canlanan materyalist felsefenin bir ürünü olarak Batı bilim dünyasına girmişti. Rönesansın özünde eski Yunan düşünürlerinin eserlerini incelemek yatıyordu. Böylece materyalist felsefe ve bu felsefenin savunduğu sonsuz evren anlayışı, felsefi ve ideolojik kaygılarla tozlu raflardan çıkarılıp, bilimsel bir gerçekmiş gibi insanlara sunuldu.
+
+Karl Marx, Friedrich Engels gibi materyalistlerin, maddeci ideolojilerine çok önemli bir zemin hazırlayan bu fikri büyük bir hevesle sahiplenmeleri, bu modelin, içinde bulunduğumuz yüzyıla taşınmasında en önemli etkenlerden birini oluşturdu.
+
+20\. yüzyılın ilk yarısına kadar gündemde olan bu "sonsuz evren" modeline göre, evren için herhangi bir başlangıç veya son söz konusu değildi. Evren yoktan var edilmediği gibi, hiçbir zaman da yok olmayacaktı. Materyalist felsefenin de temelini oluşturan bu teoriye göre evrenin durağan (statik) bir yapısı vardı. Oysa daha sonraları elde edilen bilimsel bulgular bu teorinin tümüyle yanlış ve bilim dışı olduğunu ortaya çıkardı. Evren sonsuzdan beri süregelmiyordu; bir başlangıcı vardı ve yoktan var edilmişti.
+
+Evrenin sonsuz olduğu, yani bir başlangıcı olmadığı fikri her zaman için dinsizliğin ve Allah'ı inkar etme yanılgısına düşen ideolojilerin çıkış noktası olmuştur. Çünkü onlara göre evrenin bir başlangıcının olmaması, aynı zamanda bir Yaratıcı'nın da olmadığı anlamına geliyordu. Ama bilim çok geçmeden materyalistlerin bu iddialarının geçersizliğini ve evrenin Büyük Patlama (Big Bang) olarak adlandırılan bir patlama ile yoktan var edilerek başladığını, delilleriyle ortaya koydu. Yoktan var edilmenin ise tek bir anlamı vardı: "Yaratılış". Yani tüm evren sonsuz kudret sahibi olan Allah tarafından yaratılmıştı.
+
+Ünlü İngiliz astronom Sir Fred Hoyle da bu teoriden rahatsız olanlar arasında sayılıyordu. Hoyle, "steady-state" (sabit durum) adındaki teorisiyle evrenin genişlediğini kabul etmekle birlikte, evrenin boyut ve zaman açısından sonsuz olduğunu iddia ediyordu. Bu modele göre, evren genişledikçe madde, gerektiği miktarda, birdenbire, kendi kendine var olmaya başlıyordu. "Sonsuz evren" fikrini desteklemek için son derece zorlama açıklamalarla ortaya atılan bu teori, bilimsel olarak ispatlanan Big Bang kuramıyla taban tabana zıttı. Onlar bu gerçeğe karşı direnmeye devam ettiler, ama tüm bilimsel gelişmeler onları yalanlıyor ve gerçekleri birer birer yüzlerine vuruyordu.
+
+**Evrenin Genişlemesi ve Big Bang Gerçeği**
+
+20\. yy. ile birlikte astronomi alanında çok büyük gelişmeler yaşanmaya başlandı. İlk olarak 1922 yılında Rus fizikçi Alexandre Friedmann evrenin durağan bir yapıya sahip olmadığını keşfetti. Einstein'in genel görecelik kuramından yola çıkan Friedmann, en ufak bir etkileşimin evrenin genişlemesine veya büzüşmesine yol açacağını hesapladı. Belçika'nın en ünlü gök bilimcilerinden Georges Lemaitre ise bu hesabın önemini fark eden ilk kişi oldu. Onun bu hesaplamalardan yaptığı çıkarım, evrenin bir başlangıcı olduğu ve bu başlangıçtan itibaren sürekli genişlediğiydi. Lemaitre'in söylediği çok önemli bir şey daha vardı: Ona göre bu başlangıç anındaki patlamadan arta kalan bir radyasyon olmalıydı ve bu saptanabilirdi. Lemaitre ilk başlarda bilimsel çevrelerde çok büyük destek bulmayan bu açıklamalarının doğruluğundan emindi. Zaten evrenin genişlediğine dair başka kanıtlar da birer birer ortaya çıkıyordu. Bu sıralarda Edwin Hubble isimli Amerikalı astronom kullandığı dev teleskopla gökyüzünü incelerken yıldızların, uzaklıklarına bağlı olarak kızıl renge doğru kayan bir ışık yaydıklarını saptadı. Hubble, California Mount Wilson gözlem evinde yaptığı bu buluşuyla sabit durum teorisini ortaya atan ve yıllardır savunan tüm bilim adamlarına da meydan okuyor, mevcut evren anlayışını temelden sarsıyordu.
+
+Hubble'ın bu tespiti, gözlemin yapıldığı noktaya doğru hareket eden ışıkların tayfının mor yöne doğru, gözlemin yapıldığı noktadan uzaklaşan ışıkların tayfının da kızıl yöne doğru kaydığı fiziksel gerçeğine dayanıyordu. Yani California Mount Wilson gözlem evinden izlenen gök cisimleri dünyamızdan uzaklaşmaktaydılar. Bu gözlemlerin devamı yıldız ve galaksilerin sadece bizden değil, birbirlerinden de uzaklaştıklarını ortaya koyuyordu. Tüm bu gök cisimlerinin birbirlerinden uzaklaşmaları evrenin genişlemekte olduğunu bir kez daha kanıtlıyordu. Bu gelişmelerle ilgili ilginç bir saptamayı David Filkin'in "Stephen Hawking's Universe" isimli kitabından aktaralım:
+
+"… Lemaitre iki yıla kalmadan ummaya cesaret edemediği bir haber aldı. Hubble galaksilerden gelen ışığın kızıla doğru kaydıklarını gözlemlemişti ve Doppler etkisine göre bu evrenin genişlediği demekti. Artık yalnızca bir zaman sorunuydu. Einstein zaten Hubble'ın çalışmalarıyla ilgileniyordu ve Mount Wilson Gözlem evinde kendisini ziyaret etmek niyetindeydi. Lemaitre de aynı sıralarda California Teknoloji Enstitüsü'nde bir konferans vermeyi ayarladı ve Einstein ile Hubble'ı birlikte bir köşeye sıkıştırmayı başardı. Kendisinin "ilk atom" kuramını adım adım anlatarak tüm evrenin "dünü olmayan bir günde" yaratıldığını söyledi. Gereken bütün matematik hesaplarını yapmıştı. Lemaitre sözünü bitirdiğinde kulaklarına inanamadı. Einstein ayağa kalkmış ve o anda duyduklarının "o güne kadar dinlediği en güzel ve en tatmin edici yorum" olduğunu bildirmiş" ve "kozmolojik sabiti yaratmanın yaşamının en büyük hatası olduğunu" itiraf etmişti.<sup>1</sup>
+
+İşte dünyanın gelmiş geçmiş en önemli bilim adamı sayılan Einstein'ı ayağa fırlatan bu gerçek evrenin bir başlangıcı olduğu gerçeğiydi.
+
+Evrenin genişlemesiyle ilgili yapılan gözlemler arttıkça yeni iddialar da birbirini izliyordu. Bu gerçekten yola çıkan bilimadamları, Lemaitre'in de söylediği gibi, zamanda geriye doğru gittiklerinde sürekli küçülen, küçülen ve sonunda bir nokta kadar kalan bir evren modeliyle karşı karşıya kaldılar. Matematiksel hesaplamalar, evrenin tüm maddesini içinde barındıran bu "tek nokta"nın, korkunç çekim gücü nedeniyle "sıfır hacme" sahip olacağını gösterdi. Evren, sıfır hacme sahip bu noktanın patlamasıyla ortaya çıkmıştı ve bu patlamaya "Big Bang" (Büyük Patlama) adı verildi.
+
+Big Bang'in gösterdiği önemli bir gerçek vardı: Sıfır hacim "yokluk" anlamına geldiğine göre, evren "yok" iken "var" hale gelmişti. Bu ise, evrenin bir başlangıcı olduğu anlamına geliyor ve böylece materyalizmin "evren sonsuzdan beri vardır" varsayımını geçersiz kılıyordu.
+
+**Delilleriyle Büyük Patlama**
+
+Evrenin büyük bir patlama sonrasında oluşmaya başladığı gerçeğinin kesinlik kazanması üzerine astrofizikçiler araştırmalarını hızlandırdılar. George Gamov'a göre evrenin bu patlama ile oluşması durumunda, patlamadan arta kalan ve evrenin her yanına eşit şekilde dağılmış bulunan bir radyasyonun olması gerekiyordu.
+
+Bu varsayımı takip eden yıllarda tüm bilimsel buluşlar bütünüyle Big Bang'i doğrular şekilde birbirini izledi. 1965 yılında Arno Penzias ve Robert Wilson adlı iki araştırmacı bu dalgaları bir rastlantı sonucunda keşfettiler. "Kozmik Fon Radyasyonu" adı verilen bu radyasyon, uzaydaki belli bir kaynaktan yayılan herhangi bir radyasyondan farklıydı. Olağanüstü bir eş yönlülük sergiliyordu. Başka bir ifade ile yerel kökenli değildi, yani belirli bir kaynağı yoktu, evrenin tümüne dağılmış bir radyasyondu. Böylece uzun süredir evrenin her yerinden eşit ölçüde ısı dalgası şeklinde tesbit edilen bu radyasyonun, Big Bang'in ilk dönemlerinden kalma olduğu ortaya çıktı. Üstelik bu rakam bilim adamlarının önceden öngördükleri rakama çok yakındı. Penzias ve Wilson, Big Bang'in bu ispatını deneysel olarak ilk gösteren kişiler oldukları için Nobel Ödülü kazandılar.
+
+George Smoot ve NASA'daki ekibinin, Penzias ve Wilson'ın ölçümlerini doğrulaması uzaya gönderilen COBE uydusu sayesinde, yalnızca sekiz dakika sürdü. Uyduda bulunan hassas tarayıcıların elde ettikleri sonuçlar Big Bang için yeni bir zaferi de beraberinde getiriyordu. Tarayıcılar Big Bang'in ilk anlarındaki sıcak ve yoğun ortamın kalıntılarının gerçekliğini doğruluyorlardı. COBE Big Bang'in doğruluğunu delilleriyle onaylamıştı ve bilim çevreleri bu açık gerçeği kabul etmek durumundaydılar.
+
+Bir başka delil ise uzaydaki hidrojen ve helyum gazlarının miktarının hesaplanmasıyla ortaya çıktı. Buna göre evrendeki hidrojen-helyum gazlarının oranı, Big Bang'den arta kalan hidrojen-helyum oranının teorik olarak hesaplanan miktarıyla büyük bir benzerlik gösteriyordu.
+
+Bu delillerin ortaya çıkması, Big Bang'in bilim dünyasında kesin kabul görmesiyle sonuçlandı. Ünlü bilim dergisi Scientific American, 1994 yılının Ekim ayı sayısında "Big Bang modeli yüzyılımızın kabul görmüş tek modeli" diyordu.
+
+Uzun yıllar boyunca "sonsuz evren" fikrini savunan isimlerden de itiraflar birer birer geliyordu. Fred Hoyle ile birlikte uzun yıllar sabit durum teorisini savunan Dennis Sciama, Big Bang gerçeği karşısında düştükleri içler acısı durumu şöyle anlatır:
+
+Sabit durum teorisini savunanlarla, onu test eden ve bence onu çürütmeyi uman gözlemciler arasında, bir dönem çok sert çekişme vardı. Bu dönemde ben de bir rol üstlenmiştim. Çünkü gerçekliğine inandığım için değil, gerçek olmasını istediğim için 'sabit durum' teorisini savunuyordum. Teorinin geçersizliğini savunan kanıtlar ortaya çıkmaya başladıkça Fred Hoyle bu kanıtları karşılamada lider rol üstlenmişti. Ben de yanında yer almış, bu düşmanca kanıtlara nasıl cevap verilebileceği konusunda fikir yürütüyordum. Ama kanıtlar biriktikçe artık oyunun bittiği ve sabit durum teorisinin bir kenara bırakılması gerçeği ortaya çıkıyordu.<sup>2</sup>
+
+**Allah Evreni Yoktan Var Etmiştir**
+
+Gelişen bilimin ortaya çıkardığı tüm delillerle birlikte "sonsuz evren" kavramı da tarihe karışmış oluyordu. Bunun arkasından ise daha önemli sorular ortaya çıkıyordu. Bu büyük patlamadan önce ne vardı? "Yok" olan evreni "var" hale getiren güç neydi?
+
+Büyük patlama öncesinde ne olduğu sorusuna verilecek tek bir cevap vardır. Bu da elbette ki gökleri ve yeri büyük bir düzen içinde yaratan, üstün güç ve kudret sahibi Allah'tır. Pek çok bilimadamı, inançlı olsun ya da olmasın, bu gerçeği kabul etmek zorundadır. Bilimsel platformlarda bu gerçeği kabul etmeseler bile, cümleleri arasına sıkışan itirafları onları ele vermektedir. Örneğin önceleri ateist olan fakat sonradan Allah’ın varlığını kabul eden tanınmış felsefecilerden Anthony Flew, geçmişte itiraflarda bulunmanın insan ruhuna iyi geldiğini söyleyip, konuşmasına şöyle devam etmiştir:
+
+İtiraflarda bulunmanın insan ruhuna iyi geldiğini söylerler. Ben de bir itirafta bulunacağım: Big Bang modeli, bir ateist açısından oldukça sıkıntı vericidir. Çünkü bilim, dini kaynaklar tarafından savunulan bir iddiayı ispat etmiştir: Evrenin bir başlangıcı olduğu iddiasını. <sup>3</sup>
+
+İngiliz materyalist fizikçi H. P. Lipson gibi bazı bilim adamları ise Big Bang teorisini ister istemez kabul etmek zorunda olduklarını itiraf eder:
+
+Bence, bu noktadan daha da ileri gitmek ve tek kabul edilebilir açıklamanın yaratılış olduğunu onaylamak zorundayız. Bunun ben dahil çoğu fizikçi için son derece itici olduğunun farkındayım, ama eğer deneysel kanıtlar bir teoriyi destekliyorsa, bu teoriyi sırf hoşumuza gitmediği için reddetmemeliyiz.<sup>4</sup>
+
+Sonuç olarak bilim, materyalist bilim adamlarının önüne isteseler de istemeseler de tek bir gerçeği koymaktadır: Madde ve zaman, sonsuz güç sahibi olan, gökleri, yeri ve ikisi arasındakileri kusursuzca var eden bir Yaratıcı, her şeye kadir olan Allah tarafından yaratılmıştır.
+
+**Allah, yedi göğü ve yerden de onların benzerini yarattı. Emir, bunların arasında durmadan iner; sizin gerçekten Allah'ın her şeye güç yetirdiğini ve gerçekten Allah'ın ilmiyle her şeyi kuşattığını bilmeniz, öğrenmeniz için. (Talak Suresi, 12)**
+
+**Kuran'daki İşaretler**
+
+Big Bang modeli, insanlığın evreni tanımasına yardımcı olurken, çok önemli bir işlev daha gerçekleştirmiştir. Önceki sayfalarda sözlerini aktardığımız, önceleri ateist olan fakat sonradan yaratılışı kabul eden ünlü felsefeci Anthony Flew'un ifadesiyle, Big Bang ile birlikte "bilim, dini kaynaklar tarafından savunulan bir iddiayı ispat etmiştir."
+
+Bu gerçek, "evrenin yoktan yaratıldığı gerçeği"dir. Bu, bilimin keşfinden binlerce yıl önce, Allah'ın insanlara yol gösterici olarak indirdiği mukaddes kitaplarda bildirilmiştir.
+
+Tüm İlahi kaynakların içinde tahrifata uğramamış yegane kitap olan Kuran'da ise, hem evrenin yoktan yaratılışı, hem de bu yaratılışın biçimi konusunda bilgiler verilmektedir. 14 asır önce vahyedilmiş olan bu bilgiler 20\. yüzyıl biliminin bulgularıyla tamamen paraleldir.
+
+Öncelikle evrenin "yok" iken "var" hale geldiği, Kuran'da şöyle haber verilir:
+
+**(Allah) gökleri ve yeri bir örnek edinmeksizin yaratandır... (Enam Suresi, 101)**
+
+Günümüzden tam 14 asır önce insanların evrenle ilgili bilgilerinin son derece kısıtlı olduğu zamanlarda yine Kuran'da bildirilen bir başka gerçek de, aynı Big Bang teorisinin ortaya koyduğu gibi, tüm evrenin, çok küçük bir hacimde bir arada iken ayrılıp genişlemesiyle ortaya çıkmış olduğudur:
+
+**O inkar edenler görmüyorlar mı ki, (başlangıçta) göklerle yer birbiriyle bitişik iken, Biz onları ayırdık ve her canlı şeyi sudan yarattık. Yine de onlar inanmayacaklar mı? (Enbiya Suresi, 30)**
+
+Üstteki ayetin Arapça orijinalinde çok önemli bir kelime seçimi vardır. Ayetin "birbiriyle bitişik" olarak tercüme edilen "ratk" kelimesi, Arapça sözlüklerde "birbiriyle iç içe, ayrılmaz durumda, kaynaşmış" anlamlarına gelir. Yani tam bir bütün oluşturan iki madde için kullanılır. Ayetteki "ayırdık" ifadesi ise Arapça "fatk" fiilidir ki, bu fiil ratk halindeki bir nesnenin yarıp, parçalayıp dışarı çıkması anlamına gelir. Örneğin tohumun filizlenerek topraktan dışarı çıkması bu fiille ifade edilir.
+
+Bu bilgiyle ayete tekrar bakalım. Ayette göklerle yerin ratk durumunda olduğundan bahsedilmektedir. Ardından bu ikisi fatk fiili ile ayrılmışlardır. Yani biri diğerini yararak dışarı çıkmıştır. Gerçekten de Big Bang'in ilk anını hatırladığımızda, kozmik yumurta denilen noktanın evrenin tüm maddesini içerdiğini görürüz. Yani her şey, bir başka deyişle tüm "gökler ve yer" bu noktanın içinde, ratk halindedirler. Ardından bu kozmik yumurta şiddetle patlamış, bu yolla maddeler fatk olmuş, yani yumurtayı yarıp dışarı çıkarak tüm evreni oluşturmuşlardır.
+
+Kuran'da bildirilen bir başka gerçek ise, bilim tarafından ancak 1920'lerin sonunda fark edilen evrenin genişlemesi gerçeğidir. Yukarıda bahsettiğimiz gibi Hubble'ın, yıldızların ışık tayflarının kızıla kaymasını fark etmesiyle ilk kez ortaya çıkan bu gerçek, Kuran'da şöyle bildirilir:
+
+**Biz göğü 'büyük bir kudretle' bina ettik ve şüphesiz Biz, (onu) genişleticiyiz. (Zariyat Suresi, 47)**
+
+Kısacası modern bilimin bulguları bir yandan materyalist dogmayı geçersiz kılarken, öte yandan da Kuran ayetleri ile haber verilen gerçekleri bir kez daha tasdik etmektedir. Çünkü evren materyalistlerin sandığı gibi, maddenin içindeki birtakım tesadüfler ile değil, Allah'ın yaratmasıyla var olmuştur ve Allah'tan gelen bilgi, kuşkusuz evrenin kökeni hakkındaki en doğru bilgidir.
+
+**Maddenin An An Yaratılışı**
+
+Big Bang teorisinin de bir kez daha ortaya koyduğu gibi, Allah evreni yokluktan var etmiştir. Bu büyük patlama, her yönüyle insanı düşündüren, tesadüflerle izah edilemeyecek ince hesaplar ve detaylarla doludur.
+
+Patlamanın her anındaki sıcaklık, atom parçacıklarının sayısı, o anda devreye giren kuvvetler ve bu kuvvetlerin şiddetleri çok hassas değerlere sahip olmalıdır. Bu değerlerin birinin bile sağlanamaması durumunda, bugün içinde yaşadığımız evren var olamazdı. Kastettiğimiz değerlerin herhangi birinin matematiksel olarak "0"a yakın bir miktarda dahi değişmesi, bu sonu hazırlamaya yeterlidir.
+
+Kısacası evren ve onun yapı taşı olan atomlar Büyük Patlama anından hemen sonra Allah'ın yarattığı bu dengeler sayesinde yoktan var olmaya başlamıştır. Bilim adamları bu oluşum sırasında meydana gelen olayların mükemmel zamanlamalarını ve bu zamanlamalarda devrede olan fizik kurallarının düzenini anlamak için sayısız çalışmalar yapmışlardır. Bugün artık bu konuda çalışma yapan tüm bilimadamlarının kabul ettiği gerçekler şunlardır:
+
+*   "0" anı: Ne maddenin, ne de zamanın var olmadığı ve patlamanın gerçekleştiği bu "an", fizikte t (zaman) = 0 anı olarak kabul edilmektedir. Yani t=0 anında hiçbir şey yoktur. Yaratılmanın başladığı bu "an"dan önceyi tarif edebilmek için, o anda var olan fizik kurallarını bilmemiz gerekir. Çünkü şu an var olan fizik kanunları patlamanın ilk anlarında geçerli değildir.
+
+Fiziğin tanımlayabildiği olaylar en küçük zaman birimi olan 10<sup>-43</sup> saniyeden itibaren başlar. Bu, insan aklının asla kavrayamayacağı bir zaman dilimidir. Peki acaba, hayal bile edemediğimiz, bu küçük zaman aralığında neler olmuştur? Fizikçiler bu anda meydana gelen olayları tüm detaylarıyla açıklayabilecek bir teoriyi şu ana kadar geliştirememişlerdir.<sup>5</sup>
+
+Çünkü bilim adamlarının ellerinde hesap yapabilmeleri için gereken malzeme yoktur. Matematik ve fizik kurallarının tanımları bu sınırda tıkanıp kalmıştır. Yani her bir detayı çok hassas dengeler üzerine kurulmuş bu patlamanın öncesi de, bu ilk anları da fiziğin ve insanın kavrama gücünün ötesinde bir yaratılışa sahiptir...
+
+Zamanın olmadığı bir andan başlayan bu yaratılış an an madde evreninin ve fizik kurallarının ortaya çıkmasını sağlamıştır. Şimdi bu patlamada çok kısa süre içerisinde büyük bir hassasiyetle meydana gelen olaylara bir göz atalım:
+
+Yukarıda da belirttiğimiz gibi fizikte her şey 10<sup>-43</sup> saniye sonrasından itibaren hesaplanabilir ve ancak bu andan sonra enerji ve zaman tarif edilebilir. Yaratılışın bu anında, sıcaklık değeri 10<sup>32</sup> (100.000.000.000.000.000.-000.000.000.000.000) K’dir. Bir kıyaslama yapacak olursak, güneşin sıcaklığı milyonlarla (10<sup>8</sup>), güneşten çok büyük yıldızların sıcaklığı ise ancak milyarlarla (10<sup>11</sup>) ifade edilir. Şu an tespit edebildiğimiz en yüksek sıcaklık milyar derecelerle sınırlıyken, 10<sup>-43</sup> anındaki sıcaklığın ne derece yüksek olduğu konusunda bir kıyas yapabilmek mümkündür.
+
+*   10<sup>-43</sup> saniyelik bu dönemden bir aşama ileri gidip saniyenin 10<sup>-37</sup> olduğu zamana geliriz. Bu iki süre arasındaki aralık bir-iki saniye gibi bir an değildir. Saniyenin katrilyon kere katrilyonda biri kadar bir zaman aralığından bahsedilmektedir. Sıcaklık yine olağanüstü yüksek olup 10<sup>29</sup> (100.000.000.-000.000.000.000.000.000.000) K değerindedir. Bu aşamada henüz atomlar yaratılmamıştır.<sup>6</sup>
+
+*   Bir adım daha atıp 10<sup>-2</sup> saniyelik döneme giriyoruz. Bu aralık, bir saniyenin yüzde birini ifade etmektedir. Bu zaman dilimi içinde sıcaklık 100 milyar derecedir. Bu dönemde "ilk evren" şekillenmeye başlamıştır. Daha atom çekirdeğini oluşturan proton ve nötron gibi parçacıklar görünürde yoktur. Ortada sadece elektron ve onun zıttı olan pozitron (anti-elektron) vardır. Çünkü evrenin o anki sıcaklığı ve hızı sadece bu parçacıkların oluşmasına izin verir. Yokluğun ardından patlama gerçekleşeli daha 1 saniye bile geçmeden, elektron ve pozitronlar oluşmuştur.
+
+Bu andan sonra oluşacak her atom parçacığının hangi anda ortaya çıkacağı çok önemlidir. Çünkü şu andaki fizik kurallarının ortaya çıkması için her parçacık özel bir anda ortaya çıkmak zorundadır. Hangi parçanın önce oluşacağı çok büyük bir önem taşımaktadır. Bu sıralama ya da zamanlamadaki en ufak bir oynama sonucunda, evrenin bugünkü haline gelmesi mümkün olmazdı.
+
+Şimdi burada durup biraz düşünelim.
+
+Büyük Patlama teorisi, evreni oluşturan tüm maddenin yokluktan ortaya çıktığını göstermesiyle Allah'ın varlığının bir delilini ortaya koymuş oldu. Ancak bununla kalmadı, Büyük Patlama'nın ardından henüz 1 saniye bile geçmeden atomun yapıtaşlarının da yoktan var olduğunu gösterdi. Bu parçacıkların sahip olduğu inanılmaz denge ve düzene dikkat etmek gerekir. İlerleyen sayfalarda daha detaylı anlatacağımız bu dengeler sayesinde evren bugünkü durumundadır ve yine bu dengeler sayesinde bizler yaşamımızı rahatça sürdürebiliriz. Kısacası, büyük bir karmaşa ve düzensizlik yaratması beklenebilecek bir patlamanın ardından mükemmel bir düzen, bizlerin "fizik kuralları" olarak adlandırdığı değişmeyen kanunlar ortaya çıkmıştır. Bu ise, Büyük Patlama da dahil evrenin yaratılışından itibaren her anın kusursuzca tasarlandığını bizlere kanıtlamaktadır.
+
+Şimdi kaldığımız yerden gelişmeleri izlemeye devam edelim.
+
+Bir aşama sonra, 10<sup>-1</sup> saniye kadar bir zamanın geçtiği bir ana geliriz. Bu sırada sıcaklık 30 milyar derecedir. t=0 anından bu döneme gelene kadar henüz 1 saniye bile geçmemiştir. Ancak atomun diğer parçacıkları olan nötron ve protonlar artık belirmeye başlamıştır. Daha sonraki bölümlerde kusursuz yapılarını inceleyeceğiniz nötron ve protonlar, işte bu şekilde yokluktan "an"dan bile kısa bir süre içerisinde yaratılmışlardır.
+
+*   Patlamadan sonraki 1\. saniyeye gelelim. Bu dönemdeki kütlesel yoğunluğun derecesine baktığımızda, yine olağanüstü büyük bir rakamla karşı karşıya olduğumuzu görürüz. Yapılan hesaplamalara göre bu dönemdeki mevcut kütlenin yoğunluk değeri, litre başına 3.8 milyar kilogramdır. Milyar kilogram olarak ifade edilen bu rakamı, aritmetik olarak tespit edebilmek ve bu rakamı kağıt üzerinde göstermek kolaydır. Ancak, bu değeri tam olarak kavrayabilmek mümkün değildir. Bu rakamın büyüklüğünü daha kolay ifade edebilmek için çok basit bir örnek verecek olursak; "Himalayalardaki Everest tepesi bu yoğunluğa sahip olsaydı, kazanacağı çekim kuvveti ile dünyamızı bir anda yutabilirdi" diyebiliriz.<sup>7</sup>
+
+*   Bir sonraki zaman diliminin en belirgin özelliği ise sıcaklığın oldukça düşük bir değere ulaşmış olmasıdır. Evren artık yaklaşık 14 saniyelik bir ömre sahiptir ve sıcaklık da 3 milyar derecedir ve çok müthiş bir hızla genişlemeye devam etmektedir.
+
+Hidrojen ve helyum çekirdekleri gibi kararlı atom çekirdeklerinin oluşmaya başladığı dönem de işte bu dönemdir. Yani bir proton ile bir nötron ilk defa yan yana durabilecekleri bir ortam bulmuşlardır. Kütleleri var ile yok arası olan bu iki parçacık olağanüstü bir çekim oluşturarak, o müthiş yayılma hızına karşı koymaya başlamışlardır. Ortada son derece bilinçli, kontrollü bir gidiş olduğu bellidir. İnanılmaz bir patlamanın ardından, büyük bir denge, hassas bir düzen oluşmaktadır. Protonlar ve nötronlar biraraya gelmeye, maddenin yapı taşı olan atomu oluşturmaya başlamışlardır. Oysa bu parçacıkların, maddeyi oluşturabilmek için gerekli hassas dengeleri sağlayabilecek bir güce ve bilince sahip olmaları elbette ki mümkün değildir.
+
+*   Bu oluşumu takip eden dönemde, evrenin sıcaklığı 1 milyar dereceye düşmüştür. Bu sıcaklık güneşimizin merkez sıcaklığının 60 katıdır. İlk dönemden bu döneme kadar geçen süre sadece 3 dakika 2 saniyedir. Artık foton, proton, anti-proton, nötrino ve anti-nötrino gibi atom altı parçacıklar çoğunluktadır. Bu dönemde var olan tüm parçacıkların sayıları ve birbirleri ile olan etkileşimleri çok kritiktir. Öyle ki, herhangi bir parçacığın sayısındaki en ufak bir farklılık, bunların belirlediği enerji düzeyini bozacak ve enerjinin maddeye dönüşmesini engelleyecektir.
+
+Örneğin elektron ve pozitronları ele alalım: Elektron ve pozitron bir araya geldiğinde enerji açığa çıkar. Bu sebeple ikisinin de sayıları çok önemlidir. Diyelim ki 10 birim elektron ve 8 birim pozitron karşı karşıya geliyor. Bu durumda, 10 birim elektronun 8 birimi, yine 8 birim pozitronla etkileşime girer ve böylece enerji açığa çıkar. Sonuçta, 2 birim elektron serbest kalır. Elektron, evrenin yapı taşı olan atomu oluşturan parçacıklardan biri olduğundan, evrenin var olabilmesi için bu dönemde gerekli miktarda elektron olması şarttır. Az önceki örnek üzerinde düşünmeye devam edersek, karşı karşıya gelen elektron ve pozitronlardan, eğer pozitronların sayısı daha fazla olsaydı, sonuçta açığa çıkan enerjiden elektron yerine pozitronlar arta kalacak ve madde evreni asla oluşamayacaktı. Pozitron ve elektronların sayısı eşit olsaydı, bu kez de ortaya sadece enerji çıkacak, maddesel evrene dair hiçbir şey oluşmayacaktı. Oysa elektron sayısındaki bu fazlalık, sonradan evrendeki protonların sayısına eşit olacak şekilde çok hassas bir ölçüyle ayarlanmıştır. Çünkü daha sonradan oluşacak olan atomda, elektron ve proton sayıları birbirine eşit olacaktır.
+
+İşte, Büyük Patlama'dan sonra ortaya çıkan parçacıkların sayısı bu kadar ince bir hesapla belirlenmiş ve sonuçta madde evreni oluşabilmiştir. Prof. Dr. Steven Weinberg bu parçacıklar arasındaki etkileşimin ne derece kritik olduğunu şu sözleriyle vurgulamaktadır:
+
+Evrende ilk birkaç dakikada gerçekten de kesin olarak eşit sayıda parçacık ve karşıt parçacık oluşmuş olsaydı, sıcaklık 1.000.000.000 derecenin altına düştüğünde, bunların tümü yok olur ve ışınım dışında hiçbir şey kalmazdı. Bu olasılığa karşı çok iyi bir kanıt vardır: Var olmamız. Parçacık ve karşı parçacıkların yok olmasının ardından şimdiki evrenin maddesini sağlamak üzere geriye bir şeylerin kalabilmesi için, pozitronlardan biraz daha çok elektron, karşı protonlardan biraz daha çok proton ve karşı nötronlardan biraz daha çok nötron var olmalıydı.<sup>8</sup>
+
+*   İlk dönemden bu yana toplam 34 dakika 40 saniye geçmiştir. Evrenimiz artık yarım saat yaşındadır. Sıcaklık milyar derecelerden düşmüş, 300 milyon dereceye ulaşmıştır. Elektronlarla pozitronlar birbirleriyle çarpışarak enerji açığa çıkarmayı sürdürürler. Artık atomu oluşturacak olan parçacıkların sayıları, madde evreninin oluşmasına imkan sağlayacak şekilde dengelenmiştir.
+
+Patlamanın hızının nispeten yavaşlamasıyla birlikte neredeyse kütlesi dahi olmayan bu parçacıklar birbirlerinin etkisine girmeye başlarlar. İlk hidrojen atomu, bir elektronun bir protonun yörüngesine girmesiyle oluşur. Bu oluşumla birlikte evrende göreceğimiz temel kuvvetlerle tanışmış oluruz.
+
+İnsan kavrayışının çok üstünde bir tasarım ürünü olan ve yapıları çok hassas dengeler üzerine oturan bu parçacıkların tesadüfler sonucu bir araya gelip, üstelik de hepsinin aynı davranışta bulunmaları kuşkusuz imkansızdır. Bu kusursuzluk, üzerinde araştırma yapan herkesi çok önemli bir gerçeğe götürür. Ortada üstün bir "yaratılış" ve bu yaratılışın her anında eşsiz bir kontrol vardır. Çünkü patlama sonrasında meydana gelen her parçacığın belirli bir zamanda, belirli bir ısıda ve belirli bir hızla oluşmaları gerekir. Öyleki bu haliyle, adeta kurulmuş bir saat gibi çalışan bu sistem, çalışmaya başlamadan önce bu ince ayarlarıyla birlikte programlanmıştır. Yani büyük patlama ve onun sonucunda ortaya çıkan kusursuz evren, patlama başlamadan önce tasarlanmış ve daha sonra harekete geçirilmiştir.
+
+Evreni düzenleyen, tasarlayan ve kontrol eden, elbette ki her şeyin Yaratıcısı olan Yüce Allah'tır.
+
+Bu yaratılış yalnızca atomda değil, evrenin büyük küçük her kütlesinde gözlemlenebilir. Başlangıçta birbirinden ışık hızıyla kopup uzaklaşan bu parçacıklardan yalnızca hidrojen atomları oluşmakla kalmamış, bugünkü evrenin içerdiği bütün muazzam sistemler, diğer atomlar, moleküller, gezegenler, güneşler, güneş sistemleri, galaksiler, kuasarlar, vs. muhteşem bir plan, ölçü ve denge içinde sırayla meydana gelmişlerdir. Sadece bir atomun oluşması için gereken parçacıkların şans eseri bir araya gelmeleri, hassas dengeleri oluşturmaları dahi imkansızken, gezegenlerin, galaksilerin, kısacası evrendeki işleyişi sağlayan tüm sistemlerin hepsinin teker teker şans eseri oluşup dengelere kavuştuğunu iddia etmek tamamen akıl ve mantık dışı olur. Bu eşsiz tasarım, tüm evrenin Yaratıcısı olan Allah'a aittir.
+
+Oluşumu tek başına bir mucize olan hidrojen atomunu diğer atomların oluşması takip etmiştir. Ancak, burada hemen akla "diğer atomlar neye göre oluştu, niçin tüm proton ve nötronlar sadece hidrojen atomunu oluşturmadılar, parçacıklar hangi atomdan ne kadar oluşturacaklarına nasıl karar verdiler?..." gibi sorular gelmektedir. Bu soruların cevabı bizi yine aynı sonuca götürmektedir: Hidrojenin ve onu takip eden tüm atomların ortaya çıkışında büyük bir kudret, kontrol ve tasarım vardır. Bu kontrol ve tasarım insan aklının sınırlarını zorlayan, ortada açık bir "yaratılış" olduğunu gösteren özelliktedir. Büyük Patlama ile ortaya çıkan fizik kuralları, aradan geçen yaklaşık 17 milyar yıllık zamanda herhangi bir değişikliğe uğramamıştır. Üstelik bu kurallar öyle ince hesaplar neticesinde var edilmişlerdir ki, bugünkü değerlerinden milimetrik sapmalar bile tüm evrendeki yapıyı ve düzeni alt üst edebilecek sonuçlar doğurabilir. Bu noktada ünlü fizikçi Prof. Stephen Hawking'in konuyla ilgili sözleri ilgi çekicidir. Hawking, anlatılan olayların aslında kavrayabildiğimizden çok daha ince hesaplar üzerine kurulduğunu şöyle açıklamaktadır:
+
+Eğer Big Bang'ten bir saniye sonra genişleme oranı, 100.000 milyon kere milyonda bir değeri kadar az olsaydı, evren genişlemeyi bırakıp kendi içine çökecekti.<sup>9</sup>
+
+Bu derece ince hesaplar üzerine kurulmuş olan Büyük Patlama, zamanın, mekanın ve maddenin kendiliğinden var olmadığını, herşeyin Allah tarafından yaratıldığını açıkça ortaya koymaktadır. Çünkü yukarıda anlatılan olayların, başıboş tesadüfler sonucu meydana gelmesi ve evrenin yapı taşı olan atomu oluşturması kesinlikle mümkün değildir.
+
+Nitekim bu konu ile ilgilenen pek çok bilim adamı evrenin yaratılışında sonsuz bir kuvvetin varlığını ve büyüklüğünü kabul etmiş durumdadır. Ünlü astrofizikçi Hugh Ross evrenin Yaratıcısı'nın tüm boyutların üzerinde olduğunu şöyle açıklar:
+
+Zaman, olayların meydana geldiği boyuttur. Eğer zaman, patlamayla birlikte ortaya çıkmışsa, o zaman evreni meydana getiren nedenin evrendeki zaman ve mekandan tamamen bağımsız olması gerekir. Bu bize Yaratıcı'nın evrendeki tüm boyutların üzerinde olduğunu gösteriyor. Aynı zamanda Yaratıcı'nın bazılarının savunduğu gibi evrenin kendisi olmadığını ve evreni kapladığını, sadece evrenin içindeki bir güç olmadığını kanıtlıyor.<sup>10</sup>
+
+Big Bang'in en önemli özelliği, bu teoriyle insanların Allah'ın gücünü daha iyi anlama imkanı bulmalarıdır. İçinde barındırdığı tüm maddelerle birlikte bir evrenin yoktan meydana gelmesi Allah'ın gücünün en büyük delillerindendir. Patlama sırasındaki enerjinin hassas dengesi ise, Allah'ın ilminin sonsuzluğunu düşündürtmeye yönelik çok büyük bir işarettir.
+
+**EVRENDEKİ TEMEL KUVVETLER**
+
+Evrendeki fizik kurallarının Büyük Patlama'nın ardından ortaya çıktığından bahsetmiştik. Bu kurallar bugün modern fiziğin kabul ettiği "dört temel kuvvet" çevresinde toplanır. Bu kuvvetler evrendeki bütün düzeni ve sistemi oluşturmak için Büyük Patlama'dan hemen sonra, ilk atom altı parçacıkların oluşumuyla birlikte ve özel olarak belirlenmiş zamanlarda ortaya çıkmışlardır. Atomlar, yani madde evreni, ancak bu kuvvetlerin etkisiyle var olabilmiş ve evrene çok düzenli bir tasarımla dağılmışlardır. Bu kuvvetler yerçekimi kuvveti olarak bildiğimiz kütle çekim kuvveti, elektromanyetik kuvvet, güçlü nükleer kuvvet ve zayıf nükleer kuvvettir. Bunların hepsi birbirinden farklı şiddete ve etki alanına sahiptir. Güçlü ve zayıf nükleer kuvvetler sadece atomun yapısını belirlerler. Diğer iki kuvvet, yani yerçekimi ve elektromanyetizma ise, atomların arasındaki ilişkiyi ve dolayısıyla tüm maddesel objeler arasındaki dengeyi belirlerler. Yeryüzündeki bu kusursuz düzen, bu kuvvetlerin çok hassas değerlerinin bir sonucudur. İlginç olan ise bu kuvvetlerin birbirleri ile karşılaştırıldıklarında ortaya çıkan tablodur. Çünkü Big Bang sonrasında ortaya çıkan ve evrene dağılan maddeler, aralarında uçurumlar olan bu kuvvetlere göre belirlenmiştir. Bu kuvvetlerin farklı değerlerini birbirlerine oranla şöyle gösterebiliriz:
+
+**Güçlü nükleer kuvvet : 15**
+
+**Zayıf nükleer kuvvet : 7.03 x 10<sup>-3</sup>**
+
+**Yer çekimi kuvveti : 5.90 x 10<sup>-39</sup>**
+
+**Elektromanyetik kuvvet : 3.05 x 10<sup>-12</sup>**
+
+Bu temel kuvvetler, mükemmel bir güç dağılımı ile madde evreninin oluşmasına imkan verirler. Kuvvetler arasındaki bu oran o kadar hassas bir denge üzerine kuruludur ki, ancak ve ancak bu oranlarla parçacıklar üzerinde gereken etkiyi yapabilirler.
+
+**1\. Çekirdekteki Dev Güç: Güçlü Nükleer Kuvvet**
+
+Kitabın başından bu yana atomun an an nasıl yaratıldığını ve bu yaratılıştaki hassas dengeleri inceledik. Çevremizde gördüğümüz her şeyin, kendimiz de dahil olmak üzere atomlardan oluştuğunu ve bu atomların da pek çok parçacıktan meydana geldiğini gördük. Peki bir atomun çekirdeğini oluşturan tüm bu parçacıkları bir arada tutan güç nedir? İşte çekirdeği bir arada tutan ve fizik kurallarının tanımlayabildiği en şiddetli kuvvet olan bu kuvvet, "güçlü nükleer kuvvet"tir.
+
+Bu kuvvet atomun çekirdeğindeki protonların ve nötronların dağılmadan bir arada durmalarını sağlar. Atomun çekirdeği bu şekilde oluşur. Bu kuvvetin şiddeti o kadar fazladır ki, çekirdeğin içindeki protonların ve nötronların adeta birbirine yapışmasını sağlar. Bu yüzden bu kuvveti taşıyan çok küçük parçacıklara Latince'de "yapıştırıcı" anlamına gelen "gluon" denilmektedir. Bu yapışmanın şiddeti çok hassas ayarlanmıştır. Bu yapıştırıcının kuvveti protonların ve nötronların birbirlerine istenilen mesafede bulunmalarını sağlamak için özel olarak tespit edilmiştir. Söz konusu kuvvet biraz daha yapıştırıcı olsa protonlar ve nötronlar birbirlerinin içine geçecek, biraz daha az olsa dağılıp gideceklerdi. İşte bu kuvvet Büyük Patlama'nın ilk saniyelerinden beri atomun çekirdeğinin oluşması için gerekli olan yegane değere sahiptir.
+
+Güçlü nükleer kuvvetin açığa çıktığı zaman ne kadar büyük tahrip gücü olduğunu bize Hiroşima ve Nagazaki'deki tecrübeler göstermiştir. İlerleyen bölümlerde daha ayrıntılı olarak inceleyeceğimiz atom bombalarının bu denli etkili olmasının tek sebebi atom çekirdeğinde saklanan bu gücün açığa çıkmasıdır.
+
+**2\. Atomun Emniyet Kemeri: Zayıf Nükleer Kuvvet**
+
+Şu an yeryüzündeki düzeni sağlayan en önemli etkenlerden biri de atomun kendi içinde dengeli bir yapıya sahip olmasıdır. Bu denge sayesinde maddeler bir anda bozulmaya uğramaz ve insanlara zarar verebilecek ışınları yaymaz. Atom bu dengesini çekirdeğindeki protonlarla nötronlar arasında var olan "zayıf nükleer kuvvet" sayesinde elde eder. Bu kuvvet özellikle içinde fazla nötron ve proton bulunduran çekirdeklerin dengesini sağlamada önemli bir rol oynar. Bu dengeyi sağlarken gerekirse bir nötron protona dönüşebilir.
+
+Bu işlem sonucunda çekirdekteki proton sayısı değiştiği için, artık atom da değişmiş, farklı bir atom olmuştur. Burada sonuç çok önemlidir. Bir atom parçalanmadan, başka bir atoma dönüşmüş ve varlığını korumaya devam etmiştir. İşte bu şekilde de canlılar kontrolsüz bir şekilde çevreye dağılıp insanlara zarar verecek parçacıklardan gelebilecek tehlikelere karşı adeta bir emniyet kemeri gibi korunmuş olur.
+
+**3\. Elektronları Yörüngede Tutan Kuvvet: Elektromanyetik Kuvvet**
+
+Bu kuvvetin keşfedilmesi fizik dünyasında bir çığır açtı. Her cismin kendi yapısal özelliğine göre bir "elektrik yükü" taşıdığı ve bu elektrik yükleri arasında bir kuvvet olduğu öğrenilmiş oldu. Bu kuvvet zıt elektrik yüklü parçacıkların birbirini çekmesini, aynı yüklü parçacıkların da birbirlerini itmelerini sağlar. Bu sayede bu kuvvet atomun çekirdeğindeki protonlarla çevresindeki yörüngelerde dolaşan elektronların birbirlerini çekmelerini sağlar. İşte bu şekilde atomu oluşturacak iki ana unsur olan "çekirdek" ve "elektronlar" bir araya gelme fırsatı bulurlar.
+
+Bu kuvvetin şiddetindeki en ufak bir farklılık elektronların çekirdek etrafından dağılmasına ya da çekirdeğe yapışmasına neden olur. Her iki durumda da atomun, dolayısıyla madde evreninin oluşması imkansız hale gelir. Oysa bu kuvvet ilk ortaya çıktığı andan itibaren sahip olduğu değer sayesinde çekirdekteki protonlar elektronları atomun oluşması için gereken en uygun şiddette çeker.
+
+**4\. Evreni Yörüngelerde Tutan Kuvvet: Yerçekimi Kuvveti**
+
+Bu kuvvet algılayabildiğimiz tek kuvvet olmasına rağmen, aynı zamanda da hakkında en az bilgi sahibi olduğumuz kuvvettir. Yerçekimi olarak bildiğimiz bu kuvvetin gerçek adı "kütle çekim kuvveti"dir. Şiddeti diğer kuvvetlere göre en düşük kuvvet olmasına rağmen, çok büyük kütlelerin birbirini çekmelerini sağlar. Evrendeki galaksilerin, yıldızların birbirlerinin yörüngelerinde kalmalarının nedeni bu kuvvettir. Dünyanın ve diğer gezegenlerin Güneş'in etrafında belirli bir yörüngede kalabilmelerinin nedeni de yine yerçekimi kuvvetidir. Bizler bu kuvvet sayesinde yeryüzünde yürüyebiliriz. Bu kuvvetin değerlerinde bir azalma olursa yıldızlar yerinden kayar, dünya yörüngesinden kopar, bizler dünya üzerinden uzay boşluğuna dağılırız. En ufak bir artma olursa da yıldızlar birbirine çarpar, dünya güneşe yapışır ve bizler de yer kabuğunun içine gireriz. Tüm bunlar çok uzak ihtimaller olarak görülebilir, ama bu kuvvetin şu an sahip olduğu şiddetinin dışına çok kısa bir süre dahi çıkması, bu sonlarla karşılaşmak için yeterlidir.
+
+Bu konuda araştırma yapan bütün bilim adamları bahsettiğimiz temel kuvvetlerin büyük bir özenle tespit edilmiş olmasının, evrenin varlığı için vazgeçilmez olduğunu kabul etmektedir.
+
+Ünlü moleküler biyolog Michael Denton, Nature's Destiny: How the Laws of Biology Reveal Purpose in the Universe (Doğanın Kaderi: Biyoloji Kanunları Evrendeki Amacı Nasıl Gösteriyor) adlı kitabında bu gerçeği şöyle vurgular:
+
+Eğer yerçekimi kuvveti bir trilyon kat daha güçlü olsaydı, o zaman evren çok daha küçük bir yer olurdu ve ömrü de çok daha kısa sürerdi. Ortalama bir yıldızın kütlesi, şu anki Güneşimiz'den bir trilyon kat daha küçük olurdu ve yaşama süresi de bir yıl kadar olabilirdi. Öte yandan, eğer yerçekimi kuvveti birazcık bile daha güçsüz olsaydı, hiçbir yıldız ya da galaksi asla oluşamazdı. Diğer kuvvetler arasındaki dengeler de son derece hassastır. Eğer güçlü nükleer kuvvet birazcık bile daha zayıf olsaydı, o zaman evrendeki tek kararlı element hidrojen olurdu. Başka hiçbir atom oluşamazdı. Eğer güçlü nükleer kuvvet, elektromanyetik kuvvete göre birazcık bile daha güçlü olsaydı, o zaman da evrendeki tek kararlı element, çekirdeğinde iki proton bulunduran bir atom olurdu. Bu durumda evrende hiç hidrojen olmayacak, yıldızlar ve galaksiler oluşsalar bile, şu anki yapılarından çok farklı olacaklardı. Açıkçası, eğer bu temel güçler ve değişkenler şu anda sahip oldukları değerlere tamı tamına sahip olmasalar, hiçbir yıldız, süpernova, gezegen ve atom olmayacaktı. Hayat da olmayacaktı.<sup>11</sup>
+
+Ünlü fizikçi Paul Davies ise, evrendeki fizik yasalarının bu tespit edilmiş ölçüleri karşısındaki hayranlığını şöyle ifade eder:
+
+Ve insan kozmolojiyi araştırdıkça, inanılmazlık giderek daha belirgin hale gelir. Evrenin başlangıcı hakkındaki son bulgular, genişlemekte olan evrenin, hayranlık uyandırıcı bir hassasiyetle düzenlenmiş olduğunu ortaya koymaktadır.<sup>12</sup>
+
+Tüm evrende bu temel kuvvetlerin üzerine kurulmuş üstün bir tasarım ve kusursuz bir düzen hüküm sürmektedir. Bu düzenin Sahibi elbette her şeyi kusursuzca yoktan var eden Allah'tır. En küçük kuvvetle yıldızları yörüngelerinde tutan, en şiddetli kuvvetle küçücük atomun çekirdeğini kaynaştıran alemlerin Rabbi olan Allah'tır. Bütün kuvvetler O'nun koyduğu "ölçü"lere göre hareket eder. Allah evrenin yaratılışındaki düzene, "belli bir ölçüyle" hesaplanmış dengelere bir Kuran ayetinde söyle dikkat çekmiştir:
+
+**Göklerin ve yerin mülkü O'nundur; çocuk edinmemiştir. O'na mülkünde ortak yoktur, her şeyi yaratmış, ona bir düzen vermiş, belli bir ölçüyle takdir etmiştir. (Furkan Suresi, 2)**
+
+**2\. BÖLÜM  
+ATOMUN YAPISI**
+
+Hava, su, dağlar, hayvanlar, bitkiler, vücudunuz, oturduğunuz koltuk, kısacası en ağırından en hafifine kadar gördüğünüz, dokunduğunuz, hissettiğiniz her şey atomlardan meydana gelmiştir. Elinizde tuttuğunuz kitabın her bir sayfası milyarlarca atomdan oluşur. Atomlar öyle küçük parçacıklardır ki, en güçlü mikroskoplarla dahi bir tanesini görmek mümkün değildir. Bir atomun çapı ancak milimetrenin milyonda biri kadardır.
+
+Bu küçüklüğü bir insanın gözünde canlandırması pek mümkün değildir. O yüzden bunu bir örnekle açıklamaya çalışalım:
+
+Elinizde bir anahtar olduğunu düşünün. Kuşkusuz bu anahtarın içindeki atomları görebilmeniz mümkün değildir. Atomları mutlaka görmek istiyorum diyorsanız, elinizdeki anahtarı dünyanın boyutlarına getirmeniz gerekecektir. Elinizdeki anahtar dünya boyutunda büyürse, işte o zaman anahtarın içindeki her bir atom bir kiraz büyüklüğüne ulaşır ve siz de onları görebilirsiniz.<sup>13</sup>
+
+Yine bu küçüklüğü kavrayabilmek ve her yerin nasıl atomlarla dolu olduğunu görebilmek için bir örnek daha verelim:
+
+Tek bir tuz tanesinin tüm atomlarını saymak istediğimizi düşünelim. Saniyede bir milyar (1.000.000.000) tane sayacak kadar hızlı olduğumuzu da varsayalım. Bu dikkate değer beceriye karşın, bu ufacık tuz tanesi içindeki atom sayısını tam olarak tesbit edebilmek için beşyüz yıldan fazla bir zamana ihtiyacımız olacaktır.<sup>14</sup>
+
+Peki bu kadar küçük bir yapının içinde ne vardır?
+
+Bu derece küçük olmasına rağmen atomun içinde evrende gördüğümüz sistemle kıyaslanabilecek kadar kusursuz, eşsiz ve kompleks bir sistem bulunmaktadır.
+
+Her atom, bir çekirdek ve çekirdeğin çok uzağındaki yörüngelerde dönüp-dolaşan elektronlardan oluşmuştur. Çekirdeğin içinde ise proton ve nötron ismi verilen başka parçacıklar vardır.
+
+Bu bölümde, canlı-cansız her şeyin temelini oluşturan atomun olağanüstü yapısını ve atomların nasıl birleşerek molekülleri, dolayısıyla maddeyi oluşturduğunu inceleyeceğiz.
+
+**Çekirdekte Saklı Güç**
+
+Çekirdek, atomun tam merkezinde bulunmaktadır ve atomun niteliğine göre belirli sayılarda proton ve nötrondan oluşmuştur. Çekirdeğin yarıçapı, atomun yarıçapının onbinde biri kadardır. Rakam olarak verirsek; atomun yarıçapı 10<sup>-8</sup> (0,00000001) cm, çekirdeğin yarıçapı ise 10<sup>-12</sup> (0,000000000001) cm kadardır. Dolayısıyla çekirdeğin hacmi, atomun hacminin 10 milyarda biri eder.
+
+Bu büyüklüğü (daha doğrusu küçüklüğü) yine gözümüzde canlandıramayacağımıza göre, kiraz örneğimizden devam edebiliriz. Biraz önce bahsettiğimiz gibi elinizdeki anahtarı dünya boyutlarına getirdiğinizde ortaya çıkan kiraz büyüklüğündeki atomların içinde çekirdeği arayalım. Ama bu arayış boşunadır, çünkü böyle bir ölçekte bile çok daha küçük olan çekirdeği gözlemleme olanağımız kesinlikle yoktur. Gerçekten bir şey görebilmek istiyorsak yeniden ölçü değiştirmek gerekecektir. Atomumuzu temsil eden kiraz yeniden büyüyüp iki yüz metre yüksekliğinde kocaman bir top olmalıdır. Bu akıl almaz boyuta karşın atomumuzun çekirdeği yine de çok küçük bir toz tanesinden daha iri bir duruma gelmeyecektir.<sup>15</sup>
+
+Öyle ki, çekirdeğin 10<sup>-13</sup> cm olan çapı ile, atomun 10<sup>-8</sup> cm olan çapını kıyasladığımızda şöyle bir sonuç ortaya çıkar: Atomu bir küre şeklinde kabul ederek bu küreyi tamamen çekirdekle doldurmak istediğimiz takdirde bu iş için 10<sup>15</sup> (1.000.000.000.000.000) atom çekirdeği gerekecektir.<sup>16</sup>
+
+Ancak bundan daha şaşırtıcı bir durum vardır: Boyutları atomun 10 milyarda biri olmasına rağmen, çekirdeğin kütlesi atomun kütlesinin % 99.95'ini oluşturmaktadır. Peki bir şey nasıl olur da bir yandan kütlenin yaklaşık tamamını oluştururken, diğer yandan da hemen hemen hiç yer kaplamaz?
+
+Bunun sebebi şudur: Atomun kütlesini oluşturan yoğunluk tüm atoma eşit olarak dağılmamıştır, yani atomun bütün kütlesi atomun çekirdeğinde birikmiştir. Diyelim ki, sizin 10 milyar metrekarelik bir eviniz var ve bu evin tüm eşyasını 1 metrekarelik bir odada toplamanız gerekiyor. Bunu yapabilir misiniz? Tabii ki yapamazsınız. Ancak atom çekirdeği dünyada eşi-benzeri olmayan çok büyük bir güçle bunu yapabilmektedir. Bu gücün kaynağı önceki bölümde ifade ettiğimiz evrendeki dört temel kuvvetten biri olan "Güçlü Nükleer Kuvvet"dir.
+
+Bu kuvvetin doğadaki kuvvetlerin en güçlüsü olarak, bir atomun çekirdeğini bir arada tuttuğundan, onu dağılmaktan kurtardığından bahsetmiştik. Çekirdekteki protonların hepsi pozitif yüklüdür ve elektromanyetik kuvvet nedeniyle birbirlerini iterler.
+
+Kısacası gözle göremeyeceğimiz kadar küçük bir atomun içinde, birbiriyle etkileşim halinde iki büyük kuvvet bulunur. Bu kuvvetlerin hassas değerleri sayesinde çekirdek bir bütün olarak kalabilir.
+
+Atomun boyutlarını ve evrendeki atom sayısını dikkate aldığımızda, ortada muazzam bir denge ve tasarım olduğunu görmemek mümkün değildir. Öyle ki, evrendeki temel kuvvetlerin çok özel bir biçimde, büyük bir ilimle ve kudretle yaratıldığı çok açıktır. İnkarcıların bu yaratılışı gözardı edebilmek için sığındıkları tek yol, tüm bunların "tesadüfler" sonucu oluştuğunu iddia etmekten öteye gidememektedir. Oysa olasılık hesapları evrendeki dengelerin "tesadüfen" oluşma ihtimalinin "sıfır" olduğunu bilimsel olarak kanıtlamaktadır. Tüm bunlar, Allah'ın varlığının ve kusursuz yaratışının apaçık delilleridir.
+
+…**Rabbim, ilim bakımından her şeyi kuşatmıştır. Yine de öğüt alıp-düşünmeyecek misiniz? (Enam Suresi, 80)**
+
+**Atomdaki Boşluk**
+
+Daha önce de üzerinde durduğumuz gibi, bir atomun çok büyük bir bölümü boşluktan oluşmaktadır. Burada her insanın aklına aynı soru gelir: Böyle büyük bir boşluk neden vardır? Şimdi şöyle düşünelim: Atom, en basit anlatımla içinde bir çekirdek ve onun çevresinde dönen elektronlardan oluşmaktadır. Çekirdekle elektronlar arasında başka hiçbir şey yoktur. Bu, "hiçbir şey olmayan" mikroskobik büyüklük, aslında atom ölçeğine göre çok geniştir. Bu genişliği şöyle örneklendirebiliriz: Çapı 1 cm. olan küçük bir bilya, çekirdeğe en yakın elektronu temsil ederse, çekirdek bu bilyadan 1 km. ötede bulunacaktır.<sup>17</sup> Bu büyüklüğün kafamızda daha iyi canlanabilmesi için şöyle bir örnek verebiliriz:
+
+"Temel parçacıklar arasında çok büyük bir boşluk egemendir. Eğer bir oksijen çekirdeğinin protonunu şu önümdeki masanın üstünde duran bir toplu iğnenin başı gibi düşünürsem, o zaman çevresinde dönen elektron Hollanda, Almanya ve İspanya'dan geçen bir çember çizer. (Bu satırların yazarı Fransa'da yaşamaktadır.) Onun için, bedenimi oluşturan tüm atomlar birbirlerine değecek kadar bir araya gelseydi, artık beni göremezdiniz. Zaten, artık beni çıplak gözle hiçbir zaman gözlemleyemezdiniz: Neredeyse milimetrenin birkaç binde biri boyutunda ufacık bir toz kadar olurdum."<sup>18</sup>
+
+İşte bu noktada evrende bilinen en büyük mekanla, en küçük mekan arasında bir benzerlik ortaya çıktığını fark ederiz. Öyle ki, gözlerimizi yıldızlara çevirirsek, orada da atomdakine benzer bir boşlukla karşılaşırız. Yıldızlar arasında da, galaksiler arasında da milyarlarca kilometrelik boşluklar mevcuttur. Ama bu boşlukların her ikisinde de insan aklını zorlayan, anlama kapasitesini aşan bir düzen hakimdir.
+
+**Çekirdeğin İçi: Proton ve Nötronlar**
+
+1932 yılına dek, çekirdeğin proton ve elektronlardan oluştuğu sanılıyordu. Çekirdeğin içinde protonla beraber elektronların değil nötronların olduğu ancak o tarihte keşfedilebildi. (Ünlü bilim adamı Chadwick 1932 yılında çekirdeğin içinde nötronun varlığını ispatladı ve bu keşfiyle Nobel ödülü kazandı.) İşte insanoğlunun atomun gerçek yapısıyla tanışması bu kadar yakın tarihte gerçekleşti.
+
+Atom çekirdeğinin ne kadar küçük boyutta olduğundan daha önce bahsetmiştik. Atom çekirdeğinin içine sığabilen bir protonun büyüklüğü ise 10<sup>-15</sup> metredir.
+
+Bu kadar küçük bir parçacığın insan hayatında pek bir önemi olamayacağını düşünebilirsiniz. Ancak, insan aklının kavramakta çok zorluk çektiği bir küçüklükte olan bu parçacıklar aslında çevrenizde gördüğünüz her şeyin temelini oluşturur.
+
+**Evrendeki Çeşitliliğin Kaynağı**
+
+Şu ana kadar tespit edilebilmiş 109 tane element vardır. Tüm evren, dünyamız, canlı-cansız bütün varlıklar, bu 109 elementin çeşitli biçimlerde birleşmeleriyle oluşmuştur. Buraya kadar tüm elementlerin birbirinin benzeri atomlardan oluştuğunu gördük; atomlar da birbirinin aynı parçacıklardan oluşuyordu. Peki madem elementleri oluşturan bütün atomlar aynı parçacıklardan oluşuyor, o halde elementleri farklı kılan, sınırsız çeşitlilikte maddeyi oluşturan nedir?
+
+Elementleri temelde birbirlerinden farklı kılan şey, atomlarının çekirdeklerindeki proton sayılarıdır. En hafif element olan hidrojen atomunda bir proton, ikinci en hafif element olan helyum atomunda iki proton, altın atomunda 79 proton, oksijen atomunda 8 proton, demir atomunda 26 proton vardır. İşte altını demirden, demiri oksijenden ayıran özellik, yalnızca atomlarının proton sayılarındaki bu farklılıktır. Soluduğumuz hava, vücudumuz, herhangi bir bitki veya bir hayvan ya da uzaydaki bir gezegen, canlı-cansız, acı-tatlı, katı-sıvı her şey... Bunların hepsi sonuçta proton-nötron-elektronlardan meydana gelirler.
+
+**Fiziksel Varlığın Sınırı: Kuarklar**
+
+Günümüzden 20 yıl öncesine kadar atomları oluşturan en küçük parçacıkların protonlar ve nötronlar oldukları sanılıyordu. Ancak çok yakın bir tarihte, atomun içinde bu parçacıkları oluşturan çok daha küçük parçacıkların var olduğu keşfedildi.
+
+Bu buluştan sonra, atomun içindeki "alt parçacıkları" ve onların kendilerine has hareketlerini incelemek üzere "Parçacık Fiziği" isimli bir fizik dalı ortaya çıkmıştır. Parçacık fiziğinin yaptığı araştırmalar şu gerçeği açığa çıkarmıştır: Atomu oluşturan proton ve nötronlar da aslında "kuark" adı verilen daha alt parçacıklardan oluşmaktadırlar.
+
+İnsan aklının kavrama sınırlarını aşan küçüklükteki protonu oluşturan kuarkların boyutu ise daha da hayret vericidir: 10<sup>-18</sup> (0,000000000000000001) metre.
+
+Protonun içinde bulunan kuarklar hiçbir şekilde birbirlerinden çok fazla uzaklaştırılamazlar; çünkü, çekirdeğin içindeki parçacıkları bir arada tutmaya yarayan "güçlü nükleer kuvvet" burada da etki etmektedir. Bu kuvvet, kuarklar arasında adeta bir lastik bant gibi görev yapar. Kuarkların arası açıldıkça bu kuvvet büyür ve iki kuark birbirinden en fazla 1 metrenin katrilyonda biri kadar uzaklaşabilir. Kuarklar arasındaki bu lastik bağlar, güçlü nükleer kuvveti taşıyan gluonlar sayesinde oluşur. Kuarklarla gluonlar birbirleriyle son derece güçlü bir iletişim halindedir. Ancak, bilim adamları bu iletişimin nasıl gerçekleştiğini halen keşfedememişlerdir.
+
+"Parçacık Fiziği" alanında hiç durmadan parçacıklar dünyasını aydınlatmak için araştırmalar yapılmaktadır. Fakat insanoğlu, sahip olduğu akıl, bilinç ve bilgiye rağmen kendisiyle birlikte her şeyi oluşturan özü ancak yeni yeni keşfedebilmektedir. Üstelik bu özün içine girdikçe konu daha da detaylanmakta, insan kuark ismini verdiği parçacığın 10<sup>-18</sup> m.lik sınırında takılmaktadır. Peki bu sınırın da altında ne vardır?
+
+Bugün bilim adamları bu konu ile ilgili çeşitli tezler öne sürerler, ama yukarıda da belirttiğimiz gibi bu sınır fiziksel evrenin son noktasıdır. Bunun altında bulunacak olan her şey madde ile değil, ancak enerji ile ifade edilebilir. Asıl önemli olan nokta ise, insanın tüm teknolojik imkanlarına rağmen yeni keşfedebildiği bir mekanda çok büyük dengelerin, fizik kanunlarının zaten bir saat gibi işliyor olmasıdır. Üstelik bu mekan evrendeki tüm maddenin ve insanın da yapı taşını oluşturan atomun içidir.
+
+İnsan ise kendi vücudundaki organlarda, sistemlerde her saniye işleyen bu kusursuz mekanizmadan yeni yeni haberdar olmaya başlamıştır. Bunları oluşturan hücrelerin mekanizmalarını öğrenmesi ise ancak son birkaç on yıla dayanır. Hücrenin temelindeki atomların, atomların içindeki proton ve nötronların, ve bunların da içindeki kuarkların mekanizmalarındaki üstün yaratılış ise, inançlı olsun ya da olmasın herkesi hayrete düşürecek bir mükemmelliktedir. Burada asıl üzerinde düşünülmesi gereken konu ise, tüm bu kusursuz mekanizmaların insan yaşamındaki her saniye boyunca, insanın herhangi bir müdahalesi olmadan, tamamen kontrolü dışında muntazam bir şekilde çalışmasıdır. Tüm bunların üstün bir güç ve bilgi sahibi olan Allah tarafından var edildiği ve denetiminin de yine Allah'a ait olduğu, akıl ve vicdan sahibi her insan için çok açık bir gerçektir.
+
+**Göklerde ve yerde olan ne varsa O'ndan ister. O, her gün bir iştedir.**
+
+**Şu halde Rabbinizin hangi nimetlerini yalanlayabilirsiniz? (Rahman Suresi, 29-30)**
+
+**Atomun Diğer Ucu: Elektronlar**
+
+Elektronlar tıpkı dünyanın güneş çevresinde dönerken, aynı zamanda kendi çevresinde dönmesi gibi, atom çekirdeğinin çevresinde dönen parçacıklardır. Aynı, gezegenlerde olduğu gibi bu dönüş, bizim yörünge adını verdiğimiz yollarda, çok büyük bir düzen içinde ve hiç durmaksızın gerçekleşir. Fakat dünyayla güneşin büyüklükleri arasındaki oran ile atomun içindeki oran çok farklıdır. Eğer elektronların büyüklüğü ile dünyanın büyüklüğü arasında bir kıyas yapmak gerekirse, bir atomu dünya kadar büyütsek, elektron sadece bir elma boyutuna gelecektir.<sup>19</sup>
+
+En güçlü mikroskopların bile göremeyeceği kadar küçük bir alanda dönüp-duran onlarca elektron, atomun içinde çok karışık bir trafik yaratır. Burada dikkat çeken en önemli nokta, çekirdeği elektrik yükünden oluşan bir zırh gibi kuşatan bu elektronların atomun içinde en ufak bir kazaya yol açmamalarıdır. Üstelik atomun içinde yaşanacak en ufak bir kaza atom için felaket olabilir. Ama böyle bir kaza asla gerçekleşmez; tüm işleyiş mükemmel bir düzen ve kusursuz bir sistem içinde devam eder. Çekirdeğin çevresinde saniyede 1.000 km. gibi akıl almaz bir hızla hiç durmadan dönen elektronlar, birbirleriyle bir kez bile çarpışmazlar. Birbirlerinden herhangi bir farkları bulunmayan bu elektronların farklı farklı yörüngelerde bulunmaları, son derece hayranlık uyandırıcıdır. Kütleleri ve hızları birbirlerinden farklı olsaydı çekirdeğin etrafında farklı yörüngelere dizilmeleri doğal karşılanabilirdi.
+
+Nitekim Güneş Sistemimiz'deki gezegenlerin dizilişi bu mantıktadır. Yani birbirinden kütle ve hız olarak tamamen farklı olan gezegenler, doğal olarak Güneş'in etrafında farklı yörüngelere yerleşmişlerdir. Ama atomdaki elektronların durumu bu gezegenlerden tamamen farklıdır. Tıpatıp birbirlerinin benzeri olan elektronların niçin çekirdek etrafında farklı yörüngelere sahip oldukları, bu yörüngeleri nasıl şaşmadan takip ettikleri, akıl almaz küçüklükteki boyutlarda akıl almaz büyüklükteki süratleriyle nasıl çarpışmadıkları soruları bizleri tek bir noktaya götürür. Bu eşsiz düzen ve hassas dengede karşımıza çıkan tek gerçek Allah'ın kusursuz yaratışıdır:
+
+**O Allah ki, yaratandır, (en güzel bir biçimde) kusursuzca var edendir, 'şekil ve suret' verendir. En güzel isimler O'nundur. Göklerde ve yerde olanların tümü O'nu tesbih etmektedir. O, Aziz, Hakimdir. (Haşr Suresi, 24)**
+
+Elektronlar, nötron ve protonların neredeyse ikibinde biri kadar ufak parçacıklardır. Bir atomda, protonlarla eşit sayıda elektron bulunur ve her elektron her bir protonun taşıdığı artı (+) yüke eşit değerde eksi (-) yük taşır. Çekirdekteki toplam artı (+) yük ile elektronların toplam eksi (-) yükü birbirini dengeler ve atom nötr olur.
+
+Elektronların, taşıdıkları elektrik yükü itibariyle bazı fizik kurallarına uymaları gerekir. Bu fizik kuralları "aynı elektrik yüklerinin birbirini itmesi ve zıt yüklerin birbirlerini çekmesi"dir.
+
+İlk olarak, normal koşullarda hepsi eksi yüklü olan elektronların bu kurala uyup birbirlerini itmeleri ve çekirdeğin etrafından dağılıp-gitmeleri gerekir. Ancak durum böyle olmaz. Eğer, elektronlar çekirdeğin etrafından dağılsaydı, tüm evren boşlukta dolaşan, proton, nötron ve elektronlardan ibaret olurdu. İkinci olarak; artı yüke sahip olduğu için çekirdeğin, eksi yüklü elektronları kendine çekmesi ve elektronların da çekirdeğe yapışmaları gerekirdi. Böyle bir durumda da çekirdek bütün elektronları çeker ve atom kendi içine çökerdi.
+
+Ancak bu olumsuzlukların hiçbiri olmaz. Elektronların az önce belirttiğimiz (1.000 km/s) olağanüstü kaçış hızları, bunların birbirlerine uyguladıkları itici kuvvet ve çekirdeğin elektronlara uyguladığı çekim kuvveti o kadar hassas değerler üzerine kurulmuştur ki, bu üç zıt etken birbirini mükemmel bir şekilde dengeler. Sonuçta atomdaki bu muazzam sistem dağılıp parçalanmadan sürüp gider. Atoma etki eden bu kuvvetlerden tek bir tanesinin, olması gerekenden biraz daha fazla veya biraz daha az olması atomun hiçbir zaman var olmamasına neden olurdu.
+
+Bu etkenlerin yanı sıra, çekirdekteki protonları ve nötronları birarada tutan nükleer kuvvetler olmasaydı, eşit yüke sahip olan protonlar değil kenetlenmek, birbirlerine yaklaşamayacaklardı bile. Aynı şekilde nötronlar da çekirdeğe hiçbir şekilde bağlanamayacaklardı. Bunun sonucunda çekirdek, dolayısıyla atom diye bir şey olmayacaktı.
+
+Bütün bu ince hesaplar, tek bir atomun bile başıboş olmayıp, Allah'ın kusursuz denetiminde hareket ettiğinin bir göstergesidir. Aksi takdirde içinde yaşadığımız evrenin daha başlamadan sonunun gelmesi kaçınılmaz olurdu. Daha başlangıç anında bu süreç tersine döner, evren oluşamazdı. Ancak her şeyin Yaratıcısı, sonsuz güç ve ilim sahibi olan Allah, evrendeki tüm dengeler gibi, atomun içinde de çok hassas dengeler kurmuştur ve bu sayede atom, mükemmel bir düzen ile varlığını sürdürmektedir.
+
+Allah'ın yarattığı bu denge, bilim adamları tarafından yıllar boyunca araştırılarak çözülmeye çalışılmış ve sonunda gözlenen olaylara sadece çeşitli isimler takılmıştır: "elektromanyetik kuvvet", "güçlü nükleer kuvvet", "zayıf nükleer kuvvet", "kütlesel çekim kuvveti"… Ancak, kitabın girişinde de değindiğimiz gibi, kimse "Neden?" sorusu üzerinde düşünmemiştir. Örneğin, neden bu kuvvetler belirli şiddetlere, belirli kurallara göre hareket ederler? Neden bu kuvvetlerin etkili oldukları alanlar, takip ettikleri kurallar ve bu kuvvetlerin şiddetleri büyük bir uyum içindedir?
+
+Bütün bu sorular karşısında bilim adamları çaresiz kalmışlardır. Çünkü yapabildikleri sadece olayların hangi sırayla geliştiğini tahmin etmektir. Fakat yaptıkları araştırmaların sonucunda tartışmasız bir gerçek ortaya çıkmıştır. Evrenin her yerinde tek bir atomu dahi başıboş bırakmayan bir akıl ve irade sahibinin müdahalesi görülür. Bu şekilde bütün kuvvetleri bir uyum içinde bir arada tutan tek bir güç vardır, o da gücün ve kudretin tümünü kendisinde barındıran Allah'tır. Allah dilediği anda dilediği yerde kudretini tecelli ettirmektedir. En küçük atomundan uçsuz bucaksız galaksilere kadar tüm evren de ancak Allah'ın dilemesi ve her an ayakta tutması ile varlığını sürdürmektedir.
+
+Allah, Kuran'da Kendisi’nden başka kuvvet olmadığını haber verirken, bunun bilincine varamayıp Kendi yarattığı aciz varlıkları (canlı olsun. cansız olsun), O'ndan bağımsız bir güç ve kuvvet sahibi sanarak o yaratıklara ilahi vasıflar yükleyenlerin sonunu şöyle bildirmektedir:
+
+**... O zulmedenler, azaba uğrayacakları zaman, muhakkak bütün kuvvetin tümüyle Allah'ın olduğunu ve Allah'ın vereceği azabın gerçekten şiddetli olduğunu bir bilselerdi. (Bakara Suresi, 165)**
+
+Bugüne kadar hiçbir bilim adamı atomdaki, dolayısıyla evrendeki kuvvetlerin sebebini, kaynağını ve niçin belli durumlarda belli kuvvetlerin ortaya çıktığını izah edememiştir. Bilimin yaptığı sadece gerçekleri gözlemlemek ve bunları ölçüp birer "isim" takmaktır.
+
+Bu tür "isim takmalar" bilim dünyasında büyük buluşlar olarak değerlendirilir. Halbuki, bilim adamları evrende yeni bir denge oluşturmaya, yeni bir sistem kurmaya değil, sadece evrende var olan mevcut dengeyi kavramaya-çözmeye çalışmaktadırlar. Yapılan şey de çoğunlukla, Allah'ın evrendeki sayısız yaratılış harikasından birini bir ucundan gözlemleyip buna bir isim vermekten ibarettir. Allah'ın yarattığı üstün bir sistemi veya yapıyı tespit eden bir bilim adamı çeşitli bilimsel ödüllere layık görülür, yüceltilir, insanlar ona hayranlık duyarlar. Bu durumda asıl yüceltilmesi gereken hiç şüphesiz o yapıyı yoktan var eden, akıl almaz derece hassas dengeler ve karmaşık hesaplarla donatan ve bunun gibi daha sayısız, olağanüstü harikaları yaratan, Rahman ve Rahim olan Allah'tır.
+
+**Allah, yedi göğü ve yerden de onların benzerini yarattı. Emir, bunların arasında durmadan iner; sizin gerçekten Allah'ın her şeye güç yetirdiğini ve gerçekten Allah'ın ilmiyle her şeyi kuşattığını bilmeniz, öğrenmeniz için. (Talak Suresi, 12)**
+
+**Elektronların Yörüngesi**
+
+En güçlü mikroskopların bile göremeyeceği kadar küçük bir alanda dönüp duran onlarca elektron, daha önce de belirtildiği gibi atomun içinde son derece karışık bir trafik yaratırlar. Ancak bu trafik, en sistemli şehir trafiğiyle bile kıyas edilemeyecek kadar düzenlidir ve elektronlar hiçbir şekilde birbirleriyle çarpışmazlar. Çünkü elektronların her birinin ayrı bir yörüngesi vardır ve bu yörüngeler hiçbir zaman birbiriyle çakışmaz.
+
+Atom çekirdeğinin çevresinde 7 tane yörünge vardır. Asla değişmeyen bu 7 yörüngedeki elektron sayısı da bir matematiksel formülle belirlenmiştir: 2n2\. Atomların tüm yörüngelerinde bulunabilecek en fazla elektron sayısı işte bu formülle sabitlenmiştir (formüldeki "n" harfi, yörünge numarasını belirtir).
+
+Evreni oluşturan sınırsız sayıdaki atomun elektron yörüngelerinin asla şaşmadan 2n2 formülüne uyarak belirli bir sayıda kalmaları bir düzenin göstergesidir. Elektronlar inanılmaz hızlarda hareket etmelerine rağmen, atomun içinde herhangi bir kargaşanın çıkmaması da yine bu eşsiz düzenin bir devamıdır. Bu, tesadüflerin asla açıklayamayacağı bir düzendir. Bu düzenin var olabilmesinin tek açıklaması Kuran'da bildirildiği gibi Allah'ın her şeyi kudretinin bir tecellisi olarak düzen ve intizam içinde yaratmış olmasıdır. Allah yarattığı bu düzeni Kuran ayetlerinde şöyle haber vermiştir:
+
+**... Allah, her şey için bir ölçü kılmıştır. (Talak Suresi, 3)**
+
+**... her şeyi yaratmış, ona bir düzen vermiş, belli bir ölçüyle takdir etmiştir. (Furkan Suresi, 2)**
+
+**... O'nun Katında her şey bir miktar (ölçü) iledir. O, gaybı da, müşahede edileni de bilendir. Pek büyüktür, yücedir. (Rad Suresi, 8-9)**
+
+**Yere (gelince,) onu döşeyip-yaydık, onda sarsılmaz-dağlar bıraktık ve onda her şeyden ölçüsü belirlenmiş ürünler bitirdik. (Hicr Suresi, 19)**
+
+**Gökyüzü, Onu da yükseltti ve mizanı (ölçüyü) koydu. (Rahman Suresi, 7)**
+
+**Güneş ve ay (belli) bir hesap iledir. (Rahman Suresi, 5)**
+
+Ayetlerden anlaşıldığı gibi alemlerin Rabbi olan Allah, her şeyi kusursuz bir ölçü, hesap ve düzen içinde yaratandır. Bu ölçü ve hesap, atomun en küçük parçacığından uzaydaki devasa gök cisimlerine, güneş sistemlerine, galaksilere kadar, bunların arasındakiler de dahil, bütün varlıklar alemini içine alır. Bu da Allah'ın sonsuz gücünün, ilminin, sanatının ve hikmetinin bir sonucudur. Allah, yarattığı varlıklardaki ve sistemlerdeki mükemmel ölçü, düzen, denge ve hesaplarla bu sıfatlarını insanlara tanıtır. Sonsuz kudretini gözler önüne serer. İşte bütün bilimsel araştırmaların, hesaplamaların insanı ulaştırması gereken asıl gerçek budur.
+
+**Dalga mı, Parçacık mı?**
+
+Elektronlar ilk keşfedildiklerinde, bunların tıpkı çekirdeğin içinde bulunan proton ve nötron gibi parçacıklar oldukları sanılıyordu. Ancak daha sonra yapılan deneylerde aynı ışık parçacıkları yani fotonlar gibi dalga özellikleri de gösterdikleri ortaya çıktı.
+
+Işığın, tıpkı havuza atılan bir taşın su yüzeyinde yaptığı dalgalanmalar gibi yayıldığı bilinmektedir. Ancak ışık, bazen de sanki maddi parçacık özelliği taşımakta ve pencere camına vuran yağmur damlaları gibi kesik kesik, aralıklı darbeler halinde gözlenmektedir. İşte aynı ikilem bu kez elektronda da yaşandı. Tabii bu durum bilim dünyasında büyük bir kargaşa yarattı. Bu kargaşa ünlü Kuramsal Fizik Profesörü Richard P. Feynman'ın sözleriyle şöyle çözüldü:
+
+Elektronların ve ışığın nasıl davrandıklarını artık biliyoruz. Nasıl mı davranıyorlar? Parçacık gibi davrandıklarını söylersem yanlış izlenime yol açmış olurum. Dalga gibi davranırlar desem, yine aynı şey. Onlar kendilerine özgü, benzeri olmayan bir şekilde hareket ederler. Teknik olarak buna "kuantum mekaniksel bir davranış biçimi" diyebiliriz. Bu, daha önce gördüğünüz hiçbir şeye benzemeyen bir davranış biçimidir... Bir atom, bir yayın ucuna asılmış sallanan bir ağırlık gibi davranmaz. Küçücük gezegenlerin yörüngeler üzerinde hareket ettikleri minyatür bir güneş sistemi gibi de davranmaz. Çekirdeği saran bir bulut veya sis tabakasına da pek benzemez. Daha önce gördüğünüz hiçbir şeye benzemeyen bir şekilde davranır. En azından bir basitleştirme yapabiliriz: Elektronlar bir anlamda tıpkı fotonlar gibi davranırlar; ikisi de "acayiptir", ama aynı şekilde. Nasıl davrandıklarını algılamak bir hayli hayal gücü gerektirir; çünkü açıklayacağımız şey bildiğimiz her şeyden farklıdır.<sup>21</sup>
+
+Bilim adamları, elektronların bu şekilde davranmalarını hiçbir şekilde açıklayamadıkları için çözüm olarak bu harekete yeni bir isim takmışlardır: "Kuantum Mekaniksel Hareket". Bu noktada görülen olağanüstülüğü ve düştüğü hayreti yine Profesör Feynman, _"…kendinize sürekli "Ama bu nasıl olabilir?" diye sormayın; çünkü çabanız boşunadır; şimdiye kadar hiç kimsenin kurtulamadığı bir çıkmaz sokağa girersiniz. Bunun neden böyle olabildiğini hiç kimse bilmiyor."_ sözleriyle dile getirmektedir.<sup>22</sup>
+
+Ancak, burada Feynman'ın bahsettiği "çıkmaz sokak" aslında çıkmaz değildir. Burada bazılarının bir türlü işin içinden çıkamamalarının sebebi, ortadaki açık delillere rağmen bu inanılmaz sistemlerin ve dengelerin üstün bir Yaratıcı tarafından var edildiğini kabul edememeleridir. Halbuki durum son derece açıktır: Allah evreni yoktan var etmiş, olağanüstü dengelere dayalı ve örneksiz olarak yaratmıştır. İçinden bir türlü çıkılamayan, anlaşılamayan ve bilim adamlarının her fırsatta "Ama bu nasıl olabilir?" diye kendi kendilerine sordukları sorunun cevabı, her şeyin Yaratıcısının Allah olduğu ve her şeyin O’nun yalnızca "OL" demesiyle var olduğu gerçeğinde yatmaktadır.
+
+**Gökleri ve yeri (bir örnek edinmeksizin) yaratandır. O, bir işin olmasına karar verirse, ona yalnızca "OL" der, o da hemen oluverir. (Bakara Suresi, 117)**
+
+**Elektronların Kapısını Açtığı Rengarenk Dünya**
+
+Kapkara bir dünyada yaşamak nasıl olurdu, hiç düşündünüz mü? Bedeniniz, çevrenizdeki insanlar, denizler, gökyüzü, ağaçlar, çiçekler, kısacası her şeyin kapkara olduğunu gözünüzde bir canlandırın. Böyle bir yeryüzünde yaşamayı hiç istemezdiniz öyle değil mi?
+
+Peki, yeryüzünü renkli kılan nedir? Dünyamızı olağanüstü güzel kılan renkler nasıl oluşmaktadırlar?
+
+Maddenin yapısında bulunan bazı özellikler bizim maddeyi renkli olarak algılamamıza yol açarlar. Evet; renkler, elektronların atom içindeki bazı hareketlerinin doğal bir sonucu olarak oluşur. Bu noktada "Elektronların hareketiyle renklerin ne ilgisi olabilir?" diye düşünebilirsiniz. Bu ilişkiyi hemen kısaca açıklayalım.
+
+Elektronlar sadece belirli yörüngelerde dönerler. Bu yörüngelerin 7 tane olduğundan az önce bahsetmiştik. Her bir yörünge belirli bir enerji seviyesine sahiptir. Söz konusu enerji seviyesi yörüngenin çekirdekten olan uzaklığına bağlı olarak değişir. Bir yörünge çekirdeğe ne kadar yakınsa elektronun enerjisi o kadar az, çekirdeğe ne kadar uzaksa enerjisi o kadar yüksek olur.
+
+Elektronların yörüngelerinin her birinin altında da "alt yörüngeler" vardır. Elektronlar, bulundukları yörüngenin "alt yörüngeleri" arasında sürekli olarak hareket ederler.
+
+Elektronun yörüngeler arasında seyahat etmesi için dışardan enerji alması gerekir. Bu enerjinin kaynağı ise "foton"dur.
+
+Foton, en basit anlatımıyla "ışık parçacığı"dır. Evrendeki yıldızların hepsi birer foton kaynağıdır, Dünyamız içinse en önemli kaynak elbette ki Güneş'tir. Fotonlar Güneş'ten saniyede 300.000 km. hızla tüm uzaya dağılırlar.
+
+Güneş'ten dünyaya gelen bu fotonlar yeryüzündeki maddelerin atomlarına çarptıklarında, atomların elektronlarında seyahatler başlar. Bu enerji desteği sayesinde seyahat yapabilen elektronlar, kendi yörüngelerine geri döndüklerinde gözümüze gelen rengi oluşturacak fotonu dışarı yollarlar. Birkaç cümlede özetlediğimiz bu işlemlerin her biri hiçbir aksama göstermeden ilk yaratılıştan beri devam eder. Her bir aşaması çok büyük plan ve düzen içinde işler. Öyleki elektronlar ve fotonlar arasındaki bu sistemin bir bölümünün bile işlememesi renksiz, hatta karanlık bir evrenin olmasına neden olurdu.
+
+Karanlık evren yerine renkli bir evrenin oluşabilmesı için bir plan ve düzen içinde işlemesi gereken bu aşamaları tekrar sıralayalım:
+
+*   Yeryüzüne güneşten gelen ışık, foton tanecikleri halinde yayılır. Yeryüzünde yayılan bu foton tanecikleri maddelerin atomlarına çarpar.
+
+*   Fotonlar atomların içlerine pek ilerleyemez. Yörüngelerindeki elektronlara çarparlar.
+
+*   Elektronlar kendilerine çarpan bu fotonları yutarlar.
+
+*   Elektronlar yuttukları fotonların enerjisini de aldıkları için daha yüksek enerji seviyesine sahip olan bir yörüngeye geçerler.
+
+*   Bu elektronlar eski durumlarına geri dönmek isterler.
+
+*   Kendi yörüngelerine geri dönerken de dışarıya yine enerji yüklü bir foton gönderirler.
+
+*   İşte elektronlardan yansıyan bu fotonlar o cismin rengini belirler.
+
+Tüm bu işlemlerin sonucunda bir cismin rengi gerçekte o cisimden yansıyarak gözümüze ulaşan bu ışık taneciklerinin bir karışımı olur. Genellikle kendi ışık yaymayan ve güneşten aldığı ışığı yansıtan bir cismin rengi, hem aldığı ışığa, hem de bu ışık üzerinde yaptığı değişikliğe bağlıdır. Beyaz ışıkla aydınlatılan cisim "kırmızı" görünüyorsa bunun sebebi güneş ışığından kendisine gelen karışımın büyük bölümünü soğurması ve yalnızca kırmızıyı yansıtmasıdır. Burada "soğurmak"tan kastedilen şudur:
+
+Yukarıda da belirttiğimiz gibi atomdaki her bir yörüngenin altında bir de alt yörüngeler vardır ve elektronlar bu alt yörüngeler arasında seyahat ederler. Her yörüngenin belli bir enerji seviyesi vardır ve elektronlar bulundukları alt yörüngenin enerji seviyesi kadar enerji taşırlar. Yörüngeler çekirdekten uzaklaştıkça sahip oldukları enerji miktarları da artar. Elektron, bulunduğu alt yörüngeden yukarıdaki başka bir alt yörüngede, bir elektronluk boş yer olduğunda bir anda yok olur. Ve üst enerji seviyeli alt yörüngede ortaya çıkar. Yalnız elektronun bu hareketi yapabilmesi için enerjisini geçiş yaptığı alt yörüngenin gerektirdiği enerjiye çıkartması gerekir. Elektron, enerjisini Güneş'ten gelen foton parçacıklarını soğurarak (yutarak) artırır.
+
+Durumu birkaç örnekle daha anlaşılır hale getirebiliriz: Bir Morpho Kelebeğini ele alalım. Kelebekteki pigmentler, bütün güneş ışığını soğurup mavi rengi yansıtırlar. Yansıtılan bu renge ait ışık parçacıkları, gözdeki retinaya ulaştığında, mavi olarak algılanacak şekilde retinadaki koni hücreler tarafından elektrik sinyaline çevrilir ve beyne gönderilir. Ve mavi renk beyinde oluşur.
+
+Yani bir cismin rengi, ışık kaynağından gelen ışığın özelliğine ve söz konusu cismin bu ışığın ne kadarını dışarı yansıttığına bağlıdır. Örneğin bir elbisenin rengi, güneş ışığında veya bir mağazada bakıldığında aynı değildir. Bir cisim şayet beynimiz tarafından siyah olarak algılanıyorsa, demektir ki bu cisim Güneş'ten gelen bütün ışığı soğuruyor ve dışarı hiç ışık yansıtmıyor. Aynı şekilde eğer cisim Güneş'ten gelen ışığın tümünü birden yansıtıyor ve hiç ışık soğurmuyorsa beynimiz tarafından beyaz olarak algılanmaktadır. Bu durumda üzerinde dikkatle düşünülmesi gereken noktalar şunlardır:
+
+1\. Cismin rengi, ışık kaynağından gelen ışığın özelliklerine bağlıdır.
+
+2\. Cismin rengi, kendi yapısındaki moleküllerin elektronlarının hareketine, bu elektronların hangi ışığı soğurup hangisini soğurmayacağına bağlıdır.
+
+3\. Cismin rengi, retinaya çarpan fotonu beynimizin nasıl algılayacağına bağlıdır.
+
+Bu noktada bir kere daha durup düşünelim.
+
+Gözle görülemeyecek kadar küçük bir madde olan atomun çekirdeğinin etrafında inanılmaz bir süratle dönen elektronlar, mevcut yörüngelerinden bir anda kaybolup alt-yörünge adı verilen bir başka mekana geçiyorlar. Bu geçiş için alt-yörüngede boş bir yerin olması da şart. Bu esnada ihtiyaç duydukları enerjiyi foton soğurarak temin ediyorlar. Sonra asıl yörüngelerine geri dönüyorlar. Bu hareket esnasında insan gözünün algılayabileceği renkler oluşuyor. Üstelik sayıları trilyonlarla ifade edilebilecek kadar çok atom, her saniye hiç durmadan bunu yapıyor. Bizler de bu sayede hiç kesintisiz bir "görüntü" elde ediyoruz.
+
+Bu müthiş mekanizma, insan yapısı hiçbir makinenin işleyişine benzetilemez. Örneğin bir saat tek başına çok kompleks bir mekanizmaya sahiptir ve saatin doğru olarak çalışabilmesi için tüm parçalarının (çarklar, dişliler, vidalar, somunlar, vs.) doğru yerlerde, doğru biçimde bulunması şarttır. Bu mekanizmada en küçük bir aksama, saatin işleyişine zarar verir. Fakat atomun yapısını ve elektronların yukarıda anlattığımız mekanizmasının işleyişini düşününce, bir saatin yapısının basitliği açıkça ortaya çıkıyor. Dediğimiz gibi bu mekanizma insan eliyle yapılan hiçbir sistemle kıyaslanamayacak kadar kompleks, mükemmel ve kusursuzdur. Kuşkusuz akıllara durgunluk verecek kadar kompleks olan ve böylesine kusursuz işleyen bir sistem, materyalist bilim adamlarının iddia ettiği gibi kendi kendine, tesadüfler sonucunda ortaya çıkmış olamaz. Şimdi şöyle bir soru soralım: Issız bir çölde ilerlerken yerde işleyen bir saat görseniz, bunun toz, toprak, kum ve taşlardan şans eseri oluştuğunu düşünür müsünüz? Bunu hiç kimse düşünmez, çünkü saatteki tasarım ve akıl her yönüyle gözler önündedir. Oysa tek bir atomdaki tasarım ve akıl, yukarıda da söylediğimiz gibi insan yapısı herhangi bir mekanizmayla kıyaslanmayacak kadar üstündür. Bu aklın sahibi de büyük ilim sahibi, her şeyi bilen, gören ve yaratan Allah'tır.
+
+Allah gördüğümüz ve göremediğimiz her yeri sonsuz bir sanatla yaratmış ve bizim haberimiz bile olmadığı halde sayısız sebebi bizim emrimize vermiştir. Daha önceden hiç bilmediğimiz, belki de öğrenmeyi hiç aklımıza getirmediğimiz renkler konusu, bilim ilerledikçe tüm detayları ve kompleksliğiyle gözlerimizin önüne serilmiştir. Bilimsel gelişme ve ilerlemelerin, akıl ve vicdan sahibi her insanın Allah'ın varlığına inanmasına vesile olacağı gözardı edilemez bir gerçektir. Ancak tüm bunlara rağmen evrenin her noktasında şahit olunan üstün sanatı ve aklı görmezlikten gelenler olabilmektedir. Ünlü bilim adamı Louis Pasteur bu konuyla ilgili ilginç bir tespit yapmıştır: "Bilimin azı Allah'tan uzaklaştırır, ama çoğu, O'na götürür."<sup>23</sup>
+
+İnsan, çevresini saran yaratılış örnekleri hakkında bilgisi arttıkça, Allah'ın kendisini her yönden kuşattığını, gökten yere her işi onun düzenlediğini, kontrolünü elinde tuttuğunu, kendi canının bir gün mutlaka alınacağını ve dünyada yaptıklarından hesaba çekileceğini çok daha iyi kavrayabilir. İşte bizim de çevremizde gelişen sayısız olayla ilgili bilgimiz arttıkça her geçen gün Allah'ın ilmine olan hayranlığımız da artmaktadır. Bu hayranlık ise Allah'ın sonsuz kudretini, gücünü mümkün olduğunca idrak etme ve dolayısıyla O'ndan gereği gibi korkup-sakınma yolunda çok önemli bir adımdır. Allah Kuran’da şöyle bildirir:
+
+**Allah'ın gökyüzünden su indirdiğini görmedin mi? Böylece Biz onunla, renkleri değişik olan meyveler çıkardık. Dağlardan da beyaz, kırmızı renkleri değişik ve siyah yollar (kıldık). İnsanlardan, hayvanlardan ve davarlardan da renkleri böyle değişik olanlar vardır. Kulları içinde ise Allah'tan ancak alim olanlar 'içleri titreyerek-korkar'. Şüphesiz Allah, üstün ve güçlü olandır, bağışlayandır. (Fatır Suresi, 27-28)**
+
+**Parçacıkların Programlanmış Hareketi**
+
+Buraya kadar, atomu oluşturan parçacıkların özelliklerini inceledik. Şimdi bu parçacıkların, daha önce bahsetmediğimiz ortak bir özelliğini ele alacağız: "Spin Dönüşü".
+
+Atomu oluşturan parçacıkların kendi eksenleri etrafında olağanüstü bir hızla dönüşlerine "spin" adı verilir. Evrendeki pek çok sistemde spin hareketi önemli bir rol oynar. Atomun içindeki parçacıklardan uzaydaki yıldızlara kadar bütün sistemler bu hareket üzerine kurulmuştur. Parçacıkların spin hareketi ise ilk kez 1925 yılında fark edildi ve bu dönüş "Pauli Dışlama İlkesi" olarak anılmaya başlandı. Bu ilkeye göre, iki benzer parçacık aynı duruma sahip olamazlar, yani belirsizlik ilkesinin tanımladığı sınırlar içinde hem aynı konumda, hem de aynı hızda bulunamazlar. Bu kuralı şu şekilde açıklayabiliriz: Bildiğiniz gibi atom son derece küçük bir yapıdır ve o küçük yapının içinde de çok kompleks bir trafik vardır. Eğer bu yapıyı oluşturan birbirine benzer parçacıklar aynı hızda ve aynı yönde hareket etselerdi ne olurdu, bir düşünelim:
+
+Önce, protonu oluşturan 3 kuarkı ele alalım. 3 kuark aynı anda, aynı hızda ve aynı yönde hareket ettikleri takdirde, artık 3 kuark diye bir şey kalmaz, hepsi de tek bir kuark halini alırlar. Böyle bir durumda da protonların oluşması mümkün olmaz ve çekirdek, dolayısıyla atom oluşamaz. Çünkü kuark bir enerjiden ibarettir ve aynı yönde ve aynı hızda hareket eden 3 ayrı enerji olabilmesi mümkün değildir. Bunların bir şekilde birbirlerinden ayrılmaları gerekir. Bu ayrım da ancak hareket farklılıklarıyla oluşabilmektedir. Ancak bu şartla, kuarklar (enerji paketçikleri), nötronları ve protonları oluşturabilirler. Şayet, kuarkların hepsi aynı yönde ve aynı hızda hareket etselerdi, ne protonlar, ne nötronlar, ne de çekirdek oluşabilirdi. Sonuç olarak, atomlar, moleküller dolayısıyla da madde var olamazdı.
+
+Görüldüğü gibi, "spin" hareketi, şu ana kadar gördüğümüz diğer tüm özelliklerde olduğu gibi, evrenin oluşumunda son derece hayati bir öneme sahiptir. Stephen Hawking bu durumu şöyle ifade etmiştir:
+
+"Eğer dünya, dışlama ilkesi olmadan yaratılsaydı kuarklar, birbirinden ayrı ve kesin tanımlı proton ve nötronları oluşturamazdı. Proton ve nötronlar da elektronlarla birlikte atomları oluşturamazlardı. Hepsi, oldukça düzgün, yoğun bir 'çorba' oluşturmak üzere bir araya çökerdi".<sup>24</sup>
+
+Bilim bugün atom altı parçacıkların bu olağanüstü hareketlerini keşfetmiştir, ama parçacıkların neden böyle hareket ettiklerini bir türlü açıklayamamaktadır. Bu şuursuz parçacıkların spin şeklinde hareket edebilmeleri için, bu hareketlerinin sonucunda atomu oluşturacaklarını idrak edebilmeleri gerekir. Bu idrakin arkasından da ne şekilde hareket edeceklerine karar vermeleri, yani bir strateji belirlemeleri şarttır. Hangi parçacığın, hangi yönde ve hangi hızda hareket edeceği son derece detaylı bir şekilde belirlenmelidir. Daha sonra sıra bu stratejiyi evreni oluşturan sonsuz sayıdaki parçacığa duyurmaya ve hepsinin bu stratejiye uymasını sağlamaya gelmektedir. Strateji tüm parçacıklara duyurulur ve tüm parçacıklar ne şekilde hareket etmeleri gerektiğini öğrenirler.
+
+Şimdi, cevaplanması gereken çok önemli bir soru vardır ki bu soru bizi en başa döndürmektedir: Neden tüm parçacıklar bu stratejiye uymakta, yani itaat etmektedirler? Neden bir parçacık bile bu kurala itiraz etmemektedir? Tüm bu parçacıkların, burada saydıklarımızı uygulayabilecek şuur, akıl, irade ve zekaları mı vardır? Elbette hayır. Kütlesi bile olmayan, sadece enerjiden ibaret olan bu parçacıkların, hiç şüphesiz ne kendilerine ait bir akılları, ne de müstakil bir iradeleri olabilir. Burada karşımıza çıkan, Allah'ın sonsuz aklı, sonsuz gücü ve sonsuz ilmidir. Allah, tüm bu parçacıklara, boyun eğdirmiş ve böylece evreni yaratmıştır. Bir ayette bu gerçek bize şöyle bildirilmektedir:
+
+**... Hayır, göklerde ve yerde her ne varsa O'nundur, tümü O'na gönülden boyun eğmişlerdir. (Bakara Suresi, 116)**
+
+**3\. BÖLÜM:  
+MADDEYE GİDEN İKİNCİ BASAMAK: MOLEKÜLLER**
+
+Sizce çevrenizde gördüğünüz cisimleri birbirinden farklı kılan şey nedir? Renklerini, biçimlerini, kokularını, tatlarını birbirinden farklılaştıran nedir? Neden bir madde yumuşakken diğeri sert, bir diğeri akışkandır? Buraya kadar okuduklarınızdan hareket ederek bu sorulara "atomların farklılığıdır" diye cevap verebilirsiniz. Ancak bu cevap yeterli değildir. Çünkü eğer bu farklılıkların sebebi atomlar olsaydı, o zaman birbirinden farklı özellikler taşıyan milyarlarca atom olması gerekirdi. Ama gerçekte bu böyle değildir. Birçok madde aynı atomları içermesine rağmen farklı görünür ve farklı özellikler taşır. Bunun da nedeni atomların molekülleri oluşturmak için aralarında kurdukları farklı kimyasal bağlardır.
+
+Maddeye giden ilk basamak olan atomlardan sonra ikinci basamak moleküllerdir. Moleküller, maddenin kimyasal özelliklerini belirten en küçük birimlerdir. Bu küçük yapılar iki veya daha çok atomdan, bazıları da binlerce atom grubundan oluşur. Atomları, molekül içinde elektromanyetik çekim kuvvetine dayalı kimyasal bağlar bir arada tutarlar. Yani bu bağlar atomların sahip oldukları elektrik yüklerini esas alarak kurulurlar. Atomların elektrik yükleri de daha önce belirttiğimiz gibi son yörüngelerinde taşıdıkları elektronlar tarafından belirlenir. Moleküllerin çeşitli biçimlerde bir araya gelmeleriyle de çevremizde gördüğümüz madde çeşitliliği ortaya çıkar. Bu noktada da maddenin çeşitliliğinin ana merkezinde yer alan kimyasal bağların önemi anlaşılır.
+
+**Kimyasal Bağlar**
+
+Yukarıda da belirtildiği gibi kimyasal bağlar, atomların dış yörüngelerindeki elektronların hareketleriyle oluşur. Her atom en dışta yer alan yörüngesini, alabileceği en fazla elektron sayısına tamamlama gayreti içindedir. Atomların son yörüngelerinde bulundurabilecekleri maksimum elektron sayısı 8’dir. Bunu sağlarken atomlar ya en dış yörüngelerindeki elektronları 8’e tamamlamak için başka atomlardan elektron alırlar, ya da eğer en dış yörüngelerinde az sayıda elektron varsa, bunları bir başka atoma vererek önceden tamamlanmış olan bir alt yörüngeyi en dış yörüngeleri haline getirirler. Atomların kendi aralarında yaptıkları bu elektron alıp verme eğilimi, birbirleri arasında yaptıkları kimyasal bağların temel itici gücünü oluşturur.
+
+Bu itici güç, yani atomların son yörüngelerindeki elektron sayılarını maksimuma tamamlama amaçları, bir atomun diğer atomlarla 3 çeşit bağ kurabilmesini sağlar. Bunlar iyonik bağ, kovalent bağ ve metalik bağdır.
+
+Moleküller arasında ise genel olarak "zayıf bağlar" başlığı altında toplanan özel bağlar görev yapar. Bu bağlar atomların molekülleri oluşturmak üzere kurdukları bağlardan daha zayıftır. Çünkü moleküllerin maddeyi meydana getirmek için daha esnek yapılara ihtiyaçları vardır.
+
+Bu bağların özellikleri nedir ve nasıl kurulurlar, kısaca ele alalım.
+
+**İyonik Bağlar**
+
+Bu bağ ile birleşen atomlar son yörüngelerindeki elektron sayısını 8’e tamamlamak için birbirleriyle elektron alışverişinde bulunurlar. Son yörüngelerinde 4’e kadar elektronu bulunan atomlar bu elektronları birleşecekleri yani bağ kuracakları atoma verirler. Son yörüngelerinde 4’den fazla elektron bulunduran atomlar ise birleşecekleri yani bağ kuracakları atomlardan elektron alırlar. Bu tip bağ ile oluşan moleküller kristal (kübik) yapıya sahip olurlar. Yakından tanıdığımız sofra tuzu (NaCl) molekülleri bu bağ ile oluşmuş maddelerden biridir. Peki atomların neden böyle bir eğilimi vardır? Bu eğilim olmasa ne olurdu?
+
+Bugüne kadar atomların bir araya gelmek için aralarında kurdukları bağlar çok genel biçimde tarif edilebilmiştir. Ama atomların neden böyle bir prensiple davrandıkları anlaşılamamıştır. Yoksa atomlar son yörüngelerindeki elektronların sayısının 8 olması gerektiğini kendileri mi tespit etmiştir? Tabii ki hayır. Bu öyle büyük bir tespittir ki, bir aklı, iradesi ve şuuru olmayan bir atomun kendisini aşmaktadır. Çünkü bu sayı maddenin ve dolayısıyla evrenin meydana gelmesi için ilk basamak olan atomların birleşmelerindeki kilit noktadır. Eğer atomların bu prensipten kaynaklanan eğilimleri olmasaydı hayatımız için gerekli olan bazı moleküller oluşamazdı.
+
+Oysa atomlar ilk yaratıldıkları andan itibaren sahip oldukları bu eğilim sayesinde moleküllerin ve maddenin kusursuz bir biçimde meydana gelmesi için hizmet ederler.
+
+**Kovalent Bağlar**
+
+Atomların arasındaki bağları inceleyen bilim adamları ilginç bir durumla karşılaştılar. Bazı atomlar bağ kurmak için elektron alışverişinde bulunurken, bazıları da son yörüngelerindeki elektronları ortak kullanmaktaydılar. Daha sonra yapılan çalışmalar da canlılık için vazgeçilmez önem taşıyan birçok molekülün bu bağlar sayesinde var olabildiğini ortaya koymuştur.
+
+Kovalent bağın daha iyi anlaşılabilmesi için kolay bir örnek verelim: Daha önce elektron yörüngelerinden bahsederken de belirttiğimiz gibi atomların ilk yörüngelerinde en fazla 2 elektron taşınabilir. Hidrojen atomu tek bir elektrona sahiptir ve elektron sayısını 2’ye çıkarıp kararlı bir atom olma eğilimindedir. Bu yüzden hidrojen atomu 2\. bir hidrojen atomuyla kovalent bağ yapar. Yani, 2 hidrojen atomu da birbirlerinin tek elektronlarını 2\. elektron olarak kullanır. Böylece H<sub>2</sub> molekülü oluşur.<sup>26</sup>
+
+**Metalik Bağlar**
+
+Eğer çok sayıda atom, birbirlerinin elektronlarını ortaklaşa kullanarak birleşiyorlarsa, bu kez "metalik bağ" söz konusudur. Günlük hayatta çevremizde gördüğümüz ya da kullandığımız pek çok araç ve gerecin ana maddesini oluşturan demir, bakır, çinko, alüminyum, vs. gibi metaller, kendilerini oluşturan atomların birbirleri aralarında metalik bağlar yapmaları sonucunda, elle tutulur, gözle görülür, kullanılabilir bir yapı kazanmışlardır.
+
+Atomların yörüngelerindeki elektronların neden böyle bir eğilimi olduğu sorusunu ise bilim adamları cevaplayamamaktadır. Fakat canlı organizmalar ancak nedenini bilmediğimiz bu eğilim sayesinde var olabilirler.
+
+Acaba tüm bu bağlarla kaç farklı bileşik oluşabilmektedir?
+
+**Bileşikler**
+
+Bileşik, birden fazla atomun belirli oranlarda kimyasal reaksiyonu sonucu biraraya gelmesiyle oluşan saf maddeye denir. Bileşiklerin en küçük yapıtaşı moleküllerdir.
+
+Laboratuvarlarda her gün yeni bileşikler oluşturulmaktadır. Şu an için yaklaşık 2 milyon bileşikten bahsetmek mümkündür. En basit kimyasal bileşik, hidrojen molekülü kadar ufak olabildiği gibi, milyonlarca atomdan oluşan bileşikler de vardır.<sup>28</sup>
+
+Bir element acaba en fazla kaç değişik bileşik oluşturabilir? Bu sorunun cevabı oldukça ilginçtir. Çünkü bir tarafta hiçbir elementle birleşmeyen bazı elementler (soy gazlar) vardır. Diğer tarafta ise 1.700.000 bileşik oluşturabilen karbon atomu vardır. Toplam bileşik sayısının 2 milyon kadar olduğunu tekrar hatırlarsak, 109 elementin 108’i toplam 300.000 bileşik yapmaktadırlar. Ancak karbon olağanüstü bir şekilde tek başına tam 1.700.000 bileşik yapabilmektedir.
+
+**Canlı Hayatının Temel Taşı: "Karbon" Atomu**
+
+Karbon, canlılar için en hayati elementtir. Çünkü bütün canlı maddeler karbon bileşiklerinden oluşmuşlardır. Bizlerin varlığı için bu kadar önemli olan karbon atomunun özelliklerini sayfalarca yazsak bitiremeyiz, nitekim kimya bilimi de henüz bu özelliklerin tümünü keşfedebilmiş değildir. Biz burada karbonun sadece çok önemli birkaç özelliğinden bahsedeceğiz.
+
+Hücre zarından ağaç kabuğuna, göz merceğinden bir geyiğin boynuzlarına, yumurta beyazından yılan zehirine kadar son derece farklı organik yapıların hepsi, karbon temelli bileşiklerden oluşur. Karbon, hidrojen, oksijen ve azot atomlarıyla çok farklı geometrik şekil ve sıralamalarda birleşerek, son derece farklı maddeler meydana getirir. Peki ama karbonun yaklaşık olarak 1.7 milyon kadar bileşik yapabilmesinin sebebi nedir?
+
+Karbonun en önemli özelliklerinden birisi, birbiri ardınca dizilerek çok kolay zincir oluşturabilmesidir. En kısa karbon zinciri 2 karbon atomundan oluşur. En uzun zincirin kaç karbon atomundan oluştuğu konusunda ise kesin bir rakam verilememekle birlikte, yaklaşık olarak 70 halkalı bir zincirden bahsedilebilir. Karbon atomundan sonra en uzun zincir oluşturabilen atomun, 6 halka ile silisyum atomu olduğunu düşünürsek, karbon atomundaki olağanüstü durum daha iyi fark edilebilir.<sup>29</sup>
+
+Karbonun bu kadar çok halkalı zincir yapabilmesinin sebebi, zincirlerinin sadece düz çizgi şeklinde olmamasıdır. Zincirler dallar halinde de olabilirler, çokgenler de oluşturabilirler.
+
+Bu noktada, zincirin şeklinin önemi çok büyüktür. İki karbon bileşiğinde, karbon atomu sayısı aynı fakat bileşiklerin zincir biçimleri farklıysa, ortaya 2 ayrı madde çıkmaktadır. Ve böylece karbon atomunun, yukarıda saydığımız özellikleri ile, canlı hayatı için çok büyük önemi olan moleküller yaratılmaktadır.
+
+Karbon bileşiklerinin bazıları sadece birkaç atomdan oluşur. Bazıları ise binlerce hatta milyonlarca atomdan meydana gelir. Bütün elementler içinde sadece karbon elementinin atomları bu denli uzun ve kalıcı bileşikler oluşturabilir. Ünlü kimyager David Burnie Life adlı kitabında bu elementin özelliğini şöyle ifade eder:
+
+"Karbon, çok olağan dışı bir elementtir... Karbon ve onun bu olağan dışı özellikleri olmasa, Dünya'da yaşam olması mümkün gözükmemektedir." <sup>30</sup>
+
+İngiliz kimyager Nevil Sidgwick’de, Chemical Elements and Their Compounds (Kimyasal Elementler ve Bunların Bileşikleri) adlı eserinde karbonun canlılar için ne denli önemli olduğunu şöyle vurgular:
+
+Karbon, yapabildiği bileşiklerin sayısı ve çeşitliliği yönünden, diğer elementlerden tamamen farklı, özgün bir yapıdadır. Şimdiye dek karbonun yarım milyonun üzerinde farklı bileşiği ayrılmış ve tanımlanmıştır. Ama bu bile karbonun güçleri hakkında çok yetersiz bir bilgi verir, çünkü karbon tüm canlı maddelerin temelini oluşturur.<sup>31</sup>
+
+Karbonun sadece hidrojen ile kurduğu farklı bağlar, "hidrokarbonlar" olarak bilinen büyük bir aileyi meydana getirir. Bu aile içinde; doğal gaz, sıvı petrol, gaz yağı, kerosen ve çeşitli makina yağları vardır. Etilen ve propilen olarak bilinen hidrokarbonlar ise petrokimya endüstrisinin temelidir. Başka hidrokarbonlar da benzen, toluen ve turpentin gibi bileşikler meydana getirir. Giysilerimizi güvelenmekten koruması için dolaplara konan naftalin ise bir başka tür hidrokarbondur. Klor veya florla birleşen hidrokarbonlar ise anestezi maddeleri, yangın söndürücüler ve buzdolaplarında kullanılan freonlar gibi farklı maddeleri oluşturur.
+
+Yukarıdaki sözünde kimyager Sidwick’in de belirttiği gibi içinde sadece 6 proton, 6 nötron ve 6 elektron bulunduran bu atomun gücünü tam anlayabilme konusunda insan aklı yetersiz kalmaktadır. Dolayısıyla bu atomun canlılık için önemli olan herhangi bir özelliğinin dahi tesadüfen oluşması imkansızdır. Kısacası herşeyi atomlarına kadar kuşatan Allah, karbon atomunu da canlıların bedenlerine uygun bir biçimde yaratmıştır.
+
+**Göklerde ve yerde ne varsa tümü Allah'ındır. Allah, her şeyi kuşatandır. (Nisa Suresi, 126)**
+
+**Moleküller Arası Bağlar: Zayıf Bağlar**
+
+Atomları birbirine bağlayan bağlar bu bağlara nisbeten çok daha kuvvetlidirler. Bu bağlar sayesinde milyonlarca hatta milyarlarca çeşit molekül oluşabilir.
+
+Peki maddeyi oluşturmak üzere moleküller nasıl birleşirler?
+
+Moleküller oluştuktan sonra bir dengeye sahip oldukları için artık moleküller arasında elektron alışverişi olmaz.
+
+Peki onları bir arada tutan şey nedir?
+
+Bu soruyu cevaplamaya çalışan kimyacılar farklı teoriler üretmeye başlamışlardır. Yapılan araştırmalar moleküllerin içlerindeki atomların özelliklerine göre farklı şekillerde birleşebildiklerini ortaya çıkarmıştır.
+
+Bu bağlar canlıların kimyası olarak bilinen organik kimya için çok önemlidir. Çünkü canlılığı meydana getiren en önemli moleküller bu bağı kurma özellikleri sayesinde ortaya çıkabilir. Protein örneğini ele alalım. Canlılığın temel yapı taşı olan proteinlerin, üç boyutlu kompleks şekilleri bu bağlar sayesinde meydana gelir. Yani canlılığın oluşması için atomlar arasındaki güçlü kimyasal bağ kadar moleküller arası zayıf kimyasal bağ da var olmalıdır. Elbette ki bu bağın kuvveti de belli bir ölçüye sahip olmalıdır.
+
+Protein örneğinden devam edebiliriz. Proteinler aminoasit adlı moleküllerin birleşmesinden oluşan çok daha büyük moleküllerdir. Aminoasitleri meydana getiren atomlar kovalent bağ ile birleşirler. Zayıf bağlar da oluşan bu aminoasitleri üç boyutlu dizilimi elde edecek şekilde birbirine bağlar. Proteinler ancak bu üç boyutlu şekilleriyle var oldukları takdirde canlı organizmalarda fonksiyon gösterebilirler. Bu yüzden eğer bu bağlar olmasaydı proteinler ve dolayısıyla canlılık var olamazdı.
+
+Bir çeşit zayıf bağ olan "hidrojen" bağları da hayatımızda çok önem taşıyan maddelerin baş aktörleridir. Örneğin yaşamın temeli olan "su"yu oluşturan moleküller hidrojen bağlarıyla bağlıdırlar.
+
+**MUCİZE BİR MOLEKÜL: SU**
+
+Dünyamızın üçte ikisi yaşam için özel olarak seçilmiş bir sıvıyla, "su"yla kaplıdır. Yeryüzünde yaşayan bütün canlıların bedenleri %50-%95 oranında bu çok özel sıvıdan meydana gelir. Kaynama noktasına yakın sıcaklıktaki kaynaklarda yaşayan bakterilerden tutun da, erimekte olan buzulların üzerindeki bazı özel yosunlara kadar, suyun olduğu her yerde ve her sıcaklıkta hayat vardır. Yağmurdan sonra yapraklar üzerinde kalan bir su damlacığında bile binlerce mikroskobik canlı doğar, çoğalır ve ölür.
+
+Hiç su olmasa yeryüzü nasıl görünürdü? Şüphesiz her yer çölden ibaret olurdu, denizlerin yerlerinde dipsiz ve ürkütücü çukurlar yer alırdı. Gökyüzü de bulutsuz ve çok garip bir renkte görülürdü.
+
+Yeryüzündeki hayatın temeli olan suyun oluşabilmesi ise aslında son derece zordur. Öncelikle suyun bileşenleri olan hidrojen ve oksijen moleküllerini bir cam kabın içinde düşünelim. Bunları o kabın içinde çok uzun bir süre bırakalım. Bu gazlar kabın içinde yüzlerce yıl kalsalar, yine de su oluşturamayabilirler. Oluştursalar da çok yavaş olarak, mesela binlerce yıl gibi bir süre sonra kabın dibinde çok az miktarda su meydana gelebilir.
+
+Böyle bir durumda suyun bu derece yavaş oluşmasının sebebi sıcaklıktır. Oda sıcaklığında oksijenle hidrojen çok yavaş tepkimeye girerler.
+
+Oksijen ve hidrojen, serbest halde iken H<sub>2</sub> ve O<sub>2</sub> molekülleri halinde bulunur. Bu moleküllerin su molekülünü oluşturmak üzere birleşmeleri için çarpışmaları gerekir. Bu çarpışma sonucunda, hidrojen ile oksijen molekülünü oluşturan bağlar zayıflar ve oksijen ile hidrojen atomlarının birleşmesine engel kalmaz. Sıcaklık, bu moleküllerin enerjisini, dolayısıyla hızlarını yükselttiği için çarpışmaların sayısını da büyük ölçüde artırır. Böylece, tepkimenin hızlı ilerlemesini sağlar. Ancak, şu anda yeryüzünde suyun oluşmasını sağlayacak kadar yüksek ısı yoktur. Suyun oluşması için gerekli olan ısı, dünya oluşurken sağlanmış ve dünyanın dörtte üçlük kısmını oluşturan su o zaman meydana gelmiştir. Artık bu su kaynakları buharlaşarak atmosfere yükselmekte, orada da soğuyarak yağmur şeklinde yeniden yeryüzüne dönmektedir. Yani mevcut miktara yeni bir ilave olmaz, sadece bir devir daim yaşanır.
+
+**Suyun mucizevi özellikleri**
+
+Su, kimyasal olarak pek çok olağanüstü özelliğe sahiptir. Her bir su molekülü hidrojen ve oksijen atomlarının birleşmesiyle oluşmuştur. Biri yakıcı, diğeri de yanıcı olan iki gazın birleşerek bir sıvıyı, hem de suyu oluşturuyor olmaları oldukça ilginçtir.
+
+Şimdi kısaca kimyasal olarak suyun nasıl oluştuğuna bakalım. Suyun elektrik yükü sıfır, yani nötrdür. Ancak oksijen ve hidrojen atomlarının büyüklüklerinden dolayı su molekülünün oksijen tarafı hafifçe eksi, hidrojen tarafı ise hafifçe artı yüklüdür. Birden fazla su molekülü bir araya geldiğinde artı ve eksi yükler birbirini çekerek "hidrojen bağı" denilen çok özel bir bağ oluşturur. Hidrojen bağı çok zayıf bir bağdır ve ömrü aklımızın kavrayamayacağı kadar kısadır. Bir hidrojen bağının ömrü, yaklaşık olarak bir saniyenin yüz milyarda biri kadardır. Ama bağlardan biri kırıldığında hemen bir diğer bağ oluşur. Böylece su molekülleri birbirlerine yapışırlar ve diğer taraftan zayıf bir bağla birbirlerine bağlandıklarından akışkan olurlar.
+
+Hidrojen bağlarının suya kattığı bir başka özellik de, suyun sıcaklık değişimlerine direnç göstermesidir. Havanın sıcaklığı aniden artsa bile suyun sıcaklığı yavaş yavaş artar, aynı şekilde havanın sıcaklığı aniden düşse bile suyun sıcaklığı yavaş yavaş düşer. Suyun sıcaklığının önemli oranda oynayabilmesi için çok büyük miktarlarda ısı değişikliğine ihtiyaç vardır. Suyun ısı enerjisinin bu derece yüksek olmasının canlı hayatına sağladığı çok büyük faydalar vardır. Basit bir örnek verecek olursak, vücudumuzda çok büyük oranda su vardır. Su eğer havadaki ani sıcaklık iniş ve çıkışlarına aynı hızla uysaydı, aniden ateşimiz çıkardı veya aniden donardık.
+
+Aynı şekilde, suyun buharlaşmak için de çok büyük bir ısı enerjisine ihtiyacı vardır. Su buharlaşırken, çok ısı enerjisi kullandığı için suyun sıcaklığında eksilme olur. Yine insan vücudundan bir örnek verecek olursak; vücudumuzun normal sıcaklığı 360 C’dir ve dayanabileceğimiz en yüksek vücut sıcaklığı 420 C’dir. Aradaki bu 60 C’lik aralık çok küçük bir aralıktır ve birkaç saat güneş altında çalışmak vücut sıcaklığını bu kadar artırabilir. Ancak vücudumuz terleyerek, yani içindeki suyu buharlaştırarak çok büyük miktarda ısı enerjisi harcar ve vücut sıcaklığı düşer. Vücudumuz otomatik olarak çalışan böyle bir mekanizmaya sahip olmasaydı, birkaç saat güneş altında çalışmak bile bizler için öldürücü olabilirdi.
+
+Hidrojen bağlarının suya kazandırdığı bir başka olağanüstü özellik, suyun sıvı iken katı haline oranla daha yoğun olmasıdır. Halbuki, yeryüzündeki maddelerin çoğu katı iken sıvı haline oranla daha yoğundur. Ancak, su diğer maddelerin tersine donarken genleşir. Bunun sebebi hidrojen bağlarının su moleküllerinin birbirlerine sıkı şekilde bağlanmasını engellemesi ve arada birçok boşluğun kalmasıdır. Su sıvı iken hidrojen bağları kırıldığından oksijen atomları birbirine yaklaşır ve daha yoğun bir yapı elde edilir.
+
+Bu durum aynı şekilde buzun sudan daha hafif olmasını da beraberinde getirir. Normalde herhangi bir metali eritip içine aynı metalden birkaç katı parça atsanız, bu parçalar hemen dibe çöker. Ancak suda durum farklıdır. Onbinlerce ton ağırlığındaki buz dağları suyun üzerinde mantar gibi yüzmektedirler. Peki suyun bu özelliğinin ne gibi bir faydası olabilir?
+
+Bu soruyu bir ırmak örneği ile cevaplayalım: Havalar çok soğuduğunda ırmaktaki suyun tamamı değil, sadece üst kısmı donar. Su, +40 C’de en ağır halindedir ve bu dereceye ulaşan su hemen dibe çöker. Suyun üzerinde ise "katman halinde buz" oluşur. Bu katmanın altında su akmaya devam eder ve +40 C canlıların yaşayabileceği bir sıcaklık olduğu için sudaki canlılar bu sayede hayatlarını sürdürür.
+
+Allah’ın suya vermiş olduğu tüm bu eşsiz özellikler, yeryüzünde canlı hayatının var olabilmesini mümkün kılan özelliklerdir. Kuran’da Allah’ın insanlara sunduğu bu büyük nimetin önemi şöyle bildirilmiştir:
+
+**Sizin için gökten su indiren O’dur; içecek ondan, ağaç ondandır (ki) hayvanlarınızı onda otlatmaktasınız. Onunla sizin için ekin, zeytin, hurmalıklar, üzümler ve meyvelerin her türlüsünden bitirir. Şüphesiz bunda, düşünebilen bir topluluk için ayetler vardır. (Nahl Suresi, 10-11)**
+
+**Suyun İlginç Bir Özelliği**
+
+Hepimizin de bildiği gibi su 1000 C sıcaklıkta kaynar ve 00 C sıcaklıkta donar. Ancak, normal şartlarda suyun 1000 C değil, +1800 C kaynaması gerekirdi. Neden mi?
+
+Periyodik tabloda aynı gruptaki elementlerin özellikleri, hafif elementten ağır elemente doğru düzenli olarak değişiklik gösterir. Bu düzenlilik, özellikle hidrojen bileşiklerinde hakimdir. Periyodik tabloda oksijenin bulunduğu grupta bulunan elementlerin bileşikleri "hidrid" diye adlandırılır. Su, aslında "oksijen hidrid"dir. Bu gruptaki diğer elementlerin hidridleri su molekülü ile aynı molekül yapısına sahiptir.
+
+Bu bileşiklerin kaynama noktaları kükürtten başlayıp daha ağır olanlara doğru düzenli bir şekilde değişir; ancak umulmadık bir şekilde suyun kaynama noktası bu dizinin dışına çıkar. Su (oksijen hidrid) olması gerekenden 800 C daha aşağıda kaynar. Bir diğer şaşırtıcı durum da suyun donma noktası ile ilgilidir: Yine periyodik sistemdeki düzene göre, suyun -1000 C sıcaklıkta katılaşması gerekir. Ancak su bu kuralı bozar ve olması gerekenden 1000 C yukarıda, yani 00 C de buz haline gelir. Bu noktada; niçin hidridlerden başka biri değil de, sadece suyun (oksijen hidrid) periyodik sistem kurallarına uymadığı sorusu akla gelmektedir.
+
+Gerek fizik kuralları, gerek kimya kuralları ya da kural olarak nitelendirdiğimiz ne varsa; insanların, evrendeki olağanüstü dengenin ve yaratılışın detaylarını açıklama gayretinden başka şeyler değildirler. Özellikle de 20\. Yüzyılda yapılan tüm araştırmalar, evrendeki tüm fiziksel dengelerin insan yaşamı için çok hassas bir biçimde ayarlandığını göstermektedir. Araştırmalar evrende var olan tüm fizik, kimya ve biyoloji kanunlarının, atmosferin, güneşin, atomların, moleküllerin insanın yaşamı için tam olmaları gereken şekilde düzenlendiklerini ortaya koymaktadır. Su da yukarıda saydığımız maddelerde olduğu gibi, başka hiçbir sıvıyla kıyaslanamayacak kadar yaşama uygundur ve dünyanın büyük bir bölümü, yaşam için tam gerekli miktarda su ile doldurulmuştur. Tüm bunların bir tesadüf olmayacağı ve ortada kusursuz bir düzenin, tasarımın olduğu apaçıktır.
+
+Suyun insanı hayrete düşüren fiziksel ve kimyasal özellikleri, bu sıvının insan yaşamı için özel olarak yaratıldığını göstermektedir. Allah suyla insanlara hayat vermiş ve yaşamlarını devam ettirmeleri için gereksinim duydukları her şeyi de suyla topraktan bitirmiştir. Allah Kuran'da insanları bu konu üzerinde düşünmeye çağırır:
+
+**O, gökten su indirendir. Bununla her şeyin bitkisini bitirdik, ondan bir yeşillik çıkardık, ondan birbiri üstüne bindirilmiş taneler türetiyoruz. Ve hurma ağacının tomurcuğundan da yere sarkmış salkımlar, -birbirine benzeyen ve benzemeyen- üzümlerden, zeytinden ve nardan bahçeler (kılıyoruz.) Meyvesine, ürün verdiğinde ve olgunluğa eriştiğinde bir bakıverin. Şüphesiz inanacak bir topluluk için bunda gerçekten ayetler vardır. (Enam Suresi, 99)**
+
+**Koruyucu Tavan: Ozon**
+
+Soluduğumuz hava, yani aşağı atmosfer büyük ölçüde oksijen gazından oluşur. Burada oksijenden kastettiğimiz O<sub>2</sub> gazıdır. Yani aşağı atmosferdeki oksijen molekülleri 2’şer atomdan oluşmuştur. Ancak, oksijen molekülü bazen 3’er atomdan da (O<sub>3</sub>) oluşabilmektedir. Bu durumda bu molekül artık oksijen değil "Ozon" olarak isimlendirilir, zira bu iki gaz birbirlerinden çok farklıdırlar.
+
+Hemen burada üzerinde durulması gereken bir nokta vardır: İki oksijen atomu birleşince oksijen gazı oluşmaktadır da, niçin üç oksijen atomu birleşince ozon gazı diye farklı bir gaz oluşmaktadır? Sonuçta iki de olsa, üç de olsa birleşen oksijen atomu değil midir? O zaman, neden ortaya iki farklı gaz çıkmaktadır? Bu soruyu cevaplamadan önce, bu iki gazın ne yönden farklı olduklarını ele alıp, bundan sonra cevap vermek daha yerinde olacaktır:
+
+Oksijen gazı (O<sub>2</sub>) aşağı atmosferde bulunur ve solunum yoluyla yeryüzündeki tüm canlılara hayat verir. Ozon gazı (O<sub>3</sub>) ise, zehirli ve çok kötü kokulu bir gazdır. Atmosferin en üst tabakalarında bulunur. Eğer, oksijen yerine ozon solumak zorunda olsak hiçbirimiz yaşayamazdık.
+
+Ozon, yukarı atmosferdedir; çünkü orada canlı yaşamı için çok hayati bir fonksiyonu vardır. Atmosferin yaklaşık 20 km. yukarısında tüm dünyayı bir kuşak gibi saran bir tabaka oluşturur. Böylece güneşten gelen kızıl ötesi ışınları emerek, yeryüzüne tüm güçleriyle ulaşmalarını engeller. Kızıl ötesi ışınlar çok yüksek enerjiye sahip oldukları için, eğer yeryüzüne doğrudan ulaşırlarsa, yeryüzündeki her şey yanar ve dünyada hayat var olamaz. İşte bu yüzden ozon tabakası atmosferde koruyucu bir zırh görevi görmektedir.
+
+Yeryüzündeki canlı hayatının var olabilmesi için tüm bu canlıların solunum yapabilmeleri ve zararlı güneş ışınlardan korunabilmeleri gerekmektedir. Ve bu sistemi oluşturan ancak ve ancak her atoma, her moleküle hakim olan Allah’tır. Allah’ın izni olmaksızın, hiçbir güç bu atomları oksijen ve ozon gazı molekülleri olarak farklı oranlarda bir araya getiremezdi.
+
+**Tattığımız Ve Kokladığımız Moleküller**
+
+Tat ve koku duyuları, insanın dünyasını güzelleştiren algılardır. Bu duyulardan alınan zevk çok eski çağlardan beri merak konusu olmuş ve bunların aslında moleküler etkileşimler oldukları çok yakın zamanlarda keşfedilmiştir.
+
+"Tat" ve "koku" dediğimiz kavramlar, aslında birbirinden farklı moleküllerin duyu organlarımızda yarattığı algılarından başka bir şey değildir. Örneğin yiyeceklerin, içeceklerin, ya da çevremizde gördüğümüz çeşitli meyve ve çiçek kokularının hepsi uçucu moleküllerden ibarettir. Atomlar bir yandan canlı ve cansız maddeyi oluştururken, diğer taraftan da maddeye lezzet ve güzellik katmaktadırlar. Peki ama bu nasıl gerçekleşmektedir?
+
+Vanilya kokusu, gül kokusu gibi uçucu moleküller, burnun epitelyum adı verilen bölgesindeki titrek tüylerinde bulunan alıcılara gelirler ve bu alıcılarla etkileşime girerler. Bu etkileşim beynimizde koku olarak algılanır. 2-3 cm<sup>2</sup>’lik bir koku alma zarıyla kaplı burun boşluğumuzda şu ana kadar yedi tip farklı alıcı tespit edilebilmiştir. Bu alıcılardan her birine temel bir koku denk düşer. Aynı şekilde insan dilinin ön tarafında da dört farklı tip kimyasal alıcı vardır. Bunlar da tuzlu, şekerli, ekşi ve acı tatlarına karşılık gelir. İşte tüm duyu organlarımızın alıcılarına gelen bu moleküller beynimiz tarafından kimyasal sinyaller olarak algılanır.
+
+Günümüzde tat ve kokunun nasıl algılandığı, nasıl oluştuğu konusu anlaşılabilmiştir, ama bilim adamları neden bazı maddelerin çok, bazı maddelerin az koktuğu, neden bazılarının tatlarının hoş ve bazılarının da kötü olduğu konusunda bir görüş birliğine varamamışlardır.
+
+Bir düşünelim. Hiçbir kokunun, hiçbir lezzetin var olmadığı bir dünyada da yaşıyor olabilirdik. Oysa ki kahverengi ve sadece kendine has bir kokusu olan topraktan yüzlerce çeşit, hoş kokulu ve lezzetli meyve, sebze ve binlerce renk, biçim ve kokuda çiçek çıkmaktadır. Lezzet ve koku kavramını bilmediğimiz için de, bu algılara sahip olmayı istemek aklımıza bile gelmezdi. O zaman bu atomlar bir yandan maddeyi oluşturmak için olağanüstü bir şekilde bir araya gelirlerken, neden ayrıca tat ve koku oluşturmak üzere de bir araya gelirler? Tat ve kokunun var olması insanlar için temel bir ihtiyaç değildir. Ama muhteşem bir sanatın ürünü olarak dünyamıza apayrı bir lezzet katmaktadırlar.
+
+Diğer canlılarla bir karşılaştırma yaparsak, kimi canlılar sadece ot, kimileri de daha farklı maddeler yer. Şüphesiz ki bunların ne hoş kokuları, ne de hoş lezzetleri vardır, zaten olsa bile şuura sahip olmayan bu canlılar için lezzetin bir önemi yoktur. Bizler de gayet tabii, onlar gibi tek çeşit gıda ile beslenebilirdik. Ömrünüzün sonuna kadar sadece tek bir çeşit yemek yeseydiniz ve yalnızca su içseydiniz hayatınız ne kadar sıradan ve lezzetsiz olurdu değil mi? Bu açıdan tat ve koku da diğer tüm nimetler gibi, sonsuz lütuf ve ikram sahibi Allah'ın insana karşılıksız sunduğu güzelliklerdendir. Yalnızca bu iki algının var olmaması dahi insanın hayatını büyük ölçüde tatsızlaştırmaya yeterdi. Kendisine verilen tüm bu nimetlere karşılık, insana düşen kuşkusuz kendisini her yönden kuşatmış böyle sonsuz bir ikram karşısında Allah’ın dilediği gibi bir kul olmaya çalışmaktır. Böyle bir tutum karşısında Rabbimiz kendisine, bu dünyada yalnızca birer örneğini sunduğu nimetlerin çok daha üstünlerini sınırsız bir biçimde barındıran ebedi bir hayatı vaat etmektedir. Aksine nankörlük, umursuzluk yapılarak gaflet içinde geçirilen bir yaşamın karşılığı ise şüphesiz yine adaletli bir karşılık olacaktır:
+
+**Rabbiniz şöyle buyurmuştu:’Andolsun, eğer şükrederseniz gerçekten size arttırırım ve andolsun, eğer nankörlük ederseniz, şüphesiz, Benim azabım pek şiddetlidir. (İbrahim Suresi, 7)**
+
+**Maddeyi Nasıl Algılıyoruz?**
+
+Buraya kadar okuduklarımız, madde adını verdiğimiz şeyin hiç de zannettiğimiz gibi belirli bir renge, kokuya, şekle sahip bir bütün olmadığını ortaya koydu. Madde sandığımız şey, yani kendi bedenimiz, odamız, evimiz, hatta dünya ve tüm evren gerçekte bir enerji yumağından başka birşey değildir. O zaman, çevremizdeki bunca şeyi gözle görünür ve elle tutulur kılan nedir?
+
+Çevremizdekileri madde olarak algılamamızın sebebi, atomların yörüngelerindeki elektronların fotonlarla çarpışmaları, atomların birbirlerini itmeleri veya çekmeleridir.
+
+Şu anda elinizde tuttuğunuzu sandığınız kitaba aslında dokunmuyorsunuz bile... Gerçekte, elinizin atomları kitabın atomlarını itmekte ve bu itmenin şiddetine göre de dokunma hissiniz gerçekleşmektedir. Çünkü atomların yapısından bahsedilirken de belirtildiği gibi atomlar birbirlerine en fazla bir atomun çapı kadar yaklaşabilirler. Üstelik birbirlerine bu kadar yaklaşabilen atomlar da ancak birbirleriyle reaksiyona giren atomlardır. Şu halde, aynı maddenin atomları bile birbirlerine kesinlikle dokunamazlarken bizler elimizle tuttuğumuz, sıktığımız veya tutup havaya kaldırdığımız maddeye asla dokunamayız. Kaldı ki, elimizdeki maddeye maksimum yaklaşmamız mümkün olsaydı bile, o zaman da bu maddeyle kimyasal reaksiyona girerdik. Böyle bir durumda ise insan veya başka bir canlının bir saniye bile varlığını sürdürmesi söz konusu olamazdı. Canlı ayak bastığı, oturduğu veya dayandığı madde ile hemen kimyasal reaksiyona girer ve garip bir varlık haline dönüşürdü.
+
+Bu durumda ortaya çıkan manzara son derece düşündürücüdür: Gerçekte, % 99.95’i boş olan ve neredeyse sadece enerjiden ibaret atomlardan oluşan bir dünyada yaşıyoruz.<sup>38</sup> "Dokunuyoruz ve tutuyoruz" dediğimiz şeylere de aslında hiçbir zaman dokunamıyoruz. Peki ya gördüğümüz, duyduğumuz veya kokladığımız maddeyi ne derece algılıyoruz? Bu maddeler, gerçekte gördüğümüz, duyduğumuz gibi midir? Kesinlikle hayır... Elektronlardan ve moleküllerden bahsederken bu konuyu ele almıştık. Burada tekrar hatırlayacak olursak; var dediğimiz ve gördüğümüz maddeyi aslında doğrudan görmemiz asla mümkün değildir. Çünkü görüyoruz dediğimiz olay aslında Güneş'ten veya başka bir ışık kaynağından gelen ışık taneciklerinin (fotonlarının) maddeye çarpması, bu maddenin gelen ışığın bir kısmını soğurması ve kalanını dışarı vermesi sonucunda maddeden yansıyarak gözümüze çarpan fotonların, beynimizde oluşturduğu birtakım görüntülerdir. Yani gördüğümüz madde ancak bizim gözümüze yansıyan fotonların taşıdığı bilgiden ibarettir. Peki bu bilgiler maddeyle ilgili bilginin ne kadarını bize yansıtır? Dışarıda var olan maddelerin gerçek halinin bize tam olarak yansıtıldığına dair elimizde hiçbir kanıtımız yoktur.
+
+**4\. BÖLÜM  
+CANLANAN ATOMLAR**
+
+Buraya kadar maddenin nasıl yokluktan var olduğundan ve atomlardan bahsettik. Ve dedik ki, atomlar canlı-cansız her şeyin yapı taşıdır. Ancak şunu önemle belirtmek gerekir ki, atomlar cansız varlıkların yanısıra canlı varlıkların da yapı taşlarıdır. Atomlar cansız parçacıklar oldukları için canlı maddenin yapıtaşı olmaları kuşkusuz son derece hayret vericidir. Bu durum aynı zamanda evrimci bilim adamlarının da hiçbir şekilde açıklayamadıkları bir konudur.
+
+Nasıl ki bir araya gelen taş parçalarının canlı varlıkları oluşturması düşünülemezse, aynı şekilde cansız atomların da bir araya gelerek, kendi kendilerine canlı varlıkları oluşturmaları düşünülemez. Bir taş parçasıyla bir kelebeği gözünüzde canlandırın. Biri cansız diğeri canlıdır. Ancak temeline indiğinizde aslında her ikisi de aynı atom altı parçacıklardan oluşmaktadırlar.
+
+Cansız maddenin canlı maddeye kendi kendisine dönüşemeyeceği ile ilgili şöyle bir örnek daha açıklayıcı olabilir: Alüminyum uçabilir mi? Hayır, peki eğer alüminyumu, plastik madde ve benzinle karıştırırsak uçabilir mi? Tabii ki yine uçamaz. Eğer bu maddeleri bir uçağı oluşturacak şekilde bir araya getirirseniz o zaman uçabilirler. O halde uçağın uçmasını sağlayan nedir? Kanatlar mı? Motor mu? Pilot mu? Hayır, bunların hiçbiri tek başına uçamazlar. Aslında, uçak hiçbir uçma özelliği olmayan parçaların, özel bir tasarımla bir araya getirilmeleriyle oluşmuştur. Uçma özelliği ne alüminyumdan, ne plastikten, ne de benzinden gelir. Bu maddelerin özellikleri önemlidir, ancak uçma özelliği bu maddelerin çok özel bir tasarımla bir araya getirilmeleriyle kazanılabilir. Canlı sistemler de aynı bu şekildedir. Bir canlı hücresi de cansız atomların çok özel bir tasarımla bir araya getirilmesiyle oluşmuştur. Canlı hücrelerinin büyüme, çoğalma ve benzeri özellikleri, moleküllerinin niteliğinin değil mükemmel bir tasarımın sonucudur. Bu noktada gördüğümüz tasarım, Allah’ın ölüden diriyi yaratmasından başka bir şey değildir:
+
+**"Taneyi ve çekirdeği yaran şüphesiz Allah'tır. O, diriyi ölüden çıkarır, ölüyü de diriden çıkarır. İşte Allah budur. Öyleyse nasıl oluyor da çevriliyorsunuz?" (Enam Suresi, 95)**
+
+Cansız bir maddeyi canlı bir varlığa ancak üstün güç ve akıl sahibi Allah dönüştürebilir, yani bir canlı ancak yaratılabilir. Canlı sistemler öylesine kompleks yapılara sahiptirler ki, bugün ulaşılan teknolojik imkanlara rağmen daha nasıl işledikleri bile tam olarak anlaşılamamıştır.
+
+Fakat 20\. yüzyılda baş döndürücü bir hızla gelişen teknolojiyle birlikte olağanüstü ilerlemeler kaydeden bilimin sayesinde anlaşılan bir gerçek vardır. Canlılar son derece kompleks yapılara sahiptir. 19\. yüzyılın ortalarında Evrim Teorisi ortaya atıldığında, ilkel mikroskoplarla yürütülen bilimsel araştırmalar hücrenin sadece basit bir lekeden ibaret olduğu izlenimini oluşturmuştu. 20\. yüzyılda ise gelişmiş teknolojik aletler, elektron mikroskopları altında yapılan gözlem ve araştırmalar canlıların yapı taşı olan hücrenin ancak mükemmel bir tasarım sonucunda oluşabilecek, son derece kompleks bir yapıya sahip olduğunu ortaya çıkarmıştır. En önemlisi de bu araştırmalar, canlılığın cansız maddeden kendi kendine oluşabilmesinin kesinlikle imkansız olduğunu göstermiştir. Canlılığın kaynağı sadece canlılıktır. Bu gerçek deneysel olarak da ispatlanmıştır. <sup>39</sup> İşte bu, evrimcilerin kesinlikle içinden çıkamadıkları bir sorundur. Bu yüzden büyük çıkmaz içindeki ünlü evrimci bilim adamları bilimsel deliller sunmak yerine göz boyamaya yönelik masallar anlatırlar. Maddenin kendi şuuru, yeteneği, iradesi olduğunu öne süren son derece akıl ve bilim dışı iddialar öne sürerler. Ama bu saçma masallara kendileri de inanmazlar ve cevaplanması gereken ana soruların bilimsel olarak cevaplanamadığını itiraf etmek zorunda kalırlar:
+
+"Yaşamın başlamasından önce yerküremizin çorak ve ıssız olduğu bir dönem vardı. Şimdi yeryüzünde hayat kaynaşıyor. Bu nasıl oldu acaba? Hayatın bulunmadığı durumda karbon temeline dayalı organik moleküller nasıl oluştu? İlk canlı varlıklar nasıl gün yüzü gördüler? Yaşam nasıl bir evrim gösterdi de, günümüzün insanları gibi yapılan ayrıntılarla bezenmiş ve karmaşık varlıklar ortaya çıktı? Kendi kökenlerini araştıracak yetenekte yaratıklara nasıl ulaşıldı?"<sup>40</sup>
+
+"Şu anda evrim teorisinin çözülememiş esrarı, maddenin kaynağının ne olduğu, nasıl evrimleştiği, evrende ve dünyadaki şu anki formunu niçin kazandığı ve niçin kendi kendisini kompleks canlı molekül gruplarına çevirebildiğidir."<sup>41</sup>
+
+Yukarıdaki evrimci bilim adamının da itiraf ettiği gibi evrim teorisinin temel amacı, temel ilkesi canlıları Allah’ın yarattığını reddetmektir. Ancak, evrenin her noktasında yaratılış gerçeği son derece açık bir şekilde görülmesine ve her bir detayın asla tesadüflerle oluşamayacak mükemmellikte bir tasarımın ürünü olduğu ortaya çıkmasına rağmen, evrimciler bu gerçeğe gözlerini kapadıkları için adeta bir kısır döngü içinde dönüp durmaktadırlar.
+
+Günümüzün en bilinen evrim teorisi savunucularından ünlü bilim adamı Richard Dawkins ise aşağıdaki sözleriyle istatiksel olarak amaçsız tesadüflerin her şeyi oluşturduğu inancının yanlış olduğunu ve bu imkansızlığın tek alternatifinin doğaüstü bir güç olduğunu itiraf etmektedir:
+
+"Bir şeyin gerçekleşmesindeki olasılık istatistiki olarak azaldıkça, onun tesadüf eseri olamayacağına dair inancımız o kadar artar: Bu durumda eğer şans yoksa, buna tek alternatif "akıllı bir tasarımcı"nın varlığıdır."<sup>42</sup>
+
+Fakat bu gerçeğe inanmaktansa evrimci bilim adamları ölü maddenin yeteneklerinden, cansız maddenin kendisini canlı varlıklara dönüştürdüğünden bahsetmeyi tercih ederler. Ancak bu bilim adamları gerçeği görmezden gelirken farkında olmadan kendilerini gülünç duruma düşürmektedirler. Kaldı ki cansız maddenin, yani atomların yetenekli olduklarını, bu yeteneklerini kullanarak kendilerini canlı sistemlere dönüştürdüklerini iddia etmenin akılcılık ile en ufak bir ilgisi yoktur.
+
+Bu akıl dışı masalların ne derece gerçekçi olduğuna şimdi anlatacağımız örneği okuduktan sonra siz kendiniz karar vereceksiniz. Bakın evrimcilerin cansız ve şuursuz atomları canlı maddelere ve en önemlisi de yüksek bir şuur ve zeka sahibi insanlara dönüştürme senaryosu nasıldır:
+
+Büyük Patlama'nın ardından her nasılsa içlerinde çok hassas dengede kuvvetler bulunan atomlar kendi kendilerini var etmişlerdir. Tüm evreni oluşturacak sayıdaki atomun bir kısmı uzaydaki yıldızları, gezegenleri oluştururken bir kısmı da dünyayı oluşturmuştur. Dünyayı oluşturan atomlardan bir kısmı ilk başta taşı toprağı oluştururken daha sonra birdenbire canlıları oluşturmaya karar vermişlerdir! Bu atomlar öncelikle çok kompleks bir yapısı olan hücrelere dönüşmüşler sonra da oluşturdukları hücreleri ikiye bölerek çoğaltmışlar, sonra da konuşmaya, duymaya başlamışlardır. Ardından bu atomlar üniversite profesörlerine dönüşerek elektron mikroskopları altında kendilerini inceleyip tesadüfen meydana geldiklerini iddia etmişlerdir. Bir kısım atomlar bir araya gelerek köprüler, gökdelenler inşa eden mühendisleri, bir kısmı bir araya gelerek uyduları, uzay araçlarını, uçakları imal etmişler, bir kısmı da fizik, kimya, biyoloji alanlarında uzmanlaşmışlardır. Karbon, magnezyum, fosfor, potasyum, demir gibi atomlar bir araya gelerek kapkara bir kütle oluşturacaklarına olağanüstü komplekslikte ve sırları hala tam olarak keşfedilememiş olan mükemmel beyinleri oluşturmuşlardır. Bu beyinler hiçbir teknoloji ile ulaşılamamış mükemmel netlikte 3 boyutlu görüntüler görmeye başlamışlardır. Atomların bir kısmı komedyenleri oluşturmuş ve de komedyenlerin yaptıkları esprilere gülmüşlerdir. Yine atomların bir kısmı müzik bestelemiş ve müziği dinleyerek zevk almışlardır...
+
+Bu hikayeyi daha uzatmak elbette mümkündür ama böyle bir şeyin asla gerçekleşemeyeceğini göstermek için şöyle bir deney düzenleyelim, evrimcilerin savundukları, ama yüksek sesle dile getiremedikleri iddiayı onlar adına **"Darwin Formülü"** adıyla inceleyelim:
+
+Evrimciler, çok sayıda büyük varilin içine canlılığın yapısında bulunan fosfor, azot, karbon, oksijen, demir, magnezyum gibi elementlerden bol miktarda koysunlar. Hatta normal şartlarda bulunmayan ancak bu karışımın içinde bulunmasını gerekli gördükleri malzemeleri de bu varillere eklesinler. Karışımların içine, istedikleri kadar amino asit, istedikleri kadar da (bir tekinin bile rastlantısal oluşma ihtimali 10<sup>-950</sup> olan) protein doldursunlar. Bu karışımlara istedikleri oranda ısı ve nem versinler. Bunları istedikleri gelişmiş cihazlarla karıştırsınlar. Varillerin başına da dünyanın önde gelen bilim adamlarını koysunlar. Bu uzmanlar babadan oğula, kuşaktan kuşağa aktararak nöbetleşe milyarlarca, hatta trilyonlarca sene sürekli varillerin başında beklesinler. Bir canlının oluşması için hangi şartların var olması gerektiğine inanılıyorsa hepsini kullanmak serbest olsun. Ancak, ne yaparlarsa yapsınlar o varillerden kesinlikle bir canlı çıkartamazlar. Zürafaları, aslanları, arıları, kanaryaları, bülbülleri, papağanları, atları, yunusları, gülleri, orkideleri, zambakları, karanfilleri, muzları, portakalları, elmaları, hurmaları, domatesleri, kavunları, karpuzları, incirleri, zeytinleri, üzümleri, şeftalileri, tavus kuşlarını, sülünleri, renk renk kelebekleri ve bunlar gibi milyonlarca canlı türünden hiçbirini oluşturamazlar. Değil burada birkaçını saydığımız bu canlı varlıkları, bunların tek bir hücresini bile elde edemezler.
+
+**Madde, ancak Allah'ın üstün yaratmasıyla hayat bulur.** Bunun aksini iddia eden evrim teorisi ise, akla tamamen aykırı bir safsatadır. Evrimcilerin ortaya attığı iddialar üzerinde biraz bile düşünmek, üstteki örnekte olduğu gibi, bu gerçeği açıkça gösterir.
+
+Şimdi bir de şuursuz atomların kendi kendilerine hayatın temel taşı olan DNA molekülünü ve proteinleri oluşturup-oluşturamayacaklarına bir bakalım.
+
+**DNA’nın Kompleks Yapısı**
+
+DNA (deoksiribonükleik asit), hücre çekirdeğinde bulunan, vücudun tüm parçalarının, vücudun her türlü özelliğinin bilgisini taşıyan şifreleri içerir. Şifre o kadar komplekstir ki, bilim adamları bu şifreyi ancak 1953’lü yıllardan sonra biraz olsun çözebilmeyi başarmışlardır. DNA bir yandan ait olduğu canlıya dair tüm bilgileri içerirken diğer yandan da kendi kendisini aynen kopya ederek çoğalabilmektedir. Sadece atomların bir araya gelmeleri yani molekülleri oluşturmaları ile oluşan bir molekülün nasıl bilgi taşıdığı ve nasıl kendi kendisini kopyalayarak çoğaldığı da cevaplanamayan sorulardan biridir.
+
+Proteinler ise hem canlıların yapı taşıdır hem de organizmanın pek çok hayati fonksiyonunda kilit rol oynar. Örneğin bir hemoglobin proteini vücudumuzun her yerine oksijen taşır, antikor proteinleri vücuda giren mikropları etkisiz hale getirir, enzim proteinleri yediğimiz yemekleri enerji verecek maddeler haline gelecek biçimde sindirmemizi sağlar... DNA’mızda yaklaşık 50 bin farklı tipte protein yapılabilmesini sağlayan tarifler bulunur. Görüldüğü gibi proteinler bir canlının varlığını sürdürebilmesi için son derece hayati öneme sahiptir ve bu proteinlerden tek bir tanesinin bile eksikliğinde canlının varlığını sürdürmesi mümkün olmaz. Her biri dev moleküller olan DNA ve proteinlerin kendi kendilerine, tesadüfler sonucu oluşmaları bilimsel olarak imkansızdır.
+
+DNA özel bir dizilimden oluşan bir nükleotidler serisidir; bir protein ise yine özel dizilimlere sahip olan aminoasitler serisidir. Her şeyden önce ne DNA moleküllerinin ne de binlerce çeşitteki protein molekülünün tesadüfler sonucu canlılık için hayati olan uygun dizilimleri elde edebilmesi matematiksel olarak mümkün değildir. Olasılık hesapları en basit bir protein moleküllerinin dahi tesadüfler sonucu doğru dizilimi yakalamasının "0" ihtimal olduğunu ortaya koymaktadır (bkz. Evrim Aldatmacası, Harun Yahya). Bu matematiksel imkansızlığın yanı sıra bu moleküllerin tesadüfen oluşmasında önemli bir de kimyasal engel vardır: Eğer DNA ve proteinler arasındaki ilişki zaman, tesadüf ve doğal süreçler sonucunda gelişmiş olsaydı, DNA ve proteinler birbirleriyle kontrolsüz olarak reaksiyona girme eğiliminde olurlardı. Çünkü asit ve bazların birbirleriyle reaksiyona girme eğilimleri çok yüksektir. Böyle bir durumda da, tesadüfler rol oynayacak olsaydı DNA ve proteinler bugünkü canlı varlıkları oluşturmak yerine, doğal reaksiyonlara girerek şeker-asit, amino fosforik asit gibi farklı moleküller oluştururlardı.
+
+Kimyasal yapıları kolayca tepkimeye girmeye müsait olan DNA ve proteinlerin, zamanla, tesadüfen canlı hayatını oluşturabilmeleri mümkün müdür? Hayır, kesinlikle mümkün değildir. Problem şudur: DNA ve proteinlerin muhtemel olarak girebileceği tüm kimyasal reaksiyonlar, canlı yaşamının oluşmasına izin vermeyen YANLIŞ reaksiyonlardır. Eğer zamana ve şansa kalsaydı, DNA ve proteinler canlı yaşamı oluşturmak şöyle dursun, canlı yaşamını yok edecek şekilde reaksiyona girerlerdi.<sup>43</sup>
+
+Görüldüğü gibi hiçbir şekilde tesadüfen oluşması mümkün olmayan DNA ve proteinlerin var olduktan sonra da canlılığı oluşturmak üzere başıboş olmaları kesinlikle mümkün değildir. Günümüzün ünlü düşünürlerinden Jean Guitton da "Tanrı ve Bilim" isimli kitabında bu imkansızlığı vurgulamış, canlılığın oluşmasının kesinlikle tesadüfler sonucu oluşamayacağını belirtmiştir:
+
+"Hangi ‘rastlantı’ sonucu bazı atomlar birbirlerine yaklaşıp amino asitlerin ilk moleküllerini oluşturdular? Yine hangi rastlantıyla bu moleküller bir araya toplanıp DNA denilen bu son derecede kompleks yapıyı kurdular? Biyoloji bilgini François Jacob gibi ben de şu basit soruyu soruyorum: ilk canlı hücrenin doğmasını sağlayacak ilk mesajı veren ilk DNA molekülünün planlarını kim hazırladı?
+
+Eğer işe rastlantıyı sokan varsayımlarla yetinilirse bu sorular -ve daha birçoğu-, yanıtsız kalıyor; bunun için, birkaç yıldan bu yana biyoloji bilginlerinin düşünceleri değişmeye başladı. Tepedeki araştırmacılar Darwin yasalarını artık düşünmeden, ezbere anlatmakla yetinmiyor, çoğunlukla şaşırtıcı yeni kuramlar ortaya atıyorlar. Bunlar, açıkça maddeden üstün, düzenleyici bir ilkenin işin içine karıştığına dayanan kuramlar." <sup>44</sup>
+
+Jean Guitton’un da belirttiği gibi 20\. yüzyılda yapılan araştırmalar ve bilimsel keşifler ışığında bilim öyle bir noktaya varmıştır ki; Darwin’in evrim teorisinin hiçbir geçerliliğinin olmadığı artık kesin bir bilimsel gerçektir. Bu bilimsel gerçekten Amerikalı biyolog Michael Behe ünlü "Darwin’in Kara Kutusu" kitabında şöyle bahsetmektedir:
+
+"Bilim, yaşamın kimyasının nasıl şekillendiğini anlayabilmek için oldukça büyük atılımlar yapmıştır. Fakat biyolojik sistemlerin moleküler seviyedeki hassas düzeni ve kompleksliği, bunların kökenlerinin açıklanması konusunda bilimi felce uğratmıştır. Bu nedenle kompleks biyomoleküler sistemlerden herhangi birinin başlangıcı hakkında bir araştırma girişimi olmamıştır. Pek çok bilim adamı kendilerine fazlaca güvenerek, açıklamaların çoktan ellerinde olduğunu öne sürmüştür. Veya çok yakında bu açıklamalara ulaşacaklarını söylemişler fakat profesyonel bilim literatüründe iddialarına bir destek bulamamışlardır. Daha önemlisi, sistemlerin kendi yapıları incelendiğinde, yaşam mekanizmalarının Darwinci bir yaklaşımla asla açıklanamayacağı ortadadır." <sup>45</sup>
+
+Nasıl ki tüm evren yokluktan yaratıldıysa, canlı varlıklar da yoktan yaratılmıştır. Nasıl ki hiçbir şey yokken, tesadüfen var olamazsa, aynı şekilde ölü maddeler de tesadüfen birleşerek canlı varlıkları oluşturamazlar. Ancak ve ancak sonsuz kudret, sonsuz akıl ve sonsuz ilim sahibi Allah’ın gücü bunları gerçekleştirmeye kadirdir:
+
+**"Gerçekten sizin Rabbiniz, altı günde gökleri ve yeri yaratan, sonra arşa istiva eden Allah'tır. Gündüzü, durmaksızın kendisini kovalayan geceyle örten, güneşe, aya ve yıldızlara Kendi buyruğuyla baş eğdirendir. Haberiniz olsun, yaratmak da, emir de (yalnızca) O'nundur. Alemlerin Rabbi olan Allah ne yücedir." (Araf Suresi, 54)**
+
+**5\. BÖLÜM  
+ATOMUN GÜCÜ**
+
+Bütün evrenin, canlı-cansız her şeyin yapı taşı olan atomların, nasıl olağanüstü bir şekilde maddeyi oluşturduğunu artık biliyoruz. Son derece küçük olan bu parçacıklar, buraya kadar da görüldüğü gibi, kendi içlerinde mükemmel bir organizasyona sahiptirler. Ancak atomdaki mucizevi yön bu kadarla kalmaz; atom aynı zamanda içinde çok muazzam bir enerjiyi de barındırır.
+
+Atomun içinde saklı olan güç, bir yandan insanlığa hizmet ederken, diğer yandan da insanlık için çok büyük bir tehlike oluşturmaktadır. Öyle ki bu gücün kötüye kullanımıyla, 2\. Dünya Savaşı sırasında Hiroşima ve Nagasaki’de onbinlerce insan birkaç saniye gibi çok kısa bir süre içinde hayatlarını kaybettiler. Yakın geçmişte de, Rusya'daki Çernobil Nükleer Santrali'nde meydana gelen bir kaza çok sayıda insanın ölmesine ya da sakat kalmasına yol açmıştı.
+
+Atomun gücünün Hiroşima, Nagasaki ve Çernobil’de yol açtığı felaketlerle ilgili detaylı bilgi vermeden önce, atomdaki bu gücün ne olduğundan ve nasıl ortaya çıktığından kısaca bahsedelim.
+
+**Çekirdekte Saklı Güç**
+
+Evrendeki temel kuvvetler bölümünde atom çekirdeğinin içindeki protonları ve nötronları birarada tutan kuvvetin, "Güçlü Nükleer Kuvvet" olduğunu ifade etmiştik. İşte nükleer enerji denilen muazzam güç, çekirdekteki bu kuvvetin serbest bırakılmasıyla ortaya çıkar. Bu enerjinin büyüklüğü elementin cinsine göre değişir. Çünkü, her elementin çekirdeğindeki proton ve nötron sayıları farklıdır. Çekirdek büyüdükçe nötron-proton sayıları ile bunları birarada tutan kuvvetin büyüklüğü de artar. Büyük bir çekirdekte, protonların ve nötronların birlikteliğini sağlayan bu kuvveti serbest bırakmak son derece zordur. Parçacıklar, birbirlerinden ayrıldıkça, tıpkı bir yay gibi, daha büyük bir kuvvetle bir araya gelmeye çalışırlar.
+
+Bu kuvveti ayrıntıları ile incelemeden önce, özellikle üzerinde durulması gereken bir konu vardır: Bu kadar küçük bir yere nasıl olup da bu kadar büyük bir kuvvet sığmaktadır. Bu öyle bir kuvvettir ki binlerce insanın yıllarca yaptığı araştırmalar sonucunda bulunmuştur. Üzerinde bir oynama yapılmadığı zaman kimseye bir zararı yoktur, ama insan müdahalesiyle milyonları öldüren bir güç haline gelebilmektedir.
+
+Atomun çekirdeğinde bulunan ve milyonlarca kişinin hayatını tehlikeye sokabilecek olan bu olağanüstü kuvveti, "fisyon" (nükleer parçalanma) ve "füzyon" (nükleer kaynaşma) tepkimeleri diye adlandırılan iki teknik işlem açığa çıkarmaktadır. Fisyon adıyla bilinen reaksiyon atom çekirdeğinin bölünmesi, füzyon isimli reaksiyon ise iki çekirdeğin büyük bir güçle bir araya getirilip birleştirilmesi olayıdır. Her iki reaksiyonda da çok fazla miktarda enerji açığa çıkmaktadır.
+
+**Nükleer Parçalanma (Fisyon)**
+
+Fisyon adı verilen tepkime, evrendeki en kuvvetli güç olan "Güçlü Nükleer Kuvvet" ile bir arada tutulan atom çekirdeğinin parçalanmasıdır. Fisyon tepkimesi deneylerinde kullanılan ana madde "uranyum"dur. Çünkü uranyum atomu en ağır atomlardan biridir, bir diğer deyişle çekirdeğinde çok yüksek sayıda proton ve nötron bulunur.
+
+Fisyon deneylerinde bilim adamları uranyum çekirdeğine, büyük bir hızla nötron göndermişler ve bunun sonunda çok ilginç bir durumla karşı karşıya kalmışlardır. Nötron uranyum çekirdeği tarafından soğurulduktan (yutulduktan) sonra, uranyum çekirdeği çok kararsız duruma gelmiştir. Burada çekirdeğin "kararsız" olması demek, çekirdek içindeki proton ve nötron sayıları arasında fark oluşması ve bu nedenle çekirdekte bir dengesizliğin meydana gelmesi demektir. Bu durumda çekirdek, meydana gelen dengesizliği gidermek için belli miktarda enerji yayarak parçalara bölünmeye başlar. Ortaya çıkan enerjinin etkisiyle de çekirdek, büyük bir hızla içinde barındırdığı parçaları fırlatmaya başlar.
+
+Deneylerden elde edilen bu sonuçlardan sonra "reaktör" adı verilen özel ortamlarda, nötronlar hızlandırılarak uranyum üzerine gönderilir. Yalnız, nötronlar uranyum üzerine gelişigüzel değil, çok ince hesaplar yapılarak gönderilmektedir. Çünkü, uranyum atomunun üzerine gönderilen herhangi bir nötronun uranyuma hemen ve istenilen noktadan isabet etmesi gerekmektedir. Bu yüzden bu deneyler belli bir olasılık göz önünde bulundurularak gerçekleştirilmektedir. Ne kadar büyük bir uranyum kütlesi kullanılacağı, uranyum üzerine ne kadarlık bir nötron demeti gönderileceği, nötronların uranyum kütlesini hangi hızla ve ne kadar süre bombardıman edeceği çok detaylı olarak hesaplanmaktadır.
+
+Tüm bu hesaplar yapıldıktan ve uygun ortam hazırlandıktan sonra, hareket eden nötron, uranyum kütlesindeki atomların çekirdeklerine isabet edecek şekilde bombardıman edilir ve bu kütledeki atomlardan en azından birinin çekirdeğinin iki parçaya bölünmesi yeterlidir. Bu bölünmede çekirdeğin kütlesinden ortalama iki ya da üç nötron açığa çıkar. Açığa çıkan bu nötronlar kütlenin içindeki diğer uranyum çekirdeklerine çarparak zincirleme reaksiyon başlatırlar. Her yeni bölünen çekirdek de ilk baştaki uranyum çekirdeği gibi davranır. Böylece zincirleme çekirdek bölünmeleri gerçekleşir. Bu zincirleme hareketler sonucu çok sayıda uranyum çekirdeği parçalandığı için ortaya olağanüstü büyüklükte bir enerji çıkar.
+
+İşte, onbinlerce insanın ölümüne yol açan Hiroşima ve Nagasaki felaketlerine, bu çekirdek bölünmeleri sebep olmuştur. 2\. Dünya Savaşı sırasında, 1945 yılında Amerika’nın Hiroşima’ya attığı atom bombasında patlama anında ve hemen sonrasında yaklaşık 100.000 kişi ölmüştür. Hiroşima felaketinden 3 gün sonra yine Amerika’nın Nagasaki’ye attığı bir diğer atom bombası yüzünden patlama anında yaklaşık 40.000 kişi hayatını kaybetmiştir. Çekirdekten çıkan güç bir yandan insanların ölümüne sebep olurken, diğer yandan çok büyük bir yerleşim alanı harap olmuş, kalan bölge halkında radyasyon nedeniyle nesiller boyu düzeltilemeyecek genetik ve fizyolojik bozulmalar meydan gelmiştir.
+
+Peki dünyamız, tüm atmosfer, bizler de dahil olmak üzere canlı-cansız her şey atomlardan oluşmuşken, atomların bu tip nükleer tepkimelere girmelerini, her an ve her yerde yaşanabilecek Hiroşima ve Nagasaki gibi olayları ne engellemektedir?
+
+Nötronlar öyle yaratılmışlardır ki, doğada serbest halde -bir çekirdeğe bağlı olmadan- dolaştıklarında "beta bozunumu" diye adlandırılan bir bozulmaya uğrarlar. Bu bozulma yüzünden doğada serbest nötrona rastlanmaz. Bu sebeple nükleer tepkimeye girecek nötronlar yapay yollarla elde edilir.
+
+İşte bu noktada ortaya çıkan, tüm evrenin Yaratıcısı olan Allah'ın her şeyi ince bir hesapla var etmiş olduğudur. Allah, atomu içindeki bu muazzam güç ile beraber yaratmıştır ve bu gücü de olağanüstü bir şekilde kontrol altında tutmaktadır.
+
+**Nükleer kaynaşma (Füzyon)**
+
+Nükleer kaynaşma (füzyon), parçalanmanın tersine çok hafif iki çekirdeği birleştirerek daha ağır bir çekirdek oluşturmak ve bu şekilde açığa çıkan bağ enerjisini kullanmaktır. Ama bunu denetim altında oluşturmak oldukça zor bir iştir. Çünkü çekirdekler pozitif elektrik yükü taşır ve birbirlerine yaklaştırmak istenildiğinde çok şiddetli bir şekilde birbirlerini iterler. Bunların kaynaşmasını sağlamak için aralarındaki itme kuvvetini yenebilecek büyüklükte bir kuvvetin kullanılması gerekmektedir. Gereken bu kinetik enerji (hareket enerjisi), 20-30 milyon derecelik bir sıcaklığa eşdeğerdir.<sup>46</sup>
+
+Bu olağanüstü yüksek bir derecedir. Araştırmacılar senelerdir, tükettiğinden daha fazla güç üreten sabit bir füzyon üretmek için çalışmalarına rağmen, bugüne kadar başarılı olamamışlardır.
+
+Füzyon tepkimeleri Güneş'te her an doğal olarak gerçekleşmektedir. Güneş'ten gelen ısı ve ışık, hidrojen çekirdeklerinin birleşerek helyuma dönüşmesi ve bu dönüşüm sırasında kaybolan maddenin yerine enerji ortaya çıkması sayesinde meydana gelmektedir. Güneş saniyede 564 milyon ton hidrojeni 560 milyon ton helyuma çevirir. Kalan 4 milyon ton gaz maddesi de enerjiye dönüşür. Dünyamızdaki canlılık için son derece hayati öneme sahip güneş enerjisini meydana getiren bu müthiş olay milyonlarca yıldır, hiç durmadan devam etmektedir. Bu noktada, şöyle bir soru aklımıza gelebilir. Eğer Güneş'te, saniyede 4 milyon ton kadar büyük bir miktar madde kaybediliyorsa, Güneş'in sonu ne zaman gelecektir?
+
+Güneş saniyede 4 milyon ton, dakikada ise 240 milyon ton madde kaybetmektedir. Güneş'in, 3 milyar yıldan beri bu hızla enerji ürettiğini varsayarsak, bu süre içinde kaybetmiş olduğu kütle 400.000 milyon kere milyon ton olacaktır ki, bu değer, yine de Güneş'in şimdiki toplam kütlesinin 5000’de biri kadardır. Bu miktar, 3 milyar yılda 5 kg’lık bir taş yığınından 1 gram kum eksilmesi gibidir. Bundan da anlaşılacağı gibi Güneş'in kütlesi öyle büyüktür ki, bu kütlenin tükenmesi çok uzun bir zaman gerektirir.
+
+İnsanoğlu, Güneş'in yapısını ve içinde meydana gelen olayları ancak bu yüzyılda keşfetmiştir. Bundan önce kimsenin nükleer patlama, fisyon, füzyon türü olaylardan haberi dahi yoktu. Güneş'in nasıl enerji ürettiğini kimse bilmiyordu. Ancak insanoğlu daha bunlardan habersizken Güneş, milyonlarca yıldır bu akıl almaz mekanizmasıyla yeryüzünün ve hayatın enerji kaynağı olmaya devam ediyordu.
+
+İşte bu noktada şu gerçeğe dikkat çekmek gerekir: Dünyamız muazzam büyüklükte bir kütleye sahip ve enerji kaynağı olan Güneş'ten o kadar hesaplı bir uzaklığa yerleştirilmiştir ki ne onun yakıcı, yok edici etkisine maruz kalır, ne de onun sağlayacağı faydalı enerjiden yoksun kalır. Aynı şekilde bu derece korkunç bir güce ve enerjiye sahip olan Güneş de başta insan olmak üzere yeryüzündeki tüm canlılığa en faydalı olacağı mesafe, güç ve büyüklükte yaratılmıştır.
+
+Bu devasa kütle ve içinde gerçekleşen akıl almaz nükleer reaksiyonlar milyonlarca yıldır yeryüzüyle mükemmel bir uyum içinde ve en kontrollü biçimde faaliyetini sürdürmektedir. Bunun ne kadar olağanüstü, kontrollü ve dengeli bir sistem olduğunu anlamak için, insanın kendi ürettiği basit bir nükleer santrali bile kontrol altında tutmaktan aciz kaldığını hatırlamak yeterlidir. Örneğin, 1986 yılında Rusya’daki Çernobil reaktöründe meydana gelen nükleer kazayı hiçbir bilim adamı, hiçbir teknolojik alet engelleyememiştir. Öyle ki bu nükleer kazanın etkisinin 30-40 yıl süreceği söylenmektedir. Bilim adamları bu etkiyi engellemek için bölgeyi dev kalınlıkta betonlarla kapattıkları halde, ilerleyen günlerde betonlardan sızıntı olduğu haberleri alınmıştır. Değil nükleer patlama, nükleer bir sızıntı bile insan yaşamı için son derece tehlikelidir ve bilim bu tehlike karşısında çaresiz kalmaktadır.
+
+İşte bu noktada Allah’ın sonsuz gücü ve evrendeki her bir zerre (atom) ve bu zerrenin içindeki tanecikler (proton, nötron...) üzerindeki hakimiyetini görürüz. Allah'ın, yarattıkları üzerindeki bu gücü ve hakimiyeti bir ayette şöyle haber verilir:
+
+**Senin içinde olduğun herhangi bir durum, onun hakkında Kur'an'dan okuduğun herhangi bir şey ve sizin işlediğiniz herhangi bir iş yoktur ki, ona (iyice) daldığınızda, Biz sizin üzerinizde şahidler durmuş olmayalım. Yerde ve gökte zerre ağırlığınca hiçbir şey Rabbinden uzakta (saklı) kalmaz. Bunun daha küçüğü de, daha büyüğü de yoktur ki, apaçık bir kitapta (kayıtlı) olmasın. (Yunus Suresi, 61)**
+
+**Atom Bombasının Etkileri: Hiroşima ve Nagasaki**
+
+II. Dünya Savaşı’nın son yılında atılan atom bombaları, atomun içinde ne kadar büyük bir güç saklı olduğunu tüm dünyanın gözleri önüne sermiştir. Atılan her iki bomba da, yüzbinlerce insanın hayatlarını kaybetmesine, kalanların birçoğunda da hayatları boyunca düzelmeyecek fiziksel arazlar meydana gelmesine sebep olmuştur.
+
+Patlamanın etkisi bombanın gücüne ve çeşitli çevresel koşullara bağlı olmasına rağmen, Nagazaki ve Hiroşima örneklerine dayanarak birkaç saniye içerisinde yüzbinlerce insanın ölmesine yol açan atomun içindeki muazzam gücün, saniyesi saniyesine nasıl ortaya çıktığını ele alıp inceleyelim:
+
+**- Patlama anı...**
+
+Bir atom bombasının tıpkı Hiroşima ve Nagasaki’de olduğu gibi 2.000 m. yükseklikte patladığını varsayalım. Patlayıcı kütleye fırlatılan ve ilk çekirdeği parçalayan nötron, daha önce de bahsedildiği gibi kütle içerisinde zincirleme tepkimeler oluşturur. Yani ilk parçalanan çekirdekten dışarı fırlayan nötronlar, başka çekirdeklere çarpar ve bu yeni çekirdekleri de parçalar. Böylece hızla bütün çekirdekler zincirleme olarak parçalanır ve çok kısa bir zaman aralığında patlama gerçekleşir. Nötronlar öyle hızlı hareket etmektedirler ki, saniyenin milyonda biri kadar bir zamanda bomba, kütlesi yaklaşık 1.000 milyar kilokalorilik bir enerji açığa çıkarır.
+
+Bombanın çevrildiği gaz kütlesinin sıcaklığı, bir anda birkaç milyon dereceye ve gaz basıncı da bir milyon atmosfere çıkar.
+
+**- Patlamadan saniyenin binde biri kadar sonra...**
+
+Patlamış olan gaz kütlesinin çapı büyür ve etrafa çeşitli ışınlar yayılır. Bu ışınlar patlamanın "başlangıç parlaması"nı oluşturur. Bu parlama onlarca kilometre çapında bir alanda bulunabilecek herhangi bir kişide tam körlüğe neden olabilir. Öyle ki bu parlak ışık (yüzey birimi başına), Güneş yüzeyinden yayılandan yüzlerce kat daha büyüktür. Patlama anından başlayarak geçen zaman öylesine kısadır ki, patlamanın yakınında bulunan bir kişi gözlerini kapayabilecek zaman bile bulamamıştır.
+
+Şokun basınç cephesi kapalı kapılarda ağır hasarlara yol açar. Buna karşılık elektrik taşıma kuleleri, iki parçadan oluşan köprüler ve cam-çelik yapılı gökdelenler de hasar görürler. Patlamanın yakınlarında da büyük oranda, pudraya benzer ince toz kalkar.
+
+**- Patlamadan 2 saniye sonra...**
+
+Parlayan kütle ve onu çevreleyen hava, bir ateş topu oluşturur. Yüzeyi henüz son derece sıcak ve Güneş'inki kadar, hatta daha parlak olan bu ateş topundan yayılan ısı, 4-5 km çapındaki bir alandaki tüm yanabilir maddeleri tutuşturmaya yeterlidir. Ateş topunun parlaklığı da, görme duyusuna, düzelmeyecek derecede zarar verebilir. Burada ateş topunun çevresinde, çok büyük bir hızla yer değiştiren şok dalgası gelişmiştir.
+
+**-Patlamadan 6 saniye sonra...**
+
+Bu anda şok dalgası yeryüzüne çarpar ve ilk mekanik zararlara neden olur. Dalga, şiddetli bir hava basıncı yaratır ve bu basıncın şiddeti patlama merkezinden uzaklaştıkça azalır. Bu noktadan yaklaşık 1.5 km. uzakta bile, ek basınç, normal atmosfer basıncının yaklaşık iki katı olur. Bu basınçta insanların sağ kalabilme ihtimali %1’dir.
+
+**- Patlamadan 13 saniye sonra...**
+
+Şok dalgası yerin yüzeyinde yayılır ve bunu, ateş topunun kovduğu havanın yer değiştirmesi nedeniyle oluşan patlama izler. Bu patlama yer boyunca 300-400 km/saatlik bir hızla yayılır.
+
+Bu arada ateş topu soğumuş ve hacmi küçülmüştür. Havadan hafif olduğundan yükselmeye başlar. Yukarıya doğru yönelen bu hareket, yeryüzünde rüzgarın yönünün tersine dönmesine yol açar ve şiddetli bir rüzgar, başlangıçta patlama merkezinden dışarı doğru eserken, şimdi merkeze doğru esmeye koyulur.
+
+**- Patlamadan 30 saniye sonra...**
+
+Ateş topu yükseldikçe, küre biçimindeki şekli bozulur ve tipik bir mantar görünümünü alır.
+
+**- Patlamadan 2 dakika sonra...**
+
+Mantar biçimli bulut şimdi 12.000 metrelik bir yüksekliğe, yani atmosferin stratosfer tabakasının alt sınırına ulaşmıştır. Bu kadar yüksek düzeyde esen rüzgarlar, mantar biçimindeki bulutu azar azar dağıtır ve bulutu oluşturan maddeleri (genel olarak radyoaktif döküntüleri) atmosfere saçar. Söz konusu bu radyoaktif döküntüler, çok küçük tanecikler olduklarından atmosferde daha yüksek katmanlara da çıkabilirler. Bu döküntüler yeryüzüne düşmeden evvel, atmosferin üst tabakalarında esen rüzgarlar tarafından dünyanın çevresinde birkaç kez döndürülebilir. Böylece radyasyon döküntüleri dünyanın dört bir yanına dağılabilir.
+
+**Atomdan Çıkan Radyasyon**
+
+Radyasyon, uzayda saniyede 200.000 km. gibi çok yüksek bir hızda hareket eden, gama ışınları, nötronlar, elektronlar ve benzeri birkaç tip atom-altı parçacıktan oluşur. Bu parçacıklar, insan vücuduna kolaylıkla nüfuz edebilir ve vücudu oluşturan hücrelere hasar verebilirler. Bu hasar ölümcül bir kanserin ortaya çıkmasına neden olabilir ya da üreme hücreleri içinde yer alırsa, gelecek kuşakları etkileyecek genetik bozukluklara yol açabilir. Bu yüzden, bir radyasyon parçacığının insana çarpmasının sonuçları son derece ciddidir.
+
+Atom patlamalarında ortaya çıkan ışınlar canlılar üzerinde ya doğrudan doğruya ya da patlama sırasında ortaya çıkan parçalanma ürünleri yoluyla etki yapar.
+
+Bu parçacık ya da ışınlardan biri madde içinde hızla yol alırken, karşısına çıkan atom ya da moleküllerle çok şiddetli bir şekilde çarpışır. Bu çarpışma, hücrenin hassas yapısı için felaket olabilir. Hücre ölebilir ya da iyileşse bile, içinde belki haftalar, aylar, yıllar sonra kanser dediğimiz kontrol edilemeyen bir büyüme başlar.
+
+Merkezi patlama noktasından aşağı yukarı 1.000 metre çapındaki alan içerisinde radyasyon çok yoğundur. Ölüme yol açan öteki etkilerden kurtulanlar kanlarındaki akyuvarların hemen hepsini kaybeder, derilerde yaralar belirir, bunların hepsi birkaç günden iki üç haftaya kadar varan kısa bir süre içinde kanama nedeniyle ölür. Patlama noktasından daha uzakta olanlar üzerinde ise radyasyonun etkisi değişiktir. Ateş topundan yayılan bu zararlı ışınlarla karşı karşıya kalan insan bedeninde 13, 16 ve 22 km. uzaklıklarda sırasıyla üçüncü, ikinci ve birinci dereceden yanıklar oluşur. Sindirim bozuklukları ve kanamalar daha hafiftir fakat asıl bozukluklar daha sonra ortaya çıkar. Saçların dökülmesi, deri yanıkları, kansızlık, kısırlık, çocuk düşürme, sakat çocuk doğurma... Bu vakalarda da on günden üç aya kadar varan bir süre içinde ölüm görülebilir. Yıllar geçtikten sonra bile göz bozuklukları (göze perde inmesi), kan kanseri (lösemi) ve ışınım kanseri meydana gelebilir.
+
+Hidrojen bombası, temelde nükleer füzyon reaksiyonuna dayanan ve çok yüksek tahrip gücüne sahip nükleer bir silahtır. Hidrojen bombasından açığa çıkan enerji, aynı ağırlıktaki atom bombasına göre yaklaşık 1000 kat daha fazladır. Hidrojen bombası patlamalarının en büyük tehlikelerinden biri radyoaktif tozların solunum, sindirim ve deri yoluyla vücuda girmesidir. Bu tozlar bulaşmanın azlığına veya çokluğuna göre yukarıda saydığımız bozukluklara sebep olurlar.
+
+Tüm bu sayılanlara, gözümüzle bile göremediğimiz atomlar sebep olmaktadır. Atomlar gerektiğinde hayatı oluştururlarken, gerektiğinde de hayatı yok ederler. Atomun bu özelliği bizlere ne kadar aciz olduğumuzu ve Allah’ın kudretinin ne kadar üstün olduğunu çok açık bir şekilde göstermektedir.
+
+**SONUÇ**
+
+Atomlardan meydana gelen bir vücutla, havadaki atomları soluyor, besinlerdeki atomları yiyor, suyun atomlarını içiyorsunuz. Gördükleriniz ise gözünüzdeki atomlara ait elektronların fotonlarla çarpışmasından başka bir şey değil. Peki dokunarak hissettikleriniz? Onlar da cildinizdeki atomların eşyalardaki atomları itmesinden ibaret...
+
+Elbette bugün birçok insan, bedeninin, evrenin, dünyanın kısacası her şeyin atomlardan oluştuğunu bilmektedir. Ama belki de bugüne kadar "atom" ismini verdiğimiz varlığın nasıl bir sisteme sahip olduğunu düşünmemiştir. Veya düşündüyse bile nasıl oluştuğunu araştırmaya ihtiyaç duymamıştır; çünkü bunun yalnızca fizikçilerin işi olduğunu düşünmüştür.
+
+Oysa insan bu kusursuz sistemle hayatı boyunca iç içe yaşamaktadır. Üstelik bu öyle bir sistemdir ki, yalnızca oturduğumuz koltuğu oluşturan trilyonlarca atomdan her biri, üzerine kitap yazılabilecek bir düzene sahiptir. Tek bir atomun oluşumunu, sistemini, gücünü anlatmak sayfalar alabilmektedir. Hatta teknoloji geliştikçe ve evren hakkındaki bilgilerimiz arttıkça bu sayfalar daha da çoğalmaktadır.
+
+Peki tüm bu düzen nasıl oluşmuştur? Big Bang'in ardından atomlar kendiliğinden ortaya çıkamaz. Uygun bir ortam tesadüf eseri oluşamaz ve bu atomlar rastgele birleşerek evreni içine alan elementleri oluşturamazlar. Zira çevrenizde gördüğünüz her şey, hatta göremediğiniz hava bile atomlardan oluşmaktadır. Ve bu atomlar arasında son derece karmaşık bir trafik vardır.
+
+O halde bu atomlar arası trafiği kim idare ediyor olabilir, siz mi? Varlığınızın sadece atomlardan oluştuğunu kabul ederseniz atomlarınızdan hangisi hangisini, hangi atomlarınız neyi idare ediyor? Diğer atomlardan farksız olan beyninizin atomları mı diğerlerini kontrolü altında tutuyor? Beyninizin atomlarının idareci olduğunu varsayarsak, şu sorulara cevap vermemiz gerekir:
+
+*   Beyni oluşturan atomların tümü idareci ise, aralarında nasıl ve neye göre karar veriyorlar?
+
+*   Beyni oluşturan trilyonlarca atom, aralarında nasıl işbirliği yapıyorlar?
+
+*   Neden trilyonlarca atomdan biri bile alınan karara itiraz etmiyor?
+
+*   Atomlar aralarında nasıl iletişim kuruyorlar?
+
+Bu sorular karşısında beyni oluşturan trilyonlarca atomun tamamının birden idareci olduğunu söylemenin ne kadar mantıksız bir çıkarım olacağı açıkça görülmektedir.
+
+Peki bu trilyonlarca atomdan sadece biri idareci, diğerleri de onu takip ediyor diye düşünmek doğru olabilir mi? Tek bir atomu idareci kabul edersek o zaman da akla hemen öncelikle hangi atomun idareci olduğu ve bu atomu kimin seçtiği soruları geliyor:
+
+*   Bu atom beynin neresinde duruyor?
+
+*   Bu atomun diğerlerinden farkı ne?
+
+*   Neden diğer atomlar kayıtsız-şartsız bu atoma uyuyor?
+
+Bu soruların cevabını vermeden hemen şunu belirtmemiz gerekir: Bahsedilen idareci atom da başka parçacıklardan oluşmuştur. Bu parçacıklar niçin ve neye göre bu idareci atomu oluşturmak üzere bir araya geliyorlar? Bu parçacıkları kim idare ediyor? Bu parçacıkları idare eden bir başka irade var olduğuna göre bu atomun idareci olduğunu savunmak ne derece doğru olur?
+
+İşte bu aşamada beynimizi oluşturan atomlardan birisinin idareci atom olabileceği iddiası kendiliğinden çürümektedir. İnsanlar, hayvanlar, bitkiler, taş-toprak, hava, su, eşya, gezegenler, uzay boşluğu her şey atomlardan oluşmuşken, evrendeki bu sınırsız sayıdaki atom birbirleriyle nasıl tam bir uyum içerisinde varlıklarını sürdürmektedir? Bu sınırsız sayıdaki atomlardan hangisi, üstelik kendisi de birçok parçacıktan oluşmuşken idareci olabilir? Böyle bir şeyi iddia etmek ya da işi tesadüfe bağlamak ve alemleri yaratan Allah'ın varlığını reddetmek, **"vicdanları kabul ettiği halde zulüm ve büyüklenme dolayısıyla inkar etmek"**ten (Neml Suresi, 14) başka bir şey değildir.
+
+Düşünün ki, atomların çeşitli biçimlerde bir araya gelmesiyle oluşan bir insan dünyaya geliyor, atomlarla besleniyor, büyüyor. Sonra atomlardan oluşan bir binada atomlardan oluşan kitapları okuyor. Sonra eline atomlardan oluşan ve üzerinde atom mühendisi yazılı bir diploma veriyorlar. Ama sonra o çıkıp, "bu atomlar başıboş tesadüfler sonucunda biraraya gelmişlerdir ve içlerindeki olağanüstü sistem de tesadüfen oluşmuştur" gibi konuşmalar yapabiliyor. Eğer böyleyse, kendisi bu konuşmayı yapacak şuuru, iradeyi ve zekayı nereden alıyor?
+
+İşte elinizdeki bu çalışmanın neredeyse her sayfasında, canlı-cansız evrendeki her şeyi oluşturan atomun kendi kendine veya tesadüfen meydana gelmesinin imkansızlığını tekrar tekrar gördük. Tüm bu anlatılanlara rağmen bu oluşumun hala "tesadüfen" gerçekleştiğini veya "deneme-yanılma yoluyla" bugünkü halini aldığını düşünenlere söyleyeceğimiz, Hz. İbrahim’in inkarcılara söylediğinden farklı olmayacaktır:
+
+**Allah, kendisine mülk verdi diye Rabbi konusunda İbrahim’le tartışmaya gireni görmedin mi? Hani İbrahim: 'Benim Rabbim diriltir ve öldürür’ demişti; o da: ‘Ben de öldürür ve diriltirim’ demişti. (O zaman) İbrahim: ‘Şüphe yok, Allah güneşi doğudan getirir, (hadi) sen de onu batıdan getir’ deyince, o inkarcı böylece afallayıp kalmıştı. Allah zalimler topluluğunu hidayete erdirmez. (Bakara Suresi, 258)**
+
+**EK BÖLÜM  
+EVRİM YANILGISI**
+
+Darwinizm, yani evrim teorisi, Yaratılış gerçeğini reddetmek amacıyla ortaya atılmış, ancak başarılı olamamış bilim dışı bir safsatadan başka bir şey değildir. Canlılığın, cansız maddelerden tesadüfen oluştuğunu iddia eden bu teori, evrende ve canlılarda çok açık bir düzen bulunduğunun bilim tarafından ispat edilmesiyle ve evrimin hiçbir zaman yaşanmadığını ortaya koyan 350 milyona yakın fosilin bulunmasıyla çürümüştür. Böylece Allah'ın tüm evreni ve canlıları yaratmış olduğu gerçeği, bilim tarafından da kanıtlanmıştır. Bugün evrim teorisini ayakta tutmak için dünya çapında yürütülen propaganda, sadece bilimsel gerçeklerin çarpıtılmasına, taraflı yorumlanmasına, bilim görüntüsü altında söylenen yalanlara ve yapılan sahtekarlıklara dayalıdır.
+
+Ancak bu propaganda gerçeği gizleyememektedir. Evrim teorisinin bilim tarihindeki en büyük yanılgı olduğu, son 20-30 yıldır bilim dünyasında giderek daha yüksek sesle dile getirilmektedir. Özellikle 1980'lerden sonra yapılan araştırmalar, Darwinist iddiaların tamamen yanlış olduğunu ortaya koymuş ve bu gerçek pek çok bilim adamı tarafından dile getirilmiştir. Özellikle ABD'de, biyoloji, biyokimya, paleontoloji gibi farklı alanlardan gelen çok sayıda bilim adamı, Darwinizm'in geçersizliğini görmekte, canlıların kökenini Yaratılış gerçeğiyle açıklamaktadırlar.
+
+Evrim teorisinin çöküşünü ve Yaratılış'ın delillerini diğer pek çok çalışmamızda bütün bilimsel detaylarıyla ele aldık ve almaya devam ediyoruz. Ancak konuyu, taşıdığı büyük önem nedeniyle, burada da özetlemekte yarar vardır.
+
+**Darwin'i Yıkan Zorluklar**
+
+Evrim teorisi, tarihi eski Yunan'a kadar uzanan pagan bir öğreti olmakla birlikte, kapsamlı olarak 19\. yüzyılda ortaya atıldı. Teoriyi bilim dünyasının gündemine sokan en önemli gelişme, Charles Darwin'in 1859 yılında yayınlanan _Türlerin Kökeni_ adlı kitabıydı. Darwin bu kitapta dünya üzerindeki farklı canlı türlerini Allah'ın ayrı ayrı yarattığı gerçeğine kendince karşı çıkıyordu. Darwin'in yanılgılarına göre, tüm türler ortak bir atadan geliyorlardı ve zaman içinde küçük değişimlerle farklılaşmışlardı.
+
+Darwin'in teorisi, hiçbir somut bilimsel bulguya dayanmıyordu; kendisinin de kabul ettiği gibi sadece bir "mantık yürütme" idi. Hatta Darwin'in kitabındaki "Teorinin Zorlukları" başlıklı uzun bölümde itiraf ettiği gibi, teori pek çok önemli soru karşısında açık veriyordu.
+
+Darwin, teorisinin önündeki zorlukların gelişen bilim tarafından aşılacağını, yeni bilimsel bulguların teorisini güçlendireceğini umuyordu. Bunu kitabında sık sık belirtmişti. Ancak gelişen bilim, Darwin'in umutlarının tam aksine, teorinin temel iddialarını birer birer dayanaksız bırakmıştır.
+
+Darwinizm'in bilim karşısındaki yenilgisi, üç temel başlıkta incelenebilir:
+
+1) Teori, hayatın yeryüzünde ilk kez nasıl ortaya çıktığını asla açıklayamamaktadır.
+
+2) Teorinin öne sürdüğü "evrim mekanizmaları"nın, gerçekte evrimleştirici bir etkiye sahip olduğunu gösteren hiçbir bilimsel bulgu yoktur.
+
+3) Fosil kayıtları, evrim teorisinin öngörülerinin tam aksine bir tablo ortaya koymaktadır.
+
+Bu bölümde, bu üç temel başlığı ana hatları ile inceleyeceğiz.
+
+**Aşılamayan İlk Basamak: Hayatın Kökeni**
+
+Evrim teorisi, tüm canlı türlerinin, bundan yaklaşık 3.8 milyar yıl önce dünyada hayali şekilde tesadüfen ortaya çıkan tek bir canlı hücreden geldiklerini iddia etmektedir. Tek bir hücrenin nasıl olup da milyonlarca kompleks canlı türünü oluşturduğu ve eğer gerçekten bu tür bir evrim gerçekleşmişse neden bunun izlerinin fosil kayıtlarında bulunamadığı, teorinin açıklayamadığı sorulardandır. Ancak tüm bunlardan önce, iddia edilen evrim sürecinin ilk basamağı üzerinde durmak gerekir. Sözü edilen o "ilk hücre" nasıl ortaya çıkmıştır?
+
+Evrim teorisi, Yaratılış'ı cahilce reddettiği için, o "ilk hücre"nin, hiçbir plan ve düzenleme olmadan, doğa kanunları içinde kör tesadüflerin ürünü olarak meydana geldiğini iddia eder. Yani teoriye göre, cansız madde tesadüfler sonucunda ortaya canlı bir hücre çıkarmış olmalıdır. Ancak bu, bilinen en temel biyoloji kanunlarına aykırı bir iddiadır.
+
+**"Hayat Hayattan Gelir"**
+
+Darwin, kitabında hayatın kökeni konusundan hiç söz etmemişti. Çünkü onun dönemindeki ilkel bilim anlayışı, canlıların çok basit bir yapıya sahip olduklarını varsayıyordu. Ortaçağ'dan beri inanılan "spontane jenerasyon" adlı teoriye göre, cansız maddelerin tesadüfen biraraya gelip, canlı bir varlık oluşturabileceklerine inanılıyordu. Bu dönemde böceklerin yemek artıklarından, farelerin de buğdaydan oluştuğu yaygın bir düşünceydi. Bunu ispatlamak için de ilginç deneyler yapılmıştı. Kirli bir paçavranın üzerine biraz buğday konmuş ve biraz beklendiğinde bu karışımdan farelerin oluşacağı sanılmıştı.
+
+Etlerin kurtlanması da hayatın cansız maddelerden türeyebildiğine bir delil sayılıyordu. Oysa daha sonra anlaşılacaktı ki, etlerin üzerindeki kurtlar kendiliklerinden oluşmuyorlar, sineklerin getirip bıraktıkları gözle görülmeyen larvalardan çıkıyorlardı. Darwin'in _Türlerin Kökeni_ adlı kitabını yazdığı dönemde ise, bakterilerin cansız maddeden oluşabildikleri inancı, bilim dünyasında yaygın bir kabul görüyordu.
+
+Oysa Darwin'in kitabının yayınlanmasından beş yıl sonra, ünlü Fransız biyolog Louis Pasteur, evrime temel oluşturan bu inancı kesin olarak çürüttü. Pasteur yaptığı uzun çalışma ve deneyler sonucunda vardığı sonucu şöyle özetlemişti: **"Cansız maddelerin hayat oluşturabileceği iddiası artık kesin olarak tarihe gömülmüştür."** (Sidney Fox, Klaus Dose, _Molecular Evolution and The Origin of Life_, New York: Marcel Dekker, 1977, s. 2.)
+
+Evrim teorisinin savunucuları, Pasteur'ün bulgularına karşı uzun süre direndiler. Ancak gelişen bilim, canlı hücresinin karmaşık yapısını ortaya çıkardıkça, hayatın kendiliğinden oluşabileceği iddiasının geçersizliği daha da açık hale geldi.
+
+**20\. Yüzyıldaki Sonuçsuz Çabalar**
+
+20\. yüzyılda hayatın kökeni konusunu ele alan ilk evrimci, ünlü Rus biyolog Alexander Oparin oldu. Oparin, 1930'lu yıllarda ortaya attığı birtakım tezlerle, canlı hücresinin tesadüfen meydana gelebileceğini ispat etmeye çalıştı. Ancak bu çalışmalar başarısızlıkla sonuçlanacak ve Oparin şu itirafı yapmak zorunda kalacaktı: **"Maalesef hücrenin kökeni, evrim teorisinin tümünü içine alan en karanlık noktayı oluşturmaktadır."** (Alexander I. Oparin, _Origin of Life_, (1936) New York, Dover Publications, 1953 (Reprint), s. 196.)
+
+Oparin'in yolunu izleyen evrimciler, hayatın kökeni konusunu çözüme kavuşturacak deneyler yapmaya çalıştılar. Bu deneylerin en ünlüsü, Amerikalı kimyacı Stanley Miller tarafından 1953 yılında düzenlendi. Miller, ilkel dünya atmosferinde olduğunu iddia ettiği gazları bir deney düzeneğinde birleştirerek ve bu karışıma enerji ekleyerek, proteinlerin yapısında kullanılan birkaç organik molekül (aminoasit) sentezledi.
+
+O yıllarda evrim adına önemli bir aşama gibi tanıtılan bu deneyin geçerli olmadığı ve deneyde kullanılan atmosferin gerçek dünya koşullarından çok farklı olduğu, ilerleyen yıllarda ortaya çıkacaktı. ("New Evidence on Evolution of Early Atmosphere and Life", _Bulletin of the American Meteorological Society_, c. 63, Kasım 1982, s. 1328-1330)
+
+Uzun süren bir sessizlikten sonra Miller'in kendisi de kullandığı atmosfer ortamının gerçekçi olmadığını itiraf etti. (Stanley Miller, _Molecular Evolution of Life: Current Status of the Prebiotic Synthesis of Small Molecules_, 1986, s. 7.)
+
+Hayatın kökeni sorununu açıklamak için 20\. yüzyıl boyunca yürütülen tüm evrimci çabalar hep başarısızlıkla sonuçlandı. San Diego Scripps Enstitüsü'nden ünlü jeokimyacı Jeffrey Bada, evrimci _Earth_ dergisinde 1998 yılında yayınlanan bir makalede bu gerçeği şöyle kabul eder:
+
+Bugün, 20\. yüzyılı geride bırakırken, hala, 20\. yüzyıla girdiğimizde sahip olduğumuz en büyük çözülmemiş problemle karşı karşıyayız: Hayat yeryüzünde nasıl başladı? (Jeffrey Bada, _Earth,_ Şubat 1998, s. 40.)
+
+**Hayatın Kompleks Yapısı**
+
+Evrimcilerin hayatın kökeni konusunda bu denli büyük bir açmaza girmelerinin başlıca nedeni, Darwinistlerin en basit zannettikleri canlı yapıların bile olağanüstü derecede kompleks özelliklere sahip olmasıdır. Canlı hücresi, insanoğlunun yaptığı bütün teknolojik ürünlerden daha komplekstir. Öyle ki, bugün dünyanın en gelişmiş laboratuvarlarında bile cansız maddeler biraraya getirilerek canlı bir hücre, hatta hücreye ait tek bir protein bile üretilememektedir.
+
+Bir hücrenin meydana gelmesi için gereken şartlar, asla rastlantılarla açıklanamayacak kadar fazladır. Ancak bunu detaylarıyla açıklamaya bile gerek yoktur. Evrimciler daha hücre aşamasına gelmeden çıkmaza girerler. Çünkü hücrenin yapı taşlarından biri olan proteinlerin tek bir tanesinin dahi tesadüfen meydana gelmesi ihtimali matematiksel olarak "0"dır.
+
+Bunun nedenlerinden başlıcası bir proteinin oluşması için başka proteinlerin varlığının gerekmesidir ki bu, bir proteinin tesadüfen oluşma ihtimalini tamamen ortadan kaldırır. Dolayısıyla tek başına bu gerçek bile evrimcilerin tesadüf iddiasını en baştan yok etmek için yeterlidir. Konunun önemi açısından özetle açıklayacak olursak,
+
+**1\. Enzimler olmadan protein sentezlenemez ve enzimler de birer proteindir.**
+
+**2\. Tek bir proteinin sentezlenmesi için 100'e yakın proteinin hazır bulunması gerekmektedir. Dolayısıyla proteinlerin varlığı için proteinler gerekir.**
+
+**3\. Proteinleri sentezleyen enzimleri DNA üretir. DNA olmadan protein sentezlenemez. Dolayısıyla proteinlerin oluşabilmesi için DNA da gerekir.**
+
+**4\. Protein sentezleme işleminde hücredeki tüm organellerin önemli görevleri vardır. Yani proteinlerin oluşabilmesi için, eksiksiz ve tam işleyen bir hücrenin tüm organelleri ile var olması gerekmektedir.**
+
+Hücrenin çekirdeğinde yer alan ve genetik bilgiyi saklayan DNA molekülü ise, inanılmaz bir bilgi bankasıdır. İnsan DNA'sının içerdiği bilginin, eğer kağıda dökülmeye kalkılsa, 500'er sayfadan oluşan 900 ciltlik bir kütüphane oluşturacağı hesaplanmaktadır.
+
+Bu noktada çok ilginç bir ikilem daha vardır: DNA, yalnız birtakım özelleşmiş proteinlerin (enzimlerin) yardımı ile eşlenebilir. Ama bu enzimlerin sentezi de ancak DNA'daki bilgiler doğrultusunda gerçekleşir. Birbirine bağımlı olduklarından, eşlemenin meydana gelebilmesi için ikisinin de aynı anda var olmaları gerekir. Bu ise, hayatın kendiliğinden oluştuğu senaryosunu çıkmaza sokmaktadır. San Diego California Üniversitesi'nden ünlü evrimci Prof. Leslie Orgel, _Scientific American_ dergisinin Ekim 1994 tarihli sayısında bu gerçeği şöyle itiraf eder:
+
+Son derece kompleks yapılara sahip olan proteinlerin ve nükleik asitlerin (RNA ve DNA) aynı yerde ve aynı zamanda rastlantısal olarak oluşmaları aşırı derecede ihtimal dışıdır. Ama bunların birisi olmadan diğerini elde etmek de mümkün değildir. Dolayısıyla insan, yaşamın kimyasal yollarla ortaya çıkmasının asla mümkün olmadığı sonucuna varmak zorunda kalmaktadır. (Leslie E. Orgel, _The Origin of Life on Earth_, Scientific American, c. 271, Ekim 1994, s. 78.)
+
+Kuşkusuz eğer hayatın kör tesadüfler neticesinde kendi kendine ortaya çıkması imkansız ise, bu durumda hayatın yaratıldığını kabul etmek gerekir. Bu gerçek, en temel amacı Yaratılış'ı reddetmek olan evrim teorisini açıkça geçersiz kılmaktadır.
+
+**Evrimin Hayali Mekanizmaları**
+
+Darwin'in teorisini geçersiz kılan ikinci büyük nokta, teorinin "evrim mekanizmaları" olarak öne sürdüğü iki kavramın da gerçekte hiçbir evrimleştirici güce sahip olmadığının anlaşılmış olmasıdır.
+
+Darwin, ortaya attığı evrim iddiasını tamamen "doğal seleksiyon" mekanizmasına bağlamıştı. Bu mekanizmaya verdiği önem, kitabının isminden de açıkça anlaşılıyordu: _Türlerin Kökeni, Doğal Seleksiyon Yoluyla..._
+
+Doğal seleksiyon, doğal seçme demektir. Doğadaki yaşam mücadelesi içinde, doğal şartlara uygun ve güçlü canlıların hayatta kalacağı düşüncesine dayanır. Örneğin yırtıcı hayvanlar tarafından tehdit edilen bir geyik sürüsünde, daha hızlı koşabilen geyikler hayatta kalacaktır. Böylece geyik sürüsü, hızlı ve güçlü bireylerden oluşacaktır. Ama elbette bu mekanizma, geyikleri evrimleştirmez, onları başka bir canlı türüne, örneğin atlara dönüştürmez.
+
+Dolayısıyla doğal seleksiyon mekanizması hiçbir evrimleştirici güce sahip değildir. Darwin de bu gerçeğin farkındaydı ve _Türlerin Kökeni_ adlı kitabında **"Faydalı değişiklikler oluşmadığı sürece doğal seleksiyon hiçbir şey yapamaz"** demek zorunda kalmıştı. (Charles Darwin, _The Origin of Species: A Facsimile of the First Edition_, Harvard University Press, 1964, s. 184.)
+
+**Lamarck'ın Etkisi**
+
+Peki bu "faydalı değişiklikler" nasıl oluşabilirdi? Darwin, kendi döneminin ilkel bilim anlayışı içinde, bu soruyu Lamarck'a dayanarak cevaplamaya çalışmıştı. Darwin'den önce yaşamış olan Fransız biyolog Lamarck'a göre, canlılar yaşamları sırasında geçirdikleri fiziksel değişiklikleri sonraki nesle aktarıyorlar, nesilden nesile biriken bu özellikler sonucunda yeni türler ortaya çıkıyordu. Örneğin Lamarck'a göre zürafalar ceylanlardan türemişlerdi, yüksek ağaçların yapraklarını yemek için çabalarken nesilden nesile boyunları uzamıştı.
+
+Darwin de benzeri örnekler vermiş, örneğin _Türlerin Kökeni_ adlı kitabında, yiyecek bulmak için suya giren bazı ayıların zamanla balinalara dönüştüğünü iddia etmişti. _(B. G. Ranganathan, Origins?, Pennsylvania: The Banner Of Truth Trust, 1988.)_
+
+Ama Mendel'in keşfettiği ve 20.yüzyılda gelişen genetik bilimiyle kesinleşen kalıtım kanunları, kazanılmış özelliklerin sonraki nesillere aktarılması efsanesini kesin olarak yıktı. Böylece doğal seleksiyon "tek başına" ve dolayısıyla tümüyle etkisiz bir mekanizma olarak kalmış oluyordu.
+
+**Neo-Darwinizm ve Mutasyonlar**
+
+Darwinistler ise bu duruma bir çözüm bulabilmek için 1930'ların sonlarında, "Modern Sentetik Teori"yi ya da daha yaygın ismiyle neo-Darwinizm'i ortaya attılar. Neo-Darwinizm, doğal seleksiyonun yanına "faydalı değişiklik sebebi" olarak mutasyonları, yani canlıların genlerinde radyasyon gibi dış etkiler ya da kopyalama hataları sonucunda oluşan bozulmaları ekledi. Bugün de hala bilimsel olarak geçersiz olduğunu bilmelerine rağmen, Darwinistlerin savunduğu model neo-Darwinizm'dir. Teori, yeryüzünde bulunan milyonlarca canlı türünün, bu canlıların, kulak, göz, akciğer, kanat gibi sayısız kompleks organlarının "mutasyonlara", yani genetik bozukluklara dayalı bir süreç sonucunda oluştuğunu iddia etmektedir. Ama teoriyi çaresiz bırakan açık bir bilimsel gerçek vardır: **Mutasyonlar canlıları geliştirmezler, aksine her zaman için canlılara zarar verirler.**
+
+Bunun nedeni çok basittir: DNA çok kompleks bir düzene sahiptir. Bu molekül üzerinde oluşan herhangi bir tesadüfi etki ancak zarar verir. Amerikalı genetikçi B. G. Ranganathan bunu şöyle açıklar:
+
+Mutasyonlar küçük, rasgele ve zararlıdırlar. Çok ender olarak meydana gelirler ve en iyi ihtimalle etkisizdirler. Bu üç özellik, mutasyonların evrimsel bir gelişme meydana getiremeyeceğini gösterir. Zaten yüksek derecede özelleşmiş bir organizmada meydana gelebilecek rastlantısal bir değişim, ya etkisiz olacaktır ya da zararlı. Bir kol saatinde meydana gelecek rasgele bir değişim kol saatini geliştirmeyecektir. Ona büyük ihtimalle zarar verecek veya en iyi ihtimalle etkisiz olacaktır. Bir deprem bir şehri geliştirmez, ona yıkım getirir. (Charles Darwin, _The Origin of Species: A Facsimile of the First Edition_, Harvard University Press, 1964, s. 179.)
+
+Nitekim bugüne kadar hiçbir yararlı, yani genetik bilgiyi geliştiren mutasyon örneği gözlemlenmedi. Tüm mutasyonların zararlı olduğu görüldü. Anlaşıldı ki, evrim teorisinin "evrim mekanizması" olarak gösterdiği mutasyonlar, gerçekte canlıları sadece tahrip eden, sakat bırakan genetik olaylardır. (İnsanlarda mutasyonun en sık görülen etkisi de kanserdir.) Elbette tahrip edici bir mekanizma "evrim mekanizması" olamaz. Doğal seleksiyon ise, Darwin'in de kabul ettiği gibi, "tek başına hiçbir şey yapamaz." Bu gerçek bizlere doğada hiçbir "evrim mekanizması" olmadığını göstermektedir. Evrim mekanizması olmadığına göre de, evrim denen hayali süreç yaşanmış olamaz.
+
+**Fosil Kayıtları: Ara Formlardan Eser Yok**
+
+Evrim teorisinin iddia ettiği senaryonun yaşanmamış olduğunun en açık göstergesi ise fosil kayıtlarıdır.
+
+Evrim teorisinin bilim dışı iddiasına göre bütün canlılar birbirlerinden türemişlerdir. Önceden var olan bir canlı türü, zamanla bir diğerine dönüşmüş ve bütün türler bu şekilde ortaya çıkmışlardır. Teoriye göre bu dönüşüm yüz milyonlarca yıl süren uzun bir zaman dilimini kapsamış ve kademe kademe ilerlemiştir.
+
+Bu durumda, iddia edilen uzun dönüşüm süreci içinde sayısız "ara türler"in oluşmuş ve yaşamış olmaları gerekir.
+
+Örneğin geçmişte, balık özelliklerini taşımalarına rağmen, bir yandan da bazı sürüngen özellikleri kazanmış olan yarı balık-yarı sürüngen canlılar yaşamış olmalıdır. Ya da sürüngen özelliklerini taşırken, bir yandan da bazı kuş özellikleri kazanmış sürüngen-kuşlar ortaya çıkmış olmalıdır. Bunlar, bir geçiş sürecinde oldukları için de, sakat, eksik, kusurlu canlılar olmalıdır. Evrimciler geçmişte yaşamış olduklarına inandıkları bu hayali varlıklara "ara-geçiş formu" adını verirler.
+
+Eğer gerçekten bu tür canlılar geçmişte yaşamışlarsa bunların sayılarının ve çeşitlerinin milyonlarca hatta milyarlarca olması gerekir. Ve bu garip canlıların kalıntılarına mutlaka fosil kayıtlarında rastlanması gerekir. Darwin, _Türlerin Kökeni_'nde bunu şöyle açıklamıştır:
+
+Eğer teorim doğruysa, türleri birbirine bağlayan sayısız ara-geçiş çeşitleri mutlaka yaşamış olmalıdır... Bunların yaşamış olduklarının kanıtları da sadece fosil kalıntıları arasında bulunabilir. (Charles Darwin, _The Origin of Species_, s. 172, 280.)
+
+Ancak bu satırları yazan Darwin, bu ara formların fosillerinin bir türlü bulunamadığının da farkındaydı. Bunun teorisi için büyük bir açmaz oluşturduğunu görüyordu. Bu yüzden, _Türlerin Kökeni_ kitabının "Teorinin Zorlukları" (Difficulties on Theory) adlı bölümünde şöyle yazmıştı:
+
+Eğer gerçekten türler öbür türlerden yavaş gelişmelerle türemişse, neden sayısız ara geçiş formuna rastlamıyoruz? Neden bütün doğa bir karmaşa halinde değil de, tam olarak tanımlanmış ve yerli yerinde? Sayısız ara geçiş formu olmalı, fakat niçin yeryüzünün sayılamayacak kadar çok katmanında gömülü olarak bulamıyoruz... Niçin her jeolojik yapı ve her tabaka böyle bağlantılarla dolu değil? _(Charles Darwin, The Origin of Species, s. 172, 280)_
+
+**Darwin'in Yıkılan Umutları**
+
+Ancak 19\. yüzyılın ortasından bu yana dünyanın dört bir yanında hummalı fosil araştırmaları yapıldığı halde bu ara geçiş formlarına rastlanamamıştır. Yapılan kazılarda ve araştırmalarda elde edilen bütün bulgular, evrimcilerin beklediklerinin aksine, canlıların yeryüzünde birdenbire, eksiksiz ve kusursuz bir biçimde ortaya çıktıklarını göstermiştir.
+
+Ünlü İngiliz paleontolog (fosil bilimci) Derek W. Ager, bir evrimci olmasına karşın bu gerçeği şöyle itiraf eder:
+
+Sorunumuz şudur: Fosil kayıtlarını detaylı olarak incelediğimizde, türler ya da sınıflar seviyesinde olsun, sürekli olarak aynı gerçekle karşılaşırız; kademeli evrimle gelişen değil, aniden yeryüzünde oluşan gruplar görürüz. (Derek A. Ager, _"The Nature of the Fossil Record"_, Proceedings of the British Geological Association, c. 87, 1976, s. 133.)
+
+Yani fosil kayıtlarında, tüm canlı türleri, aralarında hiçbir geçiş formu olmadan eksiksiz biçimleriyle aniden ortaya çıkmaktadırlar. Bu, Darwin'in öngörülerinin tam aksidir. Dahası, bu canlı türlerinin yaratıldıklarını gösteren çok güçlü bir delildir. Çünkü bir canlı türünün, kendisinden evrimleştiği hiçbir atası olmadan, bir anda ve kusursuz olarak ortaya çıkmasının tek açıklaması, o türün yaratılmış olmasıdır. Bu gerçek, ünlü evrimci biyolog Douglas Futuyma tarafından da kabul edilir:
+
+Yaratılış ve evrim, yaşayan canlıların kökeni hakkında yapılabilecek yegane iki açıklamadır. Canlılar dünya üzerinde ya tamamen mükemmel ve eksiksiz bir biçimde ortaya çıkmışlardır ya da böyle olmamıştır. Eğer böyle olmadıysa, bir değişim süreci sayesinde kendilerinden önce var olan bazı canlı türlerinden evrimleşerek meydana gelmiş olmalıdırlar. Ama eğer eksiksiz ve mükemmel bir biçimde ortaya çıkmışlarsa, o halde sonsuz güç sahibi bir akıl tarafından yaratılmış olmaları gerekir. (Douglas J. Futuyma, _Science on Trial_, New York: Pantheon Books, 1983\. s. 197.)
+
+Fosiller ise, canlıların yeryüzünde eksiksiz ve mükemmel bir **biçimde ortaya çıktıklarını göstermektedir. Yani "türlerin kökeni", Darwin'in sandığının aksine, evrim değil Yaratılıştır.**
+
+**İnsanın Evrimi Masalı**
+
+Evrim teorisini savunanların en çok gündeme getirdikleri konu, insanın kökeni konusudur. Bu konudaki Darwinist iddia, insanın sözde maymunsu birtakım yaratıklardan geldiğini varsayar. 4-5 milyon yıl önce başladığı varsayılan bu süreçte, insan ile hayali ataları arasında bazı "ara form"ların yaşadığı iddia edilir. Gerçekte tümüyle hayali olan bu senaryoda dört temel "kategori" sayılır:
+
+_1- Australopithecus_
+
+_2- Homo habilis_
+
+_3- Homo erectus_
+
+_4- Homo sapiens_
+
+Evrimciler, insanların sözde ilk maymunsu atalarına "güney maymunu" anlamına gelen _"Australopithecus"_ ismini verirler. Bu canlılar gerçekte soyu tükenmiş bir maymun türünden başka bir şey değildir. Lord Solly Zuckerman ve Prof. Charles Oxnard gibi İngiltere ve ABD'den dünyaca ünlü iki anatomistin _Australopithecus_ örnekleri üzerinde yaptıkları çok geniş kapsamlı çalışmalar, bu canlıların sadece soyu tükenmiş bir maymun türüne ait olduklarını ve insanlarla hiçbir benzerlik taşımadıklarını göstermiştir. (Charles E. Oxnard, _"The Place of Australopithecines in Human Evolution: Grounds for Doubt"_, Nature, c. 258, s. 389\. )
+
+Evrimciler insan evriminin bir sonraki safhasını da, "homo" yani insan olarak sınıflandırırlar. İddiaya göre homo serisindeki canlılar, _Australopithecuslar_'dan daha gelişmişlerdir. Evrimciler, bu farklı canlılara ait fosilleri ardı ardına dizerek hayali bir evrim şeması oluştururlar. Bu şema hayalidir, çünkü gerçekte bu farklı sınıfların arasında evrimsel bir ilişki olduğu asla ispatlanamamıştır. Evrim teorisinin 20\. yüzyıldaki en önemli savunucularından biri olan Ernst Mayr, "_Homo sapiens_'e uzanan zincir gerçekte kayıptır" diyerek bunu kabul eder. (J. Rennie, _"Darwin's Current Bulldog: Ernst Mayr"_, Scientific American, Aralık 1992)
+
+Evrimciler "_Australopithecus_ > _Homo habilis_ > _Homo erectus_ > _Homo sapiens_" sıralamasını yazarken, bu türlerin her birinin, bir sonrakinin atası olduğu izlenimini verirler. Oysa paleoantropologların son bulguları, _Australopithecus_, _Homo habilis_ ve _Homo erectus_'un dünya'nın farklı bölgelerinde aynı dönemlerde yaşadıklarını göstermektedir. (Alan Walker, _Science_, c. 207, 1980, s. 1103; A. J. Kelso, _Physical Antropology,_ 1\. baskı, New York: J. B. Lipincott Co., 1970, s. 221; M. D. Leakey, Olduvai Gorge, c. 3, Cambridge: Cambridge University Press, 1971, s. 272.)
+
+Dahası _Homo erectus_ sınıflamasına ait insanların bir bölümü çok modern zamanlara kadar yaşamışlar, _Homo sapiens neandertalensis_ ve _Homo sapiens sapiens_ (insan) ile aynı ortamda yan yana bulunmuşlardır. (_Time_, Kasım 1996)
+
+Bu ise elbette bu sınıfların birbirlerinin ataları oldukları iddiasının geçersizliğini açıkça ortaya koymaktadır. Harvard Üniversitesi paleontologlarından Stephen Jay Gould, kendisi de bir evrimci olmasına karşın, Darwinist teorinin içine girdiği bu çıkmazı şöyle açıklar:
+
+Eğer birbiri ile paralel bir biçimde yaşayan üç farklı hominid (insanımsı) çizgisi varsa, o halde bizim soy ağacımıza ne oldu? Açıktır ki, bunların biri diğerinden gelmiş olamaz. Dahası, biri diğeriyle karşılaştırıldığında evrimsel bir gelişme trendi göstermemektedirler. (S. J. Gould, _Natural History_, c. 85, 1976, s. 30.)
+
+Kısacası, medyada ya da ders kitaplarında yer alan hayali birtakım "yarı maymun, yarı insan" canlıların çizimleriyle, yani sırf propaganda yoluyla ayakta tutulmaya çalışılan insanın evrimi senaryosu, hiçbir bilimsel temeli olmayan bir masaldan ibarettir. Bu konuyu uzun yıllar inceleyen, özellikle _Australopithecus_ fosilleri üzerinde 15 yıl araştırma yapan İngiltere'nin en ünlü ve saygın bilim adamlarından Lord Solly Zuckerman, bir evrimci olmasına rağmen, ortada maymunsu canlılardan insana uzanan gerçek bir soy ağacı olmadığı sonucuna varmıştır.
+
+Zuckerman bir de ilginç bir "bilim skalası" yapmıştır. Bilimsel olarak kabul ettiği bilgi dallarından, bilim dışı olarak kabul ettiği bilgi dallarına kadar bir yelpaze oluşturmuştur. Zuckerman'ın bu tablosuna göre en "bilimsel" -yani somut verilere dayanan- bilgi dalları kimya ve fiziktir. Yelpazede bunlardan sonra biyoloji bilimleri, sonra da sosyal bilimler gelir. Yelpazenin en ucunda, yani en "bilim dışı" sayılan kısımda ise, Zuckerman'a göre, telepati, altıncı his gibi "duyum ötesi algılama" kavramları ve bir de "insanın evrimi" vardır! Zuckerman, yelpazenin bu ucunu şöyle açıklar:
+
+Objektif gerçekliğin alanından çıkıp da, biyolojik bilim olarak varsayılan bu alanlara -yani duyum ötesi algılamaya ve insanın fosil tarihinin yorumlanmasına- girdiğimizde, evrim teorisine inanan bir kimse için herşeyin mümkün olduğunu görürüz. Öyle ki teorilerine kesinlikle inanan bu kimselerin çelişkili bazı yargıları aynı anda kabul etmeleri bile mümkündür. (Solly Zuckerman, _Beyond The Ivory Tower_, New York: Toplinger Publications, 1970, s. 19.)
+
+İşte insanın evrimi masalı da, teorilerine körü körüne inanan birtakım insanların buldukları bazı fosilleri ön yargılı bir biçimde yorumlamalarından ibarettir.
+
+**Darwin Formülü!**
+
+Şimdiye kadar ele aldığımız tüm teknik delillerin yanında, isterseniz evrimcilerin nasıl saçma bir inanışa sahip olduklarını bir de çocukların bile anlayabileceği kadar açık bir örnekle özetleyelim.
+
+Evrim teorisi canlılığın tesadüfen oluştuğunu iddia etmektedir. Dolayısıyla bu akıl dışı iddiaya göre cansız ve şuursuz atomlar biraraya gelerek önce hücreyi oluşturmuşlardır ve sonrasında aynı atomlar bir şekilde diğer canlıları ve insanı meydana getirmişlerdir. Şimdi düşünelim; canlılığın yapıtaşı olan karbon, fosfor, azot, potasyum gibi elementleri biraraya getirdiğimizde bir yığın oluşur. Bu atom yığını, hangi işlemden geçirilirse geçirilsin, tek bir canlı oluşturamaz. İsterseniz bu konuda bir "deney" tasarlayalım ve evrimcilerin aslında savundukları, ama yüksek sesle dile getiremedikleri iddiayı onlar adına "Darwin Formülü" adıyla inceleyelim:
+
+Evrimciler, çok sayıda büyük varilin içine canlılığın yapısında bulunan fosfor, azot, karbon, oksijen, demir, magnezyum gibi elementlerden bol miktarda koysunlar. Hatta normal şartlarda bulunmayan ancak bu karışımın içinde bulunmasını gerekli gördükleri malzemeleri de bu varillere eklesinler. Karışımların içine, istedikleri kadar amino asit, istedikleri kadar da protein doldursunlar. Bu karışımlara istedikleri oranda ısı ve nem versinler. Bunları istedikleri gelişmiş cihazlarla karıştırsınlar. Varillerin başına da dünyanın önde gelen bilim adamlarını koysunlar. Bu uzmanlar babadan oğula, kuşaktan kuşağa aktararak nöbetleşe milyarlarca, hatta trilyonlarca sene sürekli varillerin başında beklesinler.
+
+Bir canlının oluşması için hangi şartların var olması gerektiğine inanılıyorsa hepsini kullanmak serbest olsun. Ancak, ne yaparlarsa yapsınlar o varillerden kesinlikle bir canlı çıkartamazlar. Zürafaları, aslanları, arıları, kanaryaları, bülbülleri, papağanları, atları, yunusları, gülleri, orkideleri, zambakları, karanfilleri, muzları, portakalları, elmaları, hurmaları, domatesleri, kavunları, karpuzları, incirleri, zeytinleri, üzümleri, şeftalileri, tavus kuşlarını, sülünleri, renk renk kelebekleri ve bunlar gibi milyonlarca canlı türünden hiçbirini oluşturamazlar. Değil burada birkaçını saydığımız bu canlı varlıkları, bunların tek bir hücresini bile elde edemezler.
+
+Kısacası, bilinçsiz **atomlar biraraya gelerek hücreyi oluşturamazlar.** Sonra yeni bir karar vererek bir hücreyi ikiye bölüp, sonra art arda başka kararlar alıp, elektron mikroskobunu bulan, sonra kendi hücre yapısını bu mikroskop altında izleyen profesörleri oluşturamazlar. **Madde, ancak Yüce Allah'ın üstün yaratmasıyla hayat bulur.**
+
+Bunun aksini iddia eden evrim teorisi ise, akla tamamen aykırı bir safsatadır. Evrimcilerin ortaya attığı iddialar üzerinde biraz bile düşünmek, üstteki örnekte olduğu gibi, bu gerçeği açıkça gösterir.
+
+**Göz ve Kulaktaki Teknoloji**
+
+Evrim teorisinin kesinlikle açıklama getiremeyeceği bir diğer konu ise göz ve kulaktaki üstün algılama kalitesidir.
+
+Gözle ilgili konuya geçmeden önce "Nasıl görürüz?" sorusuna kısaca cevap verelim. Bir cisimden gelen ışınlar, gözde retinaya ters olarak düşer. Bu ışınlar, buradaki hücreler tarafından elektrik sinyallerine dönüştürülür ve beynin arka kısmındaki görme merkezi denilen küçücük bir noktaya ulaşır. Bu elektrik sinyalleri bir dizi işlemden sonra beyindeki bu merkezde görüntü olarak algılanır. Bu bilgiden sonra şimdi düşünelim:
+
+Beyin ışığa kapalıdır. Yani beynin içi kapkaranlıktır, ışık beynin bulunduğu yere kadar giremez. Görüntü merkezi denilen yer kapkaranlık, ışığın asla ulaşmadığı, belki de hiç karşılaşmadığınız kadar karanlık bir yerdir. Ancak siz bu zifiri karanlıkta ışıklı, pırıl pırıl bir dünyayı seyretmektesiniz.
+
+Üstelik bu o kadar net ve kaliteli bir görüntüdür ki 21\. yüzyıl teknolojisi bile her türlü imkana rağmen bu netliği sağlayamamıştır. Örneğin şu anda okuduğunuz kitaba, kitabı tutan ellerinize bakın, sonra başınızı kaldırın ve çevrenize bakın. Şu anda gördüğünüz netlik ve kalitedeki bu görüntüyü başka bir yerde gördünüz mü? Bu kadar net bir görüntüyü size dünyanın bir numaralı televizyon şirketinin ürettiği en gelişmiş televizyon ekranı dahi veremez. 100 yıldır binlerce mühendis bu netliğe ulaşmaya çalışmaktadır. Bunun için fabrikalar, dev tesisler kurulmakta, araştırmalar yapılmakta, planlar ve tasarımlar geliştirilmektedir. Yine bir TV ekranına bakın, bir de şu anda elinizde tuttuğunuz bu kitaba. Arada büyük bir netlik ve kalite farkı olduğunu göreceksiniz. Üstelik, TV ekranı size iki boyutlu bir görüntü gösterir, oysa siz üç boyutlu, derinlikli bir perspektifi izlemektesiniz.
+
+Uzun yıllardır on binlerce mühendis üç boyutlu TV yapmaya, gözün görme kalitesine ulaşmaya çalışmaktadırlar. Evet, üç boyutlu bir televizyon sistemi yapabildiler ama onu da gözlük takmadan üç boyutlu görmek mümkün değil, kaldı ki bu suni bir üç boyuttur. Arka taraf daha bulanık, ön taraf ise kağıttan dekor gibi durur. Hiçbir zaman gözün gördüğü kadar net ve kaliteli bir görüntü oluşmaz. Kamerada da, televizyonda da mutlaka görüntü kaybı meydana gelir.
+
+İşte evrimciler, bu kaliteli ve net görüntüyü oluşturan mekanizmanın tesadüfen oluştuğunu iddia etmektedirler. Şimdi biri size, odanızda duran televizyon tesadüfler sonucunda oluştu, atomlar biraraya geldi ve bu görüntü oluşturan aleti meydana getirdi dese ne düşünürsünüz? Binlerce kişinin biraraya gelip yapamadığını şuursuz atomlar nasıl yapsın?
+
+Gözün gördüğünden daha ilkel olan bir görüntüyü oluşturan alet tesadüfen oluşamıyorsa, gözün ve gözün gördüğü görüntünün de tesadüfen oluşamayacağı çok açıktır. Aynı durum kulak için de geçerlidir. Dış kulak, çevredeki sesleri kulak kepçesi vasıtasıyla toplayıp orta kulağa iletir; orta kulak aldığı ses titreşimlerini güçlendirerek iç kulağa aktarır; iç kulak da bu titreşimleri elektrik sinyallerine dönüştürerek beyne gönderir. Aynen görmede olduğu gibi duyma işlemi de beyindeki duyma merkezinde gerçekleşir.
+
+Gözdeki durum kulak için de geçerlidir, yani beyin, ışık gibi sese de kapalıdır, ses geçirmez. Dolayısıyla dışarısı ne kadar gürültülü de olsa beynin içi tamamen sessizdir. Buna rağmen en net sesler beyinde algılanır. Ses geçirmeyen beyninizde bir orkestranın senfonilerini dinlersiniz, kalabalık bir ortamın tüm gürültüsünü duyarsınız. Ama o anda hassas bir cihazla beyninizin içindeki ses düzeyi ölçülse, burada keskin bir sessizliğin hakim olduğu görülecektir.
+
+Net bir görüntü elde edebilmek ümidiyle teknoloji nasıl kullanılıyorsa, ses için de aynı çabalar onlarca yıldır sürdürülmektedir. Ses kayıt cihazları, müzik setleri, birçok elektronik alet, sesi algılayan müzik sistemleri bu çalışmalardan bazılarıdır. Ancak, tüm teknolojiye, bu teknolojide çalışan binlerce mühendise ve uzmana rağmen kulağın oluşturduğu netlik ve kalitede bir sese ulaşılamamıştır. En büyük müzik sistemi şirketinin ürettiği en kaliteli müzik setini düşünün. Sesi kaydettiğinde mutlaka sesin bir kısmı kaybolur veya az da olsa mutlaka parazit oluşur veya müzik setini açtığınızda daha müzik başlamadan bir cızırtı mutlaka duyarsınız. Ancak insan vücudundaki teknolojinin ürünü olan sesler son derece net ve kusursuzdur. Bir insan kulağı, hiçbir zaman müzik setinde olduğu gibi cızırtılı veya parazitli algılamaz; ses ne ise tam ve net bir biçimde onu algılar. Bu durum, insan yaratıldığı günden bu yana böyledir.
+
+Şimdiye kadar insanoğlunun yaptığı hiçbir görüntü ve ses cihazı, göz ve kulak kadar hassas ve başarılı birer algılayıcı olamamıştır. Ancak görme ve işitme olayında, tüm bunların ötesinde, çok büyük bir gerçek daha vardır.
+
+**Beynin İçinde Gören ve Duyan Şuur Kime Aittir?**
+
+Beynin içinde, ışıl ışıl renkli bir dünyayı seyreden, senfonileri, kuşların cıvıltılarını dinleyen, gülü koklayan kimdir?
+
+İnsanın gözlerinden, kulaklarından, burnundan gelen uyarılar, elektrik sinyali olarak beyne gider. Biyoloji, fizyoloji veya biyokimya kitaplarında bu görüntünün beyinde nasıl oluştuğuna dair birçok detay okursunuz. Ancak, bu konu hakkındaki en önemli gerçeğe hiçbir yerde rastlayamazsınız: Beyinde, bu elektrik sinyallerini görüntü, ses, koku ve his olarak algılayan kimdir?
+
+Beynin içinde göze, kulağa, burna ihtiyaç duymadan tüm bunları algılayan bir şuur bulunmaktadır. Bu şuur kime aittir?
+
+Elbette bu şuur beyni oluşturan sinirler, yağ tabakası ve sinir hücrelerine ait değildir. İşte bu yüzden, herşeyin maddeden ibaret olduğunu zanneden Darwinist-materyalistler bu sorulara hiçbir cevap verememektedirler. Çünkü bu şuur, Allah'ın yaratmış olduğu ruhtur. Ruh, görüntüyü seyretmek için göze, sesi duymak için kulağa ihtiyaç duymaz. Bunların da ötesinde düşünmek için beyne ihtiyaç duymaz.
+
+Bu açık ve ilmi gerçeği okuyan her insanın, beynin içindeki birkaç santimetreküplük, kapkaranlık mekana tüm kainatı üç boyutlu, renkli, gölgeli ve ışıklı olarak sığdıran Yüce Allah'ı düşünüp, O'ndan korkup, O'na sığınması gerekir.
+
+**Materyalist Bir İnanç**
+
+Buraya kadar incelediklerimiz, evrim teorisinin bilimsel bulgularla açıkça çelişen bir iddia olduğunu göstermektedir. Teorinin hayatın kökeni hakkındaki iddiası bilime aykırıdır, öne sürdüğü evrim mekanizmalarının hiçbir evrimleştirici etkisi yoktur ve fosiller teorinin gerektirdiği ara formların yaşamadıklarını göstermektedir. Bu durumda, elbette, evrim teorisinin bilime aykırı bir düşünce olarak bir kenara atılması gerekir. Nitekim tarih boyunca dünya merkezli evren modeli gibi pek çok düşünce, bilimin gündeminden çıkarılmıştır. Ama evrim teorisi ısrarla bilimin gündeminde tutulmaktadır. Hatta bazı insanlar teorinin eleştirilmesini "bilime saldırı" olarak göstermeye bile çalışmaktadırlar. Peki neden?..
+
+Bu durumun nedeni, evrim teorisinin bazı çevreler için, kendisinden asla vazgeçilemeyecek dogmatik bir inanış oluşudur. Bu çevreler, materyalist felsefeye körü körüne bağlıdırlar ve Darwinizm'i de doğaya getirilebilecek yegane materyalist açıklama olduğu için benimsemektedirler.
+
+Bazen bunu açıkça itiraf da ederler. Harvard Üniversitesi'nden ünlü bir genetikçi ve aynı zamanda önde gelen bir evrimci olan Richard Lewontin, "önce materyalist, sonra bilim adamı" olduğunu şöyle itiraf etmektedir:
+
+Bizim materyalizme bir inancımız var, 'a priori' (önceden kabul edilmiş, doğru varsayılmış) bir inanç bu. Bizi dünyaya materyalist bir açıklama getirmeye zorlayan şey, bilimin yöntemleri ve kuralları değil. Aksine, materyalizme olan 'a priori' bağlılığımız nedeniyle, dünyaya materyalist bir açıklama getiren araştırma yöntemlerini ve kavramları kurguluyoruz. Materyalizm mutlak doğru olduğuna göre de, İlahi bir açıklamanın sahneye girmesine izin veremeyiz. (Richard Lewontin, _"The Demon-Haunted World"_, The New York Review of Books, 9 Ocak, 1997, s. 28.)
+
+Bu sözler, Darwinizm'in, materyalist felsefeye bağlılık uğruna yaşatılan bir dogma olduğunun açık ifadeleridir. Bu dogma, maddeden başka hiçbir varlık olmadığını varsayar. Bu nedenle de cansız, bilinçsiz maddenin, hayatı var ettiğine inanır. Milyonlarca farklı canlı türünün; örneğin kuşların, balıkların, zürafaların, kaplanların, böceklerin, ağaçların, çiçeklerin, balinaların ve insanların maddenin kendi içindeki etkileşimlerle, yani yağan yağmurla, çakan şimşekle, cansız maddenin içinden oluştuğunu kabul eder. Gerçekte ise bu, hem akla hem bilime aykırı bir kabuldür. Ama Darwinistler kendilerince Allah'ın apaçık olan varlığını kabul etmemek için, bu akıl ve bilim dışı kabulü cehaletle savunmaya devam etmektedirler.
+
+Canlıların kökenine materyalist bir ön yargı ile bakmayan insanlar ise, şu açık gerçeği görürler: Tüm canlılar, üstün bir güç, bilgi ve akla sahip olan bir Yaratıcının eseridirler. Yaratıcı, tüm evreni yoktan var eden, en kusursuz biçimde düzenleyen ve tüm canlıları yaratıp şekillendiren Allah'tır.
+
+**Evrim Teorisi Dünya Tarihinin En Etkili Büyüsüdür**
+
+Burada şunu da belirtmek gerekir ki, ön yargısız, hiçbir ideolojinin etkisi altında kalmadan, sadece aklını ve mantığını kullanan her insan, bilim ve medeniyetten uzak toplumların hurafelerini andıran evrim teorisinin inanılması imkansız bir iddia olduğunu kolaylıkla anlayacaktır.
+
+Yukarıda da belirtildiği gibi, evrim teorisine inananlar, büyük bir varilin içine birçok atomu, molekülü, cansız maddeyi dolduran ve bunların karışımından zaman içinde düşünen, akleden, buluşlar yapan profesörlerin, üniversite öğrencilerinin, Einstein, Hubble gibi bilim adamlarının, Frank Sinatra, Charlton Heston gibi sanatçıların, bunun yanı sıra ceylanların, limon ağaçlarının, karanfillerin çıkacağına inanmaktadırlar. Üstelik, bu saçma iddiaya inananlar bilim adamları, profesörler, kültürlü, eğitimli insanlardır. Bu nedenle evrim teorisi için "dünya tarihinin en büyük ve en etkili büyüsü" ifadesini kullanmak yerinde olacaktır. Çünkü, dünya tarihinde insanların bu derece aklını başından alan, akıl ve mantıkla düşünmelerine imkan tanımayan, gözlerinin önüne sanki bir perde çekip çok açık olan gerçekleri görmelerine engel olan bir başka inanç veya iddia daha yoktur. Bu, Afrikalı bazı kabilelerin totemlere, Sebe halkının Güneş'e tapmasından, Hz. İbrahim (as)'ın kavminin elleri ile yaptıkları putlara, Hz. Musa (as)'ın kavminin içinden bazı insanların altından yaptıkları buzağıya tapmalarından çok daha vahim ve akıl almaz bir körlüktür. Gerçekte bu durum, Allah'ın Kuran'da işaret ettiği bir akılsızlıktır. Allah, bazı insanların anlayışlarının kapanacağını ve gerçekleri görmekten aciz duruma düşeceklerini birçok ayetinde bildirmektedir. Bu ayetlerden bazıları şöyledir:
+
+**Şüphesiz, inkar edenleri uyarsan da, uyarmasan da, onlar için fark etmez; inanmazlar. Allah, onların kalplerini ve kulaklarını mühürlemiştir; gözlerinin üzerinde perdeler vardır. Ve büyük azap onlaradır. (Bakara Suresi, 6-7)**
+
+… **Kalpleri vardır bununla kavrayıp-anlamazlar, gözleri vardır bununla görmezler, kulakları vardır bununla işitmezler. Bunlar hayvanlar gibidir, hatta daha aşağılıktırlar. İşte bunlar gafil olanlardır. (Araf Suresi, 179)**
+
+Allah, Hicr Suresi'nde ise, bu insanların mucizeler görseler bile inanmayacak kadar büyülendiklerini şöyle bildirmektedir:
+
+**Onların üzerlerine gökyüzünden bir kapı açsak, ordan yukarı yükselseler de, mutlaka: "Gözlerimiz döndürüldü, belki biz büyülenmiş bir topluluğuz" diyeceklerdir. (Hicr Suresi, 14-15)**
+
+Bu kadar geniş bir kitlenin üzerinde bu büyünün etkili olması, insanların gerçeklerden bu kadar uzak tutulmaları ve 150 yıldır bu büyünün bozulmaması ise, kelimelerle anlatılamayacak kadar hayret verici bir durumdur. Çünkü, bir veya birkaç insanın imkansız senaryolara, saçmalık ve mantıksızlıklarla dolu iddialara inanmaları anlaşılabilir. Ancak dünyanın dört bir yanındaki insanların, şuursuz ve cansız atomların ani bir kararla biraraya gelip; olağanüstü bir organizasyon, disiplin, akıl ve şuur gösterip kusursuz bir sistemle işleyen evreni, canlılık için uygun olan her türlü özelliğe sahip olan Dünya gezegenini ve sayısız kompleks sistemle donatılmış canlıları meydana getirdiğine inanmasının, "büyü"den başka bir açıklaması yoktur.
+
+Nitekim, Allah Kuran'da, inkarcı felsefenin savunucusu olan bazı kimselerin, yaptıkları büyülerle insanları etkilediklerini Hz. Musa (as) ve Firavun arasında geçen bir olayla bizlere bildirmektedir. Hz. Musa (as), Firavun'a hak dini anlattığında, Firavun Hz. Musa (as)'a, kendi "bilgin büyücüleri" ile insanların toplandığı bir yerde karşılaşmasını söyler. Hz. Musa (as), büyücülerle karşılaştığında, büyücülere önce onların marifetlerini sergilemelerini emreder. Bu olayın anlatıldığı ayet şöyledir:
+
+**(Musa:) "Siz atın" dedi. (Asalarını) atıverince, insanların gözlerini büyüleyiverdiler, onları dehşete düşürdüler ve (ortaya) büyük bir sihir getirmiş oldular. (Araf Suresi, 116)**
+
+Görüldüğü gibi Firavun'un büyücüleri yaptıkları "aldatmacalar"la -Hz. Musa (as) ve ona inananlar dışında- insanların hepsini büyüleyebilmişlerdir. Ancak, onların attıklarına karşılık Hz. Musa (as)'ın ortaya koyduğu delil, onların bu büyüsünü, ayette bildirildiği gibi "uydurduklarını yutmuş" yani etkisiz kılmıştır:
+
+**Biz de Musa'ya: "Asanı fırlatıver" diye vahyettik. (O da fırlatıverince) bir de baktılar ki, o bütün uydurduklarını derleyip-toparlayıp yutuyor. Böylece hak yerini buldu, onların bütün yapmakta oldukları geçersiz kaldı. Orada yenilmiş oldular ve küçük düşmüşler olarak tersyüz çevrildiler. (Araf Suresi, 117-119)**
+
+Ayetlerde de bildirildiği gibi, daha önce insanları büyüleyerek etkileyen bu kişilerin yaptıklarının bir sahtekarlık olduğunun anlaşılması ile, söz konusu insanlar küçük düşmüşlerdir. Günümüzde de bir büyünün etkisiyle, bilimsellik kılıfı altında son derece saçma iddialara inanan ve bunları savunmaya hayatlarını adayanlar, eğer bu iddialardan vazgeçmezlerse gerçekler tam anlamıyla açığa çıktığında ve "büyü bozulduğunda" küçük duruma düşeceklerdir. Nitekim, yaklaşık 60 yaşına kadar evrimi savunan ve ateist bir felsefeci olan, ancak daha sonra gerçekleri gören Malcolm Muggeridge evrim teorisinin yakın gelecekte düşeceği durumu şöyle açıklamaktadır:
+
+**Ben kendim, evrim teorisinin, özellikle uygulandığı alanlarda, geleceğin tarih kitaplarındaki en büyük espri malzemelerinden biri olacağına ikna oldum.** Gelecek kuşak, bu kadar çürük ve belirsiz bir hipotezin inanılmaz bir saflıkla kabul edilmesini hayretle karşılayacaktır. (Malcolm Muggeridge, The End of Christendom, Grand Rapids: Eerdmans, 1980, s. 43)
+
+Bu gelecek, uzakta değildir aksine çok yakın bir gelecekte insanlar "tesadüfler"in ilah olamayacaklarını anlayacaklar ve evrim teorisi dünya tarihinin en büyük aldatmacası ve en şiddetli büyüsü olarak tanımlanacaktır. Bu şiddetli büyü, büyük bir hızla dünyanın dört bir yanında insanların üzerinden kalkmaya başlamıştır. Artık evrim aldatmacasının sırrını öğrenen birçok insan, bu aldatmacaya nasıl kandığını hayret ve şaşkınlıkla düşünmektedir.
+
+**Dediler ki: "Sen Yücesin, bize öğrettiğinden başka bizim hiçbir bilgimiz yok. Gerçekten Sen, herşeyi bilen, hüküm ve hikmet sahibi olansın." (Bakara Suresi, 32)**
+
+**NOTLAR**
+
+1\. Stephen Hawking’in Evreni, David Filkin, BBC Books, Aksoy Yayıncılık, Aralık1998, s. 90
+
+2\. Stephen Hawking, Evreni Kucaklayan Karınca, Alkım Kitapçılık ve Yayıncılık, 1993, s. 62-63
+
+3\. Henry Margenau, Roy Abraham Vargesse. Cosmos, Bios, Theos. La Salla IL: OpeN Court Publishing, 1992, s. 241
+
+4\. H. P. Lipson, "A Physicist Looks at Evolution", Physics Bulletin, vol. 138, 1980, s. 138
+
+5\. Taşkın Tuna, Uzayın Sırları, Boğaziçi Yayınları, s.185
+
+6\. Colin A. Ronan, The Universe Explained, The Earth-Dwellers's Guide to the mysteries of Space, Henry Holtand Company, s. 178, 179
+
+7\. Taşkın Tuna, Uzayın Sırları, Boğaziçi Yayınları, s.186
+
+8\. Steven Weinberg, İlk Üç Dakika, (The First Three Minutes), TÜBİTAK Popüler Bilim Kitapları serisi, 1995, s. 84
+
+9\. Stephen Hawking, Zamanın Kısa Tarihi, Milliyet, s.9
+
+10\. Hugh Ross, The Creator and the Cosmos, How Greatest Scientific Discoveries of the Century Reveal God, Colorado: NavPress, revised edition, 1995, s. 76
+
+11\. Michael Denton, Nature’s Destiny:How The Laws of Biology Reveal Purpose in the Universe, The New York: The Free Press,1998, s.12-13
+
+12\. Paul Davies, The Accidental Universe, Cambridge: Cambridge University Press, 1982, Önsöz.
+
+13\. Jean Guitton, Tanrı ve Bilim, Simavi Yayınları, 1993, s. 62
+
+14\. Jean Guitton, Tanrı ve Bilim, Simavi Yayınları, 1993, s. 62
+
+15\. Jean Guitton, Tanrı ve Bilim, Simavi Yayınları, 1993, s. 62
+
+16\. Ümit Şimşek, Atom, Yeni Asya Yayınları, s.7
+
+17\. Taşkın Tuna, Uzayın Ötesi, Boğaziçi Yayınları, 1995, s. 53
+
+18\. Jean Guitton, Tanrı ve Bilim, Simavi Yayınları, 1993, s. 62
+
+19\. Taşkın Tuna, Uzayın Ötesi, Boğaziçi Yayınları, 1995, s. 52
+
+20\. Stephen Hawking'in Evreni, David Filkin, BBC Books, Aksoy Yayıncılık, s 142, 143
+
+21\. Richard Feynman, Fizik Yasaları Üzerine, TÜBİTAK Yayınları, s. 150
+
+22\. Richard Feynman, Fizik Yasaları Üzerine, TÜBİTAK Yayınları, s. 151
+
+23\. Jean Guitton, Tanrı ve Bilim, Simavi Yayınları, s. 5
+
+24\. Stephen Hawking, Zamanın Kısa Tarihi, Milliyet Yayınları, s. 117
+
+25\. Martin Sherwood & Christine Sulton, The Physical World, Oxford University Press, 1988, s. 81
+
+26\. Martin Sherwood & Christine Sulton, The Physical World, Oxford University Press, 1988, s. 82
+
+27\. Martin Sherwood & Christine Sulton, The Physical World, Oxford University Press, 1988, s. 79
+
+28\. Vlasov Trifonov, 107 Kimya Öyküsü, TÜBİTAK Yayınları, s. 117
+
+29\. Vlasov Trifonov, 107 Kimya Öyküsü, TÜBİTAK Yayınları, s. 118
+
+30\. David Burnie, Life, Eyewitness Science, London: Dorling Kindersley, 1996, s.8
+
+31\. Nevil V.Sidgwick, The Chemical Elements and Their Compounds, vol.1, Oxford: Oxford University Press, 1950, s.490
+
+32\. Martin Sherwood & Christine Sulton, The Physical World, Oxford University Press, 1988, s. 30
+
+33\. Structure of Matter, The Time Inc. Book Company, s. 70, 1992
+
+34\. Molecules, Scientific American Library, P.W. Atkins, s. 115
+
+35\. Molecules, Scientific American Library, P.W. Atkins, s. 128
+
+36\. Molecules, Scientific American Library, P.W. Atkins, s. 130
+
+37\. Molecules, Scientific American Library, P.W. Atkins, s. 93
+
+38\. Taşkın Tuna, Uzayın Ötesi, Boğaziçi Yayınları, 1995, s. 166
+
+39\. Henry M. Morris, Impact No. 111, Eylül 1982
+
+40\. Prof.Dr. Carl Sagan, Cosmos, s.37
+
+41\. Darlington C.D.,Evolution for Naturalists, (NY, John Wiley, 1980) s.15
+
+42\. The Necessity of Darwinism, New Scientist, Vol 94, April 15, 1982, s. 130
+
+43\. Dr. Gary Parker, Impact No: 62, Ağustos 1978
+
+44\. Jean Guitton, Tanrı ve Bilim, s.38
+
+45\. Michael Behe, Darwin’s Black Box, s.8
+
+46\. Théma Larousse, Tematik Ansiklopedi Bilim ve Teknoloji, Evren ve Dünya, Matematik, Fizik, Kimya, Teknoloji, s. 300
+
+**RESİM ALTI YAZILARI**
+
+s.12
+
+Sir Fred Hoyle
+
+s.13
+
+Evren büyük bir patlama ile yokluktan var olmuştur. Bu patlamanın ilk anından itibaren oluşan bütün parçacıkların ve meydana çıkan bütün kuvvetlerin büyük bir uyum ve denge içinde dağılması sonucunda evrenin şu anki kusursuz sistemi oluşmuştur.
+
+s.14
+
+Georges Lemaitre
+
+Edwin Hubble
+
+Alpha Centauri yıldızlarının ışıklarının kızıl ve maviye kaymaları, bu yıldızların birbirlerinin yörüngelerinde hareket ettiklerini ortaya çıkarmıştır. Yapılan gözlemler yörüngelerin 80 yılda tamamlandığını göstermiştir.
+
+s.15
+
+Albert Einstein Edwin Hubble'ın gözlem yaptığı Wilson gözlemevine bir ziyaret sırasında.
+
+s.16
+
+Doppler etkisine göre galaksi dünyadan sabit bir uzaklıktaysa ışık dalgalarının spektrumu sabit gözükecektir (üstte), galaksi bizden uzaklaşıyorsa dalgalar uzayacak, kızıla kayacaktır (ortada), galaksi bize doğru yaklaşıyorsa dalgalar sıkışmış gözükecek ve maviye kayacaktır. (altta)
+
+George Gamov
+
+s.17
+
+Arno Penzias ve Robert Bob Wilson'un kozmik fon radyasyonunu ilk keşfettikleri Bell Laboratuvarı'ndaki dev boynuz anten.
+
+Penzias ve Wilson bu keşiflerinden dolayı 1978 yılında Nobel ödülü aldılar.
+
+George Smoot
+
+s.18
+
+Evrenin büyük bir patlama sonucu oluştuğunu delillendiren COBE uydusunun fırlatılış anı
+
+s.24
+
+Ne maddenin, ne de zamanın var olmadığı ve patlamanın gerçekleştiği "0" anından sonra Evren ve onun yapı taşı olan atomlar çok büyük bir düzen içinde yoktan var edilmişlerdir.
+
+3 DAKİKA
+
+Protonlar ve nötronlar atom çekirdeğini meydana getirirler.
+
+s.25
+
+Atom
+
+Elektron
+
+Nötrino
+
+Helyum Çekirdeği
+
+Nötron
+
+Döteryum Çekirdeği
+
+Proton
+
+Hadron
+
+Kuark
+
+Yerçekimi
+
+Elektromanyetizma
+
+Zayıf Nükleer Kuvvet
+
+Güçlü Nükleer Kuvvet
+
+Antikuark
+
+Tekillik
+
+Birleşik Kuvvetler
+
+1\. SANİYE
+
+Kuarklar proton, nötron, elektron ve nötrinoları oluşturur
+
+10<sup>-6</sup> SANİYE
+
+Antimadde ve maddenin birbirlerini yok etmeleri
+
+10<sup>-35</sup> ile 10<sup>-32</sup> SANİYE ARASI
+
+10<sup>-43</sup> SANİYE
+
+Planck zamanı
+
+s.26
+
+Görmedin mi ki, gerçekten, göklerde ve yerde olanlar, güneş, ay, yıldızlar, dağlar, ağaçlar, hayvanlar ve insanlardan birçoğu Allah'a secde etmektedirler. Birçoğu üzerine azap hak olmuştur. Allah kimi aşağılık kılarsa, artık onun için bir yüceltici yoktur. Şüphesiz Allah, dilediğini yapar. (Hac Suresi, 18)
+
+s.28
+
+Steven Weinberg
+
+s.29
+
+Hidrojen Atomu
+
+Helyum Atomu
+
+s.31
+
+Geceyi, gündüzü, güneşi ve ayı sizin emrinize verdi; yıldızlar da O'nun emriyle emre hazır kılınmıştır. Şüphesiz bunda, aklını kullanabilen bir topluluk için ayetler vardır. (Nahl Suresi, 12)
+
+s.35
+
+Yerçekiminin olmadığı bir ortamda ancak özel düzenekler kullanılarak belli bir süre kalınabilir. Çünkü canlılar ancak yerçekiminin var olduğu bir sistemde hayatını devam ettirebilir.
+
+s.36
+
+Tüm evrende yerçekimi gibi temel kuvvetlerin üzerine kurulmuş üstün bir tasarım ve kusursuz bir düzen hüküm sürmektedir. Bu düzenin Sahibi elbette her şeyi kusursuzca yoktan var eden Allah'tır. Çağdaş fizik ve astronominin en önde gelen kurucusu ve "yaşamış en büyük bilim adamı" sayılan Isaac Newton (1642-1727) bu gerçeği şu şekilde ifade eder:
+
+"Güneş sisteminin, gezegenlerin ve kuyruklu yıldızların harika sistemleri yalnızca akıllı ve güçlü bir varlığın kudretiyle sürebilir. Bu varlık her şeyi yönetir, yalnızca dünyanın ruhunu değil, her şeyi, O Allah'tır."
+
+s.40
+
+Çekirdek, proton ve elektronlardan oluşan atomun her parçasını üçlü bir kuark grubu meydana getirir.
+
+Atom
+
+s.41
+
+Üçlü kuark grubu ve merkezinde bulunan iplikçikler
+
+s.42
+
+Manş Denizi
+
+Almanya
+
+Çek Cumhuriyeti
+
+Avusturya
+
+İsviçre
+
+Fransa
+
+Biskay Körfezi
+
+Portekiz
+
+İspanya
+
+Balear Adaları
+
+Atomun protonu ile elektronları arasındaki boşluk, yukarıdaki haritada işaretli alan kadar geniştir.
+
+s.43
+
+karbon -14
+
+6 proton 8 nötron
+
+Nötron
+
+Elektron
+
+Proton
+
+Nötrino
+
+Foton
+
+nitrojen -14
+
+7 proton, 7 nötron
+
+s.45
+
+topaz
+
+pirit
+
+titanyum
+
+alçı taşı
+
+sarı safir
+
+kalsit
+
+mavi safir
+
+talk
+
+topaz
+
+bakır
+
+zımpara taşı
+
+flüorit
+
+demir
+
+galen
+
+quartz
+
+kömür
+
+baryum sülfat
+
+elmas
+
+apatit
+
+feldispat
+
+kaya tuzu
+
+feldispat
+
+quartz
+
+altın
+
+Elementleri temelde birbirlerinden farklı kılan şey atomlarının çekirdeklerindeki proton sayılarıdır. Burada görülen maddeleri birbirinden bu denli değişik kılan işte bu farklılıktır.
+
+s.46
+
+Atomun çekirdeğindeki proton ve nötronlar kuark adı verilen daha küçük parçacıkların biraraya gelmesiyle oluşurlar.
+
+s.47
+
+10<sup>-9</sup>m
+
+molekül
+
+10<sup>-10</sup>m
+
+atom
+
+10<sup>-14</sup>m
+
+atom çekirdeği
+
+10<sup>-15</sup>m
+
+proton
+
+10<sup>-18</sup>m
+
+electron
+
+10<sup>-18</sup>m
+
+kuark
+
+Atomun yapısından kuark'ın yapısına: Modern hızlandırıcılar kullanılarak, atomu oluşturan en küçük parçacıkları incelemek mümkündür. Üstteki resim bu ilişkiyi boyutuna göre gösteriyor.
+
+s.48
+
+Yandaki resimde elektronların dalga hareketine göre çizdikleri dört farklı yörünge tipi gösterilmektedir. Elektronlar parçacık özelliğine göre de gezegenlerin Güneş'in çevresinde dönmeleri gibi yörüngeler çizerler. Fakat elektronların sahip oldukları bu farklı hareketler, onların tam olarak tanımlanmasını engellemektedr.
+
+s.50
+
+Elektronlar çekirdeğin çevresinde, aynı gezegenlerin Güneş'in çevresinde dönmeleri gibi çok hassas bir ölçüye göre dönerler.
+
+s.51
+
+Gerçekten, gece ile gündüzün art arda gelişinde ve Allah'ın göklerde ve yerde yarattığı şeylerde korkup-sakınan bir topluluk için elbette ayetler vardır. (Yunus Suresi, 6)
+
+s.52
+
+HIZLANDIRILAN PARÇACIKLAR
+
+Hızlandırıcılar ve Çarpıştırıcılar
+
+Maddenin temel yapı taşı olan parçacıkları araştırmak, atomdan milyonlarca defa daha küçük parçacıkları incelemekle mümkündür. Bu çok küçük parçacıkları incelemek ise ancak çok küçük ve kompleks parçacık fiziği deney düzenekleriyle gerçekleştirilebilir. Çok kompleks deneyler ise, çok yönlü bilgisayar kullanımı ile kontrol edilebilir.
+
+Yüksek enerji parçacık fiziği maddenin temelinde bulunan yapı taşlarını ve bunların birbirleri arasındaki etkileşimlerini inceleyen bilim dalıdır. Son yıllarda yüksek teknoloji olanakları kullanan deneysel çalışmalar sayesinde maddenin yapısı hakkındaki bilgilerimiz hızla gelişmektedir. Parçacık fiziğinin araştırmaları kilometrelerce uzunluktaki parçacık hızlandırıcı laboratuvarlarında yapılır. Parçacık hızlandırıcılarında yüklü parçacıklardan, çoğunlukla proton ve elektronlar, elektromanyetik alan içinde hızlandırılır ve yönlendirilir. Hızlandırılan parçacıklar ya sabit hedefler ile ya da birbirleri ile çarpıştırılır. Bu çarpışmalar sonucunda ortaya çıkan parçacıkların incelenmesi çeşitli dedektör sistemleri ile gerçekleştirilir.
+
+1950'li yıllardan başlayarak hızla gelişen hızlandırıcı ve dedektör teknolojileri sayesinde çok yüksek enerjili çarpışmalar gerçekleştirilmiş ve bu çarpışmaların gelişmiş detektör sistemlerininde incelenmesi ile maddenin temeli diye bildiğimiz proton ve nötronların kuark ismini verdiğimiz parçacıklardan oluşan bir alt yapısı olduğu anlaşılmıştır. Ulaşılan yüksek enerjilerde yapılan ölçümler protonun yarıçapının yüzde biri kadar olan uzaklıklarda maddenin yapısını araştırma olanağı sağlamıştır.
+
+Hızlandırıcı laboratuvarları, kurulmaları ve çalıştırılmalarının çok masraflı oluşları nedeniyle dünyada sayılı birkaç merkezde bulunmaktadır. En önemlileri Cern (Cenevre), DESY (Hamburg), Fermilab-FNAL (Chicago) ve SLC (California) olarak sayılabilir. Yüksek enerji fizikçileri bu merkezlerde büyük gruplar halinde deneysel çalışmalara katılmakta ve atomun sırlarını araştırmaktadırlar. Bu laboratuvarlardan SLC'nin uzunluğu 3 km., CERN'in uzunluğu ise 27 km.dir. Ama devlik yarışında birincilik, ABD'nin Texas eyaletinin merkezinde kurulmakta ve çember çapı 85 kilometreyi bulacak olan Amerikan projesi SSC'ye aittir… Söz konusu makinelerin maliyeti de (SSC için bu rakam toplam 6 milyar dolar'dır) boyutlarıyla birlikte doğal olarak artmaktadır.<sup>20</sup>
+
+s.53
+
+CERN parçacık fiziği laboratuvarı yerin 100 metre altında ve 27 kilometre uzunluğunda inşa edilmiştir. Parçacıklar bu uzun tünelde önce hızlandırılıp, daha sonra birbirleriyle çarpıştırılırlar.
+
+CERN parçacık fiziği laboratuvarı İsviçre-Fransa sınırında kurulmuş, 19 Avrupa ülkesinin üyeliği ile oluşan uluslararası nitelikte bir araştırma merkezidir. Türkiye'nin de gözlemci statüsünde bulunduğu bu laboratuvarın temel araştırma konusu maddenin temel yapısı ve bu yapıyı oluşturan temel parçacıklardır. 3000'e yakın fizikçi, mühendis, teknisyen ve idari personelin çalıştığı laboratuvarda 6000'in üstünde üye fizikçi laboratuvara gelerek çalışmalar yapabilmektedir.
+
+s.54
+
+ELEKTRONLAR İNSANLARIN HİZMETİNDE
+
+Elektrik, hayatımızın en önemli parçalarından biridir. Onsuz hiçbir şey yaf yük sahibi elektronların ve iyonların hareketi sonucu oluşan yük akımıdır. Günlük hayatta kullandığımız televizyon, buzdolabı gibi aletler 1-2 amper elektrik çeker. Peki bu ölçü neyi ifade etmektedir?
+
+Saniyede 1 Amper'lik akım demek, bir kesitten saniyede 6 milyar kere milyar elektron geçişi demektir. Yıldırımda ise bu sayı 1 milyon kat daha fazladır.
+
+s.55
+
+Elektronlar atomun içinde son derece karmaşık bir yörünge izlerler. Bu küçük alanda şehir trafiğinden çok daha kalabalık bir ortam oluşmasına rağmen, en ufak bir düzensizlik yaşanmaz.
+
+s.56
+
+KURAN'DAN İŞARETLER
+
+Elektronların yörüngesi konusunu incelerken Kuran'da bu konuya işaret eden bir ayet hakkında da düşünmek gerekir. Atom çekirdeğinin çevresinde 7 yörünge vardır. Her yörüngenin üzerinde ise sayısı belli olan elektronlar bulunmaktadır. Kuran ayetlerinde gökyüzünün ve yeryüzünün tabakalarını oluşturan katmanları anlatmak için kullanılan 7 kat gök ifadesi, atomun göğü olarak bilinen yörüngelere de işaret ediyor olabilir.
+
+**O, biri diğeriyle 'tam bir uyum' (mutabakat) içinde yedi gök yaratmış olandır. Rahman (olan Allah)ın yaratmasında hiçbir 'çelişki ve uygunsuzluk' (tefavüt) göremezsin. İşte gözü(nü) çevirip-gezdir; herhangi bir çatlaklık (bozukluk ve çarpıklık) görüyor musun? (Mülk Suresi, 3)**
+
+Bu sayı hiçbir zaman değişmez; ne altı olur ne de sekiz. Burada mucizevi olan şey, elektronun yedi yörüngesine işaret eden bu sayının ayetle tam bir uyum göstermesidir.
+
+s.62
+
+Radyo Dalgaları
+
+mikro dalgalar
+
+kızıl ötesi ışınlar
+
+görünebilir ışınlar
+
+mor ötesi ışınlar
+
+X Işınları
+
+gama Işınları
+
+Güneş'ten dünyaya çok çeşitli ışıklar gelmektedir. Yandaki elektromanyetik spektrumda görüldüğü gibi, biz bu ışınlardan yalnızca çok küçük bir kısmını algılayabilmekteyiz.
+
+s.63
+
+Renklerin oluşumundaki bu üstün tasarım, bizleri tek bir gerçeğe götürmektedir: Evren, en küçük parçasından en büyüğüne kadar çok büyük bir uyum ve düzen içinde yaratılmıştır. Renklerdeki sanat Allah'ın kusursuz yaratış delillerinden bir tanesidir.
+
+s.64
+
+Güneş'ten gelen fotonlar yeryüzündeki maddelerin yapılarını etkileyerek, renkli bir dünya görmemizi sağlar.
+
+s.67
+
+"Spin hareketi" basit olarak nesnenin kendi ekseni etrafında dönmesi anlamına gelir. Evrendeki bütün sistemlerde spin hareketi çok önemli bir rol oynar. Atomun içindeki parçacıklardan uzaydaki yıldızlara kadar bütün sistemler bu hareket üzerine kurulmuştur. Spin hareketini dünya üzerinde araştıran bilim adamları ellerindeki tekniklerle bu görüntüleri yakalama imkanı elde etmişlerdir. Atomaltında ise bu hareketi görüntülemek, günümüz teknolojisiyle henüz mümkün olmamıştır.
+
+s.70
+
+Sodyum atomu son yörüngesindeki elektronu klor atomuna vererek, pozitif yüklenir. Elektronu alan klor ise negatif yük sahibi olur. Bu iki yükün birbirini çekmesinin sonucunda da aralarında iyonik bağ oluşur.<sup>25</sup>
+
+Sodyum Klorür Molekülü (NaCl)
+
+Na
+
+Cl
+
+Na+
+
+Cl+
+
+Sodyum Atomu
+
+Klor Atomu
+
+Sodyum İyonu
+
+Klor İyonu
+
+s.71
+
+Flor atomu
+
+Flor molekülü (F<sub>2</sub>)
+
+Su molekülü H<sub>2</sub>O
+
+Hidrojen Atomu
+
+Oksijen Atomu
+
+Bazı atomlar son yörüngelerindeki elektronları ortak kullanarak kovalent bağ ile yeni moleküller oluştururlar.
+
+Elektron
+
+Kuvvet
+
+Alüminyum İyonu
+
+Metal atomları arasında farklı bir kimyasal bağ söz konusudur. Her metal atomu kendi dış elektronunu genel bir havuza koyar. Bu elektronlar denizi, metallerin iletkenliğinin nedenidir.<sup>27</sup>
+
+s.72
+
+hidrosfer
+
+litosfer
+
+Na 2.6%
+
+K 2.4%
+
+Fe 4.7%
+
+Evrenin Hammaddeleri ve Periyodik Cetvel: Doğada bulunan 92 adet ve laboratuvarlarda oluşturulan 17 adet farklı element “Periyodik Cetvel” diye adlandırılan bir tabloda, proton sayılarına göre yerleştirilmişlerdir.
+
+İlk bakışta; Periyodik tablo birer, ikişer harfli alt ve üst köşelerinde rakamlar yazan kutucuklardan ibaret gibi gözükebilir. Ama, bu tabloya, şu an solumakta olduğumuz hava ve bedenimiz dahil tüm evren sığmaktadır.
+
+s.73
+
+karbon atomu
+
+O 49.5%
+
+Si 25.8%
+
+Al 7.6%
+
+s.74
+
+ÜÇ BENZER MOLEKÜL
+
+SONUÇ: ÜÇ ÇOK FARKLI MADDE
+
+Moleküller arasındaki birkaç atomluk bir farklılık bile, çok değişik sonuçlar oluşturur. Örneğin şimdi vereceğimiz iki moleküle dikkatle bir bakın. İkisi de birbirine çok benziyor, ancak karbon ve hidrojen sayılarında çok ufak farklılıklar var. Ama sonuç iki zıt madde oluşturmaya yetiyor:
+
+C<sub>18</sub>H<sub>24</sub>O<sub>2</sub> ve C<sub>19</sub>H<sub>28</sub>O<sub>2</sub>
+
+Bu moleküller nedir, bir tahminde bulunabiliyor musunuz? Hemen söyleyelim: Birincisi Östrojen, ikincisi ise testesteron’dur. Yani biri kadınlık, diğeri de erkeklik hormonudur. Birkaç atomluk bir fark bile, hayret verici biçimde, cinsiyet farklılıklarına sebep olmaktadır.
+
+Şimdi, vereceğimiz formüle bir bakın:
+
+C<sub>6</sub>H<sub>12</sub>O<sub>2</sub>
+
+Yukarıdaki molekül, östrojen ve testesteron hormonları moleküllerine ne kadar da benziyor, değil mi ? Peki, bu molekül nedir ? Başka bir hormon mu?
+
+Hemen cevaplayalım: Bu molekül şeker molekülüdür.
+
+Aynı çeşit elementlerden oluşan bu üç molekül örneğinde, atom sayılarındaki farklılığın, ne derece farklı maddeler oluşturabildiği çok net olarak görülür. Bir tarafta cinsiyet oluşturan hormonlar, bir diğer tarafta da temel besin maddesi şeker var.
+
+s.75
+
+Çok değerli bir taş parçası olan elmas, doğada genelde grafit halinde bulunan karbonun bir türevidir.
+
+s.76
+
+**Yan Yana Gelen Her Atom Hemen Reaksiyona Girseydi Ne Olurdu?**
+
+Az önce tüm evrenin 109 farklı elementin atomlarının birbirleriyle reaksiyona girmeleri sonucu oluştuğunu söylemiştik. Burada, üzerinde dikkatle durulması gereken bir nokta vardır; o da, tepkimenin oluşabilmesi için çok önemli bir koşulun gerçekleşmesi gerektiğidir.
+
+Örneğin, oksijenle hidrojen her bir araya geldiğinde su oluşmaz. Ya da demir havayla temas eder-etmez hemen paslanmaz. Eğer öyle olsaydı, katı ve parlak bir metal olan demir, birkaç dakika içinde yumuşak bir toz olan demir okside dönüşür, yeryüzünde metal diye bir madde kalmaz ve dünyanın düzeni bozulurdu. Belirli bir mesafede yan yana gelen atomlar belirli koşullar oluşmadan hemen birleşseydi farklı iki maddenin atomları hemen tepkimeye girerlerdi. Böyle bir durumda ise, koltuğa oturmanız bile mümkün olmazdı. Çünkü koltuğu oluşturan atomlarla vücudunuzu oluşturan atomlar hemen tepkimeye girer ve koltuk-insan arası bir varlık (!) olurdunuz. Şüphesiz ki, böyle bir dünyada canlı hayatının varlığı söz konusu bile olamazdı. Acaba, böyle bir sonucun yaşanması nasıl engellenmektedir?
+
+Bir örnekle açıklamak gerekirse, hidrojen ve oksijen molekülleri oda sıcaklığında çok yavaş tepkimeye girerler, yani "su" oda sıcaklığında çok yavaş oluşur. Ancak, ortamdaki sıcaklık arttığında moleküllerin enerjileri de artar ve tepkime hızlanır, yani su daha hızlı oluşur.
+
+Moleküllerin tepkimeye girebilmeleri için gereken minimum enerji miktarı, "aktifleşme enerjisi" adı verilen enerji düzeyidir. Su örneğinde görüldüğü gibi, hidrojen ve oksijen moleküllerinin tepkimeye girip suyu oluşturabilmeleri için, enerjilerinin aktifleşme enerjisinden yüksek olması gerekmektedir.
+
+Düşünün ki, yeryüzündeki sıcaklık biraz daha yüksek olsaydı, atomlar çok çabuk tepkimeye girerdi ve doğadaki denge de bozulurdu. Ancak tersi olsaydı, yani yeryüzündeki sıcaklık daha düşük olsaydı, bu durumda da atomlar tepkimeye girmekte çok ağır kalacaklar ve yine doğadaki dengeler bozulacaktı. Bundan da anlaşıldığı gibi Dünya’nın Güneş'e uzaklığı tam olarak canlı hayatına uygun olacak bir noktadadır. Elbette ki canlılık için gereken hassas dengeler bununla kısıtlı değildir. Dünyanın eksenindeki eğim, kütlesi, yüzey genişliği, atmosferindeki gazların oranı, uydusu Ay ile arasındaki mesafe ve daha birçok faktör, sadece ve sadece şu andaki değerleriyle mevcut olduğu takdirde canlıların hayatta kalması mümkün olmaktadır. Bu noktada ortaya çıkan, tüm bu faktörlerin birbiri ardınca tesadüflerle oluşamayacağı, hepsinin de canlıların tüm özelliklerini bilen ve üstün bir kudret sahibi olan Allah tarafından var edildikleri gerçeğidir.
+
+Kuşkusuz bilimin bu noktada verdiği cevap, gözlemlediği fizik kurallarına bir isim takmaktan ibarettir. En başta da belirttiğimiz gibi bu tür olaylarda ne, nasıl, ne şekilde gibi soruların pek bir anlamı yoktur. Bu sorularla ulaşabildiğimiz yalnızca, zaten var olan bir kuralın detaylarıdır. Asıl sorulması gereken soru, bu kuralın neden ve kim tarafından var edildiğidir. Bu sorunun cevabı ise maddeci inançlarına körü körüne bağlı olan bilim adamları açısından yine bir muammadır.
+
+İşte materyalistlerin cevap veremediği bu noktada, aklı ve vicdanıyla bakan bir göz için durum son derece açıktır: Hiçbir şekilde tesadüflerle açıklanamayacak olan evrendeki kusursuz dengeler, üstün bir aklın ve iradenin dilemesi sonucu gerçekleşmiştir. "Şüphesiz, Allah her şeyin hesabını tam olarak yapandır" (Nisa Suresi, 86) ayetinde de belirtildiği gibi Allah her şeyi çok hassas bir hesap, düzen ve denge üzerine yaratmıştır.
+
+s.77
+
+Amino asitlerin dizilimi ve üç boyutlu şekli vücuttaki proteinlerin görevini/fonksiyonunu belirler.
+
+s.78
+
+Görmedin mi, Allah, gökten su indirdi, böylece yeryüzü yemyeşil donatıldı. Şüphesiz Allah, lütfedicidir, her şeyden haberdardır. (Hac Suresi, 63)
+
+s.79
+
+su molekülü
+
+hidrojen
+
+hidrojen
+
+oksijen
+
+H<sub>2</sub>O
+
+s.81
+
+Eğer suyun üstten donma özelliği olmasaydı, denizlerin çok büyük bir bölümü tüm yıl boyunca donacak ve denizdeki canlı yaşamı çok büyük bir tehlikeye girecekti.
+
+s.82
+
+Donan suyun yoğunluğu sıvı haldeki sudan daha az olduğu için buzlar suyun üstünde yüzerler.
+
+s.83
+
+Bir sıvının yüzeyindeki moleküller içe doğru gerilen bir ağ gibidir. Bu da sıvılardaki yüzey gerilimini oluşturur. Bu gerilim yüzey moleküllerinin birbirlerine yakınlaşmasını sağlar, bu da bir sivrisineğin bacaklarının bu gerilimi kırıp, içeri girmesini engeller. Suyun yüksek yüzey gerilimi birçok fizyolojik işlem için hayati önem taşır.<sup>32</sup>
+
+s.85
+
+O<sub>3</sub>
+
+1
+
+2
+
+3
+
+Klor
+
+O<sub>2</sub>
+
+Klor Ozona Nasıl Zarar Verir?
+
+Klor üç oksijen atomundan oluşan ozon molekülünü parçalar. Ayrılan iki oksijen atomu oksijen (O<sub>2</sub>) molekülünü oluştururken, tek kalan oksijen atomu klorla birleşir. Klorla birleşen bu atom Hipoklorid adını alır. Hipoklorid serbest kalan bir oksijenle birleşip tekrar bir oksijen molekülü oluşturur. Ve böylece klor atomu serbest kalır. Bu dönüşüm yüzünden ozonun (O<sub>3</sub>) tabi yapısı bozulmuş olur. <sup>33</sup>
+
+s.87
+
+PIPERIN
+
+Piperin, tropik asma Piper nigrum’un yumuşak meyvesi olan siyah ve beyaz biberin aktif bir elementidir. Karabiber ham meyvenin fermentasyona bırakılması ve sonra da kurutulması ile elde edilir.
+
+Beyaz biber ise olgunlaşmış meyvenin kabuğu ve etinin ayrılması ve tohumlarının kurutulması yoluyla elde edilir. <sup>34</sup>
+
+Para-HYDROXYPHENOL -2-BUTANON ve IONON
+
+Bu iki molekül bir karışımda bir araya gelerek çok hoş bir kokunun oluşmasına neden olurlar. Olgun böğürtlen kokusunun nedeni butanon'dur. Yeni koparılan taze meyve kokusunun kaynağı aynı zamanda kurumuş saman ve menekşe kokusunun kaynağı olan ionon’dan gelir. Ionon menekşe yağınının güzel kokusudur.<sup>35</sup>
+
+s.88
+
+FURYLMETHANETHIOL
+
+Bu molekül kahve aromasının kokusunu verir. Kahvenin uyarıcı etkisi kafeindir. Kahvenin rengi, nitrojen içeren organik maddelerin ısınmasıyla kahverengileşme reaksiyonunu sonucu ortaya çıkar. Çekirdekler arasında geçici olarak sıkışan moleküller tat ve uyarmanın nedenidir.<sup>36</sup>
+
+KERATIN
+
+Keratin ipek böcekleri ve örümcekler tarafından salgılanan, katılaşmış çok değerli bir sıvıdır. İpek polipeptit zincirle birbirine bağlı amino asitlerden oluşmaktadır. Zincirler ise hidrojen bağları ile biribirilerine bağlıdırlar ve oldukça büzüşük ancak neredeyse düz levhalar halindedirler. Örümcek ağlarında da aynı ipek dokusuyla karşılaşırız.<sup>37</sup>
+
+s.89
+
+Üstteki resim kötü bir koku molekülüne, soldaki ise güzel bir koku molekülüne aittir. Görüldüğü gibi güzel koku ile çirkin kokuyu birbirinden ayıran gözle görülemeyen alemdeki bu ufacık farklardır.
+
+s.94
+
+Yukarıda görmüş olduğunuz, plastik, alüminyum, çelik gibi maddeler uçabilir mi? Hayır, tüm bunlar bir araya getirilse yine de uçamazlar. Bir uçak hiçbir uçma özelliği olmayan parçaların, özel bir tasarımla bir araya getirilmeleriyle oluşmuştur. Uçma özelliği ne alüminyumdan, ne plastikten, ne de çelikten gelir. Bu maddelerin özellikleri önemlidir, ancak uçma özelliği bu maddelerin çok özel bir tasarımla bir araya getirilmeleriyle kazanılabilir. Canlı sistemler de aynı bu şekildedir. Bir canlı hücresi de cansız atomların çok özel bir tasarımla bir araya getirilmesiyle oluşmuştur.
+
+s.95
+
+"Nasıl oluyor da Allah'ı inkar ediyorsunuz? Oysa ölü iken sizi O diriltti; sonra sizi yine öldürecek, yine diriltecektir ve sonra O'na döndürüleceksiniz." (Bakara Suresi, 28)
+
+s.96
+
+Yukarıdaki çizimin ne kadar anlamsız olduğu açıktır. Günümüzde herkes, doğadaki taşların veya kaya parçalarının kendi kendilerine kurbağalara veya balıklara dönüşmeyeceklerini bilir. Elbetteki cansız maddelerden canlılığın oluşması mümkün değildir. Bu da canlılığın cansız maddelerden tesadüfen oluştuğunu iddia eden evrim teorisini daha en başından çürütür.
+
+s.97
+
+ATOMLAR ATOMLARI İNCELERKEN
+
+Evrimci iddiaya göre, tesadüfler sonucu oluşan atomlar, üniversite profesörlerine dönüşmüş ve elektron mikroskopları altında kendilerini inceleyip tesadüfen meydana geldiklerini iddia etmişlerdir. Kuşkusuz böyle bir iddia küçük bir çocuk için bile inandırıcı değildir.
+
+s.99
+
+Evrimcilerin istedikleri tüm şartlar sağlansa bir canlı oluşabilir mi? Elbette ki hayır. Bunu daha iyi anlamak için şöyle bir deney yapalım. Üsttekine benzer bir varile canlıların oluşumu için gerekli olan bütün atomları, enzimleri, hormonları, proteinleri kısacası evrimcilerin istedikleri, gerekli gördükleri tüm elementleri koyalım. Olabilecek her türlü kimyasal ve fiziksel yöntemi kullanarak bu elementleri karıştıralım ve istedikleri kadar bekleyelim. Ne yapılırsa yapılsın, ne kadar beklenirse beklensin bu varilden canlı tek bir varlık bile çıkaramayacaklardır.
+
+s.101
+
+Canlı hücrelerine ait tüm bilgileri kusursuz bir şifreleme sistemiyle taşıyan DNA molekülü, çok kompleks bir yapıya sahiptir. Bu molekülün kusursuz yapısı, evrimcilerin tesadüflerle oluştuğu iddiasını tamamen geçersiz kılmaktadır
+
+"Göklerde ve yerde olanların tümü Allah'ı tesbih etmiştir. O, üstün ve güçlü (aziz) olandır, hüküm ve hikmet sahibidir. Göklerin ve yerin mülkü O'nundur. Diriltir ve öldürür. O, her şeye güç yetirendir. (Hadid Suresi, 1-2)
+
+s.103
+
+"Göklerde ve yerde olan ne varsa, canlılar ve melekler Allah'a secde ederler ve onlar büyüklük taslamazlar. Üstlerinden (her an bir azap göndermeye kadir olan) Rablerinden korkarlar ve emrolundukları şeyi yaparlar. (Nahl Suresi 49-50)
+
+s.106
+
+nötron
+
+uranyum 235
+
+s.107
+
+baryum 142
+
+nötron
+
+krypton 91
+
+nötron
+
+Fisyon, atom çekirdeğinin parçalanmasıdır. Resimde de görüldüğü gibi, bir nötronla çarpıştırılan uranyum 235 atomu parçalanıp, krypton 92 ve baryum 142 atomu oluşturur. Bu çarpışma sonucunda gamma ışınları enerji olarak açığa çıkar.
+
+s.110
+
+Nükleer kaynaşma (füzyon), parçalanmanın tersine çok hafif iki çekirdeği birleştirerek daha ağır bir çekirdek oluşturmak ve bu şekilde açığa çıkan bağ enerjisini kullanmaktır. Yıldızların içindeki çekirdekler çarpıştıklarında kaynaşırlar. Böylece yeni çekirdekler oluşur ve ortaya nötrino, pozitron, nötron, proton ve diğer atomaltı parçacıklar enerji olarak açığa çıkarlar. Yıldızlardaki büyük enerjinin kaynağı bu çekirdek kaynaşmalarıdır.
+
+Nötrino
+
+Pozitron
+
+Proton reaksiyonu
+
+Helyum 3
+
+Helyum 4
+
+Helyum 3
+
+Helyum 4
+
+Helyum 3
+
+Döteryum Ağır Hidrojen
+
+Proton
+
+Pozitron
+
+s.111
+
+Döteryum
+
+Döteryum
+
+Helyum 3
+
+Nötron
+
+Enerji
+
+Döteryum
+
+Döteryum
+
+Trityum
+
+Proton
+
+Enerji
+
+Döteryum
+
+Trityum
+
+Helyum 4
+
+Nötron
+
+Enerji
+
+Resimde gösterilen 3 farklı füzyon reaksiyonu, enerji ve parçacık oluşumuyla sonuçlanır.
+
+Proton
+
+s.112
+
+Atomun çekirdeğinde saklı olan bu muazzam gücün açığa çıkmasıyla, birkaç saniye içinde yüzbinlerce insan hayatını kaybetmiştir.
+
+s.113
+
+Patlama, arkasında çok kalıcı izler bırakmıştır.
+
+1986 yılında Rusya’daki Çernobil reaktöründe meydana gelen nükleer kazanın insanlar, tüm diğer canlılar ve bitkiler üzerinde çok kalıcı etkileri olmuştur. Bilim adamları bu etkilerin 30-40 yıl daha süreceğini söylüyorlar. Nükleer sızıntının engellenmesi için alınan önlemler bir sonuç vermemiştir. Radyasyonun zararlı etkilerinin azaltılması için çalışmalar devam etmektedir.
+
+s.114
+
+Hiroşima'ya atılan bombadan sonra canlılık tamamen ortadan kalkmış, bomba arkasında çok büyük bir enkaz bırakmıştır.
+
+s.115
+
+Patlama sonrasında oluşan şiddetli rüzgar sonucunda radyasyon döküntüleri çok geniş bir alana yayılmış ve arkasında kül tabakası altında kalmış bir görüntü bırakmıştır.
+
+s.116
+
+Elektron kaybeder
+
+Radyasyon
+
+Pozitif iyon
+
+Negatif iyon
+
+Elektron kazanır
+
+Radyasyon, atomun dış yüzeyindeki elektronlara çarptığı zaman, pozitif iyonlar oluşturarak cok ciddi hasarlar verebilir. Elektronlar diğer nötr atomlara bağlanarak negatif iyonlar oluştururlar.
+
+s.117
+
+"İnkar edenler, dediler ki: "Kıyamet-saati bize gelmez." De ki: "Hayır, gaybı bilen Rabbime andolsun, o muhakkak size gelecektir. Göklerde ve yerde zerre ağırlığınca hiçbir şey O'ndan uzak (saklı) kalmaz. Bundan daha küçük olanı da, daha büyük olanı da, istisnasız, mutlaka apaçık bir kitapta (yazılı)dır." (Sebe Suresi, 3)
+
+s.119
+
+Dünya
+
+Madde
+
+Atom
+
+Molekül
+
+Çekirdek
+
+Atom
+
+Çekirdek
+
+Elektron
+
+Nötron
+
+Proton
+
+Proton
+
+Quarklar
+
+s.121
+
+Dış dünyada gördüğümüz her şey, rengarenk çiçekler, kuşlar, gökyüzü, dağlar, çevremizdeki insanlar kısacası dünyadaki her türlü detay sadece atomlardan oluşan bir dünyadan bize geliyor.
+
+s.127
+
+En son evrimci kaynakların da kabul ettiği gibi, hayatın kökeni, hala evrim teorisi için son derece büyük bir açmazdır.
+
+s.129
+
+Evrim teorisini geçersiz kılan gerçeklerden bir tanesi, canlılığın inanılmaz derecedeki kompleks yapısıdır. Canlı hücrelerinin çekirdeğinde yer alan DNA molekülü, bunun bir örneğidir. DNA, dört ayrı molekülün farklı diziliminden oluşan bir tür bilgi bankasıdır. Bu bilgi bankasında canlıyla ilgili bütün fiziksel özelliklerin şifreleri yer alır. İnsan DNA'sı kağıda döküldüğünde, ortaya yaklaşık 900 ciltlik bir ansiklopedi çıkacağı hesaplanmaktadır. Elbette böylesine olağanüstü bir bilgi, tesadüf kavramını kesin biçimde geçersiz kılmaktadır.
+
+s.132
+
+Evrimciler yüzyılın başından beri sinekleri mutasyona uğratarak, faydalı mutasyon örneği oluşturmaya çalıştılar. Ancak on yıllarca süren bu çabaların sonucunda elde edilen tek sonuç, sakat, hastalıklı ve kusurlu sinekler oldu. En solda, normal bir meyve sineğinin kafası ve sağda mutasyona uğramış diğer bir meyve sineği.
+
+bacak
+
+anten
+
+gözler
+
+ağız
+
+s.135
+
+Kretase dönemine ait bu timsah fosili 65 milyon yıllıktır. Günümüzde yaşayan timsahlardan hiçbir farkı yoktur.
+
+İtalya'da çıkarılmış bu mene balığı fosili 54 - 37 milyon yıllıktır.
+
+Bu 50 milyon yıllık çınar yaprağı fosili ABD çıkarılmıştır. 50 milyon yıldır çınar yaprakları hiç değişmemiş , evrim geçirmemiştir.
+
+s.138
+
+SAHTE
+
+İnsanın evrimi masalını destekleyen hiçbir fosil kalıntısı yoktur. Aksine, fosil kayıtları insanlar ile maymunlar arasında aşılamaz bir sınır olduğunu göstermektedir. Bu gerçek karşısında evrimciler, gerçek dışı birtakım çizim ve maketlere umut bağlamışlardır. Fosil kalıntılarının üzerine diledikleri maskeleri geçirir ve hayali yarı maymun yarı insan yüzler oluştururlar.
+
+s.140
+
+Evrimcilerin istedikleri tüm şartlar sağlansa bir canlı oluşabilir mi? Elbette ki hayır. Bunu daha iyi anlamak için şöyle bir deney yapalım. Üsttekine benzer bir varile canlıların oluşumu için gerekli olan bütün atomları, enzimleri, hormonları, proteinleri kısacası evrimcilerin istedikleri, gerekli gördükleri tüm elementleri koyalım.Olabilecek her türlü kimyasal ve fiziksel yöntemi kullanarak bu elementleri karıştıralım ve istedikleri kadar bekleyelim. Ne yapılırsa yapılsın, ne kadar beklenirse beklensin bu varilden canlı tek bir varlık bile çıkaramayacaklardır.
+
+s.144
+
+Bir cisimden gelen uyarılar elektrik sinyaline dönüşerek beyinde bir etki oluştururlar. Görüyorum derken, aslında zihnimizdeki elektrik sinyallerinin etkisini seyrederiz. Beyin ışığa kapalıdır. Yani beynin içi kapkaranlıktır, ışık beynin bulunduğu yere kadar giremez. Görüntü merkezi denilen yer kapkaranlık, ışığın asla ulaşmadığı, belki de hiç karşılaşmadığınız kadar karanlık bir yerdir. Ancak siz bu zifiri karanlıkta ışıklı, pırıl pırıl bir dünyayı seyredersiniz.
+
+s.149
+
+Geçmiş zamanlarda timsaha tapan insanların inanışları ne derece garip ve akıl almazsa günümüzde Darwinistlerin inanışları da aynı derecede akıl almazdır. Darwinistler tesadüfleri ve cansız şuursuz atomları cahilce adeta yaratıcı güç olarak kabul ederler hatta bu batıl inanca bir dine bağlanır gibi bağlanırlar.
+
+**ARKA KAPAK YAZISI**
+
+Atomlardan meydana gelen bir vücutla, havadaki atomları soluyor, besinlerdeki atomları yiyor, suyun atomlarını içiyorsunuz. Gördükleriniz ise gözünüzdeki atomlara ait elektronların fotonlarla çarpışmasından başka birşey değil. Peki dokunarak hissettikleriniz? Onlar da cildinizdeki atomların eşyalardaki atomları itmesinden ibaret...
+
+Elbette bugün birçok insan, bedeninin, evrenin, dünyanın kısacası her şeyin atomlardan oluştuğunu bilmektedir. Ama belki de bugüne kadar “atom” ismini verdiğimiz varlığın nasıl bir sisteme sahip olduğunu düşünmemiştir. Veya düşündüyse bile nasıl oluştuğunu araştırmaya ihtiyaç duymamıştır; çünkü bunun yalnızca fizikçilerin işi olduğunu düşünmüştür.
+
+Oysa insan bu kusursuz sistemle hayatı boyunca iç içe yaşamaktadır. Üstelik bu öyle bir sistemdir ki, yalnızca oturduğumuz koltuğu oluşturan trilyonlarca atomdan her biri, üzerine kitap yazılabilecek bir düzenliliğe sahiptir. Tek bir atomun oluşumunu, sistemini, gücünü anlatmak sayfalar alabilmektedir.
+
+Elinizdeki bu kitapta canlı-cansız, evrendeki her şeyi oluşturan atomun kendi kendine veya tesadüfen meydana gelmesinin imkansızlığı ve Allah’ın yaratışındaki kusursuzluk anlatılmaktadır.
+
+**YAZAR HAKKINDA:**Harun Yahya müstear ismini kullanan Adnan Oktar, 1956 yılında Ankara'da doğdu. 1980'li yıllardan bu yana, imani, bilimsel ve siyasi konularda pek çok eser hazırladı. Bunların yanı sıra, yazarın evrimcilerin sahtekarlıklarını, iddialarının geçersizliğini ve Darwinizm'in kanlı ideolojilerle olan karanlık bağlantılarını ortaya koyan çok önemli eserleri bulunmaktadır.
+
+Yazarın tüm çalışmalarındaki ortak hedef, Kuran'ın tebliğini dünyaya ulaştırmak, böylelikle insanları Allah'ın varlığı, birliği ve ahiret gibi temel imani konular üzerinde düşünmeye sevk etmek ve inkarcı sistemlerin çürük temellerini ve sapkın uygulamalarını gözler önüne sermektir. Nitekim yazarın, bugüne kadar 73 ayrı dile çevrilen 300’den fazla eseri, dünya çapında geniş bir okuyucu kitlesi tarafından takip edilmektedir.
+
+Harun Yahya Külliyatı, -Allah'ın izniyle- 21\. yüzyılda dünya insanlarını Kuran'da tarif edilen huzur ve barışa, doğruluk ve adalete, güzellik ve mutluluğa taşımaya bir vesile olacaktır.
