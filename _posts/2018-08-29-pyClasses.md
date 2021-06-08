@@ -328,7 +328,7 @@ print(p1.age)
 **Ne yaptığınızı biliyorsanız, sınıfların nasıl karşılaştırıldığı, özniteliklerin nasıl tanımlandığı ve sınıfınızın alt sınıfları olarak kabul edilen sınıflar hakkında neredeyse tam kontrol sahibi olabilirsiniz.**
  
 
-<h3 id="C14">  </a>
+<a id="C14">  </a>
 
 * * *
 
