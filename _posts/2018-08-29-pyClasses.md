@@ -267,7 +267,6 @@ obj.name = "Andre"
 
 Artık nesneleri oluşturmak için **myClass** adlı sınıfı kullanabiliriz:
 
-<div class="w3-code">
 {% highlight python %} 
 class MyClass:
   x = 5
@@ -275,8 +274,6 @@ p1 = MyClass()
 print(p1.x)
 print(MyClass.x)
 {% endhighlight %}
-</div>
-<br>
 
 <a id="C3"></a>
 
@@ -301,17 +298,12 @@ p1 = Person("John", 36)
 * * *
 
 Bu gibi nesnelerdeki öznitelikleri değiştirebilirsiniz:
-<p>p1'in yaşını 40'a ayarlayın:</p>
+**p1'in yaşını 40'a ayarlayın:**
 
-<div class="w3-code notranslate">
 {% highlight python %} 
   p1.age = 40
 {% endhighlight %}
-</div>
-<br>
 
-<main class="grid">
-  <article>
 {% highlight python %}
 class Person:
   def __init__(self, name, age):
@@ -326,24 +318,15 @@ p1 = Person("John", 36)
 p1.age = 40
 print(p1.age)
 {% endhighlight %}
-  </article>
-  <article>
-    <div class="text">
-      <p>
+
+{% highlight bash %}
 40
-</p>
-    </div>
-  </article>
-</main>
 
-<div class="w3-container w3-content">
- <div class="w3-panel w3-white w3-card w3-display-container">
-   <p> Ne yaptığınızı biliyorsanız, sınıfların nasıl karşılaştırıldığı, özniteliklerin nasıl tanımlandığı ve sınıfınızın alt sınıfları olarak kabul edilen sınıflar hakkında neredeyse tam kontrol sahibi olabilirsiniz.</p>
- </div>
-</div>
+{% endhighlight %}
 
-<br>
 
+**Ne yaptığınızı biliyorsanız, sınıfların nasıl karşılaştırıldığı, özniteliklerin nasıl tanımlandığı ve sınıfınızın alt sınıfları olarak kabul edilen sınıflar hakkında neredeyse tam kontrol sahibi olabilirsiniz.**
+ 
 
 <h3 id="C14">  </a>
 
@@ -353,8 +336,8 @@ print(p1.age)
 
 * * *
 
-Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz:
-_age_ özniteliğini _p1_ nesnesinden silin:
+Nesnelerin Özniteliklerini ``del`` anahtar sözcüğünü kullanarak silebilirsiniz:
+**_age_** özniteliğini **_p1_** nesnesinden silin:
 
 
 {% highlight python %} 
