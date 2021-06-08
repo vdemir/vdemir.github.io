@@ -107,7 +107,7 @@ person2.showName()
   </article>
   
 </main>
- 
+**Çıktı:**
 {% highlight bash %}
 23
 Anne
