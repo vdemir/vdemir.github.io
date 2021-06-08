@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Etkileyici Sözler 
+description: Bu hayatta en zor şey seni diğer herkese benzetmek isteyen bir dünyada kendin olmaktır.
 date:   2018-08-12 15:52:00
 tags:   Kelime
 categories: Dil
