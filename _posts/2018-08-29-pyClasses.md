@@ -34,6 +34,7 @@ lang: tr
       <li><a href="#C15" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Nesneleri Silmek</a></li>
       <li><a href="#C5" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Sınıf Öbekleri</a></li>
       <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Özdeş Öbekler</a></li>
+      <li><a href="#C61" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Özdeş Öbeğin Özniteliklerine Erişim</a></li>
       <li><a href="#C7" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Yordam Öbekleri</a></li>
       <li><a href="#C8" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-list"></i> Python Öznitelikler ve Yordamlar</a></li>
       <li><a href="#C9" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> new yordamı</a></li>
@@ -505,7 +506,6 @@ Out[1]: (3.0, -4.5)
 Data öznitelikleri, Smalltalk'daki “eşleşen öznitelikler” ve C++'daki “data elemanlarına” karşılık gelir. Data özniteliklerinin beyan edilmesine gerek yoktur; yerel öznitelikler gibi, ilk atandıklarında var olurlar. Örneğin, **x** yukarıda oluşturulan **MyClass** özniteliğiyse, aşağıdaki kod parçası bir iz bırakmadan değeri 16 yazdıracaktır:
 
 
-<div class="w3-code notranslate">
 {% highlight python %}
 
 class MyClass(): 
@@ -516,8 +516,6 @@ print(x.counter)
 del x.counter
 
 {% endhighlight %}
-
-</div>
 
 Diğer eşleşen öznitelik atıf türü bir yordamdır. Bir yordam, bir öbeğe “ait” bir fonksiyondur. (Python'da, yordam terimi, öbek eşleşmelerine özgü değildir: diğer öbek türleri de yordamlara sahip olabilir. Örneğin, liste öbekleri, append, insert, remove, sort adlı yordamları içerir. Ancak, aşağıdaki tartışmada, sadece aksi belirtilmedikçe sınıf yordamlarının eşleşen öbeklerinii belirtmek için deyim yordamını kullanacağız.) 
 
