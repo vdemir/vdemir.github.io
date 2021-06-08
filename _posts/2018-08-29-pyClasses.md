@@ -281,7 +281,14 @@ obj.name = "Andre"</div>
 <div class="teaser clearfix"></div>
 <a id="C2"></a>
 
+***
+
  **``Bir Python Nesnesi Oluşturma``**
+ 
+***
+
+ 
+ 
 Artık nesneleri oluşturmak için **myClass** adlı sınıfı kullanabiliriz:
 
 <div class="w3-code">
