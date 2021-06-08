@@ -255,10 +255,6 @@ obj.name = "Andre"
 **'Andre'** dizesi, **obj** öbeğinin **name** özniteliğine atanan değerdir.
 
 
-
-<br><br>
-
-
 <a id="C2"></a>
 
 * * *
@@ -366,7 +362,7 @@ print(p1.age)
 
 Out [1]:
 
-{% highlight python %} 
+{% highlight bash %} 
 AttributeError: 'Person' object has no attribute 'age'
 
 {% endhighlight %}
