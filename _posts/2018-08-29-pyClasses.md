@@ -564,7 +564,7 @@ Genellikle, bağlantıdan hemen sonra bir yordam çağrılır:
 x.f() 
 {% endhighlight %}
 
-MyClass örneğinde, 'merhaba dünya' dizesini döndürür. Ancak, bir yordamı hemen çağırmak gerekli değildir: **_x.f_** bir yordam öbeğidir ve daha sonra depolanabilir ve daha sonra çağrılabilir. Örneğin:
+MyClass örneğinde, 'merhaba dünya' dizesini döndürür. Ancak, bir yordamı hemen çağırmak gerekli değildir: **x.f** bir yordam öbeğidir ve daha sonra depolanabilir ve daha sonra çağrılabilir. Örneğin:
 
 
 {% highlight python %}
