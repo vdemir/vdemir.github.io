@@ -286,11 +286,9 @@ print(MyClass.x)
 
  Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">init</code> yordamının kabul ettiği ifadeleri iletirsiniz:
 
-<div class="w3-code">
 {% highlight python %} 
 p1 = Person("John", 36)
 {% endhighlight %}
-</div>
  
 <a id="C13"> </a>
 
@@ -299,6 +297,7 @@ p1 = Person("John", 36)
 ### **``Nesne Özniteliklerini Değiştirmek``**
 
 * * *
+
 Bu gibi nesnelerdeki öznitelikleri değiştirebilirsiniz:
 <p>p1'in yaşını 40'a ayarlayın:</p>
 
@@ -344,9 +343,16 @@ print(p1.age)
 <br>
 
 
-<h3 id="C14"><i class="fas fa-code"></i> Nesne Özniteliklerini Silmek</h3><hr>
+<h3 id="C14">  </a>
+
+* * *
+
+### **``Nesne Özniteliklerini Silmek``**
+
+* * *
+
 Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz:
-<p>age özniteliğini p1 nesnesinden silin:</p>
+_age_ özniteliğini _p1_ nesnesinden silin:
 
 
 <div class="w3-code">
@@ -384,7 +390,7 @@ AttributeError: 'Person' object has no attribute 'age'
 
 <br>
 
-<h3 id="C15"><i class="fas fa-code"></i> Nesneleri Silmek</h3><hr>
+<h3 id="C15"> Nesneleri Silmek</h3><hr>
 Nesneleri <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz: 
 <p>p1 nesnesini silin:</p>
 
@@ -424,7 +430,7 @@ NameError: name 'p1' is not defined
 <br><br>
 
 
-<h3 id="C5"><i class="fas fa-code"></i> Sınıf Öbekleri </h3><hr>
+<h3 id="C5"> Sınıf Öbekleri </h3><hr>
 Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnekleme. 
 
 Öznitelik referansları, Python: obj.name'deki tüm öznitelik referansları için kullanılan standart sözdizimini kullanır. Geçerli nesne adları, sınıf nesnesi oluşturulduğunda sınıfın ad alanındaki tüm adlardır. Yani, sınıf tanımı böyle görünüyorsa:
@@ -505,7 +511,7 @@ Out[1]: (3.0, -4.5)
 <br><br>
 
 
-<h3 id="C6"><i class="fas fa-code"></i> Özdeş Öbekler</h3><hr>
+<h3 id="C6"> Özdeş Öbekler</h3><hr>
 Şimdi eşleşen nesnelerle ne yapabiliriz? Eşleşen nesneler ile anlaşılan yegane işlemler, öznitelik atıflarıdır. İki tür geçerli atıf ismi vardır; data öznitelikleri ve yordamları. 
 
 Data öznitelikleri, Smalltalk'daki “eşleşen öznitelikler” ve C++'daki “data elemanlarına” karşılık gelir. Data özniteliklerinin beyan edilmesine gerek yoktur; yerel öznitelikler gibi, ilk atandıklarında var olurlar. Örneğin, **x** yukarıda oluşturulan **MyClass** özniteliğiyse, aşağıdaki kod parçası bir iz bırakmadan değeri 16 yazdıracaktır:
@@ -533,7 +539,7 @@ Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım ol
 <br> 
 
 
-<h4><i class="fas fa-code"></i> Özdeş Öbeğin Özniteliklerine Erişim</h4><hr>
+<h4> Özdeş Öbeğin Özniteliklerine Erişim</h4><hr>
 Nokta (.) operatörünü öbek ismi ile kullanarak erişebilirsiniz. Sınıf adı kullanarak da sınıf özdeğerlerine erişilebilir:
 <div class="w3-code notranslate pythonHigh">
   print(p1.x)<br>print(MyClass.x)</div>
@@ -1685,7 +1691,7 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
 **Liste.** Bir ağaç büyüdükçe odun katmanları eklenir. Mevsimler ve sıcaklıklar büyümesini etkiler. Halkalar bir liste olarak temsil edilebilir.
 
 <br>
-<h5 id="C291"><i class="fas fa-code"></i> append kullanan Python programı</h5><hr>
+<h5 id="C291"> append kullanan Python programı</h5><hr>
 
 **Öğeler eklenebilir,** döngülenebilir veya sıralanabilir. Listeler diğer yapılarla birleştirilebilir. Bir ağaç gibi, listeyi büyütmek için elemanlar (katmanlar) ekliyoruz.
 
