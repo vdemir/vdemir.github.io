@@ -378,16 +378,14 @@ AttributeError: 'Person' object has no attribute 'age'
 * * *
 
 Nesneleri **``del``** anahtar sözcüğünü kullanarak silebilirsiniz: 
-<p>p1 nesnesini silin:</p>
-
-<div class="w3-code">
+**p1 nesnesini silin:**
+ 
 {% highlight python %} 
 del p1
-{% endhighlight %}</div>
+{% endhighlight %} 
 
 
-<main class="grid">
-  <article>
+
 {% highlight python %}
 class Person:
   def __init__(self, name, age):
@@ -402,28 +400,27 @@ p1 = Person("John", 36)
 del p1
 
 print(p1)
-{% endhighlight %}
-  </article>
-  <article>
-    <div class="text">
-      <p>
+{% endhighlight %} 
+
+{% highlight bash %}
 NameError: name 'p1' is not defined
-</p>
-    </div>
-  </article>
-</main>
 
-<br><br>
+{% endhighlight %} 
 
 
-<h3 id="C5"> Sınıf Öbekleri </h3><hr>
+<a id="C5"> </a>
+
+* * *
+
+### **``Sınıf Öbekleri``**
+
+* * *
+
 Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnekleme. 
 
 Öznitelik referansları, Python: obj.name'deki tüm öznitelik referansları için kullanılan standart sözdizimini kullanır. Geçerli nesne adları, sınıf nesnesi oluşturulduğunda sınıfın ad alanındaki tüm adlardır. Yani, sınıf tanımı böyle görünüyorsa:
-<br>
 
-<main class="grid">
-  <article>
+
 {% highlight python %}
 # sınıfın tanımı burada başlar  
 class MyClass:
@@ -442,19 +439,16 @@ print(t)
 p=MyClass.f(1)
 print(p)
 {% endhighlight %}
-  </article>
-  <article>
-    <div class="text">
-      <p>
-12345 <br>
-12345 <br>
+
+Out [1]:
+
+{% highlight bash %}
+12345
+12345
 hello world
-</p>
-    </div>
-  </article>
-</main>
- 
-<br>
+
+{% endhighlight %}
+
 sonra **MyClass.i** ve **MyClass.f**, sırasıyla bir tamsayı ve fonksiyon nesnesini döndüren geçerli öznitelik referanslarıdır. Sınıf öznitelikleri de atanabilir, böylece **MyClass.i**'nin değerini atama yoluyla değiştirebilirsiniz. **__doc__** ayrıca geçerli bir özniteliktir ve **'Basit bir örnek sınıf'** sınıfa ait olan docstring döndürür.
 
 Sınıf örnekleme, fonksiyon notasyonu kullanır. Sınıf nesnesinin,  sadece sınıfın yeni bir örneğini döndüren parametresiz bir fonksiyon olduğunu varsayalım. Örneğin (yukarıdaki sınıfı varsayarak):
