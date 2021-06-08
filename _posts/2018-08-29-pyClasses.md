@@ -18,6 +18,8 @@ lang: tr
 
 ![Python &bull; Sınıflar.](/images/python/python-classes2.jpg "Python &bull; Sınıflar."){:height="97%" width="97%"}
 
+#### **Python Sınıfları**
+
 
 <div class="w3-panel w3-card w3-light-grey">
   <div class="w3-container w3-white">
