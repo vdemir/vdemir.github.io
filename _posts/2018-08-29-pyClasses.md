@@ -24,26 +24,26 @@ lang: tr
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
-      <li><a href="#C1" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Bir Python Sınıfı Oluşturmak</a></li>
-      <li><a href="#C84" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Oluşturulduktan Sonra Sınıfların Değiştirilmesi</a></li>
-      <li><a href="#C81" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Sınıf Özdeşleri</a></li>
-      <li><a href="#C2" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Bir Python Nesnesi Oluşturmak</a></li>
-      <li><a href="#C3" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Sınıf Eşleme ile Nesne Oluşturmak</a></li>
-      <li><a href="#C13" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Nesne Özniteliklerini Değiştirmek</a></li>
-      <li><a href="#C14" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Nesne Özniteliklerini Silmek</a></li>
-      <li><a href="#C15" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Nesneleri Silmek</a></li>
-      <li><a href="#C5" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Sınıf Öbekleri</a></li>
-      <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Özdeş Öbekler</a></li>
-      <li><a href="#C7" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Yordam Öbekleri</a></li>
+      <li><a href="#C1" style="text-decoration: none; color:#388E3C; cursor:pointer"> Bir Python Sınıfı Oluşturmak</a></li>
+      <li><a href="#C84" style="text-decoration: none; color:#388E3C; cursor:pointer"> Oluşturulduktan Sonra Sınıfların Değiştirilmesi</a></li>
+      <li><a href="#C81" style="text-decoration: none; color:#388E3C; cursor:pointer"> Sınıf Özdeşleri</a></li>
+      <li><a href="#C2" style="text-decoration: none; color:#388E3C; cursor:pointer"> Bir Python Nesnesi Oluşturmak</a></li>
+      <li><a href="#C3" style="text-decoration: none; color:#388E3C; cursor:pointer"> Sınıf Eşleme ile Nesne Oluşturmak</a></li>
+      <li><a href="#C13" style="text-decoration: none; color:#388E3C; cursor:pointer"> Nesne Özniteliklerini Değiştirmek</a></li>
+      <li><a href="#C14" style="text-decoration: none; color:#388E3C; cursor:pointer"> Nesne Özniteliklerini Silmek</a></li>
+      <li><a href="#C15" style="text-decoration: none; color:#388E3C; cursor:pointer"> Nesneleri Silmek</a></li>
+      <li><a href="#C5" style="text-decoration: none; color:#388E3C; cursor:pointer"> Sınıf Öbekleri</a></li>
+      <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer"> Özdeş Öbekler</a></li>
+      <li><a href="#C7" style="text-decoration: none; color:#388E3C; cursor:pointer"> Yordam Öbekleri</a></li>
       <li><a href="#C8" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-list"></i> Python Öznitelikler ve Yordamlar</a></li>
-      <li><a href="#C9" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> new yordamı</a></li>
-      <li><a href="#C10" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> init yordamı</a></li>
-      <li><a href="#C11" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> self yordamı</a></li>
-      <li><a href="#C82" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> El Yordamı ile 'self' Geçirme</a></li>
-      <li><a href="#C12" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> super fonksiyonu</a></li>
+      <li><a href="#C9" style="text-decoration: none; color:#388E3C; cursor:pointer"> new yordamı</a></li>
+      <li><a href="#C10" style="text-decoration: none; color:#388E3C; cursor:pointer"> init yordamı</a></li>
+      <li><a href="#C11" style="text-decoration: none; color:#388E3C; cursor:pointer"> self yordamı</a></li>
+      <li><a href="#C82" style="text-decoration: none; color:#388E3C; cursor:pointer"> El Yordamı ile 'self' Geçirme</a></li>
+      <li><a href="#C12" style="text-decoration: none; color:#388E3C; cursor:pointer"> super fonksiyonu</a></li>
       <li><a href="#C18" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-list"></i> Python Programları</a></li>
-      <li><a href="#C16" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Python 3 Shell</a></li>
-      <li><a href="#C17" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Sözlük Dizini</a></li>
+      <li><a href="#C16" style="text-decoration: none; color:#388E3C; cursor:pointer"> Python 3 Shell</a></li>
+      <li><a href="#C17" style="text-decoration: none; color:#388E3C; cursor:pointer"> Sözlük Dizini</a></li>
     </ul>
     </p>
   </div>
