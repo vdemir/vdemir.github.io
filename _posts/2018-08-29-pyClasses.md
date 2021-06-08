@@ -35,6 +35,7 @@ lang: tr
       <li><a href="#C5" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Sınıf Öbekleri</a></li>
       <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Özdeş Öbekler</a></li>
       <li><a href="#C61" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Özdeş Öbeğin Özniteliklerine Erişim</a></li>
+      <li><a href="#C62" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Özniteliklerin tanımı</a></li>
       <li><a href="#C7" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Yordam Öbekleri</a></li>
       <li><a href="#C8" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-list"></i> Python Öznitelikler ve Yordamlar</a></li>
       <li><a href="#C9" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> new yordamı</a></li>
@@ -522,33 +523,46 @@ Diğer eşleşen öznitelik atıf türü bir yordamdır. Bir yordam, bir öbeğe
 
 Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım olarak, bir sınıfın tüm öznitelikleri, eşleşen yordamlarına karşılık tanımlanan fonksiyon öbekleridir. Yani bizim örneğimizde, **x.f** geçerli bir yordam atfıdır, çünkü **MyClass.f** bir fonksiyondur, fakat **x.i** fonksiyon değildir çünkü **MyClass.i** da değildir. Ama **x.f**, **MyClass.f** ile aynı şey değildir - **x.f**, bir fonksiyon nesnesi/öbeği değil, bir yordam öbeğidir.
 
-<br> 
+<a id="C61"> </a>
 
+* * *
 
-<h4> Özdeş Öbeğin Özniteliklerine Erişim</h4><hr>
+#### **``Özdeş Öbeğin Özniteliklerine Erişim``**
+
+* * *
+
 Nokta (.) operatörünü öbek ismi ile kullanarak erişebilirsiniz. Sınıf adı kullanarak da sınıf özdeğerlerine erişilebilir:
-<div class="w3-code notranslate pythonHigh">
-  print(p1.x)<br>print(MyClass.x)</div>
 
-<div class="w3-panel w3-card w3-light-grey">
-  <h4>Özniteliklerin tanımı</h4>
-  <div class="w3-container w3-white">
-    <p>
-    <ul class="w3-ul w3-card-4" style="width:85%">
-      <li>z.real ifadesinde, real, z nesnesinin bir özdeğeridir. Kesin olarak, modüllerdeki isimlere yapılan atıflar öznitelik atıflarıdır: modname.funcname ifadesinde modname bir modül nesnesidir ve funcname bunun bir özniteliğidir. Bu durumda, modülün öznitelikleri ile modülde tanımlanan genel isimler arasında doğrudan bir eşleme olur: aynı isim uzayını paylaşırlar!</li>
-    </ul>
-    </p>
-  </div>
-</div>
+{% highlight python %}
+  print(p1.x)
+  print(MyClass.x)
+{% endhighlight %}
 
-<br><br>
+<a id="C62"> </a>
+
+* * *
+
+#### **``Özniteliklerin tanımı``**
+
+* * * 
+
+z.real ifadesinde, real, z nesnesinin bir özdeğeridir. Kesin olarak, modüllerdeki isimlere yapılan atıflar öznitelik atıflarıdır: **modname.funcname** ifadesinde **_modname_** bir modül nesnesidir ve **_funcname_** bunun bir özniteliğidir. Bu durumda, modülün öznitelikleri ile modülde tanımlanan genel isimler arasında doğrudan bir eşleme olur: aynı isim uzayını paylaşırlar! 
+
+ 
+<a id="C7"> </a>
+
+* * *
+
+#### **``Yordam Öbekleri``**
+
+* * * 
 
 
-<h3 id="C7"><a class="w3-btn w3-margin-bottom">Yordam Öbekleri</a></h3><hr>
+Genellikle, bağlantıdan hemen sonra bir yordam çağrılır:
 
-Genellikle, bağlantıdan hemen sonra bir yordam çağrılır: 
-<div class="w3-code notranslate pythonHigh">
-x.f() </div>
+{% highlight python %}
+x.f() 
+{% endhighlight %}
 
 MyClass örneğinde, 'merhaba dünya' dizesini döndürür. Ancak, bir yordamı hemen çağırmak gerekli değildir: x.f bir yordam öbeğidir ve daha sonra depolanabilir ve daha sonra çağrılabilir. Örneğin:
 <div class="w3-code notranslate pythonHigh">
