@@ -527,7 +527,7 @@ Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım ol
 
 * * *
 
-##### **``Özdeş Öbeğin Özniteliklerine Erişim``**
+#### **``Özdeş Öbeğin Özniteliklerine Erişim``**
 
 * * *
 
@@ -542,7 +542,7 @@ Nokta (.) operatörünü öbek ismi ile kullanarak erişebilirsiniz. Sınıf ad�
 
 * * *
 
-##### **``Özniteliklerin tanımı``**
+#### **``Özniteliklerin tanımı``**
 
 * * * 
 
