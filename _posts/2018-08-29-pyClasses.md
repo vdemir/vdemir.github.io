@@ -178,7 +178,7 @@ Hey bir yordam
 
 * * *
 
-**``Oluşturulduktan Sonra Sınıfların Değiştirilmesi``**
+#### **``Oluşturulduktan Sonra Sınıfların Değiştirilmesi``**
 
 * * *
 
@@ -302,11 +302,14 @@ print(MyClass.x)
 p1 = Person("John", 36)
 {% endhighlight %}
 </div>
+ 
+<a id="C13"> </a>
 
-<br>
+* * *
 
-<div class="teaser clearfix"></div>
-<h3 id="C13"><i class="fas fa-code"></i> Nesne Özniteliklerini Değiştirmek</h3><hr>
+### **``Nesne Özniteliklerini Değiştirmek``**
+
+* * *
 Bu gibi nesnelerdeki öznitelikleri değiştirebilirsiniz:
 <p>p1'in yaşını 40'a ayarlayın:</p>
 
