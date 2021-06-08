@@ -420,9 +420,8 @@ AttributeError: 'Person' object has no attribute 'age'
 <a id="C15"></a>
 
 ***
- 
 
- **``Nesneleri Silmek``**
+**``Nesneleri Silmek``**
 
 ***
  
