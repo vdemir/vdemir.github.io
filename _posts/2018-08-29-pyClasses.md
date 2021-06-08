@@ -221,7 +221,9 @@ type(obj.name)
 
 
 Out[1]: 140040300870176
+
 Out[2]: __main__.c
+
 Out[3]: str
 
 Kimlik[identity], öbek için ayrılan bellek konumudur. **id()** fonksiyonu kullanılarak tanımlanabilir.
