@@ -572,7 +572,7 @@ xf = x.f
 
 while True:
    
-   print(xf()
+   print(xf())
 
 {% endhighlight %}
 
