@@ -204,8 +204,8 @@ instance.method()
 {% endhighlight %}
 
 {% highlight bash %}
-Out [1]: <br> <br>
-Hey a method <br>  <br>
+Out [1]: 
+Hey a method
 New method wins!
 
 {% endhighlight %}
@@ -222,7 +222,13 @@ Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşma
 </main>
 <br><br>
 
-<h4 id="C81"><i class="fas fa-code"></i> Sınıf Özdeşleri</h4><hr>
+<a id="C81"></a>
+
+* * *
+
+**``Sınıf Özdeşleri``**
+
+* * *
 
 Bir sınıfın özdeşi, bir Python öbeğidir ve her Python öbeğine benzer şekilde, şu özelliklere sahiptir: kimlik, öbek/nesne tipi, öznitelikler, yordamlar ve değeri.
 **(identity, object type, attributes, methods, and value)
