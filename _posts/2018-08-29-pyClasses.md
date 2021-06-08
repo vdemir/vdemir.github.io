@@ -120,7 +120,7 @@ Anne
 
 <div class="teaser clearfix"></div>
 <a id="C1"></a> 
-**x** adlı bir özdeğere sahip **MyClass** adlı bir sınıf/öbek oluşturun:
+**x**adlı bir özdeğere sahip **MyClass**adlı bir sınıf/öbek oluşturun:
 <div class="w3-code notranslate">
 {% highlight python %}
 class MyClass:
@@ -132,10 +132,10 @@ print(MyClass)
 
 <br>
  
-**Sınıf:** Uzakta bir kale duruyor. Birçok işlevi vardır - bir hendek vardır, duvarları vardır, şehri korur. İstilacıları dışarıda tutar.
+**Sınıf:**Uzakta bir kale duruyor. Birçok işlevi vardır - bir hendek vardır, duvarları vardır, şehri korur. İstilacıları dışarıda tutar.
  
 
-**Bir kale gibi:** Python'daki bir sınıfın işlevleri vardır (defs). Bir kale kasabayı koruyor. Bir sınıf verilerini korur. Sınıflar bir soyutlamadır.
+**Bir kale gibi:**Python'daki bir sınıfın işlevleri vardır (defs). Bir kale kasabayı koruyor. Bir sınıf verilerini korur. Sınıflar bir soyutlamadır.
 
 <br>
 
@@ -169,11 +169,17 @@ Hey bir yordam
 
 <br><br>
 
-<h4 id="C84"> Oluşturulduktan Sonra Sınıfların Değiştirilmesi</h4>
+<a id="C84"></a>
+ 
+ ***
+ 
+**Oluşturulduktan Sonra Sınıfların Değiştirilmesi**
+ 
+***
 <hr>
 
 
-Sınıf oluşturulduktan çok sonra ve sonradan eşleştirildikten sonra bile bir sınıf özniteliğini veya yordamını ekleyebilir, değiştirebilir veya silebilirsiniz. Sadece özniteliğe veya yordama **Class.attribute** olarak erişin. Ne zaman oluşturuldukları önemli değil, sınıfın özdeşleri bu değişikliklere saygı duyacaktır:
+Sınıf oluşturulduktan çok sonra ve sonradan eşleştirildikten sonra bile bir sınıf özniteliğini veya yordamını ekleyebilir, değiştirebilir veya silebilirsiniz. Sadece özniteliğe veya yordama **Class.attribute**olarak erişin. Ne zaman oluşturuldukları önemli değil, sınıfın özdeşleri bu değişikliklere saygı duyacaktır:
 
 
 <main class="grid">
@@ -211,12 +217,18 @@ Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşma
 
 <br><br>
 
-<h4 id="C81"> Sınıf Özdeşleri</h4><hr>
+<a id="C81"></a>
+ 
+ ***
+ 
+**Sınıf Özdeşleri**
+ 
+***<hr>
 
 Bir sınıfın özdeşi, bir Python öbeğidir ve her Python öbeğine benzer şekilde, şu özelliklere sahiptir: kimlik, öbek/nesne tipi, öznitelikler, yordamlar ve değeri.
 **(identity, object type, attributes, methods, and value)
 
-Bir sonraki açıklama için aşağıdaki sınıf tanımını kullanacağım. Öncelikle, **c** sınıfı ilan edelim, ve sonra **obj** olarak adlandırılan bu sınıfın bir özdeşini oluşturacağız.
+Bir sonraki açıklama için aşağıdaki sınıf tanımını kullanacağım. Öncelikle, **c**sınıfı ilan edelim, ve sonra **obj**olarak adlandırılan bu sınıfın bir özdeşini oluşturacağız.
 
  
 <main class="grid">
@@ -245,12 +257,12 @@ Out[3]: str
 </main>
 
 
-Kimlik[identity], öbek için ayrılan bellek konumudur. **id()** fonksiyonu kullanılarak tanımlanabilir.
+Kimlik[identity], öbek için ayrılan bellek konumudur. **id()**fonksiyonu kullanılarak tanımlanabilir.
 
 <div class="w3-code notranslate pythonHigh">
 id(obj)</div>
 
-Nesne tipi, öbeğin iç temsilidir. Her öbek için desteklenen yordam ve işlemi tanımlar. Belirli bir Nesnenin tipini öğrenmek için **type()** fonksiyonunu kullanabilirsiniz.
+Nesne tipi, öbeğin iç temsilidir. Her öbek için desteklenen yordam ve işlemi tanımlar. Belirli bir Nesnenin tipini öğrenmek için **type()**fonksiyonunu kullanabilirsiniz.
 
 <div class="w3-code notranslate pythonHigh">
 type(obj)<br>
@@ -265,15 +277,19 @@ Sonunda, bir nesnenin değeri bir örnekle daha iyi görselleştirilir.
 <div class="w3-code notranslate pythonHigh">
 obj.name = "Andre"</div>
 
-**'Andre'** dizesi, **obj** öbeğinin **name** özniteliğine atanan değerdir.
+**'Andre'**dizesi, **obj**öbeğinin **name**özniteliğine atanan değerdir.
 
 
 
 <br><br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C2"> Bir Python Nesnesi Oluşturma</h3><hr>
-Artık nesneleri oluşturmak için **myClass** adlı sınıfı kullanabiliriz:
+<h3 id="C2"></a>
+ 
+ ***
+ 
+**Bir Python Nesnesi Oluşturma</h3><hr>
+Artık nesneleri oluşturmak için **myClass**adlı sınıfı kullanabiliriz:
 
 <div class="w3-code">
 {% highlight python %} 
@@ -286,7 +302,11 @@ print(MyClass.x)
 </div>
 <br>
 <div class="teaser clearfix"></div>
-<h3 id="C3"> Sınıf Eşleme ile Nesne Oluşturma</h3><hr>
+<h3 id="C3"></a>
+ 
+ ***
+ 
+**Sınıf Eşleme ile Nesne Oluşturma</h3><hr>
  Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">init</code> yordamının kabul ettiği ifadeleri iletirsiniz:
 
 <div class="w3-code">
@@ -298,7 +318,11 @@ p1 = Person("John", 36)
 <br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C13"> Nesne Özniteliklerini Değiştirmek</h3><hr>
+<h3 id="C13"></a>
+ 
+ ***
+ 
+**Nesne Özniteliklerini Değiştirmek</h3><hr>
 Bu gibi nesnelerdeki öznitelikleri değiştirebilirsiniz:
 <p>p1'in yaşını 40'a ayarlayın:</p>
 
@@ -344,7 +368,11 @@ print(p1.age)
 <br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C14"> Nesne Özniteliklerini Silmek</h3><hr>
+<h3 id="C14"></a>
+ 
+ ***
+ 
+**Nesne Özniteliklerini Silmek</h3><hr>
 Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz:
 <p>age özniteliğini p1 nesnesinden silin:</p>
 
@@ -384,7 +412,11 @@ AttributeError: 'Person' object has no attribute 'age'
 
 <br>
 <div class="teaser clearfix"></div>
-<h3 id="C15"> Nesneleri Silmek</h3><hr>
+<h3 id="C15"></a>
+ 
+ ***
+ 
+**Nesneleri Silmek</h3><hr>
 Nesneleri <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz: 
 <p>p1 nesnesini silin:</p>
 
@@ -424,7 +456,11 @@ NameError: name 'p1' is not defined
 <br><br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C5"> Sınıf Öbekleri </h3><hr>
+<h3 id="C5"></a>
+ 
+ ***
+ 
+**Sınıf Öbekleri </h3><hr>
 Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnekleme. 
 
 Öznitelik referansları, Python: obj.name'deki tüm öznitelik referansları için kullanılan standart sözdizimini kullanır. Geçerli nesne adları, sınıf nesnesi oluşturulduğunda sınıfın ad alanındaki tüm adlardır. Yani, sınıf tanımı böyle görünüyorsa:
@@ -463,24 +499,24 @@ hello world
 </main>
  
 <br>
-sonra **MyClass.i** ve **MyClass.f**, sırasıyla bir tamsayı ve fonksiyon nesnesini döndüren geçerli öznitelik referanslarıdır. Sınıf öznitelikleri de atanabilir, böylece **MyClass.i**'nin değerini atama yoluyla değiştirebilirsiniz. **__doc__** ayrıca geçerli bir özniteliktir ve **'Basit bir örnek sınıf'** sınıfa ait olan docstring döndürür.
+sonra **MyClass.i**ve **MyClass.f**, sırasıyla bir tamsayı ve fonksiyon nesnesini döndüren geçerli öznitelik referanslarıdır. Sınıf öznitelikleri de atanabilir, böylece **MyClass.i**'nin değerini atama yoluyla değiştirebilirsiniz. **__doc__**ayrıca geçerli bir özniteliktir ve **'Basit bir örnek sınıf'**sınıfa ait olan docstring döndürür.
 
 Sınıf örnekleme, fonksiyon notasyonu kullanır. Sınıf nesnesinin,  sadece sınıfın yeni bir örneğini döndüren parametresiz bir fonksiyon olduğunu varsayalım. Örneğin (yukarıdaki sınıfı varsayarak):
 
 <div class="w3-code notranslate pythonHigh">
   x = MyClass() </div>
-sınıfın yeni bir örneklemini oluşturur ve bu nesneyi **x** yerel değişkenine atar.
+sınıfın yeni bir örneklemini oluşturur ve bu nesneyi **x**yerel değişkenine atar.
 
-Örneklem işlemi boş bir nesne oluşturur.(bir sınıf nesnesini çağırmak) Birçok sınıf, belirli bir başlangıç ​​durumuna göre özelleştirilmiş örneklemeler ile nesneler oluşturmayı sever. Bu nedenle, bir sınıf, **__init__()** adında özel bir yordam tanımlayabilir, bunun gibi: 
+Örneklem işlemi boş bir nesne oluşturur.(bir sınıf nesnesini çağırmak) Birçok sınıf, belirli bir başlangıç ​​durumuna göre özelleştirilmiş örneklemeler ile nesneler oluşturmayı sever. Bu nedenle, bir sınıf, **__init__()**adında özel bir yordam tanımlayabilir, bunun gibi: 
 <div class="w3-code notranslate pythonHigh">
   def __init__(self):<br> &nbsp; self.data = []</div>
 
-Bir sınıf/öbek bir **__init__()** yordamını tanımladığında, sınıf/öbek örneklemesi otomatik olarak yeni oluşturulmuş sınıf örneği için **__init__()** yordamını çağırır. . Bu örnekte, yeni başlatılmış bir örnekleme şu şekilde elde edilebilir: 
+Bir sınıf/öbek bir **__init__()**yordamını tanımladığında, sınıf/öbek örneklemesi otomatik olarak yeni oluşturulmuş sınıf örneği için **__init__()**yordamını çağırır. . Bu örnekte, yeni başlatılmış bir örnekleme şu şekilde elde edilebilir: 
 <div class="w3-code notranslate pythonHigh">
   x = MyClass() </div>
 
 
-Elbette **__init__()** yordamı daha fazla esneklik için argümanlara sahip olabilir. Bu durumda, sınıf/öbek örnekleme işlecine verilen argümanlar **__init__()** öğesine iletilir. Örneğin,
+Elbette **__init__()**yordamı daha fazla esneklik için argümanlara sahip olabilir. Bu durumda, sınıf/öbek örnekleme işlecine verilen argümanlar **__init__()**öğesine iletilir. Örneğin,
 
 <main class="grid">
   <article>
@@ -505,10 +541,14 @@ Out[1]: (3.0, -4.5)
 <br><br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C6"> Özdeş Öbekler</h3><hr>
+<h3 id="C6"></a>
+ 
+ ***
+ 
+**Özdeş Öbekler</h3><hr>
 Şimdi eşleşen nesnelerle ne yapabiliriz? Eşleşen nesneler ile anlaşılan yegane işlemler, öznitelik atıflarıdır. İki tür geçerli atıf ismi vardır; data öznitelikleri ve yordamları. 
 
-Data öznitelikleri, Smalltalk'daki “eşleşen öznitelikler” ve C++'daki “data elemanlarına” karşılık gelir. Data özniteliklerinin beyan edilmesine gerek yoktur; yerel öznitelikler gibi, ilk atandıklarında var olurlar. Örneğin, **x** yukarıda oluşturulan **MyClass** özniteliğiyse, aşağıdaki kod parçası bir iz bırakmadan değeri 16 yazdıracaktır:
+Data öznitelikleri, Smalltalk'daki “eşleşen öznitelikler” ve C++'daki “data elemanlarına” karşılık gelir. Data özniteliklerinin beyan edilmesine gerek yoktur; yerel öznitelikler gibi, ilk atandıklarında var olurlar. Örneğin, **x**yukarıda oluşturulan **MyClass**özniteliğiyse, aşağıdaki kod parçası bir iz bırakmadan değeri 16 yazdıracaktır:
 
 <div class="teaser clearfix"></div>
 <div class="w3-code notranslate">
@@ -528,18 +568,26 @@ del x.counter
 Diğer eşleşen öznitelik atıf türü bir yordamdır. Bir yordam, bir öbeğe “ait” bir fonksiyondur. (Python'da, yordam terimi, öbek eşleşmelerine özgü değildir: diğer öbek türleri de yordamlara sahip olabilir. Örneğin, liste öbekleri, append, insert, remove, sort adlı yordamları içerir. Ancak, aşağıdaki tartışmada, sadece aksi belirtilmedikçe sınıf yordamlarının eşleşen öbeklerinii belirtmek için deyim yordamını kullanacağız.) 
 
 
-Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım olarak, bir sınıfın tüm öznitelikleri, eşleşen yordamlarına karşılık tanımlanan fonksiyon öbekleridir. Yani bizim örneğimizde, **x.f** geçerli bir yordam atfıdır, çünkü **MyClass.f** bir fonksiyondur, fakat **x.i** fonksiyon değildir çünkü **MyClass.i** da değildir. Ama **x.f**, **MyClass.f** ile aynı şey değildir - **x.f**, bir fonksiyon nesnesi/öbeği değil, bir yordam öbeğidir.
+Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım olarak, bir sınıfın tüm öznitelikleri, eşleşen yordamlarına karşılık tanımlanan fonksiyon öbekleridir. Yani bizim örneğimizde, **x.f**geçerli bir yordam atfıdır, çünkü **MyClass.f**bir fonksiyondur, fakat **x.i**fonksiyon değildir çünkü **MyClass.i**da değildir. Ama **x.f**, **MyClass.f**ile aynı şey değildir - **x.f**, bir fonksiyon nesnesi/öbeği değil, bir yordam öbeğidir.
 
 <br> 
 
 <div class="teaser clearfix"></div>
-<h4> Özdeş Öbeğin Özniteliklerine Erişim</h4><hr>
+<a></a>
+ 
+ ***
+ 
+**Özdeş Öbeğin Özniteliklerine Erişim**
+ 
+***<hr>
 Nokta (.) operatörünü öbek ismi ile kullanarak erişebilirsiniz. Sınıf adı kullanarak da sınıf özdeğerlerine erişilebilir:
 <div class="w3-code notranslate pythonHigh">
   print(p1.x)<br>print(MyClass.x)</div>
 
 <div class="w3-panel w3-card w3-light-grey">
-  <h4>Özniteliklerin tanımı</h4>
+  <a>Özniteliklerin tanımı**
+ 
+***
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
@@ -564,11 +612,11 @@ xf = x.f<br>
 while True:<br>
    &nbsp; &nbsp;&nbsp;print(xf() </div>
 
-**merhaba dünya** zamanın sonuna kadar basmaya devam edecek. 
+**merhaba dünya**zamanın sonuna kadar basmaya devam edecek. 
 
-Bir yordam çağrıldığında tam olarak ne olur? **f()** fonksiyon tanımı bir argüman belirtmiş olsa bile, **x.f()** öğesinin bir argüman olmadan çağrıldığını fark etmiş olabilirsiniz. Argümana ne oldu? Kesinlikle Python argüman gerektiren bir fonksiyon çağrılmadan çağrılır - argüman aslında kullanılmasa bile…
+Bir yordam çağrıldığında tam olarak ne olur? **f()**fonksiyon tanımı bir argüman belirtmiş olsa bile, **x.f()**öğesinin bir argüman olmadan çağrıldığını fark etmiş olabilirsiniz. Argümana ne oldu? Kesinlikle Python argüman gerektiren bir fonksiyon çağrılmadan çağrılır - argüman aslında kullanılmasa bile…
 
-Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey vardır ki, özdeş öbek fonksiyonun ilk ifadesi olarak geçirilir. Örneğimizde, **x.f()** çağrısı tam olarak **MyClass.f(x)** öğesine eşdeğerdir. Genel olarak, n argümanlı bir listeden bir yordamı çağırmak, ilk argümandan önce yordamın özdeş öbeğini ekleyerek oluşturulan bir argüman listesine karşılık fonksiyonu çağırmaya eşdeğerdir. Eğer isim geçerli bir sınıf özniteliğini işaret ederse ki bir fonksiyon öbeğidir, bir yordam öbeği özdeş öbek paketlenerek oluşturulur ve fonksiyon öbeği sadece soyut bir öbek ile birlikte bulunur: bu yordam öbeğidir. Yordam öbeği bir argüman listesi ile çağrıldığında yeni bir argüman listesi, argüman listesi ve özdeş öbekten inşa edilir ve fonksiyon öbeği yeni bir argüman listesi ile çağrılır.
+Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey vardır ki, özdeş öbek fonksiyonun ilk ifadesi olarak geçirilir. Örneğimizde, **x.f()**çağrısı tam olarak **MyClass.f(x)**öğesine eşdeğerdir. Genel olarak, n argümanlı bir listeden bir yordamı çağırmak, ilk argümandan önce yordamın özdeş öbeğini ekleyerek oluşturulan bir argüman listesine karşılık fonksiyonu çağırmaya eşdeğerdir. Eğer isim geçerli bir sınıf özniteliğini işaret ederse ki bir fonksiyon öbeğidir, bir yordam öbeği özdeş öbek paketlenerek oluşturulur ve fonksiyon öbeği sadece soyut bir öbek ile birlikte bulunur: bu yordam öbeğidir. Yordam öbeği bir argüman listesi ile çağrıldığında yeni bir argüman listesi, argüman listesi ve özdeş öbekten inşa edilir ve fonksiyon öbeği yeni bir argüman listesi ile çağrılır.
 <br><br>
  
 
@@ -610,10 +658,12 @@ Her sınıfın, tüm görevlerin ve fonksiyon tanımlarının meydana geldiği k
 
 
 <br>
-<h4 id="C83">Öznitelik ve Yordam Varlığını Kontrol Etme</h4>
+<a id="C83">Öznitelik ve Yordam Varlığını Kontrol Etme**
+ 
+***
 <hr>
 
-Belirli bir sınıfın veya özdeşin, belirli bir öznitelik veya yordama sahip olup olmadığını bilmek gerekir mi? Yerleşik **'hasattr'** işlevini kontrol etmek için kullanabilirsiniz; kontrol etmek için nesneyi ve özniteliği (dizge olarak) kabul eder. Dict 'has_key' yöntemine benzer şekilde kullanıyorsunuz (tamamen farklı olsa da):
+Belirli bir sınıfın veya özdeşin, belirli bir öznitelik veya yordama sahip olup olmadığını bilmek gerekir mi? Yerleşik **'hasattr'**işlevini kontrol etmek için kullanabilirsiniz; kontrol etmek için nesneyi ve özniteliği (dizge olarak) kabul eder. Dict 'has_key' yöntemine benzer şekilde kullanıyorsunuz (tamamen farklı olsa da):
 
 
 <main class="grid">
@@ -644,9 +694,9 @@ Out[3]: False
   </article>
 </main>
 
-Ayrıca, yerleşik işlev **'getattr'** kullanarak  özniteliğin varlığını kontrol edebilir ve tek adımda erişebilirsiniz.
+Ayrıca, yerleşik işlev **'getattr'**kullanarak  özniteliğin varlığını kontrol edebilir ve tek adımda erişebilirsiniz.
 
-**getattr** ayrıca, öbek ve özniteliği kontrol etmek için bir string dize olarak kabul eder. Eğer öznitelik bulunamazsa, varsayılanı veren isteğe bağlı üçüncü ifadeye sahiptir. Daha fazla aşina olabileceğiniz **dict**'ın **'get'** yordamından farklı olarak, varsayılan değer verilmediyse ve öznitelik bulunamadıysa, bir **AttributeError** oluşturulur:
+**getattr**ayrıca, öbek ve özniteliği kontrol etmek için bir string dize olarak kabul eder. Eğer öznitelik bulunamazsa, varsayılanı veren isteğe bağlı üçüncü ifadeye sahiptir. Daha fazla aşina olabileceğiniz **dict**'ın **'get'**yordamından farklı olarak, varsayılan değer verilmediyse ve öznitelik bulunamadıysa, bir **AttributeError**oluşturulur:
 
 
 <main class="grid">
@@ -679,11 +729,13 @@ AttributeError: type object <br>
 
 
 
-Aşırı **hasattr** ve **getattr** kullanmayın. Sınıfınızı, bir özniteliğin var olup olmadığını kontrol etmeye devam etmeniz gereken bir şekilde yazmışsanız, yanlış yazmışsınız demektir. Sadece her zaman var olan değere sahip olur ve kullanılmıyorsa **None** (ya da her neyse) olarak ayarlayın. Bu fonksiyonlar en iyi şekilde çokbiçimliliği ele almak için kullanılır, Yani, fonksiyonunuzu / sınıfınızı / öbeklerin farklı türlerini desteklemenizi sağlar.
+Aşırı **hasattr**ve **getattr**kullanmayın. Sınıfınızı, bir özniteliğin var olup olmadığını kontrol etmeye devam etmeniz gereken bir şekilde yazmışsanız, yanlış yazmışsınız demektir. Sadece her zaman var olan değere sahip olur ve kullanılmıyorsa **None**(ya da her neyse) olarak ayarlayın. Bu fonksiyonlar en iyi şekilde çokbiçimliliği ele almak için kullanılır, Yani, fonksiyonunuzu / sınıfınızı / öbeklerin farklı türlerini desteklemenizi sağlar.
 
 
 <br>
-<h4 id="C861">Öznitelikler</h4>
+<a id="C861">Öznitelikler**
+ 
+***
 <hr>
 Python'daki sınıf düzeyinde tanımlanan tüm öznitelikler statik kabul edilir. Bu örneğe bakın:
 
@@ -759,7 +811,9 @@ Statik yöntemler, sınıfın herhangi bir eşleneğine başvurmaz ve dışında
 
 
 <br>
-<h4 id="C862">Özdeş, Sınıf ve Statik Yordamlar</h4>
+<a id="C862">Özdeş, Sınıf ve Statik Yordamlar**
+ 
+***
 <hr>
 
 Statik yordamlarla biraz daha karmaşık hale gelir. Python'da, bir sınıf içindeki statik yordamları tanımlamanın iki yolu vardır.
@@ -818,30 +872,34 @@ MyClass.method()
 </main>
 
 <br>
-<h4 id="C865">Özdeş Yordamlar</h4>
+<a id="C865">Özdeş Yordamlar**
+ 
+***
 <h6>Instance Methods</h6>
 <hr>
 
 Method denilen **```MyClass```**'taki ilk yordam, normal bir eşleşen yordamdır.
-Bu, çoğu zaman kullanacağınız temel, asgari ihtiyaçları karşılamaya yönelik yordam tipidir. Yordamın bir parametre **```self```** aldığını görebilirsiniz, yordam çağrıldığında **```MyClass```** eşleneğine işaret eder. (ama elbette özdeş yordamlar sadece bir parametreden fazlasını kabul edebilir).
+Bu, çoğu zaman kullanacağınız temel, asgari ihtiyaçları karşılamaya yönelik yordam tipidir. Yordamın bir parametre **```self```**aldığını görebilirsiniz, yordam çağrıldığında **```MyClass```**eşleneğine işaret eder. (ama elbette özdeş yordamlar sadece bir parametreden fazlasını kabul edebilir).
 
-**```self```** parametresi aracılığıyla, eşlenen yordamlar, aynı öbek üzerindeki özniteliklere ve diğer yordamlara serbestçe erişebilir.Bu, bir öbeğin durumunu değiştirmeye sıra geldiğinde onlara çok fazla güç verir.
+**```self```**parametresi aracılığıyla, eşlenen yordamlar, aynı öbek üzerindeki özniteliklere ve diğer yordamlara serbestçe erişebilir.Bu, bir öbeğin durumunu değiştirmeye sıra geldiğinde onlara çok fazla güç verir.
 
-Onlar sadece öbeğin durumunu değiştirmezler, özdeş yordamlar, sınıfın kendisine **```self .__class__```** özniteliği aracılığıyla da erişebilir. Bu, eşlenen yordamların sınıf durumunu da değiştirebileceği anlamına gelir.
+Onlar sadece öbeğin durumunu değiştirmezler, özdeş yordamlar, sınıfın kendisine **```self .__class__```**özniteliği aracılığıyla da erişebilir. Bu, eşlenen yordamların sınıf durumunu da değiştirebileceği anlamına gelir.
 
 <br><br>
 
-<h4 id="C868">Sınıf Yordamları Oluşturma</h4>
+<a id="C868">Sınıf Yordamları Oluşturma**
+ 
+***
 <hr>
 
 Bazen bir sınıf yazarken, sınıftan çağrılan bir fonksiyonu dahil etmek istersiniz, özdeşini değil. Belki bu yordam yeni özdeşler oluşturur veya belki de herhangi bir özel özdeşin herhangi bir özniteliğinden bağımsızdır. Python, yordamınızın, hangi sınıfın çağırdığını bilmesi gerektiğine (ya da bilmesine) bağlı olarak, bunu yapmanın iki yolunu size verir. Her ikisi de yordamlarınıza dekoratörler uygulamasını içerir. 
 
-Düzgün bir  özdeş yordam ilk ifade olarak özdeşi aldığı gibi bir **'sınıf yordamı'** ilk ifade olarak sınıfı alır. Böylece yordam, kendi sınıfından veya bir alt sınıfından çağrılıyorsa farkındadır.
+Düzgün bir  özdeş yordam ilk ifade olarak özdeşi aldığı gibi bir **'sınıf yordamı'**ilk ifade olarak sınıfı alır. Böylece yordam, kendi sınıfından veya bir alt sınıfından çağrılıyorsa farkındadır.
 
-Bir **'statik yordam'** nereden çağrıldığı hakkında hiçbir bilgi alamaz; 
-**'Statik yöntem'** nerede denir; bu aslında normal bir fonksiyonudur, sadece farklı bir kapsam içinde.
+Bir **'statik yordam'**nereden çağrıldığı hakkında hiçbir bilgi alamaz; 
+**'Statik yöntem'**nerede denir; bu aslında normal bir fonksiyonudur, sadece farklı bir kapsam içinde.
 
-Sınıf ve statik yordamlar, sınıftan, **Class.method()** olarak veya **Class().method()** olarak bir özdeşten  doğrudan çağrılabilir. Kendi sınıfı hariç özdeş göz ardı edilir. İşte düzgün bir özdeş yordam ile birlikte her biri için bir örnek:
+Sınıf ve statik yordamlar, sınıftan, **Class.method()**olarak veya **Class().method()**olarak bir özdeşten  doğrudan çağrılabilir. Kendi sınıfı hariç özdeş göz ardı edilir. İşte düzgün bir özdeş yordam ile birlikte her biri için bir örnek:
 
 <main class="grid">
   <article>
@@ -901,24 +959,28 @@ I was called from the instance <__main__.Class object at 0x7f6854953748>
 
 <br>
 
-<h4 id="C866">Sınıf Yordamları</h4>
+<a id="C866">Sınıf Yordamları**
+ 
+***
 <h6>Class Methods</h6>
 <hr>
 
-Bunu ikinci yordam olan **```MyClass.classmethod```** ile karşılaştıralım. Onu bir sınıf yordamı olarak işaret etmek için bu yordamı **```@classmethod```** dekoratörüyle işaretledim.
+Bunu ikinci yordam olan **```MyClass.classmethod```**ile karşılaştıralım. Onu bir sınıf yordamı olarak işaret etmek için bu yordamı **```@classmethod```**dekoratörüyle işaretledim.
 
-Bir **```self```** parametresini kabul etmek yerine, sınıf yordamları bir **```cls```** parametresi alır, yordam çağrıldığında -öbek eşleneğine değil- sınıfa işaret eder.
+Bir **```self```**parametresini kabul etmek yerine, sınıf yordamları bir **```cls```**parametresi alır, yordam çağrıldığında -öbek eşleneğine değil- sınıfa işaret eder.
 
-Çünkü sınıf yordamı sadece bu **```cls```** argümanına erişebilir, öbek eşleneğinin durumunu değiştiremez. Bu **```self```**'e erişim gerektirecektir. Ancak, sınıf yordamları hala sınıf durumunu değiştirebilir ki sınıfın tüm özdeşlerine uygulanır.
+Çünkü sınıf yordamı sadece bu **```cls```**argümanına erişebilir, öbek eşleneğinin durumunu değiştiremez. Bu **```self```**'e erişim gerektirecektir. Ancak, sınıf yordamları hala sınıf durumunu değiştirebilir ki sınıfın tüm özdeşlerine uygulanır.
 
 <br><br>
-<h4 id="C867">Statik Yordamlar</h4>
+<a id="C867">Statik Yordamlar**
+ 
+***
 <h6>Static Methods</h6>
 <hr>
 
-Üçüncü yöntem, bir statik yordam olarak işaret etmek için **```MyClass.staticmethod```** bir **```@staticmethod```** dekoratör ile işaretlendi.
+Üçüncü yöntem, bir statik yordam olarak işaret etmek için **```MyClass.staticmethod```**bir **```@staticmethod```**dekoratör ile işaretlendi.
 
-Bu tip bir yordam ne **```self```** ne de bir **```cls```** parametresini alır (ama tabii ki, diğer parametrelerin rastgele sayısını kabul etmekte serbesttir).
+Bu tip bir yordam ne **```self```**ne de bir **```cls```**parametresini alır (ama tabii ki, diğer parametrelerin rastgele sayısını kabul etmekte serbesttir).
 
 Bu nedenle, statik bir yordam, öbek durumunu ve sınıf durumunu değiştiremez. Statik yordamlar, verilerde erişebilecekleri şeyleri sınırlandırır ve esas olarak yordamlarınızı adlandırmak için bir yoldur.
 
@@ -1013,7 +1075,9 @@ Hangisini kullanmalısın? İlk seçenek, yalnızca aynı sınıftaki statik öz
 
 
 <br>
-<h4 id="C88">Sınıf Öznitelikleri 1</h4>
+<a id="C88">Sınıf Öznitelikleri 1**
+ 
+***
 <hr>
 
 Bazı öznitelik değerleri, verilen bir sınıfın tüm öbeklerinde paylaşılır. Bu öznitelikler, sınıfın herhangi bir tek özdeşinden ziyade sınıfın kendisi ile ilişkilendirilir. Örneğin, bir bankanın hesap bakiyesine sabit faiz oranından faiz ödediğini söyleyelim. Bu faiz oranı değişebilir, ancak tüm hesaplarda paylaşılan tek bir değerdir. 
@@ -1064,9 +1128,9 @@ Gördüğümüz gibi, bir nokta ifadeleri; bir ifadeden, bir noktadan ve bir isi
 
 Nokta ifadesini değerlendirmek için:
 
-1. Nokta ifadesinin öbeğini veren noktanın solundaki **expression** değerlendirmesi.
+1. Nokta ifadesinin öbeğini veren noktanın solundaki **expression**değerlendirmesi.
 2. **name**, bu öbeğin özdeş nitelikleriyle eşleşir; Bu ada sahip bir öznitelik varsa, değeri döndürülür.
-3. Özdeş öznitelikleri arasında **name** görünmezse, sonra **name**, bir sınıf öznitelik değerini veren sınıfta  gözükür.
+3. Özdeş öznitelikleri arasında **name**görünmezse, sonra **name**, bir sınıf öznitelik değerini veren sınıfta  gözükür.
 4. Bir fonksiyon olmadığı sürece bu değer döndürülür, bu durumda, bunun yerine bir ilişkili yordam döndürülür.
 
 Bu değerlendirme prosedüründe, özdeş nitelikleri, sınıf özniteliklerinden önce bulunur, tıpkı yerel isimlerin bir ortamda küresel önceliğe sahip olması gibi. Sınıf içinde tanımlanan yordamlar, bu değerlendirme prosedürünün üçüncü aşaması sırasında nokta ifadesinin öbeğine bağlanır. Bir sınıfta bir isme bakma prosedürü, sınıf mirasını sunduğumuzda, kısa zamanda ortaya çıkacak ek nüanslara sahiptir.
@@ -1085,7 +1149,7 @@ jim_account.interest<br>
 
 Bununla birlikte, sınıf özniteliği, diğer tüm hesaplar için döndürülen orijinal değerini hala korur.
 
-Sınıf özniteliğindeki değişiklikler **tom_account**'ı etkiler, ancak **jim_account** için özdeş özniteliği etkilenmez.
+Sınıf özniteliğindeki değişiklikler **tom_account**'ı etkiler, ancak **jim_account**için özdeş özniteliği etkilenmez.
 
 Account.interest = 0.05 # sınıf özniteliğini değiştirme
 
@@ -1101,7 +1165,9 @@ jim_account.interest <br>
 
 <br><br>
 
-<h4 id="C89"> Sınıf Öznitelikleri 2</h4><hr>
+<a id="C89"> Sınıf Öznitelikleri 2**
+ 
+***<hr>
 Sınıf öznitelikleri, tüm özdeşlerle paylaşılacakları sınıfa aittir. Bu öznitelikler, okunabilirlik için genellikle üst kısımdaki sınıf gövdesi parçalarında tanımlanmaktadır.
 
 <br>
@@ -1143,14 +1209,16 @@ Out [1]: <br>
   </article>
 </main>
 <br>
-<h4 id="C90">Özdeş Öznitelikleri</h4><hr>
+<a id="C90">Özdeş Öznitelikleri**
+ 
+***<hr>
 
 Sınıf özniteliklerinden farklı olarak, özdeş öznitelikleri öbekler tarafından paylaşılmaz. Her öbeğin, özdeş özniteliğinin kendi kopyası vardır (Sınıf öniteliklerinin durumunda, tüm nesneler tek kopyaya başvurur).
 
 Bir özdeşin / öbeğin özniteliklerini listelemek için iki fonksiyonumuz vardır: -
 
-1. **vars()** - Bu fonksiyon, bir özdeşin özniteliğini bir sözlük biçiminde görüntüler.
-2. **dir()** - Bu fonksiyon, özdeşle sınırlı olmadığı için vars fonksiyonundan daha fazla nitelik gösterir. Sınıf özniteliklerini de gösterir.
+1. **vars()**- Bu fonksiyon, bir özdeşin özniteliğini bir sözlük biçiminde görüntüler.
+2. **dir()**- Bu fonksiyon, özdeşle sınırlı olmadığı için vars fonksiyonundan daha fazla nitelik gösterir. Sınıf özniteliklerini de gösterir.
 
 <br>
  
@@ -1184,7 +1252,9 @@ Dictionary form : {'salary': 4000, 'name': 'xyz'} <br>
 </main>
 
 <br>
-<h4 id="C91">Sınıf ve Öbek öznitelikler</h4><hr>
+<a id="C91">Sınıf ve Öbek öznitelikler**
+ 
+***<hr>
 
 Daha önce sınıfların ve nesnelerin işlevselliğini ele aldık (ör. Yordamlar), şimdi veri kısmı hakkında bilgi verelim. Veri kısmı, yani alanlar, sınıfların ve öbeklerin ad alanlarına bağlı olan sıradan özniteliklerden başka bir şey değildir. Bu, bu adların yalnızca bu sınıflar ve öbekler bağlamında geçerli olduğu anlamına gelir. Bu yüzden isim alan adı verilir.
 
@@ -1441,9 +1511,9 @@ Hello my name is John
 <div class="w3-code notranslate pythonHigh">
 <strong>Not:</strong>  <code class="w3-codespan">init</code> bir sınıfın kurucusudur aslında başlatıcıdır. <code class="w3-codespan">init</code> yordamı, nesnenin belleğinin tahsis edildiği anda çağrılır.</div>
 
-Python sınıflarında özel bir önemi olan birçok yöntem ismi vardır. **init** yönteminin önemini şimdi göreceğiz.
+Python sınıflarında özel bir önemi olan birçok yöntem ismi vardır. **init**yönteminin önemini şimdi göreceğiz.
 
-**init** yordamı, bir sınıfın öbeği eşlendiğinde (yani oluşturulduğunda) çalıştırılır. Yordam, öbeğinizle yapmak istediğiniz herhangi bir eşleme işlemini yapmak için kullanışlıdır.(ilk değerleri nesnenize iletmek gibi). Adının başında ve sonunda çift alt çizgilere dikkat edin.
+**init**yordamı, bir sınıfın öbeği eşlendiğinde (yani oluşturulduğunda) çalıştırılır. Yordam, öbeğinizle yapmak istediğiniz herhangi bir eşleme işlemini yapmak için kullanışlıdır.(ilk değerleri nesnenize iletmek gibi). Adının başında ve sonunda çift alt çizgilere dikkat edin.
 
 
 <main class="grid">
@@ -1472,14 +1542,16 @@ Hello, my name is Swaroop
   </article>
 </main> 
 <br>
-<h4>Nasıl çalışır</h4><hr>
-Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) olarak tanımlarız. Burada sadece name olarak da adlandırılan yeni bir alan yaratıyoruz. İkisi de 'name' olarak adlandırılsalar bile, bunlar iki farklı özniteliklerdir. Noktalı notasyon **self.name**, **'self'** olarak adlandırılan öbeğin bir parçası olan **'name'** adında bir şey olduğu anlamına gelir ve diğer **name** yerel bir değişkendir. Açıklamakta olduğumuz **name** açıkça belirttiğimizden karışıklık yok.
+<a>Nasıl çalışır**
+ 
+***<hr>
+Burada, **__init__**yordamını bir parametre ismi (olağan self ile birlikte) olarak tanımlarız. Burada sadece name olarak da adlandırılan yeni bir alan yaratıyoruz. İkisi de 'name' olarak adlandırılsalar bile, bunlar iki farklı özniteliklerdir. Noktalı notasyon **self.name**, **'self'**olarak adlandırılan öbeğin bir parçası olan **'name'**adında bir şey olduğu anlamına gelir ve diğer **name**yerel bir değişkendir. Açıklamakta olduğumuz **name**açıkça belirttiğimizden karışıklık yok.
 
-**Person** sınıfı için yeni özdeş **p** oluştururken, sınıf adını kullanarak bunu yaparız, ardından parantez içindeki argümanlar takip edilir: **p = Person('Swaroop')**.
+**Person**sınıfı için yeni özdeş **p**oluştururken, sınıf adını kullanarak bunu yaparız, ardından parantez içindeki argümanlar takip edilir: **p = Person('Swaroop')**.
 
-**__init__** yöntemini açıkça aramadık. Bu yordamın özel anlamı vardır.
+**__init__**yöntemini açıkça aramadık. Bu yordamın özel anlamı vardır.
 
-Şimdi, **self.name** alanını **say_hi** yordamında gösterilen yordamlarımızda kullanabiliyoruz.
+Şimdi, **self.name**alanını **say_hi**yordamında gösterilen yordamlarımızda kullanabiliyoruz.
 
 <br>
 
@@ -1519,20 +1591,22 @@ Hello my name is John
 <div class="w3-code notranslate pythonHigh">
 <strong>Not:</strong> <code class="w3-codespan">self</code> parametresi, sınıfa ait bir referanstır ve sınıfa ait özniteliklere erişmek için kullanılır.</div>
 
-Sınıf yordamları, sıradan fonksiyonlardan yalnızca belirli bir fark içerirler - parametre listesinin başına eklenmesi gereken fazladan bir ilk ada sahip olmaları gerekir, ancak yordamı çağırdığınızda bu parametre için bir değer vermezsiniz, Python bunu sağlayacaktır. Bu özel değişken, öbeğin kendisine atıfta bulunur ve sözleşmeye göre, kendisine **self** ad verilir.
+Sınıf yordamları, sıradan fonksiyonlardan yalnızca belirli bir fark içerirler - parametre listesinin başına eklenmesi gereken fazladan bir ilk ada sahip olmaları gerekir, ancak yordamı çağırdığınızda bu parametre için bir değer vermezsiniz, Python bunu sağlayacaktır. Bu özel değişken, öbeğin kendisine atıfta bulunur ve sözleşmeye göre, kendisine **self**ad verilir.
 
-Her ne kadar bu parametre için herhangi bir isim verseniz de, **self** ismini kullanmanız şiddetle tavsiye edilir. Standart bir ad kullanmanın birçok avantajı vardır - programınızın herhangi bir okuyucusu bunu hemen tanıyacaktır ve **self** kullanırsanız uzmanlaşmış IDE'ler (Entegre Geliştirme Ortamları) size yardımcı olabilir.
+Her ne kadar bu parametre için herhangi bir isim verseniz de, **self**ismini kullanmanız şiddetle tavsiye edilir. Standart bir ad kullanmanın birçok avantajı vardır - programınızın herhangi bir okuyucusu bunu hemen tanıyacaktır ve **self**kullanırsanız uzmanlaşmış IDE'ler (Entegre Geliştirme Ortamları) size yardımcı olabilir.
 
 <div class="w3-code notranslate pythonHigh">
 <strong>Not:</strong> Python'daki self, C ++'daki bu pointer ve Java ve C'deki bu referansa eşdeğerdir.</div>
 
- Python'un **self** için nasıl bir değer verdiğini ve neden bunun için bir değer vermeniz gerekmediğini merak etmelisiniz. Bir örnek bunu açıklığa kavuşturur. **MyClass** adlı bir sınıfınız olduğunu ve bu sınıfın bir özdeşinin **myobject** olarak adlandırdığınızı varsayalım. Bu nesnenin yordamını **myobject.method(arg1, arg2)** olarak çağırdığınızda, bu otomatik olarak Python tarafından **MyClass.method(myobject, arg1, arg2)** 'ye dönüştürülür - bu, tüm özel **self** hakkındadır.
+ Python'un **self**için nasıl bir değer verdiğini ve neden bunun için bir değer vermeniz gerekmediğini merak etmelisiniz. Bir örnek bunu açıklığa kavuşturur. **MyClass**adlı bir sınıfınız olduğunu ve bu sınıfın bir özdeşinin **myobject**olarak adlandırdığınızı varsayalım. Bu nesnenin yordamını **myobject.method(arg1, arg2)**olarak çağırdığınızda, bu otomatik olarak Python tarafından **MyClass.method(myobject, arg1, arg2)**'ye dönüştürülür - bu, tüm özel **self**hakkındadır.
 
 Bu aynı zamanda, hiçbir argüman almayan bir yordamınız varsa, o zaman hala tek bir argümana sahip olmanız gerektiği anlamına gelir - **self**.
  
 <br>
 
-<h4 id="C82">El Yordamı ile 'self' Geçirme</h4>
+<a id="C82">El Yordamı ile 'self' Geçirme**
+ 
+***
 <hr>
 Yordamlar, bir özdeşden çağrıldığında, ilk ifade olarak (genellikle 'self' olarak çağrılır) bu özdeşe geçirilen normal fonksiyonlardır. Herhangi bir nedenle fonksiyonu bir özdeşden çağırmıyorsanız, özdeşe her zaman ilk ifade olarak el ile geçirebilirsiniz. Örneğin:
 
@@ -1575,11 +1649,11 @@ Dahili olarak, bu ifadeler tamamen aynıdır.
 <h3 id="C12">super fonksiyonu</h3><hr>
 **super([type[, object-or-type]])**
 
-Bir ebeveyn veya kardeş sınıfına yordam çağrıları veren bir temsili öbeği döndürür. Bu, bir sınıfta geçersiz kılınan devralınan yordamlara erişmek için kullanışlıdır. Arama sırası, **type**'ın kendisinin atlanması dışında **getattr()** tarafından kullanılanla aynıdır.
+Bir ebeveyn veya kardeş sınıfına yordam çağrıları veren bir temsili öbeği döndürür. Bu, bir sınıfta geçersiz kılınan devralınan yordamlara erişmek için kullanışlıdır. Arama sırası, **type**'ın kendisinin atlanması dışında **getattr()**tarafından kullanılanla aynıdır.
 
 super için iki tipik kullanım durumu vardır. Tek bir kalıtımı olan bir sınıf hiyerarşisinde, super, açık bir şekilde adlandırmadan üst sınıflara başvurmak için kullanılabilir, bu nedenle kodu daha sürdürülebilir hale getirmektedir. Bu kullanım diğer programlama dillerinde süper kullanımı ile paralellik gösterir.
 
-**super()**, Bir sınıfta geçersiz kılınan kalıtsal yordamlara erişmek için kullanılabilecek yerleşik bir fonksiyondur. **super()** sadece yeni stil sınıfları için çalışır; Tek bir kalıtımla bir sınıf hiyerarşisinde, **super()**, üst sınıflara açıkça ad vermeden başvurmak için kullanılabilir, böylece kodu daha fazla kullanılabilir hale getirir.
+**super()**, Bir sınıfta geçersiz kılınan kalıtsal yordamlara erişmek için kullanılabilecek yerleşik bir fonksiyondur. **super()**sadece yeni stil sınıfları için çalışır; Tek bir kalıtımla bir sınıf hiyerarşisinde, **super()**, üst sınıflara açıkça ad vermeden başvurmak için kullanılabilir, böylece kodu daha fazla kullanılabilir hale getirir.
 
 
 
@@ -1616,7 +1690,7 @@ Derived class method
   </article>
 </main>
 
-Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, **super(Child, self).printlnfo()** biçiminde **super()** yordamı kullanılır; burada taban sınıfının adı belirtilmemiştir. Diğer yol, **Parent.printlnfo(self)** kullanılarak olurdu.
+Yukarıdaki örnekte, ana sınıfın **printlnfo()**yordamına erişmek için, **super(Child, self).printlnfo()**biçiminde **super()**yordamı kullanılır; burada taban sınıfının adı belirtilmemiştir. Diğer yol, **Parent.printlnfo(self)**kullanılarak olurdu.
  
 <br>
 
@@ -1682,19 +1756,23 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
 
 <br>
 
-**Liste.** Bir ağaç büyüdükçe odun katmanları eklenir. Mevsimler ve sıcaklıklar büyümesini etkiler. Halkalar bir liste olarak temsil edilebilir.
+**Liste.**Bir ağaç büyüdükçe odun katmanları eklenir. Mevsimler ve sıcaklıklar büyümesini etkiler. Halkalar bir liste olarak temsil edilebilir.
 
 <br>
-<h5 id="C291"> append kullanan Python programı</h5><hr>
+<h5 id="C291"></a>
+ 
+ ***
+ 
+**append kullanan Python programı</h5><hr>
 
-**Öğeler eklenebilir,** döngülenebilir veya sıralanabilir. Listeler diğer yapılarla birleştirilebilir. Bir ağaç gibi, listeyi büyütmek için elemanlar (katmanlar) ekliyoruz.
+**Öğeler eklenebilir,**döngülenebilir veya sıralanabilir. Listeler diğer yapılarla birleştirilebilir. Bir ağaç gibi, listeyi büyütmek için elemanlar (katmanlar) ekliyoruz.
 
-**Bir örnek.** Bir liste kapasitesini yönetir. Boş bir listeyle başlıyoruz. Ancak, onları ekledikçe sayılara uyacak şekilde genişler. Listeye eklediğimiz 4 öğe bu sırada saklanır. 
+**Bir örnek.**Bir liste kapasitesini yönetir. Boş bir listeyle başlıyoruz. Ancak, onları ekledikçe sayılara uyacak şekilde genişler. Listeye eklediğimiz 4 öğe bu sırada saklanır. 
 
-**İpucu:** 
+**İpucu:**
 Sözlüğün aksine, Sıra bir listede garanti edilir. Liste sıralı bir koleksiyondur. 
 
-**append:** 
+**append:**
 Bu yordam, liste özdeşinde (None ifadesine eşit olmamalıdır) çağrılır. Eklediğimiz değeri alır.
 
 <main class="grid">
@@ -1749,12 +1827,12 @@ print(list)
 <br>
 <h5 id="C293">extend kullanan Python programı</h5><hr>
 
-**Extend.** Bir liste extend() ile başka bir listeye eklenebilir. Bu yüzden bir listeyi sonuna kadar başka bir liste içerecek şekilde genişletiyoruz. Listeleri arda arda bağlarız (birleştiririz). 
+**Extend.**Bir liste extend() ile başka bir listeye eklenebilir. Bu yüzden bir listeyi sonuna kadar başka bir liste içerecek şekilde genişletiyoruz. Listeleri arda arda bağlarız (birleştiririz). 
 
-**Dikkat:** 
+**Dikkat:**
 Bir liste eklemek için append() öğesini çağırmaya çalışırsak, yeni listenin tamamı sonuç listesinin tek bir öğesi olarak eklenecektir. 
 
-**İpucu:** 
+**İpucu:**
 Başka bir seçenek, bir for döngüsü kullanmak veya listeyi arda arda bağlayarak (genişletmek) için aralık sözdizimini kullanmaktır.
 
 <main class="grid">
@@ -1783,7 +1861,7 @@ print(a)
 <br>
 <h5 id="C294">len kullanan Python programı</h5><hr>
 
-**Len.** Bir liste belirli sayıda eleman içerir. Boşsa bu sıfır olabilir. Dahili bir yordam olan len ile eleman sayısına erişiriz.
+**Len.**Bir liste belirli sayıda eleman içerir. Boşsa bu sıfır olabilir. Dahili bir yordam olan len ile eleman sayısına erişiriz.
 
 <main class="grid">
   <article>
@@ -1845,9 +1923,9 @@ if "marker" not in items:
 <br>
 <h5 id="C296">Sıralayan ve tersine çeviren Python programı</h5><hr>
 
-**Sort, reverse.** Listeler, öğelerinin sırasını muhafaza eder. Ve yeniden düzenlenebilirler. Sıralama yordamıyla, öğelerin sırasını düşükten yükseğe doğru değiştiririz. 
+**Sort, reverse.**Listeler, öğelerinin sırasını muhafaza eder. Ve yeniden düzenlenebilirler. Sıralama yordamıyla, öğelerin sırasını düşükten yükseğe doğru değiştiririz. 
 
-**Ve:** 
+**Ve:**
 Tersine, öğelerin güncel sırasını tersine çeviririz. sort ve reverse tekrar birleştirebilir (tersine çevrilmiş bir sıralama için).
 <main class="grid">
   <article>
@@ -1881,12 +1959,12 @@ print(list)
 <br>
 <h5 id="C297">lambda, def ile sıralanan Python programı</h5><hr>
 
-**Sort, key.** Bazen listedeki öğeler belirli bir şekilde sıralanmalıdır. Burada, liste karakterlerini son karakterlerine ve ardından ikinci karakterlerine göre sıralarız. 
+**Sort, key.**Bazen listedeki öğeler belirli bir şekilde sıralanmalıdır. Burada, liste karakterlerini son karakterlerine ve ardından ikinci karakterlerine göre sıralarız. 
 
-**Def:** 
+**Def:**
 Örnek önce sıralamak için key argümanı olarak bir def yordamını kullanır. -key equals- 'Anahtar eşittir' bölümü belirtilmelidir. 
 
-**Lambda:** 
+**Lambda:**
 Son olarak öğeleri sıralamak için alternatif bir sözdizimi formu, lambda ifadesi sunuyoruz. Bu ikinci -char- karakterini hedefler.
 	
 
@@ -1924,12 +2002,12 @@ print(values)
 <br>
 <h5 id="C298">Öğeleri kaldıran Python programı</h5><hr>
 
-**Remove, del.** Bir değer üzerinde hareket eder. Önce bu değeri arar ve sonra kaldırır. Öğeler (bir -index- sırada) del ifadesiyle de kaldırılabilir.
+**Remove, del.**Bir değer üzerinde hareket eder. Önce bu değeri arar ve sonra kaldırır. Öğeler (bir -index- sırada) del ifadesiyle de kaldırılabilir.
  
-**Remove::** 
+**Remove::**
 Bu listedeki ilk eşleşen öğeyi dışarı alır. Bunu birkaç kez çağırabiliriz ve listeyi değiştirmeye devam edebilir. 
 
-**Del:** 
+**Del:**
 Bu arada, öğeleri sıradan veya bir dizi grubunundan kaldırır. Del, -slice- dilim sözdizimini kullanır.
 
 <main class="grid">
@@ -1994,12 +2072,12 @@ butterfly
 <br>
 <h5 id="C300">list kapsamı kullanan Python programı</h5><hr>
 
-**Listeyi kapsamı** tek bir ifadede tüm döngüyü ifade eder. Bu örnekte bir listeyi HTML dizgileri listesine çevirmek için liste kapsamayı kullanıyoruz. 
+**Listeyi kapsamı**tek bir ifadede tüm döngüyü ifade eder. Bu örnekte bir listeyi HTML dizgileri listesine çevirmek için liste kapsamayı kullanıyoruz. 
 
-**Burada:** 
+**Burada:**
 Giriş listesindeki her dizgeye html yöntemini uygularız. Bu, capitalize() çağırır ve bir HTML parçasını döndürür. 
 
-**Tanımlayıcı:** 
+**Tanımlayıcı:**
 Bu listedeki kapsamda, her dizgeye 'x' tanımlayıcısı verilir. Listedeki her öğeye Html() denir.
 
 <main class="grid">
@@ -2026,15 +2104,15 @@ print(list)
   </article>
 </main>
 
-**Liste Kapsamı, notlar.** Liste kapsamında, bir koleksiyondaki her bir öğeye bir yöntem veya başka bir işlem uygularız. Bu son derece güçlüdür. 
+**Liste Kapsamı, notlar.**Liste kapsamında, bir koleksiyondaki her bir öğeye bir yöntem veya başka bir işlem uygularız. Bu son derece güçlüdür. 
 
-**Ve:** 
+**Ve:**
 Sözdizimi kısadır, programcılar için okumayı ve taramayı kolaylaştırır. Sıkıcı for döngülerinden kaçınırız.
 
 <br>
 <h5 id="C301">Örnek kopya bildirimi: Python</h5><hr>
 
-**Kopya.** Bir dilim sözdizimi kullanılarak bir liste kopyalanır. Dilimde rakam belirtmediğimizde, tüm listeyi kapsar. Bu nedenle, belirtilmemiş bir dilime atanarak, listeyi kopyalarız. 
+**Kopya.**Bir dilim sözdizimi kullanılarak bir liste kopyalanır. Dilimde rakam belirtmediğimizde, tüm listeyi kapsar. Bu nedenle, belirtilmemiş bir dilime atanarak, listeyi kopyalarız. 
  
 **Yeniden Boyutlandır:**
 Ayrıca bir listeyi yeniden boyutlandırabiliriz. Dilim sözdizimi ve append ) gibi yordamlar yararlıdır.
@@ -2048,19 +2126,19 @@ list2 = list1[:]
   </article>
 </main>
 
-**İkinci Kopya.** Bazen yinelenen öğeleri bir listeden kaldırmak istiyoruz. Sıralama önemliyse, elemanların yeniden sıralanmasını önlemek için özel bir yönteme ihtiyacımız olabilir. Burada bir set faydalıdır. 
+**İkinci Kopya.**Bazen yinelenen öğeleri bir listeden kaldırmak istiyoruz. Sıralama önemliyse, elemanların yeniden sıralanmasını önlemek için özel bir yönteme ihtiyacımız olabilir. Burada bir set faydalıdır. 
 
-**iki boyutlu.** Bir liste diğer listeleri içerebilir. Bu tür veri yapısını, iki boyutlu bir eleman ızgarası olarak kullanabiliriz. Bunlar pürüzlüdür. Alt listeler uzunluk olarak değişebilir. 
+**iki boyutlu.**Bir liste diğer listeleri içerebilir. Bu tür veri yapısını, iki boyutlu bir eleman ızgarası olarak kullanabiliriz. Bunlar pürüzlüdür. Alt listeler uzunluk olarak değişebilir. 
 
-**İpucu:** 
+**İpucu:**
 Liste listeleri, küçük grafikler ve koordinat aramasına ihtiyaç duyan diğer uygulamalar için yararlı olabilir, ancak büyük bir bellek alanı değildir.
 
 <br>
 <h5 id="C302">Bitişik liste öğelerini alan Python programı</h5><hr>
 
-**Bitişik elemanlar.** Çoğu zaman döngüde sadece bir elemana ihtiyacımız vardır. Ancak bazı durumlarda, karşılaştırmak için bitişik öğelere ihtiyacımız var. Burada listedeki bitişik öğelere ulaşıyoruz. 
+**Bitişik elemanlar.**Çoğu zaman döngüde sadece bir elemana ihtiyacımız vardır. Ancak bazı durumlarda, karşılaştırmak için bitişik öğelere ihtiyacımız var. Burada listedeki bitişik öğelere ulaşıyoruz. 
 
-**İpucu:** 
+**İpucu:**
 Sıra 1'de başlama, anahtardır. Döngü gövdesinde, önceki öğeye 'i-1' sırasına ve geçerli öğeye erişiriz.
 
 <main class="grid">
@@ -2093,9 +2171,9 @@ for i in range(1, len(elements)):
 <br>
 <h5 id="C303">format, liste kullanan Python programı</h5><hr>
 
-**Format.** Bir listemiz olduğunu varsayalım. Ondan bazı öğeleri bir dizgeye eklemek istiyoruz. Bunun için str.format kullanabiliriz. Format(), liste argümanları için özel desteğe sahiptir. 
+**Format.**Bir listemiz olduğunu varsayalım. Ondan bazı öğeleri bir dizgeye eklemek istiyoruz. Bunun için str.format kullanabiliriz. Format(), liste argümanları için özel desteğe sahiptir. 
 
-**İpucu:** 
+**İpucu:**
 format() 'nin ikinci argümanı bir değişkene bir -identifier- tanımlayıcı atar ve dizge içindeki öğelere erişebiliriz.
 
 <main class="grid">
@@ -2152,9 +2230,9 @@ True
 <br>
 <h5 id="C305">any kullanan Python programı</h5><hr>
 
-**Any built-in.** Bu, yinelenen argümanı üzerinden döngü yapar (bir liste gibi). Eğer argümandaki elemanlardan 'any' True olarak değerlendirilirse, any() de True değerini döndürür. Yani True bir sonuç için tarar. 
+**Any built-in.**Bu, yinelenen argümanı üzerinden döngü yapar (bir liste gibi). Eğer argümandaki elemanlardan 'any' True olarak değerlendirilirse, any() de True değerini döndürür. Yani True bir sonuç için tarar. 
 
-**False:** 
+**False:**
 Hiçbir öğe True değilse, any() false değerini döndürür. Yani 'not any', 'no True' ile aynıdır.
 
 <main class="grid">
@@ -2185,25 +2263,25 @@ False
   </article>
 </main>
 
-**Index, count.** Sıralama metodu ile bir liste arayabiliriz. Ve sayımla, listedeki bir elemanın özdeş sayısını toplayabiliriz (sayım sırayla uygulanabilir). 
+**Index, count.**Sıralama metodu ile bir liste arayabiliriz. Ve sayımla, listedeki bir elemanın özdeş sayısını toplayabiliriz (sayım sırayla uygulanabilir). 
 
-**Array -dizi-.** Python'da bir liste bir diziden ayrıdır. Listeler küçük veri kümeleri için iyidir, ancak daha büyük miktarlarda veri için, diziler çok daha verimlidir. Genellikle % 90 daha az bellek kullanırlar. 
+**Array -dizi-.**Python'da bir liste bir diziden ayrıdır. Listeler küçük veri kümeleri için iyidir, ancak daha büyük miktarlarda veri için, diziler çok daha verimlidir. Genellikle % 90 daha az bellek kullanırlar. 
 
-**Özeti.** Bir liste elemanları doğrusal bir toplamayla birbiri ardına depolar.Python sayıları, dizeleri de dahil olmak üzere her türlü elemanı ele alır - hatta tuples ve diğer koleksiyonlar.
+**Özeti.**Bir liste elemanları doğrusal bir toplamayla birbiri ardına depolar.Python sayıları, dizeleri de dahil olmak üzere her türlü elemanı ele alır - hatta tuples ve diğer koleksiyonlar.
 
-**Faydaları, negatifler.** Listeler basit bir sözdizimine sahiptir; bir tane oluşturmak için yalnızca birkaç karakter gerekir. Ve listeleri yeniden boyutlandırmak zorunda kalmayacağız. Ancak büyük veri kümeleri için aşırı bellek kullanırlar.
+**Faydaları, negatifler.**Listeler basit bir sözdizimine sahiptir; bir tane oluşturmak için yalnızca birkaç karakter gerekir. Ve listeleri yeniden boyutlandırmak zorunda kalmayacağız. Ancak büyük veri kümeleri için aşırı bellek kullanırlar.
 
 <br>
 <h5 id="C181">Sınıfı kullanan Python programı</h5><hr>
 
-**init** örneği: Bu program bir sınıf oluşturur. Sınıf anahtar sözcüğünü kullanır ve iki yordam sunar. **init** yordamı özeldir. Bu bir kurucudur.
+**init**örneği: Bu program bir sınıf oluşturur. Sınıf anahtar sözcüğünü kullanır ve iki yordam sunar. **init**yordamı özeldir. Bu bir kurucudur.
 
 <div class="w3-code notranslate pythonHigh">
 <strong>Not:</strong> init, parametreleri alır ve yeni sınıf özdeşine alanlar atar. Argümanları doğrulayabilir, hesaplamalar yapabilir, yordamları çağırır.</div>
 
-**Box:** İfadede **Box(10, 2)**, **Box** sınıfının yeni bir eşleneğini oluşturuyoruz. Genişliği 10'a ayarlanır. Yüksekliği 2'ye ayarlanır.
+**Box:**İfadede **Box(10, 2)**, **Box**sınıfının yeni bir eşleneğini oluşturuyoruz. Genişliği 10'a ayarlanır. Yüksekliği 2'ye ayarlanır.
 
-**Area:** area() yordamı 20'ye dönecektir. Bu, **init** tarafından belirlenen bellekte depolanan değerlere dayanmaktadır.
+**Area:**area() yordamı 20'ye dönecektir. Bu, **init**tarafından belirlenen bellekte depolanan değerlere dayanmaktadır.
 
 <br>
 <main class="grid">
@@ -2236,15 +2314,15 @@ print(x.area())
 <br>
 <h5 id="C182">Sınıf kalıtımını kullanan Python programı</h5><hr>
 
-**Kalıtım.** Bir sınıf, bir veya daha fazla başka sınıftan miras alabilir. Buradan türetmek istediğimiz sınıf tanımlanmalıdır. Türetilmiş sınıf, sınıf adından sonra parantez içinde belirtilir.
+**Kalıtım.**Bir sınıf, bir veya daha fazla başka sınıftan miras alabilir. Buradan türetmek istediğimiz sınıf tanımlanmalıdır. Türetilmiş sınıf, sınıf adından sonra parantez içinde belirtilir.
 
 B sınıfı, A sınıfından türetilmiştir. Sınıflardan sonraki ifadelerde, boyutu (B sınıfından) ve genişliği (A sınıfıdan) çağırıyoruz.
 
-**Bir sınırlama.** Dairesel sınıf devralın olamaz. Eğer A sınıfından B'ye ve A'dan B'ye türetmeye çalışırsanız, bir NameError alırsınız.
+**Bir sınırlama.**Dairesel sınıf devralın olamaz. Eğer A sınıfından B'ye ve A'dan B'ye türetmeye çalışırsanız, bir NameError alırsınız.
 
-**Size:** Bu def yordamı doğrudan B sınıfında bulunur. Sınıf A'da yoktur.
+**Size:**Bu def yordamı doğrudan B sınıfında bulunur. Sınıf A'da yoktur.
 
-**Width:** A sınıfı olan B sınıfının, temel sınıfı kontrol edilerek bulunur.
+**Width:**A sınıfı olan B sınıfının, temel sınıfı kontrol edilerek bulunur.
 
 <br>
 <main class="grid">
@@ -2285,9 +2363,9 @@ a, width called
 
 İki alt çizgi. Bir sınıfta, bazı elemanların isimlerinin başında iki altçizgi vardır. Bunlar özeldir. Python dili, onları özel olarak ele alır.
 
-Sınıf dışından özel elemanlara erişilebilir, ancak başlangıçta **_ClassName** eklemeliyiz.
+Sınıf dışından özel elemanlara erişilebilir, ancak başlangıçta **_ClassName**eklemeliyiz.
 
-A sınıfında, **__value** adlı bir alanımız var. Bunu, sınıfın dışında **_A__value** olarak belirtmeliyiz, ancak içinde **__value** kullanabiliriz.
+A sınıfında, **__value**adlı bir alanımız var. Bunu, sınıfın dışında **_A__value**olarak belirtmeliyiz, ancak içinde **__value**kullanabiliriz.
 
 <br>
 
@@ -2326,12 +2404,12 @@ print(a._A__value)
  
 <h5 id="C184">issubclass kullanan Python programı</h5><hr>
  
-**issubclass.** Bu bir sınıfın diğerinden türetilmiş olup olmadığını belirler. Bu yerleşik yöntemle, iki sınıf ismini (özdeşini değil) geçiririz.
+**issubclass.**Bu bir sınıfın diğerinden türetilmiş olup olmadığını belirler. Bu yerleşik yöntemle, iki sınıf ismini (özdeşini değil) geçiririz.
 
-**Dönüş:** 
-Birinci sınıf ikincisinden miras alırsa, issubclass **true** değerini döndürür. Aksi takdirde **false** döner.
+**Dönüş:**
+Birinci sınıf ikincisinden miras alırsa, issubclass **true**değerini döndürür. Aksi takdirde **false**döner.
 
-**İpucu:** 
+**İpucu:**
 Bunun bilinmesi nadiren yararlıdır: Bir sınıf kendi alt sınıfında kabul edilir. Aşağıdaki üçüncü issubclass çağrısı bunu gösterir.
 
 <main class="grid">
@@ -2381,10 +2459,10 @@ B says hello <br>
 <br>
 <h5 id="C185">isinstance kullanan Python programı</h5><hr>
 
-**isinstance.** İlk argüman (bir değişken), ikinci argümanın (bir sınıfın) bir eşleneği olduğunda, isinstance true değerini döndürür. Eğer sınıf bir temel sınıfsa, aynı zamanda true döner.
+**isinstance.**İlk argüman (bir değişken), ikinci argümanın (bir sınıfın) bir eşleneği olduğunda, isinstance true değerini döndürür. Eğer sınıf bir temel sınıfsa, aynı zamanda true döner.
 
-**Burada:** 
-Listeler gibi, bazı öznitelikler için, sınıf adı programda belirtilmemiş olabilir. Ama yine de **'liste'** yi bu şekilde test edebiliriz.
+**Burada:**
+Listeler gibi, bazı öznitelikler için, sınıf adı programda belirtilmemiş olabilir. Ama yine de **'liste'**yi bu şekilde test edebiliriz.
 
 <main class="grid">
   <article>
@@ -2427,13 +2505,13 @@ if isinstance(b, list):
 <br>
 <h5 id="C186">repr kullanan Python programı</h5><hr>
 
- repr. Bu bir sınıftan **__repr__** yordamına erişir. repr 'temsil' anlamına gelir. Bir öbeği dize-string temsiline dönüştürür. Burada Snake özdeşini özel bir şekilde gösteriyoruz.
+ repr. Bu bir sınıftan **__repr__**yordamına erişir. repr 'temsil' anlamına gelir. Bir öbeği dize-string temsiline dönüştürür. Burada Snake özdeşini özel bir şekilde gösteriyoruz.
 
 İpucu: 
-repr yordamından bir dize döndürüyoruz. print yordamı, bir öbeğin **__repr__** yordamını otomatik olarak çağırır.
+repr yordamından bir dize döndürüyoruz. print yordamı, bir öbeğin **__repr__**yordamını otomatik olarak çağırır.
 
 Ve: 
-Kullanılacak olan **__repr__** yordamını kullanmaya zorlamak için **repr**'i çağırabiliriz. Bu temsil dizgisini bir değişkende saklayabilmemizi sağlar.
+Kullanılacak olan **__repr__**yordamını kullanmaya zorlamak için **repr**'i çağırabiliriz. Bu temsil dizgisini bir değişkende saklayabilmemizi sağlar.
 
 
 <main class="grid">
@@ -2469,19 +2547,19 @@ Snake, type = Anaconda
 <br>
 <h5 id="C187">property kullanan Python programı</h5><hr>
 
-**Property.** Bir değer alır ve ayarlar. Bu bir yordam gibidir, ancak daha basit bir sözdizimi kullanır. Bir **property** değişken gibi atanabilir. Bu, **setter** yordamının yürütülmesine neden olur.
+**Property.**Bir değer alır ve ayarlar. Bu bir yordam gibidir, ancak daha basit bir sözdizimi kullanır. Bir **property**değişken gibi atanabilir. Bu, **setter**yordamının yürütülmesine neden olur.
 
 **Burada:**
-Yerleşik **property** iki argüman iletiyoruz. **getname**'i **getter** olarak belirledik ve **setname** **setter** olarak belirledik.
+Yerleşik **property**iki argüman iletiyoruz. **getname**'i **getter**olarak belirledik ve **setname****setter**olarak belirledik.
 
-**İpucu:** 
-Herhangi bir kod ifadesi, **getname** ve **setter** de kullanılabilir. Burada setname’ye iletilen dizgeyi büyük harfle yazıyoruz.
+**İpucu:**
+Herhangi bir kod ifadesi, **getname**ve **setter**de kullanılabilir. Burada setname’ye iletilen dizgeyi büyük harfle yazıyoruz.
 
-**Snake:** 
-Bir Snake sınıf eşleneği oluşturuyoruz. Sonra **"name"** property atarız. Bu, Snake sınıfının setname yordamını çağırır.
+**Snake:**
+Bir Snake sınıf eşleneği oluşturuyoruz. Sonra **"name"**property atarız. Bu, Snake sınıfının setname yordamını çağırır.
 
-**Son olarak:** 
-**"name"** property değerini yazdırıyoruz. Bu **getname** yordamını çağırır.
+**Son olarak:**
+**"name"**property değerini yazdırıyoruz. Bu **getname**yordamını çağırır.
 
 <main class="grid">
   <article>
@@ -2519,10 +2597,10 @@ Rattle
 <br>
 <h5 id="C188">super kullanan Python programı</h5><hr>
 
-**Süper.** super() yerleşik ile, bir sınıfın üst öğesini alabiliriz. Bu derhal atası alır. Burada, üst sınıf öğesi olan Shape'e referans veren Circle sınıfında **super()** öğesini çağırıyoruz.
+**Süper.**super() yerleşik ile, bir sınıfın üst öğesini alabiliriz. Bu derhal atası alır. Burada, üst sınıf öğesi olan Shape'e referans veren Circle sınıfında **super()**öğesini çağırıyoruz.
 
-**Yazdır:** 
-'Circle'dan name yordamını yazdırır. Daha sonra Shape'den **name()** de çağrılır.
+**Yazdır:**
+'Circle'dan name yordamını yazdırır. Daha sonra Shape'den **name()**de çağrılır.
 
 <main class="grid">
   <article>
@@ -2556,9 +2634,9 @@ Shape
 <br>
 <h5 id="C189">Sınıfta hash kullanan Python programı</h5><hr>
 
-**Hash.** Nesneleri karşılaştırırken, daha hızlı bir hash kodu kullanılabilir. Bir sözlük hash kullanır. **__hash__** ile özel hash hesaplamaları uyguluyoruz. Eşsiz bir değer, iyi bir hash dır.
+**Hash.**Nesneleri karşılaştırırken, daha hızlı bir hash kodu kullanılabilir. Bir sözlük hash kullanır. **__hash__**ile özel hash hesaplamaları uyguluyoruz. Eşsiz bir değer, iyi bir hash dır.
 
-**Burada:** 
+**Burada:**
 Bu programda, aynı isimlere ve renklere sahip iki Snake öbeği oluşturulur. unique_id, hash değerini hesaplamak için kullanılır.
 
 <main class="grid">
@@ -2628,33 +2706,33 @@ print(id(cat2))
   </article>
 </main>
 
-**Classmethod, staticmethod.** Python özel yordam tiplerini destekler (statik yordamlar gibi). Bunlar sınıf yordamları ve statik yordamlar. 
+**Classmethod, staticmethod.**Python özel yordam tiplerini destekler (statik yordamlar gibi). Bunlar sınıf yordamları ve statik yordamlar. 
  
-**Tipi.** Yerleşik yordamlar, ifadeler içeren tipleri oluşturabilir ve değiştirebilir. Yerleşik tip 'sınıf' beyanının yerini alabilir. setattr ve getattr ile alanlar ekliyor veya yüklüyoruz. 
+**Tipi.**Yerleşik yordamlar, ifadeler içeren tipleri oluşturabilir ve değiştirebilir. Yerleşik tip 'sınıf' beyanının yerini alabilir. setattr ve getattr ile alanlar ekliyor veya yüklüyoruz. 
 
-**Tipleri, özdeşler.** Bir sınıf tanımıyla, bir tipin taslağını çıkarırız. Bu sınıflar şablonlardır. Kullanılmak üzere özdeş olarak oluşturulmalıdır (__init__ sayesinde). Tipler özdeş değildir.
+**Tipleri, özdeşler.**Bir sınıf tanımıyla, bir tipin taslağını çıkarırız. Bu sınıflar şablonlardır. Kullanılmak üzere özdeş olarak oluşturulmalıdır (__init__ sayesinde). Tipler özdeş değildir.
 
 **Modeller:**
 Programlamada modelleri şablon olarak belirleriz. Ve yürütülebilir ifadelerde, bu şablonları hayata geçiririz (özdeş olarak). 
 
 **Bir sınıfta**, alanlardaki gibi verileri saklarız. Ayrıca, ref anahtar kelimesinde olduğu gibi, yordam uygulamalarını da sağlıyoruz. Bu önemli bir soyutlama seviyesi sağlar.
 
-**Bazı kavramlar.** Sınıflar, verileri davranışa kolayca bağlayalım. Python programlarımızda bloklar oluşturuyorlar. Onlarla daha karmaşık modeller geliştiriyoruz.
+**Bazı kavramlar.**Sınıflar, verileri davranışa kolayca bağlayalım. Python programlarımızda bloklar oluşturuyorlar. Onlarla daha karmaşık modeller geliştiriyoruz.
 
 <br>
 <h5 id="C191">classmethod kullanan Python programı</h5><hr>
 
-**Classmethod, staticmethod.** Bir sınıf düşünün. Sınıfın bir özdeşini oluşturuyoruz. Fakat sınıfın bazı özellikleri bir özdeş gerektirmeyebilir - daha genel amaçlıdırlar.
+**Classmethod, staticmethod.**Bir sınıf düşünün. Sınıfın bir özdeşini oluşturuyoruz. Fakat sınıfın bazı özellikleri bir özdeş gerektirmeyebilir - daha genel amaçlıdırlar.
 
-**Burada** statik bir yordama ihtiyaç vardır. Statik bir yordam ('staticmethod' ile belirtilir), özdeş olarak çağrılan değil, tip ismine göre çağrılan yordam anlamına gelir.
+**Burada**statik bir yordama ihtiyaç vardır. Statik bir yordam ('staticmethod' ile belirtilir), özdeş olarak çağrılan değil, tip ismine göre çağrılan yordam anlamına gelir.
 
-**Classmethod.** Bu bir fonksiyon donatıcıdır. 'def' den önce 
+**Classmethod.**Bu bir fonksiyon donatıcıdır. 'def' den önce 
 @classmethod belirterek uygularız. Bir özdeş ve bir statik yordam birleşimidir. Her iki şekilde de çağrılabilir.
 
-**Yani:** 
+**Yani:**
 Biz classmethod örneğini, Box.example sözdizimi ile veya bir Box özdeşi 'b' den çağırabiliriz.
 
-**Sınıf:** 
+**Sınıf:**
 Sınıf argümanı (burada 'cls'), bir tip oluşturarak ve onu döndürerek kullanılabilir. Ya da görmezden gelebiliriz.
 
 <main class="grid">
@@ -2688,13 +2766,13 @@ Method called: dog
 <br>
 <h5 id="C192">staticmethod kullanan Python programı</h5><hr>
 
-**Staticmethod.** Statik bir yordam, self özdeşi kabul etmez. Bir sınıftaki çoğu yordam, 'self' adıyla ilk argümanı kabul eder. 
+**Staticmethod.**Statik bir yordam, self özdeşi kabul etmez. Bir sınıftaki çoğu yordam, 'self' adıyla ilk argümanı kabul eder. 
 @staticmethod dekoratörüyle birlikte, bu argümanı atlıyoruz. 
 
-**İpucu:** 
+**İpucu:**
 Statik yordamlar herhangi bir değeri döndürebilir. Herhangi bir argümanı kabul edebilirler. Sınıf adıyla veya bir özdeşle çağrılırlar. 
 
-**Ayrıca:** 
+**Ayrıca:**
 Box.Message ile statik bir yordam mi, yoksa b.Message gibi bir özdeş mi aradığınız fark etmez.
 
 <main class="grid">
@@ -2723,24 +2801,24 @@ Box Message 2
   </article>
 </main>
 
-**Bir inceleme.** Python programlarında sınıf yordamları ve statik yordamlar yararlıdır. Genellikle bir sınıfın, özdeş tabanlı olmayan bölümleri vardır. Bir özdeş gerektiren, hantal ve garip olacaktır.
+**Bir inceleme.**Python programlarında sınıf yordamları ve statik yordamlar yararlıdır. Genellikle bir sınıfın, özdeş tabanlı olmayan bölümleri vardır. Bir özdeş gerektiren, hantal ve garip olacaktır.
 
 <br>
 <h5 id="C192">type kullanan Python program</h5><hr>
 
-**Type.** Python sınıfları destekler. Yerleşik type ile doğrudan tipleri oluşturabiliriz. Bu tiplerden sınıfları eşleştirebiliriz.
+**Type.**Python sınıfları destekler. Yerleşik type ile doğrudan tipleri oluşturabiliriz. Bu tiplerden sınıfları eşleştirebiliriz.
 
-**Setattr ile** sınıflarımıza öznitelikler (alanlar) ekleyebiliriz. getattr ile bu değerleri alırız. Komut ifadeleri ile tipleri oluştururuz.
+**Setattr ile**sınıflarımıza öznitelikler (alanlar) ekleyebiliriz. getattr ile bu değerleri alırız. Komut ifadeleri ile tipleri oluştururuz.
  
-**İlk örnek.** Bu program, yerleşik tipler ile bir tip oluşturur. Bu, sınıf anahtar kelimesine alternatif bir sözdizimi formudur. Bu type adı 'Cat' olarak adlandırıyoruz.
+**İlk örnek.**Bu program, yerleşik tipler ile bir tip oluşturur. Bu, sınıf anahtar kelimesine alternatif bir sözdizimi formudur. Bu type adı 'Cat' olarak adlandırıyoruz.
 
-**İpucu:** 
+**İpucu:**
 Bizim type, Python type ları için temel sınıfı, öbekten devralır. Ve başlangıç ​​değerleri yoktur. 
 
-**Setattr:** 
+**Setattr:**
 Sınıf özdeşimize bir alan (veya öznitelik) eklemek için setattr kullanıyoruz. Sınıf özdeşini, öznitelik adını ve değerini iletiriz. 
 
-**Getattr:** 
+**Getattr:**
 Sonraki bir sınıfın özniteliğini almak için getattr'ı çağırıyoruz. Burada bu çağrı setattr tarafından ayarlanan değeri döndürür.
 
 <main class="grid">
@@ -2769,11 +2847,11 @@ print(value)
 <br>
 <h5 id="C193">type içinde dict kullanan Python programı</h5><hr>
 
-**Dict.** Bir type özniteliklerini sözlük argümanıyla başlatabiliriz. Bu üçüncü argümandır. Burada 'paws' özniteliğini 4 ve 'weight' özniteliğini -1 olarak ayarlıyorum. 
+**Dict.**Bir type özniteliklerini sözlük argümanıyla başlatabiliriz. Bu üçüncü argümandır. Burada 'paws' özniteliğini 4 ve 'weight' özniteliğini -1 olarak ayarlıyorum. 
 
-**İpucu:** Bu bir sözlük özdeşidir. Diğer sözlükler gibi oluşturulabilir.
+**İpucu:**Bu bir sözlük özdeşidir. Diğer sözlükler gibi oluşturulabilir.
 
-**Yazdır:** Bu değerleri bir Cat özdeşinde görüntüleriz. print yerleşik yöntemini kullanıyoruz.
+**Yazdır:**Bu değerleri bir Cat özdeşinde görüntüleriz. print yerleşik yöntemini kullanıyoruz.
 
 <main class="grid">
   <article>
@@ -2801,12 +2879,12 @@ Weight = -1
 <br>
 <h5 id="C194">hasattr, delattr kullanan Python programı</h5><hr>
 
-**Hasattr.** getattr ve setattr den başka iki yerleşik işlev vardır. hasattr ile sınıf eşleneğinde bir öznitelik (alan) olup olmadığını görürüz. Doğru veya Yanlış döndürür. 
+**Hasattr.**getattr ve setattr den başka iki yerleşik işlev vardır. hasattr ile sınıf eşleneğinde bir öznitelik (alan) olup olmadığını görürüz. Doğru veya Yanlış döndürür. 
 
-**Delattr:** 
+**Delattr:**
 delattr ile sınıftan bir öznitelik çıkarırız. Bu, del operatörü için başka bir sözdizimi formudur. 
 
-**İpucu:** 
+**İpucu:**
 Şeyleri kaldırmak için (bir sözlükten) del operatörünü kullanırız. Bu özel bir sözdizimi formudur.
 
 
@@ -2850,19 +2928,19 @@ False
 <br>
 <h5 id="C195">Değerleri get ile alan Python programı</h5><hr>
 
-**Sözlük.** Bir dil düşünün. Her kelime bir anlamla eşleşir. Bir kitap yazılı bir çalışmadır. Bir bulut yüzen sudur. Bir sözlükte anahtarları (kelimeleri) değerlere (anlamlara) eşleştiririz. 
+**Sözlük.**Bir dil düşünün. Her kelime bir anlamla eşleşir. Bir kitap yazılı bir çalışmadır. Bir bulut yüzen sudur. Bir sözlükte anahtarları (kelimeleri) değerlere (anlamlara) eşleştiririz. 
 
-**Python sözlükleri** haritalardır. Köşeli parantezlerle, bir anahtardaki bir değeri atar ve ona erişiriz. get() ile bir varsayılan sonuç belirtebiliriz. 
+**Python sözlükleri**haritalardır. Köşeli parantezlerle, bir anahtardaki bir değeri atar ve ona erişiriz. get() ile bir varsayılan sonuç belirtebiliriz. 
 
-**Örnek alın.** Değerler almanın birçok yolu var. '[' and ']' karakterlerini kullanabiliriz. Doğrudan bu şekilde bir değere erişiyoruz. Ancak bu sözdizimi, anahtar-key bulunamazsa bir KeyError'a neden olur. 
+**Örnek alın.**Değerler almanın birçok yolu var. '[' and ']' karakterlerini kullanabiliriz. Doğrudan bu şekilde bir değere erişiyoruz. Ancak bu sözdizimi, anahtar-key bulunamazsa bir KeyError'a neden olur. 
 
-**Bunun yerine:** 
+**Bunun yerine:**
 1 veya 2 argümanlı get() yordamını kullanabiliriz. Bu herhangi bir hataya neden olmaz - hiçbiri döndürmez.
 
-**Argüman 1:** 
+**Argüman 1:**
 get() için ilk argüman, test ettiğiniz anahtardır. Bu argüman gereklidir. 
 
-**Argument 2:** 
+**Argument 2:**
 get() için ikinci isteğe bağlı bağımsız argüman, varsayılan değerdir. Anahtar bulunmazsa bu iade edilir.
 
 
@@ -2931,11 +3009,11 @@ KeyError: 'fish'
 <br>
 <h5 id="C197">KeyError işleyen Python programı</h5><hr>
 
-**KeyError.** Bir sözlük bir KeyError'un oluşmasına neden olabilir. Bu, sözlüğün yanlış kullanımı nedeniyle gerçekleşir. KeyError'ı çoğu durumda, sözlükteki get() yordamını kullanarak önleyebiliriz. 
+**KeyError.**Bir sözlük bir KeyError'un oluşmasına neden olabilir. Bu, sözlüğün yanlış kullanımı nedeniyle gerçekleşir. KeyError'ı çoğu durumda, sözlükteki get() yordamını kullanarak önleyebiliriz. 
 
-**Örnek.** Bu program bir KeyError'un atılmasına neden olur. Sözlük sadece üç giriş içerir - bunlar 'a', 'b' ve 'c' tuşlarını içerir. Bir 'd' anahtarına erişmeye çalışıyoruz, ancak mevcut değil. Ve bir KeyError ile karşılaşıldı.
+**Örnek.**Bu program bir KeyError'un atılmasına neden olur. Sözlük sadece üç giriş içerir - bunlar 'a', 'b' ve 'c' tuşlarını içerir. Bir 'd' anahtarına erişmeye çalışıyoruz, ancak mevcut değil. Ve bir KeyError ile karşılaşıldı.
  
-**Sonra,** KeyError'ı try-except yapısında yakalarız. Bir except-block ta bir hata mesajı yazdırıyoruz. Son olarak, exceptions-istisnaları ele aldıktan sonra, get() yöntemiyle 'd' anahtarına erişiriz. Bu güvenli. exception-olağandışılık yok.
+**Sonra,**KeyError'ı try-except yapısında yakalarız. Bir except-block ta bir hata mesajı yazdırıyoruz. Son olarak, exceptions-istisnaları ele aldıktan sonra, get() yöntemiyle 'd' anahtarına erişiriz. Bu güvenli. exception-olağandışılık yok.
 
 <main class="grid">
   <article>
@@ -2964,22 +3042,22 @@ None
   </article>
 </main>
 
-**Python programlarında bir KeyError önlenebilir.** Soruna, doğrudan anahtara erişmek yerine get() gibi güvenli bir yordam kullanarak giderdik. Var olduğundan eminsek, sadece bir anahtara doğrudan erişebiliriz. 
+**Python programlarında bir KeyError önlenebilir.**Soruna, doğrudan anahtara erişmek yerine get() gibi güvenli bir yordam kullanarak giderdik. Var olduğundan eminsek, sadece bir anahtara doğrudan erişebiliriz. 
 
-**Ayrıca:** 
+**Ayrıca:**
 Programınızda herhangi bir doğrudan erişim oluşursa, kodunuz yeni veya test edilmemişse, bir try-except bloğu kullanmak faydalı olabilir. 
 
-**Özet.** KeyError, Python'da önlenebilir bir istisnadır. Bir sözlük yanlış kullanıldığında ortaya çıkar. Bu hatayı önlemek için iki yol gördük. Bir try-except ifadesi kullandık. Ve değer erişimini get() yordam çağrısı ile değiştirdik.
+**Özet.**KeyError, Python'da önlenebilir bir istisnadır. Bir sözlük yanlış kullanıldığında ortaya çıkar. Bu hatayı önlemek için iki yol gördük. Bir try-except ifadesi kullandık. Ve değer erişimini get() yordam çağrısı ile değiştirdik.
 
 <br>
 <h5 id="C198">in kullanan Python programı</h5><hr>
 
-**In-keyword.** Bir sözlük belirli bir anahtar-key içerebilir (veya içermeyebilir). Çoğu zaman varlığını test etmemiz gerekir. Bunu yapmanın bir yolu, anahtar kelime iledir. 
+**In-keyword.**Bir sözlük belirli bir anahtar-key içerebilir (veya içermeyebilir). Çoğu zaman varlığını test etmemiz gerekir. Bunu yapmanın bir yolu, anahtar kelime iledir. 
 
-**True:** 
+**True:**
 Bu anahtar, sözlükteki bir anahtar/değer çiftinin parçası olarak mevcutsa 1 (true anlamında) döndürür.
 
-**False:** 
+**False:**
 Anahtar yoksa, in-keyword, false değerini gösteren 0 değerini döndürür. Bu if-komut ifadelerinde yararlıdır.
 
 <main class="grid">
@@ -3039,21 +3117,21 @@ Length: 2 <br>
   </article>
 </main>
 
-**Len notları.** İncelememiz gerek. Len() sadece sözlükler değil, diğer veri tiplerinde kullanılabilir. İçindeki eleman sayısını döndürerek bir liste üzerinde hareket eder. Ayrıca  -tuples - öznitelikler grubunu da ele alır.
+**Len notları.**İncelememiz gerek. Len() sadece sözlükler değil, diğer veri tiplerinde kullanılabilir. İçindeki eleman sayısını döndürerek bir liste üzerinde hareket eder. Ayrıca  -tuples - öznitelikler grubunu da ele alır.
 
 <br>
 <h5 id="C200">Dizelerde len kullanan Python programı</h5><hr>
 
-**Len.** Her şeyin uzunluğu var. Evrenimiz bile, sürekli genişlemede, bir uzunluğa sahiptir. Python'da olsa çoğunlukla -strings, lists, collections - dizgiler, listeler, koleksiyonlar - evren değil uzunluklarını ölçüyoruz. 
+**Len.**Her şeyin uzunluğu var. Evrenimiz bile, sürekli genişlemede, bir uzunluğa sahiptir. Python'da olsa çoğunlukla -strings, lists, collections - dizgiler, listeler, koleksiyonlar - evren değil uzunluklarını ölçüyoruz. 
 
-**Len'i kullanıyoruz.** Çoğu zaman performansı len ile optimize edebiliriz. Öğelerin sayısı, hesaplanamayan, öbek üzerinde depolanır, bu yüzden len hızlıdır.
+**Len'i kullanıyoruz.**Çoğu zaman performansı len ile optimize edebiliriz. Öğelerin sayısı, hesaplanamayan, öbek üzerinde depolanır, bu yüzden len hızlıdır.
 
-**Strings.** Len bir dizedeki karakter sayısını döndürür. Boşlukları, noktalama işaretlerini ve tüm karakterleri aynı sayar. None değişkeninin uzunluğunu almamıza dikkat etmeliyiz - bu başarısız olur. 
+**Strings.**Len bir dizedeki karakter sayısını döndürür. Boşlukları, noktalama işaretlerini ve tüm karakterleri aynı sayar. None değişkeninin uzunluğunu almamıza dikkat etmeliyiz - bu başarısız olur. 
 
-**Boş:** 
+**Boş:**
 İkinci telefon çağrısı boş bir dizeyi sınar. Bu dizede sıfır karakter var, ancak None değil. 
 
-**TypeError:** 
+**TypeError:**
 Len, iletilen değişkenin tipine dayanır. Bir NoneType len yerleşik desteğe sahip değildir.
  
 <main class="grid">
@@ -3086,9 +3164,9 @@ TypeError: object of type  <br> 'NoneType' has no len() <br>
 <br>
 <h5 id="C200">Len, koleksiyonları kullanan Python programı</h5><hr>
 
-**Collections.** Yerleşik len, bir koleksiyondaki elemanların sayısını döndürür. İç içe geçmiş, alt koleksiyonlar içeren bir koleksiyon için sayım sığdır: tüm iç içe geçmiş öğeler dikkate alınmaz. 
+**Collections.**Yerleşik len, bir koleksiyondaki elemanların sayısını döndürür. İç içe geçmiş, alt koleksiyonlar içeren bir koleksiyon için sayım sığdır: tüm iç içe geçmiş öğeler dikkate alınmaz. 
 
-**Dictionary:** 
+**Dictionary:**
 Sözlük için, her bir çift bir birim olarak sayılır. Anahtarlar ve değerler bağımsız değil.
 
 <main class="grid">
@@ -3126,16 +3204,16 @@ print(len(lookup))
 <br>
 <h5 id="C200">Özyineleme kullanan Python programı</h5><hr>
 
-**Özyineleme.** -recurse- Özyinelemeyle, tüm olasılıkları denemek için çözümler ararız. Yinelemeli bir yöntemin bir sonlandırma koşulu (bir hedef) olmalıdır. Ve bir döngüde, değişen argümanlar ile kendini çağırabilir. Bu şekilde arama şubeleri dışarı çıkar.
+**Özyineleme.**-recurse- Özyinelemeyle, tüm olasılıkları denemek için çözümler ararız. Yinelemeli bir yöntemin bir sonlandırma koşulu (bir hedef) olmalıdır. Ve bir döngüde, değişen argümanlar ile kendini çağırabilir. Bu şekilde arama şubeleri dışarı çıkar.
  
-**Değişiklik.** Bu program, son paraların saklandığı boş bir bozuk paralar listesiyle başlar. Ayrıca, her biri 1 veya 5 kuruş gibi olası madeni para miktarlarını da belirtir. Değişim çağrısında (en aşağıya), 51 sent'lik bir hedef miktar belirtiyoruz. 
+**Değişiklik.**Bu program, son paraların saklandığı boş bir bozuk paralar listesiyle başlar. Ayrıca, her biri 1 veya 5 kuruş gibi olası madeni para miktarlarını da belirtir. Değişim çağrısında (en aşağıya), 51 sent'lik bir hedef miktar belirtiyoruz. 
 
-**Change:** 
+**Change:**
 Bu özyinelemeli bir yöntemdir. İlk önce hedef tutarımızı toplayıp toplamadığımızı kontrol eder. Sonra bir döngüde yeni paralar eklemeye çalışır. 
 
 Eklemek için bir bozuk para bulduğumuzda, değişimde, paralar listemizi bir dilim ile kopyalarız. Sonra yeni parayı ekliyoruz. Her bir özyinel çağrının kendi listesi olması gerektiğinden, kopyalanması önemlidir. Hedef tutarımıza ulaştığımızda madeni paralarımızı gösteririz.
 
-**Gösterge:** 
+**Gösterge:**
 Bu def-method tüm olası miktarlar üzerinde döngü yapar ve -amount- miktar tarafından toplanan para sayısını gösterir.
 
 <main class="grid">
@@ -3185,22 +3263,22 @@ change(coins, amounts, 0, 0, 51)
   </article>
 </main>
 
-**Çıktı** 51 toplam kuruş yapmak için birçok olası para çeşitleri içerir. İlk olarak 51 adet tek parça kullanabileceğimizi öğreniyoruz. Daha sonra, bir adet 46 kuruş ve 1 beş kuruşluk bir parça kullanabiliriz. Bunlar her ikisi de 51 kuruş kadardır. 
+**Çıktı**51 toplam kuruş yapmak için birçok olası para çeşitleri içerir. İlk olarak 51 adet tek parça kullanabileceğimizi öğreniyoruz. Daha sonra, bir adet 46 kuruş ve 1 beş kuruşluk bir parça kullanabiliriz. Bunlar her ikisi de 51 kuruş kadardır. 
 
-**Son olarak:** 
+**Son olarak:**
 Birçok atlanan sonuçtan sonra gösterilen, son sonuçta 1 tek-kuruş ve 50 kuruş para kullanıyoruz. 
 
-**Özyinelemeyi kullanırken,** özyinelemeli yöntemde çekler (if ifadeleri gibi) 51 kuruşu geçip (hedefimiz) devam etmenin anlamı yok.
+**Özyinelemeyi kullanırken,**özyinelemeli yöntemde çekler (if ifadeleri gibi) 51 kuruşu geçip (hedefimiz) devam etmenin anlamı yok.
 
-**Ve:** 
+**Ve:**
 Biz ilerledikçe (değişimde) sadece daha büyük veya eşit değerde paralar ekliyoruz. Bu, aramayı daha da kolaylaştırır. 
 
-**SICP.** Bu örnek, klasik bir programlama metni olan Bilgisayar Programlarının Yapısı ve Yorumundan alınmıştır. Özyineleme, bir soruna kaba-arama uygulamanın bir yoludur. Birçok sorun bu şekilde çözülebilir. 
+**SICP.**Bu örnek, klasik bir programlama metni olan Bilgisayar Programlarının Yapısı ve Yorumundan alınmıştır. Özyineleme, bir soruna kaba-arama uygulamanın bir yoludur. Birçok sorun bu şekilde çözülebilir. 
 
-**İpucu:** 
+**İpucu:**
 Bulmaca gibi oyun problemlerini çözme, bunun gibi yinelemeli yöntemlerle mükemmel bir öğrenme alıştırmasıdır.
 
-**Özet.** Yinelemeli bir yöntem, olası her seçeneği deneyerek birçok sorunu çözebilir. Buradaki değişim bulmaca, kaba kuvvetli bir şekilde çözülür. Her olası kuruşu her bir yineleme seviyesinde deneriz.
+**Özet.**Yinelemeli bir yöntem, olası her seçeneği deneyerek birçok sorunu çözebilir. Buradaki değişim bulmaca, kaba kuvvetli bir şekilde çözülür. Her olası kuruşu her bir yineleme seviyesinde deneriz.
 
 
 <br>
@@ -3235,10 +3313,10 @@ print(len(list[2]))
 <br>
 <h5 id="C200">int üzerinden len ile hataya neden olan Python programı</h5><hr>
 
-**Hata.** Herhangi bir değişkenin lenmesini alamayız. Bu program int değişkeninin uzunluğunu almaya çalışır. Ve, işini bitiren bir **TypeError** ile sefil bir şekilde başarısız olur. 
+**Hata.**Herhangi bir değişkenin lenmesini alamayız. Bu program int değişkeninin uzunluğunu almaya çalışır. Ve, işini bitiren bir **TypeError**ile sefil bir şekilde başarısız olur. 
 
-**Not:** 
-Kavramsal olarak **len()** sayılabilir birimleri sayar: bir dizgede chars, listedeki öğeler. Bir sayının rakamı vardır, ancak başka 'birimleri' yoktur.
+**Not:**
+Kavramsal olarak **len()**sayılabilir birimleri sayar: bir dizgede chars, listedeki öğeler. Bir sayının rakamı vardır, ancak başka 'birimleri' yoktur.
 
 <main class="grid">
   <article>
@@ -3262,12 +3340,12 @@ TypeError: object of type 'int' has no len()
 <br>
 <h5 id="C200">char sayımını, len zamanlayan Python programı</h5><hr>
 
-**Performans.** -collections- Koleksiyonların ve -strings- dizelerin uzunluğu hafızada bir sayı olarak saklanır. Bir döngüde olduğu gibi her erişildiğinde hesaplanmaz. Bu nedenle, len bir döngüden çok daha hızlıdır. 
+**Performans.**-collections- Koleksiyonların ve -strings- dizelerin uzunluğu hafızada bir sayı olarak saklanır. Bir döngüde olduğu gibi her erişildiğinde hesaplanmaz. Bu nedenle, len bir döngüden çok daha hızlıdır. 
 
-**Here:** 
+**Here:**
 Bir döngüde len ile bir dizinin uzunluğuna erişirim. Bu zamanlanmış. Sonra bir for döngüsünü test ediyorum. 
 
-**Sonuç:** 
+**Sonuç:**
 Len erişmek için çok kere daha hızlıdır. For-loop, yalnızca değerlerinin önem taşıdığı karakterleri sayarken kullanışlıdır.
 
 <main class="grid">
@@ -3311,9 +3389,9 @@ for-loop = 1.444 s
   </article>
 </main>
 
-**Özet.** Bir uzunluk negatif olamaz. Bu yüzden len'i bir döngü sınırı olarak kullanabiliriz: Bu bir liste üzerinde döngü yapmak için uygun bir yoldur. Ancak gerekmediğinde, len kullanmaktan kaçınmak idealdir. 
+**Özet.**Bir uzunluk negatif olamaz. Bu yüzden len'i bir döngü sınırı olarak kullanabiliriz: Bu bir liste üzerinde döngü yapmak için uygun bir yoldur. Ancak gerekmediğinde, len kullanmaktan kaçınmak idealdir. 
 
-**Döngü önerisi.** Len kullanmaktan kaçınmak için bir for-in döngü düşünün. Bu döngü yapısı, her öğeyi bir koleksiyonda numaralandıracaktır. Dizin endeksleri gerekli değildir.
+**Döngü önerisi.**Len kullanmaktan kaçınmak için bir for-in döngü düşünün. Bu döngü yapısı, her öğeyi bir koleksiyonda numaralandıracaktır. Dizin endeksleri gerekli değildir.
 
 <br>
 <h5 id="C200">char sayımını, len zamanlayan Python programı</h5><hr>
