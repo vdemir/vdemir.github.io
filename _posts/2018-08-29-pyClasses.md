@@ -319,7 +319,9 @@ p1.age = 40
 print(p1.age)
 {% endhighlight %}
 
+Out [1]:
 {% highlight bash %}
+
 40
 
 {% endhighlight %}
