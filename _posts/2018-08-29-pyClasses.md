@@ -210,17 +210,8 @@ New method wins!
 
 {% endhighlight %}
 
-<main class="grid">
-  <article>
-    <div class="text">
-      <p>
-Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşmayın, bu kötü bir formdur ve bu sınıfı kullanarak herhangi bir öbeği karıştırır. Öte yandan, yordamların eklenmesi çok daha az (ama yine de biraz) tehlikelidir.
 
-</p>
-    </div>
-  </article>
-</main>
-<br><br>
+Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşmayın, bu kötü bir formdur ve bu sınıfı kullanarak herhangi bir öbeği karıştırır. Öte yandan, yordamların eklenmesi çok daha az (ama yine de biraz) tehlikelidir.
 
 <a id="C81"></a>
 
