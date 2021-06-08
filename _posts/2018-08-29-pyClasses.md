@@ -304,7 +304,14 @@ print(MyClass.x)
 <div class="teaser clearfix"></div>
 <a id="C3"></a>
 
+***
+
  **``Sınıf Eşleme ile Nesne Oluşturma``**
+ 
+***
+
+
+ 
  Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">init</code> yordamının kabul ettiği ifadeleri iletirsiniz:
 
 <div class="w3-code">
@@ -317,8 +324,16 @@ p1 = Person("John", 36)
 
 <div class="teaser clearfix"></div>
 <a id="C13"></a>
+ 
+***
+
 
  **``Nesne Özniteliklerini Değiştirmek``**
+ 
+***
+
+
+ 
 Bu gibi nesnelerdeki öznitelikleri değiştirebilirsiniz:
 <p>p1'in yaşını 40'a ayarlayın:</p>
 
