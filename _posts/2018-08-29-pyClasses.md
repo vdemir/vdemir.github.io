@@ -277,7 +277,7 @@ obj.name = "Andre"</div>
 <br><br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C2"></a>
+<a id="C2"></a>
 
  **``Bir Python Nesnesi Oluşturma``**
 Artık nesneleri oluşturmak için **myClass** adlı sınıfı kullanabiliriz:
@@ -293,7 +293,7 @@ print(MyClass.x)
 </div>
 <br>
 <div class="teaser clearfix"></div>
-<h3 id="C3"></a>
+<a id="C3"></a>
 
  **``Sınıf Eşleme ile Nesne Oluşturma``**
  Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">init</code> yordamının kabul ettiği ifadeleri iletirsiniz:
@@ -307,7 +307,7 @@ p1 = Person("John", 36)
 <br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C13"></a>
+<a id="C13"></a>
 
  **``Nesne Özniteliklerini Değiştirmek``**
 Bu gibi nesnelerdeki öznitelikleri değiştirebilirsiniz:
@@ -355,7 +355,7 @@ print(p1.age)
 <br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C14"></a>
+<a id="C14"></a>
 
  **``Nesne Özniteliklerini Silmek``**
 Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz:
@@ -397,7 +397,7 @@ AttributeError: 'Person' object has no attribute 'age'
 
 <br>
 <div class="teaser clearfix"></div>
-<h3 id="C15"></a>
+<a id="C15"></a>
 
  **``Nesneleri Silmek``**
 Nesneleri <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz: 
@@ -531,7 +531,7 @@ Out[1]: (3.0, -4.5)
 <br><br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C6"></a>
+<a id="C6"></a>
 
  **``Özdeş Öbekler``**
  
@@ -584,7 +584,7 @@ Nokta (.) operatörünü öbek ismi ile kullanarak erişebilirsiniz. Sınıf ad�
 <br><br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C7"><a class="w3-btn w3-margin-bottom">Yordam Öbekleri</a>``**
+<a id="C7"><a class="w3-btn w3-margin-bottom">Yordam Öbekleri</a>``**
 
 Genellikle, bağlantıdan hemen sonra bir yordam çağrılır: 
 <div class="w3-code notranslate pythonHigh">
@@ -609,7 +609,7 @@ Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey
 
 
 <div class="teaser clearfix"></div>
-<h3 id="C8">Python Öznitelikler ve Yordamlar``**
+<a id="C8">Python Öznitelikler ve Yordamlar``**
 
 
 <div class="w3-panel w3-card w3-light-grey">
@@ -764,7 +764,7 @@ Bana oldukça basit görünüyor. Sadece kafa karışıklığı gerçek olabilir
 
 
 <br>
-<h3 id="C86"> Statik ve Sınıf Yordamlar</h3>
+<a id="C86"> Statik ve Sınıf Yordamlar</h3>
 ***
 
 <div class="w3-panel w3-card w3-light-grey">
@@ -1608,7 +1608,7 @@ Dahili olarak, bu ifadeler tamamen aynıdır.
 <br><br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C12">super fonksiyonu``**
+<a id="C12">super fonksiyonu``**
 **super([type[, object-or-type]])**
 
 Bir ebeveyn veya kardeş sınıfına yordam çağrıları veren bir temsili öbeği döndürür. Bu, bir sınıfta geçersiz kılınan devralınan yordamlara erişmek için kullanışlıdır. Arama sırası, **type**'ın kendisinin atlanması dışında **getattr()** tarafından kullanılanla aynıdır.
@@ -1660,7 +1660,7 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
 
 ![Python &bull; Sınıflar.](/images/qppr.png "Python &bull; Sınıflar."){:height="77%" width="77%"}
 
-<h3 id="C18">Python Programları``**
+<a id="C18">Python Programları``**
 
 <div class="w3-panel w3-card w3-light-grey">
   <div class="w3-container w3-white">
@@ -3390,7 +3390,7 @@ for-loop = 1.444 s
 
 <div class="teaser clearfix"></div>
 <div class="w3-panel w3-card w3-light-grey">
-  <h3 id="C17">Sözlük Dizini</h3>
+  <a id="C17">Sözlük Dizini</h3>
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
