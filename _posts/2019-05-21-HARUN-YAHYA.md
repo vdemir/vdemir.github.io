@@ -1,9 +1,11 @@
 ---
 layout: post
 title:  Read or Download Books
+dscription: Hayata Bakışınızı Değiştirir
 date:   2021-05-23 12:00:00
-tags:   Books
-categories: [Books ]
+tags:   e-Books
+categories: [e-Books ]
+permalink: /:categories/:title/
 comments: false
 published: true
 lang: en
