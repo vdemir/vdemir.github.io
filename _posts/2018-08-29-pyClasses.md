@@ -580,28 +580,32 @@ Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım ol
  
 
 
-<a></a>
 
- **``Özdeş Öbeğin Özniteliklerine Erişim``**
+**``Özdeş Öbeğin Özniteliklerine Erişim``**
+ 
+ 
 Nokta (.) operatörünü öbek ismi ile kullanarak erişebilirsiniz. Sınıf adı kullanarak da sınıf özdeğerlerine erişilebilir:
 {% highlight python %} 
-  print(p1.x)print(MyClass.x)</div>
-
-<div class="w3-panel w3-card w3-light-grey">
-  <a>Özniteliklerin tanımı``**
-  <div class="w3-container w3-white">
-    <p>
-    <ul class="w3-ul w3-card-4" style="width:85%">
-      <li>z.real ifadesinde, real, z nesnesinin bir özdeğeridir. Kesin olarak, modüllerdeki isimlere yapılan atıflar öznitelik atıflarıdır: modname.funcname ifadesinde modname bir modül nesnesidir ve funcname bunun bir özniteliğidir. Bu durumda, modülün öznitelikleri ile modülde tanımlanan genel isimler arasında doğrudan bir eşleme olur: aynı isim uzayını paylaşırlar!</li>
-    </ul>
-    </p>
-  </div>
-</div>
+  print(p1.x)print(MyClass.x
+{% endhighlight %}
 
 
+***
+
+**``Özniteliklerin tanımı``**
+
+***
+
+z.real ifadesinde, real, z nesnesinin bir özdeğeridir. Kesin olarak, modüllerdeki isimlere yapılan atıflar öznitelik atıflarıdır: modname.funcname ifadesinde modname bir modül nesnesidir ve funcname bunun bir özniteliğidir. Bu durumda, modülün öznitelikleri ile modülde tanımlanan genel isimler arasında doğrudan bir eşleme olur: aynı isim uzayını paylaşırlar!
 
 
-<a id="C7"><a class="w3-btn w3-margin-bottom">Yordam Öbekleri</a>``**
+<a id="C7"></a>
+
+***
+
+**``Yordam Öbekleri``**
+
+***
 
 Genellikle, bağlantıdan hemen sonra bir yordam çağrılır: 
 
@@ -614,7 +618,7 @@ MyClass örneğinde, 'merhaba dünya' dizesini döndürür. Ancak, bir yordamı 
 {% highlight python %} 
 xf = x.f
 while True:
-   &nbsp; &nbsp;&nbsp;print(xf()
+   print(xf()
 {% endhighlight %}
 
 **merhaba dünya** zamanın sonuna kadar basmaya devam edecek. 
