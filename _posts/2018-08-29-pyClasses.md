@@ -293,13 +293,11 @@ obj.name = "Andre"</div>
 <div class="teaser clearfix"></div>
 <h3 id="C2">
 
-
-
-
-
+ 
 ***
 
 **``Bir Python Nesnesi Oluşturma``**
+
 
 ***
 
