@@ -118,7 +118,7 @@ Anne
 
 ***
 
-**````Bir Python Sınıfı Oluşturma``**
+**``Bir Python Sınıfı Oluşturma``**
 
 ***
 
@@ -181,7 +181,7 @@ Hey bir yordam
 
 ***
 
-**````Oluşturulduktan Sonra Sınıfların Değiştirilmesi``**
+**``Oluşturulduktan Sonra Sınıfların Değiştirilmesi``**
 
 ***
 
@@ -232,7 +232,7 @@ Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşma
 
 ***
 
-**````Sınıf Özdeşleri``**
+**``Sınıf Özdeşleri``**
 
 ***
 
@@ -303,7 +303,7 @@ obj.name = "Andre"</div>
 
 ***
 
-**````Bir Python Nesnesi Oluşturma``**
+**``Bir Python Nesnesi Oluşturma``**
 
 ***
 
@@ -329,7 +329,7 @@ print(MyClass.x)
 
 ***
 
-**````Sınıf Eşleme ile Nesne Oluşturma``**
+**``Sınıf Eşleme ile Nesne Oluşturma``**
 
 ***
 
@@ -353,7 +353,7 @@ p1 = Person("John", 36)
 
 ***
 
-**````Nesne Özniteliklerini Değiştirmek``**
+**``Nesne Özniteliklerini Değiştirmek``**
 
 ***
 
@@ -411,7 +411,7 @@ print(p1.age)
 
 ***
 
-**````Nesne Özniteliklerini Silmek``**
+**``Nesne Özniteliklerini Silmek``**
 
 ***
 
@@ -457,13 +457,9 @@ AttributeError: 'Person' object has no attribute 'age'
 <div class="teaser clearfix"></div>
 <h3 id="C15">
 
-
-
-
-
 ***
 
-**````Nesneleri Silmek``**
+**``Nesneleri Silmek``**
 
 ***
 
@@ -515,7 +511,7 @@ NameError: name 'p1' is not defined
 
 ***
 
-**````Sınıf Öbekleri ``**
+**``Sınıf Öbekleri ``**
 
 ***
 
@@ -608,7 +604,7 @@ Out[1]: (3.0, -4.5)
 
 ***
 
-**````Özdeş Öbekler``**
+**``Özdeş Öbekler``**
 
 ***
 
@@ -648,7 +644,7 @@ Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım ol
 
 ***
 
-**````Özdeş Öbeğin Özniteliklerine Erişim``**
+**``Özdeş Öbeğin Özniteliklerine Erişim``**
 
 ***
 Nokta (.) operatörünü öbek ismi ile kullanarak erişebilirsiniz. Sınıf adı kullanarak da sınıf özdeğerlerine erişilebilir:
@@ -1852,7 +1848,7 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
 
 ***
 
-**````append kullanan Python programı</h5><hr>
+**``append kullanan Python programı</h5><hr>
 
 **Öğeler eklenebilir,** döngülenebilir veya sıralanabilir. Listeler diğer yapılarla birleştirilebilir. Bir ağaç gibi, listeyi büyütmek için elemanlar (katmanlar) ekliyoruz.
 
