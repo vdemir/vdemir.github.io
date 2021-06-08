@@ -355,14 +355,10 @@ Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcü
 _age_ özniteliğini _p1_ nesnesinden silin:
 
 
-<div class="w3-code">
 {% highlight python %} 
 del p1.age
 {% endhighlight %}
-</div>
 
-<main class="grid">
-  <article>
 {% highlight python %}
 class Person:
   def __init__(self, name, age):
@@ -378,19 +374,22 @@ del p1.age
 
 print(p1.age)
 {% endhighlight %}
-  </article>
-  <article>
-    <div class="text">
-      <p>
+
+Out [1]:
+
+{% highlight python %} 
 AttributeError: 'Person' object has no attribute 'age'
-</p>
-    </div>
-  </article>
-</main>
 
-<br>
+{% endhighlight %}
 
-<h3 id="C15"> Nesneleri Silmek</h3><hr>
+<h3 id="C15"> </a>
+
+* * *
+
+### **``Nesneleri Silmek``**
+
+* * *
+
 Nesneleri <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz: 
 <p>p1 nesnesini silin:</p>
 
