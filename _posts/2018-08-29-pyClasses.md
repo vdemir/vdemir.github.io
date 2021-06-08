@@ -104,10 +104,19 @@ person1.showAge()
 person2.showName()
 {% endhighlight %}
 
-23  
+  </article>
+  <article>
+    <div class="text">
+      <p>
+23<br>
 Anne
+</p>
+    </div>
+  </article>
+</main>
+ 
 
-![Python &bull; Sınıflar.](/images/python/class1.png "Python &bull; Sınıflar."){:height="97%" width="97%"}
+![Python &bull; Sınıflar.](/images/python/class1.png "Python &bull; Sınıflar."){:height="77%" width="77%"}
 
 
 <br><br>
@@ -116,14 +125,12 @@ Anne
 <h3 id="C1"><i class="fas fa-code"></i> Bir Python Sınıfı Oluşturma</h3><hr>
 **x** adlı bir özdeğere sahip **MyClass** adlı bir sınıf/öbek oluşturun:
 <div class="w3-code notranslate">
-
 {% highlight python %}
 class MyClass:
   'Python Temel Sınıf'
   x = 5
 print(MyClass)
 {% endhighlight %}
-
 </div>
 
 <br>
