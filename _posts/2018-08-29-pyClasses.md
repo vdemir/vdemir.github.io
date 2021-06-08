@@ -54,7 +54,7 @@ lang: tr
 </div>
 <br>
 
-``**Python**`` bir nesne yönelimli programlama dilidir.
+**``Python``** bir nesne yönelimli programlama dilidir.
 Python'daki hemen hemen her şey, öznitelikleri ve yordamları ile bir nesnedir. 
 
 Python sınıfları, Nesne Yönelimli Programlamanın tüm standart özelliklerini sağlar: sınıf örneklem mekanizması, birden fazla temel sınıfa izin verir, türetilmiş bir sınıf, temel sınıfının veya sınıflarının herhangi bir yordamını geçersiz kılabilir ve bir yordam, aynı ada sahip bir taban sınıfının yordamını çağırabilir . Nesneler, rastgele miktarları ve veri türlerini içerebilir. Modüller için doğru olduğu gibi, sınıflar Python'un dinamik doğasını paylaşırlar: çalışma zamanında oluşturulurlar ve oluşturulduktan sonra daha fazla değiştirilebilirler. 
@@ -73,6 +73,7 @@ Burada, (class docstring) class_name._doc_ üzerinden erişilebilen bir belge di
 
 <main class="grid">
   <article>
+  
 {% highlight python %}
 # sınıfın tanımı burada başlar  
 class Person:
@@ -102,17 +103,9 @@ person2 = Person("Anne", 30)
 person1.showAge()
 person2.showName()
 {% endhighlight %}
-  </article>
-  <article>
-    <div class="text">
-      <p>
-23<br>
+
+23  
 Anne
-</p>
-    </div>
-  </article>
-</main>
- 
 
 ![Python &bull; Sınıflar.](/images/python/class1.png "Python &bull; Sınıflar."){:height="97%" width="97%"}
 
@@ -123,12 +116,14 @@ Anne
 <h3 id="C1"><i class="fas fa-code"></i> Bir Python Sınıfı Oluşturma</h3><hr>
 **x** adlı bir özdeğere sahip **MyClass** adlı bir sınıf/öbek oluşturun:
 <div class="w3-code notranslate">
+
 {% highlight python %}
 class MyClass:
   'Python Temel Sınıf'
   x = 5
 print(MyClass)
 {% endhighlight %}
+
 </div>
 
 <br>
