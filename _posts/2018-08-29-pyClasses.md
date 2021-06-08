@@ -118,7 +118,7 @@ Anne
 
 ***
 
-<div class="teaser clearfix"></div>
+
 <a id="C1"></a> 
 **x** adlı bir özdeğere sahip **MyClass** adlı bir sınıf/öbek oluşturun:
 <div class="w3-code notranslate">
@@ -166,7 +166,7 @@ Hey bir yordam
   </article>
 </main>
 
-<br><br>
+
 
 <a id="C84"></a>
 
@@ -275,9 +275,9 @@ obj.name = "Andre"</div>
 
 
 
-<br><br>
 
-<div class="teaser clearfix"></div>
+
+
 <a id="C2"></a>
 
 ***
@@ -299,7 +299,7 @@ print(p1.x)
 print(MyClass.x)
 {% endhighlight %}
 <br>
-<div class="teaser clearfix"></div>
+
 <a id="C3"></a>
 
 ***
@@ -319,7 +319,7 @@ p1 = Person("John", 36)
 
 <br>
 
-<div class="teaser clearfix"></div>
+
 <a id="C13"></a>
  
 ***
@@ -370,7 +370,7 @@ print(p1.age)
 
 <br>
 
-<div class="teaser clearfix"></div>
+
 <a id="C14"></a>
 
 ***
@@ -416,21 +416,25 @@ AttributeError: 'Person' object has no attribute 'age'
 </main>
 
 <br>
-<div class="teaser clearfix"></div>
+
 <a id="C15"></a>
 
- **``Nesneleri Silmek``**
-Nesneleri <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz: 
-<p>p1 nesnesini silin:</p>
+***
+ 
 
-<div class="w3-code">
+ **``Nesneleri Silmek``**
+
+***
+ 
+
+Nesneleri ``del`` anahtar sözcüğünü kullanarak silebilirsiniz: 
+p1 nesnesini silin:
+
 {% highlight python %} 
 del p1
-{% endhighlight %}</div>
+{% endhighlight %}
 
 
-<main class="grid">
-  <article>
 {% highlight python %}
 class Person:
   def __init__(self, name, age):
@@ -446,21 +450,12 @@ del p1
 
 print(p1)
 {% endhighlight %}
-  </article>
-  <article>
-    <div class="text">
-      <p>
+
+
+{% highlight bash %}
 NameError: name 'p1' is not defined
-</p>
-    </div>
-  </article>
-</main>
+{% endhighlight %}
 
-
-
-<br><br>
-
-<div class="teaser clearfix"></div>
 
 <a id="C5"></a>
 
@@ -474,10 +469,9 @@ NameError: name 'p1' is not defined
 Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnekleme. 
 
 Öznitelik referansları, Python: obj.name'deki tüm öznitelik referansları için kullanılan standart sözdizimini kullanır. Geçerli nesne adları, sınıf nesnesi oluşturulduğunda sınıfın ad alanındaki tüm adlardır. Yani, sınıf tanımı böyle görünüyorsa:
-<br>
-<div class="teaser clearfix"></div>
-<main class="grid">
-  <article>
+
+  
+  
 {% highlight python %}
 # sınıfın tanımı burada başlar  
 class MyClass:
@@ -496,18 +490,14 @@ print(t)
 p=MyClass.f(1)
 print(p)
 {% endhighlight %}
-  </article>
-  <article>
-    <div class="text">
-      <p>
-12345 <br>
-12345 <br>
+  
+{% highlight bash %}
+12345 
+12345 
 hello world
-</p>
-    </div>
-  </article>
-</main>
- 
+{% endhighlight %}
+
+
 <br>
 sonra **MyClass.i** ve **MyClass.f**, sırasıyla bir tamsayı ve fonksiyon nesnesini döndüren geçerli öznitelik referanslarıdır. Sınıf öznitelikleri de atanabilir, böylece **MyClass.i**'nin değerini atama yoluyla değiştirebilirsiniz. **__doc__** ayrıca geçerli bir özniteliktir ve **'Basit bir örnek sınıf'** sınıfa ait olan docstring döndürür.
 
@@ -548,9 +538,9 @@ Out[1]: (3.0, -4.5)
   </article>
 </main>
 
-<br><br>
 
-<div class="teaser clearfix"></div>
+
+
 <a id="C6"></a>
 
  **``Özdeş Öbekler``**
@@ -560,7 +550,7 @@ Out[1]: (3.0, -4.5)
 
 Data öznitelikleri, Smalltalk'daki “eşleşen öznitelikler” ve C++'daki “data elemanlarına” karşılık gelir. Data özniteliklerinin beyan edilmesine gerek yoktur; yerel öznitelikler gibi, ilk atandıklarında var olurlar. Örneğin, **x** yukarıda oluşturulan **MyClass** özniteliğiyse, aşağıdaki kod parçası bir iz bırakmadan değeri 16 yazdıracaktır:
 
-<div class="teaser clearfix"></div>
+
 <div class="w3-code notranslate">
 {% highlight python %}
 
@@ -582,7 +572,7 @@ Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım ol
 
 <br> 
 
-<div class="teaser clearfix"></div>
+
 <a></a>
 
  **``Özdeş Öbeğin Özniteliklerine Erişim``**
@@ -601,9 +591,9 @@ Nokta (.) operatörünü öbek ismi ile kullanarak erişebilirsiniz. Sınıf ad�
   </div>
 </div>
 
-<br><br>
 
-<div class="teaser clearfix"></div>
+
+
 <a id="C7"><a class="w3-btn w3-margin-bottom">Yordam Öbekleri</a>``**
 
 Genellikle, bağlantıdan hemen sonra bir yordam çağrılır: 
@@ -621,14 +611,14 @@ while True:<br>
 Bir yordam çağrıldığında tam olarak ne olur? **f()** fonksiyon tanımı bir argüman belirtmiş olsa bile, **x.f()** öğesinin bir argüman olmadan çağrıldığını fark etmiş olabilirsiniz. Argümana ne oldu? Kesinlikle Python argüman gerektiren bir fonksiyon çağrılmadan çağrılır - argüman aslında kullanılmasa bile…
 
 Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey vardır ki, özdeş öbek fonksiyonun ilk ifadesi olarak geçirilir. Örneğimizde, **x.f()** çağrısı tam olarak **MyClass.f(x)** öğesine eşdeğerdir. Genel olarak, n argümanlı bir listeden bir yordamı çağırmak, ilk argümandan önce yordamın özdeş öbeğini ekleyerek oluşturulan bir argüman listesine karşılık fonksiyonu çağırmaya eşdeğerdir. Eğer isim geçerli bir sınıf özniteliğini işaret ederse ki bir fonksiyon öbeğidir, bir yordam öbeği özdeş öbek paketlenerek oluşturulur ve fonksiyon öbeği sadece soyut bir öbek ile birlikte bulunur: bu yordam öbeğidir. Yordam öbeği bir argüman listesi ile çağrıldığında yeni bir argüman listesi, argüman listesi ve özdeş öbekten inşa edilir ve fonksiyon öbeği yeni bir argüman listesi ile çağrılır.
-<br><br>
+
  
 
 ![Python &bull; Sınıflar.](/images/python-oop.jpg "Python &bull; Sınıflar."){:height="77%" width="77%"}
 
 
 
-<div class="teaser clearfix"></div>
+
 <a id="C8">Python Öznitelikler ve Yordamlar``**
 
 
@@ -881,7 +871,7 @@ Bu, çoğu zaman kullanacağınız temel, asgari ihtiyaçları karşılamaya yö
 
 Onlar sadece öbeğin durumunu değiştirmezler, özdeş yordamlar, sınıfın kendisine **```self .__class__```** özniteliği aracılığıyla da erişebilir. Bu, eşlenen yordamların sınıf durumunu da değiştirebileceği anlamına gelir.
 
-<br><br>
+
 
 <a id="C868">Sınıf Yordamları Oluşturma``**
 ***
@@ -963,7 +953,7 @@ Bir **```self```** parametresini kabul etmek yerine, sınıf yordamları bir **`
 
 Çünkü sınıf yordamı sadece bu **```cls```** argümanına erişebilir, öbek eşleneğinin durumunu değiştiremez. Bu **```self```**'e erişim gerektirecektir. Ancak, sınıf yordamları hala sınıf durumunu değiştirebilir ki sınıfın tüm özdeşlerine uygulanır.
 
-<br><br>
+
 <a id="C867">Statik Yordamlar``**
 <h6>Static Methods</h6>
 ***
@@ -1151,7 +1141,7 @@ ancak mevcut özdeş özniteliği etkilenmez <br>
 jim_account.interest <br>
 0.08</div>
 
-<br><br>
+
 
 <a id="C89"> Sınıf Öznitelikleri 2``**
 Sınıf öznitelikleri, tüm özdeşlerle paylaşılacakları sınıfa aittir. Bu öznitelikler, okunabilirlik için genellikle üst kısımdaki sınıf gövdesi parçalarında tanımlanmaktadır.
@@ -1361,9 +1351,9 @@ All class members are public. One exception: If you use data members with names 
 Thus, the convention followed is that any variable that is to be used only within the class or object should begin with an underscore and all other names are public and can be used by other classes/objects. Remember that this is only a convention and is not enforced by Python (except for the double underscore prefix).
 
 
-<br><br>
 
-<div class="teaser clearfix"></div>
+
+
 <h3  id="C9"><code class="w3-codespan">new</code> yordamı``**
 
  ***
@@ -1455,7 +1445,7 @@ str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturm
 
 <br>
 
-<div class="teaser clearfix"></div>
+
 <h3  id="C10"><code class="w3-codespan">init</code> yordamı``**
 Yukarıdaki örnekler, en basit biçimde sınıflar ve nesnelerdir ve gerçek yaşam uygulamalarında gerçekten yararlı değildir. 
 
@@ -1539,7 +1529,7 @@ Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) 
 
 <br>
 
-<div class="teaser clearfix"></div>
+
 <h3  id="C11"><code class="w3-codespan">self</code> Parametresi``**
 <p> <code class="w3-codespan">self</code> sınıfın kendisine bir referanstır ve sınıfa ait özniteliklere erişmek için kullanılır. 
 
@@ -1625,9 +1615,9 @@ Hey a method
 
 Dahili olarak, bu ifadeler tamamen aynıdır.
 
-<br><br>
 
-<div class="teaser clearfix"></div>
+
+
 <a id="C12">super fonksiyonu``**
 **super([type[, object-or-type]])**
 
@@ -3379,20 +3369,20 @@ for-loop = 1.444 s
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
 
  
-<br><br>
+
 <!--python3 interpreter -->
 <h3  id="C16"><a class="w3-btn w3-margin-bottom">Just python 3.6.5 'Run'.</a></h3>
 <iframe src="https://trinket.io/embed/python3/49b7d634c8" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
   
-<br><br>
+
 <!--python2 interpreter -->
 <h3  id="C16"><a class="w3-btn w3-margin-bottom">Just python 2.7.5 'Run'.</a></h3>
 <iframe src="https://trinket.io/embed/python/0bdde66575" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 <!-- python interpreter -->
  
-<br><br>
-<div class="teaser clearfix"></div>
+
+
 <script src="//cdn.datacamp.com/dcl-react.js.gz"></script>
 <h3  id="C16"><a class="w3-btn w3-margin-bottom">Just python 3.5.2 'Run'.</a></h3>
 <div data-datacamp-exercise data-lang="python" data-height="auto">
@@ -3408,7 +3398,7 @@ for-loop = 1.444 s
  </div>
 <br>
 
-<div class="teaser clearfix"></div>
+
 <div class="w3-panel w3-card w3-light-grey">
   <a id="C17">Sözlük Dizini</h3>
   <div class="w3-container w3-white">
