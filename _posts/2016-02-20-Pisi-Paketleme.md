@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Pisi Paket Yapımı Belgelendirme Çalışması
+description: Pisi Linux Dağıtımında kullandığımız pisi paket sistemi python dilinde yazılmış paket yapımı ve kurulumu gibi araçları içeren bir uygulamadır. 
 date:   2016-02-20 12:52:00
 tags:   Pisi Linux
 categories: [Pisi]
