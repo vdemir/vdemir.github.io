@@ -569,9 +569,7 @@ MyClass örneğinde, 'merhaba dünya' dizesini döndürür. Ancak, bir yordamı 
 
 {% highlight python %}
 xf = x.f
-
 while True:
-   
    print(xf())
 
 {% endhighlight %}
