@@ -369,7 +369,7 @@ AttributeError: 'Person' object has no attribute 'age'
 
 {% endhighlight %}
 
-<h3 id="C15"> </a>
+<a id="C15"> </a>
 
 * * *
 
