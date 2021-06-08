@@ -3,7 +3,7 @@ layout: post
 title: Etkileyici Sözler 
 date:   2018-08-12 15:52:00
 tags:   Kelime
-categories: Diğer
+categories: Dil
 comments: false
 published: true
 lang: tr
