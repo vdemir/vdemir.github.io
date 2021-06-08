@@ -11,7 +11,7 @@ categorie: Programlama
 tags:   Linux Programlama Python
 permalink: /PyClasses/
 categories: [Python, Programlama]
-comments: false
+comments: true
 published: true
 lang: tr
 ---
