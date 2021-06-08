@@ -402,6 +402,8 @@ del p1
 print(p1)
 {% endhighlight %} 
 
+Out [1]:
+
 {% highlight bash %}
 NameError: name 'p1' is not defined
 
