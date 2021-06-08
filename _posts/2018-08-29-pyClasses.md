@@ -582,7 +582,7 @@ Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey
 <br><br>
  
 
-![Python &bull; Sınıflar.](/images/python-oop.jpg "Python &bull; Sınıflar."){:height="77%" width="77%"}
+![Python &bull; Sınıflar.](/images/Python.jpg "Python &bull; Sınıflar."){:height="77%" width="77%"}
 
  
 <a id="C8"> </a>
