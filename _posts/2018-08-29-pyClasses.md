@@ -107,40 +107,28 @@ Anne
 ![Python &bull; Sınıflar.](/images/python/class1.png "Python &bull; Sınıflar."){:height="77%" width="77%"}
 
 
-<br><br>
-
-
-
-
 <a id="C1"></a>
 
 * * *
 
-## **``Bir Python Sınıfı Oluşturma``**
+#### **``Bir Python Sınıfı Oluşturma``**
 
 * * *
 
 **x** adlı bir özdeğere sahip **MyClass** adlı bir sınıf/öbek oluşturun:
-<div class="w3-code notranslate">
+
 {% highlight python %}
 class MyClass:
   'Python Temel Sınıf'
   x = 5
 print(MyClass)
-{% endhighlight %}
-</div>
-
-<br>
+{% endhighlight %} 
  
 **Sınıf:** Uzakta bir kale duruyor. Birçok işlevi vardır - bir hendek vardır, duvarları vardır, şehri korur. İstilacıları dışarıda tutar.
  
 
 **Bir kale gibi:** Python'daki bir sınıfın işlevleri vardır (defs). Bir kale kasabayı koruyor. Bir sınıf verilerini korur. Sınıflar bir soyutlamadır.
-
-<br>
-
-<main class="grid">
-  <article>
+ 
 {% highlight python %}
 class Sinif:
     def bir_yordam(self):
@@ -155,19 +143,17 @@ ozdes.bir_yordam()
 
 Sinif.bir_yordam(ozdes)
 # 'Hey bir yordam' yazdırır
-{% endhighlight %}
-  </article>
-  <article>
-    <div class="text">
-      <p>
-Hey bir yordam<br>
-Hey bir yordam
-</p>
-    </div>
-  </article>
-</main>
+{% endhighlight %} 
 
-<br><br>
+
+Out[1]:
+
+{% highlight bash %}
+Hey bir yordam
+Hey bir yordam 
+
+{% endhighlight %} 
+
 
 <a id="C84"></a>
 
