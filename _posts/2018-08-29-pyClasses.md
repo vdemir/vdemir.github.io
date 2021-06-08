@@ -283,7 +283,7 @@ print(MyClass.x)
 
 * * *
 
- Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">init</code> yordamının kabul ettiği ifadeleri iletirsiniz:
+ Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra **``init``** yordamının kabul ettiği ifadeleri iletirsiniz:
 
 {% highlight python %} 
 p1 = Person("John", 36)
@@ -375,7 +375,7 @@ AttributeError: 'Person' object has no attribute 'age'
 
 * * *
 
-Nesneleri <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz: 
+Nesneleri **``del``** anahtar sözcüğünü kullanarak silebilirsiniz: 
 <p>p1 nesnesini silin:</p>
 
 <div class="w3-code">
@@ -1302,8 +1302,8 @@ Thus, the convention followed is that any variable that is to be used only withi
 <br><br>
 
 
-<h3  id="C9"><code class="w3-codespan">new</code> yordamı </h3><hr>
- <code class="w3-codespan">new</code> örnekleme ile oluşturan ve döndüren python özel yordamıdır.
+<h3  id="C9">**``new``** yordamı </h3><hr>
+ **``new``** örnekleme ile oluşturan ve döndüren python özel yordamıdır.
 
 <main class="grid">
   <article>
@@ -1333,31 +1333,31 @@ Initiating instance of Sample
 <br>
 
 <div class="w3-code notranslate pythonHigh">
-<strong>Not:</strong> Örneklem ile oluşturulduktan sonra <code class="w3-codespan">init</code> yordamı çağrılır. Gerçek oluşturma işlemini kontrol etmek istiyorsanız, <code class="w3-codespan">new</code> yordamını kullanın.</div>
+<strong>Not:</strong> Örneklem ile oluşturulduktan sonra **``init``** yordamı çağrılır. Gerçek oluşturma işlemini kontrol etmek istiyorsanız, **``new``** yordamını kullanın.</div>
 
 <div class="w3-code notranslate pythonHigh">
-<strong>Not:</strong><code class="w3-codespan">new</code>, bir cls yordamı döndürürse, argümanların geri kalanıyla <code class="w3-codespan">init</code> çağrılır (...), aksi halde <code class="w3-codespan">init</code> çağrılmaz.</div>
+<strong>Not:</strong>**``new``**, bir cls yordamı döndürürse, argümanların geri kalanıyla **``init``** çağrılır (...), aksi halde **``init``** çağrılmaz.</div>
 
 
 <div class="w3-code notranslate pythonHigh">
-<strong>Not:</strong> Python sınıf kurucusunun iki adımı vardır: Örneklem ile oluşturmak için <code class="w3-codespan">new</code> çağırma ve başlatmak için <code class="w3-codespan">init</code> çağırma. <code class="w3-codespan">init</code> isteğe bağlı bir adım değildir, <code class="w3-codespan">init</code> başarısız olursa örneklem oluşturma da başarısız olur.</div>
+<strong>Not:</strong> Python sınıf kurucusunun iki adımı vardır: Örneklem ile oluşturmak için **``new``** çağırma ve başlatmak için **``init``** çağırma. **``init``** isteğe bağlı bir adım değildir, **``init``** başarısız olursa örneklem oluşturma da başarısız olur.</div>
 
-<p> Yeni bir örneklemin oluşturulmasını kontrol etmeniz gerektiğinde <code class="w3-codespan">new</code> kullanın. 
-Yeni bir örneklemin başlatılmasını kontrol etmeniz gerektiğinde <code class="w3-codespan">init</code> kullanın. 
+<p> Yeni bir örneklemin oluşturulmasını kontrol etmeniz gerektiğinde **``new``** kullanın. 
+Yeni bir örneklemin başlatılmasını kontrol etmeniz gerektiğinde **``init``** kullanın. 
 
-<code class="w3-codespan">new</code>, örneklem oluşturmanın ilk adımıdır. İlk olarak adlandırılır, 
+**``new``**, örneklem oluşturmanın ilk adımıdır. İlk olarak adlandırılır, 
 ve sınıfınızın yeni bir örneklemi döndürmekten sorumludur. 
-Tezatında, <code class="w3-codespan">init</code> hiçbir şey döndürmez; yalnızca, oluşturulduktan sonra örneklemin başlatmasından sorumludur. 
+Tezatında, **``init``** hiçbir şey döndürmez; yalnızca, oluşturulduktan sonra örneklemin başlatmasından sorumludur. 
 
 Genel olarak, 
-str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturmuyorsanız <code class="w3-codespan">new</code>'yi geçersiz kılmanız gerekmez. </p> 
+str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturmuyorsanız **``new``**'yi geçersiz kılmanız gerekmez. </p> 
 
 <button class="w3-button w3-blue" onclick="document.getElementById('id01').style.display='block'">Bilgi!</button> 
 
 <div id="id01" class="w3-panel w3-green w3-display-container" style="display:none">
   <span onclick="this.parentElement.style.display='none'"
   class="w3-button w3-yellow w3-display-topright">&#10004;</span>
-  <p> <code class="w3-codespan">init</code> bazen nesnenin kurucusu olarak adlandırılır, çünkü kurucuların diğer dillerde kullanıldığı gibi kullanılır, ancak bu teknik olarak doğru değildir - onu başlatıcı olarak adlandırmak daha iyidir. Bir kurucuya daha benzer olan <code class="w3-codespan">new</code> adlı farklı bir yordam var, ancak neredeyse hiç kullanılmıyor.</p>
+  <p> **``init``** bazen nesnenin kurucusu olarak adlandırılır, çünkü kurucuların diğer dillerde kullanıldığı gibi kullanılır, ancak bu teknik olarak doğru değildir - onu başlatıcı olarak adlandırmak daha iyidir. Bir kurucuya daha benzer olan **``new``** adlı farklı bir yordam var, ancak neredeyse hiç kullanılmıyor.</p>
 </div>
 
 <br>
@@ -1390,14 +1390,14 @@ str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturm
 <br>
 
 
-<h3  id="C10"><code class="w3-codespan">init</code> yordamı</h3><hr>
+<h3  id="C10">**``init``** yordamı</h3><hr>
 Yukarıdaki örnekler, en basit biçimde sınıflar ve nesnelerdir ve gerçek yaşam uygulamalarında gerçekten yararlı değildir. 
 
-Sınıfların manâsını anlamak için, yerleşik <code class="w3-codespan">init</code> yordamını anlamamız gerekir. 
+Sınıfların manâsını anlamak için, yerleşik **``init``** yordamını anlamamız gerekir. 
 
-Tüm sınıflar, sınıf başlatıldığında her zaman çalıştırılan <code class="w3-codespan">init</code> adında bir yordama sahiptir. 
+Tüm sınıflar, sınıf başlatıldığında her zaman çalıştırılan **``init``** adında bir yordama sahiptir. 
 
-Nesne özniteliklerine veya nesne oluşturulduğunda yapılması gereken diğer işlemlere değer atamak için <code class="w3-codespan">init</code> yordamını kullanın:
+Nesne özniteliklerine veya nesne oluşturulduğunda yapılması gereken diğer işlemlere değer atamak için **``init``** yordamını kullanın:
 
  
 <main class="grid">
@@ -1429,7 +1429,7 @@ Hello my name is John
 <br>
  
 <div class="w3-code notranslate pythonHigh">
-<strong>Not:</strong>  <code class="w3-codespan">init</code> bir sınıfın kurucusudur aslında başlatıcıdır. <code class="w3-codespan">init</code> yordamı, nesnenin belleğinin tahsis edildiği anda çağrılır.</div>
+<strong>Not:</strong>  **``init``** bir sınıfın kurucusudur aslında başlatıcıdır. **``init``** yordamı, nesnenin belleğinin tahsis edildiği anda çağrılır.</div>
 
 Python sınıflarında özel bir önemi olan birçok yöntem ismi vardır. **init** yönteminin önemini şimdi göreceğiz.
 
@@ -1474,10 +1474,10 @@ Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) 
 <br>
 
 
-<h3  id="C11"><code class="w3-codespan">self</code> Parametresi</h3><hr>
-<p> <code class="w3-codespan">self</code> sınıfın kendisine bir referanstır ve sınıfa ait özniteliklere erişmek için kullanılır. 
+<h3  id="C11">**``self``** Parametresi</h3><hr>
+<p> **``self``** sınıfın kendisine bir referanstır ve sınıfa ait özniteliklere erişmek için kullanılır. 
 
-<code class="w3-codespan">self</code> diye isimlendirilmek zorunda değildir, ne ile  istersen öyle çağırabilirsin, ama sınıftaki herhangi bir yordamın ilk parametresi olmalı:</p>
+**``self``** diye isimlendirilmek zorunda değildir, ne ile  istersen öyle çağırabilirsin, ama sınıftaki herhangi bir yordamın ilk parametresi olmalı:</p>
 
 
 <main class="grid">
@@ -1507,7 +1507,7 @@ Hello my name is John
 </main>
  
 <div class="w3-code notranslate pythonHigh">
-<strong>Not:</strong> <code class="w3-codespan">self</code> parametresi, sınıfa ait bir referanstır ve sınıfa ait özniteliklere erişmek için kullanılır.</div>
+<strong>Not:</strong> **``self``** parametresi, sınıfa ait bir referanstır ve sınıfa ait özniteliklere erişmek için kullanılır.</div>
 
 Sınıf yordamları, sıradan fonksiyonlardan yalnızca belirli bir fark içerirler - parametre listesinin başına eklenmesi gereken fazladan bir ilk ada sahip olmaları gerekir, ancak yordamı çağırdığınızda bu parametre için bir değer vermezsiniz, Python bunu sağlayacaktır. Bu özel değişken, öbeğin kendisine atıfta bulunur ve sözleşmeye göre, kendisine **self** ad verilir.
 
