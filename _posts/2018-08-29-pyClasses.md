@@ -377,10 +377,9 @@ AttributeError: 'Person' object has no attribute 'age'
 
 * * *
 
-Nesneleri **``del``** anahtar sözcüğünü kullanarak silebilirsiniz: 
-**p1 nesnesini silin:**
- 
-{% highlight python %} 
+Nesneleri **``del``** anahtar sözcüğünü kullanarak silebilirsiniz:
+
+**p1 nesnesini silin:**{% highlight python %} 
 del p1
 {% endhighlight %} 
 
