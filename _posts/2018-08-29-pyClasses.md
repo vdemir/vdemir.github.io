@@ -2,7 +2,7 @@
 layout: post
 title: Python Sınıfları
 description: Python sınıfları, Nesne Yönelimli Programlamanın tüm standart özelliklerini sağlar.
-date: 2018-08-29 15:52:00
+date:   2018-08-29 15:52:00
 last_updated: 2018-09-05 15:52:00
 keywords: linux, python, programlama
 summary: "Python 3 Sınıflar ve Nesneler."
@@ -17,38 +17,38 @@ lang: tr
 ---
 
 
-![Python &bull; Sınıflar.](/images/python/python-classes2.jpg "Python &bull; Sınıflar."){:height="77%" width="77%"}
+![Python &bull; Sınıflar.](/images/python/python-classes2.jpg "Python &bull; Sınıflar."){:height="97%" width="97%"}
 
 
 <div class="w3-panel w3-card w3-light-grey">
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
-      <li><a href="#C1" style="text-decoration: none; color:#388E3C; cursor:pointer"> Bir Python Sınıfı Oluşturmak</a></li>
-      <li><a href="#C84" style="text-decoration: none; color:#388E3C; cursor:pointer"> Oluşturulduktan Sonra Sınıfların Değiştirilmesi</a></li>
-      <li><a href="#C81" style="text-decoration: none; color:#388E3C; cursor:pointer"> Sınıf Özdeşleri</a></li>
-      <li><a href="#C2" style="text-decoration: none; color:#388E3C; cursor:pointer"> Bir Python Nesnesi Oluşturmak</a></li>
-      <li><a href="#C3" style="text-decoration: none; color:#388E3C; cursor:pointer"> Sınıf Eşleme ile Nesne Oluşturmak</a></li>
-      <li><a href="#C13" style="text-decoration: none; color:#388E3C; cursor:pointer"> Nesne Özniteliklerini Değiştirmek</a></li>
-      <li><a href="#C14" style="text-decoration: none; color:#388E3C; cursor:pointer"> Nesne Özniteliklerini Silmek</a></li>
-      <li><a href="#C15" style="text-decoration: none; color:#388E3C; cursor:pointer"> Nesneleri Silmek</a></li>
-      <li><a href="#C5" style="text-decoration: none; color:#388E3C; cursor:pointer"> Sınıf Öbekleri</a></li>
-      <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer"> Özdeş Öbekler</a></li>
-      <li><a href="#C7" style="text-decoration: none; color:#388E3C; cursor:pointer"> Yordam Öbekleri</a></li>
+      <li><a href="#C1" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Bir Python Sınıfı Oluşturmak</a></li>
+      <li><a href="#C84" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Oluşturulduktan Sonra Sınıfların Değiştirilmesi</a></li>
+      <li><a href="#C81" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Sınıf Özdeşleri</a></li>
+      <li><a href="#C2" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Bir Python Nesnesi Oluşturmak</a></li>
+      <li><a href="#C3" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Sınıf Eşleme ile Nesne Oluşturmak</a></li>
+      <li><a href="#C13" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Nesne Özniteliklerini Değiştirmek</a></li>
+      <li><a href="#C14" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Nesne Özniteliklerini Silmek</a></li>
+      <li><a href="#C15" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Nesneleri Silmek</a></li>
+      <li><a href="#C5" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Sınıf Öbekleri</a></li>
+      <li><a href="#C6" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Özdeş Öbekler</a></li>
+      <li><a href="#C7" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Yordam Öbekleri</a></li>
       <li><a href="#C8" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-list"></i> Python Öznitelikler ve Yordamlar</a></li>
-      <li><a href="#C9" style="text-decoration: none; color:#388E3C; cursor:pointer"> new yordamı</a></li>
-      <li><a href="#C10" style="text-decoration: none; color:#388E3C; cursor:pointer"> init yordamı</a></li>
-      <li><a href="#C11" style="text-decoration: none; color:#388E3C; cursor:pointer"> self yordamı</a></li>
-      <li><a href="#C82" style="text-decoration: none; color:#388E3C; cursor:pointer"> El Yordamı ile 'self' Geçirme</a></li>
-      <li><a href="#C12" style="text-decoration: none; color:#388E3C; cursor:pointer"> super fonksiyonu</a></li>
+      <li><a href="#C9" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> new yordamı</a></li>
+      <li><a href="#C10" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> init yordamı</a></li>
+      <li><a href="#C11" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> self yordamı</a></li>
+      <li><a href="#C82" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> El Yordamı ile 'self' Geçirme</a></li>
+      <li><a href="#C12" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> super fonksiyonu</a></li>
       <li><a href="#C18" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-list"></i> Python Programları</a></li>
-      <li><a href="#C16" style="text-decoration: none; color:#388E3C; cursor:pointer"> Python 3 Shell</a></li>
-      <li><a href="#C17" style="text-decoration: none; color:#388E3C; cursor:pointer"> Sözlük Dizini</a></li>
+      <li><a href="#C16" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Python 3 Shell</a></li>
+      <li><a href="#C17" style="text-decoration: none; color:#388E3C; cursor:pointer"><i class="fas fa-chevron-circle-right"></i> Sözlük Dizini</a></li>
     </ul>
     </p>
   </div>
 </div>
-
+<br>
 Python bir nesne yönelimli programlama dilidir.
 Python'daki hemen hemen her şey, öznitelikleri ve yordamları ile bir nesnedir. 
 
@@ -64,7 +64,7 @@ class ClassName:
 {% endhighlight %}
 
 Burada, (class docstring) class_name._doc_ üzerinden erişilebilen bir belge dizesidir ve class_suite, temel olarak sınıf elemanlarını, veri özniteliklerini ve yordamları tanımlayan tüm bileşen ifadelerinden oluşur.
-
+<br>
 
 <main class="grid">
   <article>
@@ -101,7 +101,7 @@ person2.showName()
   <article>
     <div class="text">
       <p>
-23
+23<br>
 Anne
 </p>
     </div>
@@ -109,17 +109,13 @@ Anne
 </main>
  
 
-![Python &bull; Sınıflar.](/images/python/class1.png "Python &bull; Sınıflar."){:height="77%" width="77%"}
+![Python &bull; Sınıflar.](/images/python/class1.png "Python &bull; Sınıflar."){:height="97%" width="97%"}
 
 
-***
+<br><br>
 
-**``Bir Python Sınıfı Oluşturma``**
-
-***
-
-
-<a id="C1"></a> 
+<div class="teaser clearfix"></div>
+<h3 id="C1"><i class="fas fa-code"></i> Bir Python Sınıfı Oluşturma</h3><hr>
 **x** adlı bir özdeğere sahip **MyClass** adlı bir sınıf/öbek oluşturun:
 <div class="w3-code notranslate">
 {% highlight python %}
@@ -128,15 +124,16 @@ class MyClass:
   x = 5
 print(MyClass)
 {% endhighlight %}
+</div>
 
-
+<br>
  
 **Sınıf:** Uzakta bir kale duruyor. Birçok işlevi vardır - bir hendek vardır, duvarları vardır, şehri korur. İstilacıları dışarıda tutar.
  
 
 **Bir kale gibi:** Python'daki bir sınıfın işlevleri vardır (defs). Bir kale kasabayı koruyor. Bir sınıf verilerini korur. Sınıflar bir soyutlamadır.
 
-
+<br>
 
 <main class="grid">
   <article>
@@ -159,20 +156,17 @@ Sinif.bir_yordam(ozdes)
   <article>
     <div class="text">
       <p>
-Hey bir yordam
+Hey bir yordam<br>
 Hey bir yordam
 </p>
     </div>
   </article>
 </main>
 
+<br><br>
 
-
-<a id="C84"></a>
-
- **``Oluşturulduktan Sonra Sınıfların Değiştirilmesi``**
- 
-***
+<h4 id="C84"><i class="fas fa-code"></i> Oluşturulduktan Sonra Sınıfların Değiştirilmesi</h4>
+<hr>
 
 
 Sınıf oluşturulduktan çok sonra ve sonradan eşleştirildikten sonra bile bir sınıf özniteliğini veya yordamını ekleyebilir, değiştirebilir veya silebilirsiniz. Sadece özniteliğe veya yordama **Class.attribute** olarak erişin. Ne zaman oluşturuldukları önemli değil, sınıfın özdeşleri bu değişikliklere saygı duyacaktır:
@@ -201,8 +195,8 @@ instance.method()
     <div class="text">
       <p>
 
-Out [1]:  
-Hey a method   
+Out [1]: <br> <br>
+Hey a method <br>  <br>
 New method wins!
 </p>
     </div>
@@ -211,13 +205,9 @@ New method wins!
 
 Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşmayın, bu kötü bir formdur ve bu sınıfı kullanarak herhangi bir öbeği karıştırır. Öte yandan, yordamların eklenmesi çok daha az (ama yine de biraz) tehlikelidir.
 
-***
+<br><br>
 
-<a id="C81"></a>
-
- **``Sınıf Özdeşleri``**
-
-***
+<h4 id="C81"><i class="fas fa-code"></i> Sınıf Özdeşleri</h4><hr>
 
 Bir sınıfın özdeşi, bir Python öbeğidir ve her Python öbeğine benzer şekilde, şu özelliklere sahiptir: kimlik, öbek/nesne tipi, öznitelikler, yordamlar ve değeri.
 **(identity, object type, attributes, methods, and value)
@@ -242,8 +232,8 @@ type(obj.name)
     <div class="text">
       <p>
 
-Out[1]: 140040300870176 
-Out[2]: __main__.c 
+Out[1]: 140040300870176 <br>
+Out[2]: __main__.c <br>
 Out[3]: str
 </p>
     </div>
@@ -253,15 +243,14 @@ Out[3]: str
 
 Kimlik[identity], öbek için ayrılan bellek konumudur. **id()** fonksiyonu kullanılarak tanımlanabilir.
 
-{% highlight python %} 
+<div class="w3-code notranslate pythonHigh">
 id(obj)</div>
 
 Nesne tipi, öbeğin iç temsilidir. Her öbek için desteklenen yordam ve işlemi tanımlar. Belirli bir Nesnenin tipini öğrenmek için **type()** fonksiyonunu kullanabilirsiniz.
 
-{% highlight python %} 
-type(obj)
-type(obj.name)
-{% endhighlight %}
+<div class="w3-code notranslate pythonHigh">
+type(obj)<br>
+type(obj.name)</div>
 
 Nesne tiplerinden bahsederken, tüm sınıf konusundan kısa bir ara verelim ve sınıflar gibi davranmayan, uzantı modüllerinde tanımlanan Python öbeklerini inceleyelim.
 
@@ -269,30 +258,20 @@ Bir nesnenin öznitelikleri ve yordamları, öbek adından sonra bir nokta (.) y
 
 Sonunda, bir nesnenin değeri bir örnekle daha iyi görselleştirilir.
 
-{% highlight python %} 
-obj.name = "Andre"
-{% endhighlight %}
+<div class="w3-code notranslate pythonHigh">
+obj.name = "Andre"</div>
 
 **'Andre'** dizesi, **obj** öbeğinin **name** özniteliğine atanan değerdir.
 
 
 
+<br><br>
 
-
-
-<a id="C2"></a>
-
-***
-
- **``Bir Python Nesnesi Oluşturma``**
- 
-***
-
- 
- 
+<div class="teaser clearfix"></div>
+<h3 id="C2"><i class="fas fa-code"></i> Bir Python Nesnesi Oluşturma</h3><hr>
 Artık nesneleri oluşturmak için **myClass** adlı sınıfı kullanabiliriz:
 
-
+<div class="w3-code">
 {% highlight python %} 
 class MyClass:
   x = 5
@@ -300,43 +279,31 @@ p1 = MyClass()
 print(p1.x)
 print(MyClass.x)
 {% endhighlight %}
+</div>
+<br>
+<div class="teaser clearfix"></div>
+<h3 id="C3"><i class="fas fa-code"></i> Sınıf Eşleme ile Nesne Oluşturma</h3><hr>
+ Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">init</code> yordamının kabul ettiği ifadeleri iletirsiniz:
 
-
-<a id="C3"></a>
-
-***
-
- **``Sınıf Eşleme ile Nesne Oluşturma``**
- 
-***
-
-
- 
- Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra ``init`` yordamının kabul ettiği ifadeleri iletirsiniz:
-
-
+<div class="w3-code">
 {% highlight python %} 
 p1 = Person("John", 36)
 {% endhighlight %}
+</div>
 
+<br>
 
-
-
-<a id="C13"></a>
- 
-***
-
- **``Nesne Özniteliklerini Değiştirmek``**
- 
-***
-
+<div class="teaser clearfix"></div>
+<h3 id="C13"><i class="fas fa-code"></i> Nesne Özniteliklerini Değiştirmek</h3><hr>
 Bu gibi nesnelerdeki öznitelikleri değiştirebilirsiniz:
 <p>p1'in yaşını 40'a ayarlayın:</p>
 
+<div class="w3-code notranslate">
 {% highlight python %} 
   p1.age = 40
 {% endhighlight %}
-
+</div>
+<br>
 
 <main class="grid">
   <article>
@@ -370,25 +337,19 @@ print(p1.age)
  </div>
 </div>
 
+<br>
 
-
-
-<a id="C14"></a>
-
-***
-
- **``Nesne Özniteliklerini Silmek``**
-
-***
- 
-Nesnelerin Özniteliklerini ``del`` anahtar sözcüğünü kullanarak silebilirsiniz:
+<div class="teaser clearfix"></div>
+<h3 id="C14"><i class="fas fa-code"></i> Nesne Özniteliklerini Silmek</h3><hr>
+Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz:
 <p>age özniteliğini p1 nesnesinden silin:</p>
 
 
-
+<div class="w3-code">
 {% highlight python %} 
 del p1.age
 {% endhighlight %}
+</div>
 
 <main class="grid">
   <article>
@@ -417,25 +378,20 @@ AttributeError: 'Person' object has no attribute 'age'
   </article>
 </main>
 
+<br>
+<div class="teaser clearfix"></div>
+<h3 id="C15"><i class="fas fa-code"></i> Nesneleri Silmek</h3><hr>
+Nesneleri <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz: 
+<p>p1 nesnesini silin:</p>
 
-
-<a id="C15"></a>
-
-***
-
-**``Nesneleri Silmek``**
-
-***
- 
-
-Nesneleri ``del`` anahtar sözcüğünü kullanarak silebilirsiniz: 
-p1 nesnesini silin:
-
+<div class="w3-code">
 {% highlight python %} 
 del p1
-{% endhighlight %}
+{% endhighlight %}</div>
 
 
+<main class="grid">
+  <article>
 {% highlight python %}
 class Person:
   def __init__(self, name, age):
@@ -451,28 +407,27 @@ del p1
 
 print(p1)
 {% endhighlight %}
-
-
-{% highlight bash %}
+  </article>
+  <article>
+    <div class="text">
+      <p>
 NameError: name 'p1' is not defined
-{% endhighlight %}
+</p>
+    </div>
+  </article>
+</main>
 
+<br><br>
 
-<a id="C5"></a>
-
- * * *
-
- **``Sınıf Öbekleri``**
-
- ***
-
-
+<div class="teaser clearfix"></div>
+<h3 id="C5"><i class="fas fa-code"></i> Sınıf Öbekleri </h3><hr>
 Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnekleme. 
 
 Öznitelik referansları, Python: obj.name'deki tüm öznitelik referansları için kullanılan standart sözdizimini kullanır. Geçerli nesne adları, sınıf nesnesi oluşturulduğunda sınıfın ad alanındaki tüm adlardır. Yani, sınıf tanımı böyle görünüyorsa:
-
-  
-  
+<br>
+<div class="teaser clearfix"></div>
+<main class="grid">
+  <article>
 {% highlight python %}
 # sınıfın tanımı burada başlar  
 class MyClass:
@@ -491,36 +446,34 @@ print(t)
 p=MyClass.f(1)
 print(p)
 {% endhighlight %}
-  
-{% highlight bash %}
-12345 
-12345 
+  </article>
+  <article>
+    <div class="text">
+      <p>
+12345 <br>
+12345 <br>
 hello world
-{% endhighlight %}
-
-
-
+</p>
+    </div>
+  </article>
+</main>
+ 
+<br>
 sonra **MyClass.i** ve **MyClass.f**, sırasıyla bir tamsayı ve fonksiyon nesnesini döndüren geçerli öznitelik referanslarıdır. Sınıf öznitelikleri de atanabilir, böylece **MyClass.i**'nin değerini atama yoluyla değiştirebilirsiniz. **__doc__** ayrıca geçerli bir özniteliktir ve **'Basit bir örnek sınıf'** sınıfa ait olan docstring döndürür.
 
 Sınıf örnekleme, fonksiyon notasyonu kullanır. Sınıf nesnesinin,  sadece sınıfın yeni bir örneğini döndüren parametresiz bir fonksiyon olduğunu varsayalım. Örneğin (yukarıdaki sınıfı varsayarak):
 
-{% highlight python %} 
-  x = MyClass()
-{% endhighlight %}
-
+<div class="w3-code notranslate pythonHigh">
+  x = MyClass() </div>
 sınıfın yeni bir örneklemini oluşturur ve bu nesneyi **x** yerel değişkenine atar.
 
 Örneklem işlemi boş bir nesne oluşturur.(bir sınıf nesnesini çağırmak) Birçok sınıf, belirli bir başlangıç ​​durumuna göre özelleştirilmiş örneklemeler ile nesneler oluşturmayı sever. Bu nedenle, bir sınıf, **__init__()** adında özel bir yordam tanımlayabilir, bunun gibi: 
-
-{% highlight python %} 
-  def __init__(self): &nbsp; self.data = []
-{% endhighlight %}
+<div class="w3-code notranslate pythonHigh">
+  def __init__(self):<br> &nbsp; self.data = []</div>
 
 Bir sınıf/öbek bir **__init__()** yordamını tanımladığında, sınıf/öbek örneklemesi otomatik olarak yeni oluşturulmuş sınıf örneği için **__init__()** yordamını çağırır. . Bu örnekte, yeni başlatılmış bir örnekleme şu şekilde elde edilebilir: 
-
-{% highlight python %} 
-  x = MyClass()
-{% endhighlight %}
+<div class="w3-code notranslate pythonHigh">
+  x = MyClass() </div>
 
 
 Elbette **__init__()** yordamı daha fazla esneklik için argümanlara sahip olabilir. Bu durumda, sınıf/öbek örnekleme işlecine verilen argümanlar **__init__()** öğesine iletilir. Örneğin,
@@ -545,19 +498,15 @@ Out[1]: (3.0, -4.5)
   </article>
 </main>
 
+<br><br>
 
-
-
-<a id="C6"></a>
-
- **``Özdeş Öbekler``**
- 
- 
+<div class="teaser clearfix"></div>
+<h3 id="C6"><i class="fas fa-code"></i> Özdeş Öbekler</h3><hr>
 Şimdi eşleşen nesnelerle ne yapabiliriz? Eşleşen nesneler ile anlaşılan yegane işlemler, öznitelik atıflarıdır. İki tür geçerli atıf ismi vardır; data öznitelikleri ve yordamları. 
 
 Data öznitelikleri, Smalltalk'daki “eşleşen öznitelikler” ve C++'daki “data elemanlarına” karşılık gelir. Data özniteliklerinin beyan edilmesine gerek yoktur; yerel öznitelikler gibi, ilk atandıklarında var olurlar. Örneğin, **x** yukarıda oluşturulan **MyClass** özniteliğiyse, aşağıdaki kod parçası bir iz bırakmadan değeri 16 yazdıracaktır:
 
-
+<div class="teaser clearfix"></div>
 <div class="w3-code notranslate">
 {% highlight python %}
 
@@ -577,64 +526,54 @@ Diğer eşleşen öznitelik atıf türü bir yordamdır. Bir yordam, bir öbeğe
 
 Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım olarak, bir sınıfın tüm öznitelikleri, eşleşen yordamlarına karşılık tanımlanan fonksiyon öbekleridir. Yani bizim örneğimizde, **x.f** geçerli bir yordam atfıdır, çünkü **MyClass.f** bir fonksiyondur, fakat **x.i** fonksiyon değildir çünkü **MyClass.i** da değildir. Ama **x.f**, **MyClass.f** ile aynı şey değildir - **x.f**, bir fonksiyon nesnesi/öbeği değil, bir yordam öbeğidir.
 
- 
+<br> 
 
-
-
-**``Özdeş Öbeğin Özniteliklerine Erişim``**
- 
- 
+<div class="teaser clearfix"></div>
+<h4><i class="fas fa-code"></i> Özdeş Öbeğin Özniteliklerine Erişim</h4><hr>
 Nokta (.) operatörünü öbek ismi ile kullanarak erişebilirsiniz. Sınıf adı kullanarak da sınıf özdeğerlerine erişilebilir:
-{% highlight python %} 
-  print(p1.x)print(MyClass.x
-{% endhighlight %}
+<div class="w3-code notranslate pythonHigh">
+  print(p1.x)<br>print(MyClass.x)</div>
 
+<div class="w3-panel w3-card w3-light-grey">
+  <h4>Özniteliklerin tanımı</h4>
+  <div class="w3-container w3-white">
+    <p>
+    <ul class="w3-ul w3-card-4" style="width:85%">
+      <li>z.real ifadesinde, real, z nesnesinin bir özdeğeridir. Kesin olarak, modüllerdeki isimlere yapılan atıflar öznitelik atıflarıdır: modname.funcname ifadesinde modname bir modül nesnesidir ve funcname bunun bir özniteliğidir. Bu durumda, modülün öznitelikleri ile modülde tanımlanan genel isimler arasında doğrudan bir eşleme olur: aynı isim uzayını paylaşırlar!</li>
+    </ul>
+    </p>
+  </div>
+</div>
 
-***
+<br><br>
 
-**``Özniteliklerin tanımı``**
-
-***
-
-z.real ifadesinde, real, z nesnesinin bir özdeğeridir. Kesin olarak, modüllerdeki isimlere yapılan atıflar öznitelik atıflarıdır: modname.funcname ifadesinde modname bir modül nesnesidir ve funcname bunun bir özniteliğidir. Bu durumda, modülün öznitelikleri ile modülde tanımlanan genel isimler arasında doğrudan bir eşleme olur: aynı isim uzayını paylaşırlar!
-
-
-<a id="C7"></a>
-
-***
-
-**``Yordam Öbekleri``**
-
-***
+<div class="teaser clearfix"></div>
+<h3 id="C7"><a class="w3-btn w3-margin-bottom">Yordam Öbekleri</a></h3><hr>
 
 Genellikle, bağlantıdan hemen sonra bir yordam çağrılır: 
-
-{% highlight python %} 
-x.f()
-{% endhighlight %}
+<div class="w3-code notranslate pythonHigh">
+x.f() </div>
 
 MyClass örneğinde, 'merhaba dünya' dizesini döndürür. Ancak, bir yordamı hemen çağırmak gerekli değildir: x.f bir yordam öbeğidir ve daha sonra depolanabilir ve daha sonra çağrılabilir. Örneğin:
-
-{% highlight python %} 
-xf = x.f
-while True:
-   print(xf()
-{% endhighlight %}
+<div class="w3-code notranslate pythonHigh">
+xf = x.f<br>
+while True:<br>
+   &nbsp; &nbsp;&nbsp;print(xf() </div>
 
 **merhaba dünya** zamanın sonuna kadar basmaya devam edecek. 
 
 Bir yordam çağrıldığında tam olarak ne olur? **f()** fonksiyon tanımı bir argüman belirtmiş olsa bile, **x.f()** öğesinin bir argüman olmadan çağrıldığını fark etmiş olabilirsiniz. Argümana ne oldu? Kesinlikle Python argüman gerektiren bir fonksiyon çağrılmadan çağrılır - argüman aslında kullanılmasa bile…
 
 Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey vardır ki, özdeş öbek fonksiyonun ilk ifadesi olarak geçirilir. Örneğimizde, **x.f()** çağrısı tam olarak **MyClass.f(x)** öğesine eşdeğerdir. Genel olarak, n argümanlı bir listeden bir yordamı çağırmak, ilk argümandan önce yordamın özdeş öbeğini ekleyerek oluşturulan bir argüman listesine karşılık fonksiyonu çağırmaya eşdeğerdir. Eğer isim geçerli bir sınıf özniteliğini işaret ederse ki bir fonksiyon öbeğidir, bir yordam öbeği özdeş öbek paketlenerek oluşturulur ve fonksiyon öbeği sadece soyut bir öbek ile birlikte bulunur: bu yordam öbeğidir. Yordam öbeği bir argüman listesi ile çağrıldığında yeni bir argüman listesi, argüman listesi ve özdeş öbekten inşa edilir ve fonksiyon öbeği yeni bir argüman listesi ile çağrılır.
-
+<br><br>
  
 
-![Python &bull; Sınıflar.](/images/python-oop.jpg "Python &bull; Sınıflar."){:height="77%" width="77%"}
+![Python &bull; Sınıflar.](/images/python-oop.jpg "Python &bull; Sınıflar."){:height="97%" width="97%"}
 
 
 
-
-<a id="C8">Python Öznitelikler ve Yordamlar``**
+<div class="teaser clearfix"></div>
+<h3 id="C8">Python Öznitelikler ve Yordamlar</h3><hr>
 
 
 <div class="w3-panel w3-card w3-light-grey">
@@ -652,7 +591,7 @@ Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey
     </p>
   </div>
 </div>
-
+<br>
 
 
 Bir sınıf, bir öbek grubunu, kapsadığı veriler ve arayüz fonksiyonları tarafından izin verilen veriler üzerindeki işlemler açısından tanımlar.
@@ -666,9 +605,9 @@ Bir sınıf, öbek öz niteliklerini (veri elemanları olarak da bilinir) ve öb
 Her sınıfın, tüm görevlerin ve fonksiyon tanımlarının meydana geldiği kendi ad alanı vardır.
 
 
-
-<a id="C83">Öznitelik ve Yordam Varlığını Kontrol Etme``**
-***
+<br>
+<h4 id="C83">Öznitelik ve Yordam Varlığını Kontrol Etme</h4>
+<hr>
 
 Belirli bir sınıfın veya özdeşin, belirli bir öznitelik veya yordama sahip olup olmadığını bilmek gerekir mi? Yerleşik **'hasattr'** işlevini kontrol etmek için kullanabilirsiniz; kontrol etmek için nesneyi ve özniteliği (dizge olarak) kabul eder. Dict 'has_key' yöntemine benzer şekilde kullanıyorsunuz (tamamen farklı olsa da):
 
@@ -693,8 +632,8 @@ hasattr(Class, 'question')
   <article>
     <div class="text">
       <p>
-Out[1]: True 
-Out[2]: True 
+Out[1]: True <br>
+Out[2]: True <br>
 Out[3]: False
 </p>
     </div>
@@ -725,9 +664,9 @@ getattr(Class, 'question')
       <p>
 
 
-Out[1]: 42 
-Out[2]: 'What?'  
-AttributeError: type object 
+Out[1]: 42 <br>
+Out[2]: 'What?' <br> <br>
+AttributeError: type object <br>
 'Class' has no attribute 'question'
 </p>
     </div>
@@ -739,9 +678,9 @@ AttributeError: type object
 Aşırı **hasattr** ve **getattr** kullanmayın. Sınıfınızı, bir özniteliğin var olup olmadığını kontrol etmeye devam etmeniz gereken bir şekilde yazmışsanız, yanlış yazmışsınız demektir. Sadece her zaman var olan değere sahip olur ve kullanılmıyorsa **None** (ya da her neyse) olarak ayarlayın. Bu fonksiyonlar en iyi şekilde çokbiçimliliği ele almak için kullanılır, Yani, fonksiyonunuzu / sınıfınızı / öbeklerin farklı türlerini desteklemenizi sağlar.
 
 
-
-<a id="C861">Öznitelikler``**
-***
+<br>
+<h4 id="C861">Öznitelikler</h4>
+<hr>
 Python'daki sınıf düzeyinde tanımlanan tüm öznitelikler statik kabul edilir. Bu örneğe bakın:
 
 
@@ -771,11 +710,11 @@ print (Example.staticVariable) # now 7
   <article>
     <div class="text">
       <p>
-5 
-5  
-6  
-5  
-6  
+5 <br>
+5  <br>
+6  <br>
+5  <br>
+6  <br>
 7
 </p>
     </div>
@@ -785,12 +724,12 @@ print (Example.staticVariable) # now 7
 Bana oldukça basit görünüyor. Sadece kafa karışıklığı gerçek olabilir, sınıfınızda aynı ad altında iki farklı değişkeniniz olabilir (bir statik ve bir sıradan). Ama bu davranışı tamamen önlemek için (kendi iyiliğiniz için) tavsiye ederim.
 
 
-![Python &bull; Sınıflar.](/images/python-logo23.jpg "Python &bull; Sınıflar."){:height="77%" width="77%"}
+![Python &bull; Sınıflar.](/images/python-logo23.jpg "Python &bull; Sınıflar."){:height="97%" width="97%"}
 
 
-
-<a id="C86"> Statik ve Sınıf Yordamlar</h3>
-***
+<br>
+<h3 id="C86"> Statik ve Sınıf Yordamlar</h3>
+<hr>
 
 <div class="w3-panel w3-card w3-light-grey">
   <div class="w3-container w3-white">
@@ -807,7 +746,7 @@ Bana oldukça basit görünüyor. Sadece kafa karışıklığı gerçek olabilir
     </p>
   </div>
 </div>
-
+<br>
 
 Python'da bir veri elemanı veya statik yordam nasıl bildirilir? Statik, özdeş seviyesinden ziyade bir sınıf düzeyinde eleman olduğu anlamına gelir. Statik öznitelikler, yalnızca sınıf başına tek özdeşte bulunur ve eşlenmez.  Sınıfın bir eşleneğinde statik bir değişken değiştirilirse, değişiklik diğer tüm özdeşlerde değerini etkileyecektir.
 
@@ -815,9 +754,9 @@ Statik yöntemler, sınıfın herhangi bir eşleneğine başvurmaz ve dışında
 
 
 
-
-<a id="C862">Özdeş, Sınıf ve Statik Yordamlar``**
-***
+<br>
+<h4 id="C862">Özdeş, Sınıf ve Statik Yordamlar</h4>
+<hr>
 
 Statik yordamlarla biraz daha karmaşık hale gelir. Python'da, bir sınıf içindeki statik yordamları tanımlamanın iki yolu vardır.
 
@@ -874,10 +813,10 @@ MyClass.method()
   </article>
 </main>
 
-
-<a id="C865">Özdeş Yordamlar``**
+<br>
+<h4 id="C865">Özdeş Yordamlar</h4>
 <h6>Instance Methods</h6>
-***
+<hr>
 
 Method denilen **```MyClass```**'taki ilk yordam, normal bir eşleşen yordamdır.
 Bu, çoğu zaman kullanacağınız temel, asgari ihtiyaçları karşılamaya yönelik yordam tipidir. Yordamın bir parametre **```self```** aldığını görebilirsiniz, yordam çağrıldığında **```MyClass```** eşleneğine işaret eder. (ama elbette özdeş yordamlar sadece bir parametreden fazlasını kabul edebilir).
@@ -886,10 +825,10 @@ Bu, çoğu zaman kullanacağınız temel, asgari ihtiyaçları karşılamaya yö
 
 Onlar sadece öbeğin durumunu değiştirmezler, özdeş yordamlar, sınıfın kendisine **```self .__class__```** özniteliği aracılığıyla da erişebilir. Bu, eşlenen yordamların sınıf durumunu da değiştirebileceği anlamına gelir.
 
+<br><br>
 
-
-<a id="C868">Sınıf Yordamları Oluşturma``**
-***
+<h4 id="C868">Sınıf Yordamları Oluşturma</h4>
+<hr>
 
 Bazen bir sınıf yazarken, sınıftan çağrılan bir fonksiyonu dahil etmek istersiniz, özdeşini değil. Belki bu yordam yeni özdeşler oluşturur veya belki de herhangi bir özel özdeşin herhangi bir özniteliğinden bağımsızdır. Python, yordamınızın, hangi sınıfın çağırdığını bilmesi gerektiğine (ya da bilmesine) bağlı olarak, bunu yapmanın iki yolunu size verir. Her ikisi de yordamlarınıza dekoratörler uygulamasını içerir. 
 
@@ -945,22 +884,22 @@ Class.an_instance_method()
     <div class="text">
       <p>
 
-Out [1]:  
-I was called from class <class '__main__.Class'> 
-I was called from class <class '__main__.Class'>  
-I have no idea where I was called from 
-I have no idea where I was called from   
+Out [1]: <br> <br>
+I was called from class <class '__main__.Class'> <br>
+I was called from class <class '__main__.Class'> <br> <br>
+I have no idea where I was called from <br>
+I have no idea where I was called from <br>  <br>
 I was called from the instance <__main__.Class object at 0x7f6854953748>
 </p>
     </div>
   </article>
 </main>
 
+<br>
 
-
-<a id="C866">Sınıf Yordamları``**
+<h4 id="C866">Sınıf Yordamları</h4>
 <h6>Class Methods</h6>
-***
+<hr>
 
 Bunu ikinci yordam olan **```MyClass.classmethod```** ile karşılaştıralım. Onu bir sınıf yordamı olarak işaret etmek için bu yordamı **```@classmethod```** dekoratörüyle işaretledim.
 
@@ -968,10 +907,10 @@ Bir **```self```** parametresini kabul etmek yerine, sınıf yordamları bir **`
 
 Çünkü sınıf yordamı sadece bu **```cls```** argümanına erişebilir, öbek eşleneğinin durumunu değiştiremez. Bu **```self```**'e erişim gerektirecektir. Ancak, sınıf yordamları hala sınıf durumunu değiştirebilir ki sınıfın tüm özdeşlerine uygulanır.
 
-
-<a id="C867">Statik Yordamlar``**
+<br><br>
+<h4 id="C867">Statik Yordamlar</h4>
 <h6>Static Methods</h6>
-***
+<hr>
 
 Üçüncü yöntem, bir statik yordam olarak işaret etmek için **```MyClass.staticmethod```** bir **```@staticmethod```** dekoratör ile işaretlendi.
 
@@ -979,9 +918,9 @@ Bu tip bir yordam ne **```self```** ne de bir **```cls```** parametresini alır 
 
 Bu nedenle, statik bir yordam, öbek durumunu ve sınıf durumunu değiştiremez. Statik yordamlar, verilerde erişebilecekleri şeyleri sınırlandırır ve esas olarak yordamlarınızı adlandırmak için bir yoldur.
 
-
+<br>
 <h5 id="C863">@staticmethod</h5>
-***
+<hr>
 
 Bu dekoratör ile dekore edilen yordam isim uzayını sınıf ile paylaşır. Yordam tanımında hiçbir argümanın zorunlu olmadığını unutmayın. Statik yordam, sınıflara statik özniteliklerle erişebilir. Aşağıdaki örnekte bakın:
 
@@ -1014,8 +953,8 @@ Offspring2.static() # prints Offspring2
   <article>
     <div class="text">
       <p>
-Example static() called 
-Example static() called 
+Example static() called <br>
+Example static() called <br>
 Offspring2 static() called
 </p>
     </div>
@@ -1023,9 +962,9 @@ Offspring2 static() called
 </main>
 
 
-
+<br>
 <h5 id="C864">@classmethod</h5>
-***
+<hr>
 
 Python'da sınıf yordamı ve statik yordam arasındaki fark vardır. Bu sınıf yordamı, zorunlu bir argümanı - çağırdığı bir sınıf adını - alır. Bir bakalım:
 
@@ -1058,8 +997,8 @@ Offspring2.static() # prints Offspring2
   <article>
     <div class="text">
       <p>
-Example static() called 
-Offspring1 static() called 
+Example static() called <br>
+Offspring1 static() called <br>
 Offspring2 static() called
 </p>
     </div>
@@ -1069,9 +1008,9 @@ Offspring2 static() called
 Hangisini kullanmalısın? İlk seçenek, yalnızca aynı sınıftaki statik özniteliklere erişmenizi sağlar. İkinci yaklaşımda, alt sınıfların sınıf özniteliklerini, kalıtım sırasında yordamı yeniden tanımlamanın zorunluluğu olmadan değiştirebileceksiniz. İlk varyantı tercih ederim çünkü kişisel olarak daha temiz bir çözüm olduğunu düşünüyorum, ancak ikinci varyant da bazı durumlarda faydalı olabilir.
 
 
-
-<a id="C88">Sınıf Öznitelikleri 1``**
-***
+<br>
+<h4 id="C88">Sınıf Öznitelikleri 1</h4>
+<hr>
 
 Bazı öznitelik değerleri, verilen bir sınıfın tüm öbeklerinde paylaşılır. Bu öznitelikler, sınıfın herhangi bir tek özdeşinden ziyade sınıfın kendisi ile ilişkilendirilir. Örneğin, bir bankanın hesap bakiyesine sabit faiz oranından faiz ödediğini söyleyelim. Bu faiz oranı değişebilir, ancak tüm hesaplarda paylaşılan tek bir değerdir. 
 
@@ -1102,10 +1041,10 @@ jim_account.interest
   <article>
     <div class="text">
       <p>
-Out[1]: 0.02 
-Out[2]: 0.02 
-Out[3]: 0.04 
-Out[4]: 0.04 
+Out[1]: 0.02 <br>
+Out[2]: 0.02 <br>
+Out[3]: 0.04 <br>
+Out[4]: 0.04 <br>
 </p>
     </div>
   </article>
@@ -1136,10 +1075,9 @@ jim_account.interest = 0.08
 
 ve bu öznitelik değeri bir nokta ifadesinden döndürülecek
 
-{% highlight python %} 
-jim_account.interest
-0.08
-{% endhighlight %}
+<div class="w3-code notranslate pythonHigh">
+jim_account.interest<br>
+0.08</div>
 
 Bununla birlikte, sınıf özniteliği, diğer tüm hesaplar için döndürülen orijinal değerini hala korur.
 
@@ -1147,24 +1085,22 @@ Sınıf özniteliğindeki değişiklikler **tom_account**'ı etkiler, ancak **ji
 
 Account.interest = 0.05 # sınıf özniteliğini değiştirme
 
-{% highlight python %} 
-Özdeş adlandırılmış özdeş öznitelikleri olmayan özdeşleri değiştirir. 
-tom_account.interest 
-0.05
-{% endhighlight %}
+<div class="w3-code notranslate pythonHigh">
+Özdeş adlandırılmış özdeş öznitelikleri olmayan özdeşleri değiştirir. <br>
+tom_account.interest <br>
+0.05</div>
 
-{% highlight python %} 
-ancak mevcut özdeş özniteliği etkilenmez 
-jim_account.interest 
-0.08
-{% endhighlight %}
+<div class="w3-code notranslate pythonHigh">
+ancak mevcut özdeş özniteliği etkilenmez <br>
+jim_account.interest <br>
+0.08</div>
 
+<br><br>
 
-
-<a id="C89"> Sınıf Öznitelikleri 2``**
+<h4 id="C89"> Sınıf Öznitelikleri 2</h4><hr>
 Sınıf öznitelikleri, tüm özdeşlerle paylaşılacakları sınıfa aittir. Bu öznitelikler, okunabilirlik için genellikle üst kısımdaki sınıf gövdesi parçalarında tanımlanmaktadır.
 
-
+<br>
  
 <main class="grid">
   <article>
@@ -1194,16 +1130,16 @@ print (sampleclass.count)
     <div class="text">
       <p>
 
-Out [1]: 
-1 
-2 
+Out [1]: <br>
+1 <br>
+2 <br>
 2
 </p>
     </div>
   </article>
 </main>
-
-<a id="C90">Özdeş Öznitelikleri``**
+<br>
+<h4 id="C90">Özdeş Öznitelikleri</h4><hr>
 
 Sınıf özniteliklerinden farklı olarak, özdeş öznitelikleri öbekler tarafından paylaşılmaz. Her öbeğin, özdeş özniteliğinin kendi kopyası vardır (Sınıf öniteliklerinin durumunda, tüm nesneler tek kopyaya başvurur).
 
@@ -1212,7 +1148,7 @@ Bir özdeşin / öbeğin özniteliklerini listelemek için iki fonksiyonumuz var
 1. **vars()** - Bu fonksiyon, bir özdeşin özniteliğini bir sözlük biçiminde görüntüler.
 2. **dir()** - Bu fonksiyon, özdeşle sınırlı olmadığı için vars fonksiyonundan daha fazla nitelik gösterir. Sınıf özniteliklerini de gösterir.
 
-
+<br>
  
 <main class="grid">
   <article>
@@ -1236,15 +1172,15 @@ print (dir(e1))
   <article>
     <div class="text">
       <p>
-Dictionary form : {'salary': 4000, 'name': 'xyz'} 
+Dictionary form : {'salary': 4000, 'name': 'xyz'} <br>
 ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'name', 'salary', 'show']
 </p>
     </div>
   </article>
 </main>
 
-
-<a id="C91">Sınıf ve Öbek öznitelikler``**
+<br>
+<h4 id="C91">Sınıf ve Öbek öznitelikler</h4><hr>
 
 Daha önce sınıfların ve nesnelerin işlevselliğini ele aldık (ör. Yordamlar), şimdi veri kısmı hakkında bilgi verelim. Veri kısmı, yani alanlar, sınıfların ve öbeklerin ad alanlarına bağlı olan sıradan özniteliklerden başka bir şey değildir. Bu, bu adların yalnızca bu sınıflar ve öbekler bağlamında geçerli olduğu anlamına gelir. Bu yüzden isim alan adı verilir.
 
@@ -1257,7 +1193,7 @@ Class variables are shared - they can be accessed by all instances of that class
 
 Object variables are owned by each individual object/instance of the class. In this case, each object has its own copy of the field i.e. they are not shared and are not related in any way to the field by the same name in a different instance. An example will make this easy to understand (save as oop_objvar.py):
 
-
+<br>
  
 <main class="grid">
   <article>
@@ -1321,20 +1257,20 @@ Robot.how_many()
   <article>
     <div class="text">
       <p>
-(Initializing R2-D2) 
-Greetings, my masters call me R2-D2. 
-We have 1 robots. 
-(Initializing C-3PO) 
-Greetings, my masters call me C-3PO. 
-We have 2 robots. 
+(Initializing R2-D2) <br>
+Greetings, my masters call me R2-D2. <br>
+We have 1 robots. <br>
+(Initializing C-3PO) <br>
+Greetings, my masters call me C-3PO. <br>
+We have 2 robots. <br>
 
-Robots can do some work here. 
+Robots can do some work here. <br>
 
-Robots have finished their work. So let's destroy them. 
-R2-D2 is being destroyed! 
-There are still 1 robots working. 
-C-3PO is being destroyed! 
-C-3PO was the last one. 
+Robots have finished their work. So let's destroy them. <br>
+R2-D2 is being destroyed! <br>
+There are still 1 robots working. <br>
+C-3PO is being destroyed! <br>
+C-3PO was the last one. <br>
 We have 0 robots.
 </p>
     </div>
@@ -1369,15 +1305,11 @@ All class members are public. One exception: If you use data members with names 
 Thus, the convention followed is that any variable that is to be used only within the class or object should begin with an underscore and all other names are public and can be used by other classes/objects. Remember that this is only a convention and is not enforced by Python (except for the double underscore prefix).
 
 
+<br><br>
 
-
-
-<h3  id="C9">``new`` yordamı``**
-
- ***
-
-
- ``new`` örnekleme ile oluşturan ve döndüren python özel yordamıdır.
+<div class="teaser clearfix"></div>
+<h3  id="C9"><code class="w3-codespan">new</code> yordamı </h3><hr>
+ <code class="w3-codespan">new</code> örnekleme ile oluşturan ve döndüren python özel yordamıdır.
 
 <main class="grid">
   <article>
@@ -1396,41 +1328,45 @@ s=Sample()
     <div class="text">
       <p>
 
-Out [1]: 
-Creating instance of Sample 
+Out [1]: <br>
+Creating instance of Sample <br>
 Initiating instance of Sample
 </p>
     </div>
   </article>
 </main> 
 
+<br>
 
-<strong>Not:</strong> Örneklem ile oluşturulduktan sonra ``init`` yordamı çağrılır. Gerçek oluşturma işlemini kontrol etmek istiyorsanız, ``new`` yordamını kullanın.</div>
+<div class="w3-code notranslate pythonHigh">
+<strong>Not:</strong> Örneklem ile oluşturulduktan sonra <code class="w3-codespan">init</code> yordamı çağrılır. Gerçek oluşturma işlemini kontrol etmek istiyorsanız, <code class="w3-codespan">new</code> yordamını kullanın.</div>
 
-<strong>Not:</strong>``new``, bir cls yordamı döndürürse, argümanların geri kalanıyla ``init`` çağrılır (...), aksi halde ``init`` çağrılmaz.</div>
+<div class="w3-code notranslate pythonHigh">
+<strong>Not:</strong><code class="w3-codespan">new</code>, bir cls yordamı döndürürse, argümanların geri kalanıyla <code class="w3-codespan">init</code> çağrılır (...), aksi halde <code class="w3-codespan">init</code> çağrılmaz.</div>
 
 
-<strong>Not:</strong> Python sınıf kurucusunun iki adımı vardır: Örneklem ile oluşturmak için ``new`` çağırma ve başlatmak için ``init`` çağırma. ``init`` isteğe bağlı bir adım değildir, ``init`` başarısız olursa örneklem oluşturma da başarısız olur.</div>
+<div class="w3-code notranslate pythonHigh">
+<strong>Not:</strong> Python sınıf kurucusunun iki adımı vardır: Örneklem ile oluşturmak için <code class="w3-codespan">new</code> çağırma ve başlatmak için <code class="w3-codespan">init</code> çağırma. <code class="w3-codespan">init</code> isteğe bağlı bir adım değildir, <code class="w3-codespan">init</code> başarısız olursa örneklem oluşturma da başarısız olur.</div>
 
-<p> Yeni bir örneklemin oluşturulmasını kontrol etmeniz gerektiğinde ``new`` kullanın. 
-Yeni bir örneklemin başlatılmasını kontrol etmeniz gerektiğinde ``init`` kullanın. 
+<p> Yeni bir örneklemin oluşturulmasını kontrol etmeniz gerektiğinde <code class="w3-codespan">new</code> kullanın. 
+Yeni bir örneklemin başlatılmasını kontrol etmeniz gerektiğinde <code class="w3-codespan">init</code> kullanın. 
 
-``new``, örneklem oluşturmanın ilk adımıdır. İlk olarak adlandırılır, 
+<code class="w3-codespan">new</code>, örneklem oluşturmanın ilk adımıdır. İlk olarak adlandırılır, 
 ve sınıfınızın yeni bir örneklemi döndürmekten sorumludur. 
-Tezatında, ``init`` hiçbir şey döndürmez; yalnızca, oluşturulduktan sonra örneklemin başlatmasından sorumludur. 
+Tezatında, <code class="w3-codespan">init</code> hiçbir şey döndürmez; yalnızca, oluşturulduktan sonra örneklemin başlatmasından sorumludur. 
 
 Genel olarak, 
-str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturmuyorsanız ``new``'yi geçersiz kılmanız gerekmez. </p> 
+str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturmuyorsanız <code class="w3-codespan">new</code>'yi geçersiz kılmanız gerekmez. </p> 
 
 <button class="w3-button w3-blue" onclick="document.getElementById('id01').style.display='block'">Bilgi!</button> 
 
 <div id="id01" class="w3-panel w3-green w3-display-container" style="display:none">
   <span onclick="this.parentElement.style.display='none'"
   class="w3-button w3-yellow w3-display-topright">&#10004;</span>
-  <p> ``init`` bazen nesnenin kurucusu olarak adlandırılır, çünkü kurucuların diğer dillerde kullanıldığı gibi kullanılır, ancak bu teknik olarak doğru değildir - onu başlatıcı olarak adlandırmak daha iyidir. Bir kurucuya daha benzer olan ``new`` adlı farklı bir yordam var, ancak neredeyse hiç kullanılmıyor.</p>
+  <p> <code class="w3-codespan">init</code> bazen nesnenin kurucusu olarak adlandırılır, çünkü kurucuların diğer dillerde kullanıldığı gibi kullanılır, ancak bu teknik olarak doğru değildir - onu başlatıcı olarak adlandırmak daha iyidir. Bir kurucuya daha benzer olan <code class="w3-codespan">new</code> adlı farklı bir yordam var, ancak neredeyse hiç kullanılmıyor.</p>
 </div>
 
-
+<br>
 <div class="w3-container">
   <table class="w3-table">
     <tr>
@@ -1457,17 +1393,17 @@ str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturm
 </div>
 
 
+<br>
 
-
-
-<h3  id="C10">``init`` yordamı``**
+<div class="teaser clearfix"></div>
+<h3  id="C10"><code class="w3-codespan">init</code> yordamı</h3><hr>
 Yukarıdaki örnekler, en basit biçimde sınıflar ve nesnelerdir ve gerçek yaşam uygulamalarında gerçekten yararlı değildir. 
 
-Sınıfların manâsını anlamak için, yerleşik ``init`` yordamını anlamamız gerekir. 
+Sınıfların manâsını anlamak için, yerleşik <code class="w3-codespan">init</code> yordamını anlamamız gerekir. 
 
-Tüm sınıflar, sınıf başlatıldığında her zaman çalıştırılan ``init`` adında bir yordama sahiptir. 
+Tüm sınıflar, sınıf başlatıldığında her zaman çalıştırılan <code class="w3-codespan">init</code> adında bir yordama sahiptir. 
 
-Nesne özniteliklerine veya nesne oluşturulduğunda yapılması gereken diğer işlemlere değer atamak için ``init`` yordamını kullanın:
+Nesne özniteliklerine veya nesne oluşturulduğunda yapılması gereken diğer işlemlere değer atamak için <code class="w3-codespan">init</code> yordamını kullanın:
 
  
 <main class="grid">
@@ -1489,16 +1425,17 @@ p1.myfunc()
     <div class="text">
       <p>
 
-Out [1]: 
+Out [1]: <br>
 Hello my name is John
 </p>
     </div>
   </article>
 </main> 
 
-
+<br>
  
-<strong>Not:</strong>  ``init`` bir sınıfın kurucusudur aslında başlatıcıdır. ``init`` yordamı, nesnenin belleğinin tahsis edildiği anda çağrılır.</div>
+<div class="w3-code notranslate pythonHigh">
+<strong>Not:</strong>  <code class="w3-codespan">init</code> bir sınıfın kurucusudur aslında başlatıcıdır. <code class="w3-codespan">init</code> yordamı, nesnenin belleğinin tahsis edildiği anda çağrılır.</div>
 
 Python sınıflarında özel bir önemi olan birçok yöntem ismi vardır. **init** yönteminin önemini şimdi göreceğiz.
 
@@ -1530,8 +1467,8 @@ Hello, my name is Swaroop
     </div>
   </article>
 </main> 
-
-<a>Nasıl çalışır``**
+<br>
+<h4>Nasıl çalışır</h4><hr>
 Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) olarak tanımlarız. Burada sadece name olarak da adlandırılan yeni bir alan yaratıyoruz. İkisi de 'name' olarak adlandırılsalar bile, bunlar iki farklı özniteliklerdir. Noktalı notasyon **self.name**, **'self'** olarak adlandırılan öbeğin bir parçası olan **'name'** adında bir şey olduğu anlamına gelir ve diğer **name** yerel bir değişkendir. Açıklamakta olduğumuz **name** açıkça belirttiğimizden karışıklık yok.
 
 **Person** sınıfı için yeni özdeş **p** oluştururken, sınıf adını kullanarak bunu yaparız, ardından parantez içindeki argümanlar takip edilir: **p = Person('Swaroop')**.
@@ -1540,13 +1477,13 @@ Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) 
 
 Şimdi, **self.name** alanını **say_hi** yordamında gösterilen yordamlarımızda kullanabiliyoruz.
 
+<br>
 
+<div class="teaser clearfix"></div>
+<h3  id="C11"><code class="w3-codespan">self</code> Parametresi</h3><hr>
+<p> <code class="w3-codespan">self</code> sınıfın kendisine bir referanstır ve sınıfa ait özniteliklere erişmek için kullanılır. 
 
-
-<h3  id="C11">``self`` Parametresi``**
-<p> ``self`` sınıfın kendisine bir referanstır ve sınıfa ait özniteliklere erişmek için kullanılır. 
-
-``self`` diye isimlendirilmek zorunda değildir, ne ile  istersen öyle çağırabilirsin, ama sınıftaki herhangi bir yordamın ilk parametresi olmalı:</p>
+<code class="w3-codespan">self</code> diye isimlendirilmek zorunda değildir, ne ile  istersen öyle çağırabilirsin, ama sınıftaki herhangi bir yordamın ilk parametresi olmalı:</p>
 
 
 <main class="grid">
@@ -1568,29 +1505,31 @@ p1.myfunc()
     <div class="text">
       <p>
 
-Out [1]: 
+Out [1]: <br>
 Hello my name is John
 </p>
     </div>
   </article>
 </main>
  
-<strong>Not:</strong> ``self`` parametresi, sınıfa ait bir referanstır ve sınıfa ait özniteliklere erişmek için kullanılır.</div>
+<div class="w3-code notranslate pythonHigh">
+<strong>Not:</strong> <code class="w3-codespan">self</code> parametresi, sınıfa ait bir referanstır ve sınıfa ait özniteliklere erişmek için kullanılır.</div>
 
 Sınıf yordamları, sıradan fonksiyonlardan yalnızca belirli bir fark içerirler - parametre listesinin başına eklenmesi gereken fazladan bir ilk ada sahip olmaları gerekir, ancak yordamı çağırdığınızda bu parametre için bir değer vermezsiniz, Python bunu sağlayacaktır. Bu özel değişken, öbeğin kendisine atıfta bulunur ve sözleşmeye göre, kendisine **self** ad verilir.
 
 Her ne kadar bu parametre için herhangi bir isim verseniz de, **self** ismini kullanmanız şiddetle tavsiye edilir. Standart bir ad kullanmanın birçok avantajı vardır - programınızın herhangi bir okuyucusu bunu hemen tanıyacaktır ve **self** kullanırsanız uzmanlaşmış IDE'ler (Entegre Geliştirme Ortamları) size yardımcı olabilir.
 
+<div class="w3-code notranslate pythonHigh">
 <strong>Not:</strong> Python'daki self, C ++'daki bu pointer ve Java ve C'deki bu referansa eşdeğerdir.</div>
 
  Python'un **self** için nasıl bir değer verdiğini ve neden bunun için bir değer vermeniz gerekmediğini merak etmelisiniz. Bir örnek bunu açıklığa kavuşturur. **MyClass** adlı bir sınıfınız olduğunu ve bu sınıfın bir özdeşinin **myobject** olarak adlandırdığınızı varsayalım. Bu nesnenin yordamını **myobject.method(arg1, arg2)** olarak çağırdığınızda, bu otomatik olarak Python tarafından **MyClass.method(myobject, arg1, arg2)** 'ye dönüştürülür - bu, tüm özel **self** hakkındadır.
 
 Bu aynı zamanda, hiçbir argüman almayan bir yordamınız varsa, o zaman hala tek bir argümana sahip olmanız gerektiği anlamına gelir - **self**.
  
+<br>
 
-
-<a id="C82">El Yordamı ile 'self' Geçirme``**
-***
+<h4 id="C82">El Yordamı ile 'self' Geçirme</h4>
+<hr>
 Yordamlar, bir özdeşden çağrıldığında, ilk ifade olarak (genellikle 'self' olarak çağrılır) bu özdeşe geçirilen normal fonksiyonlardır. Herhangi bir nedenle fonksiyonu bir özdeşden çağırmıyorsanız, özdeşe her zaman ilk ifade olarak el ile geçirebilirsiniz. Örneğin:
 
  
@@ -1616,7 +1555,7 @@ Class.a_method(instance)
     <div class="text">
       <p>
 
-Hey a method 
+Hey a method <br>
 Hey a method
 </p>
     </div>
@@ -1626,10 +1565,10 @@ Hey a method
 
 Dahili olarak, bu ifadeler tamamen aynıdır.
 
+<br><br>
 
-
-
-<a id="C12">super fonksiyonu``**
+<div class="teaser clearfix"></div>
+<h3 id="C12">super fonksiyonu</h3><hr>
 **super([type[, object-or-type]])**
 
 Bir ebeveyn veya kardeş sınıfına yordam çağrıları veren bir temsili öbeği döndürür. Bu, bir sınıfta geçersiz kılınan devralınan yordamlara erişmek için kullanışlıdır. Arama sırası, **type**'ın kendisinin atlanması dışında **getattr()** tarafından kullanılanla aynıdır.
@@ -1666,7 +1605,7 @@ c.parentMethod()
       <p>
 
 
-Base class method 
+Base class method <br>
 Derived class method
 </p>
     </div>
@@ -1675,13 +1614,13 @@ Derived class method
 
 Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, **super(Child, self).printlnfo()** biçiminde **super()** yordamı kullanılır; burada taban sınıfının adı belirtilmemiştir. Diğer yol, **Parent.printlnfo(self)** kullanılarak olurdu.
  
-
+<br>
 
  
 
-![Python &bull; Sınıflar.](/images/qppr.png "Python &bull; Sınıflar."){:height="77%" width="77%"}
+![Python &bull; Sınıflar.](/images/qppr.png "Python &bull; Sınıflar."){:height="97%" width="97%"}
 
-<a id="C18">Python Programları``**
+<h3 id="C18">Python Programları</h3><hr>
 
 <div class="w3-panel w3-card w3-light-grey">
   <div class="w3-container w3-white">
@@ -1711,7 +1650,7 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
   </div>
 </div>
 
-
+<br>
 <div class="w3-panel w3-card w3-light-grey">
 <h5><a id="C290">Listeler -Lists</a></h5>
   <div class="w3-container w3-white">
@@ -1737,14 +1676,12 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
   </div>
 </div>
 
-
+<br>
 
 **Liste.** Bir ağaç büyüdükçe odun katmanları eklenir. Mevsimler ve sıcaklıklar büyümesini etkiler. Halkalar bir liste olarak temsil edilebilir.
 
-
-<h5 id="C291"></a>
-
- **``append kullanan Python programı</h5>***
+<br>
+<h5 id="C291"><i class="fas fa-code"></i> append kullanan Python programı</h5><hr>
 
 **Öğeler eklenebilir,** döngülenebilir veya sıralanabilir. Listeler diğer yapılarla birleştirilebilir. Bir ağaç gibi, listeyi büyütmek için elemanlar (katmanlar) ekliyoruz.
 
@@ -1777,8 +1714,8 @@ print(list)
   </article>
 </main>
 
-
-<h5 id="C292">insert çağıran Python programı</h5>***
+<br>
+<h5 id="C292">insert çağıran Python programı</h5><hr>
 
 Insert. Bir öğe bir listede herhangi bir yere eklenebilir. insert() ile ilk kısma veya listenin ortasındaki bir yere ekleyebiliriz. 
 
@@ -1805,8 +1742,8 @@ print(list)
   </article>
 </main>
 
-
-<h5 id="C293">extend kullanan Python programı</h5>***
+<br>
+<h5 id="C293">extend kullanan Python programı</h5><hr>
 
 **Extend.** Bir liste extend() ile başka bir listeye eklenebilir. Bu yüzden bir listeyi sonuna kadar başka bir liste içerecek şekilde genişletiyoruz. Listeleri arda arda bağlarız (birleştiririz). 
 
@@ -1839,8 +1776,8 @@ print(a)
   </article>
 </main>
 
-
-<h5 id="C294">len kullanan Python programı</h5>***
+<br>
+<h5 id="C294">len kullanan Python programı</h5><hr>
 
 **Len.** Bir liste belirli sayıda eleman içerir. Boşsa bu sıfır olabilir. Dahili bir yordam olan len ile eleman sayısına erişiriz.
 
@@ -1860,15 +1797,15 @@ print(count)
   <article>
     <div class="text">
       <p>
-['cat', 'dog'] 
+['cat', 'dog'] <br>
 2
 </p>
     </div>
   </article>
 </main>
 
-
-<h5 id="C295">in kullanan Python programı</h5>***
+<br>
+<h5 id="C295">in kullanan Python programı</h5><hr>
 
 Anahtar kelimede. Listede bir eleman mı? Bunu belirlemek için 'in' ve 'not in' ifadesini kullanıyoruz. Diğer yaklaşımlar mümkündür, ancak 'in' en basitidir. Burada 'in' ve 'not in' ile bir liste ararız.
 
@@ -1893,16 +1830,16 @@ if "marker" not in items:
   <article>
     <div class="text">
       <p>
-1 
-3 
+1 <br>
+3 <br>
 4
 </p>
     </div>
   </article>
 </main>
 
-
-<h5 id="C296">Sıralayan ve tersine çeviren Python programı</h5>***
+<br>
+<h5 id="C296">Sıralayan ve tersine çeviren Python programı</h5><hr>
 
 **Sort, reverse.** Listeler, öğelerinin sırasını muhafaza eder. Ve yeniden düzenlenebilirler. Sıralama yordamıyla, öğelerin sırasını düşükten yükseğe doğru değiştiririz. 
 
@@ -1929,16 +1866,16 @@ print(list)
   <article>
     <div class="text">
       <p>
-[2000, 100, 500, 400] 
-[100, 400, 500, 2000] 
+[2000, 100, 500, 400] <br>
+[100, 400, 500, 2000] <br>
 [2000, 500, 400, 100]
 </p>
     </div>
   </article>
 </main>
 
-
-<h5 id="C297">lambda, def ile sıralanan Python programı</h5>***
+<br>
+<h5 id="C297">lambda, def ile sıralanan Python programı</h5><hr>
 
 **Sort, key.** Bazen listedeki öğeler belirli bir şekilde sıralanmalıdır. Burada, liste karakterlerini son karakterlerine ve ardından ikinci karakterlerine göre sıralarız. 
 
@@ -1973,15 +1910,15 @@ print(values)
   <article>
     <div class="text">
       <p>
-['bca', 'cab', 'abc'] 
+['bca', 'cab', 'abc'] <br>
 ['cab', 'abc', 'bca']
 </p>
     </div>
   </article>
 </main>
 
-
-<h5 id="C298">Öğeleri kaldıran Python programı</h5>***
+<br>
+<h5 id="C298">Öğeleri kaldıran Python programı</h5><hr>
 
 **Remove, del.** Bir değer üzerinde hareket eder. Önce bu değeri arar ve sonra kaldırır. Öğeler (bir -index- sırada) del ifadesiyle de kaldırılabilir.
  
@@ -2012,16 +1949,16 @@ print(names)
   <article>
     <div class="text">
       <p>
-['Tommy', 'Janet', 'Bill'] 
-['Tommy', 'Janet'] 
+['Tommy', 'Janet', 'Bill'] <br>
+['Tommy', 'Janet'] <br>
 ['Janet']
 </p>
     </div>
   </article>
 </main>
 
-
-<h5 id="C299">for, list kullanan Python programı</h5>***
+<br>
+<h5 id="C299">for, list kullanan Python programı</h5><hr>
 
 For-loop. Liste döngülerinde, Genellikle sıralamaya ihtiyacımız yok. Sadece sırayla elemanlara ihtiyacımız var. For döngüsü, bu durumda idealdir. Bir dizi değişkeninin bir diğeri ile karışıklığını ortadan kaldırır. 
 
@@ -2042,16 +1979,16 @@ for element in elements:
   <article>
     <div class="text">
       <p>
-spider 
-moth 
+spider <br>
+moth <br>
 butterfly
 </p>
     </div>
   </article>
 </main>
 
-
-<h5 id="C300">list kapsamı kullanan Python programı</h5>***
+<br>
+<h5 id="C300">list kapsamı kullanan Python programı</h5><hr>
 
 **Listeyi kapsamı** tek bir ifadede tüm döngüyü ifade eder. Bu örnekte bir listeyi HTML dizgileri listesine çevirmek için liste kapsamayı kullanıyoruz. 
 
@@ -2090,8 +2027,8 @@ print(list)
 **Ve:** 
 Sözdizimi kısadır, programcılar için okumayı ve taramayı kolaylaştırır. Sıkıcı for döngülerinden kaçınırız.
 
-
-<h5 id="C301">Örnek kopya bildirimi: Python</h5>***
+<br>
+<h5 id="C301">Örnek kopya bildirimi: Python</h5><hr>
 
 **Kopya.** Bir dilim sözdizimi kullanılarak bir liste kopyalanır. Dilimde rakam belirtmediğimizde, tüm listeyi kapsar. Bu nedenle, belirtilmemiş bir dilime atanarak, listeyi kopyalarız. 
  
@@ -2114,8 +2051,8 @@ list2 = list1[:]
 **İpucu:** 
 Liste listeleri, küçük grafikler ve koordinat aramasına ihtiyaç duyan diğer uygulamalar için yararlı olabilir, ancak büyük bir bellek alanı değildir.
 
-
-<h5 id="C302">Bitişik liste öğelerini alan Python programı</h5>***
+<br>
+<h5 id="C302">Bitişik liste öğelerini alan Python programı</h5><hr>
 
 **Bitişik elemanlar.** Çoğu zaman döngüde sadece bir elemana ihtiyacımız vardır. Ancak bazı durumlarda, karşılaştırmak için bitişik öğelere ihtiyacımız var. Burada listedeki bitişik öğelere ulaşıyoruz. 
 
@@ -2141,16 +2078,16 @@ for i in range(1, len(elements)):
   <article>
     <div class="text">
       <p>
-0 10 
-10 20 
+0 10 <br>
+10 20 <br>
 20 30
 </p>
     </div>
   </article>
 </main>
 
-
-<h5 id="C303">format, liste kullanan Python programı</h5>***
+<br>
+<h5 id="C303">format, liste kullanan Python programı</h5><hr>
 
 **Format.** Bir listemiz olduğunu varsayalım. Ondan bazı öğeleri bir dizgeye eklemek istiyoruz. Bunun için str.format kullanabiliriz. Format(), liste argümanları için özel desteğe sahiptir. 
 
@@ -2177,8 +2114,8 @@ The values are 10, 20 and 30
   </article>
 </main>
 
-
-<h5 id="C304">all kullanan Python programı</h5>***
+<br>
+<h5 id="C304">all kullanan Python programı</h5><hr>
 
 All built-in -yerleşik-. Tümüyle, tüm öğelerin True olarak değerlendirip değerlendirmediğini kontrol ederiz. Tek bir eleman bile yanlışsa, all() False değerini döndürür. Yöntem, elemanlar için standart bir boole değerlendirmesi kullanır.
 
@@ -2201,15 +2138,15 @@ if all(items):
   <article>
     <div class="text">
       <p>
-False 
+False <br>
 True
 </p>
     </div>
   </article>
 </main>
 
-
-<h5 id="C305">any kullanan Python programı</h5>***
+<br>
+<h5 id="C305">any kullanan Python programı</h5><hr>
 
 **Any built-in.** Bu, yinelenen argümanı üzerinden döngü yapar (bir liste gibi). Eğer argümandaki elemanlardan 'any' True olarak değerlendirilirse, any() de True değerini döndürür. Yani True bir sonuç için tarar. 
 
@@ -2237,7 +2174,7 @@ if not any(elements):
   <article>
     <div class="text">
       <p>
-True 
+True <br>
 False
 </p>
     </div>
@@ -2252,18 +2189,19 @@ False
 
 **Faydaları, negatifler.** Listeler basit bir sözdizimine sahiptir; bir tane oluşturmak için yalnızca birkaç karakter gerekir. Ve listeleri yeniden boyutlandırmak zorunda kalmayacağız. Ancak büyük veri kümeleri için aşırı bellek kullanırlar.
 
-
-<h5 id="C181">Sınıfı kullanan Python programı</h5>***
+<br>
+<h5 id="C181">Sınıfı kullanan Python programı</h5><hr>
 
 **init** örneği: Bu program bir sınıf oluşturur. Sınıf anahtar sözcüğünü kullanır ve iki yordam sunar. **init** yordamı özeldir. Bu bir kurucudur.
 
+<div class="w3-code notranslate pythonHigh">
 <strong>Not:</strong> init, parametreleri alır ve yeni sınıf özdeşine alanlar atar. Argümanları doğrulayabilir, hesaplamalar yapabilir, yordamları çağırır.</div>
 
 **Box:** İfadede **Box(10, 2)**, **Box** sınıfının yeni bir eşleneğini oluşturuyoruz. Genişliği 10'a ayarlanır. Yüksekliği 2'ye ayarlanır.
 
 **Area:** area() yordamı 20'ye dönecektir. Bu, **init** tarafından belirlenen bellekte depolanan değerlere dayanmaktadır.
 
-
+<br>
 <main class="grid">
   <article>
 {% highlight python %}
@@ -2291,8 +2229,8 @@ print(x.area())
   </article>
 </main>
 
-
-<h5 id="C182">Sınıf kalıtımını kullanan Python programı</h5>***
+<br>
+<h5 id="C182">Sınıf kalıtımını kullanan Python programı</h5><hr>
 
 **Kalıtım.** Bir sınıf, bir veya daha fazla başka sınıftan miras alabilir. Buradan türetmek istediğimiz sınıf tanımlanmalıdır. Türetilmiş sınıf, sınıf adından sonra parantez içinde belirtilir.
 
@@ -2304,7 +2242,7 @@ B sınıfı, A sınıfından türetilmiştir. Sınıflardan sonraki ifadelerde, 
 
 **Width:** A sınıfı olan B sınıfının, temel sınıfı kontrol edilerek bulunur.
 
-
+<br>
 <main class="grid">
   <article>
 {% highlight python %}
@@ -2327,7 +2265,7 @@ b.width()
   <article>
     <div class="text">
       <p>
-b, size called
+b, size called<br>
 a, width called
 </p>
     </div>
@@ -2336,9 +2274,9 @@ a, width called
 
 
 
-
+<br>
  
-<h5 id="C183">İki alt çizgi değişkenini kullanan Python programı</h5>***
+<h5 id="C183">İki alt çizgi değişkenini kullanan Python programı</h5><hr>
  
 
 İki alt çizgi. Bir sınıfta, bazı elemanların isimlerinin başında iki altçizgi vardır. Bunlar özeldir. Python dili, onları özel olarak ele alır.
@@ -2347,7 +2285,7 @@ Sınıf dışından özel elemanlara erişilebilir, ancak başlangıçta **_Clas
 
 A sınıfında, **__value** adlı bir alanımız var. Bunu, sınıfın dışında **_A__value** olarak belirtmeliyiz, ancak içinde **__value** kullanabiliriz.
 
-
+<br>
 
 <main class="grid">
   <article>
@@ -2380,9 +2318,9 @@ print(a._A__value)
 </main>
 
 
-
+<br>
  
-<h5 id="C184">issubclass kullanan Python programı</h5>***
+<h5 id="C184">issubclass kullanan Python programı</h5><hr>
  
 **issubclass.** Bu bir sınıfın diğerinden türetilmiş olup olmadığını belirler. Bu yerleşik yöntemle, iki sınıf ismini (özdeşini değil) geçiririz.
 
@@ -2426,8 +2364,8 @@ if issubclass(A, A):
   <article>
     <div class="text">
       <p>
-B says hello 
-1 
+B says hello <br>
+1 <br>
 3
 </p>
     </div>
@@ -2436,8 +2374,8 @@ B says hello
 
 
  
-
-<h5 id="C185">isinstance kullanan Python programı</h5>***
+<br>
+<h5 id="C185">isinstance kullanan Python programı</h5><hr>
 
 **isinstance.** İlk argüman (bir değişken), ikinci argümanın (bir sınıfın) bir eşleneği olduğunda, isinstance true değerini döndürür. Eğer sınıf bir temel sınıfsa, aynı zamanda true döner.
 
@@ -2474,7 +2412,7 @@ if isinstance(b, list):
   <article>
     <div class="text">
       <p>
-1 
+1 <br>
 3
 </p>
     </div>
@@ -2482,8 +2420,8 @@ if isinstance(b, list):
 </main>
 
 
-
-<h5 id="C186">repr kullanan Python programı</h5>***
+<br>
+<h5 id="C186">repr kullanan Python programı</h5><hr>
 
  repr. Bu bir sınıftan **__repr__** yordamına erişir. repr 'temsil' anlamına gelir. Bir öbeği dize-string temsiline dönüştürür. Burada Snake özdeşini özel bir şekilde gösteriyoruz.
 
@@ -2517,15 +2455,15 @@ print(value)
   <article>
     <div class="text">
       <p>
-Snake, type = Anaconda 
+Snake, type = Anaconda <br>
 Snake, type = Anaconda
 </p>
     </div>
   </article>
 </main>
 
-
-<h5 id="C187">property kullanan Python programı</h5>***
+<br>
+<h5 id="C187">property kullanan Python programı</h5><hr>
 
 **Property.** Bir değer alır ve ayarlar. Bu bir yordam gibidir, ancak daha basit bir sözdizimi kullanır. Bir **property** değişken gibi atanabilir. Bu, **setter** yordamının yürütülmesine neden olur.
 
@@ -2574,8 +2512,8 @@ Rattle
   </article>
 </main>
 
-
-<h5 id="C188">super kullanan Python programı</h5>***
+<br>
+<h5 id="C188">super kullanan Python programı</h5><hr>
 
 **Süper.** super() yerleşik ile, bir sınıfın üst öğesini alabiliriz. Bu derhal atası alır. Burada, üst sınıf öğesi olan Shape'e referans veren Circle sınıfında **super()** öğesini çağırıyoruz.
 
@@ -2603,7 +2541,7 @@ c.name()
   <article>
     <div class="text">
       <p>
-Circle 
+Circle <br>
 Shape
 </p>
     </div>
@@ -2611,8 +2549,8 @@ Shape
 </main>
 
 
-
-<h5 id="C189">Sınıfta hash kullanan Python programı</h5>***
+<br>
+<h5 id="C189">Sınıfta hash kullanan Python programı</h5><hr>
 
 **Hash.** Nesneleri karşılaştırırken, daha hızlı bir hash kodu kullanılabilir. Bir sözlük hash kullanır. **__hash__** ile özel hash hesaplamaları uyguluyoruz. Eşsiz bir değer, iyi bir hash dır.
 
@@ -2644,15 +2582,15 @@ print(hash(p))
     <div class="text">
       <p>
 55
- 
+ <br>
 105
 </p>
     </div>
   </article>
 </main>
 
-
-<h5 id="C190">id kullanan Python programı</h5>***
+<br>
+<h5 id="C190">id kullanan Python programı</h5><hr>
 
 id yordamı. Her öbeğin bir id si vardır. Bu özdeşe özgüdür. Tam sayı bir uygulama detayıdır ve program yürütmeleri arasında değişecektir. Burada sınıf id lerine bakıyoruz.
 
@@ -2679,7 +2617,7 @@ print(id(cat2))
   <article>
     <div class="text">
       <p>
-139888838995640 
+139888838995640 <br>
 139888838995696
 </p>
     </div>
@@ -2699,8 +2637,8 @@ Programlamada modelleri şablon olarak belirleriz. Ve yürütülebilir ifadelerd
 
 **Bazı kavramlar.** Sınıflar, verileri davranışa kolayca bağlayalım. Python programlarımızda bloklar oluşturuyorlar. Onlarla daha karmaşık modeller geliştiriyoruz.
 
-
-<h5 id="C191">classmethod kullanan Python programı</h5>***
+<br>
+<h5 id="C191">classmethod kullanan Python programı</h5><hr>
 
 **Classmethod, staticmethod.** Bir sınıf düşünün. Sınıfın bir özdeşini oluşturuyoruz. Fakat sınıfın bazı özellikleri bir özdeş gerektirmeyebilir - daha genel amaçlıdırlar.
 
@@ -2736,15 +2674,15 @@ b.example("dog")
   <article>
     <div class="text">
       <p>
-Method called: cat 
+Method called: cat <br>
 Method called: dog
 </p>
     </div>
   </article>
 </main>
 
-
-<h5 id="C192">staticmethod kullanan Python programı</h5>***
+<br>
+<h5 id="C192">staticmethod kullanan Python programı</h5><hr>
 
 **Staticmethod.** Statik bir yordam, self özdeşi kabul etmez. Bir sınıftaki çoğu yordam, 'self' adıyla ilk argümanı kabul eder. 
 @staticmethod dekoratörüyle birlikte, bu argümanı atlıyoruz. 
@@ -2774,7 +2712,7 @@ b.Message(2)
   <article>
     <div class="text">
       <p>
-Box Message 1 
+Box Message 1 <br>
 Box Message 2
 </p>
     </div>
@@ -2783,8 +2721,8 @@ Box Message 2
 
 **Bir inceleme.** Python programlarında sınıf yordamları ve statik yordamlar yararlıdır. Genellikle bir sınıfın, özdeş tabanlı olmayan bölümleri vardır. Bir özdeş gerektiren, hantal ve garip olacaktır.
 
-
-<h5 id="C192">type kullanan Python program</h5>***
+<br>
+<h5 id="C192">type kullanan Python program</h5><hr>
 
 **Type.** Python sınıfları destekler. Yerleşik type ile doğrudan tipleri oluşturabiliriz. Bu tiplerden sınıfları eşleştirebiliriz.
 
@@ -2818,14 +2756,14 @@ print(value)
   <article>
     <div class="text">
       <p>
-10 
+10 <br>
 </p>
     </div>
   </article>
 </main>
 
-
-<h5 id="C193">type içinde dict kullanan Python programı</h5>***
+<br>
+<h5 id="C193">type içinde dict kullanan Python programı</h5><hr>
 
 **Dict.** Bir type özniteliklerini sözlük argümanıyla başlatabiliriz. Bu üçüncü argümandır. Burada 'paws' özniteliğini 4 ve 'weight' özniteliğini -1 olarak ayarlıyorum. 
 
@@ -2849,15 +2787,15 @@ print("Weight =", cat.weight)
   <article>
     <div class="text">
       <p>
-Paws = 4 
+Paws = 4 <br>
 Weight = -1
 </p>
     </div>
   </article>
 </main>
 
-
-<h5 id="C194">hasattr, delattr kullanan Python programı</h5>***
+<br>
+<h5 id="C194">hasattr, delattr kullanan Python programı</h5><hr>
 
 **Hasattr.** getattr ve setattr den başka iki yerleşik işlev vardır. hasattr ile sınıf eşleneğinde bir öznitelik (alan) olup olmadığını görürüz. Doğru veya Yanlış döndürür. 
 
@@ -2894,7 +2832,7 @@ if not hasattr(box, "width"):
   <article>
     <div class="text">
       <p>
-True 
+True <br>
 False
 </p>
     </div>
@@ -2905,8 +2843,8 @@ False
 
 **Python'daki 'sınıf' bildirimleri gibi ifadeler**, 'type' gibi yerleşik yordam çağrılarına doğrudan çevrilebilir. Yüksek seviyeli parçaları uygulamak için dilin düşük seviyeli kısımları kullanılır.
 	
-
-<h5 id="C195">Değerleri get ile alan Python programı</h5>***
+<br>
+<h5 id="C195">Değerleri get ile alan Python programı</h5><hr>
 
 **Sözlük.** Bir dil düşünün. Her kelime bir anlamla eşleşir. Bir kitap yazılı bir çalışmadır. Bir bulut yüzen sudur. Bir sözlükte anahtarları (kelimeleri) değerlere (anlamlara) eşleştiririz. 
 
@@ -2946,8 +2884,8 @@ print(plants.get("tuna", "no tuna found"))
   <article>
     <div class="text">
       <p>
-2 
-None 
+2 <br>
+None <br>
 no tuna found
 </p>
     </div>
@@ -2955,8 +2893,8 @@ no tuna found
 </main>
 
 	
-
-<h5 id="C196">KeyError'a neden olan Python programı</h5>***
+<br>
+<h5 id="C196">KeyError'a neden olan Python programı</h5><hr>
 
 Get, None. Python'da 'None', null veya nil gibi özel bir değerdir. Programlarda genellikle None kullanırız. Bu bir değer değil demektir. Bir sözlükte değer bulunamazsa get() None değerini döndürür. 
 
@@ -2977,17 +2915,17 @@ print(lookup["fish"])
   <article>
     <div class="text">
       <p>
-Traceback (most recent call last):  
-  File "stdin", line 4, in module  
-    print(lookup["fish"])  
+Traceback (most recent call last):  <br>
+  File "stdin", line 4, in module  <br>
+    print(lookup["fish"])  <br>
 KeyError: 'fish'
 </p>
     </div>
   </article>
 </main>
 
-
-<h5 id="C197">KeyError işleyen Python programı</h5>***
+<br>
+<h5 id="C197">KeyError işleyen Python programı</h5><hr>
 
 **KeyError.** Bir sözlük bir KeyError'un oluşmasına neden olabilir. Bu, sözlüğün yanlış kullanımı nedeniyle gerçekleşir. KeyError'ı çoğu durumda, sözlükteki get() yordamını kullanarak önleyebiliriz. 
 
@@ -3015,7 +2953,7 @@ print(values.get("d"))
   <article>
     <div class="text">
       <p>
-KeyError encountered 
+KeyError encountered <br>
 None
 </p>
     </div>
@@ -3029,8 +2967,8 @@ Programınızda herhangi bir doğrudan erişim oluşursa, kodunuz yeni veya test
 
 **Özet.** KeyError, Python'da önlenebilir bir istisnadır. Bir sözlük yanlış kullanıldığında ortaya çıkar. Bu hatayı önlemek için iki yol gördük. Bir try-except ifadesi kullandık. Ve değer erişimini get() yordam çağrısı ile değiştirdik.
 
-
-<h5 id="C198">in kullanan Python programı</h5>***
+<br>
+<h5 id="C198">in kullanan Python programı</h5><hr>
 
 **In-keyword.** Bir sözlük belirli bir anahtar-key içerebilir (veya içermeyebilir). Çoğu zaman varlığını test etmemiz gerekir. Bunu yapmanın bir yolu, anahtar kelime iledir. 
 
@@ -3064,15 +3002,15 @@ else:
   <article>
     <div class="text">
       <p>
-Has tuna 
+Has tuna <br>
 No elephant
 </p>
     </div>
   </article>
 </main>
 
-
-<h5 id="C199">Sözlükte len'i kullanan Python programı</h5>***
+<br>
+<h5 id="C199">Sözlükte len'i kullanan Python programı</h5><hr>
 
 Len yerleşik. Bu, sözlükteki key-value anahtar/değer çiftlerinin sayısını döndürür. Anahtarların ve değerlerin veri tipleri önemli değil. Len ayrıca listelerde ve  strings dizelerde çalışır. 
 
@@ -3091,7 +3029,7 @@ print("Length:", len(animals))
   <article>
     <div class="text">
       <p>
-Length: 2 
+Length: 2 <br>
 </p>
     </div>
   </article>
@@ -3099,8 +3037,8 @@ Length: 2
 
 **Len notları.** İncelememiz gerek. Len() sadece sözlükler değil, diğer veri tiplerinde kullanılabilir. İçindeki eleman sayısını döndürerek bir liste üzerinde hareket eder. Ayrıca  -tuples - öznitelikler grubunu da ele alır.
 
-
-<h5 id="C200">Dizelerde len kullanan Python programı</h5>***
+<br>
+<h5 id="C200">Dizelerde len kullanan Python programı</h5><hr>
 
 **Len.** Her şeyin uzunluğu var. Evrenimiz bile, sürekli genişlemede, bir uzunluğa sahiptir. Python'da olsa çoğunlukla -strings, lists, collections - dizgiler, listeler, koleksiyonlar - evren değil uzunluklarını ölçüyoruz. 
 
@@ -3133,16 +3071,16 @@ print(len(value))
   <article>
     <div class="text">
       <p>
-3 
-0 
-TypeError: object of type   'NoneType' has no len() 
+3 <br>
+0 <br>
+TypeError: object of type  <br> 'NoneType' has no len() <br>
 </p>
     </div>
   </article>
 </main>
 
-
-<h5 id="C200">Len, koleksiyonları kullanan Python programı</h5>***
+<br>
+<h5 id="C200">Len, koleksiyonları kullanan Python programı</h5><hr>
 
 **Collections.** Yerleşik len, bir koleksiyondaki elemanların sayısını döndürür. İç içe geçmiş, alt koleksiyonlar içeren bir koleksiyon için sayım sığdır: tüm iç içe geçmiş öğeler dikkate alınmaz. 
 
@@ -3172,17 +3110,17 @@ print(len(lookup))
   <article>
     <div class="text">
       <p>
-3 
-4 
-3 
+3 <br>
+4 <br>
+3 <br>
 2
 </p>
     </div>
   </article>
 </main>
 
-
-<h5 id="C200">Özyineleme kullanan Python programı</h5>***
+<br>
+<h5 id="C200">Özyineleme kullanan Python programı</h5><hr>
 
 **Özyineleme.** -recurse- Özyinelemeyle, tüm olasılıkları denemek için çözümler ararız. Yinelemeli bir yöntemin bir sonlandırma koşulu (bir hedef) olmalıdır. Ve bir döngüde, değişen argümanlar ile kendini çağırabilir. Bu şekilde arama şubeleri dışarı çıkar.
  
@@ -3233,10 +3171,10 @@ change(coins, amounts, 0, 0, 51)
   <article>
     <div class="text">
       <p>
-1 : 1 
-5 : 0 
-10 : 0 
-25 : 0 
+1 : 1 <br>
+5 : 0 <br>
+10 : 0 <br>
+25 : 0 <br>
 50 : 1
 </p>
     </div>
@@ -3261,8 +3199,8 @@ Bulmaca gibi oyun problemlerini çözme, bunun gibi yinelemeli yöntemlerle mük
 **Özet.** Yinelemeli bir yöntem, olası her seçeneği deneyerek birçok sorunu çözebilir. Buradaki değişim bulmaca, kaba kuvvetli bir şekilde çözülür. Her olası kuruşu her bir yineleme seviyesinde deneriz.
 
 
-
-<h5 id="C200">iç içe geçen listeden len kullanan Python programı</h5>***
+<br>
+<h5 id="C200">iç içe geçen listeden len kullanan Python programı</h5><hr>
 
 İç içe geçmiş listeler. İç içe geçmiş koleksiyonları tekrar gözden geçirelim. Bir koleksiyonun kendisi bir elementtir, bu yüzden sadece bir kez sayar. Yerleşik len, tekrarlamaz. Döngü bile değil. Basit. 
  
@@ -3283,15 +3221,15 @@ print(len(list[2]))
   <article>
     <div class="text">
       <p>
-3 
+3 <br>
 2
 </p>
     </div>
   </article>
 </main>
 
-
-<h5 id="C200">int üzerinden len ile hataya neden olan Python programı</h5>***
+<br>
+<h5 id="C200">int üzerinden len ile hataya neden olan Python programı</h5><hr>
 
 **Hata.** Herhangi bir değişkenin lenmesini alamayız. Bu program int değişkeninin uzunluğunu almaya çalışır. Ve, işini bitiren bir **TypeError** ile sefil bir şekilde başarısız olur. 
 
@@ -3310,15 +3248,15 @@ length = len(value)
   <article>
     <div class="text">
       <p>
-length = len(value) 
+length = len(value) <br>
 TypeError: object of type 'int' has no len()
 </p>
     </div>
   </article>
 </main>
 
-
-<h5 id="C200">char sayımını, len zamanlayan Python programı</h5>***
+<br>
+<h5 id="C200">char sayımını, len zamanlayan Python programı</h5><hr>
 
 **Performans.** -collections- Koleksiyonların ve -strings- dizelerin uzunluğu hafızada bir sayı olarak saklanır. Bir döngüde olduğu gibi her erişildiğinde hesaplanmaz. Bu nedenle, len bir döngüden çok daha hızlıdır. 
 
@@ -3359,10 +3297,10 @@ print(time.time())
   <article>
     <div class="text">
       <p>
-1406752804.325871   
-1406752804.606887   
-1406752806.05097    
-len      = 0.281 s   
+1406752804.325871   <br>
+1406752804.606887   <br>
+1406752806.05097    <br>
+len      = 0.281 s  <br> 
 for-loop = 1.444 s
 </p>
     </div>
@@ -3373,44 +3311,44 @@ for-loop = 1.444 s
 
 **Döngü önerisi.** Len kullanmaktan kaçınmak için bir for-in döngü düşünün. Bu döngü yapısı, her öğeyi bir koleksiyonda numaralandıracaktır. Dizin endeksleri gerekli değildir.
 
-
-<h5 id="C200">char sayımını, len zamanlayan Python programı</h5>***
+<br>
+<h5 id="C200">char sayımını, len zamanlayan Python programı</h5><hr>
 
 <!-- a class="w3-btn w3-margin-bottom">Just python 2 'Run'.</a-->
 
  
-
+<br><br>
 <!--python3 interpreter -->
 <h3  id="C16"><a class="w3-btn w3-margin-bottom">Just python 3.6.5 'Run'.</a></h3>
 <iframe src="https://trinket.io/embed/python3/49b7d634c8" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
   
-
+<br><br>
 <!--python2 interpreter -->
 <h3  id="C16"><a class="w3-btn w3-margin-bottom">Just python 2.7.5 'Run'.</a></h3>
 <iframe src="https://trinket.io/embed/python/0bdde66575" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 <!-- python interpreter -->
  
-
-
+<br><br>
+<div class="teaser clearfix"></div>
 <script src="//cdn.datacamp.com/dcl-react.js.gz"></script>
 <h3  id="C16"><a class="w3-btn w3-margin-bottom">Just python 3.5.2 'Run'.</a></h3>
 <div data-datacamp-exercise data-lang="python" data-height="auto">
-      <code data-type="pre-exercise-code">``
+      <code data-type="pre-exercise-code"></code>
       <code data-type="sample-code">
-      ``
-      <code data-type="solution">``
-      <code data-type="sct">``
+      </code>
+      <code data-type="solution"></code>
+      <code data-type="sct"></code>
 </div>
 <div class="w3-container w3-content">
 
 <a class="w3-btn w3-margin-bottom" href="{{ sitebase.url }}/assets/txt/default_python_packages.txt"  style="text-decoration: none; color:#388E3C; cursor:pointer">Python 3.5.2 paket listesine bakınız.</a>
  </div>
+<br>
 
-
-
+<div class="teaser clearfix"></div>
 <div class="w3-panel w3-card w3-light-grey">
-  <a id="C17">Sözlük Dizini</h3>
+  <h3 id="C17">Sözlük Dizini</h3>
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
