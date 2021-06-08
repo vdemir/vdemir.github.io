@@ -128,7 +128,6 @@ class MyClass:
   x = 5
 print(MyClass)
 {% endhighlight %}
-</div>
 
 <br>
  
@@ -299,7 +298,6 @@ p1 = MyClass()
 print(p1.x)
 print(MyClass.x)
 {% endhighlight %}
-</div>
 <br>
 <div class="teaser clearfix"></div>
 <a id="C3"></a>
@@ -318,7 +316,6 @@ print(MyClass.x)
 {% highlight python %} 
 p1 = Person("John", 36)
 {% endhighlight %}
-</div>
 
 <br>
 
@@ -337,11 +334,9 @@ p1 = Person("John", 36)
 Bu gibi nesnelerdeki öznitelikleri değiştirebilirsiniz:
 <p>p1'in yaşını 40'a ayarlayın:</p>
 
-<div class="w3-code notranslate">
 {% highlight python %} 
   p1.age = 40
 {% endhighlight %}
-</div>
 <br>
 
 <main class="grid">
@@ -390,7 +385,6 @@ Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcü
 {% highlight python %} 
 del p1.age
 {% endhighlight %}
-</div>
 
 <main class="grid">
   <article>
