@@ -276,7 +276,14 @@ print(MyClass.x)
 </div>
 <br>
 
-<h3 id="C3"><i class="fas fa-code"></i> Sınıf Eşleme ile Nesne Oluşturma</h3><hr>
+<a id="C3"></a>
+
+* * *
+
+### **``Sınıf Eşleme ile Nesne Oluşturma``**
+
+* * *
+
  Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">init</code> yordamının kabul ettiği ifadeleri iletirsiniz:
 
 <div class="w3-code">
