@@ -5,7 +5,7 @@ description: Pisi Linux geliştiricisi olmak gerçekten çok kolaydır çünkü 
 date:   2015-09-26 02:17:00
 last_updated: 2021-06-05 18:57:00
 tags:   Pisi Linux Dağıtım
-categories: [Pisi Linux]
+categories: [Pisi]
 comments: false
 published: true
 lang: tr
