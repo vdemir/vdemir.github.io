@@ -115,7 +115,16 @@ Anne
 <br><br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C1"><i class="fas fa-code"></i> Bir Python Sınıfı Oluşturma</h3><hr>
+
+
+<a id="C1"></a>
+
+* * *
+
+**``Bir Python Sınıfı Oluşturma``**
+
+* * *
+
 **x** adlı bir özdeğere sahip **MyClass** adlı bir sınıf/öbek oluşturun:
 <div class="w3-code notranslate">
 {% highlight python %}
