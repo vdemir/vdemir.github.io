@@ -379,7 +379,10 @@ AttributeError: 'Person' object has no attribute 'age'
 
 Nesneleri **``del``** anahtar sözcüğünü kullanarak silebilirsiniz:
 
-**p1 nesnesini silin:**{% highlight python %} 
+
+**p1 nesnesini silin:**
+
+{% highlight python %} 
 del p1
 {% endhighlight %} 
 
@@ -463,7 +466,8 @@ sınıfın yeni bir örneklemini oluşturur ve bu nesneyi **x** yerel değişken
 Örneklem işlemi boş bir nesne oluşturur.(bir sınıf nesnesini çağırmak) Birçok sınıf, belirli bir başlangıç ​​durumuna göre özelleştirilmiş örneklemeler ile nesneler oluşturmayı sever. Bu nedenle, bir sınıf, **__init__()** adında özel bir yordam tanımlayabilir, bunun gibi: 
 
 {% highlight python %}
-  def __init__(self):<br> &nbsp; self.data = []
+  def __init__(self): 
+       self.data = []
 {% endhighlight %}
 
 Bir sınıf/öbek bir **__init__()** yordamını tanımladığında, sınıf/öbek örneklemesi otomatik olarak yeni oluşturulmuş sınıf örneği için **__init__()** yordamını çağırır. . Bu örnekte, yeni başlatılmış bir örnekleme şu şekilde elde edilebilir: 
