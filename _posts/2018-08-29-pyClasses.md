@@ -287,7 +287,9 @@ obj.name = "Andre"</div>
 
 ***
 
-**``Bir Python Nesnesi Oluşturma</h3><hr>
+**``Bir Python Nesnesi Oluşturma``**
+
+***
 Artık nesneleri oluşturmak için **myClass** adlı sınıfı kullanabiliriz:
 
 <div class="w3-code">
@@ -305,7 +307,9 @@ print(MyClass.x)
 
 ***
 
-**``Sınıf Eşleme ile Nesne Oluşturma</h3><hr>
+**``Sınıf Eşleme ile Nesne Oluşturma``**
+
+***
  Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">init</code> yordamının kabul ettiği ifadeleri iletirsiniz:
 
 <div class="w3-code">
@@ -321,7 +325,9 @@ p1 = Person("John", 36)
 
 ***
 
-**``Nesne Özniteliklerini Değiştirmek</h3><hr>
+**``Nesne Özniteliklerini Değiştirmek``**
+
+***
 Bu gibi nesnelerdeki öznitelikleri değiştirebilirsiniz:
 <p>p1'in yaşını 40'a ayarlayın:</p>
 
@@ -371,7 +377,9 @@ print(p1.age)
 
 ***
 
-**``Nesne Özniteliklerini Silmek</h3><hr>
+**``Nesne Özniteliklerini Silmek``**
+
+***
 Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz:
 <p>age özniteliğini p1 nesnesinden silin:</p>
 
@@ -415,7 +423,9 @@ AttributeError: 'Person' object has no attribute 'age'
 
 ***
 
-**``Nesneleri Silmek</h3><hr>
+**``Nesneleri Silmek``**
+
+***
 Nesneleri <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz: 
 <p>p1 nesnesini silin:</p>
 
@@ -459,7 +469,9 @@ NameError: name 'p1' is not defined
 
 ***
 
-**``Sınıf Öbekleri </h3><hr>
+**``Sınıf Öbekleri ``**
+
+***
 Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnekleme. 
 
 Öznitelik referansları, Python: obj.name'deki tüm öznitelik referansları için kullanılan standart sözdizimini kullanır. Geçerli nesne adları, sınıf nesnesi oluşturulduğunda sınıfın ad alanındaki tüm adlardır. Yani, sınıf tanımı böyle görünüyorsa:
@@ -544,7 +556,9 @@ Out[1]: (3.0, -4.5)
 
 ***
 
-**``Özdeş Öbekler</h3><hr>
+**``Özdeş Öbekler``**
+
+***
 Şimdi eşleşen nesnelerle ne yapabiliriz? Eşleşen nesneler ile anlaşılan yegane işlemler, öznitelik atıflarıdır. İki tür geçerli atıf ismi vardır; data öznitelikleri ve yordamları. 
 
 Data öznitelikleri, Smalltalk'daki “eşleşen öznitelikler” ve C++'daki “data elemanlarına” karşılık gelir. Data özniteliklerinin beyan edilmesine gerek yoktur; yerel öznitelikler gibi, ilk atandıklarında var olurlar. Örneğin, **x** yukarıda oluşturulan **MyClass** özniteliğiyse, aşağıdaki kod parçası bir iz bırakmadan değeri 16 yazdıracaktır:
@@ -597,7 +611,9 @@ Nokta (.) operatörünü öbek ismi ile kullanarak erişebilirsiniz. Sınıf ad�
 <br><br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C7"><a class="w3-btn w3-margin-bottom">Yordam Öbekleri</a></h3><hr>
+<h3 id="C7"><a class="w3-btn w3-margin-bottom">Yordam Öbekleri</a>``**
+
+***
 
 Genellikle, bağlantıdan hemen sonra bir yordam çağrılır: 
 <div class="w3-code notranslate pythonHigh">
@@ -622,7 +638,9 @@ Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey
 
 
 <div class="teaser clearfix"></div>
-<h3 id="C8">Python Öznitelikler ve Yordamlar</h3><hr>
+<h3 id="C8">Python Öznitelikler ve Yordamlar``**
+
+***
 
 
 <div class="w3-panel w3-card w3-light-grey">
@@ -1368,7 +1386,9 @@ Thus, the convention followed is that any variable that is to be used only withi
 <br><br>
 
 <div class="teaser clearfix"></div>
-<h3  id="C9"><code class="w3-codespan">new</code> yordamı </h3><hr>
+<h3  id="C9"><code class="w3-codespan">new</code> yordamı ``**
+
+***
  <code class="w3-codespan">new</code> örnekleme ile oluşturan ve döndüren python özel yordamıdır.
 
 <main class="grid">
@@ -1456,7 +1476,9 @@ str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturm
 <br>
 
 <div class="teaser clearfix"></div>
-<h3  id="C10"><code class="w3-codespan">init</code> yordamı</h3><hr>
+<h3  id="C10"><code class="w3-codespan">init</code> yordamı``**
+
+***
 Yukarıdaki örnekler, en basit biçimde sınıflar ve nesnelerdir ve gerçek yaşam uygulamalarında gerçekten yararlı değildir. 
 
 Sınıfların manâsını anlamak için, yerleşik <code class="w3-codespan">init</code> yordamını anlamamız gerekir. 
@@ -1542,7 +1564,9 @@ Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) 
 <br>
 
 <div class="teaser clearfix"></div>
-<h3  id="C11"><code class="w3-codespan">self</code> Parametresi</h3><hr>
+<h3  id="C11"><code class="w3-codespan">self</code> Parametresi``**
+
+***
 <p> <code class="w3-codespan">self</code> sınıfın kendisine bir referanstır ve sınıfa ait özniteliklere erişmek için kullanılır. 
 
 <code class="w3-codespan">self</code> diye isimlendirilmek zorunda değildir, ne ile  istersen öyle çağırabilirsin, ama sınıftaki herhangi bir yordamın ilk parametresi olmalı:</p>
@@ -1631,7 +1655,9 @@ Dahili olarak, bu ifadeler tamamen aynıdır.
 <br><br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C12">super fonksiyonu</h3><hr>
+<h3 id="C12">super fonksiyonu``**
+
+***
 **super([type[, object-or-type]])**
 
 Bir ebeveyn veya kardeş sınıfına yordam çağrıları veren bir temsili öbeği döndürür. Bu, bir sınıfta geçersiz kılınan devralınan yordamlara erişmek için kullanışlıdır. Arama sırası, **type**'ın kendisinin atlanması dışında **getattr()** tarafından kullanılanla aynıdır.
@@ -1683,7 +1709,9 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
 
 ![Python &bull; Sınıflar.](/images/qppr.png "Python &bull; Sınıflar."){:height="77%" width="77%"}
 
-<h3 id="C18">Python Programları</h3><hr>
+<h3 id="C18">Python Programları``**
+
+***
 
 <div class="w3-panel w3-card w3-light-grey">
   <div class="w3-container w3-white">
