@@ -112,10 +112,6 @@ Anne
 ![Python &bull; Sınıflar.](/images/python/class1.png "Python &bull; Sınıflar."){:height="77%" width="77%"}
 
 
-
-
-
-
 ***
 
 **``Bir Python Sınıfı Oluşturma``**
@@ -306,6 +302,8 @@ obj.name = "Andre"</div>
 **``Bir Python Nesnesi Oluşturma``**
 
 ***
+
+
 
  
 Artık nesneleri oluşturmak için **myClass** adlı sınıfı kullanabiliriz:
