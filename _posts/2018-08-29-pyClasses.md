@@ -2,15 +2,16 @@
 layout: post
 title: Python Sınıfları
 description: Python sınıfları, Nesne Yönelimli Programlamanın tüm standart özelliklerini sağlar.
-summary: "Python 3 Sınıflar ve Nesneler."
-excerpt: Python'daki hemen hemen her şey, öznitelikleri ve yordamları ile bir nesnedir.
-keywords: linux, python, programlama
 date: 2018-08-29 15:52:00
-last_updated: 2018-09-05 15:52:00 
+last_updated: 2018-09-05 15:52:00
+keywords: linux, python, programlama
+summary: "Python 3 Sınıflar ve Nesneler."
+excerpt: Python'daki hemen hemen her şey, öznitelikleri ve yordamları ile bir nesnedir. 
+categorie: Programlama
 tags:   Linux Programlama Python
 permalink: /PyClasses/
 categories: [Python, Programlama]
-comments: true
+comments: false
 published: true
 lang: tr
 ---
@@ -18,11 +19,6 @@ lang: tr
 
 ![Python &bull; Sınıflar.](/images/python/python-classes2.jpg "Python &bull; Sınıflar."){:height="97%" width="97%"}
 
-***
-
-#### **Python Sınıfları**
-
-***
 
 <div class="w3-panel w3-card w3-light-grey">
   <div class="w3-container w3-white">
@@ -53,8 +49,7 @@ lang: tr
   </div>
 </div>
 <br>
-
-**``Python``** bir nesne yönelimli programlama dilidir.
+Python bir nesne yönelimli programlama dilidir.
 Python'daki hemen hemen her şey, öznitelikleri ve yordamları ile bir nesnedir. 
 
 Python sınıfları, Nesne Yönelimli Programlamanın tüm standart özelliklerini sağlar: sınıf örneklem mekanizması, birden fazla temel sınıfa izin verir, türetilmiş bir sınıf, temel sınıfının veya sınıflarının herhangi bir yordamını geçersiz kılabilir ve bir yordam, aynı ada sahip bir taban sınıfının yordamını çağırabilir . Nesneler, rastgele miktarları ve veri türlerini içerebilir. Modüller için doğru olduğu gibi, sınıflar Python'un dinamik doğasını paylaşırlar: çalışma zamanında oluşturulurlar ve oluşturulduktan sonra daha fazla değiştirilebilirler. 
@@ -73,7 +68,6 @@ Burada, (class docstring) class_name._doc_ üzerinden erişilebilen bir belge di
 
 <main class="grid">
   <article>
-  
 {% highlight python %}
 # sınıfın tanımı burada başlar  
 class Person:
@@ -104,17 +98,18 @@ person1.showAge()
 person2.showName()
 {% endhighlight %}
   </article>
-  
-
-{% highlight bash %}
-23
+  <article>
+    <div class="text">
+      <p>
+23<br>
 Anne
-
-{% endhighlight %}
+</p>
+    </div>
+  </article>
 </main>
  
 
-![Python &bull; Sınıflar.](/images/python/class1.png "Python &bull; Sınıflar."){:height="77%" width="77%"}
+![Python &bull; Sınıflar.](/images/python/class1.png "Python &bull; Sınıflar."){:height="97%" width="97%"}
 
 
 <br><br>
