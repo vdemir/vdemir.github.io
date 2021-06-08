@@ -474,8 +474,6 @@ Bir sınıf/öbek bir **__init__()** yordamını tanımladığında, sınıf/öb
 
 Elbette **__init__()** yordamı daha fazla esneklik için argümanlara sahip olabilir. Bu durumda, sınıf/öbek örnekleme işlecine verilen argümanlar **__init__()** öğesine iletilir. Örneğin,
 
-<main class="grid">
-  <article>
 {% highlight python %}
 class Complex:
    def __init__(self, realpart, imagpart):
@@ -484,20 +482,19 @@ class Complex:
 x = Complex(3.0, -4.5)
 x.r, x.i
 {% endhighlight %}
-  </article>
-  <article>
-    <div class="text">
-      <p>
+
 Out[1]: (3.0, -4.5)
-</p>
-    </div>
-  </article>
-</main>
-
-<br><br>
 
 
-<h3 id="C6"> Özdeş Öbekler</h3><hr>
+
+<a id="C6">  </a>
+
+* * *
+
+### **``Özdeş Öbekler``**
+
+* * *
+
 Şimdi eşleşen nesnelerle ne yapabiliriz? Eşleşen nesneler ile anlaşılan yegane işlemler, öznitelik atıflarıdır. İki tür geçerli atıf ismi vardır; data öznitelikleri ve yordamları. 
 
 Data öznitelikleri, Smalltalk'daki “eşleşen öznitelikler” ve C++'daki “data elemanlarına” karşılık gelir. Data özniteliklerinin beyan edilmesine gerek yoktur; yerel öznitelikler gibi, ilk atandıklarında var olurlar. Örneğin, **x** yukarıda oluşturulan **MyClass** özniteliğiyse, aşağıdaki kod parçası bir iz bırakmadan değeri 16 yazdıracaktır:
