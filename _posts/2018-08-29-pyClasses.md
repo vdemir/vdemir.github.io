@@ -564,11 +564,17 @@ Genellikle, bağlantıdan hemen sonra bir yordam çağrılır:
 x.f() 
 {% endhighlight %}
 
-MyClass örneğinde, 'merhaba dünya' dizesini döndürür. Ancak, bir yordamı hemen çağırmak gerekli değildir: x.f bir yordam öbeğidir ve daha sonra depolanabilir ve daha sonra çağrılabilir. Örneğin:
-<div class="w3-code notranslate pythonHigh">
-xf = x.f<br>
-while True:<br>
-   &nbsp; &nbsp;&nbsp;print(xf() </div>
+MyClass örneğinde, 'merhaba dünya' dizesini döndürür. Ancak, bir yordamı hemen çağırmak gerekli değildir: **_x.f_** bir yordam öbeğidir ve daha sonra depolanabilir ve daha sonra çağrılabilir. Örneğin:
+
+
+{% highlight python %}
+xf = x.f
+
+while True:
+   
+   print(xf()
+
+{% endhighlight %}
 
 **merhaba dünya** zamanın sonuna kadar basmaya devam edecek. 
 
