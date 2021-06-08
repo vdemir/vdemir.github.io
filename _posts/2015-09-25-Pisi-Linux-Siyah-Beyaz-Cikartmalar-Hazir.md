@@ -5,7 +5,7 @@ description: Pisi Linux tanıtımı için tasarlanan siyah-beyaz çıkartma örn
 date:   2015-09-25 15:00:00
 last_updated: 2021-06-05 18:57:00
 tags:   Pisi Linux Etiket
-categories: [Pisi Linux]
+categories: [Pisi]
 comments: false
 published: true
 lang: tr

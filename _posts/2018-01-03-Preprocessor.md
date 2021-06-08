@@ -4,6 +4,7 @@ title:  C Preprocessor Bildirimleri
 description: C Preprocessor Önişlemci bildirimleri compiler derleyicinin bir parçası değildir ancak C programlama dilinin gücünü genişletir. 
 date:   2018-01-03 12:52:00
 tags:   C Programlama GCC
+categories: Programlama
 comments: true
 published: true
 lang: tr

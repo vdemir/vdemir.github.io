@@ -5,7 +5,7 @@ description: Pisi Linux 1.2 serisinin için mevcut olan Xfce paketleri ile kurul
 date:   2015-09-23 12:00:00
 last_updated: 2021-06-05 18:57:00
 tags:   Pisi Linux Xfce Dağıtım
-categories: [Pisi Linux]
+categories: [Pisi]
 comments: false
 published: true
 lang: tr
