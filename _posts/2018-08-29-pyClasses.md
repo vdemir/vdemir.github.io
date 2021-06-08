@@ -1687,7 +1687,9 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
 **Liste.** Bir ağaç büyüdükçe odun katmanları eklenir. Mevsimler ve sıcaklıklar büyümesini etkiler. Halkalar bir liste olarak temsil edilebilir.
 
 <br>
-<h5 id="C291"><i class="fas fa-code"></i> append kullanan Python programı</h5><hr>
+<h5 id="C291"><i class="fas fa-code"></i> append kullanan Python programı**
+ 
+***
 
 **Öğeler eklenebilir,** döngülenebilir veya sıralanabilir. Listeler diğer yapılarla birleştirilebilir. Bir ağaç gibi, listeyi büyütmek için elemanlar (katmanlar) ekliyoruz.
 
@@ -1721,7 +1723,9 @@ print(list)
 </main>
 
 <br>
-<h5 id="C292">insert çağıran Python programı</h5><hr>
+<h5 id="C292">insert çağıran Python programı**
+ 
+***
 
 Insert. Bir öğe bir listede herhangi bir yere eklenebilir. insert() ile ilk kısma veya listenin ortasındaki bir yere ekleyebiliriz. 
 
@@ -1749,7 +1753,9 @@ print(list)
 </main>
 
 <br>
-<h5 id="C293">extend kullanan Python programı</h5><hr>
+<h5 id="C293">extend kullanan Python programı**
+ 
+***
 
 **Extend.** Bir liste extend() ile başka bir listeye eklenebilir. Bu yüzden bir listeyi sonuna kadar başka bir liste içerecek şekilde genişletiyoruz. Listeleri arda arda bağlarız (birleştiririz). 
 
@@ -1783,7 +1789,9 @@ print(a)
 </main>
 
 <br>
-<h5 id="C294">len kullanan Python programı</h5><hr>
+<h5 id="C294">len kullanan Python programı**
+ 
+***
 
 **Len.** Bir liste belirli sayıda eleman içerir. Boşsa bu sıfır olabilir. Dahili bir yordam olan len ile eleman sayısına erişiriz.
 
@@ -1811,7 +1819,9 @@ print(count)
 </main>
 
 <br>
-<h5 id="C295">in kullanan Python programı</h5><hr>
+<h5 id="C295">in kullanan Python programı**
+ 
+***
 
 Anahtar kelimede. Listede bir eleman mı? Bunu belirlemek için 'in' ve 'not in' ifadesini kullanıyoruz. Diğer yaklaşımlar mümkündür, ancak 'in' en basitidir. Burada 'in' ve 'not in' ile bir liste ararız.
 
@@ -1845,7 +1855,9 @@ if "marker" not in items:
 </main>
 
 <br>
-<h5 id="C296">Sıralayan ve tersine çeviren Python programı</h5><hr>
+<h5 id="C296">Sıralayan ve tersine çeviren Python programı**
+ 
+***
 
 **Sort, reverse.** Listeler, öğelerinin sırasını muhafaza eder. Ve yeniden düzenlenebilirler. Sıralama yordamıyla, öğelerin sırasını düşükten yükseğe doğru değiştiririz. 
 
@@ -1881,7 +1893,9 @@ print(list)
 </main>
 
 <br>
-<h5 id="C297">lambda, def ile sıralanan Python programı</h5><hr>
+<h5 id="C297">lambda, def ile sıralanan Python programı**
+ 
+***
 
 **Sort, key.** Bazen listedeki öğeler belirli bir şekilde sıralanmalıdır. Burada, liste karakterlerini son karakterlerine ve ardından ikinci karakterlerine göre sıralarız. 
 
@@ -1924,7 +1938,9 @@ print(values)
 </main>
 
 <br>
-<h5 id="C298">Öğeleri kaldıran Python programı</h5><hr>
+<h5 id="C298">Öğeleri kaldıran Python programı**
+ 
+***
 
 **Remove, del.** Bir değer üzerinde hareket eder. Önce bu değeri arar ve sonra kaldırır. Öğeler (bir -index- sırada) del ifadesiyle de kaldırılabilir.
  
@@ -1964,7 +1980,9 @@ print(names)
 </main>
 
 <br>
-<h5 id="C299">for, list kullanan Python programı</h5><hr>
+<h5 id="C299">for, list kullanan Python programı**
+ 
+***
 
 For-loop. Liste döngülerinde, Genellikle sıralamaya ihtiyacımız yok. Sadece sırayla elemanlara ihtiyacımız var. For döngüsü, bu durumda idealdir. Bir dizi değişkeninin bir diğeri ile karışıklığını ortadan kaldırır. 
 
@@ -1994,7 +2012,9 @@ butterfly
 </main>
 
 <br>
-<h5 id="C300">list kapsamı kullanan Python programı</h5><hr>
+<h5 id="C300">list kapsamı kullanan Python programı**
+ 
+***
 
 **Listeyi kapsamı** tek bir ifadede tüm döngüyü ifade eder. Bu örnekte bir listeyi HTML dizgileri listesine çevirmek için liste kapsamayı kullanıyoruz. 
 
@@ -2034,7 +2054,9 @@ print(list)
 Sözdizimi kısadır, programcılar için okumayı ve taramayı kolaylaştırır. Sıkıcı for döngülerinden kaçınırız.
 
 <br>
-<h5 id="C301">Örnek kopya bildirimi: Python</h5><hr>
+<h5 id="C301">Örnek kopya bildirimi: Python**
+ 
+***
 
 **Kopya.** Bir dilim sözdizimi kullanılarak bir liste kopyalanır. Dilimde rakam belirtmediğimizde, tüm listeyi kapsar. Bu nedenle, belirtilmemiş bir dilime atanarak, listeyi kopyalarız. 
  
@@ -2058,7 +2080,9 @@ list2 = list1[:]
 Liste listeleri, küçük grafikler ve koordinat aramasına ihtiyaç duyan diğer uygulamalar için yararlı olabilir, ancak büyük bir bellek alanı değildir.
 
 <br>
-<h5 id="C302">Bitişik liste öğelerini alan Python programı</h5><hr>
+<h5 id="C302">Bitişik liste öğelerini alan Python programı**
+ 
+***
 
 **Bitişik elemanlar.** Çoğu zaman döngüde sadece bir elemana ihtiyacımız vardır. Ancak bazı durumlarda, karşılaştırmak için bitişik öğelere ihtiyacımız var. Burada listedeki bitişik öğelere ulaşıyoruz. 
 
@@ -2093,7 +2117,9 @@ for i in range(1, len(elements)):
 </main>
 
 <br>
-<h5 id="C303">format, liste kullanan Python programı</h5><hr>
+<h5 id="C303">format, liste kullanan Python programı**
+ 
+***
 
 **Format.** Bir listemiz olduğunu varsayalım. Ondan bazı öğeleri bir dizgeye eklemek istiyoruz. Bunun için str.format kullanabiliriz. Format(), liste argümanları için özel desteğe sahiptir. 
 
@@ -2121,7 +2147,9 @@ The values are 10, 20 and 30
 </main>
 
 <br>
-<h5 id="C304">all kullanan Python programı</h5><hr>
+<h5 id="C304">all kullanan Python programı**
+ 
+***
 
 All built-in -yerleşik-. Tümüyle, tüm öğelerin True olarak değerlendirip değerlendirmediğini kontrol ederiz. Tek bir eleman bile yanlışsa, all() False değerini döndürür. Yöntem, elemanlar için standart bir boole değerlendirmesi kullanır.
 
@@ -2152,7 +2180,9 @@ True
 </main>
 
 <br>
-<h5 id="C305">any kullanan Python programı</h5><hr>
+<h5 id="C305">any kullanan Python programı**
+ 
+***
 
 **Any built-in.** Bu, yinelenen argümanı üzerinden döngü yapar (bir liste gibi). Eğer argümandaki elemanlardan 'any' True olarak değerlendirilirse, any() de True değerini döndürür. Yani True bir sonuç için tarar. 
 
@@ -2196,7 +2226,9 @@ False
 **Faydaları, negatifler.** Listeler basit bir sözdizimine sahiptir; bir tane oluşturmak için yalnızca birkaç karakter gerekir. Ve listeleri yeniden boyutlandırmak zorunda kalmayacağız. Ancak büyük veri kümeleri için aşırı bellek kullanırlar.
 
 <br>
-<h5 id="C181">Sınıfı kullanan Python programı</h5><hr>
+<h5 id="C181">Sınıfı kullanan Python programı**
+ 
+***
 
 **init** örneği: Bu program bir sınıf oluşturur. Sınıf anahtar sözcüğünü kullanır ve iki yordam sunar. **init** yordamı özeldir. Bu bir kurucudur.
 
@@ -2236,7 +2268,9 @@ print(x.area())
 </main>
 
 <br>
-<h5 id="C182">Sınıf kalıtımını kullanan Python programı</h5><hr>
+<h5 id="C182">Sınıf kalıtımını kullanan Python programı**
+ 
+***
 
 **Kalıtım.** Bir sınıf, bir veya daha fazla başka sınıftan miras alabilir. Buradan türetmek istediğimiz sınıf tanımlanmalıdır. Türetilmiş sınıf, sınıf adından sonra parantez içinde belirtilir.
 
@@ -2282,7 +2316,9 @@ a, width called
 
 <br>
  
-<h5 id="C183">İki alt çizgi değişkenini kullanan Python programı</h5><hr>
+<h5 id="C183">İki alt çizgi değişkenini kullanan Python programı**
+ 
+***
  
 
 İki alt çizgi. Bir sınıfta, bazı elemanların isimlerinin başında iki altçizgi vardır. Bunlar özeldir. Python dili, onları özel olarak ele alır.
@@ -2326,7 +2362,9 @@ print(a._A__value)
 
 <br>
  
-<h5 id="C184">issubclass kullanan Python programı</h5><hr>
+<h5 id="C184">issubclass kullanan Python programı**
+ 
+***
  
 **issubclass.** Bu bir sınıfın diğerinden türetilmiş olup olmadığını belirler. Bu yerleşik yöntemle, iki sınıf ismini (özdeşini değil) geçiririz.
 
@@ -2381,7 +2419,9 @@ B says hello <br>
 
  
 <br>
-<h5 id="C185">isinstance kullanan Python programı</h5><hr>
+<h5 id="C185">isinstance kullanan Python programı**
+ 
+***
 
 **isinstance.** İlk argüman (bir değişken), ikinci argümanın (bir sınıfın) bir eşleneği olduğunda, isinstance true değerini döndürür. Eğer sınıf bir temel sınıfsa, aynı zamanda true döner.
 
@@ -2427,7 +2467,9 @@ if isinstance(b, list):
 
 
 <br>
-<h5 id="C186">repr kullanan Python programı</h5><hr>
+<h5 id="C186">repr kullanan Python programı**
+ 
+***
 
  repr. Bu bir sınıftan **__repr__** yordamına erişir. repr 'temsil' anlamına gelir. Bir öbeği dize-string temsiline dönüştürür. Burada Snake özdeşini özel bir şekilde gösteriyoruz.
 
@@ -2469,7 +2511,9 @@ Snake, type = Anaconda
 </main>
 
 <br>
-<h5 id="C187">property kullanan Python programı</h5><hr>
+<h5 id="C187">property kullanan Python programı**
+ 
+***
 
 **Property.** Bir değer alır ve ayarlar. Bu bir yordam gibidir, ancak daha basit bir sözdizimi kullanır. Bir **property** değişken gibi atanabilir. Bu, **setter** yordamının yürütülmesine neden olur.
 
@@ -2519,7 +2563,9 @@ Rattle
 </main>
 
 <br>
-<h5 id="C188">super kullanan Python programı</h5><hr>
+<h5 id="C188">super kullanan Python programı**
+ 
+***
 
 **Süper.** super() yerleşik ile, bir sınıfın üst öğesini alabiliriz. Bu derhal atası alır. Burada, üst sınıf öğesi olan Shape'e referans veren Circle sınıfında **super()** öğesini çağırıyoruz.
 
@@ -2556,7 +2602,9 @@ Shape
 
 
 <br>
-<h5 id="C189">Sınıfta hash kullanan Python programı</h5><hr>
+<h5 id="C189">Sınıfta hash kullanan Python programı**
+ 
+***
 
 **Hash.** Nesneleri karşılaştırırken, daha hızlı bir hash kodu kullanılabilir. Bir sözlük hash kullanır. **__hash__** ile özel hash hesaplamaları uyguluyoruz. Eşsiz bir değer, iyi bir hash dır.
 
@@ -2596,7 +2644,9 @@ print(hash(p))
 </main>
 
 <br>
-<h5 id="C190">id kullanan Python programı</h5><hr>
+<h5 id="C190">id kullanan Python programı**
+ 
+***
 
 id yordamı. Her öbeğin bir id si vardır. Bu özdeşe özgüdür. Tam sayı bir uygulama detayıdır ve program yürütmeleri arasında değişecektir. Burada sınıf id lerine bakıyoruz.
 
@@ -2644,7 +2694,9 @@ Programlamada modelleri şablon olarak belirleriz. Ve yürütülebilir ifadelerd
 **Bazı kavramlar.** Sınıflar, verileri davranışa kolayca bağlayalım. Python programlarımızda bloklar oluşturuyorlar. Onlarla daha karmaşık modeller geliştiriyoruz.
 
 <br>
-<h5 id="C191">classmethod kullanan Python programı</h5><hr>
+<h5 id="C191">classmethod kullanan Python programı**
+ 
+***
 
 **Classmethod, staticmethod.** Bir sınıf düşünün. Sınıfın bir özdeşini oluşturuyoruz. Fakat sınıfın bazı özellikleri bir özdeş gerektirmeyebilir - daha genel amaçlıdırlar.
 
@@ -2688,7 +2740,9 @@ Method called: dog
 </main>
 
 <br>
-<h5 id="C192">staticmethod kullanan Python programı</h5><hr>
+<h5 id="C192">staticmethod kullanan Python programı**
+ 
+***
 
 **Staticmethod.** Statik bir yordam, self özdeşi kabul etmez. Bir sınıftaki çoğu yordam, 'self' adıyla ilk argümanı kabul eder. 
 @staticmethod dekoratörüyle birlikte, bu argümanı atlıyoruz. 
@@ -2728,7 +2782,9 @@ Box Message 2
 **Bir inceleme.** Python programlarında sınıf yordamları ve statik yordamlar yararlıdır. Genellikle bir sınıfın, özdeş tabanlı olmayan bölümleri vardır. Bir özdeş gerektiren, hantal ve garip olacaktır.
 
 <br>
-<h5 id="C192">type kullanan Python program</h5><hr>
+<h5 id="C192">type kullanan Python program**
+ 
+***
 
 **Type.** Python sınıfları destekler. Yerleşik type ile doğrudan tipleri oluşturabiliriz. Bu tiplerden sınıfları eşleştirebiliriz.
 
@@ -2769,7 +2825,9 @@ print(value)
 </main>
 
 <br>
-<h5 id="C193">type içinde dict kullanan Python programı</h5><hr>
+<h5 id="C193">type içinde dict kullanan Python programı**
+ 
+***
 
 **Dict.** Bir type özniteliklerini sözlük argümanıyla başlatabiliriz. Bu üçüncü argümandır. Burada 'paws' özniteliğini 4 ve 'weight' özniteliğini -1 olarak ayarlıyorum. 
 
@@ -2801,7 +2859,9 @@ Weight = -1
 </main>
 
 <br>
-<h5 id="C194">hasattr, delattr kullanan Python programı</h5><hr>
+<h5 id="C194">hasattr, delattr kullanan Python programı**
+ 
+***
 
 **Hasattr.** getattr ve setattr den başka iki yerleşik işlev vardır. hasattr ile sınıf eşleneğinde bir öznitelik (alan) olup olmadığını görürüz. Doğru veya Yanlış döndürür. 
 
@@ -2850,7 +2910,9 @@ False
 **Python'daki 'sınıf' bildirimleri gibi ifadeler**, 'type' gibi yerleşik yordam çağrılarına doğrudan çevrilebilir. Yüksek seviyeli parçaları uygulamak için dilin düşük seviyeli kısımları kullanılır.
 	
 <br>
-<h5 id="C195">Değerleri get ile alan Python programı</h5><hr>
+<h5 id="C195">Değerleri get ile alan Python programı**
+ 
+***
 
 **Sözlük.** Bir dil düşünün. Her kelime bir anlamla eşleşir. Bir kitap yazılı bir çalışmadır. Bir bulut yüzen sudur. Bir sözlükte anahtarları (kelimeleri) değerlere (anlamlara) eşleştiririz. 
 
@@ -2900,7 +2962,9 @@ no tuna found
 
 	
 <br>
-<h5 id="C196">KeyError'a neden olan Python programı</h5><hr>
+<h5 id="C196">KeyError'a neden olan Python programı**
+ 
+***
 
 Get, None. Python'da 'None', null veya nil gibi özel bir değerdir. Programlarda genellikle None kullanırız. Bu bir değer değil demektir. Bir sözlükte değer bulunamazsa get() None değerini döndürür. 
 
@@ -2931,7 +2995,9 @@ KeyError: 'fish'
 </main>
 
 <br>
-<h5 id="C197">KeyError işleyen Python programı</h5><hr>
+<h5 id="C197">KeyError işleyen Python programı**
+ 
+***
 
 **KeyError.** Bir sözlük bir KeyError'un oluşmasına neden olabilir. Bu, sözlüğün yanlış kullanımı nedeniyle gerçekleşir. KeyError'ı çoğu durumda, sözlükteki get() yordamını kullanarak önleyebiliriz. 
 
@@ -2974,7 +3040,9 @@ Programınızda herhangi bir doğrudan erişim oluşursa, kodunuz yeni veya test
 **Özet.** KeyError, Python'da önlenebilir bir istisnadır. Bir sözlük yanlış kullanıldığında ortaya çıkar. Bu hatayı önlemek için iki yol gördük. Bir try-except ifadesi kullandık. Ve değer erişimini get() yordam çağrısı ile değiştirdik.
 
 <br>
-<h5 id="C198">in kullanan Python programı</h5><hr>
+<h5 id="C198">in kullanan Python programı**
+ 
+***
 
 **In-keyword.** Bir sözlük belirli bir anahtar-key içerebilir (veya içermeyebilir). Çoğu zaman varlığını test etmemiz gerekir. Bunu yapmanın bir yolu, anahtar kelime iledir. 
 
@@ -3016,7 +3084,9 @@ No elephant
 </main>
 
 <br>
-<h5 id="C199">Sözlükte len'i kullanan Python programı</h5><hr>
+<h5 id="C199">Sözlükte len'i kullanan Python programı**
+ 
+***
 
 Len yerleşik. Bu, sözlükteki key-value anahtar/değer çiftlerinin sayısını döndürür. Anahtarların ve değerlerin veri tipleri önemli değil. Len ayrıca listelerde ve  strings dizelerde çalışır. 
 
@@ -3043,8 +3113,11 @@ Length: 2 <br>
 
 **Len notları.** İncelememiz gerek. Len() sadece sözlükler değil, diğer veri tiplerinde kullanılabilir. İçindeki eleman sayısını döndürerek bir liste üzerinde hareket eder. Ayrıca  -tuples - öznitelikler grubunu da ele alır.
 
-<br>
-<h5 id="C200">Dizelerde len kullanan Python programı</h5><hr>
+***
+ 
+**Dizelerde len kullanan Python programı**
+ 
+***
 
 **Len.** Her şeyin uzunluğu var. Evrenimiz bile, sürekli genişlemede, bir uzunluğa sahiptir. Python'da olsa çoğunlukla -strings, lists, collections - dizgiler, listeler, koleksiyonlar - evren değil uzunluklarını ölçüyoruz. 
 
@@ -3085,8 +3158,11 @@ TypeError: object of type  <br> 'NoneType' has no len() <br>
   </article>
 </main>
 
-<br>
-<h5 id="C200">Len, koleksiyonları kullanan Python programı</h5><hr>
+***
+ 
+**Len, koleksiyonları kullanan Python programı**
+ 
+***
 
 **Collections.** Yerleşik len, bir koleksiyondaki elemanların sayısını döndürür. İç içe geçmiş, alt koleksiyonlar içeren bir koleksiyon için sayım sığdır: tüm iç içe geçmiş öğeler dikkate alınmaz. 
 
@@ -3125,8 +3201,11 @@ print(len(lookup))
   </article>
 </main>
 
-<br>
-<h5 id="C200">Özyineleme kullanan Python programı</h5><hr>
+***
+ 
+**Özyineleme kullanan Python programı**
+ 
+***
 
 **Özyineleme.** -recurse- Özyinelemeyle, tüm olasılıkları denemek için çözümler ararız. Yinelemeli bir yöntemin bir sonlandırma koşulu (bir hedef) olmalıdır. Ve bir döngüde, değişen argümanlar ile kendini çağırabilir. Bu şekilde arama şubeleri dışarı çıkar.
  
@@ -3205,8 +3284,11 @@ Bulmaca gibi oyun problemlerini çözme, bunun gibi yinelemeli yöntemlerle mük
 **Özet.** Yinelemeli bir yöntem, olası her seçeneği deneyerek birçok sorunu çözebilir. Buradaki değişim bulmaca, kaba kuvvetli bir şekilde çözülür. Her olası kuruşu her bir yineleme seviyesinde deneriz.
 
 
-<br>
-<h5 id="C200">iç içe geçen listeden len kullanan Python programı</h5><hr>
+***
+ 
+**iç içe geçen listeden len kullanan Python programı**
+ 
+***
 
 İç içe geçmiş listeler. İç içe geçmiş koleksiyonları tekrar gözden geçirelim. Bir koleksiyonun kendisi bir elementtir, bu yüzden sadece bir kez sayar. Yerleşik len, tekrarlamaz. Döngü bile değil. Basit. 
  
@@ -3234,8 +3316,11 @@ print(len(list[2]))
   </article>
 </main>
 
-<br>
-<h5 id="C200">int üzerinden len ile hataya neden olan Python programı</h5><hr>
+***
+ 
+**int üzerinden len ile hataya neden olan Python programı**
+ 
+***
 
 **Hata.** Herhangi bir değişkenin lenmesini alamayız. Bu program int değişkeninin uzunluğunu almaya çalışır. Ve, işini bitiren bir **TypeError** ile sefil bir şekilde başarısız olur. 
 
@@ -3261,8 +3346,11 @@ TypeError: object of type 'int' has no len()
   </article>
 </main>
 
-<br>
-<h5 id="C200">char sayımını, len zamanlayan Python programı</h5><hr>
+***
+ 
+**char sayımını, len zamanlayan Python programı**
+ 
+***
 
 **Performans.** -collections- Koleksiyonların ve -strings- dizelerin uzunluğu hafızada bir sayı olarak saklanır. Bir döngüde olduğu gibi her erişildiğinde hesaplanmaz. Bu nedenle, len bir döngüden çok daha hızlıdır. 
 
