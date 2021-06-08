@@ -220,7 +220,9 @@ Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşma
 
 ***
 
-**``Sınıf Özdeşleri</h4><hr>
+**``Sınıf Özdeşleri``**
+
+***
 
 Bir sınıfın özdeşi, bir Python öbeğidir ve her Python öbeğine benzer şekilde, şu özelliklere sahiptir: kimlik, öbek/nesne tipi, öznitelikler, yordamlar ve değeri.
 **(identity, object type, attributes, methods, and value)
@@ -574,7 +576,9 @@ Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım ol
 
 ***
 
-**``Özdeş Öbeğin Özniteliklerine Erişim</h4><hr>
+**``Özdeş Öbeğin Özniteliklerine Erişim``**
+
+***
 Nokta (.) operatörünü öbek ismi ile kullanarak erişebilirsiniz. Sınıf adı kullanarak da sınıf özdeğerlerine erişilebilir:
 <div class="w3-code notranslate pythonHigh">
   print(p1.x)<br>print(MyClass.x)</div>
@@ -1147,7 +1151,9 @@ jim_account.interest <br>
 
 <br><br>
 
-<a id="C89"> Sınıf Öznitelikleri 2</h4><hr>
+<a id="C89"> Sınıf Öznitelikleri 2``**
+
+***
 Sınıf öznitelikleri, tüm özdeşlerle paylaşılacakları sınıfa aittir. Bu öznitelikler, okunabilirlik için genellikle üst kısımdaki sınıf gövdesi parçalarında tanımlanmaktadır.
 
 <br>
@@ -1189,7 +1195,9 @@ Out [1]: <br>
   </article>
 </main>
 <br>
-<a id="C90">Özdeş Öznitelikleri</h4><hr>
+<a id="C90">Özdeş Öznitelikleri``**
+
+***
 
 Sınıf özniteliklerinden farklı olarak, özdeş öznitelikleri öbekler tarafından paylaşılmaz. Her öbeğin, özdeş özniteliğinin kendi kopyası vardır (Sınıf öniteliklerinin durumunda, tüm nesneler tek kopyaya başvurur).
 
@@ -1230,7 +1238,9 @@ Dictionary form : {'salary': 4000, 'name': 'xyz'} <br>
 </main>
 
 <br>
-<a id="C91">Sınıf ve Öbek öznitelikler</h4><hr>
+<a id="C91">Sınıf ve Öbek öznitelikler``**
+
+***
 
 Daha önce sınıfların ve nesnelerin işlevselliğini ele aldık (ör. Yordamlar), şimdi veri kısmı hakkında bilgi verelim. Veri kısmı, yani alanlar, sınıfların ve öbeklerin ad alanlarına bağlı olan sıradan özniteliklerden başka bir şey değildir. Bu, bu adların yalnızca bu sınıflar ve öbekler bağlamında geçerli olduğu anlamına gelir. Bu yüzden isim alan adı verilir.
 
@@ -1518,7 +1528,9 @@ Hello, my name is Swaroop
   </article>
 </main> 
 <br>
-<a>Nasıl çalışır</h4><hr>
+<a>Nasıl çalışır``**
+
+***
 Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) olarak tanımlarız. Burada sadece name olarak da adlandırılan yeni bir alan yaratıyoruz. İkisi de 'name' olarak adlandırılsalar bile, bunlar iki farklı özniteliklerdir. Noktalı notasyon **self.name**, **'self'** olarak adlandırılan öbeğin bir parçası olan **'name'** adında bir şey olduğu anlamına gelir ve diğer **name** yerel bir değişkendir. Açıklamakta olduğumuz **name** açıkça belirttiğimizden karışıklık yok.
 
 **Person** sınıfı için yeni özdeş **p** oluştururken, sınıf adını kullanarak bunu yaparız, ardından parantez içindeki argümanlar takip edilir: **p = Person('Swaroop')**.
