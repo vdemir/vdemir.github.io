@@ -171,7 +171,7 @@ Hey bir yordam
 
 <a id="C84"></a>
  
- ***
+***
  
 **Oluşturulduktan Sonra Sınıfların Değiştirilmesi**
  
@@ -219,11 +219,11 @@ Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşma
 
 <a id="C81"></a>
  
- ***
+***
  
 **Sınıf Özdeşleri**
  
-***<hr>
+***
 
 Bir sınıfın özdeşi, bir Python öbeğidir ve her Python öbeğine benzer şekilde, şu özelliklere sahiptir: kimlik, öbek/nesne tipi, öznitelikler, yordamlar ve değeri.
 **(identity, object type, attributes, methods, and value)
@@ -286,7 +286,7 @@ obj.name = "Andre"</div>
 <div class="teaser clearfix"></div>
 <h3 id="C2"></a>
  
- ***
+***
  
 **Bir Python Nesnesi Oluşturma</h3><hr>
 Artık nesneleri oluşturmak için **myClass**adlı sınıfı kullanabiliriz:
@@ -304,7 +304,7 @@ print(MyClass.x)
 <div class="teaser clearfix"></div>
 <h3 id="C3"></a>
  
- ***
+***
  
 **Sınıf Eşleme ile Nesne Oluşturma</h3><hr>
  Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">init</code> yordamının kabul ettiği ifadeleri iletirsiniz:
@@ -320,7 +320,7 @@ p1 = Person("John", 36)
 <div class="teaser clearfix"></div>
 <h3 id="C13"></a>
  
- ***
+***
  
 **Nesne Özniteliklerini Değiştirmek</h3><hr>
 Bu gibi nesnelerdeki öznitelikleri değiştirebilirsiniz:
@@ -370,7 +370,7 @@ print(p1.age)
 <div class="teaser clearfix"></div>
 <h3 id="C14"></a>
  
- ***
+***
  
 **Nesne Özniteliklerini Silmek</h3><hr>
 Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz:
@@ -414,7 +414,7 @@ AttributeError: 'Person' object has no attribute 'age'
 <div class="teaser clearfix"></div>
 <h3 id="C15"></a>
  
- ***
+***
  
 **Nesneleri Silmek</h3><hr>
 Nesneleri <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz: 
@@ -458,7 +458,7 @@ NameError: name 'p1' is not defined
 <div class="teaser clearfix"></div>
 <h3 id="C5"></a>
  
- ***
+***
  
 **Sınıf Öbekleri </h3><hr>
 Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnekleme. 
@@ -543,7 +543,7 @@ Out[1]: (3.0, -4.5)
 <div class="teaser clearfix"></div>
 <h3 id="C6"></a>
  
- ***
+***
  
 **Özdeş Öbekler</h3><hr>
 Şimdi eşleşen nesnelerle ne yapabiliriz? Eşleşen nesneler ile anlaşılan yegane işlemler, öznitelik atıflarıdır. İki tür geçerli atıf ismi vardır; data öznitelikleri ve yordamları. 
@@ -575,11 +575,11 @@ Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım ol
 <div class="teaser clearfix"></div>
 <a></a>
  
- ***
+***
  
 **Özdeş Öbeğin Özniteliklerine Erişim**
  
-***<hr>
+***
 Nokta (.) operatörünü öbek ismi ile kullanarak erişebilirsiniz. Sınıf adı kullanarak da sınıf özdeğerlerine erişilebilir:
 <div class="w3-code notranslate pythonHigh">
   print(p1.x)<br>print(MyClass.x)</div>
@@ -1167,7 +1167,7 @@ jim_account.interest <br>
 
 <a id="C89"> Sınıf Öznitelikleri 2**
  
-***<hr>
+***
 Sınıf öznitelikleri, tüm özdeşlerle paylaşılacakları sınıfa aittir. Bu öznitelikler, okunabilirlik için genellikle üst kısımdaki sınıf gövdesi parçalarında tanımlanmaktadır.
 
 <br>
@@ -1211,7 +1211,7 @@ Out [1]: <br>
 <br>
 <a id="C90">Özdeş Öznitelikleri**
  
-***<hr>
+***
 
 Sınıf özniteliklerinden farklı olarak, özdeş öznitelikleri öbekler tarafından paylaşılmaz. Her öbeğin, özdeş özniteliğinin kendi kopyası vardır (Sınıf öniteliklerinin durumunda, tüm nesneler tek kopyaya başvurur).
 
@@ -1254,7 +1254,7 @@ Dictionary form : {'salary': 4000, 'name': 'xyz'} <br>
 <br>
 <a id="C91">Sınıf ve Öbek öznitelikler**
  
-***<hr>
+***
 
 Daha önce sınıfların ve nesnelerin işlevselliğini ele aldık (ör. Yordamlar), şimdi veri kısmı hakkında bilgi verelim. Veri kısmı, yani alanlar, sınıfların ve öbeklerin ad alanlarına bağlı olan sıradan özniteliklerden başka bir şey değildir. Bu, bu adların yalnızca bu sınıflar ve öbekler bağlamında geçerli olduğu anlamına gelir. Bu yüzden isim alan adı verilir.
 
@@ -1544,7 +1544,7 @@ Hello, my name is Swaroop
 <br>
 <a>Nasıl çalışır**
  
-***<hr>
+***
 Burada, **__init__**yordamını bir parametre ismi (olağan self ile birlikte) olarak tanımlarız. Burada sadece name olarak da adlandırılan yeni bir alan yaratıyoruz. İkisi de 'name' olarak adlandırılsalar bile, bunlar iki farklı özniteliklerdir. Noktalı notasyon **self.name**, **'self'**olarak adlandırılan öbeğin bir parçası olan **'name'**adında bir şey olduğu anlamına gelir ve diğer **name**yerel bir değişkendir. Açıklamakta olduğumuz **name**açıkça belirttiğimizden karışıklık yok.
 
 **Person**sınıfı için yeni özdeş **p**oluştururken, sınıf adını kullanarak bunu yaparız, ardından parantez içindeki argümanlar takip edilir: **p = Person('Swaroop')**.
@@ -1761,7 +1761,7 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()**yordamına erişmek için, *
 <br>
 <h5 id="C291"></a>
  
- ***
+***
  
 **append kullanan Python programı</h5><hr>
 
