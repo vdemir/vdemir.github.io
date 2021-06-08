@@ -289,7 +289,7 @@ obj.name = "Andre"</div>
 
 **``Bir Python Nesnesi Oluşturma``**
 
- *** 
+***
 
  
 Artık nesneleri oluşturmak için **myClass** adlı sınıfı kullanabiliriz:
@@ -311,7 +311,7 @@ print(MyClass.x)
 
 **``Sınıf Eşleme ile Nesne Oluşturma``**
 
- *** 
+***
 
  
  Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">init</code> yordamının kabul ettiği ifadeleri iletirsiniz:
@@ -331,7 +331,7 @@ p1 = Person("John", 36)
 
 **``Nesne Özniteliklerini Değiştirmek``**
 
- *** 
+***
 
  
 Bu gibi nesnelerdeki öznitelikleri değiştirebilirsiniz:
@@ -385,7 +385,7 @@ print(p1.age)
 
 **``Nesne Özniteliklerini Silmek``**
 
- *** 
+***
 
  
 Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz:
@@ -433,7 +433,7 @@ AttributeError: 'Person' object has no attribute 'age'
 
 **``Nesneleri Silmek``**
 
- *** 
+***
 
  
 Nesneleri <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz: 
@@ -481,7 +481,7 @@ NameError: name 'p1' is not defined
 
 **``Sınıf Öbekleri ``**
 
- *** 
+***
 
  
 Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnekleme. 
@@ -570,7 +570,7 @@ Out[1]: (3.0, -4.5)
 
 **``Özdeş Öbekler``**
 
- *** 
+***
 
  
 Şimdi eşleşen nesnelerle ne yapabiliriz? Eşleşen nesneler ile anlaşılan yegane işlemler, öznitelik atıflarıdır. İki tür geçerli atıf ismi vardır; data öznitelikleri ve yordamları. 
@@ -627,7 +627,7 @@ Nokta (.) operatörünü öbek ismi ile kullanarak erişebilirsiniz. Sınıf ad�
 <div class="teaser clearfix"></div>
 <h3 id="C7"><a class="w3-btn w3-margin-bottom">Yordam Öbekleri</a>``**
 
- *** 
+***
 
  
 
@@ -656,7 +656,7 @@ Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey
 <div class="teaser clearfix"></div>
 <h3 id="C8">Python Öznitelikler ve Yordamlar``**
 
- *** 
+***
 
  
 
@@ -1406,7 +1406,7 @@ Thus, the convention followed is that any variable that is to be used only withi
 <div class="teaser clearfix"></div>
 <h3  id="C9"><code class="w3-codespan">new</code> yordamı ``**
 
- *** 
+***
 
  
  <code class="w3-codespan">new</code> örnekleme ile oluşturan ve döndüren python özel yordamıdır.
@@ -1498,7 +1498,7 @@ str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturm
 <div class="teaser clearfix"></div>
 <h3  id="C10"><code class="w3-codespan">init</code> yordamı``**
 
- *** 
+***
 
  
 Yukarıdaki örnekler, en basit biçimde sınıflar ve nesnelerdir ve gerçek yaşam uygulamalarında gerçekten yararlı değildir. 
@@ -1588,7 +1588,7 @@ Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) 
 <div class="teaser clearfix"></div>
 <h3  id="C11"><code class="w3-codespan">self</code> Parametresi``**
 
- *** 
+***
 
  
 <p> <code class="w3-codespan">self</code> sınıfın kendisine bir referanstır ve sınıfa ait özniteliklere erişmek için kullanılır. 
@@ -1681,7 +1681,7 @@ Dahili olarak, bu ifadeler tamamen aynıdır.
 <div class="teaser clearfix"></div>
 <h3 id="C12">super fonksiyonu``**
 
- *** 
+***
 
  
 **super([type[, object-or-type]])**
@@ -1737,7 +1737,7 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
 
 <h3 id="C18">Python Programları``**
 
- *** 
+***
 
  
 
