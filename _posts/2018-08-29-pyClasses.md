@@ -11,7 +11,7 @@ categorie: Programlama
 tags:   Linux Programlama Python
 permalink: /PyClasses/
 categories: [Python, Programlama]
-comments: true
+comments: false
 published: true
 lang: tr
 ---
@@ -169,17 +169,8 @@ Hey bir yordam
 
 <br><br>
 
-<a id="C84">
-
-
-
-
-
-***
-
-**``Oluşturulduktan Sonra Sınıfların Değiştirilmesi``**
-
-***
+<h4 id="C84"><i class="fas fa-code"></i> Oluşturulduktan Sonra Sınıfların Değiştirilmesi</h4>
+<hr>
 
 
 Sınıf oluşturulduktan çok sonra ve sonradan eşleştirildikten sonra bile bir sınıf özniteliğini veya yordamını ekleyebilir, değiştirebilir veya silebilirsiniz. Sadece özniteliğe veya yordama **Class.attribute** olarak erişin. Ne zaman oluşturuldukları önemli değil, sınıfın özdeşleri bu değişikliklere saygı duyacaktır:
@@ -220,17 +211,7 @@ Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşma
 
 <br><br>
 
-<a id="C81">
-
-
-
-
-
-***
-
-**``Sınıf Özdeşleri``**
-
-***
+<h4 id="C81"><i class="fas fa-code"></i> Sınıf Özdeşleri</h4><hr>
 
 Bir sınıfın özdeşi, bir Python öbeğidir ve her Python öbeğine benzer şekilde, şu özelliklere sahiptir: kimlik, öbek/nesne tipi, öznitelikler, yordamlar ve değeri.
 **(identity, object type, attributes, methods, and value)
@@ -291,19 +272,7 @@ obj.name = "Andre"</div>
 <br><br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C2">
-
- 
-***
-
-**``Bir Python Nesnesi Oluşturma``**
-
-
-***
-
-
-
- 
+<h3 id="C2"><i class="fas fa-code"></i> Bir Python Nesnesi Oluşturma</h3><hr>
 Artık nesneleri oluşturmak için **myClass** adlı sınıfı kullanabiliriz:
 
 <div class="w3-code">
@@ -317,19 +286,7 @@ print(MyClass.x)
 </div>
 <br>
 <div class="teaser clearfix"></div>
-<h3 id="C3">
-
-
-
-
-
-***
-
-**``Sınıf Eşleme ile Nesne Oluşturma``**
-
-***
-
- 
+<h3 id="C3"><i class="fas fa-code"></i> Sınıf Eşleme ile Nesne Oluşturma</h3><hr>
  Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">init</code> yordamının kabul ettiği ifadeleri iletirsiniz:
 
 <div class="w3-code">
@@ -341,19 +298,7 @@ p1 = Person("John", 36)
 <br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C13">
-
-
-
-
-
-***
-
-**``Nesne Özniteliklerini Değiştirmek``**
-
-***
-
- 
+<h3 id="C13"><i class="fas fa-code"></i> Nesne Özniteliklerini Değiştirmek</h3><hr>
 Bu gibi nesnelerdeki öznitelikleri değiştirebilirsiniz:
 <p>p1'in yaşını 40'a ayarlayın:</p>
 
@@ -399,19 +344,7 @@ print(p1.age)
 <br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C14">
-
-
-
-
-
-***
-
-**``Nesne Özniteliklerini Silmek``**
-
-***
-
- 
+<h3 id="C14"><i class="fas fa-code"></i> Nesne Özniteliklerini Silmek</h3><hr>
 Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz:
 <p>age özniteliğini p1 nesnesinden silin:</p>
 
@@ -451,15 +384,7 @@ AttributeError: 'Person' object has no attribute 'age'
 
 <br>
 <div class="teaser clearfix"></div>
-<h3 id="C15">
-
-***
-
-**``Nesneleri Silmek``**
-
-***
-
- 
+<h3 id="C15"><i class="fas fa-code"></i> Nesneleri Silmek</h3><hr>
 Nesneleri <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz: 
 <p>p1 nesnesini silin:</p>
 
@@ -496,22 +421,21 @@ NameError: name 'p1' is not defined
   </article>
 </main>
 
+
+
 <br><br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C5">
+
+<a id="C5"></a>
+
+ * * *
+
+ **``Sınıf Öbekleri``**
+
+ ***
 
 
-
-
-
-***
-
-**``Sınıf Öbekleri ``**
-
-***
-
- 
 Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnekleme. 
 
 Öznitelik referansları, Python: obj.name'deki tüm öznitelik referansları için kullanılan standart sözdizimini kullanır. Geçerli nesne adları, sınıf nesnesi oluşturulduğunda sınıfın ad alanındaki tüm adlardır. Yani, sınıf tanımı böyle görünüyorsa:
@@ -592,19 +516,7 @@ Out[1]: (3.0, -4.5)
 <br><br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C6">
-
-
-
-
-
-***
-
-**``Özdeş Öbekler``**
-
-***
-
- 
+<h3 id="C6"><i class="fas fa-code"></i> Özdeş Öbekler</h3><hr>
 Şimdi eşleşen nesnelerle ne yapabiliriz? Eşleşen nesneler ile anlaşılan yegane işlemler, öznitelik atıflarıdır. İki tür geçerli atıf ismi vardır; data öznitelikleri ve yordamları. 
 
 Data öznitelikleri, Smalltalk'daki “eşleşen öznitelikler” ve C++'daki “data elemanlarına” karşılık gelir. Data özniteliklerinin beyan edilmesine gerek yoktur; yerel öznitelikler gibi, ilk atandıklarında var olurlar. Örneğin, **x** yukarıda oluşturulan **MyClass** özniteliğiyse, aşağıdaki kod parçası bir iz bırakmadan değeri 16 yazdıracaktır:
@@ -632,23 +544,13 @@ Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım ol
 <br> 
 
 <div class="teaser clearfix"></div>
-<a>
-
-
-
-
-
-***
-
-**``Özdeş Öbeğin Özniteliklerine Erişim``**
-
-***
+<h4><i class="fas fa-code"></i> Özdeş Öbeğin Özniteliklerine Erişim</h4><hr>
 Nokta (.) operatörünü öbek ismi ile kullanarak erişebilirsiniz. Sınıf adı kullanarak da sınıf özdeğerlerine erişilebilir:
 <div class="w3-code notranslate pythonHigh">
   print(p1.x)<br>print(MyClass.x)</div>
 
 <div class="w3-panel w3-card w3-light-grey">
-  <a>Özniteliklerin tanımı</h4>
+  <h4>Özniteliklerin tanımı</h4>
   <div class="w3-container w3-white">
     <p>
     <ul class="w3-ul w3-card-4" style="width:85%">
@@ -661,11 +563,7 @@ Nokta (.) operatörünü öbek ismi ile kullanarak erişebilirsiniz. Sınıf ad�
 <br><br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C7"><a class="w3-btn w3-margin-bottom">Yordam Öbekleri</a>``**
-
-***
-
- 
+<h3 id="C7"><a class="w3-btn w3-margin-bottom">Yordam Öbekleri</a></h3><hr>
 
 Genellikle, bağlantıdan hemen sonra bir yordam çağrılır: 
 <div class="w3-code notranslate pythonHigh">
@@ -690,11 +588,7 @@ Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey
 
 
 <div class="teaser clearfix"></div>
-<h3 id="C8">Python Öznitelikler ve Yordamlar``**
-
-***
-
- 
+<h3 id="C8">Python Öznitelikler ve Yordamlar</h3><hr>
 
 
 <div class="w3-panel w3-card w3-light-grey">
@@ -727,9 +621,8 @@ Her sınıfın, tüm görevlerin ve fonksiyon tanımlarının meydana geldiği k
 
 
 <br>
-<a id="C83">Öznitelik ve Yordam Varlığını Kontrol Etme``**
-
-***
+<h4 id="C83">Öznitelik ve Yordam Varlığını Kontrol Etme</h4>
+<hr>
 
 Belirli bir sınıfın veya özdeşin, belirli bir öznitelik veya yordama sahip olup olmadığını bilmek gerekir mi? Yerleşik **'hasattr'** işlevini kontrol etmek için kullanabilirsiniz; kontrol etmek için nesneyi ve özniteliği (dizge olarak) kabul eder. Dict 'has_key' yöntemine benzer şekilde kullanıyorsunuz (tamamen farklı olsa da):
 
@@ -801,9 +694,8 @@ Aşırı **hasattr** ve **getattr** kullanmayın. Sınıfınızı, bir özniteli
 
 
 <br>
-<a id="C861">Öznitelikler``**
-
-***
+<h4 id="C861">Öznitelikler</h4>
+<hr>
 Python'daki sınıf düzeyinde tanımlanan tüm öznitelikler statik kabul edilir. Bu örneğe bakın:
 
 
@@ -878,9 +770,8 @@ Statik yöntemler, sınıfın herhangi bir eşleneğine başvurmaz ve dışında
 
 
 <br>
-<a id="C862">Özdeş, Sınıf ve Statik Yordamlar``**
-
-***
+<h4 id="C862">Özdeş, Sınıf ve Statik Yordamlar</h4>
+<hr>
 
 Statik yordamlarla biraz daha karmaşık hale gelir. Python'da, bir sınıf içindeki statik yordamları tanımlamanın iki yolu vardır.
 
@@ -938,7 +829,7 @@ MyClass.method()
 </main>
 
 <br>
-<a id="C865">Özdeş Yordamlar</h4>
+<h4 id="C865">Özdeş Yordamlar</h4>
 <h6>Instance Methods</h6>
 <hr>
 
@@ -951,9 +842,8 @@ Onlar sadece öbeğin durumunu değiştirmezler, özdeş yordamlar, sınıfın k
 
 <br><br>
 
-<a id="C868">Sınıf Yordamları Oluşturma``**
-
-***
+<h4 id="C868">Sınıf Yordamları Oluşturma</h4>
+<hr>
 
 Bazen bir sınıf yazarken, sınıftan çağrılan bir fonksiyonu dahil etmek istersiniz, özdeşini değil. Belki bu yordam yeni özdeşler oluşturur veya belki de herhangi bir özel özdeşin herhangi bir özniteliğinden bağımsızdır. Python, yordamınızın, hangi sınıfın çağırdığını bilmesi gerektiğine (ya da bilmesine) bağlı olarak, bunu yapmanın iki yolunu size verir. Her ikisi de yordamlarınıza dekoratörler uygulamasını içerir. 
 
@@ -1022,7 +912,7 @@ I was called from the instance <__main__.Class object at 0x7f6854953748>
 
 <br>
 
-<a id="C866">Sınıf Yordamları</h4>
+<h4 id="C866">Sınıf Yordamları</h4>
 <h6>Class Methods</h6>
 <hr>
 
@@ -1033,7 +923,7 @@ Bir **```self```** parametresini kabul etmek yerine, sınıf yordamları bir **`
 Çünkü sınıf yordamı sadece bu **```cls```** argümanına erişebilir, öbek eşleneğinin durumunu değiştiremez. Bu **```self```**'e erişim gerektirecektir. Ancak, sınıf yordamları hala sınıf durumunu değiştirebilir ki sınıfın tüm özdeşlerine uygulanır.
 
 <br><br>
-<a id="C867">Statik Yordamlar</h4>
+<h4 id="C867">Statik Yordamlar</h4>
 <h6>Static Methods</h6>
 <hr>
 
@@ -1134,9 +1024,8 @@ Hangisini kullanmalısın? İlk seçenek, yalnızca aynı sınıftaki statik öz
 
 
 <br>
-<a id="C88">Sınıf Öznitelikleri 1``**
-
-***
+<h4 id="C88">Sınıf Öznitelikleri 1</h4>
+<hr>
 
 Bazı öznitelik değerleri, verilen bir sınıfın tüm öbeklerinde paylaşılır. Bu öznitelikler, sınıfın herhangi bir tek özdeşinden ziyade sınıfın kendisi ile ilişkilendirilir. Örneğin, bir bankanın hesap bakiyesine sabit faiz oranından faiz ödediğini söyleyelim. Bu faiz oranı değişebilir, ancak tüm hesaplarda paylaşılan tek bir değerdir. 
 
@@ -1223,9 +1112,7 @@ jim_account.interest <br>
 
 <br><br>
 
-<a id="C89"> Sınıf Öznitelikleri 2``**
-
-***
+<h4 id="C89"> Sınıf Öznitelikleri 2</h4><hr>
 Sınıf öznitelikleri, tüm özdeşlerle paylaşılacakları sınıfa aittir. Bu öznitelikler, okunabilirlik için genellikle üst kısımdaki sınıf gövdesi parçalarında tanımlanmaktadır.
 
 <br>
@@ -1267,9 +1154,7 @@ Out [1]: <br>
   </article>
 </main>
 <br>
-<a id="C90">Özdeş Öznitelikleri``**
-
-***
+<h4 id="C90">Özdeş Öznitelikleri</h4><hr>
 
 Sınıf özniteliklerinden farklı olarak, özdeş öznitelikleri öbekler tarafından paylaşılmaz. Her öbeğin, özdeş özniteliğinin kendi kopyası vardır (Sınıf öniteliklerinin durumunda, tüm nesneler tek kopyaya başvurur).
 
@@ -1310,9 +1195,7 @@ Dictionary form : {'salary': 4000, 'name': 'xyz'} <br>
 </main>
 
 <br>
-<a id="C91">Sınıf ve Öbek öznitelikler``**
-
-***
+<h4 id="C91">Sınıf ve Öbek öznitelikler</h4><hr>
 
 Daha önce sınıfların ve nesnelerin işlevselliğini ele aldık (ör. Yordamlar), şimdi veri kısmı hakkında bilgi verelim. Veri kısmı, yani alanlar, sınıfların ve öbeklerin ad alanlarına bağlı olan sıradan özniteliklerden başka bir şey değildir. Bu, bu adların yalnızca bu sınıflar ve öbekler bağlamında geçerli olduğu anlamına gelir. Bu yüzden isim alan adı verilir.
 
@@ -1440,11 +1323,11 @@ Thus, the convention followed is that any variable that is to be used only withi
 <br><br>
 
 <div class="teaser clearfix"></div>
-<h3  id="C9"><code class="w3-codespan">new</code> yordamı ``**
+<h3  id="C9"><code class="w3-codespan">new</code> yordamı``**
 
-***
+ ***
 
- 
+
  <code class="w3-codespan">new</code> örnekleme ile oluşturan ve döndüren python özel yordamıdır.
 
 <main class="grid">
@@ -1532,11 +1415,7 @@ str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturm
 <br>
 
 <div class="teaser clearfix"></div>
-<h3  id="C10"><code class="w3-codespan">init</code> yordamı``**
-
-***
-
- 
+<h3  id="C10"><code class="w3-codespan">init</code> yordamı</h3><hr>
 Yukarıdaki örnekler, en basit biçimde sınıflar ve nesnelerdir ve gerçek yaşam uygulamalarında gerçekten yararlı değildir. 
 
 Sınıfların manâsını anlamak için, yerleşik <code class="w3-codespan">init</code> yordamını anlamamız gerekir. 
@@ -1608,9 +1487,7 @@ Hello, my name is Swaroop
   </article>
 </main> 
 <br>
-<a>Nasıl çalışır``**
-
-***
+<h4>Nasıl çalışır</h4><hr>
 Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) olarak tanımlarız. Burada sadece name olarak da adlandırılan yeni bir alan yaratıyoruz. İkisi de 'name' olarak adlandırılsalar bile, bunlar iki farklı özniteliklerdir. Noktalı notasyon **self.name**, **'self'** olarak adlandırılan öbeğin bir parçası olan **'name'** adında bir şey olduğu anlamına gelir ve diğer **name** yerel bir değişkendir. Açıklamakta olduğumuz **name** açıkça belirttiğimizden karışıklık yok.
 
 **Person** sınıfı için yeni özdeş **p** oluştururken, sınıf adını kullanarak bunu yaparız, ardından parantez içindeki argümanlar takip edilir: **p = Person('Swaroop')**.
@@ -1622,11 +1499,7 @@ Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) 
 <br>
 
 <div class="teaser clearfix"></div>
-<h3  id="C11"><code class="w3-codespan">self</code> Parametresi``**
-
-***
-
- 
+<h3  id="C11"><code class="w3-codespan">self</code> Parametresi</h3><hr>
 <p> <code class="w3-codespan">self</code> sınıfın kendisine bir referanstır ve sınıfa ait özniteliklere erişmek için kullanılır. 
 
 <code class="w3-codespan">self</code> diye isimlendirilmek zorunda değildir, ne ile  istersen öyle çağırabilirsin, ama sınıftaki herhangi bir yordamın ilk parametresi olmalı:</p>
@@ -1674,9 +1547,8 @@ Bu aynı zamanda, hiçbir argüman almayan bir yordamınız varsa, o zaman hala 
  
 <br>
 
-<a id="C82">El Yordamı ile 'self' Geçirme``**
-
-***
+<h4 id="C82">El Yordamı ile 'self' Geçirme</h4>
+<hr>
 Yordamlar, bir özdeşden çağrıldığında, ilk ifade olarak (genellikle 'self' olarak çağrılır) bu özdeşe geçirilen normal fonksiyonlardır. Herhangi bir nedenle fonksiyonu bir özdeşden çağırmıyorsanız, özdeşe her zaman ilk ifade olarak el ile geçirebilirsiniz. Örneğin:
 
  
@@ -1715,11 +1587,7 @@ Dahili olarak, bu ifadeler tamamen aynıdır.
 <br><br>
 
 <div class="teaser clearfix"></div>
-<h3 id="C12">super fonksiyonu``**
-
-***
-
- 
+<h3 id="C12">super fonksiyonu</h3><hr>
 **super([type[, object-or-type]])**
 
 Bir ebeveyn veya kardeş sınıfına yordam çağrıları veren bir temsili öbeği döndürür. Bu, bir sınıfta geçersiz kılınan devralınan yordamlara erişmek için kullanışlıdır. Arama sırası, **type**'ın kendisinin atlanması dışında **getattr()** tarafından kullanılanla aynıdır.
@@ -1771,11 +1639,7 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
 
 ![Python &bull; Sınıflar.](/images/qppr.png "Python &bull; Sınıflar."){:height="77%" width="77%"}
 
-<h3 id="C18">Python Programları``**
-
-***
-
- 
+<h3 id="C18">Python Programları</h3><hr>
 
 <div class="w3-panel w3-card w3-light-grey">
   <div class="w3-container w3-white">
@@ -1836,15 +1700,7 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
 **Liste.** Bir ağaç büyüdükçe odun katmanları eklenir. Mevsimler ve sıcaklıklar büyümesini etkiler. Halkalar bir liste olarak temsil edilebilir.
 
 <br>
-<h5 id="C291">
-
-
-
-
-
-***
-
-**``append kullanan Python programı</h5><hr>
+<h5 id="C291"><i class="fas fa-code"></i> append kullanan Python programı</h5><hr>
 
 **Öğeler eklenebilir,** döngülenebilir veya sıralanabilir. Listeler diğer yapılarla birleştirilebilir. Bir ağaç gibi, listeyi büyütmek için elemanlar (katmanlar) ekliyoruz.
 
