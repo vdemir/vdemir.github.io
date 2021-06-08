@@ -453,17 +453,23 @@ sonra **MyClass.i** ve **MyClass.f**, sırasıyla bir tamsayı ve fonksiyon nesn
 
 Sınıf örnekleme, fonksiyon notasyonu kullanır. Sınıf nesnesinin,  sadece sınıfın yeni bir örneğini döndüren parametresiz bir fonksiyon olduğunu varsayalım. Örneğin (yukarıdaki sınıfı varsayarak):
 
-<div class="w3-code notranslate pythonHigh">
-  x = MyClass() </div>
+{% highlight python %}
+  x = MyClass() 
+{% endhighlight %}
+
 sınıfın yeni bir örneklemini oluşturur ve bu nesneyi **x** yerel değişkenine atar.
 
 Örneklem işlemi boş bir nesne oluşturur.(bir sınıf nesnesini çağırmak) Birçok sınıf, belirli bir başlangıç ​​durumuna göre özelleştirilmiş örneklemeler ile nesneler oluşturmayı sever. Bu nedenle, bir sınıf, **__init__()** adında özel bir yordam tanımlayabilir, bunun gibi: 
-<div class="w3-code notranslate pythonHigh">
-  def __init__(self):<br> &nbsp; self.data = []</div>
+
+{% highlight python %}
+  def __init__(self):<br> &nbsp; self.data = []
+{% endhighlight %}
 
 Bir sınıf/öbek bir **__init__()** yordamını tanımladığında, sınıf/öbek örneklemesi otomatik olarak yeni oluşturulmuş sınıf örneği için **__init__()** yordamını çağırır. . Bu örnekte, yeni başlatılmış bir örnekleme şu şekilde elde edilebilir: 
-<div class="w3-code notranslate pythonHigh">
-  x = MyClass() </div>
+
+{% highlight python %}
+  x = MyClass() 
+{% endhighlight %}
 
 
 Elbette **__init__()** yordamı daha fazla esneklik için argümanlara sahip olabilir. Bu durumda, sınıf/öbek örnekleme işlecine verilen argümanlar **__init__()** öğesine iletilir. Örneğin,
