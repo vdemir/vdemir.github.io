@@ -2,13 +2,13 @@
 layout: post
 title: Python Sınıfları
 description: Python sınıfları, Nesne Yönelimli Programlamanın tüm standart özelliklerini sağlar.
-date:   2018-08-29 15:52:00
-last_updated: 2018-09-05 15:52:00
 keywords: linux, python, programlama
 summary: "Python 3 Sınıflar ve Nesneler."
-excerpt: Python'daki hemen hemen her şey, öznitelikleri ve yordamları ile bir nesnedir. 
+excerpt: Python'daki hemen hemen her şey, öznitelikleri ve yordamları ile bir nesnedir.
+date:   2018-08-29 15:52:00
+last_updated: 2018-09-05 15:52:00 
 categorie: Programlama
-tags:   Linux Programlama Python
+tags: Linux Programlama Python
 permalink: /PyClasses/
 categories: [Python, Programlama]
 comments: false
@@ -165,8 +165,13 @@ Hey bir yordam
 
 <br><br>
 
-<h4 id="C84"><i class="fas fa-code"></i> Oluşturulduktan Sonra Sınıfların Değiştirilmesi</h4>
-<hr>
+<a id="C84"></a>
+
+* * *
+
+**``Oluşturulduktan Sonra Sınıfların Değiştirilmesi``**
+
+* * *
 
 
 Sınıf oluşturulduktan çok sonra ve sonradan eşleştirildikten sonra bile bir sınıf özniteliğini veya yordamını ekleyebilir, değiştirebilir veya silebilirsiniz. Sadece özniteliğe veya yordama **Class.attribute** olarak erişin. Ne zaman oluşturuldukları önemli değil, sınıfın özdeşleri bu değişikliklere saygı duyacaktır:
