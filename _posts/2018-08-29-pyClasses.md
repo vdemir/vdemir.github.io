@@ -586,10 +586,14 @@ Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey
 
 ![Python &bull; Sınıflar.](/images/python-oop.jpg "Python &bull; Sınıflar."){:height="77%" width="77%"}
 
+ 
+<a id="C8"> </a>
 
+* * *
 
+### **``Python Öznitelikler ve Yordamlar``**
 
-<h3 id="C8">Python Öznitelikler ve Yordamlar</h3><hr>
+* * * 
 
 
 <div class="w3-panel w3-card w3-light-grey">
