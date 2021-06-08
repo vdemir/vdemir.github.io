@@ -121,7 +121,7 @@ Anne
 
 * * *
 
-**``Bir Python Sınıfı Oluşturma``**
+## **``Bir Python Sınıfı Oluşturma``**
 
 * * *
 
@@ -186,8 +186,6 @@ Hey bir yordam
 Sınıf oluşturulduktan çok sonra ve sonradan eşleştirildikten sonra bile bir sınıf özniteliğini veya yordamını ekleyebilir, değiştirebilir veya silebilirsiniz. Sadece özniteliğe veya yordama **Class.attribute** olarak erişin. Ne zaman oluşturuldukları önemli değil, sınıfın özdeşleri bu değişikliklere saygı duyacaktır:
 
 
-<main class="grid">
-  <article>
 {% highlight python %}
 class Class:
    def method(self):
@@ -204,21 +202,24 @@ Class.method = new_method
 instance.method()
 # prints 'New method wins!'
 {% endhighlight %}
-  </article>
-  <article>
-    <div class="text">
-      <p>
 
+{% highlight bash %}
 Out [1]: <br> <br>
 Hey a method <br>  <br>
 New method wins!
+
+{% endhighlight %}
+
+<main class="grid">
+  <article>
+    <div class="text">
+      <p>
+Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşmayın, bu kötü bir formdur ve bu sınıfı kullanarak herhangi bir öbeği karıştırır. Öte yandan, yordamların eklenmesi çok daha az (ama yine de biraz) tehlikelidir.
+
 </p>
     </div>
   </article>
 </main>
-
-Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşmayın, bu kötü bir formdur ve bu sınıfı kullanarak herhangi bir öbeği karıştırır. Öte yandan, yordamların eklenmesi çok daha az (ama yine de biraz) tehlikelidir.
-
 <br><br>
 
 <h4 id="C81"><i class="fas fa-code"></i> Sınıf Özdeşleri</h4><hr>
