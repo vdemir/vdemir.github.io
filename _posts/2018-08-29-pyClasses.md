@@ -198,7 +198,7 @@ Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşma
 
 * * *
 
-**``Sınıf Özdeşleri``**
+### **``Sınıf Özdeşleri``**
 
 * * *
 
@@ -220,12 +220,9 @@ type(obj.name)
 {% endhighlight %}
 
 
-{% highlight bash %}
 Out[1]: 140040300870176
 Out[2]: __main__.c
 Out[3]: str
-{% endhighlight %}
-
 
 Kimlik[identity], öbek için ayrılan bellek konumudur. **id()** fonksiyonu kullanılarak tanımlanabilir.
 
@@ -258,7 +255,14 @@ obj.name = "Andre"
 <br><br>
 
 
-<h3 id="C2"><i class="fas fa-code"></i> Bir Python Nesnesi Oluşturma</h3><hr>
+<a id="C2"></a>
+
+* * *
+
+### **``Bir Python Nesnesi Oluşturma``**
+
+* * *
+
 Artık nesneleri oluşturmak için **myClass** adlı sınıfı kullanabiliriz:
 
 <div class="w3-code">
