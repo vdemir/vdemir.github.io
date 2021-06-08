@@ -109,7 +109,7 @@ Anne
 </main>
  
 
-![Python &bull; Sınıflar.](/images/python/class1.png "Python &bull; Sınıflar."){:height="77%" width="77%"}
+![Python &bull; Sınıflar.](/images/python/class1.png "Python &bull; Sınıflar."){:height="97%" width="77%"}
 
 
 ***
