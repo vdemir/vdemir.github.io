@@ -17,7 +17,7 @@ lang: tr
 ---
 
 
-![Python &bull; Sınıflar.](/images/python/python-classes2.jpg "Python &bull; Sınıflar."){:height="97%" width="97%"}
+![Python &bull; Sınıflar.](/images/python/python-classes2.jpg "Python &bull; Sınıflar."){:height="77%" width="77%"}
 
 
 <div class="w3-panel w3-card w3-light-grey">
@@ -109,7 +109,7 @@ Anne
 </main>
  
 
-![Python &bull; Sınıflar.](/images/python/class1.png "Python &bull; Sınıflar."){:height="97%" width="97%"}
+![Python &bull; Sınıflar.](/images/python/class1.png "Python &bull; Sınıflar."){:height="77%" width="77%"}
 
 
 ***
