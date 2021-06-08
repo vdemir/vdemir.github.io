@@ -324,13 +324,10 @@ p1 = Person("John", 36)
  
 ***
 
-
  **``Nesne Özniteliklerini Değiştirmek``**
  
 ***
 
-
- 
 Bu gibi nesnelerdeki öznitelikleri değiştirebilirsiniz:
 <p>p1'in yaşını 40'a ayarlayın:</p>
 
