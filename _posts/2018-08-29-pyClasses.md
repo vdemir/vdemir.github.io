@@ -113,9 +113,9 @@ Anne
 
 
 <br><br>
-
+**``Bir Python Sınıfı Oluşturma``**
 <div class="teaser clearfix"></div>
-<h3 id="C1"><i class="fas fa-code"></i>**``Bir Python Sınıfı Oluşturma``**</h3><hr>
+<h3 id="C1"><i class="fas fa-code"></i></h3><hr>
 **x** adlı bir özdeğere sahip **MyClass** adlı bir sınıf/öbek oluşturun:
 <div class="w3-code notranslate">
 {% highlight python %}
