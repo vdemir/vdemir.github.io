@@ -3,7 +3,7 @@ layout: post
 title:  Pisi Paket Yapımı Belgelendirme Çalışması
 date:   2016-02-20 12:52:00
 tags:   Pisi Linux
-categories: [Pisi Linux]
+categories: [Pisi]
 comments: false
 published: true
 lang: tr

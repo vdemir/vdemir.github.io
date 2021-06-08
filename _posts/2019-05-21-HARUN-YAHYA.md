@@ -68,5 +68,3 @@ lang: en
 </td><td>by HARUN YAHYA</td><td>The constant clashes, conflicts and wars that mar today's world are actually supposed to be happening now, in these End Times, as the Prophet Muhammad (pbuh) told us 1,400 years ago. However, since God creates everything to be dependent on causes, the current volatile environment of our age has its own causes and the duty of the dajjal (the antichrist) is creating these causes, so that the confrontation between good and evil can take place. However, this showdown will end with the intellectual victory of the Mahdi (pbuh), who will usher in the Golden Age, a time of complete peace for our pain-stricken world. This victory will mark the defeat of dajjal, the source of evil, and start a new era of salvation for our world, which up to that point was a scene of wars and conflicts. </td></tr>
   </tbody>
 </table> 
-
-
