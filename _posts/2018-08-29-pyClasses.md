@@ -260,7 +260,8 @@ Nesne tipi, öbeğin iç temsilidir. Her öbek için desteklenen yordam ve işle
 
 {% highlight python %} 
 type(obj)
-type(obj.name)</div>
+type(obj.name)
+{% endhighlight %}
 
 Nesne tiplerinden bahsederken, tüm sınıf konusundan kısa bir ara verelim ve sınıflar gibi davranmayan, uzantı modüllerinde tanımlanan Python öbeklerini inceleyelim.
 
@@ -269,7 +270,8 @@ Bir nesnenin öznitelikleri ve yordamları, öbek adından sonra bir nokta (.) y
 Sonunda, bir nesnenin değeri bir örnekle daha iyi görselleştirilir.
 
 {% highlight python %} 
-obj.name = "Andre"</div>
+obj.name = "Andre"
+{% endhighlight %}
 
 **'Andre'** dizesi, **obj** öbeğinin **name** özniteliğine atanan değerdir.
 
@@ -290,7 +292,7 @@ obj.name = "Andre"</div>
  
 Artık nesneleri oluşturmak için **myClass** adlı sınıfı kullanabiliriz:
 
-<div class="w3-code">
+
 {% highlight python %} 
 class MyClass:
   x = 5
@@ -312,7 +314,7 @@ print(MyClass.x)
  
  Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra ``init`` yordamının kabul ettiği ifadeleri iletirsiniz:
 
-<div class="w3-code">
+
 {% highlight python %} 
 p1 = Person("John", 36)
 {% endhighlight %}
@@ -383,7 +385,7 @@ Nesnelerin Özniteliklerini ``del`` anahtar sözcüğünü kullanarak silebilirs
 <p>age özniteliğini p1 nesnesinden silin:</p>
 
 
-<div class="w3-code">
+
 {% highlight python %} 
 del p1.age
 {% endhighlight %}
@@ -1404,7 +1406,6 @@ Initiating instance of Sample
 <strong>Not:</strong>``new``, bir cls yordamı döndürürse, argümanların geri kalanıyla ``init`` çağrılır (...), aksi halde ``init`` çağrılmaz.</div>
 
 
-{% highlight python %} 
 <strong>Not:</strong> Python sınıf kurucusunun iki adımı vardır: Örneklem ile oluşturmak için ``new`` çağırma ve başlatmak için ``init`` çağırma. ``init`` isteğe bağlı bir adım değildir, ``init`` başarısız olursa örneklem oluşturma da başarısız olur.</div>
 
 <p> Yeni bir örneklemin oluşturulmasını kontrol etmeniz gerektiğinde ``new`` kullanın. 
@@ -1493,7 +1494,6 @@ Hello my name is John
 
 
  
-{% highlight python %} 
 <strong>Not:</strong>  ``init`` bir sınıfın kurucusudur aslında başlatıcıdır. ``init`` yordamı, nesnenin belleğinin tahsis edildiği anda çağrılır.</div>
 
 Python sınıflarında özel bir önemi olan birçok yöntem ismi vardır. **init** yönteminin önemini şimdi göreceğiz.
@@ -1571,14 +1571,12 @@ Hello my name is John
   </article>
 </main>
  
-{% highlight python %} 
 <strong>Not:</strong> ``self`` parametresi, sınıfa ait bir referanstır ve sınıfa ait özniteliklere erişmek için kullanılır.</div>
 
 Sınıf yordamları, sıradan fonksiyonlardan yalnızca belirli bir fark içerirler - parametre listesinin başına eklenmesi gereken fazladan bir ilk ada sahip olmaları gerekir, ancak yordamı çağırdığınızda bu parametre için bir değer vermezsiniz, Python bunu sağlayacaktır. Bu özel değişken, öbeğin kendisine atıfta bulunur ve sözleşmeye göre, kendisine **self** ad verilir.
 
 Her ne kadar bu parametre için herhangi bir isim verseniz de, **self** ismini kullanmanız şiddetle tavsiye edilir. Standart bir ad kullanmanın birçok avantajı vardır - programınızın herhangi bir okuyucusu bunu hemen tanıyacaktır ve **self** kullanırsanız uzmanlaşmış IDE'ler (Entegre Geliştirme Ortamları) size yardımcı olabilir.
 
-{% highlight python %} 
 <strong>Not:</strong> Python'daki self, C ++'daki bu pointer ve Java ve C'deki bu referansa eşdeğerdir.</div>
 
  Python'un **self** için nasıl bir değer verdiğini ve neden bunun için bir değer vermeniz gerekmediğini merak etmelisiniz. Bir örnek bunu açıklığa kavuşturur. **MyClass** adlı bir sınıfınız olduğunu ve bu sınıfın bir özdeşinin **myobject** olarak adlandırdığınızı varsayalım. Bu nesnenin yordamını **myobject.method(arg1, arg2)** olarak çağırdığınızda, bu otomatik olarak Python tarafından **MyClass.method(myobject, arg1, arg2)** 'ye dönüştürülür - bu, tüm özel **self** hakkındadır.
@@ -2255,7 +2253,6 @@ False
 
 **init** örneği: Bu program bir sınıf oluşturur. Sınıf anahtar sözcüğünü kullanır ve iki yordam sunar. **init** yordamı özeldir. Bu bir kurucudur.
 
-{% highlight python %} 
 <strong>Not:</strong> init, parametreleri alır ve yeni sınıf özdeşine alanlar atar. Argümanları doğrulayabilir, hesaplamalar yapabilir, yordamları çağırır.</div>
 
 **Box:** İfadede **Box(10, 2)**, **Box** sınıfının yeni bir eşleneğini oluşturuyoruz. Genişliği 10'a ayarlanır. Yüksekliği 2'ye ayarlanır.
