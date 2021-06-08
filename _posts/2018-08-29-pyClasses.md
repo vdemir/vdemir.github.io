@@ -109,7 +109,7 @@ Anne
 </main>
  
 
-![Python &bull; Sınıflar.](/images/python/class1.png "Python &bull; Sınıflar."){:height="97%" width="77%"}
+![Python &bull; Sınıflar.](/images/python/class1.png "Python &bull; Sınıflar."){:height="77%" width="77%"}
 
 
 ***
@@ -572,7 +572,7 @@ Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey
 <br><br>
  
 
-![Python &bull; Sınıflar.](/images/python-oop.jpg "Python &bull; Sınıflar."){:height="97%" width="97%"}
+![Python &bull; Sınıflar.](/images/python-oop.jpg "Python &bull; Sınıflar."){:height="77%" width="77%"}
 
 
 
@@ -728,7 +728,7 @@ print (Example.staticVariable) # now 7
 Bana oldukça basit görünüyor. Sadece kafa karışıklığı gerçek olabilir, sınıfınızda aynı ad altında iki farklı değişkeniniz olabilir (bir statik ve bir sıradan). Ama bu davranışı tamamen önlemek için (kendi iyiliğiniz için) tavsiye ederim.
 
 
-![Python &bull; Sınıflar.](/images/python-logo23.jpg "Python &bull; Sınıflar."){:height="97%" width="97%"}
+![Python &bull; Sınıflar.](/images/python-logo23.jpg "Python &bull; Sınıflar."){:height="77%" width="77%"}
 
 
 <br>
@@ -1622,7 +1622,7 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
 
  
 
-![Python &bull; Sınıflar.](/images/qppr.png "Python &bull; Sınıflar."){:height="97%" width="97%"}
+![Python &bull; Sınıflar.](/images/qppr.png "Python &bull; Sınıflar."){:height="77%" width="77%"}
 
 <h3 id="C18">Python Programları</h3><hr>
 
