@@ -64,10 +64,8 @@ class ClassName:
 {% endhighlight %}
 
 Burada, (class docstring) class_name._doc_ üzerinden erişilebilen bir belge dizesidir ve class_suite, temel olarak sınıf elemanlarını, veri özniteliklerini ve yordamları tanımlayan tüm bileşen ifadelerinden oluşur.
-<br>
 
-<main class="grid">
-  <article>
+
 {% highlight python %}
 # sınıfın tanımı burada başlar  
 class Person:
@@ -96,17 +94,14 @@ person2 = Person("Anne", 30)
 #Nesne/Öbek yordamının elemanını çağırır  
 person1.showAge()
 person2.showName()
-{% endhighlight %}
-  </article>
-  <article>
-    <div class="text">
-      <p>
-23<br>
+{% endhighlight %} 
+
+Out[1]:
+
+{% highlight bash %}
+23 
 Anne
-</p>
-    </div>
-  </article>
-</main>
+{% endhighlight %}
  
 
 ![Python &bull; Sınıflar.](/images/python/class1.png "Python &bull; Sınıflar."){:height="77%" width="77%"}
@@ -114,7 +109,7 @@ Anne
 
 <br><br>
 
-<div class="teaser clearfix"></div>
+
 
 
 <a id="C1"></a>
@@ -227,8 +222,6 @@ Bir sınıfın özdeşi, bir Python öbeğidir ve her Python öbeğine benzer ş
 Bir sonraki açıklama için aşağıdaki sınıf tanımını kullanacağım. Öncelikle, **c** sınıfı ilan edelim, ve sonra **obj** olarak adlandırılan bu sınıfın bir özdeşini oluşturacağız.
 
  
-<main class="grid">
-  <article>
 {% highlight python %}
 class c:
     def __init__(self, value=None):
@@ -239,30 +232,28 @@ id(obj)
 type(obj)
 type(obj.name)
 {% endhighlight %}
-  </article>
-  <article>
-    <div class="text">
-      <p>
 
-Out[1]: 140040300870176 <br>
-Out[2]: __main__.c <br>
+
+{% highlight bash %}
+Out[1]: 140040300870176
+Out[2]: __main__.c
 Out[3]: str
-</p>
-    </div>
-  </article>
-</main>
+{% endhighlight %}
 
 
 Kimlik[identity], öbek için ayrılan bellek konumudur. **id()** fonksiyonu kullanılarak tanımlanabilir.
 
-<div class="w3-code notranslate pythonHigh">
-id(obj)</div>
+{% highlight python %}
+id(obj)
+
+{% endhighlight %}
 
 Nesne tipi, öbeğin iç temsilidir. Her öbek için desteklenen yordam ve işlemi tanımlar. Belirli bir Nesnenin tipini öğrenmek için **type()** fonksiyonunu kullanabilirsiniz.
 
-<div class="w3-code notranslate pythonHigh">
-type(obj)<br>
-type(obj.name)</div>
+{% highlight python %}
+type(obj)
+type(obj.name)
+{% endhighlight %}
 
 Nesne tiplerinden bahsederken, tüm sınıf konusundan kısa bir ara verelim ve sınıflar gibi davranmayan, uzantı modüllerinde tanımlanan Python öbeklerini inceleyelim.
 
@@ -270,8 +261,9 @@ Bir nesnenin öznitelikleri ve yordamları, öbek adından sonra bir nokta (.) y
 
 Sonunda, bir nesnenin değeri bir örnekle daha iyi görselleştirilir.
 
-<div class="w3-code notranslate pythonHigh">
-obj.name = "Andre"</div>
+{% highlight python %}
+obj.name = "Andre"
+{% endhighlight %}
 
 **'Andre'** dizesi, **obj** öbeğinin **name** özniteliğine atanan değerdir.
 
@@ -279,7 +271,7 @@ obj.name = "Andre"</div>
 
 <br><br>
 
-<div class="teaser clearfix"></div>
+
 <h3 id="C2"><i class="fas fa-code"></i> Bir Python Nesnesi Oluşturma</h3><hr>
 Artık nesneleri oluşturmak için **myClass** adlı sınıfı kullanabiliriz:
 
@@ -293,7 +285,7 @@ print(MyClass.x)
 {% endhighlight %}
 </div>
 <br>
-<div class="teaser clearfix"></div>
+
 <h3 id="C3"><i class="fas fa-code"></i> Sınıf Eşleme ile Nesne Oluşturma</h3><hr>
  Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra <code class="w3-codespan">init</code> yordamının kabul ettiği ifadeleri iletirsiniz:
 
@@ -354,7 +346,7 @@ print(p1.age)
 
 <br>
 
-<div class="teaser clearfix"></div>
+
 <h3 id="C14"><i class="fas fa-code"></i> Nesne Özniteliklerini Silmek</h3><hr>
 Nesnelerin Özniteliklerini <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz:
 <p>age özniteliğini p1 nesnesinden silin:</p>
@@ -394,7 +386,7 @@ AttributeError: 'Person' object has no attribute 'age'
 </main>
 
 <br>
-<div class="teaser clearfix"></div>
+
 <h3 id="C15"><i class="fas fa-code"></i> Nesneleri Silmek</h3><hr>
 Nesneleri <code class="w3-codespan">del</code> anahtar sözcüğünü kullanarak silebilirsiniz: 
 <p>p1 nesnesini silin:</p>
@@ -434,13 +426,13 @@ NameError: name 'p1' is not defined
 
 <br><br>
 
-<div class="teaser clearfix"></div>
+
 <h3 id="C5"><i class="fas fa-code"></i> Sınıf Öbekleri </h3><hr>
 Sınıf nesneleri iki tür işlemi destekler: öznitelik referansları ve örnekleme. 
 
 Öznitelik referansları, Python: obj.name'deki tüm öznitelik referansları için kullanılan standart sözdizimini kullanır. Geçerli nesne adları, sınıf nesnesi oluşturulduğunda sınıfın ad alanındaki tüm adlardır. Yani, sınıf tanımı böyle görünüyorsa:
 <br>
-<div class="teaser clearfix"></div>
+
 <main class="grid">
   <article>
 {% highlight python %}
@@ -515,13 +507,13 @@ Out[1]: (3.0, -4.5)
 
 <br><br>
 
-<div class="teaser clearfix"></div>
+
 <h3 id="C6"><i class="fas fa-code"></i> Özdeş Öbekler</h3><hr>
 Şimdi eşleşen nesnelerle ne yapabiliriz? Eşleşen nesneler ile anlaşılan yegane işlemler, öznitelik atıflarıdır. İki tür geçerli atıf ismi vardır; data öznitelikleri ve yordamları. 
 
 Data öznitelikleri, Smalltalk'daki “eşleşen öznitelikler” ve C++'daki “data elemanlarına” karşılık gelir. Data özniteliklerinin beyan edilmesine gerek yoktur; yerel öznitelikler gibi, ilk atandıklarında var olurlar. Örneğin, **x** yukarıda oluşturulan **MyClass** özniteliğiyse, aşağıdaki kod parçası bir iz bırakmadan değeri 16 yazdıracaktır:
 
-<div class="teaser clearfix"></div>
+
 <div class="w3-code notranslate">
 {% highlight python %}
 
@@ -543,7 +535,7 @@ Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım ol
 
 <br> 
 
-<div class="teaser clearfix"></div>
+
 <h4><i class="fas fa-code"></i> Özdeş Öbeğin Özniteliklerine Erişim</h4><hr>
 Nokta (.) operatörünü öbek ismi ile kullanarak erişebilirsiniz. Sınıf adı kullanarak da sınıf özdeğerlerine erişilebilir:
 <div class="w3-code notranslate pythonHigh">
@@ -562,7 +554,7 @@ Nokta (.) operatörünü öbek ismi ile kullanarak erişebilirsiniz. Sınıf ad�
 
 <br><br>
 
-<div class="teaser clearfix"></div>
+
 <h3 id="C7"><a class="w3-btn w3-margin-bottom">Yordam Öbekleri</a></h3><hr>
 
 Genellikle, bağlantıdan hemen sonra bir yordam çağrılır: 
@@ -587,7 +579,7 @@ Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey
 
 
 
-<div class="teaser clearfix"></div>
+
 <h3 id="C8">Python Öznitelikler ve Yordamlar</h3><hr>
 
 
@@ -1322,7 +1314,7 @@ Thus, the convention followed is that any variable that is to be used only withi
 
 <br><br>
 
-<div class="teaser clearfix"></div>
+
 <h3  id="C9"><code class="w3-codespan">new</code> yordamı </h3><hr>
  <code class="w3-codespan">new</code> örnekleme ile oluşturan ve döndüren python özel yordamıdır.
 
@@ -1410,7 +1402,7 @@ str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturm
 
 <br>
 
-<div class="teaser clearfix"></div>
+
 <h3  id="C10"><code class="w3-codespan">init</code> yordamı</h3><hr>
 Yukarıdaki örnekler, en basit biçimde sınıflar ve nesnelerdir ve gerçek yaşam uygulamalarında gerçekten yararlı değildir. 
 
@@ -1494,7 +1486,7 @@ Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) 
 
 <br>
 
-<div class="teaser clearfix"></div>
+
 <h3  id="C11"><code class="w3-codespan">self</code> Parametresi</h3><hr>
 <p> <code class="w3-codespan">self</code> sınıfın kendisine bir referanstır ve sınıfa ait özniteliklere erişmek için kullanılır. 
 
@@ -1582,7 +1574,7 @@ Dahili olarak, bu ifadeler tamamen aynıdır.
 
 <br><br>
 
-<div class="teaser clearfix"></div>
+
 <h3 id="C12">super fonksiyonu</h3><hr>
 **super([type[, object-or-type]])**
 
@@ -3345,7 +3337,7 @@ for-loop = 1.444 s
 <!-- python interpreter -->
  
 <br><br>
-<div class="teaser clearfix"></div>
+
 <script src="//cdn.datacamp.com/dcl-react.js.gz"></script>
 <h3  id="C16"><a class="w3-btn w3-margin-bottom">Just python 3.5.2 'Run'.</a></h3>
 <div data-datacamp-exercise data-lang="python" data-height="auto">
@@ -3361,7 +3353,7 @@ for-loop = 1.444 s
  </div>
 <br>
 
-<div class="teaser clearfix"></div>
+
 <div class="w3-panel w3-card w3-light-grey">
   <h3 id="C17">Sözlük Dizini</h3>
   <div class="w3-container w3-white">
