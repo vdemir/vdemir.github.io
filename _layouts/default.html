@@ -19,12 +19,21 @@
     <meta name="og:description" content="{{ page.excerpt | strip_html | truncatewords: 25 }}">
     {% endif %}
 
+    <link rel="self" href="{{ site.url }}"/>
+    
+    <link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+
     {% if page.keywords %}
     <meta name="keywords" content="{{ page.keywords | join: ', ' }}" />
     {% endif %}
     
      {% seo %}
      
+{% if site.tags != "" %}
+  {% include collecttags.html %}
+{% endif %}
+
+  {% include CSS.html %}
 
    <meta name="robots" content="index,follow">
    <meta name="readability-verification" content="e3fb0316180ffe5e0e35411b93161b5083c1b0e7">
