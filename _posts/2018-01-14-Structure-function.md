@@ -6,8 +6,8 @@ date:   2018-01-16 13:52:00
 last_updated: 2021-06-05 18:57:00
 excerpt: "C, Programming"
 tags:   C Programlama Linux
-categories: Programming
-permalink: /ceviriler/ceviriler2/2018-01-14-Structure-function.html
+categories: Programlama
+permalink: /Structure-function/
 comments: false
 published: true
 lang: tr
