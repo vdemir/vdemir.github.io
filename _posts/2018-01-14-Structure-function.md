@@ -6,7 +6,7 @@ date:   2018-01-16 13:52:00
 last_updated: 2021-06-05 18:57:00
 excerpt: "C, Programming"
 tags:   C Programlama Linux
-categories: Programlama
+categories: Programming
 permalink: /Structure-function/
 comments: false
 published: true

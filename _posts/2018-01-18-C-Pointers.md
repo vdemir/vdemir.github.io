@@ -3,9 +3,9 @@ layout: post
 title:  C'de Pointer İşaretçiler
 description: Bu yazıda işaretçiler hakkında bilgi edineceksiniz; onlar nedir, onları nasıl kullanırsınız ve onlarla çalışırken karşılaşabileceğiniz yaygın hatalar nelerdir.
 date:   2018-01-18 13:52:00
-excerpt: "ointer işaretçiler, Java ve Python gibi diğer popüler programlama dillerinden farklı olarak C ve (C ++) programlamanın güçlü özelliklerindendir."
+excerpt: "Pointer işaretçiler, Java ve Python gibi diğer popüler programlama dillerinden farklı olarak C ve (C ++) programlamanın güçlü özelliklerindendir."
 tags:   C Programlama Linux
-categories: Programlama
+categories: Programming
 permalink: /C-Pointers/
 comments: false
 published: true
