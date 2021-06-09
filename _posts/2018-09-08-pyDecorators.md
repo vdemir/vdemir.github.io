@@ -18,7 +18,7 @@ lang: tr
 <!-- syntax highlighting CSS -->
  
 <style>
-.responsive-wrap, a, p, div, img iframe{ max-width: 100%;}
+.responsive-wrap a, p, div, img iframe{ max-width: 100%;}
 </style>
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
