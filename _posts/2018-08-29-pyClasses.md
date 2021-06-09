@@ -110,7 +110,7 @@ Anne
 {% endhighlight %}
  
 
-![Python &bull; Sınıflar.](/images/python/class1.png "Python &bull; Sınıflar."){:height="87%" width="87%"}
+![Python &bull; Sınıflar.](/images/python/class1.png "Python &bull; Sınıflar."){:height="77%" width="77%"}
 
 
 <a id="C1"></a>
