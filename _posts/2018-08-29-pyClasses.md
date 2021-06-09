@@ -20,7 +20,7 @@ lang: tr
 .responsive-wrap, a, p, div, img iframe{ max-width: 100%;}
 </style>
 
-![Python &bull; Sınıflar.](/images/python/python-classes2.jpg "Python &bull; Sınıflar."){:height="77%" width="77%"}
+![Python &bull; Sınıflar.](/images/python/python-classes2.jpg "Python &bull; Sınıflar."){:height="87%" width="87%"}
 
 
 <div class="w3-panel w3-card w3-light-grey">
@@ -110,7 +110,7 @@ Anne
 {% endhighlight %}
  
 
-![Python &bull; Sınıflar.](/images/python/class1.png "Python &bull; Sınıflar."){:height="77%" width="77%"}
+![Python &bull; Sınıflar.](/images/python/class1.png "Python &bull; Sınıflar."){:height="87%" width="87%"}
 
 
 <a id="C1"></a>
@@ -582,7 +582,7 @@ Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey
 
  
 
-![Python &bull; Sınıflar.](/images/Python.jpg "Python &bull; Sınıflar."){:height="77%" width="77%"}
+![Python &bull; Sınıflar.](/images/Python.jpg "Python &bull; Sınıflar."){:height="87%" width="87%"}
 
  
 <a id="C8"> </a>
@@ -742,7 +742,7 @@ print (Example.staticVariable) # now 7
 Bana oldukça basit görünüyor. Sadece kafa karışıklığı gerçek olabilir, sınıfınızda aynı ad altında iki farklı değişkeniniz olabilir (bir statik ve bir sıradan). Ama bu davranışı tamamen önlemek için (kendi iyiliğiniz için) tavsiye ederim.
 
 
-![Python &bull; Sınıflar.](/images/python-logo23.jpg "Python &bull; Sınıflar."){:height="77%" width="77%"}
+![Python &bull; Sınıflar.](/images/python-logo23.jpg "Python &bull; Sınıflar."){:height="87%" width="87%"}
 
 
 <br>
@@ -1636,7 +1636,7 @@ Yukarıdaki örnekte, ana sınıfın **printlnfo()** yordamına erişmek için, 
 
  
 
-![Python &bull; Sınıflar.](/images/qppr.png "Python &bull; Sınıflar."){:height="77%" width="77%"}
+![Python &bull; Sınıflar.](/images/qppr.png "Python &bull; Sınıflar."){:height="87%" width="87%"}
 
 <h3 id="C18">Python Programları</h3><hr>
 
