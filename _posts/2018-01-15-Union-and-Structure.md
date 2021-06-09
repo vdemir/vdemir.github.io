@@ -4,7 +4,7 @@ title:  C'de Union ve Struct Yapıları
 description: union pek çok açıdan struct yapıya benzer olsa da, aralarındaki farkı anlamak çok önemlidir.
 date:   2018-01-16 13:52:00
 tags:   C Programlama Linux
-permalink: /ceviriler/ceviriler2/2018-01-15-Union-and-Structure.html
+permalink: /Union-and-Structure/
 comments: false
 published: true
 lang: tr
