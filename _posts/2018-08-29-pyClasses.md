@@ -17,7 +17,7 @@ lang: tr
 ---
 
 <style>
-.responsive-wrap, a, p, div iframe{ max-width: 100%;}
+.responsive-wrap, a, p, div, img iframe{ max-width: 100%;}
 </style>
 
 ![Python &bull; Sınıflar.](/images/python/python-classes2.jpg "Python &bull; Sınıflar."){:height="77%" width="77%"}
