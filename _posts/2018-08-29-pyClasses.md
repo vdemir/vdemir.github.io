@@ -16,10 +16,14 @@ published: true
 lang: tr
 ---
 
+<style>
+.responsive-wrap iframe{ max-width: 100%;}
+</style>
 
 ![Python &bull; Sınıflar.](/images/python/python-classes2.jpg "Python &bull; Sınıflar."){:height="77%" width="77%"}
 
 
+<div class="responsive-wrap">
 <div class="w3-panel w3-card w3-light-grey">
   <div class="w3-container w3-white">
     <p>
@@ -50,7 +54,9 @@ lang: tr
     </p>
   </div>
 </div>
-<br>
+</div>
+
+
 **Python bir nesne yönelimli programlama dilidir.**
 **_Python'daki hemen hemen her şey, öznitelikleri ve yordamları ile bir nesnedir._** 
 
