@@ -17,6 +17,9 @@ lang: tr
 
 <!-- syntax highlighting CSS -->
  
+<style>
+.responsive-wrap, a, p, div, img iframe{ max-width: 100%;}
+</style>
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/python/Python-Decorators.png" alt="Decorators" class="resize" />
