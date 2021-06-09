@@ -12,7 +12,7 @@ description:
   # Description of your site. This will show up on the front page.
   subtitle: Günce - Daily is a minimalist blog with focus on readability and content. <a href=https://github.com/vdemir/ on Github</a>.
 
-title             : Günlük Blog Yazıları.. Proglamlama konusunda Tükçe kaynak oluşturmak amacıyla.. Çeşitli konularda paylaşılan yazılar..
+title             : Günce | Günlük Blog Yazıları
 lang              : tr_TR
 keywords          : Blog Yazıları, Proglamlama,  Tükçe kaynak, Python, Django, C language, Lisp
 image             : siteicon.png
