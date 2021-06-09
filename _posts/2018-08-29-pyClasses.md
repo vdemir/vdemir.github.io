@@ -23,7 +23,6 @@ lang: tr
 ![Python &bull; Sınıflar.](/images/python/python-classes2.jpg "Python &bull; Sınıflar."){:height="77%" width="77%"}
 
 
-<div class="responsive-wrap">
 <div class="w3-panel w3-card w3-light-grey">
   <div class="w3-container w3-white">
     <p>
@@ -53,7 +52,6 @@ lang: tr
     </ul>
     </p>
   </div>
-</div>
 </div>
 
 
