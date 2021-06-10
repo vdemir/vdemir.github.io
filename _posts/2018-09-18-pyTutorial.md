@@ -3510,7 +3510,7 @@ Var olan bir sınıfa çok az veya hiç değişiklik yapmadan yeni bir sınıf t
 <br>
 
 
-![Kalıtım &bull; Python.](/images/python/object-oriented-programming.jpg "Kalıtım &bull; Python."){:height="97%" width="97%"}
+![Kalıtım &bull; Python.](/images/python/object-oriented-programming.jpg "Kalıtım &bull; Python."){:height="91%" width="91%"}
 
 <br>
 
