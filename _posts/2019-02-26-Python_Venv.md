@@ -17,6 +17,7 @@ lang: en
 ---
 
 ![Installing Python Setup Tools & Virtual Env.](/images/virtualenv.jpg "Installing Python Setup Tools & Virtual Env."){:height="77%" width="77%"}
+
 Python Setup Tools & Virtual Env.
 
 
