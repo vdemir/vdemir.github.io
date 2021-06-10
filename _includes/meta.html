@@ -2,6 +2,8 @@
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
     <link rel="openid.delegate" href="{{ site.url }}" />
    <link rel="openid.server" href="https://openid.indieauth.com/openid" />
+    
+    <!-- SEO OK
     {% if page.excerpt %}
     <meta name="description" content="{{ page.excerpt| strip_html }}" />
     <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
@@ -9,15 +11,15 @@
     <meta name="description" content="{{ site.description }}">
     <meta property="og:description" content="{{ site.description }}" />
     {% endif %}
-    <meta name="author" content="{{ site.name }}" />
+    <meta name="author" content="{{ site.name }}" /> -->
 
 <link rel="self" href="{{ site.url }}"/>
     
 <link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
-<!-- Google analytics -->
+<!-- Google analytics 
   {% if site.google_analytics and jekyll.environment == 'production' %}
   {% include analytics.html %}
-  {% endif %}
+  {% endif %}-->
 
 
 {% if site.tags != "" %}
@@ -25,7 +27,7 @@
 {% endif %}
 
   {% if page.robots %} <meta name="robots" content="{{page.robots}}" />{% endif %}
-  {% include CSS.html %}
+
 
   {% seo %}
   <meta name="google-site-verification" content="zFuwF6tlf7YemTRN-ZOvl5lG1rjuI9qEomPbr_5vAu8" />
