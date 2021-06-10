@@ -16,8 +16,8 @@ published: true
 lang: en
 ---
 
-![Installing Python Setup Tools & Virtual Env.](/images/kaygilar.jpg "Installing Python Setup Tools & Virtual Env."){:height="77%" width="77%"}
-
+![Installing Python Setup Tools & Virtual Env.](/images/virtualenv.jpg "Installing Python Setup Tools & Virtual Env."){:height="77%" width="77%"}
+Python Setup Tools & Virtual Env.
 
 
 ## Python 3.7 “Virtual Env”
