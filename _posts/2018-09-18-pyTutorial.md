@@ -34,6 +34,9 @@ img.resize {
   <p><small>Short-Term Memory &bull; Long .</small></p>
 </div> 
 
+
+![Browsers &bull; Dnsmasq.](/images/python/Peephole_Long_Short-Term_Memory.svg "Browsers &bull; Dnsmasq."){:height="87%" width="87%"}
+
 <br>
 <div class="alert alert-success" role="success">
 <p><strong>Python Eğitici Rehber</strong></p>
