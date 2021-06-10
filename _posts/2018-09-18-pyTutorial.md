@@ -3,7 +3,7 @@ layout: post
 title:  Python Eğiticisi
 description: Python Eğitici Rehber
 date:   2018-09-18 12:00:00
-last_updated: 2018-19-15 12:00:00
+last_updated: 2018-09-25 12:00:00
 keywords: linux, python
 summary: "Python Eğitici Kısa Rehber"
 excerpt: This post is about Python.
