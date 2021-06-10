@@ -3509,10 +3509,8 @@ Var olan bir sınıfa çok az veya hiç değişiklik yapmadan yeni bir sınıf t
 
 <br>
 
-<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/python/object-oriented-programming.jpg" alt="Decorators" class="resize" />
-  <p><small>Kalıtım &bull; Python .</small></p>
-</div> 
+
+![Kalıtım &bull; Python.](/images/python/object-oriented-programming.jpg "Kalıtım &bull; Python."){:height="97%" width="97%"}
 
 <br>
 
