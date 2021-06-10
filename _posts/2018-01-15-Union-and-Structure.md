@@ -9,6 +9,8 @@ permalink: /Union-and-Structure/
 comments: false
 published: true
 lang: tr
+redirect_from:
+  - /ceviriler/ceviriler2/2018-01-15-Union-and-Structure.html
 ---
 
 **union ve struct arasındaki kullanım farkı**

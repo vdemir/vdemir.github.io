@@ -11,6 +11,8 @@ permalink: /Structure-function/
 comments: false
 published: true
 lang: tr
+redirect_from:
+  - /ceviriler/ceviriler2/2018-01-14-Structure-function.html
 ---
 
 
