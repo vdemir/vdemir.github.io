@@ -10,6 +10,9 @@ permalink: /C-Pointers/
 comments: false
 published: true
 lang: tr
+redirect_from:
+  - /ceviriler/ceviriler2/2018-01-18-C-Pointers
+  - /ceviriler/ceviriler2/2018-01-18-C-Pointers.html
 ---
 
 
