@@ -29,12 +29,6 @@ img.resize {
 
 </style>
 
-<div style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/python/Peephole_Long_Short-Term_Memory.svg" alt="Decorators" class="resize" />
-  <p><small>Short-Term Memory &bull; Long .</small></p>
-</div> 
-
-
 ![Short-Term Memory &bull; Long.](/images/python/Peephole_Long_Short-Term_Memory.svg "Short-Term Memory &bull; Long."){:height="87%" width="87%"}
 
 <br>
@@ -1472,6 +1466,9 @@ Birden çok öbeğe ortak davranış eklemek istiyorsanız, dekoratörler kullan
   <p><small>Python &bull; Decorators.</small></p>
 </div> 
   
+
+![Python &bull; Decorators.](/images/python/Pythons-object-model-explained.png "Python &bull; Decorators."){:height="87%" width="87%"}
+
 <style>
 img.resize {
   		max-width:100%;
