@@ -24,7 +24,7 @@ lang: tr
 
 </style>
 
-![Short-Term Memory &bull; Long.](/images/python/Peephole_Long_Short-Term_Memory.svg "Short-Term Memory &bull; Long."){:height="97%" width="97%"}
+![Short-Term Memory &bull; Long.](/images/python/Peephole-Long-Short-Term-Memory.svg "Short-Term Memory &bull; Long."){:height="97%" width="97%"}
 
 <br>
 <div class="alert alert-success" role="success">
