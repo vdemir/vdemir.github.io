@@ -15,8 +15,8 @@ redirect_from:
 ---
 
 
-C Programlamada "**Pointer**" İşaretçileri
--------------
+### C Programlamada "**Pointer**" İşaretçileri
+
 
 Bu yazıda işaretçiler hakkında bilgi edineceksiniz; onlar nedir, onları nasıl kullanırsınız ve onlarla çalışırken karşılaşabileceğiniz yaygın hatalar nelerdir.
 
@@ -29,8 +29,11 @@ Pointer işaretçiler, C programında belleğe erişmek ve adresi işletmek içi
 
 ![Pointers &bull; İşaretçi ile belleğe erişmek.](/images/pointer/PointersF.png "Pointers &bull; İşaretçi ile belleğe erişmek."){:height="97%" width="97%"}
 
-C'de Bellek Adresi
-------------
+* * *
+
+#### C'de Bellek Adresi
+
+* * *
 
 Pointer işaretçiler kavramına girmeden önce, ilkin C'deki adres ifadesiyle tanış olalım.
 
@@ -42,6 +45,7 @@ Fonksiyon işlevinde, `var` değişkeninin bellek adresine kullanıcının giril
 ~~~
 scanf("%d", &var);
 ~~~
+
 ~~~c
 /* C referans operatörünün kullanımını gösteren örnek */
 
@@ -55,8 +59,9 @@ scanf("%d", &var);
     }
 ~~~
 
-~~~bash
 **Output**
+
+~~~bash
 
 Value: 5 
 Address: 2686778
@@ -66,8 +71,11 @@ Address: 2686778
 
 Yukarıdaki kaynak kodda, değer: `5`, bellek yerel adresi: `2686778`'de saklanır. `var`, sadece o yere verilen isimdir.
 
-**Pointer** İşaretçi Değişkenler
------------------
+* * *
+
+#### **Pointer** İşaretçi Değişkenler
+
+* * *
 
 C'de sadece başka bir değişkenin adresini saklamanızı sağlayan özel bir değişken vardır. Pointer değişkeni veya basitçe pointer işaretçi olarak adlandırılır.
 
@@ -79,7 +87,11 @@ int* p;
 
 Yukarıdaki deyim, p'yi, `int` data tipinde bir pointer işaretçi değişkeni olarak tanımlar.
 
-### Referans işleci (&) ve Referans kaldırma işleci (*)
+* * *
+
+#### Referans işleci (&) ve Referans kaldırma işleci (*)
+
+* * *
 
 Tartışıldığı üzere &, referans operatörü olarak adlandırılır. Bir değişkenin bellekteki adresini verir.
 
@@ -89,8 +101,13 @@ Aşağıdaki örnek, pointer işaretçiler, referans operatörü (&) ve referans
 
 **Not:** Pointer işaretçi bildirirken * işareti, referans kaldırmayla ilgili bir operatör değildir. Bir pointer işaretçi oluşturan sadece benzer bir gösterimdir.
 
-### Pointer İşaretçilerin Çalışmasını Gösteren Örnek
-<br>
+* * *
+
+#### Pointer İşaretçilerin Çalışmasını Gösteren Örnek
+
+* * *
+
+
 ~~~c
 /* C pointer işaretçilerin kullanımını gösteren örnek */ 
 
@@ -117,9 +134,11 @@ int main(){
      return 0;
  }
 ~~~
-<br>
-~~~bash
+
+
 **Output**
+
+~~~bash
 
 Address of c:2686760
 Value of c:5
@@ -141,12 +160,20 @@ Value of *pc:2
 Address of c:2686760
 Value of c:2
 ~~~
-<br>
+
+
+
 **Not:** Bu kodu kullanırken farklı adres değeri elde edebilirsiniz.
 
 ![Pointers &bull; C programlamada işaretçilerin işlenmesi.](/images/pointer/pointers.jpg "Pointers &bull; C programlamada işaretçilerin işlenmesi."){:height="97%" width="97%"}
 
-**Program ve şekil açıklaması**
+Pointers &bull; C programlamada işaretçilerin işlenmesi.
+
+* * * 
+
+##### **Program ve şekil açıklaması**
+
+* * * 
 
 1. **`int* pc;`** bir **pc** pointer işaretçi ve **int c** oluşturur; normal bir **c** değişken oluşturur.
 **pc** ve **c** her ikisi de başlatılmadığından, **pc** pointer işaretçi hiçbir adresi işaret etmez ya da rastgele bir adrese işaret eder. Benzer şekilde, **c** değişkene bir adres atanır ancak rasgele/çöp değer içerir.
@@ -161,7 +188,11 @@ Pointer işaretçi **pc** üzerindeki etkisini görmek için **c**'ye yeni bir d
 6.  **`*pc=2;`** **pc** pointer işaretçisinin gösterdiği bellek konumunun içerdiği değeri 2 olarak değiştirir.
 **pc** pointer işaretçisinin adresi **c** değişkeninin adresi ile aynı olduğu için **c**'nin değeri de 2 olarak değişir.
 
-**Pointer işaretçilerle çalışırken karşılaşılan genel hatalar**
+* * * 
+
+##### **Pointer işaretçilerle çalışırken karşılaşılan genel hatalar**
+
+* * * 
 
 Diyelim ki, pointer işaretçi pc'nin, c değişkeninin bellek adresinin içeriğini işaret etmesini istiyorsunuz. Sonra,
 ~~~ 
