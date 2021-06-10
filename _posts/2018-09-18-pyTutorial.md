@@ -20,16 +20,11 @@ lang: tr
  
 
 <style>
-img.resize {
-  		max-width:100%;
-  		max-height:100%;
-         } 
-
 	.alert{position:relative;padding:.75rem 1.25rem;margin-bottom:1.125rem;border:1px solid transparent;border-radius:.25rem}.alert-heading{color:inherit}.alert-link{font-weight:700}.alert-dismissible{padding-right:4.1875rem}.alert-dismissible .close{position:absolute;top:0;right:0;padding:.75rem 1.25rem;color:inherit}.alert-primary{color:#32516b;background-color:#dfebf5;border-color:#d3e3f1}.alert-primary hr{border-top-color:#c0d7eb}.alert-primary .alert-link{color:#223748}.alert-secondary{color:#7d7d7d;background-color:#fcfcfc;border-color:#fbfbfb}.alert-secondary hr{border-top-color:#eee}.alert-secondary .alert-link{color:#646464}.alert-success{color:#155724;background-color:#d4edda;border-color:#c3e6cb}.alert-success hr{border-top-color:#b1dfbb}.alert-success .alert-link{color:#0b2e13}.alert-info{color:#0c5460;background-color:#d1ecf1;border-color:#bee5eb}.alert-info hr{border-top-color:#abdde5}.alert-info .alert-link{color:#062c33}.alert-warning{color:#856404;background-color:#fff3cd;border-color:#ffeeba}.alert-warning hr{border-top-color:#ffe8a1}.alert-warning .alert-link{color:#533f03}.alert-danger{color:#850000;background-color:#fcc;border-color:#ffb8b8}.alert-danger hr{border-top-color:#ff9f9f}.alert-danger .alert-link{color:#520000}.alert-light{color:gray;background-color:#fdfdfd;border-color:#fcfcfc}.alert-light hr{border-top-color:#efefef}.alert-light .alert-link{color:#676767}.alert-dark{color:#0c1c28;background-color:#d1d7db;border-color:#bec6cd}.alert-dark hr{border-top-color:#b0b9c2}.alert-dark .alert-link{color:#000101}@-webkit-keyframes progress-bar-stripes{from{background-position:1rem 0}to{background-position:0 0}}@keyframes progress-bar-stripes{from{background-position:1rem 0}to{background-position:0 0}}
 
 </style>
 
-![Short-Term Memory &bull; Long.](/images/python/Peephole_Long_Short-Term_Memory.svg "Short-Term Memory &bull; Long."){:height="87%" width="87%"}
+![Short-Term Memory &bull; Long.](/images/python/Peephole_Long_Short-Term_Memory.svg "Short-Term Memory &bull; Long."){:height="97%" width="97%"}
 
 <br>
 <div class="alert alert-success" role="success">
@@ -1461,21 +1456,9 @@ Bir nesneye dinamik olarak ek sorumluluklar ekleyin. Dekoratörler, işlevselli�
 
 Birden çok öbeğe ortak davranış eklemek istiyorsanız, dekoratörler kullanarak onu soyutlamayı düşünün. Kodunuzu daha çok DRY yapacak ve kapsülleyecek. Fonksiyonun ana hedefi ile doğrudan ilgili olmayan işlevselliği soyutlamanın güzel bir yoludur. Ekibiniz daha çok yeniden kullanılabilir kodunuz için teşekkür eder.
 
-<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
-  <img src="{{ site.baseurl }}/images/python/Python’s object model explained.png" alt="Decorators" class="resize" />
-  <p><small>Python &bull; Decorators.</small></p>
-</div> 
-  
 
-![Python &bull; Decorators.](/images/python/Pythons-object-model-explained.png "Python &bull; Decorators."){:height="87%" width="87%"}
 
-<style>
-img.resize {
-  		max-width:100%;
-  		max-height:100%;
-         }
-	
-</style>
+![Python &bull; Decorators.](/images/python/Pythons-object-model-explained.png "Python &bull; Decorators."){:height="97%" width="97%"}
 
 
 <br>
