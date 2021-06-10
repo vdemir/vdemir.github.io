@@ -7,8 +7,8 @@ last_updated: 2018-09-25 12:00:00
 keywords: linux, python
 summary: "Python Eğitici Kısa Rehber"
 excerpt: This post is about Python.
-categorie: Programlama
-tags:   Python Linux Programlama Doc
+categorie: Programming
+tags:   Python Linux Programlama
 categories: [Python]
 permalink: /pyTutorial/
 comments: false
@@ -88,7 +88,7 @@ for i in mylist:
 
 <br>
 
-Mylist ardışıl bir işlemdir. Liste içlemini kullandığınızda, bir liste oluşturur ve böylece ardışık sıralanabilir:
+**Mylist** ardışıl bir işlemdir. Liste içlemini kullandığınızda, bir liste oluşturur ve böylece ardışık sıralanabilir:
 
 {% highlight python linenos=table %}
 
