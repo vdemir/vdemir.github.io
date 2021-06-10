@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
 
     <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}Daily</title>
-
+<!-- seo ok
     {% if page.description %}
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta name="og:description" content="{{ page.description }}">
@@ -20,7 +20,7 @@
     <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 25 }}">
     <meta name="og:description" content="{{ page.excerpt | strip_html | truncatewords: 25 }}">
     {% endif %}
-
+-->
     <link rel="self" href="{{ site.url }}"/>
     
     <link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
