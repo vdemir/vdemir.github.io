@@ -3,7 +3,7 @@ layout: post
 title:  Derleyicinin[compiler] parçaları[yetenekleri] nelerdir?
 date:   2018-01-03 12:52:00
 tags:   C Programlama Linux GCC
-comments: true
+comments: false
 published: false
 lang: tr
 ---

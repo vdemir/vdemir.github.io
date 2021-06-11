@@ -4,7 +4,7 @@ title:  stdio.h Standart C Kitaplığı
 description: Bir stdio.h üstbilgi dosyası, giriş ve çıkış işlemlerini gerçekleştirmek için C standart kütüphane işlevleri içerir.
 date:   2018-01-04 13:52:00
 tags:   C Programlama Linux GCC
-comments: true
+comments: false
 published: true
 lang: tr
 ---
