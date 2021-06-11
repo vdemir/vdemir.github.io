@@ -12,7 +12,7 @@ comments: false
 published: true
 lang: en
 redirect_from:
-  - /ceviriler/2018-01-07-InteractivePrompt.html
+  - /books/2020/04/23/Mastermind.html
 sitemap:
   lastmod: 2021-05-23
   priority: 0.7
