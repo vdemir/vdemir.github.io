@@ -9,6 +9,8 @@ categories: [Pisi]
 comments: false
 published: true
 lang: tr
+redirect_from:
+  - /pisi linux/2015/09/25/Pisi-Linux-Siyah-Beyaz-Cikartmalar-Hazir.html
 ---
 
 Pisi Linux tanıtımı için tasarlanan siyah-beyaz çıkartma örnekleri GIMP kullanılarak hazırlandı. 
