@@ -12,6 +12,8 @@ categories: [Books ]
 comments: false
 published: true
 lang: en
+redirect_from:
+  - /books/2021/05/24/MATTER.html
 ---
 <!-- Article
 			<article class="article-post">
