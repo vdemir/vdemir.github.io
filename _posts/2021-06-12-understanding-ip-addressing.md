@@ -38,6 +38,10 @@ Alan kodu boyutu, bit olarak, eğikten (/) sonra yazılır. Buna "eğik çizgi n
 10.0.0.0/8" numaralı bir ağ (özel kullanım için ayrılmış ağlardan biri), eğiklik sonrası "/8" ile belirtilen sekiz bit ağ koduna sahip bir ağdır. "8", ağda IPv4 sunucu bilgisayar adreslerini içeren 24 bit kaldığını gösterir: tam olarak 16.777.216 adres.
 Not: 16.777.216=256x256x256=2<sup>8</sup>x2<sup>8</sup>x2<sup>8</sup>
 
+> DNS: Alan Adı Sunucusu
+
+İnternetteki neredeyse her şey bir DNS talebiyle başlar. DNS, İnternetin sunucu bilgisayar dizinidir. Bir bağlantıya tıkladığınızda, bir uygulama açtığınızda, bir e-posta gönderdiğinizde cihazınızın yaptığı ilk şey dizine sormaktır.
+
 A network numbered &ldquo;10.0.0.0/8&rdquo; (which is one of those reserved for private use) is a network with eight bits of network prefix, denoted by &ldquo;/8&rdquo; after the oblique. The &ldquo;8&rdquo; denotes that there are 24 bits left over in the network to contain IPv4 host addresses: 16,777,216 addresses to be exact.
 
 ## Classless Inter-Domain Routing (CIDR) Chart
