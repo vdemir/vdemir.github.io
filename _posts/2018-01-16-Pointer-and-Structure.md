@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  C'de Pointer ve Struct Yapıları
+description: Bu makalede, structure yapı içindeki verilere erişmek için pointer işaretçilerle çalışmanıza yardımcı olacak alakalı örnekler bulacaksınız.
 date:   2018-01-16 13:52:00
 tags:   C Programlama Linux
-comments: true
+comments: false
 published: false
 lang: tr
 ---
