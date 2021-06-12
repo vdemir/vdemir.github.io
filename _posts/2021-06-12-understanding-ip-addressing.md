@@ -26,6 +26,9 @@ lang: tr
 <p>IP adresleri, IPv4 veya IPv6 kümesinden alınabilir ve iki kısma ayrılır; ağ grubu ve ana bilgisayar grubu. Ağ kısmı belirli ağı, sunucu bilgisayar kısmı da Yerel alan Ağ (LAN)'daki belirli bir düğümü (örneğin, belirli bir bilgisayarı) tanımlar.</p>
 
 <h2>Tahsisat</h2>
+<p>IP adresleri farklı boyutlu &lsquo;'bloklardaki' ağlara atanır. Atanan &lsquo;'blok'un boyutu, bu blokta bulunan IP adreslerinin sayısını gösteren bir eğik (/) sonra yazılır. Örneğin, bir Internet Servis Sağlayıcısına (ISS) "/16" atanmışsa, yaklaşık 64.000 IPv4 adresi alırlar. "/26" ağı 64 IPv4 adresi sağlar. Eğikten sonraki sayı ne kadar düşükse, o "blokta" o kadar çok adres bulunur.</p>
+
+
 <p>IP addresses are assigned to networks in different sized &lsquo;blocks'. The size of the &lsquo;block' assigned is written after an oblique (/), which shows the number of IP addresses contained in that block. For example, if an Internet Service Provider (ISP) is assigned a &ldquo;/16&rdquo;, they receive around 64,000 IPv4 addresses. A &ldquo;/26&rdquo; network provides 64 IPv4 addresses. The lower the number after the oblique, the more addresses contained in that &ldquo;block&rdquo;.</p>
 <h2>IPv4</h2>
 <p>The size of the prefix, in bits, is written after the oblique. This is called &ldquo;slash notation&rdquo;. There is a total of 32 bits in IPv4 address space. For example, if a network has the address &ldquo;192.0.2.0/24&rdquo;, the number &ldquo;24&rdquo; refers to how many bits are contained in the network. From this, the number of bits left for address space can be calculated. As all IPv4 networks have 32 bits, and each &ldquo;section&rdquo; of the address denoted by the decimal points contains eight bits, &ldquo;192.0.2.0/24&rdquo; leaves eight bits to contain host addresses. This is enough space for 256 host addresses. These host addresses are the IP addresses that are necessary to connect your machine to the Internet.</p>
