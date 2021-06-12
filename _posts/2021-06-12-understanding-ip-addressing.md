@@ -48,7 +48,7 @@ Not: 16.777.216=2<sup>8</sup>x2<sup>8</sup>x2<sup>8</sup>
 
 İnternetteki neredeyse her şey bir DNS talebiyle başlar. DNS, İnternetin sunucu bilgisayar dizinidir. Bir bağlantıya tıkladığınızda, bir uygulama açtığınızda, bir e-posta gönderdiğinizde cihazınızın yaptığı ilk şey dizine sormaktır. 0.0.0.0 geçerli bir adres olmadığından, diğer normal IP servisleri gibi DNS sunucularının da geçerli bir IP adresi ile adreslenmesi gerekir, yani. 0.0.0.0 ve 255.255.255.255 ayrılmış birkaç aralık dışında. Ağ yapılandırmasına bağlı olarak, 192.168.2.0/24 ağındaki 192.168.2.0 ve 192.168.2.255 gibi adresler de geçersiz olabilir. Ayrıca, ad çözümlemesi için sunucunun erişilebilir olması gerekir. 0.0.0.0 adresi için geçerli bir kullanım olsa da: Bağlantıları dinlerken, “bu bilgisayardaki tüm arayüzlerde dinle” anlamına gelir.Bazı programlar, bir değerin ayarlanmadığı durumlarda hatalı olarak 0.0.0.0 görüntüleyebilir.
 
-## Ayrılmamış Etki Alanları İçi Yönlendirme (CIDR) Tablosu
+## Ayrılmamış Etki Alan İçi Yönlendirme (CIDR) Tablosu
 
 (CIDR) Tablosu, yaygın olarak CIDR şeması olarak bilinir ve ağ şebekesini çalıştıran ve IP adreslerini yönetenler tarafından kullanılır. Her eğik çizgi gösterimde yerleşik IP adreslerinin sayısını ve her bir eğik çizgi gösterimde bit cinsinden boyutu görmelerini sağlar.
 
