@@ -12,7 +12,8 @@ comments: false
 published: true
 lang: tr
 ---
-<h1>IP Adreslemeyi Kavrama ve CIDR Grafiklerini Anlama</h1> 
+
+# **IP Adreslemeyi Kavrama ve CIDR Grafiklerini Anlama** 
 <div> 
 <p>İnternet'e bağlı her cihazın bir tanıtıcı sözcüğe sahip olması gerekir. İnternet Protokolü (IP) adresleri, İnternet'e bağlanan belirli bir donanım parçasını tanıtmak için kullanılan sayısal adreslerdir.</p>
 <p>Bugün kullanımdaki en yaygın iki IP versiyonu, İnternet Protokolü sürüm 4 (IPv4) ve İnternet Protokolü sürüm 6 (IPv6)'dır. Hem IPv4 hem de IPv6 sınırlı müşterek adres sayılarının kümesidir..</p>
@@ -34,8 +35,8 @@ lang: tr
 
 <p>Alan kodu boyutu, bit olarak, eğikten (/) sonra yazılır. Buna "eğik çizgi notasyonu" denir. IPv4 adres uzayında toplam 32 bit vardır. Örneğin, bir ağ "192.0.2.0/24" adresine sahipse, "24" sayısı ağda kaç bit sınırı olduğunu ifade eder. Bundan, adres uzayı içinde kalan bitlerin sayısı hesaplanabilir. Tüm IPv4 ağları 32 bite sahiptir ve ondalık noktalarla belirtilen adresin her "bölümü" sekiz bit içerir, "192.0.2.0/24", sunucu bilgisayar adreslerini içeren sekiz bit bırakır. Bu, 256 sunucu bilgisayar adresi için yeterli alandır. Bu sunucu bilgisayar adresleri, makinenizi Internet'e bağlamak için gereken IP adresleridir.</p>
 
-<p>10.0.0.0/8" numaralı bir ağ (özel kullanım için ayrılmış ağlardan biri), eğiklik sonrası "/8" ile belirtilen sekiz bit ağ koduna sahip bir ağdır. "8", ağda IPv4 sunucu bilgisayar adreslerini içeren 24 bit kaldığını gösterir: tam olarak 16.777.216 adres.</p>
-Not: 16.777.216256*256*256=2<sup>8</sup>x2<sup>8</sup>x2<sup>8</sup>
+<p>10.0.0.0/8" numaralı bir ağ (özel kullanım için ayrılmış ağlardan biri), eğiklik sonrası "/8" ile belirtilen sekiz bit ağ koduna sahip bir ağdır. "8", ağda IPv4 sunucu bilgisayar adreslerini içeren 24 bit kaldığını gösterir: tam olarak 16.777.216 adres.</p> Not: 16.777.216256*256*256=2<sup>8</sup>x2<sup>8</sup>x2<sup>8</sup>
+
 <p>A network numbered &ldquo;10.0.0.0/8&rdquo; (which is one of those reserved for private use) is a network with eight bits of network prefix, denoted by &ldquo;/8&rdquo; after the oblique. The &ldquo;8&rdquo; denotes that there are 24 bits left over in the network to contain IPv4 host addresses: 16,777,216 addresses to be exact.</p>
 
 ## **Classless Inter-Domain Routing (CIDR) Chart**
