@@ -8,6 +8,8 @@ categories: [Pisi]
 comments: false
 published: true
 lang: tr
+redirect_from:
+  - /pisi linux/2016/02/20/Pisi-Paketleme.html
 ---
 
 Pisi Linux Dağıtımında kullandığımız pisi paket sistemi python dilinde yazılmış paket yapımı ve kurulumu gibi araçları içeren bir uygulamadır. 
