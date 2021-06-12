@@ -3342,7 +3342,7 @@ for-loop = 1.444 s
   
 <br><br>
 <!--python2 interpreter -->
-<h3  id="C16"><a class="w3-btn w3-margin-bottom">Just python 2.7.5 'Run'.</a></h3>
+<h3><a class="w3-btn w3-margin-bottom">Just python 2.7.5 'Run'.</a></h3>
 <iframe src="https://trinket.io/embed/python/0bdde66575" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 <!-- python interpreter -->
@@ -3350,11 +3350,10 @@ for-loop = 1.444 s
 <br><br>
 
 <script src="//cdn.datacamp.com/dcl-react.js.gz"></script>
-<h3  id="C16"><a class="w3-btn w3-margin-bottom">Just python 3.5.2 'Run'.</a></h3>
+<h3><a class="w3-btn w3-margin-bottom">Just python 3.5.2 'Run'.</a></h3>
 <div data-datacamp-exercise data-lang="python" data-height="auto">
       <code data-type="pre-exercise-code"></code>
-      <code data-type="sample-code">
-      </code>
+      <code data-type="sample-code"></code>
       <code data-type="solution"></code>
       <code data-type="sct"></code>
 </div>
