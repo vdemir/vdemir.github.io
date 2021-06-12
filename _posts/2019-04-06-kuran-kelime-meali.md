@@ -8,6 +8,8 @@ categories: [Kuran]
 comments: false
 published: true
 lang: tr
+redirect_from:
+  - /kelime/sözlük/2019/04/14/kuran-kelime-meali.html
 ---
 
 
