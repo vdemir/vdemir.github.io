@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Yerelleştirme : Prefetching, Preloading, Prerendering"
+title:  "HTML Yerelleştirmeleri"
 date:   2021-05-29 12:00:00
 last_updated: Aug 29, 2021
 description: İnternet sayfalarının ilk açılış gösterimi düşünüldüğünde, sayfanın daha hızlı yüklenmesi ve kullanıcıların hedeflerini olabildiğince çabuk tamamlaması için (İnternet) metin sunucuda birleştirme, küçültme, önbelleğe alma veya gzipleme gibi şeyler düşünürüz. 
-excerpt: Prefetching (hazır duruma getirme), preloading (sayfayı önceden yükleme), prerendering (sayfayı önceden oluşturma)
+excerpt: Prefetching (hazır duruma getirme), preloading (önceden getirme), prerendering (sayfayı önceden oluşturma)
 keywords: Prefetching, Preloading, Prerendering ,prefetch preload prerender,prefetch kapatma,prefetch,prefetch dosyası,prefetch klasörü,prefetch ne işe yarar,prefetch silmek,prefetch silme,prefetch ne demek
 tags:  Web Article Metod Dnsmasq
 categories: [Web ]
@@ -15,7 +15,7 @@ lang: tr
 
 
 
-Prefetching (hazır duruma getirme), preloading (önceden yükleme), prerendering (önceden oluşturma)
+Prefetching (hazır duruma getirme), preloading (önceden getirme), prerendering (önceden oluşturma)
 
 ![The pre* &bull; browsing.](/images/Pre-Browsing/pre-browsing.png "The pre* &bull; browsing."){:height="97%" width="97%"}
 
