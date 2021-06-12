@@ -36,15 +36,16 @@ IP adresleri farklı boyutlu 'bloklardaki' ağlara atanır. Atanan 'blok'un boyu
 Alan adı kodu boyutu, bit olarak, eğikten (/) sonra yazılır. Buna "eğik çizgi notasyonu" denir. IPv4 adres uzayında toplam 32 bit vardır. Örneğin, bir ağ "192.0.2.0/24" adresine sahipse, "24" sayısı ağda kaç bit sınırı olduğunu ifade eder. Bundan, adres uzayı içinde kalan bitlerin sayısı hesaplanabilir. Tüm IPv4 ağları 32 bite sahiptir ve ondalık noktalarla belirtilen adresin her "bölümü" sekiz bit içerir, "192.0.2.0/24", sunucu bilgisayar adreslerini içeren sekiz bit bırakır. Bu, 256 sunucu bilgisayar adresi için yeterli alandır. Bu sunucu bilgisayar adresleri, makinenizi Internet'e bağlamak için gereken IP adresleridir.
 
 10.0.0.0/8" numaralı bir ağ (özel kullanım için ayrılmış ağlardan biri), eğiklik sonrası "/8" ile belirtilen sekiz bit ağ koduna sahip bir ağdır. "8", ağda IPv4 sunucu bilgisayar adreslerini içeren 24 bit kaldığını gösterir: tam olarak 16.777.216 adres.
+
 Not: 16.777.216=2<sup>8</sup>x2<sup>8</sup>x2<sup>8</sup>
 
 ##  DNS: Alan Adı Sunucusu 
 
 İnternetteki neredeyse her şey bir DNS talebiyle başlar. DNS, İnternetin sunucu bilgisayar dizinidir. Bir bağlantıya tıkladığınızda, bir uygulama açtığınızda, bir e-posta gönderdiğinizde cihazınızın yaptığı ilk şey dizine sormaktır. 0.0.0.0 geçerli bir adres olmadığından, diğer normal IP servisleri gibi DNS sunucularının da geçerli bir IP adresi ile adreslenmesi gerekir, yani. 0.0.0.0 ve 255.255.255.255 ayrılmış birkaç aralık dışında. Ağ yapılandırmasına bağlı olarak, 192.168.2.0/24 ağındaki 192.168.2.0 ve 192.168.2.255 gibi adresler de geçersiz olabilir. Ayrıca, ad çözümlemesi için sunucunun erişilebilir olması gerekir. 0.0.0.0 adresi için geçerli bir kullanım olsa da: Bağlantıları dinlerken, “bu bilgisayardaki tüm arayüzlerde dinle” anlamına gelir.Bazı programlar, bir değerin ayarlanmadığı durumlarda hatalı olarak 0.0.0.0 görüntüleyebilir.
 
-## Ayrılmamış Etki Alanları İç Yönlendirme (CIDR) Tablosu
+## Ayrılmamış Etki Alanları İçi Yönlendirme (CIDR) Tablosu
 
-Sınıfsız Etki Alanları Arası Yönlendirme (CIDR), yaygın olarak CIDR şeması olarak bilinir ve ağları çalıştıran ve IP adreslerini yönetenler tarafından kullanılır. Her bir &ldquo;eğik çizgi gösteriminde&rdquo; yer alan IP adreslerinin sayısını görmelerini sağlar. ve her bir &ldquo;eğik çizgi gösteriminin&rdquo; bitler halinde. 
+(CIDR) Tablosu, yaygın olarak CIDR şeması olarak bilinir ve ağ şebekesini çalıştıran ve IP adreslerini yönetenler tarafından kullanılır. Her bir &ldquo;eğik çizgi gösteriminde&rdquo; yer alan IP adreslerinin sayısını görmelerini sağlar. ve her bir &ldquo;eğik çizgi gösteriminin&rdquo; bitler halinde. 
 The Classless Inter-Domain Routing (CIDR) is commonly known as the CIDR chart and is used by those running networks and managing IP addresses. It enables them to see the number of IP addresses contained within each &ldquo;slash notation&rdquo; and the size of each &ldquo;slash notation&rdquo; in bits.
 <img src="https://www.ripe.net/images/IPv4CIDRChart_2015.jpg"/>
 
