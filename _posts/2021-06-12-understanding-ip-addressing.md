@@ -42,9 +42,6 @@ Not: 16.777.216=256x256x256=2<sup>8</sup>x2<sup>8</sup>x2<sup>8</sup>
 
 İnternetteki neredeyse her şey bir DNS talebiyle başlar. DNS, İnternetin sunucu bilgisayar dizinidir. Bir bağlantıya tıkladığınızda, bir uygulama açtığınızda, bir e-posta gönderdiğinizde cihazınızın yaptığı ilk şey dizine sormaktır. 0.0.0.0 geçerli bir adres olmadığından, diğer normal IP servisleri gibi DNS sunucularının da geçerli bir IP adresi ile adreslenmesi gerekir, yani. 0.0.0.0 ve 255.255.255.255 ayrılmış birkaç aralık dışında. Ağ yapılandırmasına bağlı olarak, 192.168.2.0/24 ağındaki 192.168.2.0 ve 192.168.2.255 gibi adresler de geçersiz olabilir. Ayrıca, ad çözümlemesi için sunucunun erişilebilir olması gerekir. 0.0.0.0 adresi için geçerli bir kullanım olsa da: Bağlantıları dinlerken, “bu bilgisayardaki tüm arayüzlerde dinle” anlamına gelir.Bazı programlar, bir değerin ayarlanmadığı durumlarda hatalı olarak 0.0.0.0 görüntüleyebilir.
 
-
-A network numbered &ldquo;10.0.0.0/8&rdquo; (which is one of those reserved for private use) is a network with eight bits of network prefix, denoted by &ldquo;/8&rdquo; after the oblique. The &ldquo;8&rdquo; denotes that there are 24 bits left over in the network to contain IPv4 host addresses: 16,777,216 addresses to be exact.
-
 ## Classless Inter-Domain Routing (CIDR) Chart
 
 The Classless Inter-Domain Routing (CIDR) is commonly known as the CIDR chart and is used by those running networks and managing IP addresses. It enables them to see the number of IP addresses contained within each &ldquo;slash notation&rdquo; and the size of each &ldquo;slash notation&rdquo; in bits.
