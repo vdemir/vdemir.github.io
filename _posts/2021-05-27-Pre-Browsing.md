@@ -14,7 +14,6 @@ lang: tr
 ---
 
 
-{% include CSS.html %}
 
 Prefetching (hazır duruma getirme), preloading (önceden yükleme), prerendering (önceden oluşturma)
 
