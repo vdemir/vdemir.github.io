@@ -23,7 +23,8 @@ lang: tr
 <h2>İnternet Ağ Şebeke önekleri</h2> 
 
 
-<p>IP adresleri, IPv4 veya IPv6 kümesinden alınabilir ve iki kısma ayrılır; ağ grubu ve ana bilgisayar grubu. Ağ kısmı belirli ağı, sunucu bilgisayar kısmı da Yerel Ağ'daki (LAN) belirli bir düğümü (örneğin, belirli bir bilgisayarı) tanımlar.</p>
+<p>IP adresleri, IPv4 veya IPv6 kümesinden alınabilir ve iki kısma ayrılır; ağ grubu ve ana bilgisayar grubu. Ağ kısmı belirli ağı, sunucu bilgisayar kısmı da Yerel alan Ağ (LAN)'daki belirli bir düğümü (örneğin, belirli bir bilgisayarı) tanımlar.</p>
+
 <h2>Tahsisat</h2>
 
 <p>IP addresses can be taken from the IPv4 or the IPv6 pool and are divided into two parts, a network section and a host section. The network section identifies the particular network and the host section identifies the particular node (for example, a certain computer) on the Local Area Network (LAN).</p>
