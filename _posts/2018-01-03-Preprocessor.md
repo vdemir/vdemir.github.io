@@ -10,6 +10,7 @@ published: true
 lang: tr
 redirect_from:
   - /2018/01/03/Preprocessor.html
+  - /ceviriler/ceviriler2/2018-01-03-Preprocessor.html
 ---
  
 
