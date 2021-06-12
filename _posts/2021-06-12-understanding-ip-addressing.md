@@ -51,7 +51,7 @@ The Classless Inter-Domain Routing (CIDR) is commonly known as the CIDR chart an
 <img src="https://www.ripe.net/images/IPv4CIDRChart_2015.jpg"/>
 
 
-![IPv4CIDRChart](/images/IPv4CIDRChart_2015.webp "IPv4CIDRChart"){:height="100%" width="100%"}
+![IPv4CIDRChart](/images/IPv4CIDRChart_2015.webp "IPv4CIDRChart"){:height="95%" width="95%"}
 
 Download: <a href="https://www.ripe.net/about-us/press-centre/IPv4CIDRChart_2015.pdf">IPv4 CIDR Chart </a>(PDF)
 
