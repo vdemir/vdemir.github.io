@@ -7,6 +7,8 @@ tags:   C Programlama Linux
 comments: false
 published: false
 lang: tr
+redirect_from:
+  - /ceviriler/ceviriler2/2018-01-16-Pointer-and-Structure.html
 ---
 
 {% include CSS.html %}
