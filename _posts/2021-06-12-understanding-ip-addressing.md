@@ -13,7 +13,7 @@ published: true
 lang: tr
 ---
 
-# **IP Adreslemeyi Kavrama ve CIDR Grafiklerini Anlama** 
+# IP Adreslemeyi Kavrama ve CIDR Grafiklerini Anlama 
  
 İnternet'e bağlı her cihazın bir tanıtıcı sözcüğe sahip olması gerekir. İnternet Protokolü (IP) adresleri, İnternet'e bağlanan belirli bir donanım parçasını tanıtmak için kullanılan sayısal adreslerdir.
 Bugün kullanımdaki en yaygın iki IP versiyonu, İnternet Protokolü sürüm 4 (IPv4) ve İnternet Protokolü sürüm 6 (IPv6)'dır. Hem IPv4 hem de IPv6 sınırlı müşterek adres sayılarının kümesidir..
@@ -39,11 +39,13 @@ Alan kodu boyutu, bit olarak, eğikten (/) sonra yazılır. Buna "eğik çizgi n
 
 A network numbered &ldquo;10.0.0.0/8&rdquo; (which is one of those reserved for private use) is a network with eight bits of network prefix, denoted by &ldquo;/8&rdquo; after the oblique. The &ldquo;8&rdquo; denotes that there are 24 bits left over in the network to contain IPv4 host addresses: 16,777,216 addresses to be exact.
 
-## **Classless Inter-Domain Routing (CIDR) Chart**
+## Classless Inter-Domain Routing (CIDR) Chart
 The Classless Inter-Domain Routing (CIDR) is commonly known as the CIDR chart and is used by those running networks and managing IP addresses. It enables them to see the number of IP addresses contained within each &ldquo;slash notation&rdquo; and the size of each &ldquo;slash notation&rdquo; in bits.
 <img src="https://www.ripe.net/images/IPv4CIDRChart_2015.jpg"/>
 Download: <a href="https://www.ripe.net/about-us/press-centre/IPv4CIDRChart_2015.pdf">IPv4 CIDR Chart </a>(PDF)
-## **IPv6**
+
+## IPv6
+
 IPv6 is similar to IPv4, but it is structured so that all LANs have 64 bits of network prefix as opposed to the variable length of network prefix<sup><a href="#1"><strong>1</strong></a></sup> that IPv4 networks have. All IPv6 networks have space for 18,446,744,073,709,551,616 IPv6 addresses.
 <img src="https://www.ripe.net/about-us/press-centre/IPv6Chart_2015.png"/>
 Download:<a href="https://www.ripe.net/about-us/press-centre/ipv6-chart_2015.pdf"> IPv6 Chart</a> (PDF)
