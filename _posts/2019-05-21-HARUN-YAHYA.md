@@ -11,6 +11,7 @@ published: true
 lang: en
 redirect_from:
   - /books/2019/04/14/HARUN-YAHYA-books.html
+  - /books/2021/05/23/HARUN-YAHYA-books.html
 ---
 
 <style type="text/css">
