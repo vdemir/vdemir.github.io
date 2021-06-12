@@ -18,7 +18,7 @@ lang: tr
 <p>Bugün kullanımdaki en yaygın iki IP versiyonu, İnternet Protokolü sürüm 4 (IPv4) ve İnternet Protokolü sürüm 6 (IPv6)'dır. Hem IPv4 hem de IPv6 sınırlı müşterek adres sayılarının kümesidir..</p>
 <p>IPv4 için bu küme 32 bit (2<sup>32</sup>) boyutundadır ve 4.294.967,296 IPv4 adres bilgisi içerir. IPv6 adres uzayı 128 bit (2<sup>128</sup>) boyutundadır ve 340.282.366.920.938.463.463.374.607.431.768.211.456 IPv6 adres bilgisi içerir.</p> 
 <p>Bilgi depolamak için temel birim olan bir bit, ikili sayı sistemi içindeki bir rakamdır.</p>
-<p>IPv4 veya IPv6 havuzundaki her IP adresi, İnternet'e erişmek için kullanılan makinelere ve aygıtlara atanamaz. Bazı IP adresleri, özel ağlarda kullanımı gibi başka kullanımlar için ayrılmıştır. Tahsis için uygun toplam IP adresi sayısının adres kümesindeki toplam sayıdan az olduğu anlamına gelir.</p>
+<p>IPv4 veya IPv6 havuzundaki her IP adresi, İnternet'e erişmek için kullanılan makinelere ve aygıtlara atanamaz. Bazı IP adresleri, özel ağlarda kullanıldığı gibi başka kullanımlar için ayrılmıştır. Tahsis için kullanılabilir tüm IP adresi sayısının adres kümesindeki toplam sayıdan az olduğu anlamına gelir.</p>
 <h2>Şebeke önekleri</h2> 
 <p>IP addresses can be taken from the IPv4 or the IPv6 pool and are divided into two parts, a network section and a host section. The network section identifies the particular network and the host section identifies the particular node (for example, a certain computer) on the Local Area Network (LAN).</p>
 <h2>Allocation</h2>
