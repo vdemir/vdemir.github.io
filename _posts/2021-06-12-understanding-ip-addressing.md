@@ -12,9 +12,12 @@ comments: false
 published: true
 lang: tr
 ---
-<h1>Understanding IP Addressing and CIDR Charts</h1>
+<h1>IP Adreslemeyi Kavrama ve CIDR Grafiklerini Anlama</h1> 
 <div>
 <p>Every device connected to the Internet needs to have an identifier. Internet Protocol (IP) addresses are the numerical addresses used to identify a particular piece of hardware connected to the Internet.</p>
+<p>İnternet'e bağlı her cihazın bir tanıtıcı sözcüğe sahip olması gerekir. İnternet Protokolü (IP) adresleri, İnternet'e bağlanan belirli bir donanım parçasını tanıtmak için kullanılan sayısal adreslerdir.</p>
+<p>Bugün kullanımdaki en yaygın iki IP versiyonu, İnternet Protokolü sürüm 4 (IPv4) ve İnternet Protokolü sürüm 6 (IPv6)'dır . Hem IPv4 hem de IPv6 adresleri sınırlı müşterek sayıların kümelenmesidir..</p>
+<p>IPv4 için bu küme 32 bit (2<sup>32</sup>) boyutundadır ve 4.294.967,296 IPv4 adres bilgisi içerir. IPv6 adres uzayı 128 bit (2<sup>128</sup>) boyutundadır ve 340.282.366.920.938.463.463.374.607.431.768.211.456 IPv6 adres bilgisi içerir.</p> 
 <p>The two most common versions of IP in use today are Internet Protocol version 4 (IPv4) and Internet Protocol version 6 (IPv6). Both IPv4 and IPv6 addresses come from finite pools of numbers.</p>
 <p>For IPv4, this pool is 32-bits (2<sup>32</sup>) in size and contains 4,294,967,296 IPv4 addresses. The IPv6 address space is 128-bits (2<sup>128</sup>) in size, containing 340,282,366,920,938,463,463,374,607,431,768,211,456 IPv6 addresses.</p>
 <p>A bit is a digit in the binary numeral system, the basic unit for storing information.</p>
