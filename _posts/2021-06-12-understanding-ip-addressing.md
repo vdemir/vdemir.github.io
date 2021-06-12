@@ -53,7 +53,6 @@ Not: 16.777.216=2<sup>8</sup>x2<sup>8</sup>x2<sup>8</sup>
 (CIDR) Tablosu, yaygın olarak CIDR şeması olarak bilinir ve ağ şebekesini çalıştıran ve IP adreslerini yönetenler tarafından kullanılır. Her eğik çizgi gösterimde yerleşik IP adreslerinin sayısını ve her bir eğik çizgi gösterimde bit cinsinden boyutu görmelerini sağlar.
 
 The Classless Inter-Domain Routing (CIDR) is commonly known as the CIDR chart and is used by those running networks and managing IP addresses. It enables them to see the number of IP addresses contained within each slash notation and the size of each slash notation in bits.
-<img src="https://www.ripe.net/images/IPv4CIDRChart_2015.jpg"/>
 
 
 ![IPv4CIDRChart](/images/IPv4CIDRChart_2015.jpg "IPv4CIDRChart"){:height="95%" width="95%"}
