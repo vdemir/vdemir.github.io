@@ -9,9 +9,9 @@ permalink: /:categories/:title/
 comments: false
 published: true
 lang: en
+redirect_from:
+  - /books/2019/04/14/HARUN-YAHYA-books.html
 ---
-
-
 
 <style type="text/css">
 .tftable {font-size:12px;color:#333333;width:100%;border-width: 1px;border-color: #729ea5;border-collapse: collapse;}
