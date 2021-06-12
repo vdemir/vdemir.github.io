@@ -46,6 +46,10 @@ Not: 16.777.216=2<sup>8</sup>x2<sup>8</sup>x2<sup>8</sup>
 
 The Classless Inter-Domain Routing (CIDR) is commonly known as the CIDR chart and is used by those running networks and managing IP addresses. It enables them to see the number of IP addresses contained within each &ldquo;slash notation&rdquo; and the size of each &ldquo;slash notation&rdquo; in bits.
 <img src="https://www.ripe.net/images/IPv4CIDRChart_2015.jpg"/>
+
+
+![IPv4CIDRChart](/images/IPv4CIDRChart_2015.webp "IPv4CIDRChart"){:height="100%" width="100%"}
+
 Download: <a href="https://www.ripe.net/about-us/press-centre/IPv4CIDRChart_2015.pdf">IPv4 CIDR Chart </a>(PDF)
 
 ## IPv6
