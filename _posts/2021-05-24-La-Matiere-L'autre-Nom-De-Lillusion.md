@@ -11,6 +11,7 @@ published: true
 lang: en
 redirect_from:
   - /books/2021/05/14/LA-MATIERE-L-AUTRE-NOM-DE-L-ILLUSION.html
+  - /books/2021/05/14/LA-MATIERE-L
 ---
 
 
