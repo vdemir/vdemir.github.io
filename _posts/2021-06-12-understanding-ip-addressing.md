@@ -20,24 +20,24 @@ lang: tr
 <p>Bilgi depolamak için temel birim olan bir bit, ikili sayı sistemi içindeki bir rakamdır.</p>
 <p>IPv4 veya IPv6 havuzundaki her IP adresi, İnternet'e erişmek için kullanılan makinelere ve aygıtlara atanamaz. Bazı IP adresleri, özel ağlarda kullanıldığı gibi başka kullanımlar için ayrılmıştır. Tahsis için kullanılabilir tüm IP adresi sayısının adres kümesindeki toplam sayıdan az olduğu anlamına gelir.</p>
 
-<h2>İnternet Ağ Şebeke önekleri</h2> 
+## **İnternet Ağ Şebeke önekleri** 
 
 
 <p>IP adresleri, IPv4 veya IPv6 kümesinden alınabilir ve iki kısma ayrılır; ağ grubu ve ana bilgisayar grubu. Ağ kısmı belirli ağı, sunucu bilgisayar kısmı da Yerel alan Ağ (LAN)'daki belirli bir düğümü (örneğin, belirli bir bilgisayarı) tanımlar.</p>
 
-<h2>Tahsisat</h2>
+## **Tahsisat**
 
 <p>IP adresleri farklı boyutlu 'bloklardaki' ağlara atanır. Atanan 'blok'un boyutu, bu blokta bulunan IP adreslerinin sayısını gösteren bir eğikten (/) sonra yazılır. Örneğin, bir Internet Servis Sağlayıcısına (ISS) "/16" atanmışsa, yaklaşık 64.000 IPv4 adresi alırlar. "/26" ağı, 64 IPv4 adresi sağlar. Eğikten sonraki sayı ne kadar düşükse, o "blokta" o kadar çok adres bulunur.</p>
 
-<h2>IPv4</h2>
+## **IPv4**
 
 <p>The size of the prefix, in bits, is written after the oblique. This is called &ldquo;slash notation&rdquo;. There is a total of 32 bits in IPv4 address space. For example, if a network has the address &ldquo;192.0.2.0/24&rdquo;, the number &ldquo;24&rdquo; refers to how many bits are contained in the network. From this, the number of bits left for address space can be calculated. As all IPv4 networks have 32 bits, and each &ldquo;section&rdquo; of the address denoted by the decimal points contains eight bits, &ldquo;192.0.2.0/24&rdquo; leaves eight bits to contain host addresses. This is enough space for 256 host addresses. These host addresses are the IP addresses that are necessary to connect your machine to the Internet.</p>
 <p>A network numbered &ldquo;10.0.0.0/8&rdquo; (which is one of those reserved for private use) is a network with eight bits of network prefix, denoted by &ldquo;/8&rdquo; after the oblique. The &ldquo;8&rdquo; denotes that there are 24 bits left over in the network to contain IPv4 host addresses: 16,777,216 addresses to be exact.</p>
-<h2>Classless Inter-Domain Routing (CIDR) Chart</h2>
+## **Classless Inter-Domain Routing (CIDR) Chart**
 <p>The Classless Inter-Domain Routing (CIDR) is commonly known as the CIDR chart and is used by those running networks and managing IP addresses. It enables them to see the number of IP addresses contained within each &ldquo;slash notation&rdquo; and the size of each &ldquo;slash notation&rdquo; in bits.</p>
 <p><img src="https://www.ripe.net/images/IPv4CIDRChart_2015.jpg"/></p>
 <p>Download: <a href="https://www.ripe.net/about-us/press-centre/IPv4CIDRChart_2015.pdf">IPv4 CIDR Chart </a>(PDF)</p>
-<h2>IPv6</h2>
+## **IPv6**
 <p>IPv6 is similar to IPv4, but it is structured so that all LANs have 64 bits of network prefix as opposed to the variable length of network prefix<sup><a href="#1"><strong>1</strong></a></sup> that IPv4 networks have. All IPv6 networks have space for 18,446,744,073,709,551,616 IPv6 addresses.</p>
 <p><img src="https://www.ripe.net/about-us/press-centre/IPv6Chart_2015.png"/></p>
 <p>Download:<a href="https://www.ripe.net/about-us/press-centre/ipv6-chart_2015.pdf"> IPv6 Chart</a> (PDF)</p>
