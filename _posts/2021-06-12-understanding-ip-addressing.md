@@ -42,8 +42,9 @@ Not: 16.777.216=2<sup>8</sup>x2<sup>8</sup>x2<sup>8</sup>
 
 İnternetteki neredeyse her şey bir DNS talebiyle başlar. DNS, İnternetin sunucu bilgisayar dizinidir. Bir bağlantıya tıkladığınızda, bir uygulama açtığınızda, bir e-posta gönderdiğinizde cihazınızın yaptığı ilk şey dizine sormaktır. 0.0.0.0 geçerli bir adres olmadığından, diğer normal IP servisleri gibi DNS sunucularının da geçerli bir IP adresi ile adreslenmesi gerekir, yani. 0.0.0.0 ve 255.255.255.255 ayrılmış birkaç aralık dışında. Ağ yapılandırmasına bağlı olarak, 192.168.2.0/24 ağındaki 192.168.2.0 ve 192.168.2.255 gibi adresler de geçersiz olabilir. Ayrıca, ad çözümlemesi için sunucunun erişilebilir olması gerekir. 0.0.0.0 adresi için geçerli bir kullanım olsa da: Bağlantıları dinlerken, “bu bilgisayardaki tüm arayüzlerde dinle” anlamına gelir.Bazı programlar, bir değerin ayarlanmadığı durumlarda hatalı olarak 0.0.0.0 görüntüleyebilir.
 
-## Classless Inter-Domain Routing (CIDR) Chart
+## Ayrılmamış Etki Alanları İç Yönlendirme (CIDR) Tablosu
 
+Sınıfsız Etki Alanları Arası Yönlendirme (CIDR), yaygın olarak CIDR şeması olarak bilinir ve ağları çalıştıran ve IP adreslerini yönetenler tarafından kullanılır. Her bir &ldquo;eğik çizgi gösteriminde&rdquo; yer alan IP adreslerinin sayısını görmelerini sağlar. ve her bir &ldquo;eğik çizgi gösteriminin&rdquo; bitler halinde. 
 The Classless Inter-Domain Routing (CIDR) is commonly known as the CIDR chart and is used by those running networks and managing IP addresses. It enables them to see the number of IP addresses contained within each &ldquo;slash notation&rdquo; and the size of each &ldquo;slash notation&rdquo; in bits.
 <img src="https://www.ripe.net/images/IPv4CIDRChart_2015.jpg"/>
 
