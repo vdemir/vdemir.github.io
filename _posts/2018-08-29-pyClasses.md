@@ -3353,9 +3353,6 @@ for-loop = 1.444 s
 <h3><a class="w3-btn w3-margin-bottom">Just python 3.5.2 'Run'.</a></h3>
 <div data-datacamp-exercise data-lang="python" data-height="auto">
       <code data-type="pre-exercise-code"></code>
-      <code data-type="sample-code"></code>
-      <code data-type="solution"></code>
-      <code data-type="sct"></code>
 </div>
 <div class="w3-container w3-content">
 
