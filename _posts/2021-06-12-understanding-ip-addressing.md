@@ -91,72 +91,72 @@ IP adresine alt ağ maskesi uygulamak, ağ adresini ana bilgisayar adresinden ay
 <tbody>
 <tr>
 <td>
-/128</div>
+/128
 </td>
 <td>
-1 IPv6 address</div>
+1 IPv6 address
 </td>
 <td>
-A network interface</div>
-</td>
-</tr>
-<tr>
-<td>
-/64</div>
-</td>
-<td>
-1 IPv6 subnet</div>
-</td>
-<td>
-18,446,744,073,709,551,616 IPv6 addresses</div>
+A network interface
 </td>
 </tr>
 <tr>
 <td>
-/56</div>
+/64
 </td>
 <td>
-256 LAN segments</div>
+1 IPv6 subnet
 </td>
 <td>
-Popular prefix size for one subscriber site</div>
-</td>
-</tr>
-<tr>
-<td>
-/48</div>
-</td>
-<td>
-65,536 LAN segments</div>
-</td>
-<td>
-Popular prefix size for one subscriber site</div>
+18,446,744,073,709,551,616 IPv6 addresses
 </td>
 </tr>
 <tr>
 <td>
-/32</div>
+/56
 </td>
 <td>
-65,536 /48 subscriber sites</div>
+256 LAN segments
 </td>
 <td>
-Minimum IPv6 allocation</div>
+Popular prefix size for one subscriber site
 </td>
 </tr>
 <tr>
 <td>
-/24</div>
+/48
 </td>
 <td>
-16,777,216 subscriber sites</div>
+65,536 LAN segments
 </td>
 <td>
-256 times larger than the minimum IPv6 allocation</div>
+Popular prefix size for one subscriber site
+</td>
+</tr>
+<tr>
+<td>
+/32
+</td>
+<td>
+65,536 /48 subscriber sites
+</td>
+<td>
+Minimum IPv6 allocation
+</td>
+</tr>
+<tr>
+<td>
+/24
+</td>
+<td>
+16,777,216 subscriber sites
+</td>
+<td>
+256 times larger than the minimum IPv6 allocation
 </td>
 </tr>
 </tbody>
 </table>
 <sup>1</sup> RFC2526, Reserved IPv6 Subnet Anycast Addresses (Proposed Standard)
-</div>
+
 
