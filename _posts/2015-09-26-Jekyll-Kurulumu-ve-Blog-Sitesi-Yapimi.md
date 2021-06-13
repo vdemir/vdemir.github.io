@@ -28,7 +28,7 @@ git config credential.helper 'cache --timeout=29600'
 
 sudo pisi it -c system.devel	/*devel paket bileşenlerinin kurulumu*/
 sudo pisi it ruby-devel		/*devel paket bileşenlerinin kurulumu*/
-sudo pisi it rubygems       /*gem bileşenlerinin kurulumu*/
+sudo pisi it rubygems		/*gem bileşenlerinin kurulumu*/
 
 sudo gem install jekyll			/*jekyll kurulumu*/
 sudo gem update jekyll
