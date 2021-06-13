@@ -37,10 +37,10 @@ sudo bundle update
 gem update --system
 bundle install
 
-sudo jekyll new my-awesome-site		/*yeni sitenin oluşturulması*/
-bundle exec jekyll build		/*sitenin hatasız derlemesi*/
+sudo jekyll new my-awesome-site	/*yeni sitenin oluşturulması*/
+bundle exec jekyll build	/*sitenin hatasız derlemesi*/
 git add -A &&  git commit -m "commit" && git push origin master
-sudo jekyll serve			/*local server üzerinde denenmesi*/
+sudo jekyll serve	/*local server üzerinde denenmesi*/
 {% endhighlight %}
 
 Sonuç olarak statik İnternet sitemizi yada bloğumuzu İnternet metin sunucumuzun adres çubuğuna ```http://localhost:4000/``` yazarak görüntüleyebiliyoruz.
