@@ -54,13 +54,12 @@ Ağ yapılandırmasına bağlı olarak, 192.168.2.0/24 ağındaki 192.168.2.0 ve
 
 (CIDR) Tablosu, yaygın olarak CIDR şeması olarak bilinir ve ağ şebekesini çalıştıran ve IP adreslerini yönetenler tarafından kullanılır. Her eğik çizgi notasyonunda yerleşik IP adreslerinin sayısını ve bit cinsinden eğik çizgi notasyonu boyutunu anlamalarını sağlar.
 
-The Classless Inter-Domain Routing (CIDR) is commonly known as the CIDR chart and is used by those running networks and managing IP addresses. It enables them to see the number of IP addresses contained within each slash notation and the size of each slash notation in bits.
 
 ![IPv4CIDRChart](/images/IPv4CIDRChart_2015.jpg "IPv4CIDRChart"){:height="95%" width="95%"}
 
 ## IPv6
 
-IPv6 is similar to IPv4, but it is structured so that all LANs have 64 bits of network prefix as opposed to the variable length of network prefix<sup><a href="#1"><strong>1</strong></a></sup> that IPv4 networks have. All IPv6 networks have space for 18,446,744,073,709,551,616 IPv6 addresses.
+IPv6, IPv4'e benzer, ancak tüm LAN'lerin IPv4 ağlarının sahip olduğu değişken ağ öneki<sup>1</sup> uzunluğunun aksine 64 bit ağ önekine sahip olacak şekilde yapılandırılmıştır. Tüm IPv6 ağlarında 18.446.744.073.709.551.616 IPv6 adresi için alan vardır.
 
 ## SubNet Mask (alt ağ maskeleri)
 
@@ -74,6 +73,15 @@ RIPE NCC tarafından yapılan mevcut minimum IPv6 tahsisi, bir /32 ağ önekidir
 Örneğin, bir LIR'ye /24 IPv6 tahsisi yapılırsa, 16.777.216/48 ataması veya 4.294.967,296/56 ataması yapabilecektir. 
 
 Bir bakış açısı vermek gerekirse, toplamda 4,294,967,296 IPv4 adresi olduğunu, IPv6 adreslerinin sayısından önemli ölçüde daha az olduğunu belirtmekte fayda var. 
+
+
+IP adresine alt ağ maskesi uygulamak, ağ adresini ana bilgisayar adresinden ayırır. Ağ bitleri maskedeki 1'ler tarafından, ana bilgisayar bitleri ise 0'larla temsil edilir. Alt ağ maskesiyle IP adresinde bit düzeyinde mantıksal AND işlemi gerçekleştirmek ağ adresini üretir. Örneğin, C Sınıfı alt ağ maskesini IP adresimiz 216.3.128.12'ye uygulamak aşağıdaki ağ adresini üretir:
+
+
+    IP:   1101 1000 . 0000 0011 . 1000 0000 . 0000 1100  (216.003.128.012) 
+    Mask: 1111 1111 . 1111 1111 . 1111 1111 . 0000 0000  (255.255.255.000) 
+          --------------------------------------------- 
+          1101 1000 . 0000 0011 . 1000 0000 
 
 ![IPv6Chart](/images/IPv6Chart_2015.png "IPv6Chart"){:height="95%" width="95%"}
 
@@ -155,21 +163,3 @@ Minimum IPv6 allocation</div>
 Created: 04 Jan 2011 - Last updated: 09 Aug 2019</div>
 </div>
 
-An IP address
-
-has two components, the network address and the host address. A subnet mask separates the IP address into the network and host addresses (<network><host>). Subnetting further divides the host part of an IP address into a subnet and host address (<network><subnet><host>)
-
-It is called a subnet mask because it is used to identify network address of an IP address by perfoming a bitwise AND operation on the netmask.
-
-A Subnet mask is a 32-bit number that masks an IP address, and divides the IP address into network address and host address. Subnet Mask is made by setting network bits to all "1"s and setting host bits to all "0"s. Within a given network, two host addresses are reserved for special purpose, and cannot be assigned to hosts. The "0" address is assigned a network address and "255" is assigned to a broadcast address, and they cannot be assigned to hosts.
-
-Examples of commonly used netmasks for classed networks are 8-bits (Class A), 16-bits (Class B) and 24-bits (Class C).
-
-Subnetting an IP network is to separate a big network into smaller multiple networks for reorganization and security purposes. All nodes (hosts) in a subnetwork see all packets transmitted by any node in a network. Performance of a network is adversely affected under heavy traffic load due to collisions and retransmissions.
-
-Applying a subnet mask to an IP address separates network address from host address. The network bits are represented by the 1's in the mask, and the host bits are represented by 0's. Performing a bitwise logical AND operation on the IP address with the subnet mask produces the network address. For example, applying the Class C subnet mask to our IP address 216.3.128.12 produces the following network address:
-
-    IP:   1101 1000 . 0000 0011 . 1000 0000 . 0000 1100  (216.003.128.012) 
-    Mask: 1111 1111 . 1111 1111 . 1111 1111 . 0000 0000  (255.255.255.000) 
-          --------------------------------------------- 
-          1101 1000 . 0000 0011 . 1000 0000 
