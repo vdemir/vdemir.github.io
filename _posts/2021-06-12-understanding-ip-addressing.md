@@ -67,13 +67,17 @@ IPv6 is similar to IPv4, but it is structured so that all LANs have 64 bits of n
 Ağlar, daha hızlı veri aktarımı ve daha kolay yönetim sağlamak için alt ağlara ayrılır. Yönlendiriciler bunu, alt ağı belirlemek için IP adresine nereye bakılacağını gösteren bir sayı olan alt ağ maskeleri atayarak gerçekleştirir.
 
 
+Şu anda, çoğu ISP, abonelerin sitelerine (Son Kullanıcıların ağları) /48 ağ öneki atar. Tüm IPv6 ağlarında /64 önek bulunduğundan, /48 ağ öneki bir Son Kullanıcı sitesinde 65.536 LAN'a izin verir.
+
+RIPE NCC tarafından yapılan mevcut minimum IPv6 tahsisi, bir /32 ağ önekidir. LIR sadece bu /32 ağ önekinden /48 atama yapsaydı, 65.536 /48 atama yapabilirdi. Yalnızca /56 ağ önekleri atamaya karar verirlerse, kendilerine 24 bit kullanılabilir ve böylece 16.777.216 /56 atama yapabilirler.
+
+Örneğin, bir LIR'ye /24 IPv6 tahsisi yapılırsa, 16.777.216/48 ataması veya 4.294.967,296/56 ataması yapabilecektir. 
+
+Bir bakış açısı vermek gerekirse, toplamda 4,294,967,296 IPv4 adresi olduğunu, IPv6 adreslerinin sayısından önemli ölçüde daha az olduğunu belirtmekte fayda var. 
+
 ![IPv6Chart](/images/IPv6Chart_2015.png "IPv6Chart"){:height="95%" width="95%"}
 
-Download:<a href="https://www.ripe.net/about-us/press-centre/ipv6-chart_2015.pdf"> IPv6 Chart</a> (PDF)
-Currently, most ISPs assign /48 network prefixes to subscribers' sites (the End Users' networks). Because all IPv6 networks have /64 prefixes, a /48 network prefix allows 65,536 LANs in an End User's site.
-The current minimum IPv6 allocation made by the RIPE NCC is a /32 network prefix. If the LIR only made /48 assignments from this /32 network prefix, they would be able to make 65,536 /48 assignments. If they decided to only assign /56 network prefixes they would have 24 bits available to them, and so could make 16,777,216 /56 assignments.
-For example, if a /24 IPv6 allocation is made to an LIR, it would be able to make 16,777,216 /48 assignments or 4,294,967,296 /56 assignments.
-To give some perspective, it is worth noting that there are 4,294,967,296 IPv4 addresses in total, significantly less than the number of IPv6 addresses.
+
 <h3>IPv6 Relative Network Sizes</h3>
 <table>
 <tbody>
