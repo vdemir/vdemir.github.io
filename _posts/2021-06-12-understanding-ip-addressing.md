@@ -52,7 +52,7 @@ Ağ yapılandırmasına bağlı olarak, 192.168.2.0/24 ağındaki 192.168.2.0 ve
 
 ## Ayrılmamış Etki Alan İçi Yönlendirme (CIDR) Tablosu
 
-(CIDR) Tablosu, yaygın olarak CIDR şeması olarak bilinir ve ağ şebekesini çalıştıran ve IP adreslerini yönetenler tarafından kullanılır. Her eğik çizgi gösterimi ile birlikte yerleşik IP adreslerinin sayısını ve her bir eğik çizgi gösterimin bit cinsinden boyutunu görmelerini sağlar.
+(CIDR) Tablosu, yaygın olarak CIDR şeması olarak bilinir ve ağ şebekesini çalıştıran ve IP adreslerini yönetenler tarafından kullanılır. Her eğik çizgi notasyonunda yerleşik IP adreslerinin sayısını ve bit cinsinden eğik çizgi notasyonu boyutunu anlamalarını sağlar.
 
 The Classless Inter-Domain Routing (CIDR) is commonly known as the CIDR chart and is used by those running networks and managing IP addresses. It enables them to see the number of IP addresses contained within each slash notation and the size of each slash notation in bits.
 
