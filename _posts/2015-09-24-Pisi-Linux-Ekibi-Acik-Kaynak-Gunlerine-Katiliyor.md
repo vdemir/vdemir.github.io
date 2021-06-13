@@ -9,6 +9,8 @@ categories: [Pisi]
 comments: false
 published: true
 lang: tr
+redirect_from:
+  - /pisi linux/2015/09/24/Pisi-Linux-Ekibi-Acik-Kaynak-Gunlerine-Katiliyor.html
 ---
 
 Bu sene Pisi Linux ekibininde katılacağı etkinlik 11 Ekim Pazar günü Ankara'da düzenleniyor. Pisi Linux dağıtımı ve projelerinin de tanıtılacağı etkinlikte birde atölye çalışması yapılacak. Katılımın yüksek olacağını düşünerek arkadaşlarımıza kolaylıklar diliyorum. Her ne kadar katılamasakta etkinliğin çok güzel geçeceğini tahmin ediyorum.
