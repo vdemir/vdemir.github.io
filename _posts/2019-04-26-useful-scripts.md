@@ -8,6 +8,8 @@ categories: Programming
 comments: false
 published: false
 lang: tr
+redirect_from:
+  - /programming/2019/09/26/useful-scripts.html
 ---
 
 
