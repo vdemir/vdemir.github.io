@@ -59,16 +59,16 @@ Ağ yapılandırmasına bağlı olarak, 192.168.2.0/24 ağındaki 192.168.2.0 ve
 
 ## IPv6
 
-IPv6, IPv4'e benzer, ancak tüm LAN'lerin IPv4 ağlarının sahip olduğu değişken ağ alanı adres kodu<sup>1</sup> uzunluğunun aksine 64 bit ağ alanı adres koduna sahip olacak şekilde yapılandırılmıştır. Tüm IPv6 ağlarında 18.446.744.073.709.551.616 IPv6 adresi için alan vardır.
+IPv6, IPv4'e benzer, ancak tüm LAN'lerin IPv4 ağlarının sahip olduğu değişken ağ alanı adres kodu uzunluğunun aksine 64 bit ağ alanı adres koduna sahip olacak şekilde yapılandırılmıştır. Tüm IPv6 ağlarında 18.446.744.073.709.551.616 IPv6 adresi için alan vardır.
 
 ## SubNet Mask (alt ağ maskeleri)
 
 Ağlar, daha hızlı veri aktarımı ve daha kolay yönetim sağlamak için alt ağlara ayrılır. Yönlendiriciler bunu, alt ağı belirlemek için IP adresine nereye bakılacağını gösteren bir sayı olan alt ağ maskeleri atayarak gerçekleştirir.
 
 
-Şu anda, çoğu ISP, abonelerin sitelerine (Son Kullanıcıların ağları) /48 ağ alanı adres koduatar. Tüm IPv6 ağlarında /64 önek bulunduğundan, /48 ağ alanı adres kodubir Son Kullanıcı sitesinde 65.536 LAN'a izin verir.
+Şu anda, çoğu ISP, abonelerin sitelerine (Son Kullanıcıların ağları) /48 ağ alanı adres koduatar. Tüm IPv6 ağlarında /64 ağ alanı adres kodu bulunduğundan, /48 ağ alanı adres kodubir Son Kullanıcı sitesinde 65.536 LAN'a izin verir.
 
-RIPE NCC tarafından yapılan mevcut minimum IPv6 tahsisi, bir /32 ağ önekidir. LIR sadece bu /32 ağ önekinden /48 atama yapsaydı, 65.536 /48 atama yapabilirdi. Yalnızca /56 ağ önekleri atamaya karar verirlerse, kendilerine 24 bit kullanılabilir ve böylece 16.777.216 /56 atama yapabilirler.
+RIPE NCC tarafından yapılan mevcut minimum IPv6 tahsisi, bir /32 ağ alanı adres kodudir. LIR sadece bu /32 ağ alanı adres kodundan /48 atama yapsaydı, 65.536 /48 atama yapabilirdi. Yalnızca /56 ağ alanı adres kodları atamaya karar verirlerse, kendilerine 24 bit kullanılabilir ve böylece 16.777.216 /56 atama yapabilirler.
 
 Örneğin, bir LIR'ye /24 IPv6 tahsisi yapılırsa, 16.777.216/48 ataması veya 4.294.967,296/56 ataması yapabilecektir. 
 
