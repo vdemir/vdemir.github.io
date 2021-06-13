@@ -56,14 +56,15 @@ Ağ yapılandırmasına bağlı olarak, 192.168.2.0/24 ağındaki 192.168.2.0 ve
 
 The Classless Inter-Domain Routing (CIDR) is commonly known as the CIDR chart and is used by those running networks and managing IP addresses. It enables them to see the number of IP addresses contained within each slash notation and the size of each slash notation in bits.
 
-
 ![IPv4CIDRChart](/images/IPv4CIDRChart_2015.jpg "IPv4CIDRChart"){:height="95%" width="95%"}
-
-Download: <a href="https://www.ripe.net/about-us/press-centre/IPv4CIDRChart_2015.pdf">IPv4 CIDR Chart </a>(PDF)
 
 ## IPv6
 
 IPv6 is similar to IPv4, but it is structured so that all LANs have 64 bits of network prefix as opposed to the variable length of network prefix<sup><a href="#1"><strong>1</strong></a></sup> that IPv4 networks have. All IPv6 networks have space for 18,446,744,073,709,551,616 IPv6 addresses.
+
+## SubNet Mask (alt ağ maskeleri)
+
+Ağlar, daha hızlı veri aktarımı ve daha kolay yönetim sağlamak için alt ağlara ayrılır. Yönlendiriciler bunu, alt ağı belirlemek için IP adresine nereye bakılacağını gösteren bir sayı olan alt ağ maskeleri atayarak gerçekleştirir.
 
 
 ![IPv6Chart](/images/IPv6Chart_2015.png "IPv6Chart"){:height="95%" width="95%"}
