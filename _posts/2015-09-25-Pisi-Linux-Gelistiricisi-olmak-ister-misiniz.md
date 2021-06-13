@@ -9,6 +9,8 @@ categories: [Pisi]
 comments: false
 published: true
 lang: tr
+redirect_from:
+  - /pisi linux/2015/09/26/Pisi-Linux-Gelistiricisi-olmak-ister-misiniz.html
 ---
 
 Pisi Linux geliştiricisi olmak gerçekten çok kolaydır çünkü herkesin mutlaka yeteneğine göre yapabileceği bir iş var. Pisi Linux tarafında da işler bundan pek farklı işlemiyor. Her ne kadar gönüllülük esas olsada herkes mutlaka ilgi alanına giren bir işte katkı sağlayabilir. Pisi Linux devinim içinde olan ve yazılım güncellemeleri konusuna azami özen gösteren bir dağıtımdır. Devam edecek ...
