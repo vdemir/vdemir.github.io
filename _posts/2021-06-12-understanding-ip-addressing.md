@@ -59,7 +59,7 @@ Ağ yapılandırmasına bağlı olarak, 192.168.2.0/24 ağındaki 192.168.2.0 ve
 
 ## IPv6
 
-IPv6, IPv4'e benzer, ancak tüm LAN'lerin IPv4 ağlarının sahip olduğu değişken ağ alanı adres kodu uzunluğunun aksine 64 bit ağ alanı adres koduna sahip olacak şekilde yapılandırılmıştır. Tüm IPv6 ağlarında 18.446.744.073.709.551.616 IPv6 adresi için alan vardır.
+IPv6, IPv4'e benzer, ancak tüm LAN'lerin IPv4 ağlarının sahip olduğu değişken ağ alanı adres kodu<sup>1</sup> uzunluğunun aksine 64 bit ağ alanı adres koduna sahip olacak şekilde yapılandırılmıştır. Tüm IPv6 ağlarında 18.446.744.073.709.551.616 IPv6 adresi için alan vardır.
 
 ## SubNet Mask (alt ağ maskeleri)
 
@@ -86,7 +86,7 @@ IP adresine alt ağ maskesi uygulamak, ağ adresini sunucu bilgisayar adresinden
 ![IPv6Chart](/images/IPv6Chart_2015.png "IPv6Chart"){:height="95%" width="95%"}
 
 
-## IPv6 Relative Network Sizes
+## IPv6 Göreli Ağ Boyutları
 <table>
 <tbody>
 <tr>
@@ -94,10 +94,10 @@ IP adresine alt ağ maskesi uygulamak, ağ adresini sunucu bilgisayar adresinden
 /128
 </td>
 <td>
-1 IPv6 address
+1 IPv6 adresi
 </td>
 <td>
-A network interface
+Ağ arabirimi
 </td>
 </tr>
 <tr>
@@ -105,10 +105,10 @@ A network interface
 /64
 </td>
 <td>
-1 IPv6 subnet
+1 IPv6 alt ağ
 </td>
 <td>
-18,446,744,073,709,551,616 IPv6 addresses
+18,446,744,073,709,551,616 IPv6 adresi
 </td>
 </tr>
 <tr>
@@ -116,10 +116,10 @@ A network interface
 /56
 </td>
 <td>
-256 LAN segments
+256 LAN segmenti
 </td>
 <td>
-Popular prefix size for one subscriber site
+Bir abone sitesi için popüler ağ alanı adres kodu boyutu 
 </td>
 </tr>
 <tr>
@@ -127,10 +127,10 @@ Popular prefix size for one subscriber site
 /48
 </td>
 <td>
-65,536 LAN segments
+65,536 LAN segmenti
 </td>
 <td>
-Popular prefix size for one subscriber site
+Bir abone sitesi için popüler ağ alanı adres kodu boyutu 
 </td>
 </tr>
 <tr>
@@ -138,10 +138,10 @@ Popular prefix size for one subscriber site
 /32
 </td>
 <td>
-65,536 /48 subscriber sites
+65,536 /48 abone siteleri
 </td>
 <td>
-Minimum IPv6 allocation
+Minimum IPv6 tahsisi 
 </td>
 </tr>
 <tr>
@@ -149,14 +149,14 @@ Minimum IPv6 allocation
 /24
 </td>
 <td>
-16,777,216 subscriber sites
+16,777,216 abone siteleri
 </td>
 <td>
-256 times larger than the minimum IPv6 allocation
+Minimum IPv6 tahsisinden 256 kat daha büyük 
 </td>
 </tr>
 </tbody>
 </table>
-<sup>1</sup> RFC2526, Reserved IPv6 Subnet Anycast Addresses (Proposed Standard)
+<sup>1</sup> RFC2526, Ayrılmış IPv6 Alt Ağ Anycast Adresleri (Önerilen Standart) 
 
 
