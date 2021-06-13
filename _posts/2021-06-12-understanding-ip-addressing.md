@@ -86,7 +86,7 @@ IP adresine alt ağ maskesi uygulamak, ağ adresini ana bilgisayar adresinden ay
 ![IPv6Chart](/images/IPv6Chart_2015.png "IPv6Chart"){:height="95%" width="95%"}
 
 
-<h3>IPv6 Relative Network Sizes</h3>
+## IPv6 Relative Network Sizes
 <table>
 <tbody>
 <tr>
