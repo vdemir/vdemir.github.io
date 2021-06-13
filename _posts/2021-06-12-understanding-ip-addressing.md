@@ -160,6 +160,3 @@ Minimum IPv6 allocation</div>
 <sup>1</sup> RFC2526, Reserved IPv6 Subnet Anycast Addresses (Proposed Standard)
 </div>
 
-Created: 04 Jan 2011 - Last updated: 09 Aug 2019</div>
-</div>
-
