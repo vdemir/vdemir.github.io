@@ -46,11 +46,13 @@ Not: 16.777.216=2<sup>8</sup>x2<sup>8</sup>x2<sup>8</sup>
 
 ##  DNS: Alan Adı Sunucusu 
 
-İnternetteki neredeyse her şey bir DNS talebiyle başlar. DNS, İnternetin sunucu bilgisayar dizinidir. Bir bağlantıya tıkladığınızda, bir uygulama açtığınızda, bir e-posta gönderdiğinizde cihazınızın yaptığı ilk şey dizine sormaktır. 0.0.0.0 geçerli bir adres olmadığından, diğer normal IP servisleri gibi DNS sunucularının da geçerli bir IP adresi ile adreslenmesi gerekir, yani. 0.0.0.0 ve 255.255.255.255 ayrılmış birkaç aralık dışında. Ağ yapılandırmasına bağlı olarak, 192.168.2.0/24 ağındaki 192.168.2.0 ve 192.168.2.255 gibi adresler de geçersiz olabilir. Ayrıca, ad çözümlemesi için sunucunun erişilebilir olması gerekir. 0.0.0.0 adresi için geçerli bir kullanım olsa da: Bağlantıları dinlerken, “bu bilgisayardaki tüm arayüzlerde dinle” anlamına gelir.Bazı programlar, bir değerin ayarlanmadığı durumlarda hatalı olarak 0.0.0.0 görüntüleyebilir.
+İnternetteki neredeyse her şey bir DNS talebiyle başlar. DNS, İnternetin sunucu bilgisayar dizinidir. Bir bağlantıya tıkladığınızda, bir uygulama açtığınızda, bir e-posta gönderdiğinizde cihazınızın yaptığı ilk şey dizine sormaktır. 0.0.0.0 geçerli bir adres olmadığından, diğer normal IP servisleri gibi DNS sunucularının da geçerli bir IP adresi ile adreslenmesi gerekir, yani. 0.0.0.0 ve 255.255.255.255 ayrılmış birkaç aralık dışında. 
+
+Ağ yapılandırmasına bağlı olarak, 192.168.2.0/24 ağındaki 192.168.2.0 ve 192.168.2.255 gibi adresler de geçersiz olabilir. Ayrıca, ad çözümlemesi için sunucunun erişilebilir olması gerekir. 0.0.0.0 adresi için geçerli bir kullanım olsa da: Bağlantıları dinlerken, “bu bilgisayardaki tüm arayüzlerde dinle” anlamına gelir.Bazı programlar, bir değerin ayarlanmadığı durumlarda hatalı olarak 0.0.0.0 görüntüleyebilir.
 
 ## Ayrılmamış Etki Alan İçi Yönlendirme (CIDR) Tablosu
 
-(CIDR) Tablosu, yaygın olarak CIDR şeması olarak bilinir ve ağ şebekesini çalıştıran ve IP adreslerini yönetenler tarafından kullanılır. Her eğik çizgi gösterimde yerleşik IP adreslerinin sayısını ve her bir eğik çizgi gösterimde bit cinsinden boyutu görmelerini sağlar.
+(CIDR) Tablosu, yaygın olarak CIDR şeması olarak bilinir ve ağ şebekesini çalıştıran ve IP adreslerini yönetenler tarafından kullanılır. Her eğik çizgi gösterimi ile birlikte yerleşik IP adreslerinin sayısını ve her bir eğik çizgi gösterimin bit cinsinden boyutunu görmelerini sağlar.
 
 The Classless Inter-Domain Routing (CIDR) is commonly known as the CIDR chart and is used by those running networks and managing IP addresses. It enables them to see the number of IP addresses contained within each slash notation and the size of each slash notation in bits.
 
