@@ -150,3 +150,22 @@ Minimum IPv6 allocation</div>
 
 Created: 04 Jan 2011 - Last updated: 09 Aug 2019</div>
 </div>
+
+An IP address
+
+has two components, the network address and the host address. A subnet mask separates the IP address into the network and host addresses (<network><host>). Subnetting further divides the host part of an IP address into a subnet and host address (<network><subnet><host>)
+
+It is called a subnet mask because it is used to identify network address of an IP address by perfoming a bitwise AND operation on the netmask.
+
+A Subnet mask is a 32-bit number that masks an IP address, and divides the IP address into network address and host address. Subnet Mask is made by setting network bits to all "1"s and setting host bits to all "0"s. Within a given network, two host addresses are reserved for special purpose, and cannot be assigned to hosts. The "0" address is assigned a network address and "255" is assigned to a broadcast address, and they cannot be assigned to hosts.
+
+Examples of commonly used netmasks for classed networks are 8-bits (Class A), 16-bits (Class B) and 24-bits (Class C).
+
+Subnetting an IP network is to separate a big network into smaller multiple networks for reorganization and security purposes. All nodes (hosts) in a subnetwork see all packets transmitted by any node in a network. Performance of a network is adversely affected under heavy traffic load due to collisions and retransmissions.
+
+Applying a subnet mask to an IP address separates network address from host address. The network bits are represented by the 1's in the mask, and the host bits are represented by 0's. Performing a bitwise logical AND operation on the IP address with the subnet mask produces the network address. For example, applying the Class C subnet mask to our IP address 216.3.128.12 produces the following network address:
+
+    IP:   1101 1000 . 0000 0011 . 1000 0000 . 0000 1100  (216.003.128.012) 
+    Mask: 1111 1111 . 1111 1111 . 1111 1111 . 0000 0000  (255.255.255.000) 
+          --------------------------------------------- 
+          1101 1000 . 0000 0011 . 1000 0000 
