@@ -1414,7 +1414,7 @@ str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturm
 <br>
 
 
-<h3  id="C10">**``init``** yordamı</h3><hr>
+<h3  id="C10">init yordamı</h3><hr>
 Yukarıdaki örnekler, en basit biçimde sınıflar ve nesnelerdir ve gerçek yaşam uygulamalarında gerçekten yararlı değildir. 
 
 Sınıfların manâsını anlamak için, yerleşik **``init``** yordamını anlamamız gerekir. 
