@@ -117,7 +117,7 @@ Anne
 
 * * *
 
-#### **``Bir Python Sınıfı Oluşturma``**
+#### Bir Python Sınıfı Oluşturma
 
 * * *
 
@@ -165,7 +165,7 @@ Hey bir yordam
 
 * * *
 
-#### **``Oluşturulduktan Sonra Sınıfların Değiştirilmesi``**
+#### Oluşturulduktan Sonra Sınıfların Değiştirilmesi
 
 * * *
 
@@ -204,7 +204,7 @@ Oldukça müthiş. Ancak, önceden varolan yordamları değiştirmekle uğraşma
 
 * * *
 
-### **``Sınıf Özdeşleri``**
+### Sınıf Özdeşleri
 
 * * *
 
@@ -263,7 +263,7 @@ obj.name = "Andre"
 
 * * *
 
-### **``Bir Python Nesnesi Oluşturma``**
+### Bir Python Nesnesi Oluşturma
 
 * * *
 
@@ -281,11 +281,11 @@ print(MyClass.x)
 
 * * *
 
-### **``Sınıf Eşleme ile Nesne Oluşturma``**
+### Sınıf Eşleme ile Nesne Oluşturma
 
 * * *
 
- Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra **``init``** yordamının kabul ettiği ifadeleri iletirsiniz:
+ Bir sınıfın bir mislini oluşturmak için, sadece sınıf/öbek adını kullanarak sınıfı çağırır ve daha sonra init yordamının kabul ettiği ifadeleri iletirsiniz:
 
 {% highlight python %} 
 p1 = Person("John", 36)
@@ -295,7 +295,7 @@ p1 = Person("John", 36)
 
 * * *
 
-### **``Nesne Özniteliklerini Değiştirmek``**
+### Nesne Özniteliklerini Değiştirmek
 
 * * *
 
@@ -336,7 +336,7 @@ Out [1]:
 
 * * *
 
-### **``Nesne Özniteliklerini Silmek``**
+### Nesne Özniteliklerini Silmek
 
 * * *
 
@@ -375,11 +375,11 @@ AttributeError: 'Person' object has no attribute 'age'
 
 * * *
 
-### **``Nesneleri Silmek``**
+### Nesneleri Silmek
 
 * * *
 
-Nesneleri **``del``** anahtar sözcüğünü kullanarak silebilirsiniz:
+Nesneleri del anahtar sözcüğünü kullanarak silebilirsiniz:
 
 
 **p1 nesnesini silin:**
@@ -418,7 +418,7 @@ NameError: name 'p1' is not defined
 
 * * *
 
-### **``Sınıf Öbekleri``**
+### Sınıf Öbekleri
 
 * * *
 
@@ -498,7 +498,7 @@ Out[1]: (3.0, -4.5)
 
 * * *
 
-### **``Özdeş Öbekler``**
+### Özdeş Öbekler
 
 * * *
 
@@ -527,7 +527,7 @@ Bir özdeş öbeğin geçerli yordam adları, sınıfına bağlıdır. Tanım ol
 
 * * *
 
-##### **``Özdeş Öbeğin Özniteliklerine Erişim``**
+##### Özdeş Öbeğin Özniteliklerine Erişim
 
 * * *
 
@@ -542,7 +542,7 @@ Nokta (.) operatörünü öbek ismi ile kullanarak erişebilirsiniz. Sınıf ad�
 
 * * *
 
-#### **``Özniteliklerin tanımı``**
+#### Özniteliklerin tanımı
 
 * * * 
 
@@ -553,7 +553,7 @@ Nokta (.) operatörünü öbek ismi ile kullanarak erişebilirsiniz. Sınıf ad�
 
 * * *
 
-#### **``Yordam Öbekleri``**
+#### Yordam Öbekleri
 
 * * * 
 
@@ -589,7 +589,7 @@ Aslında, cevabı tahmin etmiş olabilirsiniz: yordamlarla ilgili özel bir şey
 
 * * *
 
-### **``Python Öznitelikler ve Yordamlar``**
+### Python Öznitelikler ve Yordamlar
 
 * * * 
 
@@ -836,12 +836,12 @@ MyClass.method()
 <h6>Instance Methods</h6>
 <hr>
 
-Method denilen **```MyClass```**'taki ilk yordam, normal bir eşleşen yordamdır.
-Bu, çoğu zaman kullanacağınız temel, asgari ihtiyaçları karşılamaya yönelik yordam tipidir. Yordamın bir parametre **```self```** aldığını görebilirsiniz, yordam çağrıldığında **```MyClass```** eşleneğine işaret eder. (ama elbette özdeş yordamlar sadece bir parametreden fazlasını kabul edebilir).
+Method denilen `MyClass`'taki ilk yordam, normal bir eşleşen yordamdır.
+Bu, çoğu zaman kullanacağınız temel, asgari ihtiyaçları karşılamaya yönelik yordam tipidir. Yordamın bir parametre `self` aldığını görebilirsiniz, yordam çağrıldığında `MyClass` eşleneğine işaret eder. (ama elbette özdeş yordamlar sadece bir parametreden fazlasını kabul edebilir).
 
-**```self```** parametresi aracılığıyla, eşlenen yordamlar, aynı öbek üzerindeki özniteliklere ve diğer yordamlara serbestçe erişebilir.Bu, bir öbeğin durumunu değiştirmeye sıra geldiğinde onlara çok fazla güç verir.
+`self` parametresi aracılığıyla, eşlenen yordamlar, aynı öbek üzerindeki özniteliklere ve diğer yordamlara serbestçe erişebilir.Bu, bir öbeğin durumunu değiştirmeye sıra geldiğinde onlara çok fazla güç verir.
 
-Onlar sadece öbeğin durumunu değiştirmezler, özdeş yordamlar, sınıfın kendisine **```self .__class__```** özniteliği aracılığıyla da erişebilir. Bu, eşlenen yordamların sınıf durumunu da değiştirebileceği anlamına gelir.
+Onlar sadece öbeğin durumunu değiştirmezler, özdeş yordamlar, sınıfın kendisine `self .__class__` özniteliği aracılığıyla da erişebilir. Bu, eşlenen yordamların sınıf durumunu da değiştirebileceği anlamına gelir.
 
 <br><br>
 
@@ -919,20 +919,20 @@ I was called from the instance <__main__.Class object at 0x7f6854953748>
 <h6>Class Methods</h6>
 <hr>
 
-Bunu ikinci yordam olan **```MyClass.classmethod```** ile karşılaştıralım. Onu bir sınıf yordamı olarak işaret etmek için bu yordamı **```@classmethod```** dekoratörüyle işaretledim.
+Bunu ikinci yordam olan `MyClass.classmethod` ile karşılaştıralım. Onu bir sınıf yordamı olarak işaret etmek için bu yordamı `@classmethod` dekoratörüyle işaretledim.
 
-Bir **```self```** parametresini kabul etmek yerine, sınıf yordamları bir **```cls```** parametresi alır, yordam çağrıldığında -öbek eşleneğine değil- sınıfa işaret eder.
+Bir `self` parametresini kabul etmek yerine, sınıf yordamları bir `cls` parametresi alır, yordam çağrıldığında -öbek eşleneğine değil- sınıfa işaret eder.
 
-Çünkü sınıf yordamı sadece bu **```cls```** argümanına erişebilir, öbek eşleneğinin durumunu değiştiremez. Bu **```self```**'e erişim gerektirecektir. Ancak, sınıf yordamları hala sınıf durumunu değiştirebilir ki sınıfın tüm özdeşlerine uygulanır.
+Çünkü sınıf yordamı sadece bu `cls` argümanına erişebilir, öbek eşleneğinin durumunu değiştiremez. Bu `self`'e erişim gerektirecektir. Ancak, sınıf yordamları hala sınıf durumunu değiştirebilir ki sınıfın tüm özdeşlerine uygulanır.
 
 <br><br>
 <h4 id="C867">Statik Yordamlar</h4>
 <h6>Static Methods</h6>
 <hr>
 
-Üçüncü yöntem, bir statik yordam olarak işaret etmek için **```MyClass.staticmethod```** bir **```@staticmethod```** dekoratör ile işaretlendi.
+Üçüncü yöntem, bir statik yordam olarak işaret etmek için `MyClass.staticmethod` bir `@staticmethod` dekoratör ile işaretlendi.
 
-Bu tip bir yordam ne **```self```** ne de bir **```cls```** parametresini alır (ama tabii ki, diğer parametrelerin rastgele sayısını kabul etmekte serbesttir).
+Bu tip bir yordam ne `self` ne de bir `cls` parametresini alır (ama tabii ki, diğer parametrelerin rastgele sayısını kabul etmekte serbesttir).
 
 Bu nedenle, statik bir yordam, öbek durumunu ve sınıf durumunu değiştiremez. Statik yordamlar, verilerde erişebilecekleri şeyleri sınırlandırır ve esas olarak yordamlarınızı adlandırmak için bir yoldur.
 
@@ -1326,8 +1326,8 @@ Thus, the convention followed is that any variable that is to be used only withi
 <br><br>
 
 
-<h3  id="C9">**``new``** yordamı </h3><hr>
- **``new``** örnekleme ile oluşturan ve döndüren python özel yordamıdır.
+<h3  id="C9">new yordamı </h3><hr>
+ new örnekleme ile oluşturan ve döndüren python özel yordamıdır.
 
 <main class="grid">
   <article>
@@ -1357,31 +1357,31 @@ Initiating instance of Sample
 <br>
 
 <div class="w3-code notranslate pythonHigh">
-<strong>Not:</strong> Örneklem ile oluşturulduktan sonra **``init``** yordamı çağrılır. Gerçek oluşturma işlemini kontrol etmek istiyorsanız, **``new``** yordamını kullanın.</div>
+<strong>Not:</strong> Örneklem ile oluşturulduktan sonra init yordamı çağrılır. Gerçek oluşturma işlemini kontrol etmek istiyorsanız, new yordamını kullanın.</div>
 
 <div class="w3-code notranslate pythonHigh">
-<strong>Not:</strong>**``new``**, bir cls yordamı döndürürse, argümanların geri kalanıyla **``init``** çağrılır (...), aksi halde **``init``** çağrılmaz.</div>
+<strong>Not:</strong>new, bir cls yordamı döndürürse, argümanların geri kalanıyla init çağrılır (...), aksi halde init çağrılmaz.</div>
 
 
 <div class="w3-code notranslate pythonHigh">
-<strong>Not:</strong> Python sınıf kurucusunun iki adımı vardır: Örneklem ile oluşturmak için **``new``** çağırma ve başlatmak için **``init``** çağırma. **``init``** isteğe bağlı bir adım değildir, **``init``** başarısız olursa örneklem oluşturma da başarısız olur.</div>
+<strong>Not:</strong> Python sınıf kurucusunun iki adımı vardır: Örneklem ile oluşturmak için new çağırma ve başlatmak için init çağırma. init isteğe bağlı bir adım değildir, init başarısız olursa örneklem oluşturma da başarısız olur.</div>
 
-<p> Yeni bir örneklemin oluşturulmasını kontrol etmeniz gerektiğinde **``new``** kullanın. 
-Yeni bir örneklemin başlatılmasını kontrol etmeniz gerektiğinde **``init``** kullanın. 
+<p> Yeni bir örneklemin oluşturulmasını kontrol etmeniz gerektiğinde new kullanın. 
+Yeni bir örneklemin başlatılmasını kontrol etmeniz gerektiğinde init kullanın. 
 
-**``new``**, örneklem oluşturmanın ilk adımıdır. İlk olarak adlandırılır, 
+new, örneklem oluşturmanın ilk adımıdır. İlk olarak adlandırılır, 
 ve sınıfınızın yeni bir örneklemi döndürmekten sorumludur. 
-Tezatında, **``init``** hiçbir şey döndürmez; yalnızca, oluşturulduktan sonra örneklemin başlatmasından sorumludur. 
+Tezatında, init hiçbir şey döndürmez; yalnızca, oluşturulduktan sonra örneklemin başlatmasından sorumludur. 
 
 Genel olarak, 
-str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturmuyorsanız **``new``**'yi geçersiz kılmanız gerekmez. </p> 
+str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturmuyorsanız new'yi geçersiz kılmanız gerekmez. </p> 
 
 <button class="w3-button w3-blue" onclick="document.getElementById('id01').style.display='block'">Bilgi!</button> 
 
 <div id="id01" class="w3-panel w3-green w3-display-container" style="display:none">
   <span onclick="this.parentElement.style.display='none'"
   class="w3-button w3-yellow w3-display-topright">&#10004;</span>
-  <p> **``init``** bazen nesnenin kurucusu olarak adlandırılır, çünkü kurucuların diğer dillerde kullanıldığı gibi kullanılır, ancak bu teknik olarak doğru değildir - onu başlatıcı olarak adlandırmak daha iyidir. Bir kurucuya daha benzer olan **``new``** adlı farklı bir yordam var, ancak neredeyse hiç kullanılmıyor.</p>
+  <p> init bazen nesnenin kurucusu olarak adlandırılır, çünkü kurucuların diğer dillerde kullanıldığı gibi kullanılır, ancak bu teknik olarak doğru değildir - onu başlatıcı olarak adlandırmak daha iyidir. Bir kurucuya daha benzer olan new adlı farklı bir yordam var, ancak neredeyse hiç kullanılmıyor.</p>
 </div>
 
 <br>
@@ -1417,11 +1417,11 @@ str, int, unicode veya tuple gibi bir değişmez tür alt sınıfını oluşturm
 <h3  id="C10">init yordamı</h3><hr>
 Yukarıdaki örnekler, en basit biçimde sınıflar ve nesnelerdir ve gerçek yaşam uygulamalarında gerçekten yararlı değildir. 
 
-Sınıfların manâsını anlamak için, yerleşik **``init``** yordamını anlamamız gerekir. 
+Sınıfların manâsını anlamak için, yerleşik init yordamını anlamamız gerekir. 
 
-Tüm sınıflar, sınıf başlatıldığında her zaman çalıştırılan **``init``** adında bir yordama sahiptir. 
+Tüm sınıflar, sınıf başlatıldığında her zaman çalıştırılan init adında bir yordama sahiptir. 
 
-Nesne özniteliklerine veya nesne oluşturulduğunda yapılması gereken diğer işlemlere değer atamak için **``init``** yordamını kullanın:
+Nesne özniteliklerine veya nesne oluşturulduğunda yapılması gereken diğer işlemlere değer atamak için init yordamını kullanın:
 
  
 <main class="grid">
@@ -1453,7 +1453,7 @@ Hello my name is John
 <br>
  
 <div class="w3-code notranslate pythonHigh">
-<strong>Not:</strong>  **``init``** bir sınıfın kurucusudur aslında başlatıcıdır. **``init``** yordamı, nesnenin belleğinin tahsis edildiği anda çağrılır.</div>
+<strong>Not:</strong>  init bir sınıfın kurucusudur aslında başlatıcıdır. init yordamı, nesnenin belleğinin tahsis edildiği anda çağrılır.</div>
 
 Python sınıflarında özel bir önemi olan birçok yöntem ismi vardır. **init** yönteminin önemini şimdi göreceğiz.
 
@@ -1498,10 +1498,10 @@ Burada, **__init__** yordamını bir parametre ismi (olağan self ile birlikte) 
 <br>
 
 
-<h3  id="C11">**``self``** Parametresi</h3><hr>
-<p> **``self``** sınıfın kendisine bir referanstır ve sınıfa ait özniteliklere erişmek için kullanılır. 
+<h3  id="C11">self Parametresi</h3><hr>
+<p> self sınıfın kendisine bir referanstır ve sınıfa ait özniteliklere erişmek için kullanılır. 
 
-**``self``** diye isimlendirilmek zorunda değildir, ne ile  istersen öyle çağırabilirsin, ama sınıftaki herhangi bir yordamın ilk parametresi olmalı:</p>
+self diye isimlendirilmek zorunda değildir, ne ile  istersen öyle çağırabilirsin, ama sınıftaki herhangi bir yordamın ilk parametresi olmalı:</p>
 
 
 <main class="grid">
@@ -1531,7 +1531,7 @@ Hello my name is John
 </main>
  
 <div class="w3-code notranslate pythonHigh">
-<strong>Not:</strong> **``self``** parametresi, sınıfa ait bir referanstır ve sınıfa ait özniteliklere erişmek için kullanılır.</div>
+<strong>Not:</strong> self parametresi, sınıfa ait bir referanstır ve sınıfa ait özniteliklere erişmek için kullanılır.</div>
 
 Sınıf yordamları, sıradan fonksiyonlardan yalnızca belirli bir fark içerirler - parametre listesinin başına eklenmesi gereken fazladan bir ilk ada sahip olmaları gerekir, ancak yordamı çağırdığınızda bu parametre için bir değer vermezsiniz, Python bunu sağlayacaktır. Bu özel değişken, öbeğin kendisine atıfta bulunur ve sözleşmeye göre, kendisine **self** ad verilir.
 
