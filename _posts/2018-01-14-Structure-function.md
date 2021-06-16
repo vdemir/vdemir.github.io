@@ -20,7 +20,7 @@ redirect_from:
 
 Bu yazıda, ```struct``` yapıları bir fonksiyon işlevine argüman olarak geçirmek için alakalı örnekler bulacaksınız ve bunları programınızda kullanabilirsiniz.
 
-![Alternative text](/images/c-structure-functions.jpg "C'de struct ve fonksiyon işlevi"){:height="80%" width="80%"}
+![Struct](/images/c-structure-functions.jpg "C'de struct ve fonksiyon işlevi"){:height="80%" width="80%"}
 
 C'de, ```struct``` iki yöntemle fonksiyon işlevlere geçirilebilir:
 
