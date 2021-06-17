@@ -9,6 +9,8 @@ categories: Programming
 comments: false
 published: true
 lang: tr
+redirect_from:
+  - /ceviriler/ceviriler2/2018-01-08-C-Data-Type.html
 ---
 
 
