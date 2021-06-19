@@ -35,7 +35,7 @@ redirect_from:
 {% assign maxRelatedCounter = 1 %}
 
 
-{% assign image_files = site.static_files | where: "image", true %}
+{% assign image_files = site.assets_files | where: "image", true %}
 {% for myimage in image_files %}
 ![Kuran]({{base.url}}/assets/kuran2/{{ maxRelatedCounter }}.jpg  "Kuran: Kelime Meali"){:height="91%" width="91%"}
   {{ maxRelatedCounter }}
