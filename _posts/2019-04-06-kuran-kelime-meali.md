@@ -3,6 +3,7 @@ layout: post
 title:  Kuran Kelime Meali
 description: Kuran- Kerim Resim formatında sayfalar, kelime mealli takip etmesi kolay anlaşılır, faydalı bir kaynak.
 date:   2019-04-14 12:00:00
+permalink: /Kuran-Kelime-Meal/
 tags:   Kelime
 categories: [Kuran]
 comments: false
@@ -10,6 +11,7 @@ published: true
 lang: tr
 redirect_from:
   - /kelime/sözlük/2019/04/14/kuran-kelime-meali.html
+  - /kuran/2019/04/14/kuran-kelime-meali.html
 ---
 
 
