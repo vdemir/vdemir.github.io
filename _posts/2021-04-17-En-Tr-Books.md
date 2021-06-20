@@ -23,7 +23,7 @@ redirect_from:
 <table class="tftable" border="1">
 <tr><th>TÜR</th><th>TARİH</th><th>BAŞLIK</th><th>iNDiR</th><th>KAPSAM</th></tr>
 
-<tr><td>PDF</td><td>1999</td><td>Envâru-l-Âşıkîn 1</td><td><a href="https://readordownloadbooks.bitbucket.io/viewer/web/viewer.html?file=https://readordownloadbooks.bitbucket.io/E1.pdf" target="_blank">LiNK</a></td><td>Hadis  ve  Kudsî  Hadis:</td></tr>
+<tr><td>PDF</td><td>1972</td><td>Envâru-l-Âşıkîn 1</td><td><a href="https://readordownloadbooks.bitbucket.io/viewer/web/viewer.html?file=https://readordownloadbooks.bitbucket.io/E1.pdf" target="_blank">LiNK</a></td><td>Hadis  ve  Kudsî  Hadis:</td></tr>
 <!--
 <tr><td>PDF</td><td>1999</td><td>English Turkish Dictionary</td><td><a href="https://vdemir.github.io/viewer/web/viewer.html?file=https://vdemir.github.io/assets/ingilizce1/A-B-C-D.pdf" target="_blank">LiNK</a></td><td>A-B-C-D</td></tr>
 
