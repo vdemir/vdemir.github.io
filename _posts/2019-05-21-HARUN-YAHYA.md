@@ -23,7 +23,7 @@ redirect_from:
 </style>
  
 <table class="tftable" border="1"> 
-<tr><th>CORPUS</th><th>PUBLISHED DATE</th><th>TITLE</th><th>READ</th><th>DESCRIPTION</th></tr>
+<tr><th>CORPUS</th><th>PUBLISHED DATE</th><th>TITLE</th><th>DESCRIPTION</th></tr>
 <tbody>
 <tr><td>PDF</td><td>MAY, 2016</td><td><a href="https://harun-yahya.github.io/HELPING-HAND-FOR-REFUGEES.html" target="_blank">A HELPING HAND FOR REFUGEES</a>
 </td><td>A HELPING HAND FOR REFUGEES</td></tr>
