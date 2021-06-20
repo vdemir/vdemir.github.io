@@ -2,8 +2,8 @@
 layout: post
 title:  English Turkish Books
 date:   2021-04-17 12:00:00
-tags:   Books
-categories: [Books]
+tags:   e-Books
+categories: [e-Books]
 comments: true
 published: true
 lang: en
