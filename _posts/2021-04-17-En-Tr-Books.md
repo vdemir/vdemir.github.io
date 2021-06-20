@@ -4,9 +4,12 @@ title:  English Turkish Books
 date:   2021-04-17 12:00:00
 tags:   Books
 categories: [Books]
-comments: false
+comments: true
 published: true
 lang: en
+encoding: UTF-8
+redirect_from:
+  - /books/2019/04/14/books.html
 ---
 
 <style type="text/css">
