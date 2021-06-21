@@ -25,7 +25,11 @@ layout: default
 {{ content | number_of_words | minus: 180 }}
 {% endcapture %}
 {% unless words contains '-' %}
+
+{% if page.lang == 'en' %}
 <p class="meta">{{ words | plus: 150 | divided_by: 150 | append: ' minutes to read' }}</p>
+{% if page.lang == 'tr' %}
+<p class="meta">{{ words | plus: 150 | divided_by: 150 | append: ' okuma zamanı' }}</p>{% endif %}
 {% endunless %}
 
 </div>
