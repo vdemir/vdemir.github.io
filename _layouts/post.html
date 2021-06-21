@@ -15,11 +15,6 @@ layout: default
 {% endif %}
 
 {% include tr_ay.html %}
-{{ content }}
-
-<br>
-<br>
-
 <div align="left">
 {% capture words %}
 {{ content | number_of_words | minus: 180 }}
@@ -33,6 +28,12 @@ layout: default
 {% endunless %}
 
 </div>
+{{ content }}
+
+<br>
+<br>
+
+
 
 <!---
 localize date post
