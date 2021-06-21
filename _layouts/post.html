@@ -15,9 +15,6 @@ layout: default
 {% endif %}
 
 {% include tr_ay.html %}
-
-{{ content }}
-
 <!---
 read time
 -->
@@ -33,6 +30,9 @@ read time
 <p class="meta">{{ words | plus: 150 | divided_by: 150 | append: ' dakika' }}</p>{% endif %}
 {% endunless %}
 </div>
+{{ content }}
+
+
 <br>
 <br>
 
