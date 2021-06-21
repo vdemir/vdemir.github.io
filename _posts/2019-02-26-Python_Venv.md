@@ -16,13 +16,13 @@ published: true
 lang: en
 ---
 
+## Python 3.7 “Virtual Env”
+The venv module provides support for creating lightweight “virtual environments” with their own site directories, optionally isolated from system site directories. Each virtual environment has its own Python binary (which matches the version of the binary that was used to create this environment) and can have its own independent set of installed Python packages in its site directories.
+
 ![Installing Python Setup Tools & Virtual Env.](/images/virtualenv.jpg "Installing Python Setup Tools & Virtual Env."){:height="57%" width="57%"}
 
 Python Setup Tools & Virtual Env.
 
-
-## Python 3.7 “Virtual Env”
-The venv module provides support for creating lightweight “virtual environments” with their own site directories, optionally isolated from system site directories. Each virtual environment has its own Python binary (which matches the version of the binary that was used to create this environment) and can have its own independent set of installed Python packages in its site directories.
 
 - venv is available by default in Python 3.3 and later, and installs pip and setuptools into created virtual environments in Python 3.4 and later.
 
