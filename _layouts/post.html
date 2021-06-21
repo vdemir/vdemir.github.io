@@ -16,15 +16,19 @@ layout: default
 
 {% include tr_ay.html %}
 {{ content }}
+
+<br>
+<br>
+
+<div align="left">
 {% capture words %}
 {{ content | number_of_words | minus: 180 }}
 {% endcapture %}
 {% unless words contains '-' %}
-{{ words | plus: 150 | divided_by: 150 | append: ' minutes to read' }}
+<p class="meta">{{ words | plus: 150 | divided_by: 150 | append: ' minutes to read' }}</p>
 {% endunless %}
 
-<br>
-<br>
+</div>
 
 <!---
 localize date post
