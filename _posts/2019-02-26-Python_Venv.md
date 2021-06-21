@@ -326,7 +326,7 @@ function myFunction2() {
 }
 </script>
 
-<button  onclick="myFunction2()">Instadroid.py - [Göster]/[Gizle]</button> 
+<button  onclick="myFunction2()">Instadroid.py - [Show]/[Hide]</button> 
 
 <div id="id02" style="display:none">
 
