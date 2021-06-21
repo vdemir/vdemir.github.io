@@ -14,7 +14,6 @@ layout: default
 </span>
 {% endif %}
 
-{% include tr_ay.html %}
 <!---
 read time
 -->
@@ -27,9 +26,10 @@ read time
 {% if page.lang == 'en' %}
 <p class="meta">{{ words | plus: 150 | divided_by: 150 | append: ' minutes to read' }}</p>
 {% elsif page.lang == 'tr' %}
-<p class="meta">{{ words | plus: 150 | divided_by: 150 | append: ' dakika' }}</p>{% endif %}
+<p class="meta">{{ words | plus: 150 | divided_by: 150 | append: ' dakikalık okuma' }}</p>{% endif %}
 {% endunless %}
 </div>
+{% include tr_ay.html %}
 {{ content }}
 
 
