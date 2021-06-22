@@ -46,5 +46,24 @@ redirect_from:
 {% endfor %}
 
 
+<div class="image-gallery">
+{% for file in site.static_files %}
+  {% if file.path contains include.kuran2 %}
+    {% if file.extname == '.jpg' or 
+      file.extname == '.jpeg' or 
+      file.extname == '.JPG' or 
+      file.extname == '.JPEG' %}
+
+      {% assign filenameparts = file.path | split: "/" %}
+      {% assign filename = filenameparts | last | replace: file.extname,"" %}
+
+      <a href="{{ file.path }}" title="{{ filename }}">
+        <img src="{{site.url}}/assets/{{ file.path }}" alt="{{ filename }}" />
+        <span>{{ filename }}</span>
+      </a>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+</div>
 
 
