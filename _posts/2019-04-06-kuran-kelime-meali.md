@@ -4,7 +4,7 @@ title:  Kuran Kelime Meali
 description: Kuran- Kerim Resim formatında sayfalar, kelime mealli takip etmesi kolay anlaşılır, faydalı bir kaynak.
 date:   2019-04-14 12:00:00
 permalink: /Kuran-Kelime-Meal/
-tags:   Kelime
+tags:   Kuran
 categories: [Kuran]
 comments: false
 published: true
