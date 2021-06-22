@@ -50,7 +50,7 @@ exclude:
 include: ['.htaccess']
 defaults:
   - scope:
-      path: assets/kuran
+      path: assets/kuran2
     values:
       image: true
 
@@ -64,3 +64,10 @@ plugins:
 
 whitelist:
   - jekyll-redirect-from
+  
+facebook_url: 
+twitter_url: 
+linkedin_url: yasemin-yolda-96881a214
+googleplus_url:
+pinterest_url: yolyasemin6
+instagram_url: 
