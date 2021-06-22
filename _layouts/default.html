@@ -153,5 +153,9 @@
 </noscript>
 <script defer src="https://counter2000.herokuapp.com/ingress/2de72512-47ff-4d6f-ab2b-99c87373394b/script.js"></script>
 
+if(readCookie('cookie-notice-dismissed')=='true') {
+    {% include script.js %}
+}
+
 </body>
 </html>
