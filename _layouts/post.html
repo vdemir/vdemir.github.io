@@ -18,7 +18,7 @@ layout: default
 <!---
 read time
 -->
-<div align="left">
+<div align="right">
 {% capture words %}
 {{ content | number_of_words | minus: 180 }}
 {% endcapture %}
@@ -53,8 +53,8 @@ localize date post
 {% elsif page.lang == 'en' %}
 <p class="meta">Last Update: {{ page.last_updated | date_to_string }}</p>
 {% endif %}{% endif %}
-</div>
 {% include share-buttons.html %}
+</div>
 <hr>
 <br>
 <br>
