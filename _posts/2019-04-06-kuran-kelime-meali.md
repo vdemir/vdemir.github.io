@@ -54,7 +54,7 @@ redirect_from:
       {% assign filename = filenameparts | last | replace: file.extname,"" %}
 
       <a href="{{ file.path }}" title="{{ filename }}">
-        <img src="{{site.url}}/assets/{{ file.path }}" alt="{{ filename }}" />
+        <img src="{{site.url}}/assets/kuran2/{{ file.path }}" alt="{{ filename }}" />
         <span>{{ filename }}</span>
       </a>
     {% endif %}
