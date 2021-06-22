@@ -15,7 +15,11 @@ layout: default
 {% endif %}
 
 {% include tr_ay.html %}
+
+
+<div align="left">
 {% include follow-buttons.html %}
+</div>
 <!---
 read time
 -->
@@ -31,6 +35,7 @@ read time
 <p class="meta">{{ words | plus: 150 | divided_by: 150 | append: ' dakikalık okuma' }}</p>{% endif %}
 {% endunless %}
 </div>
+
 {{ content }}
 
 
