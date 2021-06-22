@@ -46,7 +46,6 @@ redirect_from:
 {% endfor %}
 
 
-<div class="image-gallery">
 {% for file in site.assets_files %}
   {% if file.path contains include.kuran2 %}
     {% if file.extname == '.jpg' %}
@@ -61,6 +60,3 @@ redirect_from:
     {% endif %}
   {% endif %}
 {% endfor %}
-</div>
-
-
