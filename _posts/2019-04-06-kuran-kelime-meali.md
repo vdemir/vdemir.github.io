@@ -47,12 +47,9 @@ redirect_from:
 
 
 <div class="image-gallery">
-{% for file in site.static_files %}
+{% for file in site.assets_files %}
   {% if file.path contains include.kuran2 %}
-    {% if file.extname == '.jpg' or 
-      file.extname == '.jpeg' or 
-      file.extname == '.JPG' or 
-      file.extname == '.JPEG' %}
+    {% if file.extname == '.jpg' %}
 
       {% assign filenameparts = file.path | split: "/" %}
       {% assign filename = filenameparts | last | replace: file.extname,"" %}
