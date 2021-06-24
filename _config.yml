@@ -50,7 +50,7 @@ exclude:
 include: ['.htaccess']
 defaults:
   - scope:
-      path: assets/kuran2
+      path: /assets/kuran2
     values:
       image: true
 
