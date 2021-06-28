@@ -4,13 +4,7 @@ highlighter: rouge
 # Site wide configuration
 
 
-description:
-
-  # Description of your site. This will show up in google.
-  meta: Günce - Günlük Blog Yazıları
-
-  # Description of your site. This will show up on the front page.
-  subtitle: Günce - Daily is a minimalist blog with focus on readability and content. 
+description: Günce - Daily is a minimalist blog with focus on readability and content. 
 
 title             : Günce - Günlük Blog Yazıları
 lang              : tr_TR
