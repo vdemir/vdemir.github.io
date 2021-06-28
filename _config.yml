@@ -7,7 +7,7 @@ highlighter: rouge
 description:
 
   # Description of your site. This will show up in google.
-  meta: Günce - Daily is a minimalist blog with focus on readability and content.
+  meta: Günce - Günlük Blog Yazıları
 
   # Description of your site. This will show up on the front page.
   subtitle: Günce - Daily is a minimalist blog with focus on readability and content. 
@@ -27,7 +27,7 @@ author:
   bio             : Just another tattooed, time traveling designer.
   picture         : 
 
-yandex-_site_verification     : b642748cb18cbd1c
+yandex-_site_verification    : b642748cb18cbd1c
 google_site_verification     : zFuwF6tlf7YemTRN-ZOvl5lG1rjuI9qEomPbr_5vAu8
 google_site_verification     : NPR2vlrqfMoAsn4QZd5lhExZPLxUgH0vvjNlaQpb7To
 google_site_verification     : BCcxBcS3lgMpeUrrxaTxXkRz0IqUa5Jp4-N6GYIB7VM
