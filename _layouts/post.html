@@ -120,7 +120,6 @@ relatedPosts
     {% endfor %}
 
     {% if sTagCount >= mCommonTags %}
-<div class="relatedPosts">
       {% assign mRelatedCounter = mRelatedCounter | plus: 1 %}
       {% if mRelatedCounter >= mRelated %}
         {% break %}
@@ -152,6 +151,7 @@ relatedPosts
       {% endif %}
     {% endfor %}
 
+<div class="relatedPosts">
     {% if sameTagCount >= minCommonTags %}
   <ul class="posts">
       <div>
