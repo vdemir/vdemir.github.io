@@ -153,10 +153,9 @@ relatedPosts
 
 <div class="relatedPosts">
   <ul class="posts">
-      <div>
     {% if sameTagCount >= minCommonTags %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}" style="text-decoration: none; color:#3E2723; cursor:pointer">{{ post.title }}, {{ commonTags }}</a></li>
-      </div>
+   
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
         {% break %}
