@@ -151,8 +151,8 @@ relatedPosts
       {% endif %}
     {% endfor %}
 
-<div class="relatedPosts">
     {% if sameTagCount >= minCommonTags %}
+<div class="relatedPosts">
   <ul class="posts">
       <div>
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}" style="text-decoration: none; color:#3E2723; cursor:pointer">{{ post.title }}, {{ commonTags }}</a></li>
