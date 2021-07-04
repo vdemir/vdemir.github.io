@@ -130,8 +130,6 @@ relatedPosts
 {% if mRelatedCounter >= 1 %}
 {% if page.lang == 'en' %}
   <h3>Related Posts</h3>{% elsif page.lang == 'tr' %}<h3>İlgili İçerikler</h3>{% endif %}
-<div class="relatedPosts">
-  <ul class="posts">
 {% endif %}  
   
 
@@ -154,6 +152,8 @@ relatedPosts
     {% endfor %}
 
     {% if sameTagCount >= minCommonTags %}
+<div class="relatedPosts">
+  <ul class="posts">
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}" style="text-decoration: none; color:#3E2723; cursor:pointer">{{ post.title }}, {{ commonTags }}</a></li>
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}
