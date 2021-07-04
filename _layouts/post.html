@@ -99,7 +99,6 @@ latest post
 <!---
 relatedPosts
 -->  
-<div class="relatedPosts">
 
 
 {% assign mRelated = 3 %}
@@ -121,6 +120,7 @@ relatedPosts
     {% endfor %}
 
     {% if sTagCount >= mCommonTags %}
+<div class="relatedPosts">
       {% assign mRelatedCounter = mRelatedCounter | plus: 1 %}
       {% if mRelatedCounter >= mRelated %}
         {% break %}
