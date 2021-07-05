@@ -6,7 +6,7 @@ last_updated: 2021-06-12 12:00:00
 description: İnternet sayfalarının ilk açılış gösterimi düşünüldüğünde, sayfanın daha hızlı yüklenmesi ve kullanıcıların hedeflerini olabildiğince çabuk tamamlaması için (İnternet) metin sunucuda birleştirme, küçültme, önbelleğe alma veya gzipleme gibi şeyler düşünürüz. 
 excerpt: Prefetching (hazır duruma getirme), preloading (sayfayı önceden yükleme), prerendering (sayfayı önceden oluşturma)
 keywords: IP Addressing CIDR
-tags:  Web Article Metod Dnsmasq
+tags:  Web Article
 categories: [Web ]
 comments: false
 published: true
