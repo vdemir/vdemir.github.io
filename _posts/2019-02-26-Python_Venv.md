@@ -8,7 +8,7 @@ keywords: linux, python3, VirtualEnv
 summary: "Python 3.7 Virtual Env"
 excerpt: The venv module provides support for creating lightweight “virtual environments” with their own site directories, optionally isolated from system site directories
 categorie: Programlama
-tags:   Python3 Linux VirtualEnv Doc
+tags:   Python3 Linux VirtualEnv
 categories: [Python3]
 permalink: /VirtualEnv/
 comments: false
