@@ -19,7 +19,7 @@ var Shynet = {
       var xhr = new XMLHttpRequest();
       xhr.open(
         "POST",
-        "https://counter2000.herokuapp.com/ingress/2de72512-47ff-4d6f-ab2b-99c87373394b/script.js",
+        "https://counter2000.herokuapp.com/ingress/5b3632ab-d442-4640-9334-cea241d02a39/script.js",
         true
       );
       xhr.setRequestHeader("Content-Type", "application/json");
