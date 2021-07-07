@@ -11,6 +11,8 @@ permalink: /:categories/:title/
 comments: false
 published: true
 lang: tr
+redirect_from:
+  - /kitap/2021/05/27/Atom-Mucizesi.html
 ---
 
 

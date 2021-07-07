@@ -12,6 +12,8 @@ permalink: /:categories/:title/
 comments: false
 published: true
 lang: tr
+redirect_from:
+  - /web/2021/05/29/Pre-Browsing.html
 ---
 
 

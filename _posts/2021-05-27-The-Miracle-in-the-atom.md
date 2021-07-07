@@ -12,8 +12,6 @@ permalink: /:categories/:title/
 comments: false
 published: true
 lang: en
-redirect_from:
-  - /kitap/2021/05/27/Atom-Mucizesi.html
 ---
 
 **THE MIRACLE IN THE ATOM**
