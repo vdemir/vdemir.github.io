@@ -22,11 +22,9 @@ BIOS önyüklemesinde GPT için ilk bölüm 8MB biçimlendirilmemiş ve 'bios_gr
 
 İndirmeyi başlatmak için aşağıdan bir bağlantı seçin. 
 
-
-| Sürüm                  |  Çıkış Tarihi |  İndirme Bağlantısı |
-|------------------------|---------------|---------------------|
-| windows10ISO           |  24.10.2018   |  [windows10ISO](https://www.microsoft.com/TR-TR/software-download/windows10ISO)|
-
+| Sürüm        | Çıkış Tarihi | İndirme Bağlantısı                                                               |
+|--------------|--------------|----------------------------------------------------------------------------------|
+| windows10ISO | 24.10.2018   | [windows10ISO](https://www.microsoft.com/TR-TR/software-download/windows10ISO)\| |
 
 
 
