@@ -7,7 +7,8 @@ keywords: The Miracle in The Atom Harun Yahya
 date:   2021-05-24 12:00:00
 last_updated: Aug 29, 2021
 tags:  Books
-categories: [Books ]
+categories: [Books]
+permalink: /:categories/:title/
 comments: false
 published: true
 lang: en

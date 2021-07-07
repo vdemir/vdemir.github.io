@@ -7,7 +7,8 @@ description: İnternet sayfalarının ilk açılış gösterimi düşünüldüğ
 excerpt: Prefetching (hazır duruma getirme), preloading (önceden getirme), prerendering (sayfayı önceden oluşturma)
 keywords: Prefetching, Preloading, Prerendering ,prefetch preload prerender,prefetch kapatma,prefetch,prefetch dosyası,prefetch klasörü,prefetch ne işe yarar,prefetch silmek,prefetch silme,prefetch ne demek
 tags:  Web Article Html
-categories: [Web ]
+categories: [Web]
+permalink: /:categories/:title/
 comments: false
 published: true
 lang: tr
