@@ -5,10 +5,13 @@ description: BIOS önyüklemesinde GPT için ilk bölüm 8MB biçimlendirilmemi�
 date:   2019-04-04 12:00:00
 last_updated: 2021-06-05 18:57:00
 tags:   Linux
-categories: [Linux]
+categories: Linux
+permalink: /:categories/:title/
 comments: false
 published: true
 lang: tr
+redirect_from:
+  - /linux/2019/04/04/Linux-Win-iso-Masaustu-Kalibi-Yazdırma.html
 ---
 
 
