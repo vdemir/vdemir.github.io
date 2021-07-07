@@ -5,12 +5,14 @@ description: C Preprocessor Önişlemci bildirimleri compiler derleyicinin bir p
 date:   2018-01-03 12:52:00
 tags:   C Programlama GCC
 categories: Programlama
+permalink: /:categories/:title/
 comments: false
 published: true
 lang: tr
 redirect_from:
   - /2018/01/03/Preprocessor.html
   - /ceviriler/ceviriler2/2018-01-03-Preprocessor.html
+  - /programlama/2018/01/03/Preprocessor.html
 ---
  
 
