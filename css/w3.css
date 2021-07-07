@@ -236,3 +236,18 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .tftable td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #729ea5;}
 .tftable tr:hover {background-color:#ffffff;}
 .responsive-wrap a, p, div, img iframe{ max-width: 100%;}
+
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th, td {
+                border: 1px solid #ccc;
+                padding: 10px;
+            }
+            table.alt tr:nth-child(even) {
+                background-color: #eee;
+            }
+            table.alt tr:nth-child(odd) {
+                background-color: #fff;
+            }  
