@@ -39,21 +39,3 @@ Pisi Linux 1.2 serisinin için mevcut olan Xfce paketleri ile kurulabilen bir ka
 | Pisi Linux 2.2 KDE     |  05.06.2021   |  [Pisi Linux 2.2](https://e.pcloud.link/publink/show?code=XZ48hVZ76DhkHNleSHNaD1ntogQdQd0CrxX) (Test)|
 
 
-<style>
-            table {
-                border-collapse: collapse;
-                width: 100%;
-            }
-            th, td {
-                border: 1px solid #ccc;
-                padding: 10px;
-            }
-            table.alt tr:nth-child(even) {
-                background-color: #eee;
-            }
-            table.alt tr:nth-child(odd) {
-                background-color: #fff;
-            }            
-        </style>
-
-
