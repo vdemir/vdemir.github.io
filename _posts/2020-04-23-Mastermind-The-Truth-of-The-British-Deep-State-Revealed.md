@@ -8,11 +8,13 @@ date:   2020-04-23 12:00:00
 last_updated: Aug 29, 2021
 tags:   Books
 categories: [Books]
+permalink: /:categories/:title/
 comments: false
 published: true
 lang: en
 redirect_from:
   - /books/2020/04/23/Mastermind.html
+  - /books/2020/04/23/Mastermind-The-Truth-of-The-British-Deep-State-Revealed.html
 sitemap:
   lastmod: 2021-05-23
   priority: 0.7
