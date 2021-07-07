@@ -55,7 +55,7 @@ Gerçek bir Windows DVD veya görüntüden bir Windows USB stick yükleyici olu�
   <tr>
     <td>WoeUSB 5.1.2</td>
     <td>23.05.2021</td>
-    <td><a href="https://github.com/WoeUSB/WoeUSB/releases/tag/v5.1.2">[WoeUSB](https://github.com/WoeUSB/WoeUSB/releases/tag/v5.1.2)</a></td>
+    <td><a href="https://github.com/WoeUSB/WoeUSB/releases/tag/v5.1.2">WoeUSB</a></td>
   </tr>
 </tbody>
 </table>
