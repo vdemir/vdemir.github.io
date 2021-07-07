@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "IP Adresleme ve CIDR Grafikleri"
-date:   2021-06-12 12:00:00
-last_updated: 2021-06-12 12:00:00
 description: İnternet sayfalarının ilk açılış gösterimi düşünüldüğünde, sayfanın daha hızlı yüklenmesi ve kullanıcıların hedeflerini olabildiğince çabuk tamamlaması için (İnternet) metin sunucuda birleştirme, küçültme, önbelleğe alma veya gzipleme gibi şeyler düşünürüz. 
 excerpt: Prefetching (hazır duruma getirme), preloading (sayfayı önceden yükleme), prerendering (sayfayı önceden oluşturma)
 keywords: IP Addressing CIDR
@@ -12,6 +10,8 @@ permalink: /:categories/:title/
 comments: false
 published: true
 lang: tr
+date:   2021-06-12 12:00:00
+last_updated: 2021-06-12 12:00:00
 redirect_from:
   - /web/2021/06/12/understanding-ip-addressing.html
 ---
