@@ -2134,7 +2134,7 @@ def a_decorator_passing_arbitrary_arguments(function_to_decorate):
         print(kwargs)
         # Then you unpack the arguments, here *args, **kwargs
         # If you are not familiar with unpacking, check:
-        # https://www.saltycrane.com/blog/2008/01/how-to-use-args-and-kwargs-in-python/
+        # http://www.saltycrane.com/blog/2008/01/how-to-use-args-and-kwargs-in-python/
         function_to_decorate(*args, **kwargs)
     return a_wrapper_accepting_arbitrary_arguments
 

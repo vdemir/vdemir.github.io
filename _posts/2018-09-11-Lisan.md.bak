@@ -1,0 +1,137 @@
+---
+layout: post
+title:  Lisan Yordamı ile Dil Öğrenme Metodu
+date:   2018-09-11 12:00:00
+last_updated: 2018-09-11 12:00:00
+keywords: lisan, ingilizce, dil
+summary: "Dil öğrenimine yeni bir yaklaşım"
+excerpt: This post is about Language
+categorie: Lisan
+tags:   Kelime
+categories: [Dil]
+permalink: /Lisan/
+comments: false
+published: true
+lang: tr
+---
+
+<style>
+.alert{position:relative;padding:.75rem 1.25rem;margin-bottom:1.125rem;border:1px solid transparent;border-radius:.25rem}.alert-heading{color:inherit}.alert-link{font-weight:700}.alert-dismissible{padding-right:4.1875rem}.alert-dismissible .close{position:absolute;top:0;right:0;padding:.75rem 1.25rem;color:inherit}.alert-primary{color:#32516b;background-color:#dfebf5;border-color:#d3e3f1}.alert-primary hr{border-top-color:#c0d7eb}.alert-primary .alert-link{color:#223748}.alert-secondary{color:#7d7d7d;background-color:#fcfcfc;border-color:#fbfbfb}.alert-secondary hr{border-top-color:#eee}.alert-secondary .alert-link{color:#646464}.alert-success{color:#155724;background-color:#d4edda;border-color:#c3e6cb}.alert-success hr{border-top-color:#b1dfbb}.alert-success .alert-link{color:#0b2e13}.alert-info{color:#0c5460;background-color:#d1ecf1;border-color:#bee5eb}.alert-info hr{border-top-color:#abdde5}.alert-info .alert-link{color:#062c33}.alert-warning{color:#856404;background-color:#fff3cd;border-color:#ffeeba}.alert-warning hr{border-top-color:#ffe8a1}.alert-warning .alert-link{color:#533f03}.alert-danger{color:#850000;background-color:#fcc;border-color:#ffb8b8}.alert-danger hr{border-top-color:#ff9f9f}.alert-danger .alert-link{color:#520000}.alert-light{color:gray;background-color:#fdfdfd;border-color:#fcfcfc}.alert-light hr{border-top-color:#efefef}.alert-light .alert-link{color:#676767}.alert-dark{color:#0c1c28;background-color:#d1d7db;border-color:#bec6cd}.alert-dark hr{border-top-color:#b0b9c2}.alert-dark .alert-link{color:#000101}@-webkit-keyframes progress-bar-stripes{from{background-position:1rem 0}to{background-position:0 0}}@keyframes progress-bar-stripes{from{background-position:1rem 0}to{background-position:0 0}}
+
+</style>
+
+<div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
+  <img src="{{ site.baseurl }}/images/lisan/lisan1.png" alt="lisan" class="resize" />
+  <p><small>Lisan &bull; Yordam.</small></p>
+</div> 
+  
+<style>
+img.resize {
+  max-width:100%;
+  max-height:100%;
+}
+</style>
+
+<link href="//fonts.googleapis.com/css?family=Life+Savers" rel="stylesheet">
+<style>
+  body {
+    font-family: 'Life Savers', serif;
+    font-size: 1.29vw;
+    } 
+ .off {
+    font-feature-settings: "liga" off;
+    color: gray;
+  }
+ .on {
+    font-feature-settings: "liga" on;
+    color: orange;
+  }
+</style>
+<span class="off">fi</span>
+<span class="on">fi</span>
+
+
+### Kelime Bilgisi için Kaynakça: 
+***
+
+Tureng Sözlük - tureng.com/tr/
+
+Sesli Sözlük - seslisozluk.net
+
+### Kelimelerin ve Cümle içindeki Manasının Belirlenmesi:
+***
+
+
+|                            |   |                           |   |   |   |   |   |   |
+|----------------------------|---|---------------------------|---|---|---|---|---|---|
+| **reliable** {s} güvenilir | . | **environment** {i} ortam | . | **confusing** {s} kafa karıştırıcı     | . | . | . | . |
+| **aspect** {i} yön         | . | **preserve** {f} muhafaza etmek                         | . | . | . | . | . | . |
+| **handling** {i} kullanma  | . | **concern** {i} endişe                           | . | . | . | . | . | . |
+| **certain** {s} belirli    | . | **handle** {f} idare etmek                              | . | . | . | . | . | . |
+| **yield** {f} sağlamak     | . | **conclusion** {i} sonuç  | . | . | . | . | . | . |
+|                            |   |                           |   |   |   |   |   |   |
+
+### İncelenen Tümceler
+***
+
+**"Datetime. In amber an insect is preserved for millions of years. A volcano erupts. A meteor hits earth. Existence in amber is unchanging."**
+
+**"In the current time (and of no concern to the insect) we use Python's datetime module to handle dates. This module parses strings containing dates."**
+
+**"Parse. To parse we have the strptime method in datetime. The name is confusing—it comes from the C standard library. This method requires two arguments."**
+
+**"In conclusion, the Python environment has strong support for time handling. These libraries are built into the environment. They do not need to be recreated in each program."**
+
+**"This yields faster, more reliable software. Certain aspects of time handling, such as computing calendar dates by offsets, is best left to sophisticated libraries."**
+
+### Tümce Çevirisi
+***
+
+Datetime. Kehribarda bir böcek milyonlarca yıldan beri korunur. Bir volkan patlar. Bir meteor dünyaya çarpar. Amber’deki varlık değişmez.
+
+Şimdiki zamanda (ve böcek için endişe duymadan) tarihleri ​​işlemek için Python'un datetime modülünü kullanıyoruz. Bu modül, tarihleri ​​idare etmek için dizeleri ayrıştırır.
+
+Ayrıştırma. Ayrıştırmak için datetime'da strptime metoduna sahibiz. İsim kafa karıştırıcıdır - C standart kütüphanesinden geliyor. Bu yöntem iki argüman gerektirir.
+
+Sonuç olarak, Python ortamı zaman kullanımı için güçlü bir desteğe sahiptir. Bu kütüphaneler ortam içine inşa edilmiştir. Her programda yeniden oluşturulmaları gerekmez. 
+
+Bu daha hızlı, daha güvenilir bir yazılım sağlar. Zamanı kullanmanın belirli yönleri, örneğin takvim tarihlerini denkleştirerek hesaplama gibi, en iyi sofistike kütüphanelere bırakılır.
+
+### Infinitive,	Simple Past,	Past Participle
+***
+
+|           |      |               |      |               |	
+|-----------|------|---------------|------|---------------|
+| leave     |      | left          |      | left          |
+|           |      |               |      |               |
+
+
+### COMPARISON AND SUPERLATIVE ADJECTIVES
+***
+
+|           |   |               |   |               |
+|-----------|---|---------------|---|---------------|
+| good      |   | better        |   | best          |
+| fast      |   | faster        |   | fastest       |
+| reliable  |   | more reliable |   | most reliable |
+|           |   |               |   |               |
+
+
+<div class="alert alert-warning" role="alert">
+<p><strong>THE PRESENT CONTINUOUS IS USED:</strong> İngilizce'deki tüm zamanlarda olduğu gibi, konuşmacının tutumu da eylemin veya etkinliğin zamanı kadar önemlidir. Birisi present continuous kullandığında, bitmemiş ya da tamamlanmamış bir şey hakkında düşünüyor.
+
+Şu anda devam eden bir eylemi tanımlamak için:
+Bu süre boyunca devam eden bir eylemi ya da bir trendi tanımlamak için:
+Önceden planlanmış veya hazırlanmış olan bir eylem veya olayı tanımlamak için:
+Geçici bir olayı veya durumu açıklamak için:
+Devamlı bir dizi tekrarlanan eylemi tanımlamak ve vurgulamak için 'daima, sonsuza dek, sürekli' ile:
+</p>
+</div>
+
+
+
+
+
+
+
+

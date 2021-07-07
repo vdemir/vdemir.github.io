@@ -67,7 +67,7 @@ If we’re certain that a specific resource will be required in the future, then
 
 Unlike DNS prefetching, we’re actually requesting and downloading that asset and storing it in the cache. However, this is dependent on a number of conditions, as prefetching can be ignored by the browser. For example, a client might abandon the request of a large font file on a slow network. Firefox will only prefetch resources when [“the browser is idle”](https://developer.mozilla.org/en-US/docs/Web/HTTP/Link_prefetching_FAQ).
 
-As [Bram Stein explains](https://www.bramstein.com/writing/preload-hints-for-web-fonts.html) in his post on the matter, this could have huge performance benefits for webfonts. At the moment, font files have to wait for the DOM and CSSOM to be constructed before they even download. But, if we prefetch them, then that bottleneck can be circumnavigated with ease.
+As [Bram Stein explains](http://www.bramstein.com/writing/preload-hints-for-web-fonts.html) in his post on the matter, this could have huge performance benefits for webfonts. At the moment, font files have to wait for the DOM and CSSOM to be constructed before they even download. But, if we prefetch them, then that bottleneck can be circumnavigated with ease.
 
 _Note: although prefetching assets used to be a little difficult to test, Chrome and Firefox will now show prefetched resources in the Network panel. Also, it’s helpful to remember that there’s no same-origin restriction for link prefetching._
 
@@ -94,7 +94,7 @@ This is the nuclear option, as `prerender` gives us the ability to preemptively 
 
     <linkrel="prerender"href="https://css-tricks.com">
 
-Steve Souders wrote [a great explanation about this technique](https://www.stevesouders.com/blog/2013/11/07/prebrowsing/):
+Steve Souders wrote [a great explanation about this technique](http://www.stevesouders.com/blog/2013/11/07/prebrowsing/):
 
 > This is like opening the URL in a hidden tab – all the resources are downloaded, the DOM is created, the page is laid out, the CSS is applied, the JavaScript is executed, etc. If the user navigates to the specified `href`, then the hidden page is swapped into view making it appear to load instantly. Google Search has had this feature for years under the name Instant Pages. Microsoft recently announced they’re going to similarly use prerender in Bing on IE11.
 

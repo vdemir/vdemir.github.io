@@ -70,7 +70,7 @@ depo ve servislerin aktif hale getirilmesi
 * * *
 
 {% highlight bash %}
-pisi ar beta https://ciftlik.pisilinux.org/2.0-Beta.1/pisi-index.xml.xz
+pisi ar beta http://ciftlik.pisilinux.org/2.0-Beta.1/pisi-index.xml.xz
 
  OR
  
@@ -370,7 +370,7 @@ Siteye gidin, bir hesap oluşturun ve ardından kontrol panelindeki API tuşlar�
 
 Kullanacağımız tek uç nokta aşağıdadır. Bu nedenle, API anahtarınızla aşağıdaki URL'yi değiştirerek ve tarayıcınızdaki URL’ye giderek döndürülen gerçek verileri görebilirsiniz. API anahtarınızın aktif olması birkaç dakika sürebilir, bu nedenle ilk başta çalışmazsa birkaç dakika sonra tekrar deneyin.
 
-https://api.openweathermap.org/data/2.5/weather?q=las%20vegas&units=metric&appid=YOUR\_APP\_KEY
+http://api.openweathermap.org/data/2.5/weather?q=las%20vegas&units=metric&appid=YOUR\_APP\_KEY
 
 Bununla, verileri uygulamamıza eklemek için bir istek ekleyelim.
 
