@@ -99,7 +99,7 @@ C Preprocessor Önişlemci bildirimleri compiler derleyicinin bir parçası değ
    </tbody>
 </table>
 
-[![SUNMI(선미) _ Gashina(가시나)](http://img.youtube.com/vi/ur0hCdne2-s/0.jpg)](https://www.youtube.com/watch?v=ur0hCdne2-s)
+[![SUNMI(선미) _ Gashina(가시나)](https://img.youtube.com/vi/ur0hCdne2-s/0.jpg)](https://www.youtube.com/watch?v=ur0hCdne2-s)
 
 
 ## #include önişlemci bildirimleri
