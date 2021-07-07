@@ -7,10 +7,13 @@ description: İnternet sayfalarının ilk açılış gösterimi düşünüldüğ
 excerpt: Prefetching (hazır duruma getirme), preloading (sayfayı önceden yükleme), prerendering (sayfayı önceden oluşturma)
 keywords: IP Addressing CIDR
 tags:  Web Article Html
-categories: [Web ]
+categories: Web
+permalink: /:categories/:title/
 comments: false
 published: true
 lang: tr
+redirect_from:
+  - /web/2021/06/12/understanding-ip-addressing.html
 ---
 
 # IP Adreslemeyi Kavrama ve CIDR Grafiklerini Anlama 
