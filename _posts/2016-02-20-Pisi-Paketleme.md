@@ -16,7 +16,7 @@ redirect_from:
 
 Pisi Linux Dağıtımında kullandığımız pisi paket sistemi python dilinde yazılmış paket yapımı ve kurulumu gibi araçları içeren bir uygulamadır. 
 
-Belgelendirme çalışmamızın başlangıç aşaması [gitbook](https://vdemir.gitbooks.io/pisi-paket-yapimi/content/) sitesinde barındırılmaktadır.
+Belgelendirme çalışmamızın başlangıç aşaması [gitbook](https://vdemir.gitbooks.io/pisi-paket-yapimi/content/) ve [gitbook](https://pisilinux.gitbook.io/pisi-linux-book/) barındırılmaktadır.
 
 
 
