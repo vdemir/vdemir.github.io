@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Matter, The Other Name For Illusion
+title:  "Matter: The Other Name For Illusion"
 description: When you look out of the window, you think that you see an image with your eyes, as this is the way that you have been taught to think. However, in reality this is not how it works, because you do not see the world with your eyes. You see the image created in your brains. This is not a prediction, nor a philosophical speculation, but the scientific truth.
 excerpt: We Can Never Reach The Original Of The World That Occurs Within Our Brain. The Sense of Distance Is Also A Perception ThatOccurs In The Brain
 summary: When you look out of the window, you think that you see an image with your eyes, as this is the way that you have been taught to think. However, in reality this is not how it works, because you do not see the world with your eyes. You see the image created in your brains. This is not a prediction, nor a philosophical speculation, but the scientific truth.
@@ -9,11 +9,13 @@ tags:  Books
 date:   2021-05-24 12:00:00
 last_updated: Aug 29, 2021
 categories: [Books ]
+permalink: /:categories/:title/
 comments: false
 published: true
 lang: en
 redirect_from:
   - /books/2021/05/24/MATTER.html
+  - /books/2021/05/24/Matter-The-Other-Name-For-Illusion.html
 ---
 <!-- Article
 			<article class="article-post">
