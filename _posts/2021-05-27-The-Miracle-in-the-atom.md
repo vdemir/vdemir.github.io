@@ -12,6 +12,8 @@ permalink: /:categories/:title/
 comments: false
 published: true
 lang: en
+redirect_from:
+  - /books/2021/05/24/The-Miracle-in-the-atom.html
 ---
 
 **THE MIRACLE IN THE ATOM**
