@@ -18,7 +18,9 @@ Pisi Linux dağıtımında ve benzer şekilde diğer linux dağıtımlarında Je
 
 Kuruluma başlamadan önce hazırlık aşamasını geçelim. Jekyll kurulumu için ```rubygems``` ve ```ruby-devel``` paketlerine ihtiyaç var. Önce bu paketlerin kurulumunu tamamlıyoruz. Ayrıca ```gem install``` komutu ile ```jekyll``` kurulumunu gerçekleştiriyoruz. Paket kurulumunu tamamladıktan sonra sıra geldi web sayfamız için gereken dosyaların oluşacağı dizini hazırlamaya bunun için de bir komut işletiyoruz. 
 
-```sudo jekyll new my-awesome-site```
+{% highlight bash %}
+sudo jekyll new my-awesome-site
+{% endhighlight %}
 
 Dizin içerisine önceden hazırladığımız dosyalarıda atabiliriz. Dizin içerisinde iken servis komutumuz  ```sudo jekyll serve```
 
