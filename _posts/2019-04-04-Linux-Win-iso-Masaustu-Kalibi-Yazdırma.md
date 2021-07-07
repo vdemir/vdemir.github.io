@@ -24,7 +24,7 @@ BIOS önyüklemesinde GPT için ilk bölüm 8MB biçimlendirilmemiş ve 'bios_gr
 
 | Sürüm        | Çıkış Tarihi | İndirme Bağlantısı                                                               |
 |--------------|--------------|----------------------------------------------------------------------------------|
-| windows10ISO | 24.10.2018   | [windows10ISO](https://www.microsoft.com/TR-TR/software-download/windows10ISO)\| |
+| windows10ISO | 24.10.2018   | [windows10ISO](https://www.microsoft.com/TR-TR/software-download/windows10ISO)   |
 
 
 
@@ -39,10 +39,9 @@ BIOS önyüklemesinde GPT için ilk bölüm 8MB biçimlendirilmemiş ve 'bios_gr
 Gerçek bir Windows DVD veya görüntüden bir Windows USB stick yükleyici oluşturmak için bir Linux programı.
 
 
-| Sürüm                  |  Çıkış Tarihi |  İndirme Bağlantısı |
-|------------------------|---------------|---------------------|
-| WoeUSB 5.1.2           |  23.05.2021   |  [WoeUSB](https://github.com/WoeUSB/WoeUSB/releases/tag/v5.1.2)|
-
+| Sürüm        | Çıkış Tarihi | İndirme Bağlantısı                                             |
+|--------------|--------------|----------------------------------------------------------------|
+| WoeUSB 5.1.2 | 23.05.2021   | [WoeUSB](https://github.com/WoeUSB/WoeUSB/releases/tag/v5.1.2) |
 
 
 
