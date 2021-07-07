@@ -4,10 +4,13 @@ title:  Workrave ve RSIBreak Yazılımları RSI Sorunlarına Çare Olabilir
 description: RSI başka sebeplerle bağlantılı da olsa genellikle bilgisayar ve klavye kullanmayla ilgili mesleğe dayalı bir rahatsızlıktır.
 date:   2015-09-25 12:00:00
 tags:   Linux
-categories: Programlama
+categories: Programming
+permalink: /:categories/:title/
 comments: false
 published: true
 lang: tr
+redirect_from:
+  - /programlama/2015/09/25/Workrave-ve-RSIBreak-Yazilimlari-RSI-Sorunlarina-Care-Olabilir.html
 ---
 
 RSI başka sebeplerle bağlantılı da olsa genellikle bilgisayar ve klavye kullanmayla ilgili mesleğe dayalı bir rahatsızlıktır.
