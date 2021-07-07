@@ -33,7 +33,7 @@ BIOS önyüklemesinde GPT için ilk bölüm 8MB biçimlendirilmemiş ve 'bios_gr
 ### **Win10 iso listesi**
 ***
 
-![Win10 &bull; DeskTop.](assets/usbwriter/woeusb.png "Win10 &bull; DeskTop."){:height="57%" width="57%"}
+![Win10 &bull; DeskTop.](/assets/usbwriter/woeusb.png "Win10 &bull; DeskTop."){:height="57%" width="57%"}
 
 
 ### **Woeusb'yi Oluştur Ve Yükle**
@@ -64,27 +64,3 @@ Bu paket iki program içerir:
 woeusb: varolan bir Windows Yükleme diskinden veya disk görüntüsünden kendi önyüklenebilir Windows yükleme USB depolama aygıtınızı oluşturmanızı sağlayan bir komut satırı yardımcı programı.
 
 
-<html>
-        <title>Table Example</title>
-        <style>
-            table {
-                border-collapse: collapse;
-                width: 100%;
-            }
-            th, td {
-                border: 1px solid #ccc;
-                padding: 10px;
-            }
-            table.alt tr:nth-child(even) {
-                background-color: #eee;
-            }
-            table.alt tr:nth-child(odd) {
-                background-color: #fff;
-            }            
-        </style>
- </html> 
-
-
-<!--https://snipcart.com/
-https://github.com/CloudCannon/fur-jekyll-template
-https://jekyll-themes.com/free/-->
