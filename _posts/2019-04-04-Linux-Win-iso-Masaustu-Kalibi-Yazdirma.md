@@ -12,7 +12,6 @@ published: true
 lang: tr
 redirect_from:
   - /linux/2019/04/04/Linux-Win-iso-Masaustu-Kalibi-Yazdırma.html
-  - /linux/Linux-Win-iso-Masaustu-Kalibi-Yazdırma/
 ---
 
 
