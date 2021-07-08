@@ -9,8 +9,8 @@ summary: "Python Eğitici Kısa Rehber"
 excerpt: This post is about Python.
 categorie: Programming
 tags:   Python Linux Programlama
-categories: [Python]
-permalink: /pyTutorial/
+categories: Programming
+permalink: /:categories/:title/
 comments: false
 published: true
 lang: tr
