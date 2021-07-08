@@ -8,73 +8,19 @@ summary: "Python 3 Dekoratörlere Giriş"
 excerpt: This post is about Python Decorators.
 categorie: Programlama
 tags:   Python Linux Programlama
-categories: [Python 3, Programlama]
+categories: Programming
+permalink: /:categories/:title/
 permalink: /pyDecorators/
 comments: false
 published: true
 lang: tr
 ---
 
-<!-- syntax highlighting CSS -->
- 
-<style>
-.responsive-wrap a, p, div, img iframe{ max-width: 100%;}
-</style>
-
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
   <img src="{{ site.baseurl }}/images/python/Python-Decorators.png" alt="Decorators" class="resize" />
   <p><small>Python &bull; Decorators.</small></p>
 </div> 
   
-<style>
-img.resize {
-  		max-width:100%;
-  		max-height:100%;
-         }
-	.box {
-		color: orange;
-		font-size: 3vw;
-		padding: 5vw;
-		margin: 5vw;
-		border-style: solid;
-	}
-	.pop {
-		font-size: 4vw;
-		text-decoration: overline;
-		text-decoration-color: orange;
-	}
-	.pop0 {
-		font-size: 3vw;
-		text-decoration: overline;
-		text-decoration-color: orange;
-	}
-	.pop1 {
-		font-size: 2vw;
-		text-decoration: overline;
-		text-decoration-color: orange;
-	}
-	.pop2 {
-		font-size: 1.75vw;
-		text-decoration: overline;
-		text-decoration-color: orange;
-       
-	}
-
-       .python3 {
-    		background-color: #E3F2FD;
-    		color:#01579B;
-    		border-color:#1abc9c;
-    		position:relative;
-    		padding:.07rem 1.25rem;
-    		margin-bottom:1.125rem;
-    		border:1px solid transparent;
-    		border-radius:.25rem;
-                max-width:70%;
-  		max-height:100%;
-       }
-
-	.alert{position:relative;padding:.75rem 1.25rem;margin-bottom:1.125rem;border:1px solid transparent;border-radius:.25rem}.alert-heading{color:inherit}.alert-link{font-weight:700}.alert-dismissible{padding-right:4.1875rem}.alert-dismissible .close{position:absolute;top:0;right:0;padding:.75rem 1.25rem;color:inherit}.alert-primary{color:#32516b;background-color:#dfebf5;border-color:#d3e3f1}.alert-primary hr{border-top-color:#c0d7eb}.alert-primary .alert-link{color:#223748}.alert-secondary{color:#7d7d7d;background-color:#fcfcfc;border-color:#fbfbfb}.alert-secondary hr{border-top-color:#eee}.alert-secondary .alert-link{color:#646464}.alert-success{color:#155724;background-color:#d4edda;border-color:#c3e6cb}.alert-success hr{border-top-color:#b1dfbb}.alert-success .alert-link{color:#0b2e13}.alert-info{color:#0c5460;background-color:#d1ecf1;border-color:#bee5eb}.alert-info hr{border-top-color:#abdde5}.alert-info .alert-link{color:#062c33}.alert-warning{color:#856404;background-color:#fff3cd;border-color:#ffeeba}.alert-warning hr{border-top-color:#ffe8a1}.alert-warning .alert-link{color:#533f03}.alert-danger{color:#850000;background-color:#fcc;border-color:#ffb8b8}.alert-danger hr{border-top-color:#ff9f9f}.alert-danger .alert-link{color:#520000}.alert-light{color:gray;background-color:#fdfdfd;border-color:#fcfcfc}.alert-light hr{border-top-color:#efefef}.alert-light .alert-link{color:#676767}.alert-dark{color:#0c1c28;background-color:#d1d7db;border-color:#bec6cd}.alert-dark hr{border-top-color:#b0b9c2}.alert-dark .alert-link{color:#000101}@-webkit-keyframes progress-bar-stripes{from{background-position:1rem 0}to{background-position:0 0}}@keyframes progress-bar-stripes{from{background-position:1rem 0}to{background-position:0 0}}
-</style>
 <br>
 
 <div class="pop">Süslü fonksiyonlar</div> 
@@ -200,7 +146,7 @@ def merhaba_kedi(selamlama_fonk):
 Burada, ```merhaba_de()``` ve ```harika_ol()```, bir dizge olarak verilen bir -**ad**- ismini bekleyen normal fonksiyonlardır. Ancak ```merhaba_kedi()``` fonksiyonu, kendi ifadesi olarak bir fonksiyon -```selamlama_fonk```- bekler. Örneğin, ```merhaba_de()``` veya ```harika_ol()``` fonksiyonuna iletebiliriz:
 <br>
 <h2 class="python3">Python</h2>
-{% highlight python %}
+{% highlight bash %}
 In [1]: merhaba_kedi(merhaba_de)
 Out[1]: 'Merhaba Kedi'
 
@@ -208,7 +154,7 @@ In [2]: merhaba_kedi(harika_ol)
 Out[2]: 'Hey Kedi, biz birlikte harikayız!'
 {% endhighlight %}
 
-```merhaba_kedi(merhaba_de)```'nin iki fonksiyona, ancak farklı yollara başvurduğunu unutmayın: ```harika_ol()``` ve ```merhaba_de```. ```merhaba_de``` fonksiyonu parantez içermiyor. Bu, fonksiyona yalnızca bir atfın geçirildiği anlamına gelir. Fonksiyon yürütülmez. Öte yandan, ```merhaba_kedi()``` fonksiyonu parantez ile yazıldığından, her zamanki gibi çağrılır.
+_merhaba_kedi(merhaba_de)_'nin iki fonksiyona, ancak farklı yollara başvurduğunu unutmayın: ```harika_ol()``` ve ```merhaba_de```. ```merhaba_de``` fonksiyonu parantez içermiyor. Bu, fonksiyona yalnızca bir atfın geçirildiği anlamına gelir. Fonksiyon yürütülmez. Öte yandan, ```merhaba_kedi()``` fonksiyonu parantez ile yazıldığından, her zamanki gibi çağrılır.
 
 <br>
 
