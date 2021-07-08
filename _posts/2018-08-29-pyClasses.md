@@ -7,18 +7,14 @@ summary: "Python 3 Sınıflar ve Nesneler."
 excerpt: Python'daki hemen hemen her şey, öznitelikleri ve yordamları ile bir nesnedir.
 date:   2018-08-29 15:52:00
 last_updated: 2018-09-05 15:52:00 
-categorie: Programlama
 tags: Linux Programlama Python
-permalink: /PyClasses/
+categories: Programming
+permalink: /:categories/:title/
 categories: [Python, Programlama]
 comments: false
 published: true
 lang: tr
 ---
-
-<style>
-.responsive-wrap a, p, div, img iframe{ max-width: 100%;}
-</style>
 
 ![Python &bull; Sınıflar.](/images/python/python-classes2.jpg "Python &bull; Sınıflar."){:height="87%" width="87%"}
 
