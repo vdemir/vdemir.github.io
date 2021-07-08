@@ -181,7 +181,7 @@ def ebeveyn():
 
 {% endhighlight %}
 
-```ebeveyn()``` fonksiyonu çağırdığınızda ne olur? Bir dakikalığına düşün bunu. Çıkış aşağıdaki gibi olacaktır:
+_ebeveyn()_ fonksiyonu çağırdığınızda ne olur? Bir dakikalığına düşün bunu. Çıkış aşağıdaki gibi olacaktır:
 
 {% highlight python %}
 In [1]: ebeveyn()
@@ -249,11 +249,14 @@ Bir miktar şifreli çıktı, basitçe, ```ebeveyn()``` içindeki, ```ikinci``` 
 
 <h2 class="python3">Python</h2>
 
-{% highlight python %}
+{% highlight bash %}
 In [8]: ilk=ebeveyn(1)
 In [9]: ilk()
 Out[9]: 'Merhaba ben Emma'
+{% endhighlight %}
 
+
+{% highlight bash %}
 In [10]: ikinci=ebeveyn(2)
 In [11]: ikinci()
 Out[11]: 'Bana Liam deyin'
@@ -702,17 +705,15 @@ say_whee = my_decorator(say_whee)
 
 {% endhighlight %}
 
-```say_whee()``` çağırdığınızda ne olacağını tahmin edebilir misiniz? Dene:
+_say_whee()_ çağırdığınızda ne olacağını tahmin edebilir misiniz? Dene:
 
 <br>
 <h2 class="python3">Python</h2>
-{% highlight python %}
-
+{% highlight bash %}
 In [1]: say_whee()
 Something is happening before the function is called.
 Whee!
 Something is happening after the function is called.
-
 {% endhighlight %}
 
 Burada neler olduğunu anlamak için önceki örneklere bakın. Tam anlamıyla şimdiye kadar öğrendiğiniz her şeyi gerçekten uyguluyoruz. 
@@ -954,15 +955,14 @@ msp = MyStringProcessor()
 
 [Bu yazı içerisinde kullanılan kaynak kodun tamamını içerir.]({{ site.baseurl }}/assets/strproc.py)
 
-Modül, bir standart imza ```(self, str)``` içeren ve 
-```stringfilter``` ile donatılan ekleme yordamlarını alıp özelleştirebileceğim bir ```StringProcessor``` sınıfı tanımlar. Bu sınıf daha sonra örneklenebilir ve örnek, bir dizeyi doğrudan işlemek ve sonucu döndürmek için kullanılır. Dahili olarak sınıf, tüm süslü yöntemleri art arda otomatik olarak yürütür. Ayrıca, sınıfın, filtreleri tanımladığım sıraya uymasını istiyorum: ilk önce, ilk olarak çalıştırılır.
+Modül, bir standart imza ```(self, str)``` içeren ve _stringfilter_ ile donatılan ekleme yordamlarını alıp özelleştirebileceğim bir ```StringProcessor``` sınıfı tanımlar. Bu sınıf daha sonra örneklenebilir ve örnek, bir dizeyi doğrudan işlemek ve sonucu döndürmek için kullanılır. Dahili olarak sınıf, tüm süslü yöntemleri art arda otomatik olarak yürütür. Ayrıca, sınıfın, filtreleri tanımladığım sıraya uymasını istiyorum: ilk önce, ilk olarak çalıştırılır.
 
 Metaclasses bu hedefe ulaşmak için nasıl yardımcı olabilir? 
 
 Basitçe söylemek gerekirse, meta sınıflar, sınıfları almak için örneklendirilen sınıflardır. Bu, bir dersi her kullandığımda, örneğin, onu örneklendirmek için ilk Python'un, yazdığımız meta sınıfı ve sınıf tanımını kullanarak bu sınıfı oluşturduğu anlamına gelir. Örneğin, sınıf üyelerini ```__dict__``` özniteliğinde bulabileceğinizi biliyorsunuz: bu özellik, tür olan standart metaclass tarafından oluşturulur. 
 
 Verilen bir metaclass, sınıf tanımındaki fonksiyonların bir alt kümesini tanımlamak için bir kod eklememiz için iyi bir başlangıç ​​noktasıdır. Başka bir deyişle, meta sınıfın (yani, sınıfın) çıktısının tam olarak standart durumda olduğu gibi oluşturulmasını istiyoruz, ama ek olarak: 
-```stringfilter``` ile süslenmiş tüm yöntemlerin ayrı bir listesi.
+_stringfilter_ ile süslenmiş tüm yöntemlerin ayrı bir listesi.
 <br>
 
 
@@ -1058,7 +1058,7 @@ def do_twice(func):
 
 {% endhighlight %}
 
-```wrapper_do_twice()``` iç fonksiyonu artık herhangi bir sayıdaki ifadeyi kabul eder ve bunları süslü fonksiyona iletir. Şimdi hem ```say_whee()``` ve ```greet()``` öbekleri çalışır:
+_wrapper_do_twice_ iç fonksiyonu artık herhangi bir sayıdaki ifadeyi kabul eder ve bunları süslü fonksiyona iletir. Şimdi hem ```say_whee()``` ve ```greet()``` öbekleri çalışır:
 
 {% highlight python  linenos=table %}
 
