@@ -1,15 +1,16 @@
 ---
 layout: post
 title:  Python @Süslü Fonksiyonlar
-date:   2018-09-08 12:00:00
-last_updated: 2018-09-15 12:00:00
-keywords: linux, python, decorators
+description: Süslü fonksiyonlarla ilgili bu eğiticide, neye, nasıl oluşturulacağına ve kullanılacağına bakacağız. Süslü fonksiyonlar, yüksek mertebeden fonksiyonları çağırmak için basit bir sözdizimi sağlar.
 summary: "Python 3 Dekoratörlere Giriş"
 excerpt: This post is about Python Decorators.
 categorie: Programlama
+keywords: linux, python, decorators
 tags:   Python Linux Programlama
 categories: Programming
 permalink: /:categories/:title/
+date:   2018-09-08 12:00:00
+last_updated: 2018-09-15 12:00:00
 comments: false
 published: true
 lang: tr

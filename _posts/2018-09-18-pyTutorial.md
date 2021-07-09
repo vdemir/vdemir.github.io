@@ -2,15 +2,15 @@
 layout: post
 title:  Python Eğiticisi
 description: Python Eğitici Rehber
-date:   2018-09-18 12:00:00
-last_updated: 2018-09-25 12:00:00
-keywords: linux, python
 summary: "Python Eğitici Kısa Rehber"
+keywords: linux, python
 excerpt: This post is about Python.
 categorie: Programming
 tags:   Python Linux Programlama
 categories: Programming
 permalink: /:categories/:title/
+date:   2018-09-18 12:00:00
+last_updated: 2018-09-25 12:00:00
 comments: false
 published: true
 lang: tr
