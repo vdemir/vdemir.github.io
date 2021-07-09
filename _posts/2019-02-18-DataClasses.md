@@ -39,7 +39,7 @@ __init__ yordamı, sınıfta belirtilen aynı tip açıklamalarla anahtar sözc�
 
 The __eq__ yordamı, tüm dataclass özniteliklerini sırayla karşılaştıracaktır.
 
-All fields are declared at the top of the class and type hinting is required. 
+Sınıfın üst kısmında gösterilen tüm alanlar ve tip gösterimi gereklidir. 
 
 {% highlight python %}
 from dataclasses import dataclass
