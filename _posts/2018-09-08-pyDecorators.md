@@ -10,7 +10,6 @@ categorie: Programlama
 tags:   Python Linux Programlama
 categories: Programming
 permalink: /:categories/:title/
-permalink: /pyDecorators/
 comments: false
 published: true
 lang: tr

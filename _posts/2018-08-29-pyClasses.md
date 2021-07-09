@@ -10,10 +10,11 @@ last_updated: 2018-09-05 15:52:00
 tags: Linux Programlama Python
 categories: Programming
 permalink: /:categories/:title/
-categories: [Python, Programlama]
 comments: false
 published: true
 lang: tr
+redirect_from:
+  - /PyClasses/
 ---
 
 ![Python &bull; Sınıflar.](/images/python/python-classes2.jpg "Python &bull; Sınıflar."){:height="87%" width="87%"}
