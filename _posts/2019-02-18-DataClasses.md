@@ -92,6 +92,9 @@ example = SimpleDataObject('a', 'b')
 print(example)  # Gives SimpleDataObject(field_a='a', field_b='b')
 {% endhighlight %}
 
+|SimpleDataObject(field_a='a', field_b='b')
+
+[Try it online!](https://tio.run/##bU9Na8MwDL37VzzYwQ2EXnYLBHYYjJ126A8wSqKuHo6d2drW/vpUyUJ72EDS09O3poucUnyc52NOIwYS6gOVwgV@nFKWe8gY83Qnq8VBiwI/a/St@@BedmmFqjGAtVbta4ScfEFPhWvlzvnoxblavcxT/vX4c0H8@BBAqh3jnSNnEh5AX5JGEt9r5rK/TVY5eg6DowY@yo12DYpkY/hMy3Fo/15pydawna3MlLV1t5VWwANe/Df/89i2ql1bt0XtMmKerw "Python 3 – Try It Online")
 ## Mutability
 The dataclass decorator has a frozen argument, which is False by default. If specified, fields will be “frozen”, ie read-only and if eq is set to True, which it is by default then the __hash__ magic will be implemented and object instances will be hashable so you can use them as dictionary keys or within a set.
 
