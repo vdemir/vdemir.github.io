@@ -201,7 +201,7 @@ print(example)  # Now SimpleDataObject(field_a='a', field_b='dataclass_4.py')
 
 ## Inheritance
 Inheritance works as you would expect. You need to wrap the classes in dataclass for the inherited and the base class definitions.
-Kalıtım beklediğiniz gibi çalışır. (Miras alınan ve temel) sınıf tanımları için sınıfları -dataclass- veri sınıfına sarmanız gerekir. 
+|Kalıtım beklediğiniz gibi çalışır. (Miras alınan ve temel) sınıf tanımları için sınıfları -dataclass- veri sınıfına sarmanız gerekir. 
 
 {% highlight python %}
 @dataclass
@@ -214,7 +214,7 @@ class SimpleDataObject(SimpleBaseObject):
   field_b: str
 {% endhighlight %}
 
-Although, because you can’t declare a non-default field after a default one, you can’t mix default and non-default fields between base and child classes.
+Varsayılan bir alandan sonra varsayılan olmayan bir alan bildiremeyeceğiniz için, varsayılan ve varsayılan olmayan alanları, temel ve alt sınıflar arasına karıştıramazsınız. 
 
 {% highlight python %}
 from dataclasses import dataclass
