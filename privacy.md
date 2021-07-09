@@ -1,8 +1,6 @@
 ---
 layout: privacy
-title: privacy
-categories: web
-permalink: /:categories/:title/
+permalink: /privacy.html
 ---
 
 Privacy Policy
