@@ -212,15 +212,15 @@ class SimpleDataObject(SimpleBaseObject):
   field_a: str
   field_b: str
 
-example = SimpleBaseObject({'b','c'})
-print(example) # Gives : SimpleBaseObject(field_0={'b', 'c'})
+example = SimpleBaseObject('c')
+print(example) # Gives : SimpleBaseObject(field_0='c')
 {% endhighlight %}
 
-|SimpleBaseObject(field_0={'b', 'c'})
+|SimpleBaseObject(field_0='c')
 
 [Try it online!](https://tio.run/##K6gsycjPM/7/P60oP1chJbEkMTknsbg4tVghM7cgv6gEIcTF5YBgg0mFYKCanFSnxOJU/6Ss1OQSjXwwpWnFpQAEaZmpOSnxBlYKxSVFODW7AEWhmtFNAxsDMSQRYgiMmwQ1M7UiEaRFwRbTJdXqSeo66snqtZpcBUWZeSUaULWa//8DAA "Python 3 – Try It Online")
 
-Mevcut bir alandan sonra mevcut olmayan bir alan bildiremeyeceğiniz için, mevcut ve mevcut olmayan alanları, temel ve alt sınıflar arasında dağıtımazsınız. 
+Mevcut bir alandan sonra mevcut olmayan bir alan bildiremeyeceğiniz için, mevcut(field 0) ve mevcut olmayan alanları(field a, field b), temel ve alt sınıflar arasında dağıtımazsınız. 
 
 {% highlight python %}
 from dataclasses import dataclass
