@@ -28,13 +28,16 @@ C'deki tipler aşağıdaki gibi sınıflandırılabilir:
 
 |Bunlar aritmetik tiplerdir ve ayrıca: (a) integer tipler ve (b) kayan noktalı tipler olarak sınıflandırılırlar.
 
+
 - Numaralandırılmış tipler
 
 |Bunlar tekrar aritmetik türleridir ve program boyunca yalnızca belirli kesikli tamsayı değerlerini atayabilen değişkenleri tanımlamak için kullanılırlar.
 
+
 - void tipi
 
 |void belirleyici tip, kullanılabilir bir değer olmadığını gösterir.
+
 
 - Türemiş tipler
 
