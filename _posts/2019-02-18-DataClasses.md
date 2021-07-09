@@ -193,6 +193,10 @@ example = SimpleDataObject(field_a = 'a')
 print(example)  # Now SimpleDataObject(field_a='a', field_b='dataclass_4.py')
 {% endhighlight %}
 
+|SimpleDataObject(field_a='a', field_b='.CODE.TIO')
+
+[Try it online!](https://tio.run/##dVDBSsUwELznKxY8NIFHEfRUKHjwrAePIiGv3TwjeU1Itmq/vm5qXhXEHDbM7M7sJHGh1zDdrKtN4QyjITN4kzNmcOcYEv1QB7AO/Sgqn5cshBjRwglJm3R6l6oTwCchzWkqA22hn69fePBu9xFbhSf28XjP7OPxDQeSYbtUB2yybdKmg0xph8cNQv8NJa82sydtzUAhLf0lhhKsKLm0jiGTdpMjrWVGb2tAgALa6sqGv2E7x4hJsgt@mhKR@3@y1nzcakyjRExuIlnnFcAVPISPf1U9aw6XN/XN/jH6to1Lo9b1Cw "Python 3 – Try It Online")
+
 ![Data Classes](/images/data-class/scale.jpg "Data Classes"){:height="100%" width="100%"}
 
 ## Inheritance
