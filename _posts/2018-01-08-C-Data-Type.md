@@ -45,6 +45,8 @@ C'deki tipler aşağıdaki gibi sınıflandırılabilir:
 
 Array tipleri ve structure tipleri ortaklaşa toplanmış tipler olarak adlandırılır. Bir fonksiyon tipi, fonksiyon dönüş değerinin tipini belirtir. Gelecek bölümlerde başka tiplerin de ele alınacağı aşağıdaki bölümde temel tipleri göreceğiz.
 
+![data type](/images/data-type/Structured-Data.png "data type"){:height="100%" width="100%"}
+
 ## Integer Tipler
 
 Aşağıdaki tabloda, standart integer tiplerinin ayrıntıları, depolama alanı boyutlarıyla ve değer aralıklarıyla birlikte verilmektedir.
