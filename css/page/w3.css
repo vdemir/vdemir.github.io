@@ -278,6 +278,7 @@ img.resize {
   		max-width:100%;
   		max-height:100%;
          }
+         
 	.box {
 		color: orange;
 		font-size: 3vw;
@@ -329,3 +330,15 @@ img.resize {
         #cookie-notice a {position: relative; bottom: 4px;}
     }
 
+  body {
+    font-family: 'Life Savers', serif;
+    font-size: 1.29vw;
+    } 
+ .off {
+    font-feature-settings: "liga" off;
+    color: gray;
+  }
+ .on {
+    font-feature-settings: "liga" on;
+    color: orange;
+  }
