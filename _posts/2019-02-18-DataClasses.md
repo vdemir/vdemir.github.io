@@ -173,9 +173,8 @@ print(example)  # python3.7 dataclass_4.py test, gives: SimpleDataObject(field_a
 
 [Try it online!](https://tio.run/##dZBBi4MwEIXv8ysGetCASGELBUHoYe972ONSZNTRdbEmJFNZf72NqW0ppTkkvJfH9yYxk/zq4WOeG6tPWJNQ1ZNz7LA7GW3lYSXYdNzXsPpucgBQc4MtS0G2HWOVAfplWc52WALpYv9sjz54uHMg7PjtOT1/ever/ONKYh2OwAhFBWXoxN5lGSTmVxn7Zjr3UjRUibZTfptCAfA/LWwffSlZyf4qokiBsd0g8ZpXiBs01/9I94@HF7vUTCjsJMG2G9llb7m5pya3efPoGRGpeb4A "Python 3 – Try It Online")
 
-## Post-Init Processing
-You can declare a __post_init__ method, which will run after the auto-generated __init__.
-
+## Post-Init İşlemi
+Öncesinde oluşturulan __init__ sonrasında işleyen __post_init__ yordamını fonksiyone bildirebilirsiniz.
 
 {% highlight python %}
 from dataclasses import dataclass, field
@@ -198,9 +197,6 @@ example = SimpleDataObject(field_a = 'a')
 print(example)  # Now SimpleDataObject(field_a='a', field_b='dataclass_4.py')
 {% endhighlight %}
 
-|SimpleDataObject(field_a='a', field_b='.CODE.TIO')
-
-[Try it online!](https://tio.run/##dVDBSsUwELznKxY8NIFHEfRUKHjwrAePIiGv3TwjeU1Itmq/vm5qXhXEHDbM7M7sJHGh1zDdrKtN4QyjITN4kzNmcOcYEv1QB7AO/Sgqn5cshBjRwglJm3R6l6oTwCchzWkqA22hn69fePBu9xFbhSf28XjP7OPxDQeSYbtUB2yybdKmg0xph8cNQv8NJa82sydtzUAhLf0lhhKsKLm0jiGTdpMjrWVGb2tAgALa6sqGv2E7x4hJsgt@mhKR@3@y1nzcakyjRExuIlnnFcAVPISPf1U9aw6XN/XN/jH6to1Lo9b1Cw "Python 3 – Try It Online")
 
 ![Data Classes](/images/data-class/scale.jpg "Data Classes"){:height="100%" width="100%"}
 
