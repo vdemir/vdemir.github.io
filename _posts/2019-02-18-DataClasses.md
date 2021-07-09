@@ -120,6 +120,10 @@ print(example)
 
 {% endhighlight %}
 
+|{ImmutableSimpleDataObject(field_a=2, field_b='c'), ImmutableSimpleDataObject(field_a=1, field_b='b')}
+
+[Try it online!](https://tio.run/##hVBNS8QwEL3nVwx4SANFcL0VCh4E2ZMHvYdpO7sbSdKaTNVV/O11drdWL66QZL7ey3vJsOddH6@naZP6AB0yth5zpgwuDH3in5ZSN0teCPqdYv2YRjLq2IJ1CCNj4@lBmJ5uBXvfPFHLRX8MplIAWms51xF45zK0mKmU2loXHVtbSpZoSKfMzx16PsWt1PDqvAeU3RBsKVJCpg5w5D4gu1Ym@8tFR9bGke8sVuAiL2VTQeakFL3hwSrU8PG3@6sSdKNNeeaBK4G02nyqIYlMMV9rlLqAO/cif1mdE5gt1iI026v/E/ymrH5RDgam6Qs "Python 3 – Try It Online")
+
 ## Customizing the fields
 The core type in dataclasses is the Field type, which belongs to a dataclass.
 
