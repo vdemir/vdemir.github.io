@@ -220,7 +220,7 @@ print(example) # Gives : SimpleBaseObject(field_0={'b', 'c'})
 
 [Try it online!](https://tio.run/##K6gsycjPM/7/P60oP1chJbEkMTknsbg4tVghM7cgv6gEIcTF5YBgg0mFYKCanFSnxOJU/6Ss1OQSjXwwpWnFpQAEaZmpOSnxBlYKxSVFODW7AEWhmtFNAxsDMSQRYgiMmwQ1M7UiEaRFwRbTJdXqSeo66snqtZpcBUWZeSUaULWa//8DAA "Python 3 – Try It Online")
 
-Varsayılan bir alandan sonra varsayılan olmayan bir alan bildiremeyeceğiniz için, varsayılan ve varsayılan olmayan alanları, temel ve alt sınıflar arasında karıştıramazsınız. 
+Varsayılan bir alandan sonra varsayılan olmayan bir alan bildiremeyeceğiniz için, varsayılan ve varsayılan olmayan alanları, temel ve alt sınıflar arasında dağıtımazsınız. 
 
 {% highlight python %}
 from dataclasses import dataclass
