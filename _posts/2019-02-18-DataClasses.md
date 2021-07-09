@@ -208,6 +208,8 @@ print(example)  # Now SimpleDataObject(field_a='a', field_b='dataclass_4.py')
 |Kalıtım beklediğiniz gibi çalışır. (Temel ve Miras alınan) sınıf tanımları için sınıfları -dataclass- veri sınıfına sarmanız gerekir. 
 
 {% highlight python %}
+from dataclasses import dataclass
+
 @dataclass
 class SimpleBaseObject(object):
     field_0: str
@@ -216,7 +218,12 @@ class SimpleBaseObject(object):
 class SimpleDataObject(SimpleBaseObject):
   field_a: str
   field_b: str
+
+example = SimpleBaseObject({'b','c'})
+print(example) # Gives : SimpleBaseObject(field_0={'b', 'c'})
 {% endhighlight %}
+
+|SimpleBaseObject(field_0={'b', 'c'})
 
 Varsayılan bir alandan sonra varsayılan olmayan bir alan bildiremeyeceğiniz için, varsayılan ve varsayılan olmayan alanları, temel ve alt sınıflar arasına karıştıramazsınız. 
 
