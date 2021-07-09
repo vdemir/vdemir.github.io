@@ -6,6 +6,7 @@ date:   2018-01-15 13:53:00
 excerpt: "C, Programming"
 tags:   C Programlama Linux
 categories: Programming
+permalink: /:categories/:title/
 comments: false
 published: true
 lang: tr
