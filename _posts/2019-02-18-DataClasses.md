@@ -174,7 +174,7 @@ print(example)  # python3.7 dataclass_4.py test, gives: SimpleDataObject(field_a
 [Try it online!](https://tio.run/##dZBBi4MwEIXv8ysGetCASGELBUHoYe972ONSZNTRdbEmJFNZf72NqW0ppTkkvJfH9yYxk/zq4WOeG6tPWJNQ1ZNz7LA7GW3lYSXYdNzXsPpucgBQc4MtS0G2HWOVAfplWc52WALpYv9sjz54uHMg7PjtOT1/ever/ONKYh2OwAhFBWXoxN5lGSTmVxn7Zjr3UjRUibZTfptCAfA/LWwffSlZyf4qokiBsd0g8ZpXiBs01/9I94@HF7vUTCjsJMG2G9llb7m5pya3efPoGRGpeb4A "Python 3 – Try It Online")
 
 ## Post-Init İşlemi
-Öncesinde oluşturulan __init__ sonrasında işleyen __post_init__ yordamını fonksiyone bildirebilirsiniz.
+Öncesinde oluşturulan __init__ sonrasında işleyen __post_init__ yordamını bildirebilirsiniz.
 
 {% highlight python %}
 from dataclasses import dataclass, field
