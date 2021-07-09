@@ -162,9 +162,11 @@ class SimpleDataObject(object):
 
 example = SimpleDataObject(field_a = 'a')
 print(example)  # python3.7 dataclass_4.py test, gives: SimpleDataObject(field_a='a', field_b='dataclass_4.py')
-
-
 {% endhighlight %}
+
+|SimpleDataObject(field_a='a', field_b='.code.tio')
+
+[Try it online!](https://tio.run/##dZBBi4MwEIXv8ysGetCASGELBUHoYe972ONSZNTRdbEmJFNZf72NqW0ppTkkvJfH9yYxk/zq4WOeG6tPWJNQ1ZNz7LA7GW3lYSXYdNzXsPpucgBQc4MtS0G2HWOVAfplWc52WALpYv9sjz54uHMg7PjtOT1/ever/ONKYh2OwAhFBWXoxN5lGSTmVxn7Zjr3UjRUibZTfptCAfA/LWwffSlZyf4qokiBsd0g8ZpXiBs01/9I94@HF7vUTCjsJMG2G9llb7m5pya3efPoGRGpeb4A "Python 3 – Try It Online")
 
 ## Post-Init Processing
 You can declare a __post_init__ method, which will run after the auto-generated __init__.
