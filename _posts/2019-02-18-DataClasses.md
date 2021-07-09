@@ -21,7 +21,7 @@ redirect_from:
   
 ## Python 3.7 “Data Classes”
 
-![data type](/images/data-class/data-class.jpg "data type"){:height="100%" width="100%"}
+![Data Classes](/images/data-class/data-class.jpg "Data Classes"){:height="100%" width="100%"}
 
 Python 3.7'deki yepyeni bir özellik __“Data Classes”__ dır. __“Data Classes”__ , birden fazla özellik barındıran sınıflar için klişe kod üretimini otomatikleştirmenin bir yoludur.
 
