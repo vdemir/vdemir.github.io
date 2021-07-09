@@ -204,9 +204,8 @@ print(example)  # Now SimpleDataObject(field_a='a', field_b='dataclass_4.py')
 
 ![Data Classes](/images/data-class/scale.jpg "Data Classes"){:height="100%" width="100%"}
 
-## Inheritance
-Inheritance works as you would expect. You need to wrap the classes in dataclass for the inherited and the base class definitions.
-|Kalıtım beklediğiniz gibi çalışır. (Miras alınan ve temel) sınıf tanımları için sınıfları -dataclass- veri sınıfına sarmanız gerekir. 
+## Sınıfların Kalıtımı
+|Kalıtım beklediğiniz gibi çalışır. (Temel ve Miras alınan) sınıf tanımları için sınıfları -dataclass- veri sınıfına sarmanız gerekir. 
 
 {% highlight python %}
 @dataclass
