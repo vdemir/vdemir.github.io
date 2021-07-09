@@ -19,7 +19,7 @@ redirect_from:
 # IP Adreslemeyi Kavrama ve CIDR Grafiklerini Anlama 
  
 
-![IPv4CIDRChart](/images/IP-CIDR/IPv4CIDRChart-2015.jpg "IPv4CIDRChart"){:height="95%" width="95%"}
+![IPv4CIDR](/images/IP-CIDR/IPv4CIDR.jpg "IPv4CIDR"){:height="95%" width="95%"}
 
 İnternet'e bağlı her cihazın bir tanıtıcı sözcüğe sahip olması gerekir. İnternet Protokolü (IP) adresleri, İnternet'e bağlsunucun belirli bir donanım parçasını tanıtmak için kullanılan sayısal adreslerdir.
 Bugün kullanımdaki en yaygın iki IP versiyonu, İnternet Protokolü sürüm 4 (IPv4) ve İnternet Protokolü sürüm 6 (IPv6)'dır. Hem IPv4 hem de IPv6 sınırlı müşterek adres sayılarının kümesidir..
@@ -60,7 +60,7 @@ Ağ yapılandırmasına bağlı olarak, 192.168.2.0/24 ağındaki 192.168.2.0 ve
 
 (CIDR) Tablosu, yaygın olarak CIDR şeması olarak bilinir ve ağ şebekesini çalıştıran ve IP adreslerini yönetenler tarafından kullanılır. Her eğik çizgi notasyonunda yerleşik IP adreslerinin sayısını ve bit cinsinden eğik çizgi notasyonu boyutunu anlamalarını sağlar.
 
-![IPv4CIDRChart](/images/IPv4CIDRChart_2015.jpg "IPv4CIDRChart"){:height="95%" width="95%"}
+![IPv4CIDRChart](/images/IP-CIDR/IPv4CIDRChart-2015.jpg "IPv4CIDRChart"){:height="95%" width="95%"}
 
 ## IPv6
 
@@ -88,7 +88,7 @@ IP adresine alt ağ maskesi uygulamak, ağ adresini sunucu bilgisayar adresinden
           --------------------------------------------- 
           1101 1000 . 0000 0011 . 1000 0000 
 
-![IPv6Chart](/images/IPv6Chart_2015.png "IPv6Chart"){:height="95%" width="95%"}
+![IPv6Chart](/images/IP-CIDR/IPv6Chart-2015.png "IPv6Chart"){:height="95%" width="95%"}
 
 
 ## IPv6 Göreli Ağ Boyutları
