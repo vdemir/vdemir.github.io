@@ -61,6 +61,9 @@ example2 = SimpleDataObject(1, 'b')
 print(example == example2)  # True
 {% endhighlight %}
 
+|SimpleDataObject(field_a=1, field_b='b')
+|True
+
 [Try it online!](https://tio.run/##jU7BTsMwDL3nK57EIatUIQG3SpE4cNmJA9wrt/VYUJqUxBPs64tXuu2wC1JiP9vvPXs6yj7Fp3ne5TRiIKE@UClc4McpZbm2jHm@4iXiTTmBX7T72n1yL5u0pKoxgLVW4zZC9r6gp8K11m3ro5e2rRVlnvIf4q9TxrcPAaS/Y3xw5EzCA@ggaSTxvU6O9xdnfTvPYWipgY9yKbsGRbIx/EOn4@Bur3yoYTtbmSmrcLMSK@DulrqucCpZ7d0iPds//tsfzuEsWna95wPP8y8 "Python 3 – Try It Online")
 
 This __init__ method will have a signature of (field_a: int, field_b: str) -> None. You can see this by just typing print(inspect.signature(example.__init__))
