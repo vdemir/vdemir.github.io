@@ -68,7 +68,7 @@ print(example == example2)  # True
 
 
 Bu __init__  yordamı (field_a: int, field_b: str) -> None 
-şeklinde bir tanımlayıcıya sahip olabilir. Bunu sadece % highlight python %}print(inspect.signature(example.__init__)){% endhighlight %} yazarak görebilirsiniz.
+şeklinde bir tanımlayıcıya sahip olabilir. Bunu sadece {% highlight python %}print(inspect.signature(example.__init__)){% endhighlight %} yazarak görebilirsiniz.
 
 ## Tip Gösterimi
 Quite importantly, the type hints are merely hints. So giving the wrong types doesn’t issue a warning or attempt a conversion.
