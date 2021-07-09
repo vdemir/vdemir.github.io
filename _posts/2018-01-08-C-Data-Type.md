@@ -18,6 +18,7 @@ redirect_from:
 
 ## Data Tipleri
 
+![data type](/images/data-type/data-type.jpg "data type"){:height="95%" width="95%"}
 C'deki data tipleri, değişkenlerin veya farklı türdeki fonksiyonları bildirilmesi için kullanılan geniş bir sistemi ifade eder. Bir değişkenin depolamada ne kadar yer kapladığını ve saklanan bit düzeninin nasıl yorumlandığını tipi belirler.
 
 C'deki tipler aşağıdaki gibi sınıflandırılabilir:
