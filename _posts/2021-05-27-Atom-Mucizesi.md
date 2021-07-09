@@ -6,7 +6,7 @@ excerpt: Kitapta zaman zaman karşınıza Allah'ın yaratmasındaki mükemmelli�
 date:   2021-05-27 12:00:00
 keywords: Atom Mucizesi Haun Yahya
 tags:  Kitap
-categories: [Kitap]
+categories: Kitap
 permalink: /:categories/:title/
 comments: false
 published: true
