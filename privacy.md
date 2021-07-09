@@ -37,28 +37,12 @@ You always have the right to request information about your stored data, its ori
 
 When visiting our website, statistical analyses may be made of your surfing behavior. This happens primarily using cookies and analytics. The analysis of your surfing behavior is usually anonymous, i.e. we will not be able to identify you from this data. You can object to this analysis or prevent it by not using certain tools. Detailed information can be found in the following privacy policy.
 
-2\. General information and mandatory information
+2\. General information
 -------------------------------------------------
-
-### Revocation of your consent to the processing of your data
-
-Many data processing operations are only possible with your express consent. You may revoke your consent at any time with future effect. An informal email making this request is sufficient. The data processed before we receive your request may still be legally processed.
-
-### Right to file complaints with regulatory authorities
-
-If there has been a breach of data protection legislation, the person affected may file a complaint with the competent regulatory authorities. The competent regulatory authority for matters related to data protection legislation is the data protection officer of the German state Saxony in which our company is headquartered. Their contact details can be found at the following link: [https://www.bfdi.bund.de/SharedDocs/Adressen/LfD/Sachsen.html?nn=5217144](https://www.bfdi.bund.de/SharedDocs/Adressen/LfD/Sachsen.html?nn=5217144)
-
-### Right to data portability
-
-You have the right to have data which we process based on your consent or in fulfillment of a contract automatically delivered to yourself or to a third party in a standard, machine-readable format. If you require the direct transfer of data to another responsible party, this will only be done to the extent technically feasible.
 
 ### SSL or TLS encryption
 
 This site uses SSL or TLS encryption for security reasons and for the protection of the transmission of confidential content, so that the data you transfer to us cannot be read by third parties.
-
-### Information, blocking, deletion
-
-As permitted by law, you have the right to be provided at any time with information free of charge about any of your personal data that is stored as well as its origin, the recipient and the purpose for which it has been processed. You also have the right to have this data corrected, blocked or deleted. You can contact us at any time using the address given in our legal notice if you have further questions on the topic of personal data.
 
 3\. Data collection on our website
 ----------------------------------
