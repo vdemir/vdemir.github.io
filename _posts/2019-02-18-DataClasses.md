@@ -216,5 +216,20 @@ class SimpleDataObject(SimpleBaseObject):
 
 Although, because you can’t declare a non-default field after a default one, you can’t mix default and non-default fields between base and child classes.
 
+{% highlight python %}
+from dataclasses import dataclass
+
+@dataclass
+class Point:
+    x: float
+    y: float
+    z: float = 0.0
+
+p = Point(1.5, 2.5)
+print(p)
+{% endhighlight %}
+
+|Point(x=1.5, y=2.5, z=0.0)
+
 [Try it online!](https://tio.run/##K6gsycjPM/7/P60oP1chJbEkMTknsbg4tVghM7cgv6gEIcTF5YBgg0mFgPzMvBIrLgUgqLBSSMvJTywBcyqROVVQjoKtgoGeARdXAZAB1qhhqGeqo2CkZ6rJVVAE4hdo/v8PAA "Python 3 – Try It Online")
 
