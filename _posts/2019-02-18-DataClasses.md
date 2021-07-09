@@ -2,18 +2,20 @@
 layout: post
 title:  Python Data Classes
 description: Python 3’ün yeni tür etiketlerini kullanmanın avantajını da taşıyorlar.
-date:   2019-02-18 12:00:00
-last_updated: 2019-02-18 12:00:00
 keywords: linux, python
 summary: "Python Data Classes"
 excerpt: Python 3’ün yeni tür etiketlerini kullanmanın avantajını da taşıyorlar.
 categorie: Programlama
 tags:   Python Linux Programlama
-categories: [Python, Programlama]
-permalink: /DataClasses/
+categories: Programming
+permalink: /:categories/:title/
+date:   2019-02-18 12:00:00
+last_updated: 2019-02-18 12:00:00
 comments: false
 published: true
 lang: tr
+redirect_from:
+  - /DataClasses/
 ---
  
   
@@ -175,7 +177,7 @@ print(example)  # Now SimpleDataObject(field_a='a', field_b='dataclass_4.py')
 
 ## Inheritance
 Inheritance works as you would expect. You need to wrap the classes in dataclass for the inherited and the base class definitions.
-
+Kalıtım beklediğiniz gibi çalışır. (Miras alınan ve temel) sınıf tanımları için sınıfları -dataclass- veri sınıfına sarmanız gerekir. 
 
 {% highlight python %}
 @dataclass
@@ -193,8 +195,6 @@ Although, because you can’t declare a non-default field after a default one, y
 [Try it online!](https://tio.run/##K6gsycjPM/7/P60oP1chJbEkMTknsbg4tVghM7cgv6gEIcTF5YBgg0mFgPzMvBIrLgUgqLBSSMvJTywBcyqROVVQjoKtgoGeARdXAZAB1qhhqGeqo2CkZ6rJVVAE4hdo/v8PAA "Python 3 – Try It Online")
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
 
