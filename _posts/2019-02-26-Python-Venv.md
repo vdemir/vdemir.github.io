@@ -14,6 +14,8 @@ last_updated: 2019-02-26 12:00:00
 comments: false
 published: true
 lang: en
+redirect_from:
+  - /python/Python_Venv/
 ---
 
 ## Python 3.7 “Virtual Env”

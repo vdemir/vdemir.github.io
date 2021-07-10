@@ -14,6 +14,8 @@ last_updated: 2018-09-15 12:00:00
 comments: false
 published: true
 lang: tr
+redirect_from:
+  - /pyDecorators/
 ---
 
 <div class='pull-right alert alert-warning' style="margin: 15px; text-align: center;">
