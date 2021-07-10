@@ -333,12 +333,5 @@ img.resize {
   body {
     font-family: 'Life Savers', serif;
     /* Literal.Number.Integer.Long font-size: 1.29vw; */
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (24 - 16) + 16px);
     } 
- .off {
-    font-feature-settings: "liga" off;
-    color: gray;
-  }
- .on {
-    font-feature-settings: "liga" on;
-    color: orange;
-  }
