@@ -332,6 +332,7 @@ img.resize {
 
   body {
     font-family: 'Life Savers', serif;
+    /* Literal.Number.Integer.Long font-size: 1.29vw; */
     } 
  .off {
     font-feature-settings: "liga" off;
