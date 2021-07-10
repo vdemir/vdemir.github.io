@@ -7,7 +7,6 @@
     width: 32px; 
     float: left; 
     text-align: center;
-    max-width: 100%;
 }
 #share-buttons > div > svg {height: 16px; fill: #d5d5d5; margin-top: 10px;}
 #share-buttons > div:hover {cursor: pointer;}
