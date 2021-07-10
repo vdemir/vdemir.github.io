@@ -346,11 +346,6 @@ img.resize {
   
   
 @media (min-width: 768px) and (max-width: 979px) { 
-  .aboutme li {
-    width: 32px;
-    padding: 0px;
+
   }
 
-  .aboutme .media-object {
-    width: 80px;
-  }
