@@ -334,7 +334,6 @@ img.resize {
   body {
     font-family: 'Life Savers', serif;
     font-size: 1.29vw;
-    position: absolute;
     } 
  .off {
     font-feature-settings: "liga" off;
