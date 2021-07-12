@@ -64,7 +64,7 @@ Ağ yapılandırmasına bağlı olarak, 192.168.2.0/24 ağındaki 192.168.2.0 ve
 
 ## IPv6
 
-IPv6, IPv4'e benzer, ancak tüm LAN'lerin IPv4 ağlarının sahip olduğu değişken ağ alanı adres kodu<sup>1</sup> uzunluğunun aksine 64 bit ağ alanı adres koduna sahip olacak şekilde yapılandırılmıştır. Tüm IPv6 ağlarında 18.446.744.073.709.551.616 IPv6 adresi için alan vardır.
+IPv6; IPv4'e benzer, ancak tüm -Yerel Ağ Alanı- LAN, IPv4 ağlarının sahip olduğu "değişken ağ alanı adres kodu<sup>1</sup> uzunluğu" yerine, 64 bit ağ alanı adres koduna sahip olacak şekilde yapılandırılmıştır. Tüm IPv6 ağlarında 18.446.744.073.709.551.616 adet IPv6 adresi için alan ayrılmıştır.
 
 ## SubNet Mask (alt ağ maskeleri)
 
