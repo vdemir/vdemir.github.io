@@ -71,7 +71,7 @@ IPv6; IPv4'e benzer, ancak tüm -Yerel Ağ Alanı- LAN, IPv4 ağlarının sahip 
 Ağlar, daha hızlı veri aktarımı ve daha kolay yönetim sağlamak için alt ağlara ayrılır. Yönlendiriciler bunu, alt ağı belirlemek için IP adresine nereye bakılacağını gösteren bir sayı olan alt ağ maskeleri atayarak gerçekleştirir.
 
 
-Şu anda, çoğu ISP, abonelerin sitelerine (Son Kullanıcıların ağları) /48 ağ alanı adres koduatar. Tüm IPv6 ağlarında /64 ağ alanı adres kodu bulunduğundan, /48 ağ alanı adres kodubir Son Kullanıcı sitesinde 65.536 LAN'a izin verir.
+Şu anda çoğu ISP, son kullanıcıların ağlarında abonelerin sitelerine /48 ağ alanı adres kodu atar. Tüm IPv6 ağlarında /64 ağ alanı adres kodu bulunduğundan, /48 ağ alanı adres kodu bir son kullanıcı sitesinde 65.536 adet LAN'a izin verir.
 
 RIPE NCC tarafından yapılan mevcut minimum IPv6 tahsisi, bir /32 ağ alanı adres kodudir. LIR sadece bu /32 ağ alanı adres kodundan /48 atama yapsaydı, 65.536 /48 atama yapabilirdi. Yalnızca /56 ağ alanı adres kodları atamaya karar verirlerse, kendilerine 24 bit kullanılabilir ve böylece 16.777.216 /56 atama yapabilirler.
 
