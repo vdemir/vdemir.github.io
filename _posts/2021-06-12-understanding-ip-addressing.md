@@ -73,7 +73,7 @@ Ağlar, daha hızlı veri aktarımı ve daha kolay yönetim sağlamak için alt 
 
 Şu anda çoğu ISP, son kullanıcıların ağlarında abonelerin sitelerine /48 ağ alanı adres kodu atar. Tüm IPv6 ağlarında /64 ağ alanı adres kodu bulunduğundan, /48 ağ alanı adres kodu bir son kullanıcı sitesinde 65.536 adet LAN'a izin verir.
 
-RIPE NCC tarafından yapılan mevcut minimum IPv6 tahsisi, bir /32 ağ alanı adres kodudir. LIR sadece bu /32 ağ alanı adres kodundan /48 atama yapsaydı, 65.536 /48 atama yapabilirdi. Yalnızca /56 ağ alanı adres kodları atamaya karar verirlerse, kendilerine 24 bit kullanılabilir ve böylece 16.777.216 /56 atama yapabilirler.
+RIPE NCC tarafından yapılan mevcut minimum IPv6 tahsisi, bir /32 ağ alanı adres kodudur. LIR sadece bu /32 ağ alanı adres kodundan /48 atama yapsaydı, 65.536/48 atama yapabilirdi. Yalnızca /56 ağ alanı adres kodları atamaya karar verirlerse, kendilerine kalan 24 biti kullanılabilir ve böylece 16.777.216/56 atama yapabilirler.
 
 Örneğin, bir LIR'ye /24 IPv6 tahsisi yapılırsa, 16.777.216/48 ataması veya 4.294.967,296/56 ataması yapabilecektir. 
 
