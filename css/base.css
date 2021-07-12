@@ -1133,7 +1133,7 @@ a#outdated-note:hover {
 		}
 		/* Serif for print. */
 		body {
-			font-family: serif;
+			font-family: "Lato",serif;
 		}
 
 		.outdated-warning {
