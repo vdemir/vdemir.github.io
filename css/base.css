@@ -79,7 +79,7 @@
 
 		/* Typography */
 		line-height: 1.5;
-		font-family: sans-serif;
+		font-family: "Lato", sans-serif;
 		widows: 2;
 		orphans: 2;
 		word-wrap: break-word;
@@ -327,7 +327,7 @@
 		page-break-after: avoid;
 		page-break-inside: avoid;
 		font: 100% sans-serif;   /* Reset all font styling to clear out UA styles */
-		font-family: Lato;    /* Inherit the font family. */
+		font-family: "Lato";    /* Inherit the font family. */
 		line-height: 1.2;        /* Keep wrapped headings compact */
 		hyphens: manual;         /* Hyphenated headings look weird */
 	}
@@ -1133,7 +1133,7 @@ a#outdated-note:hover {
 		}
 		/* Serif for print. */
 		body {
-			font-family: "Lato",serif;
+			font-family: "Lato", serif;
 		}
 
 		.outdated-warning {
