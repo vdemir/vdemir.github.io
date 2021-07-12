@@ -37,7 +37,7 @@ IP adresleri, IPv4 veya IPv6 kümesinden alınabilir ve iki kısma ayrılır; a�
 
 ## Tahsisat
 
-IP adresleri farklı boyutlu 'bloklardaki' ağlara atanır. Atsunucun 'blok'un boyutu, bu blokta bulunan IP adreslerinin sayısını gösteren bir eğikten (/) sonra yazılır. Örneğin, bir Internet Servis Sağlayıcısına (ISS) "/16" atanmışsa, yaklaşık 64.000 IPv4 adresi alırlar. "/26" ağı, 64 IPv4 adresi sağlar. Eğikten sonraki sayı ne kadar düşükse, o "blokta" o kadar çok adres bulunur.
+IP adresleri farklı boyutlu 'bloklardaki' ağlara atanır. Ağ sunucun 'blok' boyutu, bu blokta bulunan IP adreslerinin sayısını gösteren bir eğikten (/) sonra yazılır. Örneğin, bir Internet Servis Sağlayıcısına (ISS) "/16" atanmışsa, yaklaşık 64.000 IPv4 adresi alırlar. "/26" ağı, 64 IPv4 adresi sağlar. Eğikten sonraki sayı ne kadar düşükse, o "blokta" o kadar çok adres bulunur.
 
 ## IPv4
 
@@ -46,7 +46,7 @@ Alan adı kodu boyutu, bit olarak, eğikten (/) sonra yazılır. Buna "eğik çi
 
 Tüm IPv4 ağları 32 bite sahiptir ve ondalık noktalarla belirtilen adresin her "bölümü" sekiz bit içerir, "192.0.2.0/24", sunucu bilgisayar adreslerini içeren sekiz bit bırakır. Bu, 256 sunucu bilgisayar adresi için yeterli alandır. Bu sunucu bilgisayar adresleri, makinenizi Internet'e bağlamak için gereken IP adresleridir.
 
-10.0.0.0/8" numaralı bir ağ (özel kullanım için ayrılmış ağlardan biri), eğiklik sonrası "/8" ile belirtilen sekiz bit ağ koduna sahip bir ağdır. "8", ağda IPv4 sunucu bilgisayar adreslerini içeren 24 bit kaldığını gösterir: tam olarak 16.777.216 adres.
+"10.0.0.0/8" numaralı bir ağ (özel kullanım için ayrılmış ağlardan biri), eğiklik sonrası sekiz bit ağ koduna sahip "/8" ile belirtilen bir ağdır. "8", IPv4 sunucu bilgisayar adreslerini içeren ağda24 bit kaldığını gösterir: tam olarak 16.777.216 adres.
 
 Not: 16.777.216=2<sup>8</sup>x2<sup>8</sup>x2<sup>8</sup>
 
