@@ -143,7 +143,7 @@ Bir abone sitesi için popüler ağ alanı adres kodu boyutu
 /32
 </td>
 <td>
-65,536 /48 abone siteleri
+65,536/48 abone siteleri
 </td>
 <td>
 Minimum IPv6 tahsisi 
