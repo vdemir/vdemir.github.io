@@ -3,8 +3,9 @@ layout: post
 title:  Prefixes and Suffixes
 date:   2018-08-10 13:52:00
 excerpt: "Önek ve Sonek"
-tags:   Kelime Telâffuz
-categories: Dil
+tags:   English
+categories: English
+permalink: /:categories/:title/
 comments: false
 published: true
 lang: tr
