@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Prefixes and Suffixes
+description: 
 date:   2018-08-10 13:52:00
 excerpt: "Önek ve Sonek"
 tags:   English
