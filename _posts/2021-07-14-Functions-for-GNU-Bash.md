@@ -37,7 +37,7 @@ Tek sıralı gösterim:
 function_name () { commands; }
 {% endhighlight %}
 
-İkinci biçim, ayrılmış sözcük -function- ile başlar, ardından fonksiyon adı gelir. 
+|İkinci biçimde, ayrılmış -reserved- sözcük **function** ile başlar, ardından fonksiyon adı gelir. 
 
 {% highlight bash %}
 function function_name {
