@@ -25,6 +25,7 @@ Bir bash fonksiyon ifadesi bildirmek kolaydır. Fonksiyonlar iki farklı biçimd
 
 |İlk fonksiyon biçimi -function name ile- adıyla başlar, ardından parantezler gelir. Bu biçim tercih edilen ve daha çok kullanılan formattır. 
 
+
 {% highlight bash %}
 function_name () {
   commands
