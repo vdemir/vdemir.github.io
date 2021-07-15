@@ -21,7 +21,7 @@ Bu eğitim, Bash fonksiyonlarının temellerini kapsar ve onları kabuk betikler
 
 ## Bash Fonksiyonlarını Tanımlamak 
 
-Bir bash fonksiyonu ifadesi kolaydır. Fonksiyonlar iki farklı biçimde bildirilebilir:
+Bir bash fonksiyon ifadesi bildirmek kolaydır. Fonksiyonlar iki farklı biçimde bildirilebilir:
 
 İlk biçim fonksiyon adıyla -function name ile- başlar, ardından parantezler gelir. Bu tercih edilen ve daha çok kullanılan formattır. 
 
