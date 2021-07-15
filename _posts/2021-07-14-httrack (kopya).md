@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  Httrack Web Site Copier
-description: HTTrack is a free (GPL, libre/free software) and easy-to-use offline browser utility.
-date:   2019-04-04 12:00:00
-last_updated: 2021-06-05 18:57:00
+title:  Programmable Functions for GNU Bash
+description: Bir Bash fonksiyonu, aslında birçok kez çağrılabilen temel komut grubudur.
+date:   2021-07-14 12:00:00
+last_updated: 2021-07-14 18:57:00
 tags:   Linux
 categories: Linux
 permalink: /:categories/:title/
@@ -12,19 +12,31 @@ published: true
 lang: tr
 ---
 
+Bir Bash fonksiyonu, aslında birçok kez çağrılabilen temel komut grubudur. Bir fonksiyonun amacı, bash betiklerinizi -bash script de denir- daha okunaklı hale getirmenize yardımcı olmak ve aynı kodu tekrar tekrar yazmaktan kaçınmaktır. Çoğu programlama diliyle karşılaştırıldığında, Bash fonksiyonları biraz kısıtlıdır.
 
-HTTrack ücretsiz (GPL, özgür/ücretsiz yazılım) ve kullanımı kolay bir çevrimdışı tarayıcı yardımcı programıdır.
+Bu eğitim, Bash fonksiyonlarının temellerini kapsar ve onları kabuk betiklerinizde -shell scrip'te denir- nasıl kullanacağınızı gösterir.
 
-![HTTrack Website Copier](/images/httrack/HTTrack-Website-Copier.jpg "HTTrack Website Copier"){:height="77%" width="77%"}
+## Bash'i Tanımlamak 
 
-İnternet'ten bir World Wide Web sitesini yerel bir dizine indirmenize, tüm dizinleri tekrar tekrar oluşturmanıza, HTML, resimler ve diğer dosyaları sunucudan bilgisayarınıza almanıza olanak tanır. HTTrack, orijinal sitenin göreli bağlantı yapısını düzenler. Tarayıcınızda "yansıtılmış" web sitesinin bir sayfasını açmanız yeterlidir ve siteyi çevrimiçi olarak izliyormuş gibi bağlantıdan bağlantıya göz atabilirsiniz. HTTrack ayrıca mevcut bir yansıtılmış siteyi güncelleyebilir ve kesintiye uğramış indirmelere devam edebilir. HTTrack tamamen yapılandırılabilir ve entegre bir yardım sistemine sahiptir. 
+
+![Bash Functions](/images/bash/Brain.jpg "Bash Functions"){:height="77%" width="77%"}
+
 
 
 {% highlight bash %}
-git clone https://github.com/xroche/httrack.git --recurse
-cd httrack
-./configure --prefix=/usr && make -j8 && make install DESTDIR=/
+function_name () {
+  commands
+}
 {% endhighlight %}
+
+
+Tek sıralı gösterim:
+
+
+{% highlight bash %}
+function_name () { commands; }
+{% endhighlight %}
+
 
 ***
 ### **İndirmeler**
@@ -35,7 +47,7 @@ cd httrack
 
 | Sürüm        | Çıkış Tarihi | İndirme Bağlantısı                                                               |
 |--------------|--------------|----------------------------------------------------------------------------------|
-| 3.49-2 | 20/May/2017   | [WebHTTrack](https://download.httrack.com/cserv.php3?File=httrack.tar.gz)   |
+| 5.1 | 2020-12-06   | [Bash](http://git.savannah.gnu.org/cgit/bash.git/snapshot/bash-5.1.tar.gz)   |
 
 ***
 
