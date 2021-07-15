@@ -7,12 +7,13 @@ last_updated: 2021-06-05 18:57:00
 excerpt: "C, Programming"
 tags:   C Programlama Linux
 categories: Programming
-permalink: /Structure-function/
+permalink: /:categories/:title/
 comments: false
 published: true
 lang: tr
 redirect_from:
   - /ceviriler/ceviriler2/2018-01-14-Structure-function.html
+  - /Structure-function/
 ---
 
 
