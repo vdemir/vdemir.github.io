@@ -1,0 +1,74 @@
+---
+layout: post
+title:  Httrack Web Site Copier
+description: HTTrack is a free (GPL, libre/free software) and easy-to-use offline browser utility.
+date:   2019-04-04 12:00:00
+last_updated: 2021-06-05 18:57:00
+tags:   Linux
+categories: Linux
+permalink: /:categories/:title/
+comments: false
+published: true
+lang: tr
+---
+
+
+HTTrack ücretsiz (GPL, özgür/ücretsiz yazılım) ve kullanımı kolay bir çevrimdışı tarayıcı yardımcı programıdır.
+
+![HTTrack Website Copier](/images/httrack/HTTrack-Website-Copier.jpg "HTTrack Website Copier"){:height="77%" width="77%"}
+
+İnternet'ten bir World Wide Web sitesini yerel bir dizine indirmenize, tüm dizinleri tekrar tekrar oluşturmanıza, HTML, resimler ve diğer dosyaları sunucudan bilgisayarınıza almanıza olanak tanır. HTTrack, orijinal sitenin göreli bağlantı yapısını düzenler. Tarayıcınızda "yansıtılmış" web sitesinin bir sayfasını açmanız yeterlidir ve siteyi çevrimiçi olarak izliyormuş gibi bağlantıdan bağlantıya göz atabilirsiniz. HTTrack ayrıca mevcut bir yansıtılmış siteyi güncelleyebilir ve kesintiye uğramış indirmelere devam edebilir. HTTrack tamamen yapılandırılabilir ve entegre bir yardım sistemine sahiptir. 
+
+
+{% highlight bash %}
+git clone https://github.com/xroche/httrack.git --recurse
+cd httrack
+./configure --prefix=/usr && make -j8 && make install DESTDIR=/
+{% endhighlight %}
+
+***
+### **İndirmeler**
+
+***
+
+İndirmeyi başlatmak için aşağıdan bir bağlantı seçin. 
+
+| Sürüm        | Çıkış Tarihi | İndirme Bağlantısı                                                               |
+|--------------|--------------|----------------------------------------------------------------------------------|
+| 3.49-2 | 20/May/2017   | [WebHTTrack](https://download.httrack.com/cserv.php3?File=httrack.tar.gz)   |
+
+***
+
+### **Kuruluma Hazırlık**
+
+***
+{% highlight bash %}
+sudo pisi it -c system.devel
+
+Aşağıdaki paket(ler) zaten kurulu ve yeniden kurulmayacak:
+binutils          g++            gcc         glibc-devel  
+linux-headers  
+nano
+openssl-11-devel  openssl-devel  zlib-devel
+
+Aşağıdaki paketler kurulacak:
+abireport                    autoconf          automake        
+bash-completion-devel        bison             catbox          
+cmake                        dbus-devel        diffstat        
+diffutils                    expat-devel       fakeroot        
+file-devel                   flex              flex-devel      
+gfortran                     glib2-devel       gmp-devel       
+gobject-introspection-devel  intltool          libarchive-bin  
+libffi-devel                 libgcrypt-devel   libgfortran     
+libgpg-error-devel           libgudev-devel    libpcre-devel   
+libtool-devel                libxml2-devel     m4              
+make                         meson             mpc-devel       
+mpfr-devel                   nasm              ncurses-devel   
+ninja                        pam-devel         patch           
+pkg-config                   polkit-devel      python-configobj
+python-devel                 pyyaml            quilt           
+readline-devel               ruamel_yaml       systemd-devel   
+texinfo                      util-linux-devel  ypkg            
+{% endhighlight %}
+
+ 

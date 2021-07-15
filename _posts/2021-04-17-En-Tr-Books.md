@@ -3,13 +3,15 @@ layout: post
 title:  English Turkish Books
 date:   2021-04-17 12:00:00
 tags:   e-Books
-categories: [e-Books]
-comments: true
+categories: e-Books
+permalink: /:categories/:title/
+comments: false
 published: true
 lang: en
 encoding: UTF-8
 redirect_from:
   - /books/2019/04/14/books.html
+  - /e-books/2021/04/17/En-Tr-Books.htm
 ---
 
 <style type="text/css">
