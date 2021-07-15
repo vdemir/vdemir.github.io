@@ -16,7 +16,7 @@ Bir Bash fonksiyonu, aslında birçok kez çağrılabilen temel komut grubudur. 
 
 Bu eğitim, Bash fonksiyonlarının temellerini kapsar ve onları kabuk betiklerinizde -shell scrip'te denir- nasıl kullanacağınızı gösterir.
 
-![Bash Functions](/images/bash/Brain.jpg "Bash Functions"){:height="77%" width="77%"}
+![Bash Functions](/images/bash/Brain.jpg "Brain"){:height="77%" width="77%"}
 
 ## Bash'i Tanımlamak 
 
@@ -64,3 +64,14 @@ make install
 {% endhighlight %}
 
  
+***
+
+### **Alıştırmlar**
+
+***
+Bir dizindeki pdf dosyalarının uzantıları hariç isimlerini dosya adına çeviren bash betiği aşağıdadır.
+
+{% highlight bash %}
+for i in *.pdf; do
+mkdir ${i%%.*}; done
+{% endhighlight %}
