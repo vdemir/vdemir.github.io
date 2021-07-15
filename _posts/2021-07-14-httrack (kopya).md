@@ -20,6 +20,10 @@ Bu eğitim, Bash fonksiyonlarının temellerini kapsar ve onları kabuk betikler
 
 ## Bash'i Tanımlamak 
 
+Bir bash fonksiyonu ifadesi kolaydır. Fonksiyonlar iki farklı biçimde bildirilebilir:
+
+İlk biçim fonksiyon adıyla -function name ile- başlar, ardından parantezler gelir. Bu tercih edilen ve daha çok kullanılan formattır. 
+
 {% highlight bash %}
 function_name () {
   commands
