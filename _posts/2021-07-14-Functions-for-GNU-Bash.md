@@ -67,7 +67,7 @@ make install
  
 ***
 
-### **Alıştırmlar**
+### **Alıştırmalar**
 
 ***
 Bir dizindeki pdf dosyalarının uzantıları hariç isimlerini dosya adına çeviren bash betiği aşağıdadır.

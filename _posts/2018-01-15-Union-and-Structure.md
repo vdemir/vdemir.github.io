@@ -16,7 +16,7 @@ redirect_from:
 
 **union ve struct arasındaki kullanım farkı**
 
-**union** pek çok açıdan ```struct``` yapıya benzer olsa da, aralarındaki farkı anlamak çok önemlidir.
+**union** pek çok açıdan **struct** yapıya benzer olsa da, aralarındaki farkı anlamak çok önemlidir.
 
 ![Turkish Union](/images/union/turkdevletleri.jpg "Turkish Union"){:height="57%" width="57%"}
 
@@ -57,13 +57,13 @@ size of structure = 40
 ## **struct yapılara union yapıdan daha fazla bellek tahsis edilir**
 
 
-Yukarıdaki örnekte görüldüğü gibi, ```union``` ve ```struct``` yapı arasında bellek ayırmada bir fark vardır.
+Yukarıdaki örnekte görüldüğü gibi, **union** ve **struct** yapı arasında bellek ayırmada bir fark vardır.
 
-```struct``` değişkenini depolamak için gereken bellek miktarı, tüm üyelerin bellek boyutunun toplamıdır.
+**struct** değişkenini depolamak için gereken bellek miktarı, tüm üyelerin bellek boyutunun toplamıdır.
 
 ![Alternative text](/images/C-structure-memory-allocation.jpg "struct değişkeni belleği")
 
-Ancak, bir ```union``` değişkenini depolamak için gereken bellek, ```union``` yapının en büyük öğesi için gereken bellektir.
+Ancak, bir **union** değişkenini depolamak için gereken bellek, **union** yapının en büyük öğesi için gereken bellektir.
 
 
 ![Alternative text](/images/memory-allocation-union.jpg "union değişkeni belleği")
@@ -71,9 +71,9 @@ Ancak, bir ```union``` değişkenini depolamak için gereken bellek, ```union```
 ## **Aynı anda yalnızca bir union üyesine erişilebilir**
 
 
-```struct``` durumunda, üyelerinin tümüne her an erişilebilir.
+**struct** durumunda, üyelerinin tümüne her an erişilebilir.
 
-Ancak, ```union``` durumunda, bir kerede yalnızca üyelerinden birine erişilebilir ve diğer tüm üyeler çöp değerleri içerir.
+Ancak, **union** durumunda, bir kerede yalnızca üyelerinden birine erişilebilir ve diğer tüm üyeler çöp değerleri içerir.
 
 ~~~c
 #include <stdio.h>
@@ -112,15 +112,15 @@ Salary: 1234.2
 ~~~
 
 
-Not: İsim için farklı çöp değeri veya ```empty string``` (boş dize) alabilirsiniz.
+Not: İsim için farklı çöp değeri veya **empty string** (boş dize) alabilirsiniz.
 
-Başlangıçta programda ```Hillary, job1.name```'de saklanır ve ```job1```'in diğer tüm üyeleri, örneğin ```salary```, ```workerNo``` çöp değerleri içerecektir.
+Başlangıçta programda **Hillary, job1.name**'de saklanır ve **job1**'in diğer tüm üyeleri, örneğin **salary**, **workerNo** çöp değerleri içerecektir.
 
-Ancak, kullanıcı ```salary``` değerini girdiğinde; 1234.23, ```job1.salary```'de saklanacak ve diğer üyeler de, örn. ```name, workerNo```, artık çöp değerleri içerecek.
+Ancak, kullanıcı **salary** değerini girdiğinde; 1234.23, **job1.salary**'de saklanacak ve diğer üyeler de, örn. **name, workerNo**, artık çöp değerleri içerecek.
 
-Böylece çıktıda, ```salary``` doğru bir şekilde yazdırılır, ancak ```name``` bazı ```random string``` karakterleri (rastgele dizgeleri) gösterir.
+Böylece çıktıda, **salary** doğru bir şekilde yazdırılır, ancak **name** bazı **random string** karakterleri (rastgele dizgeleri) gösterir.
 
 ## **Union Yapıyı Bir Fonksiyona Geçirme**
 
-```Union```, C programlamasındaki foksiyonlara ```struct``` yapılarla benzer şekilde geçirilebilir.
+**Union**, C programlamasındaki foksiyonlara **struct** yapılarla benzer şekilde geçirilebilir.
 
