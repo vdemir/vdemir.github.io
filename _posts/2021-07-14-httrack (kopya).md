@@ -55,7 +55,12 @@ function_name () { commands; }
 ### **Kuruluma Hazırlık**
 
 ***
+
 {% highlight bash %}
+
+configure --prefix=/usr
+make
+make install
 {% endhighlight %}
 
  
