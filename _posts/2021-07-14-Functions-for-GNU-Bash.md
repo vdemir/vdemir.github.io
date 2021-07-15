@@ -62,12 +62,8 @@ function function_name { commands; }
 
 #### Bunu daha iyi anlamak için aşağıdaki örneğe bir göz atın: 
 
-
-
-***
 ### **İndirmeler**
 
-***
 
 İndirmeyi başlatmak için aşağıdan bir bağlantı seçin. 
 
