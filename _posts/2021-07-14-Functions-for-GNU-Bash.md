@@ -2,6 +2,7 @@
 layout: post
 title:  Programmable Functions for GNU Bash
 description: Bir Bash fonksiyonu, aslında birçok kez çağrılabilen temel komut grubudur.
+excerpt: 'GNU Bash Fonksiyonları'
 date:   2021-07-14 12:00:00
 last_updated: 2021-07-14 18:57:00
 tags:   Linux
