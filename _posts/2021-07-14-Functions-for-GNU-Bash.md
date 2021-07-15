@@ -23,7 +23,7 @@ Bu eğitim, Bash fonksiyonlarının temellerini kapsar ve onları kabuk betikler
 
 Bir bash fonksiyon ifadesi bildirmek kolaydır. Fonksiyonlar iki farklı biçimde bildirilebilir:
 
-İlk fonksiyon biçimi -function name ile- adıyla başlar, ardından parantezler gelir. Bu tercih edilen ve daha çok kullanılan formattır. 
+İlk fonksiyon biçimi -function name ile- adıyla başlar, ardından parantezler gelir. Bu biçim tercih edilen ve daha çok kullanılan formattır. 
 
 {% highlight bash %}
 function_name () {
