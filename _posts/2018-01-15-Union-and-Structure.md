@@ -16,7 +16,9 @@ redirect_from:
 
 **union ve struct arasındaki kullanım farkı**
 
-```union``` pek çok açıdan ```struct``` yapıya benzer olsa da, aralarındaki farkı anlamak çok önemlidir.
+**union** pek çok açıdan ```struct``` yapıya benzer olsa da, aralarındaki farkı anlamak çok önemlidir.
+
+![Turkish Union](/images/union/turkdevletleri.jpg "Turkish Union"){:height="57%" width="57%"}
 
 Birincil fark, bu örnekle gösterilebilir:
 
