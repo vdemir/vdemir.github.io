@@ -10,6 +10,8 @@ permalink: /:categories/:title/
 comments: false
 published: true
 lang: tr
+redirect_from:
+  - /dil/2018/08/10/Prefixes-and-Suffixes.html
 ---
 
 
