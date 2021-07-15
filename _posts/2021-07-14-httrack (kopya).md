@@ -52,32 +52,6 @@ function_name () { commands; }
 
 ***
 {% highlight bash %}
-sudo pisi it -c system.devel
-
-Aşağıdaki paket(ler) zaten kurulu ve yeniden kurulmayacak:
-binutils          g++            gcc         glibc-devel  
-linux-headers  
-nano
-openssl-11-devel  openssl-devel  zlib-devel
-
-Aşağıdaki paketler kurulacak:
-abireport                    autoconf          automake        
-bash-completion-devel        bison             catbox          
-cmake                        dbus-devel        diffstat        
-diffutils                    expat-devel       fakeroot        
-file-devel                   flex              flex-devel      
-gfortran                     glib2-devel       gmp-devel       
-gobject-introspection-devel  intltool          libarchive-bin  
-libffi-devel                 libgcrypt-devel   libgfortran     
-libgpg-error-devel           libgudev-devel    libpcre-devel   
-libtool-devel                libxml2-devel     m4              
-make                         meson             mpc-devel       
-mpfr-devel                   nasm              ncurses-devel   
-ninja                        pam-devel         patch           
-pkg-config                   polkit-devel      python-configobj
-python-devel                 pyyaml            quilt           
-readline-devel               ruamel_yaml       systemd-devel   
-texinfo                      util-linux-devel  ypkg            
 {% endhighlight %}
 
  
