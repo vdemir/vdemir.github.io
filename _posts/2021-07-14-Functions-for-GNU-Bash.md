@@ -62,6 +62,18 @@ function function_name { commands; }
 
 #### Bunu daha iyi anlamak için aşağıdaki örneğe bir göz atın: 
 
+{% highlight bash %}
+#!/bin/bash
+
+hello_world () {
+   echo 'hello, world'
+}
+{% endhighlight %}
+
+{% highlight bash %}
+hello_world
+{% endhighlight %}
+
 ### **İndirmeler**
 
 
