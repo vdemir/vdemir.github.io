@@ -19,7 +19,7 @@ Bu eğitim, Bash fonksiyonlarının temellerini kapsar ve onları kabuk betikler
 
 ![Bash Functions](/images/bash/Brain.jpg "Brain"){:height="57%" width="57%"}
 
-## Bash'i Tanımlamak 
+## Bash Fonksiyonlarını Tanımlamak 
 
 Bir bash fonksiyonu ifadesi kolaydır. Fonksiyonlar iki farklı biçimde bildirilebilir:
 
