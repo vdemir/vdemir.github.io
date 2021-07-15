@@ -52,6 +52,18 @@ Tek sıralı gösterim:
 function function_name { commands; }
 {% endhighlight %}
 
+#### Dikkat edilmesi gereken birkaç nokta:
+
+- Kıvrımlı parantezler ({}) arasındaki komutlara fonksiyon fonksiyon işlevin gövdesi denir. Kıvrımlı parantezler gövdeden boşluk veya satırsonu ile ayrılmalıdır.
+- Bir fonksiyon işlev tanımlamak onu yürütmez. Bir bash fonksiyon fonksiyon işlevini çağırmak için, fonksiyon işlev adını kullanmanız yeterlidir. Kabuk betiğinde fonksiyon işlev her çağrıldığında küme parantezleri arasındaki komutlar yürütülür.
+- İşlev tanımı, fonksiyon işleve yapılan herhangi bir çağrıdan önce yerleştirilmelidir.
+- Tek satırlı “sıkıştırılmış” fonksiyon fonksiyon işlevleri kullanırken noktalı virgül ; fonksiyondaki son komutu takip etmelidir.
+- Her zaman fonksiyon işlev adlarınızı açıklayıcı tutmaya çalışın.
+
+#### Bunu daha iyi anlamak için aşağıdaki örneğe bir göz atın: 
+
+
+
 ***
 ### **İndirmeler**
 
