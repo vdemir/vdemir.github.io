@@ -5,12 +5,13 @@ description: union pek çok açıdan struct yapıya benzer olsa da, aralarındak
 date:   2018-01-16 13:52:00
 tags:   C Programlama Linux
 categories: Programming
-permalink: /Union-and-Structure/
+permalink: /:categories/:title/
 comments: false
 published: true
 lang: tr
 redirect_from:
   - /ceviriler/ceviriler2/2018-01-15-Union-and-Structure.html
+  - /Union-and-Structure/
 ---
 
 **union ve struct arasındaki kullanım farkı**
