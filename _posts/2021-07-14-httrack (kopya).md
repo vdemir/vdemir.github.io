@@ -16,12 +16,9 @@ Bir Bash fonksiyonu, aslında birçok kez çağrılabilen temel komut grubudur. 
 
 Bu eğitim, Bash fonksiyonlarının temellerini kapsar ve onları kabuk betiklerinizde -shell scrip'te denir- nasıl kullanacağınızı gösterir.
 
-## Bash'i Tanımlamak 
-
-
 ![Bash Functions](/images/bash/Brain.jpg "Bash Functions"){:height="77%" width="77%"}
 
-
+## Bash'i Tanımlamak 
 
 {% highlight bash %}
 function_name () {
