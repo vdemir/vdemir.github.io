@@ -31,14 +31,25 @@ function_name () {
 }
 {% endhighlight %}
 
-
 Tek sıralı gösterim:
-
 
 {% highlight bash %}
 function_name () { commands; }
 {% endhighlight %}
 
+İkinci biçim, ayrılmış sözcük -function- ile başlar, ardından fonksiyon adı gelir. 
+
+{% highlight bash %}
+function function_name {
+  commands
+}
+{% endhighlight %}
+
+Tek sıralı gösterim:
+
+{% highlight bash %}
+function function_name { commands; }
+{% endhighlight %}
 
 ***
 ### **İndirmeler**
