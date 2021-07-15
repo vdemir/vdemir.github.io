@@ -72,5 +72,6 @@ make install
 Bir dizindeki pdf dosyalarının uzantıları hariç isimlerini dosya adına çeviren bash betiği aşağıdadır.
 
 {% highlight bash %}
-for i in *.pdf; do   mkdir ${i%%.*}; done
+for i in *.pdf; do
+mkdir ${i%%.*}; done
 {% endhighlight %}
