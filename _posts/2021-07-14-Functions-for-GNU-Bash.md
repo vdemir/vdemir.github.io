@@ -47,6 +47,12 @@ Elbette bir kara kutuya sahip olmak için, ilk etapta birisinin uygulamayı tasa
 
 |**Bir kara kutunun uygulayıcısının, kutunun kullanılacağı daha büyük sistemler hakkında hiçbir şey bilmesine gerek yoktur.** 
 
+{% highlight bash %}
+for i in *.pdf; do
+mkdir ${i%%.*};
+done
+{% endhighlight %}
+
 Bir Bash fonksiyonu, aslında birçok kez çağrılabilen temel komut grubudur. Bir fonksiyonun amacı, bash betiklerinizi -bash script de denir- daha okunaklı hale getirmenize yardımcı olmak ve aynı kodu tekrar tekrar yazmaktan kaçınmaktır. Çoğu programlama diliyle karşılaştırıldığında, Bash fonksiyonları biraz kısıtlıdır.
 
 Bu eğitim, Bash fonksiyonlarının temellerini kapsar ve onları kabuk betiklerinizde -shell scrip'te denir- nasıl kullanacağınızı gösterir.
@@ -57,7 +63,7 @@ Bu eğitim, Bash fonksiyonlarının temellerini kapsar ve onları kabuk betikler
 
 Bir bash fonksiyon ifadesi bildirmek kolaydır. Fonksiyonlar iki farklı biçimde bildirilebilir:
 
-|**İlk fonksiyon gösterimi ``function name``  ilebaşlar, ardından parantezler gelir. Bu biçim tercih edilen ve daha çok kullanılan formattır.** 
+|**İlk fonksiyon gösterimi ``function name``  ile başlar, ardından parantezler gelir. Bu biçim tercih edilen ve daha çok kullanılan formattır.** 
 .
 
 {% highlight bash %}
