@@ -11,7 +11,7 @@ lang: en
 encoding: UTF-8
 redirect_from:
   - /books/2019/04/14/books.html
-  - /e-books/2021/04/17/En-Tr-Books.htm
+  - /e-books/2021/04/17/En-Tr-Books.html
 ---
 
 <style type="text/css">
