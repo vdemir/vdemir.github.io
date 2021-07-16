@@ -58,7 +58,7 @@ Bu eğitim, Bash fonksiyonlarının temellerini kapsar ve onları kabuk betikler
 Bir bash fonksiyon ifadesi bildirmek kolaydır. Fonksiyonlar iki farklı biçimde bildirilebilir:
 
 |**İlk fonksiyon gösterimi ``function name``  ilebaşlar, ardından parantezler gelir. Bu biçim tercih edilen ve daha çok kullanılan formattır.** 
-
+.
 
 {% highlight bash %}
 function_name () {
@@ -73,7 +73,7 @@ function_name () { commands; }
 {% endhighlight %}
 
 |**İkinci gösterim, ayrılmış -reserved- sözcük ``function`` ile başlar, ardından fonksiyon adı gelir.** 
-
+.
 {% highlight bash %}
 function function_name {
   commands
