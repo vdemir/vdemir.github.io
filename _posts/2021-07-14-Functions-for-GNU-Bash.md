@@ -15,6 +15,8 @@ lang: tr
 
 "Gerçek" programlama dilleri gibi, Bash'in biraz sınırlı bir uygulamada olsa da fonksiyonel işlevleri vardır. Bir fonksiyonel işlev, bir alt programdır, bir dizi işlemi uygulayan bir kod bloğu -``code block``-, belirli bir görevi gerçekleştiren bir ``black box`` dur. Tekrar eden kodun olduğu her yerde, bir görev -task-, sadece küçük değişikliklerle işlemi tekrar ediyorsa, bir fonksiyon kullanmayı düşünün. 
 
+![Bash Functions](/images/bash/matrix.jpg "matrix"){:height="57%" width="57%"}
+
 {% highlight bash %}
 function function_name {
 command...
