@@ -112,7 +112,7 @@ Kodu satır satır inceleyelim:
 
 3. satırda fonksiyona isim vererek tanımlıyoruz. Kıvrımlı ayraç {, işlevin gövdesinin başlangıcını belirtir.
 4. satır, işlev gövdesidir. İşlev gövdesi birden çok komut, ifade ve değişken bildirimi içerebilir.
-5. satır, kapanış küme parantezi }, hello_world işlevinin sonunu tanımlar.
+5. satır, kapanış küme parantezi }, ``hello_world`` işlevinin sonunu tanımlar.
 7. satırda fonksiyonu çalıştırıyoruz. İşlevi istediğiniz kadar çalıştırabilirsiniz.
 
 Komut dosyasını çalıştırırsanız, merhaba, dünya yazdıracaktır. 
