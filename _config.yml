@@ -55,7 +55,36 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-redirect-from
-
+  - jekyll-assets
+  
+assets:
+  compress:
+    css: true
+    js: true
+  autowrite: true
+  cache: .asset-cache
+  cache_type: filesystem
+  cachebust: hard
+  js_compressor: uglifier
+  css_compressor: sass
+  cdn: https://cdn.example.com
+  skip_baseurl_with_cdn: false
+  skip_prefix_with_cdn: false
+  prefix: /assets
+  digest: true
+  assets:
+    - "*.png"
+    - "*.jpg"
+    - "*.js"
+    - "*.css"
+    - bundle.css
+    - "*.scss"
+  sources:
+    - css
+    - images
+    - scripts
+    - _sass
+    
 whitelist:
   - jekyll-redirect-from
   
