@@ -126,7 +126,7 @@ Predicting what our users will do next is difficult, and it certainly requires a
 
 This image explains async and defer 
 
-![async and defer](images/Pre-Browsing/pre/defer.png "async and defer"){:height="97%" width="97%"}
+![async and defer](/images/Pre-Browsing/pre/defer.png "async and defer"){:height="97%" width="97%"}
 
  
 
