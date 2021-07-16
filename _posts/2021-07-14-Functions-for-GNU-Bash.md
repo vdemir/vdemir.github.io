@@ -53,7 +53,7 @@ Bu eğitim, Bash fonksiyonlarının temellerini kapsar ve onları kabuk betikler
 
 ![Bash Functions](/images/bash/Brain.jpg "Brain"){:height="57%" width="57%"}
 
-## Bash Fonksiyonlarını Tanımlamak 
+## Bash Fonksiyonu Tanımlamak 
 
 Bir bash fonksiyon ifadesi bildirmek kolaydır. Fonksiyonlar iki farklı biçimde bildirilebilir:
 
@@ -100,13 +100,22 @@ function function_name { commands; }
 #!/bin/bash
 
 hello_world () {
-   echo 'hello, world'
+   echo 'merhaba, dünya'
 }
 {% endhighlight %}
 
 {% highlight bash %}
 hello_world
 {% endhighlight %}
+
+Kodu satır satır inceleyelim:
+
+3. satırda fonksiyona isim vererek tanımlıyoruz. Kıvrımlı ayraç {, işlevin gövdesinin başlangıcını belirtir.
+4. satır, işlev gövdesidir. İşlev gövdesi birden çok komut, ifade ve değişken bildirimi içerebilir.
+5. satır, kapanış küme parantezi }, hello_world işlevinin sonunu tanımlar.
+7. satırda fonksiyonu çalıştırıyoruz. İşlevi istediğiniz kadar çalıştırabilirsiniz.
+
+Komut dosyasını çalıştırırsanız, merhaba, dünya yazdıracaktır. 
 
 ### **İndirmeler**
 
