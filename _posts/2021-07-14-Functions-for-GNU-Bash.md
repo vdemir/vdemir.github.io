@@ -66,7 +66,7 @@ function_name () {
 }
 {% endhighlight %}
 
-Tek sıralı gösterim:
+Tek sıralı gösterimde ise:
 
 {% highlight bash %}
 function_name () { commands; }
@@ -80,7 +80,7 @@ function function_name {
 }
 {% endhighlight %}
 
-Tek sıralı gösterim:
+Tek sıralı gösterimde ise:
 
 {% highlight bash %}
 function function_name { commands; }
