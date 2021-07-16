@@ -116,10 +116,17 @@ OK, so with those design considerations out of the way, we can talk about future
 
 A new spec called [preload](https://w3c.github.io/preload/) suggests that sometimes it’s best to **always** download an asset, regardless of whether the browser thinks that’s a good idea or not. Unlike prefetching assets, which can be ignored, preloading assets **must** be requested by the browser.
 
-    <linkrel="preload"href="image.png">
+    <link rel="preload "href="image.png">
 
 So, although _preloading is not currently supported by any browser at the moment_, the idea behind it is certainly interesting.
 
 ### Wrapping up
 
 Predicting what our users will do next is difficult, and it certainly requires a lot of planning and testing. But, the performance benefits are definitely worth chasing. If we’re willing to experiment with these prefetching techniques, then we’re sure to improve the user experience in a noticeable way.
+
+This image explains async and defer 
+
+![The pre* &bull; browsing.](images/pre/defer.png "The pre* &bull; browsing."){:height="97%" width="97%"}
+
+ 
+
