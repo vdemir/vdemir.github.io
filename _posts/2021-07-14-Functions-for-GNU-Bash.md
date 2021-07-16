@@ -157,3 +157,5 @@ Bir dizindeki pdf dosyalarının uzantıları hariç isimlerini dosya adına çe
 for i in *.pdf; do
 mkdir ${i%%.*}; done
 {% endhighlight %}
+
+source:https://math.hws.edu/javanotes/c4/s1.html
