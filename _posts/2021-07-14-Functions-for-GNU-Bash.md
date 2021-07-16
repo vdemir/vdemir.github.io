@@ -121,7 +121,7 @@ Kodu satır satır inceleyelim:
 5. satır, kapanış küme parantezi }, ``hello_world`` işlevinin sonunu tanımlar.
 7. satırda fonksiyonu çalıştırıyoruz. İşlevi istediğiniz kadar çalıştırabilirsiniz.
 
-Komut dosyasını çalıştırırsanız, merhaba, dünya yazdıracaktır. 
+Komut dosyasını çalıştırırsanız, ``merhaba, dünya`` yazdıracaktır. 
 
 ### **İndirmeler**
 
