@@ -15,6 +15,20 @@ lang: tr
 
 "Gerçek" programlama dilleri gibi, Bash'in biraz sınırlı bir uygulamada olsa da fonksiyonel işlevleri vardır. Bir fonksiyonel işlev, bir alt programdır, bir dizi işlemi uygulayan bir kod bloğu, belirli bir görevi gerçekleştiren bir ''black box''' dur. Tekrar eden kodun olduğu her yerde, bir görev -task-, sadece küçük değişikliklerle işlemi tekrar ediyorsa, bir fonksiyon kullanmayı düşünün. 
 
+{% highlight bash %}
+function function_name {
+command...
+}
+{% endhighlight %}
+
+veya
+
+{% highlight bash %}
+function_name () {
+command...
+} 
+{% endhighlight %}
+
 Bir Bash fonksiyonu, aslında birçok kez çağrılabilen temel komut grubudur. Bir fonksiyonun amacı, bash betiklerinizi -bash script de denir- daha okunaklı hale getirmenize yardımcı olmak ve aynı kodu tekrar tekrar yazmaktan kaçınmaktır. Çoğu programlama diliyle karşılaştırıldığında, Bash fonksiyonları biraz kısıtlıdır.
 
 Bu eğitim, Bash fonksiyonlarının temellerini kapsar ve onları kabuk betiklerinizde -shell scrip'te denir- nasıl kullanacağınızı gösterir.
