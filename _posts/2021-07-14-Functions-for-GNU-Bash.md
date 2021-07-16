@@ -158,4 +158,7 @@ for i in *.pdf; do
 mkdir ${i%%.*}; done
 {% endhighlight %}
 
-source:https://math.hws.edu/javanotes/c4/s1.html
+source:
+- https://math.hws.edu/javanotes/c4/s1.html
+- https://linuxize.com/post/bash-functions/
+- https://tldp.org/LDP/abs/html/functions.html
