@@ -68,6 +68,8 @@
 /*                                   Body                                     */
 /******************************************************************************/
 
+@import url(https://use.typekit.net/enh8ddt.css);
+@import url(https://vdemir.github.io/css/all.css);
 	body {
 		counter-reset: example figure issue;
 
