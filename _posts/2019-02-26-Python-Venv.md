@@ -90,10 +90,10 @@ function myFunction() {
 </script>
 
 <button  onclick="myFunction()">pyvenvex.py - [Show]/[Hide]</button> 
+ {% highlight python  linenos=table %}
 
 <div id="id01" style="display:none">
 
- {% highlight python  linenos=table %}
 
 #
 # Copyright (C) 2013 Vinay Sajip. New BSD License.
@@ -308,8 +308,8 @@ if __name__ == '__main__':
     except Exception as e:
         print('Error: %s' % e, file=sys.stderr)
     sys.exit(rc)
-{% endhighlight %}
 </div>
+{% endhighlight %}
 
 - A script which below demonstrates how to extend Python 3.3's EnvBuilder, by installing setuptools and pip in created venvs. This functionality is not provided as an integral part of Python 3.3 because, while setuptools and pip are very popular, they are third-party packages. The script needs Python 3.3 or later; invoke it using "python pyvenvex.py -h"…
 
@@ -331,9 +331,9 @@ function myFunction2() {
 
 <button  onclick="myFunction2()">Instadroid.py - [Show]/[Hide]</button> 
 
+ {% highlight python  linenos=table %}
 <div id="id02" style="display:none">
 
- {% highlight python  linenos=table %}
 #Instadroid.py for testing auto-post and scheduling post via python
 
 #import
@@ -369,9 +369,9 @@ schedule.every(59).minutes.do(random_picture) # every ? minutes
 while True:
     schedule.run_pending() # waiting for schedule
     time.sleep(9) # countdown 1 second
-{% endhighlight %}
 </div>
 
+{% endhighlight %}
 {% highlight bash %}
 a=3687
 for i in *.jpg; do
