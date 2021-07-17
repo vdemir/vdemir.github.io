@@ -156,8 +156,18 @@ make install
 Bir dizindeki pdf dosyalarının uzantıları hariç isimlerini dosya adına çeviren bash betiği aşağıdadır.
 
 {% highlight bash %}
-for i in *.pdf; do
-mkdir ${i%%.*}; done
+for i in *.pdf; 
+do mkdir ${i%%.*}; 
+done
+{% endhighlight %}
+
+Bir dizin yolundaki dosya adlarındaki alt çizgileri düz çizgi ile değiştiren betik:
+
+{% highlight bash %}
+for f in *; 
+do mv -v "$f" $(echo "$f" | tr '_' '-'); 
+done
+
 {% endhighlight %}
 
 source:
