@@ -97,11 +97,4 @@ instagram_url:
 reddit_url: https://www.reddit.com/user/Jeruselam
 
 compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  ignore:
-    envs: [local]
   blanklines: true
-  profile: false
-  startings: [html, head, body]

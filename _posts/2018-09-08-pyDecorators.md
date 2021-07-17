@@ -96,7 +96,7 @@ Bu kafa karıştırıcı gibi geliyor, ancak özellikle de süslü fonksiyonlar�
 
 Süslü fonksiyonları anlayabilmeniz için öncelikle fonksiyonların nasıl çalıştığını anlamanız gerekir. Bizim amacımız için, bir fonksiyon verilen ifadelere dayalı bir değer döndürür. İşte çok basit bir örnek:
 
-{% highlight python linenos=table %}
+{% highlight python %}
 
 def ekle_bir(numara):
      return numara + 1
@@ -131,7 +131,7 @@ Fonksiyonel programlamada beyanlar-```statements```- yerine ifadeler-```expressi
 
 Python'da fonksiyonlar birinci sınıf öbeklerdir. Bu fonksiyonlar diğer öbekler (string, int, float, list, vb.) gibi, fonksiyonların içinden geçirilip bir ifade olarak kullanılabileceği anlamına gelir. Aşağıdaki üç fonksiyonu göz önünde bulundurun:
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 def merhaba_de(ad):
     return "Merhaba " + ad
@@ -167,7 +167,7 @@ _merhaba_kedi(merhaba_de)_'nin iki fonksiyona, ancak farklı yollara başvurduğ
 
 **Diğer fonksiyonların içinde fonksiyonlar tanımlamak** mümkündür. Bu gibi fonksiyonlar iç fonksiyonlar içinde çağrılır. İki iç fonksiyonlu bir fonksiyon örneği buradadır:
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 def ebeveyn():
     print("ebeveyn() fonksiyonundan okunuyor ...")
@@ -213,7 +213,7 @@ ebeveyn() çağırdığınızda, ```ilk_veled()``` ve ```ikinci_veled()``` iç f
 
 Python, fonksiyonları dönüş değeri olarak kullanmanıza da izin verir. Aşağıdaki örnek, dış ebeveyn() fonksiyonundan iç fonksiyonların birini döndürür. 
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 def ebeveyn(num):
     def ilk_veled():
@@ -420,7 +420,7 @@ Kısmi fonksiyonlar, daha az parametre ve daha sınırlı fonksiyon için ayarla
 
 İçe aktarma gerekli:
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 from functools import partial
 
@@ -494,7 +494,7 @@ print f.__name__
 
 Bir süslü fonksiyon kullanmak her zaman bir fonksiyon hakkında bu bilgiyi kaybetmek anlamına gelirse, ciddi bir sorun olur. Bu yüzden functools.wraps var. Bu, bir süslü fonksiyonda kullanılan bir fonksiyonu alır ve fonksiyon adı, docstring belgesi, ifade listesi vb. üzerine kopyalama fonksiyonelliğini ekler. Ve wraps kendisi bir süslü fonksiyon olduğundan, aşağıdaki kod doğru şeyi yapar:
 
-{% highlight python linenos=table %}
+{% highlight python %}
 
 from functools import wraps
 def logged(func):
@@ -533,7 +533,7 @@ f was called
 
 Bugün hakkında konuşmak istediğim az bilinen bir araç var. Buna wraps denir ve functools modülünün bir parçasıdır. Doküman dizelerini ve süslü işlevlerin adlarını docstring belgelerini düzeltmek için bir @süslü fonksiyon olarak wraps kullanabilirsiniz. Bu neden önemli? Bu ilk başta garip bir durum gibi görünüyor, ancak bir API veya kendinizden başka birisinin kullanacağı herhangi bir kod yazıyorsanız, bu önemli olabilir. Nedeni, Python’un bir başkasının kodunu bulmak için içbakış kullandığınızda, süslü bir fonksiyon yanlış bilgileri döndürecektir. example.py olarak adlandırdığım basit bir örneğe bakalım:
 
-{% highlight python linenos=table %}
+{% highlight python %}
 
 # example.py
  
@@ -610,7 +610,7 @@ Temel olarak burada olan şey, süslü fonksiyonun adını ve '''docstring''' be
 Bu küçük karışıklığı nasıl düzeltiriz? Python geliştiricileri bize '''functools.wraps''' çözümü verdi! Hadi kontrol edelim:
 
 
-{% highlight python linenos=table %}
+{% highlight python %}
 
 from functools import wraps
  
@@ -691,7 +691,7 @@ wraps süslü fonksiyonu hemen hemen bir numaradır, ama ihtiyaç duyduğunuzda 
 
 Artık, bu fonksiyonların Python'daki diğer herhangi bir öbek gibi olduğunu gördüğünüze göre, Python süslü fonksiyonu olan büyülü yaratığa geçmeye ve görmeye hazırsınız. Bir örnekle başlayalım:
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 def my_decorator(func):
     def wrapper():
@@ -748,7 +748,7 @@ Basitçe söylemek gerekirse: **süslü fonksiyonlar, onların davranışların�
 
 Devam etmeden önce, ikinci bir örneğe bakalım. ```wrapper()``` normal bir Python fonksiyonu olduğu için bir süslü fonksiyonun bir fonksiyonu değiştirdiği yöntem dinamik olarak değişebilir. Komşularınızı rahatsız etmeyecek şekilde, aşağıdaki örnek yalnızca gün boyunca süslü kodu çalıştıracaktır:
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 from datetime import datetime
 
@@ -789,7 +789,7 @@ Yukarıda ```say_whee()``` ile fonksiyonu süslediğiniz yol biraz biçimsiz ve 
 
 Bunun yerine, Python, bazen ```'pie'``` sözdizimi olarak da adlandırılan ```@``` sembolüyle daha basit bir şekilde süslü fonksiyonlar kullanmanıza izin verir. Aşağıdaki örnek, ilk Süslü fonksiyon örneğiyle tamamen aynı şeyi yapar:
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 def my_decorator(func):
     def wrapper():
@@ -814,7 +814,7 @@ Bir süslü fonksiyonun sadece normal bir Python fonksiyonu olduğunu hatırlay�
 
 Aşağıdaki içerikle ```decorators.py``` adlı bir dosya oluşturun:
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 def do_twice(func):
     def wrapper_do_twice():
@@ -831,7 +831,7 @@ def do_twice(func):
 
 Bu yeni süslü fonksiyonu, normal bir içe aktarma yaparak diğer dosyalarda kullanabilirsiniz:
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 from decorators import do_twice
 
@@ -844,7 +844,7 @@ def say_whee():
 
 yada doğruda çalıştırabilirsiniz:
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 def do_twice(func):
     def wrapper_do_twice():
@@ -878,7 +878,7 @@ Whee!
 
 Şimdi, ilk örneğe dönelim ve uygulayalım. Burada, daha tipik olanı yapacağız ve aslında kodu süslü fonksiyonlarda kullanacağız:
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 class entryExit(object):
 
@@ -968,7 +968,7 @@ _stringfilter_ ile süslenmiş tüm yöntemlerin ayrı bir listesi.
 <br>
 
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 class StringFilter(object):
 
@@ -1014,7 +1014,7 @@ Bazı ifadeleri kabul eden bir fonksiyonunuz olduğunu varsayalım. Hala donatab
 <br>
 
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 def do_twice(func):
     def wrapper_do_twice():
@@ -1062,7 +1062,7 @@ def do_twice(func):
 
 _wrapper_do_twice_ iç fonksiyonu artık herhangi bir sayıdaki ifadeyi kabul eder ve bunları süslü fonksiyona iletir. Şimdi hem ```say_whee()``` ve ```greet()``` öbekleri çalışır:
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 def do_twice(func):
     def wrapper_do_twice(*args, **kwargs):
@@ -1102,7 +1102,7 @@ Whee!
 
 Süslü fonksiyonların dönüş değeri ne olur? Eh, karar vermek süslü fonksiyona kalmış. Basit bir fonksiyonu aşağıdaki gibi donattığınızı varsayalım:
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 def do_twice(func):
     def wrapper_do_twice(*args, **kwargs):
@@ -1143,7 +1143,7 @@ Maalesef, süslü fonksiyonunuz fonksiyondan dönüş değerini yedi.
 
 Bunu düzeltmek için, **çevrelenen fonksiyonunun süslü fonksiyonun dönüş değerini döndürdüğünden emin olmanız** gerekir. ```decorators.py``` dosyanızı 4. satırını ekleyerek değiştirin:
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 def do_twice(func):
     def wrapper_do_twice(*args, **kwargs):
         func(*args, **kwargs)
@@ -1158,7 +1158,7 @@ fonksiyonun son yürütülmesinden döndürülen değer döndürülür:
 <br>
 
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 def do_twice(func):
     def wrapper_do_twice(*args, **kwargs):
@@ -1333,7 +1333,7 @@ Bir ```timer``` süslü fonksiyon oluşturarak başlayalım. Bir fonksiyonu yür
 <br>
 
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 import functools
 import time
 
@@ -1401,7 +1401,7 @@ Aşağıdaki ```@debug``` süslü fonksiyon argümanları yazdıracaktır, fonks
 
 <br>
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 import functools
 
 def debug(func):
@@ -1471,7 +1471,7 @@ Aşağıdaki örnek, matematik sabiti e'ye bir yaklaşım hesaplar:
 
 <br>
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 import math
 import functools
 
@@ -1541,7 +1541,7 @@ Varsayılan 'dizgi' dönüştürme davranışı temeldir ve ayrıntılardan yoks
 
 <br>
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 class Car:
     def __init__(self, color, mileage):
         self.color = color
@@ -1576,7 +1576,7 @@ Sınıfın özniteliklerini doğrudan yazdırarak veya sınıflarınıza özel b
 <br>
 
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 class Car(object):
     def __init__(self, color, mileage):
         self.color = color
@@ -1613,7 +1613,7 @@ Bu sonraki örnek çok kullanışlı görünmeyebilir. Neden Python kodunuzu yav
 
 <br>
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 import functools
 import time
 
@@ -1666,7 +1666,7 @@ Süslü fonksiyonların, süsledikleri fonksiyonu çevrelemesi gerekmez. Ayrıca
 
 <br>
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 import random
 PLUGINS = dict()
 
@@ -1810,7 +1810,7 @@ Bir Circle sınıfının aşağıdaki tanımı ```@classmethod```, ```@staticmet
 
 <br>
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 class Circle:
     def __init__(self, radius):
         self._radius = radius
@@ -1901,7 +1901,7 @@ Out[11]: 3.1415926535
 
 <br>
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 from decorators import debug, timer
 
@@ -1921,7 +1921,7 @@ Bu sınıfı kullanarak, süslü fonksiyonların etkisini görebilirsiniz:
 
 <br>
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 import functools
 import time
@@ -2019,7 +2019,7 @@ Burada, ```@timer``` sadece sınıfı eşleneği için gereken süreyi ölçer:
 
 <br>
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 import functools
 import time
@@ -2084,7 +2084,7 @@ Dekoratörlerin listelendikleri sırayla yürütüldüklerini düşünün. Başk
 
 <br>
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 import functools
 
@@ -2133,7 +2133,7 @@ Hello Eva
 
 <br>
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 import functools
 
@@ -2201,7 +2201,7 @@ def greet(name):
 
 <br>
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 import functools
 
@@ -2428,7 +2428,7 @@ def greet(name):
 
 <br>
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 import functools
 
@@ -2513,7 +2513,7 @@ Durum - fonksiyona yapılan çağrı sayısı - çevreleyici fonksiyondaki ```.n
 
 <br>
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 import functools
 
@@ -2579,7 +2579,7 @@ Bir sınıf özdeşini çağırmaya çalıştığınızda, ```__call__()``` yord
 
 <br>
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 class Counter:
     def __init__(self, start=0):
@@ -2612,7 +2612,7 @@ Bu nedenle, bir süslü fonksiyon sınıfının tipik bir uygulaması, ```.__ini
 
 <br>
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 import functools
 
@@ -2672,7 +2672,7 @@ Daha önce belirtildiği gibi, daha önce de belirtildiği gibi, Önceki ```@slo
 
 <br>
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 import functools
 import time
@@ -2743,7 +2743,7 @@ Daha sonra saklanan özdeşi basitçe döndüren bir özdeş oluşturmaya çalı
 
 <br>
 
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 import functools
 
@@ -2804,7 +2804,7 @@ first_one'un gerçekten de bir another_one ile aynı özdeş olduğu açıkça g
 Süslü fonksiyonlar, önbelleğe alma ve hafızalama için güzel bir mekanizma sağlayabilir. Örnek olarak, ```Fibonacci``` dizisinin yinelemeli bir tanımına bakalım:
 
 <br>
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 import functools
 
@@ -2848,7 +2848,7 @@ Genel çözüm, bir for döngü ve bir arama tablosu kullanarak Fibonacci sayıl
 
 
 <br>
-{% highlight python  linenos=table %}
+{% highlight python  %}
 
 import functools
 
@@ -2922,7 +2922,7 @@ Standart kitaplıkta, en az kullanılan (LRU) cache, ```@functools.lru_cache``` 
 Bu süslü fonksiyon, yukarıda gördüğünüzden daha fazla özelliğe sahiptir. Kendi önbellek süslü fonksiyonunuzu yazmak yerine ```@functools.lru_cache``` kullanmalısınız:
 
 <br>
-{% highlight python linenos=table %}
+{% highlight python %}
 
 import functools
 
@@ -3029,7 +3029,7 @@ def volume(radius, height):
 
 Bu ```.unit``` fonksiyon özniteliğine daha sonra gerektiğinde erişilebilir:
 <br>
-{% highlight python linenos=table %}
+{% highlight python %}
 
 import math
 
@@ -3201,7 +3201,7 @@ function myFunction() {
 <button  onclick="myFunction()">decorators.py - [Göster]/[Gizle]</button> 
 <div id="id01" style="display:none">
 
- {% highlight python  linenos=table %}
+ {% highlight python  %}
 
 import functools
 import time
